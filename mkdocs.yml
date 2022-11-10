@@ -1,4 +1,4 @@
-site_name: Userguide
+site_name: UPPMAX Documentation
 
 nav:
   - Intro: 
@@ -9,6 +9,10 @@ nav:
 theme:
   name: material
   greetings: Welcome to UPPMAX userguide
+  font:
+    text: Lato
+
+  #logo: assets/logo.png
 
   features:
     - navigation.tabs
@@ -17,7 +21,7 @@ theme:
     - content.code.annotate
 
     #custom_dir: mkdocs_uppmax/
-    #
+    
 extra_css:
   - stylesheets/extra.css
 
@@ -27,6 +31,7 @@ markdown_extensions:
       permalink: true
       permalink_title: Anchor link to this section for reference
   - admonition
+  - tables
   - attr_list
   - footnotes
   - pymdownx.details
@@ -36,4 +41,5 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.keys
