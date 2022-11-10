@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Then serve the website and software table by running
 
 ``` bash
-python sw_tabele.py
+python sw_table.py
 ```
 and 
 
