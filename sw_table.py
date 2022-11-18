@@ -7,8 +7,42 @@ from dash.dependencies import Input, Output
 # Read sqlite query results into a pandas DataFrame
 con = sqlite3.connect("sw.db")
 df = pd.read_sql_query("SELECT * from webpage", con)
-df = df[["module", "name", "category", "cluster", "version", "license"]]
+keywords = pd.read_sql_query("SELECT * from keywords", con)
+
+keywords = (
+    keywords.groupby("key")["keyword"].apply(lambda x: " ".join(x)).reset_index()
+)
+keywords = (
+    keywords.merge(df, on="key")
+    .drop_duplicates(subset=["name"])[["name", "keyword"]]
+    .rename(columns={"keyword": "keywords"})
+)
+df = df.merge(keywords).drop(columns=["key"])
+
+
+keep_cols = ["module", "name", "category", "cluster", "license", "keywords"]
+
+df = df[keep_cols + ["version"]]
 df = df.loc[df["module"] != ""]
+
+df = (
+    df.groupby(keep_cols)["version"]
+    .apply(", ".join)
+    .reset_index()
+    .drop_duplicates()
+    .rename(columns={"version": "versions"})
+    .merge(keywords)
+)
+
+
+def get_unique_keywords(kws):
+    tmp = []
+    for k in kws.split():
+        if k not in tmp:
+            tmp.append(k)
+    return ", ".join(tmp)
+
+df["keywords"] = df["keywords"].apply(get_unique_keywords)
 
 df["id"] = df["module"]
 df.set_index("id", inplace=True, drop=False)
@@ -59,15 +93,6 @@ app.layout = html.Div(
     Input("datatable-row-ids", "active_cell"),
 )
 def update_graphs(row_ids, selected_row_ids, active_cell):
-    # When the table is first rendered, `derived_virtual_data` and
-    # `derived_virtual_selected_rows` will be `None`. This is due to an
-    # idiosyncrasy in Dash (unsupplied properties are always None and Dash
-    # calls the dependent callbacks when the component is first rendered).
-    # So, if `rows` is `None`, then the component was just rendered
-    # and its value will be the same as the component's dataframe.
-    # Instead of setting `None` in here, you could also set
-    # `derived_virtual_data=df.to_rows('dict')` when you initialize
-    # the component.
     selected_id_set = set(selected_row_ids or [])
 
     if row_ids is None:
