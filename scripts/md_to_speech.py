@@ -24,14 +24,10 @@ def markdown_to_text(md):
 
     html = markdown(md)
 
-    # remove code trash
+    # remove html trash
     html = re.sub(r"<pre>(.*?)</pre>", " ", html)
     html = re.sub(r"<code>(.*?)</code >", " ", html)
     html = re.sub(r"<p>\?\?\? (.*?)", " ", html)
-    html = re.sub(r"\|-(.*)", " ", html)
-    html = re.sub(r"```(.*)", " ", html)
-    html = re.sub(r"t2s(.*)", " ", html)
-    html = re.sub(r"-([a-zA-Z])", r"dash-\1", html)
 
     # extract text
     soup = BeautifulSoup(html, "html.parser")
@@ -39,17 +35,21 @@ def markdown_to_text(md):
 
     # Substitutes
     subs = [
+        (r"\|-(.*)", " "),  # tables
+        (r"```(.*)", " "),  # code snippet
+        (r"t2s(.*)", " "),  # Admotions
+        (r"-([a-zA-Z])", r"dash-\1"),  # slurm dashes
         ("UPPMAX", "uppmax"),
-        ("et.c.", "etcetera"),
-        ("e.g.", "for example"),
+        (r"e\.g\.", "for example"),
+        (r"et\.c\.", "etcetera"),
         ("SBATCH", "s-batch"),
         ("srun", "s-run"),
         ("srun", "s-run"),
-        ("scancel", "s-cancel")
+        ("scancel", "s-cancel"),
     ]
 
     for m, s in subs:
-        plain_txt = plain_txt.replace(m, s)
+        plain_txt = re.sub(m, s, plain_txt)
 
     return plain_txt
 
