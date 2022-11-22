@@ -20,18 +20,38 @@ def parse_args():
 
 def markdown_to_text(md):
     """Converts a markdown string to plaintext
-       and remove elements that should not be read"""
+    and remove elements that should not be read"""
 
     html = markdown(md)
 
-    # remove code snippets
+    # remove code trash
     html = re.sub(r"<pre>(.*?)</pre>", " ", html)
     html = re.sub(r"<code>(.*?)</code >", " ", html)
     html = re.sub(r"<p>\?\?\? (.*?)", " ", html)
+    html = re.sub(r"\|-(.*)", " ", html)
+    html = re.sub(r"```(.*)", " ", html)
+    html = re.sub(r"t2s(.*)", " ", html)
+    html = re.sub(r"-([a-zA-Z])", r"dash-\1", html)
 
     # extract text
     soup = BeautifulSoup(html, "html.parser")
-    return "".join(soup.findAll(text=True))
+    plain_txt = "".join(soup.findAll(text=True))
+
+    # Substitutes
+    subs = [
+        ("UPPMAX", "uppmax"),
+        ("et.c.", "etcetera"),
+        ("e.g.", "for example"),
+        ("SBATCH", "s-batch"),
+        ("srun", "s-run"),
+        ("srun", "s-run"),
+        ("scancel", "s-cancel")
+    ]
+
+    for m, s in subs:
+        plain_txt = plain_txt.replace(m, s)
+
+    return plain_txt
 
 
 if __name__ == "__main__":
