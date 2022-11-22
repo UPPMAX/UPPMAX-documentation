@@ -3,3 +3,6 @@ mkdocs-material>=8.5.9
 pymdown-extensions>=9.8
 dash>=2.7.0
 pandas>=1.5.1
+gTTS>=2.2.4
+Markdown>=3.3.7
+beautifulsoup4>=4.11.1
