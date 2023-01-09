@@ -1,9 +1,7 @@
 site_name: UPPMAX Documentation
 
 nav:
-  - Intro: 
-    - Landing : index.md
-    - Demo : index.md
+  - Start: landing.md
   - Getting Started:
     - Applying for a Project: getting_started/project_apply.md
     - Logging into Rackham: getting_started/login_rackham.md
@@ -18,6 +16,7 @@ nav:
     - Slurm: running_jobs/slurm.md
   - Software:
     - Overview: software/index.md
+  - Support: support.md
 
 theme:
   name: material
@@ -25,7 +24,7 @@ theme:
   font:
     text: Lato
 
-  #logo: assets/logo.png
+  logo: assets/logo.svg
 
   features:
     - navigation.tabs
