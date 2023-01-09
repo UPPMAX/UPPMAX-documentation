@@ -2,7 +2,20 @@ site_name: UPPMAX Documentation
 
 nav:
   - Intro: 
-    - Welcome: index.md
+    - Landing : index.md
+    - Demo : index.md
+  - Getting Started:
+    - Applying for a Project: getting_started/project_apply.md
+    - Logging into Rackham: getting_started/login_rackham.md
+    - Logging into Snowy: getting_started/login_snowy.md
+    - Logging into Bianca: getting_started/login_bianca.md
+    - Running your first job: getting_started/first_job.md
+  - Hardware:
+    - Rackham: hardware/system_rackham.md
+    - Snowy: hardware/system_snowy.md
+    - Bianca: hardware/system_bianca.md
+  - Running Jobs:
+    - Slurm: running_jobs/slurm.md
   - Software:
     - Overview: software/index.md
 
@@ -20,7 +33,7 @@ theme:
     - search.suggest
     - content.code.annotate
 
-    #custom_dir: mkdocs_uppmax/
+  custom_dir: mkdocs_uppmax/
     
 extra_css:
   - stylesheets/extra.css
