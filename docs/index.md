@@ -6,7 +6,7 @@ template: home.html
 
 <br/><br/>
 
-<img src="../assets/UU_logo_color.svg" alt="drawing" width="200"/>
+<img src="assets/UU_logo_color.svg" alt="drawing" width="200"/>
 
 <br/><br/>
 
@@ -16,7 +16,7 @@ template: home.html
 
 <br/><br/>
 
-[Get started using UPPMAX](../getting_started/project_apply/){ .md-button .md-button--primary }
+[Get started using UPPMAX](getting_started/project_apply/){ .md-button .md-button--primary }
 
 <br/><br/>
 
