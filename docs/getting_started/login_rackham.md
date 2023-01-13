@@ -76,48 +76,43 @@
    ```
 ## Terminals 
 
-`````{tabs} 
-````{tab} Mac
+=== "Mac"
 
-- Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
-```bash=
-$ ssh <username>@rackham.uppmax.uu.se
-```
-- "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
-
-![Terminal](./img/Mac_terminal.png)
-- iTerm2 goodies:
-  - You can save hosts for later.
-  - Drag and drop scp
-```
-````
-
-````{tab} Windows
-
-- the ssh (secure shell) client [**putty**](https://www.putty.org/) is sufficient first days of the course!
-
-    - You can save hosts for later.
-    - No graphics.
-    - 
+    - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
     
-- Windows Powershell terminal can also work
-
-    - Cannot save hosts
-    - no graphics
-    - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+    ``` bash 
+    $ ssh <username>@rackham.uppmax.uu.se
+    ```
     
-- Windows command prompt can also work
+    - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
-    - Cannot save hosts
-    - no graphics
+    ![Terminal](./img/Mac_terminal.png)
+    - iTerm2 goodies:
+       - You can save hosts for later.
+       - Drag and drop scp
+       
+=== Windows
+
+    - the ssh (secure shell) client [**putty**](https://www.putty.org/)
+
+        - You can save hosts for later.
+        - No graphics.
+    
+    - Windows Powershell terminal can also work
+
+        - Cannot save hosts
+        - no graphics
+        - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+    
+    - Windows command prompt can also work
+
+        - Cannot save hosts
+        - no graphics
     - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/))
 
-- [Git bash](https://gitforwindows.org/)
+    - [Git bash](https://gitforwindows.org/)
 
-}
-```
-````
-`````
+
 
 ## Terminal with X11 server and light graphics
 
@@ -129,7 +124,7 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
 
-```bash=
+``` bash
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 -    -X      Enables X11 forwarding. 
@@ -156,7 +151,7 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 
 - Start local terminal and a SSH session by:
 
-```bash=
+``` bash
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 
