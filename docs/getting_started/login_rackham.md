@@ -86,7 +86,7 @@
     
     - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
-    [//]: #   ![Terminal](./img/Mac_terminal.png)
+    <!-- ![Terminal](./img/Mac_terminal.png) -->
 
     - iTerm2 goodies:
        - You can save hosts for later.
@@ -145,7 +145,7 @@
       - ... though downloading from remote host to local is usually easier.
       - tabs for several sessions
 
-    [//]: # ![Caption](./img/mobax.jpg )
+    <!-- ![Caption](./img/mobax.jpg ) -->
 
     - Start local terminal and a SSH session by:
 
@@ -153,13 +153,13 @@
     $ ssh -Y <username>@rackham.uppmax.uu.se
     ```
 
-    [//]: # ![Caption](./img/mobax_start1.jpg)
+    <!-- ![Caption](./img/mobax_start1.jpg) -->
 
     - Or even better, create and save a SSH session, as shown in image below.
       - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
       - You can rename the session in the Bookmark settings tab.
 
-    [//]: # ![Caption](./img/mobax_start.jpg)
+    <!-- ![Caption](./img/mobax_start.jpg) -->
 
 
 
@@ -172,7 +172,7 @@
       - When starting a graphical program, a new window will open, but your terminal will be “locked”.
       - Run using "`&`" at the end to run it as a background process e.g. "`xeyes &`" or “`gedit &`”
 
-    [//]: # ![Caption](./img/xeyes.png)
+    <!-- ![Caption](./img/xeyes.png) -->
 
     - Alternatively, use `<ctrl>-z` to put e.g. gedit to sleep and type "`bg`" to make last process in background.
 
