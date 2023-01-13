@@ -1,22 +1,66 @@
 # Login
 
-!!! note "Questions"
+!!! question "Questions"
     - How to reach UPPMAX clusters?
-    - Can one use graphics?
-    - Where do I arrive when I log in?
+    - Where do I arrive when I log in? Login or calculation node?
+    - What clients should/could I use for nmy work at UPPMAX?
+    - How can I enable graphics?
 
+!!! info "Objectives"
+    - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
+    - See different clients
+    - Enable graphics
 
-!!! note "Objectives"
-    - We'll relate our login session to the specific "area" in the cluster.
-    - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
-    - Try yourself!
-
-
-!!! note
-    If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
-
+!!! warning
+    - If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
 
 ## The login
+
+!!! info "Login procedure"
+   **Which login procedure is best for You, depends on:**
+   - Your background
+   - Your OS environment,
+   - Your planned interaction with your local computer
+   - Your planned use of graphics on the cluster
+
+!!! info "Login procedure"
+   If you plan to:
+   - do **day-to-day** work where *terminal shell is sufficient*
+     - Mac: Terminal, iTerm2
+     - Linux: Terminal
+     - Windows: Putty or Windows Powershell or even command prompt (CMD)
+     
+     
+   - **interact with you local computer**
+     - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
+        - *(S)FTP browser*: Filezilla
+     - Windows
+        - (S)FTP browser: WinSCP
+        - MobaXterm has built-in SFTP browser
+        - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
+        
+        
+   - **do day-to-day work** with *some graphical applications (X forwarding)*
+     - Mac: *Terminal, iTerm2 + XQuartz*
+     - Linux: *Terminal*
+     - Windows: *MobaXterm*
+     
+     
+   - intergrate you cluster work with *code development*
+     - All OS: Example Visual Studio Code
+     
+     
+   - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
+     - *ThinLinc application*
+     
+     
+   - use **Bianca**
+     - *ThinLinc from web*
+   
+
+
+## General understanding
+
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
@@ -30,77 +74,83 @@
    ``` bash
       [<user>@r484 linux_tutorial]
    ```
+## Terminals 
 
+`````{tabs} 
+````{tab} Mac
 
-## MAC and LINUX users
-
-### Terminal
-
-- Download XQuartz or other X11 server for Mac OS
-  - [https://www.xquartz.org/](https://www.xquartz.org/)
-  - This is to enable graphics.
-
-- Start built-in Terminal.
-
-``` bash
-$ ssh -Y <username>@rackham.uppmax.uu.se
+- Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+```bash=
+$ ssh <username>@rackham.uppmax.uu.se
 ```
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
 ![Terminal](./img/Mac_terminal.png)
-
-### Graphical file manager
-
-- For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
-- [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
- 
-
-![Caption](./img/fz3_osx_main.png )
-
-```{callout} Problems with installations?
-The built-in terminal without X11 is sufficient first days of the course!
+- iTerm2 goodies:
+  - You can save hosts for later.
+  - Drag and drop scp
 ```
+````
 
-## Windows users
+````{tab} Windows
 
-### Most straight-forward
-- Install a ssh (secure shell) program with built-in X11 and sftp file manager
-  - [MobaXterm](https://mobaxterm.mobatek.net/)
-    - sftp frame makes it easy to move, upload and download files.
-  - See section below.
+- the ssh (secure shell) client [**putty**](https://www.putty.org/) is sufficient first days of the course!
 
-- If problem with the above installation, the putty.exe terminal is sufficient first days of the course!
-
+    - You can save hosts for later.
     - No graphics.
+    - 
+    
+- Windows Powershell terminal can also work
 
-    - [https://www.putty.org/](https://www.putty.org/)
+    - Cannot save hosts
+    - no graphics
+    - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+    
+- Windows command prompt can also work
 
-![Caption](./img/putty.jpg)
+    - Cannot save hosts
+    - no graphics
+    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/))
 
+- [Git bash](https://gitforwindows.org/)
 
-<!---
-### A bit more complicated (and not necessary)
+}
+```
+````
+`````
+
+## Terminal with X11 server and light graphics
+
+`````{tabs} 
+````{tab} Mac
+
+- Download XQuartz or other X11 server for Mac OS
+  - [https://www.xquartz.org/](https://www.xquartz.org/)
+
+- Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+
+```bash=
+$ ssh -Y <username>@rackham.uppmax.uu.se
+```
+-    -X      Enables X11 forwarding. 
+-    -Y      Enables trusted X11 forwarding
+
+````
+
+````{tab} Windows
 
 - Download and install ONE of the X-servers below (to enable graphics)
-  - GWSL https://sourceforge.net/projects/vcxsrv/ (Links to an external site.)
-  - X-ming https://opticos.github.io/gwsl (Links to an external site.)z
-  - VcXsrv https://sourceforge.net/projects/xming/ (Links to an external site.)
+  - [X-ming](https://sourceforge.net/projects/xming/)
+  - [VCXSRV](https://sourceforge.net/projects/vcxsrv/) 
+  - [GWSL](https://opticos.github.io/gwsl)
 
-- not necessary:
-  - Install WSL (Windows Subsystem for Linux) 
-    - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
-    - Don’t forget to update to wsl2
-- Install a distribution or a ssh (secure shell) program
-  - Distribution such as ubuntu or
-  - (recommended) a ssh program such as MobaXTerm
-  - https://mobaxterm.mobatek.net/ (Links to an external site.)
+
+- or... 
+- Install a ssh (secure shell) program with built-in X11 and sftp file manager
+  - [**MobaXterm**](https://mobaxterm.mobatek.net/)
     - sftp frame makes it easy to move, upload and download files.
-
-- You may want to check this webpage as well!
-  - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
---->
- 
-### MobaXterm
+    - ... though downloading from remote host to local is usually easier.
+    - tabs for several sessions
 
 ![Caption](./img/mobax.jpg )
 
@@ -119,17 +169,10 @@ $ ssh -Y <username>@rackham.uppmax.uu.se
 ![Caption](./img/mobax_start.jpg)
 
 
-### Graphical file manager (Windows)
+````
+`````
 
-- For copying of files between your client computer (where you are) and the cluster WinSCP can also be the choice.
-  - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
-
-```{callout} Problems with installations?
-The built-in terminal without X11 is sufficient first days of the course!
-```
-
- 
-## X11-forwarding from the command line (generally)
+```{admonition} X11-forwarding from the command line (generally)
 
 - Graphics can be sent through the SSH connection you’re using to connect
   - Use primarily `ssh -Y <...>` or secondary `ssh -X <...>`
@@ -141,21 +184,87 @@ The built-in terminal without X11 is sufficient first days of the course!
 ![Caption](./img/xeyes.png)
 
 - Alternatively, use `<ctrl>-z` to put e.g. gedit to sleep and type "`bg`" to make last process in background.
+```
+
 
 ``````{challenge} Login to **Rackham**, using your terminal
 - First try:
-``` bash=
+```bash=
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 - If you receive errors or warnings, instead try:
-``` bash=
+```bash=
 $ ssh <username>@rackham.uppmax.uu.se
 ```
 - If you do have X11 installed:
-``` bash=
+```bash=
 $ xeyes &
 ```
 ``````
+
+## Graphical file manager
+
+- This is good if you want to move many files between host and local and cannot use wildcards.
+
+`````{tabs} 
+````{tab} Mac
+
+- For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
+- [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
+ 
+
+![Caption](./img/fz3_osx_main.png )
+
+
+````
+
+````{tab} Windows
+
+- For copying of files between your client computer (where you are) and the cluster **WinSCP** can also be the choice.
+  - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
+
+- ![Caption](./img/WinSCP.png )
+
+
+```` 
+`````
+
+```{callout} Problems with installations?
+Putty/Terminal  without X11 is sufficient first days of the course!
+```
+
+
+## Linux on your computer
+
+```{admonition} Local Linux environment
+   - You may sometimes benefit from having a local Linux environment.
+   - Examples:
+     - Mimic cluster environment to work with your local files and data as on the Cluster
+     - get used to Linux (!)
+   - Mac is UNIX and very Linux-like
+   - Windows requires WSL (Windows subsystem for Linux)
+```
+
+```{solution} For windows users who wants to get started with WSL (not covered here)
+- Install WSL (Windows Subsystem for Linux) 
+    - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
+    - Don’t forget to update to wsl2
+- Install a distribution or a ssh (secure shell) program
+  - Distribution such as ubuntu or
+  - (recommended) a ssh program such as MobaXTerm
+  - https://mobaxterm.mobatek.net/ (Links to an external site.)
+    - sftp frame makes it easy to move, upload and download files.
+- You may want to check this webpage as well!
+  - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
+```
+ 
+## Visual Studio Code (not covered in course)
+
+- intergrate you cluster work with *code development*
+- [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
+- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/remote_vscode/) 
+  - Similar to Rackham. Just change login details!
+
  
 ## ThinLinc (all platforms!)
 
@@ -176,8 +285,15 @@ $ xeyes &
   ```
 
  ```{keypoints}
-- You reach UPPMAX clusters either using a terminal or Thinlinc
-- Graphics are included in Thinlinc and from terminal if you have enabled X11
 - When you log in from your local computer you will always arrive at a login node with limited resources. 
   - You reach the calculations nodes from within the login node (See  Submitting jobs section)
+- You reach UPPMAX clusters either using a terminal client or Thinlinc
+- Graphics are included in Thinlinc and from terminal if you have enabled X11.
+- Which client to use?
+  - Graphics and easy to use
+    - ThinLinc
+  - Best integrated systems
+    - Visual Studio Code has several extensions (remote, SCP, programming IDE:s)
+    - Windows: MobaXterm is somewhat easier to use.
+  
 ```
