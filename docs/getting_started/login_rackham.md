@@ -21,11 +21,11 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
-   ```bash=
-      [<user>@rackham3 linux_tutorial]$
+   ``` bash 
+     [<user>@rackham3 linux_tutorial]$
     ```
 - You willl ater learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
-   ```bash=
+   ``` bash=
       [<user>@r484 linux_tutorial]
    ```
 
@@ -40,7 +40,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
 
 - Start built-in Terminal.
 
-```bash=
+``` bash=
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
@@ -142,15 +142,15 @@ The built-in terminal without X11 is sufficient first days of the course!
 
 ``````{challenge} Login to **Rackham**, using your terminal
 - First try:
-```bash=
+``` bash=
 $ ssh -Y <username>@rackham.uppmax.uu.se
 ```
 - If you receive errors or warnings, instead try:
-```bash=
+``` bash=
 $ ssh <username>@rackham.uppmax.uu.se
 ```
 - If you do have X11 installed:
-```bash=
+``` bash=
 $ xeyes &
 ```
 ``````
