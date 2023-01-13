@@ -1,21 +1,20 @@
 # Login
 
-```{questions}
-- How to reach UPPMAX clusters?
-- Can one use graphics?
-- Where do I arrive when I log in?
+!!! note "Questions"
+    - How to reach UPPMAX clusters?
+    - Can one use graphics?
+    - Where do I arrive when I log in?
 
-```
 
-```{objectives}
-- We'll relate our login session to the specific "area" in the cluster.
-- We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
-- Try yourself!
-```
+!!! note "Objectives"
+    - We'll relate our login session to the specific "area" in the cluster.
+    - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
+    - Try yourself!
 
-```{note}
-If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
-```
+
+!!! note
+    If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
+
 
 ## The login
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
