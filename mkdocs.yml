@@ -32,6 +32,7 @@ theme:
     - navigation.sections
     - search.suggest
     - content.code.annotate
+    - content.tabs.link
 
   custom_dir: mkdocs_uppmax/
     
