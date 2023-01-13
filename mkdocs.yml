@@ -9,9 +9,16 @@ nav:
     - Logging into Bianca: getting_started/login_bianca.md
     - Running your first job: getting_started/first_job.md
   - Hardware:
-    - Rackham: hardware/system_rackham.md
-    - Snowy: hardware/system_snowy.md
-    - Bianca: hardware/system_bianca.md
+    - Overview: hardware/overview.md
+    - Clusters:
+      - Rackham: hardware/clusters/rackham.md
+      - Snowy: hardware/clusters/snowy.md
+      - Bianca: hardware/clusters/bianca.md
+    - Storage:
+      - Crex: hardware/storage/crex.md
+      - Domus: hardware/storage/domus.md
+      - Castor: hardware/storage/castor.md
+      - Lutra: hardware/storage/lutra.md
   - Running Jobs:
     - Slurm: running_jobs/slurm.md
   - Software:
