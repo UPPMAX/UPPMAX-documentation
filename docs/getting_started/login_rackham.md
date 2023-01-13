@@ -120,24 +120,25 @@
 === "Mac"
 
     - Download XQuartz or other X11 server for Mac OS
-      - [https://www.xquartz.org/](https://www.xquartz.org/)
+        - [https://www.xquartz.org/](https://www.xquartz.org/)
 
     - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
 
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
     ```
-    -    -X      Enables X11 forwarding. 
-    -    -Y      Enables trusted X11 forwarding
+    - -X Enables X11 forwarding. 
+    - -Y Enables trusted X11 forwarding
 
 === "Windows"
 
     - Download and install ONE of the X-servers below (to enable graphics)
-      - [X-ming](https://sourceforge.net/projects/xming/)
-      - [VCXSRV](https://sourceforge.net/projects/vcxsrv/) 
-      - [GWSL](https://opticos.github.io/gwsl)
+        - [X-ming](https://sourceforge.net/projects/xming/)
+        - [VCXSRV](https://sourceforge.net/projects/vcxsrv/) 
+        - [GWSL](https://opticos.github.io/gwsl)
 
     - or... 
+    
     - Install a ssh (secure shell) program with built-in X11 and sftp file manager
       - [**MobaXterm**](https://mobaxterm.mobatek.net/)
       - sftp frame makes it easy to move, upload and download files.
