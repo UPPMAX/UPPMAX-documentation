@@ -198,57 +198,54 @@
 
 - This is good if you want to move many files between host and local and cannot use wildcards.
 
-`````{tabs} 
-````{tab} Mac
 
-- For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
-- [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
+=== "Mac"
+
+    - For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
+    - [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
  
 
-![Caption](./img/fz3_osx_main.png )
+    - ![Caption](./img/fz3_osx_main.png )
 
 
-````
+=== "Windows"
 
-````{tab} Windows
+    - For copying of files between your client computer (where you are) and the cluster **WinSCP** can also be the choice.
+         - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
 
-- For copying of files between your client computer (where you are) and the cluster **WinSCP** can also be the choice.
-  - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
-
-- ![Caption](./img/WinSCP.png )
+    - ![Caption](./img/WinSCP.png )
 
 
-```` 
-`````
 
-```{callout} Problems with installations?
-Putty/Terminal  without X11 is sufficient first days of the course!
-```
+
+!!! failure "Problems with installations?"
+    Putty/Terminal  without X11 is sufficient first days of the course!
+
 
 
 ## Linux on your computer
 
-```{admonition} Local Linux environment
-   - You may sometimes benefit from having a local Linux environment.
-   - Examples:
-     - Mimic cluster environment to work with your local files and data as on the Cluster
-     - get used to Linux (!)
-   - Mac is UNIX and very Linux-like
-   - Windows requires WSL (Windows subsystem for Linux)
-```
+!!! abstract "Local Linux environment"
+    - You may sometimes benefit from having a local Linux environment.
+    - Examples:
+        - Mimic cluster environment to work with your local files and data as on the Cluster
+        - get used to Linux (!)
+    - Mac is UNIX and very Linux-like
+    - Windows requires WSL (Windows subsystem for Linux)
 
-```{solution} For windows users who wants to get started with WSL (not covered here)
-- Install WSL (Windows Subsystem for Linux) 
-    - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
-    - Don’t forget to update to wsl2
-- Install a distribution or a ssh (secure shell) program
-  - Distribution such as ubuntu or
-  - (recommended) a ssh program such as MobaXTerm
-  - https://mobaxterm.mobatek.net/ (Links to an external site.)
-    - sftp frame makes it easy to move, upload and download files.
-- You may want to check this webpage as well!
-  - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
-```
+
+??? question "For windows users who wants to get started with WSL (not covered here)"
+    - Install WSL (Windows Subsystem for Linux) 
+        - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
+        - Don’t forget to update to wsl2
+    - Install a distribution or a ssh (secure shell) program
+        - Distribution such as ubuntu or
+        - (recommended) a ssh program such as MobaXTerm
+        - https://mobaxterm.mobatek.net/ (Links to an external site.)
+            - sftp frame makes it easy to move, upload and download files.
+    - You may want to check this webpage as well!
+        - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
+
  
 ## Visual Studio Code (not covered in course)
 
