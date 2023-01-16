@@ -1,22 +1,24 @@
 # Bianca
 
-- Bianca is a great platform for computationally intensive research on sensitive personal data. It can also be useful for:
-  - national and international collaboration on sensitive personal data (without a high compute need)
-  - other types of sensitive data
-- Bianca is not good for:
-  - storing data
-  - publishing data
-     - unless the dataset is very popular among Bianca users, e.g. [Swegen](https://snd.gu.se/en/catalogue/study/ext0285), [SIMPLER](https://www.simpler4health.se/)
+!!! info
+
+    - Bianca is a great platform for computationally intensive research on sensitive personal data. It can also be useful for:
+        - national and international collaboration on sensitive personal data (without a high compute need)
+        - other types of sensitive data
+    - Bianca is not good for:
+        - storing data
+        - publishing data
+            - unless the dataset is very popular among Bianca users, e.g. [Swegen](https://snd.gu.se/en/catalogue/study/ext0285), [SIMPLER](https://www.simpler4health.se/)
 
  
 ## Bianca's design
 
 - Bianca was designed
-  - to make accidental data leaks difficult
-  - to make correct data management as easy as possible
-  - to emulate the HPC cluster environment that SNIC users were familiar with
-  - to provide a maximum amount of resources
-  - and to satisfy regulations.
+    - to make accidental data leaks difficult
+    - to make correct data management as easy as possible
+    - to emulate the HPC cluster environment that SNIC users were familiar with
+    - to provide a maximum amount of resources
+    - and to satisfy regulations.
 
 ### Bianca has no Internet
 ... but we have “solutions”
@@ -43,7 +45,7 @@
 
 ## Data transfers:
 - <https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/> 
-  - section 3: Transfer files to and from Bianca
+    - section 3: Transfer files to and from Bianca
 - wharf
 - NGI Deliver through SUPR
 - Transit server (SSH to transit.uppmax.uu.se)
@@ -61,10 +63,10 @@
 ## ThinLinc
 
 - Bianca offers graphical login
-  - You need to be on SUNET or use VPN. 
-  - On web:
-    - [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
-    - requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
+    - You need to be on SUNET or use VPN. 
+    - On web:
+        - [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+        - requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
 
  
 ![Image](./img/Thinlinc2.jpg)
