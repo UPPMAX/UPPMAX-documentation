@@ -69,12 +69,13 @@
  
 ![Image](./img/Thinlinc2.jpg)
 
- ```{keypoints}
- - If you handle sensitive data, apply for a SNIC-SENS project
- - SENS projects will get accounts on Bianca
- - Bianca has no internet itself but there are solutions like:
-   - wharf
-   - transit server
-   - many installed software
- - Ask support if you need additional software tools
- ```
+
+!!! abstract "keypoints"
+    - If you handle sensitive data, apply for a SNIC-SENS project
+    - SENS projects will get accounts on Bianca
+    - Bianca has no internet itself but there are solutions like:
+        - wharf
+        - transit server
+        - many installed software
+    - Ask support if you need additional software tools
+
