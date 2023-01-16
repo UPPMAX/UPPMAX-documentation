@@ -269,20 +269,19 @@
  - Or use the client (only for Rackham)
   - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
 
-```{challenge} Try Thinlinc from web
-  - Try the web version now if you don't already have the software installed!
-  ```
+???+ question "Try Thinlinc from web"
+     - Try the web version now if you don't already have the software installed!
 
- ```{keypoints}
-- When you log in from your local computer you will always arrive at a login node with limited resources. 
-  - You reach the calculations nodes from within the login node (See  Submitting jobs section)
-- You reach UPPMAX clusters either using a terminal client or Thinlinc
-- Graphics are included in Thinlinc and from terminal if you have enabled X11.
-- Which client to use?
-  - Graphics and easy to use
-    - ThinLinc
-  - Best integrated systems
-    - Visual Studio Code has several extensions (remote, SCP, programming IDE:s)
-    - Windows: MobaXterm is somewhat easier to use.
-  
-```
+
+!!! abstract "keypoints"
+    - When you log in from your local computer you will always arrive at a login node with limited resources. 
+         - You reach the calculations nodes from within the login node (See  Submitting jobs section)
+    - You reach UPPMAX clusters either using a terminal client or Thinlinc
+    - Graphics are included in Thinlinc and from terminal if you have enabled X11.
+    - Which client to use?
+    - Graphics and easy to use
+        - ThinLinc
+    - Best integrated systems
+        - Visual Studio Code has several extensions (remote, SCP, programming IDE:s)
+        - Windows: MobaXterm is somewhat easier to use.
+
