@@ -140,10 +140,10 @@
     - or... 
     
     - Install a ssh (secure shell) program with built-in X11 and sftp file manager
-      - [**MobaXterm**](https://mobaxterm.mobatek.net/)
-      - sftp frame makes it easy to move, upload and download files.
-      - ... though downloading from remote host to local is usually easier.
-      - tabs for several sessions
+        - [**MobaXterm**](https://mobaxterm.mobatek.net/)
+        - sftp frame makes it easy to move, upload and download files.
+        - ... though downloading from remote host to local is usually easier.
+        - tabs for several sessions
 
     <!-- ![Caption](./img/mobax.jpg ) -->
 
@@ -156,8 +156,8 @@
     <!-- ![Caption](./img/mobax_start1.jpg) -->
 
     - Or even better, create and save a SSH session, as shown in image below.
-      - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
-      - You can rename the session in the Bookmark settings tab.
+        - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
+        - You can rename the session in the Bookmark settings tab.
 
     <!-- ![Caption](./img/mobax_start.jpg) -->
 
