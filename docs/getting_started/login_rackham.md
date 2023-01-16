@@ -178,20 +178,21 @@
 
 
 
-``````{challenge} Login to **Rackham**, using your terminal
-- First try:
-```bash=
-$ ssh -Y <username>@rackham.uppmax.uu.se
-```
-- If you receive errors or warnings, instead try:
-```bash=
-$ ssh <username>@rackham.uppmax.uu.se
-```
-- If you do have X11 installed:
-```bash=
-$ xeyes &
-```
-``````
+???+ question "Login to **Rackham**, using your terminal"
+    
+    - First try:
+    ``` bash
+    $ ssh -Y <username>@rackham.uppmax.uu.se
+    ```
+    - If you receive errors or warnings, instead try:
+    ``` bash
+    $ ssh <username>@rackham.uppmax.uu.se
+    ```
+    - If you do have X11 installed:
+    ``` bash
+    $ xeyes &
+    ```
+
 
 ## Graphical file manager
 
