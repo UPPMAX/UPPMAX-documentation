@@ -32,7 +32,7 @@
 - The whole Bianca cluster (blue) contains hundreds of virtual project clusters (green), each of which is isolated from each other and the Internet.
 - Data can be transferred to or from a virtual project cluster through the Wharf, which is a special file area that is visible from the Internet.
 
-### The log in steps
+## The log in steps
 1. When you log in to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se), your SSH or ThinLinc client first meets the blue Bianca login node.
     - `<username>-<projid>@bianca.uppmax.uu.se`
     - like: `myname-sens2016999@bianca.uppmax.uu.se`
@@ -41,7 +41,7 @@
 4. Inside each virtual project cluster, by default there is just a one-core login node. When you need more memory or more CPU power, you submit a job (interactive or batch), and an idle node will be moved into your project cluster.
 
 
-### Data transfers:
+## Data transfers:
 - <https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/> 
   - section 3: Transfer files to and from Bianca
 - wharf
@@ -71,7 +71,7 @@
 
 
 !!! abstract "keypoints"
-    - If you handle sensitive data, apply for a SNIC-SENS project
+    - If you handle sensitive data, apply for a NAISS-SENS project
     - SENS projects will get accounts on Bianca
     - Bianca has no internet itself but there are solutions like:
         - wharf
