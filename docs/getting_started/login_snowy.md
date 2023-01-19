@@ -8,9 +8,9 @@
 
 ## Local UPPMAX project
 
-## Snowy is availabe as compute nodes
+## Snowy is available as compute nodes
 
-## Login to SNowy
+## Login to Snowy
 
 You log in only from Rackham
 
