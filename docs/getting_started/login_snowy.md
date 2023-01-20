@@ -29,6 +29,7 @@ Two ways:
         SubGraph2Flow(calculation nodes) 
         end
 
+        thinlinc -- usr-sensXXX + 2FA----> SubGraph1Flow
         Node1 -- usr-sensXXX + 2FA----> SubGraph1Flow
         subgraph "Bianca"
         SubGraph1Flow(Bianca login) -- usr+passwd --> private(private cluster)
@@ -37,7 +38,6 @@ Two ways:
         end
 
         subgraph "Rackham"
-        Node1[Login] -- interactive --> Node2[R-calc]
+        Node1[Login] -- interactive --> Node2[calculation nodes]
         Node1 -- sbatch --> Node2
         end
-```
