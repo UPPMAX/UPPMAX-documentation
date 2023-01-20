@@ -1,7 +1,7 @@
 # UPPMAX Userguide
 
 This repository contains the source code for the [UPPMAX
-documentation](https://github.com/UPPMAX/UPPMAX-userguide).
+documentation](https://uppmax.github.io/UPPMAX-userguide/)
 
 ## Contributing
 
