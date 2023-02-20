@@ -100,32 +100,38 @@
     If you plan to:
     
     - do **day-to-day** work where *terminal shell is sufficient*
-     
-       - Mac: *Terminal, iTerm2*
-       - Linux: *Terminal*
-       - Windows: *Putty*, *Windows Powershell* or even *command prompt (CMD)*
-     
+
+        - Mac: *Terminal, iTerm2*
+        - Linux: *Terminal*
+        - Windows: *Putty*, *Windows Powershell* or even *command prompt (CMD)*
      
     - **interact with you local computer**
-       - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
-          - (S)FTP browser: *Filezilla*, *Cyberduck*
-       - Windows
-          - (S)FTP browser: *WinSCP*
-          - *MobaXterm* has built-in SFTP browser
-          - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*       
+    
+        - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
+       
+            - (S)FTP browser: *Filezilla*, *Cyberduck*
+          
+        - Windows
+       
+            - (S)FTP browser: *WinSCP*
+            - *MobaXterm* has built-in SFTP browser
+            - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*       
         
     - **do day-to-day work** with **some graphical applications (X forwarding)**
-       - Mac: *Terminal, iTerm2 + XQuartz*
-       - Linux: *Terminal*
-       - Windows: *MobaXterm*
+    
+        - Mac: *Terminal, iTerm2 + XQuartz*
+        - Linux: *Terminal*
+        - Windows: *MobaXterm*
      
      
-    - intergrate you cluster work with **code development**
-       - All OS: Example *Visual Studio Code*
+    - integrate you cluster work with **code development**
+    
+        - All OS: Example *Visual Studio Code*
      
      
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
-       - *ThinLinc application*
+    
+        - *ThinLinc application*
      
      
      
@@ -143,8 +149,8 @@
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
     ```
-    - -X Enables X11 forwarding. 
-    - -Y Enables trusted X11 forwarding
+    - ``-X`` Enables X11 forwarding. 
+    - ``-Y`` Enables trusted X11 forwarding
 
 === "Windows"
 
@@ -168,6 +174,8 @@
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
     ```
+    - ``-X`` Enables X11 forwarding. 
+    - ``-Y`` Enables trusted X11 forwarding
 
     <!-- ![Caption](./img/mobax_start1.jpg) -->
 
