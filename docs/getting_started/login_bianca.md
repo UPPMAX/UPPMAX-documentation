@@ -2,15 +2,8 @@
 
 !!! info
 
-    - Bianca is a great platform for computationally intensive research on sensitive personal data. It can also be useful for:
-        - national and international collaboration on sensitive personal data (without a high compute need)
-        - other types of sensitive data
-    - Bianca is not good for:
-        - storing data
-        - publishing data
-            - unless the dataset is very popular among Bianca users, e.g. [Swegen](https://snd.gu.se/en/catalogue/study/ext0285), [SIMPLER](https://www.simpler4health.se/)
+    - Check or Bianca Portal
 
- 
 ## Bianca's design
 
 - Bianca was designed
@@ -42,24 +35,6 @@
 3. If it's present, then you are transferred to a login prompt on your cluster's login node. If not, then the virtual cluster is started.
 4. Inside each virtual project cluster, by default there is just a one-core login node. When you need more memory or more CPU power, you submit a job (interactive or batch), and an idle node will be moved into your project cluster.
 
-
-## Data transfers:
-- <https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/> 
-    - section 3: Transfer files to and from Bianca
-- wharf
-- NGI Deliver through SUPR
-- Transit server (SSH to transit.uppmax.uu.se)
-
-### Software
-
-- Modules library (almost same as Rackham)
-- Local Conda repository
-- Local Perl modules
-- Local R packages
-
-- More info at [Bianca user guide](https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/)
-
-
 ## ThinLinc
 
 - Bianca offers graphical login
@@ -70,14 +45,3 @@
 
  
 ![Image](./img/Thinlinc2.jpg)
-
-
-!!! abstract "keypoints"
-    - If you handle sensitive data, apply for a NAISS-SENS project
-    - SENS projects will get accounts on Bianca
-    - Bianca has no internet itself but there are solutions like:
-        - wharf
-        - transit server
-        - many installed software
-    - Ask support if you need additional software tools
-
