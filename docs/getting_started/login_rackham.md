@@ -24,7 +24,7 @@
       [<user>@r484 linux_tutorial]
    ```
 
-!!! info "First time log in!
+!!! info "Qucik start log in!
     - Below you find how to log in
     - Further down we present other procedures to reach Rackham, depending on your planned work.
     
@@ -71,54 +71,47 @@
 
 
 !!! info "Working on Rackham"    
-    - Here we present alternatives to work on Rackham
+    - Now we present alternatives to work on Rackham
 
 
 ## The login
 
 !!! info "Login procedure"
-   **Which login procedure is best for You, depends on:**
-   - Your background
-   - Your OS environment,
-   - Your planned interaction with your local computer
-   - Your planned use of graphics on the cluster
+    **Which login procedure is best for You, depends on:**
+    - Your background
+    - Your OS environment,
+    - Your planned interaction with your local computer
+    - Your planned use of graphics on the cluster
 
 !!! info "Login procedure"
-   If you plan to:
-   - do **day-to-day** work where *terminal shell is sufficient*
-     - Mac: Terminal, iTerm2
-     - Linux: Terminal
-     - Windows: Putty or Windows Powershell or even command prompt (CMD)
+    If you plan to:
+    - do **day-to-day** work where *terminal shell is sufficient*
+      - Mac: Terminal, iTerm2
+      - Linux: Terminal
+      - Windows: Putty or Windows Powershell or even command prompt (CMD)
      
      
-   - **interact with you local computer**
-     - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
+    - **interact with you local computer**
+      - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
         - *(S)FTP browser*: Filezilla
-     - Windows
+      - Windows
         - (S)FTP browser: WinSCP
         - MobaXterm has built-in SFTP browser
         - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
         
         
-   - **do day-to-day work** with *some graphical applications (X forwarding)*
-     - Mac: *Terminal, iTerm2 + XQuartz*
-     - Linux: *Terminal*
-     - Windows: *MobaXterm*
+    - **do day-to-day work** with *some graphical applications (X forwarding)*
+      - Mac: *Terminal, iTerm2 + XQuartz*
+      - Linux: *Terminal*
+      - Windows: *MobaXterm*
      
      
-   - intergrate you cluster work with *code development*
-     - All OS: Example Visual Studio Code
+    - intergrate you cluster work with *code development*
+      - All OS: Example Visual Studio Code
      
      
-   - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
-     - *ThinLinc application*
-     
-     
-   - use **Bianca**
-     - *ThinLinc from web*
-   
-
-
+    - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
+      - *ThinLinc application*
 
 ## Terminals 
 
