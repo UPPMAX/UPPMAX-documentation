@@ -1,10 +1,4 @@
-# Login
-
-!!! question "Questions"
-    - How to reach UPPMAX clusters?
-    - Where do I arrive when I log in? Login or calculation node?
-    - What clients should/could I use for nmy work at UPPMAX?
-    - How can I enable graphics?
+# Log in to Rackham
 
 !!! info "Objectives"
     - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
@@ -13,6 +7,72 @@
 
 !!! warning
     - If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
+
+## General understanding
+
+- When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
+- This means that only light analysis and and calculations should be made here.
+- You will see this in the prompt after "@" as the clustername and a low number. For instance:
+
+   ``` bash 
+     [<user>@rackham3 linux_tutorial]$
+   ```
+    
+- You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
+
+   ``` bash
+      [<user>@r484 linux_tutorial]
+   ```
+
+!!! info "First time log in!
+    - Below you find how to log in
+    - Further down we present other procedures to reach Rackham, depending on your planned work.
+    
+
+## Log in with a terminal, omitting support for graphics  
+
+=== "Mac"
+
+    - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+    
+    ``` bash 
+    $ ssh <username>@rackham.uppmax.uu.se
+    ```
+    
+    - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
+
+    <!-- ![Terminal](./img/Mac_terminal.png) -->
+
+    - iTerm2 goodies:
+       - You can save hosts for later.
+       - Drag and drop scp
+       
+=== "Windows"
+
+    - the ssh (secure shell) client [**putty**](https://www.putty.org/)
+
+        - You can save hosts for later.
+        - No graphics.
+    
+    - Windows Powershell terminal can also work
+
+        - Cannot save hosts
+        - no graphics
+        - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
+    
+    - Windows command prompt can also work
+
+        - Cannot save hosts
+        - no graphics
+    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/))
+
+    - [Git bash](https://gitforwindows.org/)
+
+
+
+!!! info "Working on Rackham"    
+    - Here we present alternatives to work on Rackham
+
 
 ## The login
 
@@ -59,21 +119,7 @@
    
 
 
-## General understanding
 
-- When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
-- This means that only light analysis and and calculations should be made here.
-- You will see this in the prompt after "@" as the clustername and a low number. For instance:
-
-   ``` bash 
-     [<user>@rackham3 linux_tutorial]$
-   ```
-    
-- You willl ater learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
-
-   ``` bash
-      [<user>@r484 linux_tutorial]
-   ```
 ## Terminals 
 
 === "Mac"
@@ -261,16 +307,11 @@
 - This gives you a desktop environment, as if you were working on your own computer!
 - On web:
   - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
-  - [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
-    - requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
-
-![Caption](./img/Thinlinc2.jpg)
-
- - Or use the client (only for Rackham)
+- Or use the client 
   - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
 
-???+ question "Try Thinlinc from web"
-     - Try the web version now if you don't already have the software installed!
+
+![Caption](./img/Thinlinc2.jpg)
 
 
 !!! abstract "keypoints"
