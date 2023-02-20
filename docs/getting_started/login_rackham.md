@@ -96,43 +96,38 @@
     - Your planned use of graphics on the cluster
 
 !!! info "Login procedure"
-    If you plan to:
-    
-    - do **day-to-day** work where *terminal shell is sufficient*
-    
-       - Mac: Terminal, iTerm2
-       - Linux: Terminal
-       - Windows: Putty or Windows Powershell or even command prompt (CMD)
+
+  If you plan to:
+   - do **day-to-day** work where *terminal shell is sufficient*
+     - Mac: *Terminal, iTerm2*
+     - Linux: *Terminal*
+     - Windows: *Putty*, *Windows Powershell* or even *command prompt (CMD)*
      
-    - **interact with you local computer**
-    
-       - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
-      
-          - *(S)FTP browser*: Filezilla
-       - Windows
-      
-          - (S)FTP browser: WinSCP
-          - MobaXterm has built-in SFTP browser
-          - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
+     
+   - **interact with you local computer**
+     - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
+        - (S)FTP browser: *Filezilla*, *Cyberduck*
+     - Windows
+        - (S)FTP browser: *WinSCP*
+        - *MobaXterm* has built-in SFTP browser
+        - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*
         
         
-    - **do day-to-day work** with *some graphical applications (X forwarding)*
-    
-       - Mac: *Terminal, iTerm2 + XQuartz*
-       - Linux: *Terminal*
-       - Windows: *MobaXterm*
+   - **do day-to-day work** with **some graphical applications (X forwarding)**
+     - Mac: *Terminal, iTerm2 + XQuartz*
+     - Linux: *Terminal*
+     - Windows: *MobaXterm*
      
      
-    - intergrate you cluster work with *code development*
-    
-       - All OS: Example Visual Studio Code
+   - intergrate you cluster work with **code development**
+     - All OS: Example *Visual Studio Code*
      
      
-    - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
-    
-       - *ThinLinc application*
-
-
+   - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
+     - *ThinLinc application*
+     
+     
+     
 ## Terminals (see above)
 
 ## Terminal with X11 server and light graphics
