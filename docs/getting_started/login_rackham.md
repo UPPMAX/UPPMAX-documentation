@@ -51,9 +51,11 @@
 === "Windows"
 
     - Start terminal (see below)
-    ```bash=
+    
+    ```bash
     $ ssh <username>@rackham.uppmax.uu.se
     ```
+    
     - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
     ![Terminal](./img/putty.jpg)
@@ -73,7 +75,7 @@
 
         - Cannot save hosts
         - no graphics
-    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+        - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
 
     - [Git bash](https://gitforwindows.org/)
 
@@ -98,79 +100,40 @@
     
     - do **day-to-day** work where *terminal shell is sufficient*
     
-      - Mac: Terminal, iTerm2
-      - Linux: Terminal
-      - Windows: Putty or Windows Powershell or even command prompt (CMD)
-     
+       - Mac: Terminal, iTerm2
+       - Linux: Terminal
+       - Windows: Putty or Windows Powershell or even command prompt (CMD)
      
     - **interact with you local computer**
     
-      - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
+       - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
       
-        - *(S)FTP browser*: Filezilla
-      - Windows
+          - *(S)FTP browser*: Filezilla
+       - Windows
       
-        - (S)FTP browser: WinSCP
-        - MobaXterm has built-in SFTP browser
-        - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
+          - (S)FTP browser: WinSCP
+          - MobaXterm has built-in SFTP browser
+          - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
         
         
     - **do day-to-day work** with *some graphical applications (X forwarding)*
     
-      - Mac: *Terminal, iTerm2 + XQuartz*
-      - Linux: *Terminal*
-      - Windows: *MobaXterm*
+       - Mac: *Terminal, iTerm2 + XQuartz*
+       - Linux: *Terminal*
+       - Windows: *MobaXterm*
      
      
     - intergrate you cluster work with *code development*
     
-      - All OS: Example Visual Studio Code
+       - All OS: Example Visual Studio Code
      
      
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
     
-      - *ThinLinc application*
-
-## Terminals 
-
-=== "Mac"
-
-    - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
-    
-    ``` bash 
-    $ ssh <username>@rackham.uppmax.uu.se
-    ```
-    
-    - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
-
-    <!-- ![Terminal](./img/Mac_terminal.png) -->
-
-    - iTerm2 goodies:
-       - You can save hosts for later.
-       - Drag and drop scp
-       
-=== "Windows"
-
-    - the ssh (secure shell) client [**putty**](https://www.putty.org/)
-
-        - You can save hosts for later.
-        - No graphics.
-    
-    - Windows Powershell terminal can also work
-
-        - Cannot save hosts
-        - no graphics
-        - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
-    
-    - Windows command prompt can also work
-
-        - Cannot save hosts
-        - no graphics
-    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/))
-
-    - [Git bash](https://gitforwindows.org/)
+       - *ThinLinc application*
 
 
+## Terminals (see above)
 
 ## Terminal with X11 server and light graphics
 
