@@ -15,16 +15,16 @@
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
 
    ``` bash 
-     [<user>@rackham3 linux_tutorial]$
+     [<user>@rackham3 ~]$
    ```
     
 - You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
 
    ``` bash
-      [<user>@r484 linux_tutorial]
+      [<user>@r484 ~]
    ```
 
-!!! info "Qucik start log in!
+!!! info "Quick start log in!"
     - Below you find how to log in
     - Further down we present other procedures to reach Rackham, depending on your planned work.
     
@@ -44,12 +44,21 @@
     <!-- ![Terminal](./img/Mac_terminal.png) -->
 
     - iTerm2 goodies:
+    
        - You can save hosts for later.
        - Drag and drop scp
        
 === "Windows"
 
-    - the ssh (secure shell) client [**putty**](https://www.putty.org/)
+    - Start terminal (see below)
+    ```bash=
+    $ ssh <username>@rackham.uppmax.uu.se
+    ```
+    - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
+
+    ![Terminal](./img/putty.jpg)
+
+    - The ssh (secure shell) client [**putty**](https://www.putty.org/)
 
         - You can save hosts for later.
         - No graphics.
@@ -64,7 +73,7 @@
 
         - Cannot save hosts
         - no graphics
-    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/))
+    - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
 
     - [Git bash](https://gitforwindows.org/)
 
@@ -78,6 +87,7 @@
 
 !!! info "Login procedure"
     **Which login procedure is best for You, depends on:**
+    
     - Your background
     - Your OS environment,
     - Your planned interaction with your local computer
@@ -85,32 +95,40 @@
 
 !!! info "Login procedure"
     If you plan to:
+    
     - do **day-to-day** work where *terminal shell is sufficient*
+    
       - Mac: Terminal, iTerm2
       - Linux: Terminal
       - Windows: Putty or Windows Powershell or even command prompt (CMD)
      
      
     - **interact with you local computer**
+    
       - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
+      
         - *(S)FTP browser*: Filezilla
       - Windows
+      
         - (S)FTP browser: WinSCP
         - MobaXterm has built-in SFTP browser
         - you may benefit from having a Windows Subsystem for Linux (WSL(2)) 
         
         
     - **do day-to-day work** with *some graphical applications (X forwarding)*
+    
       - Mac: *Terminal, iTerm2 + XQuartz*
       - Linux: *Terminal*
       - Windows: *MobaXterm*
      
      
     - intergrate you cluster work with *code development*
+    
       - All OS: Example Visual Studio Code
      
      
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
+    
       - *ThinLinc application*
 
 ## Terminals 
