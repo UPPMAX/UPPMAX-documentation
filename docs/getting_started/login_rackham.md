@@ -149,15 +149,17 @@
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
     ```
+    
     - ``-X`` Enables X11 forwarding. 
-    - ``-Y`` Enables trusted X11 forwarding
+    - ``-Y`` Enables trusted X11 forwarding.
 
 === "Windows"
 
     - Download and install ONE of the X-servers below (to enable graphics)
+        - [GWSL](https://opticos.github.io/gwsl) (recommended because of hardware integration)
         - [X-ming](https://sourceforge.net/projects/xming/)
         - [VCXSRV](https://sourceforge.net/projects/vcxsrv/) 
-        - [GWSL](https://opticos.github.io/gwsl)
+
 
     - or... 
     
@@ -174,16 +176,17 @@
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
     ```
+    
     - ``-X`` Enables X11 forwarding. 
-    - ``-Y`` Enables trusted X11 forwarding
+    - ``-Y`` Enables trusted X11 forwarding.
 
-    <!-- ![Caption](./img/mobax_start1.jpg) -->
+    ![Caption](./img/mobax_start1.jpg)
 
     - Or even better, create and save a SSH session, as shown in image below.
         - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
         - You can rename the session in the Bookmark settings tab.
 
-    <!-- ![Caption](./img/mobax_start.jpg) -->
+    ![Caption](./img/mobax_start.jpg)
 
 
 
@@ -202,7 +205,7 @@
 
 
 
-???+ question "Login to **Rackham**, using your terminal"
+???+ question "Test log in to **Rackham**, using your terminal"
     
     - First try:
     ``` bash
@@ -231,6 +234,7 @@
 
     - ![Caption](./img/fz3_osx_main.png )
 
+    - [Cyberduck](https://cyberduck.io/)
 
 === "Windows"
 
@@ -238,13 +242,10 @@
          - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
 
     - ![Caption](./img/WinSCP.png )
+    
+    - [Cyberduck](https://cyberduck.io/)
 
-
-
-
-!!! failure "Problems with installations?"
-    Putty/Terminal  without X11 is sufficient first days of the course!
-
+    - [Filezilla](https://filezilla-project.org/download.php?type=client)
 
 
 ## Linux on your computer
@@ -271,7 +272,7 @@
         - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
 
  
-## Visual Studio Code (not covered in course)
+## Visual Studio Code (not covered here)
 
 - intergrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
@@ -281,7 +282,6 @@
  
 ## ThinLinc (all platforms!)
 
-- Both Rackham and Bianca offer graphical login.
 - This gives you a desktop environment, as if you were working on your own computer!
 - On web:
   - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
