@@ -274,19 +274,19 @@
  
 ## Visual Studio Code (not covered here)
 
-- intergrate you cluster work with *code development*
+- Integrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
 - [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/remote_vscode/) 
-  - Similar to Rackham. Just change login details!
+    - Similar to Rackham. Just change login details!
 
  
 ## ThinLinc (all platforms!)
 
 - This gives you a desktop environment, as if you were working on your own computer!
 - On web:
-  - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
+    - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
 - Or use the client 
-  - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
+    - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
 
 
 ![Caption](./img/Thinlinc2.jpg)
