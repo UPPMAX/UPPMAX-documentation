@@ -20,9 +20,9 @@
 https://supr.naiss.se/round/uppmaxcompute2023/
 
 !!! warning
-Snowy is available as compute nodes
+    Snowy is available as compute nodes only
 
-## Login to Snowy
+## Reach the Snowy compute nodes
 
 - You can log in only from Rackham. 
 
