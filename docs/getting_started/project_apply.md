@@ -33,33 +33,33 @@
 ## NAISS HPC Clusters
 <https://www.snic.se/resources/compute-resources/>
 - Mostly Intel-based CPU:s and Nvidia GPU:s
-- UPPMAX:
+- UPPMAX, Uppsala University (UU):
     - Rackham - General computational resource and also focused towards Life Science
     - Bianca - NAISS-SENS, resource dedicated to research on sensitive data
 
-- PDC (KTH):
+- PDC, KTH Royal Institute of Technology (KTH):
     - Dardel - General computational resource
-    - Not intel/Nvidia but Cray/AMD CPU:s and GPU:s
-- NSC, Linköping:
+    - Not Intel/Nvidia but Cray/AMD CPU:s and GPU:s
+- NSC, Linköping University (LiU):
     - Tetralith - General computational resource
-- C3SE, Chalmers:
+- C3SE, Chalmers University of Technology:
     - Alvis - Accelerator-based resource dedicated to research using AI techniques
 AND the international
-- LUMI, Finland 
+- LUMI, Finland:
     - LUMI - General computational resource, aimed at larger projects in Sweden
-    - Not intel/Nvidia but Cray/AMD CPU:s and GPU:s
+    - Not Intel/Nvidia but Cray/AMD CPU:s and GPU:s
 
 ### Locally financed systems for local users
-- UPPMAX, Uppsala (UU)
+- UPPMAX, Uppsala University (UU).
     - Snowy - GPU:s and long runs
-- LUNARC, Lund (LU)
+- LUNARC, Lund University (LU):
     - Aurora 
-- C3SE, Chalmers
+- C3SE, Chalmers University of Technology
     - Vera
-- NSC, Linköping (LiU):
-   - BerzeLiUs - for AI and machine learning 
-- HPC2N, Umeå (UU):
-   - Kebnekaise - General computational resource
+- NSC, Linköping University (LiU):
+    - BerzeLiUs - for AI and machine learning 
+- HPC2N, Umeå University (UU):
+    - Kebnekaise - General computational resource
  
 ## SNIC Science Cloud (SSC)
 
