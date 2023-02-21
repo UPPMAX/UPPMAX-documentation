@@ -32,6 +32,7 @@
 
 ## NAISS HPC Clusters
 <https://www.snic.se/resources/compute-resources/>
+
 - Mostly Intel-based CPU:s and Nvidia GPU:s
 - UPPMAX, Uppsala University (UU):
     - Rackham - General computational resource and also focused towards Life Science
