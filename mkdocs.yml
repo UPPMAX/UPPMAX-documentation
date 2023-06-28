@@ -38,7 +38,10 @@ theme:
 
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.path
+    - navigation.footer
     - search.suggest
     - content.code.annotate
     - content.tabs.link
