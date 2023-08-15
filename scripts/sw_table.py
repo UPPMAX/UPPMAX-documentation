@@ -34,13 +34,8 @@ df = (
     .merge(keywords)
 )
 
-
 def get_unique_keywords(kws):
-    tmp = []
-    for k in kws.split():
-        if k not in tmp:
-            tmp.append(k)
-    return ", ".join(tmp)
+    return ", ".join(set(kws.split()))
 
 df["keywords"] = df["keywords"].apply(get_unique_keywords)
 
