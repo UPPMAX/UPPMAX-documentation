@@ -1,17 +1,18 @@
-import sys
-import yaml
-import pdb
-import logging
 import argparse
-import os
+import argparse
+import collections
 import jinja2
+import logging
+import os
+import pdb
+import re
+import shutil
 import shutil
 import sqlite3
+import sys
+import yaml
 from datetime import datetime
-import collections
 from natsort import natsorted, ns
-import shutil
-import re
 
 # nested dicts
 def nested_dict():
@@ -31,32 +32,25 @@ def slugify(s):
     s = re.sub(r'^-+|-+$', '', s)
     return s
 
-# get output dir
-try:
-    output_file = sys.argv[1]
-except:
-    sys.exit(f"""Usage:
 
-python3 {sys.argv[0]} <path to output file> [-d]
-ex.
-python3 {sys.argv[0]} /path/to/uppmaxdocs/software/overview.md
-python3 {sys.argv[0]} /path/to/uppmaxdocs/software/overview.md -d
 
--d will recursivly delete the folder the specified output file is in
-(/path/to/uppmaxdocs/software/ in the example above).
-""")
+# get arguemnts
+parser = argparse.ArgumentParser(description='Generate software pages.')
+parser.add_argument('-o','--output_file', help='Path to the file that will have the software list in it. All software sub pages will be created as subfolders in the same directory.', required=True)
+parser.add_argument('-r','--remove', help='If set, the directory where the output_file is located will be recursivly deleted before generating the software pages.', action="store_true")
+parser.add_argument('-d','--database', help='Path to the sqlite3 database containing the software list.', default='/sw/infrastructure/swdb.db')
+args = vars(parser.parse_args())
+
+# readability
+output_file   = args['output_file']
+database_file = args['database']
+remove_flag   = args['remove']
 
 # get directory name of the output file
 output_dir  = os.path.dirname(output_file)
 
-# get delete flag if any
-try:
-    delete_flag = sys.argv[2]
-except:
-    delete_flag = False
-
 # connect to db
-db = sqlite3.connect("/sw/infrastructure/swdb.db")
+db = sqlite3.connect(database_file)
 db.row_factory = sqlite3.Row
 cur = db.cursor()
 
@@ -72,12 +66,12 @@ for software in cur.fetchall():
         continue
 
     categories[software['SECTION'].capitalize() if software['SECTION'] else "Uncategorized"][software['TOOL']][software['VERSION'] if software['VERSION'] else '-'] = {
-                                                                              'CLUSTER': software['CLUSTER'],
+                                                                              'CLUSTER'     : software['CLUSTER'],
                                                                               'DESCRIPTION' : software['DESCRIPTION'],
-                                                                              'KEYWORDS' : software['KEYWORDS'],
-                                                                              'LICENSE': software['LICENSE'], 
-                                                                              'LICENSEURL': software['LICENSEURL'],
-                                                                              'WEBSITE' : software['WEBSITE'],
+                                                                              'KEYWORDS'    : software['KEYWORDS'],
+                                                                              'LICENSE'     : software['LICENSE'], 
+                                                                              'LICENSEURL'  : software['LICENSEURL'],
+                                                                              'WEBSITE'     : software['WEBSITE'],
                                                                               }
 
 #pdb.set_trace()
@@ -113,8 +107,8 @@ for software,versions in categories['Uncategorized'].copy().items():
 
 ### DANGER ZOME ###
 # delete all files in the output dir if requested with -d
-if delete_flag == '-d':
-    shutil.rmtree(output_dir)    
+if remove_flag == '-d':
+    shutil.rmtree(output_dir, ignore_errors=True)    
 
 
 

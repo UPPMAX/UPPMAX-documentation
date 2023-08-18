@@ -33,13 +33,11 @@ Then activate the environment and serve the website on localhost
 mkdocs serve
 ```
 
-If you wish to display the software table run
+If you wish to regenerate the software pages run this command on UPPMAX (needs to have the `swdb.db` database).
 
 ``` bash
-python sw_table.py
+python3 scripts/generate_software_pages.py -o docs/software/overview.md
 ```
-
-located under `/scripts`
 
 ### Text-to-speech
 
