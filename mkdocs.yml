@@ -5,11 +5,19 @@ repo_url: https://github.com/UPPMAX/UPPMAX-documentation
 nav:
   - Home: index.md
   - Getting Started:
+    - Get started: getting_started/get_started.md
     - Applying for a Project: getting_started/project_apply.md
+    - Running your first job: getting_started/first_job.md
+  - Cluster user guide:
     - Logging into Rackham: getting_started/login_rackham.md
     - Logging into Snowy: getting_started/login_snowy.md
     - Logging into Bianca: getting_started/login_bianca.md
     - Running your first job: getting_started/first_job.md
+    - Slurm: running_jobs/slurm.md
+  - Workshops and courses: workshops_courses/workshops_courses.md
+  - Software:
+    - Overview: software/overview.md
+  - Support: support.md
   - Hardware:
     - Overview: hardware/overview.md
     - Clusters:
@@ -21,11 +29,6 @@ nav:
       - Domus: hardware/storage/domus.md
       - Castor: hardware/storage/castor.md
       - Lutra: hardware/storage/lutra.md
-  - Running Jobs:
-    - Slurm: running_jobs/slurm.md
-  - Software:
-    - Overview: software/overview.md
-  - Support: support.md
 
 theme:
   name: material
