@@ -15,6 +15,7 @@ nav:
     - Slurm: running_jobs/slurm.md
   - Software:
     - Overview: software/overview.md
+  - Databases: databases/overview.md
   - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
 
