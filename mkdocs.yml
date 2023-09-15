@@ -13,9 +13,9 @@ nav:
     - Logging into Bianca: getting_started/login_bianca.md
     - Running your first job: getting_started/first_job.md
     - Slurm: running_jobs/slurm.md
-  - Workshops and courses: workshops_courses/workshops_courses.md
   - Software:
     - Overview: software/overview.md
+  - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
   - Hardware:
     - Overview: hardware/overview.md
