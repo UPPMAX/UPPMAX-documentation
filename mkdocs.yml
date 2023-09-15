@@ -17,17 +17,6 @@ nav:
     - Overview: software/overview.md
   - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
-  - Hardware:
-    - Overview: hardware/overview.md
-    - Clusters:
-      - Rackham: hardware/clusters/rackham.md
-      - Snowy: hardware/clusters/snowy.md
-      - Bianca: hardware/clusters/bianca.md
-    - Storage:
-      - Crex: hardware/storage/crex.md
-      - Domus: hardware/storage/domus.md
-      - Castor: hardware/storage/castor.md
-      - Lutra: hardware/storage/lutra.md
 
 theme:
   name: material
