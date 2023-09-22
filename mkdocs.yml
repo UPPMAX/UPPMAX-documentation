@@ -7,10 +7,10 @@ nav:
   - Getting Started:
     - Get started: getting_started/get_started.md
     - Applying for a Project: getting_started/project_apply.md
-  - Cluster user guide:
     - Logging into Rackham: getting_started/login_rackham.md
     - Logging into Snowy: getting_started/login_snowy.md
     - Logging into Bianca: getting_started/login_bianca.md
+  - Cluster user guide:
     - Running your first job: getting_started/first_job.md
     - Slurm: running_jobs/slurm.md
   - Software:
