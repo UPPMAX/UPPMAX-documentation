@@ -1,4 +1,3 @@
 # Software
 
-
---8<-- "./software_table.html"
+<iframe src="/software/software_table.html" width="100%" height="500" frameborder="0"></iframe>
