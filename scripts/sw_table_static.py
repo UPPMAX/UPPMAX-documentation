@@ -55,7 +55,6 @@ def main():
     # Convert to html
     html_table = df.to_html(classes="my_table", index=False)
 
-    # HTML Template with placeholders for the table
     html_template = """
     <!DOCTYPE html>
     <html lang="en">
@@ -65,12 +64,12 @@ def main():
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Your Table Title</title>
-        
+
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
     </head>
 
     <body>
-        
+
         <!-- Placeholder for the Generated Table -->
         {table_content}
 
@@ -81,7 +80,10 @@ def main():
         <!-- Initialize DataTables -->
         <script>
             $(document).ready( function () {
-                $('.my_table').DataTable();
+                $('.my_table').DataTable({
+                    "stripeClasses": ['', 'table-striped'], // For stripes
+                    "hover": true,  // For hover effect
+            });
             });
         </script>
 
