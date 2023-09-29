@@ -7,14 +7,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Your Table Title</title>
-        
+
+        <!-- Bulma CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+        <!-- DataTables CSS -->
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
     </head>
 
     <body>
-        
+
         <!-- Placeholder for the Generated Table -->
-        <table border="1" class="dataframe my_table">
+        <section class="section">
+            <div class="container">
+                <table border="1" class="dataframe my_table">
   <thead>
     <tr style="text-align: right;">
       <th>module</th>
@@ -104,7 +110,7 @@
       <td>Bioinformatics Assembly</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Public Domain</td>
-      <td>wrapper, parallel, assembly, consensus</td>
+      <td>wrapper, consensus, parallel, assembly</td>
       <td>20191022-9759eb1</td>
       <td>ArrowGrid</td>
     </tr>
@@ -114,7 +120,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>genetic, model, gene, association, heritability, correlation, variance</td>
+      <td>variance, correlation, model, gene, association, heritability, genetic</td>
       <td>2.3.5</td>
       <td>BOLT-LMM</td>
     </tr>
@@ -134,7 +140,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>community, profiling, microbial, micro</td>
+      <td>microbial, micro, profiling, community</td>
       <td>3.0</td>
       <td>BioBakery</td>
     </tr>
@@ -174,7 +180,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>genome, quality, cell, metagenome, microbial, micro</td>
+      <td>cell, genome, micro, metagenome, microbial, quality</td>
       <td>1.0.11, 1.0.12, 1.1.3</td>
       <td>CheckM</td>
     </tr>
@@ -214,7 +220,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td></td>
-      <td>orthologous, species, region, gaps, micro</td>
+      <td>micro, region, orthologous, gaps, species</td>
       <td>5.4</td>
       <td>DelGet</td>
     </tr>
@@ -224,7 +230,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Public Domain</td>
-      <td>database, gene, structure, terminal, variation</td>
+      <td>structure, gene, terminal, database, variation</td>
       <td>15.1</td>
       <td>EDirect</td>
     </tr>
@@ -264,7 +270,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>LGPL v2.1+ with non-free features</td>
-      <td>audio, cross-platform</td>
+      <td>cross-platform, audio</td>
       <td>4.4</td>
       <td>FFmpeg</td>
     </tr>
@@ -284,7 +290,7 @@
       <td>Bioinformatics Phylogeny</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>inference, distance-based, phylogeny</td>
+      <td>distance-based, phylogeny, inference</td>
       <td>2.1.6.2</td>
       <td>FastME</td>
     </tr>
@@ -394,7 +400,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>LGPL v3; GPL v2</td>
-      <td>integer, rational, precision, library, floating-point</td>
+      <td>precision, floating-point, integer, library, rational</td>
       <td>6.2.1</td>
       <td>GMP</td>
     </tr>
@@ -414,7 +420,7 @@
       <td>Bioinformatics Annotation</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>annotation, coding</td>
+      <td>coding, annotation</td>
       <td>1.0.0</td>
       <td>GUSHR</td>
     </tr>
@@ -444,7 +450,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Gnu GPL Affero v3</td>
-      <td>language, interpreter</td>
+      <td>interpreter, language</td>
       <td>9.53.3</td>
       <td>GhostPDL</td>
     </tr>
@@ -454,7 +460,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>genetic, gene, covariance, association, local, heritability, correlation, variance</td>
+      <td>variance, covariance, local, correlation, gene, association, heritability, genetic</td>
       <td>0.5.4-beta</td>
       <td>HESS</td>
     </tr>
@@ -484,7 +490,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>genomic, metatranscriptomic, metabolic, profiling, molecular, transcript, abundance, sequencing, metagenomic, microbial, pathway, micro</td>
+      <td>sequencing, molecular, metagenomic, metatranscriptomic, genomic, micro, pathway, metabolic, microbial, abundance, transcript, profiling</td>
       <td>3.0</td>
       <td>HUMAnN</td>
     </tr>
@@ -534,7 +540,7 @@
       <td>Bioinformatics Alignment</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v2</td>
-      <td>multi, alignment</td>
+      <td>alignment, multi</td>
       <td>1.04, 2.04</td>
       <td>Kalign</td>
     </tr>
@@ -544,7 +550,7 @@
       <td>Bioinformatics Misc</td>
       <td>Snowy, Rackham, Irma, Bianca</td>
       <td>MIT</td>
-      <td>genomic, metatranscriptomic, microbiome, sequencing, quality, metagenomic, transcript, micro</td>
+      <td>sequencing, metagenomic, micro, genomic, metatranscriptomic, microbiome, quality, transcript</td>
       <td>0.10.0</td>
       <td>KneadData</td>
     </tr>
@@ -614,7 +620,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>LGPL v3+</td>
-      <td>precision, library, multi, floating-point</td>
+      <td>floating-point, precision, multi, library</td>
       <td>4.1.0</td>
       <td>MPFR</td>
     </tr>
@@ -674,7 +680,7 @@
       <td>Bioinformatics Phylogeny</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT license</td>
-      <td>genomic, phylogeny, profiling, communities, species, computational, composition, sequencing, shotgun, metagenomic, microbial, micro</td>
+      <td>sequencing, communities, computational, metagenomic, composition, genomic, micro, microbial, phylogeny, shotgun, species, profiling</td>
       <td>3.0.8</td>
       <td>MetaPhlAn3</td>
     </tr>
@@ -704,7 +710,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL version 3</td>
-      <td>genetic, pool, gene</td>
+      <td>pool, genetic, gene</td>
       <td>1</td>
       <td>NPStat</td>
     </tr>
@@ -714,7 +720,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>alignment, sequencing</td>
+      <td>sequencing, alignment</td>
       <td>1.33.1</td>
       <td>NanoPlot</td>
     </tr>
@@ -724,7 +730,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>AS IS</td>
-      <td>genetic, population, genotype, gene</td>
+      <td>genotype, population, genetic, gene</td>
       <td>2.1</td>
       <td>NeEstimator</td>
     </tr>
@@ -734,7 +740,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Creative Commons Public License</td>
-      <td>networks, convolutional, neural, somatic, mutation, network</td>
+      <td>networks, somatic, convolutional, neural, network, mutation</td>
       <td>0.2.1</td>
       <td>NeuSomatic</td>
     </tr>
@@ -744,7 +750,7 @@
       <td>Bioinformatics Assembly</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GNU</td>
-      <td>string, assembly, assembler, reads, graph</td>
+      <td>graph, assembler, reads, assembly, string</td>
       <td>2.4.0, 2.5.0</td>
       <td>NextDenovo</td>
     </tr>
@@ -784,7 +790,7 @@
       <td>Bioinformatics Misc</td>
       <td>Snowy, Rackham, Irma, Bianca</td>
       <td>GPL v2</td>
-      <td>relatedness, coverage, genotype, statistics, inbreeding, likelihood</td>
+      <td>statistics, coverage, likelihood, relatedness, genotype, inbreeding</td>
       <td>2.0</td>
       <td>NgsRelate</td>
     </tr>
@@ -834,7 +840,7 @@
       <td>Chemistry/Physics</td>
       <td>Rackham, Snowy</td>
       <td>Lesser GPL</td>
-      <td>finite, microstructural, simulation, phase, parallel, evolution, structural, micro</td>
+      <td>evolution, simulation, micro, phase, structural, finite, microstructural, parallel</td>
       <td>2.1.1</td>
       <td>PRISMS-PF</td>
     </tr>
@@ -934,7 +940,7 @@
       <td>Geospatial</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL</td>
-      <td>spatial, geospatial, geo</td>
+      <td>geospatial, geo, spatial</td>
       <td>3.4.12</td>
       <td>QGIS</td>
     </tr>
@@ -954,7 +960,7 @@
       <td>Statistics</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL</td>
-      <td>graphics, statistical, graph, environment</td>
+      <td>graph, statistical, environment, graphics</td>
       <td>3.0.2, 3.2.3, 3.3.2, 3.4.0, 3.4.3, 3.5.0, 3.5.2, 3.6.0, 3.6.1, 4.0.0, 4.0.4, 4.1.1</td>
       <td>R</td>
     </tr>
@@ -964,7 +970,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v2</td>
-      <td>sweep, nucleotide, multi, polymorphism</td>
+      <td>polymorphism, sweep, nucleotide, multi</td>
       <td>2.9</td>
       <td>RAisD</td>
     </tr>
@@ -994,7 +1000,7 @@
       <td>Statistics</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>AGPL</td>
-      <td>environment, language, development</td>
+      <td>development, environment, language</td>
       <td>1.0.136, 1.0.143, 1.0.153, 1.1.423, 1.1.463, 1.4.1106</td>
       <td>RStudio</td>
     </tr>
@@ -1004,7 +1010,7 @@
       <td>Bioinformatics Assembly</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>genome, assembly, consensus, reads</td>
+      <td>consensus, genome, reads, assembly</td>
       <td>1.4.21</td>
       <td>Racon</td>
     </tr>
@@ -1074,7 +1080,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT 3</td>
-      <td>virome, reads, chimeric</td>
+      <td>chimeric, virome, reads</td>
       <td>1.0.0</td>
       <td>SACRA</td>
     </tr>
@@ -1084,7 +1090,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>genetic, relatedness, model, gene, association, cohort, biobanks</td>
+      <td>cohort, biobanks, model, gene, association, relatedness, genetic</td>
       <td>0.42.1, 0.44.6.5</td>
       <td>SAIGE</td>
     </tr>
@@ -1104,7 +1110,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Custom non-commercial</td>
-      <td>multi, plot, phasing, haplotype, sequencing</td>
+      <td>sequencing, haplotype, multi, plot, phasing</td>
       <td>v2.r837, v2.r904, v3.r884.2, v4.1.3</td>
       <td>SHAPEIT</td>
     </tr>
@@ -1124,7 +1130,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>genetic, model, population, gene, simulation, modeling, evolutionary, complex, evolution</td>
+      <td>evolution, simulation, modeling, evolutionary, model, gene, complex, population, genetic</td>
       <td>2.6, 3.2.1, 3.3.2, 3.6</td>
       <td>SLiM</td>
     </tr>
@@ -1144,7 +1150,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>population, genome</td>
+      <td>genome, population</td>
       <td>1.15.2</td>
       <td>SMC++</td>
     </tr>
@@ -1164,7 +1170,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Snowy, Irma, Bianca</td>
       <td>AS IS</td>
-      <td>population, genome, recombination, mutation, phasing, genome-wide</td>
+      <td>genome, phasing, population, genome-wide, mutation, recombination</td>
       <td>1.1</td>
       <td>SNeP</td>
     </tr>
@@ -1214,7 +1220,7 @@
       <td>Bioinformatics Assembly</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>gene, assembly, assembler, reads, cell</td>
+      <td>cell, assembler, reads, assembly, gene</td>
       <td>0.7.0</td>
       <td>Shasta</td>
     </tr>
@@ -1244,7 +1250,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Snowy, Irma, Bianca</td>
       <td>MIT license</td>
-      <td>structural, sequencing, gene, variation</td>
+      <td>structural, sequencing, variation, gene</td>
       <td>1.0.10, 1.0.12-201218-4ff6ecb</td>
       <td>Sniffles</td>
     </tr>
@@ -1304,7 +1310,7 @@
       <td>Bioinformatics Annotation</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Artistic License 2.0</td>
-      <td>gene, prediction, codons, annotation, transcript, introns</td>
+      <td>codons, introns, gene, transcript, annotation, prediction</td>
       <td>1.0.2-20210716-1f167ad</td>
       <td>TSEBRA</td>
     </tr>
@@ -1314,7 +1320,7 @@
       <td>Bioinformatics Annotation</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Custom academic 'AS IS'</td>
-      <td>peptide, chloroplast, cleavage, thylakoid, site, terminal, mitochondrial, annotation, signal, luminal</td>
+      <td>thylakoid, mitochondrial, signal, site, chloroplast, cleavage, annotation, terminal, luminal, peptide</td>
       <td>2.0</td>
       <td>TargetP</td>
     </tr>
@@ -1324,7 +1330,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>BSD-like</td>
-      <td>table, programming, graph, graphical, network, language</td>
+      <td>graph, graphical, programming, language, table, network</td>
       <td>8.6.11</td>
       <td>Tcl-Tk</td>
     </tr>
@@ -1364,7 +1370,7 @@
       <td>Geospatial</td>
       <td>Rackham, Snowy</td>
       <td>Apache v2.0 license</td>
-      <td>search, images, environment, spatial, visualization</td>
+      <td>images, environment, spatial, visualization, search</td>
       <td>3.2.0, 3.3.0</td>
       <td>Vapor</td>
     </tr>
@@ -1414,7 +1420,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Apache License</td>
-      <td>inference, pipeline</td>
+      <td>pipeline, inference</td>
       <td>2.0.0</td>
       <td>alphafold</td>
     </tr>
@@ -1464,7 +1470,7 @@
       <td>Bioinformatics Alignment</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>rna, alignment, rrna</td>
+      <td>rrna, rna, alignment</td>
       <td>0.2, 0.6, 0.8, 0.9</td>
       <td>barrnap</td>
     </tr>
@@ -1544,7 +1550,7 @@
       <td>Compilers and build tools</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3+</td>
-      <td>table, compiler, gene, context-free, grammar, deterministic, parser</td>
+      <td>context-free, parser, grammar, compiler, gene, deterministic, table</td>
       <td>3.7.6</td>
       <td>bison</td>
     </tr>
@@ -1674,7 +1680,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GNU LGPL v2.1 or Mozilla Public Licence 1.1</td>
-      <td>graphics, library, multi, graph</td>
+      <td>graph, graphics, multi, library</td>
       <td>1.14.8, 1.14.12, 1.17.2, 1.17.4</td>
       <td>cairo</td>
     </tr>
@@ -1914,7 +1920,7 @@
       <td>Compilers and build tools</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>modified BSD</td>
-      <td>compiler, gene</td>
+      <td>gene, compiler</td>
       <td>2.6.4</td>
       <td>flex</td>
     </tr>
@@ -1944,7 +1950,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>genetic, gene, architecture, complex, trait</td>
+      <td>architecture, gene, complex, trait, genetic</td>
       <td>1.26.0, 1.93.2beta</td>
       <td>gcta</td>
     </tr>
@@ -1954,7 +1960,7 @@
       <td>Bioinformatics Alignment</td>
       <td>Milou, Rackham, Irma, Bianca</td>
       <td>GPL</td>
-      <td>alignment, gene</td>
+      <td>gene, alignment</td>
       <td>1.4.4</td>
       <td>geneid</td>
     </tr>
@@ -1964,7 +1970,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca,Snowy</td>
       <td>MIT</td>
-      <td>tract, conversion, filter</td>
+      <td>conversion, filter, tract</td>
       <td>0.12.6</td>
       <td>gffread</td>
     </tr>
@@ -2114,7 +2120,7 @@
       <td>Bioinformatics Phylogeny</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v2</td>
-      <td>tree, phylogeny</td>
+      <td>phylogeny, tree</td>
       <td>1.5.3-omp, 1.5.4-omp-mpi, 1.6.5-omp-mpi, 1.6.10-omp-mpi, 1.6.12-omp-mpi, 2.0-rc2-omp-mpi</td>
       <td>iqtree</td>
     </tr>
@@ -2134,7 +2140,7 @@
       <td>Compilers and build tools</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>julia, compiler</td>
+      <td>compiler, julia</td>
       <td>1.1.1, 1.4.2, 1.6.1</td>
       <td>julia</td>
     </tr>
@@ -2144,7 +2150,7 @@
       <td>Compilers and build tools</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td></td>
-      <td>compiler, gene, server, server-side, language, shell</td>
+      <td>shell, compiler, gene, server-side, language, server</td>
       <td>0.2.5</td>
       <td>k8</td>
     </tr>
@@ -2154,7 +2160,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Custom "as is" open source</td>
-      <td>gene, abundance, reads, target, transcript, sequencing</td>
+      <td>sequencing, reads, target, gene, abundance, transcript</td>
       <td>0.42.4, 0.43.0, 0.43.1, 0.45.1, 0.46.2</td>
       <td>kallisto</td>
     </tr>
@@ -2204,7 +2210,7 @@
       <td>Geospatial</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>X-style and custom open-source "as is"</td>
-      <td>spatial, geo</td>
+      <td>geo, spatial</td>
       <td>1.4.1, 1.4.3</td>
       <td>libgeotiff</td>
     </tr>
@@ -2214,7 +2220,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>ISC</td>
-      <td>table, hash, encryption, library, decryption</td>
+      <td>library, decryption, encryption, hash, table</td>
       <td>1.0.18-stable</td>
       <td>libsodium</td>
     </tr>
@@ -2224,7 +2230,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Google "as is" open source</td>
-      <td>library, decode, images</td>
+      <td>decode, images, library</td>
       <td>1.2.0</td>
       <td>libwebp</td>
     </tr>
@@ -2234,7 +2240,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>multi, queue, kernel, tract, filter, transport, protocol, library, asynchronous, pattern</td>
+      <td>asynchronous, filter, tract, multi, transport, library, protocol, kernel, queue, pattern</td>
       <td>4.3.4</td>
       <td>libzmq</td>
     </tr>
@@ -2284,7 +2290,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Bianca, Irma, Snowy</td>
       <td>MPL 2.0</td>
-      <td>nanopore, variant, consensus, sequencing</td>
+      <td>consensus, nanopore, sequencing, variant</td>
       <td>0.7.1, 1.4.3</td>
       <td>medaka</td>
     </tr>
@@ -2304,7 +2310,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>pipeline, metagenomic, genome, genomic</td>
+      <td>pipeline, metagenomic, genomic, genome</td>
       <td>1.3.2</td>
       <td>metaWRAP</td>
     </tr>
@@ -2394,7 +2400,7 @@
       <td>Bioinformatics Alignment</td>
       <td>Milou, Rackham, Irma, Bianca</td>
       <td></td>
-      <td>multi, alignment</td>
+      <td>alignment, multi</td>
       <td>012109</td>
       <td>multiz</td>
     </tr>
@@ -2414,7 +2420,7 @@
       <td>Compilers and build tools</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>BSD 2-clause</td>
-      <td>table, architecture, compiler, gene</td>
+      <td>architecture, gene, compiler, table</td>
       <td>2.15.05</td>
       <td>nasm</td>
     </tr>
@@ -2494,7 +2500,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v2</td>
-      <td>chemical, language, peak</td>
+      <td>peak, chemical, language</td>
       <td>3.1.1-gcc9.3.0</td>
       <td>openbabel</td>
     </tr>
@@ -2504,7 +2510,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>BSD 3-clause</td>
-      <td>library, openmp</td>
+      <td>openmp, library</td>
       <td>0.2.14a, 0.2.19, 0.2.19-singlethread, 0.2.20, 0.2.20-singlethread, 0.2.20-openmp, 0.3.15, 0.3.15-singlethread, 0.3.15-openmp</td>
       <td>openblas</td>
     </tr>
@@ -2564,7 +2570,7 @@
       <td>Bioinformatics Alignment</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Same as blat</td>
-      <td>alignment, cluster</td>
+      <td>cluster, alignment</td>
       <td>0.1, 0.3, 1.0</td>
       <td>pblat-cluster</td>
     </tr>
@@ -2624,7 +2630,7 @@
       <td>Bioinformatics Misc</td>
       <td>Snowy, Rackham, Irma, Bianca</td>
       <td>GNU</td>
-      <td>phasing, phase</td>
+      <td>phase, phasing</td>
       <td>20210423-5d4926d</td>
       <td>phaser</td>
     </tr>
@@ -2754,7 +2760,7 @@
       <td>Libraries</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Google custom AS IS</td>
-      <td>language, utr, structure</td>
+      <td>utr, structure, language</td>
       <td>3.11.4, 3.15.5, 3.15.5-gcc9.3.0</td>
       <td>protobuf</td>
     </tr>
@@ -2784,7 +2790,7 @@
       <td>Compilers and build tools</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>PSF License Agreement</td>
-      <td>conflict, python, compiler</td>
+      <td>python, conflict, compiler</td>
       <td>3.6.0, 3.6.8, 3.7.2, 3.8.7, 3.9.5</td>
       <td>python3</td>
     </tr>
@@ -2804,7 +2810,7 @@
       <td>Bioinformatics Assembly</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>assembly, kmer</td>
+      <td>kmer, assembly</td>
       <td>0.3-9233726</td>
       <td>quickmerge</td>
     </tr>
@@ -2894,7 +2900,7 @@
       <td>Bioinformatics Misc</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>GPL v3</td>
-      <td>ancient, contamination</td>
+      <td>contamination, ancient</td>
       <td>20160424, 20200706-597c6bc</td>
       <td>schmutzi</td>
     </tr>
@@ -2904,7 +2910,7 @@
       <td>Bioinformatics Misc</td>
       <td>Milou, Rackham, Irma, Bianca</td>
       <td>GPL v3</td>
-      <td>plot, haplotype, selection</td>
+      <td>selection, plot, haplotype</td>
       <td>1.1.0, 1.3.0</td>
       <td>selscan</td>
     </tr>
@@ -2954,7 +2960,7 @@
       <td>Bioinformatics Misc</td>
       <td>Snowy, Rackham, Irma, Bianca</td>
       <td>GPL 2.0</td>
-      <td>reference, genome, reads, haploid</td>
+      <td>haploid, reference, genome, reads</td>
       <td>4.0, 4.0.5, 4.6.0</td>
       <td>snippy</td>
     </tr>
@@ -2974,7 +2980,7 @@
       <td>Bioinformatics Annotation</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>LGPL</td>
-      <td>annotation, snp</td>
+      <td>snp, annotation</td>
       <td>4.1, 4.2, 4.3t</td>
       <td>snpEff</td>
     </tr>
@@ -3084,7 +3090,7 @@
       <td>Bioinformatics Annotation</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Custom academic as-is</td>
-      <td>helices, hmm, transmembrane, protein, annotation</td>
+      <td>transmembrane, hmm, helices, protein, annotation</td>
       <td>2.0c</td>
       <td>tmhmm</td>
     </tr>
@@ -3124,7 +3130,7 @@
       <td>Bioinformatics Assembly</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>Custom 'AS IS'</td>
-      <td>assembly, transcript</td>
+      <td>transcript, assembly</td>
       <td>2014-07-17, 2.4.0, 2.9.1, 2.11.0, 2.13.2</td>
       <td>trinity</td>
     </tr>
@@ -3154,7 +3160,7 @@
       <td>Bioinformatics Alignment</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>MIT</td>
-      <td>assembly, alignment, reference, assembly-to-reference</td>
+      <td>assembly-to-reference, reference, alignment, assembly</td>
       <td>0.1-r46-dirty</td>
       <td>unimap</td>
     </tr>
@@ -3184,7 +3190,7 @@
       <td>Misc Applications</td>
       <td>Rackham, Irma, Bianca, Snowy</td>
       <td>BSD</td>
-      <td>learning, cache</td>
+      <td>cache, learning</td>
       <td>1.3.1-20200309-4b70a9f</td>
       <td>vmtouch</td>
     </tr>
@@ -3214,7 +3220,7 @@
       <td>Geospatial</td>
       <td>Rackham, Snowy</td>
       <td>GPL v2</td>
-      <td>search, python, interpolation, spatial</td>
+      <td>spatial, python, search, interpolation</td>
       <td>1.3.1</td>
       <td>wrf-python</td>
     </tr>
@@ -3240,9 +3246,13 @@
     </tr>
   </tbody>
 </table>
+            </div>
+        </section>
 
-        <!-- Include jQuery and DataTables libraries -->
+        <!-- Include jQuery -->
         <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- DataTables JS -->
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
 
         <!-- Initialize DataTables -->
