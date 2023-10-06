@@ -1,4 +1,3 @@
-
 site_name: UPPMAX Documentation
 
 repo_url: https://github.com/UPPMAX/UPPMAX-documentation
@@ -16,11 +15,12 @@ nav:
     - Basic Linux commands: getting_started/linux_basics.md
   - Cluster user guide:
     - Modules: cluster_guides/modules.md
+    - Slurm: cluster_guides/slurm.md
     - Running your first job: getting_started/first_job.md
-    - Installing and compiling:
+    - Installing: cluster_guides/install.md
+    - Own development:
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
-    - Slurm: cluster_guides/slurm.md
   - Software:
     - Overview: software/overview.md
     - Software-specific documentation:
