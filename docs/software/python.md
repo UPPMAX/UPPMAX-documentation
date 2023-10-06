@@ -1,5 +1,13 @@
 # Python user guide
 
+## Courses
+
+There are three UPPMAX courses related to python.
+- Introduction to Python connected to our [introduction week course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/).
+- 1-day workshop Using Python in a HPC environment 
+- 3-day course on Python, Julia and R.
+
+
 ## Python installations
 
 Different versions of Python are already available via the module system on Rackham, Snowy, Bianca and Irma. Some installed packages are available via the loaded module. 
@@ -53,3 +61,16 @@ The python prompt looks like this:
 >>>
 ```
 ​Exit with <Ctrl-D>, "quit()" or 'exit()'. 
+
+## Introduction
+
+Python is, according to the official home page:
+
+Python is a great object-oriented, interpreted, and interactive programming language. It is often compared  to Lisp, Tcl, Perl, Ruby, C#, Visual Basic, Visual Fox Pro, Scheme or Java... and it's much more fun.
+
+Python combines remarkable power with very clear syntax. It has modules, classes, exceptions, very high level dynamic data types, and dynamic typing. There are interfaces to many system calls and libraries, as well as to various windowing systems. New built-in modules are easily written in C or C++ (or other languages, depending on the chosen implementation). Python is also usable as an extension language for applications written in other languages that need easy-to-use scripting or automation interfaces. 
+
+Useful links:
+
+    Official documentation
+    Python forum
