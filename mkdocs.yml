@@ -18,11 +18,9 @@ nav:
     - Modules: cluster_guides/modules.md
     - Running your first job: getting_started/first_job.md
     - Installing and compiling:
-      - Install yourself: cluster_guides/install.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
-    - Slurm: cluster_guides//slurm.md
-    - Transfer of files:
+    - Slurm: cluster_guides/slurm.md
   - Software:
     - Overview: software/overview.md
     - Software-specific documentation:
