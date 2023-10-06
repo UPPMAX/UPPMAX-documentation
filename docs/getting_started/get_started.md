@@ -18,11 +18,9 @@ Once you or someone in your group or collaboration has a project, you must apply
 
 Have an account already? Then check out these basic user guides:
 
--[Bianca first steps](login_bianca.md)
-
--[Rackham first steps](login_rackham.md)
-
--[Snowy first steps](login_snowy.md)
+- [Bianca first steps](login_bianca.md)
+- [Rackham first steps](login_rackham.md)
+- [Snowy first steps](login_snowy.md)
 
 
 ## Students
