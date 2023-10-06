@@ -21,14 +21,14 @@ Versions:
 
 ```
 
-To load a specific version of Python into your environment, type e.g. 'module load python/3.8.7'.
-There is a system-installed Python on the clusters, 2.7.5, but it is not recommended to use that one for your purposes.
+To load a specific version of Python into your environment, type e.g. ``module load python/3.8.7``.
+There is a system-installed ``python`` (``2.7.5``), and ``python3`` (``3.6.8``) on the cluster, but these are not recommended to use for your purposes.
 Be aware of that this version will be used if you are not loading any python module.
-Why are there both python/3.X.Y and python3/3.X.Y modules?
+Why are there both ``python/3.X.Y`` and ``python3/3.X.Y`` modules?
 
-Sometimes existing software might use python2 and there’s nothing you can do about that. In pipelines and other toolchains the different tools may together require both python2 and python3. Here’s how you handle that situation:
+Sometimes existing software might use ``python2`` and there’s nothing you can do about that. In pipelines and other toolchains the different tools may together require both python2 and python3. Here’s how you handle that situation:
 
-    You can run two python modules at the same time if ONE of the module is python/2.X.Y and the other module is python3/3.X.Y (not python/3.X.Y).
+You can run two python modules at the same time if ONE of the module is python/2.X.Y and the other module is python3/3.X.Y (not python/3.X.Y).
 
 You can run a python script in the shell by:
 ```console
