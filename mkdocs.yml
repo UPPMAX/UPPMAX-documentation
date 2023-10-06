@@ -12,10 +12,13 @@ nav:
     - Logging into Bianca: getting_started/login_bianca.md
   - Cluster user guide:
     - Running your first job: getting_started/first_job.md
-    - Compiling serial source code: running_jobs/compiling_serial.md
+    - Compiling serial code: running_jobs/compiling_serial.md
+    - Compiling parallel code: running_jobs/compiling_parallel.md
     - Slurm: running_jobs/slurm.md
   - Software:
     - Overview: software/overview.md
+    - Software-specific documentation:
+      - test: software/test.md
   - Databases: databases/overview.md
   - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
