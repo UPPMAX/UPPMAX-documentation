@@ -12,7 +12,7 @@ nav:
     - Logging into Bianca: getting_started/login_bianca.md
   - Cluster user guide:
     - Running your first job: getting_started/first_job.md
-    - Compiling serial source code: getting_started/compiling_serial.md
+    - Compiling serial source code: running_jobs/compiling_serial.md
     - Slurm: running_jobs/slurm.md
   - Software:
     - Overview: software/overview.md
