@@ -6,7 +6,7 @@ For parallel programs, see MPI and OpenMP user guide.
 
 Enter the following fortran program and save in the file hello.f
 
-``` c
+``` fortran
 C     HELLO.F :  PRINT MESSAGE ON SCREEN
       PROGRAM HELLO
       WRITE(*,*) "hello, world";
@@ -80,6 +80,7 @@ hello, world
 
 Enter the following c program and save in the file hello.c
 
+``` c
 /* hello.c :  print message on screen */
 #include <stdio.h>
 int main()
@@ -87,52 +88,64 @@ int main()
     printf("hello, world\n");
     return 0;
 } 
+```
 
 To compile using gcc installed with the system (4.8.5, 2015) and with no optimization, use the gcc command.
 
+``` console
 $ gcc -o hello hello.c
+```
 
 To use a newer version of ggc we load a module:
 
+``` console
 $ module load gcc/10.3.0
-
 $ gcc -o hello hello.c
-
+```
 with basic optimization:
 
+``` console
 $ gcc -O3 -o hello hello.c
+```
 
 c11 standard has full support from gcc/4.8, c17 standard (bug-fix) from gcc/8.
 
 To use the intel compiler, first load the intel module:
 
+``` console
 $ module load intel/20.4
-
+```
 or for newer Intel versions (2021-, see above):
 
+``` console
 $ module load intel-oneapi compiler
-
 $ module load compiler/2023.1.0 
+```
 
 and then compile with the command icc, or icx:
 
+``` console
 $ icc -o hello hello.c
+```
 
 or for newer versions:
 
+``` console
 $ icx -o hello hello.c
-
+```
 To run, enter:
 
+``` console
 $ ./hello
 hello, world
-
+```
 c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
 
 ## Java programs
 
 Enter the following java program and save in the file hello.java
 
+``` java
 /* hello.java :  print message on screen */
 class hello {
 public static void main(String[] args)
@@ -140,29 +153,38 @@ public static void main(String[] args)
      System.out.println("hello, world");
 }
 }
-
+```
 Before compiling a java program, the module java has to be loaded.
 To load the java module, enter the command:
 
+``` console
 $ module load java
+```
 
 To check that the java module is loaded, use the command:
 
+``` console
 $ module list
 
 To compile, enter the command:
 
+``` console
 $ javac hello.java
+```
 
 The java module is not always needed to run the program.
 To verify this, unload the java module:
 
+``` console
 $ module unload java
+```
 
 to run, enter:
 
+``` console
 $ java hello
 hello, world
+```
 
 Running serial programs on execution nodes
 
@@ -171,7 +193,7 @@ We use SLURM on our clusters.
 
 To run the serial program hello as a batch job using SLURM, enter the following shell script in the file hello.sh:
 
-
+```bash
 #!/bin/bash -l
 # hello.sh :  execute hello serially in SLURM
 # command: $ sbatch hello.sh
@@ -186,15 +208,18 @@ To run the serial program hello as a batch job using SLURM, enter the following 
 # request one core
 #SBATCH -p core -n 1
 ./hello
+```
 
 The last line in the script is the command used to start the program.
 
 Submit the job to the batch queue:
 
+``` console
 $ sbatch hello.sh
-
+```
 The program's output to stdout is saved in the file named at the -o flag.
 
+``` console
 $ cat hello.out
 hello, world
-
+```
