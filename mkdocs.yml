@@ -19,6 +19,7 @@ nav:
     - Overview: software/overview.md
     - Software-specific documentation:
       - test: software/test.md
+      - Python: software/python.md
   - Databases: databases/overview.md
   - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
