@@ -1,4 +1,4 @@
-MPI and OpenMP user guide
+#MPI and OpenMP user guide
 
 Table of contents:
 
