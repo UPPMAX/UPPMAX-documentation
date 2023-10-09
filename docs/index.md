@@ -18,6 +18,9 @@ template: home.html
 
 [Get started using UPPMAX](getting_started/project_apply/){ .md-button .md-button--primary }
 
+[:material-rocket-launch: Getting started](getting_started/get_started/){: .md-button }
+
+
 <br/><br/>
 
 
