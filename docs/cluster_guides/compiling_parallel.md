@@ -303,7 +303,7 @@ Do this by the line below in your batch script or in your interactive environmen
 
 export OMPI_MCA_btl_openib_allow_ib=1
 
-C programs
+### C programs
 
 Enter the following mpi program in c and save in the file hello.c
 
@@ -381,7 +381,7 @@ From process 3 out of 8, Hello World!
 From process 1 out of 8, Hello World!
 From process 0 out of 8, Hello World! 
 
-Fortran programs
+### Fortran programs
 
 The following example program does numerical integration to find Pi (inefficiently, but it is just an example):
 
@@ -502,7 +502,7 @@ or
 
 $ module load intel/20.4
 
-C programs
+### C programs
 
 Enter the following openmp program in c and save in the file hello_omp.c
 
@@ -566,6 +566,7 @@ $ sbatch hello.sh
 The program's output to stdout is saved in the file named at the -o flag.
 A test run of the above program yelds the following output file:
 
+```console
 $ cat hello.out
 r483.uppmax.uu.se
 unlimited
@@ -577,8 +578,9 @@ From thread 4 out of 8, hello, world
 From thread 6 out of 8, hello, world
 From thread 7 out of 8, hello, world
 From thread 5 out of 8, hello, world
+```
 
-Fortran programs
+### Fortran programs
 
 Enter the following openmp program in Fortran and save in the file hello_omp.f90
 
