@@ -11,8 +11,9 @@ nav:
       - Logging into Rackham: getting_started/login_rackham.md
       - Logging into Snowy: getting_started/login_snowy.md
       - Logging into Bianca: getting_started/login_bianca.md
-    - Working in Linux: getting_started/linux.md
-    - Basic Linux commands: getting_started/linux_basics.md
+    - Linux tutorials:
+      - Working in Linux: getting_started/linux.md
+      - Basic Linux commands: getting_started/linux_basics.md
   - Cluster user guide:
     - Modules: cluster_guides/modules.md
     - Slurm: cluster_guides/slurm.md
