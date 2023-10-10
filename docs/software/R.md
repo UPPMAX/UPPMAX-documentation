@@ -2,21 +2,21 @@
 
 As of this writing, our most recent installations are
 
-    R/4.1.1
-    R_packages/4.1.1
-    RStudio/2022.02.0-443
+    R/4.3.1
+    R_packages/4.3.1
+    RStudio/2023.06.2-561
     If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
 
-Note that R_packages/4.1.1 contains 21659 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.1.1 and R_packages for more information.
+Note that R_packages/4.3.1 contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.1.1 and R_packages for more information.
 
-Note that R_packages/4.1.1 loads R/4.1.1 as a prerequisite, so to get started with R and and have many installed modules available, simply do
+Note that R_packages/4.3.1 loads R/4.3.1 as a prerequisite, so to get started with R and and have many installed modules available, simply do
 
-     $ module load R_packages/4.1.1 
+     $ module load R_packages/4.3.1 
      $ R &
 
 To use RStudio just add to loaded R_packages:
 
-     $ module load RStudio/2022.02.0-443
+     $ module load RStudio/2022.07.1-554
      $ rstudio &
 
 That will start an RStudio session with the latest R and R_packages.
@@ -49,12 +49,13 @@ There is a system installed version, available via the "rstudio" command (you wi
 
 However, we recommend you to use a RStudio module.
 
-    start a command line window
-    load R_packages/4.1.1, use 'module help R_packages/4.1.1' to see what is available in this certain version
-    module load RStudio/1.4.1106
-    run 'rstudio &' from the command line, and wait
-        it might take 5-10 minutes for RStudio to start, but once it starts, there should be no further delays
-     do *not* start RStudio through the graphical menu system, this will not have access to loaded modules
+- start a command line window
+- ``module load R_packages/4.1.1``
+- use 'module help R_packages/4.1.1' to see what is available in this certain version
+- ``module load RStudio/1.4.1106``
+- run 'rstudio &' from the command line, and wait
+    - it might take 5-10 minutes for RStudio to start, but once it starts, there should be no further delays
+- do *not* start RStudio through the graphical menu system, this will not have access to loaded modules
 
 If you're going to run heavier computations within RStudio then you have to remember that you need to do it inside an interactive session on one of the computation nodes, and not on a login node. But if you mostly want to use it as a pretty code editor then you can run it on the login node as well. 
 
@@ -64,6 +65,7 @@ When logging onto Bianca, you are placed on a login node, which has 1 CPU and a 
 
 Such is the case for using RStudio on Bianca. We recommend using at least two cores for this, and to get those resources, you must start an interactive job, for example,
 
+```console
 $ interactive -A <project> -n 2 -t hh:mm:sec
-
+```
 Once the interactive job has begun, load an RStudio module and an R_packages module and run "rstudio" from there. 
