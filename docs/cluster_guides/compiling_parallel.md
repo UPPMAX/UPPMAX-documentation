@@ -336,6 +336,7 @@ $ mpicc -fast -o hello hello.c
 
 To run the mpi program hello using the batch system:
 
+```bash
 #!/bin/bash -l
 # hello.sh :  execute parallel mpi program hello on slurm
 # use openmpi
@@ -350,6 +351,7 @@ To run the mpi program hello using the batch system:
 #SBATCH -p node -n 8
 module load gcc/10.3 openmpi/3.1.3
 mpirun ./hello
+```
 
 The last line in the script is the command used to start the program.
 The last word on the last line is the program name hello.
@@ -418,6 +420,7 @@ $ mpif90 -Ofast -o testampi testampi.f90
 
 The program can be run by creating a submit script sub.sh:
 
+```bash
 #!/bin/bash -l
 # execute parallel mpi program in slurm
 # command: $ sbatch sub.sh
@@ -433,6 +436,7 @@ The program can be run by creating a submit script sub.sh:
 module load intel/20.4 openmpi/3.1.6
 
 mpirun ./testampi
+```
 
 Submit it:
 
@@ -518,6 +522,7 @@ Also here you should add optimization flags such as -fast as appropriate.
 
 To run the openMP program hello using the batch system, enter the following shell script in the file hello.sh:
 
+```bash
 #!/bin/bash -l
 # hello.sh :  execute parallel openmp program hello on slurm
 # use openmp
@@ -537,6 +542,7 @@ module load intel/20.4
 # or gcc...
 ulimit -s  $STACKLIMIT
 ./hello_omp
+```bash
 
 The last line in the script is the command used to start the program.
 
@@ -638,11 +644,14 @@ int main()
 
 To compile, enter the commands
 
+```console
 $ module load gcc/10.2.0
 $ gcc -pthread -o hello_pthread hello_pthread.c
+```
 
 To run the pthread program hello using the batch system, enter the following shell script in the file hello.sh:
 
+```bash
 #!/bin/bash -l
 # hello.sh :  execute parallel pthreaded program hello on slurm
 # command: $ sbatch hello.sh
@@ -658,15 +667,18 @@ To run the pthread program hello using the batch system, enter the following she
 #SBATCH -p node -n 8
 uname -n
 ./hello_pthread
+```
 
 The last line in the script is the command used to start the program.
 Submit the job to the batch queue:
 
+```console
 $ sbatch hello.sh
-
+```
 The program's output to stdout is saved in the file named at the -o flag.
 A test run of the above program yelds the following output file:
 
+```console
 $ cat hello.out
 r483.uppmax.uu.se
 From thread 0 out of 8: hello, world
@@ -677,3 +689,4 @@ From thread 7 out of 8: hello, world
 From thread 1 out of 8: hello, world
 From thread 2 out of 8: hello, world
 From thread 3 out of 8: hello, world
+```
