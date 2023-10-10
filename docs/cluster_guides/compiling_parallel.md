@@ -21,8 +21,9 @@ Table of contents:
 This is a short tutorial about how to use the queuing system, and how to compile and run MPI and OpenMP jobs.
 
 For serial programs, see a short version of this page at Compiling source code.
-Compiling and running parallel programs on UPPMAX clusters.
-Introduction
+
+## Compiling and running parallel programs on UPPMAX clusters.
+### Introduction
 
 These notes show by brief examples how to compile and run serial and parallel programs on the clusters at UPPMAX.
 
@@ -37,7 +38,8 @@ Section 4 demonstrate threaded programs in c using OpenMP directives. These prog
 Section 5, finally, demonstrate threaded programs usinig pthreads instead of OpenMP.
 
 All programs are of the trivial "hello, world" type. The point is to demonstrate how to compile and execute the programs, not how to write parallel programs.
-Overview of available compilers from GCC and Intel and compatible MPI libraries
+
+## Overview of available compilers from GCC and Intel and compatible MPI libraries
 
     GCC
         v5: gcc/5.3.0 openmpi/1.10.3
@@ -68,8 +70,8 @@ Do this by the line below in your batch script or in your interactive environmen
 
 export OMPI_MCA_btl_openib_allow_ib=1
 
-Serial programs on the login node
-Fortran programs
+## Serial programs on the login node
+### Fortran programs
 
 Enter the following fortran program and save in the file hello.f
 
@@ -132,7 +134,7 @@ to run, enter:
 $ ./hello
 hello, world
 
-C programs
+### C programs
 
 Enter the following c program and save in the file hello.c
 
@@ -184,7 +186,8 @@ $ ./hello
 hello, world
 
 c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
-Java programs
+
+### Java programs
 
 Enter the following java program and save in the file hello.java
 
@@ -226,6 +229,7 @@ We use SLURM on our clusters.
 
 To run the serial program hello as a batch job using SLURM, enter the following shell script in the file hello.sh:
 
+```bash
 #!/bin/bash -l
 # hello.sh :  execute hello serially in SLURM
 # command: $ sbatch hello.sh
@@ -240,6 +244,7 @@ To run the serial program hello as a batch job using SLURM, enter the following 
 # request one core
 #SBATCH -p core -n 1
 ./hello
+```
 
 The last line in the script is the command used to start the program.
 
@@ -252,7 +257,7 @@ The program's output to stdout is saved in the file named at the -o flag.
 $ cat hello.out
 hello, world
 
-MPI using the OpenMPI library
+## MPI using the OpenMPI library
 
 Before compiling a program for MPI we must choose, in addition to the compiler, which version of MPI we want to use. At UPPMAX there are two, openmpi and intelmpi. These, with their versions, are compatible only to a subset of the gcc and intel compiler versions. The lists below summarise the best choices.
 
@@ -470,7 +475,7 @@ Result from node             4  is    0.1122902087263801
 Result of integration is    0.7853982201935574     
 Estimate of Pi is     3.141592880774230     
 
-OpenMP
+## OpenMP
 
 OpenMP uses threads that use shared memory. OpenMP is supported by both the gcc and intel compilers and in the c/c++ and Fortran languages. Don't mix with OpenMPI whis is an open source library for MPI. OpenMP is built in in all modern compiler libraries.
 
@@ -594,7 +599,7 @@ Hello World from thread =            1
 
 A batch file would look similar to the C version, above. 
 
-Pthreads
+## Pthreads
 
 Pthreads (Posix threads) are more low-level than openMP. That means that for a beginner it is easier to get rather expected gain only with a few lines with openMP. On the other hand it may be possible to gain more efficiency from your code with pthreads, though with quite some effort. Pthreads is native in c/c++. With additional installation of a POSIX library for Fortran it is possible to run it in there as well.
 
