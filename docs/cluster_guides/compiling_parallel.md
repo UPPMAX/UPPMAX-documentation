@@ -75,10 +75,12 @@ export OMPI_MCA_btl_openib_allow_ib=1
 
 Enter the following fortran program and save in the file hello.f
 
+```fortran
 C     HELLO.F :  PRINT MESSAGE ON SCREEN
       PROGRAM HELLO
       WRITE(*,*) "hello, world";
       END 
+```
 
 To compile this you should decide on which compilers to use. At UPPMAX there are two different Fortran compilers installed gcc (gfortran) and Intel (ifort).
 
@@ -138,6 +140,7 @@ hello, world
 
 Enter the following c program and save in the file hello.c
 
+```c
 /* hello.c :  print message on screen */
 #include <stdio.h>
 int main()
@@ -145,6 +148,7 @@ int main()
     printf("hello, world\n");
     return 0;
 } 
+```
 
 To compile using gcc installed with the system (4.8.5, 2015) and with no optimization, use the gcc command.
 
@@ -191,6 +195,7 @@ c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
 
 Enter the following java program and save in the file hello.java
 
+``` java
 /* hello.java :  print message on screen */
 class hello {
 public static void main(String[] args)
@@ -198,6 +203,7 @@ public static void main(String[] args)
      System.out.println("hello, world");
 }
 }
+```
 
 Before compiling a java program, the module java has to be loaded.
 To load the java module, enter the command:
@@ -301,6 +307,7 @@ C programs
 
 Enter the following mpi program in c and save in the file hello.c
 
+```c
 /* hello.c :  mpi program in c printing a message from each process */
 #include <stdio.h>
 #include <mpi.h>
@@ -314,6 +321,7 @@ int main(int argc, char *argv[])
     MPI_Finalize();
     return 0;
 }
+```
 
 Before compiling a program for MPI we must choose which version of MPI. At UPPMAX there are two, openmpi and intelmpi. For this example we will use openmpi.
 To load the openmpi module, enter the command below or choose other versions according to the lists above.
@@ -377,6 +385,8 @@ Fortran programs
 
 The following example program does numerical integration to find Pi (inefficiently, but it is just an example):
 
+```fortran
+
 program testampi
     implicit none
     include 'mpif.h'
@@ -412,6 +422,7 @@ program testampi
     call MPI_Finalize(ierr)
     stop
 end program testampi
+```
 
 The program can be compiled by this procedure, using mpif90:
 
@@ -495,6 +506,7 @@ C programs
 
 Enter the following openmp program in c and save in the file hello_omp.c
 
+```c
 /* hello.c :  openmp program in c printing a message from each thread */
 #include <stdio.h>
 #include <omp.h>
@@ -509,6 +521,7 @@ int main()
     }
     return 0;
 }
+```
 
 To compile, enter the command (note the -fopenmp or -qopenmp flag depending on compiler):
 
@@ -569,6 +582,7 @@ Fortran programs
 
 Enter the following openmp program in Fortran and save in the file hello_omp.f90
 
+```fortran
 PROGRAM HELLO
 INTEGER NTHREADS, TID, OMP_GET_NUM_THREADS, OMP_GET_THREAD_NUM
 ! Fork a team of threads giving them their own copies of variables
@@ -584,6 +598,7 @@ END IF
 ! All threads join master thread and disband
 !$OMP END PARALLEL
 END
+```
 
 With gcc compiler: 
 
@@ -611,6 +626,7 @@ Pthreads (Posix threads) are more low-level than openMP. That means that for a b
 
 Enter the following program in c and save in the file hello_pthreads.c
 
+```c
 /* hello.c :  create system pthreads and print a message from each thread */
 #include <stdio.h>
 #include <pthread.h>
@@ -641,6 +657,7 @@ int main()
             pthread_join(thread[i], NULL);
       return 0;
 }
+```
 
 To compile, enter the commands
 
