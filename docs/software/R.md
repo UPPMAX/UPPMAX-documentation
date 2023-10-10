@@ -7,7 +7,7 @@ As of this writing, our most recent installations are
     RStudio/2023.06.2-561
     If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
 
-Note that R_packages/4.3.1 contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.1.1 and R_packages for more information.
+Note that R_packages/4.3.1 contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.3.1 and R_packages for more information.
 
 Note that R_packages/4.3.1 loads R/4.3.1 as a prerequisite, so to get started with R and and have many installed modules available, simply do
 
