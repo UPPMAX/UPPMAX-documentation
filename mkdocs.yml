@@ -30,7 +30,7 @@ nav:
       - Julia: software/julia.md
       - MATLAB: software/matlab.md
       - GROMACS: software/gromacs.md
-      - Perl: software/perl.md
+      - Perl_modules: software/perl.md
   - Databases: databases/overview.md
   - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
