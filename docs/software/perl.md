@@ -1,6 +1,6 @@
-# Perl module guide
+# Perl_modules guide
 
-A number of modules are available by default with all Perl versions. This is a list of modules for perl/5.26.2 available by loading the module perl_modules/5.26.2. For previous Perl versions 5.18.4 and 5.24.1 (available through the software module system as perl/5.18.4 and perl/5.24.1), many more Perl modules are available by loading the software module perl_modules/5.18.4 or perl_modules/5.24.1. A complete list of the Perl modules available in perl_modules/5.26.2 module is as follows:
+A number of modules/packages are available by default with all Perl versions. This is a list of modules for perl/5.26.2 available by loading the module perl_modules/5.26.2. For previous Perl versions 5.18.4 and 5.24.1 (available through the software module system as perl/5.18.4 and perl/5.24.1), many more Perl modules are available by loading the software module perl_modules/5.18.4 or perl_modules/5.24.1. A complete list of the Perl modules available in perl_modules/5.26.2 module is as follows:
 
 Perl Module Search on perl_modules/5.26.2/rackham
 Module name	Version
