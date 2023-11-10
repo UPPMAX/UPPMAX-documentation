@@ -61,7 +61,7 @@ $ mpirun -np XX gmx_mpi mdrun -ntomp YY -s MEM.tpr -nsteps 10000 -resethway
 
 where XX * YY = 20
 
-``` bash 
+``` bash linenums="1"
 $ grep "gmx_mpi\|MPI ranks\|Performance" *
 
 #md.log.1#:  gmx_mpi mdrun -ntomp 1 -s MEM.tpr -nsteps 10000 -resethway
