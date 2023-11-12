@@ -109,6 +109,8 @@ for software,versions in categories['Uncategorized'].copy().items():
 # create output dir if needed
 os.makedirs(output_dir, exist_ok=True)
 
+software_counter = 0
+version_counter  = 0
 # open file for writing
 with open(output_file, 'w', encoding='utf-8') as output_file_md:
 
@@ -152,9 +154,13 @@ with open(output_file, 'w', encoding='utf-8') as output_file_md:
             # write link to software page
             output_file_md.write(f"""
 | {category} | {software_str} | {data['MODULE']} | {data['CLUSTER']} | {", ".join(versions_list)} | {license_str} |""")
+
+            software_counter += 1
+            version_counter  += len(versions_list)
+
     
 
-
+print(f"Done, wrote {software_counter} softwares ({version_counter} versions) to the table in {output_file}")
 
 
 
