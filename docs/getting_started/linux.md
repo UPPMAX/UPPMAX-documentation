@@ -27,7 +27,7 @@
  
 
 - Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
-  - [Linux naming controversy]((https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
+  - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
 
  
 
