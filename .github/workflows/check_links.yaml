@@ -1,27 +1,24 @@
-# Check if any links are broken
-name: Check links
-
 on:
   push:
   pull_request:
   schedule:
-  - cron: "0 0 16 * *"
+  - cron: "0 0 12 * *"
 
+name: check-links
 
 jobs:
-  check_links:
-
+  check-links:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
       - uses: actions/checkout@v2
 
-      - name: Remove folders that do not care about broken links
+      - name: Remove lines with false positives
         run: |
-          rm -rf development_design
+          sed -i 's/.*check_links.yaml.*//g' README.md
+          sed -i 's/.*check_spelling.yaml.*//g' README.md
 
-      - uses: lycheeverse/lychee-action@v1.2.0
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
-          fail: true
+          config-file: 'mlc_config.json'
