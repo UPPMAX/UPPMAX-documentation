@@ -148,7 +148,7 @@ To go back to your own personal packages:
 You can load (using/import) ANY package from both lotcal and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
 
 Start an installation locally
-To install personal packages, start to be sure hat you are in your local environmenyou type within Julia:
+To install personal packages, start to be sure hat you are in your local environment. You type within Julia:
 
      Pkg.activate(DEPOT_PATH[1]*"/environmentts/v1.8");
      Pkg.add("<package_name>")
@@ -194,7 +194,7 @@ How to run parallel jobs
 There are several packages available for Julia that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines. You'll find an introduction here.
 
 Run interactively on compute node
-Alwasy run parallel only on the compute nodes. This is an example with 4 cores on Rackham
+Always run parallel only on the compute nodes. This is an example with 4 cores on Rackham
 
 $ interactive -A <proj> -n 4 -t 3:00:00
 Running interactively at UPPMAX

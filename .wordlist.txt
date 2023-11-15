@@ -31,7 +31,6 @@ aix
 AliasMethod
 AllUtils
 Alvis
-Alwasy
 AmigaOS
 Anadyr
 analysed
@@ -573,7 +572,6 @@ EnumValuesMustBeString
 ENV
 Env
 env
-environmenyou
 ENVS
 envs
 EnvVar
