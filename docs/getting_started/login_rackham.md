@@ -276,7 +276,7 @@
 
 - Integrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
-- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/remote_vscode/) 
+- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/) 
     - Similar to Rackham. Just change login details!
 
  
