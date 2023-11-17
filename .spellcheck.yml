@@ -41,5 +41,5 @@ matrix:
       - 'pre'
       - 'blockquote'
   sources:
-  - '**/*.qmd'
+  - '**/*.md'
   default_encoding: utf-8
