@@ -11,7 +11,7 @@
 - Snowy can be used for general purpose computing
 - We offer GPUs
 - We offer long wall time jobs, 30 days. 
-- The Snowy hardware: https://uppmax.github.io/UPPMAX-userguide/hardware/clusters/snowy.md
+
 
 
 ## Local UPPMAX project
