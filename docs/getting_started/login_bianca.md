@@ -58,7 +58,7 @@
 ![Image](./img/biancaorganisation-01.png)
 
 - Bianca is only accessible from within Sunet (i.e. from university networks).
-- Use VPN outside Sunet. [Link to VPN for UU](https://mp.uu.se/en/web/info/stod/it-telefoni/it-support/network-on-campus/vpn-service)
+- Use VPN outside Sunet. [Link to VPN for UU](https://mp.uu.se/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
   - You can get VPN credentials from all Swedish universities.
 
 <br>
