@@ -2490,3 +2490,8 @@ GitLab
 HPC
 Uppsala
 YY
+
+Swegen
+datacentre
+reproducibility
+SciLifeLab
