@@ -14,7 +14,7 @@ Supercomputing in Sweden (NAISS)](https://www.naiss.se/) and as such
 |**Memory per node**|128GB|128GB|128GB | 384GB |128/256GB |
 |**Fat nodes**|256GB & 1TB| 256, 512 GB & 4TB| 256 & 512GB| 2/4TB| N/A
 |**Local disk (scratch)**|2/3TB| 4TB| 4TB | 12TB | N/A
-|**Network**|Infiniband FDR 56Gb/s| Infiniband FDR 40GB/s | ? | ? | 10GbE
+|**Network**|Infiniband FDR 56Gbit/s| Infiniband FDR 40Gbit/s | Dual 10Gbit/s | ? | 10GbE
 |**Operating System**|CentOS 7| CentOS 7| CentOS 7| Rock Linux 8.5 | [Linux cloud image](https://cloud.snic.se/instances/) |
 |**Login nodes**|Yes| No (reached from Rackham)|Yes (2 cores and 15 GB)| Yes | N/A
     |**"Home" storage**|Domus|Domus|Castor| ? | N/A
