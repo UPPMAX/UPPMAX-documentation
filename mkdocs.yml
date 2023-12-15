@@ -46,11 +46,13 @@ theme:
   logo: assets/logo_color.png
 
   features:
+    - toc.integrate
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.footer
+    - navigation.expand
     - search.suggest
     - content.code.annotate
     - content.tabs.link
@@ -62,7 +64,7 @@ extra_css:
 
 markdown_extensions:
   - toc:
-      toc_depth: 3
+      toc_depth: 2
       permalink: true
       permalink_title: Anchor link to this section for reference
   - admonition
