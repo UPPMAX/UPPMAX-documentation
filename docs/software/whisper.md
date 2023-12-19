@@ -14,7 +14,7 @@ To load the Whisper module, run the following command:
 module load Whisper/0.5.1
 ```
 
-This will also load the necessary dependencis, including `python` 
+This will also load the necessary dependencies, including `python` 
 and `ffmpeg`.
 
 ```bash
