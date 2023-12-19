@@ -17,13 +17,13 @@
 !!! info "Tip Python packages"
 
     - Try Conda first directly on Bianca.
-    - Otherwise, on Rackham, in first case use Pip. 
+    - Otherwise, on **Rackham**, in first case use **Pip**. 
     - We have mirrored all _major_ Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
     - If you want to keep number of files down, use PyPI (pip).
 
 ## Python packages with pip
 
-    - See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
+- See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
 
 ## Conda
 
@@ -47,9 +47,7 @@
 
 !!! info "More info"
 
-    - [Installing Conda packages](https://uppmax.github.io/bianca_workshop/extra/conda/)
-    - [Conda user guide](https://www.uppmax.uu.se/support/user-guides/conda-user-guide/)
-    - [UPPMAX Python user guide: Conda](https://www.uppmax.uu.se/support/user-guides/python-user-guide/#tocjump_9332829429720808_6)
+    - [Installing Conda packages on Bianca](https://uppmax.github.io/bianca_workshop/extra/conda/)
 
 ## Using Conda
 
