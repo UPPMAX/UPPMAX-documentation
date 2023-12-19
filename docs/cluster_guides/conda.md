@@ -381,8 +381,32 @@ Check your disk usage and quota limit with uquota
 
 Do a conda clean -a once in a while to remove unused and unnecessary files
 
-Conda in batch scripts
+### Conda in batch scripts
 If you already have setup the CONDA_ENVS_PATH path and run 'conda init bash' a batch script containing a conda environment shall include
 
    $ module load conda 
     $ conda activate <name of environment>
+
+### Packages on Bianca
+Since we have mirrored conda repositories locally conda will work also on Bianca!
+
+First try Conda! There is a mirrored repository with many available packages.
+
+If your desired package is not there but available as pip follow the guide below, perhaps , while looking at Bianca user guide  and Transit user guide.
+
+Make an installation on Rackham and then use the wharf to copy it over to your directory on Bianca.
+
+Path on Rackham and Bianca could be (~/.local/lib/python<version>/site-packages/ ).
+
+You may have to:
+
+in source directory:
+
+$ cp –a <package_dir> <wharf_mnt_path>
+you may want to tar before copying to include all possible symbolic links:
+
+$ tar cfz <tarfile.tar.gz> <package>
+and in target directory (wharf_mnt) on Bianca:
+$ tar xfz <tarfile.tar.gz> #if there is a tar file!
+$ mv –a  <file(s)> ~/.local/lib/python<version>/site-packages/
+If problems arise, send an email to support@uppmax.uu.se and we'll help you.
