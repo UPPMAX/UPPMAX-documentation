@@ -121,7 +121,8 @@ A very small selection of installed packages are:
 
 In the python scripts or python prompt packages are imported or loaded by the commands ``import``. 
 
-How to install packages
+## How to install packages
+
 There are two package installation systems
 
 PyPI (pip) is traditionally for Python-only packages but it is no problem to also distribute packages written in other languages as long as they provide a Python interface.
@@ -137,7 +138,8 @@ Does it work? Then it is there!
 
 Otherwise, you can either use "pip" or "Conda".
 
-Pip
+### Pip
+
 You use pip this way, in Linux shell or python shell:
 
    $ pip install --user <package name>    # or pip3 if required from loaded python module
@@ -153,115 +155,14 @@ To be able to find those packages with non-default path you have to set the PYTH
 $ export PYTHONPATH=<prefix-path>/lib/pythonX.Y/site-packages/:$PYTHONPATH.
 You may want to add this line in your .bashrc file!
 
-Conda
-We have mirrored all major conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day. We have the following channels available:
 
-bioconda
+### Conda
 
-biocore
+See our [Conda user Guide](../cluster_guides/conda.md)
 
-conda-forge
 
-dranew
 
-free
-
-main
-
-pro
-
-qiime2
-
-r
-
-r2018.11
-
-scilifelab-lts
-
-You reach them all by loading the conda module. You don’t have to state the specific channel.
-
-Procedure
-First load our conda module (there is no need to install you own miniconda, for most cases )
-
-$ module load conda
-This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
-
-Check the text output as conda is loaded, especially the first time, see below
-
-The variable CONDA_ENVS_PATH contains the location of your environments. Set it to your project’s environments folder if you have one. Otherwise, the default is ~/.conda/envs. You may run source conda_init.sh to initialise your shell to be able to run conda activate and conda deactivate etc. Just remember that this command adds stuff to your shell outside the scope of the module system. REMEMBER TO conda clean -a once in a while to remove unused and unnecessary files.
-Step 2 First time
-
-The variable CONDA_ENVS_PATH contains the location of your environments. Set it to your project’s environments folder if you have one.
-
-Otherwise, the default is ~/.conda/envs.
-
-Example:
-
-$ export CONDA_ENVS_PATH=/proj/snic2020-5-XXX
-By choice:
-Run conda init bash to initialise your shell (bash) to be able to run conda activate and conda deactivate etcetera instead of source activate. It will modify (append) your .bashrc file.
-
-Step 3 Create the conda environment
-
-Example:
-
-$ conda create --name python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
-THE MAMBA ALTERNATIVE
-
-mamba is a fast drop-in alternative to conda, using “libsolv” for dependency resolution. It is available from the conda module.
-
-Example:
-
-mamba create --name python37-env python=3.7 numpy=1.13.1 matplotlib=2.2.2
-Step 4 Activate the conda environment by:
-
-$ source activate python36-env
-You will see that your prompt is changing to start with (python-36-env) to show that you are within an environment.
-
-Step 5 Now do your work!
-
-(python-36-env) $ <...>
-Step 6 Deactivate
-
-(python-36-env) $ source deactivate
-Warning
-
-Conda is known to create many small files. Your diskspace is not only limited in GB, but also in number of files (typically 300000 in $home).
-
-Check your disk usage and quota limit with uquota
-
-Do a conda clean -a once in a while to remove unused and unnecessary files
-
-Conda in batch scripts
-If you already have setup the CONDA_ENVS_PATH path and run 'conda init bash' a batch script containing a conda environment shall include
-
-   $ module load conda 
-    $ conda activate <name of environment>
-Packages on Bianca
-Since we have mirrored conda repositories locally conda will work also on Bianca!
-
-First try Conda! There is a mirrored repository with many available packages.
-
-If your desired package is not there but available as pip follow the guide below, perhaps , while looking at Bianca user guide  and Transit user guide.
-
-Make an installation on Rackham and then use the wharf to copy it over to your directory on Bianca.
-
-Path on Rackham and Bianca could be (~/.local/lib/python<version>/site-packages/ ).
-
-You may have to:
-
-in source directory:
-
-$ cp –a <package_dir> <wharf_mnt_path>
-you may want to tar before copying to include all possible symbolic links:
-
-$ tar cfz <tarfile.tar.gz> <package>
-and in target directory (wharf_mnt) on Bianca:
-$ tar xfz <tarfile.tar.gz> #if there is a tar file!
-$ mv –a  <file(s)> ~/.local/lib/python<version>/site-packages/
-If problems arise, send an email to support@uppmax.uu.se and we'll help you.
-
-Isolated environments
+## Isolated environments
 Good introduction at CodeRefinery's course in Python for Scientific Computing .
 
 Isolated environments solve a couple of problems:
@@ -272,7 +173,7 @@ You can create one for each project and no problem if the two projects require d
 
 If you make some mistake and install something you did not want or need, you can remove the environment and create a new one.
 
-Example with virtual environment
+### Example with virtual environment
 Create a "venv". First load the python version you want to base your virtual environment on. 
 
 Example with python/3.6.0
@@ -304,12 +205,13 @@ See further down how to use Jupyter from an isolated session where you used --sy
 
 More on virtual environment
 
-Installing with pyenv
+### Installing with pyenv
+
 This approach is more advanced and should be, in our opinion, used only if the above are not enough for the purpose. Probably Conda will work well four you. The approach below allows you to install your own python version and much more… 
 
 Confer the official pyenv documentation.  
 
-First time at UPPMAX
+#### First time at UPPMAX
 
 1. Download pyenv
 
@@ -321,7 +223,7 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 To make sure everything gets loaded correctly, log out and back in to uppmax.
 
-Installing own python version (not already available as an UPPMAX module)
+#### Installing own python version (not already available as an UPPMAX module)
 
 1. Get pyenv to install the python version of your liking.
 
@@ -344,7 +246,9 @@ pip install [package name]
 Example:
 
 pip install mechanize
-Running Python from Jupyter notebook (and -lab)
+
+
+## Running Python from Jupyter notebook (and -lab)
 You can run Python in a notebook, i.e. in a web interface with possibility of inline figures and debugging. An easy way to do this is to load the python module as well. In shell:
 
 module load python/<version>
@@ -353,7 +257,7 @@ A Firefox session should start with the Jupyter notebook interface. If not,  cop
 
 Presently we have jupyter-lab only installed for python>=3.10.8. You can install a personal version with Conda for lower versions.
 
-Jupyter in a virtual environment (venv)
+### Jupyter in a virtual environment (venv)
 You could also use jupyter- (lab or notebook) in a virtual environment.
 
 If you decide to use the --system-site-packages configuration you will get jupyter from the python modules you created you virtual environment with.
@@ -365,7 +269,8 @@ and run:
 $ jupyter-notebook
 Be sure to start the kernel with the virtual environment name, like "Example", and not "Python 3 (ipykernel)".
 
-How to run parallel jobs
+## How to run parallel jobs
+
 Material here is taken partly from the parallel part of the online course Python for Scientific Computing 
 
 Parallel computing is when many different tasks are carried out simultaneously. There are three main models:
@@ -378,11 +283,14 @@ Message passing: Different processes manage their own memory segments. They shar
 
 There are several packages available for Python that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines. 
 
-Threading
+### Threading
+
 Threading divides up your work among a number of cores within a node. The threads shares its memory.
 
-Multi-threading ocumentation
-Examples
+- Multi-threading documentation
+- Examples
+
+
 The designers of the Python language made the choice that only one thread in a process can run actual Python code by using the so-called global interpreter lock (GIL). This means that approaches that may work in other languages (C, C++, Fortran), may not work in Python without being a bit careful. At first glance, this is bad for parallelism. But it’s not all bad!:
 
 External libraries (NumPy, SciPy, Pandas, etc), written in C or other languages, can release the lock and run multi-threaded. Also, most input/output releases the GIL, and input/output is slow.
@@ -395,7 +303,8 @@ Threading python module. This is very low level and you shouldn’t use it unles
 
 We recommend you find a UNIX threading tutorial first before embarking on using the threading module.
 
-Distributed computing
+### Distributed computing
+
 As opposed to threading, Python has a reasonable way of doing something similar that uses multiple processes.
 
 Distributed processing uses individual processes with individual memory, that communicate with each other. In this case, data movement and communication is explicit.
@@ -405,7 +314,7 @@ Python supports various forms of distributed computing.
     MPI through mpi4py : a Python wrapper for the MPI protocol, see further down
 If choosing between multiprocessing and MPI, distributed is easier to program, whereas MPI may be more suitable for multi-node applications.
 
-Multiprocessing/distributed
+#### Multiprocessing/distributed
 
 The interface is a lot like threading, but in the background creates new processes to get around the global interpreter lock.
 
@@ -461,7 +370,8 @@ n_sum = sum(x[0] for x in results)
 n_inside_circle_sum = sum(x[1] for x in results)
 pi = 4.0 * (n_inside_circle_sum / n_sum)
 print(pi)
-Batch example
+
+##### Batch example
 
 If you need to revive your knowledge about the scheduling system, please check Slurm user guide.
 
@@ -483,11 +393,13 @@ python distributed.py
 ​Put job in queue:
 
 sbatch job_distributed.slurm
-Interactive example 
+
+##### Interactive example 
 
 salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0 
 python distributed.py
-MPI 
+
+### MPI 
 Presently you have to install your own mpi4py. You will need to activate paths to the MPI libraries. Therefore follow these steps.
 
 1. If you use python 3.10.8: 
@@ -559,7 +471,9 @@ A batch script, job_MPI.slurm, should include a "module load gcc/9.3.0 openmpi/3
 module load python/3.9.5
 module load gcc/9.3.0 openmpi/3.1.5
 mpirun -n 20 python pythonMPI.py
-Using the GPU nodes
+
+
+### Using the GPU nodes
 Example with numba. First install numba locally:
 
 pip install --user numba
@@ -609,7 +523,9 @@ Starting job now -- you waited for 90 seconds.
 [bjornc@s160 ~]$ python add-list.py  #run the script
 CPU function took 36.849201 seconds.
 GPU function took 1.574953 seconds.
-Machine and Deep Learning
+
+
+### Machine and Deep Learning
 Please see our Tensorflow and and PyTorch guides.
 
 Useful links:
