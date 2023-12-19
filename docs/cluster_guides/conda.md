@@ -1,8 +1,8 @@
 # Conda
 
-# Install packages or not? Check it!
+## Install packages or not? Check it!
 
-## Python 
+### Python 
 
 - Check python versions: ``ml avail python``
 - load a python version like: ``ml python/3.10.8``
@@ -12,7 +12,7 @@
 - ``pip list`` command 
 - ``ml help python/3.9.5`` (or other version) at UPPMAX
 
-**Is it not there? Or is it a stand-alone tool Then proceed!**
+### Is it not there, or is it a stand-alone tool? Then proceed!**
 
 !!! info "Tip Python packages"
 
@@ -21,11 +21,11 @@
     - We have mirrored all _major_ Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
     - If you want to keep number of files down, use PyPI (pip).
 
-### Python packages with pip
+## Python packages with pip
 
     - See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
 
-### Conda
+## Conda
 
 - We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
 
