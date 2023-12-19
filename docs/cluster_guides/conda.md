@@ -12,7 +12,7 @@
 - ``pip list`` command 
 - ``ml help python/3.9.5`` (or other version) at UPPMAX
 
-**Is it not there? Or is it a stand-alone-totool Then proceed!**
+**Is it not there? Or is it a stand-alone tool Then proceed!**
 
 !!! info "Tip Python packages"
 
