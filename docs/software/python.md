@@ -48,7 +48,7 @@ $ python3 example_script.py
 ```
 You start a python session by typing:
 ```console
-$ python
+$ py
 ```
 or
 ```console
@@ -57,7 +57,7 @@ $ python3
 
 The python prompt looks like this:
 
-``` python
+``` py
 >>>
 ```
 ​Exit with <Ctrl-D>, "quit()" or 'exit()'. 
