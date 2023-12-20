@@ -2,9 +2,9 @@
 
 Here it is described how to login to Bianca:
 
-- [Bianca's design](#Bianca's-design): 
+- [Bianca's design](#biancas-design): 
   helps understand why the procedure described here is needed.
-- [Prerequisites for using Bianca](#Prerequisites-for-using-Bianca)
+- [Prerequisites for using Bianca](#prerequisites-for-using-Bianca)
 - Get within the university network
 - Login to Bianca remote desktop environment
 - Login to Bianca console environment
