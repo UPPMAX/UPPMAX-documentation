@@ -1,20 +1,54 @@
 # Log in to Bianca
 
+Here it is described how to login to Bianca:
+
+- [Bianca's design](#Bianca's-design): 
+  helps understand why the procedure described here is needed.
+- [Prerequisites for using Bianca](#Prerequisites-for-using-Bianca)
+- Get within the university network
+- Login to Bianca remote desktop environment
+- Login to Bianca console environment
 
 ## Bianca's design
 
-- Bianca was designed
-    - to make accidental data leaks difficult
-    - to make correct data management as easy as possible
-    - to emulate the HPC cluster environment that SNIC users were familiar with
-    - to provide a maximum amount of resources
-    - and to satisfy regulations.
+Bianca was designed
+- to make accidental data leaks difficult
+- to make correct data management as easy as possible
+- to emulate the HPC cluster environment that SNIC users were familiar with
+- to provide a maximum amount of resources
+- to satisfy regulations.
 
 !!! info "Bianca has no internet"
 
     - Still you can log in, but it is done in two steps!
-    - We recomend the ThinLink web portal, to enable graphics
-    
+    - We recommend the ThinLink web portal, to enable graphics
+
+## Prerequisites for using Bianca
+
+In order to access Bianca you need to be a member of an active SNIC SENS 
+or SIMPLER research project (these are called sensNNNNN or simpNNNNN, 
+where N represent a digit). 
+SUPR will tell you if you are a member 
+and the account page should list the account on the 
+resource bianca (this can also be useful to verify your username). 
+If you do not have a project membership, 
+you can request membership to an existing project in SUPR 
+or read the SENS project application page to learn how to create a project.
+
+Additionally, you must have a personal UPPMAX user account. 
+This is separate from your SUPR account. 
+See the user account application page if you do not have one. 
+
+Once you are set up for login, 
+this should also be reflected in SUPR through
+ one or several additional account(s) 
+at UPPMAX for the specific project(s) you are a member of.
+
+Also note that you need to know your UPPMAX password. 
+If you change it, it may take up to an hour before changes are reflected in bianca.
+
+For advice on handling sensitive personal data correctly on Bianca, see our FAQ page.
+
 ## Log in to Bianca with ThinLinc
 
 - Bianca offers graphical login
@@ -70,17 +104,6 @@
 ## Text from https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
 
 ```
-0. PREREQUISITES
-
-In order to access Bianca you need to be a member of an active SNIC SENS or SIMPLER research project (these are called sensNNNNN or simpNNNNN, where N represent a digit). SUPR will tell you if you are a member and the account page should list the account on the resource bianca (this can also be useful to verify your username). If you do not have a project membership, you can request membership to an existing project in SUPR or read the SENS project application page to learn how to create a project.
-
-Additionally, you must have a personal UPPMAX user account. This is separate from your SUPR account. See the user account application page if you do not have one. 
-
-Once you are set up for login, this should also be reflected in SUPR through one or several additional account(s) at UPPMAX for the specific project(s) you are a member of.
-
-Also note that you need to know your UPPMAX password. If you change it, it may take up to an hour before changes are reflected in bianca.
-
-For advice on handling sensitive personal data correctly on Bianca, see our FAQ page.
 1. Set up TWO factor authentication
 
 Follow the instructions in Setting up two factor authentication.
