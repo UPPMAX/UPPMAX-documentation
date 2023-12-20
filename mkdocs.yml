@@ -18,6 +18,9 @@ nav:
     - Modules: cluster_guides/modules.md
     - Slurm: cluster_guides/slurm.md
     - Running your first job: getting_started/first_job.md
+    - Data tranfer: 
+      - Transfer to Rackham: cluster_guides/transfer_rackham.md
+      - Transfer to Bianca: cluster_guides/transfer_bianca.md
     - Installing: cluster_guides/install.md
     - Own development:
       - Compiling serial code: cluster_guides/compiling_serial.md
