@@ -2501,3 +2501,15 @@ GbE
 yaml
 audiofile
 OpenAI's
+
+WinSCP
+FileZilla
+cli
+readonly
+LFTP
+VerySecret
+NGI
+harbour
+RHEL
+codeready
+powertools
