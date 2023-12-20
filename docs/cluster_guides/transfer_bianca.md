@@ -29,7 +29,7 @@ Example:
 ```
 
 - To transfer data from Bianca, copy/move the files/folders you want in that folder.
-- On Bianca you have full acces to your `wharf` and readonly access to other's project users `wharf`s.
+- On Bianca you have full access to your `wharf` and readonly access to other's project users `wharf`s.
     
 
 ##  Methods
@@ -57,7 +57,7 @@ Be sure to really use a SFTP client -- not just a SCP client.
 
 ![WinSCP](../img/winscp-snaphot1.png)
 
-### Filezilla (Linux/MacOS/Windows)
+### FileZilla (Linux/MacOS/Windows)
 - Asks for password every time you transfer files
 - Connect from local computer  
 
