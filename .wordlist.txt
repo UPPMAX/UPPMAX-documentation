@@ -2509,7 +2509,13 @@ readonly
 LFTP
 VerySecret
 NGI
+subfolder
 harbour
+GDC
+TCGA
+gdc
+grus
+EPEL
 RHEL
 codeready
 powertools
