@@ -18,12 +18,12 @@ nav:
   - Cluster user guide:
     - Modules: cluster_guides/modules.md
     - Slurm: cluster_guides/slurm.md
-    - Bianca portal: cluster_guides/bianca_portal.md
-    - Data tranfer: 
+    - Data transfer: 
       - Transfer to Rackham: cluster_guides/transfer_rackham.md
       - Transfer to Bianca: cluster_guides/transfer_bianca.md
-    - Installing: cluster_guides/install.md
-    - Own development:
+    - Bianca portal: cluster_guides/bianca_portal.md
+    - Installing and development: 
+      - Installing: cluster_guides/install.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
   - Software:
