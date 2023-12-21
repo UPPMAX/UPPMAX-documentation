@@ -23,9 +23,9 @@ Here it is described how to login to Bianca:
 - [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can login to Bianca
 - [The two Bianca environments](#the-two-bianca-environments) shows the two ways to use Bianca
 - [Get within the university networks](#get-within-the-university-networks) shows how *to be allowed to* access Bianca
-- Login to Bianca remote desktop environment
-- Login to Bianca console environment
-
+- [Get inside the Bianca environment](#get-inside-the-bianca-environment) show how to get inside the Bianca environments:
+    - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
+    - [Login to the Bianca console environment](#login-to-the-Bianca-console-environment)
 
 After logging in, one can visit [the Bianca portal](../cluster_guides/bianca_portal.md)
 to learn how to use Bianca
@@ -292,7 +292,9 @@ To be able to use a VPN to get inside of SUNET:
 
     This video shows how to use an installed VPN,
     after which the UPPMAX Bianca login website is used to
-    access the Bianca remote desktop environment: [YouTube](https://youtu.be/Ni9nyCf7me8), [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+    access the Bianca remote desktop environment: 
+    [YouTube](https://youtu.be/Ni9nyCf7me8), 
+    [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
 
 ### Use an HPC cluster within SUNET
 
@@ -306,10 +308,156 @@ after which one accesses Bianca.
 When using this method, one can only use the
 Bianca console environment.
 
+## Get inside the Bianca environment
 
-## Login to Bianca remote desktop environment
+When inside SUNET, one can access the Bianca environments.
 
-## Login to Bianca console environment
+- For a remote desktop environment, 
+  go to [login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
+- For a console environment, 
+  go to [login to the Bianca console environment](#login-to-the-Bianca-console-environment)
+
+Below, the ways to access these Bianca environments 
+are discussed
+
+```mermaid
+flowchart TD
+
+    subgraph sub_inside[Inside SUNET]
+      physically_inside(Physically inside SUNET)
+      inside_using_vpn(Inside SUNET using VPN)
+      inside_using_rackham(Inside SUNET using Rackham)
+      style physically_inside fill:#fff,color:#000,stroke:#000
+      style inside_using_vpn fill:#fff,color:#000,stroke:#000
+      style inside_using_rackham fill:#fff,color:#000,stroke:#000
+    end
+    style sub_inside fill:#ffc,color:#000,stroke:#ffa
+
+    subgraph sub_bianca_env[Bianca environment]
+      bianca_console[Bianca console environment]
+      bianca_remote_desktop[Bianca remote desktop] 
+      bianca_terminal[Terminal] 
+      style bianca_console fill:#fff,color:#000,stroke:#000
+      style bianca_remote_desktop fill:#fff,color:#000,stroke:#000
+      style bianca_terminal fill:#fff,color:#000,stroke:#000
+    end
+    style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
+
+    physically_inside-->|Use SSH|bianca_console
+    physically_inside-->|Use UPPMAX website|bianca_remote_desktop
+    physically_inside-->|Use local ThinLinc server|bianca_remote_desktop
+    physically_inside-.->inside_using_rackham
+    physically_inside-.->inside_using_vpn
+    inside_using_vpn-->|Use SSH|bianca_console
+    inside_using_vpn-->|Use UPPMAX website|bianca_remote_desktop
+    inside_using_rackham-->|Use SSH|bianca_console
+    bianca_console---|is a|bianca_terminal
+    bianca_remote_desktop-->|must also use|bianca_terminal
+```
+
+### Login to the Bianca remote desktop environment
+
+As Bianca is an HPC cluster for sensitive data,
+one needs to be within SUNET to be able to access her.
+
+???- info "How does it look like to try to access a remote desktop from outside of SUNET?"
+
+    ![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+
+    > When accessing the Bianca UPPMAX login website from outside of SUNET,
+    > nothing will appear in your browser.
+
+When inside SUNET, one can access a remote desktop environment
+using a website:
+
+  1. In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+
+  2. Fill in the first dialog. Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
+
+     ???- "How does that web page look like?"
+
+         ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
+
+         > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+
+  3. Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication)
+
+     ???- "How does that web page look like?"
+
+         ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
+
+         > The second Bianca remote desktop login dialog. 
+         > Note that it uses ThinLinc to establish this connection
+
+  4. When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE
+
+!!! warning "Avoid choosing KDE"
+
+    Avoid choosing the KDE desktop, as it gives problems when running interactive sessions.
+
+    Instead, we recommend GNOME or XFCE.
+     
+  5. Enjoy! You are in!
+
+     ???- "How does the remote desktop look like?"
+
+         ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
+
+         > The Bianca remote desktop
+
+???- tip "Video: using VPN and access the remote desktop"
+
+    This video shows how to use an installed VPN,
+    after which the UPPMAX Bianca login website is used to
+    access the Bianca remote desktop environment: [YouTube](https://youtu.be/Ni9nyCf7me8), [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+
+### Login to the Bianca console environment
+
+When inside SUNET, one can access a console environment
+using a terminal and the Secure Shell Protocol (SSH).
+
+You can use your favorite terminal to login (see <https://uppmax.github.io/uppmax_intro/login2.html#terminals> for an overview of many)
+to the Bianca command-line environment.
+
+  1. From a terminal, use `ssh` to log in:
+
+```bash
+ssh [user]-[project name]@bianca.uppmax.uu.se
+```
+
+For example:
+
+```bash
+ssh sven-sens2023598@bianca.uppmax.uu.se
+```
+
+???- tip "Note for teachers: no `-X`"
+
+    On Rackham, we do teach the learners to use `-X`:
+   
+    ```
+    ssh -X username@rackham.uppmax.uu.se
+    ```
+
+    However, on Bianca, this so-called X-forwarding is disabled.
+    Hence, we do not teach it :-)
+
+
+ 2. Type your UPPMAX password, 
+    directly followed by the UPPMAX 2-factor authentication number,
+    for example `verysecret678123`, then press enter
+
+ 3. Type your UPPMAX password,
+    for example `verysecret`
+
+ 4. Enjoy! You are in!
+
+
+???- tip "Video"
+
+    This video shows how to use a terminal and SSH to access 
+    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c), 
+    [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
 
 
 
@@ -416,160 +564,6 @@ Bianca has a autodisconnect after 30 minutes of inactivity, and in the future it
 
 
 
-## Get inside the Bianca environment
-
-When inside SUNET, one can access the Bianca environments.
-
-For a remote desktop environment, one can use:
-
-- the UPPMAX Bianca login website at
-  [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
-- a locally installed ThinLinc server
-
-Note that the UPPMAX Bianca login website uses ThinLinc too,
-which can give rise to confusion.
-
-For a console environment, one can use:
-
-- SSH, for a terminal environment
-
-Below, the ways to access these Bianca environments 
-are discussed
-
-```mermaid
-flowchart TD
-
-    subgraph sub_inside[Inside SUNET]
-      physically_inside(Physically inside SUNET)
-      inside_using_vpn(Inside SUNET using VPN)
-      inside_using_rackham(Inside SUNET using Rackham)
-      style physically_inside fill:#fff,color:#000,stroke:#000
-      style inside_using_vpn fill:#fff,color:#000,stroke:#000
-      style inside_using_rackham fill:#fff,color:#000,stroke:#000
-    end
-    style sub_inside fill:#ffc,color:#000,stroke:#ffa
-
-    subgraph sub_bianca_env[Bianca environment]
-      bianca_console[Bianca console environment]
-      bianca_remote_desktop[Bianca remote desktop] 
-      bianca_terminal[Terminal] 
-      style bianca_console fill:#fff,color:#000,stroke:#000
-      style bianca_remote_desktop fill:#fff,color:#000,stroke:#000
-      style bianca_terminal fill:#fff,color:#000,stroke:#000
-    end
-    style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
-
-    physically_inside-->|Use SSH|bianca_console
-    physically_inside-->|Use UPPMAX website|bianca_remote_desktop
-    physically_inside-->|Use local ThinLinc server|bianca_remote_desktop
-    physically_inside-.->inside_using_rackham
-    physically_inside-.->inside_using_vpn
-    inside_using_vpn-->|Use SSH|bianca_console
-    inside_using_vpn-->|Use UPPMAX website|bianca_remote_desktop
-    inside_using_rackham-->|Use SSH|bianca_console
-    bianca_console---|is a|bianca_terminal
-    bianca_remote_desktop-->|must also use|bianca_terminal
-```
-
-### Use the UPPMAX Bianca login website
-
-When inside SUNET, one can access a remote desktop environment
-using a website:
-
-  1. In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
-
-  2. Fill in the first dialog. Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
-
-     ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
-
-
-  3. Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication)
-
-     ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
-
-     > The second Bianca remote desktop login dialog. 
-     > Note that it uses ThinLinc to establish this connection
-     
-!!! warning
-
-    - Avoid choosing the KDE desktop if you want graphics to work smoothly also in interactive sessions on the compute nodes, see below.
-    - GNOME and XFCE has been proven better on this.
-     
-  5. Enjoy! You are in!
-
-     ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
-
-     > The Bianca remote desktop
-
-???- tip "Video: using VPN"
-
-    This video shows how to use an installed VPN,
-    after which the UPPMAX Bianca login website is used to
-    access the Bianca remote desktop environment: [YouTube](https://youtu.be/Ni9nyCf7me8), [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
-
-???- tip "Video: from within SUNET"
-
-    This video shows how to use a terminal and SSH to access 
-    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c), 
-    [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
-
-
-![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
-
-> When accessing the Bianca UPPMAX login website from outside of SUNET,
-> nothing will appear in your browser.
-
-### Use a locally installed ThinLinc server
-
-This is beyond the scope of this course.
-
-### Use SSH
-
-When inside SUNET, one can access a console environment
-using a terminal and the Secure Shell Protocol (SSH).
-
-You can use your favorite terminal to login (see <https://uppmax.github.io/uppmax_intro/login2.html#terminals> for an overview of many)
-to the Bianca command-line environment.
-
-  1. From a terminal, use `ssh` to log in:
-
-```bash
-ssh [user]-[project name]@bianca.uppmax.uu.se
-```
-
-For example:
-
-```bash
-ssh richel-sens2023598@bianca.uppmax.uu.se
-```
-
-???- tip "Note for teachers: no `-X`"
-
-    On Rackham, we do teach the learners to use `-X`:
-   
-    ```
-    ssh -X username@rackham.uppmax.uu.se
-    ```
-
-    However, on Bianca, this so-called X-forwarding is disabled.
-    Hence, we do not teach it :-)
-
-
- 2. Type your UPPMAX password, 
-    directly followed by the UPPMAX 2-factor authentication number,
-    for example `verysecret678123`, then press enter
-
- 3. Type your UPPMAX password,
-    for example `verysecret`
-
- 4. Enjoy! You are in!
-
-
-???- tip "Video"
-
-    This video shows how to use a terminal and SSH to access 
-    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c), 
-    [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
 
 ## Conclusions
 
@@ -577,12 +571,6 @@ ssh richel-sens2023598@bianca.uppmax.uu.se
  * Login differs from where you are and what you need
 
 ## Extra material
-
-### The relation between Bianca and the Internet
-
-![Bianca](./img/biancaorganisation-01.png)
-
-> The relation between Bianca and the Internet
 
 ### The ways to access Bianca's environments
 
