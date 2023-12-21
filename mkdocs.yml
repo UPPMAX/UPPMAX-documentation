@@ -37,6 +37,7 @@ nav:
       - Perl_modules: software/perl.md
       - Whisper: software/whisper.md
       - Cram: software/cram.md
+      - IGV: software/igv.md
   - Databases: databases/overview.md
 #  - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
