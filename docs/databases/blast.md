@@ -69,7 +69,7 @@ refseq_select_prot 	protein 	NCBI 	NCBI RefSeq protein sequences from human, mou
 refseq_select_rna 	nucleotide 	NCBI 	NCBI RefSeq transcript sequences from human and mouse, restricted to the RefSeq Select set with one representative transcript per protein-coding gene
 SSU_eukaryote_rRNA 	nucleotide 	NCBI 	Small subunit ribosomal RNA sequences for eukaryotic sequences
 swissprot 	protein 	NCBI 	Swiss-Prot sequence database (last major update)
-tsa_nr 	protein 	NCBI 	Protein sequences from the Trascriptome Shotgun Assembly. Its entries are EXCLUDED from the nr database.
+tsa_nr 	protein 	NCBI 	Protein sequences from the Transcriptome Shotgun Assembly. Its entries are EXCLUDED from the nr database.
 tsa_nt 	nucleotide 	NCBI 	A database with earlier non-project based Transcriptome Shotgun Assembly (TSA) entries. Project-based TSA entries are NOT included. Entries are EXCLUDED from the nt database.
 uniprot_sprot 	protein 	UniProt 	Swiss-Prot high quality manually annotated and non-redundant protein sequence database
 uniprot_trembl 	protein 	UniProt 	TrEMBL high quality but unreviewed protein sequence database
