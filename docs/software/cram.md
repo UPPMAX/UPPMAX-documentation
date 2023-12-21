@@ -41,7 +41,7 @@ Illumina 8-binning scheme:
 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40,
 40, 40, 40, 40, 40, 40"
 
-Illuminas whitepaper on the matter **LINK!!!**
+Illumina's white paper on the matter **LINK!!!**
 
 ## Compression rate
 So, how much compression are we talking about here? Here are the results of a test with a 1.9 GB BAM file (7.4 GB SAM format).
@@ -91,7 +91,7 @@ $ java -jar $CRAM_HOME/cram.jar bam \
 -R ref.fa
 ```
 
-If you had NM or MD tags in your original BAM file, you have to specify that they scould be added in the BAM file that is to be created by adding
+If you had NM or MD tags in your original BAM file, you have to specify that they should be added in the BAM file that is to be created by adding
 
 ```console
 --calculate-md-tag
@@ -103,7 +103,7 @@ to the command.
 ### Lossy compression of a BAM file
 The motivation to use a lossy compression is that the compression ratio will be much larger, i.e. the cram file will be much smaller. The best compression ratio is reached, naturally, when the quality scores are removed all together. This does have an impact on future analysis such as SNP calling, so the trick is, as usual, to find a good balance.
 
-Illumina has started with a practise called binning. That means that instead of having 40 unique quality scores, you put similar values into bins. Illumina thought 8 bins would get the job done, and that is what CRAM recommends. See this page's introduction for more details about the bins.
+Illumina has started with a practice called binning. That means that instead of having 40 unique quality scores, you put similar values into bins. Illumina thought 8 bins would get the job done, and that is what CRAM recommends. See this page's introduction for more details about the bins.
 
 To compress your BAM file and binning the quality scores in the same way as Illumina, use this command (can also be written as a single line by removing the backslashes):
 
@@ -119,7 +119,7 @@ $ java -jar $CRAM_HOME/cram.jar cram \
 
 The important parts here are:
 
-**-I** which means the input file (name ofthe BAM file to be compressed).
+**-I** which means the input file (name of the BAM file to be compressed).
 **-O** which means the output file (name of the new compressed BRAM file).
 **-R** which means the reference file (the FASTA reference to be used. Must be the same when decompressing.).
 **--capture-all-tags** which means that all the tags in the BAM file will be saved.
