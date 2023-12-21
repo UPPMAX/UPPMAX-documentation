@@ -30,9 +30,9 @@ Note that:
     When new versions are installed, the directory containing the previous versions is renamed to blast_databases_old
     blast_databases_old is deleted the second data of each month at 00.01
 
-These databases use the "v5" format, which includes rich taxonomic infromation with sequences, and will only work with the Blast tools from the module blast/2.8.0+ and later. Earlier module versions can still be used, but you will need to provide/build your own databases. NCBI no longer updates databases with the older "v4" databases as of February 2020, and they have been deleted from UPPMAX. The final updates of these databases (again, as of this writing nearly two years old) are available from NCBI over FTP at ftp://ftp.ncbi.nlm.nih.gov/blast/db/v4.
+These databases use the "v5" format, which includes rich taxonomic information with sequences, and will only work with the Blast tools from the module blast/2.8.0+ and later. Earlier module versions can still be used, but you will need to provide/build your own databases. NCBI no longer updates databases with the older "v4" databases as of February 2020, and they have been deleted from UPPMAX. The final updates of these databases (again, as of this writing nearly two years old) are available from NCBI over FTP at ftp://ftp.ncbi.nlm.nih.gov/blast/db/v4.
 
-Each NCBI-hosted database also includes a JSON file containing additional medatadata for that particular database. These are found in /sw/data/blast_databases/ and are named databasename*.json. The exact name varies based on the format of the database. For example, the contents of the JSON file for the nr database can be see by running
+Each NCBI-hosted database also includes a JSON file containing additional metadata for that particular database. These are found in /sw/data/blast_databases/ and are named databasename*.json. The exact name varies based on the format of the database. For example, the contents of the JSON file for the nr database can be see by running
 
 cat /sw/data/blast_databases/nr*.json
 
