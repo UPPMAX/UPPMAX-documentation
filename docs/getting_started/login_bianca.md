@@ -2,7 +2,7 @@
 
 !!! info "[Go to the Bianca portal](cluster_guides/bianca_portal.md)"
 
-    The Bianca portal is at [the Bianca portal](../cluster_guides/bianca_portal.md)
+    The Bianca portal is at [the Bianca portal](./../cluster_guides/bianca_portal.md)
 
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
 
