@@ -1,5 +1,11 @@
 # Log in to Bianca
 
+![The Bianca environments](./img/bianca_environments_926_x_261.png)
+
+> The two Bianca environments to work on Bianca. 
+> At the left is the remote desktop environment.
+> At the the right is the console environment.
+
 Here it is described how to login to Bianca:
 
 - [Bianca's design](#biancas-design): 
@@ -11,17 +17,28 @@ Here it is described how to login to Bianca:
 
 ## Bianca's design
 
-Bianca was designed
-- to make accidental data leaks difficult
-- to make correct data management as easy as possible
-- to emulate the HPC cluster environment that SNIC users were familiar with
-- to provide a maximum amount of resources
-- to satisfy regulations.
+Bianca is an HPC cluster for sensitive data and is designed to:
+
+- make accidental data leaks difficult
+- make correct data management as easy as possible
+- emulate the HPC cluster environment that SNIC users were familiar with
+- provide a maximum amount of resources
+- satisfy regulations
 
 !!! info "Bianca has no internet"
 
-    - Still you can log in, but it is done in two steps!
-    - We recommend the ThinLink web portal, to enable graphics
+    - You *can* log in, but with extra steps
+    - You *can* transfer files, but with extra steps
+    - We recommend using the remote desktop login, see [here](here.md)
+
+As Bianca is an HPC cluster that should be as easy to 
+use as possible, there are two ways to interact with Bianca:
+one more visual, the other a command-line environment.
+Both environments are shown below.
+
+As Bianca has sensitive data, there are constraints on how to
+access Bianca. These constraints can be solved in multiple ways.
+These procedures are shown below.
 
 ## Prerequisites for using Bianca
 
@@ -114,6 +131,63 @@ Also note that you need to know your UPPMAX password.
 If you change it, it may take up to an hour before changes are reflected in bianca.
 
 For advice on handling sensitive personal data correctly on Bianca, see our FAQ page.
+
+## The two Bianca environments
+
+Bianca, like most HPC clusters, uses Linux.
+To use Bianca, there are two environments:
+
+![The Bianca remote desktop](./img/bianca_remote_desktop.png)
+
+- A remote desktop environment, also called 'graphical environment', 
+  'GUI environment', 'ThinLinc environment'. It looks like the picture above.
+
+![The Bianca console environment](./img/login_bianca_via_terminal_terminal.png)
+
+- A console environment, also called 'terminal environment' or 'terminal'
+  It looks like the picture above.
+
+The remote desktop environment is considered the easier place to start for most
+new users, as it has most similarities with what a new user is familiar with.
+However, one must always use a terminal to some extent.
+
+
+```mermaid
+flowchart TD
+
+    %% Give a white background, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+
+    subgraph sub_bianca_env[Bianca environment]
+      bianca_console[Bianca console environment]
+      bianca_remote_desktop[Bianca remote desktop] 
+      bianca_terminal[Terminal] 
+    end
+    style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
+
+    bianca_console---|is a|bianca_terminal
+    bianca_remote_desktop-->|must also use|bianca_terminal
+```
+
+> The two Bianca environments and their relation to a terminal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Log in to Bianca with ThinLinc
 
@@ -221,100 +295,9 @@ Bianca has a autodisconnect after 30 minutes of inactivity, and in the future it
 
 ## Text from [Intro to Bianca](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/login_bianca.md)
 
-# Log in to Bianca
-
-![The Bianca environments](./img/bianca_environments_926_x_261.png)
-
-!!! info "Objectives" 
-
-    - Observe that there are two ways to interact with Bianca
-    - Observe that there are multiple ways to get inside SUNET
-    - Log in to a terminal in the Bianca remote desktop
-    - Log in to the Bianca console environment
-
-???- info "Notes for teachers"
-
-    Teaching goals:
-
-    - The learners demonstrate to have logged in to the Bianca remote desktop environment 
-      using the UPPMAX Bianca login website
-    - The learners demonstrate to have started a terminal in the Bianca remote desktop environment
-    - The learners demonstrate to have logged in to the Bianca console environment 
-
-    Schedule (45 minutes):
-
-    - 5 minutes: summarize page, start exercise
-    - 30 minutes: let learners do exercise
-    - 10 minutes: feedback
 
 ## Overview
 
-Bianca is an HPC cluster for sensitive data.
-
-???- tip "What is an HPC cluster for sensitive data?"
-
-    What an HPC cluster for sensitive data is, is described 
-    in general terms [here](overview.md).
-
-As Bianca is an HPC cluster that should be as easy to 
-use as possible, there are two ways to interact with Bianca:
-one more visual, the other a command-line environment.
-Both environments are shown below.
-
-In either environment, one must use the terminal, to, for example,
-start a job. As Bianca uses the Linux operating system,
-the terminal uses Linux.
-
-???- tip "Using the Linux terminal"
-
-    Using the Linux terminal and learning the essential Linux commands 
-    is part of this course and is described [here](linux.md).
-
-As Bianca has sensitive data, there are constraints on how to
-access Bianca. These constraints can be solved in multiple ways.
-These procedures are shown below.
-
-## The two Bianca environments and the terminal
-
-Bianca, like most HPC clusters, uses Linux.
-To use Bianca, there are two environments:
-
-![The Bianca remote desktop](./img/bianca_remote_desktop.png)
-
-- A remote desktop environment, also called 'graphical environment', 
-  'GUI environment', 'ThinLinc environment'. It looks like the picture above.
-
-![The Bianca console environment](./img/login_bianca_via_terminal_terminal.png)
-
-- A console environment, also called 'terminal environment' or 'terminal'
-  It looks like the picture above.
-
-The remote desktop environment is considered the easier place to start for most
-new users, as it has most similarities with what a new user is familiar with.
-However, one must always use a terminal to some extent.
-
-???- tip "Using the Linux terminal"
-
-    Using the Linux terminal and learning the essential Linux commands 
-    is part of this course and is described [here](linux.md).
-
-
-```mermaid
-flowchart TD
-
-    subgraph sub_bianca_env[Bianca environment]
-      bianca_console[Bianca console environment]
-      bianca_remote_desktop[Bianca remote desktop] 
-      bianca_terminal[Terminal] 
-      style bianca_console fill:#fff,color:#000,stroke:#000
-      style bianca_remote_desktop fill:#fff,color:#000,stroke:#000
-      style bianca_terminal fill:#fff,color:#000,stroke:#000
-    end
-    style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
-
-    bianca_console-->|is a|bianca_terminal
-    bianca_remote_desktop-->|must also use|bianca_terminal
-```
 
 ## Get inside SUNET
 
@@ -628,9 +611,12 @@ ssh richel-sens2023598@bianca.uppmax.uu.se
 ```mermaid
 flowchart TD
 
+    %% Give a white background, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+    classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
+
     subgraph sub_outside[Outside SUNET]
       outside(Physically outside SUNET)
-      style outside fill:#fff,color:#000,stroke:#000
     end    
     style sub_outside fill:#fcc,color:#000,stroke:#fcc
 
@@ -638,9 +624,6 @@ flowchart TD
       physically_inside(Physically inside SUNET)
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
-      style physically_inside fill:#fff,color:#000,stroke:#000
-      style inside_using_vpn fill:#fff,color:#000,stroke:#000
-      style inside_using_rackham fill:#fff,color:#000,stroke:#000
     end
     style sub_inside fill:#ffc,color:#000,stroke:#ffc
 
@@ -648,9 +631,6 @@ flowchart TD
       bianca_console[Bianca console environment]
       bianca_remote_desktop[Bianca remote desktop] 
       bianca_terminal[Terminal] 
-      style bianca_console fill:#fff,color:#000,stroke:#000
-      style bianca_remote_desktop fill:#fff,color:#000,stroke:#000
-      style bianca_terminal fill:#fff,color:#000,stroke:#000
     end
     style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
 
