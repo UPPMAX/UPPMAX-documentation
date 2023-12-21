@@ -14,12 +14,16 @@ nav:
     - Linux tutorials:
       - Working in Linux: getting_started/linux.md
       - Basic Linux commands: getting_started/linux_basics.md
+    - Running your first job: getting_started/first_job.md
   - Cluster user guide:
     - Modules: cluster_guides/modules.md
     - Slurm: cluster_guides/slurm.md
-    - Running your first job: getting_started/first_job.md
-    - Installing: cluster_guides/install.md
-    - Own development:
+    - Data transfer: 
+      - Transfer to Rackham: cluster_guides/transfer_rackham.md
+      - Transfer to Bianca: cluster_guides/transfer_bianca.md
+    - Bianca portal: cluster_guides/bianca_portal.md
+    - Installing and development: 
+      - Installing: cluster_guides/install.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
   - Software:
