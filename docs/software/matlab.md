@@ -94,7 +94,7 @@ You may get the best of the MATLAB graphics by runing it the thinlinc environmen
 
 For rackham (in ThinLinc app): rackham-gui.uppmax.uu.se
 
-For Bianca (from web-browser): https://bianca.uppmax.uu.se/agent
+For Bianca (from web-browser): https://bianca.uppmax.uu.se
 
 You may want to confer our UPPMAX ThinLinc user guide  
 ## How to run parallel jobs
