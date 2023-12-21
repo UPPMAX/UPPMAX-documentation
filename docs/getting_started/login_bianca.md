@@ -374,20 +374,20 @@ using a website:
 
   2. Fill in the first dialog. Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
 
-     ???- "How does that web page look like?"
+???- "How does that web page look like?"
 
-         ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
+    ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
 
-         > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+    > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
   3. Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication)
 
-     ???- "How does that web page look like?"
+???- "How does that web page look like?"
 
-         ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
+    ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
 
-         > The second Bianca remote desktop login dialog. 
-         > Note that it uses ThinLinc to establish this connection
+    > The second Bianca remote desktop login dialog. 
+    > Note that it uses ThinLinc to establish this connection
 
   4. When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE
 
@@ -399,11 +399,11 @@ using a website:
      
   5. Enjoy! You are in!
 
-     ???- "How does the remote desktop look like?"
+???- "How does the remote desktop look like?"
 
-         ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
+    ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
 
-         > The Bianca remote desktop
+    > The Bianca remote desktop
 
 ???- tip "Video: using VPN and access the remote desktop"
 
@@ -453,14 +453,11 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
  4. Enjoy! You are in!
 
 
-???- tip "Video"
+???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
 
     This video shows how to use a terminal and SSH to access 
     the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c), 
     [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
-
-
-
 
 
 
