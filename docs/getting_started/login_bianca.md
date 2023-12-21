@@ -11,7 +11,8 @@ Here it is described how to login to Bianca:
 - [Bianca's design](#biancas-design): 
   helps understand why the procedure described here is needed.
 - [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can login to Bianca
-- [Get within the university networks](#get-within-the-university-networks)
+- [The two Bianca environments](#the-two-bianca-environments) shows the two ways to use Bianca
+- [Get within the university networks](#get-within-the-university-networks) shows how *to be allowed to* access Bianca
 - Login to Bianca remote desktop environment
 - Login to Bianca console environment
 
@@ -169,6 +170,10 @@ To use Bianca, there are two environments:
 
     > The Bianca remote desktop environment
 
+    ![A more populated Bianca remote desktop](./img/Thinlinc2.jpg)
+
+    > A more populated Bianca remote desktop
+
 - A remote desktop environment, also called 'graphical environment', 
   'GUI environment', 'ThinLinc environment'
 
@@ -204,6 +209,92 @@ flowchart TD
 
 > The two Bianca environments and their relation to a terminal.
 
+# Get within the university networks
+
+Bianca has sensitive data. 
+To protect this data from leaking,
+Bianca can only be access from within the
+Swedish university networks.
+These networks together are called [SUNET](https://www.sunet.se/).
+
+One cannot access Bianca outside of SUNET.
+Hence, one must get inside SUNET first. 
+There are these ways to do this:
+
+- Physically move inside SUNET
+- Use a virtual private network
+- Use an HPC cluster within SUNET
+
+Each of these three ways are described below.
+
+```mermaid
+flowchart TD
+
+    subgraph sub_outside[Outside SUNET]
+      outside(Physically outside SUNET)
+      style outside fill:#fff,color:#000,stroke:#000
+    end    
+    style sub_outside fill:#fcc,color:#000,stroke:#faa
+
+    subgraph sub_inside[Inside SUNET]
+      physically_inside(Physically inside SUNET)
+      inside_using_vpn(Inside SUNET using VPN)
+      inside_using_rackham(Inside SUNET using Rackham)
+      style physically_inside fill:#fff,color:#000,stroke:#000
+      style inside_using_vpn fill:#fff,color:#000,stroke:#000
+      style inside_using_rackham fill:#fff,color:#000,stroke:#000
+    end
+    style sub_inside fill:#ffc,color:#000,stroke:#ffa
+
+
+    outside-->|Move physically|physically_inside
+    outside-->|Use a VPN|inside_using_vpn
+    outside-->|Use Rackham|inside_using_rackham
+    physically_inside-.->inside_using_rackham
+    physically_inside-.->inside_using_vpn
+```
+
+### Physically move inside SUNET
+
+One must be inside SUNET to access Bianca directly.
+All Swedish university buildings are within SUNET.
+Hence, working from a University building 
+is a non-technical solution to get direct access to Bianca.
+
+### Use a virtual private network
+
+One must be inside SUNET to access Bianca directly.
+
+A virtual private network (VPN) allows one to access Bianca indirectly:
+your computer connects to the VPN within SUNET, where that VPN
+accesses Bianca.
+
+To be able to use a VPN to get inside of SUNET:
+
+ * For Uppsala University: [go to this page](https://mp.uu.se/en/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
+ * For other Swedish universities, search their websites to get the required VPN credentials.
+
+???- tip "Video"
+
+    This video shows how to use an installed VPN,
+    after which the UPPMAX Bianca login website is used to
+    access the Bianca remote desktop environment: [YouTube](https://youtu.be/Ni9nyCf7me8), [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+
+### Use an HPC cluster within SUNET
+
+One must be inside SUNET to access Bianca directly.
+
+An HPC cluster within SUNET (for example, Rackham)
+allows one to access Bianca indirectly:
+your computer connects to the HPC cluster within SUNET, 
+after which one accesses Bianca.
+
+When using this method, one can only use the
+Bianca console environment.
+
+
+## Login to Bianca remote desktop environment
+## Login to Bianca console environment
 
 
 
@@ -218,10 +309,7 @@ flowchart TD
 
 
 
-
-
-- Use VPN outside Sunet. [Link to VPN for UU](https://mp.uu.se/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
-  - You can get VPN credentials from all Swedish universities.
+# PROGRESS
 
 
 ## Log in to Bianca with ThinLinc
@@ -233,6 +321,7 @@ flowchart TD
         - requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
 
 ### The log in steps
+
 1. When you log in to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se), your SSH or ThinLinc client first meets the blue Bianca login node.
     - user name: `<username>-<projid>@bianca.uppmax.uu.se`
         - like: `myname-sens2016999@bianca.uppmax.uu.se`
@@ -244,10 +333,7 @@ flowchart TD
          - username: <myname>
          - password: verysecret
 4. Inside each virtual project cluster, by default there is just a one-core login node. When you need more memory or more CPU power, you submit a job (interactive or batch), and an idle node will be moved into your project cluster.
-
-
  
-![Image](./img/Thinlinc2.jpg)
 
 
 !!! info
@@ -320,88 +406,6 @@ Bianca has a autodisconnect after 30 minutes of inactivity, and in the future it
 ## Overview
 
 
-## Get inside SUNET
-
-Bianca has sensitive data. 
-To protect this data from leaking,
-Bianca can only be access from within the
-Swedish university network.
-This network is called [SUNET](https://www.sunet.se/).
-
-One cannot access Bianca outside of SUNET.
-Hence, one must get inside SUNET first. 
-There are these ways to do this:
-
-- Physically move inside SUNET
-- Use a virtual private network
-- Use an HPC cluster within SUNET
-
-Each of these three ways are described below.
-
-```mermaid
-flowchart TD
-
-    subgraph sub_outside[Outside SUNET]
-      outside(Physically outside SUNET)
-      style outside fill:#fff,color:#000,stroke:#000
-    end    
-    style sub_outside fill:#fcc,color:#000,stroke:#faa
-
-    subgraph sub_inside[Inside SUNET]
-      physically_inside(Physically inside SUNET)
-      inside_using_vpn(Inside SUNET using VPN)
-      inside_using_rackham(Inside SUNET using Rackham)
-      style physically_inside fill:#fff,color:#000,stroke:#000
-      style inside_using_vpn fill:#fff,color:#000,stroke:#000
-      style inside_using_rackham fill:#fff,color:#000,stroke:#000
-    end
-    style sub_inside fill:#ffc,color:#000,stroke:#ffa
-
-
-    outside-->|Move physically|physically_inside
-    outside-->|Use a VPN|inside_using_vpn
-    outside-->|Use Rackham|inside_using_rackham
-    physically_inside-.->inside_using_rackham
-    physically_inside-.->inside_using_vpn
-```
-
-### Physically move inside SUNET
-
-One must be inside SUNET to access Bianca directly.
-All Swedish university buildings are within SUNET.
-Hence, working from a University building 
-is a non-technical solution to get direct access to Bianca.
-
-### Use a virtual private network
-
-One must be inside SUNET to access Bianca directly.
-
-A virtual private network (VPN) allows one to access Bianca indirectly:
-your computer connects to the VPN within SUNET, where that VPN
-accesses Bianca.
-
-To be able to use a VPN to get inside of SUNET:
-
- * For Uppsala University: [go to this page](https://mp.uu.se/en/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
- * For other Swedish universities, search their websites to get a VPN setup
-
-???- tip "Video"
-
-    This video shows how to use an installed VPN,
-    after which the UPPMAX Bianca login website is used to
-    access the Bianca remote desktop environment: [YouTube](https://youtu.be/Ni9nyCf7me8), [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
-
-### Use an HPC cluster within SUNET
-
-One must be inside SUNET to access Bianca directly.
-
-An HPC cluster within SUNET (for example, Rackham)
-allows one to access Bianca indirectly:
-your computer connects to the HPC cluster within SUNET, 
-after which one accesses Bianca.
-
-When using this method, one can only use the
-Bianca console environment.
 
 ## Get inside the Bianca environment
 
