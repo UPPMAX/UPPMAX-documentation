@@ -70,6 +70,8 @@ $ interactive -A <project> -n 2 -t hh:mm:sec
 ```
 Once the interactive job has begun, load an RStudio module and an R_packages module and run "rstudio" from there. 
 
+## What R packages are in the omnibus R_packages modules?
+
 R_PACKAGES/4.1.1
 As of 2021-11-11 there are a total of 21659 R packages installed. A total of 21740 packages are available in CRAN and BioConductor. 18022 CRAN packages are installed, out of 18348 available. 3382 BioConductor-specific packages are installed, out of 3392 available. 255 other R packages are installed. These are not in CRAN/BioConductor, and instead are hosted on github or elsewhere.
 
