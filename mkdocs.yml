@@ -36,6 +36,7 @@ nav:
       - GROMACS: software/gromacs.md
       - Perl_modules: software/perl.md
       - Whisper: software/whisper.md
+      - Cram: software/cram.md
   - Databases: databases/overview.md
 #  - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
