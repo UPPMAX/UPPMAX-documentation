@@ -431,9 +431,9 @@ For example:
 ssh sven-sens2023598@bianca.uppmax.uu.se
 ```
 
-???- tip "Note for teachers: no `-X`"
+???- info "Why no `-X`?"
 
-    On Rackham, we do teach the learners to use `-X`:
+    On Rackham, one can use `-X`:
    
     ```
     ssh -X username@rackham.uppmax.uu.se
@@ -556,19 +556,6 @@ Under the hidden tab in the left edge of the screen you can find a clipboard, so
 Bianca has a autodisconnect after 30 minutes of inactivity, and in the future it is possible that we implement some kind of "automatic log out from active graphical session". 
 
 ```
-
-## Text from [Intro to Bianca](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/login_bianca.md)
-
-
-## Overview
-
-
-
-
-## Conclusions
-
- * Bianca makes it hard to leak data
- * Login differs from where you are and what you need
 
 ## Extra material
 
