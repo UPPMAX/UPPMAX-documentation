@@ -19,11 +19,13 @@ jobs:
           sed -i 's/.*check_links.yaml.*//g' README.md
           sed -i 's/.*check_spelling.yaml.*//g' README.md
 
-      - name: External links must be checked
-        run: grep --invert --silent --regexp "[^0-9]0[^0-9]" mlc_config.json
+      # If there is a valid external link that fails,
+      # add it to mlc_config.json
+      - name: External links must be checked, do not allow '0' in the 'aliveStatusCodes' of mlc_config.json
+        run: if [[ $(grep --regexp "[^0-9]0[^0-9]" mlc_config.json | wc --lines) == "1" ]]; then echo "FOUND"; exit 42; fi
 
-      - name: Internal links must checked
-        run: grep --invert --silent --regexp "400" mlc_config.json
+      - name: Internal links must checked, do not allow '400' in the 'aliveStatusCodes' of mlc_config.json
+        run: if [[ $(grep --regexp "[^0-9]400[^0-9]" mlc_config.json | wc --lines) == "1" ]]; then echo "FOUND"; exit 42; fi
 
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
