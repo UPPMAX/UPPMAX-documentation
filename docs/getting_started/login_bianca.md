@@ -463,7 +463,7 @@ using a website:
 
   2. Fill in the first dialog. Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
 
-     ![Bianca login new, first dialog](./img/login_new2.PNG)
+     ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
 
 
   3. Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication)
