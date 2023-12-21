@@ -20,6 +20,8 @@ Here it is described how to login to Bianca:
 - Login to Bianca remote desktop environment
 - Login to Bianca console environment
 
+After logging in, one can visit [the Bianca portal](../cluster_guides/bianca_portal.md)
+to learn how to use Bianca.
 
 ## Bianca's design
 
