@@ -16,6 +16,10 @@ Here it is described how to login to Bianca:
 - Login to Bianca remote desktop environment
 - Login to Bianca console environment
 
+!!! info "[Go to the Bianca portal](cluster_guides/bianca_portal.md)"
+
+    The Bianca portal is at [the Bianca portal](cluster_guides/bianca_portal.md)
+
 ## Bianca's design
 
 Bianca is an HPC cluster for sensitive data and is designed to:
@@ -209,7 +213,7 @@ flowchart TD
 
 > The two Bianca environments and their relation to a terminal.
 
-# Get within the university networks
+## Get within the university networks
 
 Bianca has sensitive data. 
 To protect this data from leaking,
@@ -294,6 +298,7 @@ Bianca console environment.
 
 
 ## Login to Bianca remote desktop environment
+
 ## Login to Bianca console environment
 
 
@@ -309,8 +314,9 @@ Bianca console environment.
 
 
 
-# PROGRESS
-
+```
+PROGRESS UNTIL HERE
+```
 
 ## Log in to Bianca with ThinLinc
 
