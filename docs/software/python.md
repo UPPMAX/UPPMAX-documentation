@@ -13,7 +13,7 @@ There are three UPPMAX courses related to python.
 Different versions of Python are already available via the module system on Rackham, Snowy, Bianca and Irma. Some installed packages are available via the loaded module. 
 
 As of the time of writing we have the following modules:
-``` tcl
+``` bash
 [user@rackham1 ~]$ module available python
 ------------------------------------------------------
 python:
@@ -26,7 +26,6 @@ Versions:
  
    Where:
    D:  Default Module
-
 ```
 
 To load a specific version of Python into your environment, type e.g. ``module load python/3.8.7``.
@@ -43,6 +42,7 @@ You can run a python script in the shell by:
 $ python example_script.py 
 ```
 or, if you loaded a python3 module:
+
 ```console
 $ python3 example_script.py 
 ```
@@ -57,66 +57,94 @@ $ python3
 
 The python prompt looks like this:
 
-``` py
+``` python
 >>>
 ```
-​Exit with <Ctrl-D>, "quit()" or 'exit()'. 
+Exit with `<Ctrl-D>`, `quit()` or `exit()`.
 
 ## Introduction
 
 Python is, according to the official home page:
 
-Python is a great object-oriented, interpreted, and interactive programming language. It is often compared  to Lisp, Tcl, Perl, Ruby, C#, Visual Basic, Visual Fox Pro, Scheme or Java... and it's much more fun.
+*  Python is a great object-oriented, interpreted, and interactive programming
+language. It is often compared  to Lisp, Tcl, Perl, Ruby, C#, Visual Basic,
+Visual Fox Pro, Scheme or Java... and it's much more fun.
 
-Python combines remarkable power with very clear syntax. It has modules, classes, exceptions, very high level dynamic data types, and dynamic typing. There are interfaces to many system calls and libraries, as well as to various windowing systems. New built-in modules are easily written in C or C++ (or other languages, depending on the chosen implementation). Python is also usable as an extension language for applications written in other languages that need easy-to-use scripting or automation interfaces. 
+* Python combines remarkable power with very clear syntax. It has modules,
+classes, exceptions, very high level dynamic data types, and dynamic typing.
+There are interfaces to many system calls and libraries, as well as to various
+windowing systems. New built-in modules are easily written in C or C++ (or
+other languages, depending on the chosen implementation). Python is also usable
+as an extension language for applications written in other languages that need
+easy-to-use scripting or automation interfaces. 
 
-Useful links:
+**Useful links:**
 
-Official documentation
-Python forum
-Packages, modules, and dependencies
-The external libraries, or dependencies, are called modules in python. To distinguish those from the module system of the tools in UPPMAX, we call them packages as well.
+* [Official documentation](https://docs.python.org/3/)
+* [Python forum](https://www.python.org/community/forums/)
 
-Python packages broaden the use of python to almost infinity!
 
-Instead of writing codes yourself there may be others that has done the same!
+## Packages, modules, and dependencies
 
-Many scientific tools are distributed as python packages making it possible to run a script in the prompt and there defining files to be analysed and arguments defining exactly what to do.
+The external libraries, or dependencies, are called modules in python. To
+distinguish those from the module system of the tools in UPPMAX, we call them
+packages as well.
+
+* Python packages broaden the use of python to almost infinity!
+
+* Instead of writing codes yourself there may be others that has done the same!
+
+* Many scientific tools are distributed as python packages making it possible
+to run a script in the prompt and there defining files to be analysed and
+arguments defining exactly what to do.
 
 Some packages are preinstalled. That means that they are available also on Bianca.
 
-Some python packages are working as stand-alone tools, for instance in bioinformatics. The tool may be already installed as a module. Check if it is there by:
+Some python packages are working as stand-alone tools, for instance in
+bioinformatics. The tool may be already installed as a module. Check if it is
+there by:
 
+```bash
 $ module spider <tool-name or tool-name part>
-Using module spider lets you search regardless of upper- or lowercase characters.
+```
+
+Using `module spider` lets you search regardless of upper- or lowercase
+characters.
 
 Check the pre-installed packages of a specific python module:
-
+```bash
 $ module help python/<version>
+```
+
 or with python module loaded (more certain), in shell:
 
+```bash
 $ list
-You can also test from within python session to make sure that the package is not already installed:
+```
 
+You can also test from within python session to make sure that the package is not already installed:
+```python
 >>> import <package>
+```
 A very small selection of installed packages are:
 
-  "cffi"
-  "Cython"
-  "GitPython"
-  "h5py"
-  "ipython"
-  "jupyter"  (-notebook, not -lab)
-  "kiwisolver"
-  "matplotlib"
-  "numpy"
-  "packaging"
-  "pandas"
-  "pip"
-  "pyQt5
-  "pytest"
-  "qtconsole"
-  "scipy"
+1. `cffi`
+2. `Cython`
+3. `GitPython`
+4. `h5py`
+5. `ipython`
+6. `jupyter`  (-notebook, not -lab)
+7. `kiwisolver`
+8. `matplotlib`
+9. `numpy`
+10. `packaging`
+11. `pandas`
+12. `pip`
+13. `pyQt5`
+14. `pytest`
+15. `qtconsole`
+16. `scipy`
+
 + all "standard/internal" libraries.
 
 In the python scripts or python prompt packages are imported or loaded by the commands ``import``. 
@@ -125,167 +153,249 @@ In the python scripts or python prompt packages are imported or loaded by the co
 
 There are two package installation systems
 
-PyPI (pip) is traditionally for Python-only packages but it is no problem to also distribute packages written in other languages as long as they provide a Python interface.
+* **PyPI** (`pip`) is traditionally for Python-only packages but it is no problem to
+also distribute packages written in other languages as long as they provide a
+Python interface.
 
-Conda (conda) is more general and while it contains many Python packages and packages with a Python interface, it is often used to also distribute packages which do not contain any Python (e.g. C or C++ packages).
+* **Conda** (`conda`) is more general and while it contains many Python packages and
+packages with a Python interface, it is often used to also distribute packages
+which do not contain any Python (e.g. C or C++ packages).
 
 Many libraries and tools are distributed in both ecosystems.
 
 To make sure that the package is not already installed, type in python:
 
+```bash
 >>> import <module>
+```
 Does it work? Then it is there!
 
-Otherwise, you can either use "pip" or "Conda".
+Otherwise, you can either use `pip` or `conda`.
 
-### Pip
+### `pip`
 
 You use pip this way, in Linux shell or python shell:
 
-   $ pip install --user <package name>    # or pip3 if required from loaded python module
+```bash
+$ pip install --user <package name>    # or pip3 if required from loaded python module
+```
 With --user, the package ends up in ~/.local/lib/python<version>/site-packages/ .
 
 If you would like to have your packages in another place, like in your project directory do 
 
+```bash
 $ pip install --prefix=<path> <package name>
-where prefix points to the "root" of the package installation. The installations will placed in the directory <prefix path>/lib/pythonX.Y/site-packages/ . Note the needed replacement of "X.Y" and that just the two first version numbers are needed.
+```
 
-To be able to find those packages with non-default path you have to set the PYTHONPATH environment variable:
+where prefix points to the "root" of the package installation. The
+installations will placed in the directory `<prefix
+path>/lib/pythonX.Y/site-packages/`. Note the needed replacement of `X.Y` and
+that just the two first version numbers are needed.
 
+To be able to find those packages with non-default path you have to set the
+`PYTHONPATH` environment variable:
+
+```
 $ export PYTHONPATH=<prefix-path>/lib/pythonX.Y/site-packages/:$PYTHONPATH.
-You may want to add this line in your .bashrc file!
+```
+
+You may want to add this line in your `.bashrc` file!
 
 
-### Conda
+### `conda`
 
 See our [Conda user Guide](../cluster_guides/conda.md)
 
-
-
 ## Isolated environments
-Good introduction at CodeRefinery's course in Python for Scientific Computing .
+
+Good introduction at CodeRefinery's course in [Python for Scientific
+Computing](https://aaltoscicomp.github.io/python-for-scicomp/).
 
 Isolated environments solve a couple of problems:
 
-You can install specific, also older, versions into them.
+* You can install specific, also older, versions into them.
 
-You can create one for each project and no problem if the two projects require different versions.
+* You can create one for each project and no problem if the two projects
+require different versions.
 
-If you make some mistake and install something you did not want or need, you can remove the environment and create a new one.
+* If you make some mistake and install something you did not want or need, you
+can remove the environment and create a new one.
 
 ### Example with virtual environment
-Create a "venv". First load the python version you want to base your virtual environment on. 
 
-Example with python/3.6.0
+Create a `venv`. First load the python version you want to base your virtual
+environment on. 
 
+Example with `python/3.6.0`
+
+```
 $ module load python/3.6.0
 $ python -m venv Example
-Here "Example" is the name of the virtual environment. It creates a new folder called Example in the present working directory.
+```
 
-If you want it in a certain place like “~/test/”:
+* Here `Example` is the name of the virtual environment. It creates a new folder
+called Example in the present working directory.
 
-$ python -m venv ~/test/Example
-Activate it. To activate your newly created virtual environment locate the script called activate and execute it.
+    If you want it in a certain place like `~/test/`:
 
-$ source Example/bin/activate
-Note that your prompt is changing to start with (Example) to show that you are within an environment.
-Install your packages, like Numpy 1.13.1 and Matplotlib 2.2.2, into the virtual environment:
-(Example) $ pip install numpy==1.13.1 matplotlib==2.2.2
-Deactivate it:
 
-(Example) $ deactivate
+    `$ python -m venv ~/test/Example`
+
+
+* Activate it. To activate your newly created virtual environment locate the
+script called `activate` and execute it.
+
+    * `$ source Example/bin/activate`
+    * Note that your prompt is changing to start with (Example) to show that you are within an environment.
+
+* Install your packages, like `Numpy 1.13.1` and `Matplotlib 2.2.2`, into the virtual environment:
+* `(Example) $ pip install numpy==1.13.1 matplotlib==2.2.2`
+* Deactivate it:
+    `(Example) $ deactivate`
+
 Everytime you need the tools available in the virtual environment you activate it as above.
 
-To save space, you should load any other Python modules you will need that are system installed before installing your own packages! Remember to choose ones that are compatible with the Python version you picked! --system-site-packages includes the packages already installed in the loaded python module.
+!!! note
+    To save space, you should load any other Python modules you will need that are
+    system installed before installing your own packages! Remember to choose ones
+    that are compatible with the Python version you picked! --system-site-packages
+    includes the packages already installed in the loaded python module.
 
-Example from above:
+    Example from above:
 
-python -m venv --system-site-packages Example
-See further down how to use Jupyter from an isolated session where you used --system-site-packages.
+    ```python -m venv --system-site-packages Example```
 
-More on virtual environment
+    See further down how to use Jupyter from an isolated session where you used
+`--system-site-packages`.
 
-### Installing with pyenv
+[More on virtual environment](https://docs.python.org/3/library/venv.html)
 
-This approach is more advanced and should be, in our opinion, used only if the above are not enough for the purpose. Probably Conda will work well four you. The approach below allows you to install your own python version and much more… 
+### Installing with `pyenv`
+
+This approach is more advanced and should be, in our opinion, used only if the
+above are not enough for the purpose. Probably Conda will work well four you.
+The approach below allows you to install your own python version and much more… 
 
 Confer the official pyenv documentation.  
 
 #### First time at UPPMAX
 
-1. Download pyenv
+1. Download pyenv:
 
-git clone git://github.com/yyuu/pyenv.git ~/.pyenv
+    ```git clone git://github.com/yyuu/pyenv.git ~/.pyenv```
+
 2. Make pyenv start when you login each time
 
+```
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+```
+
 To make sure everything gets loaded correctly, log out and back in to uppmax.
 
 #### Installing own python version (not already available as an UPPMAX module)
 
 1. Get pyenv to install the python version of your liking.
 
-pyenv install 3.10.6
+    ```pyenv install 3.10.6```
 
 2. Make the version you just installed to the standard version for every time you run python.
 
-pyenv global 3.10.6
+    ```pyenv global 3.10.6```
 
-Now you should be all set. If you change your mind about which version of Python to use, just redo this section and choose a different version. You can also have multiple versions installed at the same time and just switch between them usuing 'pyenv global' as shown above, if you have a script that requires Python 3.3 or any other version.
+Now you should be all set. If you change your mind about which version of
+Python to use, just redo this section and choose a different version. You can
+also have multiple versions installed at the same time and just switch between
+them usuing 'pyenv global' as shown above, if you have a script that requires
+Python 3.3 or any other version.
 
-Install packages in your selected python version
+#### Install packages in your selected python version
+
 
 1. Set python version with 
 
-pyenv global <version>
-2 Install packages in your python, use pip
+    ```pyenv global <version>```
 
-pip install [package name]
+2. Install packages in your python, use `pip`
+
+    ```
+    pip install [package name]
+    ```
+
 Example:
-
+```
 pip install mechanize
+```
 
 
 ## Running Python from Jupyter notebook (and -lab)
-You can run Python in a notebook, i.e. in a web interface with possibility of inline figures and debugging. An easy way to do this is to load the python module as well. In shell:
 
+You can run Python in a notebook, i.e. in a web interface with possibility of
+inline figures and debugging. An easy way to do this is to load the python
+module as well. In shell:
+
+```
 module load python/<version>
 jupyter-notebook
-A Firefox session should start with the Jupyter notebook interface. If not,  copy-paste one of the addresses into the address files in an open firefox session.
+```
 
-Presently we have jupyter-lab only installed for python>=3.10.8. You can install a personal version with Conda for lower versions.
+A Firefox session should start with the Jupyter notebook interface. If not,
+copy-paste one of the addresses into the address files in an open firefox
+session.
 
-### Jupyter in a virtual environment (venv)
+Presently we have jupyter-lab only installed for `python>=3.10.8.` You can
+install a personal version with Conda for lower versions.
+
+### Jupyter in a virtual environment (`venv`)
 You could also use jupyter- (lab or notebook) in a virtual environment.
 
-If you decide to use the --system-site-packages configuration you will get jupyter from the python modules you created you virtual environment with.
-However, you won't find your locally installed packages from that jupyter session. To solve this reinstall jupyter within the virtual environment by force:
+If you decide to use the `--system-site-packages` configuration you will get
+jupyter from the python modules you created you virtual environment with.
+However, you won't find your locally installed packages from that jupyter
+session. To solve this reinstall `jupyter` within the virtual environment by
+force:
 
+```
 $ pip install -I jupyter
+```
+
 and run:
 
+```
 $ jupyter-notebook
-Be sure to start the kernel with the virtual environment name, like "Example", and not "Python 3 (ipykernel)".
+```
+
+Be sure to start the kernel with the virtual environment name, like "Example",
+and not "Python 3 (ipykernel)".
 
 ## How to run parallel jobs
 
-Material here is taken partly from the parallel part of the online course Python for Scientific Computing 
+Material here is taken partly from the parallel part of the online course
+[Python for Scientific
+Computing](https://aaltoscicomp.github.io/python-for-scicomp/parallel/)
 
-Parallel computing is when many different tasks are carried out simultaneously. There are three main models:
+**Parallel computing** is when many different tasks are carried out simultaneously.
+There are three main models:
 
-Embarrassingly parallel: the code does not need to synchronize/communicate with other instances, and you can run multiple instances of the code separately, and combine the results later. If you can do this, great! (array jobs, task queues)
+* **Embarrassingly parallel:** the code does not need to synchronize/communicate
+with other instances, and you can run multiple instances of the code
+separately, and combine the results later. If you can do this, great! (array
+jobs, task queues)
 
-Shared memory parallelism: Parallel threads need to communicate and do so via the same memory (variables, state, etc). (OpenMP)
+* **Shared memory parallelism:** Parallel threads need to communicate and do so via
+the same memory (variables, state, etc). (OpenMP)
 
-Message passing: Different processes manage their own memory segments. They share data by communicating (passing messages) as needed. (Message Passing Interface (MPI)).
+* **Message passing:** Different processes manage their own memory segments. They
+share data by communicating (passing messages) as needed. (Message Passing
+Interface (MPI)).
 
 There are several packages available for Python that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines. 
 
 ### Threading
 
-Threading divides up your work among a number of cores within a node. The threads shares its memory.
+Threading divides up your work among a number of cores within a node. The
+threads shares its memory.
 
 - Multi-threading documentation
 - Examples
