@@ -41,7 +41,13 @@ nav:
         - IGV: software/igv.md
   - Databases: 
      - Overview: databases/overview.md
-     - Swegen: databases/swegen.md
+     - BLAST databases available locally: databases/overview.md
+     - NCBI taxonomy databases: databases/ncbi.md
+     - DIAMOND protein alignment databases: databases/diamond.md
+     - Reference genomes: databases/reference_genomes.md
+     - 1000-genome project: databases/1000-genome_project.md
+     - Simons Genome Diversity Project datasets: databases/simons_genome.md
+     - Other bioinformatics-oriented local data resources: databases/other_local.md
      
 #  - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
