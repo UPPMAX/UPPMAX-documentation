@@ -41,7 +41,7 @@ Illumina 8-binning scheme:
 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40,
 40, 40, 40, 40, 40, 40"
 
-Illumina's white paper on the matter **LINK!!!**
+[Illumina's white paper on the matter](../files/c_557912-l_1-k_whitepaper_datacompression.pdf)
 
 ## Compression rate
 So, how much compression are we talking about here? Here are the results of a test with a 1.9 GB BAM file (7.4 GB SAM format).
@@ -56,9 +56,9 @@ CRAM lossless|	1.4
 CRAM 8 bins|	0.8
 CRAM no quality scores|	0.26
 
-!!! ToDo
+![Graph showing the content of the above table](../img/c_557912-l_1-k_cram_compression.png)
 
-    Figure uppmax.uu.se/User guides/Using CRAM to compress BAM files
+
 
 ## Examples
 ### Lossless compression of a BAM file
