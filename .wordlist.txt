@@ -2542,3 +2542,10 @@ samtools
 practise
 Illumina's
 ToDo
+IGV
+IGV's
+igv
+genomic
+XQuartz
+dahlo
+PuTTY
