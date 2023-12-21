@@ -1,5 +1,9 @@
 # Log in to Bianca
 
+!!! info "[Go to the Bianca portal](cluster_guides/bianca_portal.md)"
+
+    The Bianca portal is at [the Bianca portal](../cluster_guides/bianca_portal.md)
+
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
 
 > The two Bianca environments to work on Bianca. 
@@ -16,9 +20,6 @@ Here it is described how to login to Bianca:
 - Login to Bianca remote desktop environment
 - Login to Bianca console environment
 
-!!! info "[Go to the Bianca portal](cluster_guides/bianca_portal.md)"
-
-    The Bianca portal is at [the Bianca portal](cluster_guides/bianca_portal.md)
 
 ## Bianca's design
 
