@@ -11,7 +11,7 @@ Here it is described how to login to Bianca:
 - [Bianca's design](#biancas-design): 
   helps understand why the procedure described here is needed.
 - [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can login to Bianca
-- Get within the university network
+- [Get within the university networks](#get-within-the-university-networks)
 - Login to Bianca remote desktop environment
 - Login to Bianca console environment
 
@@ -25,6 +25,24 @@ Bianca is an HPC cluster for sensitive data and is designed to:
 - provide a maximum amount of resources
 - satisfy regulations
 
+???- info "The Bianca architecture"
+
+    ![The Bianca architecure](./img/bianca_architecture.png)
+
+    > Bianca's architecture.
+    > Red shows the university networks.
+    > Blue shows the whole cluster, with hundreds of nodes.
+    > Green shows virtual project clusters.
+    > Yellow shows where file transfer occurs.
+
+Bianca's architecture reflects that 
+she is an HPC cluster for sensitive data:
+the whole Bianca cluster has hundreds 
+of virtual project clusters, 
+each of which is isolated from each other and the Internet.
+File transfer is only possible through the the so-called 'wharf', 
+which is a special file area that is visible from the Internet.
+
 !!! info "Bianca has no internet"
 
     - You *can* log in, but with extra steps
@@ -37,8 +55,16 @@ one more visual, the other a command-line environment.
 Both environments are shown below.
 
 As Bianca has sensitive data, there are constraints on how to
-access Bianca. These constraints can be solved in multiple ways.
-These procedures are shown below.
+access Bianca.
+
+One such constraint in accessing Bianca, 
+is that one has to be within the university
+networks, as described at [get within the university networks](#get-within-the-university-networks).
+
+Another such constraint, is that data can be
+transferred to or from a virtual project cluster through the so-called 'wharf', 
+which is a special file area that is visible from the Internet.
+File transfer is described in more detail [here](../cluster_guides/transfer_bianca.md).
 
 ## Prerequisites for using Bianca
 
@@ -187,6 +213,8 @@ flowchart TD
 
 
 
+- Use VPN outside Sunet. [Link to VPN for UU](https://mp.uu.se/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
+  - You can get VPN credentials from all Swedish universities.
 
 
 ## Log in to Bianca with ThinLinc
@@ -226,20 +254,6 @@ flowchart TD
     
 
     
-### Bianca has no Internet
-... but we have “solutions”
-
-![Image](./img/biancaorganisation-01.png)
-
-- Bianca is only accessible from within Sunet (i.e. from university networks).
-- Use VPN outside Sunet. [Link to VPN for UU](https://mp.uu.se/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
-  - You can get VPN credentials from all Swedish universities.
-
-<br>
-
-- The whole Bianca cluster (blue) contains hundreds of virtual project clusters (green), each of which is isolated from each other and the Internet.
-- Data can be transferred to or from a virtual project cluster through the Wharf, which is a special file area that is visible from the Internet.
-
 
 ## Text from https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
 
