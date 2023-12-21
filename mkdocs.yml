@@ -41,7 +41,7 @@ nav:
         - IGV: software/igv.md
   - Databases: 
      - Overview: databases/overview.md
-     - BLAST databases available locally: databases/overview.md
+     - BLAST databases available locally: databases/blast.md
      - NCBI taxonomy databases: databases/ncbi.md
      - DIAMOND protein alignment databases: databases/diamond.md
      - Reference genomes: databases/reference_genomes.md
