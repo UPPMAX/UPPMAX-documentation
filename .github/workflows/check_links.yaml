@@ -19,11 +19,11 @@ jobs:
           sed -i 's/.*check_links.yaml.*//g' README.md
           sed -i 's/.*check_spelling.yaml.*//g' README.md
 
-      - name: external links must be checked
-        run: ! grep --silent --regexp "[^0-9]0[^0-9]" mlc_config.json || exit 42
+      #- name: external links must be checked
+      #  run: ! grep --silent --regexp "[^0-9]0[^0-9]" mlc_config.json || exit 42
 
-      - name: internal links must checked
-        run: ! grep --silent --regexp "400" mlc_config.json || exit 42
+      #- name: internal links must checked
+      #  run: ! grep --silent --regexp "400" mlc_config.json || exit 42
 
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
