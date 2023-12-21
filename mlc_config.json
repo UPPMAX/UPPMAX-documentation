@@ -3,6 +3,9 @@
   "ignorePatterns": [
     {
       "pattern": "github/workspace/docs/software/overview$"
+    },
+    {
+        "pattern": "^https://bianca.uppmax.uu.se"
     }
   ]
 }
