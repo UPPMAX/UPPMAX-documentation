@@ -2,7 +2,13 @@
 
 !!! info "[Go to the Bianca portal](../cluster_guides/bianca_portal.md)"
 
-    The Bianca portal is at [the Bianca portal](../cluster_guides/bianca_portal.md)
+    At [the Bianca portal](../cluster_guides/bianca_portal.md) one can 
+    learn about using Bianca, for example:
+
+    - NAISS-SENS and rules regarding sensitive data
+    - How to do data transfer
+    - How to make Bianca do a calculation
+    - How to develop code on Bianca
 
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
 
@@ -20,8 +26,9 @@ Here it is described how to login to Bianca:
 - Login to Bianca remote desktop environment
 - Login to Bianca console environment
 
+
 After logging in, one can visit [the Bianca portal](../cluster_guides/bianca_portal.md)
-to learn how to use Bianca.
+to learn how to use Bianca
 
 ## Bianca's design
 
@@ -345,13 +352,6 @@ PROGRESS UNTIL HERE
  
 
 
-!!! info
-
-    Check out or Bianca Portal for info about:
-    - NAISS-SENS
-    - Sensitive data
-    - The Bianca solution
-    - Tranfer of data
     
     
 
@@ -570,62 +570,6 @@ ssh richel-sens2023598@bianca.uppmax.uu.se
     This video shows how to use a terminal and SSH to access 
     the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c), 
     [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
-
-
-## Exercises
-
-![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
-
-???- question "1. Your colleague visits [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/) and sees nothing appear on the website (see also image above). What is likely the problem?"
-
-    He/she is not inside of SUNET. 
-    Show him/her the section above on how to get into SUNET.
-
-???- question "2. Exercise: login into the Bianca remote desktop"
-
-    The goal of this exercise is: (1) troubleshooting, to make sure one can access
-    this environment (2) see how it looks like, this may help one decide to
-    use this environment yes of no.
-
-    Note that you have to be within SUNET.
-
-???- question "3. Exercise: start a terminal in the Bianca remote desktop environment"
-
-    The goal of this exercise is that one makes him/herself slightly
-    familiar within the remote desktop environment. When one knows where
-    it is, this exercise takes literally one mouse click.
-
-???- question "4. Exercise: login into the Bianca console environment"
-
-    The goal of this exercise is: (1) troubleshooting, to make sure one can access
-    this environment (2) see how it looks like, this may help one decide to
-    use this environment yes of no.
-
-    Do this after having logged in to the Bianca remote desktop,
-    as most troubleshooting occurs in that exercise.
-
-???- question "5. Your colleague finds out that one can run scripts with calculations directly on the login node. This saves him/her much time waiting for a calculation to start. Is this OK and why?"
-
-    For that colleague, there seems to be no problem. 
-    However, for everyone else this is a problem,
-    as the login node is a *shared* node.
-
-    The colleague will be asked to *schedule* his/her jobs instead.
-    This is usually done by an email from the UPPMAX staff.
-
-    Requesting a calculation to run is part of this course 
-    and is described [here](slurm_intro.md).
-    This is done by using the SLURM scheduler.
-
-???- question "6. You are developing code on Bianca. You write the code line-by-line and schedule a test run after each addition. However, after each new line, it takes a couple of minutes before you know your code worked yes/no. How could you develop your code quicker?"
-
-    This is the typical use-case to use an interactive node.
-    One could also consider to develop code on a local computer 
-    instead (which uses nonsensitive/simulated/fake testing data)
-    and upload the final code instead.
-
-    Requesting an interactive node is part of this course 
-    and is described on this page.
 
 ## Conclusions
 
