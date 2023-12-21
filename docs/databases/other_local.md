@@ -45,4 +45,4 @@ iGenomes - Collection of reference sequences and annotation files
 A local copy of illumina's iGenomes collection of commonly analyzed organisms is available at /sw/data/igenomes. In addition to the annotations provided by the collection, Bismark and STAR indexes have been added.
 UK Biobank institutional data set (GENETICS)
 
-The UKBB data set is available for eligible projects in the system for sensitive research SNIC-SENS Bianca. If you believe you are elgiible, contact Professor Tove Fall to gain access.
+The UKBB data set is available for eligible projects in the system for sensitive research SNIC-SENS Bianca. If you believe you are eligible, contact Professor Tove Fall to gain access.
