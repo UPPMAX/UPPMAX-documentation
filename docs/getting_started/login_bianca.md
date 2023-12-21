@@ -163,15 +163,22 @@ For advice on handling sensitive personal data correctly on Bianca, see our FAQ 
 Bianca, like most HPC clusters, uses Linux.
 To use Bianca, there are two environments:
 
-![The Bianca remote desktop](./img/bianca_remote_desktop.png)
+???- info "How does the Bianca remote desktop look like?"
+
+    ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
+
+    > The Bianca remote desktop environment
 
 - A remote desktop environment, also called 'graphical environment', 
-  'GUI environment', 'ThinLinc environment'. It looks like the picture above.
+  'GUI environment', 'ThinLinc environment'
 
-![The Bianca console environment](./img/login_bianca_via_terminal_terminal.png)
+???- info "How does the Bianca console environment look like?"
+
+    ![The Bianca console environment](./img/login_bianca_via_terminal_terminal.png)
+
+    > The Bianca console environment
 
 - A console environment, also called 'terminal environment' or 'terminal'
-  It looks like the picture above.
 
 The remote desktop environment is considered the easier place to start for most
 new users, as it has most similarities with what a new user is familiar with.
