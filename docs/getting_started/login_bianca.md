@@ -414,7 +414,7 @@ When inside SUNET, one can access the Bianca environments.
 For a remote desktop environment, one can use:
 
 - the UPPMAX Bianca login website at
-  [http://bianca.uppmax.uu.se/](http://bianca.uppmax.uu.se/)
+  [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
 - a locally installed ThinLinc server
 
 Note that the UPPMAX Bianca login website uses ThinLinc too,
@@ -567,7 +567,7 @@ ssh richel-sens2023598@bianca.uppmax.uu.se
 
 ![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
-???- question "1. Your colleague visits [http://bianca.uppmax.uu.se/](http://bianca.uppmax.uu.se/) and sees nothing appear on the website (see also image above). What is likely the problem?"
+???- question "1. Your colleague visits [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/) and sees nothing appear on the website (see also image above). What is likely the problem?"
 
     He/she is not inside of SUNET. 
     Show him/her the section above on how to get into SUNET.
