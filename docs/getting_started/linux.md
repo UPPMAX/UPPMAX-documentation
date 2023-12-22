@@ -144,7 +144,7 @@ ask Bash to complete what you’re writing.
 
 ### nano 
 - keyboard shortcuts shown on-screen)
-- Cheatsheet: [http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html](http://staffwww.fullcoll.edu/sedwards/nano/UsefulNanoKeyCommands.html)
+- [Cheatsheet](https://www.nano-editor.org/dist/latest/cheatsheet.html) 
   - ^ = Ctrl, M = meta key)
     - Windows M = Alt
     - On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
