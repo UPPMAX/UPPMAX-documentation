@@ -363,6 +363,12 @@ flowchart TD
 As Bianca is an HPC cluster for sensitive data,
 one needs to be within SUNET to be able to access her.
 
+Bianca does not support any so-called X-forwarding (unlike Rackham), 
+so instead UPPMAX maintains a website that uses
+ThinLinc to get a full remote desktop environment.
+All you should need is a rather modern browser on any platform:
+we have tested on Chrome and Firefox :-)
+
 ???- info "How does it look like to try to access a remote desktop from outside of SUNET?"
 
     ![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
@@ -427,7 +433,34 @@ using a website:
 
     This video shows how to use an installed VPN,
     after which the UPPMAX Bianca login website is used to
-    access the Bianca remote desktop environment: [YouTube](https://youtu.be/Ni9nyCf7me8), [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+    access the Bianca remote desktop environment: 
+    [YouTube](https://youtu.be/Ni9nyCf7me8), 
+    [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+
+Under the hidden tab in the left edge of the screen, 
+you can find a clipboard, 
+icons of some special keys
+and the disconnect button:
+
+- the clipboard is needed to be able to copy-paste text to/from Bianca.
+- the icons of some special keys are needed for some users, 
+  as not all keyboard keys reach Bianca as expected.
+- the disconnect button disconnects your session
+
+???- question "What is the difference between 'disconnect session' and 'end session'?
+
+    'disconnect session' will save the current state of your session.
+    When you connect again, you will get the remote desktop back 
+    in exactly in the same place you left the system.
+    For example: if you were editing a file before disconnecting, 
+    your prompt will be in the same place you left it. 
+
+    'end session' will not save the current state of your session.
+    Instead, you will start with a clean slate at the next login.
+
+Bianca has a automatically disconnect after 30 minutes of inactivity.
+In the future it is possible that we implement some kind 
+of "automatic log out from active graphical session". 
 
 ### Login to the Bianca console environment
 
@@ -597,36 +630,6 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
     is the 2FA number.
 
  3. Enjoy! You are in!
-
-
-
-
-
-
-
-```
-PROGRESS UNTIL HERE
-```
-
-## Text from https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
-
-
-
-Graphical login
-
-Bianca does not support any X-forwarding, so to use graphical applications you need to have a full graphical desktop login. Bianca uses "Thinlinc" (in webaccess mode only) with XFCE as desktop environment for this. All you should need is a rather modern browser on any platform; we have tested on Chrome and Firefox.
-
-Just browse to: https://bianca.uppmax.uu.se
-
-The same principle with login name and password as with text logins: first step with user-project as username and password with password followed by second factor 6 digit number, and then second step to the login node for your specific project with normal username (and here you really have to type that – in text mode that is done automatically) and normal UPPMAX password (without second factor). The redirection to the correct project login node works automatically. If the login node is sleeping you will be informed what to do.
-
-When you are logged into your graphical environment, the resizing and even fullscreen mode (in your browser) should work as expected.
-
-Under the hidden tab in the left edge of the screen you can find a clipboard, some keys (where the keyboard versions often interfere with your local system) and the "disconnect" button. It is important to understand the difference of "disconnect session" and "end session". When you disconnect a session you will get back exactly in the same place you left the system; if you for example edit a file, your prompt will be in the same place you left it at the next login. If you use "logout" (end session) in the XFCE menus, the system will try to close all your windows and files and end the processes related to the login.
-
-Bianca has a autodisconnect after 30 minutes of inactivity, and in the future it is possible that we implement some kind of "automatic log out from active graphical session". 
-
-```
 
 ## Extra material
 
