@@ -646,7 +646,7 @@ flowchart TD
     subgraph sub_bianca_shared_env[Bianca shared network]
       bianca_shared_console[Bianca console environment login]
       bianca_shared_remote_desktop[Bianca remote desktop login] 
-      subgraph sub_bianca_private_env[Bianca private network]
+      subgraph sub_bianca_private_env[Your private virtual Bianca network]
         bianca_private_console[Bianca console environment]
         bianca_private_remote_desktop[Bianca remote desktop] 
         bianca_private_terminal[Terminal] 
