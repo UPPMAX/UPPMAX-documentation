@@ -13,7 +13,7 @@
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
 
 > The two Bianca environments to work on Bianca. 
-> At the left is the remote desktop environment.
+> At the left is a remote desktop environment.
 > At the the right is the console environment.
 
 Here it is described how to login to Bianca:
@@ -180,13 +180,16 @@ To use Bianca, there are two environments:
 
 ???- info "How does the Bianca remote desktop look like?"
 
+    One can pick multiple remote desktop environments,
+    such as GNOME and XFCE (and KDE, don't pick KDE!).
+
     ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
 
-    > The Bianca remote desktop environment
+    > The Bianca XFCE remote desktop environment
 
     ![A more populated Bianca remote desktop](./img/Thinlinc2.jpg)
 
-    > A more populated Bianca remote desktop
+    > A more populated Bianca XFCE remote desktop
 
 - A remote desktop environment, also called 'graphical environment', 
   'GUI environment', 'ThinLinc environment'
@@ -432,7 +435,8 @@ When inside SUNET, one can access a Bianca console environment
 using a terminal and the Secure Shell Protocol (SSH).
 
 You can use your favorite terminal to login (see <https://uppmax.github.io/uppmax_intro/login2.html#terminals> for an overview of many)
-to the Bianca command-line environment.
+to the Bianca command-line environment. 
+You can also have multiple log-ins active at once.
 
 There are multiple ways to set this up:
 
@@ -441,6 +445,14 @@ There are multiple ways to set this up:
 
 Using an SSH password is considered easiest,
 where using an SSH key is considered more elegant.
+
+In a Bianca console environment:
+
+- Text display is limited to 50kBit/s.
+  This means that if you create a lot of text output,
+  you will have to wait some time before you get your prompt back.
+- Cut, copy and paste work as usual.
+  Be careful to not copy-paste sensitive data! 
 
 ### Login to the Bianca console environment using an SSH password
 
@@ -494,7 +506,9 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 
  2. Type your UPPMAX password, 
     directly followed by the UPPMAX 2-factor authentication number,
-    for example `verysecret678123`, then press enter
+    for example `verysecret678123`, then press enter.
+    In this case, the password is `verysecret` and `678123`
+    is the 2FA number.
 
 After authenticated using the UPPMAX password and 2FA, 
 you are logged in on Bianca's shared network,
@@ -521,8 +535,9 @@ and UPPMAX 2FA), you don't need 2FA anymore.
     has a guaranteed isolated project environment.
 
 When you login to Bianca's shared network,
-Bianca looks for your private virtual project cluster.
-If it is not yet present, the virtual cluster is started,
+you will get a message of your project's login node status.
+It can be `up and running` or `down`.
+If it is `down`, the virtual cluster is started,
 which may take some minutes.
 
  3. Type your UPPMAX password,
@@ -577,7 +592,9 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
 
  2. Type your UPPMAX password, 
     directly followed by the UPPMAX 2-factor authentication number,
-    for example `verysecret678123`, then press enter
+    for example `verysecret678123`, then press enter.
+    In this case, the password is `verysecret` and `678123`
+    is the 2FA number.
 
  3. Enjoy! You are in!
 
@@ -591,47 +608,9 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
 PROGRESS UNTIL HERE
 ```
 
-### The log in steps
-
-    - you are prompted to give your username and password again, this time without projid and 2nd-factor:
-         - username: <myname>
-         - password: verysecret
-4. Inside each virtual project cluster, by default there is just a one-core login node. When you need more memory or more CPU power, you submit a job (interactive or batch), and an idle node will be moved into your project cluster.
- 
-
-
-    
-    
-
-    
-
 ## Text from https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
 
-```
-2. Login
 
-The login procedure requires you to pass two separate authentication mechanisms (automatically connected together). The first one logs you into the general Bianca login node (which we call the jumphost). This is the step that requires two factor authentication. You will then be automatically redirected to your project's private login node, where you will get a new password prompt (unless you set up ssh-keys).
-
-The user name you will use in the first step is your ordinary UPPMAX user name, followed by the project ID of the project you want to work on. One of the security measures on Bianca is that all projects are kept separate on their own virtual clusters, so you must tell Bianca which project's cluster you want to connect to.
-Primary login (text login)
-
-You can use any ssh-program in all normal platforms (Windows, Mac, Linux). You can have multiple log-ins active at once.
-
-$ ssh -A <username>-<projid>@bianca.uppmax.uu.se
-Ex.
-$ ssh -A myname-sens2016999@bianca.uppmax.uu.se
-
-As password you use your normal UPPMAX password directly followed by the six digits from the second factor application from step 1.
-
-E.g. if your password is "VerySecret" and the second factor code is 123 456 you would type VerySecret123456 as the password in this step.
-
-If the password is correct you will get a message of your projects login node status. It can be "up and running" or "down". If it is down it will automatically spin up, but this takes a few minutes. Then you will be automatically redirected to login at your project's private login node. To be able to login there you will have to give your UPPMAX password once again, but without the two factor authentication code this time. If your password is "VerySecret" you would type in VerySecret as password in this step. To skip this password in the future, you can use ssh-keys.
-
-If the passwords have been entered correctly, you should now be connected and you will see the computer name at the start of the command line which looks something like this:
-
-[myuser@sens2016999-bianca ~]$
-
-This text login is limited to 50kBit/s, so if you create a lot of text output you will have to wait some time before you get your prompt back. The system supports all cut and paste mechanisms your client computer support, but of course you are not supposed to transfer any real data in or out through this mechanism — only commands and stuff like that.
 
 Graphical login
 
