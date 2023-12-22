@@ -529,7 +529,12 @@ which may take some minutes.
     for example `verysecret`
 
  4. Enjoy! You are in! Or, to be precise, 
-    you are on your own virtual project cluster.
+    you are on the login node of your own virtual project cluster.
+    By default, this node has one core,
+    hence if you need more memory or more CPU power, 
+    you submit a job (interactive or batch), 
+    and an idle node will be moved into your project cluster.
+
 
 ???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
 
