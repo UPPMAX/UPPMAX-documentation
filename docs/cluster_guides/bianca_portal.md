@@ -1,6 +1,6 @@
 # Bianca portal
 
-!!! tip "Contents and links
+!!! tip "Contents and links"
 
     - log in
     - transfer
