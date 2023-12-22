@@ -84,7 +84,7 @@ Backspace will get you back to julian mode
 More detailed information about the modes in Julia can be found here: https://docs.julialang.org/en/v1/stdlib/REPL/
 
 
-Introduction
+## Introduction
 Julia is according to https://julialang.org/:
 
 Fast
@@ -97,7 +97,7 @@ Documentation for version 1.8.
 
 Julia discussions.
 
-Packages
+## Packages
 Some packages are pre-installed. That means that they are available also on Bianca.These include:
 
   "BenchmarkTools"
@@ -126,16 +126,18 @@ Packages are imported or loaded by the commands ``import`` and ``using``, respec
 
 To use module functions, use import Module to import the module, and Module.fn(x) to use the functions.
 Alternatively, using Module will import all exported Module functions into the current namespace.
-Use  centrally installed packages the first time 
+
+### Use  centrally installed packages the first time 
 You may have to build the package the first time you run it. Julia will in such case ask you to do so. Then:
 
 > using Pkg
 > Pkg.activate(DEPOT_PATH[2]*"/environments/v1.9");      #change version accordingly
 > Pkg.build(<package_name>)
-How to install personal packages
+
+## How to install personal packages
 You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the 
 
-Check if packages are installed centrally
+### Check if packages are installed centrally
 To make sure that the package is not already installed, type in Julia:
 
 using Pkg
@@ -147,7 +149,7 @@ To go back to your own personal packages:
       Pkg.status()
 You can load (using/import) ANY package from both lotcal and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
 
-Start an installation locally
+### Start an installation locally
 To install personal packages, start to be sure that you are in your local environment. You type within Julia:
 
      Pkg.activate(DEPOT_PATH[1]*"/environmentts/v1.8");
@@ -165,12 +167,13 @@ After adding you may be asked to precompile or build. Do so according to instruc
 Exit with <backspace>:
 
 julia> 
-Own packages on Bianca
+
+### Own packages on Bianca
 You can use make an installation on Rackham and then use the wharf to copy it over to your ~/.julia/ directory.
 
 Otherwise, send an email to support@uppmax.uu.se and we'll help you.
 
-Running IJulia from Jupyter notebook
+## Running IJulia from Jupyter notebook
 Like for python it is possible to run a Julia in a notebook, i.e. in a web interface with possibility of inline figures and debugging. An easy way to do this is to load the python module as well. In shell:
 
 $ module load julia/1.8.5
@@ -190,10 +193,10 @@ If not, you may have to build IJulia the first time with Pkg.build(“IJulia”)
 > notebook(dir="</path/to/work/dir/>")
 This builds the package also locally before starting the notebook. If not done, Jupyter will not find the julia kernel of that version. With notebook(dir="</path/to/work/dir/>", detached=true) the notebook will not be killed when you exit your REPL julia session in the terminal.
 
-How to run parallel jobs
+## How to run parallel jobs
 There are several packages available for Julia that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines. You'll find an introduction here.
 
-Run interactively on compute node
+### Run interactively on compute node
 Always run parallel only on the compute nodes. This is an example with 4 cores on Rackham
 
 $ interactive -A <proj> -n 4 -t 3:00:00
@@ -201,7 +204,7 @@ Running interactively at UPPMAX
 
 Slurm user guide
 
-Threading
+### Threading
 Threading divides up your work among a number of cores within a node. The threads share their memory. Below is an example from within Julia. First, in the shell type:
 
 $ export JULIA_NUM_THREADS=4
@@ -214,8 +217,9 @@ nthreads()
 @threads for i = 1:10
         a[i] = Threads.threadid()
 end
-a
-Distributed computing
+
+
+### Distributed computing
 Distributed processing uses individual processes with individual memory, that communicate with each other. In this case, data movement and communication is explicit.
 Julia supports various forms of distributed computing.
 
@@ -226,7 +230,7 @@ If choosing between distributed and MPI, distributed is easier to program, where
 
 For more detailed info please confer the manual for distributed computing and julia MPI.  
 
-Master-Worker model
+#### Master-Worker model
 We need to launch Julia with
 
 $ julia -p 4
@@ -238,7 +242,7 @@ which should print 5 and [2,3,4,5]. Why 5, you ask? Because *"worker 1"* is the 
 
 As you can see, you can run distributed computing directly from the julia shell. 
 
-Batch example
+#### Batch example
 
 Julia script hello_world_distributed.jl:
 
@@ -275,14 +279,16 @@ julia hello_world_distributed.jl
 ​Put job in queue:
 
 $ sbatch job_distributed.slurm
-Interactive example 
+
+#### Interactive example 
 
 $ salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0 
 $ julia hello_world_distributed.jl
-MPI 
+
+### MPI 
 The Threaded and Distributed packages are included in the Base installation. However, in order to use MPI with Julia you will need to follow the next steps (only the first time):
 
-# Load the tool chain which contains a MPI library
+- Load the tool chain which contains a MPI library
 For julia/1.6.3 and earlier: 
 
       $ module load gcc/9.3.0 openmpi/3.1.5
@@ -292,23 +298,25 @@ For julia/1.6.7_LTS & 1.7.2:
 For julia/1.8.5: 
 
       $ module load gcc/11.3.0 openmpi/4.1.3
-# Load Julia
+      
+
+- Load Julia
 $ ml julia/1.8.5   # or other 
-# Start Julia on the command line
+- Start Julia on the command line
 $ julia
-# Change to ``package mode`` and add the ``MPI`` package
+- Change to ``package mode`` and add the ``MPI`` package
 (v1.8) pkg> add MPI
-# In the ``julian`` mode run these commands:
+- In the ``julian`` mode run these commands:
 julia> using MPI
 julia> MPI.install_mpiexecjl()
 [ Info: Installing `mpiexecjl` to `~/.julia/bin`...
 [ Info: Done!
-# Add the installed ``mpiexecjl`` wrapper to your path on the Linux command line
+- Add the installed ``mpiexecjl`` wrapper to your path on the Linux command line
 $ export PATH=~/.julia/bin:$PATH
-# Now the wrapper should be available on the command line
+- Now the wrapper should be available on the command line
 Because of how MPI works, we need to explicitly write our code into a file, juliaMPI.jl:
 
-    import MPI
+import MPI
 MPI.Init()
 comm = MPI.COMM_WORLD
 MPI.Barrier(comm)
@@ -326,6 +334,7 @@ You can execute your code as in an interactive session with several cores (at le
       $ mpiexecjl -np 3 julia juliaMPI.jl
 A batch script, job_MPI.slurm, should include a "module load gcc/XXX openmpi/XXX"
 
+```bash
 #!/bin/bash
 #SBATCH -A j<proj>
 #SBATCH -p devel
@@ -342,12 +351,13 @@ module load gcc/11.3.0 openmpi/4.1.3
 export OMPI_MCA_btl_openib_allow_ib=1
 export PATH=~/.julia/bin:$PATH
 mpiexecjl -n 20 julia juliaMPI.jl
- Run with 
+```
+- Run with 
 
 $ sbatch job_MPI.slurm
 See the MPI.jl examples for more input!
 
-GPU
+### GPU
 Example Julia script, juliaCUDA.jl:
 
 using CUDA, Test
@@ -359,6 +369,7 @@ y_d .+= x_d
 println("Success")
 Batch script juliaGPU.slurm, note settings for Bianca vs. Snowy:
 
+´´´bash
 #!/bin/bash
 #SBATCH -A <proj-id>
 #SBATCH -M <snowy OR bianca>
@@ -375,6 +386,8 @@ Batch script juliaGPU.slurm, note settings for Bianca vs. Snowy:
 module purge
 module load julia/1.8.5          # system CUDA works as of today
 julia juliaCUDA.jl
+```
+
 Put job in queue:
 $ sbatch juliaGPU.slurm
 Interactive session with GPU
