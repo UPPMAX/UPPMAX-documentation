@@ -213,15 +213,16 @@ flowchart TD
     %% Give a white background, instead of a transparent one
     classDef node fill:#fff,color:#000,stroke:#000
 
-    subgraph sub_bianca_env[Bianca environment]
-      bianca_console[Bianca console environment]
-      bianca_remote_desktop[Bianca remote desktop] 
-      bianca_terminal[Terminal] 
-    end
-    style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
+      subgraph sub_bianca_private_env[The project's private virtual project cluster]
+        bianca_private_console[Bianca console environment]
+        bianca_private_remote_desktop[Bianca remote desktop] 
+        bianca_private_terminal[Terminal] 
+      end
+      style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
 
-    bianca_console---|is a|bianca_terminal
-    bianca_remote_desktop-->|must also use|bianca_terminal
+    %% Private Bianca
+    bianca_private_console---|is a|bianca_private_terminal
+    bianca_private_remote_desktop-->|must also use|bianca_private_terminal
 ```
 
 > The two Bianca environments and their relation to a terminal.
@@ -247,26 +248,29 @@ Each of these three ways are described below.
 ```mermaid
 flowchart TD
 
-    subgraph sub_outside[Outside SUNET]
-      outside(Physically outside SUNET)
-      style outside fill:#fff,color:#000,stroke:#000
-    end    
-    style sub_outside fill:#fcc,color:#000,stroke:#faa
+    %% Give a white background, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+    classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
 
-    subgraph sub_inside[Inside SUNET]
+    subgraph sub_outside[IP outside SUNET]
+      outside(Physically outside SUNET)
+    end    
+    style sub_outside fill:#fcc,color:#000,stroke:#fcc
+
+    subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
-      style physically_inside fill:#fff,color:#000,stroke:#000
-      style inside_using_vpn fill:#fff,color:#000,stroke:#000
-      style inside_using_rackham fill:#fff,color:#000,stroke:#000
     end
-    style sub_inside fill:#ffc,color:#000,stroke:#ffa
+    style sub_inside fill:#ffc,color:#000,stroke:#ffc
 
 
+    %% Outside SUNET
     outside-->|Move physically|physically_inside
     outside-->|Use a VPN|inside_using_vpn
-    outside-->|Use Rackham|inside_using_rackham
+    outside-->|Login to Rackham|inside_using_rackham
+
+    %% Inside SUNET
     physically_inside-.->inside_using_rackham
     physically_inside-.->inside_using_vpn
 ```
@@ -326,36 +330,32 @@ are discussed
 ```mermaid
 flowchart TD
 
-    subgraph sub_inside[Inside SUNET]
+    %% Give a white background, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+    classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
+
+    subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
-      style physically_inside fill:#fff,color:#000,stroke:#000
-      style inside_using_vpn fill:#fff,color:#000,stroke:#000
-      style inside_using_rackham fill:#fff,color:#000,stroke:#000
     end
-    style sub_inside fill:#ffc,color:#000,stroke:#ffa
+    style sub_inside fill:#ffc,color:#000,stroke:#ffc
 
-    subgraph sub_bianca_env[Bianca environment]
-      bianca_console[Bianca console environment]
-      bianca_remote_desktop[Bianca remote desktop] 
-      bianca_terminal[Terminal] 
-      style bianca_console fill:#fff,color:#000,stroke:#000
-      style bianca_remote_desktop fill:#fff,color:#000,stroke:#000
-      style bianca_terminal fill:#fff,color:#000,stroke:#000
+    subgraph sub_bianca_shared_env[Bianca shared network]
+      bianca_shared_console[Bianca console environment login]
+      bianca_shared_remote_desktop[Bianca remote desktop login] 
+
     end
-    style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
+    style sub_bianca_shared_env fill:#cfc,color:#000,stroke:#cfc
 
-    physically_inside-->|Use SSH|bianca_console
-    physically_inside-->|Use UPPMAX website|bianca_remote_desktop
-    physically_inside-->|Use local ThinLinc server|bianca_remote_desktop
+    %% Inside SUNET
+    physically_inside-->|SSH|bianca_shared_console
+    physically_inside-->|UPPMAX website|bianca_shared_remote_desktop
     physically_inside-.->inside_using_rackham
     physically_inside-.->inside_using_vpn
-    inside_using_vpn-->|Use SSH|bianca_console
-    inside_using_vpn-->|Use UPPMAX website|bianca_remote_desktop
-    inside_using_rackham-->|Use SSH|bianca_console
-    bianca_console---|is a|bianca_terminal
-    bianca_remote_desktop-->|must also use|bianca_terminal
+    inside_using_vpn-->|SSH|bianca_shared_console
+    inside_using_vpn-->|UPPMAX website|bianca_shared_remote_desktop
+    inside_using_rackham-->|SSH|bianca_shared_console
 ```
 
 ### Login to the Bianca remote desktop environment
@@ -631,9 +631,47 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
 
  3. Enjoy! You are in!
 
+???- question "Why does one need two passwords?"
+
+    The first password is needed to get into the shared Bianca environment.
+    This password contains both an UPPMAX password and an UPPMAX 2FA number.
+
+    The second password is needed to go to the login node 
+    of a project's virtual cluster.
+
+    ```mermaid
+    flowchart TD
+
+        %% Give a white background, instead of a transparent one
+        classDef node fill:#fff,color:#000,stroke:#000
+        classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
+
+        subgraph sub_bianca_shared_env[Bianca shared network]
+          bianca_shared_console[Bianca console environment login]
+          bianca_shared_remote_desktop[Bianca remote desktop login] 
+          subgraph sub_bianca_private_env[The project's private virtual project cluster]
+            bianca_private_console[Bianca console environment]
+            bianca_private_remote_desktop[Bianca remote desktop] 
+            bianca_private_terminal[Terminal] 
+          end
+          style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
+
+        end
+        style sub_bianca_shared_env fill:#cfc,color:#000,stroke:#cfc
+
+        %% Shared Bianca
+        bianca_shared_console --> |UPPMAX password|bianca_private_console
+        bianca_shared_remote_desktop-->|UPPMAX password|bianca_private_remote_desktop
+
+        %% Private Bianca
+        bianca_private_console---|is a|bianca_private_terminal
+        bianca_private_remote_desktop-->|must also use|bianca_private_terminal
+    ```
+
+	
 ## Extra material
 
-### The ways to access Bianca's environments
+### Overview
 
 ```mermaid
 flowchart TD
@@ -661,9 +699,6 @@ flowchart TD
         bianca_private_console[Bianca console environment]
         bianca_private_remote_desktop[Bianca remote desktop] 
         bianca_private_terminal[Terminal] 
-      style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
-
-
       end
       style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
 
