@@ -497,15 +497,39 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     for example `verysecret678123`, then press enter
 
 After authenticated using the UPPMAX password and 2FA, 
-Bianca looks for your virtual project cluster.
+you are logged in on Bianca's shared network,
+on a so-called 'jumphost'. 
+
+However, you will still need to login to your own
+private virtual project cluster. 
+As you are already properly authenticated (i.e. using an UPPMAX password
+and UPPMAX 2FA), you don't need 2FA anymore.
+
+???- question "What is a virtual project cluster?"
+
+    As Bianca holds sensitive data, by regulations,
+    each Bianca project must be isolated from each other
+    and are not allowed to, for example, share the same memory.
+
+    One way to achieve this, would be to build one HPC cluster 
+    per project. While this would guarantee isolated project environments,
+    this would be quite impractical.
+
+    Instead, we create isolated project environments by using software,
+    that creates so-called virtual clusters, as if they would be
+    physical clusters. Like physical clusters, a virtual cluster 
+    has a guaranteed isolated project environment.
+
+When you login to Bianca's shared network,
+Bianca looks for your private virtual project cluster.
 If it is not yet present, the virtual cluster is started,
 which may take some minutes.
 
  3. Type your UPPMAX password,
     for example `verysecret`
 
- 4. Enjoy! You are in!
-
+ 4. Enjoy! You are in! Or, to be precise, 
+    you are on your own virtual project cluster.
 
 ???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
 
@@ -646,7 +670,7 @@ flowchart TD
     subgraph sub_bianca_shared_env[Bianca shared network]
       bianca_shared_console[Bianca console environment login]
       bianca_shared_remote_desktop[Bianca remote desktop login] 
-      subgraph sub_bianca_private_env[Your private virtual Bianca network]
+      subgraph sub_bianca_private_env[The project's private virtual project cluster]
         bianca_private_console[Bianca console environment]
         bianca_private_remote_desktop[Bianca remote desktop] 
         bianca_private_terminal[Terminal] 
