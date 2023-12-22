@@ -7,6 +7,7 @@
 
 As the time of writing we have the following modules:
 
+```tcl
 [user@rackham1 ~]$ module avail julia
 ------------------------------------------------------
 julia:
@@ -22,10 +23,9 @@ Versions:
         julia/1.8.5
         julia/1.9.1 
         julia/1.9.3 (Default)
+```
 
-           
-
-"LTS" stands for Long term support.
+- "LTS" stands for Long term support.
 
 To load a specific version of Julia into your environment, just type e.g.
 
@@ -246,6 +246,7 @@ As you can see, you can run distributed computing directly from the julia shell.
 
 Julia script hello_world_distributed.jl:
 
+```julia
 using Distributed
 # launch worker processes
 num_cores = parse(Int, ENV["SLURM_CPUS_PER_TASK"])
@@ -261,8 +262,11 @@ end
 for i in workers()
     rmprocs(i)
 end
-Batch script job_distributed.slurm:
+```
 
+- Batch script job_distributed.slurm:
+
+```bash
 #!/bin/bash
 #SBATCH -A j<proj>
 #SBATCH -p devel
@@ -276,6 +280,8 @@ Batch script job_distributed.slurm:
 #SBATCH --mail-user=<email>
 module load julia/1.8.5
 julia hello_world_distributed.jl
+```
+
 ​Put job in queue:
 
 $ sbatch job_distributed.slurm
