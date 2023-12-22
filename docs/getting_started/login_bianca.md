@@ -428,11 +428,30 @@ using a website:
 
 ### Login to the Bianca console environment
 
-When inside SUNET, one can access a console environment
+When inside SUNET, one can access a Bianca console environment
 using a terminal and the Secure Shell Protocol (SSH).
 
 You can use your favorite terminal to login (see <https://uppmax.github.io/uppmax_intro/login2.html#terminals> for an overview of many)
 to the Bianca command-line environment.
+
+There are multiple ways to set this up:
+
+- [Using an SSH password](#login-to-the-bianca-console-environment-using-an-ssh-password).
+- [Using SSH keys](#login-to-the-Bianca-console-environment-using-ssh-keys)
+
+Using an SSH password is considered easiest,
+where using an SSH key is considered more elegant.
+
+### Login to the Bianca console environment using an SSH password
+
+When inside SUNET, one can access a Bianca console environment
+using SSH with an SSH password.
+
+This is considered the easier one to setup,
+but one will have to type a password twice to login.
+To get rid of one password and setup SHH keys, 
+see [here](#login-to-the-Bianca-console-environment-using-ssh-keys).
+
 
   1. From a terminal, use `ssh` to log in:
 
@@ -445,6 +464,20 @@ For example:
 ```bash
 ssh sven-sens2023598@bianca.uppmax.uu.se
 ```
+
+???- info "Why no `-A`?"
+
+    On Bianca, one can use `-A`:
+   
+    ```
+    ssh -A username@bianca.uppmax.uu.se
+    ```
+
+    this option is only useful when 
+    [using SSH keys](#login-to-the-Bianca-console-environment-using-ssh-keys)
+    to access Bianca.
+    As we here use passwords (i.e. no SSH keys) 
+    to access Bianca, `-A` is obsolete.
 
 ???- info "Why no `-X`?"
 
@@ -474,8 +507,15 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c), 
     [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
 
+### Login to the Bianca console environment using SSH keys
 
+When inside SUNET, one can access a Bianca console environment
+using SSH and SSH keys.
 
+This is considered a bit harder to setup,
+but one only needs to type one password to login to Bianca.
+If you don't mind typing your UPPMAX password twice,
+an easier setup is [here](#login-to-the-bianca-console-environment-using-an-ssh-password).
 
 
 
