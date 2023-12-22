@@ -372,9 +372,24 @@ using a website:
 
   1. In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
-  2. Fill in the first dialog. Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
+  2. Fill in the first dialog. 
+     Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
 
-???- "How does that web page look like?"
+???- question "How do I setup 2-factor authentication?"
+
+    See the guide at [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
+    to setup an UPPMAX 2-factor authentication method.
+
+    You really need to use the UPPMAX 2-factor authentication,
+    i.e not the SUPR one, to login to Bianca.
+
+    ![](2fa_uppmax_and_supr.png)
+
+    > Screenshot of a two-factor authentication app.
+    > Use the 2-factor authentication called 'UPPMAX'
+    > to access Bianca
+
+???- question "How does that web page look like?"
 
     ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
 
@@ -473,14 +488,6 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 PROGRESS UNTIL HERE
 ```
 
-## Log in to Bianca with ThinLinc
-
-- Bianca offers graphical login
-    - You need to be on SUNET or use VPN
-    - On web:
-        - [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
-        - requires [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/)
-
 ### The log in steps
 
 1. When you log in to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se), your SSH or ThinLinc client first meets the blue Bianca login node.
@@ -505,12 +512,6 @@ PROGRESS UNTIL HERE
 ## Text from https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
 
 ```
-1. Set up TWO factor authentication
-
-Follow the instructions in Setting up two factor authentication.
-
-Please note that you need to set up two factor authentication for UPPMAX and not for SUPR! If you have multiple two factor codes registered the correct is labeled UPPMAX (as seen below highlighted in green).
-
 2. Login
 
 Bianca is accessible from all SUNET IP addresses, i.e. all Swedish university networks. It is generally NOT accessible from other networks. Use your university's VPN if needed.
