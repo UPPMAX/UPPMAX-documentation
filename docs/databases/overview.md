@@ -3,7 +3,7 @@
 Many commonly used data sources are stored locally at UPPMAX. This page provides an index to pages where they are described in more detail.
 Available databases:
 
-    [BLAST databases available locally](./databases/blast.md)
+    [BLAST databases available locally](./blast.md)
     [NCBI taxonomy databases]
     [DIAMOND protein alignment databases]
     [Reference genomes]
