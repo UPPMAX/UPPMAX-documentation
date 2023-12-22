@@ -477,7 +477,8 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     [using SSH keys](#login-to-the-Bianca-console-environment-using-ssh-keys)
     to access Bianca.
     As we here use passwords (i.e. no SSH keys) 
-    to access Bianca, `-A` is obsolete.
+    to access Bianca, `-A` is unused
+    and hence we simplify this documentation by omitting it.
 
 ???- info "Why no `-X`?"
 
