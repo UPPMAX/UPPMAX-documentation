@@ -226,17 +226,17 @@ flowchart TD
 ## Get within the university networks
 
 Bianca has sensitive data. 
-To protect this data from leaking,
-Bianca can only be access from within the
-Swedish university networks.
-These networks together are called [SUNET](https://www.sunet.se/).
+To protect this data, 
+Bianca is accessible from all Swedish university networks.
+To be precise, to connect to Bianca one needs to so from a
+[SUNET](https://www.sunet.se/) Internet Protocol ('IP') address.
 
-One cannot access Bianca outside of SUNET.
-Hence, one must get inside SUNET first. 
+Due to this, the first step to access Bianca
+is to get an IP that is inside SUNET first. 
 There are these ways to do this:
 
 - Physically move inside SUNET
-- Use a virtual private network
+- Use a VPN (a 'virtual private network')
 - Use an HPC cluster within SUNET
 
 Each of these three ways are described below.
@@ -513,8 +513,6 @@ PROGRESS UNTIL HERE
 
 ```
 2. Login
-
-Bianca is accessible from all SUNET IP addresses, i.e. all Swedish university networks. It is generally NOT accessible from other networks. Use your university's VPN if needed.
 
 The login procedure requires you to pass two separate authentication mechanisms (automatically connected together). The first one logs you into the general Bianca login node (which we call the jumphost). This is the step that requires two factor authentication. You will then be automatically redirected to your project's private login node, where you will get a new password prompt (unless you set up ssh-keys).
 
