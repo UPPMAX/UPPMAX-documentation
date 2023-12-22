@@ -375,7 +375,7 @@ y_d .+= x_d
 println("Success")
 Batch script juliaGPU.slurm, note settings for Bianca vs. Snowy:
 
-´´´bash
+```bash
 #!/bin/bash
 #SBATCH -A <proj-id>
 #SBATCH -M <snowy OR bianca>
@@ -394,9 +394,10 @@ module load julia/1.8.5          # system CUDA works as of today
 julia juliaCUDA.jl
 ```
 
-Put job in queue:
-$ sbatch juliaGPU.slurm
-Interactive session with GPU
+- Put job in queue:
+  $ sbatch juliaGPU.slurm
+  
+#### Interactive session with GPU
 On Snowy, getting 1 cpu and 1 gpu:
 
 $ interactive -A <proj> -n 1 -M snowy --gres=gpu:1  -t 3:00:00
@@ -404,5 +405,5 @@ On Bianca, getting 2 cpu:s and 1 gpu:
 
 $ interactive -A <proj> -n 2 -C gpu --gres=gpu:1 -t 01:10:00 
      
-        julia/1.7.2 
-        julia/1.8.5 (Default)
+       $ julia/1.7.2 
+       $ julia/1.8.5 (Default)
