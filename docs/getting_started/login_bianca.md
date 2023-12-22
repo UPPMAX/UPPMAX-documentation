@@ -496,6 +496,11 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     directly followed by the UPPMAX 2-factor authentication number,
     for example `verysecret678123`, then press enter
 
+After authenticated using the UPPMAX password and 2FA, 
+Bianca looks for your virtual project cluster.
+If it is not yet present, the virtual cluster is started,
+which may take some minutes.
+
  3. Type your UPPMAX password,
     for example `verysecret`
 
@@ -518,6 +523,34 @@ but one only needs to type one password to login to Bianca.
 If you don't mind typing your UPPMAX password twice,
 an easier setup is [here](#login-to-the-bianca-console-environment-using-an-ssh-password).
 
+  1. From a terminal, use `ssh` to log in:
+
+```bash
+ssh -A [user]-[project name]@bianca.uppmax.uu.se
+```
+
+For example:
+
+```bash
+ssh -A sven-sens2023598@bianca.uppmax.uu.se
+```
+
+???- info "Why no `-X`?"
+
+    On Rackham, one can use `-X`:
+   
+    ```
+    ssh -AX username@rackham.uppmax.uu.se
+    ```
+
+    However, on Bianca, this so-called X-forwarding is disabled.
+    Hence, we do not teach it :-)
+
+ 2. Type your UPPMAX password, 
+    directly followed by the UPPMAX 2-factor authentication number,
+    for example `verysecret678123`, then press enter
+
+ 3. Enjoy! You are in!
 
 
 
@@ -531,13 +564,6 @@ PROGRESS UNTIL HERE
 
 ### The log in steps
 
-1. When you log in to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se), your SSH or ThinLinc client first meets the blue Bianca login node.
-    - user name: `<username>-<projid>@bianca.uppmax.uu.se`
-        - like: `myname-sens2016999@bianca.uppmax.uu.se`
-    - password: your password, directly followed by the 6-digit 2-factor
-        - like: verysecret678123
-2. After checking your [2-factor authentication] this server looks for your virtual project cluster.
-3. If it's present, then you are transferred to a login prompt on your cluster's login node. If not, then the virtual cluster is started.
     - you are prompted to give your username and password again, this time without projid and 2nd-factor:
          - username: <myname>
          - password: verysecret
@@ -605,36 +631,53 @@ flowchart TD
     classDef node fill:#fff,color:#000,stroke:#000
     classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
 
-    subgraph sub_outside[Outside SUNET]
+    subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
     end    
     style sub_outside fill:#fcc,color:#000,stroke:#fcc
 
-    subgraph sub_inside[Inside SUNET]
+    subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
     end
     style sub_inside fill:#ffc,color:#000,stroke:#ffc
 
-    subgraph sub_bianca_env[Bianca environment]
-      bianca_console[Bianca console environment]
-      bianca_remote_desktop[Bianca remote desktop] 
-      bianca_terminal[Terminal] 
-    end
-    style sub_bianca_env fill:#cfc,color:#000,stroke:#cfc
+    subgraph sub_bianca_shared_env[Bianca shared network]
+      bianca_shared_console[Bianca console environment login]
+      bianca_shared_remote_desktop[Bianca remote desktop login] 
+      subgraph sub_bianca_private_env[Bianca private network]
+        bianca_private_console[Bianca console environment]
+        bianca_private_remote_desktop[Bianca remote desktop] 
+        bianca_private_terminal[Terminal] 
+      style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
 
+
+      end
+      style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
+
+    end
+    style sub_bianca_shared_env fill:#cfc,color:#000,stroke:#cfc
+
+    %% Outside SUNET
     outside-->|Move physically|physically_inside
     outside-->|Use a VPN|inside_using_vpn
-    outside-->|Use Rackham|inside_using_rackham
-    physically_inside-->|Use SSH|bianca_console
-    physically_inside-->|Use UPPMAX website|bianca_remote_desktop
-    physically_inside-->|Use local ThinLinc server|bianca_remote_desktop
+    outside-->|Login to Rackham|inside_using_rackham
+
+    %% Inside SUNET
+    physically_inside-->|SSH|bianca_shared_console
+    physically_inside-->|UPPMAX website|bianca_shared_remote_desktop
     physically_inside-.->inside_using_rackham
     physically_inside-.->inside_using_vpn
-    inside_using_vpn-->|Use SSH|bianca_console
-    inside_using_vpn-->|Use UPPMAX website|bianca_remote_desktop
-    inside_using_rackham-->|Use SSH|bianca_console
-    bianca_console---|is a|bianca_terminal
-    bianca_remote_desktop-->|must also use|bianca_terminal
+    inside_using_vpn-->|SSH|bianca_shared_console
+    inside_using_vpn-->|UPPMAX website|bianca_shared_remote_desktop
+    inside_using_rackham-->|SSH|bianca_shared_console
+
+    %% Shared Bianca
+    bianca_shared_console --> |UPPMAX password|bianca_private_console
+    bianca_shared_remote_desktop-->|UPPMAX password|bianca_private_remote_desktop
+
+    %% Private Bianca
+    bianca_private_console---|is a|bianca_private_terminal
+    bianca_private_remote_desktop-->|must also use|bianca_private_terminal
 ```
