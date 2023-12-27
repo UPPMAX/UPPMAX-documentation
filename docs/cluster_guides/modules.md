@@ -221,13 +221,29 @@ Of the module shown, also the different versions are reported.
 
     This will allow other modules to be found.
 
-To load a module, use  `module load [module]`, 
+To load a module, use `module load [module]`, 
 for example `module load cowsay`.
 This will load the default version of that module,
 which is almost always the latest version.
 Loading a module always results in a helpful message 
 (such as that it worked fine), however,
 it is *not* general help for using the tool itself.
+
+???- question "How can I see which modules I've loaded?"
+
+    Use the command `module list`.
+
+???- question "How does the output of `module list` look like?"
+
+    ```
+    $ module list
+
+    Currently Loaded Modules:
+      1) uppmax   2) bioinfo-tools   3) samtools/1.17
+    ```
+
+    In this example case, we can see that the modules `bioinfo-tools` 
+    and `samtools` version 1.17 are loaded.
 
 !!!- tip "Getting help on a module"
 
@@ -239,6 +255,22 @@ to load a specific version. The information given by
 `module spider` contains the versions of the module.
 For example, to load the `samtools/1.17` module, 
 do `module load samtools/1.17`.
+
+???- question "How does the output of `module load GATK/4.3.0.0` look like?"
+
+    ```
+    $ module load GATK/4.3.0.0
+    Note that all versions of GATK starting with 4.0.8.0 use a different wrapper
+    script (gatk) than previous versions of GATK.  You might need to update your
+    jobs accordingly.
+
+    The complete GATK resource bundle is in /sw/data/GATK
+
+    See 'module help GATK/4.3.0.0' for information on activating the GATK Conda
+    environment for using DetermineGermlineContigPloidy and similar other tools.
+    ```
+
+    This message references the command `module help GATK/4.3.0.0` for additional help with this module.
 
 ???- tip "Huh, `module load samtools/1.17` gives an error?"
 
@@ -256,7 +288,45 @@ do `module load samtools/1.17`.
 
 To see which modules are loaded, use `module list`.
 
+???- question "How does the output of `module list` look like?"
+
+    ```
+    $ module list
+
+    Currently Loaded Modules:
+      1) uppmax   2) bioinfo-tools   3) samtools/1.17   4) java/sun_jdk1.8.0_151   5) GATK/4.3.0.0
+    ```
+
+    Modules can also be unloaded, which also unloads their prerequisites.
+
 To see a module-specific help, use `module help [module]` (e.g. `module help cowsay`).
+
+???- question "How does the output of `module help GATK/4.3.0.0` look like?"
+
+    ```
+    $ module help GATK/4.3.0.0
+
+    -------------- Module Specific Help for "GATK/4.3.0.0" ---------------
+    GATK - use GATK 4.3.0.0
+    Version 4.3.0.0
+
+    **GATK 4.3.0.0**
+
+    Usage:
+
+        gatk --help     for general options, including how to pass java options
+
+        gatk --list     to list available tools
+
+        gatk ToolName -OPTION1 value1 -OPTION2 value2 ...
+                      to run a specific tool, e.g., HaplotypeCaller, GenotypeGVCFs, ...
+
+    For more help getting started, see
+
+        https://software.broadinstitute.org/gatk/documentation/article.php?id=9881
+
+    ...
+    ```
 
 To unload a module, do `module unload [module]` (e.g. `module unload cowsay`).
 This will also unload module that depend on the unloaded one.
@@ -346,102 +416,3 @@ No module(s) or extension(s) found!
 Use "module spider" to find all possible modules and extensions.
 Use "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".
 ```
-
-### Example output
-
-
-
-???- question "How does the output of `module load GATK/4.3.0.0` look like?"
-
-    ```
-    $ module load GATK/4.3.0.0
-    Note that all versions of GATK starting with 4.0.8.0 use a different wrapper
-    script (gatk) than previous versions of GATK.  You might need to update your
-    jobs accordingly.
-
-    The complete GATK resource bundle is in /sw/data/GATK
-
-    See 'module help GATK/4.3.0.0' for information on activating the GATK Conda
-    environment for using DetermineGermlineContigPloidy and similar other tools.
-    ```
-
-    This message references the command `module help GATK/4.3.0.0` for additional help with this module.
-
-???- question "How does the output of `module list` look like?"
-
-    ```
-    $ module list
-
-    Currently Loaded Modules:
-      1) uppmax   2) bioinfo-tools   3) samtools/1.17
-    ```
-
-    In this example case, we can see that `bioinfo-tools` is already loaded,
-    so loading it again is not required.
-
-???- question "How does the output of `module help GATK/4.3.0.0` look like?"
-
-    ```
-    $ module help GATK/4.3.0.0
-
-    -------------- Module Specific Help for "GATK/4.3.0.0" ---------------
-    GATK - use GATK 4.3.0.0
-    Version 4.3.0.0
-
-    **GATK 4.3.0.0**
-
-    Usage:
-
-        gatk --help     for general options, including how to pass java options
-
-        gatk --list     to list available tools
-
-        gatk ToolName -OPTION1 value1 -OPTION2 value2 ...
-                      to run a specific tool, e.g., HaplotypeCaller, GenotypeGVCFs, ...
-
-    For more help getting started, see
-
-        https://software.broadinstitute.org/gatk/documentation/article.php?id=9881
-
-    ...
-    ```
-
-    When we list the loaded modules, we see that `GATK/4.3.0.0` is now loaded, as is its prerequisite module `java/sun_jdk1.8.0_151`.
-
-???- question "How does the output of `module list` look like?"
-
-    ```
-    $ module list
-
-    Currently Loaded Modules:
-      1) uppmax   2) bioinfo-tools   3) samtools/1.17   4) java/sun_jdk1.8.0_151   5) GATK/4.3.0.0
-    ```
-
-    Modules can also be unloaded, which also unloads their prerequisites.
-
-???- question "How does the output of `module help GATK/4.3.0.0` look like?"
-
-    ```
-    $ module help GATK/4.3.0.0
-
-    -------------- Module Specific Help for "GATK/4.3.0.0" ---------------
-    GATK - use GATK 4.3.0.0
-    Version 4.3.0.0
-
-    **GATK 4.3.0.0**
-
-    Usage:
-
-        gatk --help     for general options, including how to pass java options
-
-        gatk --list     to list available tools
-
-        gatk ToolName -OPTION1 value1 -OPTION2 value2 ...
-                      to run a specific tool, e.g., HaplotypeCaller, GenotypeGVCFs, ...
-
-    For more help getting started, see
-
-        https://software.broadinstitute.org/gatk/documentation/article.php?id=9881
-
-    ...
-    ```
