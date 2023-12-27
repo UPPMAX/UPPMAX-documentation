@@ -4,24 +4,17 @@
 
 > RStudio is one of the IDEs that can be used on Bianca.
 
-## Introduction
+Here we show how to use some [IDEs](ides.md) on Bianca.
 
-IDE (pronounce `aj-dee-ee`) is short for 'Integrated Development Environment',
-or 'a program in which you do programming'.
-The goal of an IDE is to help develop code, with features
-such as code completion, code hints and interactive debugging.
+???- question "Forgot what an IDE is?"
 
-There are [many different IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments)), 
-of which some are tailored to one programming
-language (e.g. RStudio) and some allow multiple programming languages.
-
-In this session, we show how to use the most popular IDEs on Bianca.
+    See at the general page on IDEs [here](ides.md).
 
 In all cases, we login to the Bianca remote desktop environment.
 
-???- tip "Forgot how to login to a remote desktop environment?"
+???- question "Forgot how to login to a remote desktop environment?"
 
-    See [the basic Bianca course page 'Logging in'](../login_bianca.md).
+    See [here](../getting_started/login_bianca.md).
 
     Spoiler: go to [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
 
@@ -30,7 +23,7 @@ program, so using it on a login node would slow down other users.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the basic Bianca course page 'Starting an interactive node'](../start_interactive_node.md).
+    See [here](start_interactive_node_on_bianca.md).
 
 ???- note "Do you really want to use an IDE on Bianca?"
 
@@ -51,30 +44,9 @@ program, so using it on a login node would slow down other users.
     This avoids using a clumsy remote desktop environment,
     as well as many added bonuses.
 
-## IDEs
+When on an interactive node, start any of these IDEs:
 
-Here we describe some IDEs, in alphabetic order.
-
-### Jupyter
-
-Jupyter is an IDE specialized for the Python programming language.
-
-See [here](jupyter_on_bianca.md) to learn how to run Jupyter on Bianca.
-
-### RStudio
-
-![](./img/rstudio_in_action_480_x_270.png)
-
-RStudio is an IDE specialized for the R programming language.
-
-See [here](rstudio_on_bianca.md) to learn how to run RStudio on Bianca.
-
-### VSCodium
-
-![](./img/vscodium_on_bianca_480_x_270.png)
-
-VSCodium is the community edition of Visual Studio Code
-and can be used for software development in many languages.
-
-See [here](vscodium_on_bianca.md) to learn how to run VSCodium on Bianca.
+- [Jupyter](jupyter.md)
+- [RStudio](rstudio_on_bianca.md)
+- [VSCodium](vscodium_on_bianca.md)
 
