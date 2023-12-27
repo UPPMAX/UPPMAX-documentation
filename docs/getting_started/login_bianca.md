@@ -222,9 +222,9 @@ flowchart TD
     end
 
     %% Shared subgraph color scheme
-    style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    %% style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    %% style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
     style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Private Bianca
@@ -272,8 +272,8 @@ flowchart TD
     %% Shared subgraph color scheme
     style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
+    %% style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    %% style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Outside SUNET
     outside-->|Move physically|physically_inside
@@ -356,10 +356,10 @@ flowchart TD
     end
 
     %% Shared subgraph color scheme
-    style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
     style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
+    %% style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
     physically_inside-->|SSH|bianca_shared_console
@@ -670,8 +670,8 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
         end
 
         %% Shared subgraph color scheme
-        style sub_outside fill:#ccc,color:#000,stroke:#ccc
-        style sub_inside fill:#fcc,color:#000,stroke:#fcc
+        %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
+        %% style sub_inside fill:#fcc,color:#000,stroke:#fcc
         style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
         style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
