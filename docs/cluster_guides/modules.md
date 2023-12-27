@@ -33,33 +33,6 @@ has [multiple big databases installed](https://www.uppmax.uu.se/resources/databa
 !!! warning 
     - To access bioinformatics tools, load the **bioinfo-tools** module first.
 
-???- question "What is `cowsay`?"
-
-    `cowsay` is a tool that is commonly use as a toy example tool.
-
-    From a terminal, running:
-
-
-    ```
-    cowsay hello
-    ```
-
-    results in:
-
-    ``` _______
-    < hello >
-     -------
-            \   ^__^
-             \  (oo)\_______
-                (__)\       )\/\
-                    ||----w |
-                    ||     ||
-    ```
-
-    Because `cowsay` is not part of the Linux kernel, 
-    users commonly need to install it. 
-    Or in our case: load a module to use it.
-
 ## Working with the module system
 
 !!! info Overview of module commands
@@ -87,6 +60,154 @@ The `module` command is the basic interface to the module system.
 
 To search for a module, use `module spider [module]`,
 for example `module spider cowsay`.
+
+???- question "What is `cowsay`?"
+
+    `cowsay` is the module for the tool called `cowsay`.
+    `cowsay` (the tool) is commonly use as a toy example tool.
+
+    From a terminal, running:
+
+
+    ```
+    cowsay hello
+    ```
+
+    results in:
+
+    ``` _______
+    < hello >
+     -------
+            \   ^__^
+             \  (oo)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||
+    ```
+
+    Because `cowsay` is not part of the Linux kernel, 
+    users commonly need to install it. 
+    Or in our case: load a module to use it.
+
+???- question "What is `R`?"
+
+    `R` is the module for the R programming language.
+    R is a free and open-source programming language, 
+    commonly used in data analysis and visualization.
+
+???- question "How does the output of `module spider R` look like?"
+
+    ```
+    $ module spider R
+
+    -------------------------------------------
+      R:
+    -------------------------------------------
+         Versions:
+            R/3.0.2
+            R/3.2.3
+            R/3.3.2
+            R/3.4.0
+            R/3.4.3
+            R/3.5.0
+            R/3.5.2
+            R/3.6.0
+            R/3.6.1
+            R/4.0.0
+            R/4.0.4
+            R/4.1.1
+            R/4.2.1
+         Other possible modules matches:
+            454-dataprocessing  ADMIXTURE  ANTLR  ARCS  ARC_assembler  ARPACK-NG  ART  AdapterRemoval  AlienTrimmer  Amber  AnchorWave  Arlequin  Armadillo  ArrowGrid  Bamsurgeon  BclConverter  BioBakery  BioBakery_data  ...
+
+    -------------------------------------------
+      To find other possible module matches execute:
+
+          $ module -r spider '.*R.*'
+
+    -------------------------------------------
+      For detailed information about a specific "R" package (including how to load the modules) use the module's full name.
+      Note that names that have a trailing (E) are extensions provided by other modules.
+      For example:
+
+         $ module spider R/4.2.1
+    -------------------------------------------
+    ```
+
+???- question "What is `samtools`?"
+
+    `samtools` is the module for SAMtools. From [wikipedia](https://en.wikipedia.org/wiki/SAMtools):
+
+    > SAMtools is a set of utilities for interacting with 
+    > and post-processing short DNA sequence read alignments 
+    > in the SAM (Sequence Alignment/Map), BAM (Binary Alignment/Map) 
+    > and CRAM formats
+
+???- question "How does the output of `module spider samtools` look like?"
+
+    ```
+    $ module spider samtools
+
+    -------------------------------------------
+      samtools:
+    -------------------------------------------
+         Versions:
+            samtools/0.1.12-10
+            samtools/0.1.19
+            samtools/1.1
+            samtools/1.2
+            samtools/1.3
+            samtools/1.4
+            samtools/1.5_debug
+            samtools/1.5
+            samtools/1.6
+            samtools/1.8
+            samtools/1.9
+            samtools/1.10
+            samtools/1.12
+            samtools/1.14
+            samtools/1.16
+            samtools/1.17
+         Other possible modules matches:
+            SAMtools
+
+    -------------------------------------------
+      To find other possible module matches execute:
+
+          $ module -r spider '.*samtools.*'
+
+    -------------------------------------------
+      For detailed information about a specific "samtools" package (including how to load the modules) use the module's full name.
+      Note that names that have a trailing (E) are extensions provided by other modules.
+      For example:
+
+         $ module spider samtools/1.17
+    -------------------------------------------
+    ```
+
+???- question "How does the output of `module spider samtools/1.17` look like?"
+
+    ```
+    $ module spider samtools/1.17
+
+    -------------------------------------------
+      samtools: samtools/1.17
+    -------------------------------------------
+
+        You will need to load all module(s) on any one of the lines below before the "samtools/1.17" module is available to load.
+
+          bioinfo-tools
+
+        Help:
+            samtools - use samtools 1.17
+
+            Version 1.17
+    ```
+
+    This reminds us that we need to load the `bioinfo-tools` 
+    module to be able to load `samtools/1.17`.
+    Again, this is required (just once) before loading bioinformatics software.
+
 If there is an exact match, that module is reported first.
 Of the module shown, also the different versions are reported.
 
@@ -228,112 +349,9 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
 
 ### Example output
 
-???- info "`module spider R` detailed output"
-
-    ```
-    $ module spider R
-
-    -------------------------------------------
-      R:
-    -------------------------------------------
-         Versions:
-            R/3.0.2
-            R/3.2.3
-            R/3.3.2
-            R/3.4.0
-            R/3.4.3
-            R/3.5.0
-            R/3.5.2
-            R/3.6.0
-            R/3.6.1
-            R/4.0.0
-            R/4.0.4
-            R/4.1.1
-            R/4.2.1
-         Other possible modules matches:
-            454-dataprocessing  ADMIXTURE  ANTLR  ARCS  ARC_assembler  ARPACK-NG  ART  AdapterRemoval  AlienTrimmer  Amber  AnchorWave  Arlequin  Armadillo  ArrowGrid  Bamsurgeon  BclConverter  BioBakery  BioBakery_data  ...
-
-    -------------------------------------------
-      To find other possible module matches execute:
-
-          $ module -r spider '.*R.*'
-
-    -------------------------------------------
-      For detailed information about a specific "R" package (including how to load the modules) use the module's full name.
-      Note that names that have a trailing (E) are extensions provided by other modules.
-      For example:
-
-         $ module spider R/4.2.1
-    -------------------------------------------
-    ```
-
-???- info "`module spider samtools` detailed output"
-
-    ```
-    $ module spider samtools
-
-    -------------------------------------------
-      samtools:
-    -------------------------------------------
-         Versions:
-            samtools/0.1.12-10
-            samtools/0.1.19
-            samtools/1.1
-            samtools/1.2
-            samtools/1.3
-            samtools/1.4
-            samtools/1.5_debug
-            samtools/1.5
-            samtools/1.6
-            samtools/1.8
-            samtools/1.9
-            samtools/1.10
-            samtools/1.12
-            samtools/1.14
-            samtools/1.16
-            samtools/1.17
-         Other possible modules matches:
-            SAMtools
-
-    -------------------------------------------
-      To find other possible module matches execute:
-
-          $ module -r spider '.*samtools.*'
-
-    -------------------------------------------
-      For detailed information about a specific "samtools" package (including how to load the modules) use the module's full name.
-      Note that names that have a trailing (E) are extensions provided by other modules.
-      For example:
-
-         $ module spider samtools/1.17
-    -------------------------------------------
-    ```
-
-???- info "`module spider samtools/1.17` detailed output"
-
-    ```
-    $ module spider samtools/1.17
-
-    -------------------------------------------
-      samtools: samtools/1.17
-    -------------------------------------------
-
-        You will need to load all module(s) on any one of the lines below before the "samtools/1.17" module is available to load.
-
-          bioinfo-tools
-
-        Help:
-            samtools - use samtools 1.17
-
-            Version 1.17
-    ```
-
-    This reminds us that we need to load the `bioinfo-tools` 
-    module to be able to load `samtools/1.17`.
-    Again, this is required (just once) before loading bioinformatics software.
 
 
-???- info "`module load` detailed output"
+???- question "How does the output of `module load GATK/4.3.0.0` look like?"
 
     ```
     $ module load GATK/4.3.0.0
@@ -349,7 +367,7 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
 
     This message references the command `module help GATK/4.3.0.0` for additional help with this module.
 
-???- info "`module list` detailed output"
+???- question "How does the output of `module list` look like?"
 
     ```
     $ module list
@@ -361,7 +379,7 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
     In this example case, we can see that `bioinfo-tools` is already loaded,
     so loading it again is not required.
 
-???- info "`module help` detailed output"
+???- question "How does the output of `module help GATK/4.3.0.0` look like?"
 
     ```
     $ module help GATK/4.3.0.0
@@ -390,7 +408,7 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
 
     When we list the loaded modules, we see that `GATK/4.3.0.0` is now loaded, as is its prerequisite module `java/sun_jdk1.8.0_151`.
 
-???- info "`module list` detailed output"
+???- question "How does the output of `module list` look like?"
 
     ```
     $ module list
@@ -401,7 +419,7 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
 
     Modules can also be unloaded, which also unloads their prerequisites.
 
-???- info "`module help` detailed output"
+???- question "How does the output of `module help GATK/4.3.0.0` look like?"
 
     ```
     $ module help GATK/4.3.0.0
