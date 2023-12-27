@@ -343,6 +343,7 @@ flowchart TD
     %% Give a white background, instead of a transparent one
     classDef node fill:#fff,color:#000,stroke:#000
     classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
+    classDef no_focus_node fill:#fff,color:#000,stroke:#fff
 
     subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
@@ -350,8 +351,8 @@ flowchart TD
       inside_using_rackham(Inside SUNET using Rackham)
 
       subgraph sub_bianca_shared_env[Bianca shared network]
-        bianca_shared_console[Bianca console environment login]
-        bianca_shared_remote_desktop[Bianca remote desktop login] 
+        bianca_shared_console[Bianca console environment login]:::no_focus_node
+        bianca_shared_remote_desktop[Bianca remote desktop login]:::no_focus_node
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_console[Bianca console environment]
           bianca_private_remote_desktop[Bianca remote desktop] 
@@ -363,7 +364,7 @@ flowchart TD
     %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
     style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    %% style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
     physically_inside-->|SSH|bianca_shared_console
