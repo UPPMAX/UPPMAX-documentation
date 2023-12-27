@@ -41,9 +41,8 @@ flowchart TD
     subgraph sub_inside[IP inside SUNET]
       subgraph sub_bianca_shared_env[Bianca shared network]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          login_node(login node):::calculation_node
-          files_on_wharf(Files on wharf):::file_node
-          calculation_node(calculation/interative node):::calculation_node
+          login_node(login/calculation/interactive node):::calculation_node
+          files_in_wharf(Files in wharf):::file_node
           files_in_bianca_project(Files in Bianca project folder):::file_node
         end
       end
@@ -61,20 +60,19 @@ flowchart TD
     user --> |uses| user_local_files
 
     %% As of 2023-12-22, using `**text**` for bold face, does not render correctly
-    %% user_local_files <== "`**transfer files**`" ==> files_on_wharf
-    user_local_files <== "transfer files" ==> files_on_wharf
+    %% user_local_files <== "`**transfer files**`" ==> files_in_wharf
+    user_local_files <== "transfer files" ==> files_in_wharf
 
-    login_node --> |submit jobs|calculation_node
     login_node --> |can use|files_in_bianca_project
-    calculation_node --> |can use|files_in_bianca_project
-    files_on_wharf <--> |transfer files| files_in_bianca_project
+    login_node --> |can use|files_in_wharf
+    files_in_wharf <--> |transfer files| files_in_bianca_project
 ```
 
 > Overview of file transfer on Bianca, when using a graphical tool.
 > The purple nodes are about file transfer,
 > the blue nodes are about 'doing other things'.
 > In this session, we will transfer files between
-> 'Files on user computer' and 'Files on wharf'
+> 'Files on user computer' and 'Files in wharf'
 > using a graphical tool, e.g. FileZilla
 
 Bianca is an HPC cluster for sensitive data.
@@ -244,9 +242,8 @@ flowchart TD
     subgraph sub_inside[IP inside SUNET]
       subgraph sub_bianca_shared_env[Bianca shared network]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          login_node(login node):::calculation_node
-          files_on_wharf(Files on wharf):::file_node
-          calculation_node(calculation/interative node):::calculation_node
+          login_node(login/calculation/interactive node):::calculation_node
+          files_in_wharf(Files in wharf):::file_node
           files_in_bianca_project(Files in Bianca project folder):::file_node
         end
       end
@@ -264,14 +261,13 @@ flowchart TD
 
     user --> |logs in |login_node
     user --> |uses| user_local_files
-    user_local_files <--> |transfer files|files_on_wharf
+    user_local_files <--> |transfer files|files_in_wharf
     user_local_files <--> |transfer files|files_on_transit
-    files_on_transit <--> |transfer files|files_on_wharf
+    files_on_transit <--> |transfer files|files_in_wharf
     files_on_transit <--> |transfer files|files_on_other_clusters
-    login_node --> |submit jobs|calculation_node
     login_node --> |can use|files_in_bianca_project
-    calculation_node --> |can use|files_in_bianca_project
-    files_on_wharf <--> |transfer files| files_in_bianca_project
+    login_node --> |can use|files_in_wharf
+    files_in_wharf <--> |transfer files| files_in_bianca_project
 ```
 
 > Overview of file transfer on Bianca
