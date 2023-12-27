@@ -215,12 +215,16 @@ flowchart TD
     %% Give a white background, instead of a transparent one
     classDef node fill:#fff,color:#000,stroke:#000
 
-      subgraph sub_bianca_private_env[The project's private virtual project cluster]
-        bianca_private_console[Bianca console environment]
-        bianca_private_remote_desktop[Bianca remote desktop] 
-        bianca_private_terminal[Terminal] 
-      end
-      style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
+    subgraph sub_bianca_private_env[The project's private virtual project cluster]
+      bianca_private_console[Bianca console environment]
+      bianca_private_remote_desktop[Bianca remote desktop] 
+      bianca_private_terminal[Terminal] 
+    end
+
+    style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Private Bianca
     bianca_private_console---|is a|bianca_private_terminal
@@ -257,15 +261,17 @@ flowchart TD
     subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
     end    
-    style sub_outside fill:#fcc,color:#000,stroke:#fcc
 
     subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
     end
-    style sub_inside fill:#ffc,color:#000,stroke:#ffc
 
+    style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Outside SUNET
     outside-->|Move physically|physically_inside
@@ -341,14 +347,16 @@ flowchart TD
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
     end
-    style sub_inside fill:#ffc,color:#000,stroke:#ffc
 
     subgraph sub_bianca_shared_env[Bianca shared network]
       bianca_shared_console[Bianca console environment login]
       bianca_shared_remote_desktop[Bianca remote desktop login] 
-
     end
-    style sub_bianca_shared_env fill:#cfc,color:#000,stroke:#cfc
+
+    style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
     physically_inside-->|SSH|bianca_shared_console
@@ -656,10 +664,12 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
             bianca_private_remote_desktop[Bianca remote desktop] 
             bianca_private_terminal[Terminal] 
           end
-          style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
-
         end
-        style sub_bianca_shared_env fill:#cfc,color:#000,stroke:#cfc
+
+        style sub_outside fill:#ccc,color:#000,stroke:#ccc
+        style sub_inside fill:#fcc,color:#000,stroke:#fcc
+        style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+        style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
         %% Shared Bianca
         bianca_shared_console --> |UPPMAX password|bianca_private_console
@@ -685,27 +695,29 @@ flowchart TD
     subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
     end    
-    style sub_outside fill:#fcc,color:#000,stroke:#fcc
+    style sub_outside fill:#ccc,color:#000,stroke:#ccc
 
     subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
-    end
-    style sub_inside fill:#ffc,color:#000,stroke:#ffc
 
-    subgraph sub_bianca_shared_env[Bianca shared network]
-      bianca_shared_console[Bianca console environment login]
-      bianca_shared_remote_desktop[Bianca remote desktop login] 
-      subgraph sub_bianca_private_env[The project's private virtual project cluster]
-        bianca_private_console[Bianca console environment]
-        bianca_private_remote_desktop[Bianca remote desktop] 
-        bianca_private_terminal[Terminal] 
+      subgraph sub_bianca_shared_env[Bianca shared network]
+        bianca_shared_console[Bianca console environment login]
+        bianca_shared_remote_desktop[Bianca remote desktop login] 
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
+          bianca_private_console[Bianca console environment]
+          bianca_private_remote_desktop[Bianca remote desktop] 
+          bianca_private_terminal[Terminal] 
+        end
+
       end
-      style sub_bianca_private_env fill:#cff,color:#000,stroke:#cff
-
     end
-    style sub_bianca_shared_env fill:#cfc,color:#000,stroke:#cfc
+
+    style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Outside SUNET
     outside-->|Move physically|physically_inside
