@@ -2,8 +2,9 @@
 
 !!! tip "Contents and links"
 
-    - log in
-    - transfer
+    - [Log in](../getting_started/login_bianca.md)
+    - [File transfer](transfer_bianca.md)
+        - [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
     - Naiss-sens
     - best practices
     - Bianca installation guides

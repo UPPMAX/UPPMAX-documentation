@@ -39,7 +39,14 @@ Example:
 - Transit Server from/to Rackham
 -	Mounting the wharf on your local computer
 
-## GUI sftp clients
+## GUI SFTP clients
+
+???- tip "Need a more detailed explanation?"
+
+    See [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
+    for a step-by-step guide how to transfer files using
+    a graphical tool.
+
 ---
 - Please note that **SFTP is NOT the same as SCP**.  
 Be sure to really use a SFTP client -- not just a SCP client.
