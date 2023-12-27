@@ -83,7 +83,8 @@ AND the international
 
     - Chalmers University (West, C3SE).
 
-## STORAGE
+## Storage
+
 ### SNIC Storage: Swestore
 - The purpose of Swestore allocations, granted by Swedish National Allocations Committee (SNAC), is to provide large scale data storage for “live” or “working” research data, also known as active research data.
 - [https://www.snic.se/resources/swestore/](https://www.snic.se/resources/swestore/)
