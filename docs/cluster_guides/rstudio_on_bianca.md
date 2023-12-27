@@ -2,24 +2,6 @@
 
 ![](./img/rstudio_in_action_480_x_270.png)
 
-!!! info "Objectives" 
-
-    - Start RStudio on Bianca
-
-???- info "Notes for teachers"
-
-    Teaching goals:
-
-    - The learners demonstrate to have started RStudio on Bianca
-
-    Schedule (45 minutes):
-
-    - 5 mins: Let the learners start an interactive node: this can take dozens of minutes!
-    - 5 mins: kill some time
-    - 5 mins: discuss this page
-    - 15 mins: do the exercises
-    - 15 mins: discuss the exercises
-
 ## Introduction
 
 RStudio is an IDE specialized for the R programming language.
@@ -33,7 +15,7 @@ using Bianca's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the basic Bianca course page 'Logging in'](../login_bianca.md).
+    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
 
     Spoiler: go to [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
 
@@ -42,7 +24,7 @@ it must be run on an interactive node.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the basic Bianca course page 'Starting an interactive node'](../start_interactive_node.md).
+    See [the 'Starting an interactive node' page](start_interactive_node_on_bianca.md).
 
 ## Procedure to start RStudio
 
@@ -50,13 +32,13 @@ it must be run on an interactive node.
 
 ???- tip "Forgot how to get within SUNET?"
 
-    See [the basic Bianca course page 'Login to Bianca'](../login_bianca.md).
+    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
 
 ### 2. Start the Bianca remote desktop environment
 
 ???- tip "Forgot how to start Bianca's remote desktop environment?"
 
-    See [the basic Bianca course page 'Login to Bianca'](../login_bianca.md).
+    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
 
 ### 3. Start an interactive session
 
@@ -71,7 +53,7 @@ Within that terminal, start an interactive session with 2 cores.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the basic Bianca course page 'Starting an interactive node'](../start_interactive_node.md).
+    See [the 'Starting an interactive node' page](start_interactive_node_on_bianca.md).
 
     Spoiler: use:
 
@@ -128,21 +110,3 @@ Additionally, at startup and if enabled, your saved RStudio workspace
     The RStudio debugger, at the program level:
 
     ![](./img/rstudio_debugger_at_program_level.png)
-
-## Exercises
-
-???- question "Exercise: Start RStudio"
-
-    The goal of this exercise is to make sure you can start
-    RStudio.
-
-    How to start RStudio is in the instructions above
-    and in [this YouTube video](https://youtu.be/rRUb4pqaVak).
-
-???- question "How to find out if you are on a login or interactive node"
-
-    In the terminal, type `hostname`
-
-    - the login node has `[project]-bianca`, where `[project]` is the name of the project, e.g. `sens2023598`
-    - the interactive node has `b[number]` in it, where `[number]` is the compute node number
-
