@@ -68,8 +68,8 @@ where one can run heavy calculations directly.
 ```mermaid
 flowchart TD
     UPPMAX(What to run on which node?)
-    operation_type{What type of operation/calculation?}
-    interaction_type{What type of interaction?}
+    operation_type[What type of operation/calculation?]
+    interaction_type[What type of interaction?]
     login_node(Work on login node)
     interactive_node(Work on interactive node)
     calculation_node(Schedule for calculation node)
