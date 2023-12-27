@@ -1,5 +1,16 @@
 # Software modules
 
+![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
+
+Here we show how to use the environment module system.
+
+After describing [the background](#background)/reasoning
+why such a system is needed,
+we show [how to work with the module system](#working-with-the-module-system).
+
+There is a table of [commonly used shorthand syntaxes](#common-shorthand-syntaxes),
+as well as [links](#links) to almost all installed software and databases on UPPMAX.
+
 ## Background
 
 The UPPPMAX clusters are shared Linux computers with all the standard Linux tools installed,
@@ -354,40 +365,24 @@ module load bioinfo-tools
 module load samtools/1.17
 ```
 
-## Conclusion
+## Common shorthand syntaxes
 
- * Use the module system to use centrally installed software that is available on all nodes
- * Include versions when loading modules for reproducibility
- * Your own installed software, scripts, Python packages etc. are available from their paths
-
-## Extra material
-
-### Common shorthand names
-
-Full command            |Shorthand name
-------------------------|--------------
+Full command            |Shorthand syntax
+------------------------|----------------
 `module`                |-
 `module avail`          |`ml av`
 `module spider`         |`ml spider`
 `module list`           |`ml`
 `module unload [module]`|`ml -[module]`
 
-### Installed software
+## Links
 
- * [Almost all installed software](https://www.uppmax.uu.se/resources/software/installed-software/)
-  
-### Installed databases
-
- * [Almost all installed databases](https://www.uppmax.uu.se/resources/databases/)
-
-### Links
-
- * [Software at UPPMAX](https://www.uppmax.uu.se/resources/software/)
- * [The UPPMAX module system](https://www.uppmax.uu.se/resources/software/module-system/)
  * [Almost all installed software on UPPMAX](https://www.uppmax.uu.se/resources/software/installed-software/)
  * [Almost all installed databases on UPPMAX](https://www.uppmax.uu.se/resources/databases/)
  * [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
  * [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
+
+## Extra materials
 
 ### About `module avail`
 
