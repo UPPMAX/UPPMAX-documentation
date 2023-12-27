@@ -6,7 +6,8 @@
     - [Starting an interactive node](start_interactive_node_on_bianca.md)
     - [File transfer](transfer_bianca.md)
         - [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
-    - Naiss-sens
+    - [The module system (basics)](bianca_modules_basics.md)
+    - NAISS-sens
     - best practices
     - Bianca installation guides
     - Bianca workshops
