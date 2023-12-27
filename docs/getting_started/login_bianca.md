@@ -352,6 +352,10 @@ flowchart TD
       subgraph sub_bianca_shared_env[Bianca shared network]
         bianca_shared_console[Bianca console environment login]
         bianca_shared_remote_desktop[Bianca remote desktop login] 
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
+          bianca_private_console[Bianca console environment]
+          bianca_private_remote_desktop[Bianca remote desktop] 
+        end
       end
     end
 
@@ -369,6 +373,9 @@ flowchart TD
     inside_using_vpn-->|SSH|bianca_shared_console
     inside_using_vpn-->|UPPMAX website|bianca_shared_remote_desktop
     inside_using_rackham-->|SSH|bianca_shared_console
+
+    bianca_shared_console --> bianca_private_console
+    bianca_shared_remote_desktop --> bianca_private_remote_desktop
 ```
 
 ### Login to the Bianca remote desktop environment
