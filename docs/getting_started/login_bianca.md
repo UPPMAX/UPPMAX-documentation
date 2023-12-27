@@ -342,17 +342,11 @@ flowchart TD
 
     %% Give a white background, instead of a transparent one
     classDef node fill:#fff,color:#000,stroke:#000
-    classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
-    classDef no_focus_node fill:#fff,color:#000,stroke:#fff
 
     subgraph sub_inside[IP inside SUNET]
-      physically_inside(Physically inside SUNET)
-      inside_using_vpn(Inside SUNET using VPN)
-      inside_using_rackham(Inside SUNET using Rackham)
+      user(User)
 
       subgraph sub_bianca_shared_env[Bianca shared network]
-        bianca_shared_console[Bianca console environment login]:::no_focus_node
-        bianca_shared_remote_desktop[Bianca remote desktop login]:::no_focus_node
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_console[Bianca console environment]
           bianca_private_remote_desktop[Bianca remote desktop] 
@@ -367,16 +361,8 @@ flowchart TD
     style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
-    physically_inside-->|SSH|bianca_shared_console
-    physically_inside-->|UPPMAX website|bianca_shared_remote_desktop
-    physically_inside-.->inside_using_rackham
-    physically_inside-.->inside_using_vpn
-    inside_using_vpn-->|SSH|bianca_shared_console
-    inside_using_vpn-->|UPPMAX website|bianca_shared_remote_desktop
-    inside_using_rackham-->|SSH|bianca_shared_console
-
-    bianca_shared_console --> bianca_private_console
-    bianca_shared_remote_desktop --> bianca_private_remote_desktop
+    user --> bianca_private_console
+    user --> bianca_private_remote_desktop
 ```
 
 ### Login to the Bianca remote desktop environment
@@ -483,6 +469,36 @@ Bianca has a automatically disconnect after 30 minutes of inactivity.
 In the future it is possible that we implement some kind 
 of "automatic log out from active graphical session". 
 
+```mermaid
+flowchart TD
+
+    %% Give a white background, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+
+    subgraph sub_inside[IP inside SUNET]
+
+      user(User)
+
+      subgraph sub_bianca_shared_env[Bianca shared network]
+        bianca_shared_remote_desktop[Bianca remote desktop login]:::no_focus_node
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
+          bianca_private_remote_desktop[Bianca remote desktop] 
+        end
+      end
+    end
+
+    %% Shared subgraph color scheme
+    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
+
+    %% Inside SUNET
+    user-->|UPPMAX website|bianca_shared_remote_desktop
+
+    bianca_shared_remote_desktop --> bianca_private_remote_desktop
+```
+
 ### Login to the Bianca console environment
 
 When inside SUNET, one can access a Bianca console environment
@@ -507,6 +523,36 @@ In a Bianca console environment:
   you will have to wait some time before you get your prompt back.
 - Cut, copy and paste work as usual.
   Be careful to not copy-paste sensitive data! 
+
+```mermaid
+flowchart TD
+
+    %% Give a white background, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+
+    subgraph sub_inside[IP inside SUNET]
+
+      user(User)
+
+      subgraph sub_bianca_shared_env[Bianca shared network]
+        bianca_shared_console[Bianca console environment login]:::no_focus_node
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
+          bianca_private_console[Bianca console environment]
+        end
+      end
+    end
+
+    %% Shared subgraph color scheme
+    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
+
+    %% Inside SUNET
+    user-->|SSH|bianca_shared_console
+
+    bianca_shared_console --> bianca_private_console
+```
 
 ### Login to the Bianca console environment using an SSH password
 
