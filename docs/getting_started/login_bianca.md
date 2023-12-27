@@ -549,7 +549,7 @@ flowchart TD
     style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
-    user-->|UPPMAX password and 2FA|bianca_shared_console
+    user-->|SSH, UPPMAX password and 2FA|bianca_shared_console
 
     bianca_shared_console --> |UPPMAX password or SSH key|bianca_private_console
 ```
