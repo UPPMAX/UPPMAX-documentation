@@ -1,4 +1,4 @@
-# IDE:s
+# IDEs on Bianca
 
 ![](./img/rstudio_in_action_480_x_270.png)
 
@@ -21,11 +21,11 @@ In all cases, we login to the Bianca remote desktop environment.
 In all cases, we use an interactive node: an IDE is a resource-heavy
 program, so using it on a login node would slow down other users.
 
-???- tip "Forgot how to start an interactive node?"
+???- question "Forgot how to start an interactive node?"
 
     See [here](start_interactive_node_on_bianca.md).
 
-???- note "Do you really want to use an IDE on Bianca?"
+???- question "Do you really want to use an IDE on Bianca?"
 
     Using an IDE on Bianca is cumbersome and
     there are superior ways to develop code on Bianca.
