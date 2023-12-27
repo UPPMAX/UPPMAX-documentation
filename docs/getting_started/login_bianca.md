@@ -221,6 +221,7 @@ flowchart TD
       bianca_private_terminal[Terminal] 
     end
 
+    %% Shared subgraph color scheme
     style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
     style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
@@ -268,6 +269,7 @@ flowchart TD
       inside_using_rackham(Inside SUNET using Rackham)
     end
 
+    %% Shared subgraph color scheme
     style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
     style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
@@ -346,13 +348,14 @@ flowchart TD
       physically_inside(Physically inside SUNET)
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
+
+      subgraph sub_bianca_shared_env[Bianca shared network]
+        bianca_shared_console[Bianca console environment login]
+        bianca_shared_remote_desktop[Bianca remote desktop login] 
+      end
     end
 
-    subgraph sub_bianca_shared_env[Bianca shared network]
-      bianca_shared_console[Bianca console environment login]
-      bianca_shared_remote_desktop[Bianca remote desktop login] 
-    end
-
+    %% Shared subgraph color scheme
     style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
     style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
@@ -666,6 +669,7 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
           end
         end
 
+        %% Shared subgraph color scheme
         style sub_outside fill:#ccc,color:#000,stroke:#ccc
         style sub_inside fill:#fcc,color:#000,stroke:#fcc
         style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
@@ -695,7 +699,6 @@ flowchart TD
     subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
     end    
-    style sub_outside fill:#ccc,color:#000,stroke:#ccc
 
     subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
@@ -710,10 +713,10 @@ flowchart TD
           bianca_private_remote_desktop[Bianca remote desktop] 
           bianca_private_terminal[Terminal] 
         end
-
       end
     end
 
+    %% Shared subgraph color scheme
     style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
     style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc

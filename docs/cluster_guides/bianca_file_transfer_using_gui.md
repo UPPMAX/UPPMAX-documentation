@@ -38,11 +38,11 @@ flowchart TD
     classDef file_node fill:#faf,color:#000,stroke:#f0f
     classDef calculation_node fill:#aaf,color:#000,stroke:#00f
 
-    subgraph sunet[Inside SUNET]
-      subgraph bianca_outside[Bianca outside]
+    subgraph sub_inside[IP inside SUNET]
+      subgraph sub_bianca_shared_env[Bianca shared network]
         login_node(login node):::calculation_node
         files_on_wharf(Files on wharf):::file_node
-        subgraph bianca_inside[Bianca]
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
           calculation_node(calculation/interative node):::calculation_node
           files_in_bianca_project(Files in Bianca project folder):::file_node
         end
@@ -238,11 +238,11 @@ flowchart TD
     classDef file_node fill:#fcf,color:#000,stroke:#f0f
     classDef calculation_node fill:#ccf,color:#000,stroke:#00f
 
-    subgraph sunet[Inside SUNET]
-      subgraph bianca_outside[Bianca outside]
+    subgraph sub_inside[IP inside SUNET]
+      subgraph sub_bianca_shared_env[Bianca shared network]
         login_node(login node):::calculation_node
         files_on_wharf(Files on wharf):::file_node
-        subgraph bianca_inside[Bianca]
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
           calculation_node(calculation/interative node):::calculation_node
           files_in_bianca_project(Files in Bianca project folder):::file_node
         end
@@ -252,9 +252,16 @@ flowchart TD
       files_on_transit(Files on transit):::file_node
       files_on_other_clusters(Files on other HPC clusters):::file_node
     end
-    style bianca_inside fill:#cfc,color:#000,stroke:#cfc
-    style bianca_outside fill:#ffc,color:#000,stroke:#ffc
-    style sunet fill:#fcc,color:#000,stroke:#fcc
+
+    %% Shared subgraph color scheme
+    style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
+
+    %%style bianca_inside fill:#cfc,color:#000,stroke:#cfc
+    %%style bianca_outside fill:#ffc,color:#000,stroke:#ffc
+    %%style sunet fill:#fcc,color:#000,stroke:#fcc
 
     user --> |logs in |login_node
     user --> |uses| user_local_files
