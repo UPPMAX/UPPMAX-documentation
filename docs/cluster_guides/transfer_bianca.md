@@ -6,6 +6,17 @@
 
 ![Bianca](../img/Bianca-transfer.png)
 
+## Methods
+
+There are multiple ways to transfer files to/from Bianca:
+
+Method                                                        |Features
+--------------------------------------------------------------|---------------------------------------------
+[Using a graphical program](bianca_file_transfer_using_gui.md)|Graphical interface, intuitive, for small amounts of data only
+Using standard command line SFTP client, see below            |Terminal, easy to learn, terminal-based, can use terminal commands to select files
+Transit Server from/to Rackham, see below                     |Terminal, can be used to transfer data between clusters in general
+Mounting the wharf on your local computer, see below          |Both graphical and terminal, need a computer with `sshfs` installed
+
 ## The `wharf`
 
 The `wharf` is like a "postbox" :postbox: for data/file exchange between the Internet restricted Bianca cluster and the remaining of the World Wide Internet. This "postbox" is reachable to transfer data from two internal servers -
@@ -40,6 +51,7 @@ Example:
 -	Mounting the wharf on your local computer
 
 ## GUI SFTP clients
+---
 
 ???- tip "Need a more detailed explanation?"
 
@@ -47,7 +59,6 @@ Example:
     for a step-by-step guide how to transfer files using
     a graphical tool.
 
----
 - Please note that **SFTP is NOT the same as SCP**.  
 Be sure to really use a SFTP client -- not just a SCP client.
 
@@ -71,7 +82,7 @@ Be sure to really use a SFTP client -- not just a SCP client.
 ![FileZilla](../img/filezilla-snapshot.png)
 
 
-## Using standard sftp client (command line)
+## Using standard SFTP client (command line)
 ---
 <https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/>
 
