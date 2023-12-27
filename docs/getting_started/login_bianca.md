@@ -460,7 +460,7 @@ and the disconnect button:
   as not all keyboard keys reach Bianca as expected.
 - the disconnect button disconnects your session
 
-???- question "What is the difference between 'disconnect session' and 'end session'?
+???- question "What is the difference between 'disconnect session' and 'end session'?"
 
     'disconnect session' will save the current state of your session.
     When you connect again, you will get the remote desktop back 
