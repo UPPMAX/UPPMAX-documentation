@@ -480,7 +480,7 @@ flowchart TD
       user(User)
 
       subgraph sub_bianca_shared_env[Bianca shared network]
-        bianca_shared_remote_desktop[Bianca remote desktop login]:::no_focus_node
+        bianca_shared_remote_desktop[Bianca remote desktop login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_remote_desktop[Bianca remote desktop] 
         end
@@ -494,9 +494,9 @@ flowchart TD
     style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
-    user-->|UPPMAX website|bianca_shared_remote_desktop
+    user-->|Bianca website, UPPMAX password and 2FA|bianca_shared_remote_desktop
 
-    bianca_shared_remote_desktop --> bianca_private_remote_desktop
+    bianca_shared_remote_desktop --> |UPPMAX password| bianca_private_remote_desktop
 ```
 
 ### Login to the Bianca console environment
@@ -535,7 +535,7 @@ flowchart TD
       user(User)
 
       subgraph sub_bianca_shared_env[Bianca shared network]
-        bianca_shared_console[Bianca console environment login]:::no_focus_node
+        bianca_shared_console[Bianca console environment login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_console[Bianca console environment]
         end
@@ -549,9 +549,9 @@ flowchart TD
     style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
-    user-->|SSH|bianca_shared_console
+    user-->|UPPMAX password and 2FA|bianca_shared_console
 
-    bianca_shared_console --> bianca_private_console
+    bianca_shared_console --> |UPPMAX password or SSH key|bianca_private_console
 ```
 
 ### Login to the Bianca console environment using an SSH password
