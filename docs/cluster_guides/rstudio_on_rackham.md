@@ -1,4 +1,4 @@
-# RStudio on Bianca
+# RStudio on Rackham
 
 ![](./img/rstudio_in_action_480_x_270.png)
 
@@ -10,21 +10,21 @@ RStudio is an IDE specialized for the R programming language.
 
     See [the page on IDEs](ides.md).
 
-In this session, we show how to use RStudio on Bianca,
-using Bianca's remote desktop environment.
+In this session, we show how to use RStudio on Rackham,
+using Rackham's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
 
-    Spoiler: go to [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
+    Spoiler: go to [https://rackham.uppmax.uu.se/](https://rackham.uppmax.uu.se/)
 
 As RStudio is a resource-heavy program,
 it must be run on an interactive node.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the 'Starting an interactive node' page](start_interactive_node_on_bianca.md).
+    See [the 'Starting an interactive node' page](start_interactive_node_on_rackham.md).
 
 ## Procedure to start RStudio
 
@@ -32,17 +32,17 @@ it must be run on an interactive node.
 
 ???- tip "Forgot how to get within SUNET?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
 
-### 2. Start the Bianca remote desktop environment
+### 2. Start the Rackham remote desktop environment
 
-???- tip "Forgot how to start Bianca's remote desktop environment?"
+???- tip "Forgot how to start Rackham's remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
 
 ### 3. Start an interactive session
 
-Within the Bianca remote desktop environment, start a terminal.
+Within the Rackham remote desktop environment, start a terminal.
 Within that terminal, start an interactive session with 2 cores.
 
 !!!- info "Why two cores?"
@@ -53,7 +53,7 @@ Within that terminal, start an interactive session with 2 cores.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the 'Starting an interactive node' page](start_interactive_node_on_bianca.md).
+    See [the 'Starting an interactive node' page](start_interactive_node_on_rackham.md).
 
     Spoiler: use:
 
@@ -85,7 +85,7 @@ RStudio can be slow to startup, as R has thousands (!) of packages.
 Additionally, at startup and if enabled, your saved RStudio workspace
 (with potentially a lot of data!) is read.
 
-???- info "How does RStudio look on Bianca?"
+???- info "How does RStudio look on Rackham?"
 
     RStudio when starting up:
 

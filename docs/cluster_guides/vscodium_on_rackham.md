@@ -1,6 +1,6 @@
-# VSCodium on Bianca
+# VSCodium on Rackham
 
-![](./img/vscodium_on_bianca_480_x_270.png)
+![](./img/vscodium_on_rackham_480_x_270.png)
 
 ## Introduction
 
@@ -11,12 +11,12 @@ and can be used for software development in many languages.
 
     See [the page on IDEs](ides.md).
 
-In this session, we show how to use VSCodium on Bianca,
-using Bianca's remote desktop environment.
+In this session, we show how to use VSCodium on Rackham,
+using Rackham's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
 
 As VSCodium is a resource-heavy program,
 it must be run on an interactive node.
@@ -28,22 +28,22 @@ it must be run on an interactive node.
 
 ???- tip "Forgot how to get within SUNET?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
 
-### 2. Start the Bianca remote desktop environment
+### 2. Start the Rackham remote desktop environment
 
-???- tip "Forgot how to start Bianca's remote desktop environment?"
+???- tip "Forgot how to start Rackham's remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
 
 ### 3. Start an interactive session
 
-Within the Bianca remote desktop environment, start a terminal.
+Within the Rackham remote desktop environment, start a terminal.
 Within that terminal, start an interactive session with 1 core.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the 'Starting an interactive node' page](start_interactive_node_on_bianca.md).
+    See [the 'Starting an interactive node' page](start_interactive_node_on_rackham.md).
 
     Spoiler: use:
 
@@ -74,6 +74,6 @@ code
 
 VSCodium starts up quickly.
 
-???- info "How does VSCodium look on Bianca?"
+???- info "How does VSCodium look on Rackham?"
 
-    ![](./img/vscodium_on_bianca.png)
+    ![](./img/vscodium_on_rackham.png)

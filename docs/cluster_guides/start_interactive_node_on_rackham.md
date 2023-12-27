@@ -1,8 +1,8 @@
-# Starting an interactive node on Bianca
+# Starting an interactive node on Rackham
 
 ![](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
-Bianca has three types of nodes:
+Rackham has three types of nodes:
 
 ???- tip "What are nodes?"
 
@@ -27,7 +27,7 @@ Bianca has three types of nodes:
     - the login node has `[project]-bianca`, where `[project]` is the name of the project, e.g. `sens2023598`
     - the interactive node has `b[number]` in it, where `[number]` is the compute node number
 
-As a Bianca login is shared with all users, 
+As a Rackham login is shared with all users, 
 there is a simple rule to use it fairly:
 
 > Only do short and light things on the login node
@@ -50,7 +50,7 @@ Examples of heavy things are:
 
 ### Use-case for using an interactive node
 
-Some users develop computer code on Bianca
+Some users develop computer code on Rackham
 in a line-by-line fashion. 
 These users typically want to run a (calculation-heavy) 
 script frequently, to test
@@ -96,9 +96,9 @@ interactive -A sens2023598 -n 2 -t 8:00:00
 This starts an interactive session using project `sens2023598`
 that uses 2 cores and has a maximum duration of 8 hours.
 
-!!! note "Has Bianca frozen?"
+!!! note "Has Rackham frozen?"
 
     It can take tens of minutes before an interactive node is allocated.
 
-    Bianca has not frozen, go ahead and have a coffee break :-)
+    Rackham has not frozen, go ahead and have a coffee break :-)
 
