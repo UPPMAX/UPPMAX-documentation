@@ -89,6 +89,8 @@ To be allowed to use Bianca, one needs all of these:
 - [An UPPMAX account](#an-uppmax-account)
 - [An UPPMAX password](#an-uppmax-password)
 
+These prerequisites are discussed in detail below.
+
 ### An active research project
 
 One [prerequisite for using Bianca](#prerequisites-for-using-bianca)
@@ -100,7 +102,7 @@ If you do not have a project membership,
 you can request membership to an existing project in SUPR 
 or read the SENS project application page to learn how to create a project.
 
-???- tip "Forgot your Bianca projects?"
+???- question "Forgot your Bianca projects?"
 
     One easy way to see your Bianca projects is to use the
     Bianca remote desktop login screen at <https://bianca.uppmax.uu.se/>.
@@ -111,7 +113,7 @@ or read the SENS project application page to learn how to create a project.
 is the website that allows one to request access to Bianca
 and to get an overview of the requested resources.
 
-???- tip "How does the SUPR website look like?"
+???- question "How does the SUPR website look like?"
 
     ![](./img/supr_first_page.png)
 
@@ -125,7 +127,7 @@ After logging in, the [SUPR](https://supr.naiss.se/)
 website will show all projects you are a member of,
 under the 'Projects' tab.
 
-???- tip "How does the 'Projects' tab of the SUPR website look like?"
+???- question "How does the 'Projects' tab of the SUPR website look like?"
 
     ![](./img/supr_projects.png)
 
@@ -135,7 +137,7 @@ To see if a project has access to Bianca, click on the
 project and scroll to the 'Resources' section. In the 'Compute' subsection,
 there is a table. Under 'Resource' it should state 'Bianca @ UPPMAX'.
 
-???- tip "How does the 'Resources' page of an example project look like?"
+???- question "How does the 'Resources' page of an example project look like?"
 
     ![](./img/supr_project_sens2023598_resources.png)
 
@@ -143,7 +145,7 @@ there is a table. Under 'Resource' it should state 'Bianca @ UPPMAX'.
 
 Note that the 'Accounts' tab can be useful to verify your username.
 
-???- tip "How does the 'Accounts' tab help me find my username?"
+???- question "How does the 'Accounts' tab help me find my username?"
 
     ![](./img/supr_accounts.png)
 
@@ -178,7 +180,7 @@ For advice on handling sensitive personal data correctly on Bianca, see our FAQ 
 Bianca, like most HPC clusters, uses Linux.
 To use Bianca, there are two environments:
 
-???- info "How does the Bianca remote desktop look like?"
+???- question "How does the Bianca remote desktop look like?"
 
     One can pick multiple remote desktop environments,
     such as GNOME and XFCE (and KDE, don't pick KDE!).
@@ -194,7 +196,7 @@ To use Bianca, there are two environments:
 - A remote desktop environment, also called 'graphical environment', 
   'GUI environment', 'ThinLinc environment'
 
-???- info "How does the Bianca console environment look like?"
+???- question "How does the Bianca console environment look like?"
 
     ![The Bianca console environment](./img/login_bianca_via_terminal_terminal.png)
 
@@ -369,7 +371,7 @@ ThinLinc to get a full remote desktop environment.
 All you should need is a rather modern browser on any platform:
 we have tested on Chrome and Firefox :-)
 
-???- info "How does it look like to try to access a remote desktop from outside of SUNET?"
+???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
 
     ![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
@@ -406,7 +408,7 @@ using a website:
 
   3. Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication)
 
-???- "How does that web page look like?"
+???- question "How does that web page look like?"
 
     ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
 
@@ -423,7 +425,7 @@ using a website:
      
   5. Enjoy! You are in!
 
-???- "How does the remote desktop look like?"
+???- question "How does the remote desktop look like?"
 
     ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
 
@@ -510,7 +512,7 @@ For example:
 ssh sven-sens2023598@bianca.uppmax.uu.se
 ```
 
-???- info "Why no `-A`?"
+???- question "Why no `-A`?"
 
     On Bianca, one can use `-A`:
    
@@ -525,7 +527,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     to access Bianca, `-A` is unused
     and hence we simplify this documentation by omitting it.
 
-???- info "Why no `-X`?"
+???- question "Why no `-X`?"
 
     On Rackham, one can use `-X`:
    
@@ -612,7 +614,7 @@ For example:
 ssh -A sven-sens2023598@bianca.uppmax.uu.se
 ```
 
-???- info "Why no `-X`?"
+???- question "Why no `-X`?"
 
     On Rackham, one can use `-X`:
    
