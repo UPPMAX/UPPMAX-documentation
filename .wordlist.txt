@@ -2894,4 +2894,6 @@ lmod
 svg
 kBit
 syntaxes
+VSCodium
+IDEs
 
