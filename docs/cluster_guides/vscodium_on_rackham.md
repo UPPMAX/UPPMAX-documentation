@@ -1,8 +1,15 @@
-# VSCodium on Rackham
+# Using VSCodium on Rackham
 
 ![](./img/vscodium_on_bianca_480_x_270.png)
 
 > VSCodium on Bianca.
+
+!!! warning "VSCodium fails, use VSCode instead"
+
+    The approach below will fail 
+    (note that [using VSCodium on Bianca](vscodium_on_bianca.md) does work).
+
+    Instead, go to the page [Using VSCode on Rackham](vscode_on_rackham.md)
 
 ## Introduction
 

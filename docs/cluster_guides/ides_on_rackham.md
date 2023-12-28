@@ -50,3 +50,6 @@ When on an interactive node, start any of these IDEs:
 - [RStudio](rstudio_on_rackham.md)
 - [VSCodium](vscodium_on_rackham.md)
 
+
+- [VSCode](vscode_on_rackham.md)
+

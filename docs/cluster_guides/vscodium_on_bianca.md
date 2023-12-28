@@ -1,4 +1,4 @@
-# VSCodium on Bianca
+# Using VSCodium on Bianca
 
 ![](./img/vscodium_on_bianca_480_x_270.png)
 
