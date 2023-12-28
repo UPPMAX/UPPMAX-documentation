@@ -23,20 +23,13 @@ it must be run on an interactive node.
 
 ## Procedure to start VSCodium
 
-
-### 1. Get within SUNET
-
-???- tip "Forgot how to get within SUNET?"
-
-    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
-
-### 2. Start the Rackham remote desktop environment
+### 1. Start the Rackham remote desktop environment
 
 ???- tip "Forgot how to start Rackham's remote desktop environment?"
 
     See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
 
-### 3. Start an interactive session
+### 2. Start an interactive session
 
 Within the Rackham remote desktop environment, start a terminal.
 Within that terminal, start an interactive session with 1 core.
@@ -48,10 +41,10 @@ Within that terminal, start an interactive session with 1 core.
     Spoiler: use:
 
     ```
-    interactive -A sens2023598 -n 1 -t 8:00:00
+    interactive -A uppmax2023-2-25
     ```
 
-### 4. Load the modules needed
+### 3. Load the modules needed
 
 VSCodium needs the `VSCodium/latest` module.
 
@@ -61,7 +54,7 @@ In the terminal of the interactive session, do:
 module load VSCodium/latest`
 ```
 
-### 5. Start VSCodium
+### 4. Start VSCodium
 
 With the modules loaded, 
 in that same terminal, 
@@ -72,8 +65,8 @@ start VSCodium:
 code
 ```
 
-VSCodium starts up quickly.
+VSCodium will give an error?
 
-???- info "How does VSCodium look on Rackham?"
+???- info "How does the VSCodium error look on Rackham?"
 
-    ![](./img/vscodium_on_rackham.png)
+    ![](./img/vscodium_on_rackham_error.png)
