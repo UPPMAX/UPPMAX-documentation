@@ -1,6 +1,8 @@
 # VSCodium on Rackham
 
-![](./img/vscodium_on_rackham_480_x_270.png)
+![](./img/vscodium_on_bianca_480_x_270.png)
+
+> VSCodium on Bianca.
 
 ## Introduction
 
