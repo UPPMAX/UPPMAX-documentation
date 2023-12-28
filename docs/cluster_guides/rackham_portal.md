@@ -2,6 +2,7 @@
 
 !!! tip "Contents and links"
 
+    - [Rackham's name and design](rackham.md)
     - [Log in](../getting_started/login_rackham.md)
     - [Starting an interactive node](start_interactive_node_on_rackham.md)
     - [File transfer](transfer_rackham.md)
@@ -11,8 +12,7 @@
         - [Jupyter](jupyter.md)
         - [RStudio](rstudio_on_rackham.md)
         - [VSCodium](vscodium_on_rackham.md)
-    - NAISS-sens
-    - best practices
-    - Bianca installation guides
-    - Bianca workshops
+    - Best practices
+    - Rackham installation guides
+    - Rackham workshops
     - other?
