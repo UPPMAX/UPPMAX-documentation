@@ -16,14 +16,15 @@ nav:
       - Basic Linux commands: getting_started/linux_basics.md
     - Running your first job: getting_started/first_job.md
   - Cluster user guide:
+    - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
+    - Cluster portals: 
+      - Bianca portal: cluster_guides/bianca_portal.md
+      - Rackham portal: cluster_guides/rackham_portal.md
     - Modules: cluster_guides/modules.md
     - Slurm: cluster_guides/slurm.md
     - Data transfer: 
       - Transfer to Rackham: cluster_guides/transfer_rackham.md
       - Transfer to Bianca: cluster_guides/transfer_bianca.md
-    - Cluster portals: 
-      - Bianca portal: cluster_guides/bianca_portal.md
-      - Rackham portal: cluster_guides/rackham_portal.md
     - Installing and development: 
       - Installing: cluster_guides/install.md
       - Compiling serial code: cluster_guides/compiling_serial.md

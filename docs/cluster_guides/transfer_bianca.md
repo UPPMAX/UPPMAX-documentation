@@ -6,16 +6,16 @@
 
 ![Bianca](../img/Bianca-transfer.png)
 
-## Methods
-
 There are multiple ways to transfer files to/from Bianca:
 
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
-[Using a graphical program](bianca_file_transfer_using_gui.md)|Graphical interface, intuitive, for small amounts of data only
+[Using a graphical program](#gui-sftp-clients), see below     |Graphical interface, intuitive, for small amounts of data only
 Using standard command line SFTP client, see below            |Terminal, easy to learn, terminal-based, can use terminal commands to select files
 Transit Server from/to Rackham, see below                     |Terminal, can be used to transfer data between clusters in general
 Mounting the wharf on your local computer, see below          |Both graphical and terminal, need a computer with `sshfs` installed
+
+After discussing the `wharf`, each of these methods is discussed in detail.
 
 ## The `wharf`
 
@@ -42,13 +42,6 @@ Example:
 - To transfer data from Bianca, copy/move the files/folders you want in that folder.
 - On Bianca you have full access to your `wharf` and readonly access to other's project users `wharf`s.
     
-
-##  Methods
----
--	GUI sftp clients
--	Using standard command line sftp client
-- Transit Server from/to Rackham
--	Mounting the wharf on your local computer
 
 ## GUI SFTP clients
 ---
@@ -172,6 +165,7 @@ my_user@transit:~$
 - The mounted directory will be kept for later sessions.
 
 ### Moving data from transit to Rackham
+
 - **On Rackham:** (_or other computer_) copy files to Bianca via transit:   
 ```bash
 # scp

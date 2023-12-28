@@ -6,15 +6,14 @@ Bianca has three types of nodes:
 
 ???- tip "What are nodes?"
 
-    What nodes are, is described in general terms [here](overview.md).
+    What nodes are, is described in general terms [here](uppmax_cluster.md).
 
 - **login nodes**: nodes where a user enters and interacts with the system
 - **calculation nodes**: nodes that do the calculations
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation to run is part of this course 
-    and is described [here](slurm_intro.md).
+    Requesting a calculation to run is described [here](slurm.md).
     This is done by using the SLURM scheduler.
 
 - **interactive nodes**: a type of calculation node, 
