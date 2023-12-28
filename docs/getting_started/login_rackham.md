@@ -135,7 +135,7 @@
      
     - integrate you cluster work with **code development**
     
-        - All OS: Example *Visual Studio Code*
+        - All OS: Example [Visual Studio Code](../cluster_guides/vscodium_on_rackham.md)
      
      
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
@@ -282,6 +282,10 @@
 
  
 ## Visual Studio Code (not covered here)
+
+???- question "How to use Visual Studio Code/Codium on Rackham in detail?" 
+
+    See a detailed guide how to use Visual Studio Code/Codium on Rackham [here](../cluster_guides/vscodium_on_rackham.md)
 
 - Integrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
