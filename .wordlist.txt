@@ -2896,4 +2896,13 @@ kBit
 syntaxes
 VSCodium
 IDEs
+Castafiore
+UppMACS
+VR
+Vetenskapsrådet
+funder
+webservices
+jpg
+Rackham's
+
 
