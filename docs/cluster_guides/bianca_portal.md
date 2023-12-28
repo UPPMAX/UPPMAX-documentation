@@ -2,6 +2,7 @@
 
 !!! tip "Contents and links"
 
+    - [An overview of Bianca](bianca_overview.md)
     - [Log in](../getting_started/login_bianca.md)
     - [Starting an interactive node](start_interactive_node_on_bianca.md)
     - [File transfer](transfer_bianca.md)
