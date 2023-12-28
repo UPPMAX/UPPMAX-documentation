@@ -3,7 +3,7 @@
 Bianca is an [HPC cluster](uppmax_cluster.md) 
 [designed to work on sensitive data](bianca.md)
 [named after a Tintin character](bianca.md),
-maintained by [UPPMAX](uppmax_as_an_organisation.md).
+maintained by [UPPMAX](uppmax_as_an_organization.md).
 
 ???- question "What is an HPC cluster?"
 
@@ -15,4 +15,4 @@ maintained by [UPPMAX](uppmax_as_an_organisation.md).
 
 ???- question "What is UPPMAX?"
 
-    UPPMAX is described [here](uppmax_as_an_organisation.md).
+    UPPMAX is described [here](uppmax_as_an_organization.md).
