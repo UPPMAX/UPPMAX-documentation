@@ -99,4 +99,4 @@ sftp sven@rackham.uppmax.uu.se
 
 4. In `sftp`, upload/download files to/from Rackham
 
-Basic `sftp` command can be found [https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/](here).
+Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
