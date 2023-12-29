@@ -500,6 +500,9 @@ flowchart TD
         bianca_shared_remote_desktop[Bianca remote desktop login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_remote_desktop[Bianca remote desktop] 
+
+          %% Ensure the innermost square gets big enough
+          END:::hidden
         end
       end
     end
@@ -555,6 +558,10 @@ flowchart TD
         bianca_shared_console[Bianca console environment login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_console[Bianca console environment]
+
+          %% Ensure the innermost square gets big enough
+          END:::hidden
+
         end
       end
     end
@@ -594,7 +601,7 @@ For example:
 ssh sven-sens2023598@bianca.uppmax.uu.se
 ```
 
-???- question "How does it look like when outside of SUNET?
+???- question "How does it look like when outside of SUNET?"
 
     [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
     see how this looks like when outside of SUNET. 
