@@ -1,4 +1,4 @@
-# File transfer using a graphical tool
+# File transfer using a graphical tool on Bianca
 
 ![](./img/filezilla_login_to_bianca_236_x_266.png)
 

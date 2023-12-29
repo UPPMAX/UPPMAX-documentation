@@ -14,6 +14,11 @@
   - Things to be aware of
 ```
 
+???- question "Want a video?"
+
+    [Here](https://youtu.be/oxCF4qr6EZo?si=ho7ry6hkFtkLwaxO) is video
+    that gives an introduction to Linux
+
 ## What is Linux?
 
 ![Content](./img/pingvin.png)
