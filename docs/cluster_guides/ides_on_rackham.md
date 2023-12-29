@@ -31,8 +31,9 @@ Here we show how to use some [IDEs](ides.md) on Rackham.
 
 Here are step-by-step guides to start these IDEs on Rackham:
 
-- [Jupyter](jupyter.md)
-- [RStudio](rstudio_on_rackham.md)
-- [VSCode](vscode_on_rackham.md)
-- :no_entry: [VSCodium](vscodium_on_rackham.md)
-
+IDE                                           |Languages
+----------------------------------------------|----------------
+[Jupyter](jupyter.md)                         |Python
+[RStudio](rstudio_on_rackham.md)              |R
+[VSCode](vscode_on_rackham.md)                |General-purpose
+:no_entry: [VSCodium](vscodium_on_rackham.md) |General-purpose
