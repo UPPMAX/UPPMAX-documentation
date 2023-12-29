@@ -1,5 +1,7 @@
 # Bianca portal
 
+![Bianca Castafiore, from https://en.wikipedia.org/wiki/File:Bianca_Castafiore-Tintin_comics_series.png](./img/bianca_castafiore_192_x_226.png)
+
 Welcome to the Bianca portal!
 
 Here you will find all information related to UPPMAX's Bianca HPC cluster.
