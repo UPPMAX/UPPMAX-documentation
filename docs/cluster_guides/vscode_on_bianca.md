@@ -1,9 +1,5 @@
 # Using Visual Studio Code on Bianca
 
-![](./img/vscode_connected_to_bianca.png)
-
-> VSCode from a local computer working on Bianca.
-
 !!! warning "VSCode fails, use VSCodium instead"
 
     The approach below will fail 
@@ -53,10 +49,6 @@ Use the `~/.ssh/config` file:
 
 ![](./img/vscode_remote_tunnels_use_ssh_config_in_home.png)
 
-Click on 'Connect':
+Click on 'Connect'.
 
-![](./img/vscode_connect_to_bianca.png)
-
-Now, you can work directly on your Bianca files!
-
-![](./img/vscode_connected_to_bianca.png)
+!!! warning "This is the step that fails"
