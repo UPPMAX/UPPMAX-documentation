@@ -1,57 +1,15 @@
-# File transfer to/from Rackham, using a graphical tool
+# File transfer to/from Rackham using a graphical tool
 
 ![](./img/filezilla_login_to_rackham_480_x_270.png)
 
 > FileZilla connected to Rackham
 
-## Overview
+Data transfer to/from Rackham using a graphical tool
+is one of the ways to transfer files to/from Rackham
 
-As a user, we need to transfer files
-between our local computer and Rackham.
-The many ways to transfer files to/from Rackham 
-are discussed [here](transfer_rackham.md).
-On this page, we learn how to transfer files
-to Rackham using a graphical tool/program.
+???- question "What are the other ways?"
 
-```mermaid
-flowchart TD
-
-    %% Give a white background to all nodes, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
-    %% Graph nodes for files and calculations
-    classDef file_node fill:#fcf,color:#000,stroke:#f0f
-    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
-
-    user(User)
-      user_local_files(Files on user computer):::file_node
-
-    subgraph sub_inside[SUNET]
-      subgraph sub_rackham_shared_env[Rackham]
-          login_node(login/calculation/interactive node):::calculation_node
-          files_in_rackham_home(Files in Rackham home folder):::file_node
-      end
-      files_on_transit(Files on transit):::file_node
-      files_on_other_clusters(Files on other HPC clusters):::file_node
-    end
-
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_rackham_shared_env fill:#ffc,color:#000,stroke:#ffc
-
-    user --> |logs in |login_node
-    user --> |uses| user_local_files
-    user_local_files <--> |transfer files|files_on_transit
-    files_on_transit <--> |transfer files|files_on_other_clusters
-    login_node --> |can use|files_in_rackham_home
-    user_local_files <==> |transfer files|files_in_rackham_home
-```
-
-> Overview of file transfer on Rackham, when using a graphical tool.
-> The purple nodes are about file transfer,
-> the blue nodes are about 'doing other things'.
-> The user can be either inside or outside SUNET.
+    Other ways to transfer data to/from Rackham are described [here](transfer_rackham.md)
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
 
@@ -169,8 +127,6 @@ flowchart TD
           login_node(login/calculation/interactive node):::calculation_node
           files_in_rackham_home(Files in Rackham home folder):::file_node
       end
-      files_on_transit(Files on transit):::file_node
-      files_on_other_clusters(Files on other HPC clusters):::file_node
     end
 
     %% Shared subgraph color scheme
@@ -180,10 +136,14 @@ flowchart TD
 
     user --> |logs in |login_node
     user --> |uses| user_local_files
-    user_local_files <--> |transfer files|files_on_transit
-    files_on_transit <--> |transfer files|files_on_other_clusters
+
     login_node --> |can use|files_in_rackham_home
-    user_local_files <--> |transfer files|files_in_rackham_home
+    user_local_files <==> |graphical tool|files_in_rackham_home
+    %% user_local_files <--> |SCP|files_in_rackham_home
+    %% user_local_files <--> |SFTP|files_in_rackham_home
+
+    %% Aligns nodes prettier
+    user_local_files ~~~ login_node
 ```
 
 > Overview of file transfer on Rackham

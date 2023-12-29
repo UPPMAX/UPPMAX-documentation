@@ -6,9 +6,9 @@ Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
 [Using SCP](#using-SCP)                                       |Terminal, easy to learn, can be used in scripts
-[Using SFTP](#using-SFTP)                                     |Terminal, easy to learn
+[Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
 
-Each of these methods is discussed in detail below.
+Each of these methods is discussed below.
 
 ## Using a graphical program
 
@@ -17,86 +17,72 @@ A graphical interface is intuitive to most users.
 However, it can be used for small amounts of data only
 and whatever you do cannot be automated.
 
-See [File transfer using a graphical program](rackham_file_transfer_using_gui.md)
+See [Rackham file transfer using a graphical program](rackham_file_transfer_using_gui.md)
 for a step-by-step guide how to transfer files using
 a graphical tool.
 
 ## Using SCP
 
-One can transfer files to/from Rackham using SCP.
-SCP is an abbreviation of 'Secure copy protocol',
-however, it is not considered 'secure' anymore:
-instead it is considered an outdated protocol.
-The program `scp` allows you to transfer files to/from Rackham using SCP,
-by coping them between your local computer and Rackham.
+One can transfer files to/from Rackham 
+using SCP in a terminal.
+This works similar to a regular copy of files,
+except that a remote address needs to be specified.
+The advantage of SCP is that is can be used in scripts.
 
-The process is:
-
-1. Start a terminal on your local computer
-2. In the terminal, copy files using `scp` to connect to Rackham:
-
-```
-scp [from] [to]
-```
-
-Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
-This is quite a shorthand notation!
-
-This is how you copy a file from your local computer to Rackham:
-
-```
-scp [local_filename] [username]@rackham.uppmax.uu.se:/home/[username]
-```
-
-where `[local_filename]` is the path to a local filename,
-and `[username]` is your UPPMAX username, for example:
-
-```
-scp my_file.txt sven@rackham.uppmax.uu.se:/home/sven
-```
-
-To copy a file from Rackham to your local computer, do the command above in reverse order:
-
-```
-scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
-```
-
-where `[remote_filename]` is the path to a remote filename,
-`[username]` is your UPPMAX username, 
-and `[local_folder]` is your local folder, for example:
-
-```
-scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
-```
-
-3. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
+See [Rackham file transfer using SCP](rackham_file_transfer_using_scp.md)
+for a step-by-step guide how to transfer files using SCP.
 
 ## Using SFTP
 
-One can transfer files to/from Rackham using SFTP.
-SFTP is an abbreviation of 'SSH File Transfer Protocol',
-where 'SSH' is an abbreviation of 'Secure Shell protocol'
-The program `sftp` allows you to transfer files to/from Rackham using SFTP.
+One can transfer files to/from Rackham using SFTP in a terminal.
+One connects a local and a remote folder, 
+after which one can upload and download files.
+SFTP is considered a secure file transfer protocol.
 
-The process is:
+See [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
+for a step-by-step guide how to transfer files using SFTP.
 
-1. Start a terminal on your local computer
-2. In the terminal, run `sftp` to connect to Rackham by doing:
+### Overview
 
+```mermaid
+flowchart TD
+
+    %% Give a white background to all nodes, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+
+    %% Graph nodes for files and calculations
+    classDef file_node fill:#fcf,color:#000,stroke:#f0f
+    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
+
+    user(User)
+      user_local_files(Files on user computer):::file_node
+
+    subgraph sub_inside[SUNET]
+      subgraph sub_rackham_shared_env[Rackham]
+          login_node(login/calculation/interactive node):::calculation_node
+          files_in_rackham_home(Files in Rackham home folder):::file_node
+      end
+    end
+
+    %% Shared subgraph color scheme
+    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_rackham_shared_env fill:#ffc,color:#000,stroke:#ffc
+
+    user --> |logs in |login_node
+    user --> |uses| user_local_files
+
+    login_node --> |can use|files_in_rackham_home
+    user_local_files <--> |graphical tool|files_in_rackham_home
+    user_local_files <--> |SCP|files_in_rackham_home
+    user_local_files <--> |SFTP|files_in_rackham_home
+
+    %% Aligns nodes prettier
+    user_local_files ~~~ login_node
 ```
-sftp [username]@rackham.uppmax.uu.se 
-```
 
-where `[username]` is your UPPMAX username, for example:
+> Overview of file transfer on Rackham
+> The purple nodes are about file transfer,
+> the blue nodes are about 'doing other things'.
+> The user can be either inside or outside SUNET.
 
-```
-sftp sven@rackham.uppmax.uu.se 
-```
-
-3. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
-
-4. In `sftp`, upload/download files to/from Rackham
-
-Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
