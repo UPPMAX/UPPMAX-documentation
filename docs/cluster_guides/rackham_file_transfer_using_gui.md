@@ -1,9 +1,5 @@
 # File transfer to/from Rackham using a graphical tool
 
-![](./img/filezilla_login_to_rackham_480_x_270.png)
-
-> FileZilla connected to Rackham
-
 Data transfer to/from Rackham using a graphical tool
 is one of the ways to transfer files to/from Rackham
 
@@ -12,6 +8,10 @@ is one of the ways to transfer files to/from Rackham
     Other ways to transfer data to/from Rackham are described [here](transfer_rackham.md)
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
+
+![](./img/filezilla_login_to_rackham_480_x_270.png)
+
+> FileZilla connected to Rackham
 
 ## Using FileZilla
 
