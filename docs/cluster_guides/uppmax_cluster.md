@@ -1,4 +1,4 @@
-# UPPMAX cluster
+# The UPPMAX clusters
 
 UPPMAX is an organization that provides HPC clusters.
 
@@ -9,7 +9,6 @@ UPPMAX is an organization that provides HPC clusters.
 ???- question "Where can I find an overview of UPPMAX's systems?"
 
     One can find an overview of UPPMAX's systems [here](uppmax_systems.md)
-
 
 After giving [an overview of the different UPPMAX clusters](#overview-of-uppmax-clusters),
 it is discussed [what a computer cluster is](#what-is-a-computer-cluster-technically?),

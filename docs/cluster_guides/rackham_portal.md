@@ -12,6 +12,8 @@
         - [Jupyter](jupyter.md)
         - [RStudio](rstudio_on_rackham.md)
         - [VSCodium](vscodium_on_rackham.md)
+    - Isolated environments
+        - [venv](venv_on_rackham.md)
     - Best practices
     - Rackham installation guides
     - Rackham workshops

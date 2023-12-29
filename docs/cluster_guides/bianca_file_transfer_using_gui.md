@@ -125,6 +125,12 @@ other tools.
 
 > The FileZilla logo
 
+???- question "Would you like a video?"
+
+    If you like to see how to do file tranfer from/to Bianca
+    using FileZilla, watch the video 
+    [here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
+
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
 To transfer files to/from Bianca using FileZilla, do:

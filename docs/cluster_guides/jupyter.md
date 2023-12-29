@@ -15,6 +15,11 @@ Jupyter is an IDE specialized for the Python programming language.
 
     Always start Jupyter in a **ThinLinc** session and preferably in an **interactive** session.
 
+???- tip "Want to see a video?"
+
+    If you want to see a video how to start Jupyter on Rackham,
+    go [here](https://youtu.be/72rYjwGvWEc?si=Rn2F2ieO-kPufO9f)
+
 ## Start
 
 Start a notebook like this:

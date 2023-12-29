@@ -294,6 +294,10 @@ is a non-technical solution to get direct access to Bianca.
 
 ### Use a virtual private network
 
+???- question "Want a video?"
+
+    - [Install VPN client for Ubuntu and Uppsala university](https://youtu.be/AIJKbJeu0MI?si=9ES3ZECykwc8tT28)
+
 One must be inside SUNET to access Bianca directly.
 
 A virtual private network (VPN) allows one to access Bianca indirectly:
@@ -326,6 +330,14 @@ When using this method, one can only use the
 Bianca console environment.
 
 ## Get inside the Bianca environment
+
+???- question "Want a video?"
+
+    - [Login to the Bianca remote desktop and Bianca console environment, physically inside SUNET](https://youtu.be/upBozh2BI5c?si=NXUHKyA1tNeZFeSR)
+    - [Login to the Bianca remote desktop and Bianca console environment, outside of SUNET, use VPN](https://youtu.be/Ni9nyCf7me8?si=pL3Xna7XbV3G1QFi)
+    - [Install VPN client, then login to the Bianca remote desktop using that VPN client](https://youtu.be/AIJKbJeu0MI?si=9ES3ZECykwc8tT28)
+    - [Login to the Bianca remote desktop and Bianca console environment, outside of SUNET, no VPN](https://youtu.be/W-PMTyNcbYI?si=mT4h4utxH3owygAH)
+
 
 When inside SUNET, one can access the Bianca environments.
 

@@ -1,5 +1,10 @@
 # Conda
 
+???- question "Want to see the video 'How to use Conda on Rackham'?"
+
+    If you want to see a video how to use Conda on Rackham,
+    go [here](https://youtu.be/SMhawXQhtls?si=_2t6T2Vn2B10M6LW)
+
 ## Install packages or not? Check it!
 
 ### Python 
@@ -22,6 +27,12 @@
     - If you want to keep number of files down, use PyPI (pip).
 
 ## Python packages with pip
+
+???- question "Want to see the video 'Load and use Python packages on UPPMAX'?"
+
+    If you want to see a video how to load and use Python packages 
+    on the UPPMAX (and HPC2N) HPC clusters,
+    go [here](https://youtu.be/novRJfAa2QA?si=IQM3g37TsimemDl6)
 
 - See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
 
