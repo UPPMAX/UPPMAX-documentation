@@ -93,7 +93,7 @@ To transfer files to/from Rackham using FileZilla, do:
 - Create a name for the site, e.g. `rackham`.
 - For that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
-    - Set host to `rackham-sftp.uppmax.uu.se`
+    - Set host to `rackham.uppmax.uu.se`
     - Set user to `[username]`, e.g. `richel`
 
 ???- tip "How does that look like?"
@@ -146,7 +146,7 @@ To transfer files to/from Rackham using WinSCP, do:
 - Create a new site
 - For that site, use all standards, except:
     - Set file protocol to 'SFTP'
-    - Set host name to `rackham-sftp.uppmax.uu.se`
+    - Set host name to `rackham.uppmax.uu.se`
     - Set user name to `[username]`, e.g. `richel`
 
 ### File transfer overview
