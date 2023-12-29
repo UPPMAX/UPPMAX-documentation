@@ -4,6 +4,7 @@
 
     - [Bianca's name and design](bianca.md)
     - [Log in](../getting_started/login_bianca.md)
+    - [Submitting jobs, using Slurm](slurm.md)
     - [Starting an interactive node](start_interactive_node_on_bianca.md)
     - [File transfer](transfer_bianca.md)
         - [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
@@ -15,5 +16,4 @@
     - NAISS-sens
     - Best practices
     - Bianca installation guides
-    - Bianca workshops
-    - other?
+    - [Workshops and courses](../workshops_courses/workshops_courses.md)
