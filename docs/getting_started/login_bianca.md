@@ -398,6 +398,13 @@ using a website:
 
   1. In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
+???- question "How does it look like when outside of SUNET?
+
+    [Here](https://youtu.be/W-PMTyNcbYI?si=9oQP29a7OLo3mVrt&t=160) you can
+    see how this looks like when outside of SUNET. 
+    
+    Spoiler: quite dull, as nothing happens until these is a timeout.
+
   2. Fill in the first dialog. 
      Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
 
@@ -587,6 +594,13 @@ For example:
 ssh sven-sens2023598@bianca.uppmax.uu.se
 ```
 
+???- question "How does it look like when outside of SUNET?
+
+    [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
+    see how this looks like when outside of SUNET. 
+    
+    Spoiler: quite dull, as nothing happens until these is a timeout.
+
 ???- question "Why no `-A`?"
 
     On Bianca, one can use `-A`:
@@ -688,6 +702,13 @@ For example:
 ```bash
 ssh -A sven-sens2023598@bianca.uppmax.uu.se
 ```
+
+???- question "How does it look like when outside of SUNET?
+
+    [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
+    see how this looks like when outside of SUNET. 
+    
+    Spoiler: quite dull, as nothing happens until these is a timeout.
 
 ???- question "Why no `-X`?"
 
