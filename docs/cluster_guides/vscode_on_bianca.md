@@ -39,16 +39,4 @@ then on 'New Remote'.
 
 ![](./img/vscode_add_new_remote.png)
 
-Type `ssh [username]@bianca.uppmax.uu.se` 
-where `[username]` is your UPPMAX username,
-for example, `ssh sven@bianca.uppmax.uu.se`.
-
-![](./img/vscode_ssh_to_bianca.png)
-
-Use the `~/.ssh/config` file:
-
-![](./img/vscode_remote_tunnels_use_ssh_config_in_home.png)
-
-Click on 'Connect'.
-
 !!! warning "This is the step that fails"
