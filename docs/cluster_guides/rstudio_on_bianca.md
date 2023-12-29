@@ -28,6 +28,9 @@ it must be run on an interactive node.
 
 ## Procedure to start RStudio
 
+Below is a step-by-step procedure to start RStudio.
+This procedure is also demonstrated in [this YouTube video](https://youtu.be/rRUb4pqaVak).
+
 ### 1. Get within SUNET
 
 ???- tip "Forgot how to get within SUNET?"

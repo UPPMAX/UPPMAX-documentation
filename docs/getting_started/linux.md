@@ -49,6 +49,10 @@
  
 ## Using the command line
 
+Below usage of the command line is discussed in text.
+If you prefer video, [here](https://youtu.be/kjqLAx2bgJI) 
+is how to use the command-line on the UPPMAX Bianca cluster.
+
 ### Command line with bash (Bourne Again Shell)
 - A Unix shell and command language.
 - Often default shell

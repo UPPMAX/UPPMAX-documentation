@@ -23,6 +23,8 @@ it must be run on an interactive node.
 
 ## Procedure to start VSCodium
 
+Below is a step-by-step procedure to start RStudio.
+This procedure is also demonstrated in [this YouTube video](https://youtu.be/i7sjHOX4B_M).
 
 ### 1. Get within SUNET
 

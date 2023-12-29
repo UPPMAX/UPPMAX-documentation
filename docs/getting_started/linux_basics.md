@@ -8,8 +8,17 @@
 - Let's dig into the most important BASH commands
 - We'll do a type-along session
 ```
+
+???- question "Like videos?"
+
+    Below usage of the command line is discussed in text.
+    If you prefer video, [here](https://youtu.be/kjqLAx2bgJI) 
+    is how to use the command-line on the UPPMAX Bianca cluster.
  
 ## We will cover these commands
+
+
+
 ### Navigation and file management
 
 1. `pwd`  &emsp; present directory

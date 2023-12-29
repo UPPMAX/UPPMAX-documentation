@@ -72,6 +72,10 @@ The `module` command is the basic interface to the module system.
 To search for a module, use `module spider [module]`,
 for example `module spider cowsay`.
 
+???- question "Would you like to see a video instead?"
+
+    Watch the video that shows the use of modules on Bianca [here](https://youtu.be/lNlq2Eb-qgc)
+
 ???- question "What is `cowsay`?"
 
     `cowsay` is the module for the tool called `cowsay`.
