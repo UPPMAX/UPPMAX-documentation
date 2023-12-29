@@ -156,8 +156,7 @@ Note that the 'Accounts' tab can be useful to verify your username.
 ### An UPPMAX account
 
 Another [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-
-Additionally, you must have a personal UPPMAX user account. 
+is that you must have a personal UPPMAX user account. 
 This is separate from your SUPR account. 
 See the user account application page if you do not have one. 
 
@@ -169,9 +168,8 @@ at UPPMAX for the specific project(s) you are a member of.
 ### An UPPMAX password
 
 Another [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-
-Also note that you need to know your UPPMAX password. 
-If you change it, it may take up to an hour before changes are reflected in bianca.
+is that you need to know your UPPMAX password. 
+If you change it, it may take up to an hour before changes are reflected in Bianca.
 
 For advice on handling sensitive personal data correctly on Bianca, see our FAQ page.
 
