@@ -1,4 +1,4 @@
-# File transfer using a graphical tool on Rackham
+# File transfer to/from Rackham, using a graphical tool
 
 ![](./img/filezilla_login_to_rackham_480_x_270.png)
 
