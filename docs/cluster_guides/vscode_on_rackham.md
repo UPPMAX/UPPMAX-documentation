@@ -1,8 +1,8 @@
 # Using Visual Studio Code on Rackham
 
-![](./img/vscode_on_rackham.png)
+![](./img/vscode_connected_to_rackham.png)
 
-> VSCode on Rackham.
+> VSCode from a local computer working on Rackham.
 
 ## Introduction
 
@@ -44,7 +44,7 @@ for example, `ssh sven@rackham.uppmax.uu.se`.
 
 Use the `~/.ssh/config` file:
 
-![](vscode_remote_tunnels_use_ssh_config_in_home.png)
+![](./img/vscode_remote_tunnels_use_ssh_config_in_home.png)
 
 Click on 'Connect':
 
