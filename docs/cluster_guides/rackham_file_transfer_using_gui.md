@@ -13,11 +13,6 @@ are discussed [here](transfer_rackham.md).
 On this page, we learn how to transfer files
 to Rackham using a graphical tool/program.
 
-The files you transfer will end up in your so-called `wharf` folder.
-Where to find this folder is shown in the section 'Where do my files end up?'.
-
-## Rackham's constraints
-
 ```mermaid
 flowchart TD
 
@@ -25,45 +20,38 @@ flowchart TD
     classDef node fill:#fff,color:#000,stroke:#000
 
     %% Graph nodes for files and calculations
-    classDef file_node fill:#faf,color:#000,stroke:#f0f
-    classDef calculation_node fill:#aaf,color:#000,stroke:#00f
+    classDef file_node fill:#fcf,color:#000,stroke:#f0f
+    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
 
-    subgraph sub_inside[IP inside SUNET]
-      subgraph sub_rackham_shared_env[Rackham shared network]
-        subgraph sub_rackham_private_env[The project's private virtual project cluster]
-          login_node(login/calculation/interactive node):::calculation_node
-          files_in_wharf(Files in wharf):::file_node
-          files_in_rackham_project(Files in Rackham project folder):::file_node
-        end
-      end
-      user(User)
+    user(User)
       user_local_files(Files on user computer):::file_node
+
+    subgraph sub_inside[SUNET]
+      subgraph sub_rackham_shared_env[Rackham]
+          login_node(login/calculation/interactive node):::calculation_node
+          files_in_rackham_project(Files in Rackham project folder):::file_node
+      end
+      files_on_transit(Files on transit):::file_node
+      files_on_other_clusters(Files on other HPC clusters):::file_node
     end
 
     %% Shared subgraph color scheme
     %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#fcc,color:#000,stroke:#fcc
     style sub_rackham_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_rackham_private_env fill:#cfc,color:#000,stroke:#cfc
 
     user --> |logs in |login_node
     user --> |uses| user_local_files
-
-    %% As of 2023-12-22, using `**text**` for bold face, does not render correctly
-    %% user_local_files <== "`**transfer files**`" ==> files_in_wharf
-    user_local_files <== "transfer files" ==> files_in_wharf
-
+    user_local_files <--> |transfer files|files_on_transit
+    files_on_transit <--> |transfer files|files_on_other_clusters
     login_node --> |can use|files_in_rackham_project
-    login_node --> |can use|files_in_wharf
-    files_in_wharf <--> |transfer files| files_in_rackham_project
+    user_local_files <==> |transfer files|files_in_rackham_project
 ```
 
 > Overview of file transfer on Rackham, when using a graphical tool.
 > The purple nodes are about file transfer,
 > the blue nodes are about 'doing other things'.
-> In this session, we will transfer files between
-> 'Files on user computer' and 'Files in wharf'
-> using a graphical tool, e.g. FileZilla
+> The user can be either inside or outside SUNET.
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
 
@@ -173,13 +161,14 @@ flowchart TD
     classDef file_node fill:#fcf,color:#000,stroke:#f0f
     classDef calculation_node fill:#ccf,color:#000,stroke:#00f
 
-    subgraph sub_inside[IP inside SUNET]
-      subgraph sub_rackham_shared_env[Inside Rackham]
+    user(User)
+      user_local_files(Files on user computer):::file_node
+
+    subgraph sub_inside[SUNET]
+      subgraph sub_rackham_shared_env[Rackham]
           login_node(login/calculation/interactive node):::calculation_node
           files_in_rackham_project(Files in Rackham project folder):::file_node
       end
-      user(User)
-      user_local_files(Files on user computer):::file_node
       files_on_transit(Files on transit):::file_node
       files_on_other_clusters(Files on other HPC clusters):::file_node
     end
@@ -200,3 +189,4 @@ flowchart TD
 > Overview of file transfer on Rackham
 > The purple nodes are about file transfer,
 > the blue nodes are about 'doing other things'.
+> The user can be either inside or outside SUNET.
