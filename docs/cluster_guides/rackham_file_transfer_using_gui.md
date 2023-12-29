@@ -29,7 +29,7 @@ flowchart TD
     subgraph sub_inside[SUNET]
       subgraph sub_rackham_shared_env[Rackham]
           login_node(login/calculation/interactive node):::calculation_node
-          files_in_rackham_project(Files in Rackham project folder):::file_node
+          files_in_rackham_home(Files in Rackham home folder):::file_node
       end
       files_on_transit(Files on transit):::file_node
       files_on_other_clusters(Files on other HPC clusters):::file_node
@@ -44,8 +44,8 @@ flowchart TD
     user --> |uses| user_local_files
     user_local_files <--> |transfer files|files_on_transit
     files_on_transit <--> |transfer files|files_on_other_clusters
-    login_node --> |can use|files_in_rackham_project
-    user_local_files <==> |transfer files|files_in_rackham_project
+    login_node --> |can use|files_in_rackham_home
+    user_local_files <==> |transfer files|files_in_rackham_home
 ```
 
 > Overview of file transfer on Rackham, when using a graphical tool.
@@ -167,7 +167,7 @@ flowchart TD
     subgraph sub_inside[SUNET]
       subgraph sub_rackham_shared_env[Rackham]
           login_node(login/calculation/interactive node):::calculation_node
-          files_in_rackham_project(Files in Rackham project folder):::file_node
+          files_in_rackham_home(Files in Rackham home folder):::file_node
       end
       files_on_transit(Files on transit):::file_node
       files_on_other_clusters(Files on other HPC clusters):::file_node
@@ -182,8 +182,8 @@ flowchart TD
     user --> |uses| user_local_files
     user_local_files <--> |transfer files|files_on_transit
     files_on_transit <--> |transfer files|files_on_other_clusters
-    login_node --> |can use|files_in_rackham_project
-    user_local_files <--> |transfer files|files_in_rackham_project
+    login_node --> |can use|files_in_rackham_home
+    user_local_files <--> |transfer files|files_in_rackham_home
 ```
 
 > Overview of file transfer on Rackham
