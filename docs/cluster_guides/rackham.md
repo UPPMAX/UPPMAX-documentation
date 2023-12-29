@@ -16,7 +16,7 @@ Rackham, like all [UPPMAX clusters](uppmax_cluster.md),
 is named after a Tintin character,
 in this case after Red Rackham.
 
-![Red Rackham, from https://tintin.fandom.com/wiki/Red_Rackham](./img/red_rackham.jpg)
+![Red Rackham, from https://tintin.fandom.com/wiki/Red_Rackham](./img/red_rackham_103_x_238)
 
 ???- question "What are the UPPMAX clusters?"
 
