@@ -17,7 +17,8 @@ Here you will find all information related to UPPMAX's Rackham HPC cluster.
 - [IDEs](ides_on_rackham.md)
     - [Jupyter](jupyter.md)
     - [RStudio](rstudio_on_rackham.md)
-    - [VSCodium](vscodium_on_rackham.md)
+    - [VSCode](vscode_on_rackham.md)
+    - :no_entry: [VSCodium](vscodium_on_rackham.md)
 - Isolated environments
     - [venv](venv_on_rackham.md)
 - Best practices

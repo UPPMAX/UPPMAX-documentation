@@ -10,21 +10,6 @@ Here we show how to use some [IDEs](ides.md) on Bianca.
 
     See at the general page on IDEs [here](ides.md).
 
-In all cases, we login to the Bianca remote desktop environment.
-
-???- question "Forgot how to login to a remote desktop environment?"
-
-    See [here](../getting_started/login_bianca.md).
-
-    Spoiler: go to [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
-
-In all cases, we use an interactive node: an IDE is a resource-heavy
-program, so using it on a login node would slow down other users.
-
-???- question "Forgot how to start an interactive node?"
-
-    See [here](start_interactive_node_on_bianca.md).
-
 ???- question "Do you really want to use an IDE on Bianca?"
 
     Using an IDE on Bianca is cumbersome and
@@ -44,9 +29,9 @@ program, so using it on a login node would slow down other users.
     This avoids using a clumsy remote desktop environment,
     as well as many added bonuses.
 
-When on an interactive node, start any of these IDEs:
+Here are step-by-step guides to start these IDEs on Rackham:
 
 - [Jupyter](jupyter.md)
 - [RStudio](rstudio_on_bianca.md)
+- :no_entry: [VSCode](vscode_on_bianca.md)
 - [VSCodium](vscodium_on_bianca.md)
-

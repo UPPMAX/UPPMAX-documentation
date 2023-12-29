@@ -21,5 +21,3 @@ How to use an IDE depends on the UPPMAX cluster you want to use:
  * [IDEs on Rackham](ides_on_rackham.md)
 
 In general, using an IDE is easiest on Rackham and hardest on Bianca.
-
- * [Jupyter](jupyter.md)
