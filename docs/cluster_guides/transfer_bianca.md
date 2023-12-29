@@ -138,7 +138,7 @@ mount_wharf PROJECT [path]
 If you do not give a path the mount will show up as PROJECT in your home
 directory.
 
-Note; any chagnes you do to your normal home directory will not persist.
+Note; any changes you do to your normal home directory will not persist.
 ```
 
 - Example
