@@ -1,19 +1,19 @@
 # File transfer to/from Transit using a graphical tool
 
-!!! warning "This approach does not work"
+!!! warning "One can only download files from Transit"
 
-    This approach does not work.
+    One cannot upload local files directly to Transit.
 
-    It is only present for completeness.
+    One can, however, download files from Transit to a local computer.
 
-Data transfer to/from Transit using a graphical tool
-is one of the ways to transfer files to/from Transit
+Downloading transfer from Transit using a graphical tool
+is one of the ways to download files from Transit
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Transit are described [here](transfer_transit.md)
+    Other ways to download data from Transit are described [here](transfer_transit.md)
 
-Here, we show how to transfer files using a graphical tool called FileZilla.
+Here, we show how to download files using a graphical tool called FileZilla.
 
 ![](./img/filezilla_login_to_transit_480_x_270.png)
 
@@ -27,7 +27,7 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file tranfer from/to Transit
+    If you like to see how to download data from/to Transit
     using FileZilla, watch the video 
     [here](https://youtu.be/NOdzdkZBxKk)
 
@@ -89,7 +89,8 @@ To transfer files to/from Transit using FileZilla, do:
 
     ![](filezilla_enter_password_transit.png)
 
-Now you can transfer files between your local computer and Transit.
+Now you can download files from Transit to your local computer.
+Again, one cannot upload files.
 
 ???- tip "How does that look like?"
 

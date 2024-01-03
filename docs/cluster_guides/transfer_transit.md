@@ -6,7 +6,6 @@
 
     One can, however, download files from Transit to a local computer.
 
-
 There are multiple ways to transfer files from [Transit](transit.md):
 
 Method                                                        |Features
