@@ -29,6 +29,12 @@ FileZilla is a secure file transfer tool that works under Linux, Mac and Windows
 
 To transfer files to/from Transit using FileZilla, do:
 
+- Get inside SUNET
+
+???- tip "Forgot how to get inside SUNET?"
+
+    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+
 - Start FileZilla
 - From the menu, select 'File | Site manager'
 
