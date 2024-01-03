@@ -33,13 +33,13 @@ The program `scp` allows you to copy file between Rackham and Transit.
 
 The process is:
 
-1. Get inside SUNET
+#### 1. Get inside SUNET
 
 ???- tip "Forgot how to get inside SUNET?"
 
     It is discussed [at the 'login to Bianca' page](login_bianca.md). 
 
-2. Use the terminal to login to Rackham.
+#### 2. Use the terminal to login to Rackham
 
 ???- question "Forgot how to login to Rackham?"
 
@@ -48,7 +48,9 @@ The process is:
 
     Spoiler: `ssh [username]@rackham.uppmax.uu.se`
 
-3. In the terminal, run `scp` to copy files to Transit by doing:
+#### 3a. Run `scp` to copy files from Rackham to Transit
+
+In the terminal, run `scp` to copy files from Rackham to Transit by doing:
 
 ```
 scp [file_on_rackham] [username]@transit.uppmax.uu.se 
@@ -61,8 +63,23 @@ and `[username]` is your UPPMAX username, for example:
 scp my_rackham_file.txt [username]@transit.uppmax.uu.se 
 ```
 
-4. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
+#### 3b. Run `scp` to copy files from Transit to Rackham
+
+In the terminal, run `scp` to copy files from Transit to Rackham by doing:
+```
+scp [file_on_rackham] [username]@transit.uppmax.uu.se 
+```
+
+where `[file_on_rackham]` is the name of a file on Rackham
+and `[username]` is your UPPMAX username, for example:
+
+```
+scp my_rackham_file.txt [username]@transit.uppmax.uu.se 
+```
+
+#### 4. If asked, give your UPPMAX password
+
+You can get rid of this prompt if you have setup SSH keys
 
 ### Login to transit
 
@@ -72,13 +89,13 @@ The program `scp` allows you to copy file between Rackham and Transit.
 
 The process is:
 
-1. Get inside SUNET
+#### 1. Get inside SUNET
 
 ???- tip "Forgot how to get inside SUNET?"
 
     It is discussed [at the 'login to Bianca' page](login_bianca.md). 
 
-2. Use the terminal to login to Transit.
+#### 2. Use the terminal to login to Transit
 
 ???- question "Forgot how to login to Transit?"
 
@@ -87,21 +104,43 @@ The process is:
 
     Spoiler: `ssh [username]@transit.uppmax.uu.se`
 
-3. In the terminal, run `scp` to copy files to Rackham by doing:
+#### 3a. Run `scp` to copy files from Transit to Rackham
+
+In the terminal, run `scp` to copy files from Transit to Rackham by doing:
 
 ```
-scp [file_on_transit] [username]@rackham.uppmax.uu.se 
+scp [username]@rackham.uppmax.uu.se:/home/[username]/[file_on_rackham] [path_on_transit]
+```
+where `[file_on_rackham]` is the name of a file on Rackham,
+`[username]` is your UPPMAX username,
+and `[path_on_transit]` is the target path on Transit,
+for example:
+
+```
+scp sven@rackham.uppmax.uu.se:/home/sven/my_rackham_file.txt .
+```
+
+Where `.` means 'the directory where I am now on Transit'.
+
+
+#### 3b. Run `scp` to copy files from Rackham to Transit
+
+In the terminal, run `scp` to copy files from Rackham to Transit by doing:
+
+```
+scp [file_on_rackham] [username]@transit.uppmax.uu.se 
 ```
 
 where `[file_on_transit]` is the name of a file on Transit
 and `[username]` is your UPPMAX username, for example:
 
 ```
-scp my_transit_file.txt [username]@rackham.uppmax.uu.se 
+scp my_local_rackham_file.txt [username]@transit.uppmax.uu.se 
 ```
 
-4. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
+#### 4. If asked, give your UPPMAX password. 
+
+You can get rid of this prompt if you have setup SSH keys
 
 ## Using SFTP
 
@@ -119,13 +158,13 @@ The program `sftp` allows you to transfer files to/from Rackham using Transit.
 
 The process is:
 
-1. Get inside SUNET
+#### 1. Get inside SUNET
 
 ???- tip "Forgot how to get inside SUNET?"
 
     It is discussed [at the 'login to Bianca' page](login_bianca.md). 
 
-2. Use the terminal to login to Rackham.
+#### 2. Use the terminal to login to Rackham
 
 ???- question "Forgot how to login to Rackham?"
 
@@ -134,7 +173,9 @@ The process is:
 
     Spoiler: `ssh [username]@rackham.uppmax.uu.se`
 
-3. In the terminal, run `sftp` to connect to Transit by doing:
+#### 3. Run `sftp` to connect to Transit
+
+In the terminal, run `sftp` to connect to Transit by doing:
 
 ```
 sftp [username]@transit.uppmax.uu.se 
@@ -146,10 +187,11 @@ where `[username]` is your UPPMAX username, for example:
 sftp sven@transit.uppmax.uu.se 
 ```
 
-4. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
+#### 4. If asked, give your UPPMAX password
+   
+You can get rid of this prompt if you have setup SSH keys
 
-5. In `sftp`, upload/download files to/from Transit
+#### 5. In `sftp`, upload/download files to/from Transit
 
 Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
 
@@ -162,13 +204,13 @@ The program `sftp` allows you to transfer files to/from Rackham using Transit.
 
 The process is:
 
-1. Get inside SUNET
+#### 1. Get inside SUNET
 
 ???- tip "Forgot how to get inside SUNET?"
 
     It is discussed [at the 'login to Bianca' page](login_bianca.md). 
 
-2. Use the terminal to login to Transit.
+#### 2. Use the terminal to login to Transit
 
 ???- question "Forgot how to login to Transit?"
 
@@ -177,7 +219,9 @@ The process is:
 
     Spoiler: `ssh [username]@transit.uppmax.uu.se`
 
-3. In the terminal, run `sftp` to connect to Rackham by doing:
+#### 3. Run `sftp` to connect to Rackham
+
+In the terminal, run `sftp` to connect to Rackham by doing:
 
 ```
 sftp [username]@rackham.uppmax.uu.se 
@@ -189,10 +233,11 @@ where `[username]` is your UPPMAX username, for example:
 sftp sven@rackham.uppmax.uu.se 
 ```
 
-4. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
+#### 4. If asked, give your UPPMAX password
 
-5. In `sftp`, upload/download files to/from Rackham
+You can get rid of this prompt if you have setup SSH keys
+
+#### 5. In `sftp`, upload/download files to/from Rackham
 
 Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
 
