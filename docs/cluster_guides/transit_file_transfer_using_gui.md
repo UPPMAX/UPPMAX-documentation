@@ -33,14 +33,15 @@ FileZilla is a secure file transfer tool that works under Linux, Mac and Windows
 
 To transfer files to/from Transit using FileZilla, do:
 
-1. Get inside SUNET
+### 1. Get inside SUNET
 
 ???- question "Forgot how to get inside SUNET?"
 
     It is discussed [at the 'login to Bianca' page](login_bianca.md). 
 
-2. Start FileZilla
-3. From the menu, select 'File | Site manager'
+### 2. Start FileZilla
+
+### 3. From the menu, select 'File | Site manager'
 
 ???- tip "Where is that?"
 
@@ -50,7 +51,7 @@ To transfer files to/from Transit using FileZilla, do:
     
     > The FileZilla 'File' menu contains the item 'Site manager'
 
-4. Click 'New site'
+### 4. Click 'New site'
 
 ???- tip "Where is that?"
 
@@ -58,11 +59,17 @@ To transfer files to/from Transit using FileZilla, do:
 
     ![](./img/filezilla_site_manager.png)
 
-5. Create a name for the site, e.g. `transit`.
-6. For that site, use all standards, except:
-    - Set protocol to 'SFTP - SSH File Transfer Protocol'
-    - Set host to `transit.uppmax.uu.se`
-    - Set user to `[username]`, e.g. `richel`
+### 5. Create a name for the site
+
+Create a name for the site, e.g. `transit`.
+
+### 6. Setup the site
+
+For that site, use all standards, except:
+
+- Set protocol to 'SFTP - SSH File Transfer Protocol'
+- Set host to `transit.uppmax.uu.se`
+- Set user to `[username]`, e.g. `richel`
 
 ???- tip "How does that look like?"
 
@@ -70,16 +77,21 @@ To transfer files to/from Transit using FileZilla, do:
 
     ![](./img/filezilla_setup_transit_richel.png)
 
-7. Click 'Connect'
-8. You will be asked for your password, hence
-   type `[your password]`, e.g. `VerySecret`.
-   You can save the password.
+### 7. Click 'Connect'
+
+### 8. You will be asked for your password,
+
+You will be asked for your password, hence
+type `[your password]`, e.g. `VerySecret`.
+You can save the password.
 
 ???- tip "How does that look like?"
 
     It looks similar to this:
 
     ![](filezilla_enter_password_transit.png)
+
+### 9. Done
 
 Now you can transfer files between your local computer and Transit.
 
