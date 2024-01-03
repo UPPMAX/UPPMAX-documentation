@@ -61,7 +61,7 @@ To transfer files to/from Transit using FileZilla, do:
 
 ### 5. Create a name for the site
 
-Create a name for the site, e.g. `transit`.
+Create a name for the site, e.g. Transit.
 
 ### 6. Setup the site
 
@@ -91,7 +91,7 @@ You can save the password.
 
     ![](filezilla_enter_password_transit.png)
 
-### 9. Done
+### 9. Transfer files between local and Transit
 
 Now you can transfer files between your local computer and Transit.
 
@@ -103,7 +103,7 @@ Now you can transfer files between your local computer and Transit.
 
 ## Where do my files end up?
 
-They end up in your personal home folder.
+They *seem* to end up in your Transit home folder.
 
 Its location is at `/home/[user_name]`,
 for example, at `/home/sven`.
@@ -113,6 +113,17 @@ for example, at `/home/sven`.
     It looks like this:
 
     ![](./img/filezilla_file_on_transit.png)
+
+However, this is not the case: 
+upon closing FileZilla,
+the files you've uploaded are gone.
+
+You do need to transfer these files to other HPC clusters 
+before closing FileZilla. 
+For detailed instructions, see the guides at the respective cluster, among others:
+
+ * [Bianca file transfer using Transit](bianca_file_transfer_using_transit.md)
+ * [Rackham file transfer using Transit](rackham_file_transfer_using_transit.md)
 
 ## Extra material
 
