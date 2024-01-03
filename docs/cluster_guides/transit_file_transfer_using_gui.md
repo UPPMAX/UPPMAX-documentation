@@ -31,9 +31,15 @@ To transfer files to/from Transit using FileZilla, do:
 
 - Get inside SUNET
 
-???- tip "Forgot how to get inside SUNET?"
+???- question "Forgot how to get inside SUNET?"
 
     It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+
+???- question "How will this look like when I am outside SUNET?"
+
+    When outside of SUNET, the connect will fail like this:
+
+    ![](./img/filezilla_setup_transit_richel_outside_sunet.png)
 
 - Start FileZilla
 - From the menu, select 'File | Site manager'
