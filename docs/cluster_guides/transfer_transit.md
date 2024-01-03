@@ -61,21 +61,24 @@ flowchart TD
     classDef node fill:#fff,color:#000,stroke:#000
 
     %% Graph nodes for files and calculations
-    classDef file_node fill:#fcf,color:#000,stroke:#f0f
+    classDef file_node fill:#fff,color:#000,stroke:#000
     classDef calculation_node fill:#ccf,color:#000,stroke:#00f
+    classDef transit_node fill:#fff,color:#000,stroke:#fff
 
     subgraph sub_inside[SUNET]
-      direction LR
-      user(User)
       user_local_files(Local user files):::file_node
 
       subgraph sub_transit_env[Transit]
-        transit_login(Transit login):::calculation_node
-        files_on_transit(Files on transit):::file_node
+        files_on_transit(Files posted to transit):::transit_node
       end
-      subgraph sub_transit_shared_env[Transit]
-          transit_login(Transit login node):::calculation_node
-          files_in_transit_home(Files in Transit home folder):::file_node
+      subgraph sub_rackham_shared_env[Rackham]
+        files_in_rackham_home(Files in Rackham home folder):::file_node
+      end
+      subgraph sub_bianca_private_env[Bianca]
+        files_in_bianca_project(Files in Bianca project folder):::file_node
+      end
+      subgraph sub_other_clusters[Other clusters]
+        files_on_other_clusters(Files on other clusters):::file_node
       end
     end
 
@@ -83,28 +86,25 @@ flowchart TD
     %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
     style sub_inside fill:#ccc,color:#000,stroke:#000
     style sub_transit_env fill:#cfc,color:#000,stroke:#000
-    style sub_transit_shared_env fill:#fcc,color:#000,stroke:#000
-
-    user --> |has|user_local_files
-    user --> |logs in |transit_login
-    user --> |logs in |transit_login
-
-    user_local_files <--> |graphical tool|files_in_transit_home
-    user_local_files <--> |SCP|files_in_transit_home
-    user_local_files <--> |SFTP|files_in_transit_home
-    user_local_files <--> |graphical tool|files_on_transit
-    user_local_files <--> |SFTP|files_on_transit
+    style sub_rackham_shared_env fill:#fcc,color:#000,stroke:#000
+    style sub_bianca_private_env fill:#ccf,color:#000,stroke:#000
+    style sub_other_clusters fill:#ffc,color:#000,stroke:#000
     
-    transit_login --> |can use|files_in_transit_home
 
-    transit_login --> |can use|files_on_transit
-    files_on_transit <--> |transfer|files_in_transit_home
+    
+    user_local_files <--> |graphical tool|files_on_transit
+    user_local_files <--> |SCP|files_on_transit
+    user_local_files <--> |SFTP|files_on_transit
 
-    files_in_transit_home ~~~ transit_login
+    files_on_transit <--> |SCP|files_in_rackham_home
+    files_on_transit <--> |SFTP|files_in_rackham_home
+
+    files_on_transit <--> |SCP|files_in_bianca_project
+    files_on_transit <--> |SFTP|files_in_bianca_project
+
+    files_on_transit <--> |transfer|files_on_other_clusters
+
 ```
 
 > Overview of file transfer on Transit
-> The purple nodes are about file transfer,
-> the blue nodes are about 'doing other things'.
-> The user can be either inside or outside SUNET.
 
