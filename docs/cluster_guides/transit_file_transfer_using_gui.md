@@ -1,5 +1,11 @@
 # File transfer to/from Transit using a graphical tool
 
+!!! warning "This approach does not work"
+
+    This approach does not work.
+
+    It is only present for completeness.
+
 Data transfer to/from Transit using a graphical tool
 is one of the ways to transfer files to/from Transit
 
@@ -23,7 +29,7 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 
     If you like to see how to do file tranfer from/to Transit
     using FileZilla, watch the video 
-    [here](https://youtu.be/7wHRCMdnNZE)
+    [here](https://youtu.be/NOdzdkZBxKk)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
@@ -66,7 +72,7 @@ To transfer files to/from Transit using FileZilla, do:
     - Set host to `transit.uppmax.uu.se`
     - Set user to `[username]`, e.g. `sven`
 
-???- tip "How does that look like?"
+???- question "How does that look like?"
 
     It looks similar to this:
 
@@ -93,16 +99,7 @@ Now you can transfer files between your local computer and Transit.
 
 ## Where do my files end up?
 
-They end up in your personal home folder.
-
-Its location is at `/home/[user_name]`,
-for example, at `/home/sven`.
-
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![](./img/filezilla_file_on_transit.png)
+They never reach it to `transit`.
 
 ### File transfer overview
 

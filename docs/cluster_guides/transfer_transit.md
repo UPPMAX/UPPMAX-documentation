@@ -2,24 +2,13 @@
 
 There are multiple ways to transfer files to/from Transit:
 
-Method                                                        |Features
---------------------------------------------------------------|---------------------------------------------
-[Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
-[Using SCP](#using-SCP)                                       |Terminal, easy to learn, can be used in scripts
-[Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
+Method                                                                 |Features
+-----------------------------------------------------------------------|---------------------------------------------
+[Using SCP](#using-SCP)                                                |Terminal, easy to learn, can be used in scripts
+[Using SFTP](#using-SFTP)                                              |Terminal, easy to learn, secure
+:construction: [Using a graphical program](#using-a-graphical-program) |Does not work
 
 Each of these methods is discussed below.
-
-## Using a graphical program
-
-One can transfer files to/from Transit using a graphical program.
-A graphical interface is intuitive to most users.
-However, it can be used for small amounts of data only
-and whatever you do cannot be automated.
-
-See [Transit file transfer using a graphical program](transit_file_transfer_using_gui.md)
-for a step-by-step guide how to transfer files using
-a graphical tool.
 
 ## Using SCP
 
@@ -41,6 +30,14 @@ SFTP is considered a secure file transfer protocol.
 
 See [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
+
+## Using a graphical program
+
+One cannot transfer files to/from Transit using a graphical program.
+
+For completion, a step-by-step guide how to transfer files using a graphical tool
+is present at [Transit file transfer using a graphical program](transit_file_transfer_using_gui.md).
+It looks as if it works, yet it does not.
 
 ## Overview
 
