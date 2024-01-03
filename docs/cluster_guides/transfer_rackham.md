@@ -45,12 +45,12 @@ for a step-by-step guide how to transfer files using SFTP.
 
 ## Using `transit`
 
-One can transfer files to/from Rackham using `transit`.
+One can transfer files to/from Rackham using the UPPMAX `transit` server.
 One connects a local folder and the `transit` server, 
 after which one can upload and download files.
 
-See [Rackham file transfer using SFTP](rackham_file_transfer_using_transit.md)
-for a step-by-step guide how to transfer files using `transit`.
+See [Rackham file transfer using `transit`](rackham_file_transfer_using_transit.md)
+for a step-by-step guide how to transfer files using the `transit` UPPMAX server.
 
 ### Overview
 
