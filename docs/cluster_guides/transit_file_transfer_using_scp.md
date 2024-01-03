@@ -99,3 +99,38 @@ flowchart TD
 > the blue nodes are about 'doing other things'.
 > The user can be either inside or outside SUNET.
 
+
+## Failure log
+
+```
+richel@richel-N141CU:~$ scp demo.txt richel@transit.uppmax.uu.se:/home/richel
+demo.txt                                  100%   53     8.8KB/s   00:00    
+richel@richel-N141CU:~$ ssh richel@transit.uppmax.uu.se
+Last login: Wed Jan  3 12:41:33 2024 from vpnpool188-187.anst.uu.se
+
+Transit server
+
+You can mount bianca wharf with the command
+
+mount_wharf PROJECT [path]
+
+If you do not give a path the mount will show up as PROJECT in your home
+directory.
+
+Note; any chagnes you do to your normal home directory will not persist.
+
+
+[richel@transit ~]$ ls
+Documents                    project_number.txt
+environment.yml              q.sh
+fake.csv                     qsp.sh
+genpipes                     qs.sh
+GitHubs                      R
+glob                         requirements.txt
+iamonrackham                 send_to_bianca_sens2021565.sh
+login_bianca_sens2017625.sh  staff
+mapAD                        start_interactive.sh
+mi.license                   to_bianca.sh
+private                      uppmax2023-2-25
+[richel@transit ~]$ 
+```

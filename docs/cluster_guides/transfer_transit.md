@@ -2,24 +2,13 @@
 
 There are multiple ways to transfer files to/from Transit:
 
-Method                                                                 |Features
------------------------------------------------------------------------|---------------------------------------------
-[Using SCP](#using-SCP)                                                |Terminal, easy to learn, can be used in scripts
-[Using SFTP](#using-SFTP)                                              |Terminal, easy to learn, secure
-:construction: [Using a graphical program](#using-a-graphical-program) |Does not work
+Method                                                             |Features
+-------------------------------------------------------------------|---------------------------------------------
+[Using SFTP](#using-SFTP)                                          |Terminal, easy to learn, secure
+:no-entry: [Using a graphical program](#using-a-graphical-program) |Does not work
+:no-entry: [Using SCP](#using-SCP)                                 |Does not work
 
 Each of these methods is discussed below.
-
-## Using SCP
-
-One can transfer files to/from Transit 
-using SCP in a terminal.
-This works similar to a regular copy of files,
-except that a remote address needs to be specified.
-The advantage of SCP is that is can be used in scripts.
-
-See [Transit file transfer using SCP](transit_file_transfer_using_scp.md)
-for a step-by-step guide how to transfer files using SCP.
 
 ## Using SFTP
 
@@ -37,6 +26,14 @@ One cannot transfer files to/from Transit using a graphical program.
 
 For completion, a step-by-step guide how to transfer files using a graphical tool
 is present at [Transit file transfer using a graphical program](transit_file_transfer_using_gui.md).
+It looks as if it works, yet it does not.
+
+## Using SCP
+
+One cannot transfer files to/from Transit SCP.
+
+For completion, a step-by-step guide how to transfer files using a graphical tool
+is present at [Transit file transfer using SCP](transit_file_transfer_using_scp.md).
 It looks as if it works, yet it does not.
 
 ## Overview
