@@ -52,31 +52,30 @@ flowchart TD
     classDef file_node fill:#fcf,color:#000,stroke:#f0f
     classDef calculation_node fill:#ccf,color:#000,stroke:#00f
 
-    user(User)
-      user_local_files(Files on user computer):::file_node
-
     subgraph sub_inside[SUNET]
+      direction LR
+      user(User)
+      subgraph sub_transit_env[Transit]
+        transit_login(Transit login):::calculation_node
+        files_on_transit(Files on transit):::file_node
+      end
       subgraph sub_rackham_shared_env[Rackham]
-          login_node(login/calculation/interactive node):::calculation_node
           files_in_rackham_home(Files in Rackham home folder):::file_node
       end
     end
 
     %% Shared subgraph color scheme
     %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_rackham_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_inside fill:#ccc,color:#000,stroke:#000
+    style sub_transit_env fill:#cfc,color:#000,stroke:#000
+    style sub_rackham_shared_env fill:#fcc,color:#000,stroke:#000
 
-    user --> |logs in |login_node
-    user --> |uses| user_local_files
+    user --> |logs in |transit_login
 
-    login_node --> |can use|files_in_rackham_home
+    transit_login --> |can use|files_on_transit
     %% user_local_files <--> |graphical tool|files_in_rackham_home
     %% user_local_files <--> |SCP|files_in_rackham_home
-    user_local_files <==> |`transit`|files_in_rackham_home
-
-    %% Aligns nodes prettier
-    user_local_files ~~~ login_node
+    files_on_transit <==> |transfer|files_in_rackham_home
 ```
 
 > Overview of file transfer on Rackham
