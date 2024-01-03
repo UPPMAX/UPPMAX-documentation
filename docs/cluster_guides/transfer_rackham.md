@@ -7,6 +7,7 @@ Method                                                        |Features
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
 [Using SCP](#using-SCP)                                       |Terminal, easy to learn, can be used in scripts
 [Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
+[Using transit](#using-transit)                               |Terminal, easy to learn, secure, can transfer between HPC clusters
 
 Each of these methods is discussed below.
 
@@ -41,6 +42,15 @@ SFTP is considered a secure file transfer protocol.
 
 See [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
+
+## Using `transit`
+
+One can transfer files to/from Rackham using `transit`.
+One connects a local folder and the `transit` server, 
+after which one can upload and download files.
+
+See [Rackham file transfer using SFTP](rackham_file_transfer_using_transit.md)
+for a step-by-step guide how to transfer files using `transit`.
 
 ### Overview
 
