@@ -64,7 +64,7 @@ To transfer files to/from Transit using FileZilla, do:
 - For that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `transit.uppmax.uu.se`
-    - Set user to `[username]`, e.g. `richel`
+    - Set user to `[username]`, e.g. `sven`
 
 ???- tip "How does that look like?"
 
