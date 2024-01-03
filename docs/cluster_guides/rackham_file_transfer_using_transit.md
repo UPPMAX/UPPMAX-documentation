@@ -14,7 +14,13 @@ The program `sftp` allows you to transfer files to/from Rackham using `transit`.
 
 The process is:
 
-1. Use the terminal to login to `transit`.
+1. Get inside SUNET
+
+???- tip "Forgot how to get inside SUNET?"
+
+    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+
+2. Use the terminal to login to `transit`.
 
 ???- question "Forgot how to login to `transit`?"
 
@@ -23,7 +29,7 @@ The process is:
 
     Spoiler: `ssh [username]@transit.uppmax.uu.se`
 
-2. In the terminal, run `sftp` to connect to Rackham by doing:
+3. In the terminal, run `sftp` to connect to Rackham by doing:
 
 ```
 sftp [username]@rackham.uppmax.uu.se 
@@ -35,10 +41,10 @@ where `[username]` is your UPPMAX username, for example:
 sftp sven@rackham.uppmax.uu.se 
 ```
 
-3. If asked, give your UPPMAX password. 
+4. If asked, give your UPPMAX password. 
    You can get rid of this prompt if you have setup SSH keys
 
-4. In `sftp`, upload/download files to/from Rackham
+5. In `sftp`, upload/download files to/from Rackham
 
 Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
 
