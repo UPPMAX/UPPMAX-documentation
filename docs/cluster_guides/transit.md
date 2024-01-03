@@ -32,6 +32,16 @@ ssh sven@transit.uppmax.uu.se
 
 If you haven't setup using SSH keys, you will be asked for your UPPMAX password.
 
+If this is your first time on `transit`, you will be asked for adding
+it to your list of known hosts. Type `yes`.
+
+???- question "How does that look like?"
+
+    This is how it looks like when you are asked 
+    for adding `transit` to your list of known hosts.
+
+    ![](./img/transit_add_to_known_hosts.png)
+
 You are now logged in to `transit`!
 
 ![](logged_in_transit.png)
