@@ -3,6 +3,10 @@
 Data transfer to/from Transit using a graphical tool
 is one of the ways to transfer files to/from Transit
 
+???- question "What is Transit?"
+
+    See [the page about the UPPMAX Transit server](transit.md).
+
 ???- question "What are the other ways?"
 
     Other ways to transfer data to/from Transit are described [here](transfer_transit.md)
@@ -29,8 +33,14 @@ FileZilla is a secure file transfer tool that works under Linux, Mac and Windows
 
 To transfer files to/from Transit using FileZilla, do:
 
-- Start FileZilla
-- From the menu, select 'File | Site manager'
+1. Get inside SUNET
+
+???- question "Forgot how to get inside SUNET?"
+
+    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+
+2. Start FileZilla
+3. From the menu, select 'File | Site manager'
 
 ???- tip "Where is that?"
 
@@ -40,7 +50,7 @@ To transfer files to/from Transit using FileZilla, do:
     
     > The FileZilla 'File' menu contains the item 'Site manager'
 
-- Click 'New site'
+4. Click 'New site'
 
 ???- tip "Where is that?"
 
@@ -48,8 +58,8 @@ To transfer files to/from Transit using FileZilla, do:
 
     ![](./img/filezilla_site_manager.png)
 
-- Create a name for the site, e.g. `transit`.
-- For that site, use all standards, except:
+5. Create a name for the site, e.g. `transit`.
+6. For that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `transit.uppmax.uu.se`
     - Set user to `[username]`, e.g. `richel`
@@ -60,10 +70,10 @@ To transfer files to/from Transit using FileZilla, do:
 
     ![](./img/filezilla_setup_transit_richel.png)
 
-- Click 'Connect'
-- You will be asked for your password, hence
-  type `[your password]`, e.g. `VerySecret`.
-  You can save the password.
+7. Click 'Connect'
+8. You will be asked for your password, hence
+   type `[your password]`, e.g. `VerySecret`.
+   You can save the password.
 
 ???- tip "How does that look like?"
 

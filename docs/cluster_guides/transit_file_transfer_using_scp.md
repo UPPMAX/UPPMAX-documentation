@@ -16,8 +16,14 @@ by coping them between your local computer and Transit.
 
 The process is:
 
-1. Start a terminal on your local computer
-2. In the terminal, copy files using `scp` to connect to Transit:
+1. Get inside SUNET
+
+???- question "Forgot how to get inside SUNET?"
+
+    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+
+2. Start a terminal on your local computer
+3. In the terminal, copy files using `scp` to connect to Transit:
 
 ```
 scp [from] [to]
@@ -53,7 +59,7 @@ and `[local_folder]` is your local folder, for example:
 scp sven@transit.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 ```
 
-3. If asked, give your UPPMAX password. 
+4. If asked, give your UPPMAX password. 
    You can get rid of this prompt if you have setup SSH keys
 
 

@@ -14,8 +14,14 @@ The program `sftp` allows you to transfer files to/from Transit using SFTP.
 
 The process is:
 
-1. Start a terminal on your local computer
-2. In the terminal, run `sftp` to connect to Transit by doing:
+1. Get inside SUNET
+
+???- question "Forgot how to get inside SUNET?"
+
+    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+
+2. Start a terminal on your local computer
+3. In the terminal, run `sftp` to connect to Transit by doing:
 
 ```
 sftp [username]@transit.uppmax.uu.se 
@@ -27,10 +33,10 @@ where `[username]` is your UPPMAX username, for example:
 sftp sven@transit.uppmax.uu.se 
 ```
 
-3. If asked, give your UPPMAX password. 
+4. If asked, give your UPPMAX password. 
    You can get rid of this prompt if you have setup SSH keys
 
-4. In `sftp`, upload/download files to/from Transit
+5. In `sftp`, upload/download files to/from Transit
 
 Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
 
