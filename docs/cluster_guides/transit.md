@@ -32,4 +32,6 @@ ssh sven@transit.uppmax.uu.se
 
 If you haven't setup using SSH keys, you will be asked for your UPPMAX password.
 
+You are now logged in to `transit`!
 
+![](logged_in_transit.png)
