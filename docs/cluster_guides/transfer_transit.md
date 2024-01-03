@@ -1,38 +1,53 @@
-# Data transfer to/from Transit
+# Data transfer from Transit
 
-There are multiple ways to transfer files to/from Transit:
+!!! warning "One can only download files from Transit"
 
-Method                                                             |Features
--------------------------------------------------------------------|---------------------------------------------
-:no-entry: [Using a graphical program](#using-a-graphical-program) |Does not work
-:no-entry: [Using SCP](#using-SCP)                                 |Does not work
-:no-entry: [Using SFTP](#using-SFTP)                               |Does not work
+    One cannot upload local files directly to Transit.
+
+    One can, however, download files from Transit to a local computer.
+
+
+There are multiple ways to transfer files from Transit:
+
+Method                                                        |Features
+--------------------------------------------------------------|---------------------------------------------
+[Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
+[Using SCP](#using-SCP)                                       |Terminal, easy to learn, can be used in scripts
+[Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
 
 Each of these methods is discussed below.
 
-## Using a graphical program
+## Using a graphical program## Using a graphical program
 
-One cannot transfer files to/from Transit using a graphical program.
+One can download files from Transit using a graphical program.
+A graphical interface is intuitive to most users.
+However, it can be used for small amounts of data only
+and whatever you do cannot be automated.
 
-For completion, a step-by-step guide how to transfer files using a graphical tool
-is present at [Transit file transfer using a graphical program](transit_file_transfer_using_gui.md).
-It looks as if it works, yet it does not.
+See [Transit file transfer using a graphical program](transit_file_transfer_using_gui.md)
+for a step-by-step guide how to download files using
+a graphical tool.
 
 ## Using SCP
 
-One cannot transfer files to/from Transit using SCP.
+One can download files from Transit 
+using SCP in a terminal.
+This works similar to a regular copy of files,
+except that a remote address needs to be specified.
+The advantage of SCP is that is can be used in scripts.
 
-For completion, a step-by-step guide how to transfer files using a graphical tool
-is present at [Transit file transfer using SCP](transit_file_transfer_using_scp.md).
-It looks as if it works, yet it does not.
+See [Transit file transfer using SCP](transit_file_transfer_using_scp.md)
+for a step-by-step guide how to download files using SCP.
 
 ## Using SFTP
 
-One cannot transfer files to/from Transit using SFTP.
+One can download files to/from Transit using SFTP in a terminal.
+One connects a local and a remote folder, 
+after which one can download files.
+SFTP is considered a secure file transfer protocol.
 
-For completion, a step-by-step guide how to transfer files using a graphical tool
-is present at [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md).
-It looks as if it works, yet it does not.
+See [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md)
+for a step-by-step guide how to download files using SFTP.
 
 ## Overview
 
@@ -64,7 +79,7 @@ flowchart TD
     style sub_transit_env fill:#ccf,color:#000,stroke:#009
 
     user_local_files -.- files_in_wharf
-    user_local_files ~~~ files_on_transit
+    user_local_files <-- |download files| files_on_transit
     user_local_files -.- files_on_rackham
     files_on_transit <==> |transfer files|files_in_wharf
     files_on_transit <==> |transfer files|files_on_rackham
