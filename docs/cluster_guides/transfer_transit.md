@@ -4,21 +4,11 @@ There are multiple ways to transfer files to/from Transit:
 
 Method                                                             |Features
 -------------------------------------------------------------------|---------------------------------------------
-[Using SFTP](#using-SFTP)                                          |Terminal, easy to learn, secure
 :no-entry: [Using a graphical program](#using-a-graphical-program) |Does not work
 :no-entry: [Using SCP](#using-SCP)                                 |Does not work
+:no-entry: [Using SFTP](#using-SFTP)                               |Does not work
 
 Each of these methods is discussed below.
-
-## Using SFTP
-
-One can transfer files to/from Transit using SFTP in a terminal.
-One connects a local and a remote folder, 
-after which one can upload and download files.
-SFTP is considered a secure file transfer protocol.
-
-See [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md)
-for a step-by-step guide how to transfer files using SFTP.
 
 ## Using a graphical program
 
@@ -30,10 +20,18 @@ It looks as if it works, yet it does not.
 
 ## Using SCP
 
-One cannot transfer files to/from Transit SCP.
+One cannot transfer files to/from Transit using SCP.
 
 For completion, a step-by-step guide how to transfer files using a graphical tool
 is present at [Transit file transfer using SCP](transit_file_transfer_using_scp.md).
+It looks as if it works, yet it does not.
+
+## Using SFTP
+
+One cannot transfer files to/from Transit using SFTP.
+
+For completion, a step-by-step guide how to transfer files using a graphical tool
+is present at [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md).
 It looks as if it works, yet it does not.
 
 ## Overview
@@ -66,7 +64,7 @@ flowchart TD
     style sub_transit_env fill:#ccf,color:#000,stroke:#009
 
     user_local_files -.- files_in_wharf
-    user_local_files <==> |transfer files|files_on_transit
+    user_local_files ~~~ files_on_transit
     user_local_files -.- files_on_rackham
     files_on_transit <==> |transfer files|files_in_wharf
     files_on_transit <==> |transfer files|files_on_rackham
