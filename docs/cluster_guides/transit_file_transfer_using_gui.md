@@ -1,23 +1,13 @@
-# Download files from Transit using a graphical tool
+# File transfer to/from Transit using a graphical tool
 
-!!! warning "One can only download files from Transit"
-
-    One cannot upload local files directly to Transit.
-
-    One can, however, download files from Transit to a local computer.
-
-Downloading transfer from Transit using a graphical tool
-is one of the ways to download files from Transit
-
-???- question "What is Transit?"
-
-    See [the page about the UPPMAX Transit server](transit.md).
+Data transfer to/from Transit using a graphical tool
+is one of the ways to transfer files to/from Transit
 
 ???- question "What are the other ways?"
 
-    Other ways to download data from Transit are described [here](transfer_transit.md)
+    Other ways to transfer data to/from Transit are described [here](transfer_transit.md)
 
-Here, we show how to download files using a graphical tool called FileZilla.
+Here, we show how to transfer files using a graphical tool called FileZilla.
 
 ![](./img/filezilla_login_to_transit_480_x_270.png)
 
@@ -31,25 +21,13 @@ Here, we show how to download files using a graphical tool called FileZilla.
 
 ???- question "Would you like a video?"
 
-    If you like to see how to download data from/to Transit
+    If you like to see how to do file tranfer from/to Transit
     using FileZilla, watch the video 
-    [here](https://youtu.be/NOdzdkZBxKk)
+    [here](https://youtu.be/7wHRCMdnNZE)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
 To transfer files to/from Transit using FileZilla, do:
-
-- Get inside SUNET
-
-???- question "Forgot how to get inside SUNET?"
-
-    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
-
-???- question "How will this look like when I am outside SUNET?"
-
-    When outside of SUNET, the connect will fail like this:
-
-    ![](./img/filezilla_setup_transit_richel_outside_sunet.png)
 
 - Start FileZilla
 - From the menu, select 'File | Site manager'
@@ -74,9 +52,9 @@ To transfer files to/from Transit using FileZilla, do:
 - For that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `transit.uppmax.uu.se`
-    - Set user to `[username]`, e.g. `sven`
+    - Set user to `[username]`, e.g. `richel`
 
-???- question "How does that look like?"
+???- tip "How does that look like?"
 
     It looks similar to this:
 
@@ -93,8 +71,7 @@ To transfer files to/from Transit using FileZilla, do:
 
     ![](filezilla_enter_password_transit.png)
 
-Now you can download files from Transit to your local computer.
-Again, one cannot upload files.
+Now you can transfer files between your local computer and Transit.
 
 ???- tip "How does that look like?"
 
@@ -104,7 +81,31 @@ Again, one cannot upload files.
 
 ## Where do my files end up?
 
-They never reach it to `transit`.
+They end up in your personal home folder.
+
+Its location is at `/home/[user_name]`,
+for example, at `/home/sven`.
+
+???- tip "How does that look like?"
+
+    It looks like this:
+
+    ![](./img/filezilla_file_on_transit.png)
+
+## Extra material
+
+### WinSCP
+
+WinSCP is a secure file transfer tool that works under Windows.
+
+To transfer files to/from Transit using WinSCP, do:
+
+- Start WinSCP
+- Create a new site
+- For that site, use all standards, except:
+    - Set file protocol to 'SFTP'
+    - Set host name to `transit.uppmax.uu.se`
+    - Set user name to `[username]`, e.g. `richel`
 
 ### File transfer overview
 
