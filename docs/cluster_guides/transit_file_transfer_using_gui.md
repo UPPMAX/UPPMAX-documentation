@@ -1,4 +1,4 @@
-# File transfer to/from Transit using a graphical tool
+# Download files from Transit using a graphical tool
 
 !!! warning "One can only download files from Transit"
 
@@ -8,6 +8,10 @@
 
 Downloading transfer from Transit using a graphical tool
 is one of the ways to download files from Transit
+
+???- question "What is Transit?"
+
+    See [the page about the UPPMAX Transit server](transit.md).
 
 ???- question "What are the other ways?"
 
