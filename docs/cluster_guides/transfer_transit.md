@@ -7,17 +7,17 @@
     One can, however, download files from Transit to a local computer.
 
 
-There are multiple ways to transfer files from Transit:
+There are multiple ways to transfer files from [Transit](transit.md):
 
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
-[Using SCP](#using-SCP)                                       |Terminal, easy to learn, can be used in scripts
-[Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
+[Using SCP](#using-scp)                                       |Terminal, easy to learn, can be used in scripts
+[Using SFTP](#using-sftp)                                     |Terminal, easy to learn, secure
 
 Each of these methods is discussed below.
 
-## Using a graphical program## Using a graphical program
+## Using a graphical program
 
 One can download files from Transit using a graphical program.
 A graphical interface is intuitive to most users.
