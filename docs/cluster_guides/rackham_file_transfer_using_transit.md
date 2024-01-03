@@ -7,13 +7,23 @@ is one of the ways ways to transfer files to/from Rackham
 
     Other ways to transfer data to/from Rackham are described [here](transfer_rackham.md)
 
-To transfer to/from Rackham using Transit can be done in multiple ways too:
+This page assumes your files are on Transit
+
+???- question "How to transfer files to/from Transit?"
+
+    See [here](transfer_transit.md)
+
+To transfer files between Rackham and Transit can be done in multiple ways too:
 
  * [Using SCP](#using-scp)
  * [Using SFTP](#using-sftp)
 
 ## Using SCP
 
+One can use SCP to copy files between Rackham and Transit,
+from either Rackham or Transit.
+
+Both ways are shown step-by-step below.
 
 ### Login to Rackham
 
@@ -95,48 +105,10 @@ scp my_transit_file.txt [username]@rackham.uppmax.uu.se
 
 ## Using SFTP
 
-### Login to transit
+One can use SFTP to copy files between Rackham and Transit,
+from either Rackham or Transit.
 
-One can transfer files to/from Rackham using the UPPMAX Transit server.
-Transit is an abbreviation of 'SSH File Transfer Protocol',
-where 'SSH' is an abbreviation of 'Secure Shell protocol'
-The program `sftp` allows you to transfer files to/from Rackham using Transit.
-
-The process is:
-
-1. Get inside SUNET
-
-???- tip "Forgot how to get inside SUNET?"
-
-    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
-
-2. Use the terminal to login to Transit.
-
-???- question "Forgot how to login to Transit?"
-
-    A step-by-step guide how to login to Transit
-    can be found [here](transit.md).
-
-    Spoiler: `ssh [username]@transit.uppmax.uu.se`
-
-3. In the terminal, run `sftp` to connect to Rackham by doing:
-
-```
-sftp [username]@rackham.uppmax.uu.se 
-```
-
-where `[username]` is your UPPMAX username, for example:
-
-```
-sftp sven@rackham.uppmax.uu.se 
-```
-
-4. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
-
-5. In `sftp`, upload/download files to/from Rackham
-
-Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
+Both ways are shown step-by-step below.
 
 ### Login to Rackham
 
@@ -178,6 +150,49 @@ sftp sven@transit.uppmax.uu.se
    You can get rid of this prompt if you have setup SSH keys
 
 5. In `sftp`, upload/download files to/from Transit
+
+Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
+
+### Login to transit
+
+One can transfer files to/from Rackham using the UPPMAX Transit server.
+Transit is an abbreviation of 'SSH File Transfer Protocol',
+where 'SSH' is an abbreviation of 'Secure Shell protocol'
+The program `sftp` allows you to transfer files to/from Rackham using Transit.
+
+The process is:
+
+1. Get inside SUNET
+
+???- tip "Forgot how to get inside SUNET?"
+
+    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+
+2. Use the terminal to login to Transit.
+
+???- question "Forgot how to login to Transit?"
+
+    A step-by-step guide how to login to Transit
+    can be found [here](transit.md).
+
+    Spoiler: `ssh [username]@transit.uppmax.uu.se`
+
+3. In the terminal, run `sftp` to connect to Rackham by doing:
+
+```
+sftp [username]@rackham.uppmax.uu.se 
+```
+
+where `[username]` is your UPPMAX username, for example:
+
+```
+sftp sven@rackham.uppmax.uu.se 
+```
+
+4. If asked, give your UPPMAX password. 
+   You can get rid of this prompt if you have setup SSH keys
+
+5. In `sftp`, upload/download files to/from Rackham
 
 Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
 
