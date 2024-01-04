@@ -4,8 +4,8 @@ Transit is an UPPMAX service that can be used to securely transfer files.
 
 ???- question "Is Transit a file server?"
 
-    Transit is not a file server, 
-    as it does not store files.
+    Transit is a service, not a file server.
+    Transit is not a file server, as it does not store files.
 
     This can be observed by uploading files to Transit
     and then closing this connection
@@ -14,7 +14,7 @@ Transit is an UPPMAX service that can be used to securely transfer files.
 
 ???- question "What is Transit?"
 
-    ![From https://sv.wikipedia.org/wiki/Brevl%C3%A5da#/media/Fil:Brevl%C3%A5dor.jpg](./img/swedish_postbox.jpg)
+    ![From https://sv.wikipedia.org/wiki/Brevl%C3%A5da#/media/Fil:Brevl%C3%A5dor.jpg](./img/swedish_postbox_117_x_157.jpg)
 
     > A Swedish post box. The yellow post box is for non-regional mail,
     > the blue for regional mail.
