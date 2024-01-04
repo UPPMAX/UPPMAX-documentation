@@ -3,6 +3,10 @@
 Data transfer to/from Transit using SFTP
 is one of the ways ways to transfer files to/from Transit
 
+???- question "What is Transit?"
+
+    See [the page about the UPPMAX Transit server](transit.md).
+
 ???- question "What are the other ways?"
 
     Other ways to transfer data to/from Transit are described [here](transfer_transit.md)
@@ -12,16 +16,25 @@ SFTP is an abbreviation of 'SSH File Transfer Protocol',
 where 'SSH' is an abbreviation of 'Secure Shell protocol'
 The program `sftp` allows you to transfer files to/from Transit using SFTP.
 
-The process is:
+## Using SFTP
 
-1. Get inside SUNET
+The procedure is described in the following steps.
+
+### 1. Get inside SUNET
+
+Get inside SUNET.
 
 ???- question "Forgot how to get inside SUNET?"
 
     It is discussed [at the 'login to Bianca' page](login_bianca.md). 
 
-2. Start a terminal on your local computer
-3. In the terminal, run `sftp` to connect to Transit by doing:
+### 2. Start a terminal on your local computer
+
+Start a terminal on your local computer.
+
+### 3. Connect `sftp` to Transit
+
+In the terminal, connect `sftp` to Transit by doing:
 
 ```
 sftp [username]@transit.uppmax.uu.se 
@@ -33,12 +46,45 @@ where `[username]` is your UPPMAX username, for example:
 sftp sven@transit.uppmax.uu.se 
 ```
 
-4. If asked, give your UPPMAX password. 
-   You can get rid of this prompt if you have setup SSH keys
+If asked, give your UPPMAX password. 
+You can get rid of this prompt if you have setup SSH keys.
 
-5. In `sftp`, upload/download files to/from Transit
+### 5. In `sftp`, upload/download files to/from Transit
+
+In `sftp`, upload/download files to/from Transit.
+
+For example, to upload a file to Transit:
+
+```
+put my_file.txt
+```
 
 Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
+
+## Where do my files end up?
+
+They *seem* to end up in your Transit home folder.
+
+Its location is at `/home/[user_name]`,
+for example, at `/home/sven`.
+
+???- tip "How does that look like?"
+
+    It looks like this:
+
+    ![](./img/filezilla_file_on_transit.png)
+
+However, this is not the case: 
+upon closing `sftp`,
+the files you've uploaded are gone.
+
+You do need to transfer these files to other HPC clusters 
+before closing `sftp`. 
+For detailed instructions, see the guides at the respective cluster, among others:
+
+ * [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
+
+## Overview
 
 ```mermaid
 flowchart TD
