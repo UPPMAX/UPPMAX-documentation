@@ -54,15 +54,6 @@ SFTP is considered a secure file transfer protocol.
 See [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
 
-## Using `transit`
-
-One can transfer files to/from Transit using the UPPMAX `transit` server.
-One connects a local folder and the `transit` server, 
-after which one can upload and download files.
-
-See [Transit file transfer using `transit`](transit_file_transfer_using_transit.md)
-for a step-by-step guide how to transfer files using the `transit` UPPMAX server.
-
 ### Overview
 
 ```mermaid
