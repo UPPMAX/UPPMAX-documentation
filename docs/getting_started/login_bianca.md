@@ -304,8 +304,8 @@ accesses Bianca.
 
 To be able to use a VPN to get inside of SUNET:
 
- * For Uppsala University: [go to this page](https://mp.uu.se/en/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
- * For other Swedish universities, search their websites to get the required VPN credentials.
+- For Uppsala University: [go to this page](https://mp.uu.se/en/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
+- For other Swedish universities, search their websites to get the required VPN credentials.
 
 ???- tip "Video"
 
@@ -396,7 +396,9 @@ we have tested on Chrome and Firefox :-)
 When inside SUNET, one can access a remote desktop environment
 using a website:
 
-  1. In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+#### 1. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+
+In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
 
 ???- question "How does it look like when outside of SUNET?
 
@@ -405,8 +407,11 @@ using a website:
     
     Spoiler: quite dull, as nothing happens until these is a timeout.
 
-  2. Fill in the first dialog. 
-     Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
+#### 2. Fill in the first dialog
+
+Fill in the first dialog. 
+
+Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/user-guides/setting-up-two-factor-authentication/) (i.e. not SUPR!)
 
 ???- question "How do I setup 2-factor authentication?"
 
@@ -428,7 +433,9 @@ using a website:
 
     > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
-  3. Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication)
+#### 3. Fill in the second dialog, using your regular password
+
+Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication).
 
 ???- question "How does that web page look like?"
 
@@ -437,7 +444,9 @@ using a website:
     > The second Bianca remote desktop login dialog. 
     > Note that it uses ThinLinc to establish this connection
 
-  4. When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE
+#### 4. Picking a remote desktop flavor, but not KDE
+
+When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 !!! warning "Avoid choosing KDE"
 
@@ -445,7 +454,9 @@ using a website:
 
     Instead, we recommend GNOME or XFCE.
      
-  5. Enjoy! You are in!
+#### 5. You are in!
+
+Enjoy! You are in!
 
 ???- question "How does the remote desktop look like?"
 
@@ -589,7 +600,9 @@ To get rid of one password and setup SHH keys,
 see [here](#login-to-the-Bianca-console-environment-using-ssh-keys).
 
 
-  1. From a terminal, use `ssh` to log in:
+#### 1. Use `ssh` to log in
+
+From a terminal, use `ssh` to log in:
 
 ```bash
 ssh [user]-[project name]@bianca.uppmax.uu.se
@@ -635,11 +648,13 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     Hence, we do not teach it :-)
 
 
- 2. Type your UPPMAX password, 
-    directly followed by the UPPMAX 2-factor authentication number,
-    for example `verysecret678123`, then press enter.
-    In this case, the password is `verysecret` and `678123`
-    is the 2FA number.
+#### 2. Type your UPPMAX password with 2FA
+
+Type your UPPMAX password, 
+directly followed by the UPPMAX 2-factor authentication number,
+for example `verysecret678123`, then press enter.
+In this case, the password is `verysecret` and `678123`
+is the 2FA number.
 
 After authenticated using the UPPMAX password and 2FA, 
 you are logged in on Bianca's shared network,
@@ -671,15 +686,19 @@ It can be `up and running` or `down`.
 If it is `down`, the virtual cluster is started,
 which may take some minutes.
 
- 3. Type your UPPMAX password,
-    for example `verysecret`
+#### 3. Type your UPPMAX password
 
- 4. Enjoy! You are in! Or, to be precise, 
-    you are on the login node of your own virtual project cluster.
-    By default, this node has one core,
-    hence if you need more memory or more CPU power, 
-    you submit a job (interactive or batch), 
-    and an idle node will be moved into your project cluster.
+Type your UPPMAX password,
+for example `verysecret`
+
+#### 4. You are in!
+
+Enjoy! You are in! Or, to be precise, 
+you are on the login node of your own virtual project cluster.
+By default, this node has one core,
+hence if you need more memory or more CPU power, 
+you submit a job (interactive or batch), 
+and an idle node will be moved into your project cluster.
 
 
 ???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
@@ -698,7 +717,9 @@ but one only needs to type one password to login to Bianca.
 If you don't mind typing your UPPMAX password twice,
 an easier setup is [here](#login-to-the-bianca-console-environment-using-an-ssh-password).
 
-  1. From a terminal, use `ssh` to log in:
+#### 1. Use `ssh` to log in
+
+From a terminal, use `ssh` to log in:
 
 ```bash
 ssh -A [user]-[project name]@bianca.uppmax.uu.se
@@ -728,13 +749,17 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
     However, on Bianca, this so-called X-forwarding is disabled.
     Hence, we do not teach it :-)
 
- 2. Type your UPPMAX password, 
-    directly followed by the UPPMAX 2-factor authentication number,
-    for example `verysecret678123`, then press enter.
-    In this case, the password is `verysecret` and `678123`
-    is the 2FA number.
+#### 2. Type your UPPMAX password and 2FA
 
- 3. Enjoy! You are in!
+Type your UPPMAX password, 
+directly followed by the UPPMAX 2-factor authentication number,
+for example `verysecret678123`, then press enter.
+In this case, the password is `verysecret` and `678123`
+is the 2FA number.
+
+### 3. You are in!
+
+Enjoy! You are in!
 
 ???- question "Why does one need two passwords?"
 
