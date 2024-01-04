@@ -2,11 +2,19 @@
 
 There are multiple ways to transfer files to/from Transit:
 
+???- question "What is Transit?"
+
+    Transit is an UPPMAX service to send files around.
+    It is not a file server.
+
+    See [the page about Transit](transit.md) for more detailed information.
+
+
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
-[Using SCP](#using-SCP)                                       |Terminal, easy to learn, can be used in scripts
 [Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
+[Using SCP](#using-SCP)                                       |:no_entry: only download, terminal, easy to learn, can be used in scripts
 
 Each of these methods is discussed below.
 
@@ -23,14 +31,18 @@ a graphical tool.
 
 ## Using SCP
 
-One can transfer files to/from Transit 
-using SCP in a terminal.
-This works similar to a regular copy of files,
-except that a remote address needs to be specified.
-The advantage of SCP is that is can be used in scripts.
+One **cannot upload** files to Transit using SCP in a terminal:
+Transit only allows for sending files from A to B, not for storing them.
 
-See [Transit file transfer using SCP](transit_file_transfer_using_scp.md)
-for a step-by-step guide how to transfer files using SCP.
+One **can download** the files on Transit.
+However, Transit is not a file server.
+Instead, the files that appear to be on Transit
+are the files in your Rackham home folder. 
+Due to this, it makes more sense to [use SCP to transfer files to/from Rackham](rackham_file_transfer_using_scp.md).
+
+For completeness sake, see [Transit file transfer using SCP](transit_file_transfer_using_scp.md)
+for a step-by-step guide how to transfer files using SCP. 
+It show one cannot upload files to Transit.
 
 ## Using SFTP
 
