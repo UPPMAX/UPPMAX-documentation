@@ -14,7 +14,12 @@ Transit is an UPPMAX service that can be used to securely transfer files.
 
 ???- question "What is Transit?"
 
-    Transit can be viewed as a post box,
+    ![From https://sv.wikipedia.org/wiki/Brevl%C3%A5da#/media/Fil:Brevl%C3%A5dor.jpg](./img/swedish_postbox.jpg)
+
+    > A Swedish post box. The yellow post box is for non-regional mail,
+    > the blue for regional mail.
+
+    Transit can be viewed as [a post box](https://en.wikipedia.org/wiki/Post_box),
     where the file you upload is a letter.
 
     If you put a letter without an address in a post box,
