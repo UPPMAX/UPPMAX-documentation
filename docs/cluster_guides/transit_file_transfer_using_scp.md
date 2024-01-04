@@ -73,7 +73,6 @@ The `scp` command will complete successfully,
 yet the file will not be found on Transit.
 
 If asked, give your UPPMAX password. 
-
 You can get rid of this prompt if you have setup SSH keys
 
 ## Overview
