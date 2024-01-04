@@ -72,4 +72,4 @@ it to your list of known hosts. Type `yes`.
 
 You are now logged in to Transit!
 
-![](logged_in_transit.png)
+![](./img/logged_in_transit.png)
