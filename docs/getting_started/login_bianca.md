@@ -400,7 +400,7 @@ using a website:
 
 In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
 
-???- question "How does it look like when outside of SUNET?
+???- question "How does it look like when outside of SUNET?"
 
     [Here](https://youtu.be/W-PMTyNcbYI?si=9oQP29a7OLo3mVrt&t=160) you can
     see how this looks like when outside of SUNET. 
@@ -731,7 +731,7 @@ For example:
 ssh -A sven-sens2023598@bianca.uppmax.uu.se
 ```
 
-???- question "How does it look like when outside of SUNET?
+???- question "How does it look like when outside of SUNET?"
 
     [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
     see how this looks like when outside of SUNET. 
