@@ -10,7 +10,7 @@ For more specific information, see:
 
 - Slurm on Bianca
 - Slurm on Rackham
-- [Slurm on Snowy](slurm_snowy.md)
+- [Slurm on Snowy](slurm_on_snowy.md)
 
 ## Slurm Commands
 
