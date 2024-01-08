@@ -14,21 +14,9 @@ and [Snowy's design](#snowy's-design).
 
 Snowy, like all [UPPMAX clusters](uppmax_cluster.md), 
 is named after a Tintin character,
-in this case after Snowy, Tintin's dog.
-
-![Snowy, from https://www.deviantart.com/shannonmai2002art/art/Snowy-From-Tintin-504387373](./img/snowy_120_x_186.jpg)
-
-???- question "What are the UPPMAX clusters?"
-
-    All UPPMAX clusters can be found [here](uppmax_cluster.md).
-
-## Snowy's name
-
-Snowy, like all [UPPMAX clusters](uppmax_cluster.md), 
-is named after a Tintin character,
 in this case after Snowy, Tintin's dog:
 
-![Red Snowy, from https://tintin.fandom.com/wiki/Red_Snowy](./img/red_snowy_103_x_238.jpg)
+![Snowy, from https://www.deviantart.com/shannonmai2002art/art/Snowy-From-Tintin-504387373](./img/snowy_120_x_186.jpg)
 
 ???- question "What are the UPPMAX clusters?"
 
