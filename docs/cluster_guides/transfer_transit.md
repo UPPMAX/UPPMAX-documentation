@@ -71,7 +71,7 @@ flowchart TD
       user_local_files(Local user files):::file_node
 
       subgraph sub_transit_env[Transit]
-        files_on_transit(Files posted to transit):::transit_node
+        files_on_transit(Files posted to Transit):::transit_node
       end
       subgraph sub_rackham_shared_env[Rackham]
         files_in_rackham_home(Files in Rackham home folder):::file_node
@@ -91,11 +91,8 @@ flowchart TD
     style sub_rackham_shared_env fill:#fcc,color:#000,stroke:#000
     style sub_bianca_private_env fill:#ccf,color:#000,stroke:#000
     style sub_other_clusters fill:#ffc,color:#000,stroke:#000
-    
-
-    
+        
     user_local_files <--> |graphical tool|files_on_transit
-    user_local_files <--> |SCP|files_on_transit
     user_local_files <--> |SFTP|files_on_transit
 
     files_on_transit <--> |SCP|files_in_rackham_home

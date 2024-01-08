@@ -277,13 +277,14 @@ flowchart TD
     %% Graph nodes for files and calculations
     classDef file_node fill:#fcf,color:#000,stroke:#f0f
     classDef calculation_node fill:#ccf,color:#000,stroke:#00f
+    classDef transit_node fill:#fff,color:#000,stroke:#fff
 
     subgraph sub_inside[SUNET]
       direction LR
       user(User)
       subgraph sub_transit_env[Transit]
         transit_login(Transit login):::calculation_node
-        files_on_transit(Files on transit):::file_node
+        files_on_transit(Files posted to Transit):::transit_node
       end
       subgraph sub_rackham_shared_env[Rackham]
           files_in_rackham_home(Files in Rackham home folder):::file_node
