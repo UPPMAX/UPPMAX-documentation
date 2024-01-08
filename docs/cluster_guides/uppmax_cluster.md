@@ -30,7 +30,7 @@ UPPMAX has, among others, the following clusters:
 - [Bianca](bianca_portal.md): for sensitive data, general use. 
 - Miarka: for sensitive data, SciLifeLab-only
 - [Rackham](rackham_portal.md): regular data, general purpose
-- Snowy: regular data, long runs and GPU:s
+- [Snowy](snowy_portal.md): regular data, long runs and GPU:s
 
 ```mermaid
 flowchart TD
