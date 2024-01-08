@@ -1,5 +1,14 @@
 # Login to Snowy
 
+!!! info "[Go to the Snowy portal](../cluster_guides/snowy_portal.md)"
+
+    At [the Snowy portal](../cluster_guides/snowy_portal.md) one can 
+    learn about using Snowy, for example:
+
+    - How to do data transfer
+    - How to make Snowy do a calculation
+    - How to develop code on Snowy
+
 !!! info "Objectives"
     - We'll go through how to reach Snowy
 
@@ -8,11 +17,7 @@
 
 ## What is Snowy?
 
-- Snowy can be used for general purpose computing
-- We offer GPUs
-- We offer long wall time jobs, 30 days. 
-
-
+See [Snowy's design](../cluster_guide/snowy.md).
 
 ## Local UPPMAX project
 
@@ -24,26 +29,27 @@ https://supr.naiss.se/round/uppmaxcompute2023/
 
 ## Reach the Snowy compute nodes
 
-- You can log in only from Rackham. 
+To make Snowy do a calculation, one needs to log in to a Rackham login node,
+which is described [here](login_rackham.md).
 
-Two ways:
+After logging in, one can
 
-- Interactive session
-- Batch job using Snowy resources
+- [Start a batch job using Snowy resources](../cluster_guides/slurm.md)
+- [Start an interactive job](../cluster_guides/start_interactive_node_on_snowy.md)
 
 
 ```mermaid
-        graph TB
+    graph TB
 
-        Node1 -- interactive --> SubGraph2Flow
-        Node1 -- sbatch --> SubGraph2Flow
-        subgraph "Snowy"
-        SubGraph2Flow(calculation nodes) 
-        end
+    Node1 -- interactive --> SubGraph2Flow
+    Node1 -- sbatch --> SubGraph2Flow
+    subgraph "Snowy"
+    SubGraph2Flow(calculation nodes) 
+    end
 
 
-        subgraph "Rackham"
-        Node1[Login] -- interactive --> Node2[calculation nodes]
-        Node1 -- sbatch --> Node2
-        end
+    subgraph "Rackham"
+    Node1[Login] -- interactive --> Node2[calculation nodes]
+    Node1 -- sbatch --> Node2
+    end
 ```
