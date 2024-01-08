@@ -2,7 +2,7 @@
 
 ![](./img/vscodium_on_bianca_480_x_270.png)
 
-> VSCodium on Bianca.
+> VSCodium on another cluster, as VSCodium on Rackham fails
 
 !!! warning "VSCodium fails, use VSCode instead"
 
