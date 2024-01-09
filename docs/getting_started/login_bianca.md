@@ -433,6 +433,22 @@ Do use the `UPPMAX` [2-factor authentication](https://www.uppmax.uu.se/support/u
 
     > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
+Sometimes a webpage will be shown that asks you to wait. 
+Simply do that :-)
+
+???- question "How does that web page look like?"
+
+    ![](/img/login_uppmax_bianca_website_create_login_node.png)
+
+    > No Thinlinc Web Access active
+    > The login node for your project cluster is probably asleep. Boot initiated. The startup can take from 2 to 8 minutes.
+    >
+    > This page will attempt to automatically reload. If nothing happens even after multiple minutes, you can do so manually. It is a bit more controlled in text mode.
+    >
+    > When this takes long, your original second factor code might expire. In that scenario, you'll be redirected to the first login page again.
+
+    This is the webpage that shpws when a login node needs to be created. 
+
 #### 3. Fill in the second dialog, using your regular password
 
 Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication).

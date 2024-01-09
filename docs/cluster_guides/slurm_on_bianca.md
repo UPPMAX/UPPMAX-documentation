@@ -37,23 +37,18 @@ where `[project_code]` is the project code, and `[script_filename]`
 the name of a bash script, for example:
 
 ``` bash
-sbatch -A sens2023598 my_script.sh
+sbatch -A sens2017625 my_script.sh
 ```
 
 ???- question "Forgot your Bianca project?"
 
-    One can go to the SUPR NAISS pages to see one's projects,
+    When [login to Bianca's remote desktop environment](../getting_started/login_bianca.md)
+    webpage at [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se) is 
+    helpful in showing you your Bianca projects:
 
-    ![](./img/naiss_supr_project_2023_2_25.png)
+    ![](./img/bianca_login_project_hints_cropped.png)
 
-    > Example of the Bianca project called 'UPPMAX 2023/2-25'
-
-    On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
-    for example, 'UPPMAX 2023/2-25'.
-    The UPPMAX project name, as to be used on Bianca, 
-    has a slightly different name:
-    the account name to use on Bianca is `uppmax[year]-[month]-[day]`,
-    for example, `sens2023598`
+    > Example of the Bianca projects for this user
 
 ???- question "What is in the script file?"
 
@@ -91,29 +86,24 @@ The script must contain at least the following lines:
 where `[project_code]` is the project code, for example:
 
 ```bash
-#SBATCH -A sens2023598
+#SBATCH -A sens2017625
 ```
 
 ???- question "Forgot your Bianca project?"
 
-    One can go to the SUPR NAISS pages to see one's projects,
+    When [login to Bianca's remote desktop environment](../getting_started/login_bianca.md)
+    webpage at [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se) is 
+    helpful in showing you your Bianca projects:
 
-    ![](./img/naiss_supr_project_2023_2_25.png)
+    ![](./img/bianca_login_project_hints_cropped.png)
 
-    > Example of the Bianca project called 'UPPMAX 2023/2-25'
-
-    On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
-    for example, 'UPPMAX 2023/2-25'.
-    The UPPMAX project name, as to be used on Bianca, 
-    has a slightly different name:
-    the account name to use on Bianca is `uppmax[year]-[month]-[day]`,
-    for example, `sens2023598`
+    > Example of the Bianca projects for this user
 
 A full example script would be:
 
 ```bash
 #!/bin/bash
-#SBATCH -A sens2023598
+#SBATCH -A sens2017625
 echo "Hello"
 ```
 
