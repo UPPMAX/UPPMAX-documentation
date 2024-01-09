@@ -1,6 +1,6 @@
 # Starting an interactive node on Snowy
 
-![](./img/login_rackham_via_terminal_terminal_462_x_202.png)
+![](./img/login_rackham4_via_terminal_terminal_395_x_204.png)
 
 Snowy has three types of nodes:
 
