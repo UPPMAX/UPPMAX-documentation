@@ -137,9 +137,9 @@ To transfer files to/from Bianca using FileZilla, do:
 
 - Get inside SUNET
 
-???- tip "Forgot how to get inside SUNET?"
+???- question "Forgot how to get within SUNET?"
 
-    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 - Start FileZilla
 - From the menu, select 'File | Site manager'
@@ -216,9 +216,9 @@ To transfer files to/from Bianca using WinSCP, do:
 
 - Get inside SUNET
 
-???- tip "Forgot how to get inside SUNET?"
+???- question "Forgot how to get within SUNET?"
 
-    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 - Start WinSCP
 - Create a new site

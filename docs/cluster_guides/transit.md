@@ -40,9 +40,9 @@ Below is a step-by-step procedure to login to Transit.
 
 ### 1. Get within SUNET
 
-???- tip "Forgot how to get within SUNET?"
+???- question "Forgot how to get within SUNET?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 ### 2. Use SSH to login
 

@@ -254,7 +254,6 @@ See the 'get inside the university networks' page [here](../getting_started/get_
     - [Install VPN client, then login to the Bianca remote desktop using that VPN client](https://youtu.be/AIJKbJeu0MI?si=9ES3ZECykwc8tT28)
     - [Login to the Bianca remote desktop and Bianca console environment, outside of SUNET, no VPN](https://youtu.be/W-PMTyNcbYI?si=mT4h4utxH3owygAH)
 
-
 When inside SUNET, one can access the Bianca environments.
 
 - For a remote desktop environment, 
@@ -297,6 +296,10 @@ flowchart TD
 
 As Bianca is an HPC cluster for sensitive data,
 one needs to be within SUNET to be able to access her.
+
+???- question "Forgot how to get within SUNET?"
+
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 Bianca does not support any so-called X-forwarding (unlike Rackham), 
 so instead UPPMAX maintains a website that uses
@@ -469,6 +472,10 @@ flowchart TD
 When inside SUNET, one can access a Bianca console environment
 using a terminal and the Secure Shell Protocol (SSH).
 
+???- question "Forgot how to get within SUNET?"
+
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+
 You can use your favorite terminal to login (see <https://uppmax.github.io/uppmax_intro/login2.html#terminals> for an overview of many)
 to the Bianca command-line environment. 
 You can also have multiple log-ins active at once.
@@ -527,6 +534,10 @@ flowchart TD
 
 When inside SUNET, one can access a Bianca console environment
 using SSH with an SSH password.
+
+???- question "Forgot how to get within SUNET?"
+
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 This is considered the easier one to setup,
 but one will have to type a password twice to login.
@@ -645,6 +656,10 @@ and an idle node will be moved into your project cluster.
 
 When inside SUNET, one can access a Bianca console environment
 using SSH and SSH keys.
+
+???- question "Forgot how to get within SUNET?"
+
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 This is considered a bit harder to setup,
 but one only needs to type one password to login to Bianca.

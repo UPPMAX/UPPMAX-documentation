@@ -35,9 +35,9 @@ To transfer files to/from Transit using FileZilla, do:
 
 ### 1. Get inside SUNET
 
-???- question "Forgot how to get inside SUNET?"
+???- question "Forgot how to get within SUNET?"
 
-    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 ### 2. Start FileZilla
 

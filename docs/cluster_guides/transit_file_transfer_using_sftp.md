@@ -24,9 +24,9 @@ The procedure is described in the following steps.
 
 Get inside SUNET.
 
-???- question "Forgot how to get inside SUNET?"
+???- question "Forgot how to get within SUNET?"
 
-    It is discussed [at the 'login to Bianca' page](login_bianca.md). 
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 ### 2. Start a terminal on your local computer
 
