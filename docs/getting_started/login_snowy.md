@@ -17,7 +17,7 @@
 
 ## What is Snowy?
 
-See [Snowy's design](../cluster_guide/snowy.md).
+See [Snowy's design](../cluster_guides/snowy.md).
 
 ## Local UPPMAX project
 
