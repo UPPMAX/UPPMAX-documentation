@@ -9,7 +9,7 @@ Do you or members in your research group need compute and storage resources on a
 
 Are you interested in other services, e.g. large volume data storage?
 
-Let us know by contacting UPPMAX Support!
+Let us know by contacting UPPMAX Support at support@uppmax.uu.se !
   
 ## Users
 
