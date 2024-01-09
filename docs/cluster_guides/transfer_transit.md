@@ -1,4 +1,4 @@
-# Data transfer to/from Transit
+# File transfer to/from Transit
 
 There are multiple ways to transfer files to/from Transit:
 

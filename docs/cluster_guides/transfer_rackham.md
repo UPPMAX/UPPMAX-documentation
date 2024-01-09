@@ -1,4 +1,4 @@
-# Data transfer to/from Rackham
+# File transfer to/from Rackham
 
 There are multiple ways to transfer files to/from Rackham:
 

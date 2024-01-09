@@ -1,4 +1,4 @@
-# Data transfer to/from Bianca
+# File transfer to/from Bianca
 
 !!! warning
  
