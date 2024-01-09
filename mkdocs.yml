@@ -21,8 +21,9 @@ nav:
       - Bianca portal: cluster_guides/bianca_portal.md
       - Rackham portal: cluster_guides/rackham_portal.md
       - Snowy portal: cluster_guides/snowy_portal.md
-    - Modules: cluster_guides/modules.md
-    - Slurm: cluster_guides/slurm.md
+    - General cluster tools: 
+      - Modules: cluster_guides/modules.md
+      - Slurm: cluster_guides/slurm.md
     - Data transfer: 
       - Transfer to Rackham: cluster_guides/transfer_rackham.md
       - Transfer to Bianca: cluster_guides/transfer_bianca.md
