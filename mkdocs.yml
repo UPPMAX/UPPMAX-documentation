@@ -25,8 +25,8 @@ nav:
       - Modules: cluster_guides/modules.md
       - Slurm: cluster_guides/slurm.md
     - Data transfer: 
-      - Transfer to Rackham: cluster_guides/transfer_rackham.md
-      - Transfer to Bianca: cluster_guides/transfer_bianca.md
+      - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
+      - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
     - Installing and development: 
       - Installing: cluster_guides/install.md
       - Compiling serial code: cluster_guides/compiling_serial.md
