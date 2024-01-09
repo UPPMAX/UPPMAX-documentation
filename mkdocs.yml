@@ -8,6 +8,7 @@ nav:
     - Get started: getting_started/get_started.md
     - Applying for a Project: getting_started/project_apply.md
     - Logging in:
+      - Get inside the university networks: getting_started/get_inside_sunet.md
       - Logging into Bianca: getting_started/login_bianca.md
       - Logging into Rackham: getting_started/login_rackham.md
       - Logging into Snowy: getting_started/login_snowy.md
