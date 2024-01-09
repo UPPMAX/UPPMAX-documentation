@@ -8,8 +8,8 @@ The software used is called Slurm or SLURM.
 This page describes how to use Slurm in general.
 For more specific information, see:
 
-- Slurm on Bianca
-- Slurm on Rackham
+- [Slurm on Bianca](slurm_on_bianca.md)
+- [Slurm on Rackham](slurm_on_rackham.md)
 - [Slurm on Snowy](slurm_on_snowy.md)
 
 ## Slurm Commands
