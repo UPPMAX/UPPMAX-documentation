@@ -274,7 +274,7 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
         v8: gcc/8.3.0 openmpi/3.1.3
         v9: gcc/9.3.0 openmpi/3.1.3
         v10: gcc/10.3.0 openmpi/3.1.6 or openmpi/4.1.0
-        v11: gcc/11.2.0 openmpi/4.1.1 (will work on Miarka)
+        v11: gcc/11.2.0 openmpi/4.1.1
         v12: gcc/12.2.0 openmpi/4.1.4
         v13: gcc/13.2.0 openmpi/4.1.5
 

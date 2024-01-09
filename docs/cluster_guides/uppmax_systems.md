@@ -24,7 +24,6 @@ Computing systems allow a user to do heavier computational calculations.
 - Rackham: regular data, general purpose
 - Snowy: regular data, long runs and GPU:s
 - Bianca: for sensitive data, general use
-- Miarka: for sensitive data, SciLifeLab-only
 
 A technical summary can be found below.
 
@@ -33,16 +32,13 @@ flowchart TD
     UPPMAX(Which UPPMAX cluster?)
     Bianca
     Rackham
-    Miarka
     Snowy
     is_sensitive[Do you use sensitive data?]
     is_scilifelab[Do you work at SciLifeLab?]
     is_long[Do you use long runs and/or GPUs?]
 
     UPPMAX --> is_sensitive 
-    is_sensitive --> |yes|is_scilifelab
-    is_scilifelab --> |yes|Miarka
-    is_scilifelab --> |no|Bianca
+    is_sensitive --> |yes|Bianca
     is_sensitive --> |no|is_long
     is_long --> |no|Rackham
     is_long --> |yes|Snowy

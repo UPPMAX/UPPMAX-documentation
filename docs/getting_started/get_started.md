@@ -2,7 +2,7 @@
 
 In order to use UPPMAX resources, you need to be a member of a project and a user account. 
 
-## PI
+## PIs
 
 Do you or members in your research group need compute and storage resources on a HPC cluster or Infrastructure-as-a-Service cloud? Learn how to apply for a project by following the link below.
 - [Project apply](project_apply.md)

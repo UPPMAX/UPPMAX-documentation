@@ -27,10 +27,6 @@ Using a module system keeps installed software hidden by default,
 and users have to explicitly tell their terminal 
 which version of which software they need.
 
-!!! question "Using the Miarka cluster?"
-
-    Then you may have different modules.
-
 To have new software installed on an UPPMAX cluster,
 users must explicitly request a version of a piece of software.
 As of today, there are nearly [800+ programs and packages, with multiple versions](https://www.uppmax.uu.se/resources/software/installed-software/) 
