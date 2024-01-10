@@ -12,7 +12,7 @@ after which you can [run Python](#running-python).
 Finally, you can find [UPPMAX Python-related courses](#uppmax-python-related-courses)
 and these more advanced topics:
 
-- [Installing Python packages](#installing-python-packages)
+- [Installing Python packages](python_install_packages.md)
 - [Isolated environments in Python](python_venv.md)
 - [How to run parallel jobs in Python](python_parallel_jobs.md)
 
@@ -323,6 +323,21 @@ There are these UPPMAX courses related to Python:
 - 'Introduction to Python' connected to our [introduction week course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
 - 1-day workshop 'Using Python in a HPC environment'
 - 3-day course on Python, Julia and R
+
+## Installing Python packages
+
+How to install Python packages
+is described [here](python_install_packages.md).
+
+## Isolated environments in Python
+
+How to use isolated environments in Python
+is described [here](python_venv.md).
+
+## How to run parallel jobs in Python
+
+How to run parallel jobs in Python 
+is described [here](python_parallel_jobs.md).
 
 ## References
 
