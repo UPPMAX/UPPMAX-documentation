@@ -191,7 +191,7 @@ for example:
 module help python/3.11.4
 ```
 
-???- "What is the output of `module help python/3.11.4`?"
+???- question "What is the output of `module help python/3.11.4`?"
 
     Here is part of the output of `module help python/3.11.4`:
 
