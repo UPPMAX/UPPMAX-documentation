@@ -1,5 +1,16 @@
 # Python user guide
 
+Welcome to the UPPMAX Python user guide.
+
+We describe [what Python is](#what-is-python)
+and that there are [multiple Python versions](Python versions).
+
+Then, we show how to [load Python](#loading-python)
+and to [load Python packages](#loading-python-packages)
+after which you can [run Python](#running-python).
+
+- [Installing Python packages](#installing-python-packages)
+
 ## Courses
 
 There are three UPPMAX courses related to python:
@@ -7,6 +18,12 @@ There are three UPPMAX courses related to python:
 - Introduction to Python connected to our [introduction week course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/).
 - 1-day workshop Using Python in a HPC environment 
 - 3-day course on Python, Julia and R.
+
+## What is Python?
+
+Python is a high-level, general-purpose programming language. 
+Its design philosophy emphasizes code readability 
+with the use of significant indentation [Kuhlman, 2009].
 
 ## Python versions
 
@@ -26,6 +43,12 @@ Loading a Python module also makes some Python packages available.
 
     See the UPPMAX pages on the module system [here](../cluster_guides/modules.md).
 
+???- question "UPPMAX modules or Python modules?"
+
+    At this page, we will use the word 'modules' for UPPMAX modules
+    and 'packages' for Python modules, to be clear in what is meant.
+    The word 'package' is used in multiple other languages, such as R,
+    with a similar definition as a Python module.
 
 To find out which Python modules there are, use `module spider python`.
 
@@ -106,76 +129,13 @@ for example, `module load python/3.11.4`
     one of the modules is `python/2.X.Y` and the other module is `python3/3.X.Y` 
     (i.e. not `python/3.X.Y`).
 
-## Running Python
+## Loading Python packages
 
-You can run Python in multiple ways:
-
-- use Python to run a Python script
-- use Python in an interactive session
-
-### Use Python to run a Python script
-
-You can run a Python script in the shell by:
-
-```console
-$ python example_script.py 
-```
-or, if you loaded a `python3` module:
-
-```console
-$ python3 example_script.py 
-```
-
-### Use Python in an interactive session
-
-You start a python session by typing:
-
-```console
-$ python
-```
-
-or
-
-```console
-$ python3
-```
-
-The python prompt looks like this:
-
-```python
->>>
-```
-Exit with `<Ctrl-D>`, `quit()` or `exit()`.
-
-## Introduction
-
-Python is, according to the official home page:
-
-*  Python is a great object-oriented, interpreted, and interactive programming
-language. It is often compared  to Lisp, Tcl, Perl, Ruby, C#, Visual Basic,
-Visual Fox Pro, Scheme or Java... and it's much more fun.
-
-* Python combines remarkable power with very clear syntax. It has modules,
-classes, exceptions, very high level dynamic data types, and dynamic typing.
-There are interfaces to many system calls and libraries, as well as to various
-windowing systems. New built-in modules are easily written in C or C++ (or
-other languages, depending on the chosen implementation). Python is also usable
-as an extension language for applications written in other languages that need
-easy-to-use scripting or automation interfaces. 
-
-**Useful links:**
-
-* [Official documentation](https://docs.python.org/3/)
-* [Python forum](https://www.python.org/community/forums/)
-
-
-## Packages, modules, and dependencies
-
-The external libraries, or dependencies, are called modules in python. To
+The external libraries, or dependencies, are called modules in Python. To
 distinguish those from the module system of the tools in UPPMAX, we call them
 packages as well.
 
-* Python packages broaden the use of python to almost infinity!
+* Python packages broaden the use of Python to almost infinity
 
 * Instead of writing codes yourself there may be others that has done the same!
 
@@ -234,7 +194,49 @@ A very small selection of installed packages are:
 
 In the python scripts or python prompt packages are imported or loaded by the commands ``import``. 
 
-## How to install packages
+## Running Python
+
+You can run Python in multiple ways:
+
+- use Python to run a Python script
+- use Python in an interactive session
+
+### Use Python to run a Python script
+
+You can run a Python script in the shell by:
+
+```console
+$ python example_script.py 
+```
+or, if you loaded a `python3` module:
+
+```console
+$ python3 example_script.py 
+```
+
+### Use Python in an interactive session
+
+You start a python session by typing:
+
+```console
+$ python
+```
+
+or
+
+```console
+$ python3
+```
+
+The python prompt looks like this:
+
+```python
+>>>
+```
+Exit with `<Ctrl-D>`, `quit()` or `exit()`.
+
+
+## Installing Python packages
 
 There are two package installation systems
 
@@ -361,7 +363,7 @@ This approach is more advanced and should be, in our opinion, used only if the
 above are not enough for the purpose. Probably Conda will work well four you.
 The approach below allows you to install your own python version and much more… 
 
-Confer the official pyenv documentation.  
+Confer the official pyenv documentation.
 
 #### First time at UPPMAX
 
@@ -719,11 +721,13 @@ Starting job now -- you waited for 90 seconds.
 CPU function took 36.849201 seconds.
 GPU function took 1.574953 seconds.
 
+## References
 
-### Machine and Deep Learning
-Please see our Tensorflow and and PyTorch guides.
+ * [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
 
-Useful links:
+## Links
 
-    Official documentation
-    Python forum
+* [Official Python documentation](https://docs.python.org/3/)
+* [Python forum](https://www.python.org/community/forums/)
+* [UPPMAX TensorFlow guide](https://www.uppmax.uu.se/support/user-guides/tensorflow-user-guide/)
+* [UPPMAX PyTorch guide](https://www.uppmax.uu.se/support/user-guides/nvidia-deep-learning-frameworks/)
