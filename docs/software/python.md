@@ -30,6 +30,26 @@ Python 3 is not backwards compatible with Python 2.
 This means that you need to use the correct Python version
 to run a Python script.
 
+???- question "Which version of Python is `python`?"
+
+    To determine which version `python` is, in a terminal, type:
+
+    ```
+    python --version
+    ```
+
+    to see which Python version you are using now.
+
+???- question "Which version of Python is `python3`?"
+
+    To determine which version `python3` is, in a terminal, type:
+
+    ```
+    python3 --version
+    ```
+
+    to see which Python version you are using now.
+
 ## Loading Python
 
 The different versions of Python are available via 
@@ -128,68 +148,132 @@ for example, `module load python/3.11.4`
 
 ## Loading Python packages
 
-The external libraries, or dependencies, are called modules in Python. To
-distinguish those from the module system of the tools in UPPMAX, we call them
-packages as well.
+There exist many Python libraries.
+Although these are called 'modules',
+we call them 'packages' in this document,
+to distinguish those from the UPPMAX modules.
 
-* Python packages broaden the use of Python to almost infinity
+Many scientific tools are distributed as Python packages,
+which allows any user to run complex tools from a terminal or script.
+For example, the following Python code imports the functionality
+of the `pandas` library:
 
-* Instead of writing codes yourself there may be others that has done the same!
 
-* Many scientific tools are distributed as python packages making it possible
-to run a script in the prompt and there defining files to be analysed and
-arguments defining exactly what to do.
-
-Some packages are preinstalled. That means that they are available also on Bianca.
-
-Some python packages are working as stand-alone tools, for instance in
-bioinformatics. The tool may be already installed as a module. Check if it is
-there by:
-
-```bash
-$ module spider <tool-name or tool-name part>
-```
-
-Using `module spider` lets you search regardless of upper- or lowercase
-characters.
-
-Check the pre-installed packages of a specific python module:
-```bash
-$ module help python/<version>
-```
-
-or with python module loaded (more certain), in shell:
-
-```bash
-$ list
-```
-
-You can also test from within python session to make sure that the package is not already installed:
 ```python
->>> import <package>
+import pandas
 ```
-A very small selection of installed packages are:
 
-1. `cffi`
-2. `Cython`
-3. `GitPython`
-4. `h5py`
-5. `ipython`
-6. `jupyter`  (-notebook, not -lab)
-7. `kiwisolver`
-8. `matplotlib`
-9. `numpy`
-10. `packaging`
-11. `pandas`
-12. `pip`
-13. `pyQt5`
-14. `pytest`
-15. `qtconsole`
-16. `scipy`
+Some packages/tools are preinstalled on all UPPMAX clusters.
+To load such a package:
 
-+ all "standard/internal" libraries.
+- determine if it comes with your Python version
+- determine if it comes as a module
 
-In the python scripts or python prompt packages are imported or loaded by the commands ``import``. 
+### Determine if a Python package comes with your Python module
+
+To determine if a Python package comes with your Python module,
+there are two ways:
+
+- Using the module help
+- Importing it
+
+Determine if a Python package comes with your Python module
+using the module help, in a terminal, type:
+
+```bash
+module help python/[module_version]
+```
+
+where `[module_version]` is a version of a Python module,
+for example:
+
+```bash
+module help python/3.11.4
+```
+
+???- "What is the output of `module help python/3.11.4`?"
+
+    Here is part of the output of `module help python/3.11.4`:
+
+    ```
+    ------------------------ Module Specific Help for "python/3.11.4" -------------------------
+        Python - use Python
+
+        Version 3.11.4
+
+
+    This module provides the executable names 'python' and 'python3'.
+
+    Several additional python packages are also installed in this module. The complete list of 
+    packages in this module, produced using 'pip list', is:
+
+    Package                   Version
+    ------------------------- -----------
+    anndata                   0.9.2
+    anyio                     3.7.1
+    argon2-cffi               21.3.0
+    ...
+    widgetsnbextension        4.0.8
+    zipp                      3.16.2
+    zope.interface            6.0
+    ```
+
+To determine if a Python package comes with your Python module installed,
+try using it within Python:
+
+```
+python -c "import [your_package]"
+```
+
+???- question "What does that `-c` do?"
+
+    `python -c` will run the text after it as Python code.
+    In this way, you can directly run code, i.e.
+    you do not need to create a file to run.
+
+where `[your_package]` is the name of a Python package,
+for example:
+
+```
+python -c "import pandas"
+```
+
+???- question "What is the output if the Python package is found?"
+
+    The output if the Python package is found is nothing.
+
+???- question "What is the output if the Python package is not found?"
+
+    Here an absent package is loaded, with the nonsense name `absentpackage`:
+
+    ```
+    python -c "import absentpackage"
+    ```
+
+    This results in the following error:
+
+    ```
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'absentpackage'
+    ```
+
+### Stand-alone tools
+
+Some Python packages are working as stand-alone tools, for instance in
+bioinformatics. The tool may be already installed as a module. Check if it is
+there by using the module system `spider` function:
+
+```bash
+module spider [tool_name]
+```
+
+where `[tool_name]` is (part of) the name of the tool. `module spider` 
+is case-insensitive, hence `YourTool` and `yourtool` give similar results.
+
+???- question "What are UPPMAX modules?"
+
+    See the page about the UPPMAX module system [here](../cluster_guides/modules.md)
 
 ## Running Python
 
