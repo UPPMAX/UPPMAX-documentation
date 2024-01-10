@@ -8,13 +8,13 @@ template: home.html
 
 <img src="assets/UU_logo_color.svg" alt="drawing" width="200"/>
 
-<br/><br/>
+<br/>
 
 
 # Welcome to the UPPMAX documentation
 
 
-<br/><br/>
+<br/>
 
 [Apply for a project](getting_started/project_apply.md){ .md-button .md-button--primary }
 
