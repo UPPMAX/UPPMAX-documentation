@@ -1,13 +1,13 @@
 # Linux
 - The "operating system" of the UPPMAX and most of the other clusters is **Linux**.
 
-```{questions}
+!!! questions 
 - What is Linux?
 - How to use the command line?
 
 ```
 
-```{objectives}
+!!! objectives 
 - We'll briefly get an overview of Linux
   - How the command line works
   - Some text editors
@@ -95,7 +95,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 <section>
     
-```{image} ./img/mv_inbox.png
+!!! image  ./img/mv_inbox.png
 :alt: mv inbox
 :width: 300px
 :align: left
@@ -103,7 +103,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 <br/><br/>
 
-```{image} ./img/program_flags.png
+!!! image  ./img/program_flags.png
 :alt: program flags
 :width: 300px
 :align: left
@@ -126,7 +126,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ### Tab Completion
 <section>
 
-```{image} ./img/tab.png
+!!! image  ./img/tab.png
 :alt: tab
 :width: 200px
 :align: left
@@ -159,7 +159,7 @@ ask Bash to complete what you’re writing.
     - On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
 
 
-```{solution} Not to try today if you haven't used before!!!
+!!! solution  Not to try today if you haven't used before!!!
 
 - If you start one of these editors you may have difficulties to exit!
 
@@ -188,7 +188,7 @@ ask Bash to complete what you’re writing.
   - Ex: `gedit &`
   - If not, you can `<Ctrl>+z` and type `bg` to send program to background.
 
-```{discussion} Try out later!
+!!! discussion  Try out later!
    **Try them out and pick one favorite editor!**
 ```
 
@@ -196,7 +196,7 @@ ask Bash to complete what you’re writing.
 
 ![Content](./img/cross.png)
 
-```{Warning}
+!!! Warning 
 - Capitalization matters in file names and program names
 - Spaces matter.
   - Always have a space after the program name.
@@ -212,7 +212,7 @@ ask Bash to complete what you’re writing.
 ![Content](./img/caution.png)
 
 
-```{Warning}
+!!! Warning 
 
 - There is no undo for:
   - copy (`cp`),
@@ -221,7 +221,7 @@ ask Bash to complete what you’re writing.
 - **Beware of overwriting files and deleting the wrong ones.**
 ```
  
-```{Note}
+!!! Note 
 - **Tip: make "`rm`" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
@@ -235,11 +235,11 @@ ask Bash to complete what you’re writing.
 - This will also work for ``mv`` and ``cp``!
 ```
 
-```{Note}
+!!! Note 
 - If you do destroy your data, email UPPMAX support, we may be able to help.
 ```
 
- ```{keypoints}
+ !!! keypoints 
 - Linux Operating system is a UNIX-like and UNIX compatible Operating system.
 - Typical command:
     $ program word1 word2 word3 […]
