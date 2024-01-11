@@ -4,10 +4,10 @@
 ![Caption](./img/terminal.png)
 
 
-```{objectives}
-- Let's dig into the most important BASH commands
-- We'll do a type-along session
-```
+!!! objectives
+    - Let's dig into the most important BASH commands
+    - We'll do a type-along session
+
 
 ???- question "Like videos?"
 
@@ -44,7 +44,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-``` {code-block} console 
+```console 
 $ pwd
 
 $ pwd -P 
@@ -57,30 +57,30 @@ $ pwd -P
 
 Type ``ls`` to display the contents of the current directory.
 
-``` {code-block} console
+```console
 $ ls -a
 ```
 
 ``-a`` also shows hidden files and directories.
 
-``` {code-block} console
+```console
 $ ls -l
 ```
 ``-l`` gives you listed and detailed information.
 
-``` {code-block} console
+```console
 $ ls -lt
 ```
 
 ``-lt`` sorts things by time modified.
 
-``` {code-block} console
+```console
 $ ls –lrt
 ```
 
 ``-r`` gives reversed order, so in this case newest in last line.
 
-``` {code-block} console
+```console
 $ man ls
 ```
 
@@ -92,7 +92,7 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
 
-``` {code-block} console
+```console
 $ cd /proj/introtouppmax
 
 $ pwd
@@ -104,54 +104,55 @@ $ cd labs
 $ pwd
 ```
 
-````{challenge} Experiment with cd
-- Experiment with ``cd``. 
-- Try adding ``<spaces>`` or extra ``/`` in various places.
-- Use *tab completion* to avoid typos and typing ``ls`` a lot.
+!!! challenge Experiment with cd
+    - Experiment with ``cd``. 
+    - Try adding ``<spaces>`` or extra ``/`` in various places.
+    - Use *tab completion* to avoid typos and typing ``ls`` a lot.
 
-- Figure out the use of the following:
+    - Figure out the use of the following:
 
-``` {code-block} console
-$ cd -
+    ```console
+    $ cd -
 
-$ cd ..
+    $ cd ..
 
-$ cd
+    $ cd
 
-$ cd ~
+    $ cd ~
 
-```
-````
+    ```
 
-````{solution} Solution 
-- `cd -` : goes back to your last directory
 
-- `cd ..` : goes a level up in the hierarchy
+    ???- solution
+        - `cd -` : goes back to your last directory
 
-- `cd` : goes to home directory
+        - `cd ..` : goes a level up in the hierarchy
 
-- `cd ~` : also goes to home directory
-````
+        - `cd` : goes to home directory
+
+        - `cd ~` : also goes to home directory
+
 
  
 
 ## Copy, Create, Move
 ### mkdir — make directories
 
-```{warning}
-- Make sure you’re in your home directory by `cd ~`
-```
+!!! warning
+    - Make sure you’re in your home directory by `cd ~`
+
 
 - Create a new directory ``uppmax-intro``
 
-``` {code-block} console
+```console
 $ cd ~
 $ mkdir uppmax-intro
 ```
+
 - Go in there:
 
-``` {code-block} console
- $ cd uppmax-intro/
+```console
+$ cd uppmax-intro/
 ```
 
  
@@ -160,13 +161,13 @@ $ mkdir uppmax-intro
 - Copy files with: `cp <source> <target>`
 - Set target to ``.`` to keep name and to point at present directory.
 
-``` {code-block} console
+```console
 $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 - Well, that didn’t work. What does the error say?
 - So... try
-``` {code-block} console
+```console
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
@@ -174,11 +175,12 @@ $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 
 - Move to your just created ``linux_tutorial/``
 
-``` {code-block} console
+```console
 $ cd linux_tutorial
- ```
+```
 - Make a copy of the file “newfile” in the same directory:
-``` {code-block} console
+
+```console
 $ cp newfile copyfile
 ```
  
@@ -188,29 +190,32 @@ $ cp newfile copyfile
 - Upload from present directory on local machine to your home directory on cluster.
   - Example (*not done by us today*)
  
-``` {code-block} console
+```console
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
 ``` 
  
 - Download
-``` {code-block} console
+```console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
+!!! todo
+    
+    TODO: demo
  
 ### mv — move/rename file
 
 - Moving files works just like copying files:
 - `mv <source> <target>`
 - Move the copy you just made to another place:
-``` {code-block} console
+```console
 $ mv copyfile ../
 ``` 
 - Rename it.
-``` {code-block} console
+```console
 $ mv ../copyfile ../renamedfile
 ```
  
@@ -219,7 +224,7 @@ $ mv ../copyfile ../renamedfile
 
 - We’re going to need more files. Let's extract the tar.gz file (tared and gzipped file)
 
-``` {code-block} console
+```console
 $ tar -vxzf files.tar.gz
 ```
 - The flags mean:
@@ -231,18 +236,17 @@ $ tar -vxzf files.tar.gz
   - ``f`` should be in the start or in the end!
 - You should see a list of files being extracted
 
-````{tip}
-- To compress use the flag `-c`instead of `-x`
+!!! tip
+    - To compress use the flag `-c`instead of `-x`
 
-``` {code-block} console
-$ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
-```
-````
+    ```console
+    $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
+    ```
  
 ## Deleting
 ### rm — delete files  or directories
 
-```{Note}
+!!!Note}
 - **Tip: make "rm" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
@@ -252,7 +256,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 
         rm –f <>
 
-  - Edit file ".BASHrc" in /home directory by adding the alias line for this to start every time.
+  - Edit file ".bashrc" in /home directory by adding the alias line for this to start every time.
 - This will also work for mv and cp!
 ```
 
@@ -260,7 +264,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 `rm <target>`
 
 - Try it out:
-``` {code-block} console
+```console
 $ rm ../renamedfile
 
 $ rm this_is_empty
@@ -273,7 +277,7 @@ $ rm this_is_empty
 
 - We need another command to delete directories
 
-``` {code-block} console
+```console
 $ rmdir this_is_empty
 
 $ rmdir this_has_a_file
@@ -282,9 +286,9 @@ $ rmdir this_has_a_file
  
 - Is there a way to use rm to delete directories?
  
-````{solution}
+!!!solution}
 - Recursive commands `-r` are applied to directories and their contents
-``` {code-block} console
+```console
 $ rm -r this_has_a_file
 ```
 ````
@@ -294,7 +298,7 @@ $ rm -r this_has_a_file
 
 - Nobody can remember whether it’s ``-R`` or `-r` for recursive, or if ``-f`` lets you choose a file or forces an action.
 
-``` {code-block} console
+```console
 $ man ls 
 ```
 - shows you how to use ``ls`` and all its options
@@ -302,7 +306,7 @@ $ man ls
 - Scroll with arrows.
 - Type `q` to quit.
  
-```{challenge}
+!!!challenge}
 - Spend some time now to browse the man pages for the commands you’ve just learned!
 ```
  
@@ -336,7 +340,7 @@ MANUAL SECTIONS
 ## Let’s get wild with Wildcards
 ![Caption](./img/wildcards_bear.png)
 
-``` {code-block} console
+```console
 $ ls many_files
 
 $ ls many_files/*.txt
@@ -346,14 +350,14 @@ $ ls many_files/file_1*1.docx
 
 - Want to clean out temporary files ending in .tmp in all the subdirectories?
 
-```{warning}
+!!!warning}
 - NB! It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 ```
-``` {code-block} console
+```console
  $ rm */*.tmp
 ```
 
-```{challenge} Exercise
+!!!challenge} Exercise
 - Exercise:  Create a new directory and move all .txt files in many_files to it.
 ```
  
@@ -361,7 +365,7 @@ $ ls many_files/file_1*1.docx
 
 - In Linux, you can (if you wish) also display files without being able to change them
 
-``` {code-block} console
+```console
 $ cd old_project
 
 $ ls
@@ -376,20 +380,20 @@ $ ls
 
 - ``cat`` dumps the contents of files to the terminal as text
 
-``` {code-block} console
+```console
  $ cat the_best
 ```
 
 - Yummy!
 
-``` {code-block} console
+```console
  $ cat a
 ```
 - What's this????
 
 - **Concatenate** files with this wizardry:
 
-``` {code-block} console
+```console
  $ cat a the_best > combinedfiles.txt
 ```
 - File ``a`` is written first and ``the_best`` is appended
@@ -399,12 +403,12 @@ $ ls
 
 ![Caption](./img/head.png)
 
-``` {code-block} console
+```console
  $ head a
  ```
 - You can choose how many lines to display (default 10)
 
-``` {code-block} console
+```console
  $ head -n 4 a
  ```
 
@@ -416,7 +420,7 @@ $ ls
 
 - Tail is the same as head, but for the other end.
 
-``` {code-block} console
+```console
  $ tail -n 5 a
 ```
 
@@ -427,14 +431,14 @@ $ ls
 
 - cat doesn’t really work for long files
 
-``` {code-block} console
+```console
  $ less a
 ```
 
 - Search with `/<keyword>` and `n`/`N`
 - Hit `q` to quit.
 - scroll with arrows.
-- `man` uses `less`!
+- `man` uses `less!
 
      “less is more”
  
@@ -445,7 +449,7 @@ $ ls
 
 ### Example
 
-``` {code-block} console
+```console
 $ ls -l
 
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
@@ -457,7 +461,7 @@ $ ls -l
   - `l` symbolic link (more on this tomorrow)
   - Others exist, but you can ignore them for now
 
-  ``` {code-block} console
+  ```console
   $ ls -l
  
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
@@ -483,10 +487,10 @@ $ ls -l
   - Files: Run the file as a program
   - Directories: Traverse the directory (e.g. with “cd”)
 
-``````{solution} For the interested
+``!!!solution} For the interested
  - Now try:
 
-  ``` {code-block} console
+  ```console
   $ ls -l /proj/introtouppmax/
   ```
 
@@ -503,7 +507,7 @@ $ ls -l
 
 **If you own, i.e. created, the file or directory, you can modify the content**
 
-```{admonition} Common issues
+!!!admonition} Common issues
 - Files with `w` can be modified and destroyed by accident. Protect your data!
 - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
 - If you want to keep non-members from even seeing which files you have, you can!
@@ -541,7 +545,7 @@ $ ls -l
 - chmod takes flags as usual, e.g.
   -  `-R` for recursive (i.e. all files and sub-directories therein)
 
-``````{solution} chmod 755 style - binary sum - "octal bit mask”
+``!!!solution} chmod 755 style - binary sum - "octal bit mask”
 
 - Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
 
@@ -554,12 +558,12 @@ $ ls -l
 
 - What number would `rw` be?
 
-```{solution}
+!!!solution}
 6
  ```
 ``````
  
-```{challenge} chmod — Hands-on
+!!!challenge} chmod — Hands-on
 
 - In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
   - Directories: important_results/, old_project/
@@ -568,8 +572,8 @@ $ ls -l
   - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 ```
 
-``````{solution}
-``` {code-block} console
+``!!!solution}
+```console
 $ chmod -wR <target>
  ```
 ``````
