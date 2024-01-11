@@ -545,37 +545,36 @@ $ ls -l
 - chmod takes flags as usual, e.g.
   -  `-R` for recursive (i.e. all files and sub-directories therein)
 
-``!!!solution} chmod 755 style - binary sum - "octal bit mask”
+!!! solution "chmod 755 style — binary sum — octal bit mask"
 
-- Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
+    - Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
 
-- Each digit corresponds to the **binary sum** for the *owner*, *group* and *others*, respectively.
+    - Each digit corresponds to the **binary sum** for the *owner*, *group* and *others*, respectively.
  
-  - ``7 = 4 + 2 + 1 = r + w + x``   All permissions
-  - ``5 = 4 + 0 + 1 = r +   + x``   Read and execute permission
+        - ``7 = 4 + 2 + 1 = r + w + x``   All permissions
+        - ``5 = 4 + 0 + 1 = r +   + x``   Read and execute permission
 
-- 755 then means all permissions for owner, but limiting write permissions for the group and all others
+    - 755 then means all permissions for owner, but limiting write permissions for the group and all others
 
-- What number would `rw` be?
+    - What number would `rw` be?
 
-!!!solution}
-6
- ```
-``````
+    !!! solution
+        6
+
+
  
-!!!challenge} chmod — Hands-on
+!!! challenge "chmod — Hands-on"
 
-- In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
-  - Directories: important_results/, old_project/
-  - File: last_years_data
-- Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
-  - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
-```
+    - In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
+    - Directories: important_results/, old_project/
+    - File: last_years_data
+    - Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
+    - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 
-``!!!solution}
-```console
-$ chmod -wR <target>
- ```
-``````
+    !!!- solution
+
+         ```console
+         $ chmod -wR <target>
+         ```
  
 **More about BASH command line and scripts on Tuesday and Wednesday!**
