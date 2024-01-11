@@ -11,67 +11,144 @@ Use a text editor         |Non-interactive, no help
 Use the Python interpreter|Interactive, terminal-based, some help
 Use IPython               |Interactive, terminal-based, more help and features
 Use Jupyter               |Interactive, web-based
+Use Visual Studio Code    |Interactive, install on local computer, use locally installed Python and Python packages
 
 ## Use a text editor
 
-You can run a Python script in the shell by:
+Using a text editor to program in Python 
+is a simple way to write code: 
+it is the same as writing any text file. 
+
+Here we use the text editor GNU nano to write a Python script:
+
+```
+nano example_script.py
+```
+
+Within nano, write:
+
+```
+print('Hello, world!')
+```
+
+- To save, press `CTRL + O` (i.e. the letter), then enter to keep the same filename
+- To quite, press `CTRL + Q`
+
+You can run this Python script in the shell by:
 
 ```console
-$ python example_script.py 
+python example_script.py 
 ```
-or, if you loaded a `python3` module:
+
+or, if you want to be explicitly use Python 3:
 
 ```console
-$ python3 example_script.py 
+python3 example_script.py 
 ```
 
-### Use Python in an interactive session
+Some features of this approach are:
+- this is a simple way to write code: it is the same as writing any text file. 
+- you get no help while writing code
+- you can only run the script from start to finish, i.e. you cannot
+  partially run the script
 
-You start a python session by typing:
+???- question "How to run a Python script line-by-line?"
+
+    You can run a Python script line-by-line using a Python debugger, 
+    such as `pdb`.
+
+    On the terminal, for `python`, do:
+
+    ```
+    pdb example_script.py 
+    ```
+
+    or for `python3`:
+
+    ```
+    pdb3 example_script.py 
+    ```
+
+    See the official Python documentation of `pdb` [here](https://docs.python.org/3/library/pdb.html).
+
+### Use the Python interpreter
+
+You start the Python interpreter by typing:
 
 ```console
 $ python
 ```
 
-or
+or (for explicit Python 3):
 
 ```console
 $ python3
 ```
 
-The python prompt looks like this:
+The Python prompt looks like this:
 
 ```python
 >>>
 ```
-Exit with `<Ctrl-D>`, `quit()` or `exit()`.
 
-## UPPMAX Python-related courses
+Type, for example:
 
-There are these UPPMAX courses related to Python:
+```
+print('Hello, world!')
+```
 
-- [Introduction to Python](https://github.com/UPPMAX/uppmax_intro_python), which is one day of the [introduction to UPPMAX course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/) which takes four days in total  
-- 1-day workshop 'Using Python in a HPC environment'
-- 3-day course on Python, Julia and R
+and the interpreter will run the statement.
 
-## Installing Python packages
+Exit the Python interpreter with `<Ctrl-D>`, `quit()` or `exit()`.
 
-How to install Python packages
-is described [here](python_install_packages.md).
+Some features of this approach are:
 
-## Isolated environments in Python
+- you get limited help while writing code
 
-How to use isolated environments in Python
-is described [here](python_venv.md).
+???- question "How do I get help?"
 
-## How to run parallel jobs in Python
+    As an example, writing this line of code in the Python interpreter ...
 
-How to run parallel jobs in Python 
-is described [here](python_parallel_jobs.md).
+    ```
+    s = 'Hello, world!'
+    ```
 
-## References
+    ... and press enter. Now a variable called `s` will hold some text.
 
- * [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
+    Now type ...
+
+    ```
+    s.
+    ```
+
+    and press Tab twice. You will see a list of things you can do with that string.
+    
+- you can only run the script from start to finish, i.e. you cannot
+  partially run the script
+
+
+## Use IPython               
+
+Some features are:
+
+- interactive
+- terminal-based
+- more help and features
+
+## Use Jupyter               
+
+Some features are:
+
+- interactive
+- web-based
+
+## Use Visual Studio Code    
+
+Some features are:
+
+- interactive
+- install on local computer
+- use locally installed Python and Python packages
 
 ## Links
 

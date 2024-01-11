@@ -9,9 +9,11 @@ Then, we show how to [load Python](#loading-python)
 and to [load Python packages](#loading-python-packages)
 after which you can [run Python](#running-python).
 
+
 Finally, you can find [UPPMAX Python-related courses](#uppmax-python-related-courses)
 and these more advanced topics:
 
+- [Programming in Python](python_programming.md)
 - [Installing Python packages](python_install_packages.md)
 - [Isolated environments in Python](python_venv.md)
 - [How to run parallel jobs in Python](python_parallel_jobs.md)
@@ -353,6 +355,12 @@ The python prompt looks like this:
 >>>
 ```
 Exit with `<Ctrl-D>`, `quit()` or `exit()`.
+
+## Programming in Python
+
+To program in Python, there are more ways,
+which are discussed at the UPPMAX page on
+Python programming [here](python_programming.md)
 
 ## UPPMAX Python-related courses
 
