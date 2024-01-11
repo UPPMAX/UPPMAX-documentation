@@ -256,7 +256,7 @@ $ tar -vxzf files.tar.gz
 
         rm –f <>
 
-  - Edit file ".BASHrc" in /home directory by adding the alias line for this to start every time.
+  - Edit file ".bashrc" in /home directory by adding the alias line for this to start every time.
 - This will also work for mv and cp!
 ```
 
