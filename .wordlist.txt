@@ -2926,3 +2926,13 @@ gvim
 pdf
 refcard
 refcards
+todo
+gzipped
+enate
+rwx
+head
+ecute
+xyz
+gid
+roup
+behaviour
