@@ -73,16 +73,30 @@ Some features of this approach are:
 
 ### Use the Python interpreter
 
-You start the Python interpreter by typing:
+After loading a Python module, you have the Python interpreter available.
+
+???- question "Forgot how to load a Python module?"
+
+    See the UPPMAX page about Python [here](python.md).
+
+???- question "What is a Python interpreter?"
+
+    In computing, an interpreter is a program that reads text 
+    and runs it directly, without any additional steps.
+
+    The Python interpreter runs the Python commands you type directly,
+    without any additional steps.
+
+Start the Python interpreter by typing:
 
 ```console
-$ python
+python
 ```
 
 or (for explicit Python 3):
 
 ```console
-$ python3
+python3
 ```
 
 The Python prompt looks like this:
@@ -101,11 +115,9 @@ and the interpreter will run the statement.
 
 Exit the Python interpreter with `<Ctrl-D>`, `quit()` or `exit()`.
 
-Some features of this approach are:
+The Python interpreter gives limited auto-complete while writing code
 
-- you get limited help while writing code
-
-???- question "How do I get help?"
+???- question "How do I get auto-complete?"
 
     As an example, writing this line of code in the Python interpreter ...
 
@@ -122,18 +134,163 @@ Some features of this approach are:
     ```
 
     and press Tab twice. You will see a list of things you can do with that string.
-    
-- you can only run the script from start to finish, i.e. you cannot
-  partially run the script
 
+The Python interpreter can show graphics.
+
+???- question "How do I get the Python interpreter to show graphics?"
+
+    In the Python interpreter, run this code line-by-line:
+
+    ```python
+    import matplotlib.pyplot as plt
+    plt.plot([1, 4, 9, 16])
+    plt.show()
+    ```
+   
+    (or as a one-liner: `import matplotlib.pyplot as plt; plt.plot([1, 4, 9, 16]); plt.show()`)
+
+    You will see a window appear:
+
+    ![](img/python_matplotlib.png)
+
+    You will only see a window appear, if you've logged in to Rackham with 
+    X-forwarding enabled. See [](../getting_started/login_rackham.md)
+    how to login to Rackham with X-forwarding enabled.
+
+    Spoiler: `ssh -X sven@rackham.uppmax.uu.se`.
+    
+The Python interpreter cannot directly run scripts.
 
 ## Use IPython               
 
-Some features are:
+After loading a Python module, you also have the IPython Python command shell available.
 
-- interactive
-- terminal-based
-- more help and features
+???- question "Forgot how to load a Python module?"
+
+    See the UPPMAX page about Python [here](python.md).
+
+???- question "What is a Python command shell?"
+
+    In computing, a shell is a a program around something,
+    for example, Bash is a shell around a UNIX-like operating system.
+
+    In computing, a command shell means that the shell 
+    is a command-line shell, i.e. text only.
+
+    A Python command shell, hence, is a text-only program 
+    around Python.
+
+Start the IPython command shell by typing:
+
+```console
+ipython
+```
+
+or (for explicit Python 3):
+
+```console
+ipython3
+```
+
+The `ipython3` prompt looks like this:
+
+```python
+[richel@rackham1 ~]$ ipython
+Python 3.11.4 (main, Aug  7 2023, 16:05:58) [GCC 12.2.0]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.14.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: 
+```
+
+IPython allows one to write code interactively.
+
+For example, in IPython, type:
+
+```
+print('Hello, world!')
+```
+
+and IPython will show the result of that line of code.
+
+IPython can interact with your file system.
+
+???- question "How does IPython interact with the file system?"
+
+    For example, within IPython, running ...
+
+    ```
+    ls
+    ```` 
+
+    ... displays a list of files in your current working folder
+    in the same way as Bash's `ls`. 
+
+    The Python interpreter will give an error if you do the same.
+
+IPython has an auto-complete triggered by Tab.
+
+???- question "How do I get auto-complete?"
+
+    As an example, writing this line of code in IPython ...
+
+    ```
+    s = 'Hello, world!'
+    ```
+
+    ... and press enter. Now a variable called `s` will hold some text.
+
+    Now type ...
+
+    ```
+    s.
+    ```
+
+    and press Tab. You will see a menu of things you can do with that string.
+    Hold tab to scroll through the many options.
+
+IPython can show graphics.
+
+???- question "How do I get IPython to show graphics?"
+
+    In IPython, run this code line-by-line:
+
+    ```python
+    import matplotlib.pyplot as plt
+    plt.plot([1, 2, 3, 4])
+    plt.show()
+    ```
+   
+    (or as a one-liner: `import matplotlib.pyplot as plt; plt.plot([1, 2, 3, 4]); plt.show()`)
+
+    You will see a window appear:
+
+    ![](img/ipython_matplotlib.png)
+
+    You will only see a window appear, if you've logged in to Rackham with 
+    X-forwarding enabled. See [](../getting_started/login_rackham.md)
+    how to login to Rackham with X-forwarding enabled.
+
+    Spoiler: `ssh -X sven@rackham.uppmax.uu.se`.
+
+IPython can directly run scripts.
+
+???- question "How do I get IPython to directly run scripts?"
+
+    In IPython, run:
+
+    ```
+    run [filename]
+    ```
+
+    where `[filename]` is the name of a file, for example:
+
+    ```
+    run my_script.py
+    ```
+
+    IPython will run the script and remember variables, functions and classes
+    created in that script.
 
 ## Use Jupyter               
 
