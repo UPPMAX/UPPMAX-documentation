@@ -1,5 +1,7 @@
 # Python user guide
 
+![](img/python_logo.png)
+
 Welcome to the UPPMAX Python user guide.
 
 We describe [what Python is](#what-is-python)
