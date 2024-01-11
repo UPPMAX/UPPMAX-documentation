@@ -2930,7 +2930,7 @@ todo
 gzipped
 enate
 rwx
-head
+ead
 ecute
 xyz
 gid
