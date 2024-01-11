@@ -19,7 +19,7 @@
 
 ## General understanding
 
-- When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
+- When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node of an UPPMAX cluster.
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
 
@@ -94,7 +94,7 @@
     - Now we present alternatives to work on Rackham
 
 
-## The login
+## Alternative ways to log in and work
 
 !!! info "Login procedure"
     **Which login procedure is best for You, depends on:**
@@ -104,9 +104,7 @@
     - Your planned interaction with your local computer
     - Your planned use of graphics on the cluster
 
-!!! info "Login procedure"
-
-    If you plan to:
+    **If you plan to:**
     
     - do **day-to-day** work where *terminal shell is sufficient*
 
@@ -228,6 +226,17 @@
     ``` bash
     $ xeyes &
     ```
+    
+## ThinLinc (all platforms!)
+
+- This gives you a desktop environment, as if you were working on your own computer!
+- On web:
+    - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
+- Or use the client 
+    - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
+
+
+![Caption](./img/Thinlinc2.jpg)
 
 
 
@@ -267,17 +276,6 @@
     - Similar to Rackham. Just change login details!
 
  
-## ThinLinc (all platforms!)
-
-- This gives you a desktop environment, as if you were working on your own computer!
-- On web:
-    - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
-- Or use the client 
-    - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
-
-
-![Caption](./img/Thinlinc2.jpg)
-
 
 !!! abstract "keypoints"
     - When you log in from your local computer you will always arrive at a login node with limited resources. 
