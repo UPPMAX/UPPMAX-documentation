@@ -230,45 +230,6 @@
     ```
 
 
-## Graphical file manager
-
-???- question "Want more detailed information of file transfer to/from Rackham using a graphical tool?"
-
-    More detailed information of file transfer to/from Rackham using a graphical tool
-    can be found [here](../cluster_guides/rackham_file_transfer_using_gui.md)
-
-- This is good if you want to move many files between host and local and cannot use wildcards.
-
-=== "Linux"
-
-    More detailed information of file transfer to/from Rackham using a graphical tool
-    can be found [here](../cluster_guides/rackham_file_transfer_using_gui.md)
-
-    One such graphical tool is FileZilla:
-
-    ![Filezilla](../cluster_guides/img/filezilla_login_to_rackham_480_x_270.png)
-
-=== "Mac"
-
-    - For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
-    - [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
- 
-
-    - ![Caption](./img/fz3_osx_main.png )
-
-    - [Cyberduck](https://cyberduck.io/)
-
-=== "Windows"
-
-    - For copying of files between your client computer (where you are) and the cluster **WinSCP** can also be the choice.
-         - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
-
-    - ![Caption](./img/WinSCP.png )
-    
-    - [Cyberduck](https://cyberduck.io/)
-
-    - [Filezilla](https://filezilla-project.org/download.php?type=client)
-
 
 ## Linux on your computer
 
