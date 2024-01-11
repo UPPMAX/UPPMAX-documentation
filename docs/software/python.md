@@ -30,6 +30,40 @@ Python 3 is not backwards compatible with Python 2.
 This means that you need to use the correct Python version
 to run a Python script.
 
+???- question "Could you give me an example of a difference between Python 2 and 3?"
+
+    One example is how Python 2 and Python 3 dividetwo integers. 
+    Here is an example that will work on all UPMMAX clusters. 
+
+    Load Python 2.7.15:
+
+    ```
+    module load python/2.7.15
+    ```
+
+    Then 
+
+    ```
+    python -c "print(1/2)"
+    ```
+
+    will print `0`, as this is an integer division: two fits zero times in one. 
+
+    Load Python 3.11.4:
+
+    ```
+    module load python/3.11.4
+    ```
+
+    Then 
+
+    ```
+    python -c "print(1/2)"
+    ```
+
+    will print `0.5`, as this is turned into a floating point division,
+    equivalent to `1.0 / 2.0`. 
+
 ???- question "Which version of Python is `python`?"
 
     To determine which version `python` is, in a terminal, type:
@@ -281,6 +315,10 @@ You can run Python in multiple ways:
 
 - use Python to run a Python script
 - use Python in an interactive session
+
+To *program* in Python, there are more ways,
+which are discussed at the UPPMAX page on
+Python programming [here](python_programming.md)
 
 ### Use Python to run a Python script
 
