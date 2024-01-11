@@ -2919,3 +2919,10 @@ Kuhlman
 Lutz
 Tkinter
 OpenFOAM
+IPython
+Ctrl
+coderwall
+gvim
+pdf
+refcard
+refcards
