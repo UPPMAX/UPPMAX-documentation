@@ -154,7 +154,7 @@ ask Bash to complete what you’re writing.
 - Also graphical editor within MobaXterm
 
 ### nano 
-- keyboard shortcuts shown on-screen)
+- keyboard shortcuts shown on-screen
 - [Cheat sheet](https://www.nano-editor.org/dist/latest/cheatsheet.html) 
   - ^ = Ctrl, M = meta key)
     - Windows M = Alt
