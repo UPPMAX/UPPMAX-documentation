@@ -6,13 +6,16 @@
     - There are links to topics on the way, but you should be able to follow the steps anyway.
 
 - managing directory
-- transfering
+- transferring
 - loading modules
 - writing batch script
+- view your CPU hours and disk usage
 
 
 ## Transferring some files
 ### Graphical file manager
+
+
 
 ???- question "Want more detailed information of file transfer to/from Rackham using a graphical tool?"
 
