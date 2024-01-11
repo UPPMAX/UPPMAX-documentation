@@ -177,7 +177,7 @@ ask Bash to complete what you’re writing.
   - Cheat sheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
  
 **gvim**
-- ``vi``m with a GUI, lots of features very Fast
+- ``vim`` with a GUI, lots of features very Fast
 
 **emacs**
 - fast and powerful, once you learn it
@@ -193,9 +193,15 @@ ask Bash to complete what you’re writing.
   - Ex: `gedit &`
   - If not, you can `<Ctrl>+z` and type `bg` to send program to background.
 
-!!! discussion  Try out later!
-   **Try them out and pick one favorite editor!**
 
+**Try them out and pick one favorite editor!**
+
+!!! tip
+
+    **These commands are useful in the command line when something is stuck or a program is limiting you to do further work.**
+    - ``ctrl-C`` interupts a program or a command that is "stuck"
+    - ``ctrl-Z`` pauses a program, can be continues in background (``bg``) or  foreground (``fg``)
+    - ``ctrl-D`` quits some programs from the program environment in the terminal
 
 
 ## Typical sources of error
@@ -225,7 +231,7 @@ ask Bash to complete what you’re writing.
     - **Beware of overwriting files and deleting the wrong ones.**
 
  
-!!! Note 
+!!! tip 
 
     - **Tip: make "`rm`" ask if you really want to erase:**
       - Within a session: Type in the command prompt
