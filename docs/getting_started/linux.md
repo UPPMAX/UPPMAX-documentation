@@ -2,16 +2,18 @@
 - The "operating system" of the UPPMAX and most of the other clusters is **Linux**.
 
 !!! questions 
-- What is Linux?
-- How to use the command line?
+    
+    - What is Linux?
+    - How to use the command line?
 
-```
+
 
 !!! objectives 
-- We'll briefly get an overview of Linux
-  - How the command line works
-  - Some text editors
-  - Things to be aware of
+
+    - We'll briefly get an overview of Linux
+    - How the command line works
+    - Some text editors
+    - Things to be aware of
 ```
 
 ???- question "Want a video?"
@@ -80,7 +82,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
   
   - Example: 
 
-    ```bash=
+    ```bash
       [bjornc@rackham3 linux_tutorial]$
     ```
 
@@ -96,18 +98,19 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 <section>
     
 !!! image  ./img/mv_inbox.png
-:alt: mv inbox
-:width: 300px
-:align: left
-``` 
+
+    :alt: mv inbox
+    :width: 300px
+    :align: left
+
 
 <br/><br/>
 
 !!! image  ./img/program_flags.png
-:alt: program flags
-:width: 300px
-:align: left
-```
+    :alt: program flags
+    :width: 300px
+    :align: left
+
     
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
    
@@ -127,10 +130,9 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 <section>
 
 !!! image  ./img/tab.png
-:alt: tab
-:width: 200px
-:align: left
-```
+    :alt: tab
+    :width: 200px
+    :align: left
 
 <br/><br/><br/><br/><br/>
 </section>
@@ -159,9 +161,12 @@ ask Bash to complete what you’re writing.
     - On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
 
 
-!!! solution  Not to try today if you haven't used before!!!
+## Other terminal editors
 
-- If you start one of these editors you may have difficulties to exit!
+!!! warning
+
+    - we suggest that you learn this tools before trying to work with them on UPPMAX
+    - If you start one of these editors you may have difficulties to exit!
 
 **vim**
 - fast and powerful, once you learn it
@@ -181,7 +186,7 @@ ask Bash to complete what you’re writing.
 - also With GUI
    - ``emacs –nw``
      - keeps you in terminal window.
-```
+
 
 ## The graphical editors
 - When starting the graphical versions of an editor, add ``&`` to be able to use the command line while program is open.
@@ -190,21 +195,20 @@ ask Bash to complete what you’re writing.
 
 !!! discussion  Try out later!
    **Try them out and pick one favorite editor!**
-```
+
+
 
 ## Typical sources of error
 
 ![Content](./img/cross.png)
 
 !!! Warning 
-- Capitalization matters in file names and program names
-- Spaces matter.
-  - Always have a space after the program name.
-  - Don’t add spaces within file names.
-- Check that you are in the right place in the file system.
-- File permissions. Check that the right read, write and execute permission are set. See next session.
-```
-
+    - Capitalization matters in file names and program names
+    - Spaces matter.
+      - Always have a space after the program name.
+      - Don’t add spaces within file names.
+    - Check that you are in the right place in the file system.
+    - File permissions. Check that the right read, write and execute permission are set. See next session.
 
  
 ## Caution!!
@@ -214,47 +218,49 @@ ask Bash to complete what you’re writing.
 
 !!! Warning 
 
-- There is no undo for:
-  - copy (`cp`),
-  - move (`mv`), and
-  - remove (`rm`).
-- **Beware of overwriting files and deleting the wrong ones.**
-```
+    - There is no undo for:
+      - copy (`cp`),
+      - move (`mv`), and
+      - remove (`rm`).
+    - **Beware of overwriting files and deleting the wrong ones.**
+
  
 !!! Note 
-- **Tip: make "`rm`" ask if you really want to erase:**
-  - Within a session: Type in the command prompt
 
-        alias rm='rm -i'
+    - **Tip: make "`rm`" ask if you really want to erase:**
+      - Within a session: Type in the command prompt
 
-  - Override asking with 
+            alias rm='rm -i'
 
-        rm –f <>
+      - Override asking with 
 
-  - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
-- This will also work for ``mv`` and ``cp``!
-```
+            rm –f <>
+
+      - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
+    - This will also work for ``mv`` and ``cp``!
 
 !!! Note 
-- If you do destroy your data, email UPPMAX support, we may be able to help.
-```
 
- !!! keypoints 
-- Linux Operating system is a UNIX-like and UNIX compatible Operating system.
-- Typical command:
-    $ program word1 word2 word3 […]
-- Example of file editors
-    - terminal
-        - nano
-        - vim
-        - emacs
-    - graphical:
-      - gedit
-- Tips
-    - use Tab completion
-    - capitalization and spaces matters
-    - no undo:s for copying, moving and removing
-      - Solution: ``alias rm='rm -i' ``
-```
+    - If you do destroy your data, email UPPMAX support, we may be able to help.
+
+
+!!! keypoints 
+
+    - Linux Operating system is a UNIX-like and UNIX compatible Operating system.
+    - Typical command:
+        $ program word1 word2 word3 […]
+    - Example of file editors
+        - terminal
+            - nano
+            - vim
+            - emacs
+        - graphical:
+            - gedit
+    - Tips
+        - use Tab completion
+        - capitalization and spaces matters
+        - no undo:s for copying, moving and removing
+          - Solution: ``alias rm='rm -i' ``
+
 
 
