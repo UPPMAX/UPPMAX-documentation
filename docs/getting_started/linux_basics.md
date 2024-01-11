@@ -4,10 +4,10 @@
 ![Caption](./img/terminal.png)
 
 
-```{objectives}
+!!! objectives
 - Let's dig into the most important BASH commands
 - We'll do a type-along session
-```
+
 
 ???- question "Like videos?"
 
@@ -44,7 +44,7 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-``` {code-block} console 
+```console 
 $ pwd
 
 $ pwd -P 
@@ -57,30 +57,30 @@ $ pwd -P
 
 Type ``ls`` to display the contents of the current directory.
 
-``` {code-block} console
+```console
 $ ls -a
 ```
 
 ``-a`` also shows hidden files and directories.
 
-``` {code-block} console
+```console
 $ ls -l
 ```
 ``-l`` gives you listed and detailed information.
 
-``` {code-block} console
+```console
 $ ls -lt
 ```
 
 ``-lt`` sorts things by time modified.
 
-``` {code-block} console
+```console
 $ ls –lrt
 ```
 
 ``-r`` gives reversed order, so in this case newest in last line.
 
-``` {code-block} console
+```console
 $ man ls
 ```
 
@@ -92,7 +92,7 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
 
-``` {code-block} console
+```console
 $ cd /proj/introtouppmax
 
 $ pwd
@@ -102,45 +102,45 @@ $ ls
 $ cd labs
 
 $ pwd
-```
 
-````{challenge} Experiment with cd
-- Experiment with ``cd``. 
-- Try adding ``<spaces>`` or extra ``/`` in various places.
-- Use *tab completion* to avoid typos and typing ``ls`` a lot.
 
-- Figure out the use of the following:
+!!! challenge Experiment with cd
+    - Experiment with ``cd``. 
+    - Try adding ``<spaces>`` or extra ``/`` in various places.
+    - Use *tab completion* to avoid typos and typing ``ls`` a lot.
 
-``` {code-block} console
-$ cd -
+    - Figure out the use of the following:
 
-$ cd ..
+    ```console
+    $ cd -
 
-$ cd
+    $ cd ..
 
-$ cd ~
+    $ cd
 
-```
-````
+    $ cd ~
 
-````{solution} Solution 
-- `cd -` : goes back to your last directory
+    ```
 
-- `cd ..` : goes a level up in the hierarchy
 
-- `cd` : goes to home directory
+    ???- solution
+        - `cd -` : goes back to your last directory
 
-- `cd ~` : also goes to home directory
-````
+        - `cd ..` : goes a level up in the hierarchy
+
+        - `cd` : goes to home directory
+
+        - `cd ~` : also goes to home directory
+
 
  
 
 ## Copy, Create, Move
 ### mkdir — make directories
 
-```{warning}
-- Make sure you’re in your home directory by `cd ~`
-```
+!!! warning
+    - Make sure you’re in your home directory by `cd ~`
+
 
 - Create a new directory ``uppmax-intro``
 
@@ -231,7 +231,7 @@ $ tar -vxzf files.tar.gz
   - ``f`` should be in the start or in the end!
 - You should see a list of files being extracted
 
-````{tip}
+`!!!tip}
 - To compress use the flag `-c`instead of `-x`
 
 ``` {code-block} console
@@ -242,7 +242,7 @@ $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
 ## Deleting
 ### rm — delete files  or directories
 
-```{Note}
+!!!Note}
 - **Tip: make "rm" ask if you really want to erase:**
   - Within a session: Type in the command prompt
 
@@ -282,7 +282,7 @@ $ rmdir this_has_a_file
  
 - Is there a way to use rm to delete directories?
  
-````{solution}
+`!!!solution}
 - Recursive commands `-r` are applied to directories and their contents
 ``` {code-block} console
 $ rm -r this_has_a_file
@@ -302,7 +302,7 @@ $ man ls
 - Scroll with arrows.
 - Type `q` to quit.
  
-```{challenge}
+!!!challenge}
 - Spend some time now to browse the man pages for the commands you’ve just learned!
 ```
  
@@ -346,14 +346,14 @@ $ ls many_files/file_1*1.docx
 
 - Want to clean out temporary files ending in .tmp in all the subdirectories?
 
-```{warning}
+!!!warning}
 - NB! It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 ```
 ``` {code-block} console
  $ rm */*.tmp
 ```
 
-```{challenge} Exercise
+!!!challenge} Exercise
 - Exercise:  Create a new directory and move all .txt files in many_files to it.
 ```
  
@@ -483,7 +483,7 @@ $ ls -l
   - Files: Run the file as a program
   - Directories: Traverse the directory (e.g. with “cd”)
 
-``````{solution} For the interested
+```!!!solution} For the interested
  - Now try:
 
   ``` {code-block} console
@@ -503,7 +503,7 @@ $ ls -l
 
 **If you own, i.e. created, the file or directory, you can modify the content**
 
-```{admonition} Common issues
+!!!admonition} Common issues
 - Files with `w` can be modified and destroyed by accident. Protect your data!
 - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
 - If you want to keep non-members from even seeing which files you have, you can!
@@ -541,7 +541,7 @@ $ ls -l
 - chmod takes flags as usual, e.g.
   -  `-R` for recursive (i.e. all files and sub-directories therein)
 
-``````{solution} chmod 755 style - binary sum - "octal bit mask”
+```!!!solution} chmod 755 style - binary sum - "octal bit mask”
 
 - Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
 
@@ -554,12 +554,12 @@ $ ls -l
 
 - What number would `rw` be?
 
-```{solution}
+!!!solution}
 6
  ```
 ``````
  
-```{challenge} chmod — Hands-on
+!!!challenge} chmod — Hands-on
 
 - In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
   - Directories: important_results/, old_project/
@@ -568,7 +568,7 @@ $ ls -l
   - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 ```
 
-``````{solution}
+```!!!solution}
 ``` {code-block} console
 $ chmod -wR <target>
  ```
