@@ -35,12 +35,12 @@ nav:
   - Software:
     - Overview: software/overview.md
     - Software-specific documentation:
-      - R: software/R.md
-      - Python: software/python.md
+      - GROMACS: software/gromacs.md
       - Julia: software/julia.md
       - MATLAB: software/matlab.md
-      - GROMACS: software/gromacs.md
-      - Perl_modules: software/perl.md
+      - Perl: software/perl.md
+      - Python: software/python.md
+      - R: software/R.md
       - Whisper: software/whisper.md
       - Life Science-specific: 
         - Cram: software/cram.md

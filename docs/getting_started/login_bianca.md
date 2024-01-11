@@ -692,7 +692,7 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
     On Rackham, one can use `-X`:
    
     ```
-    ssh -AX username@rackham.uppmax.uu.se
+    ssh -X username@rackham.uppmax.uu.se
     ```
 
     However, on Bianca, this so-called X-forwarding is disabled.
