@@ -90,6 +90,11 @@ to run a Python script.
 
 ## Loading Python
 
+???- question "Prefer seeing a video?"
+
+    A video that shows how to load the Python module
+    can be found [here](https://youtu.be/wBebYj3XlNM).
+
 The different versions of Python are available via 
 the module system on all UPPMAX clusters.
 Loading a Python module also makes some Python packages available.
