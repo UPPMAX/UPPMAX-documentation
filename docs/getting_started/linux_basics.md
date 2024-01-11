@@ -246,22 +246,21 @@ $ tar -vxzf files.tar.gz
 ## Deleting
 ### rm — delete files  or directories
 
-!!!Note}
-- **Tip: make "rm" ask if you really want to erase:**
-  - Within a session: Type in the command prompt
+!!! Note
+    - **Tip: make "rm" ask if you really want to erase:**
+    - Within a session: Type in the command prompt
 
         alias rm='rm -i'
 
-  - Override asking with 
+    - Override asking with 
 
         rm –f <>
 
-  - Edit file ".bashrc" in /home directory by adding the alias line for this to start every time.
-- This will also work for mv and cp!
-```
+     - Edit file ".bashrc" in /home directory by adding the alias line for this to start every time.
+    - This will also work for mv and cp!
 
-- Deleting files works just like copying or moving them:
-`rm <target>`
+
+- Deleting files works just like copying or moving them: `rm <target>`
 
 - Try it out:
 ```console
@@ -286,12 +285,13 @@ $ rmdir this_has_a_file
  
 - Is there a way to use rm to delete directories?
  
-!!!solution}
-- Recursive commands `-r` are applied to directories and their contents
-```console
-$ rm -r this_has_a_file
-```
-````
+!!! solution
+
+    - Recursive commands `-r` are applied to directories and their contents
+    ```console
+    $ rm -r this_has_a_file
+    ```
+
 
 ## Help
 ### man — manual, look up the right flags
@@ -301,14 +301,16 @@ $ rm -r this_has_a_file
 ```console
 $ man ls 
 ```
+
 - shows you how to use ``ls`` and all its options
 - Type `/<keyword>` to search for a keyword, use `n` (forward) and ´N` (backward) to scan through hits.
 - Scroll with arrows.
 - Type `q` to quit.
  
-!!!challenge}
-- Spend some time now to browse the man pages for the commands you’ve just learned!
-```
+!!! challenge
+    - Spend some time now to browse the man pages for the commands you’ve just learned!
+
+
  
 <!--- 
 - Not only user commands!
@@ -346,20 +348,20 @@ $ ls many_files
 $ ls many_files/*.txt
 
 $ ls many_files/file_1*1.docx
- ```
+```
 
 - Want to clean out temporary files ending in .tmp in all the subdirectories?
 
-!!!warning}
-- NB! It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
-```
-```console
- $ rm */*.tmp
-```
+!!! warning
+    - It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 
-!!!challenge} Exercise
-- Exercise:  Create a new directory and move all .txt files in many_files to it.
-```
+    ```console
+    $ rm */*.tmp
+    ```
+
+!!! challenge Exercise
+    - Exercise:  Create a new directory and move all .txt files in many_files to it.
+
  
 ## Reading files
 
@@ -381,21 +383,23 @@ $ ls
 - ``cat`` dumps the contents of files to the terminal as text
 
 ```console
- $ cat the_best
+$ cat the_best
 ```
 
 - Yummy!
 
 ```console
- $ cat a
+$ cat a
 ```
+
 - What's this????
 
 - **Concatenate** files with this wizardry:
 
 ```console
- $ cat a the_best > combinedfiles.txt
+$ cat a the_best > combinedfiles.txt
 ```
+
 - File ``a`` is written first and ``the_best`` is appended
  
 ### head — display the top (<u>head</u>ing) of a file
@@ -404,13 +408,13 @@ $ ls
 ![Caption](./img/head.png)
 
 ```console
- $ head a
- ```
+$ head a
+```
 - You can choose how many lines to display (default 10)
 
 ```console
- $ head -n 4 a
- ```
+$ head -n 4 a
+```
 
  
 ### tail — display the end of a file
@@ -421,7 +425,7 @@ $ ls
 - Tail is the same as head, but for the other end.
 
 ```console
- $ tail -n 5 a
+$ tail -n 5 a
 ```
 
 - Handy to look at log files or to figure out the structure of a text file.
@@ -452,22 +456,23 @@ $ ls
 ```console
 $ ls -l
 
-  drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
-  -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
+drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
+-rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
 ```
+
 - Leading symbol:
   - `d` directory
   - `-` regular file
   - `l` symbolic link (more on this tomorrow)
   - Others exist, but you can ignore them for now
 
-  ```console
-  $ ls -l
+```console
+$ ls -l
  
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
 
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
-  ```
+```
   
 - Three sets of “rwx” permissions
   - rwx: r ead, w rite, ex ecute
@@ -487,31 +492,33 @@ $ ls -l
   - Files: Run the file as a program
   - Directories: Traverse the directory (e.g. with “cd”)
 
-``!!!solution} For the interested
- - Now try:
+!!!- solution For the interested
 
-  ```console
-  $ ls -l /proj/introtouppmax/
-  ```
+    - Now try:
 
-- Huh, ``rwxrwsr-x``?
-- `s` in the group means `x` but with *gid bit set* ( g roup id of creator not launcher).
-  - The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id as the users group_id to new files inheriting the group_id from the parent directory.
-- `S` means `-` with gid bit set (rarely seen).
-- Among other things, this makes the default group for new files/subdirectories the, for instance, ``p_introtouppmax`` group.
+    ```console
+    $ ls -l /proj/introtouppmax/
+    ```
 
-``````
+    - Huh, ``rwxrwsr-x``?
+    - `s` in the group means `x` but with *gid bit set* ( g roup id of creator not launcher).
+    - The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id as the users group_id to new files inheriting the group_id from the parent directory.
+    - `S` means `-` with gid bit set (rarely seen).
+    - Among other things, this makes the default group for new files/subdirectories the, for instance, ``p_introtouppmax`` group.
+
+
  
 ## Changing permissions
 **chmod** — change file mode bits
 
 **If you own, i.e. created, the file or directory, you can modify the content**
 
-!!!admonition} Common issues
-- Files with `w` can be modified and destroyed by accident. Protect your data!
-- If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
-- If you want to keep non-members from even seeing which files you have, you can!
-```
+!!! admonition "Common issues"
+
+    - Files with `w` can be modified and destroyed by accident. Protect your data!
+    - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
+    - If you want to keep non-members from even seeing which files you have, you can!
+
 
 ### Syntax
 
@@ -545,7 +552,7 @@ $ ls -l
 - chmod takes flags as usual, e.g.
   -  `-R` for recursive (i.e. all files and sub-directories therein)
 
-!!! solution "chmod 755 style — binary sum — octal bit mask"
+!!! admonition "chmod 755 style — binary sum — octal bit mask"
 
     - Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
 
@@ -558,12 +565,12 @@ $ ls -l
 
     - What number would `rw` be?
 
-    !!! solution
+    ??? solution
         6
 
 
  
-!!! challenge "chmod — Hands-on"
+???+ challenge "chmod — Hands-on"
 
     - In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
     - Directories: important_results/, old_project/
@@ -571,10 +578,9 @@ $ ls -l
     - Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
     - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 
-    !!!- solution
+    ???- solution solution
 
          ```console
          $ chmod -wR <target>
          ```
- 
-**More about BASH command line and scripts on Tuesday and Wednesday!**
+
