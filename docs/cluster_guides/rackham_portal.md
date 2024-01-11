@@ -15,7 +15,7 @@ Here you will find all information related to UPPMAX's Rackham HPC cluster.
     - [using SFTP](rackham_file_transfer_using_sftp.md)
 - [The module system](rackham_modules.md)
 - [IDEs](ides_on_rackham.md)
-    - [Jupyter](jupyter.md)
+    - [Jupyter](../software/jupyter.md)
     - [RStudio](rstudio_on_rackham.md)
     - [VSCode](vscode_on_rackham.md)
     - :no_entry: [VSCodium](vscodium_on_rackham.md)

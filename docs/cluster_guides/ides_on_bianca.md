@@ -33,7 +33,7 @@ Here are step-by-step guides to start these IDEs on Rackham:
 
 IDE                                     |Languages
 ----------------------------------------|----------------
-[Jupyter](jupyter.md)                   |Python
+[Jupyter](../software/jupyter.md)       |Python
 [RStudio](rstudio_on_bianca.md)         |R
 :no_entry: [VSCode](vscode_on_bianca.md)|General-purpose
 [VSCodium](vscodium_on_bianca.md)       |General-purpose

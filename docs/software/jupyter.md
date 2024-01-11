@@ -4,7 +4,11 @@ Jupyter is an IDE specialized for the Python programming language.
 
 ???- tip "What is an IDE?"
 
-    See [the page on IDEs](ides.md).
+    See [the UPPMAX page on IDEs](ides.md).
+
+???- tip "What is Python?"
+
+    See [the UPPMAX page on Python](../software/python.md).
 
 !!! info
 
