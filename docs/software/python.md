@@ -320,7 +320,7 @@ Exit with `<Ctrl-D>`, `quit()` or `exit()`.
 
 There are these UPPMAX courses related to Python:
 
-- 'Introduction to Python' connected to our [introduction week course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
+- [Introduction to Python](https://github.com/UPPMAX/uppmax_intro_python), which is one day of the [introduction to UPPMAX course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/) which takes four days in total  
 - 1-day workshop 'Using Python in a HPC environment'
 - 3-day course on Python, Julia and R
 
@@ -347,5 +347,8 @@ is described [here](python_parallel_jobs.md).
 
 * [Official Python documentation](https://docs.python.org/3/)
 * [Python forum](https://www.python.org/community/forums/)
+* [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
 * [UPPMAX TensorFlow guide](https://www.uppmax.uu.se/support/user-guides/tensorflow-user-guide/)
 * [UPPMAX PyTorch guide](https://www.uppmax.uu.se/support/user-guides/nvidia-deep-learning-frameworks/)
+
+
