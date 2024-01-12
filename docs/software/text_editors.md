@@ -38,9 +38,9 @@ nano
 The keyboard shortcuts are shown on-screen,
 where `^` denotes `Ctrl` and `M` the meta key.
 
-- On Windows, `M` is `Alt`
+- On Windows, `Alt` is the meta key
 - On Mac: in the `Terminal.app`, go to 'Preferences -> Settings -> Keyboard' 
-  and turn on "Use option as meta key": then `M` is `Alt`
+  and turn on "Use option as meta key", after which `Alt` is the meta key
 
 See a nano cheat sheet [here](https://www.nano-editor.org/dist/latest/cheatsheet.html).
 
