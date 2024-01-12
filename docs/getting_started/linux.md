@@ -14,7 +14,6 @@
     - How the command line works
     - Some text editors
     - Things to be aware of
-```
 
 ???- question "Want a video?"
 
