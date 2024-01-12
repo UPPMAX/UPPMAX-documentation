@@ -14,6 +14,7 @@ Try them out and pick one favorite editor!
 !!! tip
 
     **These commands are useful in the command line when something is stuck or a program is limiting you to do further work.**
+
     - ``ctrl-C`` interrupts a program or a command that is "stuck"
     - ``ctrl-D`` quits some programs from the program environment in the terminal
     - ``ctrl-Z`` pauses a program, can be continued in background (`bg`) or  foreground (`fg`)
