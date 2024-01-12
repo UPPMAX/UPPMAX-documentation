@@ -250,24 +250,28 @@ $ tar -vxzf files.tar.gz
     - **Tip: make "rm" ask if you really want to erase:**
     - Within a session: Type in the command prompt
 
-        alias rm='rm -i'
-
+    ```console
+    alias rm='rm -i'
+    ```
     - Override asking with 
 
-        rm –f <>
-
-     - Edit file ".bashrc" in /home directory by adding the alias line for this to start every time.
-    - This will also work for mv and cp!
+    ```console       
+    rm –f <>
+    ```
+    - Do you want this to be the case everytime you start a new session?
+       - Edit file ".bashrc" in /home directory by adding the above alias line on any but the first line.
+    - These steps will also work for ``mv`` and ``cp``. 
 
 
 - Deleting files works just like copying or moving them: `rm <target>`
 
 - Try it out:
+  
 ```console
 $ rm ../renamedfile
 
 $ rm this_is_empty
- ```
+```
 
 - hmmmm...
 
@@ -281,7 +285,8 @@ $ rmdir this_is_empty
 
 $ rmdir this_has_a_file
 ```
-- Again??
+
+- Problem again??
  
 - Is there a way to use rm to delete directories?
  
@@ -492,22 +497,7 @@ $ ls -l
   - Files: Run the file as a program
   - Directories: Traverse the directory (e.g. with “cd”)
 
-!!!- solution For the interested
 
-    - Now try:
-
-    ```console
-    $ ls -l /proj/introtouppmax/
-    ```
-
-    - Huh, ``rwxrwsr-x``?
-    - `s` in the group means `x` but with *gid bit set* ( g roup id of creator not launcher).
-    - The s or sticky bit is a group permission on directories which changes the default behaviour of new files are created with the same group_id as the users group_id to new files inheriting the group_id from the parent directory.
-    - `S` means `-` with gid bit set (rarely seen).
-    - Among other things, this makes the default group for new files/subdirectories the, for instance, ``p_introtouppmax`` group.
-
-
- 
 ## Changing permissions
 **chmod** — change file mode bits
 
@@ -578,9 +568,9 @@ $ ls -l
     - Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
     - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 
-    ???- solution solution
+    ??? solution 
 
-         ```console
-         $ chmod -wR <target>
-         ```
+        ```console
+        $ chmod -wR <target>
+        ```
 
