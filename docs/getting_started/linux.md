@@ -201,13 +201,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - Linux Operating system is a UNIX-like and UNIX compatible Operating system.
     - Typical command:
         $ program word1 word2 word3 […]
-    - Example of file editors
-        - terminal
-            - nano
-            - vim
-            - emacs
-        - graphical:
-            - gedit
+    - Use [text editors](../software/text_editors.md) to edit files
     - Tips
         - use Tab completion
         - capitalization and spaces matters
