@@ -21,22 +21,28 @@ Try them out and pick one favorite editor!
 
 ## Simple terminal editors
 
-### nano 
+### GNU nano 
 
-`nano` is a simple terminal editor that is easy to learn.
+???- question "Want to see a video?"
 
-Start `nano` on a terminal with:
+    You can find a video on using nano on Rackham [here](https://youtu.be/Ntg0sjBQA0E)
+
+GNU nano is a simple terminal editor that is easy to learn.
+
+Start nano on a terminal with:
 
 ```
 nano
 ```
 
+The keyboard shortcuts are shown on-screen,
+where `^` denotes `Ctrl` and `M` the meta key.
 
-- keyboard shortcuts shown on-screen
-- [Cheat sheet](https://www.nano-editor.org/dist/latest/cheatsheet.html) 
-  - ^ = Ctrl, M = meta key)
-    - Windows M = Alt
-    - On Mac: in the Terminal.app go to Preferences -> Settings -> Keyboard and turn on "Use option as meta key": then M = Alt
+- On Windows, `M` is `Alt`
+- On Mac: in the `Terminal.app`, go to 'Preferences -> Settings -> Keyboard' 
+  and turn on "Use option as meta key": then `M` is `Alt`
+
+See a nano cheat sheet [here](https://www.nano-editor.org/dist/latest/cheatsheet.html).
 
 ## Advanced terminal editors
 
