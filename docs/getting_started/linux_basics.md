@@ -186,7 +186,9 @@ $ cp newfile copyfile
  
 ### scp —secure copy (remote file copy program)
 
-- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` from the terminal on your local machine:
+- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
+
+#### Upload to Rackham
 - Upload from present directory on local machine to your home directory on cluster.
   - Example (*not done by us today*)
  
@@ -195,16 +197,21 @@ $ cp newfile copyfile
 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
 ``` 
- 
+
+
+#### Download from Rackham 
 - Download
 ```console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
-!!! todo
-    
-    TODO: demo
+
+!!! seealso
+
+    - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
+
+
  
 ### mv — move/rename file
 
