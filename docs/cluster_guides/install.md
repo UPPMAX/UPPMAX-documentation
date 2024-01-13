@@ -59,11 +59,7 @@
 
 !!! info "More info"
 
-    - [Extra material: Installing Conda packages](https://uppmax.github.io/bianca_workshop/conda/)
-    - [Conda user guide](https://www.uppmax.uu.se/support/user-guides/conda-user-guide/)
-    - [UPPMAX Python user guide: Conda](https://www.uppmax.uu.se/support/user-guides/python-user-guide/#tocjump_9332829429720808_6)
-
-
+    - [Conda user guide](conda.md)
 
 ### Python packages with pip
 
