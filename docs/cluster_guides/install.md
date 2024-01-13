@@ -20,8 +20,10 @@
 
 !!! info "Tip Python packages"
 
-    - Try Conda first directly on Bianca. We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
-    - If you want to keep number of files down, use PyPI (pip), but then you need to use Rackham and the ``wharf``.
+    - Try Conda first directly on Bianca and PyPI on Rackham.
+    - We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
+    - If you want to keep number of files down, use PyPI (pip).
+    - Also it is easier to get **conflicting environments if using both Python module and Conda in parallel**.
 
 ### Conda
 
@@ -45,7 +47,7 @@
 
 ### Python packages with pip
 
-- [Installing with pip](../software/python_install_packages/)
+- [Installing with pip](../software/python_install_packages.md)
 
 ### R packages
 
