@@ -6,9 +6,9 @@
 - To build from source use a **compiler module**
 - We have several compiler versions from GNU and INTEL
 - check with: ``$ ml avail gcc`` and ``$ ml avail intel``
-- [Guide for compiling **serial** programs](https://www.uppmax.uu.se/support/user-guides/compiling-source-code/){:target="_blank"}
-- [Guide for compiling **parallel** programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/){:target="_blank"}
-    - [Available **combinations** of compilers and parallel libraries](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/#tocjump_48302061903476823_2){:target="_blank"}
+- [Guide for compiling **serial** programs](compiling_serial.md)
+- [Guide for compiling **parallel** programs](compiling_parallel.md)
+    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
 
 
 ## Packages and libraries to scripting programs
@@ -95,6 +95,7 @@
 
     - [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
     - [Part from Bianca course but applicable aslo on Rackham](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/extra/containers.md)
+    
 ### Spack
 - The UPPMAX staff has already other ways to install most software applications. 
 - Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
@@ -102,7 +103,9 @@
 
 ### Own development...
 - You may have your own code that you want to run on UPPMAX.
-- See the [guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
+- [Guide for compiling **serial** programs](compiling_serial.md)
+- [Guide for compiling **parallel** programs](compiling_parallel.md)
+    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
 - [User guide for debuggers and profilers](https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/)
 
 ## Run own scripts or programs
