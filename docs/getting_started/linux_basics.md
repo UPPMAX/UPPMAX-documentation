@@ -92,6 +92,10 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
 
+!!! warning
+
+    The following steps will only be available for the Introduction course members
+
 ```console
 $ cd /proj/introtouppmax
 
@@ -123,7 +127,7 @@ $ pwd
     ```
 
 
-    ???- solution
+    ??? solution
         - `cd -` : goes back to your last directory
 
         - `cd ..` : goes a level up in the hierarchy
@@ -184,7 +188,7 @@ $ cd linux_tutorial
 $ cp newfile copyfile
 ```
  
-### scp —secure copy (remote file copy program)
+### scp — secure copy (remote file copy program)
 
 - Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
 
