@@ -94,8 +94,9 @@ is how to use the command-line on the UPPMAX Bianca cluster.
  
 ### Example bash command
 
-<section>
 ![folders](./img/folders.png)
+
+<section>
 <br/>
     
 ![mv inbox](./img/mv_inbox.png)
