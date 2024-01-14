@@ -208,8 +208,11 @@ $ cp newfile copyfile
 !!! example
 
     **Download the file ``first.txt``**
-    - [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
-
+    -  In your local terminal:
+    
+    ```console
+    [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
+    ```  
     
 #### Upload to Rackham
 - Upload from present directory on local machine to your home directory on cluster.
@@ -221,6 +224,16 @@ $ cp newfile copyfile
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
 ``` 
 
+!!! example
+
+    **upload the file ``first.txt`` after some modification**
+    1. Open the file you just downloaded in any editor.
+    2. Add a row, like: ``A new row``
+    3. Save and quit.
+    4. Upload your file but save it as ``second.txt`` on Rackham. In your local terminal:
+       - ```console
+         [bob@macbook]$ scp second <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
+         ```
 
  
 ### mv — move/rename file
