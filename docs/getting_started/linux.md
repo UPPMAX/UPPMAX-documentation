@@ -139,7 +139,8 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     ```console
     $ nano first.txt
     ```
-    - type `test text` 
+    
+    - Type `test text` 
     - End and save with ``<ctrl>-X`` followed by `Y` and `<enter>`.
     
 
