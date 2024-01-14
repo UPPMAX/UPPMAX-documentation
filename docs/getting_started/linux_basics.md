@@ -94,7 +94,8 @@ $ man ls
 
 !!! warning
 
-    The following steps will only be available for the Introduction course members
+    - Some of following steps will only be available for the Introduction course members.
+    - These involve the `/proj/introtouppmax`` directory
 
 ```console
 $ cd /proj/introtouppmax
