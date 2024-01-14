@@ -1,6 +1,6 @@
 # Compiling serial source code
 
-For parallel programs, see MPI and OpenMP user guide.
+For parallel programs, see [MPI and OpenMP user guide](compiling_parallel.md).
 
 ## Fortran programs
 
