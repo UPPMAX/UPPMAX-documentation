@@ -97,6 +97,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 <section>
 
 ![mv inbox](./img/mv_inbox.png)
+<br>
 ![mv inbox](./img/mv_inbox.png){ width:"300" }
 <br>
 ![Image title](https://dummyimage.com/600x400/eee/aaa)
@@ -106,10 +107,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 <br/><br/>
 
-!!! image ./img/program_flags.png
-    :alt: program flags
-    :width: 300px
-    :align: left
+![program flags](./img/program_flags.png)
 
     
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
