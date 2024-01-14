@@ -70,7 +70,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 - bash is scripting language that is referred to as a shell
   - (because it sits around the kernel making it easy to interact with)
 
- ![Content](./img/unix_architecture.jpg)
+![Content](./img/unix_architecture.jpg)
 
  
 ### The prompt
@@ -95,17 +95,18 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ### Example bash command
 
 <section>
-    
-!!! image  ./img/mv_inbox.png
 
+
+!!! image ./img/mv_inbox.png
     :alt: mv inbox
     :width: 300px
     :align: left
 
 
+
 <br/><br/>
 
-!!! image  ./img/program_flags.png
+!!! image ./img/program_flags.png
     :alt: program flags
     :width: 300px
     :align: left
@@ -117,7 +118,6 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 </section>
 
  
-
 - Terminal screen shows
     
 </p>
@@ -128,7 +128,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ### Tab Completion
 <section>
 
-!!! image  ./img/tab.png
+!!! image ./img/tab.png
     :alt: tab
     :width: 200px
     :align: left
