@@ -99,12 +99,12 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ![mv inbox](./img/mv_inbox.png){: style="width:300px"}
 <br/>
 
-<br/><br/>
+<br/>
 
 ![program flags](./img/program_flags.png){ : style="width:200px" }
 
     
-<br/><br/>
+<br/>
     
 - Terminal screen shows
 
@@ -117,7 +117,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ![Content](./img/tab.png){ : style="width:200px" }
 
 
-<br/><br/><br/><br/><br/>
+<br/><
 
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
