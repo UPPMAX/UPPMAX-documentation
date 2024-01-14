@@ -27,15 +27,15 @@ For serial programs, see a short version of this page at Compiling source code.
 
 These notes show by brief examples how to compile and run serial and parallel programs on the clusters at UPPMAX.
 
-Section 1 show how to compile and run serial programs, written in fortran, c, or java, on the login nodes. Things work very much like on any unix system, but the subsections on c and java also demonstrate the use of modules.
+- Section 1 show how to compile and run serial programs, written in fortran, c, or java, on the login nodes. Things work very much like on any unix system, but the subsections on c and java also demonstrate the use of modules.
 
-Section 2 show how to run serial programs on the execution nodes by submitting them as batch jobs to the queue system SLURM.
+- Section 2 show how to run serial programs on the execution nodes by submitting them as batch jobs to the queue system SLURM.
 
-Section 3 demonstrate parallel message passing programs in c, using the MPI system.
+- Section 3 demonstrate parallel message passing programs in c, using the MPI system.
 
-Section 4 demonstrate threaded programs in c using OpenMP directives. These programs must be executed on processors on the same node, since the threads have common memory areas.
+- Section 4 demonstrate threaded programs in c using OpenMP directives. These programs must be executed on processors on the same node, since the threads have common memory areas.
 
-Section 5, finally, demonstrate threaded programs usinig pthreads instead of OpenMP.
+- Section 5, finally, demonstrate threaded programs usinig pthreads instead of OpenMP.
 
 All programs are of the trivial "hello, world" type. The point is to demonstrate how to compile and execute the programs, not how to write parallel programs.
 
@@ -68,7 +68,7 @@ to true.
 
 Do this by the line below in your batch script or in your interactive environment
 
-export OMPI_MCA_btl_openib_allow_ib=1
+    export OMPI_MCA_btl_openib_allow_ib=1
 
 ## Serial programs on the login node
 ### Fortran programs
@@ -88,18 +88,24 @@ For this example we will use Gnu Compiler Collection (gcc) compilers installed o
 
 A module must first be loaded to use the compilers. You can check what is available and then load a specific version. Choose one recent or one you know will work for your needs.
 
+```console
 $ module avail gcc
 
 $ module load gcc/10.3.0
+```
 
 To compile, enter the command:
 
+```console
 $ gfortran -o hello hello.f
+```
 
 to run, enter:
 
+```console
 $ ./hello
 hello, world
+```
 
 To compile with good optimization you can use the "-Ofast" flag to the compiler, but be a bit careful with the -Ofast flag, since sometimes the compiler is a bit overenthusiastic in the optimization and this is especially true if your code contains programming errors (which if you are responsible for the code ought to fix, but if this is someone elses code your options are often more limited). Should -Ofast not work for your code you may try with -O3 instead.
 
@@ -109,32 +115,44 @@ If you want to use Intel, check what is available and choose one recent or one y
 
 For Intel versions up to 20.4 you do as follows:
 
+```console
 $ module avail intel
 
 $ module load intel/20.4
+```
 
 To compile, enter the command:
 
+```console
 $ ifort -o hello hello.f
+```
 
 For Intel versions from year 2021, do like this instead:
 
+```console
 $ module load intel-oneapi compiler
 
 $ module av compiler 
+```
 
 Choose the version you need, like 
 
+```console
 $ module load compiler/2023.1.0 
+```
 
 To compile, enter the command:
 
+```console
 $ ifx -o hello hello.f
+```
 
 to run, enter:
 
+```console
 $ ./hello
 hello, world
+```
 
 ### C programs
 
@@ -152,42 +170,58 @@ int main()
 
 To compile using gcc installed with the system (4.8.5, 2015) and with no optimization, use the gcc command.
 
+```console
 $ gcc -o hello hello.c
+```
 
 To use a newer version of ggc we load a module:
 
+```console
 $ module load gcc/10.3.0
 
 $ gcc -o hello hello.c
+```
 
 with basic optimization:
 
+```console
 $ gcc -O3 -o hello hello.c
+```
 
 c11 standard has full support from gcc/4.8, c17 standard (bug-fix) from gcc/8.
 
 To use the intel compiler, first load the intel module:
 
+```console
 $ module load intel/20.4
+```
 
 or for newer Intel versions (2021-, see above):
 
+```console
 $ module load intel-oneapi compiler
 
 $ module load compiler/2023.1.0 
+```
 
 and then compile with the command icc, or icx:
 
+```console
 $ icc -o hello hello.c
+```
 
 or for newer versions:
 
+```console
 $ icx -o hello hello.c
+```
 
 To run, enter:
 
+```console
 $ ./hello
 hello, world
+```
 
 c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
 
@@ -208,25 +242,35 @@ public static void main(String[] args)
 Before compiling a java program, the module java has to be loaded.
 To load the java module, enter the command:
 
+```console
 $ module load java
+```
 
 To check that the java module is loaded, use the command:
 
+```console
 $ module list
+```
 
 To compile, enter the command:
 
+```console
 $ javac hello.java
+```
 
 The java module is not always needed to run the program.
 To verify this, unload the java module:
 
+```console
 $ module unload java
+```
 
 to run, enter:
 
+```console
 $ java hello
 hello, world
+```
 
 Running serial programs on execution nodes
 
@@ -256,12 +300,16 @@ The last line in the script is the command used to start the program.
 
 Submit the job to the batch queue:
 
+```console
 $ sbatch hello.sh
+```
 
 The program's output to stdout is saved in the file named at the -o flag.
 
+```console
 $ cat hello.out
 hello, world
+```
 
 ## MPI using the OpenMPI library
 
@@ -301,7 +349,9 @@ to true.
 
 Do this by the line below in your batch script or in your interactive environment
 
+```console
 export OMPI_MCA_btl_openib_allow_ib=1
+```
 
 ### C programs
 
@@ -326,21 +376,29 @@ int main(int argc, char *argv[])
 Before compiling a program for MPI we must choose which version of MPI. At UPPMAX there are two, openmpi and intelmpi. For this example we will use openmpi.
 To load the openmpi module, enter the command below or choose other versions according to the lists above.
 
+```console
 $ module load gcc/10.3.0 openmpi/3.1.6
+```
 
 To check that the openmpi modules is loaded, use the command:
 
+```console
 $ module list
+```
 
 The command to compile a c program for mpi is mpicc. Which compiler is used when this command is issued depends on what compiler module was loaded before openmpi
 
 To compile, enter the command:
 
+```console
 $ mpicc -o hello hello.c
+```
 
 You should add optimization and other flags to the mpicc command, just as you would to the compiler used. So if the gcc compiler is used and you wish to compile an mpi program written in C with good, fast optimization you should use a command similar to the following:
 
+```console
 $ mpicc -fast -o hello hello.c
+```
 
 To run the mpi program hello using the batch system:
 
@@ -366,7 +424,9 @@ The last word on the last line is the program name hello.
 
 Submit the job to the batch queue:
 
+```console
 $ sbatch hello.sh
+```
 
 The program's output to stdout is saved in the file named at the -o flag.
 A test run of the above program yelds the following output file:
@@ -426,8 +486,10 @@ end program testampi
 
 The program can be compiled by this procedure, using mpif90:
 
+```console
 $ module load intel/20.4 openmpi/3.1.6
 $ mpif90 -Ofast -o testampi testampi.f90
+```
 
 The program can be run by creating a submit script sub.sh:
 
@@ -451,10 +513,13 @@ mpirun ./testampi
 
 Submit it:
 
+```console
 sbatch sub.sh
+```
 
 Output from the program on Rackham:
 
+```console
 I am node             8  out of             8  nodes.
 start is      87499999
 end is      99999999
@@ -489,6 +554,7 @@ Result from node             1  is    0.1246737119371059
 Result from node             4  is    0.1122902087263801     
 Result of integration is    0.7853982201935574     
 Estimate of Pi is     3.141592880774230     
+```
 
 ## OpenMP
 
@@ -496,11 +562,15 @@ OpenMP uses threads that use shared memory. OpenMP is supported by both the gcc 
 
 Depending on your preferences load the chosen compiler:
 
+```console
 $ module load gcc/12.1.0
+```
 
 or
 
+```console
 $ module load intel/20.4
+```
 
 ### C programs
 
@@ -525,11 +595,15 @@ int main()
 
 To compile, enter the command (note the -fopenmp or -qopenmp flag depending on compiler):
 
+```console
 $ gcc -fopenmp -o hello_omp hello_omp.c
+```
 
 or
 
+```console
 $ icc qfopenmp -o hello_omp hello_omp.c
+```
 
 Also here you should add optimization flags such as -fast as appropriate.
 
@@ -555,13 +629,15 @@ module load intel/20.4
 # or gcc...
 ulimit -s  $STACKLIMIT
 ./hello_omp
-```bash
+```
 
 The last line in the script is the command used to start the program.
 
 Submit the job to the batch queue:
 
+```console
 $ sbatch hello.sh
+```
 
 The program's output to stdout is saved in the file named at the -o flag.
 A test run of the above program yelds the following output file:
@@ -604,21 +680,28 @@ END
 
 With gcc compiler: 
 
+```console
 $ gfortran hello_omp.f90 -o hello_omp -fopenmp
+```
 
 and with Intel compiler: 
 
+```console
 $ ifort hello_omp.f90 -o hello_omp -qopenmp
+```
 
 Run with:
 
+```console
 $ ./hello_omp
 
-Hello World from thread =            1
+ Hello World from thread =            1
  Hello World from thread =            2
  Hello World from thread =            0
  Hello World from thread =            3
  Number of threads =            4
+```
+
 
 A batch file would look similar to the C version, above. 
 
