@@ -104,7 +104,7 @@
 
 !!! tip
 
-    - You may wnat to have the same path for all conda environments in the present project
+    - You may want to have the same path for all conda environments in the present project
     - ``echo "export CONDA_ENVS_PATH=/a/path/to/a/place/in/your/project/" >> ~/.bashrc`` 
         - Example: ``echo "export CONDA_ENVS_PATH=/proj/<project>/conda" >> ~/.bashrc``
 
