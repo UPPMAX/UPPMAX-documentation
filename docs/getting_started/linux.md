@@ -100,7 +100,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 <br>
 ![](https://example.com/qqq.img){: style="height:150px;width:150px"}
 <br>
-![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
 
 <br/><br/>
 
