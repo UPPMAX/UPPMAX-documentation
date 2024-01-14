@@ -95,11 +95,8 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ### Example bash command
 
 
-<br/>
     
 ![mv inbox](./img/mv_inbox.png){: style="width:200px"}
-<br/>
-![mv inbox](./img/mv_inbox.png){ align=left;width:"200" }
 <br/>
 
 <br/><br/>
@@ -107,15 +104,13 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ![program flags](./img/program_flags.png){ : style="width:200px" }
 
     
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<b>/><br/><br/>
    
 
 
 
  
 - Terminal screen shows
-    
-</p>
 
 ![Content](./img/screen.png)               
 
