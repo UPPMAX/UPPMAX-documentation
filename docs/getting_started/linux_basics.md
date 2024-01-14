@@ -193,17 +193,6 @@ $ cp newfile copyfile
 
 - Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
 
-#### Upload to Rackham
-- Upload from present directory on local machine to your home directory on cluster.
-  - Example (*not done by us today*)
- 
-```console
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
-
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
-``` 
-
-
 #### Download from Rackham 
 - Download
 ```console
@@ -215,6 +204,22 @@ $ cp newfile copyfile
 !!! seealso
 
     - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
+
+!!! example
+
+    **Download the file ``first.txt``**
+    - [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
+
+    
+#### Upload to Rackham
+- Upload from present directory on local machine to your home directory on cluster.
+  - Example (*not done by us today*)
+ 
+```console
+[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
+
+[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
+``` 
 
 
  
