@@ -230,9 +230,11 @@ $ cp newfile copyfile
     2. Add a row, like: ``A new row``
     3. Save and quit.
     4. Upload your file but save it as ``second.txt`` on Rackham. In your local terminal:
-       - ```console
-         [bob@macbook]$ scp second <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
-         ```
+    
+    ```console
+    [bob@macbook]$ scp first.txt <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
+    ```
+    
 !!! seealso
 
     - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
