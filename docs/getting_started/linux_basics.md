@@ -201,13 +201,11 @@ $ cp newfile copyfile
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
 
-!!! seealso
-
-    - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
 
 !!! example
 
     **Download the file ``first.txt``**
+    
     -  In your local terminal:
     
     ```console
@@ -216,7 +214,7 @@ $ cp newfile copyfile
     
 #### Upload to Rackham
 - Upload from present directory on local machine to your home directory on cluster.
-  - Example (*not done by us today*)
+  - Example:
  
 ```console
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
@@ -227,6 +225,7 @@ $ cp newfile copyfile
 !!! example
 
     **upload the file ``first.txt`` after some modification**
+    
     1. Open the file you just downloaded in any editor.
     2. Add a row, like: ``A new row``
     3. Save and quit.
@@ -234,6 +233,9 @@ $ cp newfile copyfile
        - ```console
          [bob@macbook]$ scp second <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
          ```
+!!! seealso
+
+    - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
 
  
 ### mv — move/rename file
