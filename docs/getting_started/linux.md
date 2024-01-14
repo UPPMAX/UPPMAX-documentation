@@ -96,11 +96,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 <section>
 
-
-!!! image ./img/mv_inbox.png
-    :alt: mv inbox
-    :width: 300px
-    :align: left
+![mv inbox](/img/mv_inbox.png){: style="align:left;width:300px"}
 
 
 
