@@ -94,9 +94,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
  
 ### Example bash command
 
-![folders](./img/folders.png)
 
-<section>
 <br/>
     
 ![mv inbox](./img/mv_inbox.png)
@@ -116,7 +114,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
    
 
-</section>
+
 
  
 - Terminal screen shows
@@ -127,7 +125,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
  
 ### Tab Completion
-<section>
+
 
 !!! image ./img/tab.png
     :alt: tab
@@ -135,7 +133,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
     :align: left
 
 <br/><br/><br/><br/><br/>
-</section>
+
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
