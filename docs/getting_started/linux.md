@@ -96,7 +96,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 
     
-![mv inbox](./img/mv_inbox.png){: style="width:200px"}
+![mv inbox](./img/mv_inbox.png){: style="width:300px"}
 <br/>
 
 <br/><br/>
@@ -104,15 +104,11 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ![program flags](./img/program_flags.png){ : style="width:200px" }
 
     
-<b>/><br/><br/>
-   
-
-
-
- 
+<br/><br/>
+    
 - Terminal screen shows
 
-![Content](./img/screen.png)               
+![Content](./img/screen.png){ : style="width:500px" }               
 
  
 ### Tab Completion
