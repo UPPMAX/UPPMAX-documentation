@@ -95,7 +95,6 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ### Example bash command
 
 
-    
 ![mv inbox](./img/mv_inbox.png){: style="width:300px"}
 <br/>
 
@@ -133,6 +132,16 @@ ask Bash to complete what you’re writing.
 To edit files, you will use a text editor.
 The UPPMAX HPC clusters have multiple text editors installed,
 which are described at the UPPMAX 'Text editors' page [here](../software/text_editors.md).
+
+!!! example
+
+    **Start nano and save a file called `first.txt`**
+    ```console
+    $ nano first.txt
+    ```
+    - type `test text` 
+    - End and save with ``<ctrl>-X`` followed by `Y` and `<enter>`.
+    
 
 ## Typical sources of error
 
