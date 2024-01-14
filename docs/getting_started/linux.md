@@ -99,16 +99,12 @@ is how to use the command-line on the UPPMAX Bianca cluster.
     
 ![mv inbox](./img/mv_inbox.png)
 <br/>
-![mv inbox](./img/mv_inbox.png){ width:"300" }
+![mv inbox](./img/mv_inbox.png){ align=left;width:"200" }
 <br/>
-![Image title](https://dummyimage.com/600x400/eee/aaa)
-
-<br/>
-![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
 
 <br/><br/>
 
-![program flags](./img/program_flags.png)
+![program flags](./img/program_flags.png){ align=left;width:"200" }
 
     
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -127,10 +123,8 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ### Tab Completion
 
 
-!!! image ./img/tab.png
-    :alt: tab
-    :width: 200px
-    :align: left
+![Content](./img/tab.png){ align=left;width:"200" }
+
 
 <br/><br/><br/><br/><br/>
 
