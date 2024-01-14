@@ -97,9 +97,10 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 <section>
 
 ![mv inbox](./img/mv_inbox.png){: style="width:300px"}
-
+<br>
 ![](https://example.com/qqq.img){: style="height:150px;width:150px"}
-
+<br>
+![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
 
 <br/><br/>
 
