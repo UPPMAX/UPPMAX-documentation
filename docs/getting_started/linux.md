@@ -70,7 +70,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 - bash is scripting language that is referred to as a shell
   - (because it sits around the kernel making it easy to interact with)
 
- ![Content](./img/unix_architecture.jpg)
+![Content](./img/unix_architecture.jpg)
 
  
 ### The prompt
@@ -94,47 +94,30 @@ is how to use the command-line on the UPPMAX Bianca cluster.
  
 ### Example bash command
 
-<section>
-    
-!!! image  ./img/mv_inbox.png
 
-    :alt: mv inbox
-    :width: 300px
-    :align: left
+![mv inbox](./img/mv_inbox.png){: style="width:300px"}
+<br/>
 
+<br/>
 
-<br/><br/>
-
-!!! image  ./img/program_flags.png
-    :alt: program flags
-    :width: 300px
-    :align: left
+![program flags](./img/program_flags.png){ : style="width:200px" }
 
     
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-   
-
-</section>
-
- 
-
+<br/>
+    
 - Terminal screen shows
-    
-</p>
 
-![Content](./img/screen.png)               
+![Content](./img/screen.png){ : style="width:500px" }               
 
  
 ### Tab Completion
-<section>
 
-!!! image  ./img/tab.png
-    :alt: tab
-    :width: 200px
-    :align: left
 
-<br/><br/><br/><br/><br/>
-</section>
+![Content](./img/tab.png){ : style="width:200px" }
+
+
+<br/><
+
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
@@ -149,6 +132,17 @@ ask Bash to complete what you’re writing.
 To edit files, you will use a text editor.
 The UPPMAX HPC clusters have multiple text editors installed,
 which are described at the UPPMAX 'Text editors' page [here](../software/text_editors.md).
+
+!!! example
+
+    **Start nano and save a file called `first.txt`**
+    ```console
+    $ nano first.txt
+    ```
+    
+    - Type `test text` 
+    - End and save with ``<ctrl>-X`` followed by `Y` and `<enter>`.
+    
 
 ## Typical sources of error
 

@@ -15,7 +15,7 @@ nav:
     - Linux tutorials:
       - Working in Linux: getting_started/linux.md
       - Basic Linux commands: getting_started/linux_basics.md
-    - Running your first job: getting_started/first_job.md
+#    - Running your first job: getting_started/first_job.md
   - Cluster user guide:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
     - Cluster portals: 
@@ -30,6 +30,7 @@ nav:
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
     - Installing and development: 
       - Installing: cluster_guides/install.md
+      - Installing with conda: cluster_guides/conda.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
   - Software:

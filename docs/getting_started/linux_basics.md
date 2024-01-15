@@ -92,6 +92,11 @@ $ man ls
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
 
+!!! warning
+
+    - Some of following steps will only be available for the Introduction course members.
+    - These involve the `/proj/introtouppmax`` directory
+
 ```console
 $ cd /proj/introtouppmax
 
@@ -123,7 +128,7 @@ $ pwd
     ```
 
 
-    ???- solution
+    ??? solution
         - `cd -` : goes back to your last directory
 
         - `cd ..` : goes a level up in the hierarchy
@@ -184,27 +189,56 @@ $ cd linux_tutorial
 $ cp newfile copyfile
 ```
  
-### scp —secure copy (remote file copy program)
+### scp — secure copy (remote file copy program)
 
-- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` from the terminal on your local machine:
-- Upload from present directory on local machine to your home directory on cluster.
-  - Example (*not done by us today*)
- 
-```console
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
+- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
 
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
-``` 
- 
+#### Download from Rackham 
 - Download
 ```console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
-!!! todo
+
+
+!!! example
+
+    **Download the file ``first.txt``**
     
-    TODO: demo
+    -  In your local terminal:
+    
+    ```console
+    [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
+    ```  
+    
+#### Upload to Rackham
+- Upload from present directory on local machine to your home directory on cluster.
+  - Example:
+ 
+```console
+[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
+
+[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
+``` 
+
+!!! example
+
+    **upload the file ``first.txt`` after some modification**
+    
+    1. Open the file you just downloaded in any editor.
+    2. Add a row, like: ``A new row``
+    3. Save and quit.
+    4. Upload your file but save it as ``second.txt`` on Rackham. In your local terminal:
+    
+    ```console
+    [bob@macbook]$ scp first.txt <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
+    ```
+    
+!!! seealso
+
+    - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
+
  
 ### mv — move/rename file
 
@@ -451,6 +485,20 @@ $ tail -n 5 a
 
      “less is more”
  
+## History
+
+- ``history`` shows previous commands
+- You can rerun earlier commands by:
+    - copy-pasting and pressing ``<enter>``
+    - ``!990`` will run the command of line 990 of last `history` output.
+- Search for earlier commands you just remember parts of:
+    - history | grep 'jobstats'
+- [More info](https://www.redswitches.com/blog/linux-history-command/)
+
+
+
+
+
 ## File permissions
 
 

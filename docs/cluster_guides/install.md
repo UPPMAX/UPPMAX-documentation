@@ -2,29 +2,13 @@
 
 ## Install software yourself
 
-- If not available on Bianca already (like Conda repositories) you may have to use the ``wharf`` to install your tools
-    - Alternatively let an Application Expert install the tool as a module.
-
-!!! note "Typical workflow for installation"
-
-    - **Download the source code or binary** (Linux on x86 and 64-bit) to Rackham first
-    - **Transfer** to the ``wharf``
-    - Then, either 
-        - You can install in your home directory.
-            - This is handy for personal needs, low numbers of files (i.e. not Conda).
-         - Usually better to install in project directory.
-            - This way the project contains both data and software — good for reproducibility, collaboration, and everyone's general sanity.
-    - Binaries for Linux on x86 and 64-bit should be able to be run directly as it is, see the software specific installation documentation.
-    - or build from source, see next session.
-     
-
 ### Build from source
 - To build from source use a **compiler module**
 - We have several compiler versions from GNU and INTEL
 - check with: ``$ ml avail gcc`` and ``$ ml avail intel``
-- [Guide for compiling **serial** programs](https://www.uppmax.uu.se/support/user-guides/compiling-source-code/){:target="_blank"}
-- [Guide for compiling **parallel** programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/){:target="_blank"}
-    - [Available **combinations** of compilers and parallel libraries](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/#tocjump_48302061903476823_2){:target="_blank"}
+- [Guide for compiling **serial** programs](compiling_serial.md)
+- [Guide for compiling **parallel** programs](compiling_parallel.md)
+    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
 
 
 ## Packages and libraries to scripting programs
@@ -36,8 +20,10 @@
 
 !!! info "Tip Python packages"
 
-    - Try Conda first directly on Bianca. We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
-    - If you want to keep number of files down, use PyPI (pip), but then you need to use Rackham and the ``wharf``.
+    - Try Conda first directly on Bianca and PyPI on Rackham.
+    - We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
+    - If you want to keep number of files down, use PyPI (pip).
+    - Also it is easier to get **conflicting environments if using both Python module and Conda in parallel**.
 
 ### Conda
 
@@ -57,32 +43,11 @@
     - r2018.11
     - scilifelab-lts
 
-!!! info "More info"
-
-    - [Extra material: Installing Conda packages](https://uppmax.github.io/bianca_workshop/conda/)
-    - [Conda user guide](https://www.uppmax.uu.se/support/user-guides/conda-user-guide/)
-    - [UPPMAX Python user guide: Conda](https://www.uppmax.uu.se/support/user-guides/python-user-guide/#tocjump_9332829429720808_6)
-
-
+- [Conda user guide](conda.md)
 
 ### Python packages with pip
 
-!!! info "Installation principle"
-
-    - install on Rackham
-        - ``pip install --user <package>``
-        - ``python setup.py install --user or --prefix=<path>``
-    - sync to ``wharf``
-    - move the files on Bianca to correct place
-    - you may have to update ``$PYTHONPATH``
-
-!!! info "More info"
-
-    - [Extra material: Installing pip packages](https://uppmax.github.io/bianca_workshop/pip/){:target="_blank"}
-    - [UPPMAX Python user guide: Pip](https://www.uppmax.uu.se/support/user-guides/python-user-guide/#tocjump_9332829429720808_5){:target="_blank"}
-    - [From Python course: packages](https://uppmax.github.io/R-python-julia-HPC/python/packages.html){:target="_blank"}
-    - [From Python course: isolated environments](https://uppmax.github.io/R-python-julia-HPC/python/isolated.html){:target="_blank"}
-
+- [Installing with pip](../software/python_install_packages.md)
 
 ### R packages
 
@@ -91,37 +56,7 @@
     -  A total of 23109 packages were available in CRAN and BioConductor, and 23000 of these were installed in ``R_packages/4.2.1``
     -  The additional 100 R packages available in this module were installed from the CRAN/BioConductor archives, or were hosted on github, gitlab or elsewhere.
 
-Chances are good the R packages you need are already available once you load this module.  You can quickly check by loading it:
-
-``$ ml R_packages/4.2.1``
-
-Then within R, try loading the package you want:
-
-``library(glmnet)``
-
-Or a bit longer way, you can ``grep`` for the package after this module is loaded using the environment variable ``$R_LIBS_SITE``, which contains the locations of all R packages installed within the module.
-
-```bash
-$ ls -l $R_LIBS_SITE | grep glmnet
-drwxrwsr-x  9 douglas sw  4096 May 28 16:59 EBglmnet
-drwxrwsr-x 11 douglas sw  4096 May 25 01:22 glmnet
-drwxrwsr-x  6 douglas sw  4096 May 25 04:03 glmnetSE
-drwxrwsr-x  7 douglas sw  4096 May 25 04:04 glmnetUtils
-drwxrwsr-x  8 douglas sw  4096 May 25 04:04 glmnetcr
-drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
-```
-
-!!! info "Installation principle"
-
-    - install on Rackham
-    - sync to ``wharf``
-    - move the files on Bianca
-
-!!! info "More info"
-
-    - [Extra material: Installing R packages](https://uppmax.github.io/bianca_workshop/rpackages/)
-    - [From R course: packages](https://uppmax.github.io/R-python-julia-HPC/R/packagesR.html){:target="_blank"}
-    - [From R course: isolated environments](https://uppmax.github.io/R-python-julia-HPC/R/isolatedR.html){:target="_blank"}
+- [Installing R packages](../software/R.md)
 
 ### Julia packages
 
@@ -138,16 +73,7 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
         PyPlot
         DataFrames
 
-!!! info "Installation principle"
-
-    - install on Rackham
-    - sync to ``wharf``
-    - move the files on Bianca
-
-!!! info "More info"
-
-    - [Extra material: Installing Julia packages](https://uppmax.github.io/bianca_workshop/julia/){:target="_blank"}
-    - [Julia course: isolated environments](https://uppmax.github.io/R-python-julia-HPC/julia/isolatedJulia.html){:target="_blank"}
+- [Installing julia packages](http://docs.uppmax.uu.se/software/julia/#how-to-install-personal-packages)
 
 ## "Containers"
 
@@ -161,11 +87,33 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
         - you install also things that may be already installed
         - therefore, probably more disk space is needed
 
+#### Singularity
+- [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
+
+#### Docker
+- Docker will unfortunately not work on the clusters, since it requires root permission.
+
 !!! info "More info"
 
-    - [Extra material: Containers](https://uppmax.github.io/bianca_workshop/containers/)
+    - [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
+    - [Part from Bianca course but applicable aslo on Rackham](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/extra/containers.md)
+    
+### Spack
+- The UPPMAX staff has already other ways to install most software applications. 
+- Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
+- [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
 
+### Own development...
+- You may have your own code that you want to run on UPPMAX.
+- [Guide for compiling **serial** programs](compiling_serial.md)
+- [Guide for compiling **parallel** programs](compiling_parallel.md)
+    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
+- [User guide for debuggers and profilers](https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/)
 
+## Run own scripts or programs
+- Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
+
+## Summary
 
 !!! abstract "Keypoints"
     - You have got an overview of the procedures to install packages/libraries and tools on Bianca through the ``wharf``
