@@ -301,6 +301,16 @@ python -c "import pandas"
     ModuleNotFoundError: No module named 'absentpackage'
     ```
 
+#### Determine if a Python package comes with a module
+
+If the Python package is not pre-installed with your version of Python,
+use [the UPPMAX module system](../cluster_guides/modules.md)
+to search for it.
+
+It may not always be easy to find your Python package within
+the many modules. One worked-out case to load a Python package
+is described [here](../cluster_guides/load_tkinter_module.md).
+
 ### Stand-alone tools
 
 Some Python packages are working as stand-alone tools, for instance in
