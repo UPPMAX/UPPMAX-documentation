@@ -385,6 +385,18 @@ Fill in the second dialog, using your regular password (i.e. no need for two-fac
 
 When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
+???- question "How does that look like?"
+
+    ![](./img/remote_desktop_thinlinc_profile_chooser.png)
+
+    > Here you are told you will need to pick a remote desktop flavor
+
+    ![](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
+
+    > Here you are asked to pick a remote desktop flavor, 
+    > with Xfce as the default.
+    > Pick any, except KDE.
+
 !!! warning "Avoid choosing KDE"
 
     Avoid choosing the KDE desktop, as it gives problems when running interactive sessions.
