@@ -13,6 +13,24 @@ Use IPython               |Interactive, terminal-based, more help and features
 Use Jupyter               |Interactive, web-based
 Use Visual Studio Code    |Interactive, install on local computer, use locally installed Python and Python packages
 
+???- question "How does a text editor look like?"
+
+    ![](./img/gnu_nano_python.png)
+
+    > A text editor, in this case, GNU nano
+
+???- question "How does a Python interpreter look like?"
+
+    ![](./img/python3_hello_world.png)
+
+    > A Python interpreter
+
+???- question "How does IPython look like?"
+
+    ![](./img/ipython_hello_world.png)
+
+    > IPython
+
 ## Use a text editor
 
 Using a text editor to program in Python 
@@ -161,7 +179,17 @@ The Python interpreter can show graphics.
     
 The Python interpreter cannot directly run scripts.
 
-## Use IPython               
+## Use IPython
+
+IPython is a console program that extends the regular Python interpreter:
+among others, one can directly run scripts and re-use output.
+
+???- question "Want to see a video?"
+
+    Here are some videos on IPython:
+
+    - [YouTube video on `python` versus `IPython`](https://youtu.be/lhi7s6RoIys?si=Z72gSIb6q3piucPH)
+    - [YouTube video on `IPython`](https://www.youtube.com/watch?v=S9rgGJYAQ8o)
 
 After loading a Python module, you also have the IPython Python command shell available.
 
