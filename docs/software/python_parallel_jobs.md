@@ -64,23 +64,34 @@ There are low-level functions which have a lot of the same risks and difficultie
 
 To show an example, the split-apply-combine or map-reduce paradigm is quite useful for many scientific workflows. Consider you have this:
 
+```
 def square(x):
-return x*x
+    return x*x
+```
+
 You can apply the function to every element in a list using the map() function:
 
+```
 >>>list(map(square, [1, 2, 3, 4, 5, 6]))
 [1, 4, 9, 16, 25, 36]
+```
+
 The multiprocessing.pool.Pool class provides an equivalent but parallelized (via multiprocessing) way of doing this. The pool class, by default, creates one new process per CPU and does parallel calculations on the list:
 
+```
 >>>from multiprocessing import Pool
 >>>with Pool() as pool:
 ...    pool.map(square, [1, 2, 3, 4, 5, 6])
 [1, 4, 9, 16, 25, 36]
+```
+
 As you can see, you can run distributed computing directly from the python shell. 
 
-Another example, distributed.py: 
+Another example, `distributed.py`: 
 
+```
 import random
+
 def sample(n):
     """Make n trials of points in the square.  
     Return (n, number_in_circle)
@@ -98,6 +109,7 @@ def sample(n):
         if x**2 + y**2 < 1.0:
             n_inside_circle += 1
     return n, n_inside_circle
+
 import multiprocessing.pool
 pool = multiprocessing.pool.Pool()
 # The default pool makes one process per CPU
@@ -112,6 +124,7 @@ n_sum = sum(x[0] for x in results)
 n_inside_circle_sum = sum(x[1] for x in results)
 pi = 4.0 * (n_inside_circle_sum / n_sum)
 print(pi)
+```
 
 ##### Batch example
 
@@ -119,6 +132,7 @@ If you need to revive your knowledge about the scheduling system, please check S
 
 Batch script job_distributed.slurm:
 
+```
 #!/bin/bash
 #SBATCH -A j<proj>
 #SBATCH -p devel
@@ -132,29 +146,45 @@ Batch script job_distributed.slurm:
 #SBATCH --mail-user=<email>
 module load python/3.9.5
 python distributed.py
+```
+
 ​Put job in queue:
 
+```
 sbatch job_distributed.slurm
+```
 
 ##### Interactive example 
 
+```
 salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0 
 python distributed.py
+```
 
 ### MPI 
 Presently you have to install your own mpi4py. You will need to activate paths to the MPI libraries. Therefore follow these steps.
 
 1. If you use python 3.10.8: 
 
+```
 $ module load gcc/12.2.0 openmpi/4.1.4
+```
+
      Otherwise:
 
+```
 $ module load gcc/9.3.0 openmpi/3.1.5
+```
+
 2. pip install locally or in an virtual environment
 
+```
 $ pip install --user mpi4py 
+```
+
 Remember that you will also have to load the the openmpi module before running mpi4py code, so that the MPI header files can be found (e.g. with the command "module load gcc/X.X.X openmpi/X.X.X"). Because of how MPI works, we need to explicitly write our code into a file,  pythonMPI.py:
 
+```
 import random
 import time
 from mpi4py import MPI
@@ -194,11 +224,18 @@ if rank == 0:
     pi_estimate = 4.0 * sum(n_inside_circle) / n
     print(f"\nnumber of darts: {n}, estimate: {pi_estimate}, 
         time spent: {t:.2} seconds")
+```
+
 You can execute your code the normal way as
 
-      mpirun -n 3 python pythonMPI.py
+
+```
+mpirun -n 3 python pythonMPI.py
+```
+
 A batch script, job_MPI.slurm, should include a "module load gcc/9.3.0 openmpi/3.1.5"
 
+```
 #!/bin/bash
 #SBATCH -A j<proj>
 #SBATCH -p devel
@@ -213,13 +250,19 @@ A batch script, job_MPI.slurm, should include a "module load gcc/9.3.0 openmpi/3
 module load python/3.9.5
 module load gcc/9.3.0 openmpi/3.1.5
 mpirun -n 20 python pythonMPI.py
+```
 
 ### Using the GPU nodes
+
 Example with numba. First install numba locally:
 
+```
 pip install --user numba
+```
+
 Test script: add-list.py
 
+```
 import numpy as np
 from timeit import default_timer as timer
 from numba import vectorize
@@ -253,8 +296,11 @@ def main():
   return 0
 if __name__ == "__main__":
   main()
+```
+
 Run in an interactive session with GPU:s on Snowy
 
+```
 [bjornc@rackham3 ~]$ interactive -A staff -n 1 -M snowy --gres=gpu:1  -t 1:00:01 --mail-type=BEGIN --mail-user=bjorn.claremar@uppmax.uu.se
 You receive the high interactive priority.
 Please, use no more than 8 GB of RAM.
@@ -264,3 +310,4 @@ Starting job now -- you waited for 90 seconds.
 [bjornc@s160 ~]$ python add-list.py  #run the script
 CPU function took 36.849201 seconds.
 GPU function took 1.574953 seconds.
+```
