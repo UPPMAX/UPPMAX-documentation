@@ -44,6 +44,7 @@ nav:
       - Perl: software/perl.md
       - Python: software/python.md
       - R: software/R.md
+      - SSH: software/ssh.md
       - Whisper: software/whisper.md
       - Life Science-specific: 
         - Cram: software/cram.md
