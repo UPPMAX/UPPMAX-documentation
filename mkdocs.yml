@@ -25,6 +25,7 @@ nav:
     - General cluster tools: 
       - Modules: cluster_guides/modules.md
       - Slurm: cluster_guides/slurm.md
+      - Optimizing jobs: cluster_guides/optimizing_jobs.md
     - Data transfer: 
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md

@@ -19,3 +19,8 @@ Temporary link: <https://www.uppmax.uu.se/resources/software/installed-software/
 <!--- 
 <iframe src="/UPPMAX-documentation/software/software_table.html" width="100%" height="500" frameborder="0"></iframe>
 --->
+
+
+## Links
+
+ * UPPMAX page on [software](http://uppmax.uu.se/resources/software/)

@@ -11,36 +11,6 @@ Here you will find all information related to UPPMAX's Snowy HPC cluster.
 - [Submitting jobs, using Slurm](slurm.md)
 - [Workshops and courses](../workshops_courses/workshops_courses.md)
 
-
-## System configuration
-
-Snowy consists of 228 compute servers (nodes) where each compute server consists of two 8-core Xeon E5-2660 processors running at 2.2 GHz. We provide 198 nodes with 128 GB memory (s1-s120, s151-s228) , 13 nodes with 256 GB (s138-s150) and 17 nodes with 512 GB (s121-s137). All nodes are interconnected with a 2:1 oversubscribed FDR (40 GB/s) Infiniband fabric. In total Snowy provides 3548 CPU cores in compute nodes.
-
-## OS and software
-
-There are several compilers available through 
-the [module system](modules.md) on Snowy. 
-This gives you flexibility to obtain programs that run optimally on Snowy.
-
-*   gcc - the newest version usually generates the best code, if you tell it to use the new instructions. Check which version is the newest by doing **module avail**.  
-    The compiler executable is named gcc for C, g++ for C++, and gfortran for Fortran.
-    To use the new instructions available on Snowy (AVX2 and FMA3), give the additional options "**\-mavx2 -mfma3**" to gcc. For good performance with this compiler you should also specify optimization at least at level **\-O2** or **\-O3**. Also try using **\-march=broadwell** for GCC >= 4.9.0 or **\-march=core-avx2** for GCC 4.8.x, which will enable all the instructions on the CPU.
-*   Intel+MKL - usually generates the fastest code. As with gcc, it is good to use the latest version. The compiler executable is named icc for C, icpc for C++, and ifort for Fortran. You should give optimization options at least **\-O2**, preferably **\-O3** or **\-fast**. You can also try to use the **\-xCORE-AVX2** option to the compiler to output AVX2 instructions.
-*   pgi - often generates somewhat slower code, but it is stable so often it is easier to obtain working code, even with quite advanced optimizations. The compiler executable is named pgcc for C, pgCC for C++, and pgfortran, pgf77, pgf90, or pgf95 for Fortran. For this compiler, you can generate code for Snowy using the following options "**UPDATES NEEDED**". Also give optimization options at least **\-O2**, preferably **\-Ofast**, even though the compile times are much longer, the result is often worth the wait.
-
-See the our [software pages](http://uppmax.uu.se/resources/software/) for more details about OS, compilers and installed software.
-
-You will probably have good use of the following commands:
-
-*   **uquota** - telling you about your file system usage.
-*   **projinfo** - telling you about the CPU hour usage of your projects.
-*   **jobinfo** - telling you about running and waiting jobs on Snowy.
-*   **finishedjobinfo** - telling you about finished jobs on Snowy.
-*   **projmembers** - telling you about project memberships.
-*   **projsummary \[project id\]** \- summarizes some useful information about projects
-
-For SLURM commands and for commands like **projinfo**, **jobinfo** and **finishedjobinfo**, you may use the "-M" flag to ask for the answer to be given for a system that you are not logged in to. E.g., when logged into Rackham, you may ask about information about current core hour usage on Snowy, with the command **projinfo -M Snowy**
-
 ## Accounts and log in
 
 Snowy is different from other clusters at UPPMAX in that there are no login nodes for Snowy. All access to this system is done via secure shell (a.k.a SSH) interactive login to the login node, using the domain name **rackham.uppmax.uu.se**
@@ -79,15 +49,13 @@ Examples:
 
 ### Convenience Variables
 
-*   **$SNIC\_TMP - Path to node-local temporary disk space**  
+*   **$SNIC\_TMP - Path to node-local temporary disk space**
       
     The **$SNIC\_TMP** variable contains the path to a node-local temporary file directory that you can use when running your jobs, in order to get maxiumum disk performance (since the disks are local to the current compute node). This directory will be automatically created on your (first) compute node before the job starts and automatically deleted when the job has finished.  
       
     The path specified in **$SNIC\_TMP** is equal to the path: /**scratch/$SLURM\_JOB\_ID**, where the job variable **$SLURM\_JOB\_ID** contains the unique job identifier of your job.  
       
     **WARNING:** Please note, that in your "core" (see below) jobs, if you write data in the **/scratch** directory but outside of the /**scratch/$SLURM\_JOB\_ID** directory, your data may be automatically deleteted during your job run.
-
- 
 
 ### Details about the "core" and "node" partitions
 

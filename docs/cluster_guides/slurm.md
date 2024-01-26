@@ -6,7 +6,10 @@ A scheduling system decides at what time which calculation is done.
 The software used is called Slurm or SLURM.
 
 This page describes how to use Slurm in general.
-For more specific information, see:
+See [optimizing jobs](optimizing_jobs.md)
+how to optimize Slurm jobs.
+
+For information specific to clusters, see:
 
 - [Slurm on Bianca](slurm_on_bianca.md)
 - [Slurm on Rackham](slurm_on_rackham.md)
