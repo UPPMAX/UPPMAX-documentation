@@ -43,6 +43,7 @@
 === "Mac"
 
     - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+      to run [`ssh`](../software/ssh.md)
     
     ``` bash 
     $ ssh <username>@rackham.uppmax.uu.se
@@ -59,7 +60,7 @@
        
 === "Windows"
 
-    - Start terminal (see below)
+    - Start a terminal (see below) to run [`ssh`](../software/ssh.md):
     
     ```bash
     $ ssh <username>@rackham.uppmax.uu.se
@@ -152,6 +153,7 @@
         - [https://www.xquartz.org/](https://www.xquartz.org/)
 
     - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
+      to run [`ssh`](../software/ssh.md):
 
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
@@ -178,7 +180,7 @@
 
     <!-- ![Caption](./img/mobax.jpg ) -->
 
-    - Start local terminal and a SSH session by:
+    - Start local terminal and [an SSH session](../software/ssh.md) by:
 
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
@@ -199,7 +201,7 @@
 
 !!! note "X11-forwarding from the command line (generally)"
 
-    - Graphics can be sent through the SSH connection you’re using to connect
+    - Graphics can be sent through the [SSH](../software/ssh.md) connection you’re using to connect
       - Use primarily `ssh -Y <...>` or secondary `ssh -X <...>`
 
     - The X servers that enables graphics are needed, as mentioned above!
@@ -215,13 +217,17 @@
 ???+ question "Test log in to **Rackham**, using your terminal"
     
     - First try:
+
     ``` bash
     $ ssh -Y <username>@rackham.uppmax.uu.se
     ```
+
     - If you receive errors or warnings, instead try:
+
     ``` bash
     $ ssh <username>@rackham.uppmax.uu.se
     ```
+
     - If you do have X11 installed:
     ``` bash
     $ xeyes &

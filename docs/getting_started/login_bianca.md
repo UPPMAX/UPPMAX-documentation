@@ -559,7 +559,7 @@ see [here](#login-to-the-Bianca-console-environment-using-ssh-keys).
 
 #### 1. Use `ssh` to log in
 
-From a terminal, use `ssh` to log in:
+From a terminal, use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
 ssh [user]-[project name]@bianca.uppmax.uu.se
@@ -680,7 +680,7 @@ an easier setup is [here](#login-to-the-bianca-console-environment-using-an-ssh-
 
 #### 1. Use `ssh` to log in
 
-From a terminal, use `ssh` to log in:
+From a terminal, use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
 ssh -A [user]-[project name]@bianca.uppmax.uu.se

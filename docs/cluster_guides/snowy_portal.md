@@ -13,7 +13,9 @@ Here you will find all information related to UPPMAX's Snowy HPC cluster.
 
 ## Accounts and log in
 
-Snowy is different from other clusters at UPPMAX in that there are no login nodes for Snowy. All access to this system is done via secure shell (a.k.a SSH) interactive login to the login node, using the domain name **rackham.uppmax.uu.se**
+Snowy is different from other clusters at UPPMAX in that 
+there are no login nodes for Snowy. 
+All access to this system is done via secure shell (a.k.a [SSH](../software/ssh.md)) interactive login to the login node, using the domain name **rackham.uppmax.uu.se**
 
 > `ssh -AX user@rackham.uppmax.uu.se`
 

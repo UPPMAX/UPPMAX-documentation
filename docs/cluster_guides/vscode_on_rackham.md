@@ -31,7 +31,7 @@ In this session, we show how to use VSCode on Rackham.
 
 ### 4. In VSCode, connect to Rackham
 
-In VSCode, at the 'Remote Explorer' tab, click on 'SSH',
+In VSCode, at the 'Remote Explorer' tab, click on '[SSH](../software/ssh.md)',
 then on 'New Remote'.
 
 ![](./img/vscode_add_new_remote.png)

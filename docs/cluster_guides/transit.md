@@ -46,7 +46,7 @@ Below is a step-by-step procedure to login to Transit.
 
 ### 2. Use SSH to login
 
-On your local computer, start a terminal and use `ssh` to login to Transit: 
+On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to login to Transit: 
 
 ```
 ssh [username]@transit.uppmax.uu.se
