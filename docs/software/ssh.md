@@ -30,3 +30,10 @@ flowchart TD
 ```
 
 > Flowchart to determine to use `ssh` or `ssh -X` or `ssh -Y`.
+
+???- question "Using `ssh -Y`? Let us know!"
+
+    If you -a user- use `ssh -Y` when `ssh -X` does not work, 
+    let us know. It helps us choose which option to show at these
+    documentation websites.
+
