@@ -1,7 +1,5 @@
 site_name: UPPMAX Documentation
 
-site_url: https://docs.uppmax.uu.se/
-
 repo_url: https://github.com/UPPMAX/UPPMAX-documentation
 
 nav:
