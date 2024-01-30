@@ -1,11 +1,8 @@
 # UPPMAX User Accounts
 
-To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
-
-- [an active research project](project.md)
-- [an UPPMAX user account](user_account.md)
-
-This page is about UPPMAX user accounts.
+An UPPMAX user account is needed to use [UPPMAX](../cluster_guides/uppmax.md) 
+resources (together with [an active UPPMAX research project](project.md))
+and allows you to [log in](login.md) into the UPPMAX clusters.
 
 ## Apply to an UPPMAX user account
 
