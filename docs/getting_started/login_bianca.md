@@ -98,10 +98,6 @@ is that you need to be a member of an active SNIC SENS
 or SIMPLER research project (these are called `sens[number]` or `simp[number]`, 
 where `[number]` represent a number, for example `sens123456` or `simp123456`). 
 
-If you do not have a project membership, 
-you can request membership to an existing project in SUPR 
-or read the SENS project application page to learn how to create a project.
-
 ???- question "Forgot your Bianca projects?"
 
     One easy way to see your Bianca projects is to use the
@@ -153,7 +149,13 @@ Note that the 'Accounts' tab can be useful to verify your username.
     > The example user has username `richel-sens2023598`,
     > which means his/her UPPMAX username is `richel`
 
-### An UPPMAX account
+You can become a member of an active SNIC SENS by:
+
+- request membership to an existing project in SUPR
+- create a project. See the UPPMAX page on 
+  how to submit a project application [here](project_apply.md)
+
+### An UPPMAX user account
 
 Another [prerequisite for using Bianca](#prerequisites-for-using-bianca)
 is that you must have a personal UPPMAX user account. 

@@ -1,9 +1,17 @@
+# Project application
+
 ??? t2s "Text to speech"
     <audio src="../project_apply.mp3" controls preload></audio>
 
-# Project application
+To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
+
+- [an active research project](project.md)
+- [an UPPMAX user account](user_account.md)
+
+This page is about applying for an UPPMAX project.
 
 ## The projects
+
 - No cost to researchers all over Sweden. 
 - 3 different levels regarding storage and core hours per month
 
@@ -86,5 +94,6 @@ AND the international
 ## Storage
 
 ### SNIC Storage: Swestore
+
 - The purpose of Swestore allocations, granted by Swedish National Allocations Committee (SNAC), is to provide large scale data storage for “live” or “working” research data, also known as active research data.
 - [https://www.snic.se/resources/swestore/](https://www.snic.se/resources/swestore/)
