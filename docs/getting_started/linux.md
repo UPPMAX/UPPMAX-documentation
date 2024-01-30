@@ -204,3 +204,6 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 
 
 
+## Links
+
+ * A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).

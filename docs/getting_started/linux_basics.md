@@ -622,3 +622,7 @@ $ ls -l
         $ chmod -wR <target>
         ```
 
+## Links
+
+ * A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
+ 
