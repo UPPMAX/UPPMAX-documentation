@@ -11,7 +11,7 @@ Selected setups for benchmarking on HPC2N as [examples](https://github.com/hpc2n
 ## Loading the gromac module
 
 ``` bash
-$ module load gromacs/2021.01.th
+$ module load gromacs/2021.1.th
 ```
 
 ## SBATCH script
