@@ -40,6 +40,7 @@ nav:
     - Overview: software/overview.md
     - Text editors: software/text_editors.md
     - Software-specific documentation:
+      - Darsync: cluster_guides/darsync.md
       - GROMACS: software/gromacs.md
       - Julia: software/julia.md
       - MATLAB: software/matlab.md
