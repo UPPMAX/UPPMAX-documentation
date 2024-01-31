@@ -1,3 +1,4 @@
+# Darsync
 
 [Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare your project for transfer to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel). It has two modes; **check mode** where it goes through your files and looks for uncompressed file formats and counts the number of files, and **gen mode** where it generates a script file you can submit to [SLURM](slurm.md) to do the actual data transfer.
 
@@ -13,7 +14,7 @@ The idea is to
 export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
 ```
 
-#### TLDR;
+## TLDR;
 
 If you know your way around Linux, here is the short version.
 
@@ -98,7 +99,7 @@ darsync check -l /path/to/dir
 
 The warnings you can get are
 
-#### Too many uncompressed files.
+### Too many uncompressed files.
 
 It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
@@ -123,7 +124,7 @@ how to compress <insert file format name> file
 ```
 
 
-#### Too many files
+### Too many files
 
 If a project consists of many small files it will decrease the data transfer speed, as there is an overhead cost to starting and stopping each file transfer. A way around this is to pack all the small files into a single `tar` archive, so that it only has to start and stop a single time.
 
