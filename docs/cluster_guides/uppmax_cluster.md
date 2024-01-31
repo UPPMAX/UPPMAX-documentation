@@ -153,6 +153,16 @@ computer cluster, suitable for high-performance computing.
 This makes Rackham an high-performance computing (HPC) cluster.
 Bianca and Rackham are HPC clusters.
 
+When using this definition:
+
+> a supercomputer is one big computer, 
+> while high-performance computing is many computers working toward the same goal
+>
+> [Frank Downs](https://fedtechmagazine.com/article/2021/04/high-performance-computing-government-aggregating-impact-perfcon)
+
+one could conclude that the UPPMAX HPC cluster can be used as a supercomputer
+when a user runs a calculation on all nodes.
+
 ## Restrictions on a computer cluster
 
 A computer cluster is a group of computers that can run
