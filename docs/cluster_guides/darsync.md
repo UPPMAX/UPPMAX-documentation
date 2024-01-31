@@ -1,4 +1,6 @@
 
+# Darsync
+
 [Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare your project for transfer to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel). It has two modes; **check mode** where it goes through your files and looks for uncompressed file formats and counts the number of files, and **gen mode** where it generates a script file you can submit to SLURM to do the actual data transfer.
 
 The idea is to 
@@ -13,9 +15,7 @@ The idea is to
 export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
 ```
 
-#### TLDR;
-
-If you know your way around Linux, here is the short version.
+## TLDR;
 
 ```bash
 # run check
@@ -40,7 +40,7 @@ darsync check
 darsync check -l /path/to/dir
 ```
 
-The warnings you can get are
+The warnings you can get are:
 
 #### Too many uncompressed files.
 
@@ -52,20 +52,12 @@ Examples of how to compress common formats:
 # fastq/fq/fasta/txt
 gzip file.fq
 
-# vcf
-bgzip file.vcf
-
 # sam
 samtools view -b file.sam > file.bam
-# when the above command is completed successfully:
-# rm file.sam
-```
 
-For examples on how to compress other file formats, use an internet search engine to look for 
+# vcf
+bgzip file.vcf
 ```
-how to compress <insert file format name> file
-```
-
 
 #### Too many files
 
@@ -88,12 +80,18 @@ Once you have mitigated any warnings you got you are ready to generate the SLURM
 
 To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily availbale:
 
-* Path to the folder you want to transfer, .e.g. `/proj/naiss2099-23-999`
-* ID of the UPPMAX project that will run the transfer job, e.g. `naiss2099-23-99`
-* Your Dardel username (see https://supr.naiss.se/account/)
-* The path on Dardel where you want to put your data, e.g. `/cfs/klemming/projects/snic/naiss2099-23-999`
-* The path to the SSH key you have prepared to be used to login from Rackham to Dardel, e.g. `~/.ssh/id_rsa`
-* The path to where you want to save the generated transfer script
+* **ID of the UPPMAX project** that will run the transfer job, e.g. `naiss2099-23-99`
+    - If you don't remember if, find the name of the project you want to transfer by looking in [the list of active project in SUPR](https://supr.naiss.se/project/).
+* **Path to the folder you want to transfer**, .e.g. `/proj/naiss2099-23-999`
+    - Either transfer your whole project, or put the files and folder your want to transfer into a new folder in your project folder and transfer that folder.
+    - The project's folder on UPPMAX will be located in the `/proj/` folder, most likely a folder with the same name as the project's ID, `/proj/<project id>`, e.g. `/proj/naiss2024-23-999`. If your project has picked a custom *directory name* when it was created it will have that name instead of the project ID, e.g. `/proj/directory_name`. Check which directory name your project has by looking at the project's page in [SUPR](https://supr.naiss.se/project/) and look at the field called `Directory name:`
+* **Your Dardel username**.
+    - You can see your Dardel username in [SUPR](https://supr.naiss.se/account/)
+* **The path on Dardel** where you want to put your data, e.g. `/cfs/klemming/projects/snic/naiss2099-23-999`
+    - Check which project ID you have for your project on Dardel in [the list of active project in SUPR](https://supr.naiss.se/project/).
+* The **path to the SSH key** you have prepared to be used to login from Rackham to Dardel, e.g. `~/.ssh/id_rsa`
+    - Check 
+* The path to where you want to **save the generated transfer script**.
 
 To initiate the gen mode you run Darsync with the `gen` argument. If you run it without any other arguments it will ask you interactive questions to get the information it needs.
 
