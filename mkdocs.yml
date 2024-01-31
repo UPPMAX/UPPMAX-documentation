@@ -20,7 +20,7 @@ nav:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
     - Cluster portals: 
       - Bianca portal: cluster_guides/bianca_portal.md
-      - Bianca portal: cluster_guides/dardel_portal.md
+      - Dardel portal: cluster_guides/dardel_portal.md
       - Rackham portal: cluster_guides/rackham_portal.md
       - Snowy portal: cluster_guides/snowy_portal.md
     - General cluster tools: 
