@@ -1,7 +1,6 @@
-
 # Darsync
 
-[Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare your project for transfer to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel). It has two modes; **check mode** where it goes through your files and looks for uncompressed file formats and counts the number of files, and **gen mode** where it generates a script file you can submit to SLURM to do the actual data transfer.
+[Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare your project for transfer to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel). It has two modes; **check mode** where it goes through your files and looks for uncompressed file formats and counts the number of files, and **gen mode** where it generates a script file you can submit to [SLURM](slurm.md) to do the actual data transfer.
 
 The idea is to 
 
@@ -9,13 +8,32 @@ The idea is to
 1. Run the gen mode.
 1. Submit the generated script as a job.
 
-**IMPORTANT**: Until the darsync script is added to the `/sw/uppmax/bin` folder you will have to add its location to your `PATH` variable manually:
+```mermaid
+flowchart TD
+  check[Check files]
+  generate[Generate script for transferring files safely]
+  submit[Submit script]
 
-```bash
-export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
+  check --> |no errors| generate
+  check --> |errors that need fixing| check
+  generate --> |no errors| submit
 ```
 
+> The Darsync workflow
+
+
+!!! warning "Temporarily add a `PATH`"
+
+    Until the darsync script is added to the `/sw/uppmax/bin` folder 
+    you will have to add its location to your `PATH` variable manually:
+
+    ```bash
+    export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
+    ```
+
 ## TLDR;
+
+If you know your way around Linux, here is the short version.
 
 ```bash
 # run check
@@ -27,6 +45,62 @@ darsync check -l /path/to/dir
 rsync -e "ssh -i ~/.ssh/id_rsa" -acPuvz /local/path/to/files/ username@dardel.pdc.kth.se:/remote/path/to/files/
 
 ```
+
+???- question "How does that look like?"
+
+    Running the temporary export gives no output:
+
+    ```
+    [sven@rackham4 ~]$ export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
+    ```
+
+    The folder `GitHubs` is a folder containing multiple GitHub repositories
+    and is chosen as the test subject:
+
+    ```
+    [sven@rackham4 ~]$ darsync check -l GitHubs/
+
+
+       ____ _   _ _____ ____ _  __
+      / ___| | | | ____/ ___| |/ /
+     | |   | |_| |  _|| |   | ' /
+     | |___|  _  | |__| |___| . \
+      \____|_| |_|_____\____|_|\_\
+
+    The check module of this script will recursivly go through 
+    all the files in, and under, the folder you specify to see if there 
+    are any improvments you can to do save space and speed up the data transfer. 
+
+    It will look for file formats that are uncompressed, like fasta and vcf files 
+    (most uncompressed file formats have compressed variants of them that only 
+    take up 25% of the space of the uncompressed file).
+
+    If you have many small files, e.g. folders with 100 000 or more files, 
+    it will slow down the data transfer since there is an overhead cost per file 
+    you want to transfer. Large folders like this can be archived/packed into 
+    a single file to speed things up.
+    GitHubs/git/scripts                                
+
+
+    Checking completed. Unless you got any warning messages above you should be good to go.
+
+    Generate a SLURM script file to do the transfer by running this script again, but use the 'gen' option this time.
+    See the help message for details, or continue reading the user guide for examples on how to run it.
+    https://
+
+    darsync gen -h
+
+    A file containing file ownership information, 
+    darsync_GitHubs.ownership.gz
+    has been created. This file can be used to make sure that the
+    file ownership (user/group) will look the same on Dardel as it does here. See https:// for more info about this.
+    ```
+ 
+    ???- tip "NBIS staff test project code"
+
+        Follow the project application procedure as
+        described [here](../getting_started/project_apply.md).
+        Request permission to join project `NAISS 2023/22-1027`
 
 ## Check mode
 
@@ -42,7 +116,7 @@ darsync check -l /path/to/dir
 
 The warnings you can get are:
 
-#### Too many uncompressed files.
+### Too many uncompressed files.
 
 It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
@@ -52,14 +126,21 @@ Examples of how to compress common formats:
 # fastq/fq/fasta/txt
 gzip file.fq
 
-# sam
-samtools view -b file.sam > file.bam
-
 # vcf
 bgzip file.vcf
+
+# sam
+samtools view -b file.sam > file.bam
+# when the above command is completed successfully:
+# rm file.sam
 ```
 
-#### Too many files
+For examples on how to compress other file formats, use an internet search engine to look for 
+```
+how to compress <insert file format name> file
+```
+
+### Too many files
 
 If a project consists of many small files it will decrease the data transfer speed, as there is an overhead cost to starting and stopping each file transfer. A way around this is to pack all the small files into a single `tar` archive, so that it only has to start and stop a single time.
 
@@ -78,7 +159,7 @@ Once you have mitigated any warnings you got you are ready to generate the SLURM
 
 ## Gen mode
 
-To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily availbale:
+To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily available:
 
 * **ID of the UPPMAX project** that will run the transfer job, e.g. `naiss2099-23-99`
     - If you don't remember if, find the name of the project you want to transfer by looking in [the list of active project in SUPR](https://supr.naiss.se/project/).
@@ -150,9 +231,9 @@ rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
 
 ## Troubleshooting
 
-Apart from getting the username or paths wrong, we forsee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
+Apart from getting the username or paths wrong, we foresee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
 
 
+## Links
 
-
-
+ * [darsync GitHub repository](https://github.com/uppmax/darsync)

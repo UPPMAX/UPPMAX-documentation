@@ -24,21 +24,27 @@ and a [detailed overview of the clusters](#detailed-overview-of-the-uppmax-syste
 UPPMAX clusters are computing systems, 
 i.e. they allow a user to do heavy computational calculations.
 
-All UPPMAX clusters are named after a Tintin character.
+All UPPMAX clusters are named after Tintin characters.
 UPPMAX has, among others, the following clusters:
 
-- [Bianca](bianca_portal.md): for sensitive data, general use. 
+- [Bianca](bianca_portal.md): for sensitive data, general use
 - [Rackham](rackham_portal.md): regular data, general purpose
 - [Snowy](snowy_portal.md): regular data, long runs and GPU:s
+
+Another cluster UPPMAX is involved in:
+
+- [Dardel](dardel_portal.md): a general purpose HPC cluster in Stockholm.
+  Consider moving your files to it already
+
 
 ```mermaid
 flowchart TD
     UPPMAX(Which UPPMAX cluster?)
     Bianca
+    Dardel
     Rackham
     Snowy
     is_sensitive[Do you use sensitive data?]
-    is_scilifelab[Do you work at SciLifeLab?]
     is_long[Do you use long runs and/or GPUs?]
 
     UPPMAX --> is_sensitive 
@@ -46,6 +52,7 @@ flowchart TD
     is_sensitive --> |no|is_long
     is_long --> |no|Rackham
     is_long --> |yes|Snowy
+    Rackham --> |consider migrating to| Dardel
 ```
 
 ## What is a computer cluster technically?
@@ -145,6 +152,16 @@ The image above shows Rackham, another UPPMAX
 computer cluster, suitable for high-performance computing.
 This makes Rackham an high-performance computing (HPC) cluster.
 Bianca and Rackham are HPC clusters.
+
+When using this definition:
+
+> a supercomputer is one big computer, 
+> while high-performance computing is many computers working toward the same goal
+>
+> [Frank Downs](https://fedtechmagazine.com/article/2021/04/high-performance-computing-government-aggregating-impact-perfcon)
+
+one could conclude that the UPPMAX HPC cluster can be used as a supercomputer
+when a user runs a calculation on all nodes.
 
 ## Restrictions on a computer cluster
 
