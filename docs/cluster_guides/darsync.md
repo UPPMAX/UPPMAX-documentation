@@ -143,7 +143,7 @@ Once you have mitigated any warnings you got you are ready to generate the SLURM
 
 ## Gen mode
 
-To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily availabale:
+To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily available:
 
 * Path to the folder you want to transfer, .e.g. `/proj/naiss2099-23-999`
 * ID of the UPPMAX project that will run the transfer job, e.g. `naiss2099-23-99`
