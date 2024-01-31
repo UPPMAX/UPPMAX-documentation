@@ -28,6 +28,62 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuvz /local/path/to/files/ username@dardel.pd
 
 ```
 
+???- question "How does that look like?"
+
+    Running the temporary export gives no output:
+
+    ```
+    [sven@rackham4 ~]$ export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
+    ```
+
+    The folder `GitHubs` is a folder containing multiple GitHub repositories
+    and is chosen as the test subject:
+
+    ```
+    [sven@rackham4 ~]$ darsync check -l GitHubs/
+
+
+       ____ _   _ _____ ____ _  __
+      / ___| | | | ____/ ___| |/ /
+     | |   | |_| |  _|| |   | ' /
+     | |___|  _  | |__| |___| . \
+      \____|_| |_|_____\____|_|\_\
+
+    The check module of this script will recursivly go through 
+    all the files in, and under, the folder you specify to see if there 
+    are any improvments you can to do save space and speed up the data transfer. 
+
+    It will look for file formats that are uncompressed, like fasta and vcf files 
+    (most uncompressed file formats have compressed variants of them that only 
+    take up 25% of the space of the uncompressed file).
+
+    If you have many small files, e.g. folders with 100 000 or more files, 
+    it will slow down the data transfer since there is an overhead cost per file 
+    you want to transfer. Large folders like this can be archived/packed into 
+    a single file to speed things up.
+    GitHubs/git/scripts                                
+
+
+    Checking completed. Unless you got any warning messages above you should be good to go.
+
+    Generate a SLURM script file to do the transfer by running this script again, but use the 'gen' option this time.
+    See the help message for details, or continue reading the user guide for examples on how to run it.
+    https://
+
+    darsync gen -h
+
+    A file containing file ownership information, 
+    darsync_GitHubs.ownership.gz
+    has been created. This file can be used to make sure that the
+    file ownership (user/group) will look the same on Dardel as it does here. See https:// for more info about this.
+    ```
+ 
+    ???- tip "NBIS staff test project code"
+
+    Follow the project application procedure as
+    described [here](../getting_started/project_apply.md).
+    Request permission to join project `NAISS 2023/22-1027`
+
 ## Check mode
 
 To initiate the **check mode** you run Darsync with the check argument. If you run it without any other arguments it will ask you interactive questions to get the information it needs. 
