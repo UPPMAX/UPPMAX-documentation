@@ -16,7 +16,7 @@ require different versions.
 * If you make some mistake and install something you did not want or need, you
 can remove the environment and create a new one.
 
-### Example with virtual environment
+## Example with virtual environment
 
 Create a `venv`. First load the python version you want to base your virtual
 environment on. 
@@ -65,7 +65,7 @@ Everytime you need the tools available in the virtual environment you activate i
 
 [More on virtual environment](https://docs.python.org/3/library/venv.html)
 
-### Installing with `pyenv`
+## Installing with `pyenv`
 
 This approach is more advanced and should be, in our opinion, used only if the
 above are not enough for the purpose. Probably Conda will work well four you.
@@ -73,7 +73,7 @@ The approach below allows you to install your own python version and much moreâ€
 
 Confer the official pyenv documentation.
 
-#### First time at UPPMAX
+### First time at UPPMAX
 
 1. Download pyenv:
 
@@ -89,13 +89,13 @@ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 
 To make sure everything gets loaded correctly, log out and back in to uppmax.
 
-#### Installing own python version (not already available as an UPPMAX module)
+### Installing own python version (not already available as an UPPMAX module)
 
 1. Get pyenv to install the python version of your liking.
 
     ```pyenv install 3.10.6```
 
-2. Make the version you just installed to the standard version for every time you run python.
+1. Make the version you just installed to the standard version for every time you run python.
 
     ```pyenv global 3.10.6```
 
@@ -105,14 +105,14 @@ also have multiple versions installed at the same time and just switch between
 them usuing 'pyenv global' as shown above, if you have a script that requires
 Python 3.3 or any other version.
 
-#### Install packages in your selected python version
+## Install packages in your selected python version
 
 
 1. Set python version with 
 
     ```pyenv global <version>```
 
-2. Install packages in your python, use `pip`
+1. Install packages in your python, use `pip`
 
     ```
     pip install [package name]
