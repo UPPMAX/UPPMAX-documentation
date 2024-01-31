@@ -8,11 +8,28 @@ The idea is to
 1. Run the gen mode.
 1. Submit the generated script as a job.
 
-**IMPORTANT**: Until the darsync script is added to the `/sw/uppmax/bin` folder you will have to add its location to your `PATH` variable manually:
+```mermaid
+flowchart TD
+  check[Check files]
+  generate[Generate script for transferring files safely]
+  submit[Submit script]
 
-```bash
-export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
+  check --> |no errors| generate
+  check --> |errors that need fixing| check
+  generate --> |no errors| submit
 ```
+
+> The Darsync workflow
+
+
+!!! warning "Temporarily add a `PATH`"
+
+    Until the darsync script is added to the `/sw/uppmax/bin` folder 
+    you will have to add its location to your `PATH` variable manually:
+
+    ```bash
+    export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
+    ```
 
 ## TLDR;
 
