@@ -31,7 +31,7 @@ All access to Snowy is done using the batch system SLURM, either as an interacti
 
 To allow a fair and efficient usage of the system we use a resource manager to coordinate user demands. On Snowy we use the [SLURM](http://slurm.schedmd.com) resource manager. Read our [SLURM user guide](http://uppmax.uu.se/support/user-guides/slurm-user-guide/) for detailed information on how to use SLURM.
 
-**Note:** When acessing snowy from Rackhams login nodes you must always use the flag -M for all SLURM commands.  
+**Note:** When accessing snowy from Rackhams login nodes you must always use the flag -M for all SLURM commands.  
 Examples:
 
 *   squeue -M snowy
@@ -53,11 +53,11 @@ Examples:
 
 *   **$SNIC\_TMP - Path to node-local temporary disk space**
       
-    The **$SNIC\_TMP** variable contains the path to a node-local temporary file directory that you can use when running your jobs, in order to get maxiumum disk performance (since the disks are local to the current compute node). This directory will be automatically created on your (first) compute node before the job starts and automatically deleted when the job has finished.  
+    The **$SNIC\_TMP** variable contains the path to a node-local temporary file directory that you can use when running your jobs, in order to get maximum disk performance (since the disks are local to the current compute node). This directory will be automatically created on your (first) compute node before the job starts and automatically deleted when the job has finished.
       
-    The path specified in **$SNIC\_TMP** is equal to the path: /**scratch/$SLURM\_JOB\_ID**, where the job variable **$SLURM\_JOB\_ID** contains the unique job identifier of your job.  
+    The path specified in **$SNIC\_TMP** is equal to the path: /**scratch/$SLURM\_JOB\_ID**, where the job variable **$SLURM\_JOB\_ID** contains the unique job identifier of your job.
       
-    **WARNING:** Please note, that in your "core" (see below) jobs, if you write data in the **/scratch** directory but outside of the /**scratch/$SLURM\_JOB\_ID** directory, your data may be automatically deleteted during your job run.
+    **WARNING:** Please note, that in your "core" (see below) jobs, if you write data in the **/scratch** directory but outside of the /**scratch/$SLURM\_JOB\_ID** directory, your data may be automatically deleted during your job run.
 
 ### Details about the "core" and "node" partitions
 
@@ -108,4 +108,4 @@ But in order for our job to successfully run for severay weeks you should implem
 *   Book a full node with the SLURM flags **\-p node** (you won't be able to submit these jobs in the core partition).
 *   If possible make sure you do not rely on files stored outside the node. One way of achieving this may be to copy program files to $SNIC\_TMP.
 
-Even if you do this we can't promise that a 20 or 30 day long job will finish without being interuppted by the global file systems, the network or problems on the node,
+Even if you do this we can't promise that a 20 or 30 day long job will finish without being interrupted by the global file systems, the network or problems on the node,

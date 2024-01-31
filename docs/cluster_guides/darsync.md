@@ -143,7 +143,7 @@ Once you have mitigated any warnings you got you are ready to generate the SLURM
 
 ## Gen mode
 
-To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily availbale:
+To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily availabale:
 
 * Path to the folder you want to transfer, .e.g. `/proj/naiss2099-23-999`
 * ID of the UPPMAX project that will run the transfer job, e.g. `naiss2099-23-99`
@@ -209,7 +209,7 @@ rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
 
 ## Troubleshooting
 
-Apart from getting the username or paths wrong, we forsee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
+Apart from getting the username or paths wrong, we foresee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
 
 
 ## Links
