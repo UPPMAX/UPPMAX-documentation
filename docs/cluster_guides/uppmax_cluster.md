@@ -55,6 +55,10 @@ flowchart TD
     Rackham --> |consider migrating to| Dardel
 ```
 
+All UPPMAX clusters follow the same [file system](uppmax_file_system.md),
+with special folders. See the UPPMAX page on its file 
+systems [here](uppmax_file_system.md).
+
 ## What is a computer cluster technically?
 
 A computer cluster is a machine that consists out of many computers.

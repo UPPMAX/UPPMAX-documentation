@@ -28,9 +28,9 @@ nav:
       - Slurm: cluster_guides/slurm.md
       - Optimizing jobs: cluster_guides/optimizing_jobs.md
     - Data transfer: 
-      - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Transfer to/from Dardel: cluster_guides/transfer_dardel.md
+      - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
     - Installing and development: 
       - Installing: cluster_guides/install.md
       - Installing with conda: cluster_guides/conda.md
