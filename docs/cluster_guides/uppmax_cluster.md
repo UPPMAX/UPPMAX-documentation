@@ -55,7 +55,7 @@ flowchart TD
     Rackham --> |consider migrating to| Dardel
 ```
 
-All UPPMAX clusters follow the same [file system](uppmax_file_system.md),
+All UPPMAX clusters follow the same [file system](uppmax_filesystem.md),
 with special folders. See the UPPMAX page on its file 
 systems [here](uppmax_file_system.md).
 
