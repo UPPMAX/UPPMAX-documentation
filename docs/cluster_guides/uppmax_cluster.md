@@ -57,7 +57,7 @@ flowchart TD
 
 All UPPMAX clusters follow the same [file system](uppmax_filesystem.md),
 with special folders. See the UPPMAX page on its file 
-systems [here](uppmax_file_system.md).
+systems [here](uppmax_filesystem.md).
 
 ## What is a computer cluster technically?
 
