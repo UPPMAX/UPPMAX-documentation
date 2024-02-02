@@ -10,6 +10,14 @@ To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
 
 This page is about applying for an UPPMAX project.
 
+???- question "I just got an UPPMAX project, yet I cannot login to UPPMAX?"
+
+    It tends to be a matter of minutes to less than hours
+    before the changes propagate from SUPR to UPPMAX.
+
+    If after one night you cannot login, 
+    please [contact support](../support.md).
+
 ## The projects
 
 - No cost to researchers all over Sweden. 
@@ -18,6 +26,7 @@ This page is about applying for an UPPMAX project.
 <https://uppmax.uu.se/support/getting-started/applying-for-projects/>
 
 ### Compute at UPPMAX (always with 128 GB storage)
+
 - Small: 2000 cpu-hrs/month
     - Can be increased to 10,000 hrs
     - PI: PhD student or higher.
@@ -25,7 +34,9 @@ This page is about applying for an UPPMAX project.
     - PI: Assistant professor (forskarassistent) or higher. 
 - Large 100,000 cpu-hs/month
     - PI: Assistant professor (forskarassistent) or higher. 
+
 ### Storage at UPPMAX
+
 - Small: 128 GB-10 TB of storage. 
     - Can be increased to 10,000 hrs
     - PI: PhD student or higher.
@@ -36,9 +47,11 @@ This page is about applying for an UPPMAX project.
 
 
 ## Application rounds
+
 <https://www.naiss.se//#application-rounds-for-compute-and-storage-resources>
 
 ## NAISS HPC Clusters
+
 <https://www.snic.se/resources/compute-resources/>
 
 - Mostly Intel-based CPU:s and Nvidia GPU:s
@@ -59,6 +72,7 @@ AND the international
     - Not Intel/Nvidia but Cray/AMD CPU:s and GPU:s
 
 ### Locally financed systems for local users
+
 - UPPMAX, Uppsala University (UU).
     - Snowy - GPU:s and long runs
 - LUNARC, Lund University (LU):
