@@ -307,9 +307,10 @@ If the Python package is not pre-installed with your version of Python,
 use [the UPPMAX module system](../cluster_guides/modules.md)
 to search for it.
 
-It may not always be easy to find your Python package within
-the many modules. One worked-out case to load a Python package
-is described [here](../cluster_guides/load_tkinter_module.md).
+It may not always be easy to find your Python package within the many modules. 
+Do not hesitate to [contact support](../support.md)
+so that you can spend time on your research 
+and we figure this out :-)
 
 ### Stand-alone tools
 

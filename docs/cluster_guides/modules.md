@@ -235,8 +235,11 @@ Of the module shown, also the different versions are reported.
 ???- tip "What to do when `module load` gives an 'Lmod has detected the following error:  These module(s) or extension(s) exist but cannot be loaded as requested' error?"
 
     Ouch, now it is time to try out many things.
-    As an example of a worked-out though process, 
-    see the page about loading the Tkinter module [here](load_tkinter_module.md).
+
+    Do not hesitate to [contact support](../support.md)
+    so that you can spend time on your research 
+    and we figure this out :-)
+
 
 To load a module, use `module load [module]`, 
 for example `module load cowsay`.
