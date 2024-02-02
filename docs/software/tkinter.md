@@ -27,10 +27,11 @@ import tkinter
 In January 2024, there was a [Tkinter UPPMAX ticket](https://github.com/richelbilderbeek/ticket_286232).
 and documentation how to load `tkinter`.
 
-At that time, doing one of these:
+At that time, doing:
 
- * `module load python/3.11.4`
- * `module load python3/3.11.4`
+```
+module load python/3.11.4
+```
 
 and then in Python:
 
