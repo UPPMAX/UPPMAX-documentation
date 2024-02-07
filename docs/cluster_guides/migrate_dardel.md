@@ -26,7 +26,7 @@ Please [contact support](../support.md) if you run into problems
 when trying the guide below.
 
 This migration consists of a couple of steps summarized below. 
-Press the links to get more detailed explaination of each step.
+Press the links to get more detailed explanation of each step.
 
 ```mermaid
 flowchart TD
