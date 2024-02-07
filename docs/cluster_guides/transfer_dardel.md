@@ -25,15 +25,13 @@ flowchart TD
   get_supr_project[1. Access to a SUPR project with Dardel]
   get_pdc_account[2. Access to a PDC account]
   create_ssh_key[3. Create SSH key pair on Rackham]
-  download_ssh_keys[4. Download public SSH key]
-  upload_ssh_key[5. Upload public SSH key to Dardel]
-  transfer_files[6. Tranfer files to Dardel]
+  add_ssh_key[4. Add public SSH key to PDC Login Portal]
+  transfer_files[5. Tranfer files to Dardel]
   
-  get_pdc_account --> |requires| get_supr_project 
-  download_ssh_keys --> |requires| create_ssh_key
-  upload_ssh_key --> |requires| download_ssh_keys
-  upload_ssh_key --> |requires| get_pdc_account
-  transfer_files --> |requires| upload_ssh_key
+  get_supr_project --> |requires| get_pdc_account
+  create_ssh_key --> |requires| add_ssh_key 
+  get_pdc_account --> |requires| add_ssh_key
+  add_ssh_key --> |requires| transfer_files
 ```
 
 ### 1. Get access to a SUPR project with Dardel
@@ -88,17 +86,13 @@ You will get a PDC account overnight.
 
 ### 3. Create an SSH key pair
 
-How to create an SSH key pair is
-described  at [the PDC page on how to create an SSH key pair](https://www.pdc.kth.se/support/documents/login/ssh_login.html#how-to-create-ssh-key-pairs).
-
-On way to do so, is to use the UPPMAX tool `dardel_ssh-keygen`.
+How to create an SSH key pair is described in detail at [the PDC page on how to create an SSH key pair](https://www.pdc.kth.se/support/documents/login/ssh_login.html#how-to-create-ssh-key-pairs).
 
 On Rackham, do:
 
 ```
-$ export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
-$ dardel_ssh-keygen
-SSH key created successfully.
+# generate the key
+ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519-pdc
 ```
 
 and you have created a SSH key pair.
@@ -108,39 +102,20 @@ and you have created a SSH key pair.
     On Rackham, in a terminal, type:
 
     ```
-    $ cat ~/.ssh/id-ed25519-pdc
+    $ cat ~/.ssh/id_ed25519-pdc.pub
     ```
 
     This will show a text similar to:
 
     ```
-    -----BEGIN OPENSSH PRIVATE KEY-----
-    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-    QyNTUxOQAAACBDgv7syuRoZ0G4hv3fgg7azq/oiAKdRKen2oipM6s+4AAAAKBo5xJaaOcS
-    WgAAAAtzc2gtZWQyNTUxOQAAACBDgv7syuRoZ0G4hv3fgg7azq/oiAKdRKe42oipM6s+4A
-    ABAEDIq45Rv4Vg8YuKozcWIJexp6jq+zHIxg1r0u69e3VPF0OC/uzK5GhnQbiG/d+CDtrO
-    r+iIAp1Ep6faiKkzqz7gAAAAHHJpY2hlbEByYWNraGFtMi51cHBtYXgudXUuc2UB
-    -----END OPENSSH PRIVATE KEY-----
+    ssh-ed25519 AAAA63Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
     ```
 
-    Note that this is your **private** key. Do not distribute it!
 
-### 4. Download the public SSH key to your local computer
+### 5. Add the public SSH key to PDC:s Login Portal
 
-Download the public SSH key in file `~/.ssh/id-ed25519-pdc.pub`
-to your local computer.
-Transferring files to/from Rackham is documented [here](tranfer_rackham.md).
-
-???- question "How does that look like?"
-
-    ![](./img/rackham_download_dardel_ssh_public_key.png)
-
-    Here the public SSH key is downloaded using FileZilla.
-
-### 5. Upload the public SSH key to Dardel
-
-How to upload the SSH public key is described
-in [the PDC documentation on how to log in with SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html).
+How to add the SSH public key is described
+in detail in [the PDC documentation on how to log in with SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html).
 
 ???- question "How does the upload look like?"
 
