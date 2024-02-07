@@ -15,7 +15,9 @@ to perform the actual file transfer.
 To transfer your files to Dardel:
 
 1. Get access to a SUPR project with Dardel.
-   This is described at [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html)
+   This is described at [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html).
+   You will get an email when you are added to a project,
+   this can take some hours.
 
 ???- question "How do I know I have access to a Dardel project?"
 
@@ -42,6 +44,21 @@ To transfer your files to Dardel:
 
     > Resources from an example PDC project
 
+1. Get a PDC account via SUPR.
+   This is described at [the PDC page on getting access](https://www.pdc.kth.se/support/documents/getting_access/get_access.html#supr-account).
+   You will get a PDC account overnight.
+
+???- question "How do I know I have a PDC account?"
+
+    Login to [https://supr.naiss.se/](https://supr.naiss.se/).
+    and click on 'Accounts' in the main menu bar at the left.
+
+    If you see 'Dardel' among the resources, and status 'Enabled'
+    in the same row, you have a PDC account!
+
+    ![](supr_naiss_dardel_account.png)
+
+    > Example of a user having an account at PDC's Dardel HPC cluster
 
 ## Link
 
