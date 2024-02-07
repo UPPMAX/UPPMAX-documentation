@@ -169,6 +169,11 @@ as well as generating a script file you can submit to [SLURM](slurm.md)
 to perform the actual file transfer. 
 [Read more about how to use Darsync here](../cluster_guides/darsync.md).
 
+```
+$ export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
+$ darsync gen
+```
+
 ### 6. Delete the SSH key pair
 
 
