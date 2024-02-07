@@ -23,7 +23,7 @@ template: home.html
 [:material-rocket-launch: Lost credentials](https://supr.naiss.se/login/){: .md-button .md-button--primary }
 [:material-rocket-launch: Back to UPPMAX home](http://www.uppmax.uu.se){: .md-button .md-button--primary }
 
-[:material-alert-box: Transfer to Dardel](cluster_guides/transfer_dardel.md){ .md-button .md-button--primary }
+[:material-alert-box: Migration to Dardel](cluster_guides/migrate_dardel.md){ .md-button .md-button--primary }
 
 
 <br/><br/>
