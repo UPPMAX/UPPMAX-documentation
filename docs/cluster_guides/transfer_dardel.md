@@ -1,23 +1,46 @@
+# File transfer to/from Dardel
+
 ![Dardel server racks](./img/dardel_racks.png)
+
+This page describes how to transfer files to Dardel,
+the HPC cluster at PDC in Stockholm.
+
+## Why do I need this?
 
 The Rackham cluster will be decommissioned at the end of 2024 
 so all projects have to migrate their data and calculations to other resources. 
 The plan from NAISS is that all Rackham users will move to 
 the Dardel cluster at PDC.
 
-To facilitate this move we have created Darsync, 
-a tool that can inspect your files and make suggestions 
-to make the transfer easier, 
-as well as generating a script file you can submit to [SLURM](slurm.md) 
-to perform the actual file transfer. 
-[Read more about how to use Darsync here](../cluster_guides/darsync.md).
+## How do I do this?
 
-To transfer your files to Dardel:
+First, we are here to help.
+Please [contact support](../support.md) if you run into problems
+when trying the guide below.
 
-1. Get access to a SUPR project with Dardel.
-   This is described at [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html).
-   You will get an email when you are added to a project,
-   this can take some hours.
+To transfer your files to Dardel, follow the steps below.
+
+```mermaid
+flowchart TD
+  get_supr_project[1. Access to a SUPR project with Dardel]
+  get_pdc_account[2. Access to a PDC account]
+  create_ssh_key[3. Create SSH key]
+  upload_ssh_key[4. Upload SSH key to Dardel]
+  transfer_files[5. Tranfer files to Dardel]
+  
+  get_pdc_account --> |requires| get_supr_project 
+  upload_ssh_key --> |requires| create_ssh_key
+  upload_ssh_key --> |requires| get_pdc_account
+  transfer_files --> |requires| upload_ssh_key
+```
+
+
+### 1. Get access to a SUPR project with Dardel
+
+First step is to get get access to a SUPR project with Dardel.
+This is described at [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html).
+You will get an email when you are added to a project,
+this can take some hours.
 
 ???- question "How do I know I have access to a Dardel project?"
 
@@ -44,9 +67,11 @@ To transfer your files to Dardel:
 
     > Resources from an example PDC project
 
-1. Get a PDC account via SUPR.
-   This is described at [the PDC page on getting access](https://www.pdc.kth.se/support/documents/getting_access/get_access.html#supr-account).
-   You will get a PDC account overnight.
+### 2. Get a PDC account via SUPR
+
+Get a PDC account via SUPR.
+This is described at [the PDC page on getting access](https://www.pdc.kth.se/support/documents/getting_access/get_access.html#supr-account).
+You will get a PDC account overnight.
 
 ???- question "How do I know I have a PDC account?"
 
@@ -59,6 +84,20 @@ To transfer your files to Dardel:
     ![](supr_naiss_dardel_account.png)
 
     > Example of a user having an account at PDC's Dardel HPC cluster
+
+### 3. Create an SSH key
+
+### 4. Upload the SSH key to Dardel
+
+### 5. Transfer files
+
+To facilitate this move we have created Darsync, 
+a tool that can inspect your files and make suggestions 
+to make the transfer easier, 
+as well as generating a script file you can submit to [SLURM](slurm.md) 
+to perform the actual file transfer. 
+[Read more about how to use Darsync here](../cluster_guides/darsync.md).
+
 
 ## Link
 
