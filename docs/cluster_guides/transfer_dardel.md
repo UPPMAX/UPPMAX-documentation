@@ -34,56 +34,6 @@ flowchart TD
   add_ssh_key --> |requires| transfer_files
 ```
 
-### 1. Get access to a SUPR project with Dardel
-
-First step is to get get access to a SUPR project with Dardel.
-This is described at [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html).
-You will get an email when you are added to a project,
-this can take some hours.
-
-???- question "How do I know I have access to a Dardel project?"
-
-    Login to [https://supr.naiss.se/](https://supr.naiss.se/).
-    If there is a PDC project,
-    you may have access to a project with Dardel.
-
-    ![](./img/supr_naiss_dardel_project.png)
-
-    > Example user that has access to a PDC project
-
-    If you may a PDC project that does not use Dardel,
-    click on the project to go the the project overview.
-
-    ![](./img/supr_naiss_dardel_project_overview.png)
-
-    > Example PDC project overview
-
-    From there, scroll down to 'Resources'.
-    If you see 'Dardel' among the compute resources, 
-    you have confirmed you have access to a Dardel project.
-
-    ![](./img/naiss_project_dardel_resources.png)
-
-    > Resources from an example PDC project
-
-### 2. Get a PDC account via SUPR
-
-Get a PDC account via SUPR.
-This is described at [the PDC page on getting access](https://www.pdc.kth.se/support/documents/getting_access/get_access.html#supr-account).
-You will get a PDC account overnight.
-
-???- question "How do I know I have a PDC account?"
-
-    Login to [https://supr.naiss.se/](https://supr.naiss.se/).
-    and click on 'Accounts' in the main menu bar at the left.
-
-    If you see 'Dardel' among the resources, and status 'Enabled'
-    in the same row, you have a PDC account!
-
-    ![](./img/supr_naiss_dardel_account.png)
-
-    > Example of a user having an account at PDC's Dardel HPC cluster
-
 ### 3. Create an SSH key pair
 
 How to create an SSH key pair is described in detail at [the PDC page on how to create an SSH key pair](https://www.pdc.kth.se/support/documents/login/ssh_login.html#how-to-create-ssh-key-pairs).
