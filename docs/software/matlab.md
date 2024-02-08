@@ -4,7 +4,9 @@ The MATLAB module
 
 MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is:
 
-    matlab/R2020b
+```console
+matlab/R2020b
+```
 
 If you need a different version, check the availability by:
 
