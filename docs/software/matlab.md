@@ -39,30 +39,30 @@ A good and important suggestion is that you always specify a certain version. Th
 
 Using MATLAB on the cluster enables you to utilize high performance facilities like:
 
-    Parallel computing 
-        Parallel for-loops
-        Evaluate functions in the background
-    Big data processing
-        Analyze big data sets in parallel
-    Batch Processing
-        Offload execution of functions to run in the background
-    GPU computing (Available on Snowy)
-        Accelerate your code by running it on a GPU
-    Machine & Deep learning
-        Statistics and Machine Learning
-        Deep Learning
+- Parallel computing 
+  - Parallel for-loops
+  - Evaluate functions in the background
+- Big data processing
+  - Analyze big data sets in parallel
+- Batch Processing
+  - Offload execution of functions to run in the background
+- GPU computing (Available on Snowy)
+  - Accelerate your code by running it on a GPU
+- Machine & Deep learning
+  - Statistics and Machine Learning
+  - Deep Learning
 
-See Mathwork's complete user guide.
+See Mathwork's complete user guide. **LINK**
 
 Some online tutorials and courses:
 
-    Parallel computing
-    Machine Learning
-        Machine learning article
-        Machine learning tutorial
-    Deep Learning
-        Deep learning article
-        Deep learning tutorial
+- Parallel computing
+- Machine Learning
+  - Machine learning article
+  - Machine learning tutorial
+- Deep Learning
+  - Deep learning article
+  - Deep learning tutorial
 
 ## Running MATLAB
 ### Graphical user interface
@@ -121,8 +121,8 @@ You may want to confer our UPPMAX ThinLinc user guide
 
 Two commands in MATLAB are important to make your code parallel:
 
-    **parfor** will distribute your "for loop" among several workers (cores)
-    **parfeval** runs a section or a function on workers in the background
+- **``parfor``** will distribute your "for loop" among several workers (cores)
+- **``parfeval``** runs a section or a function on workers in the background
 
 ### Use interactive matlab
 
@@ -140,19 +140,27 @@ In MATLAB open a parallel pool of 8 local workers:
 
 What happens if you try to run the above command twice?  You can't run multiple parallel pools at the same time. Query the number of workers in the parallel pool:
 
-        >> p.NumWorkers
+```matlab
+>> p.NumWorkers
+```
 
 'gcp' will "get current pool" and return a handle to it.  If a pool has not already been started, it will create a new one first and then return the handle to it:
 
-        >> p = gcp
+```matlab
+>> p = gcp
+```
 
 Shutdown the parallel pool:
 
-        >> delete(p)
+```matlab
+>> delete(p)
+```
 
 Will check to see if a pool is open and if so, deletes it.
 
-        >> delete(gcp('nocreate'))
+```matlab
+>> delete(gcp('nocreate'))
+```
 
 This will delete a pool if it exists, but won't create one first if it doesn't already exist.
 
