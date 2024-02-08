@@ -80,8 +80,8 @@ $ interactive -A <proj> -p core -n 2 -t 1:0:0
 ```
 
 This example starts a session with 2 cores for a wall time of 1 hour.
-### 
-MATLAB in terminal
+
+### MATLAB in terminal
 
 For simple calculations it is possible to start just a command shell in your terminal:
 
@@ -114,14 +114,15 @@ For rackham (in ThinLinc app): rackham-gui.uppmax.uu.se
 For Bianca (from web-browser): https://bianca.uppmax.uu.se
 
 You may want to confer our UPPMAX ThinLinc user guide  
+
 ## How to run parallel jobs
 
 ### Two MATLAB commands
 
 Two commands in MATLAB are important to make your code parallel:
 
-    parfor will distribute your "for loop" among several workers (cores)
-    parfeval runs a section or a function on workers in the background
+    **parfor** will distribute your "for loop" among several workers (cores)
+    **parfeval** runs a section or a function on workers in the background
 
 ### Use interactive matlab
 
@@ -133,7 +134,9 @@ $ interactive -A <project> -p core -n 8 -t 3:00:00
 
 In MATLAB open a parallel pool of 8 local workers:
 
-        >> p = parpool(8)
+```matlab
+>> p = parpool(8)
+```
 
 What happens if you try to run the above command twice?  You can't run multiple parallel pools at the same time. Query the number of workers in the parallel pool:
 
@@ -237,11 +240,15 @@ Running MATLAB with GPU is, as of now, only possible on the Snowy and Bianca clu
 
 Start an interactive session with at least 2 cores (otherwise MATLAB may not start). On Snowy, getting (for instance) 2 cpu:s (-n 2) and 1 gpu:
 
+```console
 $ interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 3:00:00
+```
 
 On Bianca, getting 3 cpu:s and 1 gpu:
 
+```console
 $ interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00 
+```
 
 Note that wall time "-t" should be set to more than one hour to not automatically put job in "devel" or "devcore" queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.
 
@@ -313,4 +320,6 @@ Unfortunately this only works from login nodes.
 
 You may want to run MATLAB on a single thread. This makes it work:
 
+```console
 $ matlab -singleCompThread
+```
