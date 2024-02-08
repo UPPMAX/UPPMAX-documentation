@@ -49,6 +49,10 @@ flowchart TD
   check_logs --> |needed for| delete_ssh_keys
 ```
 
+> Overview of the migration process.
+> Note that step 1 requires some hours of waiting
+> and step 2 requires an overnight wait.
+
 ### 1. Get access to a SUPR project with Dardel
 
 First step is to get get access to a SUPR project with Dardel.
