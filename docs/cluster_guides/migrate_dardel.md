@@ -170,7 +170,7 @@ Follow [PDC:s instructions on how to add SSH keys](https://www.pdc.kth.se/suppor
     > and is still missing `*.uppmax.uu.se`.
 
 Once you have added you key you have to 
-[add UPPMAX as allowed to use the key](dardel_ssh-keys/#optional-adding-uppmax-to-addresses). 
+[add UPPMAX as allowed to use the key](dardel_ssh-keys.md#optional-adding-uppmax-to-addresses).
 Click on `Add address` for it and add `*.uppmax.uu.se`
 
 ???- question "How does it look like to edit an SSH key so that can be used for UPPMAX?"
