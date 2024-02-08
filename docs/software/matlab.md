@@ -2,11 +2,15 @@
 
 The MATLAB module
 
-MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is:
+MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023a``
+
+Doing:
 
 ```console
-$ matlab/R2023a
+$ module load matlab 
 ```
+
+will give you the latest version.
 
 If you need a different version, check the availability by:
 
@@ -25,13 +29,6 @@ $ matlab &
 
 That will start a matlab session with the common GUI. Use "&" to have MATLAB in background making terminal still active for other work.
 
-Doing:
-
-```console
-$ module load matlab 
-```
-
-will give you matlab/R2019a on Rackham, otherwise the latest version.
 
 A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
 
