@@ -10,6 +10,9 @@ This page describes how to use Slurm on Snowy.
 
     See the general page on Snowy [here](snowy.md)
 
+See [Slurm troubleshooting](slurm_troubleshooting.md)
+how to fix Slurm errors.
+
 ## `sbatch` (and `interactive`) on Snowy
 
 `sbatch` (and `interactive`) work the same as on other clusters,

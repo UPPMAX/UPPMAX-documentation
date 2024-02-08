@@ -8,6 +8,8 @@ The software used is called Slurm or SLURM.
 This page describes how to use Slurm in general.
 See [optimizing jobs](optimizing_jobs.md)
 how to optimize Slurm jobs.
+See [Slurm troubleshooting](slurm_troubleshooting.md)
+how to fix Slurm errors.
 
 For information specific to clusters, see:
 

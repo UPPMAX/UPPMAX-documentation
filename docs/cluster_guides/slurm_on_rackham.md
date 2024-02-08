@@ -10,6 +10,9 @@ This page describes how to use Slurm on Rackham.
 
     See the general page on Rackham [here](rackham.md)
 
+See [Slurm troubleshooting](slurm_troubleshooting.md)
+how to fix Slurm errors.
+
 ## `sbatch` (and `interactive`) on Rackham
 
 `sbatch` (and `interactive`) work the same as on other clusters,

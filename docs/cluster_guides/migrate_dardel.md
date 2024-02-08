@@ -243,8 +243,9 @@ darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
 
 ???- question "How to find out where on Dardel I will  transfer your data to?"
 
-    TODO: use `~` to see what happens
-
+    * Your home folder: `/cfs/klemming/home/r/richelbi`
+    * Shorthand for your home folder: `~`
+    * Your project folder: `/cfs/klemming/projects/snic/naiss2023-22-1027`
 
 ### 6. Submit the script created by Darsync
 
@@ -253,6 +254,14 @@ Submit the transfer script created by Darsync to SLURM.
 ```bash
 sbatch --output=~/dardel_transfer.out --error=~/dardel_transfer.err ~/dardel_transfer_script.sh
 ```
+
+???- question "I get an error 'sbatch: error: Batch job submission failed'. What do I do?"
+
+    It means that the script created for you, `dardel_transfer_script.sh`,
+    has a mistake.
+
+    See [Slurm troubleshooting](slurm_troubleshooting.md) for guidance
+    on how to troubleshoot this.
 
 ### 7. Check logs
 

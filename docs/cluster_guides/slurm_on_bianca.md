@@ -10,6 +10,9 @@ This page describes how to use Slurm on Bianca.
 
     See the general page on Bianca [here](bianca.md)
 
+See [Slurm troubleshooting](slurm_troubleshooting.md)
+how to fix Slurm errors.
+
 ## `sbatch` (and `interactive`) on Bianca
 
 `sbatch` (and `interactive`) work the same as on other clusters,
