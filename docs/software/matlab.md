@@ -113,7 +113,7 @@ You may get the best of the MATLAB graphics by runing it the ThinLinc environmen
 
 - For Bianca (from web-browser): <https://bianca.uppmax.uu.se>
 
-You may want to confer our UPPMAX ThinLinc user guide  
+You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se/getting_started/login_rackham/#thinlinc-all-platforms).
 
 ## How to run parallel jobs
 
@@ -249,7 +249,7 @@ where parallel_example-hvy.m was the script presented above.
 
 For the moment jobs are hard coded to be node jobs. This means that if you request 21 tasks instead (20 + 1) you will get a 2 node job, but only 1 core will be used on the second node. In this case you'd obviously request 40 tasks (39 + 1) instead.
 
-For more information about Matlab's Distributed Computing features please see Matlab's HPC Portal.
+For more information about Matlab's Distributed Computing features please see [Matlab's HPC Portal](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav).
 
 ### GPU
 
