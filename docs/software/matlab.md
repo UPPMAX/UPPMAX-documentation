@@ -52,7 +52,7 @@ Using MATLAB on the cluster enables you to utilize high performance facilities l
   - [Statistics and Machine Learning[(https://se.mathworks.com/help/stats/index.html)
   - [Deep Learning](https://se.mathworks.com/help/deeplearning/index.html)
 
-[See Mathwork's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
+[See MathWork's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
 
 Some online tutorials and courses:
 
@@ -171,6 +171,7 @@ You can change your settings here: HOME > ENVIRONMENT > Parallel > Parallel pref
 
 With MATLAB you can e.g. submit jobs directly to our job queue scheduler, without having to use slurm's commands directly. Let us first make two small function. The first one, little simpler, saved in the file parallel_example.m:
 
+```matlab
     function t = parallel_example(nLoopIters, sleepTime) 
       t0 = tic; 
       parfor idx = 1:nLoopIters 
@@ -178,9 +179,10 @@ With MATLAB you can e.g. submit jobs directly to our job queue scheduler, withou
         pause(sleepTime); 
       end 
       t = toc(t0); 
-
+```
 and the second, little longer, saved in parallel_example_hvy.m:
 
+```matlab
     function t = parallel_example(nLoopIters, sleepTime) 
       t0 = tic; 
       ml = 'module list';
@@ -192,14 +194,17 @@ and the second, little longer, saved in parallel_example_hvy.m:
           A(idx) = A(idx)/3;
         end
       end 
-
+```
 Begin by running the command
 
-        >> configCluster %(on Bianca it will look a little different)
+```matlab
+>> configCluster %(on Bianca it will look a little different)
+```
 
 in Matlab Command Window to choose a cluster configuration. Matlab will set up a configuration and will then print out some instructions, seen below. You can also set environments that is read if you don't specify it. Go to HOME > ENVIRONMENT > Parallel > Parallel preferences. 
 
-    "   [1] rackham
+```matlab
+       [1] rackham
        [2] snowy
     Select a cluster [1-2]: 1
     >> 
@@ -211,17 +216,20 @@ in Matlab Command Window to choose a cluster configuration. Matlab will set up a
     >> job = c.batch(@parallel_example, 1, {90, 5}, 'pool', 19) %19 is for 20 cores. On Snowy and Bianca use 15.  
     >> job.wait  
     >> job.fetchOutputs{:}"
-
+```
 Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line "c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)" can be understood as put the function "parallel_example" to the batch queue. The arguments to batch are:
 
+```matlab
     c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', no of additional workers to the master)
 
     c.batch(@parallel_example, 1 (t=toc(t0)), {nLoopIters=90, sleepTime=5}, 'pool', 19)
+```
 
 To see the output to screen from jobs, use job.Tasks.Diary. Output from the submitted function is fetched with 'fetchOutputs()'.
 
 For jobs using several nodes (in this case 2) you may modify the call to:
 
+```matlab
     >> configCluster
        [1] rackham
        [2] snowy
@@ -235,6 +243,7 @@ For jobs using several nodes (in this case 2) you may modify the call to:
     >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 39)% 31 on Bianca or Snowy
     >> job.wait
     >> job.fetchOutputs{:}
+```
 
 where parallel_example-hvy.m was the script presented above.
 
@@ -262,31 +271,35 @@ Note that wall time "-t" should be set to more than one hour to not automaticall
 
 Load MATLAB module and start matlab as usual (with &) in the new session. Then test if the gpu device is found by typing:
 
+```matlab
 >> gpuDevice
 >> gpuDeviceCount
+```
 
 On Bianca you may get an error. Follow the instructons and you can run anyway. Example code:
 
+```matlab
 >> A = gpuArray([1 0 1; -1 -2 0; 0 1 -1]);
 >> e = eig(A);
+```
 
-For more information about GPU computing confer the MathWorks web.
+For more information about GPU computing confer the [MathWorks web about GPU computing](https://se.mathworks.com/help/parallel-computing/gpu-computing.html?s_tid=CRUX_lftnav).
 
 #### Deep Learning with GPUs
 
 For many functions in Deep Learning Toolbox, GPU support is automatic if you have a suitable GPU and Parallel Computing Toolbox™. You do not need to convert your data to gpuArray. The following is a non-exhaustive list of functions that, by default, run on the GPU if available.
 
-    trainNetwork (Deep Learning Toolbox)
+- [trainNetwork](https://se.mathworks.com/help/deeplearning/ref/trainnetwork.html) (Deep Learning Toolbox)
 
-    predict (Deep Learning Toolbox)
+- [predict](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.predict.html) (Deep Learning Toolbox)
 
-    predictAndUpdateState (Deep Learning Toolbox)
+- [predictAndUpdateState](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.predictandupdatestate.html) (Deep Learning Toolbox)
 
-    classify (Deep Learning Toolbox)
+- [classify](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.classify.html) (Deep Learning Toolbox)
 
-    classifyAndUpdateState (Deep Learning Toolbox)
+- [classifyAndUpdateState](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.classifyandupdatestate.html) (Deep Learning Toolbox)
 
-    activations (Deep Learning Toolbox)
+- [activations](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.activations.html) (Deep Learning Toolbox)
 
 ### Shell batch jobs
 
