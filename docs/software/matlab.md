@@ -109,7 +109,7 @@ $ matlab -h
 
 You may get the best of the MATLAB graphics by runing it the ThinLinc environment.
 
-- For rackham (in ThinLinc app): ``rackham-gui.uppmax.uu.se``
+- For rackham (in [ThinLinc app](https://www.cendio.com/thinlinc/download/)): ``rackham-gui.uppmax.uu.se``
 
 - For Bianca (from web-browser): <https://bianca.uppmax.uu.se>
 
