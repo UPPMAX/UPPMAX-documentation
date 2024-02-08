@@ -4,25 +4,32 @@ The MATLAB module
 
 MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is:
 
-    matlab/R2020b
+```console
+$ matlab/R2020b
+```
 
 If you need a different version, check the availability by:
 
-        $ module avail matlab
+```console
+$ module avail matlab
+```
 
 For version before 2017 check this page. Don’t forget to replace clustername “tintin” with “rackham”.
 
 To get started with MATLAB do (for instance):
 
-        $ module load matlab/R2020b
-
-        $ matlab &
+```console
+$ module load matlab/R2020b
+$ matlab &
+```
 
 That will start a matlab session with the common GUI. Use "&" to have MATLAB in background making terminal still active for other work.
 
 Doing:
 
-        $ module load matlab 
+```console
+$ module load matlab 
+```
 
 will give you matlab/R2019a on Rackham, otherwise the latest version.
 
@@ -62,19 +69,25 @@ Some online tutorials and courses:
 
 To start MATLAB with its usual graphical interface, start it with:
 
-        $ matlab
+```console
+$ matlab
+```
 
 If you will use significant resources, like processor or RAM, you should start an interactive session on a calculation node. Use at least 2 cores (-n 2), when running interactive. Otherwise MATLAB may not start. You can use several cores if you will do some parallel calculations (see parallel section below). Example:
 
-        $ interactive -A <proj> -p core -n 2 -t 1:0:0
+```console
+$ interactive -A <proj> -p core -n 2 -t 1:0:0
+```
 
 This example starts a session with 2 cores for a wall time of 1 hour.
-### 
-MATLAB in terminal
+
+### MATLAB in terminal
 
 For simple calculations it is possible to start just a command shell in your terminal:
 
-        $ matlab -nodisplay
+```console
+$ matlab -nodisplay
+```
 
 Exit with 'exit'.
 
@@ -82,11 +95,15 @@ Run script from terminal or bash script
 
 In order to run a script directly from terminal:
 
-        $ matlab -batch "run('<path/to/script.m>')" | tail -n +2
+```console
+$ matlab -batch "run('<path/to/script.m>')" | tail -n +2
+```
 
 List all ways to run/start MATLAB:
 
-        $ matlab -h
+```console
+$ matlab -h
+```
 
 ### Thinlinc
 
@@ -97,24 +114,29 @@ For rackham (in ThinLinc app): rackham-gui.uppmax.uu.se
 For Bianca (from web-browser): https://bianca.uppmax.uu.se
 
 You may want to confer our UPPMAX ThinLinc user guide  
+
 ## How to run parallel jobs
 
 ### Two MATLAB commands
 
 Two commands in MATLAB are important to make your code parallel:
 
-    parfor will distribute your "for loop" among several workers (cores)
-    parfeval runs a section or a function on workers in the background
+    **parfor** will distribute your "for loop" among several workers (cores)
+    **parfeval** runs a section or a function on workers in the background
 
 ### Use interactive matlab
 
 First, start an interactive session on a calculation node with, for instance 8 cores by:
 
-        $ interactive -A <project> -p core -n 8 -t 3:00:00
+```console
+$ interactive -A <project> -p core -n 8 -t 3:00:00
+```
 
 In MATLAB open a parallel pool of 8 local workers:
 
-        >> p = parpool(8)
+```matlab
+>> p = parpool(8)
+```
 
 What happens if you try to run the above command twice?  You can't run multiple parallel pools at the same time. Query the number of workers in the parallel pool:
 
@@ -218,11 +240,15 @@ Running MATLAB with GPU is, as of now, only possible on the Snowy and Bianca clu
 
 Start an interactive session with at least 2 cores (otherwise MATLAB may not start). On Snowy, getting (for instance) 2 cpu:s (-n 2) and 1 gpu:
 
+```console
 $ interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 3:00:00
+```
 
 On Bianca, getting 3 cpu:s and 1 gpu:
 
+```console
 $ interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00 
+```
 
 Note that wall time "-t" should be set to more than one hour to not automatically put job in "devel" or "devcore" queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.
 
@@ -271,7 +297,9 @@ srun -N 2 -n 40  matlab -batch "run('<path/to/m-script>')"
 ```
 Run with
 
+```console
 $ sbatch matlab_submit.sh
+```
 
 ## Common problems
 
@@ -279,14 +307,19 @@ Sometimes things do not work out.
 
 As a first step, try with removing local files:
 
+```console
 $ rm -rf ~/.matlab
+```
 
 If the graphics is slow, try:
 
+```console
 $ vglrun matlab -nosoftwareopengl
-
+```
 Unfortunately this only works from login nodes.
 
 You may want to run MATLAB on a single thread. This makes it work:
 
+```console
 $ matlab -singleCompThread
+```
