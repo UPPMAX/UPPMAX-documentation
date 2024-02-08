@@ -250,7 +250,7 @@ darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
       where `[project_storage]` is your PDC project storage folder,
       for example `/cfs/klemming/projects/snic/naiss2023-22-1027`
 
-    ![](supr_naiss_dardel_storage.png)
+    ![](./img/supr_naiss_dardel_storage.png)
 
     > Composite image of a PDC project and its associated storage folder 
     > at the bottom. 
