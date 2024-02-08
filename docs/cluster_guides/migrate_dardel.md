@@ -194,7 +194,9 @@ Click on `Add address` for it and add `*.uppmax.uu.se`
 
 ### 5. Run Darsync
 
-Run the migration tool [Darsync](../darsync.md):
+Run the migration tool [Darsync](../cluster_guides/darsync.md). 
+Below it is described how to find the answers to the questions
+[Darsync](../cluster_guides/darsync.md) will ask.
 
 ```bash
 module load darsync
@@ -203,6 +205,46 @@ darsync check --local-dir /path/to/dir
 # fix any errors the check step found
 darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
 ```
+
+???- question "How to find out my UPPMAX project ID?"
+
+    The UPPMAX project ID is used in your [Slurm](slurm.md) scripts,
+    with the `-A` flag.
+
+    Your UPPMAX project IDs can be found at [https://supr.naiss.se/](https://supr.naiss.se/).
+    UPPMAX projects for Rackham usually start with `NAISS` or `UPPMAX`
+    and have '(UPPMAX)' after the project name.
+
+    Here is how to convert the UPPMAX project name to UPPMAX project ID:
+
+    UPPMAX project name|UPPMAX project ID
+    -------------------|-----------------
+    NAISS 2024/22-49   |`naiss2024-22-49`
+    UPPMAX 2023/2-25   |`uppmax2023-2-25`
+
+    ![](supr_naiss_example_projects.png)
+
+    > Example [https://supr.naiss.se/](https://supr.naiss.se/) page.
+    > Eligible candidates seem 'NAISS 2024/22-49' and 'UPPMAX 2023/2-25'.
+
+???- question "How to find out my Dardel username?"
+
+    Login to [https://supr.naiss.se/](https://supr.naiss.se/).
+    and click on 'Accounts' in the main menu bar at the left.
+
+    If you see 'Dardel' among the resources, and status 'Enabled'
+    in the same row, you have a PDC account.
+    In the first column of such a row, you will see your username
+
+    ![](./img/supr_naiss_dardel_account.png)
+
+    > Example of a user having an account at PDC's Dardel HPC cluster.
+    > In this case, the username is `richelbi`
+
+???- question "How to find out where on Dardel I will  transfer your data to?"
+
+    TODO: use `~` to see what happens
+
 
 ### 6. Submit the script created by Darsync
 
