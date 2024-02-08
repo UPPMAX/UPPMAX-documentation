@@ -5,7 +5,7 @@ The MATLAB module
 MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is:
 
 ```console
-$ matlab/R2020b
+$ matlab/R2023a
 ```
 
 If you need a different version, check the availability by:
@@ -19,7 +19,7 @@ For version before 2017 check this page. Donâ€™t forget to replace clustername â
 To get started with MATLAB do (for instance):
 
 ```console
-$ module load matlab/R2020b
+$ module load matlab/R2023a
 $ matlab &
 ```
 
