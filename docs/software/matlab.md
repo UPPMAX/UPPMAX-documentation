@@ -18,8 +18,6 @@ If you need a different version, check the availability by:
 $ module avail matlab
 ```
 
-For version before 2017 check this page. Don’t forget to replace clustername “tintin” with “rackham”.
-
 To get started with MATLAB do (for instance):
 
 ```console
