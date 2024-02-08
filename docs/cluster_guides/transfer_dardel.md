@@ -177,9 +177,7 @@ If your data transfer took too long and got killed by SLURM, or if it crashed fo
 
 ### 8. Delete the SSH key pair
 
-
-
-When you are done with transfering files you should delete your SSH keys you created in the previous steps in this guide. The SSH keys created where created without a password to protect them (required to run darsync as a unattended job), and it's best to delete them.
+When you are done with transferring files you should delete your SSH keys you created in the previous steps in this guide. The SSH keys created where created without a password to protect them (required to run darsync as a unattended job), and it's best to delete them.
 
 ```bash
 rm ~/.ssh/id_ed25519-pdc*
@@ -192,7 +190,7 @@ ssh-keygen -t ed25519
 
 and add the new public key (`~/.ssh/id_ed25519.pub`) to the PDC Login Portal following the same steps as above.
 
-Once you are sure your data has been transfered, we recommend that you switch over to only work on Dardel. If you keep working on both clusters you will easily forget which cluster has the most up-to-date version of the files.
+Once you are sure your data has been transferred, we recommend that you switch over to only work on Dardel. If you keep working on both clusters you will easily forget which cluster has the most up-to-date version of the files.
 
 ## Link
 
