@@ -241,11 +241,20 @@ darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
     > Example of a user having an account at PDC's Dardel HPC cluster.
     > In this case, the username is `richelbi`
 
-???- question "How to find out where on Dardel I will  transfer your data to?"
+???- question "How to find out where on Dardel I will transfer your data to?"
 
-    * Your home folder: `/cfs/klemming/home/r/richelbi`
-    * Shorthand for your home folder: `~`
-    * Your project folder: `/cfs/klemming/projects/snic/naiss2023-22-1027`
+    * Your home folder: `/cfs/klemming/home/r/[username]`,
+      where `[username]` is your PDC username,
+      for example `/cfs/klemming/home/r/sven`
+    * Your project folder: `/cfs/klemming/projects/[project_storage]`,
+      where `[project_storage]` is your PDC project storage folder,
+      for example `/cfs/klemming/projects/snic/naiss2023-22-1027`
+
+    ![](supr_naiss_dardel_storage.png)
+
+    > Composite image of a PDC project and its associated storage folder 
+    > at the bottom. 
+    > In this case, the full folder name is `/cfs/klemming/projects/snic/naiss2023-22-10271`
 
 ### 6. Submit the script created by Darsync
 
