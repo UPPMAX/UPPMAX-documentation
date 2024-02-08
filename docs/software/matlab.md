@@ -39,30 +39,30 @@ A good and important suggestion is that you always specify a certain version. Th
 
 Using MATLAB on the cluster enables you to utilize high performance facilities like:
 
-- Parallel computing 
+- [Parallel computing](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav)
   - Parallel for-loops
   - Evaluate functions in the background
-- Big data processing
+- [Big data processing](https://se.mathworks.com/help/parallel-computing/big-data-processing.html?s_tid=CRUX_lftnav)
   - Analyze big data sets in parallel
-- Batch Processing
+- [Batch Processing](https://se.mathworks.com/help/parallel-computing/batch-processing.html?s_tid=CRUX_lftnav)
   - Offload execution of functions to run in the background
-- GPU computing (Available on Snowy)
+- [GPU computing](https://se.mathworks.com/help/parallel-computing/gpu-computing.html?s_tid=CRUX_lftnav) (Available on Bianca and Snowy)
   - Accelerate your code by running it on a GPU
 - Machine & Deep learning
-  - Statistics and Machine Learning
-  - Deep Learning
+  - [Statistics and Machine Learning[(https://se.mathworks.com/help/stats/index.html)
+  - [Deep Learning](https://se.mathworks.com/help/deeplearning/index.html)
 
-See Mathwork's complete user guide. **LINK**
+[See Mathwork's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
 
 Some online tutorials and courses:
 
-- Parallel computing
+- [Parallel computing](https://se.mathworks.com/solutions/parallel-computing.html)
 - Machine Learning
-  - Machine learning article
-  - Machine learning tutorial
+  - [Machine learning article](https://se.mathworks.com/solutions/machine-learning.html)
+  - [Machine learning tutorial](https://matlabacademy.mathworks.com/details/machine-learning-onramp/machinelearning)
 - Deep Learning
-  - Deep learning article
-  - Deep learning tutorial
+  - [Deep learning article](https://se.mathworks.com/solutions/deep-learning.html)
+  - [Deep learning tutorial](https://matlabacademy.mathworks.com/details/deep-learning-onramp/deeplearning)
 
 ## Running MATLAB
 ### Graphical user interface
@@ -107,11 +107,11 @@ $ matlab -h
 
 ### Thinlinc
 
-You may get the best of the MATLAB graphics by runing it the thinlinc environment.
+You may get the best of the MATLAB graphics by runing it the ThinLinc environment.
 
-For rackham (in ThinLinc app): rackham-gui.uppmax.uu.se
+- For rackham (in ThinLinc app): ``rackham-gui.uppmax.uu.se``
 
-For Bianca (from web-browser): https://bianca.uppmax.uu.se
+- For Bianca (from web-browser): <https://bianca.uppmax.uu.se>
 
 You may want to confer our UPPMAX ThinLinc user guide  
 
