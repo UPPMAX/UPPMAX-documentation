@@ -34,12 +34,12 @@ and step 2 requires an overnight wait.
 flowchart TD
   get_supr_project[1. Access to a SUPR project with Dardel]
   get_pdc_account[2. Access to a PDC account]
-  create_ssh_key[3. Create SSH key pair]
-  add_ssh_key[4. Add the SSH keyto the PDC Login Portal]
+  create_ssh_key[3. Create temporary SSH keys]
+  add_ssh_key[4. Add the SSH keys to the PDC Login Portal]
   run_darsync[5. Run Darsync]
   slurm[6. Submit the script created by Darsync]
   check_logs[7. Check logs]
-  delete_ssh_keys[8. Delete the SSH key]
+  delete_ssh_keys[8. Delete the temporary SSH keys]
 
   get_supr_project --> |needed for| get_pdc_account
 
@@ -283,8 +283,10 @@ tail ~/dardel_transfer.err
 
 ### 8. Delete the SSH key
 
-Delete the SSH key you created after the migration has completed.
+After the migration, these temporary SSH keys can and should be deleted:
 
 ```bash
 rm ~/.ssh/id_ed25519-pdc*
 ```
+
+
