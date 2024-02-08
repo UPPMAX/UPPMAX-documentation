@@ -42,7 +42,7 @@ On Rackham, do:
 
 ```
 # generate the key
-ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519-pdc
+ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519_pdc
 ```
 
 and you have created a SSH key pair.
@@ -52,7 +52,7 @@ and you have created a SSH key pair.
     On Rackham, in a terminal, type:
 
     ```
-    $ cat ~/.ssh/id_ed25519-pdc.pub
+    $ cat ~/.ssh/id_ed25519_pdc.pub
     ```
 
     This will show a text similar to:
@@ -70,7 +70,7 @@ in detail in [the PDC documentation on how to add SSH keys](https://www.pdc.kth.
 You will need to get the public part of the key in order to complete this step.i On Rackham, in a terminal, type:
 
 ```
-$ cat ~/.ssh/id_ed25519-pdc.pub
+$ cat ~/.ssh/id_ed25519_pdc.pub
 ```
 
 This will show a text similar to:
@@ -126,7 +126,7 @@ To validate that it work you can connect to Dardel via SSH:
 
 ```bash
 # replace your_dardel_username with your actual Dardel username
-ssh -i ~/.ssh/id_ed25519-pdc your_dardel_username@dardel.pdc.kth.se
+ssh -i ~/.ssh/id_ed25519_pdc your_dardel_username@dardel.pdc.kth.se
 ```
 
 @Richel, need a screenshot of ssh working
@@ -180,7 +180,7 @@ If your data transfer took too long and got killed by SLURM, or if it crashed fo
 When you are done with transferring files you should delete your SSH keys you created in the previous steps in this guide. The SSH keys created where created without a password to protect them (required to run darsync as a unattended job), and it's best to delete them.
 
 ```bash
-rm ~/.ssh/id_ed25519-pdc*
+rm ~/.ssh/id_ed25519_pdc*
 ```
 
 Create new ones if you still need to connect to Dardel from UPPMAX. To create new keys with password on them, simply run:
