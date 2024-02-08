@@ -27,6 +27,8 @@ when trying the guide below.
 
 This migration consists of a couple of steps summarized below. 
 Press the links to get more detailed explanation of each step.
+Note that step 1 requires some hours of waiting
+and step 2 requires an overnight wait.
 
 ```mermaid
 flowchart TD
