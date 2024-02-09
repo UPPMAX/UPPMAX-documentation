@@ -79,5 +79,16 @@ beast beast2_setup.xml
 ```
 
 When using a script, put that line in a script.
+Below is an example script, called `run_beast2.sh`:
+
+```bash title="run_beast2.sh"
+#!/bin/bash
+#SBATCH -A uppmax2023-2-25
+beast beast2_setup.xml
+```
+
+Replace `uppmax2023-2-25` with [your UPPMAX project](../getting_started/project.md).
+
+Then run this script using `sbatch run_beast2.sh`.
 
 
