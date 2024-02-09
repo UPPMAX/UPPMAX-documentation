@@ -2992,4 +2992,8 @@ xCORE
 PDC's
 prefilled
 Richel
-
+MathWork's
+trainNetwork
+predictAndUpdateState
+classifyAndUpdateState
+activations

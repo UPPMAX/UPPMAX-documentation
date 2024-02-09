@@ -2,28 +2,7 @@
 
 The MATLAB module
 
-MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is:
-
-```console
-$ matlab/R2020b
-```
-
-If you need a different version, check the availability by:
-
-```console
-$ module avail matlab
-```
-
-For version before 2017 check this page. Don’t forget to replace clustername “tintin” with “rackham”.
-
-To get started with MATLAB do (for instance):
-
-```console
-$ module load matlab/R2020b
-$ matlab &
-```
-
-That will start a matlab session with the common GUI. Use "&" to have MATLAB in background making terminal still active for other work.
+MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023a``
 
 Doing:
 
@@ -31,7 +10,23 @@ Doing:
 $ module load matlab 
 ```
 
-will give you matlab/R2019a on Rackham, otherwise the latest version.
+will give you the latest version.
+
+If you need a different version, check the availability by:
+
+```console
+$ module avail matlab
+```
+
+To get started with MATLAB do (for instance):
+
+```console
+$ module load matlab/R2023a
+$ matlab &
+```
+
+That will start a matlab session with the common GUI. Use "&" to have MATLAB in background making terminal still active for other work.
+
 
 A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
 
@@ -39,30 +34,30 @@ A good and important suggestion is that you always specify a certain version. Th
 
 Using MATLAB on the cluster enables you to utilize high performance facilities like:
 
-    Parallel computing 
-        Parallel for-loops
-        Evaluate functions in the background
-    Big data processing
-        Analyze big data sets in parallel
-    Batch Processing
-        Offload execution of functions to run in the background
-    GPU computing (Available on Snowy)
-        Accelerate your code by running it on a GPU
-    Machine & Deep learning
-        Statistics and Machine Learning
-        Deep Learning
+- [Parallel computing](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav)
+    - Parallel for-loops
+    - Evaluate functions in the background
+- [Big data processing](https://se.mathworks.com/help/parallel-computing/big-data-processing.html?s_tid=CRUX_lftnav)
+    - Analyze big data sets in parallel
+- [Batch Processing](https://se.mathworks.com/help/parallel-computing/batch-processing.html?s_tid=CRUX_lftnav)
+    - Offload execution of functions to run in the background
+- [GPU computing](https://se.mathworks.com/help/parallel-computing/gpu-computing.html?s_tid=CRUX_lftnav) (Available on Bianca and Snowy)
+    - Accelerate your code by running it on a GPU
+- Machine & Deep learning
+    - [Statistics and Machine Learning](https://se.mathworks.com/help/stats/index.html)
+    - [Deep Learning](https://se.mathworks.com/help/deeplearning/index.html)
 
-See Mathwork's complete user guide.
+[See MathWork's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
 
 Some online tutorials and courses:
 
-    Parallel computing
-    Machine Learning
-        Machine learning article
-        Machine learning tutorial
-    Deep Learning
-        Deep learning article
-        Deep learning tutorial
+- [Parallel computing](https://se.mathworks.com/solutions/parallel-computing.html)
+- Machine Learning
+    - [Machine learning article](https://se.mathworks.com/solutions/machine-learning.html)
+    - [Machine learning tutorial](https://matlabacademy.mathworks.com/details/machine-learning-onramp/machinelearning)
+- Deep Learning
+    - [Deep learning article](https://se.mathworks.com/solutions/deep-learning.html)
+    - [Deep learning tutorial](https://matlabacademy.mathworks.com/details/deep-learning-onramp/deeplearning)
 
 ## Running MATLAB
 ### Graphical user interface
@@ -107,13 +102,13 @@ $ matlab -h
 
 ### Thinlinc
 
-You may get the best of the MATLAB graphics by runing it the thinlinc environment.
+You may get the best of the MATLAB graphics by runing it the ThinLinc environment.
 
-For rackham (in ThinLinc app): rackham-gui.uppmax.uu.se
+- For rackham (in [ThinLinc app](https://www.cendio.com/thinlinc/download/)): ``rackham-gui.uppmax.uu.se``
 
-For Bianca (from web-browser): https://bianca.uppmax.uu.se
+- For Bianca (from web-browser): <https://bianca.uppmax.uu.se>
 
-You may want to confer our UPPMAX ThinLinc user guide  
+You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se/getting_started/login_rackham/#thinlinc-all-platforms).
 
 ## How to run parallel jobs
 
@@ -121,8 +116,8 @@ You may want to confer our UPPMAX ThinLinc user guide
 
 Two commands in MATLAB are important to make your code parallel:
 
-    **parfor** will distribute your "for loop" among several workers (cores)
-    **parfeval** runs a section or a function on workers in the background
+- **``parfor``** will distribute your "for loop" among several workers (cores)
+- **``parfeval``** runs a section or a function on workers in the background
 
 ### Use interactive matlab
 
@@ -140,19 +135,27 @@ In MATLAB open a parallel pool of 8 local workers:
 
 What happens if you try to run the above command twice?  You can't run multiple parallel pools at the same time. Query the number of workers in the parallel pool:
 
-        >> p.NumWorkers
+```matlab
+>> p.NumWorkers
+```
 
 'gcp' will "get current pool" and return a handle to it.  If a pool has not already been started, it will create a new one first and then return the handle to it:
 
-        >> p = gcp
+```matlab
+>> p = gcp
+```
 
 Shutdown the parallel pool:
 
-        >> delete(p)
+```matlab
+>> delete(p)
+```
 
 Will check to see if a pool is open and if so, deletes it.
 
-        >> delete(gcp('nocreate'))
+```matlab
+>> delete(gcp('nocreate'))
+```
 
 This will delete a pool if it exists, but won't create one first if it doesn't already exist.
 
@@ -163,6 +166,7 @@ You can change your settings here: HOME > ENVIRONMENT > Parallel > Parallel pref
 
 With MATLAB you can e.g. submit jobs directly to our job queue scheduler, without having to use slurm's commands directly. Let us first make two small function. The first one, little simpler, saved in the file parallel_example.m:
 
+```matlab
     function t = parallel_example(nLoopIters, sleepTime) 
       t0 = tic; 
       parfor idx = 1:nLoopIters 
@@ -170,9 +174,10 @@ With MATLAB you can e.g. submit jobs directly to our job queue scheduler, withou
         pause(sleepTime); 
       end 
       t = toc(t0); 
-
+```
 and the second, little longer, saved in parallel_example_hvy.m:
 
+```matlab
     function t = parallel_example(nLoopIters, sleepTime) 
       t0 = tic; 
       ml = 'module list';
@@ -184,14 +189,17 @@ and the second, little longer, saved in parallel_example_hvy.m:
           A(idx) = A(idx)/3;
         end
       end 
-
+```
 Begin by running the command
 
-        >> configCluster %(on Bianca it will look a little different)
+```matlab
+>> configCluster %(on Bianca it will look a little different)
+```
 
 in Matlab Command Window to choose a cluster configuration. Matlab will set up a configuration and will then print out some instructions, seen below. You can also set environments that is read if you don't specify it. Go to HOME > ENVIRONMENT > Parallel > Parallel preferences. 
 
-    "   [1] rackham
+```matlab
+       [1] rackham
        [2] snowy
     Select a cluster [1-2]: 1
     >> 
@@ -203,17 +211,20 @@ in Matlab Command Window to choose a cluster configuration. Matlab will set up a
     >> job = c.batch(@parallel_example, 1, {90, 5}, 'pool', 19) %19 is for 20 cores. On Snowy and Bianca use 15.  
     >> job.wait  
     >> job.fetchOutputs{:}"
-
+```
 Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line "c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)" can be understood as put the function "parallel_example" to the batch queue. The arguments to batch are:
 
+```matlab
     c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', no of additional workers to the master)
 
     c.batch(@parallel_example, 1 (t=toc(t0)), {nLoopIters=90, sleepTime=5}, 'pool', 19)
+```
 
 To see the output to screen from jobs, use job.Tasks.Diary. Output from the submitted function is fetched with 'fetchOutputs()'.
 
 For jobs using several nodes (in this case 2) you may modify the call to:
 
+```matlab
     >> configCluster
        [1] rackham
        [2] snowy
@@ -227,12 +238,13 @@ For jobs using several nodes (in this case 2) you may modify the call to:
     >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 39)% 31 on Bianca or Snowy
     >> job.wait
     >> job.fetchOutputs{:}
+```
 
 where parallel_example-hvy.m was the script presented above.
 
 For the moment jobs are hard coded to be node jobs. This means that if you request 21 tasks instead (20 + 1) you will get a 2 node job, but only 1 core will be used on the second node. In this case you'd obviously request 40 tasks (39 + 1) instead.
 
-For more information about Matlab's Distributed Computing features please see Matlab's HPC Portal.
+For more information about Matlab's Distributed Computing features please see [Matlab's HPC Portal](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav).
 
 ### GPU
 
@@ -254,31 +266,35 @@ Note that wall time "-t" should be set to more than one hour to not automaticall
 
 Load MATLAB module and start matlab as usual (with &) in the new session. Then test if the gpu device is found by typing:
 
+```matlab
 >> gpuDevice
 >> gpuDeviceCount
+```
 
 On Bianca you may get an error. Follow the instructons and you can run anyway. Example code:
 
+```matlab
 >> A = gpuArray([1 0 1; -1 -2 0; 0 1 -1]);
 >> e = eig(A);
+```
 
-For more information about GPU computing confer the MathWorks web.
+For more information about GPU computing confer the [MathWorks web about GPU computing](https://se.mathworks.com/help/parallel-computing/gpu-computing.html?s_tid=CRUX_lftnav).
 
 #### Deep Learning with GPUs
 
 For many functions in Deep Learning Toolbox, GPU support is automatic if you have a suitable GPU and Parallel Computing Toolbox™. You do not need to convert your data to gpuArray. The following is a non-exhaustive list of functions that, by default, run on the GPU if available.
 
-    trainNetwork (Deep Learning Toolbox)
+- [trainNetwork](https://se.mathworks.com/help/deeplearning/ref/trainnetwork.html) (Deep Learning Toolbox)
 
-    predict (Deep Learning Toolbox)
+- [predict](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.predict.html) (Deep Learning Toolbox)
 
-    predictAndUpdateState (Deep Learning Toolbox)
+- [predictAndUpdateState](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.predictandupdatestate.html) (Deep Learning Toolbox)
 
-    classify (Deep Learning Toolbox)
+- [classify](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.classify.html) (Deep Learning Toolbox)
 
-    classifyAndUpdateState (Deep Learning Toolbox)
+- [classifyAndUpdateState](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.classifyandupdatestate.html) (Deep Learning Toolbox)
 
-    activations (Deep Learning Toolbox)
+- [activations](https://se.mathworks.com/help/deeplearning/ref/seriesnetwork.activations.html) (Deep Learning Toolbox)
 
 ### Shell batch jobs
 
