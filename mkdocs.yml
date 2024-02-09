@@ -40,6 +40,8 @@ nav:
     - Overview: software/overview.md
     - Text editors: software/text_editors.md
     - Software-specific documentation:
+      - BEAST: cluster_guides/beast.md
+      - BEAST2: cluster_guides/beast2.md
       - Darsync: cluster_guides/darsync.md
       - GROMACS: software/gromacs.md
       - Julia: software/julia.md
