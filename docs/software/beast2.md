@@ -84,11 +84,16 @@ Below is an example script, called `run_beast2.sh`:
 ```bash title="run_beast2.sh"
 #!/bin/bash
 #SBATCH -A uppmax2023-2-25
+module load bioinfo-tools beast2/2.7.4
 beast beast2_setup.xml
 ```
 
-Replace `uppmax2023-2-25` with [your UPPMAX project](../getting_started/project.md).
+ * In line 2, replace `uppmax2023-2-25` with [your UPPMAX project](../getting_started/project.md).
+ * In line 3, you may want to replace `beast2/2.7.4` with your favorite BEAST2 version
 
 Then run this script using `sbatch run_beast2.sh`.
 
+Note that this is a *minimal* script.
+See [the UPPMAX documentation on Slurm](../cluster_guides/slurm.md)
+for ways to improve this script.
 
