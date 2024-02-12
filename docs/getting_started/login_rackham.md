@@ -156,7 +156,7 @@
       to run [`ssh`](../software/ssh.md):
 
     ``` bash
-    $ ssh -Y <username>@rackham.uppmax.uu.se
+    $ ssh -X <username>@rackham.uppmax.uu.se
     ```
     
     - ``-X`` Enables X11 forwarding. 
@@ -183,7 +183,7 @@
     - Start local terminal and [an SSH session](../software/ssh.md) by:
 
     ``` bash
-    $ ssh -Y <username>@rackham.uppmax.uu.se
+    $ ssh -X <username>@rackham.uppmax.uu.se
     ```
     
     - ``-X`` Enables X11 forwarding. 
@@ -202,7 +202,7 @@
 !!! note "X11-forwarding from the command line (generally)"
 
     - Graphics can be sent through the [SSH](../software/ssh.md) connection you’re using to connect
-      - Use primarily `ssh -Y <...>` or secondary `ssh -X <...>`
+      - Use primarily `ssh -X <...>` or secondary `ssh -X <...>`
 
     - The X servers that enables graphics are needed, as mentioned above!
       - When starting a graphical program, a new window will open, but your terminal will be “locked”.
@@ -219,7 +219,7 @@
     - First try:
 
     ``` bash
-    $ ssh -Y <username>@rackham.uppmax.uu.se
+    $ ssh -X <username>@rackham.uppmax.uu.se
     ```
 
     - If you receive errors or warnings, instead try:
