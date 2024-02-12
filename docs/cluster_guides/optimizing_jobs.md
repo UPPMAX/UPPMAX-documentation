@@ -12,14 +12,14 @@ This page describes how to optimize your Slurm jobs.
 
 You will probably have good use of the following commands:
 
-Command                      |Description
------------------------------|--------------------------------------------------------
-**uquota**                   |telling you about your file system usage
-**projinfo**                 |telling you about the CPU hour usage of your projects
-**jobinfo**                  |telling you about running and waiting jobs
-**finishedjobinfo**          |telling you about finished jobs
-**projmembers**              |telling you about project memberships
-**projsummary [project id]** |summarizes some useful information about projects
+Command                                          |Description
+-------------------------------------------------|--------------------------------------------------------
+**uquota**                                       |telling you about your file system usage
+**projinfo**                                     |telling you about the CPU hour usage of your projects
+**jobinfo**                                      |telling you about running and waiting jobs
+[finishedjobinfo](../software/finishedjobinfo.md)|information about finished jobs
+**projmembers**                                  |telling you about project memberships
+**projsummary [project id]**                     |summarizes some useful information about projects
 
 ???- info "Working on Snowy? Use -M"
 
