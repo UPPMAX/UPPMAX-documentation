@@ -13,6 +13,8 @@ BEAST2 is a tool for Bayesian phylogenetic analysis.
     - there are things BEAST can do that BEAST2 cannot, and vice versa
     - one cannot create a BEAST XML file and expect BEAST2 to be able to run it, and vice versa
 
+## Using BEAST2
+
 ## 1. Load a `beast2` module
 
 First step is to load a BEAST2 module.
@@ -97,3 +99,7 @@ Note that this is a *minimal* script.
 See [the UPPMAX documentation on Slurm](../cluster_guides/slurm.md)
 for ways to improve this script.
 
+
+### Show info
+
+beast2 -beagle_info
