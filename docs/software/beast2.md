@@ -99,7 +99,28 @@ Note that this is a *minimal* script.
 See [the UPPMAX documentation on Slurm](../cluster_guides/slurm.md)
 for ways to improve this script.
 
+## View the trees using DensiTree
+
+DensiTree is a tool that allows one to display the posterior tree distribution
+of a BEAST2 run.
+
+Run:
+
+```
+densitree [trees_filename]
+```
+
+where `[trees_filename]` is the name of the file containing the posterior trees,
+resulting in, for example, `densitree my_file.trees`.
+
+![](./img/densitree.png)
+
+
 
 ### Show info
 
 beast2 -beagle_info
+
+## Links
+
+ * [DensiTree GitHub repository](https://github.com/rbouckaert/DensiTree)
