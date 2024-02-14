@@ -44,7 +44,7 @@ interactive -A snic2017-7-274 -M snowy -p node -t\ 12:00:00
 When your job has been started, type the following command to load the IGV module:
 
 ```console
-module load java bioinfo-tools IGV
+module load bioinfo-tools IGV
 ```
 
 ## Step 4: Start IGV
