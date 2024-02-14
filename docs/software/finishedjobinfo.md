@@ -1,6 +1,6 @@
 # `finishedjobinfo`
 
-`finishedjobinfo` is a program to help [optimize Slurm jobs](../cluster_guides/optimizing_jobs).
+`finishedjobinfo` is a program to help [optimize Slurm jobs](../cluster_guides/optimizing_jobs.md).
 
 ## Show the help
 
