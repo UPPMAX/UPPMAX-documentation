@@ -61,15 +61,20 @@ $ julia
 
 You will get a prompt like this:
 
+
+```julia-repl
 julia> 
+```
 
 Julia has different modes, the one mentioned above is the so-called Julian mode where one can execute commands. The description for accessing these modes will be given in the following paragraphs. Once you are done with your work in any of the modes, you can return to the Julian mode by pressing the backspace key.
 
 While being on the Julian mode you can enter the shell mode by typing ;:
 
+```julia-repl
 julia>;
 shell>pwd
 /current-folder-path
+```
 
 This will allow you to use Linux commands. Notice that the availabilty of these commands depend on the OS, for instance, on Windows it will depend on the terminal that you have installed and if it is visible to the Julia installation.
 
