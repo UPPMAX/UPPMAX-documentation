@@ -137,7 +137,7 @@ Remove `-q` to get some information if you want
 * Known ssh key: /home/user/.ssh/id_ed25519_key
 ```
 
-First time you login, you will be asked for the password and the key wil be handled by the key-manager. Check with
+First time you login, you will be asked for the password and the key will be handled by the key-manager. Check with
 
 ```
 ssh-add -l
