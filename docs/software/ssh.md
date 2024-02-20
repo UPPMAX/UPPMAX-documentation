@@ -38,8 +38,6 @@ flowchart TD
     It helps us choose which option to show at these
     documentation websites.
 
-
-
 ## Create an SSH key pair for use with Rackham
 
 Create an SSH key pair with the following command:

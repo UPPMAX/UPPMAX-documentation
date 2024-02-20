@@ -115,11 +115,125 @@ resulting in, for example, `densitree my_file.trees`.
 
 ![](./img/densitree.png)
 
+## Run Tracer
+
+Tracer is a tool to analyse the results of a BEAST2 run.
+It is not an UPPMAX module.
+
+Instead, it needs to be download and run:
+
+### 1. Download 
+
+Pick [a Tracer release](https://github.com/beast-dev/tracer/releases),
+such as [Tracer v1.7.2](https://github.com/beast-dev/tracer/releases/tag/v1.7.2)
+and download the Linux/UNIX version.
+
+???- question "How does that look like?"
+
+    Here is how the release page of [Tracer v1.7.2](https://github.com/beast-dev/tracer/releases/tag/v1.7.2)
+    looks like:
+    
+    ![](./img/tracer_release.png)
+
+    Download the file `Tracer_v1.7.2.tgz`.
+
+???- question "How to download from the command-line?"
+
+    Use `wget` on the URL to download from, for example:
+
+    ```
+    wget https://github.com/beast-dev/tracer/releases/download/v1.7.2/Tracer_v1.7.2.tgz
+    ```
+
+### 2. Extract
+
+Extract the downloaded file.
+
+???- question "How to do so, using the remote desktop environment?"
+
+    Right-click the file and click 'Extract here'.
+
+    ![](../cluster_guides/img/rackham_remote_desktop_extract_file.png)
+
+???- question "How to do so, using the console environment?"
+
+    Use `tar` on the file to extract:
+
+    ```
+    tar zxvf  Tracer_v1.7.2.tgz
+    ```
+
+### 3. Run
+
+Use `java` to run the Tracer `jar` file:
+
+```
+java -jar lib/tracer.jar
+```
+
+???- question "How does that look like?"
+
+    Here is how Tracer looks like in a console environment:
+
+    ![](./img/tracer_on_rackham_console.png)
+
+    For this to work, one needs to login using X-forwarding (`ssh -X`),
+    as described in the ['getting started'](../getting_started/get_started.md)
+    pages.
+
+## Show info
+
+```
+beast -beagle_info
+```
+
+???- "How does that look like?"
+
+    Here the command is run on a [Rackham](../cluster_guides/rackham.md) 
+    compute node, using an interactive session:
+
+    ```
+    [richel@s93 ~]$ beast -beagle_info
+
+                            BEAST v2.7.4, 2002-2023
+                 Bayesian Evolutionary Analysis Sampling Trees
+                           Designed and developed by
+     Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                        
+                       Centre for Computational Evolution
+                             University of Auckland
+                           r.bouckaert@auckland.ac.nz
+                            alexei@cs.auckland.ac.nz
+                                        
+                       Institute of Evolutionary Biology
+                            University of Edinburgh
+                               a.rambaut@ed.ac.uk
+                                        
+                        David Geffen School of Medicine
+                     University of California, Los Angeles
+                               msuchard@ucla.edu
+                                        
+                          Downloads, Help & Resources:
+                               http://beast2.org/
+                                        
+      Source code distributed under the GNU Lesser General Public License:
+                       http://github.com/CompEvol/beast2
+                                        
+                               BEAST developers:
+       Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+     Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+    Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+              Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                        
+                                   Thanks to:
+              Roald Forsberg, Beth Shapiro and Korbinian Strimmer
 
 
-### Show info
+    --- BEAGLE RESOURCES ---
 
-beast2 -beagle_info
+    0 : CPU (x86_64)
+        Flags: PRECISION_SINGLE PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL EIGEN_COMPLEX SCALING_MANUAL SCALING_AUTO SCALING_ALWAYS SCALERS_RAW SCALERS_LOG VECTOR_SSE VECTOR_NONE THREADING_CPP THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+    ```
 
 ## Links
 
