@@ -12,3 +12,12 @@ BEAST is a tool for Bayesian phylogenetic analysis.
     Hence, 
     - there are things BEAST can do that BEAST2 cannot, and vice versa
     - one cannot create a BEAST XML file and expect BEAST2 to be able to run it, and vice versa
+
+## Run Tracer
+
+[Tracer](tracer.md) is a tool to analyse the results of a
+[BEAST](beast.md) (or [BEAST2](beast2.md)) run.
+
+See [Tracer](tracer.md) how to use [Tracer](tracer.md).
+
+![](./img/tracer.png)

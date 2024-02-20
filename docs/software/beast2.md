@@ -122,7 +122,7 @@ resulting in, for example, `densitree my_file.trees`.
 
 See [Tracer](tracer.md) how to use [Tracer](tracer.md).
 
-![](./img/tracer_on_rackham_console.png)
+![](./img/tracer.png)
 
 ## Show info
 

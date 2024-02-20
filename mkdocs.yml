@@ -50,6 +50,7 @@ nav:
       - Python: software/python.md
       - R: software/R.md
       - SSH: software/ssh.md
+      - SSH: software/tracer.md
       - Whisper: software/whisper.md
       - Life Science-specific: 
         - Cram: software/cram.md
