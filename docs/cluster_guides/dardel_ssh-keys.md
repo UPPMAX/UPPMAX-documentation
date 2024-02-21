@@ -1,6 +1,14 @@
 # Dardel SSH Key Guide
 
-This guide will show you how to create SSH keys and how to add them to the PDC Login Portal, making it possible for you to login to Dardel. PDC has [a more comprehensive guide on how to do this on various operating systems](https://www.pdc.kth.se/support/documents/login/ssh_keys.html) if you want a more in-depth guide.
+This guide will show you:
+
+- [how to create SSH keys](#creating-ssh-keys)
+- [how to add an SSH key to the PDC login port](#add-an-ssh-key-to-the-pdc-login-portal)
+
+This makes it possible for you to login to Dardel.
+
+PDC has [a more comprehensive guide on how to do this on various operating systems](https://www.pdc.kth.se/support/documents/login/ssh_keys.html) 
+if you want a more in-depth guide.
 
 ## Creating SSH keys
 
@@ -55,42 +63,93 @@ The keys randomart image is:
 +----[SHA256]-----+
 ```
 
+## Add an SSH key to the PDC Login Portal
 
+### 1. Open the PDC login portal
 
-## Adding SSH keys to PDC Login Portal
+Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
 
-[(Link to PDC:s own instructions)](https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login)
+???- question "How does that look like?"
 
-1. Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
-2. Follow the instructions on that page to login through SUPR.
+    That will look like this:
 
-You should now be logged into the login portal:
+    ![](pdc_key_management_no_keys.png)
 
-![](./img/pdc_portal_addkey0.png)
+    > Example PDC login portal without any SSH keys yet.
+    > We will need to add an SSH key that allows 
+    > access from UPPMAX to PDC
+
+### 2. Add a new key
 
 Click the `Add new key` link:
 
-![](./img/pdc_portal_addkey1.png)
+???- question "How does adding an SSH key pair look like?"
 
-Here you can either upload the public part of the key file you created before, or you can enter the information manually. To see the public key to enter it manually, run this command:
+    That will look like this:
 
-```bash
-cat ~/.ssh/id_ed25519.pub
-```
+    ![](./img/pdc_add_new_key_user_ip_only.png)
 
-and copy the text, e.g. `ssh-ed25519 AAmAC3Nz2C1lZDI4N4E5AAAAXEjxKoZ72x69eRd+A2h2GDxnAlD7deITZx7pK8TgEppE user@rackham`
-Paste it into the field `SSH public key`, make up a name for the key so you know which computer it is on and fill it into the field `Key name`.
+    > Example of the first step of adding an SSH key pair to the PDC portal.
+    > The 'SSH public key' is copy-pasted 
+    > from `cat ~/id_ed25519_pdc.pub` on Rackham.
+    > The 'Key name' can be chosen freely.
+    > Note that this SSH key cannot be used yet for UPPMAX,
+    > as it only allows one IP address.
 
-In the field `Address` you have to specify which IP address(es) are allowed to use this key. The field is prefilled with the IP of the computer you are on at the moment.
+???- question "How does it look like when the key is added?"
 
+    That will look like this:
 
+    ![](./img/pdc_key_management_rackham_key.png)
 
-### (optional) Adding UPPMAX to addresses
+    > Example PDC login portal with one key. 
+    > Note that the second column only has one IP address
+    > and is still missing `*.uppmax.uu.se`.
 
-If you want to connect to Dardel from UPPMAX you have 
+### 3. Actually adding the key
 
+Here you can either upload the public part of the key file 
+you created before, 
+or you can enter the information manually. 
 
+???- question "Forgot where the key was?"
 
+    Here is a default location:
 
+    ```bash
+    cat ~/.ssh/id_ed25519.pub
+    ```
 
+Copy the text, e.g. `ssh-ed25519 AAmAC3Nz2C1lZDI4N4E5AAAAXEjxKoZ72x42eRd+A2h2GDxnAlD7deITZx7pK8TgEppE user@rackham`
+Paste it into the field `SSH public key`, 
+make up a name for the key so you know which computer it is on 
+and fill it into the field `Key name`.
 
+### 4. Use the key from UPPMAX
+
+Once you have added you key you have to 
+add UPPMAX as allowed to use the key.
+Click on `Add address` for it and add `*.uppmax.uu.se`.
+
+`Address` specifies which IP address(es) 
+are allowed to use this key
+and the field is prefilled with the IP of the computer you are on at the moment.
+
+???- question "How does it look like to edit an SSH key so that can be used for UPPMAX?"
+
+    That will look like this:
+
+    ![](./img/pdc_add_new_key_uppmax.png)
+
+    > Example of the second step of adding an SSH key pair to the PDC portal.
+    > Here the custom address `*.uppmax.uu.se` is added,
+    > so that this SSH key can be used for UPPMAX.
+
+???- question "How does it look like to have a key that can be used for UPPMAX?"
+
+    That will look like this:
+
+    ![](./img/pdc_key_management_uppmax_key.png)
+
+    > Example PDC login portal with one key. Note the `*.uppmax.uu.se`
+    > at the bottom of the second column.
