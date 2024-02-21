@@ -113,7 +113,7 @@ Create SSH key and add it to the PDC Login Portal.
 
 ```bash
 # generate the key
-ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519_pdc
+ssh-keygen -t ed25519 -N "" -f ~/id_ed25519_pdc
 ```
 
 ### 4. Add the public key to the PDC Login Portal
@@ -121,7 +121,7 @@ ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519_pdc
 View the public SSH key in a terminal logged into Rackham:
 
 ```
-cat ~/.ssh/id_ed25519_pdc.pub
+cat ~/id_ed25519_pdc.pub
 ```
 
 ???- question "How does that look like?"
@@ -154,7 +154,7 @@ Follow [PDC:s instructions on how to add SSH keys](https://www.pdc.kth.se/suppor
 
     > Example of the first step of adding an SSH key pair to the PDC portal.
     > The 'SSH public key' is copy-pasted 
-    > from `cat ~/.ssh/id_ed25519_pdc.pub` on Rackham.
+    > from `cat ~/id_ed25519_pdc.pub` on Rackham.
     > The 'Key name' can be chosen freely.
     > Note that this SSH key cannot be used yet for UPPMAX,
     > as it only allows one IP address.
@@ -286,7 +286,7 @@ tail ~/dardel_transfer.err
 After the migration, these temporary SSH keys can and should be deleted:
 
 ```bash
-rm ~/.ssh/id_ed25519_pdc*
+rm ~/id_ed25519_pdc*
 ```
 
 ## Troubleshooting
