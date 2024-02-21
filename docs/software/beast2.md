@@ -133,7 +133,13 @@ beast -beagle_info
 ???- "How does that look like?"
 
     Here the command is run on a [Rackham](../cluster_guides/rackham.md) 
-    compute node, using an interactive session:
+    compute node, using an interactive session.
+
+    Here an interactive session with 1 node:
+
+    ```
+    interactive -A uppmax2023-2-25 -M snowy -N 1 -n 16 --exclusive -t 1-00:00:00
+    ```
 
     ```
     [richel@s93 ~]$ beast -beagle_info
@@ -177,6 +183,60 @@ beast -beagle_info
     0 : CPU (x86_64)
         Flags: PRECISION_SINGLE PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL EIGEN_COMPLEX SCALING_MANUAL SCALING_AUTO SCALING_ALWAYS SCALERS_RAW SCALERS_LOG VECTOR_SSE VECTOR_NONE THREADING_CPP THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
     ```
+
+    Here an interactive session with 2 nodes:
+
+    ```
+    interactive -A uppmax2023-2-25 -M snowy -N 2 -n 32 --exclusive -t 1-00:00:00
+    ```
+
+    ```
+    [richel@s106 ~]$ beast -beagle_info
+
+                            BEAST v2.7.4, 2002-2023
+                 Bayesian Evolutionary Analysis Sampling Trees
+                           Designed and developed by
+     Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                        
+                       Centre for Computational Evolution
+                             University of Auckland
+                           r.bouckaert@auckland.ac.nz
+                            alexei@cs.auckland.ac.nz
+                                        
+                       Institute of Evolutionary Biology
+                            University of Edinburgh
+                               a.rambaut@ed.ac.uk
+                                        
+                        David Geffen School of Medicine
+                     University of California, Los Angeles
+                               msuchard@ucla.edu
+                                        
+                          Downloads, Help & Resources:
+                               http://beast2.org/
+                                        
+      Source code distributed under the GNU Lesser General Public License:
+                       http://github.com/CompEvol/beast2
+                                        
+                               BEAST developers:
+       Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+     Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+    Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+              Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
+                                        
+                                   Thanks to:
+              Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+
+    --- BEAGLE RESOURCES ---
+
+    0 : CPU (x86_64)
+        Flags: PRECISION_SINGLE PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL EIGEN_COMPLEX SCALING_MANUAL SCALING_AUTO SCALING_ALWAYS SCALERS_RAW SCALERS_LOG VECTOR_SSE VECTOR_NONE THREADING_CPP THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+    ```
+
+## Optimize performance
+
+ * [BEAST2 performance suggestions](https://www.beast2.org/performance-suggestions/index.html)
+ * [BEAST2 and BEAGLE](https://www.beast2.org/beagle-beast-2-in-cluster/index.html)
 
 ## Links
 
