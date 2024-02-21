@@ -289,4 +289,21 @@ After the migration, these temporary SSH keys can and should be deleted:
 rm ~/.ssh/id_ed25519_pdc*
 ```
 
+## Troubleshooting
+
+### What is the `darsync_[folder_name].ownership.gz` file that is created?
+
+?
+
+### `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
+
+```
+[richel@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
+ssh: connect to host dardel.pdc.kth.se port 22: No route to host
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
+```
+
+?
+
 
