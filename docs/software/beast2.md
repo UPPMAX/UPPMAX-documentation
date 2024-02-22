@@ -15,6 +15,13 @@ BEAST2 is a tool for Bayesian phylogenetic analysis.
 
 ## Using BEAST2
 
+Here is how to use BEAST2 on the UPPMAX clusters.
+
+???- question "Prefer a video?"
+
+    [This YouTube video](https://youtu.be/Z6LcFE5p5S0) shows
+    how to use BEAST2 on the UPPMAX clusters. 
+
 ## 1. Load a `beast2` module
 
 First step is to load a BEAST2 module.
@@ -241,3 +248,4 @@ beast -beagle_info
 ## Links
 
  * [DensiTree GitHub repository](https://github.com/rbouckaert/DensiTree)
+ * [CIPRES: cyberinfrastructure for phylogenetics research](https://www.phylo.org/)
