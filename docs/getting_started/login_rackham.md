@@ -149,18 +149,35 @@
 
 === "Mac"
 
-    - Download XQuartz or other X11 server for Mac OS
-        - [https://www.xquartz.org/](https://www.xquartz.org/)
+    - Download XQuartz or other X11 server for Mac OS from [https://www.xquartz.org/](https://www.xquartz.org/)
+
+    ???- question "How do I know XQuartz has been installed?"
+
+        As far as we know: you cannot check this directly:
+        you will have to find out by running an application of
+        Rackham that uses this. See below :-)
 
     - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
       to run [`ssh`](../software/ssh.md):
 
     ``` bash
-    $ ssh -X <username>@rackham.uppmax.uu.se
+    $ ssh -X [username]@rackham.uppmax.uu.se
     ```
     
-    - ``-X`` Enables X11 forwarding. 
-    - ``-Y`` Enables trusted X11 forwarding.
+    where `[username]` is your UPPMAX username and `-X` enables X11 forwarding.
+    For example, if your UPPMAX username is `sven`, this wold be 
+    `ssh -X sven@rackham.uppmax.uu.se`
+
+    ???- question "How do I know XQuartz has been installed?"
+
+        When connected to Rackham, type:
+
+        ```
+        xeyes
+        ```
+
+         * If a set of eyes is shown, it works!
+         * If this shows the text `No display found`, it did not work.
 
 === "Windows"
 
