@@ -147,35 +147,45 @@ This will automatically load the corresponding version of the R interpreter.
 
 ## R software development
 
+![](../cluster_guides/img/rstudio_in_action_480_x_270.png)
+
+> RStudio in action on Bianca using the remote desktop environment
+
 Software development is commonly done in a so-called 
 [Integrated Development Environment](../cluster_guides/ides.md),
 abbreviated 'IDE.
 
-RStudio is the most commonly used IDE for R software development
-and how to use it depends on the UPPMAX cluster you use:
-
-- [RStudio on Bianca](../cluster_guides/rstudio_on_bianca.md)
-- [RStudio on Rackham](../cluster_guides/rstudio_on_rackham.md)
+[RStudio](rstudio.md) is the most commonly used IDE for R software development.
+See [the UPPMAX page about RStudio](rstudio.md) on how to use.
 
 ## How to install personal packages
 
-First load R_packages to make sure that the package is not already installed!
+First load `R_packages` to make sure that the package is not already installed!
 
-To install personal packages in your own home directory you just type
+To install personal packages in your own home directory you type
 
     install.packages("package_name")
 
-as usual. That will install all your packages under the path ~/R/[arch]/[version of R]/. Then you can load it by just doing "library(package_name)" or "require(package_name)" in the R environment.
+as usual. That will install all your packages under the path `~/R/[arch]/[version of R]/`. 
+Then you can load it by just doing `library(package_name)` 
+or `require(package_name)` in the R environment.
 
 You can also specify a specific folder for where to put your packages, with
 
     install.packages("package_name", lib="~/some/path/under/your/home/directory/")
 
-But to then be able to find the package inside the R invironment you need to either export the R_LIBS_USER environment variable, or specify the flag "lib.loc" when calling require()/library(), e.g.
+But to then be able to find the package inside the R environment 
+you need to either export the `R_LIBS_USER` environment variable, 
+or specify the flag `lib.loc` when calling `require`/`library`, e.g.
 
     library(package_name, lib.loc='~/some/path/under/your/home/directory')
 
-Notice that if you are planning on running R on different clusters then it is probably wisest to manually specify the installation directory, and to have separate directories for each cluster. This is because some of the clusters have different architectures (e.g. milou and tintin), and this will render some packages unusable if you compile them on one system but try to run them on the other.
+Notice that if you are planning on running R on different clusters 
+then it is probably wisest to manually specify the installation directory, 
+and to have separate directories for each cluster. 
+This is because some of the clusters have different architectures, 
+and this will render some packages unusable 
+if you compile them on one system but try to run them on the other.
 
 ## Technicalities
 
