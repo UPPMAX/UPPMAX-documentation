@@ -54,13 +54,13 @@ R is ['a programming language for statistical computing and data visualization']
 and is of the most commonly used programming languages in data mining,
 analysis and visualization.
 
-R is an interpreted language; users can access it through [the R interpreter](the-r-interpreter).
+R is an interpreted language; users can access it through [the R interpreter](#the-r-interpreter).
 
 R is a [dynamically typed](https://en.wikipedia.org/wiki/Type_system#DYNAMIC)
 programming language with basic built-in data structures are (among others): vectors, arrays, lists, and data frames.
 and its supports both procedural programming and object-oriented programming.
 
-R has many user-created [R packages](r-packages) 
+R has many user-created [R packages](#r-packages) 
 to augment the functions of the R language,
 most commonly hosted on [CRAN](https://cran.r-project.org).
 These packages offer statistical techniques, 
