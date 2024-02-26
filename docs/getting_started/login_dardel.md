@@ -122,7 +122,10 @@ Follow our [step-by-step instructions on how to add SSH keys](./cluster_guides/d
 
 ### 5. Login
 
-On a terminal, do
+
+- the [PDC documentation on 'Login to Dardel'](https://www.pdc.kth.se/support/documents/basics/quickstartdardel.html#how-to-log-in)
+
+On a terminal, do:
 
 ```
 ssh -X [username]@dardel.pdc.kth.se
@@ -135,3 +138,4 @@ where `[username]` is your PDC username, for example `ssh -X sven@dardel.pdc.kth
     The `-X` is for so-called 'X-forwarding'. 
     It allows you to view graphical things, 
     such as viewing plots or running graphical programs
+
