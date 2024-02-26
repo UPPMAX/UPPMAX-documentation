@@ -6,8 +6,8 @@ Editor type                                                 |Features
 ------------------------------------------------------------|-----------------------------------------------------
 [Simple terminal editors](#simple-terminal-editors)         |Used in terminal, easy to learn, limited features
 [Advanced terminal editors](#advanced-terminal-editors)     |Used in terminal, harder to learn, powerful features
-[Simple graphical editors](#simple-graphical-editors)       |Graphical, needs X-forwarding, easy to learn, limited features
-[Advanced graphical editors](#advanced-graphical-editors)   |Graphical, needs X-forwarding, harder to learn, powerful features
+[Simple graphical editors](#simple-graphical-editors)       |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), easy to learn, limited features
+[Advanced graphical editors](#advanced-graphical-editors)   |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), harder to learn, powerful features
 
 Try them out and pick one favorite editor!
 
@@ -89,15 +89,14 @@ Then:
 
 To use a graphical editors you will need to:
 
-- work on an UPPMAX cluster that allows X-forwarding
-- login with X-forwarding enabled
+- work on an UPPMAX cluster that allows [SSH X forwarding](../software/ssh_x_forwarding.md)
+- login with [SSH X forwarding](../software/ssh_x_forwarding.md) enabled
 
-See the 'How to login to Rackham' page [here](../getting_started/login_rackham.md)
-how to do so.
+See the [SSH X forwarding page](../software/ssh_x_forwarding.md) how to do so.
 
 ???- question "And what about Bianca?"
 
-    Bianca is an UPPMAX cluster that does not allow X-forwarding.
+    Bianca is an UPPMAX cluster that does not allow [X forwarding](../software/ssh_x_forwarding.md).
 
     See the 'How to login to Bianca' page [here](../getting_started/login_bianca.md)
     for more details.

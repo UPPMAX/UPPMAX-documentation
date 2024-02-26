@@ -62,10 +62,10 @@ java -jar lib/tracer.jar
 
     ![](./img/tracer_on_rackham_console.png)
 
-    For this to work, one needs to login using X-forwarding (`ssh -X`),
-    as described in the ['getting started'](../getting_started/get_started.md)
-    pages.
+    For this to work, one needs to login using 
+    [SSH with X forwarding](../software/ssh_x_forwarding.md) enabled.
 
+    Spoiler: use `ssh -X`
 
 ## Links
 

@@ -56,9 +56,8 @@ using `BEAUti`. This graphical tool can be started using:
 beauti
 ```
 
-Make sure you have X-forwarding enabled, 
-see [Login to Rackham](../getting_started/login_rackham.md)
-to see this.
+As `BEAUti` is a graphical program,
+it needs [SSH with X forwarding enabled](../software/ssh_x_forwarding.md) enabled.
 
 ???- question "How does that look like?"
 

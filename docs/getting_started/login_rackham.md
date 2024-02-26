@@ -125,7 +125,7 @@
             - *MobaXterm* has built-in SFTP browser
             - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*       
         
-    - **do day-to-day work** with **some graphical applications (X forwarding)**
+    - **do day-to-day work** with **some graphical applications ([X forwarding](../software/ssh_x_forwarding.md))**
     
         - Mac: *Terminal, iTerm2 + XQuartz*
         - Linux: *Terminal*
@@ -164,20 +164,15 @@
     $ ssh -X [username]@rackham.uppmax.uu.se
     ```
     
-    where `[username]` is your UPPMAX username and `-X` enables X11 forwarding.
+    where `[username]` is your UPPMAX username and `-X` enables [X forwarding](../software/ssh_x_forwarding.md).
     For example, if your UPPMAX username is `sven`, this wold be 
     `ssh -X sven@rackham.uppmax.uu.se`
 
     ???- question "How do I know XQuartz has been installed?"
 
-        When connected to Rackham, type:
+        See [SSH X forwarding](../software/ssh_x_forwading.md).
 
-        ```
-        xeyes
-        ```
-
-         * If a set of eyes is shown, it works!
-         * If this shows the text `No display found`, it did not work.
+        Spoiler: use `xeyes`
 
 === "Windows"
 
@@ -203,8 +198,7 @@
     $ ssh -X <username>@rackham.uppmax.uu.se
     ```
     
-    - ``-X`` Enables X11 forwarding. 
-    - ``-Y`` Enables trusted X11 forwarding.
+    - ``-X`` Enables [X forwarding](../software/ssh_x_forwarding.md). 
 
     ![Caption](./img/mobax_start1.jpg)
 
@@ -216,10 +210,13 @@
 
 
 
-!!! note "X11-forwarding from the command line (generally)"
+!!! note "X-forwarding from the command line (generally)"
 
-    - Graphics can be sent through the [SSH](../software/ssh.md) connection you’re using to connect
-      - Use primarily `ssh -X <...>` or secondary `ssh -X <...>`
+    [X forwarding](../software/ssh_x_forwarding.md) allows 
+    graphics to be sent through the [SSH client](../software/ssh_client.md) 
+    connection you’re using to connect
+
+    - Use `ssh -X`
 
     - The X servers that enables graphics are needed, as mentioned above!
       - When starting a graphical program, a new window will open, but your terminal will be “locked”.

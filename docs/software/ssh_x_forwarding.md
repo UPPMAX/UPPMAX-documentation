@@ -1,10 +1,10 @@
 # SSH X forwarding
 
 SSH X forwarding (or simply 'X forwarding') 
-allows on the use graphics when using [ssh](ssh.md).
+allows one to use graphics when using an [SSH client](ssh_client.md).
 
 For example, this is how UPPMAX user `sven` would login
-to Rackham using X forwarding:
+to Rackham using [`ssh`](ssh.md) with X forwarding enabled:
 
 ```
 ssh -X sven@rackham.uppmax.uu.se
@@ -39,6 +39,18 @@ It is the `-X` that allows [ssh](ssh.md) to show graphics.
     ![](./img/xeyes_no_ssh_x_forwarding.png)
 
     > SSH X forwarding is not enabled, as this gives an error message
+
+## UPPMAX clusters that allow SSH with X forwarding
+
+Cluster|Allows SSH with X forwarding
+-------|----------------------------
+Bianca |No
+Rackham|Yes
+Snowy  |Yes
+
+## SSH clients
+
+See [SSH clients](../software/ssh_client.md).
 
 ## Difference between `ssh -X` and `ssh -Y`
 

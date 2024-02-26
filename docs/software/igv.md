@@ -4,7 +4,7 @@ This guide will go through step by step how to start Integrative Genomics Viewer
 
 ## Step 1: Connect to UPPMAX with X-forwarding enabled. (Important step)
 
-In a terminal window using [`ssh`](../software/ssh.md) looks like:
+In a terminal, use [SSH with X forwarding enabled](../software/ssh_x_forwarding.md):
 
 ```console
 ssh -X [user name]@rackham.uppmax.uu.se
@@ -16,9 +16,8 @@ For example:
 ssh -X sven@rackham.uppmax.uu.se
 ```
 
-On a Windows computer, please use MobaXterm for connecting. PuTTY does not support X-forwarding without an installed X-server, which MobaXterm conveniently has preinstalled.
-
-If you are using a current Mac OS version then X11 is not any longer bundled and you will have to install it yourself first from the  XQuartz download page.
+- Windows users: we recommend the [SSH client](../software/ssh_client.md) MobaXterm
+- MacOS users: the built-in [SSH client](../software/ssh_client.md) `ssh` does need [XQuartz](https://www.xquartz.org/) installed too
 
 ## Step 2: Reserve a node using "interactive"
 Since genomic sequences require lots of memory, it is not suitable to run IGV on one of the login nodes. That would slow down the response times for all other users on the same login node..

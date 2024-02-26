@@ -252,7 +252,9 @@ one needs to be within SUNET to be able to access her.
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-Bianca does not support any so-called X-forwarding (unlike Rackham), 
+
+Bianca does not support any so-called 
+[X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham), 
 so instead UPPMAX maintains a website that uses
 ThinLinc to get a full remote desktop environment.
 All you should need is a rather modern browser on any platform:
@@ -552,7 +554,8 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     ssh -X username@rackham.uppmax.uu.se
     ```
 
-    However, on Bianca, this so-called X-forwarding is disabled.
+    However, on Bianca, this so-called 
+    [X forwarding](../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
 
@@ -658,7 +661,8 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
     ssh -X username@rackham.uppmax.uu.se
     ```
 
-    However, on Bianca, this so-called X-forwarding is disabled.
+    However, on Bianca, this so-called 
+    [X forwarding](../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
 #### 2. Type your UPPMAX password and 2FA

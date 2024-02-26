@@ -39,7 +39,9 @@ Are you taking a university course that uses UPPMAX and need help? Ask your inst
 
 The hostname used to login via SSH is:
 
+```
 rackham.uppmax.uu.se
+```
 
 Note: This is a "round robin" address which will direct you to one of the physical login nodes, rackham1.uppmax.uu.se or rackham2.uppmax.uu.se, etc. (If needed, you can also login directly to one of these, by using their respective hostnames.)
 Specific for a Linux/Unix or a Mac computer
@@ -49,7 +51,8 @@ On Unix/Linux and Mac OS, start a terminal and use the ssh command, like so (sub
     ssh username@rackham.uppmax.uu.se
 
     Note: change "rackham" to the name of the machine you want to connect to.
-    In order to run graphical programs through SSH, you need to enable X11 forwarding, i.e. use ssh -X username@rackham.uppmax.uu.se
+    In order to run graphical programs through SSH, you need to enable [X forwarding](../software/ssh_x_forwarding.md), 
+    i.e. use `ssh -X username@rackham.uppmax.uu.se`
 
 Specific for a Windows computer
 
@@ -185,7 +188,10 @@ You can read a tutorial in emacs by doing:
 For a tutorial on emacs: http://www.gnu.org/software/emacs/tour/
 The Gedit text editor
 
-If you have logged in with X11-forwarding (i.e. with ssh -X username@rackham.uppmax.uu.se) or through ThinLinc, then you can run gedit, a program that feels very similar to the Windows program Wordpad.
+If you have logged in with [X forwarding](../software/ssh_x_forwarding.md) 
+(i.e. with `ssh -X username@rackham.uppmax.uu.se`) 
+or through ThinLinc, then you can run `gedit`, 
+a program that feels very similar to the Windows program Wordpad.
 
 Example: how to run gedit from a terminal:
 

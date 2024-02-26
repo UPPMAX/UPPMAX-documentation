@@ -135,7 +135,7 @@ where `[username]` is your PDC username, for example `ssh -X sven@dardel.pdc.kth
 
 ???- question "Why the `-X`?"
 
-    The `-X` is for so-called 'X-forwarding'. 
+    The `-X` is for so-called [X forwarding](../software/ssh_x_forwarding.md). 
     It allows you to view graphical things, 
     such as viewing plots or running graphical programs
 

@@ -4,10 +4,16 @@ An SSH client is a program that allows on to use SSH.
 
 ## Overview of SSH clients
 
-Program        |Description
----------------|------------------------------
-`ssh`          |Already installed with Linux and MacOS
-MobaXterm      |Easy to use and install for Windows
+Operating system|SSH Client|Provides SSH with [X forwarding](ssh_x_forwarding.md)
+----------------|----------|-----------------------------------------------------
+Linux           |`ssh`     |Yes
+MacOS           |`ssh`     |Yes, after installing [XQuartz](https://www.xquartz.org/)
+Windows         |MobaXterm |Yes
+Windows         |PuTTY     |Yes, after installing [Xming](www.straightrunning.com/XmingNotes/)
+
+- [X forwarding](ssh_x_forwarding.md) allows one to use graphical applications
+
+For Windows, we recommend MobaXterm, as it has a built-in X server.
 
 ### `ssh`
 

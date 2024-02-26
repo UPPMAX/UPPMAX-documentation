@@ -172,8 +172,7 @@ The Python interpreter can show graphics.
     ![](img/python_matplotlib.png)
 
     You will only see a window appear, if you've logged in to Rackham with 
-    X-forwarding enabled. See [](../getting_started/login_rackham.md)
-    how to login to Rackham with X-forwarding enabled.
+    [SSH with X forwarding enabled](../software/ssh_x_forwarding.md). 
 
     Spoiler: `ssh -X sven@rackham.uppmax.uu.se`.
     
@@ -296,10 +295,11 @@ IPython can show graphics.
     ![](img/ipython_matplotlib.png)
 
     You will only see a window appear, if you've logged in to Rackham with 
-    X-forwarding enabled. See [](../getting_started/login_rackham.md)
-    how to login to Rackham with X-forwarding enabled.
+    [SSH with X forwarding](../software/ssh_x_forwarding.md) enabled.
 
-    Spoiler: `ssh -X sven@rackham.uppmax.uu.se`.
+    Spoiler to login: `ssh -X sven@rackham.uppmax.uu.se`.
+
+    Spoiler to confirm: `xeyes`
 
 IPython can directly run scripts.
 
