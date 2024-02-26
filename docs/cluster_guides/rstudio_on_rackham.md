@@ -61,6 +61,13 @@ Within that terminal, start an interactive session with 2 cores.
     interactive -A sens2023598 -n 2 -t 8:00:00
     ```
 
+!!!- warning "Do not start RStudio from the menus"
+
+    You can start a version of RStudio from the menus.
+    However, this will not have access to loaded modules.
+
+    Instead, load RStudio from the module system instead.
+
 ### 4. Load the modules needed
 
 RStudio needs R and its R packages.
