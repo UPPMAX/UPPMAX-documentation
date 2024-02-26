@@ -3007,3 +3007,6 @@ CIPRES
 cyberinfrastructure
 phylogenetics
 analyse
+RMarkdown
+Sweave
+knitr
