@@ -1,5 +1,7 @@
 # R
 
+![The R logo, from https://www.r-project.org/logo/](./img/r_logo_50.png)
+
 R is a programming language for statistical computing and data visualization
 (from [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))).
 
