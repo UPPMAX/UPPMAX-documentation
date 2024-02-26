@@ -137,7 +137,7 @@ cat ~/id_ed25519_pdc.pub
 
 Open the [PDC Login Portal](https://loginportal.pdc.kth.se/).
 
-Follow our [step-by-step instructions on how to add SSH keys](../cluster_guides/dardel_ssh_key_create_and_upload).
+Follow our [step-by-step instructions on how to add SSH keys](../cluster_guides/dardel_ssh_key_create_and_upload.md).
 
 
 ### 5. Run Darsync
