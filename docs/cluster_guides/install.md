@@ -56,7 +56,7 @@
     -  A total of 23109 packages were available in CRAN and BioConductor, and 23000 of these were installed in ``R_packages/4.2.1``
     -  The additional 100 R packages available in this module were installed from the CRAN/BioConductor archives, or were hosted on github, gitlab or elsewhere.
 
-- [Installing R packages](../software/R.md)
+- [Installing R packages](../software/r.md)
 
 ### Julia packages
 
