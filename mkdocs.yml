@@ -49,7 +49,7 @@ nav:
       - MATLAB: software/matlab.md
       - Perl: software/perl.md
       - Python: software/python.md
-      - R: software/R.md
+      - R: software/r.md
       - SSH: software/ssh.md
       - Tracer: software/tracer.md
       - Whisper: software/whisper.md
