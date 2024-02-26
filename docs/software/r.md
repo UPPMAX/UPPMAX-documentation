@@ -6,10 +6,10 @@ R is a programming language for statistical computing and data visualization
 Here we discuss:
 
 - [the R programming language](#the-r-programming-language)
-- [the R interpreter](the-r-interpreter)
-- [R packages](r-packages)
-- [R software development](r-software-development)
-- [How to install personal packages](how-to-install-personal-packages)
+- [the R interpreter](#the-r-interpreter)
+- [R packages](#r-packages)
+- [R software development](#r-software-development)
+- [How to install personal packages](#how-to-install-personal-packages)
 
 
 ```mermaid
