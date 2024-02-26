@@ -9,6 +9,44 @@ Here we discuss:
 - [the R interpreter](the-r-interpreter)
 - [R packages](r-packages)
 - [R software development](r-software-development)
+- [How to install personal packages](how-to-install-personal-packages)
+
+
+```mermaid
+flowchart TD
+
+    subgraph r[R]
+      r_interpreter[the R interpreter]
+      r_packages[R packages]
+      r_language[the R programming language]
+      r_dev[R software development]
+      rstudio[RStudio]
+
+      interpreted_language[Interpreted]
+      cran[CRAN]
+    end
+
+    subgraph uppmax_modules[UPPMAX modules]
+      r_module[R]
+      r_packages_module[R_packages]
+      rstudio_module[RStudio]
+    end
+
+  
+    r_language --> |has| r_dev
+    r_language --> |is| interpreted_language 
+    r_language --> |uses| r_packages
+    interpreted_language --> |done by| r_interpreter
+    r_packages --> |maintained by| cran
+    r_dev --> |commonly done in| rstudio
+
+    r_interpreter --> r_module
+    r_packages --> r_packages_module
+    rstudio --> rstudio_module
+
+    rstudio_module --> |automatically loads latest| r_packages_module
+    r_packages_module --> |automatically loads corresponding version of| r_module
+```
 
 ## the R programming language
 
@@ -62,8 +100,48 @@ module load R/4.3.1
     module spider R
     ```
 
+Then start the R interpreter with:
+
+```
+R
+```
 
 ## R packages
+
+R packages extend what R can do.
+The most common repository for R packages is [CRAN](https://cran.r-project.org).
+As these packages are so common, UPPMAX provides most of CRAN packages
+in one module, called `R_packages`
+
+To load the latest version of the pre-installed R packages, do:
+
+```
+module load R_packages/4.3.1
+```
+
+This will automatically load the corresponding version of the R interpreter.
+
+???- "Do I really need to load the `R_packages` module?"
+
+    We strongly recommend loading the `R_packages` module.
+
+    If you do not load the `R_packages` module (nor the `R` module), 
+    you will be using the version of R used by the UPPMAX systems.
+
+    Sometimes that may work.
+
+    If not, load the `R_packages` module.
+
+???- "Need a different version?"
+
+    If you need a different package version, 
+    use the following command 
+    to see which versions of the R packages 
+    are installed on UPPMAX:
+
+    ```
+    module spider R_packages
+    ```
 
 ## R software development
 
@@ -108,12 +186,7 @@ As of this writing, our most recent installations are
 
 Note that R_packages/4.3.1 contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.3.1 and R_packages for more information.
 
-Note that R_packages/4.3.1 loads R/4.3.1 as a prerequisite, so to get started with R and and have many installed modules available, simply do
-
-     $ module load R_packages/4.3.1 
-     $ R &
-
-## What R packages are in the omnibus R_packages modules?
+## What R packages are in the omnibus `R_packages` modules?
 
 ### R_PACKAGES/4.1.1
   As of 2021-11-11 there are a total of 21659 R packages installed. A total of 21740 packages are available in CRAN and BioConductor. 18022 CRAN packages are installed, out of 18348 available. 3382 BioConductor-specific packages are installed, out of 3392 available. 255 other R packages are installed. These are not in CRAN/BioConductor, and instead are hosted on github or elsewhere.
