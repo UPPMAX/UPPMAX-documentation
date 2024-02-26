@@ -70,14 +70,21 @@ Within that terminal, start an interactive session with 2 cores.
 
 ### 4. Load the modules needed
 
-RStudio needs R and its R packages.
-These should be loaded via the module system.
-
 In the terminal of the interactive session, do:
 
 ```
-module load R_packages/4.3.1 RStudio/2023.06.2-561
+module load RStudio/2023.06.2-561
 ```
+
+???- question "Do I need to load `R` or `R_packages`?"
+
+    No.
+
+    Although RStudio needs R and some R packages,
+    these are loaded automatically via the module system.
+
+    Loading the module `RStudio` 
+    will load the latest `R` and `R_packages` modules for you.
 
 ### 5. Start RStudio
 

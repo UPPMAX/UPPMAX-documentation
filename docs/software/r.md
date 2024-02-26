@@ -1,30 +1,81 @@
 # R
 
+R is a programming language for statistical computing and data visualization
+(from [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))).
 
-## R on UPPMAX
+Here we discuss:
 
-As of this writing, our most recent installations are
+- [the R programming language](#the-r-programming-language)
+- [the R interpreter](the-r-interpreter)
+- [R packages](r-packages)
+- [R software development](r-software-development)
 
-    R/4.3.1
-    R_packages/4.3.1
-    RStudio/2023.06.2-561
-    If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
+## the R programming language
 
-Note that R_packages/4.3.1 contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.3.1 and R_packages for more information.
+R is ['a programming language for statistical computing and data visualization'](https://en.wikipedia.org/wiki/R_(programming_language)))
+and is of the most commonly used programming languages in data mining,
+analysis and visualization.
 
-Note that R_packages/4.3.1 loads R/4.3.1 as a prerequisite, so to get started with R and and have many installed modules available, simply do
+R is an interpreted language; users can access it through [the R interpreter](the-r-interpreter).
 
-     $ module load R_packages/4.3.1 
-     $ R &
+R is a [dynamically typed](https://en.wikipedia.org/wiki/Type_system#DYNAMIC)
+programming language with basic built-in data structures are (among others): vectors, arrays, lists, and data frames.
+and its supports both procedural programming and object-oriented programming.
 
-To use RStudio just add to loaded R_packages:
+R has many user-created [R packages](r-packages) 
+to augment the functions of the R language,
+most commonly hosted on [CRAN](https://cran.r-project.org).
+These packages offer statistical techniques, 
+graphical devices, import/export, reporting (RMarkdown, knitr, Sweave), etc.
 
-     $ module load RStudio/2022.07.1-554
-     $ rstudio &
+## the R interpreter
 
-That will start an RStudio session with the latest R and R_packages.
+The R interpreter is the program that reads R code and runs it.
+Commonly, 'the programming language R' and 'the R interpreter' 
+are use as synonyms.
 
-All clusters also have a 'system' R and RStudio installed (version 3.6.0 and 1.1.423), so there is always R and Rscript available from the command line. We strongly recommend using R via the R_packages module though.
+To load the latest version of the R interpreter, do:
+
+```
+module load R/4.3.1
+```
+
+???- "Do I really need to load an R module?"
+
+    We strongly recommend loading an R module.
+
+    If you do not load an R module, you will be using the version of
+    R used by the UPPMAX systems.
+
+    Sometimes that may work.
+
+    If not, load an R module.
+
+???- "Need a different version?"
+
+    If you need a different R version, 
+    use the following command 
+    to see which versions of the R interpreter 
+    are installed on UPPMAX:
+
+    ```
+    module spider R
+    ```
+
+
+## R packages
+
+## R software development
+
+Software development is commonly done in a so-called 
+[Integrated Development Environment](../cluster_guides/ides.md),
+abbreviated 'IDE.
+
+RStudio is the most commonly used IDE for R software development
+and how to use it depends on the UPPMAX cluster you use:
+
+- [RStudio on Bianca](../cluster_guides/rstudio_on_bianca.md)
+- [RStudio on Rackham](../cluster_guides/rstudio_on_rackham.md)
 
 ## How to install personal packages
 
@@ -46,12 +97,21 @@ But to then be able to find the package inside the R invironment you need to eit
 
 Notice that if you are planning on running R on different clusters then it is probably wisest to manually specify the installation directory, and to have separate directories for each cluster. This is because some of the clusters have different architectures (e.g. milou and tintin), and this will render some packages unusable if you compile them on one system but try to run them on the other.
 
-## How to use RStudio
+## Technicalities
 
-See:
+As of this writing, our most recent installations are
 
-- [RStudio on Bianca](../cluster_guides/rstudio_on_bianca.md)
-- [RStudio on Rackham](../cluster_guides/rstudio_on_rackham.md)
+    R/4.3.1
+    R_packages/4.3.1
+    RStudio/2023.06.2-561
+    If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
+
+Note that R_packages/4.3.1 contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.3.1 and R_packages for more information.
+
+Note that R_packages/4.3.1 loads R/4.3.1 as a prerequisite, so to get started with R and and have many installed modules available, simply do
+
+     $ module load R_packages/4.3.1 
+     $ R &
 
 ## What R packages are in the omnibus R_packages modules?
 
@@ -116,3 +176,9 @@ See module help R_packages/3.5.0 for more information.
   A large number of R packages are available as part of the R_packages/3.3.0 module, which requires and loads the R/3.3.0 module.  When the R_packages/3.3.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable. Within R, these should be available via library(package-name).
 
 
+## Links
+
+- [The home page of "The R Project for Statistical Computing"](https://www.r-project.org/)
+- [Official R documentation](https://cran.r-project.org/manuals.html)
+- [CRAN homepage](https://cran.r-project.org)
+- [CRAN mirrors](https://cran.r-project.org/mirrors.html)
