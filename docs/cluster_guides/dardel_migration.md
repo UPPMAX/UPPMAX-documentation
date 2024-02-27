@@ -164,14 +164,14 @@ darsync check
 If there are problems reported, [contact support](../support.md)
 or try to fix them yourself.
 
-???- question "What is the file `darsync_[dirname].ownership.gz`"?
+???- question "What is the file `darsync_[dirname].ownership.gz`?"
 
     This is a file containing file ownership information.
     This file can be used to make sure that the
     file ownership (user/group) will look the same on Dardel 
     as it does on Rackham.
 
-???- question "Can I delete the file `darsync_[dirname].ownership.gz`"?
+???- question "Can I delete the file `darsync_[dirname].ownership.gz`?"
 
     Yes, as it is not needed in the next step.
 
@@ -323,9 +323,22 @@ rm ~/id_ed25519_pdc*
 
 ## Troubleshooting
 
-### What is the `darsync_[folder_name].ownership.gz` file that is created?
+???- question "What is the file `darsync_[dirname].ownership.gz`?"
 
-?
+    This is a file containing file ownership information.
+    This file can be used to make sure that the
+    file ownership (user/group) will look the same on Dardel 
+    as it does on Rackham.
+
+???- question "Can I delete the file `darsync_[dirname].ownership.gz`?"
+
+    Yes, as it is not needed in the next step.
+
+    However, it is a small file that allows UPPMAX support
+    to help in case of migration problems.
+
+    On the other hand, you can regenerate the file 
+    as long as the files you are migrating are still present.
 
 ### `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
 
@@ -336,6 +349,6 @@ rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
 ```
 
-?
+This means that Dardel is down.
 
 
