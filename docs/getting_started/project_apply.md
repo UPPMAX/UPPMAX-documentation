@@ -1,7 +1,7 @@
 # Project application
 
 ??? t2s "Text to speech"
-    <audio src="../project_apply.mp3" controls preload></audio>
+    <audio src="project_apply.mp3" controls preload></audio>
 
 To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
 
