@@ -107,38 +107,19 @@ You will get a PDC account overnight.
 
 ### 3. Create SSH key pair
 
-Create SSH key and add it to the PDC Login Portal.
+See [create and use an SSH key pair for Dardel](../software/ssh_key_use_dardel.md) step 1.
 
-- Create the password less SSH key in a terminal logged into Rackham:
+Spoiler: on Rackham, do:
 
 ```bash
+module load darsync
 darsync sshkey
 ```
 
 ### 4. Add the public key to the PDC Login Portal
 
-When creating the SSH key pair, `darsync` will already
-display the public key.
-
-If, however, you missed it,
-you can view the public SSH key again; in a terminal logged into Rackham:
-
-```
-cat ~/id_ed25519_pdc.pub
-```
-
-???- question "How does that look like?"
-
-    The text will look similar to this:
-
-    ```
-    ssh-ed25519 AAAA69Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
-    ```
-
-Open the [PDC Login Portal](https://loginportal.pdc.kth.se/).
-
-Follow our [step-by-step instructions on how to add SSH keys](../software/ssh_key_use_dardel.md).
-
+See [create and use an SSH key pair for Dardel](../software/ssh_key_use_dardel.md) 
+step 2, to see how to upload the public SSH key to the PDC Login Portal.
 
 ### 5. Run Darsync
 

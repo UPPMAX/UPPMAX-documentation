@@ -96,7 +96,7 @@ To add an SSH key to the PDC login portal, one needs to:
 
 - Open the PDC login portal
 - Start adding a new key
-- Actually adding that key
+- Actually adding that public key
 - Allow the key to be used from UPPMAX
 
 ### 2.1. Open the PDC login portal
@@ -140,7 +140,7 @@ Click the `Add new key` link:
     > Note that the second column only has one IP address
     > and is still missing `*.uppmax.uu.se`.
 
-### 2.3. Actually adding the key
+### 2.3. Actually adding the public key
 
 Here you can either upload the public part of the key file 
 you created before, 
@@ -148,13 +148,25 @@ or you can enter the information manually.
 
 ???- question "Forgot where the key was?"
 
-    Here is a default location:
+    When using `darsync`, here is how to the display the SSH public key content 
+    at the default location:
 
     ```bash
     cat ~/.ssh/id_ed25519.pub
     ```
 
-Copy the text, e.g. `ssh-ed25519 AAmAC3Nz2C1lZDI4N4E5AAAAXEjxKoZ72x42eRd+A2h2GDxnAlD7deITZx7pK8TgEppE user@rackham`
+    Else, the SSH keys are where you created them in step 1.2 :-)
+
+???- question "How does the content of a public SSH key look like?"
+
+    When displaying the content of a public SSH key, 
+    it will show text like this:
+
+    ```
+    ssh-ed25519 AAAA69Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
+    ```
+
+Copy the content of the SSH public key.
 Paste it into the field `SSH public key`, 
 make up a name for the key so you know which computer it is on 
 and fill it into the field `Key name`.
