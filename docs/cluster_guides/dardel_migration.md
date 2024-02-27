@@ -1,25 +1,21 @@
-# Dardel Migration
+# Dardel migration
 
 ![Dardel server racks](./img/dardel_racks.png)
 
 This page describes how to transfer files to Dardel,
 the HPC cluster at PDC in Stockholm.
 
-## Why do I need this?
+???- Why do I need this?
 
-The Rackham cluster will be decommissioned at the end of 2024 
-so all projects have to migrate their data and calculations to other resources. 
-The plan from NAISS is that all Rackham users 
-will move to the Dardel cluster at PDC. 
+    The Rackham cluster will be decommissioned at the end of 2024 
+    so all projects have to migrate their data and calculations to other resources. 
+    The plan from NAISS is that all Rackham users 
+    will move to the Dardel cluster at PDC.
 
-To facilitate this move we have created Darsync, 
-a tool that can inspect your files 
-and make suggestions to make the transfer easier, 
-as well as generating a script file you can submit to [SLURM](slurm.md) 
-to perform the actual file transfer. 
-[Read more about how to use Darsync here]
+    To facilitate this move, 
+    we have created a tool that makes the transfer easier.
 
-## How do I do this?
+## Procedure
 
 First, we are here to help.
 Please [contact support](../support.md) if you run into problems
