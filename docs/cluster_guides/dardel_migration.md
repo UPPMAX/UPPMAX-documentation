@@ -124,16 +124,116 @@ step 2, to see how to upload the public SSH key to the PDC Login Portal.
 ### 5. Run Darsync
 
 Run the migration tool [Darsync](../cluster_guides/darsync.md). 
-Below it is described how to find the answers to the questions
-[Darsync](../cluster_guides/darsync.md) will ask.
+
+#### 5.1 Load the module for Darsync
+
+First step, is to load the `darsync` [module](modules.md):
 
 ```bash
 module load darsync
-
-darsync check --local-dir /path/to/dir
-# fix any errors the check step found
-darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
 ```
+
+#### 5.2 Check for problems
+
+This second step is optional, yet may help against possible problems.
+
+Running `darsync check` will make Darsync prompt for questions:
+
+
+```bash
+darsync check
+```
+
+???- question "How do I give the arguments from the command line?"
+
+    If you prefer to specify everything from the command-line, do:
+
+    ```bash
+    darsync check --local-dir [foldername]
+    ```
+
+    where `[foldername]` is the name to a folder, 
+    for example `darsync check --local-dir ~/my_folder`.
+
+    There are some more optional arguments, see these by doing:
+
+    ```bash
+    darsync check --help
+    ```
+
+If there are problems reported, [contact support](../support.md)
+or try to fix them yourself.
+
+???- question "What is the file `darsync_[dirname].ownership.gz`"?
+
+    This is a file containing file ownership information.
+    This file can be used to make sure that the
+    file ownership (user/group) will look the same on Dardel 
+    as it does on Rackham.
+
+???- question "Can I delete the file `darsync_[dirname].ownership.gz`"?
+
+    Yes, as it is not needed in the next step.
+
+    However, it is a small file that allows UPPMAX support
+    to help in case of migration problems.
+
+    On the other hand, you can regenerate the file 
+    as long as the files you are migrating are still present.
+    
+#### 5.3 Generate script
+
+In this third step, the [Slurm](slurm.md) script is created.
+
+!!! info "A lot of questions"
+
+    The script will ask multiple questions. 
+    Below it is described how to get the answers :-)
+
+Running `darsync gen` will make Darsync prompt for questions:
+
+
+```bash
+darsync gen
+```
+
+???- question "How do I give the arguments from the command line?"
+
+    If you prefer to specify everything from the command-line, do:
+
+    ```bash
+    darsync gen \
+      --local-dir [foldername] \
+      --slurm-account [slurm_account] \
+      --username [pdc_username] \
+      --ssh-key [private_ssh_key_path] \
+      --outfile [output_filename]
+    ```
+
+    where 
+
+    - `[foldername]` is the name to a folder, e.g. `~/my_folder`
+    - `[slurm_account]` is the UPPMAX project ID, e.g. `uppmax2023-2-25`
+    - `[pdc_username]` is your PDC username, e.g `svenan`
+    - `[private_ssh_key_path]` is the path the private SSH key, e.g. `~/.ssh/id_ed25519_pdc`
+    - `[output_filename]` is the name of the Slurm output file, e.g. `~/dardel_transfer_script.sh`
+
+    resulting in:
+
+    ```bash
+    darsync gen \
+      --local-dir ~/my_folder \
+      --slurm-account uppmax2023-2-25 \
+      --username svenan \
+      --ssh-key ~/.ssh/id_ed25519_pdc \
+      --outfile ~/dardel_transfer_script.sh
+    ```
+
+    There are some more optional arguments, see these by doing:
+
+    ```bash
+    darsync gen --help
+    ```
 
 In case of a typo, you can also modify `dardel_transfer_script.sh`,
 which is a regular [Slurm](slurm.md) script.
@@ -159,7 +259,7 @@ which is a regular [Slurm](slurm.md) script.
     > Example [https://supr.naiss.se/](https://supr.naiss.se/) page.
     > Eligible candidates seem 'NAISS 2024/22-49' and 'UPPMAX 2023/2-25'.
 
-???- question "How to find out my Dardel username?"
+???- question "How to find out my PDC username?"
 
     Login to [https://supr.naiss.se/](https://supr.naiss.se/).
     and click on 'Accounts' in the main menu bar at the left.
@@ -187,7 +287,6 @@ which is a regular [Slurm](slurm.md) script.
     > Composite image of a PDC project and its associated storage folder 
     > at the bottom. 
     > In this case, the full folder name is `/cfs/klemming/projects/snic/naiss2023-22-10271`
-
 
 ### 6. Submit the script created by Darsync
 
