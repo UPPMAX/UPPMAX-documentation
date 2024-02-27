@@ -1,4 +1,4 @@
-## Create and use an SSH key pair for Dardel
+# Create and use an SSH key pair for Dardel
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)
 for the [Dardel](../cluster_guides/dardel.md) cluster.
