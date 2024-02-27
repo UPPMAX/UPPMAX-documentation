@@ -135,6 +135,9 @@ darsync check --local-dir /path/to/dir
 darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
 ```
 
+In case of a typo, you can also modify `dardel_transfer_script.sh`,
+which is a regular [Slurm](slurm.md) script.
+
 ???- question "How to find out my UPPMAX project ID?"
 
     The UPPMAX project ID is used in your [Slurm](slurm.md) scripts,
@@ -184,6 +187,7 @@ darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
     > Composite image of a PDC project and its associated storage folder 
     > at the bottom. 
     > In this case, the full folder name is `/cfs/klemming/projects/snic/naiss2023-22-10271`
+
 
 ### 6. Submit the script created by Darsync
 
