@@ -1,7 +1,7 @@
 ## Create an SSH key pair for use with Bianca
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)
-for the [Bianca](bianca.md) cluster.
+for the [Bianca](../cluster_guides/bianca.md) cluster.
 
 - Add the content of your public key `id_ed25519_key.pub` to 
   `$HOME/.ssh/authorized_keys`. 

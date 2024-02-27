@@ -1,7 +1,7 @@
 # Create and use an SSH key pair for Rackham
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)
-for the [Rackham](rackham.md) cluster.
+for the [Rackham](../cluster_guides/rackham.md) cluster.
 
 Create an SSH key pair with the following command:
 

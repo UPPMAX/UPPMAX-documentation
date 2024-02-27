@@ -9,7 +9,7 @@ Operating system|SSH Client|Provides SSH with [X forwarding](ssh_x_forwarding.md
 Linux           |`ssh`     |Yes
 MacOS           |`ssh`     |Yes, after installing [XQuartz](https://www.xquartz.org/)
 Windows         |MobaXterm |Yes
-Windows         |PuTTY     |Yes, after installing [Xming](www.straightrunning.com/XmingNotes/)
+Windows         |PuTTY     |Yes, after installing [Xming](http://www.straightrunning.com/XmingNotes/#head-13)
 
 - [X forwarding](ssh_x_forwarding.md) allows one to use graphical applications
 
