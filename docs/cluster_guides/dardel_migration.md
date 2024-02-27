@@ -103,7 +103,8 @@ You will get a PDC account overnight.
 
 ### 3. Create SSH key pair
 
-See [create and use an SSH key pair for Dardel](../software/ssh_key_use_dardel.md) step 1.
+See [create and use an SSH key pair for Dardel, step 1](../software/ssh_key_use_dardel/#1-how-to-create-ssh-keys).
+
 
 Spoiler: on Rackham, do:
 
@@ -114,8 +115,8 @@ darsync sshkey
 
 ### 4. Add the public key to the PDC Login Portal
 
-See [create and use an SSH key pair for Dardel](../software/ssh_key_use_dardel.md) 
-step 2, to see how to upload the public SSH key to the PDC Login Portal.
+See [create and use an SSH key pair for Dardel, step 2](../software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal), 
+to see how to upload the public SSH key to the PDC Login Portal.
 
 ### 5. Run Darsync
 
