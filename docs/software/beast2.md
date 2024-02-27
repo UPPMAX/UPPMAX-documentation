@@ -239,6 +239,51 @@ beast -beagle_info
         Flags: PRECISION_SINGLE PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL EIGEN_COMPLEX SCALING_MANUAL SCALING_AUTO SCALING_ALWAYS SCALERS_RAW SCALERS_LOG VECTOR_SSE VECTOR_NONE THREADING_CPP THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
     ```
 
+## Troubleshooting
+
+### BEAUti gives `BadAlloc`
+
+ * Platform(s): MacOS
+
+This problem seems to be related to not having a proper X server installed.
+In this case, [SSH X forwarding](ssh_x_forwarding.md) works to the extent
+that SSH is able to show `xeyes`, yet fails to show BEAUti.
+
+A solution may be:
+
+- Use the remote desktop 
+
+???- question "How does that look like?"
+
+    Here is how it looks like:
+
+    ```
+    [kayakhi@rackham2 ~]$ xeyes
+
+    [kayakhi@rackham2 ~]$ module load bioinfo-tools beast2/2.7.4
+
+    beast2/2.7.4: Also loaded beagle/4.0.0
+
+    beast2/2.7.4: Many Beast packages are available, to see the list, 'packagemanager -list'
+
+    beast2/2.7.4: Use BEAST_XMX to specify the amount of RAM (default 5g), 'export BEAST_XMX=15g'. Do not exceed RAM available to your job.
+
+    [kayakhi@rackham2 ~]$ beauti
+
+    X Error of failed request:  BadAlloc (insufficient resources for operation)
+
+      Major opcode of failed request:  149 (GLX)
+
+      Minor opcode of failed request:  5 (X_GLXMakeCurrent)
+
+      Serial number of failed request:  0
+
+      Current serial number in output stream:  32
+    ```
+
+    Note that this user has enabled [SSH X forwarding](ssh_x_forwarding.md),
+    as is proven by calling `xeyes` without problems.
+
 ## Optimize performance
 
  * [BEAST2 performance suggestions](https://www.beast2.org/performance-suggestions/index.html)

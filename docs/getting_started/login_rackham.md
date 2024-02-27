@@ -246,19 +246,26 @@
     ``` bash
     $ xeyes &
     ```
-    
-## ThinLinc (all platforms!)
 
-- This gives you a desktop environment, as if you were working on your own computer!
-- On web:
-    - [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
-- Or use the client 
-    - [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
-
+## Remote desktop
 
 ![Caption](./img/Thinlinc2.jpg)
 
+You can also login to Rackham's remote desktop environment.
+This gives you a desktop environment, as if you were working on your own computer!
 
+You can do so:
+
+- [via the web](#remote-desktop-via-the-web)
+- [via a ThinLinc client](#remote-desktop-via-a-ThinLinc client)
+
+### Remote desktop via the web
+
+Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se).
+   
+## Remote desktop via a ThinLinc client
+
+Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
 
 ## Linux on your computer
 
