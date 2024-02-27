@@ -9,7 +9,7 @@ If you are working on [Rackham](rackham.md),
 consider moving to Dardel.
 
 - [Login to Dardel](../getting_started/login_dardel.md)
-- [Create and upload SSH key for Dardel](dardel_ssh_key_create_and_upload.md)
+- [Create and upload SSH key for Dardel](../software/ssh_key_use_dardel.md)
 - [Migration to Dardel](dardel_migration.md)
 
 ## Links
