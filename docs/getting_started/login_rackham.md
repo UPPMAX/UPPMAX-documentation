@@ -249,7 +249,7 @@
 
 ## Remote desktop
 
-![Caption](./img/Thinlinc2.jpg)
+![Caption](./img/rackham_via_remote_desktop.jpg)
 
 You can also login to Rackham's remote desktop environment.
 This gives you a desktop environment, as if you were working on your own computer!
