@@ -5,7 +5,7 @@ for the [Dardel](dardel.md) cluster.
 
 This guide will show you:
 
-- [1. How to create SSH keys](#1.-how-to-create-ssh-keys)
+- [1. How to create SSH keys](#1-how-to-create-ssh-keys)
 - [2. How to add an SSH key to the PDC Login Portal](#2-how-to-add-an-ssh-key-to-the-pdc-login-portal)
 
 This makes it possible for you to login to [Dardel](dardel.md).
