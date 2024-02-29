@@ -322,20 +322,19 @@ rm ~/id_ed25519_pdc*
 
 ???- question "What is the file `darsync_[dirname].ownership.gz`?"
 
-    This is a file containing file ownership information.
-    This file can be used to make sure that the
-    file ownership (user/group) will look the same on Dardel 
-    as it does on Rackham.
+    This is a file containing file ownership information. When a user transfer all the files
+    in a project to a project at Dardel, all the files at Dardel will be owned by the user
+    who did the transfer. By saving the ownership information of the files at UPPMAX,
+    we can map the file ownership information to the corresponding users at Dardel.
 
 ???- question "Can I delete the file `darsync_[dirname].ownership.gz`?"
 
-    Yes, as it is not needed in the next step.
-
-    However, it is a small file that allows UPPMAX support
-    to help in case of migration problems.
-
-    On the other hand, you can regenerate the file 
-    as long as the files you are migrating are still present.
+    No, keep it until you delete your project at UPPMAX, or better yet,
+    copy that file to Dardel as well. If you discover that you get
+    problems because of wrong owner of files (write permissions etc),
+    this file contains the information needed to recreate it as it 
+    was before your transfered the files, even if your UPPMAX
+    project has already been deleted.
 
 ### `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
 
