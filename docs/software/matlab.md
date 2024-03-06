@@ -164,7 +164,7 @@ You can change your settings here: HOME > ENVIRONMENT > Parallel > Parallel pref
 
 ### MATLAB Batch
 
-With MATLAB you can e.g. submit jobs directly to our job queue scheduler, without having to use slurm's commands directly. Let us first make two small function. The first one, little simpler, saved in the file parallel_example.m:
+With MATLAB you can e.g. submit jobs directly to our job queue scheduler, without having to use slurm's commands directly. Let us first make two small function. The first one, little simpler, saved in the file ``parallel_example.m``:
 
 ```matlab
     function t = parallel_example(nLoopIters, sleepTime) 
@@ -175,10 +175,10 @@ With MATLAB you can e.g. submit jobs directly to our job queue scheduler, withou
       end 
       t = toc(t0); 
 ```
-and the second, little longer, saved in parallel_example_hvy.m:
+and the second, little longer, saved in ``parallel_example_hvy.m``:
 
 ```matlab
-    function t = parallel_example(nLoopIters, sleepTime) 
+    function t = parallel_example_hvy(nLoopIters, sleepTime) 
       t0 = tic; 
       ml = 'module list';
       [status, cmdout] = system(ml);
