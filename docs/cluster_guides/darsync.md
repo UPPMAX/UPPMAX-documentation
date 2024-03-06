@@ -42,7 +42,7 @@ darsync check -l /path/to/dir
 # fix warnings on your own
 
 # book a 30 day single core job on Snowy and run the rsync command
-rsync -e "ssh -i ~/.ssh/id_rsa" -acPuvz /local/path/to/files/ username@dardel.pdc.kth.se:/remote/path/to/files/
+rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc.kth.se:/remote/path/to/files/
 
 ```
 
