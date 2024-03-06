@@ -50,7 +50,7 @@ an mp3 using [`gTTS`](https://gtts.readthedocs.io/en/latest/). Run it by
 python md_to_speech.py --input txt.md --lang en
 ```
 
-## Files used for continuous integration scripts
+## Files used by continuous integration scripts
 
 Filename                           |Descriptions
 -----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
