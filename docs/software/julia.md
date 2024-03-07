@@ -106,12 +106,13 @@ A variable referring to the last computed value, automatically set at the intera
 
 !!! info
 ​
-    Exit with <Ctrl-D> or 'exit()'.
+    - Exit with <Ctrl-D> or 'exit()'.
 
 
-```seealso
-More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
-```
+!!! seealso
+
+    More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
+
 
 ## Introduction
 Julia is according to <https://julialang.org/>:
@@ -128,21 +129,21 @@ Julia is according to <https://julialang.org/>:
 [Julia discussions](https://discourse.julialang.org/)
 
 ## Packages
-Some packages are pre-installed. That means that they are available also on Bianca.These include:
+Some packages are pre-installed. That means that they are available also on **Bianca**. These include:
 
-  "BenchmarkTools"
-  "CSV"
-  "CUDA"
-  "DataFrames"
-  "Distributed"
-  "DistributedArrays"
-  "Gadfly"
-  "IJulia"
-  "MPI"
-  "Plots"
-  "PlotlyJS"
-  "PyPlot"
-+ all "standard" libraries.
+- "BenchmarkTools"
+- "CSV"
+- "CUDA"
+- DataFrames"
+- "Distributed"
+- "DistributedArrays"
+- "Gadfly"
+- "IJulia"
+- "MPI"
+- "Plots"
+- "PlotlyJS"
+- "PyPlot"
+- + all "standard" libraries.
 
 This list will be extended while you, as users, may wish more packages.
 
@@ -160,43 +161,58 @@ Alternatively, using Module will import all exported Module functions into the c
 ### Use  centrally installed packages the first time 
 You may have to build the package the first time you run it. Julia will in such case ask you to do so. Then:
 
+```julia-repl
 > using Pkg
 > Pkg.activate(DEPOT_PATH[2]*"/environments/v1.9");      #change version accordingly
 > Pkg.build(<package_name>)
-
+```
 ## How to install personal packages
 You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the 
 
 ### Check if packages are installed centrally
 To make sure that the package is not already installed, type in Julia:
 
-using Pkg
+```julia-repl
+      using Pkg
       Pkg.activate(DEPOT_PATH[2]*"/environments/v1.8");  #change version accordingly
       Pkg.status()
+```
 To go back to your own personal packages:
 
+```julia-repl
       Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");
       Pkg.status()
+```
 You can load (using/import) ANY package from both lotcal and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
 
 ### Start an installation locally
 To install personal packages, start to be sure that you are in your local environment. You type within Julia:
 
+```julia-repl
      Pkg.activate(DEPOT_PATH[1]*"/environmentts/v1.8");
      Pkg.add("<package_name>")
+```
 This will install under the path ~/.julia/packages/. Then you can load it by just doing "using/import <package_name>".
 
+```julia-repl
       using <package_name>
+```
 You can also activate a "package prompt" in julia with   ']':
 
+
+```julia-repl
 (@v1.8) pkg> add <package name>
+```
 For installing specific versions specify with  <package name>@<X.Y.Z>.
 
 After adding you may be asked to precompile or build. Do so according to instruction given on the screen. Otherwise, first time importing or using the package, Julia may start a precompilation that will take a few seconds up to several minutes.
 
 Exit with <backspace>:
 
+
+```julia-repl
 julia> 
+```
 
 ### Own packages on Bianca
 You can use make an installation on Rackham and then use the wharf to copy it over to your ~/.julia/ directory.
