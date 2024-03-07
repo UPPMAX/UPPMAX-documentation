@@ -80,39 +80,50 @@ This will allow you to use Linux commands. Notice that the availabilty of these 
 
 Another mode available in Julia is the package manager mode, it can be accessed by typing ] in the Julian mode:
 
+```julia-repl
 julia>]
 (v1.8) pkg>
+```
 
 This will make your interaction with the package manager Pkg easier, for instance, instead of typing the complete name of Pkg commands such as Pkg.status() in the Julian mode, you can just type status in the package mode.
 
 The last mode is the help mode, you can enter this mode from the Julian one by typing ?, then you may type some string from which you need more information:
 
+```julia-repl
 help?> ans
+```
 
+```julia-repl
 julia>?
 search: ans transpose transcode contains expanduser instances MathConstants readlines LinearIndices leading_ones leading_zeros
 ans
 A variable referring to the last computed value, automatically set at the interactive promp
+```
 
+```info
 Backspace will get you back to julian mode
+```
+```info
+​Exit with <Ctrl-D> or 'exit()'.
+```
 
-​Exit with <Ctrl-D> or 'exit()'. 
-
-More detailed information about the modes in Julia can be found here: https://docs.julialang.org/en/v1/stdlib/REPL/
-
+```seealso
+More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
+```
 
 ## Introduction
-Julia is according to https://julialang.org/:
+Julia is according to <https://julialang.org/>:
 
-Fast
-Dynamic
-Reproducible
-Composable
-General
-Open source
-Documentation for version 1.8.
+- Fast
+- Dynamic
+- Reproducible
+- Composable
+- General
+- Open source
 
-Julia discussions.
+[Documentation](https://docs.julialang.org/en/v1/) for version 1.8.
+
+[Julia discussions](https://discourse.julialang.org/)
 
 ## Packages
 Some packages are pre-installed. That means that they are available also on Bianca.These include:
