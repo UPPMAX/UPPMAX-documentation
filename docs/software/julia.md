@@ -162,26 +162,27 @@ Alternatively, using Module will import all exported Module functions into the c
 You may have to build the package the first time you run it. Julia will in such case ask you to do so. Then:
 
 ```julia-repl
-> using Pkg
-> Pkg.activate(DEPOT_PATH[2]*"/environments/v1.9");      #change version accordingly
-> Pkg.build(<package_name>)
+julia> using Pkg
+julia> Pkg.activate(DEPOT_PATH[2]*"/environments/v1.9");      #change version accordingly
+julia> Pkg.build(<package_name>)
 ```
+
 ## How to install personal packages
 You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the 
 
 ### Check if packages are installed centrally
 To make sure that the package is not already installed, type in Julia:
 
-```julia-repl
-      using Pkg
-      Pkg.activate(DEPOT_PATH[2]*"/environments/v1.8");  #change version accordingly
-      Pkg.status()
+```julia
+julia> using Pkg
+julia> Pkg.activate(DEPOT_PATH[2]*"/environments/v1.8");  #change version accordingly
+julia> Pkg.status()
 ```
 To go back to your own personal packages:
 
 ```julia-repl
-      Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");
-      Pkg.status()
+julia> Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");
+julia> Pkg.status()
 ```
 You can load (using/import) ANY package from both lotcal and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
 
