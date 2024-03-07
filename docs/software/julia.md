@@ -100,12 +100,14 @@ ans
 A variable referring to the last computed value, automatically set at the interactive promp
 ```
 
-```info
-Backspace will get you back to julian mode
-```
-```info
-​Exit with <Ctrl-D> or 'exit()'.
-```
+!!! info
+
+    Backspace will get you back to julian mode
+
+!!! info
+​
+    Exit with <Ctrl-D> or 'exit()'.
+
 
 ```seealso
 More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
