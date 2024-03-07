@@ -127,6 +127,7 @@ BaseConfigurator
 BaseGenerator
 BaseName
 bashrc
+BEAUti
 belo
 benchmarking
 BenchmarkTools
