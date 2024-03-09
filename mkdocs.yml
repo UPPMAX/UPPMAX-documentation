@@ -53,6 +53,7 @@ nav:
       - R: software/r.md
       - RStudio: software/rstudio.md
       - SSH: software/ssh.md
+      - TensorFlow: software/tensorflow.md
       - Tracer: software/tracer.md
       - Whisper: software/whisper.md
       - Life Science-specific: 
