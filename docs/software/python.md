@@ -307,6 +307,74 @@ If the Python package is not pre-installed with your version of Python,
 use [the UPPMAX module system](../cluster_guides/modules.md)
 to search for it.
 
+Not all packages are easy to find, 
+as some are part of super-packages,
+for example [the TensorFlow Python libraries](tensorflow.md),
+which are part of the `python_ML_packages/[version]-{cpu,gpu}`,
+for example `python_ML_packages/3.11.8-cpu`.
+
+???- question "Want to see a list of Python packages in `python_ML_packages/3.11.8-cpu` that are not in `python/3.11.8`?
+
+    Here you go:
+
+    - absl-py
+    - array-record
+    - astunparse
+    - cachetools
+    - cons
+    - dill
+    - dm-tree
+    - ducc0
+    - etils
+    - etuples
+    - flatbuffers
+    - gast
+    - google-auth
+    - google-auth-oauthlib
+    - google-pasta
+    - googleapis-common-protos
+    - grpcio
+    - imbalanced-learn
+    - importlib_resources
+    - keras
+    - libclang
+    - llvmlite
+    - logical-unification
+    - miniKanren
+    - ml-dtypes
+    - multipledispatch
+    - nlp
+    - numba
+    - oauthlib
+    - opt-einsum
+    - patsy
+    - promise
+    - protobuf
+    - pyasn1
+    - pyasn1-modules
+    - pytensor
+    - requests-oauthlib
+    - rsa
+    - scikit-learn
+    - seaborn
+    - statsmodels
+    - tensorboard
+    - tensorboard-data-server
+    - tensorflow-cpu
+    - tensorflow-datasets
+    - tensorflow-estimator
+    - tensorflow-io-gcs-filesyst
+    - tensorflow-metadata
+    - tensorflow-probability
+    - termcolor
+    - threadpoolctl
+    - toml
+    - torch
+    - torchaudio
+    - torchvision
+    - wrapt
+    - xxhash
+
 It may not always be easy to find your Python package within the many modules. 
 Do not hesitate to [contact support](../support.md)
 so that you can spend time on your research 
@@ -385,8 +453,8 @@ Python programming [here](python_programming.md)
 There are these UPPMAX courses related to Python:
 
 - [Introduction to Python](https://github.com/UPPMAX/uppmax_intro_python), which is one day of the [introduction to UPPMAX course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/) which takes four days in total  
-- 1-day workshop 'Using Python in a HPC environment'
-- 3-day course on Python, Julia and R
+- [1-day workshop 'Using Python in a HPC environment'](https://uppmax.github.io/HPC-python/)
+- [3-day course on Python, Julia and R](https://uppmax.github.io/R-python-julia-HPC/)
 
 ## Installing Python packages
 

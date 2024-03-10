@@ -16,7 +16,36 @@ that works on [Rackham](../cluster_guides/rackham.md).
 
 It is part of the `python_ML_packages/[version]-cpu` 
 [modules](../cluster_guides/modules.md), where `[version]` is a version,
-for example, `python_ML_packages/3.11.8-cpu`
+for example, `python_ML_packages/3.11.8-cpu`.
+
+???- question "How to test TensorFlow as a Python package for CPU?"
+
+    On Rackham, load the module to get access to the library:
+
+    ```
+    module load python_ML_packages/3.11.8-cpu
+    ```
+
+    Start Python:
+
+    ```
+    python
+    ```
+
+    In Python, type:
+
+    ```
+    import tensorflow as tf
+    print(tf.test.is_gpu_available())
+    ```
+
+    This should print:
+
+    ```
+    False
+    ```
+
+    The output is correct: this is the CPU version.
 
 # TensorFlow as a Python package for GPU
 
