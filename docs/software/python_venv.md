@@ -38,6 +38,24 @@ Here it is described, using `venv` ...
 
 ### `venv`: create an environment
 
+A virtual environment can be created in multiple ways, 
+for example, from scratch, which is not recommended.
+
+Here we discuss the recommended way to create a virtual environment,
+which has these steps:
+1. Load a Python module or a modules with Python packages
+1. Create the virtual environment
+
+The first step is described at 
+['Loading Python'](http://docs.uppmax.uu.se/software/python/#loading-python)
+and 
+['Loading Python package modules'](http://docs.uppmax.uu.se/software/python/#loading-python-modules)
+
+```
+module load python/3.6.0
+```
+
+
 Create a `venv`. First load the python version you want to base your virtual
 environment on. 
 
@@ -52,7 +70,6 @@ $ python -m venv Example
 called Example in the present working directory.
 
     If you want it in a certain place like `~/test/`:
-
 
     `$ python -m venv ~/test/Example`
 

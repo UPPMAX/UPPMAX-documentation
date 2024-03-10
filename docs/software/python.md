@@ -189,12 +189,37 @@ for example, `module load python/3.11.4`
     one of the modules is `python/2.X.Y` and the other module is `python3/3.X.Y` 
     (i.e. not `python/3.X.Y`).
 
+## Loading Python package modules
+
+!!! note "Terminology"
+
+    There exist many Python libraries.
+    Although these are formally called 'modules', 
+    in this document, we call them 'packages',
+    to distinguish those from [the UPPMAX modules](../cluster_guide/modules.md).
+
+For more complex complex Python packages, 
+there exist [UPPMAX modules](../cluster_guide/modules.md) to load these:
+
+- `python_GIS_packages`: for geographic information system packages
+- `python_ML_packages`: for machine learning Python packages
+
+???- question "How could I find these modules myself?"
+
+    Use:
+
+    ```
+    module spider packages
+    ```
+
 ## Loading Python packages
 
-There exist many Python libraries.
-Although these are called 'modules',
-we call them 'packages' in this document,
-to distinguish those from the UPPMAX modules.
+!!! note "Terminology"
+
+    There exist many Python libraries.
+    Although these are formally called 'modules', 
+    in this document, we call them 'packages',
+    to distinguish those from [the UPPMAX modules](../cluster_guide/modules.md).
 
 Many scientific tools are distributed as Python packages,
 which allows any user to run complex tools from a terminal or script.
