@@ -25,7 +25,32 @@ Virtual environment manager          |Description
 [`conda`](../cluster_guides/conda.md)|Works on [Rackham](../cluster_guides/rackham.md), recommended on [Bianca](../cluster_guides/bianca.md)
 [`pyenv`](python_pyenv.md)           |More advanced than `venv`
 
+## General virtual environment manager workflow
 
+```mermaid
+flowchart TD
+  create[Create]
+  activate[Activate]
+  use[Use]
+  deactivate[Deactivate]
 
+  create --> activate
+  activate --> use
+  use --> deactivate
+  deactivate --> activate
+```
 
+Whatever virtual environment manager you use, this is the workflow:
+
+- You create the isolated environment
+- You activate the environment
+- You work in the isolated environment. 
+  Here you install (or update) the environment with the packages you need
+- You deactivate the environment after use 
+
+A virtual environment can be created in multiple ways,
+for example, from scratch.
+However, there are more efficient ways, 
+such as by re-using already installed Python packages.
+How to do so, can be found on the page about your specific virtual environment manager.
 

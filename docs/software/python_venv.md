@@ -3,16 +3,16 @@
 `venv` is one of multiple 
 [Python virtual environment managers](python_virtual_environments.md).
 
-`venv` is a environment manager
+`venv` is a Python-only environment manager
 and is [an official Python library](https://docs.python.org/3/library/venv.html).
 
 Here it is described, using `venv` ...
 
-- how to create an environment
-- how to activate an environment
-- how to deactivate an environment
+- how to [create a virtual environment](#create-a-virtual-environment)
+- how to [activate a virtual environment](#activate-a-virtual-environment)
+- how to [deactivate a virtual environment](#deactivate-a-virtual-environment)
 
-### `venv`: create an environment
+## Create a virtual environment
 
 A virtual environment can be created in multiple ways, 
 for example, from scratch, which is not recommended.
@@ -22,68 +22,106 @@ which has these steps:
 1. Load a Python module or a modules with Python packages
 1. Create the virtual environment
 
+### 1. Load a Python module or a modules with Python packages
+
 The first step is described at 
 ['Loading Python'](http://docs.uppmax.uu.se/software/python/#loading-python)
 and 
-['Loading Python package modules'](http://docs.uppmax.uu.se/software/python/#loading-python-modules)
+['Loading Python package modules'](http://docs.uppmax.uu.se/software/python/#loading-python-modules).
+
+???- question "Just show me how to do this"
+
+    Sure, here is how to [load a Python module](http://docs.uppmax.uu.se/software/python/#loading-python):
+
+    ```
+    module load python/3.11.8
+    ```
+
+    Here is how to [load a Python package module](http://docs.uppmax.uu.se/software/python/#loading-python-modules):
+
+    ```
+    module load python_ML_packages/3.11.8-cpu
+    ```
+
+### 2. Create the virtual environment
+
+After loading the needed Python modules,
+one can create a virtual environment
+most efficiently using:
 
 ```
-module load python/3.6.0
+python -m venv --system-site-packages [path]/[venv_name]
 ```
 
+where `[path]` is the path where you want to create your `venv` virtual
+environment and `[venv_name]` is the name of the `venv` virtual environment.
+For example `python -m venv --system-site-packages ~/my_venvs/example_venv`.
 
-Create a `venv`. First load the python version you want to base your virtual
-environment on. 
-
-Example with `python/3.6.0`
-
-```
-$ module load python/3.6.0
-$ python -m venv Example
-```
-
-* Here `Example` is the name of the virtual environment. It creates a new folder
-called Example in the present working directory.
-
-    If you want it in a certain place like `~/test/`:
-
-    `$ python -m venv ~/test/Example`
-
-### `venv`: activate an environment
-
-* Activate it. To activate your newly created virtual environment locate the
-script called `activate` and execute it.
-
-    * `$ source Example/bin/activate`
-    * Note that your prompt is changing to start with (Example) to show that you are within an environment.
-
-* Install your packages, like `Numpy 1.13.1` and `Matplotlib 2.2.2`, into the virtual environment:
-* `(Example) $ pip install numpy==1.13.1 matplotlib==2.2.2`
-
-### `venv`: deactivate an environment
-
-* Deactivate it:
-    `(Example) $ deactivate`
-
-Everytime you need the tools available in the virtual environment you activate it as above.
-
-### `venv`: optimization
-
-To save space, you should load any other Python modules you will need that are
-system installed before installing your own packages. 
-Remember to choose ones
-that are compatible with the Python version you picked. 
-`--system-site-packages` includes the packages already installed in the 
+The `-m` flag makes sure that you use the libraries 
+from the Python version you are using.
+The `--system-site-packages` flags ensure you use
+the packages already installed in the 
 loaded Python module.
 
-Example from above:
+???- question "How long does this step take?"
+
+    This depends. 
+
+    This takes around 10 seconds:
+
+    ```
+    module load python/3.11.8
+    python -m venv --system-site-packages ~/my_venvs/example_venv
+    ```
+
+    This takes around 10 seconds:
+
+    ```
+    module load python_ML_packages/3.11.8-cpu
+    python -m venv --system-site-packages ~/my_venvs/example_ml_venv
+    ```
+
+## Activate a virtual environment
+
+To activate your newly created virtual environment locate the
+script called `activate` and execute it:
 
 ```
-python -m venv --system-site-packages Example
+source [path]/[venv_name]/bin/activate
 ```
 
-See further down how to use Jupyter from an isolated session where you used
-`--system-site-packages`.
+where `[path]` is the path where you want to create your `venv` virtual
+environment and `[venv_name]` is the name of the `venv` virtual environment.
+For example `source ~/my_venvs/example_venv/bin/activate`.
+
+When a `venv` virtual environment is active, 
+the prompt is changed to start with the name of your `venv`.
+
+???- question "How does that look like?"
+
+    This is how your changed prompt looks like:
+
+    ```
+    [sven@rackham1 ~]$ module load python_ML_packages/3.11.8-cpu
+    [sven@rackham1 ~]$ python -m venv --system-site-packages ~/my_venvs/example_venv
+    [sven@rackham1 ~]$ source ~/my_venvs/example_venv/bin/activate
+    (example_venv) [sven@rackham1 ~]$ 
+    ```
+
+With the `venv` virtual environment active,
+you can now install and update Python packages
+in an isolated way.
+
+## Deactivate a virtual environment
+
+To deactivate a `venv` virtual environment:
+
+```
+deactivate
+```
+
+You will need to [activate a virtual environment](#activate-a-virtual-environment)
+to work with it again.
 
 ## Links
 
