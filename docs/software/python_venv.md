@@ -94,15 +94,22 @@ See further down how to use Jupyter from an isolated session where you used
 
 ## `virtualenv`
 
-`virtualenv` is a isolated environment manager.
-It is largely `venv` supporting older Python versions.
+`virtualenv` is an environment manager.
+
+Here we show the differences between `venv` and `virtualenv`
+
+Parameter                      |`venv`|`virtualenv`
+-------------------------------|------|------------
+Supports which Python versions?|Newer |Older
+Is standard library?           |Yes   |No
+
+Also, `virtualenv` has a few more minor unique features.
 
 ## `conda`
 
 `conda` is a isolated environment manager.
 
 See [the UPPMAX conda guide](../cluster_guides/conda.md).
-
 
 ## `pyenv`
 
