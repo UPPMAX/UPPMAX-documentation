@@ -313,7 +313,7 @@ for example [the TensorFlow Python libraries](tensorflow.md),
 which are part of the `python_ML_packages/[version]-{cpu,gpu}`,
 for example `python_ML_packages/3.11.8-cpu`.
 
-???- question "Want to see a list of Python packages in `python_ML_packages/3.11.8-cpu` that are not in `python/3.11.8`?
+???- question "Want to see a list of Python packages in `python_ML_packages/3.11.8-cpu` that are not in `python/3.11.8`?"
 
     Here you go:
 
