@@ -1,22 +1,42 @@
 # Isolated environments in Python
 
 This page described how to use isolated environments in Python.
+
 For the general pages on Python, go [here](python.md).
 
-Good introduction at CodeRefinery's course in [Python for Scientific
-Computing](https://aaltoscicomp.github.io/python-for-scicomp/).
+## Why use isolated environments?
 
 Isolated environments solve a couple of problems:
 
-* You can install specific, also older, versions into them.
+- You can install specific, also older, versions into them
+- You can create one for each project and no problem if the two projects
+  require different versions
+- If you make some mistake and install something you did not want or need, you
+  can remove the environment and create a new one
 
-* You can create one for each project and no problem if the two projects
-require different versions.
+## Environment managers
 
-* If you make some mistake and install something you did not want or need, you
-can remove the environment and create a new one.
+Here is an incomplete overview of virtual environment managers:
 
-## Example with virtual environment
+Virtual environment manager|Description
+---------------------------|--------------------------------
+`venv`                     |Works on Rackham
+`virtualenv`               |`venv` for older Python versions
+`conda`                    |Works on Rackham, recommended on Bianca
+`pyenv`                    |More advanced than `venv`
+
+## `venv`
+
+`venv` is a environment manager
+and is [an official Python library](https://docs.python.org/3/library/venv.html).
+
+Here it is described, using `venv` ...
+
+- how to create an environment
+- how to activate an environment
+- how to deactivate an environment
+
+### `venv`: create an environment
 
 Create a `venv`. First load the python version you want to base your virtual
 environment on. 
@@ -36,6 +56,7 @@ called Example in the present working directory.
 
     `$ python -m venv ~/test/Example`
 
+### `venv`: activate an environment
 
 * Activate it. To activate your newly created virtual environment locate the
 script called `activate` and execute it.
@@ -45,30 +66,50 @@ script called `activate` and execute it.
 
 * Install your packages, like `Numpy 1.13.1` and `Matplotlib 2.2.2`, into the virtual environment:
 * `(Example) $ pip install numpy==1.13.1 matplotlib==2.2.2`
+
+### `venv`: deactivate an environment
+
 * Deactivate it:
     `(Example) $ deactivate`
 
 Everytime you need the tools available in the virtual environment you activate it as above.
 
-!!! note
-    To save space, you should load any other Python modules you will need that are
-    system installed before installing your own packages! Remember to choose ones
-    that are compatible with the Python version you picked! --system-site-packages
-    includes the packages already installed in the loaded python module.
+### `venv`: optimization
 
-    Example from above:
+To save space, you should load any other Python modules you will need that are
+system installed before installing your own packages. 
+Remember to choose ones
+that are compatible with the Python version you picked. 
+`--system-site-packages` includes the packages already installed in the 
+loaded Python module.
 
-    ```python -m venv --system-site-packages Example```
+Example from above:
 
-    See further down how to use Jupyter from an isolated session where you used
+```
+python -m venv --system-site-packages Example
+```
+
+See further down how to use Jupyter from an isolated session where you used
 `--system-site-packages`.
 
-[More on virtual environment](https://docs.python.org/3/library/venv.html)
+## `virtualenv`
 
-## Installing with `pyenv`
+`virtualenv` is a isolated environment manager.
+It is largely `venv` supporting older Python versions.
+
+## `conda`
+
+`conda` is a isolated environment manager.
+
+See [the UPPMAX conda guide](../cluster_guides/conda.md).
+
+
+## `pyenv`
+
+`pyenv` is a isolated environment manager.
 
 This approach is more advanced and should be, in our opinion, used only if the
-above are not enough for the purpose. Probably Conda will work well four you.
+above are not enough for the purpose. Probably Conda will work well for you.
 The approach below allows you to install your own python version and much more… 
 
 Confer the official pyenv documentation.
@@ -105,7 +146,7 @@ also have multiple versions installed at the same time and just switch between
 them usuing 'pyenv global' as shown above, if you have a script that requires
 Python 3.3 or any other version.
 
-## Install packages in your selected python version
+### Install packages in your selected python version
 
 
 1. Set python version with 
@@ -122,3 +163,7 @@ Example:
 ```
 pip install mechanize
 ```
+
+## Links
+
+- CodeRefinery's course: [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/).
