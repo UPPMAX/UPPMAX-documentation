@@ -57,6 +57,15 @@ where `[path]` is the path where you want to create your `venv` virtual
 environment and `[venv_name]` is the name of the `venv` virtual environment.
 For example `python -m venv --system-site-packages ~/my_venvs/example_venv`.
 
+!!! tip "Create virtual environments in your project storage"
+
+    Virtual environments can take up a lot of disc space.
+
+    If you use either (1) many `venv` virtual environments, 
+    or (2) install many Python packages to a `venv` virtual environment,
+    we strongly recommend that you create the `venv` 
+    virtual environments in your project (`/proj/[your_uppmax_project]`) folder.
+
 The `-m` flag makes sure that you use the libraries 
 from the Python version you are using.
 The `--system-site-packages` flags ensure you use
