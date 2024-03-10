@@ -1,31 +1,7 @@
-# Isolated environments in Python
+# Python `venv`
 
-This page described how to use isolated environments in Python.
-
-For the general pages on Python, go [here](python.md).
-
-## Why use isolated environments?
-
-Isolated environments solve a couple of problems:
-
-- You can install specific, also older, versions into them
-- You can create one for each project and no problem if the two projects
-  require different versions
-- If you make some mistake and install something you did not want or need, you
-  can remove the environment and create a new one
-
-## Environment managers
-
-Here is an incomplete overview of virtual environment managers:
-
-Virtual environment manager|Description
----------------------------|--------------------------------
-`venv`                     |Works on Rackham
-`virtualenv`               |`venv` for older Python versions
-`conda`                    |Works on Rackham, recommended on Bianca
-`pyenv`                    |More advanced than `venv`
-
-## `venv`
+`venv` is one of multiple 
+[Python virtual environment managers](python_virtual_environments.md).
 
 `venv` is a environment manager
 and is [an official Python library](https://docs.python.org/3/library/venv.html).
@@ -108,85 +84,6 @@ python -m venv --system-site-packages Example
 
 See further down how to use Jupyter from an isolated session where you used
 `--system-site-packages`.
-
-## `virtualenv`
-
-`virtualenv` is an environment manager.
-
-Here we show the differences between `venv` and `virtualenv`
-
-Parameter                      |`venv`|`virtualenv`
--------------------------------|------|------------
-Supports which Python versions?|Newer |Older
-Is standard library?           |Yes   |No
-
-Also, `virtualenv` has a few more minor unique features.
-
-## `conda`
-
-`conda` is a isolated environment manager.
-
-See [the UPPMAX conda guide](../cluster_guides/conda.md).
-
-## `pyenv`
-
-`pyenv` is a isolated environment manager.
-
-This approach is more advanced and should be, in our opinion, used only if the
-above are not enough for the purpose. Probably Conda will work well for you.
-The approach below allows you to install your own python version and much more… 
-
-Confer the official pyenv documentation.
-
-### First time at UPPMAX
-
-1. Download pyenv:
-
-    ```git clone git://github.com/yyuu/pyenv.git ~/.pyenv```
-
-2. Make pyenv start when you login each time
-
-```
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
-```
-
-To make sure everything gets loaded correctly, log out and back in to uppmax.
-
-### Installing own python version (not already available as an UPPMAX module)
-
-1. Get pyenv to install the python version of your liking.
-
-    ```pyenv install 3.10.6```
-
-1. Make the version you just installed to the standard version for every time you run python.
-
-    ```pyenv global 3.10.6```
-
-Now you should be all set. If you change your mind about which version of
-Python to use, just redo this section and choose a different version. You can
-also have multiple versions installed at the same time and just switch between
-them usuing 'pyenv global' as shown above, if you have a script that requires
-Python 3.3 or any other version.
-
-### Install packages in your selected python version
-
-
-1. Set python version with 
-
-    ```pyenv global <version>```
-
-1. Install packages in your python, use `pip`
-
-    ```
-    pip install [package name]
-    ```
-
-Example:
-```
-pip install mechanize
-```
 
 ## Links
 

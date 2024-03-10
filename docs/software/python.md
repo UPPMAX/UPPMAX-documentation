@@ -17,7 +17,7 @@ and these more advanced topics:
 
 - [Programming in Python](python_programming.md)
 - [Installing Python packages](python_install_packages.md)
-- [Isolated environments in Python](python_venv.md)
+- [Virtual environments in Python](python_virtual_environments.md)
 - [How to run parallel jobs in Python](python_parallel_jobs.md)
 
 ## What is Python?
@@ -525,10 +525,10 @@ There are these UPPMAX courses related to Python:
 How to install Python packages
 is described [here](python_install_packages.md).
 
-## Isolated environments in Python
+## Virtual environments in Python
 
-How to use isolated environments in Python
-is described [here](python_venv.md).
+How to use virtual environments in Python
+is described [here](python_virtual_environments.md).
 
 ## How to run parallel jobs in Python
 
