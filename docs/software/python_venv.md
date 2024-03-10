@@ -43,6 +43,10 @@ and
     module load python_ML_packages/3.11.8-cpu
     ```
 
+Because you can load Python modules of different Python versions,
+you can create `venv` virtual environments with different Python versions.
+Consider adding this in the `venv` name, e.g. `my_python2_venv` or `my_python3_venv`.
+
 ### 2. Create the virtual environment
 
 After loading the needed Python modules,
@@ -129,9 +133,8 @@ To deactivate a `venv` virtual environment:
 deactivate
 ```
 
+As the `venv` virtual environment you just used is now inactive, 
+the prompt will not show the name of your `venv` anymore.
+
 You will need to [activate a virtual environment](#activate-a-virtual-environment)
 to work with it again.
-
-## Links
-
-- CodeRefinery's course: [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/).
