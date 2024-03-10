@@ -215,10 +215,46 @@ To load such a package:
 ### Determine if a Python package comes with your Python module
 
 To determine if a Python package comes with your Python module,
-there are two ways:
+there are multiple ways:
 
+- Using `pip list`
 - Using the module help
-- Importing it
+- Importing the package
+
+#### Using `pip list`
+
+To determine if a Python package comes with your Python module,
+`pip list` is one of the ways to do so.
+
+On a terminal, type:
+
+```
+pip list
+```
+
+This shows a list of Python packages that are installed.
+
+???- question "How does the output of `pip list` look like?"
+
+    Here is an example:
+
+    ```
+    Package                   Version
+    ------------------------- ---------------
+    anndata                   0.10.5.post1
+    anyio                     4.2.0
+    appdirs                   1.4.4
+    argon2-cffi               23.1.0
+    argon2-cffi-bindings      21.2.0
+    [more Python packages]
+    Werkzeug                  3.0.1
+    wheel                     0.42.0
+    widgetsnbextension        4.0.9
+    zipp                      3.17.0
+    zope.interface            6.1
+    ```
+
+#### Using the module help
 
 Determine if a Python package comes with your Python module
 using the module help, in a terminal, type:
@@ -261,8 +297,11 @@ module help python/3.11.4
     zope.interface            6.0
     ```
 
-To determine if a Python package comes with your Python module installed,
-try using it within Python:
+#### Importing the package
+
+Importing a Python package is a way to determine if a Python package 
+comes with your Python module installed.
+From the terminal do:
 
 ```
 python -c "import [your_package]"
