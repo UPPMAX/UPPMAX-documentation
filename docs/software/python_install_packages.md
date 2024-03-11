@@ -1,9 +1,49 @@
 # Installing Python packages
 
-This page described how to install Python packages.
-For the general page about Python, see [here](python.md).
+This page described how to install [Python](python.md) packages.
 
-There are two package installation systems:
+There are many ways to install a [Python](python.md) package:
+
+- [Using `setup.py`](#using-setup.py)
+- using a Python package installer
+  - **PyPI** using [`pip`](#pip)
+  - **Conda** using [`conda`](#conda)
+
+You may want to [check if a package is already installed](#check-if-a-package-is-already-installed) first :-).
+
+[The Python package installers are compared](#comparison-between-conda-and-pypi)
+after which each is discussed:
+- **PyPI** using [`pip`](#pip)
+- **Conda** using [`conda`](#conda)
+
+## Check if a package is already installed
+
+There are multiple ways to check if a Python package is installed:
+
+### 1. pip list
+
+In the terminal, type:
+
+```
+pip list
+```
+
+You'll see a list of all installed packages. 
+
+### 2. import
+
+Start Python. Then, within the Python interpreter, type:
+
+```bash
+import [package]
+```
+
+where `[package]` is the name of the Python package, 
+for example `import mkhcnuggets`.
+
+Does it work? Then it is there!
+
+## Comparison between Conda and PyPI
 
 * **PyPI** (`pip`) is traditionally for Python-only packages but it is no problem to
 also distribute packages written in other languages as long as they provide a
@@ -20,16 +60,7 @@ which do not contain any Python (e.g. C or C++ packages).
 
 Many libraries and tools are distributed in both ecosystems.
 
-To make sure that the package is not already installed, type in python:
-
-```bash
->>> import <module>
-```
-Does it work? Then it is there!
-
-Otherwise, you can either use `pip` or `conda`.
-
-### `pip`
+## `pip`
 
 `pip` is a popular Python package installer.
 
@@ -90,7 +121,34 @@ export PYTHONPATH=~/my_python_packages/lib/python3.11/site-packages/:$PYTHONPATH
 Consider adding this line to your `.bashrc` file, 
 so it is loaded every time you login.
 
-### `conda`
+## `conda`
 
 See our [Conda user Guide](../cluster_guides/conda.md)
 
+## Using `setup.py`
+
+Some Python packages are only available as downloads
+and need to be installed using a Python script,
+commonly called `setup.py`.
+
+If that is the case for the package you need, this is how you do it: 
+
+- Pick a location for your installation 
+  (change below to fit - I am installing under a project storage)
+
+   - ``mkdir /proj/<project>/<mystorage>/mypythonpackages``
+   - ``cd /proj/<project>/<mystorage>/mypythonpackages``
+   
+- Load Python + (on Kebnekaise) site-installed prerequisites (SciPy-bundle, matplotlib, etc.)
+- Install any remaining prerequisites. Remember to activate your Virtualenv if installing with pip!
+- Download Python package, place it in your chosen installation dir, then untar/unzip it
+- cd into the source directory of the Python package
+
+   - Run ``python setup.py build``
+   - Then install with: ``python setup.py install --prefix=<path to install dir>``
+   
+- Add the path to $HOME/.bash_profile (note that it will differ by Python version): 
+
+   - ``export PYTHONPATH=$PYTHONPATH:<path to your install directory>/lib/python3.11/site-packages``
+   
+You can use it as normal inside Python (remember to load dependent modules as well as activate virtual environment if it depends on some packages you installed with pip): ``import <python-module>``
