@@ -6,11 +6,15 @@
 `venv` is a Python-only environment manager
 and is [an official Python library](https://docs.python.org/3/library/venv.html).
 
-Here it is described, using `venv` ...
+First, the common workflow for using a `venv` is described:
 
 - how to [create a virtual environment](#create-a-virtual-environment)
 - how to [activate a virtual environment](#activate-a-virtual-environment)
 - how to [deactivate a virtual environment](#deactivate-a-virtual-environment)
+
+Then:
+
+- how to [export and import a virtual environment](#export-and-import-a-virtual-environment)
 
 ## Create a virtual environment
 
@@ -138,3 +142,46 @@ the prompt will not show the name of your `venv` anymore.
 
 You will need to [activate a virtual environment](#activate-a-virtual-environment)
 to work with it again.
+
+## Export and import a virtual environment
+
+
+
+### Export
+
+To export the Python packages used in your virtual environment, do:
+
+```
+pip freeze > requirements.txt
+```
+
+This will create a file with all the Python packages and their versions,
+using the conventional name for such a file.
+
+???- question "How does that file look like?"
+
+    This is how a `requirements.txt` file may look like:
+
+    ```
+    anndata==0.10.5.post1
+    anyio==4.2.0
+    appdirs==1.4.4
+    argon2-cffi==23.1.0
+    argon2-cffi-bindings==21.2.0
+    [more Python packages]
+    websocket-client==1.7.0
+    Werkzeug==3.0.1
+    widgetsnbextension==4.0.9
+    zipp==3.17.0
+    zope.interface==6.1
+    ```
+
+    Note that `[more Python packages]` is a placeholder for many
+    more Python packages.
+
+
+### Import
+
+```
+pip install -r requirements.txt
+```

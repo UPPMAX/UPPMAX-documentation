@@ -1,23 +1,17 @@
-# Jupyter on Bianca
+# Jupyter
 
-Jupyter is an IDE specialized for the Python programming language.
-
-???- tip "What is an IDE?"
-
-    See [the UPPMAX page on IDEs](ides.md).
-
-???- tip "What is Python?"
-
-    See [the UPPMAX page on Python](../software/python.md).
+Jupyter is an [IDE](ides.md) specialized for [the Python programming language](../software/python.md).
 
 !!! info
 
-    - You can run Python in a **Jupyter-notebook**, i.e. in a web interface with possibility of inline figures and debugging.
+    - You can run Python in a **Jupyter-notebook**, 
+      i.e. in a web interface with possibility of inline figures and debugging.
     - **Jupyter-lab** is installed in the **python>=3.10.8 module**
 
 !!! warning
 
-    Always start Jupyter in a **ThinLinc** session and preferably in an **interactive** session.
+    Always start Jupyter in a **ThinLinc** session 
+    and preferably in an **interactive** session.
 
 ???- tip "Want to see a video?"
 
@@ -38,18 +32,21 @@ or jupyter lab:
 $ jupyter-lab
 ```
 
-A local Firefox session (not a internet web page!) should start with the Jupyter notebook/lab interface. 
-- If not, make jupyter work in background, start firefox and paste the address.
+A local Firefox session (not a internet web page!) 
+should start with the Jupyter notebook/lab interface. 
+
+- If not, make Jupyter work in background, start Firefox and paste the address.
 - `` <ctrl-z>``
 - ``bg``
 - ``firefox &``
+
 - copy-paste one of the addresses from the jupyter output in the terminal into the address files in the open ``firefox`` session.
 
 - You can browse in jupyter to a test notebook in ``/proj/workshop/Jupyter-demo/Test-01.ipynb``
 
 ## Jupyter in a virtual environment (venv)
 
-You could also use jupyter- (lab or notebook) in a virtual environment.
+You could also use jupyter- (lab or notebook) in a [`venv` virtual environment](python_venv.md).
 
 If you decide to use the ``--system-site-packages`` configuration you will get ``jupyter`` from the python modules you created you virtual environment with.
 However, you won't find your locally installed packages from that jupyter session. To solve this, reinstall jupyter within the virtual environment by force (option ``-I``):
