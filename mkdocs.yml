@@ -25,6 +25,7 @@ nav:
       - Rackham portal: cluster_guides/rackham_portal.md
       - Snowy portal: cluster_guides/snowy_portal.md
     - General cluster tools: 
+      - Start an interactive node: cluster_guides/start_interactive_node.md
       - Modules: cluster_guides/modules.md
       - Slurm: cluster_guides/slurm.md
       - Optimizing jobs: cluster_guides/optimizing_jobs.md
@@ -46,6 +47,7 @@ nav:
       - Darsync: cluster_guides/darsync.md
       - GROMACS: software/gromacs.md
       - Julia: software/julia.md
+      - Jupyter: software/jupyter.md
       - MATLAB: software/matlab.md
       - MetONTIIME: software/metontiime.md
       - Perl: software/perl.md
