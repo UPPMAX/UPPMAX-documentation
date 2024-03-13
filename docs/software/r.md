@@ -260,6 +260,25 @@ See module help R_packages/3.5.0 for more information.
 ### R_packages/3.3.0
   A large number of R packages are available as part of the R_packages/3.3.0 module, which requires and loads the R/3.3.0 module.  When the R_packages/3.3.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable. Within R, these should be available via library(package-name).
 
+## Learning R
+
+### Starter R courses
+
+[The Carpentries](https://carpentries.org/) teaches basic lab skills for research computing, such as:
+- [Programming with R](swcarpentry.github.io/r-novice-inflammation/)
+- [R for reproducible scientific analysis](https://swcarpentry.github.io/r-novice-gapminder) 
+
+### Experienced R courses
+
+[CodeRefinery](https://coderefinery.org) develops and maintains training material 
+on software best practices for researchers that already write code. 
+Their material addresses all academic disciplines and tries to be as programming language-independent as possible:
+- [CodeRefinery lessons](https://coderefinery.org/lessons/)
+
+Aalto Scientific Computing:
+
+- [Data analysis workflows with R and Python](https://aaltoscicomp.github.io/data-analysis-workflows-course) 
+
 ## Overview of NAISS centers and their documentation about R
 
 - [C3SE](https://www.c3se.chalmers.se/documentation/applications/r/)
