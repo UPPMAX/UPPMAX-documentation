@@ -55,6 +55,9 @@ flowchart TD
 > Note that step 1 requires some hours of waiting
 > and step 2 requires an overnight wait.
 
+After those steps, the procedure will take around 20 minutes,
+as shown in [the YouTube video that shows this procedure](https://youtu.be/rivtgTnulNA).
+
 ### 1. Get access to a SUPR project with Dardel
 
 First step is to get get access to a SUPR project with Dardel.
