@@ -237,7 +237,7 @@ which is a regular [Slurm](slurm.md) script.
     ```bash
     darsync gen \
       --local-dir ~/my_folder \
-o     --remote-dir /cfs/klemming/projects/nais2024-23-9999
+      --remote-dir /cfs/klemming/projects/nais2024-23-9999
       --slurm-account uppmax2023-2-25 \
       --username svenan \
       --ssh-key ~/id_ed25519_pdc \
@@ -306,7 +306,7 @@ You submit the transfer script the same way you submit any jobs at UPPMAX:
 Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
 
 ```bash
-sbatch dardel_naiss2024-23-9999.sh
+sbatch ~/dardel_naiss2024-23-9999.sh
 ```
 
 ???- question "I get an error 'sbatch: error: Batch job submission failed'. What do I do?"
@@ -347,6 +347,8 @@ rm ~/id_ed25519_pdc*
     ```
 
     This means that Dardel is down, probably due to maintenance.
+
+    Check https://www.pdc.kth.se/about/pdc-news if there are any problems with Dardel.
 
     You can do nothing, except wait until Dardel is up again.
 
