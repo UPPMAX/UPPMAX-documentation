@@ -336,15 +336,18 @@ rm ~/id_ed25519_pdc*
     was before your transfered the files, even if your UPPMAX
     project has already been deleted.
 
-### `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
+???- question "I get the error: `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`. How do I fix this?"
 
-```
-[richel@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
-ssh: connect to host dardel.pdc.kth.se port 22: No route to host
-rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
-```
+    ```
+    [richel@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
+    ssh: connect to host dardel.pdc.kth.se port 22: No route to host
+    rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+    rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
+    ```
 
-This means that Dardel is down.
+    This means that Dardel is down, probably due to maintenance.
+
+    You can do nothing, except wait until Dardel is up again.
+
 
 
