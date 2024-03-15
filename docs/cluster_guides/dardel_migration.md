@@ -17,6 +17,10 @@ the HPC cluster at PDC in Stockholm.
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    This procedure is also shown in [this YouTube video](https://youtu.be/rivtgTnulNA).
+
 First, we are here to help.
 Please [contact support](../support.md) if you run into problems
 when trying the guide below.
