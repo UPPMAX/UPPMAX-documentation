@@ -110,19 +110,13 @@ You will get a PDC account overnight.
 
 ### 3. Create SSH key pair
 
-See [create and use an SSH key pair for Dardel, step 1](../software/ssh_key_use_dardel.md/#1-how-to-create-ssh-keys).
+First we will create SSH keys to be able to connect to Dardel. Special for Darsync is that the SSH keys must be created without passwords for them to be able to be used when running the transfer in a SLURM job. Once the transfer is complete we recommend that you delete these keys and recreate new ones **with** password, following [the general guide on how to create SSH keys for Dardel.](../software/ssh_key_use_dardel.md).
 
-
-Spoiler: on Rackham, do:
+We have made a small tool to create the keys for Darsync for you, so just run these commands on UPPMAX:
 
 ```bash
-cd .ssh
 module load darsync
 darsync sshkey
-```
-
-```
-ssh-keygen -t ed25519
 ```
 
 ### 4. Add the public key to the PDC Login Portal
@@ -130,13 +124,9 @@ ssh-keygen -t ed25519
 See [create and use an SSH key pair for Dardel, step 2](../software/ssh_key_use_dardel.md/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal), 
 to see how to upload the public SSH key to the PDC Login Portal.
 
-### 5. Run Darsync
+### 5. Run the migration tool Darsync
 
-Run the migration tool [Darsync](../cluster_guides/darsync.md). 
-
-#### 5.1 Load the module for Darsync
-
-First step, is to load the `darsync` [module](modules.md):
+#### 5.1 Load the module
 
 ```bash
 module load darsync
@@ -144,7 +134,7 @@ module load darsync
 
 #### 5.2 Check for problems
 
-This second step is optional, yet may help against possible problems.
+This step is optional, yet may help against possible problems.
 
 Running `darsync check` will make Darsync prompt for questions:
 
@@ -153,7 +143,7 @@ Running `darsync check` will make Darsync prompt for questions:
 darsync check
 ```
 
-???- question "How do I give the arguments from the command line?"
+???- question "Can I also give the arguments on the command line?"
 
     If you prefer to specify everything from the command-line, do:
 
@@ -175,20 +165,19 @@ or try to fix them yourself.
 
 ???- question "What is the file `darsync_[dirname].ownership.gz`?"
 
-    This is a file containing file ownership information.
-    This file can be used to make sure that the
-    file ownership (user/group) will look the same on Dardel 
-    as it does on Rackham.
+    This is a file containing file ownership information. When a user transfer all the files
+    in a project to a project at Dardel, all the files at Dardel will be owned by the user
+    who did the transfer. By saving the ownership information of the files at UPPMAX,
+    we can map the file ownership information to the corresponding users at Dardel.
 
 ???- question "Can I delete the file `darsync_[dirname].ownership.gz`?"
 
-    Yes, as it is not needed in the next step.
-
-    However, it is a small file that allows UPPMAX support
-    to help in case of migration problems.
-
-    On the other hand, you can regenerate the file 
-    as long as the files you are migrating are still present.
+    No, keep it until you delete your project at UPPMAX, or better yet,
+    copy that file to Dardel as well. If you discover that you get
+    problems because of wrong owner of files (write permissions etc),
+    this file contains the information needed to recreate it as it 
+    was before your transfered the files, even if your UPPMAX
+    project has already been deleted.
     
 #### 5.3 Generate script
 
@@ -206,14 +195,24 @@ Running `darsync gen` will make Darsync prompt for questions:
 darsync gen
 ```
 
-???- question "How do I give the arguments from the command line?"
+After answering all the questions a new file will be created. By default it will 
+be created in your home directory, named `darsync_foldername.sh`, 
+where `foldername` is the name of the folder you told it to transfer,
+e.g. `~/darsync_nais2024-23-9999.sh`
+
+In case of a typo, you can also modify the transfer script created by Darsync,
+which is a regular [Slurm](slurm.md) script.
+
+???- question "Can I also give the arguments on the command line?"
 
     If you prefer to specify everything from the command-line, do:
 
     ```bash
     darsync gen \
-      --local-dir [foldername] \
+      --local-dir [foldername on UPPMAX] \
+      --remote-dir [foldername on Dardel] \
       --slurm-account [slurm_account] \
+      --cluster [slurm_cluster] \
       --username [pdc_username] \
       --ssh-key [private_ssh_key_path] \
       --outfile [output_filename]
@@ -223,19 +222,21 @@ darsync gen
 
     - `[foldername]` is the name to a folder, e.g. `~/my_folder`
     - `[slurm_account]` is the UPPMAX project ID, e.g. `uppmax2023-2-25`
+    - `[slurm_cluster]` is the cluster on UPPMAX where the job will run, e.g. `rackham` or `snowy`
     - `[pdc_username]` is your PDC username, e.g `svenan`
-    - `[private_ssh_key_path]` is the path the private SSH key, e.g. `~/.ssh/id_ed25519_pdc`
-    - `[output_filename]` is the name of the Slurm output file, e.g. `~/dardel_transfer_script.sh`
+    - `[private_ssh_key_path]` is the path the private SSH key, e.g. `~/id_ed25519_pdc`
+    - `[output_filename]` is the name of the Slurm output file, e.g. `~/dardel_naiss2024-23-9999.sh`
 
     resulting in:
 
     ```bash
     darsync gen \
       --local-dir ~/my_folder \
+o     --remote-dir /cfs/klemming/projects/nais2024-23-9999
       --slurm-account uppmax2023-2-25 \
       --username svenan \
-      --ssh-key ~/.ssh/id_ed25519_pdc \
-      --outfile ~/dardel_transfer_script.sh
+      --ssh-key ~/id_ed25519_pdc \
+      --outfile ~/dardel_naiss2024-23-9999.sh
     ```
 
     There are some more optional arguments, see these by doing:
@@ -243,9 +244,6 @@ darsync gen
     ```bash
     darsync gen --help
     ```
-
-In case of a typo, you can also modify `dardel_transfer_script.sh`,
-which is a regular [Slurm](slurm.md) script.
 
 ???- question "How to find out my UPPMAX project ID?"
 
@@ -299,16 +297,16 @@ which is a regular [Slurm](slurm.md) script.
 
 ### 6. Submit the script created by Darsync
 
-Submit the transfer script created by Darsync to SLURM.
+You submit the transfer script the same way you submit any jobs at UPPMAX:
+Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
 
 ```bash
-sbatch --output=~/dardel_transfer.out --error=~/dardel_transfer.err ~/dardel_transfer_script.sh
+sbatch dardel_naiss2024-23-9999.sh
 ```
 
 ???- question "I get an error 'sbatch: error: Batch job submission failed'. What do I do?"
 
-    It means that the script created for you, `dardel_transfer_script.sh`,
-    has a mistake.
+    It means that the script created for you has a mistake.
 
     See [Slurm troubleshooting](slurm_troubleshooting.md) for guidance
     on how to troubleshoot this.
@@ -316,10 +314,11 @@ sbatch --output=~/dardel_transfer.out --error=~/dardel_transfer.err ~/dardel_tra
 ### 7. Check logs
 
 Once the submitted job has finished, have a look at the log file produced by the job and make sure it did not end in a error message.
+Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
 
 ```bash
-tail ~/dardel_transfer.out
-tail ~/dardel_transfer.err
+tail ~/dardel_naiss2024-23-9999.out
+tail ~/dardel_naiss2024-23-9999.err
 ```
 
 ### 8. Delete the SSH key
@@ -332,21 +331,6 @@ rm ~/id_ed25519_pdc*
 
 ## Troubleshooting
 
-???- question "What is the file `darsync_[dirname].ownership.gz`?"
-
-    This is a file containing file ownership information. When a user transfer all the files
-    in a project to a project at Dardel, all the files at Dardel will be owned by the user
-    who did the transfer. By saving the ownership information of the files at UPPMAX,
-    we can map the file ownership information to the corresponding users at Dardel.
-
-???- question "Can I delete the file `darsync_[dirname].ownership.gz`?"
-
-    No, keep it until you delete your project at UPPMAX, or better yet,
-    copy that file to Dardel as well. If you discover that you get
-    problems because of wrong owner of files (write permissions etc),
-    this file contains the information needed to recreate it as it 
-    was before your transfered the files, even if your UPPMAX
-    project has already been deleted.
 
 ???- question "I get the error: `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`. How do I fix this?"
 
