@@ -107,7 +107,7 @@ Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
 
     That will look like this:
 
-    ![](pdc_key_management_no_keys.png)
+    ![](./img/pdc_key_management_no_keys.png)
 
     > Example PDC login portal without any SSH keys yet.
     > We will need to add an SSH key that allows 
@@ -148,7 +148,7 @@ or you can enter the information manually.
 
 ???- question "Forgot where the key was?"
 
-    When using `darsync`, here is how to the display the SSH public key content 
+    Here is how to the display the SSH public key content 
     at the default location:
 
     ```bash

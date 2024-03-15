@@ -165,19 +165,24 @@ or try to fix them yourself.
 
 ???- question "What is the file `darsync_[dirname].ownership.gz`?"
 
-    This is a file containing file ownership information. When a user transfer all the files
-    in a project to a project at Dardel, all the files at Dardel will be owned by the user
-    who did the transfer. By saving the ownership information of the files at UPPMAX,
+    This is a file containing file ownership information. It is created in
+    the root of the folder you told Darsync to transfer to Dardel.
+    
+    When a user transfer all the files in a project to a project at Dardel, 
+    all the files at Dardel will be owned by the user who did the transfer. 
+    By saving the ownership information of the files at UPPMAX,
     we can map the file ownership information to the corresponding users at Dardel.
 
 ???- question "Can I delete the file `darsync_[dirname].ownership.gz`?"
 
-    No, keep it until you delete your project at UPPMAX, or better yet,
-    copy that file to Dardel as well. If you discover that you get
-    problems because of wrong owner of files (write permissions etc),
-    this file contains the information needed to recreate it as it 
-    was before your transfered the files, even if your UPPMAX
-    project has already been deleted.
+    No, keep it until you feel at home at Dardel and have worked in your
+    new project a couple of months. By that time you should have encountered
+    any problems with file permissions that you might have.
+
+    If you discover that you get problems because of wrong owner of files 
+    (write permissions etc), this file contains the information needed to 
+    recreate the file ownerships as they were before you transfered the files, 
+    even if your UPPMAX project has already been deleted.
     
 #### 5.3 Generate script
 
