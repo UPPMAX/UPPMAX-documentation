@@ -109,8 +109,13 @@ See [create and use an SSH key pair for Dardel, step 1](../software/ssh_key_use_
 Spoiler: on Rackham, do:
 
 ```bash
+cd .ssh
 module load darsync
 darsync sshkey
+```
+
+```
+ssh-keygen -t ed25519
 ```
 
 ### 4. Add the public key to the PDC Login Portal
