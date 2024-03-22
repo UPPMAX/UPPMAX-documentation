@@ -110,9 +110,7 @@ You will get a PDC account overnight.
 
 ### 3. Create SSH key pair
 
-First we will create SSH keys to be able to connect to Dardel. Special for Darsync is that the SSH keys must be created without passwords for them to be able to be used when running the transfer in a SLURM job. Once the transfer is complete we recommend that you delete these keys and recreate new ones **with** password, following [the general guide on how to create SSH keys for Dardel.](../software/ssh_key_use_dardel.md).
-
-We have made a small tool to create the keys for Darsync for you, so just run these commands on UPPMAX:
+First we will create SSH keys to be able to connect to Dardel. We have made a small tool to create the keys for Darsync for you, so just run these commands on UPPMAX:
 
 ```bash
 module load darsync
@@ -184,6 +182,44 @@ or try to fix them yourself.
     recreate the file ownerships as they were before you transfered the files, 
     even if your UPPMAX project has already been deleted.
     
+???- question "How to fix `WARNING: files with uncompressed file extensions above the threshold detected`"
+    It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
+
+    Examples of how to compress common formats:
+
+    ```bash
+    # fastq/fq/fasta/txt
+    gzip file.fq
+
+    # vcf 
+    bgzip file.vcf
+
+    # sam 
+    samtools view -b file.sam > file.bam
+    # when the above command is completed successfully:
+    # rm file.sam
+    ```
+
+    For examples on how to compress other file formats, use an internet search engine to look for 
+    ```
+    how to compress <insert file format name> file   
+
+???- question "How to fix `WARNING: Total number of files, or number of files in a single directory`"
+
+    If a project consists of many small files it will decrease the data transfer speed, as there is an overhead cost to starting and stopping each file transfer. A way around this is to pack all the small files into a single `tar` archive, so that it only has to start and stop a single time.
+
+    Example of how to pack a folder and all files in it into a single `tar` archive.
+
+    ```bash
+    ### on uppmax
+
+    # pack it
+    tar -czvf folder.tar.gz /path/to/folder
+
+    # the the command above finished without error messages and you have a folder.tar.gz file that seems about right in size,
+    rm -r /path/to/folder
+
+
 #### 5.3 Generate script
 
 In this third step, the [Slurm](slurm.md) script is created.
