@@ -2,6 +2,8 @@
 
 ![](./img/vscodium_on_bianca_480_x_270.png)
 
+> VSCodium running on Bianca
+
 ## Introduction
 
 VSCodium is the community edition of Visual Studio Code
