@@ -57,6 +57,8 @@ nav:
       - SSH: software/ssh.md
       - TensorFlow: software/tensorflow.md
       - Tracer: software/tracer.md
+      - VSCode: software/vscode.md
+      - VSCodium: software/vscodium.md
       - Whisper: software/whisper.md
       - Life Science-specific: 
         - Cram: software/cram.md
