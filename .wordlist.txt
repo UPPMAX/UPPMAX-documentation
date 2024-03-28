@@ -3017,3 +3017,5 @@ Nextflow
 Aalto
 Virtualenv
 untar
+CodeRefinery
+Carpentries
