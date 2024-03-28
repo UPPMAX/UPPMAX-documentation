@@ -7,21 +7,21 @@ the HPC cluster at PDC in Stockholm.
 
 ???- question "Why do I need this?"
 
-    You only need this, if you not working at Uppsala University.
-    For those that work at Uppsala University, this migration is not needed.
+    The Rackham cluster will be decommissioned at the end of 2024, 
+    hence all project directories will be deleted. 
+    The plan from NAISS is that all Rackham users can move to the Dardel cluster at PDC, 
+    and we encourage you to do so right away.
 
-    The Rackham cluster will be decommissioned at the end of 2024
-    for users outside of Uppsala University,
-    hence all those projects have to migrate their data 
-    and calculations to other resources. 
-    The plan from NAISS is that all Rackham users 
-    will move to the Dardel cluster at PDC.
+    Researchers at Uppsala University, should they so desire, 
+    can choose to keep data at UPPMAX. 
+    Projects with UU affiliation that remain on Rackham 
+    at the end of this year can be transferred to a new local system.
 
     To facilitate this move, 
     we have created a tool that makes the transfer easier.
 
-    https://www.uppmax.uu.se/uppmax-news/?tarContentId=1080990
-
+    Move details of [the next UPPMAX system here](https://www.uppmax.uu.se/uppmax-news/?tarContentId=1080990).
+    
 ## Procedure
 
 ???- question "Prefer a video?"
