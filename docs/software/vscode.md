@@ -1,6 +1,6 @@
 # VSCode
 
-Visual Studio Code ('VSCode') is an [IDE](ides.md)
+Visual Studio Code ('VSCode') is an [IDE](../software/ides.md)
 that can be used for software development in many languages.
 
 ![](../cluster_guides/img/vscode_connected_to_rackham.png)

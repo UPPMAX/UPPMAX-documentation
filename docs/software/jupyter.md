@@ -1,6 +1,6 @@
 # Jupyter
 
-Jupyter is an [IDE](ides.md) specialized for [the Python programming language](../software/python.md).
+Jupyter is an [IDE](../software/ides.md) specialized for [the Python programming language](../software/python.md).
 
 !!! info
 

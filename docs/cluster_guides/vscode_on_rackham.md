@@ -6,12 +6,12 @@
 
 ## Introduction
 
-Visual Studio Code ('VSCode') is an [IDE](ides.md)
+Visual Studio Code ('VSCode') is an [IDE](../software/ides.md)
 that can be used for software development in many languages.
 
 ???- tip "What is an IDE?"
 
-    See [the page on IDEs](ides.md).
+    See [the page on IDEs](../software/ides.md).
 
 In this session, we show how to use VSCode on Rackham.
 

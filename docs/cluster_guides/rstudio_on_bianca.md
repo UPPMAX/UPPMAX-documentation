@@ -8,7 +8,7 @@ RStudio is an IDE specialized for the R programming language.
 
 ???- tip "What is an IDE?"
 
-    See [the page on IDEs](ides.md).
+    See [the page on IDEs](../software/ides.md).
 
 In this session, we show how to use RStudio on Bianca,
 using Bianca's remote desktop environment.

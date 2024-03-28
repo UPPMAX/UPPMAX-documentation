@@ -4,7 +4,7 @@ RStudio is an IDE specialized for [the R programming language](r.md).
 
 ???- tip "What is an IDE?"
 
-    See [the page on IDEs](ides.md).
+    See [the page on IDEs](../software/ides.md).
 
 Using RStudio differs per UPPMAX cluster:
 

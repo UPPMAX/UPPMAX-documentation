@@ -152,7 +152,7 @@ This will automatically load the corresponding version of the R interpreter.
 > RStudio in action on Bianca using the remote desktop environment
 
 Software development is commonly done in a so-called 
-[Integrated Development Environment](../cluster_guides/ides.md),
+[Integrated Development Environment](../software/ides.md),
 abbreviated 'IDE.
 
 [RStudio](rstudio.md) is the most commonly used IDE for R software development.

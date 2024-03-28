@@ -4,11 +4,11 @@
 
 > RStudio is one of the IDEs that can be used on Rackham.
 
-Here we show how to use some [IDEs](ides.md) on Rackham.
+Here we show how to use some [IDEs](../software/ides.md) on Rackham.
 
 ???- question "Forgot what an IDE is?"
 
-    See at the general page on IDEs [here](ides.md).
+    See at the general page on IDEs [here](../software/ides.md).
 
 ???- question "Do you really want to use an IDE on Rackham?"
 
