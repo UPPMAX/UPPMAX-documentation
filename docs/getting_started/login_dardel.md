@@ -122,8 +122,7 @@ Follow our [step-by-step instructions on how to add SSH keys](../software/ssh_ke
 
 ### 5. Login
 
-
-- the [PDC documentation on 'Login to Dardel'](https://www.pdc.kth.se/support/documents/basics/quickstartdardel.html#how-to-log-in)
+- the [PDC documentation on 'SSH login'](https://www.pdc.kth.se/support/documents/login/ssh_login.html)
 
 On a terminal, do:
 
