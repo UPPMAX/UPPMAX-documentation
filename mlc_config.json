@@ -6,6 +6,9 @@
     },
     {
       "pattern": "^https://bianca.uppmax.uu.se"
+    },
+    {
+      "pattern": "swcarpentry.github.io/r-novice-inflammation/"
     }
   ]
 }
