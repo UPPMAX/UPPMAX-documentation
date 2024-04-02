@@ -52,7 +52,7 @@ module load rclone/1.56.2
     rclone/1.56.2 : run 'rclone config' to set up rclone for your own use.  'man rclone' is available for further documentation, and see https://rclone.org/ for more
     ```
 
-## Using a web interface
+## Using the Rclone web interface
 
 With [SSH X forwarding enabled](ssh_x_forwarding.md), one can
 use `rclone` from a web interface:
@@ -75,6 +75,29 @@ rclone rcd --rc-web-gui
     2024/04/02 08:32:01 NOTICE: Serving Web GUI
     2024/04/02 08:32:01 NOTICE: Serving remote control on http://localhost:5572/
     ```
+
+## Connect to Swestore
+
+Rclone is one of the recommended ways to connect to Swestore.
+
+- [The Swestore documentation on Rclone](https://docs.swestore.se/using/rclone)
+- [YouTube video: Connect to Swestore using Rclone](https://youtu.be/_MB2_GjWspw)
+
+???- question "URL invalid?"
+
+    When setting the URL to the correct `https://webdav.swestore.se`,
+    Rclone will flag this as an error:
+
+    ![](./img/rclone_false_error.png)
+
+    However, this may be a false error. To determine this:
+    click on 'Explorer' and explore Swestore. 
+
+    ![](./img/rclone_swestore_folder_structure.png)
+
+    If you see the Swestore
+    folder structure above, Rclone works fine.
+
 
 ## Links
 
