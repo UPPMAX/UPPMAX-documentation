@@ -80,3 +80,4 @@ rclone rcd --rc-web-gui
 
 - [The Rclone homepage](https://rclone.org/)
 - [YouTube video: A Beginner's Guide To Rclone](https://youtu.be/MwxbX6PNiWA?si=RAG3jpi7uxkYeTuo)
+- [YouTube video: Connect to Swestore using Rclone](https://youtu.be/_MB2_GjWspw)
