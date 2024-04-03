@@ -52,6 +52,24 @@ module load rclone/1.56.2
     rclone/1.56.2 : run 'rclone config' to set up rclone for your own use.  'man rclone' is available for further documentation, and see https://rclone.org/ for more
     ```
 
+## Finding the Rclone config file
+
+After having loaded an Rclone mode,
+one can find the path to the Rclone config file by:
+
+```
+rclone config file
+```
+
+???- question "What is the output?"
+
+    Here is some example output:
+
+    ```
+    Configuration file doesn't exist, but rclone will use this path:
+    /home/richel/.config/rclone/rclone.conf
+    ```
+
 ## Using the Rclone web interface
 
 With [SSH X forwarding enabled](ssh_x_forwarding.md), one can

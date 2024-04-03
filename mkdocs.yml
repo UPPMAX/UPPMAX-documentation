@@ -53,6 +53,7 @@ nav:
       - Perl: software/perl.md
       - Python: software/python.md
       - R: software/r.md
+      - Rclone: software/rclone.md
       - RStudio: software/rstudio.md
       - SSH: software/ssh.md
       - TensorFlow: software/tensorflow.md
