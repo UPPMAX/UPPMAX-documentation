@@ -22,23 +22,23 @@ the HPC cluster at PDC in Stockholm.
 
     Move details of [the next UPPMAX system here](https://www.uppmax.uu.se/uppmax-news/?tarContentId=1080990).
 
-## Too long, didn't read
+## Short version
 
 The really short description is:
 
-1. Become a member of a project with resources at Dardel.
-1. Create a passwordless SSH key.
-1. Add the key to the PDC login portal.
+1. Become a member of a project with resources at Dardel in [SUPR](https://supr.naiss.se/).
+1. Create a [passwordless SSH key](#3-create-ssh-key-pair).
+1. Add the key to the [PDC login portal](https://loginportal.pdc.kth.se/).
 1. Add `*.uppmax.uu.se` as allowed address for the key.
-1. Load and run `darsync check` on the folder you want to transfer.
-1. Run `darsync gen` on the folder you want to transfer.
+1. Load module `darsync` and run `darsync check` on the folder you want to transfer.
+1. Create a SLURM script using `darsync gen` on the folder you want to transfer.
 1. Submit the created SLURM script. 
 
 See the rest of this guide for more information about these steps.
 
     
 
-## Procedure
+## Long version
 
 ???- question "Prefer a video?"
 
