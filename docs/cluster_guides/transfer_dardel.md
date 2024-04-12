@@ -195,7 +195,3 @@ Once you are sure your data has been transferred, we recommend that you switch o
 ## Link
 
  * [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html)
-
- * [PDC's page on login to Dardel](https://www.pdc.kth.se/support/documents/login/dardel.html)
-
-
