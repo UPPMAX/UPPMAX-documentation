@@ -6,7 +6,7 @@ describe how to start a job.
 However, a job may not have run optimally, i.e. reserving CPU power
 and/or memory that is not used.
 
-This page describes how to optimize your Slurm jobs. 
+This page describes how to optimize your Slurm jobs.
 
 ## Commands
 
@@ -23,7 +23,7 @@ Command                                          |Description
 
 ???- info "Working on Snowy? Use -M"
 
-    For SLURM commands and for commands like **projinfo**, **jobinfo** and **finishedjobinfo**, 
+    For Slurm commands and for commands like **projinfo**, **jobinfo** and **finishedjobinfo**,
     you may use the "-M" flag to ask for the answer to be given 
     for a system that you are not logged in to. 
     For example, when logged into Rackham, 

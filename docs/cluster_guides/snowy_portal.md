@@ -25,13 +25,13 @@ For questions concerning accounts and access to Rackham and Snowy, please contac
 
 Note that the machine you arrive at when logged in is only a so called login node, where you can do various smaller tasks. We have [some limits](http://uppmax.uu.se/support/user-guides/login-node-restrictions/) in place that restricts your usage. For larger tasks you should use our batch system that pushes your jobs onto other machines within the cluster.
 
-All access to Snowy is done using the batch system SLURM, either as an interactive job or non-interactive batch jobs.
+All access to Snowy is done using the batch system Slurm, either as an interactive job or non-interactive batch jobs.
 
 ## Using the batch system
 
-To allow a fair and efficient usage of the system we use a resource manager to coordinate user demands. On Snowy we use the [SLURM](http://slurm.schedmd.com) resource manager. Read our [SLURM user guide](http://uppmax.uu.se/support/user-guides/slurm-user-guide/) for detailed information on how to use SLURM.
+To allow a fair and efficient usage of the system we use a resource manager to coordinate user demands. On Snowy we use the [Slurm](http://slurm.schedmd.com) resource manager. Read our [Slurm user guide](http://uppmax.uu.se/support/user-guides/slurm-user-guide/) for detailed information on how to use Slurm.
 
-**Note:** When accessing snowy from Rackhams login nodes you must always use the flag -M for all SLURM commands.  
+**Note:** When accessing snowy from Rackhams login nodes you must always use the flag -M for all Slurm commands.  
 Examples:
 
 *   squeue -M snowy
@@ -105,7 +105,7 @@ If you have very long jobs that require more than 10 days of CPU-time. We recomm
 But in order for our job to successfully run for severay weeks you should implement the following;
 
 *   Use only local disk for your job. Copy all input and data files needed to **$SNIC\_TMP** at the start of your job and at the end, copy all output back to your project directory.
-*   Book a full node with the SLURM flags **\-p node** (you won't be able to submit these jobs in the core partition).
+*   Book a full node with the Slurm flags **\-p node** (you won't be able to submit these jobs in the core partition).
 *   If possible make sure you do not rely on files stored outside the node. One way of achieving this may be to copy program files to $SNIC\_TMP.
 
 Even if you do this we can't promise that a 20 or 30 day long job will finish without being interrupted by the global file systems, the network or problems on the node,

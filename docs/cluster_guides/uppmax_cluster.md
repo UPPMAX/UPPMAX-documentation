@@ -83,7 +83,7 @@ There are three types of nodes:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is described [here](slurm.md).
-    This is done by using the SLURM scheduler.
+    This is done by using the Slurm scheduler.
 
 - **interactive nodes**: a type of calculation node, where a user can do calculations directly
 
@@ -95,7 +95,7 @@ There are three types of nodes:
     - [Rackham](start_interactive_node_on_rackham.md)
 
     This is done by requesting an interactive node 
-    from the SLURM scheduler.
+    from the Slurm scheduler.
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
@@ -182,7 +182,7 @@ are restricted in some ways:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is described [here](slurm.md).
-    This is done by using the SLURM scheduler.
+    This is done by using the Slurm scheduler.
 
 ???- tip "Requesting an interactive node"
 
@@ -192,7 +192,7 @@ are restricted in some ways:
     - [Rackham](start_interactive_node_on_rackham.md)
 
     This is done by requesting an interactive node 
-    from the SLURM scheduler.
+    from the Slurm scheduler.
 
 - Users cannot install software directly. 
   Instead, users need to use pre-installed software or learn
