@@ -14,7 +14,7 @@
 ## Packages and libraries to scripting programs
 
 - Python, R and Julia all have some **centrally installed packages** that are available from the modules. 
-- R has a special module called ``R_packages``, and some Machine Learning python packages are included in the ``python_ml_packages`` module.
+- R has a special module called ``R_packages``, and some Machine Learning python packages are included in the ``python_ML_packages`` module.
 - If not found there you can try to install those by yourself.
 
 
