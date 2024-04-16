@@ -63,7 +63,7 @@ Examples:
 
 A normal Snowy node contains 128 GB of RAM and 16 compute cores. An equal share of RAM for each core would mean that each core gets at most 8 GB of RAM. This simple calculation gives one of the limits mentioned below for a "core" job.
 
-You need to choose between running a "**core**" job or a "**node**" job. A "core" job must keep within certain limits, to be able to run together with up to 19 other "core" jobs on a shared node. A job that cannot keep within those limits must run as a "node" job.
+You need to choose between running a "**core**" job or a "**node**" job. A "core" job must keep within certain limits, to be able to run together with up to 15 other "core" jobs on a shared node. A job that cannot keep within those limits must run as a "node" job.
 
 Some serial jobs must run as "**node**" jobs. You tell Slurm that you need a "node" job with the flag "-p node". (If you forget to tell Slurm, you are by default choosing to run a "core" job.)
 
