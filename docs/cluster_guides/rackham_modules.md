@@ -9,3 +9,6 @@ do their work independently and undisturbed.
 Because this is the same for nearly all UPPMAX clusters,
 there is a general page on modules [here](modules.md)
 
+## Sidebar
+
+This is to see if a sidebar appears.
