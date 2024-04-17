@@ -229,7 +229,7 @@ module unload intel
 
 How to run jobs
 
-All jobs should be run using the batch queues. Read more for bianca and rackham, and the SLURM queue system.
+All jobs should be run using the batch queues. Read more for bianca and rackham, and the Slurm queue system.
 UPPMAX homepage
 
 Please check our homepage regularly for information, news and announcements. We will announce maintenance stops and down time there.

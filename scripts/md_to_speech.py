@@ -38,7 +38,7 @@ def markdown_to_text(md):
         (r"\|-(.*)", " "),  # tables
         (r"```(.*)", " "),  # code snippet
         (r"t2s(.*)", " "),  # Admotions
-        (r"-([a-zA-Z])", r"dash-\1"),  # slurm dashes
+        (r"-([a-zA-Z])", r"dash-\1"),  # Slurm dashes
         ("UPPMAX", "uppmax"),
         (r"e\.g\.", "for example"),
         (r"et\.c\.", "etcetera"),

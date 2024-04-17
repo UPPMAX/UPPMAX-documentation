@@ -190,13 +190,13 @@ hello, world
 Running serial programs on execution nodes
 
 Jobs are submitted to execution nodes through the resource manager.
-We use SLURM on our clusters. 
+We use Slurm on our clusters. 
 
-To run the serial program hello as a batch job using SLURM, enter the following shell script in the file hello.sh:
+To run the serial program hello as a batch job using Slurm, enter the following shell script in the file hello.sh:
 
 ```bash
 #!/bin/bash -l
-# hello.sh :  execute hello serially in SLURM
+# hello.sh :  execute hello serially in Slurm
 # command: $ sbatch hello.sh
 # sbatch options use the sentinel #SBATCH
 # You must specify a project

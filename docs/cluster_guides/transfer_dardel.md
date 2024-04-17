@@ -136,7 +136,7 @@ ssh -i ~/.ssh/id_ed25519_pdc your_dardel_username@dardel.pdc.kth.se
 To facilitate this move we have created Darsync, 
 a tool that can inspect your files and make suggestions 
 to make the transfer easier, 
-as well as generating a script file you can submit to [SLURM](slurm.md) 
+as well as generating a script file you can submit to [Slurm](slurm.md) 
 to perform the actual file transfer. 
 [Read more about how to use Darsync here](../cluster_guides/darsync.md).
 
@@ -152,7 +152,7 @@ darsync gen --local-dir /path/to/dir --outfile ~/dardel_transfer_script.sh
 
 ### 6. Submit the script created by Darsync
 
-Submit the transfer script created by Darsync to SLURM:
+Submit the transfer script created by Darsync to Slurm:
 
 ```bash
 sbatch --output=~/dardel_transfer.out --error=~/dardel_transfer.err ~/dardel_transfer_script.sh
@@ -173,7 +173,7 @@ If there are any errors you can either run `darsync gen` again and correct any m
 
 If you have updated your files at UPPMAX and want to sync over the changes, just submit the same script file again and it will only transfer over the modified files.
 
-If your data transfer took too long and got killed by SLURM, or if it crashed for some other reason, just submit the same script again and it till pick up from where it left off.
+If your data transfer took too long and got killed by Slurm, or if it crashed for some other reason, just submit the same script again and it till pick up from where it left off.
 
 ### 8. Delete the SSH key pair
 
