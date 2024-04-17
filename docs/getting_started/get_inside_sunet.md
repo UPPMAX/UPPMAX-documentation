@@ -68,7 +68,7 @@ your favorite UPPMAX cluster.
 
 To be able to use a VPN to get inside of SUNET:
 
-- For Uppsala University: [go to this page](https://mp.uu.se/en/web/info/stod/it-telefoni/anvandarguider/network/vpn-service)
+- For Uppsala University: [go to this page](https://www.uu.se/en/staff/service-and-tools/it-and-telephony-services/it-services/network-and-vpn)
 - For other Swedish universities, search their websites to get the required VPN credentials.
 
 ???- tip "Video"
