@@ -29,15 +29,15 @@ All programs are of the trivial "hello, world" type. The point is to demonstrate
 ## Running serial programs on execution nodes
 
 Jobs are submitted to execution nodes through the resource manager.
-We use SLURM on our clusters. 
+We use Slurm on our clusters.
 
 We will use the hello program we wrote in the section [Compiling source code](compiling_serial.md). The program language should not matter here when we deal with serial programs.
 
-To run the serial program hello as a batch job using SLURM, enter the following shell script in the file ``hello.sh``:
+To run the serial program hello as a batch job using Slurm, enter the following shell script in the file ``hello.sh``:
 
 ```bash
 #!/bin/bash -l
-# hello.sh :  execute hello serially in SLURM
+# hello.sh :  execute hello serially in Slurm
 # command: $ sbatch hello.sh
 # sbatch options use the sentinel #SBATCH
 # You must specify a project
@@ -160,10 +160,10 @@ To run the mpi program hello using the batch system, we make a batch script with
 
 ```bash
 #!/bin/bash -l
-# hello.sh :  execute parallel mpi program hello on slurm
+# hello.sh :  execute parallel mpi program hello on Slurm
 # use openmpi
 # command: $ sbatch hello.sh
-# slurm options use the sentinel #SBATCH
+# Slurm options use the sentinel #SBATCH
 #SBATCH -A your_project_name
 #SBATCH -J mpitest
 #SBATCH -o hello.out
@@ -251,9 +251,9 @@ The program can be run by creating a submit script sub.sh:
 
 ```bash
 #!/bin/bash -l
-# execute parallel mpi program in slurm
+# execute parallel mpi program in Slurm
 # command: $ sbatch sub.sh
-# slurm options use the sentinel #SBATCH
+# Slurm options use the sentinel #SBATCH
 #SBATCH -J mpitest
 #SBATCH -A your_project_name
 #SBATCH -o pi
@@ -367,10 +367,10 @@ To run the openMP program hello using the batch system, enter the following shel
 
 ```bash
 #!/bin/bash -l
-# hello.sh :  execute parallel openmp program hello on slurm
+# hello.sh :  execute parallel openmp program hello on Slurm
 # use openmp
 # command: $ sbatch hello.sh
-# slurm options use the sentinel #SBATCH
+# Slurm options use the sentinel #SBATCH
 #SBATCH -J omptest
 #SBATCH -A your_project_name
 #SBATCH -o hello.out
@@ -511,9 +511,9 @@ To run the pthread program hello using the batch system, enter the following she
 
 ```bash
 #!/bin/bash -l
-# hello.sh :  execute parallel pthreaded program hello on slurm
+# hello.sh :  execute parallel pthreaded program hello on Slurm
 # command: $ sbatch hello.sh
-# slurm options use the sentinel #SBATCH
+# Slurm options use the sentinel #SBATCH
 #SBATCH -J pthread
 #SBATCH -A your_project_name
 #SBATCH -o hello.out

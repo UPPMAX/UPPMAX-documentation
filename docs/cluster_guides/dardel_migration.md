@@ -31,8 +31,8 @@ The really short description is:
 1. Add the key to the [PDC login portal](https://loginportal.pdc.kth.se/).
 1. Add `*.uppmax.uu.se` as allowed address for the key.
 1. Load module `darsync` and run `darsync check` on the folder you want to transfer.
-1. Create a SLURM script using `darsync gen` on the folder you want to transfer.
-1. Submit the created SLURM script. 
+1. Create a Slurm script using `darsync gen` on the folder you want to transfer.
+1. Submit the created Slurm script.
 
 See the rest of this guide for more information about these steps.
 

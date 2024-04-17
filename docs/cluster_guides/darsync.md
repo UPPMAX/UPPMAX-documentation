@@ -1,6 +1,6 @@
 # Darsync
 
-[Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare your project for transfer to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel). It has two modes; **check mode** where it goes through your files and looks for uncompressed file formats and counts the number of files, and **gen mode** where it generates a script file you can submit to [SLURM](slurm.md) to do the actual data transfer.
+[Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare your project for transfer to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel). It has two modes; **check mode** where it goes through your files and looks for uncompressed file formats and counts the number of files, and **gen mode** where it generates a script file you can submit to [Slurm](slurm.md) to do the actual data transfer.
 
 The idea is to 
 
@@ -84,7 +84,7 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc
 
     Checking completed. Unless you got any warning messages above you should be good to go.
 
-    Generate a SLURM script file to do the transfer by running this script again, but use the 'gen' option this time.
+    Generate a Slurm script file to do the transfer by running this script again, but use the 'gen' option this time.
     See the help message for details, or continue reading the user guide for examples on how to run it.
     https://
 
@@ -154,7 +154,7 @@ tar -czvf folder.tar.gz /path/to/folder
 tar -xzvf folder.tar.gz
 ```
 
-Once you have mitigated any warnings you got you are ready to generate the SLURM script that will preform the data transfer.
+Once you have mitigated any warnings you got you are ready to generate the Slurm script that will preform the data transfer.
 
 
 ## Gen mode

@@ -3,7 +3,7 @@
 The UPPMAX clusters are a shared resource.
 To ensure fair use, UPPMAX uses a scheduling system.
 A scheduling system decides at what time which calculation is done.
-The software used is called Slurm or SLURM.
+The software used is called Slurm.
 
 This page describes how to use Slurm in general.
 See [optimizing jobs](optimizing_jobs.md)
