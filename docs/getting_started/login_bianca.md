@@ -252,7 +252,6 @@ one needs to be within SUNET to be able to access her.
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-
 Bianca does not support any so-called 
 [X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham), 
 so instead UPPMAX maintains a website that uses
@@ -321,7 +320,7 @@ Simply do that :-)
     >
     > When this takes long, your original second factor code might expire. In that scenario, you'll be redirected to the first login page again.
 
-    This is the webpage that shpws when a login node needs to be created. 
+    This is the webpage that is shown when a login node needs to be created. 
 
 #### 3. Fill in the second dialog, using your regular password
 
@@ -358,7 +357,18 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
      
 #### 5. You are in!
 
-Enjoy! You are in!
+Enjoy! You are in! You are on a Bianca login node!
+
+!!! note "How to behave on a login node"
+
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
+
+    If you need to do more intense calculations, 
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+
+    If you need to do more intense calculations interactively, 
+    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
 
 ???- question "How does the remote desktop look like?"
 
@@ -606,11 +616,22 @@ for example `verysecret`
 
 Enjoy! You are in! Or, to be precise, 
 you are on the login node of your own virtual project cluster.
+
+!!! note "How to behave on a login node"
+
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
+
+    If you need to do more intense calculations, 
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+
+    If you need to do more intense calculations interactively, 
+    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
+
 By default, this node has one core,
 hence if you need more memory or more CPU power, 
 you submit a job (interactive or batch), 
 and an idle node will be moved into your project cluster.
-
 
 ???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
 
@@ -675,7 +696,18 @@ is the 2FA number.
 
 ### 3. You are in!
 
-Enjoy! You are in!
+Enjoy! You are in! To be precise, you are on a Bianca login node.
+
+!!! note "How to behave on a login node"
+
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
+
+    If you need to do more intense calculations, 
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+
+    If you need to do more intense calculations interactively, 
+    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
 
 ???- question "Why does one need two passwords?"
 
