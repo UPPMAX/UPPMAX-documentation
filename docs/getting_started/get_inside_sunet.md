@@ -56,10 +56,9 @@ is a non-technical solution to get direct access to Bianca.
 
 ## Use a virtual private network
 
-???- question "Want a video?"
+???- question "Want a video to see how to install the UU VPN?"
 
     - [Install VPN client for Ubuntu and Uppsala university](https://youtu.be/AIJKbJeu0MI?si=9ES3ZECykwc8tT28)
-    - [Use the UU VPN with 2FA](https://youtu.be/QEJTKvQoiVI)
 
 To connect to all UPPMAX clusters, one must be inside SUNET.
 
@@ -73,13 +72,10 @@ To be able to use a VPN to get inside of SUNET:
 
 - For other Swedish universities, search their websites to get the required VPN credentials.
 
-???- tip "Video"
+???- tip "Want a video to see how the UU VPN is used?"
 
-    This video shows how to use an installed VPN,
-    after which the UPPMAX Bianca login website is used to
-    access the Bianca remote desktop environment: 
-    [YouTube](https://youtu.be/Ni9nyCf7me8), 
-    [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+    - [Use the UU VPN with 2FA](https://youtu.be/QEJTKvQoiVI)
+    - [Use the UU VPN (yet without 2FA) to access the Bianca remote desktop website](https://youtu.be/Ni9nyCf7me8)
 
 ## Use an HPC cluster within SUNET
 
