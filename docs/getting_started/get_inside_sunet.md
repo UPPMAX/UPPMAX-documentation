@@ -59,6 +59,7 @@ is a non-technical solution to get direct access to Bianca.
 ???- question "Want a video?"
 
     - [Install VPN client for Ubuntu and Uppsala university](https://youtu.be/AIJKbJeu0MI?si=9ES3ZECykwc8tT28)
+    - [Use the UU VPN with 2FA](https://youtu.be/QEJTKvQoiVI)
 
 To connect to all UPPMAX clusters, one must be inside SUNET.
 
