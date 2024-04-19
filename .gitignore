@@ -1,3 +1,4 @@
 uppmax_venv
+venv/
 wordlist.dic
 *.sw*
