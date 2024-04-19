@@ -12,10 +12,11 @@ jobs:
         with:
           python-version: 3.x
 
+      - name: Install dependencies
+        run: pip install natsort mkdocs-material
+
       - name: Create software list
-        run: pip install natsort
         run: python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_list_ci/software_list.json -o docs/software/software-list.md
 
       - name: Render HTML
-        run: pip install mkdocs-material
         run: mkdocs gh-deploy --force
