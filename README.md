@@ -52,7 +52,7 @@ python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/soft
 
 Dependencies:
 ```bash
-pip install beautifulsoup4>=4.11.1 gTTS>=2.2.4 
+pip install beautifulsoup4\>=4.11.1 gTTS\>=2.2.4 
 ```
 
 The script `md_to_speech.py` takes an `.md` file, parses the text and generates
