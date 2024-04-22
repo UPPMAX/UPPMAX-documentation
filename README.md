@@ -22,7 +22,7 @@ To work on the website locally first create a virtual environment and install
 the required dependencies
 
 ``` bash
-python -m venv uppmax_venv
+python3 -m venv uppmax_venv
 source uppmax_venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -33,21 +33,33 @@ Then activate the environment and serve the website on localhost
 mkdocs serve
 ```
 
-The software table is generated on each deploy on GitHub, so you have to do than manually if you want to view it locally:
+## Optional dependencies
+
+### Software table
+
+Dependencies:
+```bash
+pip install natsort
+```
+
+The software table is generated on each deploy on GitHub actions, so you have to do that manually if you want to view it locally:
 
 ``` bash
 python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
 ```
 
-located under `/scripts`
-
 ### Text-to-speech
+
+Dependencies:
+```bash
+pip install beautifulsoup4>=4.11.1 gTTS>=2.2.4 
+```
 
 The script `md_to_speech.py` takes an `.md` file, parses the text and generates
 an mp3 using [`gTTS`](https://gtts.readthedocs.io/en/latest/). Run it by
 
 ```
-python md_to_speech.py --input txt.md --lang en
+python3 scripts/md_to_speech.py --input txt.md --lang en
 ```
 
 ## Files used by continuous integration scripts
