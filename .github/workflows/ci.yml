@@ -15,8 +15,8 @@ jobs:
       - name: Install dependencies
         run: pip install natsort mkdocs-material
 
-      - name: Create software list
-        run: python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_list_ci/software_list.json -o docs/software/software-list.md
+      - name: Create software table
+        run: python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
 
       - name: Render HTML
         run: mkdocs gh-deploy --force

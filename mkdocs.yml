@@ -40,7 +40,7 @@ nav:
       - Compiling parallel code: cluster_guides/compiling_parallel.md
   - Software:
     - Overview: software/overview.md
-    - Software table: software/software-list.md
+    - Software table: software/software-table.md
     - Text editors: software/text_editors.md
     - Software-specific documentation:
       - BEAST: software/beast.md
