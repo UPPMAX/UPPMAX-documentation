@@ -13,7 +13,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install natsort mkdocs-material
+        run: pip install -r requirements.txt
 
       - name: Create software table
         run: python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md

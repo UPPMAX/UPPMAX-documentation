@@ -89,7 +89,7 @@ with open(output_file, 'w', encoding='utf-8') as output_file_md:
             software_counter += 1
             version_counter  += len(versions_list)
 
-    
+
 
 print(f"Done, wrote {software_counter} softwares ({version_counter} versions) to the table in {output_file}")
 

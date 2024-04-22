@@ -33,10 +33,10 @@ Then activate the environment and serve the website on localhost
 mkdocs serve
 ```
 
-If you wish to display the software table run
+The software table is generated on each deploy on GitHub, so you have to do than manually if you want to view it locally:
 
 ``` bash
-python sw_table.py
+python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
 ```
 
 located under `/scripts`

@@ -1,8 +1,9 @@
-mkdocs>=1.4.2
-mkdocs-material>=8.5.9
-pymdown-extensions>=9.8
+beautifulsoup4>=4.11.1
 dash>=2.7.0
-pandas>=1.5.1
 gTTS>=2.2.4
 Markdown>=3.3.7
-beautifulsoup4>=4.11.1
+mkdocs-material>=8.5.9
+mkdocs>=1.4.2
+natsort
+pandas>=1.5.1
+pymdown-extensions>=9.8
