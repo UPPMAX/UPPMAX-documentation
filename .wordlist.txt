@@ -3061,4 +3061,22 @@ tsnet
 Tsnet
 ulimit
 
+ARW
+CASPT
+
+mesoscale
+
+molcas
+MOLCAS
+MOLCASMEM
+molcastest
+nActEl
+Ras
+RASSCF
+scf
+scriptfile
+seward
+SLAPAF
+wrf
+WRF
 
