@@ -1,4 +1,5 @@
 # Allinea DDT - Distributed Debugging Tool
+https://www.uppmax.uu.se/support/user-guides/allinea-ddt-user-guide/
 
 UPPMAX has 96 licenses (one license per (MPI) process) that allows you to debug programs running in parallel with up to 6 nodes on 16 cores or any other combination. The licenses are shared between all users that are in active debugging session.
 
