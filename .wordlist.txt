@@ -3022,4 +3022,43 @@ Carpentries
 passwordless
 Rclone
 
+Allinea
+aug
+chk
+ddt
+df
+gamess
+GAMESS
+gaussian
+Gaussians
+gms
+inp
+inputfile
+intra
+JOBID
+jobname
+LFLAGS
+linda
+lindarsharg
+maxdisk
+MAXDISK
+MEMDDI
+MWORDS
+node file
+NProcLinda
+NProcShared
+PrsmSu
+pVTZ
+rungms
+SCF
+SCRDIR
+
+sed
+ShMem
+STACKLIMIT
+
+tsnet
+Tsnet
+ulimit
+
 
