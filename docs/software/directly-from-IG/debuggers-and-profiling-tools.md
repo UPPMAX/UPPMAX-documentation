@@ -11,7 +11,7 @@ This tutorial will show how to use the tools provided with the compilers and som
 To make sure that you don't have any other compiler loaded, learn from this example:
 
 $ module list
-Currently Loaded Modulefiles:
+Currently Loaded Modules:
   1)  uppmax    2) intel/19.5
 $ module unload intel
 Debugging tools
@@ -39,7 +39,7 @@ Then you can use the gdb commands, like run, break, step, help, ...
 Exit with <Ctrl-D>.
 
 The intel debugger
-The intel debugger, idb was provided with the intel compiler. Now it is depracated and you are advised to use gdb (see above) here as well. 
+The intel debugger, idb was provided with the intel compiler. Now it is deprecated and you are advised to use gdb (see above) here as well. 
 
 In order to use gdb with intel do the following.
 load the icc module
