@@ -1,0 +1,286 @@
+<h2>Compilers supported at UPPMAX</h2>
+
+<p>UPPMAX supports two kind of compilers:</p>
+
+<ul>
+	<li><strong>GNU project </strong>compilers</li>
+	<li><strong>Intel </strong>compilers</li>
+</ul>
+
+<p>This tutorial will show how to use the tools provided with the compilers and some other profiling tools. Since all these tools is strongly connected to the compiler they come with, it is recommended to only have that compiler module loaded.</p>
+
+<p>To make sure that you don't have any other compiler loaded, learn from&nbsp;this example:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; module list
+Currently Loaded Modulefiles:
+  1<strong>)</strong>  uppmax    2<strong>)</strong> intel<strong>/19.5</strong>
+&#36; module unload intel</pre>
+</blockquote>
+</div>
+
+<h2>Debugging tools</h2>
+
+<p>There are debugging tools provided with each of the three compilers.</p>
+
+<p>For C, C++, and Fortran&nbsp;programs the ordinary gnu debugger (<strong>gdb</strong>) works fine, but for Fortran90/95 programs using gdb doesn't work well.&nbsp;</p>
+
+<h3>The GNU debugger</h3>
+
+<p>The GNU debugger, <strong>gdb</strong> is provided with the GNU compilers. It works fine for C, C++ and Fortran. With older versions there were problems with fortran90/95.</p>
+
+<p>Read more at the <a href="https://http://www.gnu.org/software/gdb/">GNU debugger homepage</a>.</p>
+
+<p>In order to use gdb do the following.<br />
+load a recent&nbsp;gcc module and a gdb module (system gdb is from 2013!).&nbsp;</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; module load gcc<strong>/</strong>10.3.0 gdb/11.2</pre>
+</blockquote>
+</div>
+
+<p>compile your program with flags for debugging added, e.g. -ggdb</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; gcc -ggdb your-program.c -o your-program</pre>
+</blockquote>
+</div>
+
+<p>run the gdb program:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; gdb your-program</pre>
+</blockquote>
+</div>
+
+<p>Then you can use the gdb commands, like <strong>run, break, step, help, ...</strong></p>
+
+<p>Exit with &lt;Ctrl-D&gt;.</p>
+
+<h3>The intel debugger</h3>
+
+<p>The intel debugger, <strong>idb</strong> was provided with the intel compiler. Now it is depracated and you&nbsp;are advised to use gdb (see above) here as well.&nbsp;<br />
+<br />
+In order to use gdb with intel do the following.<br />
+load the icc module</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; module load intel<strong>/20</strong>.4</pre>
+</blockquote>
+</div>
+
+<p>compile your program with flags for debugging added, e.g. <em>-g</em></p>
+
+<div>
+<blockquote>
+<pre>
+&#36; icc -g your-program.c -o your-program</pre>
+</blockquote>
+</div>
+
+<p>run the gdb program:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; gdb your-program</pre>
+</blockquote>
+</div>
+
+<p>Then you can use the gdb commands, like&nbsp;<strong>run, break, step, help, ...</strong></p>
+
+<p>Exit with &lt;Ctrl-D&gt;.</p>
+
+<h2>Profiling tools</h2>
+
+<p>There are some profiling tools that are available at UPPMAX. <strong>Note:</strong> some profiling works best without optimization, i.e using the -O0 flag.</p>
+
+<h3>Intel VTune Profiler and Advisor</h3>
+
+<p>Intel's performance analysis suite can probably answer any question you have about the performance of your code, including MPI and OpenMP code.</p>
+
+<p><strong>VTune&nbsp;</strong>is focused choosing optimising techniques that will yield good results, whereas&nbsp;<strong>Amplifier</strong>&nbsp;is more broadly aimed at performance analysis.</p>
+
+<p>Read more at the <a href="https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.htm">Vtune documentation</a>&nbsp;and <a href="https://www.intel.com/content/www/us/en/developer/tools/oneapi/advisor.html#gs.2lbcdo">Advisor documentation</a>.</p>
+
+<p>In order to use VTune do the following:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; module load intel intel-oneapi vtune
+
+</pre>
+</blockquote>
+
+<p>Making sure you have a graphical connection through X or ThinLinc, run VTune&nbsp;graphically:</p>
+
+<blockquote>
+<pre>
+&#36; vtune-gui
+</pre>
+</blockquote>
+
+<p>In order to use Advisor, do the following:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; module load intel intel-oneapi advisor</pre>
+</blockquote>
+
+<p>Making sure you have a graphical connection through X or ThinLinc, run Advisor graphically:</p>
+
+<blockquote>
+<pre>
+&#36; advixe-gui
+</pre>
+</blockquote>
+
+<p></p>
+</div>
+</div>
+
+<h3>The GNU profiler</h3>
+
+<p>The GNU profiler, gprof is provided with the GNU compiler package.</p>
+
+<p>Read more in the <a href="https://sourceware.org/binutils/docs-2.38/gprof/">GNU gprof documentation.</a></p>
+
+<p>In order to use gprof do the following.<br />
+Load a recent gcc module and a recent binutils module:</p>
+
+<div>
+<blockquote>
+<div>
+<blockquote>
+<pre>
+&#36; module load gcc
+&#36; module load binutils</pre>
+
+<div></div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+
+<p>Compile your program with the -pg -g flags added</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; gcc -O0 -pg -g your-program.c -o your-program</pre>
+</blockquote>
+</div>
+
+<p>run it:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; .<strong>/</strong>your-program</pre>
+</blockquote>
+</div>
+
+<p>then do:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; gprof your-program gmon.out &gt; output-file
+</pre>
+</blockquote>
+</div>
+
+<p>For more options you run <code>gprof</code> like this:</p>
+
+<div>
+<pre>
+gprof options [executable-file [profile-data-files&hellip;]] [&gt; outfile]
+</pre>
+</div>
+
+<h3>Valgrind</h3>
+
+<p>Valgrind is a suite of simulation-based debugging and profiling tools for programs.<br />
+Valgrind contains several tools:</p>
+
+<ul>
+	<li><strong>memcheck</strong>, for detecting memory-management problems in your program</li>
+	<li><strong>cachegrind</strong>, for cache profiling</li>
+	<li><strong>helgrind</strong>, finds data races in multithreded programs</li>
+	<li><strong>callgrind</strong>, a call graph profiler</li>
+	<li><strong>drd</strong>, a thread error detector</li>
+	<li><strong>massif</strong>, a heap profiler</li>
+	<li><strong>ptrcheck</strong>, a pointer checking tool</li>
+	<li><strong>lackey</strong>, a simple profiler and memory tracer</li>
+</ul>
+
+<p>You can find full documentation on valgrind in the <a href="https://valgrind.org/docs/manual/manual.html">Valgrind user manual</a>.&nbsp;</p>
+
+<p>Valgrind works best with the gcc- and intel compilers. There is a system valgrid-3.15.0 (2020)</p>
+
+<p>First load compiler:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; module load gcc </pre>
+
+<p>or</p>
+
+<pre>
+&#36; module load intel </pre>
+</blockquote>
+</div>
+
+<p>then you can use valgind by:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; valgrind <strong>[</strong>options<strong>]</strong> ./your-program <strong>[</strong>your programs options<strong>]</strong></pre>
+</blockquote>
+</div>
+
+<h3>How to use valgrind with mpi programs</h3>
+
+<p><br />
+Load your complier, openmpi and the valgrind module as before:<br />
+&nbsp;</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; module load gcc<strong>/</strong>10.3.0 openmpi<strong>/</strong>3.1.6</pre>
+
+<p>or&nbsp;</p>
+</blockquote>
+</div>
+
+<pre>
+      &#36; module load intel<strong>/</strong>20.4 openmpi<strong>/</strong>3.1.6</pre>
+
+<p>As of now, Valgrind seems not compatible with&nbsp;openmpi/4.X.X.</p>
+
+<p>Then run:</p>
+
+<div>
+<blockquote>
+<pre>
+&#36; LD_PRELOAD=&#36;VALGRIND_MPI_WRAPPER
+&#36; mpirun -np 2 valgrind .<strong>/</strong>your-program</pre>
+</blockquote>
+</div>
+
+<p></p>
