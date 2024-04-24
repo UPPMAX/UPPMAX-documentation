@@ -23,7 +23,7 @@ Running GAMESS
 Load the module using
 module load gamess/20170930
 
-Below is an example submitscript for Rackham, running on 40 cores (2 nodes with 20 cores each). It is essential to specify the project name:
+Below is an example submit script for Rackham, running on 40 cores (2 nodes with 20 cores each). It is essential to specify the project name:
 
 #!/bin/bash -l
 #SBATCH -J jobname
