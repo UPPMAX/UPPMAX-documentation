@@ -3196,3 +3196,11 @@ Netcdf
 lnetcdf
 lnetcdff
 gdb
+ggdb
+idb
+advixe
+drd
+gmon
+idb
+vtune
+VTune
