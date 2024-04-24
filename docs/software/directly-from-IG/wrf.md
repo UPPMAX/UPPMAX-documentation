@@ -27,7 +27,7 @@ Corine and metria data are included in the WPS_GEOG directory.
 In /sw/data/WPS-geog/4/rackham you'll find GEOGRID.TBL.ARW.corine_metria that hopefully works. Copy to your WPS/GEOGRID directory and then link to GEOGRID.TBL file.
 It may not work for a large domain. If so, either modify TBL file or use in inner domains only.
 
-To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the Vapor, NCL or wrf-python webpages.
+To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the Vapor, NCL or wrf-python web pages.
 
 Get started
 This section assumes that you are already familiar in running WRF. If not, please check the tutorial, where you can at least omit the first 5 buttons and go directly to the last button, or depending on your needs, also check the “Static geography data” and “Real-time data”.
@@ -102,7 +102,7 @@ If you would like to change in the FORTRAN code for physics or just want the lat
 
 Step 1: WRF Source Code Registration and Download
 Register and download
-Identify download urls you need (on Github for v4 and higher)
+Identify download URLs you need (on Github for v4 and higher)
 WRF
 WPS
 Other?
