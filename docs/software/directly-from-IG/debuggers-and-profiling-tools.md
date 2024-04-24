@@ -61,7 +61,7 @@ There are some profiling tools that are available at UPPMAX. Note: some profilin
 Intel VTune Profiler and Advisor
 Intel's performance analysis suite can probably answer any question you have about the performance of your code, including MPI and OpenMP code.
 
-VTune is focused choosing optimising techniques that will yield good results, whereas Amplifier is more broadly aimed at performance analysis.
+VTune is focused choosing optimizing techniques that will yield good results, whereas Amplifier is more broadly aimed at performance analysis.
 
 Read more at the Vtune documentation and Advisor documentation.
 
@@ -114,7 +114,7 @@ ptrcheck, a pointer checking tool
 lackey, a simple profiler and memory tracer
 You can find full documentation on valgrind in the Valgrind user manual. 
 
-Valgrind works best with the gcc- and intel compilers. There is a system valgrid-3.15.0 (2020)
+Valgrind works best with the gcc- and intel compilers. There is a system valgrind-3.15.0 (2020)
 
 First load compiler:
 
@@ -122,12 +122,12 @@ $ module load gcc
 or
 
 $ module load intel 
-then you can use valgind by:
+then you can use valgrind by:
 
 $ valgrind [options] ./your-program [your programs options]
 How to use valgrind with mpi programs
 
-Load your complier, openmpi and the valgrind module as before:
+Load your compiler, openmpi and the valgrind module as before:
 
 
 $ module load gcc/10.3.0 openmpi/3.1.6
