@@ -1,3 +1,7 @@
+# GAMESS-US user guide
+
+<https://www.uppmax.uu.se/support/user-guides/gamess-us-user-guide/>
+
 GAMESS-US versions 20170930 is installed on Rackham. Newer versions can be installed on request to UPPMAX support. Snowy currently lacks GAMESS-US.
 
 Citing GAMESS papers
