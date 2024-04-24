@@ -44,9 +44,9 @@ nav:
     - Text editors: software/text_editors.md
     - Software-specific documentation:      
       - Whisper: software/whisper.md
-      - Chemistry/physics
+      - Chemistry/physics:
         - GROMACS: software/gromacs.md 
-      - Integrated development environments (IDE)
+      - Integrated development environments (IDE):
         - Jupyter: software/jupyter.md
         - RStudio: software/rstudio.md
         - VSCode: software/vscode.md
