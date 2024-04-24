@@ -42,29 +42,35 @@ nav:
     - Overview: software/overview.md
     - Software table: software/software-table.md
     - Text editors: software/text_editors.md
-    - Software-specific documentation:
-      - BEAST: software/beast.md
-      - BEAST2: software/beast2.md
-      - Darsync: cluster_guides/darsync.md
-      - GROMACS: software/gromacs.md
-      - Julia: software/julia.md
-      - Jupyter: software/jupyter.md
-      - MATLAB: software/matlab.md
-      - MetONTIIME: software/metontiime.md
-      - Perl: software/perl.md
-      - Python: software/python.md
-      - R: software/r.md
-      - Rclone: software/rclone.md
-      - RStudio: software/rstudio.md
-      - SSH: software/ssh.md
-      - TensorFlow: software/tensorflow.md
-      - Tracer: software/tracer.md
-      - VSCode: software/vscode.md
-      - VSCodium: software/vscodium.md
+    - Software-specific documentation:      
       - Whisper: software/whisper.md
-      - Life Science-specific: 
+      - Chemistry/physics
+        - GROMACS: software/gromacs.md 
+      - Integrated development environments (IDE)
+        - Jupyter: software/jupyter.md
+        - RStudio: software/rstudio.md
+        - VSCode: software/vscode.md
+        - VSCodium: software/vscodium.md
+      - Life Science: 
+        - BEAST: software/beast.md
+        - BEAST2: software/beast2.md
         - Cram: software/cram.md
         - IGV: software/igv.md
+        - MetONTIIME: software/metontiime.md
+        - Tracer: software/tracer.md
+      - Machine Learning:
+        - TensorFlow: software/tensorflow.md
+      - Programming languages:
+        - Julia: software/julia.md
+        - MATLAB: software/matlab.md
+        - Python: software/python.md
+        - Perl: software/perl.md
+        - R: software/r.md
+      - Misc tools:
+        - Darsync: cluster_guides/darsync.md
+        - Rclone: software/rclone.md      
+        - SSH: software/ssh.md
+      
   - Databases: 
      - Overview: databases/overview.md
      - BLAST databases available locally: databases/blast.md
