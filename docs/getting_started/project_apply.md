@@ -38,7 +38,6 @@ This page is about applying for an UPPMAX project.
 ### Storage at UPPMAX
 
 - Small: 128 GB-10 TB of storage. 
-    - Can be increased to 10,000 hrs
     - PI: PhD student or higher.
 - Medium: 10-100 TB 
     - PI: Assistant professor (forskarassistent) or higher. 
