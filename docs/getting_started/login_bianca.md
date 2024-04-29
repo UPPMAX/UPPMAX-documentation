@@ -142,7 +142,7 @@ To use Bianca, there are two environments:
 
     > A more populated Bianca XFCE remote desktop
 
-- A remote desktop environment, also called 'graphical environment', 
+- A [remote desktop environment](../cluster_guides/thinlinc.md), also called 'graphical environment', 
   'GUI environment', 'ThinLinc environment'
 
 ???- question "How does the Bianca console environment look like?"
@@ -153,7 +153,7 @@ To use Bianca, there are two environments:
 
 - A console environment, also called 'terminal environment' or 'terminal'
 
-The remote desktop environment is considered the easier place to start for most
+The [remote desktop environment](../cluster_guides/thinlinc.md) is considered the easier place to start for most
 new users, as it has most similarities with what a new user is familiar with.
 However, one must always use a terminal to some extent.
 
@@ -255,7 +255,7 @@ one needs to be within SUNET to be able to access her.
 Bianca does not support any so-called 
 [X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham), 
 so instead UPPMAX maintains a website that uses
-ThinLinc to get a full remote desktop environment.
+ThinLinc to get a full [remote desktop environment](../cluster_guides/thinlinc.md).
 All you should need is a rather modern browser on any platform:
 we have tested on Chrome and Firefox :-)
 
@@ -266,7 +266,7 @@ we have tested on Chrome and Firefox :-)
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
 
-When inside SUNET, one can access a remote desktop environment
+When inside SUNET, one can access a [remote desktop environment](../cluster_guides/thinlinc.md)
 using a website:
 
 #### 1. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
