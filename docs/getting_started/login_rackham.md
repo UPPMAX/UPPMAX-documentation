@@ -251,7 +251,7 @@
 
 ![Rackham's remote desktop environment](./img/rackham_via_remote_desktop_50.jpg)
 
-You can also login to Rackham's [remote desktop environment](thinlinc.md).
+You can also login to Rackham's [remote desktop environment](../cluster_guides/thinlinc.md).
 This gives you a desktop environment, as if you were working on your own computer!
 
 You can do so:
