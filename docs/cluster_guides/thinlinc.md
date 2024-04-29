@@ -38,4 +38,4 @@ Normally you don't have to change anything else here, and we have also disabled 
 ## Web interface
 The servers listed above also offer a HTML5 client available at the according https URLs:
 
-https://rackham-gui.uppmax.uu.se
+<https://rackham-gui.uppmax.uu.se>
