@@ -89,8 +89,10 @@ You should regularly change your password. This is done in the standard Linux wa
     passwd
 
 The system will prompt you for your current password, after which it will ask you for a new password and a confirmation of the new password. If you lose your password and need to reset it, follow this link (which you can also find on our homepage).
-Copying files from/to your UPPMAX account
-From a Linux or Unix computer
+
+
+## Copying files from/to your UPPMAX account
+### From a Linux or Unix computer
 
 Copy a file from you computer to your home directory on UPPMAX:
 
@@ -103,10 +105,12 @@ Copy a file from your home directory on UPPMAX to your computer:
 To place the file in the directory you are currently standing in, use a dot ('.') as the local directory:
 
 scp user@milou.uppmax.uu.se:/home/username/some-file .
-From a Windows computer
+
+### From a Windows computer
 
 If you are running windows you could download or upload files using the file browser in MobaXterm, or the WinSCP software to upload and download files in a similar fashion to how FTP clients work. Alternatively if you are using WSL you can follow the instructions for Linux above.
-Where are my files? (Or, what are the different file systems?)
+
+## Where are my files? (Or, what are the different file systems?)
 
 You have access to the same home directory regardless of what cluster you have logged into. Here you store your private files.
 
@@ -119,7 +123,8 @@ Example: to see who much disk space you use:
     uquota
 
 We have a page with more information about different file storages and quotas that can be good to read.
-Your private files
+
+### Your private files
 
 When you log in to UPPMAX for the first time you only have the following files created by the system:
 
@@ -145,8 +150,9 @@ The files starting with a "." are hidden files — startup scripts or configurat
 The default permission of your home directory is 750, i.e. you can do everything, people belonging to the same group can read and execute your files and other people can not do anything. For more info on file permissions see this page on the online Linux Handbook.
 
 Also note the private sub-folder. Here you can put files that you want only you, and no one else, to be able to access. Each day we have a job that ensures that all users's private folders still can't be accessed by anyone else, even if the permissions somehow accidentally would change.
-Creating and editing files
-The nano text editor
+
+## Creating and editing files
+### The nano text editor
 
 There are several editors installed at UPPMAX. The one that is considered easiest to use for new users without graphics is nano.
 
@@ -168,7 +174,7 @@ You can get more help with nano by pressing (inside nano):
 
     Control-G
 
-The Emacs text editor
+### The Emacs text editor
 
 Another very common editor, with more features (but a little harder to use), is emacs.
 
@@ -189,7 +195,8 @@ You can read a tutorial in emacs by doing:
     Control-h t
 
 For a tutorial on emacs: http://www.gnu.org/software/emacs/tour/
-The Gedit text editor
+
+### The Gedit text editor
 
 If you have logged in with [X forwarding](../software/ssh_x_forwarding.md) 
 (i.e. with `ssh -X username@rackham.uppmax.uu.se`) 
@@ -201,7 +208,8 @@ Example: how to run gedit from a terminal:
     gedit &
 
 The ampersand (&) keeps gedit from taking over your terminal session. You can navigate files and exit the program with the mouse.
-Bash, bourne-again shell
+
+## Bash, bourne-again shell
 
 Bash is the default Unix shell, a command-line interpreter and script host that provides a traditional user interface for the linux operating system at UPPMAX. Users direct the operation of the computer by entering command input as text for a command line interpreter to execute or by creating text scripts of one or more such commands.
 
@@ -210,7 +218,8 @@ The .bash_profile file is run whenever you login or when you start a login shell
 The .bashrc file is run when an interactive shell that is not a login shell is started, or if it is called from the .bash_profile (as it is in the default configuration).
 
 The .bash_logout file is run when you log out.
-Modules
+
+## Modules
 
 In order to make running installed programs easier you should use the module command. The different modules that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH.
 
@@ -230,9 +239,10 @@ Example, if you want to unload a module
 
 module unload intel
 
-How to run jobs
+## How to run jobs
 
 All jobs should be run using the batch queues. Read more for bianca and rackham, and the Slurm queue system.
-UPPMAX homepage
+
+## UPPMAX homepage
 
 Please check our homepage regularly for information, news and announcements. We will announce maintenance stops and down time there.
