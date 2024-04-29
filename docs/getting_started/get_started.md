@@ -30,13 +30,13 @@ Are you taking a university course that uses UPPMAX and need help? Ask your inst
 
 ## Getting started: First login to UPPMAX
 
-???- info "Why is this here?"
+N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc webinterface. 
 
-    This is old UPPMAX documentation from 
-    [here](https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/).
-    
-    We from UPPMAX are in the process of merging this wisdom with these pages.
+In order to use the UPPMAX resources you must login to a dedicated login computer (or 'login node') using ssh ("secure shell"). On Linux/Unix computers this is done in the terminal with the 'ssh' command. On Windows you can download a small free program called [MobaXterm](https://mobaxterm.mobatek.net/) (or an alternative of your choice) to connect via ssh.
 
+Another option is to use the ThinLinc client, either the webbased one or one you download, to get access to a full graphical User Interface with a desktop, webbrowser, terminal etc. The ThinLinc client download is available for Linux, macOS and Windows. For more information and to see which of our systems support ThinLinc please refer to our [graphical connection guide](../cluster_guides/thinlinc.md).
+
+If you are using Windows a more advanced option would be to install WSL (Windows Subsystem for Linux) which gives you a Linux-installation you can use on Windows. Please refer to [Microsoft's documentation on WSL](https://docs.microsoft.com/en-us/windows/wsl/) for more information.
 The hostname used to login via SSH is:
 
 ```
@@ -44,19 +44,20 @@ rackham.uppmax.uu.se
 ```
 
 Note: This is a "round robin" address which will direct you to one of the physical login nodes, rackham1.uppmax.uu.se or rackham2.uppmax.uu.se, etc. (If needed, you can also login directly to one of these, by using their respective hostnames.)
-Specific for a Linux/Unix or a Mac computer
+
+## Specific for a Linux/Unix or a Mac computer
 
 On Unix/Linux and Mac OS, start a terminal and use the ssh command, like so (substitute 'username' with your own username):
 
     ssh username@rackham.uppmax.uu.se
 
-    Note: change "rackham" to the name of the machine you want to connect to.
-    In order to run graphical programs through SSH, you need to enable [X forwarding](../software/ssh_x_forwarding.md), 
+- Note: change "rackham" to the name of the machine you want to connect to.
+- In order to run graphical programs through SSH, you need to enable [X forwarding](../software/ssh_x_forwarding.md), 
     i.e. use `ssh -X username@rackham.uppmax.uu.se`
 
-Specific for a Windows computer
+## Specific for a Windows computer
 
-If you are running windows you could download and install a terminal program like MobaXterm.
+If you are running windows you could download and install a terminal program like [MobaXterm](https://mobaxterm.mobatek.net/).
 
 After downloading and extracting the zip archive you will have 2 files; MobaXterm_Personal_X.X.exe and MobaXterm_Personal_Customizer_X.X.exe
 
@@ -66,7 +67,7 @@ Double click the MobaXterm_Personal_X.X.exe and you should see a terminal window
 
     username@rackham.uppmax.uu.se
 
-Common for all systems (Windows, Linux, OSX)
+## Common for all systems (Windows, Linux, OSX)
 
 If it is the first time you connect, you will also need to confirm the host key by pressing 'Yes' if you get pop-up question or by typing 'yes' if you get the question on the command line.
 
@@ -79,7 +80,9 @@ If you log in from outside of Sweden, or from a network that does not support fo
 Now you are logged in! To log out again, type 'exit'.
 
 Note: The information displayed in the welcome screen contains very important information about the usage of UPPMAX, which might affect your jobs, such as scheduled downtime etc, so please read very carefully, and look out for any announcements!
-Changing your password
+
+
+## Changing your password
 
 You should regularly change your password. This is done in the standard Linux way. Type:
 
