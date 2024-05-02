@@ -98,16 +98,6 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
 
 Check this compatibility page for a more complete picture of compatible versions.
 
-By default, for Open MPI 4.0 and later, infiniband ports on a device
-are not used by default.  The intent is to use UCX for these devices.
-You can override this policy by setting the btl_openib_allow_ib MCA parameter
-to true.
-
-Do this by the line below in your batch script or in your interactive environment
-
-```console
-export OMPI_MCA_btl_openib_allow_ib=1
-```
 
 ### C programs
 

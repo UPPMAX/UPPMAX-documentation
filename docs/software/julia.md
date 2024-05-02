@@ -417,7 +417,6 @@ You can execute your code as in an interactive session with several cores (at le
 
 ```console
 $ module load gcc/11.3.0 openmpi/4.1.3
-$ export OMPI_MCA_btl_openib_allow_ib=1    # this is to get rid of some warnings
 $ mpiexecjl -np 3 julia juliaMPI.jl
 ```
 
@@ -437,7 +436,6 @@ A batch script, job_MPI.slurm, should include a "module load gcc/XXX openmpi/XXX
 #SBATCH --mail-user=<email>
 module load julia/1.8.5
 module load gcc/11.3.0 openmpi/4.1.3
-export OMPI_MCA_btl_openib_allow_ib=1
 export PATH=~/.julia/bin:$PATH
 mpiexecjl -n 20 julia juliaMPI.jl
 ```
