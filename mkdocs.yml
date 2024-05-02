@@ -28,7 +28,10 @@ nav:
       - Start an interactive node: cluster_guides/start_interactive_node.md
       - Modules: cluster_guides/modules.md
       - Slurm: cluster_guides/slurm.md
-      - Optimizing jobs: cluster_guides/optimizing_jobs.md
+    - Running jobs:
+      - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
+      - Runtime tips: cluster_guides/running_jobs/runtime_tips.md
+      - Storage and compression: cluster_guides/running_jobs/storage_compression.md
     - Data transfer: 
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Migrate to Dardel: cluster_guides/dardel_migration.md
