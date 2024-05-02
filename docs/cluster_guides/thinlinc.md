@@ -28,7 +28,7 @@ The server name to connect to is CLUSTERNAME-gui.uppmax.uu.se to make a login no
 
 ``rackham-gui.uppmax.uu.se (fingerprint 94:c6:66:db:16:b2:95:7d:d1:53:5d:75:f6:3c:e8:cf)``
 
-If you are using the web interace do note that the server only accepts secure connections, so do not forget the s in https://.
+If you are using the web interface do note that the server only accepts secure connections, so do not forget the s in https://.
 
 ## ThinLinc client options
 Under the "Screen" tab, you can set the starting size of the session and choose to enable/disable Full screen mode. Typically, users prefer to turn off full screen mode.
