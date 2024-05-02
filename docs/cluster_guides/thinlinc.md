@@ -1,7 +1,7 @@
 # ThinLinc graphical connection user guide
 
 ## Introduction
-There are two ways of connecting to the clusters using ThinLinc. The first is by using the webclient and connect from the browser. This can be useful for smaller tasks or if you are unable to install software on the computer you are currently using. Please see below for more information. The second option is to download the ThinLinc client, which offers higher performance and is recommended for most users. The client can be downloaded from the [official download page](https://www.cendio.com/thinlinc/download/).
+There are two ways of connecting to the clusters using ThinLinc. The first is by using the web client and connect from the browser. This can be useful for smaller tasks or if you are unable to install software on the computer you are currently using. Please see below for more information. The second option is to download the ThinLinc client, which offers higher performance and is recommended for most users. The client can be downloaded from the [official download page](https://www.cendio.com/thinlinc/download/).
 
 
 ## Clusters that have ThinLinc enabled
@@ -9,7 +9,7 @@ Currently, ThinLinc is enabled for the Milou, Rackham and Bianca clusters. Also,
 
 ## Connecting
 ### Login node connection
-Just as you can log in via ssh to a login node to get a text session, you can connect with ThinLinc to get a graphical desktop session on a login node. These are subject to the same limitations normal login sessions are (memory and run time limits, don't do anything that might distrub other users).
+Just as you can log in via ssh to a login node to get a text session, you can connect with ThinLinc to get a graphical desktop session on a login node. These are subject to the same limitations normal login sessions are (memory and run time limits, don't do anything that might disturb other users).
 
 In addition to the normal limitations, login node connections may have short (10-15) minute idle timeouts meaning your session may disappear if you leave it.
 
@@ -28,7 +28,7 @@ The server name to connect to is CLUSTERNAME-gui.uppmax.uu.se to make a login no
 
 ``rackham-gui.uppmax.uu.se (fingerprint 94:c6:66:db:16:b2:95:7d:d1:53:5d:75:f6:3c:e8:cf)``
 
-If you are using the webinterace do note that the server only accepts secure connections, so do not forget the s in https://.
+If you are using the web interace do note that the server only accepts secure connections, so do not forget the s in https://.
 
 ## ThinLinc client options
 Under the "Screen" tab, you can set the starting size of the session and choose to enable/disable Full screen mode. Typically, users prefer to turn off full screen mode.
