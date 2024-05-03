@@ -2,9 +2,11 @@
 
 ## How can I run X11 applications inside GNU screen?
 
-If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?
+https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-x11-applications-inside-gnu-screen/
 
-(This applies also for trying to do PNG output in R, since it depends on X11)
+**If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?
+
+(This applies also for trying to do PNG output in R, since it depends on X11)**
 
 When starting a screen session, your DISPLAY environment can sometimes change from the one that you had when you logged in.
 
@@ -22,10 +24,13 @@ export DISPLAY=localhost:45.0
 (NOTE: The actual number above might be different for you, and should be changed accordingly!)
 
 ## Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!
+https://www.uppmax.uu.se/support/faq/running-jobs-faq/your-priority-in-the-waiting-job-queue/
 
 [What do the fields PRIORITY and REASON mean in "jobinfo" output?](jobinfo_reason.md)
 
 ## What is causing the sbatch script error "Unknown shell type 'load'"?
+https://www.uppmax.uu.se/support/faq/running-jobs-faq/sbatch-script-error--unknown-shell-type--load--/
+
 If you're getting the error message
 
 init.c(379):ERROR:109: Unknown shell type load
@@ -38,6 +43,9 @@ To remedy this you need to make sure that your script starts with
 I.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
 
 ## How can I see my job's memory usage?
+
+https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-see-my-job-s-memory-usage/
+
 Historical information can first of all be found by issuing the command "finishedjobinfo -j". That will print out the maximum memory used by your job.
 
 If you want more details then we also save some memory information each 5 minute interval for the job in a file under /sw/share/slurm/[cluster-name]/uppmax_jobstats//. Notice that this is only stored for 30 days.
@@ -62,16 +70,22 @@ If you require more detailed live information, then it would probably be best if
 USS is the total memory used by the user without shared buffers or caches. RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory. And then there's also the PSS figure which tries to calculate a proportional memory usage per user for all shared memory buffers and caches (i.e. the figure will fall between USS and RSS).
 
 ## How to run interactively on a compute node?
+
 - [Start an interactive node](start_interactive_node.md)
 - [More about interactive](interactive_more.md)
 
 ## I want my program to send data to both stdout and to a file but nothing comes until the program ends
 
+https://www.uppmax.uu.se/support/faq/running-jobs-faq/i-want-my-program-to-send-data-to-both-stdout-and-to-a-file/
+
 There is a program called unbuffer. You could try using it like (tee takes care of sending both to stdout and to a file):
 
+```
 unbuffer your_program |tee some_output_file
+```
 
 ## My job has very low priority! What can be wrong?
+
 https://www.uppmax.uu.se/support/faq/running-jobs-faq/why-does-my-job-have-very-low-priority/
 
 One reason could be that your project has consumed its allocated hours.
@@ -154,3 +168,15 @@ This may happen if your executable binary file is deleted while the program is r
 This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
 ## How do I use the modules?
+
+In order to make running installed programs easier you should use the module command. The different module that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH. To see what what modules that are available, type module avail. To see what modules you have loaded, type module list.
+
+Note. For the batch system slurm to work with modules you must have
+
+```
+#!/bin/bash -l
+```
+
+in your submit script.
+
+For more information, read the module system guide.
