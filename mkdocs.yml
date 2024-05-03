@@ -28,6 +28,7 @@ nav:
       - Start an interactive node: cluster_guides/start_interactive_node.md
       - Modules: cluster_guides/modules.md
       - Slurm: cluster_guides/slurm.md
+    - Managing your project: cluster_guides/project_management.md
     - Running jobs:
       - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
       - Runtime tips: cluster_guides/running_jobs/runtime_tips.md
