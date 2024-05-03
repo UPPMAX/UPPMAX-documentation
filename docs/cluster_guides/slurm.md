@@ -207,6 +207,10 @@ flags:
 sbatch job_script.sh
 ```
 
+???- question "How to see how many resources my project has used?"
+
+  Use [projplot](../software/projplot.md).
+
 ## Links
 
 - [Older Slurm user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/)
