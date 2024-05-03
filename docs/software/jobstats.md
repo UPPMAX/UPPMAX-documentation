@@ -1,5 +1,8 @@
 # Discovering job resource usage with jobstats
-In IG Support / User guides / Jobstats user guide
+
+???- question "InfoGlue path?"
+
+    In IG Support / User guides / Jobstats user guide
 
 UPPMAX provides jobstats to enable discovery of resource usage for jobs submitted to the SLURM job queue.
 
@@ -21,7 +24,8 @@ cluster-project-user-jobid.png
 To view the images you can either download them from UPPMAX, or use Xforwarding. The latter is the quickest way. To do this you will need to connect to UPPMAX with the -Y option
 
 # connect
-$ ssh -Y username@milou.uppmax.uu.se
+
+$ ssh -X username@milou.uppmax.uu.se
  
 # generate the plots
 
@@ -39,13 +43,14 @@ For this to work you will have to use a computer that has a X-server. Most linux
 
 An example plot, this was named milou-b2010042-douglas-8769275.png:
 
-
+![](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275.png)
 
 For multiple-node jobs, plots have a two-column format.
 
 Note that not all jobs will produce jobstats files, particularly if the job was cancelled or ran for less than 5 minutes. Also, if a job booked nodes inefficiently by not using nodes it asked for, jobstats files will not be available for the booked but unused nodes. In this case the plot will contain a blank panel for each such node together with the message 'node booked but unused'.
 
-Interpretation guidelines
+## Interpretation guidelines
+
 When you are looking through the plots you just created you can start thinking of how you can change your bookings so that the jobs are more efficienct. Usually it's just a matter of changing how many cores you book and the problem is solved. Here are some guidelines that you can follow when looking for ineffecient jobs:
 
 Is the blue line (the jobs cpu usage) at the top of the graph most of the time (>80%)? If so, no need to do anything, no need to check the rest of this list.
@@ -55,17 +60,38 @@ If you follow these guidelines you will be using the resources efficiently. If e
 
 Here are some examples of how inefficient jobs can look and what you can do to make them more efficient.
 
+### Inefficient job example 1
+
+![](./img/jobstats_c_555912-l_1-k_bad_job_01.png)
 
 This job has booked many more cores than it needs. The extra cores are only used for small bursts and 99% of the time the job is running single threaded. The memory gained from the extra cores is not used either. You can see from the dooted grey line that the job used at most as much RAM as you get by booking 4 cores (since it intersects the right Y-axis at 400%). This job would have run perfectly fine on a job with only 5 cores. Instead it used 3x the amount of core hours when it was booked as 16 cores.
 
+### Inefficient job example 2
+
+![](./img/jobstats_c_555912-l_1-k_bad_job_02.png)
+
 This job is using almost all of the cores it has booked, but there seems to be something holding them back. The uneven blue curve tells us that something is slowing down the analysis, and it's not by a constant amount. Usually this is how it looks when the filesystem is the cause of a slowdown. Since the load of the filesystem is constantly changing, so will the speed by which a job can read data from it also change. This job should try to copy all the files it will be working with to the nodes local harddrive before running the analysis, and by doing so not be affected by the speed of the filesystem. Please see the guide How to use the nodes own hard drive for analysis for more information. You basically just add 2 more commands to your script file and the problem should be solved.
+
+### Inefficient job example 3
+
+![](./img/jobstats_c_555912-l_1-k_bad_job_03.png)
 
 This job is simply misbooked/misconfigured. The job is using 6 of the 8 booked cores constantly with no signs of anything slowing them down (the line is very even). This jobs should either have been booked with 6 cores, or the program running should be told to use all 8 cores.
 
+### Inefficient job example 4
+
+![](./img/jobstats_c_555912-l_1-k_bad_job_04.png)
+
 This job has the same problem as the example above, but in a more extreme way. It's not uncommon that people book whole nodes out of habit and only run single threaded programs that use almost no memory. This job is a bit special in the way that it's being run on a high memory node, as you can see on the left Y-axis, that it goes up to 256 GB RAM. A normal node on Milou only have 128GB. These high memory nodes are only bookable of you book the whole node, so you can't book just a few cores on them. That means that if you need 130GB RAM and the program is only single threaded, your only option is to book a whole high memory node. The job will look really inefficient, but it's the only way to do it on our system. The example in the plot does not fall into this category though, as it uses only ~15GB of RAM, which you could get by booking 2-3 normal cores.
+
+### Inefficient job example 5
+
+![](./img/jobstats_c_555912-l_1-k_bad_job_05.png)
  
 This is one of the grayer areas. The job is using most of the cores from time to time, but is also running single threaded a lot. The memory usage is what you would get by booking only 2 cores (~16GB) as well, so no reason to book a whole, or high memory, node because of that. This job would be better off being booked with 4 cores. The multithreaded steps would be quicker because of the extra cores, and the single threaded parts would take up a proportionally smaller part of the job. The larget part of the job that is taken up by single threaded calculations, the more clear is it that the job should be adjusted. It's hard to draw a clear line when it should be adjusted, but try to keep the overall efficiency of the job at 75% or better. 
-Modes of jobstats discovery
+
+## Modes of jobstats discovery
+
 There are five modes for discovery, depending on what the user provides on the command line: (1) discovery by job number for a completed job; (2) discovery by job number for a currently running job; (3) discovery by node and job number, for a completed or running job; (4) discovery by project; or (5) discovery via information provided on stdin. In the example command lines below, the -p/--plot option requests that plots of job resource usage are created.
 
 Mode 1: jobstats -p jobid1 jobid2 jobid3
@@ -202,3 +228,7 @@ core_mem_overbooked : GB in used cores : GB used: Less memory was used than was 
 By default no flags are indicated for jobs with memory-only cautions except for swap usage, because it is common for jobs to heavily use processor cores without using a sizable fraction of memory. Use the -m/--memory option to include flags for memory underutilisation when those would be the only flags produced.
 
 More verbose flags are output with the -v/--verbose option.
+
+
+
+
