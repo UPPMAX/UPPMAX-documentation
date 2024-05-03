@@ -70,6 +70,9 @@ Filename                           |Descriptions
 [.spellcheck.yml](.spellcheck.yml) |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
 [.wordlist.txt](.wordlist.txt)     |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
 
+## Broken link
+
+[https://www.uu.se/centrum/uppmax/support/user-guides/tensorflow-user-guide/](https://www.uu.se/centrum/uppmax/support/user-guides/tensorflow-user-guide/)
 
 ## Credits
 
@@ -77,3 +80,4 @@ The website is created using
 [mkdocs-material](https://squidfunk.github.io/mkdocs-material). The landing
 page and layout was inspired by the documentation of the HPC cluster
 [LUMI](https://docs.lumi-supercomputer.eu/). 
+
