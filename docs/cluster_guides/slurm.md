@@ -1,9 +1,16 @@
-# Run on the calculation nodes (Slurm)
+# Slurm
 
 The UPPMAX clusters are a shared resource.
 To ensure fair use, UPPMAX uses a scheduling system.
 A scheduling system decides at what time which calculation is done.
 The software used is called Slurm.
+
+???- question "Why not write SLURM?"
+
+    Indeed, Slurm started as an abbreviation of 'Simple Linux Utility 
+    for Resource Management'. However, 
+    the [Slurm homepage](https://slurm.schedmd.com/) uses 'Slurm'
+    to describe the tool, hence we use Slurm too.
 
 This page describes how to use Slurm in general.
 See [optimizing jobs](optimizing_jobs.md)
