@@ -3208,3 +3208,7 @@ jobid
 bwa
 TiB
 macOS
+FastQ
+GFF
+NGS
+
