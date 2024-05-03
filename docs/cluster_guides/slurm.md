@@ -31,30 +31,17 @@ The Slurm system is accessed using the following commands:
 
 ```mermaid
 flowchart TD
-
-    %% Give a white background to all nodes, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
-    %% Graph nodes for files and calculations
-    classDef file_node fill:#fcf,color:#000,stroke:#f0f
-    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
-
-    subgraph sub_inside[IP inside SUNET]
-      subgraph sub_cluster_env[Cluster environment]
-        login_node(User on login node)
-        interactive_node(User on interactive node)
-        computation_node(Computation node):::calculation_node
-      end
+  subgraph sub_inside[IP inside SUNET]
+    subgraph sub_cluster_env[Cluster environment]
+      login_node(User on login node)
+      interactive_node(User on interactive node)
+      computation_node(Computation node):::calculation_node
     end
+  end
 
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_cluster_env fill:#ffc,color:#000,stroke:#ffc
-
-    login_node --> |move user, interative|interactive_node
-    login_node ==> |submit jobs, sbatch|computation_node
-    computation_node -.-> |can become| interactive_node
+  login_node --> |move user, interative|interactive_node
+  login_node ==> |submit jobs, sbatch|computation_node
+  computation_node -.-> |can become| interactive_node
 ```
 
 > The different types of nodes an UPPMAX cluster has.
