@@ -35,6 +35,5 @@ jobs:
         with:
           config-file: 'mlc_config.json'
           use-quiet-mode: 'no'
-          folder-path: '../'
-
+          use-verbose-mode: 'yes'
 
