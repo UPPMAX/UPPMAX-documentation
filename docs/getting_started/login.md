@@ -4,8 +4,10 @@ One needs to log in into an UPPMAX cluster to use it.
 
 There are two environments one can login to:
 
-- a remote desktop environment, using a webbrowser
-- a console environment, using an SSH clinet
+- a remote desktop environment
+  - using a webbrowser 
+  - using a local ThinLinc client
+- a console environment, using an SSH client
 
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
 
