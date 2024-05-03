@@ -72,6 +72,7 @@ nav:
       - Misc tools:
         - darsync: cluster_guides/darsync.md
         - jobstats: software/jobstats.md
+        - projplot: software/projplot.md
         - Rclone: software/rclone.md      
         - SSH: software/ssh.md
       
