@@ -24,10 +24,12 @@ Output will look similar to this:
 
 > Example `projplot` output. The horizontal axis
 > shows the days before today, the vertical axis shows
-> the core hours used on that day. For this example project,
-> apparently, the maximum number of core hours per day is 800.
+> the cores used on that day (hence, the amount of core hours 
+> is the area under the curve).
+> For this example project,
+> apparently, the maximum number of cores per day is 800.
 
-This graph shows you the projects core hour usage during the last 30 days. 
+This graph shows you the projects core usage during the last 30 days. 
 The heights of the peaks in the plot shows you 
 how many cores that were used simultaneously, 
 and the width show you for how long they were used.
