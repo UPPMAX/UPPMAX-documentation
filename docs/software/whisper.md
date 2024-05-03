@@ -26,7 +26,8 @@ Currently Loaded Modules:
 
 ## Usage
 
-Whisper can be run as a command-line tool or as a Python library. 
+Whisper can be run as a command-line tool or as a Python library.  
+An interactive Whisper GUI can be run by running the following command on terminal: `whisper-gui.sh`. 
 
 ### Command-line
 
