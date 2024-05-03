@@ -93,38 +93,82 @@ This job has the same problem as the example above, but in a more extreme way. I
  
 This is one of the grayer areas. The job is using most of the cores from time to time, but is also running single threaded a lot. The memory usage is what you would get by booking only 2 cores (~16GB) as well, so no reason to book a whole, or high memory, node because of that. This job would be better off being booked with 4 cores. The multithreaded steps would be quicker because of the extra cores, and the single threaded parts would take up a proportionally smaller part of the job. The larget part of the job that is taken up by single threaded calculations, the more clear is it that the job should be adjusted. It's hard to draw a clear line when it should be adjusted, but try to keep the overall efficiency of the job at 75% or better. 
 
-## Modes of jobstats discovery
+## Modes of `jobstats` discovery
 
 There are five modes for discovery, 
 depending on what the user provides on the command line: 
+
 - (1) discovery by job number for a completed job; 
 - (2) discovery by job number for a currently running job; 
 - (3) discovery by node and job number, for a completed or running job; 
-- (4) discovery by project; or 
+- (4) discovery by project
 - (5) discovery via information provided on stdin. 
 
 In the example command lines below, the -p/--plot option requests that plots of job resource usage are created.
 
-Mode 1: jobstats -p jobid1 jobid2 jobid3
+### `jobstats` discovery mode 1: discovery by job number for a completed job
 
+Discovery by job number for a completed job:
+
+```
+jobstats -p jobid1 jobid2 jobid3
+```
 The job numbers valid on the cluster. finishedjobinfo is used to determine further information for each job. This can be rather slow, and a message asking for your patience is printed for each job. If multiple queries are expected it would be quicker to run finishedjobinfo yourself separately, see Mode 4 below. See Mode 2 for a currently running job.
 
-Mode 2: jobstats -p -r jobid1 jobid2 jobid3
+### `jobstats` discovery mode 2: discovery by job number for a currently running job
+
+Discovery by job number for a currently running job.
+
+```
+jobstats -p -r jobid1 jobid2 jobid3
+```
 
 Job numbers of jobs currently running on the cluster. The SLURM squeue tool is used to determine further information for each running job.
 
-Mode 3: jobstats -p -n m15,m16 jobid
+### `jobstats` discovery mode 3: discovery by node and job number, for a completed or running job
 
-finishedjobinfo is not called and Uppmax's stored job statistics files for the cluster of interest are discovered directly. If you know which node(s) your job ran on or which nodes you are interested in, this will be much faster than Mode 1.
+Discovery by node and job number, for a completed or running job.
 
-Mode 4: jobstats -p -A project
+```
+jobstats -p -n m15,m16 jobid
+```
+
+`finishedjobinfo` is not called and 
+UPPMAX's stored job statistics files for the cluster of interest are discovered directly. 
+If you know which node(s) your job ran on 
+or which nodes you are interested in, this will be much faster than Mode 1.
+
+### `jobstats` discovery mode 4: discovery by project
+
+Discovery by project.
+
+```
+jobstats -p -A project
+```
 
 When providing a project name that is valid for the cluster, finishedjobinfo is used to determine further information on jobs run within the project. As for Mode 1, this can be rather slow, and a message asking for your patience is printed. Furthermore only finishedjobinfo defaults for time span etc. are used for job discovery. If multiple queries are expected or additional finishedjobinfo options are desired, see Mode 5 below.
 
-Mode 5: finishedjobinfo -q project | jobstats - -p
+### `jobstats` discovery mode 5: discovery via information provided on stdin
 
-Accept input on stdin formatted like finishedjobinfo output. Note the single dash (-) option given to jobstats; the long form of this option is --stdin. This mode can be especially useful if multiple queries of the same job information are expected. In this case, save the output of a single comprehensive finishedjobinfo query, and extract the parts of interest and present them to this script on stdin. For example, to produce analyses of all completed jobs in a project during the current calendar year, and produce separate tarballs analysing all jobs and providing jobstats plots for each user during this same period:
+Discovery via information provided on stdin.
 
+```
+finishedjobinfo -q project | jobstats - -p
+```
+
+Accept input on stdin formatted like finishedjobinfo output. 
+Note the single dash (-) option given to jobstats; 
+the long form of this option is --stdin. 
+This mode can be especially useful if 
+multiple queries of the same job information are expected. 
+In this case, save the output of a single comprehensive finishedjobinfo query, 
+and extract the parts of interest and present them to this script on stdin. 
+
+For example, to produce analyses of all completed jobs in a project 
+during the current calendar year, and produce separate tarballs 
+analysing all jobs and providing jobstats plots for each user during this same period:
+
+```
 project=myproj
 finishedjobinfo -q -y ${project} > ${project}-year.txt
 grep 'jobstat=COMPLETED' ${project}-year.txt | jobstats - > ${project}-completed-jobs.txt
@@ -132,7 +176,10 @@ for u in user1 user2 user3 ; do
    grep "username=${u}" ${project}-year.txt | jobstats - -p > ${u}-jobs.txt
    tar czf ${u}-jobs.tar.gz ${u}-jobs.txt *-${project}-${u}-*.png
 done
-Command-Line Options
+```
+
+## Command-Line Options
+
 jobstats -h may be specified to get detailed help including a complete list of command line options.
 
 -M cluster         Cluster on which jobs were run [default current cluster]
