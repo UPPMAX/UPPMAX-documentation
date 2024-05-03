@@ -90,3 +90,7 @@ flags:
 ``` bash
 sbatch job_script.sh
 ```
+
+## Links
+
+- [Older Slurm user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/)
