@@ -15,9 +15,7 @@ how to fix Slurm errors.
 
 ## `sbatch` (and `interactive`) on Bianca
 
-`sbatch` (and `interactive`) work the same as on other clusters,
-the only difference is that one need specify one want to use
-the Bianca computer nodes.
+`sbatch` (and `interactive`) work the same as on [Rackham](rackham.md).
 
 ???- question "Want to start an interactive job?"
 
