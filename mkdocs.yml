@@ -70,7 +70,8 @@ nav:
         - Perl: software/perl.md
         - R: software/r.md
       - Misc tools:
-        - Darsync: cluster_guides/darsync.md
+        - darsync: cluster_guides/darsync.md
+        - jobstats: software/jobstats.md
         - Rclone: software/rclone.md      
         - SSH: software/ssh.md
       
