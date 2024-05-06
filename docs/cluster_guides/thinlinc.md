@@ -1,13 +1,32 @@
 # ThinLinc graphical connection user guide
 
 ## Introduction
-There are two ways of connecting to the clusters using ThinLinc. The first is by using the web client and connect from the browser. This can be useful for smaller tasks or if you are unable to install software on the computer you are currently using. Please see below for more information. The second option is to download the ThinLinc client, which offers higher performance and is recommended for most users. The client can be downloaded from the [official download page](https://www.cendio.com/thinlinc/download/).
 
+There are two ways of connecting to the clusters using ThinLinc. 
+The first is by using the web client and connect from the browser. 
+This can be useful for smaller tasks 
+or if you are unable to install software on the computer you are currently using. 
+Please see below for more information. 
+
+The second option is to download the ThinLinc client, 
+which offers higher performance and is recommended for most users. 
+The client can be downloaded from the [official download page](https://www.cendio.com/thinlinc/download/).
 
 ## Clusters that have ThinLinc enabled
-Currently, ThinLinc is enabled for the Milou, Rackham and Bianca clusters. Also, any groups that have special access may be able to use ThinLinc on another machines. Bianca is handled a bit special. See [Bianca user guide](../getting_started/bianca_portal.md).
+
+Currently, ThinLinc is enabled for 
+the [Bianca](../cluster_guides/bianca.md) 
+and [Rackham](../cluster_guides/rackham.md) clusters. 
+Also, any groups that have special access may be able to 
+use ThinLinc on another machines. 
+Bianca is handled a bit special. 
+
+???- info "For UPPMAX staff"
+
+    TODO: [https://github.com/UPPMAX/UPPMAX-documentation/issues/38](https://github.com/UPPMAX/UPPMAX-documentation/issues/38)
 
 ## Connecting
+
 ### Login node connection
 Just as you can log in via ssh to a login node to get a text session, you can connect with ThinLinc to get a graphical desktop session on a login node. These are subject to the same limitations normal login sessions are (memory and run time limits, don't do anything that might disturb other users).
 
