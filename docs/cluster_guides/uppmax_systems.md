@@ -19,7 +19,7 @@ Below these systems are discussed.
 
 Computing systems allow a user to do heavier computational calculations.
 
-[UPPMAX has, among others, the following clusters](https://www.uppmax.uu.se/resources/systems/):
+UPPMAX has, among others, the following clusters:
 
 - Rackham: regular data, general purpose
 - Snowy: regular data, long runs and GPU:s
