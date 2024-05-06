@@ -50,6 +50,7 @@ nav:
     - Software-specific documentation:      
       - Whisper: software/whisper.md
       - Chemistry/physics:
+        - GAMESS_US: software/games_us.md
         - Gaussian: software/gaussian.md
         - GROMACS: software/gromacs.md
         - Molcas: software/openmolcas.md
