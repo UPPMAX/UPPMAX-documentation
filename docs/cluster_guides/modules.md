@@ -35,7 +35,7 @@ Using explicit versions of software is easy to do
 and improves the reproducibility of the scripts written.
 
 To preserve hard disk space, Bianca also
-has [multiple big databases installed](https://www.uppmax.uu.se/resources/databases/).
+has [multiple big databases installed](../databases/overview.md).
 
 !!! warning 
     - To access bioinformatics tools, load the **bioinfo-tools** module first.
@@ -387,7 +387,7 @@ Full command            |Shorthand syntax
 ## Links
 
  * [Almost all installed software on UPPMAX](https://www.uppmax.uu.se/resources/software/installed-software/)
- * [Almost all installed databases on UPPMAX](https://www.uppmax.uu.se/resources/databases/)
+ * [Almost all installed databases on UPPMAX](../databases/overview.md)
  * [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
  * [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
 
