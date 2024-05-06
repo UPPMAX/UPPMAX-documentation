@@ -516,7 +516,7 @@ Python programming [here](python_programming.md)
 
 There are these UPPMAX courses related to Python:
 
-- [Introduction to Python](https://github.com/UPPMAX/uppmax_intro_python), which is one day of the [introduction to UPPMAX course](https://www.uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/) which takes four days in total  
+- [Introduction to Python](https://github.com/UPPMAX/uppmax_intro_python)
 - [1-day workshop 'Using Python in a HPC environment'](https://uppmax.github.io/HPC-python/)
 - [3-day course on Python, Julia and R](https://uppmax.github.io/R-python-julia-HPC/)
 
