@@ -14,13 +14,13 @@ body:
   attributes:
     label: InfoGlue link
     description: What is the InfoGlue link?
-    default: https://www.uppmax.uu.se/...
+    value: https://www.uppmax.uu.se/...
   validations:
     required: false
 - type: input
   attributes:
     label: Page name in this repo
     description: What is the page's location in this repo?
-    default: /docs/...
+    value: /docs/...
   validations:
     required: false
