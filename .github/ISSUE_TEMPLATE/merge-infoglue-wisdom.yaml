@@ -2,16 +2,24 @@ name: Merge InfoGlue wisdom
 description: Merge InfoGlue wisdom to here
 title: "'[topic]: merge InfoGlue wisdom"
 labels: ["infoglue"]
-projects: ["octo-org/1", "octo-org/44"]
 body:
-- type: markdown
+- type: textarea
   attributes:
     value: |
       The InfoGlue link is broken. 
-      Consider merging the InfoGlue wisdom to here (if not already done so)
 
-      - InfoGlue link: [broken link]
-      - Here: `docs/[...]`
-- type: textarea
+      Consider merging the InfoGlue wisdom to here (if not already done so).
+- type: edit
   attributes:
-    label: "What's wrong?"
+    label: InfoGlue link
+    description: What is the InfoGlue link?
+    default: https://www.uppmax.uu.se/...
+  validations:
+    required: false
+- type: edit
+  attributes:
+    label: Page name in this repo
+    description: What is the page's location in this repo?
+    default: /docs/...
+  validations:
+    required: false
