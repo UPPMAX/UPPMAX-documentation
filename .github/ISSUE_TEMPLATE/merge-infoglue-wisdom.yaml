@@ -5,18 +5,19 @@ labels: ["infoglue"]
 body:
 - type: textarea
   attributes:
+    label: The problem
     value: |
       The InfoGlue link is broken. 
 
       Consider merging the InfoGlue wisdom to here (if not already done so).
-- type: edit
+- type: input
   attributes:
     label: InfoGlue link
     description: What is the InfoGlue link?
     default: https://www.uppmax.uu.se/...
   validations:
     required: false
-- type: edit
+- type: input
   attributes:
     label: Page name in this repo
     description: What is the page's location in this repo?
