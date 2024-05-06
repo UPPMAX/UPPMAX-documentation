@@ -103,7 +103,7 @@
 
 - The UPPMAX staff has already other ways to install most software applications. 
 - Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
-- [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
+- [UPPMAX Spack user guide](../software/spack.md)
 
 ### Own development...
 
