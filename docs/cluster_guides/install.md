@@ -88,22 +88,25 @@
         - therefore, probably more disk space is needed
 
 #### Singularity
-- [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
+
+- [Singularity user guide](../software/singularity.md)
 
 #### Docker
 - Docker will unfortunately not work on the clusters, since it requires root permission.
 
 !!! info "More info"
 
-    - [Singularity user guide](https://www.uppmax.uu.se/support/user-guides/singularity-user-guide/)
-    - [Part from Bianca course but applicable aslo on Rackham](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/extra/containers.md)
+    - [Singularity user guide](../software/singularity.md)
+    - [Part from Bianca course but applicable also on Rackham](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/extra/containers.md)
     
 ### Spack
+
 - The UPPMAX staff has already other ways to install most software applications. 
 - Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
 - [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
 
 ### Own development...
+
 - You may have your own code that you want to run on UPPMAX.
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
