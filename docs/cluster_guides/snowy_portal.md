@@ -29,7 +29,9 @@ All access to Snowy is done using the batch system Slurm, either as an interacti
 
 ## Using the batch system
 
-To allow a fair and efficient usage of the system we use a resource manager to coordinate user demands. On Snowy we use the [Slurm](http://slurm.schedmd.com) resource manager. Read our [Slurm user guide](http://uppmax.uu.se/support/user-guides/slurm-user-guide/) for detailed information on how to use Slurm.
+To allow a fair and efficient usage of the system we use a resource manager to coordinate user demands. 
+On Snowy we use [the Slurm resource manager](../cluster_guides/slurm.md),
+as is discussed in more detail there.
 
 **Note:** When accessing snowy from Rackhams login nodes you must always use the flag -M for all Slurm commands.  
 Examples:
