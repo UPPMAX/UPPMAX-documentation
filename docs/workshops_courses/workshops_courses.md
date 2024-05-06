@@ -2,7 +2,7 @@
 
 ## Course pages
 
-- [Intro to UPPMAX — summer](https://uppmax.uu.se/support/courses-and-workshops/introductory-course-summer-2023/)
+- Intro to UPPMAX:
   - [First intro day](https://uppmax.github.io/uppmax_intro/) 
   - [Intro to Python](https://uppmax.github.io/uppmax_intro_python/)
 - [Introduction to Bianca](https://uppmax.github.io/bianca_workshop)
