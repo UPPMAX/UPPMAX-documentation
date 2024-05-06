@@ -15,17 +15,20 @@ Here you will find all information related to UPPMAX's Snowy HPC cluster.
 
 Snowy is different from other clusters at UPPMAX in that 
 there are no login nodes for Snowy. 
-All access to this system is done via secure shell (a.k.a [SSH](../software/ssh.md)) interactive login to the login node, using the domain name **rackham.uppmax.uu.se**
+All access to this system is done via secure shell (a.k.a [SSH](../software/ssh.md)) interactive login to the login node, 
+using the domain name **rackham.uppmax.uu.se**
 
-> `ssh -AX user@rackham.uppmax.uu.se`
+> `ssh -X user@rackham.uppmax.uu.se`
 
-To get a user account and start using UPPMAX, see the [Getting Started](http://uppmax.uu.se/support/getting-started/) page.
+See [the UPPMAX page on how to get a user account](../getting_started/user_account.md) page.
+on how to get a user account.
 
-For questions concerning accounts and access to Rackham and Snowy, please contact [UPPMAX support](mailto:support@uppmax.uu.se).
+For questions concerning accounts and access to [Rackham](rackham.md) and [Snowy](snowy.md),
+please contact [UPPMAX support](../support.md).
 
 Note that the machine you arrive at when logged in is only a so called login node, where you can do various smaller tasks. We have [some limits](http://uppmax.uu.se/support/user-guides/login-node-restrictions/) in place that restricts your usage. For larger tasks you should use our batch system that pushes your jobs onto other machines within the cluster.
 
-All access to Snowy is done using the batch system Slurm, either as an interactive job or non-interactive batch jobs.
+All access to [Snowy](snowy.md) is done using the batch system Slurm, either as an interactive job or non-interactive batch jobs.
 
 ## Using the batch system
 
@@ -99,7 +102,8 @@ Rackham has two node types, _thin_ being the typical cluster node and _fat_ node
 
 ## File storage and disk space
 
-At UPPMAX we have a few different kinds of storage areas for files, see [Disk Storage User Guide](http://uppmax.uu.se/support/user-guides/disk-storage-guide/ "File Storage") for more information and recommended use.
+At UPPMAX we have a few different kinds of storage areas for files, 
+see [Disk Storage User Guide](../cluster_guides/uppmax_systems.md) for more information and recommended use.
 
 ## Very Long jobs
 
