@@ -14,10 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Remove lines with false positives
-        run: |
-          sed -i 's/.*check_links.yaml.*//g' README.md
-          sed -i 's/.*check_spelling.yaml.*//g' README.md
+      #- name: Remove lines with false positives
+      #  run: |
+      #    sed -i 's/.*check_links.yaml.*//g' README.md
+      #    sed -i 's/.*check_spelling.yaml.*//g' README.md
 
       # If there is a valid external link that fails,
       # add it to mlc_config.json
