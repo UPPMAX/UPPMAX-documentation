@@ -1,8 +1,8 @@
 # Singularity User Guide
 
-Singularity [www.sylabs.io/docs](https://www.sylabs.io/docs) provide tools for running containters that are more suitable to traditional HPC environments when some other tools such as Docker or lxc. These containers can be portable and could be run both on your desktop machine and our clusters.
+Singularity [www.sylabs.io/docs](https://www.sylabs.io/docs) provide tools for running containers that are more suitable to traditional HPC environments when some other tools such as Docker or lxc. These containers can be portable and could be run both on your desktop machine and our clusters.
 
-One of the ways in which Singularity is more suitable for HPC is that it very actively restricts permissions so that you do not gain access to addtitional resources while inside the container. One consequence of this is that some common tools like ping or sudo do not work when run within a container (as a regular user).
+One of the ways in which Singularity is more suitable for HPC is that it very actively restricts permissions so that you do not gain access to additional resources while inside the container. One consequence of this is that some common tools like ping or sudo do not work when run within a container (as a regular user).
 
 Singularity is installed and usable to run custom container images on the clusters bianca and rackham.
 
@@ -40,7 +40,7 @@ Images run with the same linux kernel as the rest of the system. For HPC we syst
 ## Creating your own images
 If you have singularity on your own machine, you can create your own images and upload and run them from UPPMAX. Creating images directly on UPPMAX is not possible as it requires administrator (root) privileges (but see below).
 
-Singularity provides funcitonality to create and bootstrap images, and the installation contains example definitions for bootstrapping various images you can use as a start (like Ubuntu, Scientific Linux and so on). If you normally run Linux and have administrative access, you can install Singularity and build images locally, typical usage would be:
+Singularity provides functionality to create and bootstrap images, and the installation contains example definitions for bootstrapping various images you can use as a start (like Ubuntu, Scientific Linux and so on). If you normally run Linux and have administrative access, you can install Singularity and build images locally, typical usage would be:
 
 ```bash
 sudo singularity build myimage.img examples/ubuntu.def
