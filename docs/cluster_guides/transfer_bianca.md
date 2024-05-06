@@ -22,11 +22,6 @@ After discussing the `wharf`, each of these methods is discussed in detail.
 The `wharf` is like a "postbox" :postbox: for data/file exchange between the Internet restricted Bianca cluster and the remaining of the World Wide Internet. This "postbox" is reachable to transfer data from two internal servers -
 `bianca-sftp.uppmax.uu.se` and `transit.uppmax.uu.se`.
 
-:link: Links to relevant information:
-
-- <https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/> 
-    - section 3: Transfer files to and from Bianca
-
 --- 
 **The `wharf` location on Bianca**
 
