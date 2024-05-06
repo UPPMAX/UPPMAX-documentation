@@ -32,7 +32,7 @@ sftp sven@rackham.uppmax.uu.se
 
 4. In `sftp`, upload/download files to/from Rackham
 
-Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
+Basic `sftp` command can be found [here](../software/sftp.md).
 
 ```mermaid
 flowchart TD

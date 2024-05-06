@@ -77,7 +77,7 @@ Be sure to really use a SFTP client -- not just a SCP client.
 
 ## Using standard SFTP client (command line)
 ---
-<https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/>
+<../software/sftp.md>
 
 ```bash
 $ sftp -q <username>-<projid>@bianca-sftp.uppmax.uu.se 

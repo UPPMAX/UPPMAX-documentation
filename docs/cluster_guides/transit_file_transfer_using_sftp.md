@@ -59,7 +59,7 @@ For example, to upload a file to Transit:
 put my_file.txt
 ```
 
-Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
+Basic `sftp` command can be found [here](../software/sftp.md).
 
 ## Where do my files end up?
 

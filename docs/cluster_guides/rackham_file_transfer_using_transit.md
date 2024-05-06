@@ -213,7 +213,7 @@ This means that if you upload files to Transit using SFTP,
 they will remain there as long a the connection is active.
 These files need to be forwarded to more permanent storage.
 
-Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
+Basic `sftp` command can be found [here](../software/sftp.md).
 
 ### Login to transit
 
@@ -264,7 +264,7 @@ This means that if you upload files to Transit using SFTP,
 they will remain there as long a the connection is active.
 These files need to be forwarded to more permanent storage.
 
-Basic `sftp` command can be found [here](https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/).
+Basic `sftp` command can be found [here](../software/sftp.md).
 
 ## Overview
 
