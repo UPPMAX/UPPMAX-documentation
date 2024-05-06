@@ -1,6 +1,6 @@
 ---
 name: Merge InfoGlue wisdom
-about: Merge InfoGlue wisdom to here
+description: Merge InfoGlue wisdom to here
 title: '[topic]: merge InfoGlue wisdome
 labels: 'infoglue'
 assignees: ''
