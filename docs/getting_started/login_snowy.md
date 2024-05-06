@@ -13,7 +13,8 @@
     - We'll go through how to reach Snowy
 
 !!! warning
-    - If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
+
+    If you lack a user account, visit the [UPPMAX page on user accounts](user_account.md)
 
 ## What is Snowy?
 

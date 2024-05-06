@@ -15,7 +15,8 @@
     - Enable graphics
 
 !!! warning
-    - If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
+
+    If you lack a user account, visit the [UPPMAX page on user accounts](user_account.md)
 
 ## General understanding
 
