@@ -1,8 +1,11 @@
+
+# Check links on the 21st day of the month.
+# 21st as the first letter of this repo is the 21st letter in the alphabet.
 on:
   push:
   pull_request:
   schedule:
-  - cron: "0 0 12 * *"
+  - cron: "0 0 21 * *"
 
 name: check-links
 
