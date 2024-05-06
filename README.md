@@ -70,10 +70,6 @@ Filename                           |Descriptions
 [.spellcheck.yml](.spellcheck.yml) |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
 [.wordlist.txt](.wordlist.txt)     |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
 
-## Broken link
-
-[https://www.uu.se/centrum/uppmax/support/user-guides/tensorflow-user-guide/](https://www.uu.se/centrum/uppmax/support/user-guides/tensorflow-user-guide/)
-
 ## Credits
 
 The website is created using
