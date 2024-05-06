@@ -1,0 +1,14 @@
+name: Merge InfoGlue wisdom
+description: Merge InfoGlue wisdom to here
+title: "'[topic]: merge InfoGlue wisdom"
+labels: ["infoglue"]
+projects: ["octo-org/1", "octo-org/44"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The InfoGlue link is broken. 
+        Consider merging the InfoGlue wisdom to here (if not already done so)
+
+        - InfoGlue link: [broken link]
+        - Here: `docs/[...]`
