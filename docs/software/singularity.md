@@ -51,13 +51,13 @@ See [https://www.sylabs.io/guides/2.6/user-guide/container_recipes.html](https:/
 ## Using the sylabs cloud remote builder, an example
 Even if you don't run Linux on your desktop system, you can still build your own images. Typically software pages contain enough information as installation instructions to create a modified recipe to build images for software.
 
-[Sylabs](https://www.sylabs.io/) (the company currently developing singularity) offer an experimental cloud service for building images from recipies. Here's an example on how to use that to build an image for a software (for this example, we picked [sortmerna](https://github.com/biocore/sortmerna)  as it was the first user software request that came up).
+[Sylabs](https://www.sylabs.io/) (the company currently developing singularity) offer an experimental cloud service for building images from recipes. Here's an example on how to use that to build an image for a software (for this example, we picked [sortmerna](https://github.com/biocore/sortmerna)  as it was the first user software request that came up).
 
 - First, we need to sign in to the sylabs remote builder, available at https://cloud.sylabs.io. It allows sign in through various providers (currently Google, Microsoft, GitHub, GitLab). If you don't have an account with one of these, at least one of them is likely to offer free registration.
 
 - Once signed in, we want to create a project for this software, so we click on "Singularity Library" in the top menu and select "Create a new project", set ourselves as owner and enter sortmerna as project name. We also select to make images for this project public.
 
-- Once we click onwards, we can create our first image for the project. This can be done either by pushing an image from a client (commands are given) or by building in the cloud service.
+- Once we click onward, we can create our first image for the project. This can be done either by pushing an image from a client (commands are given) or by building in the cloud service.
 
 - Since we want to use the cloud service, we click remote builder and get a box to fill in an image recipe. We also get a box to enter a tag or version and the possibility to enter a description.
 
