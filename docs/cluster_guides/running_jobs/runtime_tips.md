@@ -2,7 +2,9 @@
 
 ## How can I run X11 applications inside GNU screen?
 
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-x11-applications-inside-gnu-screen/
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-x11-applications-inside-gnu-screen/`
 
 **If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?
 
@@ -24,27 +26,43 @@ export DISPLAY=localhost:45.0
 (NOTE: The actual number above might be different for you, and should be changed accordingly!)
 
 ## Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/your-priority-in-the-waiting-job-queue/
+
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/your-priority-in-the-waiting-job-queue/`
 
 [What do the fields PRIORITY and REASON mean in "jobinfo" output?](jobinfo_reason.md)
 
 ## What is causing the sbatch script error "Unknown shell type 'load'"?
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/sbatch-script-error--unknown-shell-type--load--/
+
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/sbatch-script-error--unknown-shell-type--load--/`
 
 If you're getting the error message
 
+```
 init.c(379):ERROR:109: Unknown shell type load
+```
+
 when running your sbatch script, then your script is probably starting with the line
 
+```
 #!/bin/bash
+```
 To remedy this you need to make sure that your script starts with
 
+```
 #!/bin/bash -l
-I.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
+```
+
+i.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
 
 ## How can I see my job's memory usage?
 
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-see-my-job-s-memory-usage/
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-see-my-job-s-memory-usage/`
 
 Historical information can first of all be found by issuing the command "finishedjobinfo -j". That will print out the maximum memory used by your job.
 
@@ -52,9 +70,12 @@ If you want more details then we also save some memory information each 5 minute
 
 You can also ask for an e-mail containing the log, when you submit your job with sbatch or start an "interactive" session, by adding a "-C usage_mail" flag to your command. Two examples:
 
+```
 sbatch -A testproj -p core -n 5 -C usage_mail batchscript1
- 
+
 interactive -A testproj -p node -n 1 -C "fat&usage_mail"
+```
+
 As you see, you have to be careful with the syntax when asking for two features, like "fat" and "usage_mail", at the same time. The logical AND operator "&" combines the flags.
 
 If you overdraft the RAM that you asked for, you will probably get an automatic e-mail anyway.
@@ -76,7 +97,9 @@ USS is the total memory used by the user without shared buffers or caches. RSS i
 
 ## I want my program to send data to both stdout and to a file but nothing comes until the program ends
 
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/i-want-my-program-to-send-data-to-both-stdout-and-to-a-file/
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/i-want-my-program-to-send-data-to-both-stdout-and-to-a-file/`
 
 There is a program called unbuffer. You could try using it like (tee takes care of sending both to stdout and to a file):
 
@@ -86,7 +109,9 @@ unbuffer your_program |tee some_output_file
 
 ## My job has very low priority! What can be wrong?
 
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/why-does-my-job-have-very-low-priority/
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/why-does-my-job-have-very-low-priority/`
 
 One reason could be that your project has consumed its allocated hours.
 
@@ -96,6 +121,7 @@ If you have overdrafted your granted time it's still possible to run jobs. You w
 
 To check status for your projects, run
 
+```
 $ projinfo
 (Counting the number of core hours used since 2010-05-12/00:00:00 until now.)
  
@@ -104,6 +130,8 @@ User
 -----------------------------------------------------
 s00101-01          72779.48               50000
 some-user       72779.48 
+```
+
 If there are enough jobs left in projects that have not gone over their allocation, jobs associated with this project are therefore stuck wating at the bottom of the jobinfo list until the usage for the last 30 days drops down under its allocated budget again.
 
 On the other side they may be lucky to get some free nodes, so it could happen that they run as a bonus job before this happens.
@@ -122,7 +150,9 @@ If you ask for a longer run time (TimeLimit) than the maximum on the system, you
 
 ## I have strange problems with my text-files / scripts when they have been copied from other computers
 
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/strange-problems-with-text-files---scripts-copied-from-other-computers/
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/strange-problems-with-text-files---scripts-copied-from-other-computers/`
 
 One reason is that copy-and-paste sometimes doesn't work. Rich text files and PDF's often replace symbols like quotes and white space with different symbols to improve readability, and copying from sources like these is generally not a good idea.
 
@@ -130,33 +160,47 @@ Another possible reason is that lines of text files are terminated differently o
 
 This might happen because your file was created, for instance, on a Windows computer and later copied to UPPMAX Linux machines. Text files have different line terminations on for instance Windows and Linux/Unix. If this is an ordinary textfile you can test this by using the "file" command, like this:
 
+```
 $ file myfile
 myfile: ASCII text, with CRLF line terminators
-CRLF terminators tells you that each line of the file is ended by both a carriage-return and a line-feed, as on Windows. On all UPPMAX systems, the file can simply be converted to UNIX style text files using the "dos2unix" command:
+```
 
+`CRLF terminators` tells you that each line of the file is ended by both a carriage-return and a line-feed, as on Windows. On all UPPMAX systems, the file can simply be converted to UNIX style text files using the "dos2unix" command:
+
+```
 $ dos2unix myfile
 dos2unix: converting file myfile to UNIX format ...
+```
 Checking the file again with the "file" command reveals that it now has ordinary UNIX line terminators (only LF):
 
+```
 $ file myfile
 myfile: ASCII text
+```
+
 Similarly, a file from a Mac can be converted using the "mac2unix" command.
 
 If a shell script is behaving strangely, it can be due to the same problem. Trying to execute a program where the end of line marker is wrong might result in an error message such as the one below:
 
+```
 $ cat myscript.sh
 #!/bin/sh
 ./program
 $ ./myscript.sh
 : No such file or directory
+```
+
 The "file" command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable". Opening the script using "vi" shows at the bottom of the screen "myscript.sh" [dos] 2L, 22C. The "[dos]" is a sure marker of the same problem. Opening the same file in emacs reveals the same thing (-uu-(DOS)---F1 myscript.sh). Convert the script to unix-format using the "dos2unix" command as described above. An alternative is to copy the file and use the "dos2unix" command on the copy and compare the file sizes using "ls -l":
 
+```
 $ ls -l testme.sh
 rwxr-xr-x  1 daniels uppmax_staff 22 Dec 15 10:53 testme.sh
 $ dos2unix testme.sh
 dos2unix: converting file testme.sh to UNIX format ...
 $ ls -l testme.sh
 -rwxr-xr-x  1 daniels uppmax_staff 20 Dec 15 10:54 testme.sh
+```
+
 Note that the file size went from 22 bytes to 20, reflecting that the two CR bytes at the (almost) end of the line were removed.
 
 ## My program suddenly seems to stop executing but it does not crash, the process is still alive. What is wrong?
