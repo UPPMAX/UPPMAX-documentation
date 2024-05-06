@@ -54,7 +54,7 @@ Note that not all jobs will produce jobstats files, particularly if the job was 
 
 ## Interpretation guidelines
 
-When you are looking through the plots you just created you can start thinking of how you can change your bookings so that the jobs are more efficienct. Usually it's just a matter of changing how many cores you book and the problem is solved. Here are some guidelines that you can follow when looking for ineffecient jobs:
+When you are looking through the plots you just created you can start thinking of how you can change your bookings so that the jobs are more efficient. Usually it's just a matter of changing how many cores you book and the problem is solved. Here are some guidelines that you can follow when looking for inefficient jobs:
 
 Is the blue line (the jobs cpu usage) at the top of the graph most of the time (>80%)? If so, no need to do anything, no need to check the rest of this list.
 Is the horizontal dotted black line (the jobs max memory usage) close to the top of the graph (>80%)? If so, no need to do anything, no need to check the rest of this list.
