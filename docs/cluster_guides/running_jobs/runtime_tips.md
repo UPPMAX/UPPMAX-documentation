@@ -92,7 +92,7 @@ USS is the total memory used by the user without shared buffers or caches. RSS i
 
 ## How to run interactively on a compute node?
 
-- [Start an interactive node](start_interactive_node.md)
+- [Start an interactive node](../start_interactive_node.md)
 - [More about interactive](interactive_more.md)
 
 ## I want my program to send data to both stdout and to a file but nothing comes until the program ends
