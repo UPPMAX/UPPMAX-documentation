@@ -229,9 +229,6 @@ both Rackham and Bianca. These are updated every third day. See above for these 
     -   Check your disk usage and quota limit with `uquota`
     -   Do a `conda clean -a` once in a while to remove unused and unnecessary files
 
-
--   [More info about Conda on UPPMAX](https://uppmax.uu.se/support/user-guides/conda-user-guide/)
-
 ## Working with Conda environments defined by files
 
 -   Create an environment based on dependencies given in an environment
