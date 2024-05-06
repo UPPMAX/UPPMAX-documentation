@@ -94,7 +94,7 @@ AND the international
 
 
 - The UPPMAX cloud Dis (Swedish word for "haze")  was introduced in October 2017 and upgraded during 2020.
-    - East region in the SNIC Science Cloud <https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/>
+    - East region in the SNIC Science Cloud, see [../cluster_guides/uppmax_cloud.md]
 
 - Other clouds
 

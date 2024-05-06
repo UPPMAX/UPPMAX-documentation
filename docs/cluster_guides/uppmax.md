@@ -55,6 +55,6 @@ flowchart TD
 Cloud services allow a user to have something active (typically a website)
 that can be accessed by the internet.
 
-For this, the [UPPMAX cloud](https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/)
+For this, the [UPPMAX cloud](../cluster_guides/uppmax_cloud.md)
 has a service called 'Dis' (the Swedish word for 'haze') and is part of
 the `EAST-1` region of the SNIC science cloud. 
