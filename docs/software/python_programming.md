@@ -341,6 +341,6 @@ Some features are:
 * [Python forum](https://www.python.org/community/forums/)
 * [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
 * [UPPMAX TensorFlow guide](tensorflow.md)
-* [UPPMAX PyTorch guide](https://www.uppmax.uu.se/support/user-guides/nvidia-deep-learning-frameworks/)
+* [UPPMAX PyTorch guide](pytorch.md)
 
 
