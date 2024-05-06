@@ -49,7 +49,9 @@ nav:
     - Software-specific documentation:      
       - Whisper: software/whisper.md
       - Chemistry/physics:
-        - GROMACS: software/gromacs.md 
+        - Gaussian: software/gaussian.md
+        - GROMACS: software/gromacs.md
+        - Molcas: software/openmolcas.md
       - Integrated development environments (IDE):
         - Jupyter: software/jupyter.md
         - RStudio: software/rstudio.md
