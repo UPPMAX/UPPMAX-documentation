@@ -22,6 +22,13 @@ jobs:
       #    sed -i 's/.*check_links.yaml.*//g' README.md
       #    sed -i 's/.*check_spelling.yaml.*//g' README.md
 
+      # The link checker will only work if mlc_config.json is a valid JSON
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: .github/workflows/valid_json_schema.json
+          INPUT_JSONS: mlc_config.json
+
       # If there is a valid external link that fails,
       # add it to mlc_config.json
       - name: External links must be checked, do not allow '0' in the 'aliveStatusCodes' of mlc_config.json
