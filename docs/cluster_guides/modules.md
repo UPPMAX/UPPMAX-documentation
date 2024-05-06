@@ -386,7 +386,7 @@ Full command            |Shorthand syntax
 
 ## Links
 
- * [Almost all installed software on UPPMAX](https://www.uppmax.uu.se/resources/software/installed-software/)
+ * [Almost all installed software on UPPMAX](../software/overview.md)
  * [Almost all installed databases on UPPMAX](../databases/overview.md)
  * [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
  * [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
