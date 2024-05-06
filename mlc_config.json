@@ -5,13 +5,19 @@
       "pattern": "github/workspace/docs/software/overview$"
     },
     {
-      "pattern": "^https://bianca.uppmax.uu.se"
+      "pattern": "^https://bianca.uppmax.uu.se$"
     },
     {
-      "pattern": "swcarpentry.github.io/r-novice-inflammation/"
+      "pattern": "^https://www.sylabs.io/$"
     },
     {
-      "pattern": "http://hostname:8888"
+      "pattern": "^https://docs.sylabs.io/guides/2.6/user-guide/container_recipes.html$"
+    },
+    {
+      "pattern": "swcarpentry.github.io/r-novice-inflammation/$"
+    },
+    {
+      "pattern": "^http://hostname:8888$"
     }
   ]
 }
