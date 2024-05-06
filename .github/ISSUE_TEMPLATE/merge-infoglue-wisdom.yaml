@@ -4,11 +4,14 @@ title: "'[topic]: merge InfoGlue wisdom"
 labels: ["infoglue"]
 projects: ["octo-org/1", "octo-org/44"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        The InfoGlue link is broken. 
-        Consider merging the InfoGlue wisdom to here (if not already done so)
+- type: markdown
+  attributes:
+    value: |
+      The InfoGlue link is broken. 
+      Consider merging the InfoGlue wisdom to here (if not already done so)
 
-        - InfoGlue link: [broken link]
-        - Here: `docs/[...]`
+      - InfoGlue link: [broken link]
+      - Here: `docs/[...]`
+- type: textarea
+  attributes:
+    label: "What's wrong?"
