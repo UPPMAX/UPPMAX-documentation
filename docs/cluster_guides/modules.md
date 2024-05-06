@@ -29,7 +29,8 @@ which version of which software they need.
 
 To have new software installed on an UPPMAX cluster,
 users must explicitly request a version of a piece of software.
-As of today, there are nearly [800+ programs and packages, with multiple versions](https://www.uppmax.uu.se/resources/software/installed-software/) 
+As of today, there are nearly 
+[800+ programs and packages, with multiple versions](../software/overview.md) 
 available on all UPPMAX clusters.
 Using explicit versions of software is easy to do 
 and improves the reproducibility of the scripts written.
