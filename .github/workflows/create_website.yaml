@@ -1,4 +1,5 @@
-name: ci
+name: create_website
+
 on:
   push:
     branches:
