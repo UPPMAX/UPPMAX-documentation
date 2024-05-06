@@ -51,7 +51,7 @@ for either active use (i.e. in calculations) or to archive it.
 Storage for active use is also called 'on-load' storage,
 where archived data is called 'off-load' storage.
 
-The [UPPMAX storage systems](https://www.uppmax.uu.se/resources/systems/storage-systems/) are:
+The UPPMAX storage systems are:
 
 - On-load: Castor for Bianca, Crex for Rackham
 - Off-load: Lutra for Rackham
@@ -73,12 +73,7 @@ flowchart TD
 
 ## UPPMAX Cloud services
 
-Cloud services allow a user to have something active (typically a website)
-that can be accessed by the internet.
-
-For this, the [UPPMAX cloud](../cluster_guides/uppmax_cloud.md)
-has a service called 'Dis' (the Swedish word for 'haze') and is part of
-the `EAST-1` region of the SNIC science cloud. 
+See the [UPPMAX cloud](../cluster_guides/uppmax_cloud.md).
 
 ### Difference between supercomputer and (high-performing) computer cluster
 

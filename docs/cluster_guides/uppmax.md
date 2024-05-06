@@ -25,36 +25,11 @@ that are discussed [here](uppmax_cluster.md)
 
 ### UPPMAX storage systems
 
-Storage systems allow a user to storage (big amounts of) data,
-for either active use (i.e. in calculations) or to archive it.
-Storage for active use is also called 'on-load' storage,
-where archived data is called 'off-load' storage.
-
-The [UPPMAX storage systems](https://www.uppmax.uu.se/resources/systems/storage-systems/) are:
-
-- On-load: Castor for Bianca, Crex for Rackham
-- Off-load: Lutra for Rackham
-
-```mermaid
-flowchart TD
-    UPPMAX[Which UPPMAX storage system?]
-    which_cluster[Which UPPMAX cluster?]
-    Castor
-    Lutra
-    usage_type{Type of use?}
-
-    UPPMAX-->which_cluster
-    which_cluster-->|Rackham|usage_type
-    which_cluster-->|Bianca|Castor
-    usage_type-->|on-load|Crex
-    usage_type-->|off-load|Lutra
-```
+See [UPPMAX systems](uppmax_systems.md).
 
 ### UPPMAX Cloud services
 
+See [UPPMAX systems](uppmax_systems.md).
+
 Cloud services allow a user to have something active (typically a website)
 that can be accessed by the internet.
-
-For this, the [UPPMAX cloud](../cluster_guides/uppmax_cloud.md)
-has a service called 'Dis' (the Swedish word for 'haze') and is part of
-the `EAST-1` region of the SNIC science cloud. 
