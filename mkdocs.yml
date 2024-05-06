@@ -33,6 +33,7 @@ nav:
       - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
       - Runtime tips: cluster_guides/running_jobs/runtime_tips.md
       - Storage and compression: cluster_guides/running_jobs/storage_compression.md
+      - Screen: cluster_guides/screen.md
     - Data transfer: 
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Migrate to Dardel: cluster_guides/dardel_migration.md
@@ -49,6 +50,7 @@ nav:
     - Software-specific documentation:      
       - Whisper: software/whisper.md
       - Chemistry/physics:
+        - GAMESS_US: software/games_us.md
         - Gaussian: software/gaussian.md
         - GROMACS: software/gromacs.md
         - Molcas: software/openmolcas.md
@@ -65,6 +67,7 @@ nav:
         - MetONTIIME: software/metontiime.md
         - Tracer: software/tracer.md
       - Machine Learning:
+        - NVIDIA DLF: software/nvidia-deep-learning-frameworks.md
         - TensorFlow: software/tensorflow.md
       - Programming languages:
         - Julia: software/julia.md
