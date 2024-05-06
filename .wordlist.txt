@@ -3294,3 +3294,5 @@ XA
 Xforwarding
 Xquartz
 fji
+shm
+
