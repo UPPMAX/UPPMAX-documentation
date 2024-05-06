@@ -1,5 +1,8 @@
 # How to run interactively on a compute node?
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-interactively-on-a-compute-node/
+
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-interactively-on-a-compute-node/`
 
 You may want to run an interactive application on one or several compute nodes. You may want to use one or several compute nodes as a development workbench, interactively. How can this be arranged?
 The program interactive may be what you are looking for.
@@ -10,10 +13,16 @@ The one parameter you must always specify is the project name. Let's assume for 
 
 To get one compute core with the proportional amount of RAM, we recommend you to use the most simple command on the login node for the cluster you want to use:
 
+```
 interactive -A p2010099
+```
+
 If you need more than one core, or special features on your node, you can specify that to the interactive command, e.g. on milou:
 
+```
 interactive -A p2010099 -n 16 -C fat
+```
+
 as if it was an sbatch command. Actually, interactive is implemented partly as an sbatch command and you can use most sbatch flags here. Please note that only a few nodes are fat, so you may have to wait for quite a long time to get your session started.
 
 There are three ways to get a priority boost, and the interactive command knows how to use them all:
@@ -27,7 +36,10 @@ In the last example ("interactive -A p2010099 -n 16 -C fat"), the interactive co
 
 If you also want to run for 15 hours, you may say so, with the command
 
+```
 interactive -A p2010099 -n 16 -C fat -t 15:00:00
+```
+
 but no "priority lane" can be used, you get your normal queue priority, and you might have to wait for a very long time for your session to start. Please note that you need to keep watch over when the job starts, because you are accounted for all the time from job start even if you are sleeping, and because an allocated and unused node is a waste of expensive resources.
 
 

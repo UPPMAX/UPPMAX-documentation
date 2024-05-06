@@ -1,7 +1,11 @@
 # What do the fields PRIORITY and REASON mean in "jobinfo" output?
-https://www.uppmax.uu.se/support/faq/running-jobs-faq/your-priority-in-the-waiting-job-queue/
+
+???- info "For UPPMAX staff"
+
+    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/your-priority-in-the-waiting-job-queue/`
 
 Initial priority, at submit time
+
 One of the columns in "jobinfo" output is named PRIORITY. The queue is sorted on priority, i.e. normally the job with the highest priority starts first, so this is an important parameter.
 
 When you submit a job at UPPMAX, it gets an initial priority. Normally this is 100000, but some jobs start at a priority of 200000 or more:

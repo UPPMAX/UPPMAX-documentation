@@ -26,7 +26,9 @@ on how to get a user account.
 For questions concerning accounts and access to [Rackham](rackham.md) and [Snowy](snowy.md),
 please contact [UPPMAX support](../support.md).
 
-Note that the machine you arrive at when logged in is only a so called login node, where you can do various smaller tasks. We have [some limits](http://uppmax.uu.se/support/user-guides/login-node-restrictions/) in place that restricts your usage. For larger tasks you should use our batch system that pushes your jobs onto other machines within the cluster.
+Note that the machine you arrive at when logged in is only a so called login node, where you can do various smaller tasks. 
+We have [some limits](../cluster_guides/login_node_restrictions.md) in place that restricts your usage. 
+For larger tasks you should use our batch system that pushes your jobs onto other machines within the cluster.
 
 All access to [Snowy](snowy.md) is done using the batch system Slurm, either as an interactive job or non-interactive batch jobs.
 
