@@ -1,16 +1,15 @@
 # NVIDIA Deep Learning Frameworks
-https://www.uppmax.uu.se/support/user-guides/nvidia-deep-learning-frameworks/
 
-Here is how easy one can use an NVIDIA environment for deep learning with all the following tools preset. A screenshot of that page is shown below.
+Here is how easy one can use an NVIDIA [environment](https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel_22-03.html) for deep learning with all the following tools preset. A screenshot of that page is shown below.
 
-pytorch
+![web screenshot](./img/pytorch-nvidia.png)
 
-Pull the container (6.5GB).
-
+First - pull the container (6.5GB).
+```bash
 singularity pull docker://nvcr.io/nvidia/pytorch:22.03-py3
-
+```
 Get an interactive shell.
-
+```bash
 singularity shell --nv ~/external_1TB/tmp/pytorch_22.03-py3.sif
 
 Singularity> python3
@@ -34,9 +33,9 @@ True
 # test torch
 >>> torch.zeros(1).to('cuda')
 tensor([0.], device='cuda:0')
-
+```
 From the container shell, check what else is available...
-
+```bash
 Singularity> nvcc -V
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2022 NVIDIA Corporation
@@ -60,15 +59,16 @@ Singularity> jupyter-lab
 [I 13:35:46.616 LabApp] http://hostname:8888/?token=d6e865a937e527ff5bbccfb3f150480b76566f47eb3808b1
 [I 13:35:46.616 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ...
-
+```
 You can use this container to add more packages.
-
+```singularity
 Bootstrap: docker
 From: nvcr.io/nvidia/pytorch:22.03-py3
 ...
+```
 
 Just keep in mind that "upgrading" the build-in torch package might install a package that is compatible with less GPU architectures and it might not work anymore on your hardware.
-
+```bash
 Singularity> python3 -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.get_arch_list()); torch.zeros(1).to('cuda')"
 
 1.10.0+cu102
@@ -76,3 +76,4 @@ True
 ['sm_37', 'sm_50', 'sm_60', 'sm_70']
 NVIDIA A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
 The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70.
+```

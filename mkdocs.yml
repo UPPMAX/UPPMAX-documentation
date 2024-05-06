@@ -67,6 +67,7 @@ nav:
         - MetONTIIME: software/metontiime.md
         - Tracer: software/tracer.md
       - Machine Learning:
+        - NVIDIA DLF: software/nextflow.md
         - TensorFlow: software/tensorflow.md
       - Programming languages:
         - Julia: software/julia.md
