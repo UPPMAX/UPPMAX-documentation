@@ -258,7 +258,7 @@ This gives you a desktop environment, as if you were working on your own compute
 You can do so:
 
 - [via the web](#remote-desktop-via-the-web)
-- [via a ThinLinc client](remote-desktop-via-a-ThinLinc-client)
+- [via a ThinLinc client](#remote-desktop-via-a-ThinLinc-client)
 
 ### Remote desktop via the web
 
