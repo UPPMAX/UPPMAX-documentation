@@ -11,6 +11,12 @@
       "pattern": "^https://www.sylabs.io/$"
     },
     {
+      "pattern": "^https://www.sylabs.io/docs$"
+    },
+    {
+      "pattern": "^https://www.sylabs.io/guides/2.6/user-guide/container_recipes.html$"
+    },
+    {
       "pattern": "^https://docs.sylabs.io/guides/2.6/user-guide/container_recipes.html$"
     },
     {
