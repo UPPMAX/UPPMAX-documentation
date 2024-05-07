@@ -10,4 +10,3 @@ The full error message is:
 ```
 sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified
 ```
-
