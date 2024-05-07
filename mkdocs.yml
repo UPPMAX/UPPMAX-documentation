@@ -51,7 +51,7 @@ nav:
     - Software table: software/software-table.md
     - Text editors: software/text_editors.md
     - Software-specific documentation:      
-      - Chemistry/physics:
+      - Chemistry/physics/atmosphere:
         - GAMESS_US: software/games_us.md
         - Gaussian: software/gaussian.md
         - GROMACS: software/gromacs.md
