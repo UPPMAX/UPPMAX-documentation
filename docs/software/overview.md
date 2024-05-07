@@ -14,7 +14,7 @@ and accessible via the module system.
 
 ## Software table
 
-[Automatically updated software table](software/software_table.md)
+[Automatically updated software table](software/software_table.html)
 
 ## How can I request new software to be installed?
 
