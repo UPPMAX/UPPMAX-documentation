@@ -1,6 +1,6 @@
 # WRF user guide
 
-Introduction
+# Introduction
 The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
 Model home page
@@ -27,7 +27,7 @@ It may not work for a large domain. If so, either modify TBL file or use in inne
 
 To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the Vapor, NCL or wrf-python web pages.
 
-Get started
+# Get started
 This section assumes that you are already familiar in running WRF. If not, please check the tutorial, where you can at least omit the first 5 buttons and go directly to the last button, or depending on your needs, also check the “Static geography data” and “Real-time data”.
 
 When running WRF/WPS you would like your own settings for the model to run and not to interfere with other users. Therefore, you need to set up a local or project directory (e.g. 'WRF') and work from there like for a local installation. You also need some of the content from the central installation. Follow these steps:
@@ -46,6 +46,8 @@ You can remove *.exe files because the module files shall be used.
 When WRF or WPS modules are loaded you can run with “ungrib.exe” or for instance “wrf.exe”, i.e. without the “./”.
 Normally you can run ungrib.exe, geogrid.exe and real.exe and, if not too long period, metgrid.exe, in the command line or in interactive mode.
 wrf.exe has to be run on the compute nodes. Make a batch script, see template below:
+
+```bash
 #!/bin/bash
 #SBATCH -J 
 #SBATCH --mail-user 
@@ -61,15 +63,22 @@ module load WRF/4.1.3-dmpar
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so 
 export I_MPI_PMI2=yes 
 srun -n 40 --mpi=pmi2 wrf.exe
-Running smpar+dmpar
-Wrf compiled for Hybrid Shared + Distributed memory (OpenMP+MPI) can be more efficient than dmpar only. With good settings it runs approximately 30% faster and similarly less resources.
+```
+
+# Running smpar+dmpar
+
+WRF compiled for Hybrid Shared + Distributed memory (OpenMP+MPI) can be more efficient than dmpar only. With good settings it runs approximately 30% faster and similarly less resources.
 
 To load this module type:
 
+```
 module load WRF/4.1.3-dm+sm
+```
+
 The submit script can look like this:
 
-#!/bin/bash
+```bash
+#!/bin/bash -l
 #SBATCH -J <jobname>
 #SBATCH --mail-user <email address>
 #SBATCH --mail-type=ALL
@@ -95,20 +104,32 @@ export I_MPI_PIN_DOMAIN=omp
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
 export I_MPI_PMI2=yes
 srun -n 8 --mpi=pmi2 wrf.exe
-Local installation with module dependencies
+
+```
+
+# Local installation with module dependencies
+
 If you would like to change in the FORTRAN code for physics or just want the latest version you can install locally but with the dependencies from the modules
 
-Step 1: WRF Source Code Registration and Download
-Register and download
-Identify download URLs you need (on Github for v4 and higher)
-WRF
-WPS
-Other?
-In folder of your choice at UPPMAX:
-'wget <download url>'
-'tar zxvf <file>' .
-Step 2: Configure and compile
-Create and set the environment in a SOURCEME file, see example below for a intel-dmpar build. Loading module WRF sets most of the environment but some variables have different names in configure file. Examples below assumes dmpar, but can be interchanged to dm+sm for hybrid build.
+### Step 1: WRF Source Code Registration and Download
+
+1. Register and download
+1. Identify download URLs you need (on Github for v4 and higher)
+
+    1. WRF
+    1. WPS
+    1. Other?
+
+1. In folder of your choice at UPPMAX:
+    1. ``wget <download url>``
+1. ``tar zxvf <file>``
+
+### Step 2: Configure and compile
+- Create and set the environment in a ``SOURCEME``  file, see example below for a intel-dmpar build.
+- Loading module WRF sets most of the environment but some variables have different names in configure file.
+- Examples below assumes dmpar, but can be interchanged to dm+sm for hybrid build.
+
+```bash
 #!/bin/bash
 
 module load WRF/4.1.3-dmpar
@@ -123,14 +144,21 @@ export NETCDFPATH=$NETCDF
 
 export HDF5PATH=$HDF5_DIR
 
-export HDF5=$HDF5_DIR           
-Then
-source SOURCEME
+export HDF5=$HDF5_DIR
+```  
 
+- Then
+```
+source SOURCEME
 ./configure
-Choose intel and dmpar (15) or other, depending on WRF version and parallelization.
-When finished it may complain about not finding netcdf.inc file. This is solved below as you have to modify the configure.wrf file.
-•Intelmpi settings (for dmpar)
+```
+
+- Choose intel and dmpar (15) or other, depending on WRF version and parallelization.
+- When finished it may complain about not finding netcdf.inc file. This is solved below as you have to modify the configure.wrf file.
+
+- Intelmpi settings (for dmpar)
+
+```
 DM_FC           =        mpiifort
 
 DM_CC           =        mpiicc -DMPI2_SUPPORT
@@ -138,19 +166,35 @@ DM_CC           =        mpiicc -DMPI2_SUPPORT
 #DM_FC           =       mpif90 -f90=$(SFC)
 
 #DM_CC           =       mpicc -cc=$(SCC)
-•Netcdf-fortran paths
+```
+
+- Netcdf-fortran paths
+
+```
 LIB_EXTERNAL    = add  flags "-$(NETCDFFPATH)/lib -lnetcdff -lnetcdf"  (let line end with "\")
 INCLUDE_MODULES =    add flag "-I$(NETCDFFPATH)/include" (let line end with "\")
 Add the line below close to  NETCDFPATH:
 NETCDFFPATH     =    $(NETCDFF)
+```
+
 Then:
+```
 ./compile em_real
+```
+
 When you have made modification of the code and once configure.wrf is created, just
+
+```
 source SOURCEME 
+```
 and run:
+```
 ./compile em_real 
-Running
+```
+### Running
 Batch script should include:
+
+```bash
 module load WRF/4.1.3-dmpar
 
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
@@ -158,3 +202,4 @@ export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
 export I_MPI_PMI2=yes
 
 srun -n 40 --mpi=pmi2 ./wrf.exe     #Note ”./”, otherwise ”module version of wrf.exe” is used
+```
