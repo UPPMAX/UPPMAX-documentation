@@ -43,72 +43,73 @@
 
 ???- question "My program suddenly seems to stop executing but it does not crash, the process is still alive. What is wrong?"
 
-This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous copy of the executable file is deleted, which can cause running instances of the program to freeze in this way. The recommended solution is that if you need to recompile while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
+    This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous copy of the executable file is deleted, which can cause running instances of the program to freeze in this way. The recommended solution is that if you need to recompile while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
 ???- question "My program crashes with the error message 'Bus error'. Why?"
 
-This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
+    This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
 
 ???- question "I have strange problems with my text-files / scripts when they have been copied from other computers"
 
-???- info "For UPPMAX staff"
+    ???- info "For UPPMAX staff"
 
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/strange-problems-with-text-files---scripts-copied-from-other-computers/`
+        TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/strange-problems-with-text-files---scripts-copied-from-other-computers/`
 
-One reason is that copy-and-paste sometimes doesn't work. Rich text files and PDF's often replace symbols like quotes and white space with different symbols to improve readability, and copying from sources like these is generally not a good idea.
+    One reason is that copy-and-paste sometimes doesn't work. Rich text files and PDF's often replace symbols like quotes and white space with different symbols to improve readability, and copying from sources like these is generally not a good idea.
 
-Another possible reason is that lines of text files are terminated differently on UNIX/Windows/MAC. Read on for information on how to solve this:
+    Another possible reason is that lines of text files are terminated differently on UNIX/Windows/MAC. Read on for information on how to solve this:
 
-This might happen because your file was created, for instance, on a Windows computer and later copied to UPPMAX Linux machines. Text files have different line terminations on for instance Windows and Linux/Unix. If this is an ordinary textfile you can test this by using the "file" command, like this:
+    This might happen because your file was created, for instance, on a Windows computer and later copied to UPPMAX Linux machines. Text files have different line terminations on for instance Windows and Linux/Unix. If this is an ordinary textfile you can test this by using the "file" command, like this:
 
-```
-$ file myfile
-myfile: ASCII text, with CRLF line terminators
-```
+    ```
+    $ file myfile
+    myfile: ASCII text, with CRLF line terminators
+    ```
 
-`CRLF terminators` tells you that each line of the file is ended by both a carriage-return and a line-feed, as on Windows. On all UPPMAX systems, the file can simply be converted to UNIX style text files using the "dos2unix" command:
+    `CRLF terminators` tells you that each line of the file is ended by both a carriage-return and a line-feed, as on Windows. On all UPPMAX systems, the file can simply be converted to UNIX style text files using the "dos2unix" command:
 
-```
-$ dos2unix myfile
-dos2unix: converting file myfile to UNIX format ...
-```
-Checking the file again with the "file" command reveals that it now has ordinary UNIX line terminators (only LF):
+    ```
+    $ dos2unix myfile
+    dos2unix: converting file myfile to UNIX format ...
+    ```
 
-```
-$ file myfile
-myfile: ASCII text
-```
+    Checking the file again with the "file" command reveals that it now has ordinary UNIX line terminators (only LF):
 
-Similarly, a file from a Mac can be converted using the "mac2unix" command.
+    ```
+    $ file myfile
+    myfile: ASCII text
+    ```
 
-If a shell script is behaving strangely, it can be due to the same problem. Trying to execute a program where the end of line marker is wrong might result in an error message such as the one below:
+    Similarly, a file from a Mac can be converted using the "mac2unix" command.
 
-```
-$ cat myscript.sh
-#!/bin/sh
-./program
-$ ./myscript.sh
-: No such file or directory
-```
+    If a shell script is behaving strangely, it can be due to the same problem. Trying to execute a program where the end of line marker is wrong might result in an error message such as the one below:
 
-The "file" command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable". Opening the script using "vi" shows at the bottom of the screen "myscript.sh" [dos] 2L, 22C. The "[dos]" is a sure marker of the same problem. Opening the same file in emacs reveals the same thing (-uu-(DOS)---F1 myscript.sh). Convert the script to unix-format using the "dos2unix" command as described above. An alternative is to copy the file and use the "dos2unix" command on the copy and compare the file sizes using "ls -l":
+    ```
+    $ cat myscript.sh
+    #!/bin/sh
+    ./program
+    $ ./myscript.sh
+    : No such file or directory
+    ```
 
-```
-$ ls -l testme.sh
-rwxr-xr-x  1 daniels uppmax_staff 22 Dec 15 10:53 testme.sh
-$ dos2unix testme.sh
-dos2unix: converting file testme.sh to UNIX format ...
-$ ls -l testme.sh
--rwxr-xr-x  1 daniels uppmax_staff 20 Dec 15 10:54 testme.sh
-```
+    The "file" command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable". Opening the script using "vi" shows at the bottom of the screen "myscript.sh" [dos] 2L, 22C. The "[dos]" is a sure marker of the same problem. Opening the same file in emacs reveals the same thing (-uu-(DOS)---F1 myscript.sh). Convert the script to unix-format using the "dos2unix" command as described above. An alternative is to copy the file and use the "dos2unix" command on the copy and compare the file sizes using "ls -l":
 
-Note that the file size went from 22 bytes to 20, reflecting that the two CR bytes at the (almost) end of the line were removed.
+    ```
+    $ ls -l testme.sh
+    rwxr-xr-x  1 daniels uppmax_staff 22 Dec 15 10:53 testme.sh
+    $ dos2unix testme.sh
+    dos2unix: converting file testme.sh to UNIX format ...
+    $ ls -l testme.sh
+    -rwxr-xr-x  1 daniels uppmax_staff 20 Dec 15 10:54 testme.sh
+    ```
+
+    Note that the file size went from 22 bytes to 20, reflecting that the two CR bytes at the (almost) end of the line were removed.
 
 ???- question "How to run interactively on a compute node?"
 
-- [Start an interactive node](../start_interactive_node.md)
-- [More about interactive](interactive_more.md)
+    - [Start an interactive node](../start_interactive_node.md)
+    - [More about interactive](interactive_more.md)
 
 
 
