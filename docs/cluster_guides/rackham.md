@@ -13,7 +13,7 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
     See the page on file transfer to Dardel [here](transfer_dardel.md).
 
 - [Rackham's name](rackhams_name.md)
-- [Rackham's name](rackhams_design.md)
+- [Rackham's design](rackhams_design.md)
 - [Log in](../getting_started/login_rackham.md)
 - [Starting an interactive node](start_interactive_node_on_rackham.md)
 - [File transfer](transfer_rackham.md)
