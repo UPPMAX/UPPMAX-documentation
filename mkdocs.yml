@@ -56,6 +56,7 @@ nav:
         - Gaussian: software/gaussian.md
         - GROMACS: software/gromacs.md
         - Molcas: software/openmolcas.md
+        - WRF: software/wrf.md
       - Integrated development environments (IDE):
         - Jupyter: software/jupyter.md
         - RStudio: software/rstudio.md
@@ -84,6 +85,7 @@ nav:
         - projplot: software/projplot.md
         - Rclone: software/rclone.md      
         - SSH: software/ssh.md
+        - SFTP: software/sftp.md
       
   - Databases: 
      - Overview: databases/overview.md
