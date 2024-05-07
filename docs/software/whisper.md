@@ -41,7 +41,7 @@ Whisper can also be run as a command-line tool or as a Python library.
    Total audio length in minutes : [give a rough average if transcribing files in bulk]  
    Model: large-v2  
    by word timestamps: by_sentence  
-6. Monitor your job using `jobinfo` command on terminal or on `[job_name].out` that gets created in the same folder. Where `[job_name]` is the SLURM job name that you gave ealier.
+6. Monitor your job using `jobinfo` command on terminal or on `[job_name].out` that gets created in the same folder. Where `[job_name]` is the SLURM job name that you gave earlier.
 
 ### Command-line
 
