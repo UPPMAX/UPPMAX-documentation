@@ -51,7 +51,6 @@ nav:
     - Software table: software/software-table.md
     - Text editors: software/text_editors.md
     - Software-specific documentation:      
-      - Whisper: software/whisper.md
       - Chemistry/physics:
         - GAMESS_US: software/games_us.md
         - Gaussian: software/gaussian.md
@@ -69,9 +68,10 @@ nav:
         - IGV: software/igv.md
         - MetONTIIME: software/metontiime.md
         - Tracer: software/tracer.md
-      - Machine Learning:
+      - Machine Learning and AI:
         - NVIDIA DLF: software/nvidia-deep-learning-frameworks.md
         - TensorFlow: software/tensorflow.md
+        - Whisper: software/whisper.md
       - Programming languages:
         - Julia: software/julia.md
         - MATLAB: software/matlab.md
