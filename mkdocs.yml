@@ -43,6 +43,7 @@ nav:
       - Installing with conda: cluster_guides/conda.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
+      - Singularity/Apptainer : cluster_guides/singularity.md
   - Software:
     - Overview: software/overview.md
     - Software table: software/software-table.md

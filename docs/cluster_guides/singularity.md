@@ -45,8 +45,31 @@ Singularity provides functionality to create and bootstrap images, and the insta
 ```bash
 sudo singularity build myimage.img examples/ubuntu.def
 ```
+Look for more examples on the [UPPMAX Singularity workshop](https://pmitev.github.io/UPPMAX-Singularity-workshop/) page - "Case Studies" section.
 
-See [https://www.sylabs.io/guides/2.6/user-guide/container_recipes.html](https://www.sylabs.io/guides/2.6/user-guide/container_recipes.html) for the recipe format.
+
+## Building images on Rackham.
+
+On Rackham, the singularity capabilities are instead provided by [Apptainer](https://apptainer.org/). The differences are beyond the scope of this material, but you can safely assume you are working with Singularity. Apptainer, also allows you to build containers without sudo/administrative rights. In most of the cases, you can simply start building directly without sudo i.e. `singularity build myimage.img examples/ubuntu.def`. Here are some precautions that will allow you to safely build images on Rackham.
+
+```bash
+# Change to fit your account
+PRJ_DIR=/crex/uppmax2022-0-00
+
+# Singularity
+export SINGULARITY_CACHEDIR=${PRJ_DIR}/nobackup/SINGULARITY_CACHEDIR
+export SINGULARITY_TMPDIR=${PRJ_DIR}/nobackup/SINGULARITY_TMPDIR
+mkdir -p $SINGULARITY_CACHEDIR $SINGULARITY_TMPDIR
+
+# Apptainer
+export APPTAINER_CACHEDIR=${PRJ_DIR}/nobackup/SINGULARITY_CACHEDIR
+export APPTAINER_TMPDIR=${PRJ_DIR}/nobackup/SINGULARITY_TMPDIR
+mkdir -p $APPTAINER_CACHEDIR $APPTAINER_TMPDIR
+
+# Disabling cache completelly - perfect when you only need to pull containers
+# export SINGULARITY_DISABLE_CACHE=true
+# export APPTAINER_DISABLE_CACHE=true
+```
 
 ## Using the sylabs cloud remote builder, an example
 Even if you don't run Linux on your desktop system, you can still build your own images. Typically software pages contain enough information as installation instructions to create a modified recipe to build images for software.
@@ -84,7 +107,7 @@ From: ubuntu:18.04
 
 - We paste that recipe in the box (or upload a file with it) and click build. The service will try to find an available builder and It will work for a while. Output from the build process will be displayed in a console window on the same page.
 
-- Hopefully the build completes successfully (a notification is shown and build status is updated). We can when go to the the projects through the dropdown with our username in the upper right corner, select "My projects", select the sortmerna project.
+- Hopefully the build completes successfully (a notification is shown and build status is updated). We can when go to the the projects through the drop-down with our user name in the upper right corner, select "My projects", select the sortmerna project.
 
 - Once on the project view, we select the tab "Images" to see what images we have built. We see that we have an image tagged 3.0.3 and are given the option to download the image file through the web browser as well as commands to let singularity pull it.
 
