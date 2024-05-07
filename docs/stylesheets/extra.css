@@ -19,6 +19,7 @@
 
   --md-footer-bg-color: #E6E6E6;
   --md-footer-fg-color: #000000;
+
 }
 
 
@@ -35,6 +36,10 @@
 /* Reset alignment for table cells */
 .md-typeset .center-table :is(td, th):not([align]) {
   text-align: initial;
+}
+
+  .md-typeset a {
+  text-decoration: underline;
 }
 
 
