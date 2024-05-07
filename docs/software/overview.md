@@ -14,11 +14,11 @@ and accessible via the module system.
 
 ## Software table
 
-[Automatically updated software table](software/software_table.html)
+[Automatically updated software table](software_table.html)
 
 ## How can I request new software to be installed?
 
-You can always install software in your home or ~/glob directory on any UPPMAX system. If there are many users who would like to request the same software, it can be installed by UPPMAX application or system experts.
+You can always install software in your home on any UPPMAX system. If there are many users who would like to request the same software, it can be installed by UPPMAX application or system experts.
 
 Please send such requests to support@uppmax.uu.se.
 
