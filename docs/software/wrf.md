@@ -4,9 +4,9 @@
 
 - The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
-- Model home page
+- [Model home page](https://www.mmm.ucar.edu/models/wrf)
 
-- ARW branch page
+- [ARW branch page](https://www2.mmm.ucar.edu/wrf/users/)
 
 - WRF Preprocessing System (WPS). The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
@@ -27,10 +27,14 @@
 - In /sw/data/WPS-geog/4/rackham you'll find GEOGRID.TBL.ARW.corine_metria that hopefully works. Copy to your WPS/GEOGRID directory and then link to GEOGRID.TBL file.
 - It may not work for a large domain. If so, either modify TBL file or use in inner domains only.
 
-- To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the Vapor, NCL or wrf-python web pages.
+- To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the web pages below:
+    - [wrf-python](https://wrf-python.readthedocs.io/en/latest/), 
+    - [Vapor](https://www.vapor.ucar.edu/) or 
+    - [NCL](https://www.ncl.ucar.edu/Document/Pivot_to_Python/september_2019_update.shtml)
+        - is not updated anymore and the developers recommend [GeoCAT](https://geocat.ucar.edu/) which serves as an umbrella over wrf-python, among others.
 
 # Get started
-- This section assumes that you are already familiar in running WRF. If not, please check the tutorial, where you can at least omit the first 5 buttons and go directly to the last button, or depending on your needs, also check the “Static geography data” and “Real-time data”.
+- This section assumes that you are already familiar in running WRF. If not, please check the [tutorial](https://www2.mmm.ucar.edu/wrf/OnLineTutorial/index.php), where you can at least omit the first 5 buttons and go directly to the last button, or depending on your needs, also check the “Static geography data” and “Real-time data”.
 
 - When running WRF/WPS you would like your own settings for the model to run and not to interfere with other users. Therefore, you need to set up a local or project directory (e.g. 'WRF') and work from there like for a local installation. You also need some of the content from the central installation. Follow these steps:
 
@@ -115,7 +119,7 @@ If you would like to change in the FORTRAN code for physics or just want the lat
 
 ### Step 1: WRF Source Code Registration and Download
 
-1. Register and download
+1. [Register and download](https://www2.mmm.ucar.edu/wrf/users/download/get_source.html)
 1. Identify download URLs you need (on Github for v4 and higher)
 
     1. WRF
