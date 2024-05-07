@@ -3316,4 +3316,9 @@ testcontainer
 testdefinition
 Apptainer
 
+lpwd
+tecmint
+xls
+th
+sFTP
 
