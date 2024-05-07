@@ -1,51 +1,53 @@
 # WRF user guide
 
 # Introduction
-The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
-Model home page
+- The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
-ARW branch page
+- Model home page
 
-WRF Preprocessing System (WPS). The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
+- ARW branch page
 
-WRF is installed as modules for version 4.1.3 and compiled with INTEL and parallelized for distributed memory (dmpar) or hybrid shared and distributed memory (sm+dm). These are available as:
+- WRF Preprocessing System (WPS). The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
-WRF/4.1.3-dmpar     default as WRF/4.1.3
-WRF/4.1.3-dm+sm    
-WPS is installed as version 4.1 and available as:
+- WRF is installed as modules for version 4.1.3 and compiled with INTEL and parallelized for distributed memory (dmpar) or hybrid shared and distributed memory (sm+dm). These are available as:
 
-WPS/4.1
-There are WPS_GEOG data available.
-Set the path in namelist.wps to: 
+    - WRF/4.1.3-dmpar     default as WRF/4.1.3
+    - WRF/4.1.3-dm+sm    
+- WPS is installed as version 4.1 and available as:
 
-'geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG''
+    - WPS/4.1
+ 
+- There are WPS_GEOG data available.
+- Set the path in namelist.wps to: 
 
-Corine and metria data are included in the WPS_GEOG directory.
-In /sw/data/WPS-geog/4/rackham you'll find GEOGRID.TBL.ARW.corine_metria that hopefully works. Copy to your WPS/GEOGRID directory and then link to GEOGRID.TBL file.
-It may not work for a large domain. If so, either modify TBL file or use in inner domains only.
+``geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG'``
 
-To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the Vapor, NCL or wrf-python web pages.
+- Corine and metria data are included in the WPS_GEOG directory.
+- In /sw/data/WPS-geog/4/rackham you'll find GEOGRID.TBL.ARW.corine_metria that hopefully works. Copy to your WPS/GEOGRID directory and then link to GEOGRID.TBL file.
+- It may not work for a large domain. If so, either modify TBL file or use in inner domains only.
+
+- To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the Vapor, NCL or wrf-python web pages.
 
 # Get started
-This section assumes that you are already familiar in running WRF. If not, please check the tutorial, where you can at least omit the first 5 buttons and go directly to the last button, or depending on your needs, also check the “Static geography data” and “Real-time data”.
+- This section assumes that you are already familiar in running WRF. If not, please check the tutorial, where you can at least omit the first 5 buttons and go directly to the last button, or depending on your needs, also check the “Static geography data” and “Real-time data”.
 
-When running WRF/WPS you would like your own settings for the model to run and not to interfere with other users. Therefore, you need to set up a local or project directory (e.g. 'WRF') and work from there like for a local installation. You also need some of the content from the central installation. Follow these steps:
+- When running WRF/WPS you would like your own settings for the model to run and not to interfere with other users. Therefore, you need to set up a local or project directory (e.g. 'WRF') and work from there like for a local installation. You also need some of the content from the central installation. Follow these steps:
 
-Create a directory where you plan to have your input and result files.
-Standing in this directory copy the all or some of the following directories from the central installation.
-Run directory                           for real runs
-cp -r /sw/EasyBuild/rackham/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/run .
-You can remove *.exe files in this run directory because the module files shall be used.
-WPS directory                          if input data has to be prepared
-cp -r /sw/EasyBuild/rackham/software/WPS/4.1-intel-2019b-dmpar/WPS-4.1 .
-You can remove *.exe files in the new directory because the module files shall be used.
-Test directory                          for ideal runs
-cp -r /sw/EasyBuild/rackham/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/test .
-You can remove *.exe files because the module files shall be used.
-When WRF or WPS modules are loaded you can run with “ungrib.exe” or for instance “wrf.exe”, i.e. without the “./”.
-Normally you can run ungrib.exe, geogrid.exe and real.exe and, if not too long period, metgrid.exe, in the command line or in interactive mode.
-wrf.exe has to be run on the compute nodes. Make a batch script, see template below:
+1. Create a directory where you plan to have your input and result files.
+1. Standing in this directory copy the all or some of the following directories from the central installation.
+    1. Run directory                           for real runs
+        - ``cp -r /sw/EasyBuild/rackham/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/run .``
+        - You can remove *.exe files in this run directory because the module files shall be used.
+    1. WPS directory                          if input data has to be prepared
+        - ``cp -r /sw/EasyBuild/rackham/software/WPS/4.1-intel-2019b-dmpar/WPS-4.1 .``
+        - You can remove *.exe files in the new directory because the module files shall be used.
+    1. Test directory                          for ideal runs
+        - ``cp -r /sw/EasyBuild/rackham/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/test .``
+        - You can remove *.exe files because the module files shall be used.
+1. When WRF or WPS modules are loaded you can run with “ungrib.exe” or for instance “wrf.exe”, i.e. without the “./”.
+1. Normally you can run ungrib.exe, geogrid.exe and real.exe and, if not too long period, metgrid.exe, in the command line or in interactive mode.
+1. wrf.exe has to be run on the compute nodes. Make a batch script, see template below:
 
 ```bash
 #!/bin/bash
