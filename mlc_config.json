@@ -8,6 +8,9 @@
       "pattern": "^https://bianca.uppmax.uu.se$"
     },
     {
+      "pattern": "^https://bianca.uppmax.uu.se/$"
+    },
+    {
       "pattern": "^https://www.sylabs.io/$"
     },
     {
