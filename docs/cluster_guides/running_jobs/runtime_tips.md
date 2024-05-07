@@ -33,28 +33,24 @@
     (NOTE: The actual number above might be different for you, and should be changed accordingly!)
 
 
-### I want my program to send data to both stdout and to a file but nothing comes until the program ends
+???- question "I want my program to send data to both stdout and to a file but nothing comes until the program ends" 
 
-???- info "For UPPMAX staff"
+    There is a program called unbuffer. You could try using it like (tee takes care of sending both to stdout and to a file):
 
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/i-want-my-program-to-send-data-to-both-stdout-and-to-a-file/`
+    ```
+    unbuffer your_program |tee some_output_file
+    ```
 
-There is a program called unbuffer. You could try using it like (tee takes care of sending both to stdout and to a file):
-
-```
-unbuffer your_program |tee some_output_file
-```
-
-### My program suddenly seems to stop executing but it does not crash, the process is still alive. What is wrong?
+???- question "My program suddenly seems to stop executing but it does not crash, the process is still alive. What is wrong?"
 
 This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous copy of the executable file is deleted, which can cause running instances of the program to freeze in this way. The recommended solution is that if you need to recompile while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
-### My program crashes with the error message "Bus error". Why?
+???- question "My program crashes with the error message 'Bus error'. Why?"
 
 This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
 
-### I have strange problems with my text-files / scripts when they have been copied from other computers
+???- question "I have strange problems with my text-files / scripts when they have been copied from other computers"
 
 ???- info "For UPPMAX staff"
 
@@ -109,7 +105,7 @@ $ ls -l testme.sh
 
 Note that the file size went from 22 bytes to 20, reflecting that the two CR bytes at the (almost) end of the line were removed.
 
-## How to run interactively on a compute node?
+???- question "How to run interactively on a compute node?"
 
 - [Start an interactive node](../start_interactive_node.md)
 - [More about interactive](interactive_more.md)
@@ -119,7 +115,7 @@ Note that the file size went from 22 bytes to 20, reflecting that the two CR byt
 ## Related to Batch jobs
 
 
-### Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!
+???- question "Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!"
 
 ???- info "For UPPMAX staff"
 
@@ -127,7 +123,7 @@ Note that the file size went from 22 bytes to 20, reflecting that the two CR byt
 
 [What do the fields PRIORITY and REASON mean in "jobinfo" output?](jobinfo_reason.md)
 
-### What is causing the sbatch script error "Unknown shell type 'load'"?
+???- question "What is causing the sbatch script error 'Unknown shell type `load`'?"
 
 ???- info "For UPPMAX staff"
 
@@ -152,7 +148,7 @@ To remedy this you need to make sure that your script starts with
 
 i.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
 
-### How can I see my job's memory usage?
+???- question "How can I see my job's memory usage?"
 
 ???- info "For UPPMAX staff"
 
@@ -185,7 +181,7 @@ If you require more detailed live information, then it would probably be best if
 USS is the total memory used by the user without shared buffers or caches. RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory. And then there's also the PSS figure which tries to calculate a proportional memory usage per user for all shared memory buffers and caches (i.e. the figure will fall between USS and RSS).
 
 
-### My job has very low priority! What can be wrong?
+???- question "My job has very low priority! What can be wrong?"
 
 ???- info "For UPPMAX staff"
 
@@ -226,8 +222,7 @@ If your job priority is zero or one, there are more serious problems, for exampl
 
 If you ask for a longer run time (TimeLimit) than the maximum on the system, your job will not run. The maximum is currently ten days. If you must run a longer job, submit it with a ten-day runtime and contact UPPMAX support.
 
-
-### How do I use the modules in batch jobs?
+???- question "How do I use the modules in batch jobs?"
 
 In order to make running installed programs easier you should use the module command. The different module that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH. To see what what modules that are available, type module avail. To see what modules you have loaded, type module list.
 
