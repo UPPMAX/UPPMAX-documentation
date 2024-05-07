@@ -43,11 +43,19 @@
 
 ???- question "My program suddenly seems to stop executing but it does not crash, the process is still alive. What is wrong?"
 
-    This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous copy of the executable file is deleted, which can cause running instances of the program to freeze in this way. The recommended solution is that if you need to recompile while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
+    - This may happen if your executable binary file is deleted while the program is running. 
+    - For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". 
+    - The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. 
+    - Then, the original executable file can be safely deleted. -
+    - Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
 ???- question "My program crashes with the error message 'Bus error'. Why?"
 
-    This may happen if your executable binary file is deleted while the program is running. For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. Then, the original executable file can be safely deleted. Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
+    - This may happen if your executable binary file is deleted while the program is running. 
+    - For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". 
+    - The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. 
+    - Then, the original executable file can be safely deleted. -
+    - Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
 
 ???- question "I have strange problems with my text-files / scripts when they have been copied from other computers"
@@ -118,11 +126,7 @@
 
 ???- question "Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!"
 
-???- info "For UPPMAX staff"
-
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/your-priority-in-the-waiting-job-queue/`
-
-[What do the fields PRIORITY and REASON mean in "jobinfo" output?](jobinfo_reason.md)
+    [What do the fields PRIORITY and REASON mean in "jobinfo" output?](jobinfo_reason.md)
 
 ???- question "What is causing the sbatch script error 'Unknown shell type `load`'?"
 
@@ -225,14 +229,16 @@ If you ask for a longer run time (TimeLimit) than the maximum on the system, you
 
 ???- question "How do I use the modules in batch jobs?"
 
-In order to make running installed programs easier you should use the module command. The different module that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH. To see what what modules that are available, type module avail. To see what modules you have loaded, type module list.
+    - In order to make running installed programs easier you should use the module command. 
+    - The different module that are installed sets the correct environments that are needed for the programs to run, like ``PATH``, ``LD_LIBRARY_PATH`` and ``MANPATH``.
+    -To see what what modules that are available, type ``module avail``. To see what modules you have loaded, type ``module list``.
 
-Note. For the batch system slurm to work with modules you must have
+    - Note. For the batch system slurm to work with modules you must have
 
-```
-#!/bin/bash -l
-```
+    ```
+    #!/bin/bash -l
+    ```
 
-in your submit script.
+    in your submit script.
 
-For more information, read the module system guide.
+    - For more information, read the [module system guide](../modules.md)
