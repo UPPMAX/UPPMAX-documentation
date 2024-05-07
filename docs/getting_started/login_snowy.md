@@ -1,6 +1,6 @@
 # Log in to Snowy
 
-Here we describe how to log in to [Snowy](snowy.md)
+Here we describe how to log in to [Snowy](../cluster_guides/snowy.md)
 
 ## Prerequisites
 

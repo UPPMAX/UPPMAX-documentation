@@ -6,7 +6,7 @@
 > At the left is a remote desktop environment.
 > At the the right is the console environment.
 
-Here it is described how to log in to [Bianca](bianca.md):
+Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 - [Bianca's design](../cluster_guides/biancas_design.md): 
   helps understand why the procedure described here is needed.

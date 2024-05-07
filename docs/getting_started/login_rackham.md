@@ -1,6 +1,6 @@
 # Log in to Rackham
 
-Here we describe how to log in to [Rackham](rackham.md)
+Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 !!! info "Objectives"
     - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
