@@ -46,7 +46,7 @@ sftp> put local.profile
 
 Uploading local.profile to /tecmint/local.profile
 
-## 5. Upload Mutiple Files
+## 5. Upload Multiple Files
 Putting multiple files on remote system.
 
 ```
