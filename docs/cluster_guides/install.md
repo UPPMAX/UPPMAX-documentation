@@ -89,7 +89,7 @@
 
 #### Singularity
 
-- [Singularity user guide](../software/singularity.md)
+- [Singularity user guide](../cluster_guides/singularity.md)
 
 #### Docker
 - Docker will unfortunately not work on the clusters, since it requires root permission.
