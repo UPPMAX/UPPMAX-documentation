@@ -1,5 +1,4 @@
 # Debuggers and profiling tools
-https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/
 
 Compilers supported at UPPMAX
 UPPMAX supports two kind of compilers:

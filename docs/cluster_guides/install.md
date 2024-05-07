@@ -111,7 +111,8 @@
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
     - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
-- [User guide for debuggers and profilers](https://www.uppmax.uu.se/support/user-guides/debuggers-and-profiling-tools/)
+- [User guide for debuggers](../cluster_guides/debuggers.md)
+- [User guide for profilers](../cluster_guides/profilers.md)
 
 ## Run own scripts or programs
 - Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
