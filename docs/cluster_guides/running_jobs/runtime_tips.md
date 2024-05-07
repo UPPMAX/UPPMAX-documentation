@@ -1,6 +1,6 @@
 # Runtime tips
 
-???- How can I run X11 applications inside GNU screen?
+???- "How can I run X11 applications inside GNU screen?"
 
     **If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?
 
