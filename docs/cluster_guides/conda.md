@@ -271,49 +271,6 @@ dependencies:
 
     - Dependency management from course [Python for Scientific computing](https://aaltoscicomp.github.io/python-for-scicomp/dependencies/)
 
-## Exercises
-
-
-???+ question "Create a conda environment and install some packages"
-
-    -   First check the current installed packages while having `python/3.9.5` loaded
-
-    -   Open a new terminal and have the old one available for later comparison
-
-    -   Unload ``python`` module
-
-    -   Use the ``conda`` module on Rackham and create an environment with name `bianca-course` with `python 3.7` and `numpy 1.15`
-
-    -   Use your a path for `CONDA_ENVS_PATH` of your own choice (not doing this is perfectly OK and isnatalls in your ``$HOME`` folder) or `/proj/sens2023531/<user>/` 
-        
-        -   (It may take a minute or so)
-
-    -   Activate!
-
-    -   Check with `pip list` what is there. Compare with the environment given from the python module in the first terminal window.
-
-    -   Which version of Python did you get?
-
-    -   Don't forget to deactivate the Conda environment before doing other exercises!
-
-
-??? Solution for UPPMAX
-
-    Write this in the terminal
-
-    ``` sh
-    $ module load conda
-    ($ export CONDA_ENVS_PATH=/proj/sens2023598/$USER)
-    $ conda create --name HPC-python23 python=3.7 numpy=1.15
-    $ source activate HPC-python23
-    $ pip list
-    $ python -V
-    $ conda deactivate
-    ```
-
-
-
-
 
 !!! abstract "keypoints"
     
@@ -327,76 +284,15 @@ dependencies:
     
     -   That is, you cannot load the python module and use the packages therein inside your Conda environment.
 
-
-## Extra to be merged
-
-We have mirrored all major conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day. We have the following channels available:
-
-bioconda
-
-biocore
-
-conda-forge
-
-Procedure
-First load our conda module (there is no need to install you own miniconda, for most cases )
-
-$ module load conda
-This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
-
-Check the text output as conda is loaded, especially the first time, see below
-
-The variable CONDA_ENVS_PATH contains the location of your environments. Set it to your project’s environments folder if you have one. Otherwise, the default is ~/.conda/envs. You may run source conda_init.sh to initialise your shell to be able to run conda activate and conda deactivate etc. Just remember that this command adds stuff to your shell outside the scope of the module system. REMEMBER TO conda clean -a once in a while to remove unused and unnecessary files.
-Step 2 First time
-
-The variable CONDA_ENVS_PATH contains the location of your environments. Set it to your project’s environments folder if you have one.
-
-Otherwise, the default is ~/.conda/envs.
-
-Example:
-
-$ export CONDA_ENVS_PATH=/proj/snic2020-5-XXX
-By choice:
-Run conda init bash to initialise your shell (bash) to be able to run conda activate and conda deactivate etcetera instead of source activate. It will modify (append) your .bashrc file.
-
-Step 3 Create the conda environment
-
-Example:
-
-$ conda create --name python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
-THE MAMBA ALTERNATIVE
-
-mamba is a fast drop-in alternative to conda, using “libsolv” for dependency resolution. It is available from the conda module.
-
-Example:
-
-mamba create --name python37-env python=3.7 numpy=1.13.1 matplotlib=2.2.2
-Step 4 Activate the conda environment by:
-
-$ source activate python36-env
-You will see that your prompt is changing to start with (python-36-env) to show that you are within an environment.
-
-Step 5 Now do your work!
-
-(python-36-env) $ <...>
-Step 6 Deactivate
-
-(python-36-env) $ source deactivate
-Warning
-
-Conda is known to create many small files. Your diskspace is not only limited in GB, but also in number of files (typically 300000 in $home).
-
-Check your disk usage and quota limit with uquota
-
-Do a conda clean -a once in a while to remove unused and unnecessary files
-
-### Conda in batch scripts
+## Conda in batch scripts
 If you already have setup the CONDA_ENVS_PATH path and run 'conda init bash' a batch script containing a conda environment shall include
 
-   $ module load conda 
-    $ conda activate <name of environment>
+```bash
+module load conda 
+conda activate <name of environment>
+```
 
-### Packages on Bianca
+## Packages on Bianca
 Since we have mirrored conda repositories locally conda will work also on Bianca!
 
 First try Conda! There is a mirrored repository with many available packages.
@@ -411,11 +307,17 @@ You may have to:
 
 in source directory:
 
+```
 $ cp –a <package_dir> <wharf_mnt_path>
+```
+
 you may want to tar before copying to include all possible symbolic links:
 
+```
 $ tar cfz <tarfile.tar.gz> <package>
 and in target directory (wharf_mnt) on Bianca:
 $ tar xfz <tarfile.tar.gz> #if there is a tar file!
 $ mv –a  <file(s)> ~/.local/lib/python<version>/site-packages/
+```
+
 If problems arise, send an email to support@uppmax.uu.se and we'll help you.
