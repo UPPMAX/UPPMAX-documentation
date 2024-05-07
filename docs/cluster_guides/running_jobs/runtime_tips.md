@@ -1,10 +1,10 @@
 # Runtime tips
 
-???- "How can I run X11 applications inside GNU screen?"
+???- question "How can I run X11 applications inside GNU screen?"
 
-    **If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?
+    **If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?**
 
-    (This applies also for trying to do PNG output in R, since it depends on X11)**
+    **(This applies also for trying to do PNG output in R, since it depends on X11)**
     
     When starting a screen session, your DISPLAY environment can sometimes change from the one that you had when you logged in.
 
