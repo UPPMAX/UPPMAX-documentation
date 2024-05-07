@@ -7,12 +7,12 @@ nav:
   - Getting Started:
     - Get started: getting_started/get_started.md
     - Applying for a Project: getting_started/project_apply.md
-    - Logging in:
+    - Accessing UPPMAX:
       - Get inside the university networks: getting_started/get_inside_sunet.md
-      - Logging into Bianca: getting_started/login_bianca.md
-      - Logging into Dardel: getting_started/login_dardel.md
-      - Logging into Rackham: getting_started/login_rackham.md
-      - Logging into Snowy: getting_started/login_snowy.md
+      - Log in to Bianca: getting_started/login_bianca.md
+      - Log in to Dardel: getting_started/login_dardel.md
+      - Log in to Rackham: getting_started/login_rackham.md
+      - Log in to Snowy: getting_started/login_snowy.md
     - Linux tutorials:
       - Working in Linux: getting_started/linux.md
       - Basic Linux commands: getting_started/linux_basics.md
