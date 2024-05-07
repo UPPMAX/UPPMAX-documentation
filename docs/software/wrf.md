@@ -1,7 +1,5 @@
 # WRF user guide
 
-https://www.uppmax.uu.se/support/user-guides/wrf-user-guide/
-
 Introduction
 The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
