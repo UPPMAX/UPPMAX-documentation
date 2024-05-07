@@ -128,30 +128,44 @@
 
     [What do the fields PRIORITY and REASON mean in "jobinfo" output?](jobinfo_reason.md)
 
+???- question "How do I use the modules in batch jobs?"
+
+    - In order to make running installed programs easier you should use the module command. 
+    - The different module that are installed sets the correct environments that are needed for the programs to run, like ``PATH``, ``LD_LIBRARY_PATH`` and ``MANPATH``.
+    -To see what what modules that are available, type ``module avail``. To see what modules you have loaded, type ``module list``.
+
+    - Note. For the batch system slurm to work with modules you must have
+
+    ```
+    #!/bin/bash -l
+    ```
+
+    in your submit script.
+
+    - For more information, read the [module system guide](../modules.md)
+
 ???- question "What is causing the sbatch script error 'Unknown shell type `load`'?"
 
-???- info "For UPPMAX staff"
+    - If you're getting the error message
 
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/sbatch-script-error--unknown-shell-type--load--/`
+    ```
+    init.c(379):ERROR:109: Unknown shell type load
+    ```
 
-If you're getting the error message
+    when running your sbatch script, then your script is probably starting with the line
 
-```
-init.c(379):ERROR:109: Unknown shell type load
-```
+    ```
+    #!/bin/bash
+    ```
+    
+    To remedy this you need to make sure that your script starts with
 
-when running your sbatch script, then your script is probably starting with the line
+    ```
+    #!/bin/bash -l
+    ```
 
-```
-#!/bin/bash
-```
-To remedy this you need to make sure that your script starts with
-
-```
-#!/bin/bash -l
-```
-
-i.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
+    i.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
+    
 
 ???- question "How can I see my job's memory usage?"
 
@@ -227,18 +241,3 @@ If your job priority is zero or one, there are more serious problems, for exampl
 
 If you ask for a longer run time (TimeLimit) than the maximum on the system, your job will not run. The maximum is currently ten days. If you must run a longer job, submit it with a ten-day runtime and contact UPPMAX support.
 
-???- question "How do I use the modules in batch jobs?"
-
-    - In order to make running installed programs easier you should use the module command. 
-    - The different module that are installed sets the correct environments that are needed for the programs to run, like ``PATH``, ``LD_LIBRARY_PATH`` and ``MANPATH``.
-    -To see what what modules that are available, type ``module avail``. To see what modules you have loaded, type ``module list``.
-
-    - Note. For the batch system slurm to work with modules you must have
-
-    ```
-    #!/bin/bash -l
-    ```
-
-    in your submit script.
-
-    - For more information, read the [module system guide](../modules.md)
