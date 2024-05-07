@@ -8,6 +8,6 @@
   - or by emailing support@uppmax.uu.se. We are available during normal office hours.
 
 - For Uppsala University Education, support is provided through the UU IT Servicedesk.
-  [What should I think about when planning a course using UPPMAX resources](cluster_guides/uppmax_course.md)
+  [What should I think about when planning a course using UPPMAX resources](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/course/planning-a-course)
 
 
