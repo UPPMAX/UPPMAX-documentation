@@ -1,6 +1,6 @@
 # SFTP
 
-##1. Getting Help
+## 1. Getting Help
 Once, you in the sftp prompt, check the available commands by typing ‘?‘ or ‘help‘ at command prompt. This will print out a list of the available commands and give a short description of them. We'll cover the most common ones in this guide.
 
 ```
