@@ -1,32 +1,12 @@
-# Login to Snowy
+# Log in to Snowy
 
-!!! info "[Go to the Snowy portal](../cluster_guides/snowy_portal.md)"
+Here we describe how to log in to [Snowy](snowy.md)
 
-    At [the Snowy portal](../cluster_guides/snowy_portal.md) one can 
-    learn about using Snowy, for example:
+## Prerequisites
 
-    - How to do data transfer
-    - How to make Snowy do a calculation
-    - How to develop code on Snowy
-
-!!! info "Objectives"
-    - We'll go through how to reach Snowy
-
-!!! warning
-
-    If you lack a user account, visit the [UPPMAX page on user accounts](user_account.md)
-
-## What is Snowy?
-
-See [Snowy's design](../cluster_guides/snowy.md).
-
-## Local UPPMAX project
-
-- To be able to use the Snowy compute nodes, you need a local UPPMAX project.
-https://supr.naiss.se/round/uppmaxcompute2023/
-
-!!! warning
-    Snowy is available as compute nodes only
+- User account: visit the [UPPMAX page on user accounts](user_account.md)
+- A local UPPMAX project: see [project](project.md).
+  Snowy is available as compute nodes only
 
 ## Reach the Snowy compute nodes
 

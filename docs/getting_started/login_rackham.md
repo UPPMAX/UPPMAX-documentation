@@ -1,13 +1,6 @@
 # Log in to Rackham
 
-!!! info "[Go to the Rackham portal](../cluster_guides/rackham_portal.md)"
-
-    At [the Rackham portal](../cluster_guides/rackham_portal.md) one can 
-    learn about using Rackham, for example:
-
-    - How to do data transfer
-    - How to make Rackham do a calculation
-    - How to develop code on Rackham
+Here we describe how to log in to [Rackham](rackham.md)
 
 !!! info "Objectives"
     - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX

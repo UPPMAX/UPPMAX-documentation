@@ -27,13 +27,13 @@ i.e. they allow a user to do heavy computational calculations.
 All UPPMAX clusters are named after Tintin characters.
 UPPMAX has, among others, the following clusters:
 
-- [Bianca](bianca_portal.md): for sensitive data, general use
-- [Rackham](rackham_portal.md): regular data, general purpose
-- [Snowy](snowy_portal.md): regular data, long runs and GPU:s
+- [Bianca](bianca.md): for sensitive data, general use
+- [Rackham](rackham.md): regular data, general purpose
+- [Snowy](snowy.md): regular data, long runs and GPU:s
 
 Another cluster UPPMAX is involved in:
 
-- [Dardel](dardel_portal.md): a general purpose HPC cluster in Stockholm.
+- [Dardel](dardel.md): a general purpose HPC cluster in Stockholm.
   Consider moving your files to it already
 
 

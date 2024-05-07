@@ -1,24 +1,14 @@
 # Log in to Bianca
 
-!!! info "[Go to the Bianca portal](../cluster_guides/bianca_portal.md)"
-
-    At [the Bianca portal](../cluster_guides/bianca_portal.md) one can 
-    learn about using Bianca, for example:
-
-    - NAISS-SENS and rules regarding sensitive data
-    - How to do data transfer
-    - How to make Bianca do a calculation
-    - How to develop code on Bianca
-
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
 
 > The two Bianca environments to work on Bianca. 
 > At the left is a remote desktop environment.
 > At the the right is the console environment.
 
-Here it is described how to login to Bianca:
+Here it is described how to log in to [Bianca](bianca.md):
 
-- [Bianca's design](../cluster_guides/bianca.md): 
+- [Bianca's design](../cluster_guides/biancas_design.md): 
   helps understand why the procedure described here is needed.
 - [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can login to Bianca
 - [The two Bianca environments](#the-two-bianca-environments) shows the two ways to use Bianca
@@ -26,9 +16,6 @@ Here it is described how to login to Bianca:
 - [Get inside the Bianca environment](#get-inside-the-bianca-environment) show how to get inside the Bianca environments:
     - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
     - [Login to the Bianca console environment](#login-to-the-Bianca-console-environment)
-
-After logging in, one can visit [the Bianca portal](../cluster_guides/bianca_portal.md)
-to learn how to use Bianca
 
 ## Prerequisites for using Bianca
 

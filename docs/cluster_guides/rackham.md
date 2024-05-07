@@ -1,5 +1,7 @@
 # Rackham
 
+![Red Rackham, from https://tintin.fandom.com/wiki/Red_Rackham](./img/red_rackham_103_x_238.jpg)
+
 Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
 
 !!! info "Consider migrating to Dardel already"
@@ -10,41 +12,22 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
 
     See the page on file transfer to Dardel [here](transfer_dardel.md).
 
-Here we describe [Rackham's name](#rackham's-name)
-and [Rackham's design](#rackham's-design).
-
-!!! info "[Go to the Rackham portal](rackham_portal.md)"
-
-    [The Rackham portal](rackham_portal.md) 
-    is the starting page on using Rackham.
-
-## Rackham's name
-
-Rackham, like all [UPPMAX clusters](uppmax_cluster.md), 
-is named after a Tintin character,
-in this case after Red Rackham.
-
-![Red Rackham, from https://tintin.fandom.com/wiki/Red_Rackham](./img/red_rackham_103_x_238.jpg)
-
-???- question "What are the UPPMAX clusters?"
-
-    All UPPMAX clusters can be found [here](uppmax_cluster.md).
-
-## Rackham's design
-
-Rackham is an (general-purpose) high-performance computing (HPC) cluster.
-
-???- question "What is an HPC cluster?"
-
-    What an HPC cluster is, is described [here](uppmax_cluster.md).
-
-Or: Rackham is a group of computers that can effectively run many calculations, 
-as requested by multiple people, at the same time.
-Rackham runs the Linux operating system and all users need some
-basic Linux knowledge to use Rackham.
-
-???- tip "Using Linux"
-
-    Using Linux (and especially the so-called command-line/terminal) is essential
-    to use Rackham. Learning the essential Linux commands 
-    is described [here](../getting_started/linux.md).
+- [Rackham's name](rackhams_name.md)
+- [Rackham's name](rackhams_design.md)
+- [Log in](../getting_started/login_rackham.md)
+- [Starting an interactive node](start_interactive_node_on_rackham.md)
+- [File transfer](transfer_rackham.md)
+    - [using a graphical program](rackham_file_transfer_using_gui.md)
+    - [using SCP](rackham_file_transfer_using_scp.md)
+    - [using SFTP](rackham_file_transfer_using_sftp.md)
+- [The module system](rackham_modules.md)
+- [IDEs](ides_on_rackham.md)
+    - [Jupyter](../software/jupyter.md)
+    - [RStudio](rstudio_on_rackham.md)
+    - [VSCode](vscode_on_rackham.md)
+    - :no_entry: [VSCodium](vscodium_on_rackham.md)
+- Isolated environments
+    - [venv](venv_on_rackham.md)
+- Best practices
+- Rackham installation guides
+- Rackham workshops

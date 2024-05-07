@@ -19,11 +19,11 @@ nav:
 #    - Running your first job: getting_started/first_job.md
   - Cluster user guide:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
-    - Cluster portals: 
-      - Bianca portal: cluster_guides/bianca_portal.md
-      - Dardel portal: cluster_guides/dardel_portal.md
-      - Rackham portal: cluster_guides/rackham_portal.md
-      - Snowy portal: cluster_guides/snowy_portal.md
+    - Clusters: 
+      - Bianca: cluster_guides/bianca.md
+      - Dardel: cluster_guides/dardel.md
+      - Rackham: cluster_guides/rackham.md
+      - Snowy: cluster_guides/snowy.md
     - General cluster tools: 
       - Start an interactive node: cluster_guides/start_interactive_node.md
       - Modules: cluster_guides/modules.md
