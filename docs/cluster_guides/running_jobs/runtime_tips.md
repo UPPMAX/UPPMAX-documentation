@@ -191,7 +191,7 @@
 
     - If, on the other hand, you want to view your memory consumption in real time then you will have to login to the node in question in another SSH session. (You will probably find a more recently updated memory information file there, named /var/spool/uppmax_jobstats/.)
 
-    - By naively looking at the memory consumption with tools like "ps" and "top" you as a user can easily get the wrong impression of the system, as the Linux kernel uses free memory for lots of buffers and caches to speed up other processes (but releases this as soon as applications requests it).
+    - By naively looking at the memory consumption with tools like ``ps`` and ``top`` you as a user can easily get the wrong impression of the system, as the Linux kernel uses free memory for lots of buffers and caches to speed up other processes (but releases this as soon as applications requests it).
 
     - If you know that you are the only user running on the node (from requesting a node job for example), then you could issue the command "free -g" instead. That will show you how much memory is used/free by the whole system, exclusive to these caches. Look for the row called "-/+ buffers/cache".
 
@@ -208,7 +208,12 @@
 
     - One reason could be that your project has consumed its allocated hours.
 
-    - Background: Every job is associated with a project. Suppose that that you are working for a SNIC project s00101-01 that's been granted 10000 core hours per 30-days running. At the start of the project, s00101-01 is credited with 10000 hours and jobs that runs in that project are given a high priority. All the jobs that are finished or are running during the last 30 days is compared with this granted time. If enough jobs have run to consume this amount of hours the priority is lowered. The more you have overdrafted your granted time, the lower the priority.
+    - Background: Every job is associated with a project. 
+        - Suppose that that you are working for a SNIC project s00101-01 that's been granted 10000 core hours per 30-days running. 
+        - At the start of the project, s00101-01 is credited with 10000 hours and jobs that runs in that project are given a high priority. 
+        - All the jobs that are finished or are running during the last 30 days is compared with this granted time. 
+        - If enough jobs have run to consume this amount of hours the priority is lowered. 
+        - The more you have overdrafted your granted time, the lower the priority.
 
     - If you have overdrafted your granted time it's still possible to run jobs. You will probably wait for a longer time in the queue.
 
