@@ -1,29 +1,34 @@
 # Runtime tips
 
-## How can I run X11 applications inside GNU screen?
+???- question "How can I run X11 applications inside GNU screen?"
 
-???- info "For UPPMAX staff"
+    **If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?**
 
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-x11-applications-inside-gnu-screen/`
+    **(This applies also for trying to do PNG output in R, since it depends on X11)**
+    
+    When starting a screen session, your DISPLAY environment can sometimes change from the one that you had when you logged in.
 
-**If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?
+    To solve this problem, you simply have to set the DISPLAY variable inside the screen session, to the same value that you have outside it.
 
-(This applies also for trying to do PNG output in R, since it depends on X11)**
+    So, outside the screen session, do:
 
-When starting a screen session, your DISPLAY environment can sometimes change from the one that you had when you logged in.
+    ```
+    echo $DISPLAY
+    ```
+   
+    You might see something like:
 
-To solve this problem, you simply have to set the DISPLAY variable inside the screen session, to the same value that you have outside it.
+    ```
+    localhost:45.0
+    ```
+    
+    Then, inside your screen session, set your DISPLAY env variable to that same value using the export command, like so:
 
-So, outside the screen session, do:
-
-echo $DISPLAY
-You might see something like:
-
-localhost:45.0
-Then, inside your screen session, set your DISPLAY env variable to that same value using the export command, like so:
-
-export DISPLAY=localhost:45.0
-(NOTE: The actual number above might be different for you, and should be changed accordingly!)
+    ```
+    export DISPLAY=localhost:45.0
+    ```
+    
+    (NOTE: The actual number above might be different for you, and should be changed accordingly!)
 
 ## Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!
 
