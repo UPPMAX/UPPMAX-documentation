@@ -10,7 +10,7 @@ Our current SGDP data are those aligned to human reference genome GRCh38DH found
 
 echo "mirror data" | lftp ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/simons_diversity_data
 
-As a result, the local UPPMAX archive is found at /sw/data/SGDP/data/. Within this directory are subdirectories for each of the populations included in the full dataset, with individual samples found within each population directory. For example, 
+As a result, the local UPPMAX archive is found at /sw/data/SGDP/data/. Within this directory are subdirectories for each of the populations included in the full dataset, with individual samples found within each population directory. For example,
 
 rackham1: /sw/data/SGDP $ ls -l data/Greek
 total 8

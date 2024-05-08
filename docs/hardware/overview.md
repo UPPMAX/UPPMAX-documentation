@@ -1,5 +1,5 @@
 This page describes the hardware architecture of the different compute clusters
-at UPPMAX as well as their storage systems. 
+at UPPMAX as well as their storage systems.
 
 UPPMAX is part of the [National Academic Infrastructure for
 Supercomputing in Sweden (NAISS)](https://www.naiss.se/) and as such
@@ -8,7 +8,7 @@ Supercomputing in Sweden (NAISS)](https://www.naiss.se/) and as such
 | |Rackham|Snowy|Bianca|UPPMAX Cloud|
 |-------|-----|------|---|---|
 |**Purpose**|General-purpose|General-purpose|Sensitive data|IaaS
-|**Reserved for**|NAISS projects|Uppsala researchers and course projects|NAISS-SENS projects|NAISS and local projects | 
+|**Reserved for**|NAISS projects|Uppsala researchers and course projects|NAISS-SENS projects|NAISS and local projects |
 |**  Nodes (Intel)**|486+144|228+ <br>50 N vidia T4 GPUs|272 +  <br>4 nodes á 2 <br>NVIDIA A100 GPUs| 40 + <br> 20 A2 and 4 T4 Nvidia GPUs |
 |**Cores per node**|20/16|16|16/64| 16
 |**Memory per node**|128GB|128GB|128GB |128/256GB |

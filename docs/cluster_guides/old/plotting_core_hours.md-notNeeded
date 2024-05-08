@@ -21,7 +21,7 @@ As seen in the syntax description, the only mandatory argument is the -A flag. I
 Example:
 
 $ projplot -A b2010074
-which will give you a picture like this, after ~10 seconds: 
+which will give you a picture like this, after ~10 seconds:
 
 basic projplot
 
@@ -44,14 +44,14 @@ There are a couple of options your can specify to modify the plot.
 -d or --days, custom number of days
 Default: 30
 
-If you want to see more (or less) days than the default 30, you can specify it with the -d option. 
+If you want to see more (or less) days than the default 30, you can specify it with the -d option.
 
 
 $ projplot -A proj-id -d 45
 will plot the last 45 days.
 
 -s or --start, custom starting point
-If you specify -s in your command you will change where in time your plot will start. 
+If you specify -s in your command you will change where in time your plot will start.
 
 
 $ projplot -A proj-id -s YYYY-MM-DD

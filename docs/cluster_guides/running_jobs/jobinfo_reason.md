@@ -53,7 +53,7 @@ A job is not elevated, if its timelimit does not allow it to finish before next 
 At least one job per user is elevated, regardless of size and regardless of the two limitations mentioned below in this list.
 The elevated jobs of a user must not together ask for more than 64 cores.
 The elevated jobs of a user must not together ask for more than 2688 core hours, i.e. 112 core days.
- 
+
 How does SLURM decide what job to start next?
 When there are free nodes, an approximate model of SLURM's behaviour is this:
 

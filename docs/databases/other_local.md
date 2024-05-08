@@ -16,7 +16,7 @@ The Pfam database versions 2011, 28.0, 31.0 and 35.0 are downloaded in their ent
 
     pfam_scan.pl -dir $PFAM_ROOT ...
 
-The pfam_scan.pl script is designed to work with the Pfam database. 
+The pfam_scan.pl script is designed to work with the Pfam database.
 dbCAN
 
 The dbCAN 4.0 database for automated carbohydrate-active enzyme annotation is now available in directory /sw/data/dbCAN/4.0 on Uppmax servers. The database is formatted for use with the hmmer/3.1b1-{gcc,intel} modules. For more information see /sw/data/dbCAN/4.0/readme.txt or the remote version.

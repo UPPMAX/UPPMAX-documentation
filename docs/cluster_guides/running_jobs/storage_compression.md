@@ -1,6 +1,6 @@
 # Storage and compression
 
-## How does automatic backup of project areas work at UPPMAX? 
+## How does automatic backup of project areas work at UPPMAX?
 
 ## File compression guide
 

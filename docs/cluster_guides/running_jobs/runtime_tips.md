@@ -7,7 +7,7 @@
     **If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?**
 
     **(This applies also for trying to do PNG output in R, since it depends on X11)**
-    
+
     When starting a screen session, your DISPLAY environment can sometimes change from the one that you had when you logged in.
 
     To solve this problem, you simply have to set the DISPLAY variable inside the screen session, to the same value that you have outside it.
@@ -17,23 +17,23 @@
     ```
     echo $DISPLAY
     ```
-   
+
     You might see something like:
 
     ```
     localhost:45.0
     ```
-    
+
     Then, inside your screen session, set your DISPLAY env variable to that same value using the export command, like so:
 
     ```
     export DISPLAY=localhost:45.0
     ```
-    
+
     (NOTE: The actual number above might be different for you, and should be changed accordingly!)
 
 
-???- question "I want my program to send data to both stdout and to a file but nothing comes until the program ends" 
+???- question "I want my program to send data to both stdout and to a file but nothing comes until the program ends"
 
     There is a program called unbuffer. You could try using it like (tee takes care of sending both to stdout and to a file):
 
@@ -43,17 +43,17 @@
 
 ???- question "My program suddenly seems to stop executing but it does not crash, the process is still alive. What is wrong?"
 
-    - This may happen if your executable binary file is deleted while the program is running. 
-    - For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". 
-    - The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. 
+    - This may happen if your executable binary file is deleted while the program is running.
+    - For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error".
+    - The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy.
     - Then, the original executable file can be safely deleted. -
     - Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
 ???- question "My program crashes with the error message 'Bus error'. Why?"
 
-    - This may happen if your executable binary file is deleted while the program is running. 
-    - For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error". 
-    - The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy. 
+    - This may happen if your executable binary file is deleted while the program is running.
+    - For example, if you recompile your program the previous executable file is deleted, which can cause running instances of the program to crash with "Bus error".
+    - The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy.
     - Then, the original executable file can be safely deleted. -
     - Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
 
@@ -130,7 +130,7 @@
 
 ???- question "How do I use the modules in batch jobs?"
 
-    - In order to make running installed programs easier you should use the module command. 
+    - In order to make running installed programs easier you should use the module command.
     - The different module that are installed sets the correct environments that are needed for the programs to run, like ``PATH``, ``LD_LIBRARY_PATH`` and ``MANPATH``.
     -To see what what modules that are available, type ``module avail``. To see what modules you have loaded, type ``module list``.
 
@@ -157,7 +157,7 @@
     ```
     #!/bin/bash
     ```
-    
+
     To remedy this you need to make sure that your script starts with
 
     ```
@@ -165,7 +165,7 @@
     ```
 
     i.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
-    
+
 
 ???- question "How can I see my job's memory usage?"
 
@@ -197,8 +197,8 @@
 
     - If you require more detailed live information, then it would probably be best if the tool called "smem" is used. Download the latest version from http://www.selenic.com/smem/download/ and unpack it in your home directory. Inside you will find an executable Python script, and by executing the command "smem -utk" you will see your user's memory usage reported in three different ways.
 
-        - USS is the total memory used by the user without shared buffers or caches. 
-        - RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory. 
+        - USS is the total memory used by the user without shared buffers or caches.
+        - RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory.
         - And then there's also the PSS figure which tries to calculate a proportional memory usage per user for all shared memory buffers and caches (i.e. the figure will fall between USS and RSS).
 
 
@@ -208,11 +208,11 @@
 
     - One reason could be that your project has consumed its allocated hours.
 
-    - Background: Every job is associated with a project. 
-        - Suppose that that you are working for a SNIC project s00101-01 that's been granted 10000 core hours per 30-days running. 
-        - At the start of the project, s00101-01 is credited with 10000 hours and jobs that runs in that project are given a high priority. 
-        - All the jobs that are finished or are running during the last 30 days is compared with this granted time. 
-        - If enough jobs have run to consume this amount of hours the priority is lowered. 
+    - Background: Every job is associated with a project.
+        - Suppose that that you are working for a SNIC project s00101-01 that's been granted 10000 core hours per 30-days running.
+        - At the start of the project, s00101-01 is credited with 10000 hours and jobs that runs in that project are given a high priority.
+        - All the jobs that are finished or are running during the last 30 days is compared with this granted time.
+        - If enough jobs have run to consume this amount of hours the priority is lowered.
         - The more you have overdrafted your granted time, the lower the priority.
 
     - If you have overdrafted your granted time it's still possible to run jobs. You will probably wait for a longer time in the queue.
@@ -227,7 +227,7 @@
     User
     -----------------------------------------------------
     s00101-01          72779.48               50000
-    some-user       72779.48 
+    some-user       72779.48
     ```
 
     - If there are enough jobs left in projects that have not gone over their allocation, jobs associated with this project are therefore stuck wating at the bottom of the jobinfo list until the usage for the last 30 days drops down under its allocated budget again.

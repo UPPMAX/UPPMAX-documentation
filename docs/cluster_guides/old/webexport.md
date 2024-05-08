@@ -7,4 +7,4 @@ You can enable webexport by creating a publicly readable folder called **webexpo
 
 A publicly readable folder has the execute permission set for "other" users. Run the command chmod o+x webexport to ensure that the webexport directory has the correct permissions.
 
-A subset of .htaccess/.htpasswd functionality is available to control access. 
+A subset of .htaccess/.htpasswd functionality is available to control access.

@@ -26,7 +26,7 @@ Please contact UPPMAX support at support@uppmax.uu.se. We have a previously been
 Environmental variables
 We have defines several environment variables to help our users. They are:
 
-$HOME (or $SNIC_BACKUP) is a traditional one, pointing to the users home directory. 
+$HOME (or $SNIC_BACKUP) is a traditional one, pointing to the users home directory.
 $TMPDIR or ($SNIC_TMP) points to node-local storage, suitable for temporary files that can be deleted when the job finishes
 $SNIC_NOBACKUP points to an UPPMAX-wide storage suitable for temporary files (not deleted when the job is finished)
 Types of storage
