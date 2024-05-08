@@ -1,6 +1,6 @@
 # `jobstats`
 
-![jobstats plot](jobstats_c_555912-l_1-k_bad_job_01.png)
+![jobstats plot](./img/jobstats_c_555912-l_1-k_bad_job_01.png)
 
 
 `jobststats` is an UPPMAX tool to enable discovery of resource usage
