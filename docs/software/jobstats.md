@@ -87,7 +87,8 @@ results in the blue and solid line to go up  `x` times.
 Sometimes, however, it is inevitable to use resources
 inefficiently, see [the examples below](#examples)
 
-Current number of cores|Maximum CPU Use|Maximum Memory usage|Suggested number of cores|Estimated new maximum CPU Use|Estimated new maximum Memory usage|
+Current number of cores|Maximum CPU Use|Maximum Memory usage|Suggested number of cores|Estimated new maximum CPU Use|Estimated new maximum Memory usage
+-----------------------|---------------|--------------------|-------------------------|-----------------------------|----------------------------------
 10                     |40%            |40%                 |5                        |80%                          |80%
 10                     |20%            |20%                 |3                        |67%                          |67%
 10                     |10%            |10%                 |2                        |50%                          |50%
