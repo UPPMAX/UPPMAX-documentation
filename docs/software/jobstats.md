@@ -53,8 +53,10 @@ For example, in this plot:
  * the title shows the detailed info. `milou` is the name of a former UPPMAX cluster.
  * CPU usage in blue, which is around 1000%, which is the equivalent of 10 cores
    being used 100%
- * current memory usage in solid black, which is around 20 GB
- * overall memory usage in dotted black, which is around 340 GB
+ * current memory usage in solid black, which is around 20 GB (left-side vertical
+   axis) or a little bit less than 1 core (right-side vertical axis)
+ * overall memory usage in dotted black, which is around 340 GB (left-side vertical
+   axis) or a little bit less than 11 cores	 (right-side vertical axis)
 
 For jobs running on multiple nodes, plots have multiple columns:
 
@@ -82,20 +84,33 @@ flowchart TD
 When decreasing the amount of cores,
 one can do so by using one less core at a time.
 A smarter way is to look at the plot
-and understand that using `x` times less cores
-results in the blue and solid line to go up  `x` times.
+and see the amount of cores needed for total memory
+(i.e. the dotted black line)
+which is shown at the right-side vertical axis.
+
+???- question "Need an example?"
+
+    ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275.png)
+
+    The dotted black line hits the left-hand vertical axis at 1070%.
+    This means that 11 cores (i.e. 1100%) would be enough for this job.
+    
+    For CPU usage, this works nicely as well: 10 cores are well used,
+    with only one short CPU spike at the end. Using 11 cores would
+    have a minor impact on the runtime speed.
+
+???- question "Why not look at CPU usage?"
+
+    Because CPU is more flexible.
+
+    For example, imagine a job with a short CPU spike, 
+    that can be processed by 16 CPUs.
+    If 1 core of memory is enough, use 1 core or memory:
+    the spike will be turned into a 100% CPU use (of that one core)
+    for a longer duration. 
+
 Sometimes, however, it is inevitable to use resources
 inefficiently, see [the examples below](#examples)
-
-Current number of cores|Maximum CPU Use|Maximum Memory usage|Suggested number of cores|Estimated new maximum CPU Use|Estimated new maximum Memory usage
------------------------|---------------|--------------------|-------------------------|-----------------------------|----------------------------------
-10                     |40%            |40%                 |5                        |80%                          |80%
-10                     |20%            |20%                 |3                        |67%                          |67%
-10                     |10%            |10%                 |2                        |50%                          |50%
-10                     |5%             |5%                  |1                        |50%                          |50%
-1                      |5%             |5%                  |1                        |5%                           |5%
-10                     |10%            |80%                 |10                       |10%                          |80%
-10                     |80%            |10%                 |10                       |80%                          |10%
 
 !!! note "No queue is possible"
 
@@ -106,35 +121,72 @@ Current number of cores|Maximum CPU Use|Maximum Memory usage|Suggested number of
 Here are some examples of how inefficient jobs can look 
 and what you can do to make them more efficient.
 
-### Inefficient job example 1
+### Inefficient job example 1: booking too much cores
 
 ![](./img/jobstats_c_555912-l_1-k_bad_job_01.png)
 
-This job has booked many more cores than it needs. The extra cores are only used for small bursts and 99% of the time the job is running single threaded. The memory gained from the extra cores is not used either. You can see from the dooted grey line that the job used at most as much RAM as you get by booking 4 cores (since it intersects the right Y-axis at 400%). This job would have run perfectly fine on a job with only 5 cores. Instead it used 3x the amount of core hours when it was booked as 16 cores.
+This job books 16 core, where 5 is enough.
 
-### Inefficient job example 2
+Using 4 cores (400% at the right-hand vertical axis of the dotted black line)
+is enough memory for the process, but this is quite tight,
+hence booking 5 cores is reasonable.
+
+When using 5 cores, there will be short spikes of CPU usage,
+where more CPUs could have been useful. However, these spikes
+are short and can be processed by 5 cores just as well,
+just a bit slower.
+
+### Inefficient job example 2: booking too much cores
+
+![](./img/jobstats_c_555912-l_1-k_bad_job_05.png)
+
+This is one of the grayer areas: it uses 16 cores, where 2 is enough,
+but 3 to 8 cores seems also reasonable.
+
+Using 1 core (90% at the right-hand vertical axis of the dotted black line)
+is enough memory for the process, but this is quite tight,
+hence booking 2 cores is reasonable.
+
+When using 2 cores, however, most of the time the runtime speed
+is decreased by the amount of CPUs, as the blue line is usually above 200%.
+Booking more cores here is reasonable, 
+but there is no clear guideline on how many: 3 to 8 cores all seem reasonable.
+
+### Inefficient job example 3: slowdown
 
 ![](./img/jobstats_c_555912-l_1-k_bad_job_02.png)
 
-This job is using almost all of the cores it has booked, but there seems to be something holding them back. The uneven blue curve tells us that something is slowing down the analysis, and it's not by a constant amount. Usually this is how it looks when the filesystem is the cause of a slowdown. Since the load of the filesystem is constantly changing, so will the speed by which a job can read data from it also change. This job should try to copy all the files it will be working with to the nodes local harddrive before running the analysis, and by doing so not be affected by the speed of the filesystem. Please see the guide How to use the nodes own hard drive for analysis for more information. You basically just add 2 more commands to your script file and the problem should be solved.
+This job is using almost all of the cores it has booked, 
+but there seems to be something holding them back. 
+The uneven blue curve tells us that something is slowing down the analysis, 
+and it's not by a constant amount. 
 
-### Inefficient job example 3
+Usually this is how it looks when the filesystem is the cause of a slowdown. 
+Since the load of the filesystem is constantly changing, 
+so will the speed by which a job can read data from it also change. 
+
+This job should try to copy all the files it will be working 
+with to the nodes local harddrive before running the analysis, 
+and by doing so not be affected by the speed of the filesystem. 
+
+Please see the guide How to use the nodes own hard drive 
+for analysis for more information. 
+
+You basically just add 2 more commands to your script file 
+and the problem should be solved.
+
+### Inefficient job example 4
 
 ![](./img/jobstats_c_555912-l_1-k_bad_job_03.png)
 
-This job is simply misbooked/misconfigured. The job is using 6 of the 8 booked cores constantly with no signs of anything slowing them down (the line is very even). This jobs should either have been booked with 6 cores, or the program running should be told to use all 8 cores.
+This job is simply misbooked/misconfigured. 
+The job is using 6 of the 8 booked cores constantly with no signs of anything slowing them down (the line is very even). This jobs should either have been booked with 6 cores, or the program running should be told to use all 8 cores.
 
-### Inefficient job example 4
+### Inefficient job example 5
 
 ![](./img/jobstats_c_555912-l_1-k_bad_job_04.png)
 
 This job has the same problem as the example above, but in a more extreme way. It's not uncommon that people book whole nodes out of habit and only run single threaded programs that use almost no memory. This job is a bit special in the way that it's being run on a high memory node, as you can see on the left Y-axis, that it goes up to 256 GB RAM. A normal node on Milou only have 128GB. These high memory nodes are only bookable of you book the whole node, so you can't book just a few cores on them. That means that if you need 130GB RAM and the program is only single threaded, your only option is to book a whole high memory node. The job will look really inefficient, but it's the only way to do it on our system. The example in the plot does not fall into this category though, as it uses only ~15GB of RAM, which you could get by booking 2-3 normal cores.
-
-### Inefficient job example 5
-
-![](./img/jobstats_c_555912-l_1-k_bad_job_05.png)
-
-This is one of the grayer areas. The job is using most of the cores from time to time, but is also running single threaded a lot. The memory usage is what you would get by booking only 2 cores (~16GB) as well, so no reason to book a whole, or high memory, node because of that. This job would be better off being booked with 4 cores. The multithreaded steps would be quicker because of the extra cores, and the single threaded parts would take up a proportionally smaller part of the job. The larget part of the job that is taken up by single threaded calculations, the more clear is it that the job should be adjusted. It's hard to draw a clear line when it should be adjusted, but try to keep the overall efficiency of the job at 75% or better.
 
 ## `jobstats --help`
 
