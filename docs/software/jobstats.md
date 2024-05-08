@@ -44,6 +44,8 @@ Each plot shows:
  * current memory usage in solid black
  * overall memory usage in dotted black (if available)
 
+## Interpreting a plot
+
 For example, in this plot:
 
 ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275_with_border.png)
@@ -59,6 +61,22 @@ For example, in this plot:
 For jobs running on multiple nodes, plots have multiple columns:
 
 ![jobstats showing a job that used two nodes](./img/jobstats_two_nodes_with_border.png)
+
+Some plots shows suggestions in red:
+
+Text in plot                                        |Description
+----------------------------------------------------|---------------------------------------------------------------------------------
+`nodes_overbooked : nodes booked : nodes used: `    |More nodes were booked than used
+`overbooked : % used`                               |The maximum percentage of booked cores and/or memory that was used (if < 80%)
+`!!half_overbooked`                                 |No more than one-half of both cores and memory of a node was used; consider booking half a node instead.
+`!!severely_overbooked`                             |No more than one-quarter of both cores and memory of a node was used, examine your job requirements closely.
+`!!swap_used`                                       |Swap storage was used at any point within the job run
+`node_type_overbooked : type booked : type used:`   |A fat node was requested that was larger than was needed. This flag may be produced spuriously if SLURM ran the job on a fat node when a fat node was not requested by the user.
+`cores_overbooked : cores booked : cores used: `    |More cores were booked than used (if < 80%)
+`mem_overbooked : GB booked : GB used: `            |More memory was available than was used (if < 25% and more than one core).
+`core_mem_overbooked : GB in used cores : GB used: `|Less memory was used than was available in the cores that were used (if < 50%).
+
+In this example plot, however, the setup is considered good enough.
 
 ## Efficient use
 
@@ -544,17 +562,3 @@ for u in user1 user2 user3 ; do
 done
 ```
 
-## Legend
-
-```
-nodes_overbooked : nodes booked : nodes used: More nodes were booked than used
-overbooked : % used: The maximum percentage of booked cores and/or memory that was used (if < 80%)
-!!half_overbooked: No more than one-half of both cores and memory of a node was used; consider booking half a node instead.
-!!severely_overbooked: No more than one-quarter of both cores and memory of a node was used, examine your job requirements closely.
-!!swap_used: Swap storage was used at any point within the job run
-node_type_overbooked : type booked : type used: A fat node was requested that was larger than was needed. This flag may be produced spuriously if SLURM ran the job on a fat node when a fat node was not requested by the user.
-cores_overbooked : cores booked : cores used: More cores were booked than used (if < 80%)
-mem_overbooked : GB booked : GB used: More memory was available than was used (if < 25% and more than one core).
-core_mem_overbooked : GB in used cores : GB used: Less memory was used than was available in the cores that were used (if < 50%).
-By default no flags are indicated for jobs with memory-only cautions except for swap usage, because it is common for jobs to heavily use processor cores without using a sizable fraction of memory. Use the -m/--memory option to include flags for memory underutilisation when those would be the only flags produced.
-```
