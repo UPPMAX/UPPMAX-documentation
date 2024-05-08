@@ -105,7 +105,7 @@ If not, follow the strategy at [efficient use](#efficient#use)
 
 Here is a strategy to effectively use your UPPMAX resources:
 
-```
+```mermaid
 flowchart TD
   lower_limit_based_on_memory(Pick the number of cores to have enough memory)
   limited_by_cpu(For that amount of cores, would runtime by limited by CPU?)
