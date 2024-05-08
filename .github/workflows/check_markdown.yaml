@@ -1,5 +1,5 @@
 # Check that there is correct markdown in all files
-name: Check spelling
+name: Check markdown
 
 # Check spelling on the 21st day of the month.
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
@@ -11,7 +11,7 @@ on:
 
 
 jobs:
-  check_spelling:
+  check_markdown:
 
     runs-on: ubuntu-latest
     env:
