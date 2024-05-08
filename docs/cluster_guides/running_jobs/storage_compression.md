@@ -1,6 +1,9 @@
 # Storage and compression
 
 ## Storage
+
+[Disk storage guide](../storage/disk_storage_guide.md)
+
 ???- question "How does automatic backup of project areas work at UPPMAX?"
 
     [Backup](../backup.md)
