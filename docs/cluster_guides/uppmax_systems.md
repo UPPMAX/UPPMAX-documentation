@@ -71,6 +71,9 @@ flowchart TD
     usage_type-->|off-load|Lutra
 ```
 
+See [here](https://www.uu.se/en/centre/uppmax/resources/storage)
+for more information.
+
 ## UPPMAX Cloud services
 
 See the [UPPMAX cloud](../cluster_guides/uppmax_cloud.md).
