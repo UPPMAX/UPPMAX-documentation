@@ -1,13 +1,17 @@
 # Storage and compression
 
-## How does automatic backup of project areas work at UPPMAX?
+## Storage
+???- question "How does automatic backup of project areas work at UPPMAX?"
 
-## File compression guide
+???- question "What is this 'glob' folder in my home folder?"
 
-## How can I compress my files as quickly and efficiently as possible?
 
-## How should I compress FastQ-format files?
+## Compression
+???- question "File compression guide"
 
-## Which compression format should I use for NGS-related files (FastQ, Fasta, VCF, GFF, etc.)?
+???- question "How can I compress my files as quickly and efficiently as possible?"
 
-## What is this "glob" folder in my home folder?
+???- question "How should I compress FastQ-format files?"
+
+???- question "Which compression format should I use for NGS-related files (FastQ, Fasta, VCF, GFF, etc.)?"
+
