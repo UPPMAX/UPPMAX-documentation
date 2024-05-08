@@ -116,7 +116,7 @@ flowchart TD
   lower_limit_based_on_memory --> limited_by_cpu
   limited_by_cpu --> |no| add_one
   limited_by_cpu --> |yes| lower_limit_based_on_cpu
-  lower_limit_based_on_cpu --> add_one
+  lower_limit_based_on_cpu --> done
   add_one --> done
 ```
 
@@ -177,10 +177,6 @@ flowchart TD
     This is not an exact algorithm and all numbers from 2 to 9 cores
     can be considered okay.
 
-    > Increase the number of cores by one for safety
-
-    This means booking 9 cores is recommended.
-
 Sometimes, however, it is inevitable to use resources
 inefficiently, see [the examples below](#examples)
 
@@ -219,9 +215,8 @@ This means booking 5 cores is recommended.
 
 ![](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
 
-
 This is one of the greyer areas: 
-booking 3-10 cores is all considered reasonable.
+booking 2-9 cores is all considered reasonable.
 
 > Pick the number of cores to have enough memory
 
@@ -246,12 +241,36 @@ This is around 8 cores (800%), as with that amount of cores:
 This is not an exact algorithm and all numbers from 2 to 9 cores
 can be considered okay.
 
-> Increase the number of cores by one for safety
+### Inefficient job example 3
 
-This means booking 9 cores is recommended,
-yet booking 3-10 cores is all considered reasonable.
+![](./img/jobstats_c_555912-l_1-k_bad_job_03_with_border.png)
 
-### Inefficient job example 3: slowdown
+Here booking 6 cores is considered okay.
+
+> Pick the number of cores to have enough memory
+
+The dotted black line hits the left-hand vertical axis at 40%.
+This means that 1 core (i.e. 100%) would be enough for this job.
+
+> For that amount of cores, would runtime by limited by CPU?
+
+The answer is 'yes'. Having 1 core would
+mean that most of the time our run is limited by CPU power.
+This has an impact on the runtime speed.
+
+> Increase the number of cores, so that on average the right amount of CPUs are booked
+
+This is around 6 cores (600%), as with that amount of cores:
+
+- most of the time, there is 6 out of 6 cores booked,
+  that is 0 too much
+- only rarely, there is a little spike up or a bigger spike down
+
+There are no signs of anything slowing them down, as the line is very even. 
+
+This jobs should either have been booked with 6 cores, or the program running should be told to use all 8 cores.
+
+### Inefficient job example 4: slowdown
 
 ![](./img/jobstats_c_555912-l_1-k_bad_job_02_with_border.png)
 
@@ -274,18 +293,26 @@ for analysis for more information.
 You basically just add 2 more commands to your script file 
 and the problem should be solved.
 
-### Inefficient job example 4
-
-![](./img/jobstats_c_555912-l_1-k_bad_job_03_with_border.png)
-
-This job is simply misbooked/misconfigured. 
-The job is using 6 of the 8 booked cores constantly with no signs of anything slowing them down (the line is very even). This jobs should either have been booked with 6 cores, or the program running should be told to use all 8 cores.
-
 ### Inefficient job example 5
 
 ![](./img/jobstats_c_555912-l_1-k_bad_job_04_with_border.png)
 
-This job has the same problem as the example above, but in a more extreme way. It's not uncommon that people book whole nodes out of habit and only run single threaded programs that use almost no memory. This job is a bit special in the way that it's being run on a high memory node, as you can see on the left Y-axis, that it goes up to 256 GB RAM. A normal node on Milou only have 128GB. These high memory nodes are only bookable of you book the whole node, so you can't book just a few cores on them. That means that if you need 130GB RAM and the program is only single threaded, your only option is to book a whole high memory node. The job will look really inefficient, but it's the only way to do it on our system. The example in the plot does not fall into this category though, as it uses only ~15GB of RAM, which you could get by booking 2-3 normal cores.
+This job has the same problem as the example above, 
+but in a more extreme way. 
+
+It's not uncommon that people book whole nodes out of habit 
+and only run single threaded programs that use almost no memory. 
+This job is a bit special in the way that it's being run on a high memory node, 
+as you can see on the left Y-axis, that it goes up to 256 GB RAM. 
+A normal node on Milou only have 128GB. 
+These high memory nodes are only bookable of you book the whole node, 
+so you can't book just a few cores on them. 
+That means that if you need 130GB RAM and the program is only single threaded, 
+your only option is to book a whole high memory node. 
+The job will look really inefficient, 
+but it's the only way to do it on our system. 
+The example in the plot does not fall into this category though, 
+as it uses only ~15GB of RAM, which you could get by booking 2-3 normal cores.
 
 ## `jobstats --help`
 
