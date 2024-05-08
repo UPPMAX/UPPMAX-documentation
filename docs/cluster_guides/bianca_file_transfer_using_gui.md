@@ -8,7 +8,7 @@
 
 As a user, we need to transfer files
 between our local computer and Bianca.
-The many ways to transfer files to/from Bianca 
+The many ways to transfer files to/from Bianca
 are discussed [here](transfer_bianca.md).
 On this page, we learn how to transfer files
 to Bianca using a graphical tool/program.
@@ -18,7 +18,7 @@ we can use, due to Bianca being an HPC cluster
 for sensitive data.
 Details are described in 'Bianca's constraints'.
 
-When using such a graphical tool, 
+When using such a graphical tool,
 one needs to be inside of SUNET.
 FileZilla is a tool that is easy to setup.
 The full procedure is described in 'Using FileZilla'.
@@ -100,12 +100,12 @@ that supports SFTP.
 
 ???- warning "Use SFTP ... and why SCP will never work"
 
-    You must use SFTP. 
+    You must use SFTP.
 
     However, some users find tools that support
-    another protocol called 'SCP'. 
+    another protocol called 'SCP'.
     We understand the confusion, due
-    to the many technical and abbreviated terms. 
+    to the many technical and abbreviated terms.
 
     Only SFTP will work.
 
@@ -128,7 +128,7 @@ other tools.
 ???- question "Would you like a video?"
 
     If you like to see how to do file tranfer from/to Bianca
-    using FileZilla, watch the video 
+    using FileZilla, watch the video
     [here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
@@ -149,7 +149,7 @@ To transfer files to/from Bianca using FileZilla, do:
     It is here:
 
     ![](./img/filezilla_file_site_manager.png)
-    
+
     > The FileZilla 'File' menu contains the item 'Site manager'
 
 - Click 'New site'
@@ -176,7 +176,7 @@ To transfer files to/from Bianca using FileZilla, do:
 
 !!! tip "Storing a password is useless"
 
-    Because Bianca holds sensitive data, 
+    Because Bianca holds sensitive data,
     there is need to use the UPPMAX two-factor authentication
     code every time you login.
     Due to this, storing a password is hence useless
