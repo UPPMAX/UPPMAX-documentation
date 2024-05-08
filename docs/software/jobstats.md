@@ -1,6 +1,6 @@
 # `jobstats`
 
-![jobstats plot](./img/jobstats_c_555912-l_1-k_bad_job_01.png)
+![jobstats plot](./img/jobstats_c_555912-l_1-k_bad_job_01_with_border.png)
 
 `jobststats` is an UPPMAX tool to enable discovery of resource usage
 for jobs submitted to the [Slurm](../cluster_guides/slurm.md) job queue.
@@ -13,8 +13,6 @@ At this page, it is described:
  * Other `jobstats` functionality
    * Using `jobstats --help`
   
-
-
 ## `jobstats --plot`
 
 With the `--plot` (or `-p`) option, 
@@ -48,7 +46,7 @@ Each plot shows:
 
 For example, in this plot:
 
-![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275.png)
+![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275_with_border.png)
 
  * the title shows the detailed info. `milou` is the name of a former UPPMAX cluster.
  * CPU usage in blue, which is around 1000%, which is the equivalent of 10 cores
@@ -60,7 +58,7 @@ For example, in this plot:
 
 For jobs running on multiple nodes, plots have multiple columns:
 
-![jobstats showing a job that used two nodes](./img/jobstats_two_nodes.png)
+![jobstats showing a job that used two nodes](./img/jobstats_two_nodes_with_border.png)
 
 ## Efficient use
 
@@ -90,7 +88,7 @@ which is shown at the right-side vertical axis.
 
 ???- question "Need an example?"
 
-    ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275.png)
+    ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275_with_border.png)
 
     The dotted black line hits the left-hand vertical axis at 1070%.
     This means that 11 cores (i.e. 1100%) would be enough for this job.
@@ -123,7 +121,7 @@ and what you can do to make them more efficient.
 
 ### Inefficient job example 1: booking too much cores
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_01.png)
+![](./img/jobstats_c_555912-l_1-k_bad_job_01_with_border.png)
 
 This job books 16 core, where 5 is enough.
 
@@ -138,7 +136,7 @@ just a bit slower.
 
 ### Inefficient job example 2: booking too much cores
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_05.png)
+![](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
 
 This is one of the grayer areas: it uses 16 cores, where 2 is enough,
 but 3 to 8 cores seems also reasonable.
@@ -154,7 +152,7 @@ but there is no clear guideline on how many: 3 to 8 cores all seem reasonable.
 
 ### Inefficient job example 3: slowdown
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_02.png)
+![](./img/jobstats_c_555912-l_1-k_bad_job_02_with_border.png)
 
 This job is using almost all of the cores it has booked, 
 but there seems to be something holding them back. 
@@ -177,14 +175,14 @@ and the problem should be solved.
 
 ### Inefficient job example 4
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_03.png)
+![](./img/jobstats_c_555912-l_1-k_bad_job_03_with_border.png)
 
 This job is simply misbooked/misconfigured. 
 The job is using 6 of the 8 booked cores constantly with no signs of anything slowing them down (the line is very even). This jobs should either have been booked with 6 cores, or the program running should be told to use all 8 cores.
 
 ### Inefficient job example 5
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_04.png)
+![](./img/jobstats_c_555912-l_1-k_bad_job_04_with_border.png)
 
 This job has the same problem as the example above, but in a more extreme way. It's not uncommon that people book whole nodes out of habit and only run single threaded programs that use almost no memory. This job is a bit special in the way that it's being run on a high memory node, as you can see on the left Y-axis, that it goes up to 256 GB RAM. A normal node on Milou only have 128GB. These high memory nodes are only bookable of you book the whole node, so you can't book just a few cores on them. That means that if you need 130GB RAM and the program is only single threaded, your only option is to book a whole high memory node. The job will look really inefficient, but it's the only way to do it on our system. The example in the plot does not fall into this category though, as it uses only ~15GB of RAM, which you could get by booking 2-3 normal cores.
 
