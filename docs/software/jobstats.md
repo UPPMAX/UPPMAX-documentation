@@ -2,6 +2,8 @@
 
 ![jobstats plot](./img/jobstats_c_555912-l_1-k_bad_job_01_with_border.png)
 
+> An example plot produced by `jobstats`
+
 `jobststats` is an UPPMAX tool to enable discovery of resource usage
 for jobs submitted to the [Slurm](../cluster_guides/slurm.md) job queue.
 
@@ -152,7 +154,7 @@ flowchart TD
 
 ???- question "Need another worked-out example?"
 
-    ![](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
+    ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
 
     > Pick the number of cores to have enough memory
 
@@ -191,7 +193,7 @@ and what you can do to make them more efficient.
 
 ### Inefficient job example 1: booking too much cores
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_01_with_border.png)
+![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_01_with_border.png)
 
 Here booking 5 cores is considered okay.
 
@@ -213,7 +215,7 @@ This means booking 5 cores is recommended.
 
 ### Inefficient job example 2: booking too much cores
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
+![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
 
 This is one of the greyer areas: 
 booking 2-9 cores is all considered reasonable.
@@ -243,7 +245,7 @@ can be considered okay.
 
 ### Inefficient job example 3
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_03_with_border.png)
+![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_03_with_border.png)
 
 Here booking 6 cores is considered okay.
 
@@ -272,7 +274,7 @@ This jobs should either have been booked with 6 cores, or the program running sh
 
 ### Inefficient job example 4: slowdown
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_02_with_border.png)
+![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_02_with_border.png)
 
 This job is using almost all of the cores it has booked, 
 but there seems to be something holding them back. 
@@ -295,7 +297,7 @@ and the problem should be solved.
 
 ### Inefficient job example 5
 
-![](./img/jobstats_c_555912-l_1-k_bad_job_04_with_border.png)
+![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_04_with_border.png)
 
 This job has the same problem as the example above, 
 but in a more extreme way. 
@@ -363,9 +365,9 @@ jobstats --help
 
     Mode 1:  jobstats -p jobid1 jobid2 jobid3
     -------
-    Job numbers valid on the cluster.  finishedjobinfo is used to determine further
+    Job numbers valid on the cluster.  [finishedjobinfo](finishedjobinfo.md) is used to determine further
     information for each job.  If multiple queries are expected, it might be quicker
-    to run finishedjobinfo yourself separately, see Mode 5 below.  See Mode 2 for a
+    to run [finishedjobinfo](finishedjobinfo.md) yourself separately, see Mode 5 below.  See Mode 2 for a
     currently running job.
 
     Mode 2:  jobstats -p -r jobid1 jobid2 jobid3
@@ -375,30 +377,30 @@ jobstats --help
 
     Mode 3:  jobstats -p -n m15,m16 jobid
     -------
-    finishedjobinfo is *not* called and Uppmax's stored job statistics files are
+    [finishedjobinfo](finishedjobinfo.md) is *not* called and Uppmax's stored job statistics files are
     discovered directly.  If you know which node(s) your job ran on or which nodes
     you are interested in, this will be much faster than Mode 1.
 
     Mode 4:  jobstats -p -A project
     -------
-    When providing a project name that is valid for the cluster, finishedjobinfo is
+    When providing a project name that is valid for the cluster, [finishedjobinfo](finishedjobinfo.md) is
     used to determine further information on jobs run within the project.  As for
-    Mode 1, this can be rather slow.  Furthermore only finishedjobinfo defaults for
+    Mode 1, this can be rather slow.  Furthermore only [finishedjobinfo](finishedjobinfo.md) defaults for
     time span etc. are used for job discovery.  If multiple queries are expected or
-    additional finishedjobinfo options are desired, see Mode 5 below.
+    additional [finishedjobinfo](finishedjobinfo.md) options are desired, see Mode 5 below.
 
-    Mode 5:  finishedjobinfo project | jobstats - -p
+    Mode 5:  [finishedjobinfo](finishedjobinfo.md) project | jobstats - -p
     -------
-    Accept input on stdin formatted like finishedjobinfo output.  The long form of
+    Accept input on stdin formatted like [finishedjobinfo](finishedjobinfo.md) output.  The long form of
     this option is '--stdin'.  This mode can be especially useful if multiple
     queries of the same job information are expected.  In this case, save the
-    output of a single comprehensive finishedjobinfo query, and extract the parts
+    output of a single comprehensive [finishedjobinfo](finishedjobinfo.md) query, and extract the parts
     of interest and present them to this script on stdin.  For example, to produce
     analyses of all completed jobs in a project during the current calendar year,
     and produce separate tarballs analysing all jobs and providing jobstats plots
     for each user during this same period:
 
-         finishedjobinfo -y project > proj-year.txt
+         [finishedjobinfo](finishedjobinfo.md) -y project > proj-year.txt
          grep 'jobstat=COMPLETED' proj-year.txt | jobstats - > all-completed-jobs.txt
          grep 'username=user1' proj-year.txt | jobstats - -p > user1-jobs.txt
          tar czf user1-jobs.tar.gz user1-jobs.txt *-project-user1-*.png
@@ -416,21 +418,21 @@ jobstats --help
                            for the running jobs, and the rightmost extent of the plot
                            produced will reflect the scheduled end time of the job.
 
-        -A project         Project valid on the cluster.  finishedjobinfo is used to
+        -A project         Project valid on the cluster.  [finishedjobinfo](finishedjobinfo.md) is used to
                            discover jobs for the project.  See further comments 
                            under 'Mode 4' above.
 
         -M cluster         Cluster on which jobs were run [default current cluster]
 
         -n node[,node...]  Cluster node(s) on which the job was run.  If specified,
-                           then the finishedjobinfo script is not run and discovery
+                           then the [finishedjobinfo](finishedjobinfo.md) script is not run and discovery
                            is restricted to only the specified nodes.  Nodes can be 
                            specified as a comma-separated list of complete node 
-                           names, or using the finishedjobinfo syntax:
+                           names, or using the [finishedjobinfo](finishedjobinfo.md) syntax:
                                  m78,m90,m91,m92,m100  or  m[78,90-92,100]
                            Nonsensical results will occur if the syntaxes are mixed.
 
-        - | --stdin        Accept input on stdin formatted like finishedjobinfo 
+        - | --stdin        Accept input on stdin formatted like [finishedjobinfo](finishedjobinfo.md) 
                            output.  The short form of this option is a single dash 
                            '-'.
                            
@@ -445,7 +447,7 @@ jobstats --help
 
         -q | --quiet       Do not produce table output
 
-        -Q | --Quick       Run finishedjobinfo with the -q option, which is slightly
+        -Q | --Quick       Run [finishedjobinfo](finishedjobinfo.md) with the -q option, which is slightly
                            faster but does not include SLURM's record of maximum
                            memory used. With this option, memory usage analyses can
                            only rely upon what is reported at 5-minute intervals,
@@ -478,9 +480,9 @@ jobstats --help
         -X directory       Hard directory prefix to use for jobstats files.  
                            Jobstats files are assumed available directly: 
                                '<hard-prefix>/<jobid>'
-        --no-multijobs     Run finishedjobinfo separately for each jobid, rather
+        --no-multijobs     Run [finishedjobinfo](finishedjobinfo.md) separately for each jobid, rather
                            than all jobids bundled into one -j option (for debugging)
-        -f file            finishedjobinfo script [default is '/sw/uppmax/bin/finishedjobinfo']
+        -f file            [finishedjobinfo](finishedjobinfo.md) script [default is '/sw/uppmax/bin/finishedjobinfo']
         -P file            plot_jobstats script [default is '/sw/uppmax/bin/plot_jobstats']
 
 
@@ -607,7 +609,15 @@ Discovery by job number for a completed job:
 ```
 jobstats --plot jobid1 jobid2 jobid3
 ```
-The job numbers valid on the cluster. finishedjobinfo is used to determine further information for each job. This can be rather slow, and a message asking for your patience is printed for each job. If multiple queries are expected it would be quicker to run finishedjobinfo yourself separately, see Mode 4 below. See Mode 2 for a currently running job.
+The job numbers valid on the cluster. 
+[finishedjobinfo](finishedjobinfo.md) is used 
+to determine further information for each job. 
+This can be rather slow, 
+and a message asking for your patience is printed for each job. 
+
+If multiple queries are expected it would be quicker 
+to run [finishedjobinfo](finishedjobinfo.md) yourself separately, 
+see Mode 4 below. See Mode 2 for a currently running job.
 
 ### `jobstats` discovery mode 2: discovery by job number for a currently running job
 
@@ -617,7 +627,9 @@ Discovery by job number for a currently running job.
 jobstats --plot -r jobid1 jobid2 jobid3
 ```
 
-Job numbers of jobs currently running on the cluster. The SLURM squeue tool is used to determine further information for each running job.
+Job numbers of jobs currently running on the cluster. 
+[The Slurm schedule](../cluster_guides/slurm.md) is used to determine 
+further information for each running job.
 
 ### `jobstats` discovery mode 3: discovery by node and job number, for a completed or running job
 
@@ -627,7 +639,7 @@ Discovery by node and job number, for a completed or running job.
 jobstats --plot -n m15,m16 jobid
 ```
 
-`finishedjobinfo` is not called and
+[finishedjobinfo](finishedjobinfo.md) is not called and
 UPPMAX's stored job statistics files for the cluster of interest are discovered directly.
 If you know which node(s) your job ran on
 or which nodes you are interested in, this will be much faster than Mode 1.
@@ -640,23 +652,38 @@ Discovery by project.
 jobstats --plot -A project
 ```
 
-When providing a project name that is valid for the cluster, finishedjobinfo is used to determine further information on jobs run within the project. As for Mode 1, this can be rather slow, and a message asking for your patience is printed. Furthermore only finishedjobinfo defaults for time span etc. are used for job discovery. If multiple queries are expected or additional finishedjobinfo options are desired, see Mode 5 below.
+When providing a project name that is valid for the cluster, 
+[finishedjobinfo](finishedjobinfo.md) is used 
+to determine further information on jobs run within the project. 
+As for Mode 1, this can be rather slow, 
+and a message asking for your patience is printed. 
+
+Furthermore only [finishedjobinfo](finishedjobinfo.md) defaults 
+for time span etc. are used for job discovery. 
+If multiple queries are expected 
+or additional [finishedjobinfo](finishedjobinfo.md) options are desired, 
+see Mode 5 below.
 
 ### `jobstats` discovery mode 5: discovery via information provided on stdin
 
-Discovery via information provided on stdin.
+Discovery via information provided on `stdin`:
+
+???- question "What is `stdin`?"
+
+    `stdin` is an abbreviation for 'Standard input',
+    see [the Wikipedia page on 'stdin'](https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin))
 
 ```
-finishedjobinfo -q project | jobstats - -p
+finishedjobinfo -q project | jobstats - --plot
 ```
 
-Accept input on stdin formatted like finishedjobinfo output.
-Note the single dash (-) option given to jobstats;
-the long form of this option is --stdin.
+Accept input on `stdin` formatted like [finishedjobinfo](finishedjobinfo.md) output.
+Note the single dash (`-`) option given to [jobstats](jobstats.md);
+the long form of this option is `--stdin`.
 This mode can be especially useful if
 multiple queries of the same job information are expected.
-In this case, save the output of a single comprehensive finishedjobinfo query,
-and extract the parts of interest and present them to this script on stdin.
+In this case, save the output of a single comprehensive [finishedjobinfo](finishedjobinfo.md) query,
+and extract the parts of interest and present them to this script on `stdin`.
 
 For example, to produce analyses of all completed jobs in a project
 during the current calendar year, and produce separate tarballs
@@ -667,8 +694,7 @@ project=myproj
 finishedjobinfo -q -y ${project} > ${project}-year.txt
 grep 'jobstat=COMPLETED' ${project}-year.txt | jobstats - > ${project}-completed-jobs.txt
 for u in user1 user2 user3 ; do
-   grep "username=${u}" ${project}-year.txt | jobstats - -p > ${u}-jobs.txt
+   grep "username=${u}" ${project}-year.txt | jobstats - --plot > ${u}-jobs.txt
    tar czf ${u}-jobs.tar.gz ${u}-jobs.txt *-${project}-${u}-*.png
 done
 ```
-
