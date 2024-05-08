@@ -6,7 +6,7 @@
 
 !!! warning "VSCodium fails, use VSCode instead"
 
-    The approach below will fail 
+    The approach below will fail
     (note that [using VSCodium on Bianca](vscodium_on_bianca.md) does work).
 
     Instead, go to the page [Using VSCode on Rackham](vscode_on_rackham.md)
@@ -65,8 +65,8 @@ module load VSCodium/latest`
 
 ### 4. Start VSCodium
 
-With the modules loaded, 
-in that same terminal, 
+With the modules loaded,
+in that same terminal,
 start VSCodium:
 
 

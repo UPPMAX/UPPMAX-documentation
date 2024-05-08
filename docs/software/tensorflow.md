@@ -11,10 +11,10 @@ TensorFlow is available in multiple variants:
 
 ## TensorFlow as a Python package for CPU
 
-TensorFlow as a Python package for CPU 
+TensorFlow as a Python package for CPU
 that works on [Rackham](../cluster_guides/rackham.md).
 
-It is part of the `python_ML_packages/[version]-cpu` 
+It is part of the `python_ML_packages/[version]-cpu`
 [modules](../cluster_guides/modules.md), where `[version]` is a version,
 for example, `python_ML_packages/3.11.8-cpu`.
 
@@ -52,13 +52,13 @@ for example, `python_ML_packages/3.11.8-cpu`.
 TensorFlow as a Python package for GPU that works on [Bianca](../cluster_guides/bianca.md) and [Snowy](../cluster_guides/snowy.md).
 
 
-It is part of the `python_ML_packages/[version]-gpu` 
+It is part of the `python_ML_packages/[version]-gpu`
 [modules](../cluster_guides/modules.md), where `[version]` is a version,
 for example, `python_ML_packages/3.9.5-gpu`
 
 :warning: You can load this package on nodes without GPU but python will not find Tensorflow!
 
-If you want to work interactively and test things, first allocate resources as seen below: 
+If you want to work interactively and test things, first allocate resources as seen below:
 
 **On Snowy**
 
@@ -69,7 +69,7 @@ $ interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 1:00:01
 **On Bianca**
 
 ```console
-$ interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00 
+$ interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00
 ```
 
 

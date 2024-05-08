@@ -2,7 +2,7 @@
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell):
 
-> The Secure Shell Protocol (SSH) is a cryptographic network protocol 
+> The Secure Shell Protocol (SSH) is a cryptographic network protocol
 > for operating network services securely over an unsecured network.
 
 At UPPMAX we allow users to login via SSH, using the program `ssh`.
@@ -13,7 +13,7 @@ At UPPMAX we allow users to login via SSH, using the program `ssh`.
 
 ## SSH key management
 
-For WSL2 under Windows10 or Windows11, 
+For WSL2 under Windows10 or Windows11,
 here as a neat way to get persistent key-manager in WSL2 (credits: [original source](https://esc.sh/blog/ssh-agent-windows10-wsl2/)).
 
 ```
@@ -44,7 +44,7 @@ ssh-add -l
 
 ## MobaXterm
 
-In MobaXterm you can use the internal `MobAgent` or/and the `Peagent` 
+In MobaXterm you can use the internal `MobAgent` or/and the `Peagent`
 from the `PuTTy` tools.
 
 ![](./img/mobaxterm_use_internal_ssh_agend_mobagent.png)
@@ -63,7 +63,7 @@ ServerAliveCountMax 2
 # Default settings
 #=======================================
 Host *
-ForwardAgent no 
+ForwardAgent no
 ForwardX11 yes
 ForwardX11Trusted yes
 ServerAliveInterval 120

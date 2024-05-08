@@ -48,7 +48,7 @@ Within that terminal, start an interactive session with 2 cores.
 !!!- info "Why two cores?"
 
     RStudio is a resource-heavy program.
-    Due to this, we recommend using at least two cores 
+    Due to this, we recommend using at least two cores
     for a more pleasant user experience.
 
 ???- tip "Forgot how to start an interactive node?"
@@ -83,7 +83,7 @@ module load RStudio/2023.06.2-561
     Although RStudio needs R and some R packages,
     these are loaded automatically via the module system.
 
-    Loading the module `RStudio` 
+    Loading the module `RStudio`
     will load the latest `R` and `R_packages` modules for you.
 
 ### 5. Start RStudio

@@ -36,7 +36,7 @@ then on 'New Remote'.
 
 ![](./img/vscode_add_new_remote.png)
 
-Type `ssh [username]@rackham.uppmax.uu.se` 
+Type `ssh [username]@rackham.uppmax.uu.se`
 where `[username]` is your UPPMAX username,
 for example, `ssh sven@rackham.uppmax.uu.se`.
 

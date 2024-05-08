@@ -24,10 +24,10 @@ Command                                          |Description
 ???- info "Working on Snowy? Use -M snowy"
 
     For Slurm commands and for commands like **projinfo**, **jobinfo** and **finishedjobinfo**,
-    you may use the "-M" flag to ask for the answer to be given 
-    for a system that you are not logged in to. 
-    For example, when logged into Rackham, 
-    you may ask about information about current core hour usage on Snowy, 
+    you may use the "-M" flag to ask for the answer to be given
+    for a system that you are not logged in to.
+    For example, when logged into Rackham,
+    you may ask about information about current core hour usage on Snowy,
     with the command **projinfo -M Snowy**
 
 ## Check you storage with ``uquota``

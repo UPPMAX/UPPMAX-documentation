@@ -13,13 +13,13 @@
 - WRF is installed as modules for version 4.1.3 and compiled with INTEL and parallelized for distributed memory (dmpar) or hybrid shared and distributed memory (sm+dm). These are available as:
 
     - WRF/4.1.3-dmpar     default as WRF/4.1.3
-    - WRF/4.1.3-dm+sm    
+    - WRF/4.1.3-dm+sm
 - WPS is installed as version 4.1 and available as:
 
     - WPS/4.1
- 
+
 - There are WPS_GEOG data available.
-- Set the path in namelist.wps to: 
+- Set the path in namelist.wps to:
 
 ``geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG'``
 
@@ -28,8 +28,8 @@
 - It may not work for a large domain. If so, either modify TBL file or use in inner domains only.
 
 - To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the web pages below:
-    - [wrf-python](https://wrf-python.readthedocs.io/en/latest/), 
-    - [Vapor](https://www.vapor.ucar.edu/) or 
+    - [wrf-python](https://wrf-python.readthedocs.io/en/latest/),
+    - [Vapor](https://www.vapor.ucar.edu/) or
     - [NCL](https://www.ncl.ucar.edu/Document/Pivot_to_Python/september_2019_update.shtml)
         - is not updated anymore and the developers recommend [GeoCAT](https://geocat.ucar.edu/) which serves as an umbrella over wrf-python, among others.
 
@@ -55,19 +55,19 @@
 
 ```bash
 #!/bin/bash
-#SBATCH -J 
-#SBATCH --mail-user 
-#SBATCH --mail-type=ALL 
-#SBATCH -t 0-01:00:0 
-#set wall time c. 50% higher than expected 
-#SBATCH -A 
-# 
-#SBATCH -n 40 -p node 
-#this gives 40 cores on 2 nodes 
-module load WRF/4.1.3-dmpar 
-# With PMI jobs on very many nodes starts more efficiently. 
-export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so 
-export I_MPI_PMI2=yes 
+#SBATCH -J
+#SBATCH --mail-user
+#SBATCH --mail-type=ALL
+#SBATCH -t 0-01:00:0
+#set wall time c. 50% higher than expected
+#SBATCH -A
+#
+#SBATCH -n 40 -p node
+#this gives 40 cores on 2 nodes
+module load WRF/4.1.3-dmpar
+# With PMI jobs on very many nodes starts more efficiently.
+export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
+export I_MPI_PMI2=yes
 srun -n 40 --mpi=pmi2 wrf.exe
 ```
 
@@ -151,7 +151,7 @@ export NETCDFPATH=$NETCDF
 export HDF5PATH=$HDF5_DIR
 
 export HDF5=$HDF5_DIR
-```  
+```
 
 - Then
 ```
@@ -191,11 +191,11 @@ Then:
 When you have made modification of the code and once configure.wrf is created, just
 
 ```
-source SOURCEME 
+source SOURCEME
 ```
 and run:
 ```
-./compile em_real 
+./compile em_real
 ```
 ### Running
 Batch script should include:

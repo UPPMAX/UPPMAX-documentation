@@ -13,9 +13,9 @@ Make sure you have compiled your code with debugging flag options!
 To start the program run:
 
 $ ddt
- 
+
 or
- 
+
 $ ddt ./myprogram
 Debugging Multithreaded programs:
 Start an interactive job with multiple cores (e.g. "interactive -p core -n 20 -A snicXYZ -t 04:00:00") before starting DDT. In the run window, select the OpenMP box. You can change the number of OpenMP threads directly in the DDT window before running.

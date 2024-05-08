@@ -7,9 +7,9 @@ the HPC cluster at PDC in Stockholm.
 
 ## Why do I need this?
 
-The Rackham cluster will be decommissioned at the end of 2024 
-so all projects have to migrate their data and calculations to other resources. 
-The plan from NAISS is that all Rackham users will move to 
+The Rackham cluster will be decommissioned at the end of 2024
+so all projects have to migrate their data and calculations to other resources.
+The plan from NAISS is that all Rackham users will move to
 the Dardel cluster at PDC.
 
 ## How do I do this?
@@ -27,9 +27,9 @@ flowchart TD
   create_ssh_key[3. Create SSH key pair on Rackham]
   add_ssh_key[4. Add public SSH key to PDC Login Portal]
   transfer_files[5. Tranfer files to Dardel]
-  
+
   get_supr_project --> |requires| get_pdc_account
-  create_ssh_key --> |requires| add_ssh_key 
+  create_ssh_key --> |requires| add_ssh_key
   get_pdc_account --> |requires| add_ssh_key
   add_ssh_key --> |requires| transfer_files
 ```
@@ -133,11 +133,11 @@ ssh -i ~/.ssh/id_ed25519_pdc your_dardel_username@dardel.pdc.kth.se
 
 ### 6. Transfer files
 
-To facilitate this move we have created Darsync, 
-a tool that can inspect your files and make suggestions 
-to make the transfer easier, 
-as well as generating a script file you can submit to [Slurm](slurm.md) 
-to perform the actual file transfer. 
+To facilitate this move we have created Darsync,
+a tool that can inspect your files and make suggestions
+to make the transfer easier,
+as well as generating a script file you can submit to [Slurm](slurm.md)
+to perform the actual file transfer.
 [Read more about how to use Darsync here](../cluster_guides/darsync.md).
 
 Here is a summary of how to run it, using `/path/to/dir` as a placeholder for the actual path to the directory you want to copy to Dardel:

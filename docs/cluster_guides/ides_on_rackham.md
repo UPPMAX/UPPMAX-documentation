@@ -19,7 +19,7 @@ Here we show how to use some [IDEs](../software/ides.md) on Rackham.
     comfortable using Rackham.
 
     The [UPPMAX 'Programming Formalisms' course](https://github.com/UPPMAX/programming_formalisms)
-    will teach you a superior workflow, 
+    will teach you a superior workflow,
     where development takes place on your own regular computer
     and testing is done using simulated/fake data.
     When development is done,

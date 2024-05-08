@@ -24,51 +24,51 @@ Output will look similar to this:
 
 > Example `projplot` output. The horizontal axis
 > shows the days before today, the vertical axis shows
-> the cores used on that day (hence, the amount of core hours 
+> the cores used on that day (hence, the amount of core hours
 > is the area under the curve).
 > For this example project,
 > apparently, the maximum number of cores per day is 800.
 
-This graph shows you the projects core usage during the last 30 days. 
-The heights of the peaks in the plot shows you 
-how many cores that were used simultaneously, 
+This graph shows you the projects core usage during the last 30 days.
+The heights of the peaks in the plot shows you
+how many cores that were used simultaneously,
 and the width show you for how long they were used.
 
-If we look at the big peak to the left in the diagram, 
-we can see that 15 cores were used for around 24 hours, 
-and somewhere in the middle of that period, 
-another 8 cores was used for a shorter period of time. 
+If we look at the big peak to the left in the diagram,
+we can see that 15 cores were used for around 24 hours,
+and somewhere in the middle of that period,
+another 8 cores was used for a shorter period of time.
 
-Since the plots are made using ordinary text, 
-there will sometimes be rounding errors 
+Since the plots are made using ordinary text,
+there will sometimes be rounding errors
 because of the low resolution of the terminal window,
 which is usually around 80x30 characters.
-The plot will adapt to your terminal window, 
-so increase the size of your window to increase the resolution of the plot 
+The plot will adapt to your terminal window,
+so increase the size of your window to increase the resolution of the plot
 (the data being plotted has a resolution down to single seconds).
- 
-As time progresses the peaks in the graph will move to the left in the diagram. 
-In the standard plot of the last 30 days, 
-that means that when a peak exits the plot to the left, 
+
+As time progresses the peaks in the graph will move to the left in the diagram.
+In the standard plot of the last 30 days,
+that means that when a peak exits the plot to the left,
 your get those core hours back to the project.
 
 ### If you are over quota
 
-If we look at a project that has used more core hours than their projects allocation, 
+If we look at a project that has used more core hours than their projects allocation,
 the image will look like this:
 
 ![](./img/projplot_over_quota.png)
 
-There is a message about the core hour limit being reached at the top of the plot. 
-If you look in the diagram at around 10 days ago, 
-you will see the point where the core hour limit is reached 
-(the bar of `>`s). 
-This point is calculated by summing up all core hour usage 
-to the right of the bar. 
-What this means in reality is that if this project was to stop analyzing right now, 
-they would have to wait until the bar of `>`s has exited the graph to the left 
-(i.e. ~20 days) before they are below their core hour limit again. 
-Most of the time, projects do not completely stop analyzing, 
+There is a message about the core hour limit being reached at the top of the plot.
+If you look in the diagram at around 10 days ago,
+you will see the point where the core hour limit is reached
+(the bar of `>`s).
+This point is calculated by summing up all core hour usage
+to the right of the bar.
+What this means in reality is that if this project was to stop analyzing right now,
+they would have to wait until the bar of `>`s has exited the graph to the left
+(i.e. ~20 days) before they are below their core hour limit again.
+Most of the time, projects do not completely stop analyzing,
 so for each core hour they use the more to the right the `>` bar will move.
 
 ## Other options
@@ -175,7 +175,7 @@ For example:
 projplot -A uppmax2020-2-2 --start 2023-05-03
 ```
 
-will give you a plot starting on the date 2023-05-03 
+will give you a plot starting on the date 2023-05-03
 and the default number of days after that date.
 The command below does exactly the same, yet makes the default
 number of days explicit:
@@ -199,7 +199,7 @@ For example:
 projplot -A uppmax2020-2-2 --end 2023-05-03
 ```
 
-will give you a plot ending on the date 2023-05-03 
+will give you a plot ending on the date 2023-05-03
 and the default number of days before that date.
 The command below does exactly the same, yet makes the default
 number of days explicit:
@@ -228,8 +228,8 @@ projplot -A uppmax2020-2-2 --start 2022-05-03 --end 2023-05-03
 Use `--cluster` (or `-c`) to determine which UPPMAX cluster to plot.
 By default, the current cluster is used.
 
-Since the different clusters at UPPMAX have separate core hour quotas, 
-it makes sense to being able to plot them separately. 
+Since the different clusters at UPPMAX have separate core hour quotas,
+it makes sense to being able to plot them separately.
 
 ```
 projplot -A [project_code] -c [cluster_name]
@@ -259,11 +259,11 @@ This option can be combined with all the other options.
 
 Use `--no-running-jobs` (or `-R`) to skip checking the queue for running jobs.
 
-If you don't have any running jobs, 
-asking the queue system to list jobs is just a waste of time 
-(anywhere 1-15 seconds). 
-By giving `--no-running-jobs` when running `projplot`, 
-it skips checking the queue and if you do have jobs running, 
+If you don't have any running jobs,
+asking the queue system to list jobs is just a waste of time
+(anywhere 1-15 seconds).
+By giving `--no-running-jobs` when running `projplot`,
+it skips checking the queue and if you do have jobs running,
 they will not be visible in the plot or in the sum of core hours used.
 
 ```

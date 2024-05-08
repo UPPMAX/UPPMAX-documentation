@@ -55,7 +55,7 @@ this can take some hours.
     > Example PDC project overview
 
     From there, scroll down to 'Resources'.
-    If you see 'Dardel' among the compute resources, 
+    If you see 'Dardel' among the compute resources,
     you have confirmed you have access to a Dardel project.
 
     ![](./img/naiss_project_dardel_resources.png)
@@ -134,7 +134,7 @@ where `[username]` is your PDC username, for example `ssh -X sven@dardel.pdc.kth
 
 ???- question "Why the `-X`?"
 
-    The `-X` is for so-called [X forwarding](../software/ssh_x_forwarding.md). 
-    It allows you to view graphical things, 
+    The `-X` is for so-called [X forwarding](../software/ssh_x_forwarding.md).
+    It allows you to view graphical things,
     such as viewing plots or running graphical programs
 

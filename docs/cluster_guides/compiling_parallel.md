@@ -89,12 +89,12 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
         load the corresponding version of intelmpi as of the intel compiler (versions up to 20.4)
         For all versions of intel from 2021 there is not necessarily a mpi library with same version as the compiler.
 
-            $ module load intel-oneapi 
+            $ module load intel-oneapi
 
             check availability and load desired version
             $ module avail mpi  # showing both compilers and mpi ;-)
             Example:
-            $ module load compiler/2023.1.0 mpi/2021.9.0 
+            $ module load compiler/2023.1.0 mpi/2021.9.0
 
 Check this compatibility page for a more complete picture of compatible versions.
 
@@ -157,7 +157,7 @@ To run the mpi program hello using the batch system, we make a batch script with
 #SBATCH -A your_project_name
 #SBATCH -J mpitest
 #SBATCH -o hello.out
-# 
+#
 # request 5 seconds of run time
 #SBATCH -t 00:00:05
 #SBATCH -p node -n 8
@@ -185,7 +185,7 @@ From process 7 out of 8, Hello World!
 From process 6 out of 8, Hello World!
 From process 3 out of 8, Hello World!
 From process 1 out of 8, Hello World!
-From process 0 out of 8, Hello World! 
+From process 0 out of 8, Hello World!
 
 ### Fortran programs
 
@@ -204,7 +204,7 @@ program testampi
     call MPI_Comm_rank(MPI_COMM_WORLD,rank,ierr)
     intlen=100000000
     write (*,*) 'I am node ',rank+1,' out of ',size,' nodes.'
- 
+
     h=1.d0/intlen
     istart=(intlen-1)*rank/size
     iend=(intlen-1)*(rank+1)/size
@@ -291,15 +291,15 @@ I am node             4  out of             8  nodes.
 start is      37499999
 end is      49999999
 Result from node             8  is    4.0876483237300587E-002
-Result from node             5  is    0.1032052706959522     
-Result from node             2  is    0.1226971551244773     
-Result from node             3  is    0.1186446918315650     
+Result from node             5  is    0.1032052706959522
+Result from node             2  is    0.1226971551244773
+Result from node             3  is    0.1186446918315650
 Result from node             7  is    7.2451466712425514E-002
 Result from node             6  is    9.0559231928350928E-002
-Result from node             1  is    0.1246737119371059     
-Result from node             4  is    0.1122902087263801     
-Result of integration is    0.7853982201935574     
-Estimate of Pi is     3.141592880774230     
+Result from node             1  is    0.1246737119371059
+Result from node             4  is    0.1122902087263801
+Result of integration is    0.7853982201935574
+Estimate of Pi is     3.141592880774230
 ```
 
 ## OpenMP
@@ -424,13 +424,13 @@ END IF
 END
 ```
 
-With gcc compiler: 
+With gcc compiler:
 
 ```console
 $ gfortran hello_omp.f90 -o hello_omp -fopenmp
 ```
 
-and with Intel compiler: 
+and with Intel compiler:
 
 ```console
 $ ifort hello_omp.f90 -o hello_omp -qopenmp
@@ -449,7 +449,7 @@ $ ./hello_omp
 ```
 
 
-A batch file would look similar to the C version, above. 
+A batch file would look similar to the C version, above.
 
 ## Pthreads
 

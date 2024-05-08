@@ -7,8 +7,8 @@ The software used is called Slurm.
 
 ???- question "Why not write SLURM?"
 
-    Indeed, Slurm started as an abbreviation of 'Simple Linux Utility 
-    for Resource Management'. However, 
+    Indeed, Slurm started as an abbreviation of 'Simple Linux Utility
+    for Resource Management'. However,
     the [Slurm homepage](https://slurm.schedmd.com/) uses 'Slurm'
     to describe the tool, hence we use Slurm too.
 
@@ -86,10 +86,10 @@ Minimal and complete examples of using `sbatch` is described at the respective c
 
 ### Partitions
 
-Partitions are a way to tell what type of job you are submitting, 
+Partitions are a way to tell what type of job you are submitting,
 e.g. if it needs to reserve a whole node, or part of a node.
 
-To let Slurm schedule a job using a partition, 
+To let Slurm schedule a job using a partition,
 use the `--partition` (or `-p`) flag like this:
 
 ```bash
@@ -155,16 +155,16 @@ Here, two cores are used.
 
 
 
-This is especially important if you might adjust core usage 
+This is especially important if you might adjust core usage
 of the job to be something less than a full node.
 
 ### The `node` partition
 
-Whenever -p node is specified, an entire node is used, 
-no matter how many cores are specifically requested with -n [no_of_cores]. 
+Whenever -p node is specified, an entire node is used,
+no matter how many cores are specifically requested with -n [no_of_cores].
 
-For example, some bioinformatics tools show minimal increase in performance 
-when more than 8-10 cores/job; in this case, specify "-p core -n 8" 
+For example, some bioinformatics tools show minimal increase in performance
+when more than 8-10 cores/job; in this case, specify "-p core -n 8"
 to ensure that only 8 cores (less than a single node) are allocated for such a job.
 
 ### The `devel` partition
@@ -191,7 +191,7 @@ file itself, by using special `SBATCH` comments, for example:
 
 ``` bash title="job_script.sh"
 #!/bin/bash -l
- 
+
 #SBATCH -A p2012999
 #SBATCH -p core
 #SBATCH -n 1

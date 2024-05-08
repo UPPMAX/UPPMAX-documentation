@@ -15,12 +15,12 @@ This page is about applying for an UPPMAX project.
     It tends to be a matter of minutes to less than hours
     before the changes propagate from SUPR to UPPMAX.
 
-    If after one night you cannot login, 
+    If after one night you cannot login,
     please [contact support](../support.md).
 
 ## The projects
 
-- No cost to researchers all over Sweden. 
+- No cost to researchers all over Sweden.
 - 3 different levels regarding storage and core hours per month
 
 ### Compute at UPPMAX (always with 128 GB storage)
@@ -35,11 +35,11 @@ This page is about applying for an UPPMAX project.
 
 ### Storage at UPPMAX
 
-- Small: 128 GB-10 TB of storage. 
+- Small: 128 GB-10 TB of storage.
     - PI: PhD student or higher.
-- Medium: 10-100 TB 
+- Medium: 10-100 TB
     - PI: Assistant professor (forskarassistent) or higher. 
-- Large: More than 100 TB 
+- Large: More than 100 TB
     - PI: Assistant professor (forskarassistent) or higher. 
 
 
@@ -73,14 +73,14 @@ AND the international
 - UPPMAX, Uppsala University (UU).
     - Snowy - GPU:s and long runs
 - LUNARC, Lund University (LU):
-    - Aurora 
+    - Aurora
 - C3SE, Chalmers University of Technology
     - Vera
 - NSC, Linköping University (LiU):
-    - BerzeLiUs - for AI and machine learning 
+    - BerzeLiUs - for AI and machine learning
 - HPC2N, Umeå University (UU):
     - Kebnekaise - General computational resource
- 
+
 ## SNIC Science Cloud (SSC)
 
 - Complement, offering "advanced functionality" to users who:
@@ -89,7 +89,7 @@ AND the international
         - e.g. more control over the OS:s and software environments
     - want to develop software as a service
     - want to explore recent technology such as for
-        - IoT applications 
+        - IoT applications
         - “Big Data” e.g. Apache Hadoop/Spark
 
 

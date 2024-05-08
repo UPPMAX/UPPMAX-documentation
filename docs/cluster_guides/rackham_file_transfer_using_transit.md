@@ -59,14 +59,14 @@ This is how you **would** copy a file from Rackham to Transit:
 in the terminal, run `scp` to copy files from Rackham to Transit by doing:
 
 ```
-scp [file_on_rackham] [username]@transit.uppmax.uu.se 
+scp [file_on_rackham] [username]@transit.uppmax.uu.se
 ```
 
 where `[file_on_rackham]` is the name of a file on Rackham
 and `[username]` is your UPPMAX username, for example:
 
 ```
-scp my_rackham_file.txt [username]@transit.uppmax.uu.se 
+scp my_rackham_file.txt [username]@transit.uppmax.uu.se
 ```
 
 However, [Transit is a service, not a file server](transit.md).
@@ -77,14 +77,14 @@ yet the file will not be found on Transit.
 
 In the terminal, run `scp` to copy files from Transit to Rackham by doing:
 ```
-scp [file_on_rackham] [username]@transit.uppmax.uu.se 
+scp [file_on_rackham] [username]@transit.uppmax.uu.se
 ```
 
 where `[file_on_rackham]` is the name of a file on Rackham
 and `[username]` is your UPPMAX username, for example:
 
 ```
-scp my_rackham_file.txt [username]@transit.uppmax.uu.se 
+scp my_rackham_file.txt [username]@transit.uppmax.uu.se
 ```
 
 #### 4. If asked, give your UPPMAX password
@@ -139,21 +139,21 @@ This is how you **would** copy a file from Rackham to Transit:
 in the terminal, run `scp` to copy files from Rackham to Transit by doing:
 
 ```
-scp [file_on_rackham] [username]@transit.uppmax.uu.se 
+scp [file_on_rackham] [username]@transit.uppmax.uu.se
 ```
 
 where `[file_on_transit]` is the name of a file on Transit
 and `[username]` is your UPPMAX username, for example:
 
 ```
-scp my_local_rackham_file.txt [username]@transit.uppmax.uu.se 
+scp my_local_rackham_file.txt [username]@transit.uppmax.uu.se
 ```
 
 However, [Transit is a service, not a file server](transit.md).
 The `scp` command will complete successfully,
 yet the file will not be found on Transit.
 
-#### 4. If asked, give your UPPMAX password. 
+#### 4. If asked, give your UPPMAX password.
 
 You can get rid of this prompt if you have setup SSH keys
 
@@ -193,17 +193,17 @@ The process is:
 In the terminal, run `sftp` to connect to Transit by doing:
 
 ```
-sftp [username]@transit.uppmax.uu.se 
+sftp [username]@transit.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
 ```
-sftp sven@transit.uppmax.uu.se 
+sftp sven@transit.uppmax.uu.se
 ```
 
 #### 4. If asked, give your UPPMAX password
-   
+
 You can get rid of this prompt if you have setup SSH keys
 
 #### 5. In `sftp`, upload/download files to/from Transit
@@ -244,13 +244,13 @@ The process is:
 In the terminal, run `sftp` to connect to Rackham by doing:
 
 ```
-sftp [username]@rackham.uppmax.uu.se 
+sftp [username]@rackham.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
 ```
-sftp sven@rackham.uppmax.uu.se 
+sftp sven@rackham.uppmax.uu.se
 ```
 
 #### 4. If asked, give your UPPMAX password

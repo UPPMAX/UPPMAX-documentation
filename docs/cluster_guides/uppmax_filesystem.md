@@ -19,11 +19,11 @@ Wharf         |A Bianca-only folder for file transfer
 
     Yes, ask the UPPMAX staff :-)
 
-1. Keep an inventory of important data and make a plan 
+1. Keep an inventory of important data and make a plan
    for how it should be treated. Inform collaborators of this plan.
 1. Make sure you keep a separate copy of the most important data.
-1. Put important data in a backed up directory 
-   (and nothing else, so that the backup system does 
+1. Put important data in a backed up directory
+   (and nothing else, so that the backup system does
    not get bogged down with junk).
-1. Run `chmod -R -w .` on directories containing critical 
+1. Run `chmod -R -w .` on directories containing critical
    data that should normally be preserved.

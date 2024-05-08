@@ -2,7 +2,7 @@
 
 [Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare your project for transfer to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel). It has two modes; **check mode** where it goes through your files and looks for uncompressed file formats and counts the number of files, and **gen mode** where it generates a script file you can submit to [Slurm](slurm.md) to do the actual data transfer.
 
-The idea is to 
+The idea is to
 
 1. Run the check mode and mitigate any problems problems it finds.
 1. Run the gen mode.
@@ -24,7 +24,7 @@ flowchart TD
 
 !!! warning "Temporarily add a `PATH`"
 
-    Until the darsync script is added to the `/sw/uppmax/bin` folder 
+    Until the darsync script is added to the `/sw/uppmax/bin` folder
     you will have to add its location to your `PATH` variable manually:
 
     ```bash
@@ -67,19 +67,19 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc
      | |___|  _  | |__| |___| . \
       \____|_| |_|_____\____|_|\_\
 
-    The check module of this script will recursivly go through 
-    all the files in, and under, the folder you specify to see if there 
-    are any improvments you can to do save space and speed up the data transfer. 
+    The check module of this script will recursivly go through
+    all the files in, and under, the folder you specify to see if there
+    are any improvments you can to do save space and speed up the data transfer.
 
-    It will look for file formats that are uncompressed, like fasta and vcf files 
-    (most uncompressed file formats have compressed variants of them that only 
+    It will look for file formats that are uncompressed, like fasta and vcf files
+    (most uncompressed file formats have compressed variants of them that only
     take up 25% of the space of the uncompressed file).
 
-    If you have many small files, e.g. folders with 100 000 or more files, 
-    it will slow down the data transfer since there is an overhead cost per file 
-    you want to transfer. Large folders like this can be archived/packed into 
+    If you have many small files, e.g. folders with 100 000 or more files,
+    it will slow down the data transfer since there is an overhead cost per file
+    you want to transfer. Large folders like this can be archived/packed into
     a single file to speed things up.
-    GitHubs/git/scripts                                
+    GitHubs/git/scripts
 
 
     Checking completed. Unless you got any warning messages above you should be good to go.
@@ -90,12 +90,12 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc
 
     darsync gen -h
 
-    A file containing file ownership information, 
+    A file containing file ownership information,
     darsync_GitHubs.ownership.gz
     has been created. This file can be used to make sure that the
     file ownership (user/group) will look the same on Dardel as it does here. See https:// for more info about this.
     ```
- 
+
     ???- tip "NBIS staff test project code"
 
         Follow the project application procedure as
@@ -104,7 +104,7 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc
 
 ## Check mode
 
-To initiate the **check mode** you run Darsync with the check argument. If you run it without any other arguments it will ask you interactive questions to get the information it needs. 
+To initiate the **check mode** you run Darsync with the check argument. If you run it without any other arguments it will ask you interactive questions to get the information it needs.
 
 ```bash
 # interactive mode
@@ -135,7 +135,7 @@ samtools view -b file.sam > file.bam
 # rm file.sam
 ```
 
-For examples on how to compress other file formats, use an internet search engine to look for 
+For examples on how to compress other file formats, use an internet search engine to look for
 ```
 how to compress <insert file format name> file
 ```
@@ -171,7 +171,7 @@ To generate a transfer script you will need to supply Darsync with some informat
 * **The path on Dardel** where you want to put your data, e.g. `/cfs/klemming/projects/snic/naiss2099-23-999`
     - Check which project ID you have for your project on Dardel in [the list of active project in SUPR](https://supr.naiss.se/project/).
 * The **path to the SSH key** you have prepared to be used to login from Rackham to Dardel, e.g. `~/.ssh/id_rsa`
-    - Check 
+    - Check
 * The path to where you want to **save the generated transfer script**.
 
 To initiate the gen mode you run Darsync with the `gen` argument. If you run it without any other arguments it will ask you interactive questions to get the information it needs.

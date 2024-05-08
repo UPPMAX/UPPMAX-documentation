@@ -33,9 +33,9 @@ Use Visual Studio Code    |Interactive, install on local computer, use locally i
 
 ## Use a text editor
 
-Using a text editor to program in Python 
-is a simple way to write code: 
-it is the same as writing any text file. 
+Using a text editor to program in Python
+is a simple way to write code:
+it is the same as writing any text file.
 
 Here we use the text editor GNU nano to write a Python script:
 
@@ -55,36 +55,36 @@ print('Hello, world!')
 You can run this Python script in the shell by:
 
 ```console
-python example_script.py 
+python example_script.py
 ```
 
 or, if you want to be explicitly use Python 3:
 
 ```console
-python3 example_script.py 
+python3 example_script.py
 ```
 
 Some features of this approach are:
-- this is a simple way to write code: it is the same as writing any text file. 
+- this is a simple way to write code: it is the same as writing any text file.
 - you get no help while writing code
 - you can only run the script from start to finish, i.e. you cannot
   partially run the script
 
 ???- question "How to run a Python script line-by-line?"
 
-    You can run a Python script line-by-line using a Python debugger, 
+    You can run a Python script line-by-line using a Python debugger,
     such as `pdb`.
 
     On the terminal, for `python`, do:
 
     ```
-    pdb example_script.py 
+    pdb example_script.py
     ```
 
     or for `python3`:
 
     ```
-    pdb3 example_script.py 
+    pdb3 example_script.py
     ```
 
     See the official Python documentation of `pdb` [here](https://docs.python.org/3/library/pdb.html).
@@ -99,7 +99,7 @@ After loading a Python module, you have the Python interpreter available.
 
 ???- question "What is a Python interpreter?"
 
-    In computing, an interpreter is a program that reads text 
+    In computing, an interpreter is a program that reads text
     and runs it directly, without any additional steps.
 
     The Python interpreter runs the Python commands you type directly,
@@ -164,18 +164,18 @@ The Python interpreter can show graphics.
     plt.plot([1, 4, 9, 16])
     plt.show()
     ```
-   
+
     (or as a one-liner: `import matplotlib.pyplot as plt; plt.plot([1, 4, 9, 16]); plt.show()`)
 
     You will see a window appear:
 
     ![](img/python_matplotlib.png)
 
-    You will only see a window appear, if you've logged in to Rackham with 
-    [SSH with X forwarding enabled](../software/ssh_x_forwarding.md). 
+    You will only see a window appear, if you've logged in to Rackham with
+    [SSH with X forwarding enabled](../software/ssh_x_forwarding.md).
 
     Spoiler: `ssh -X sven@rackham.uppmax.uu.se`.
-    
+
 The Python interpreter cannot directly run scripts.
 
 ## Use IPython
@@ -201,10 +201,10 @@ After loading a Python module, you also have the IPython Python command shell av
     In computing, a shell is a a program around something,
     for example, Bash is a shell around a UNIX-like operating system.
 
-    In computing, a command shell means that the shell 
+    In computing, a command shell means that the shell
     is a command-line shell, i.e. text only.
 
-    A Python command shell, hence, is a text-only program 
+    A Python command shell, hence, is a text-only program
     around Python.
 
 Start the IPython command shell by typing:
@@ -227,7 +227,7 @@ Python 3.11.4 (main, Aug  7 2023, 16:05:58) [GCC 12.2.0]
 Type 'copyright', 'credits' or 'license' for more information
 IPython 8.14.0 -- An enhanced Interactive Python. Type '?' for help.
 
-In [1]: 
+In [1]:
 ```
 
 IPython allows one to write code interactively.
@@ -248,10 +248,10 @@ IPython can interact with your file system.
 
     ```
     ls
-    ```` 
+    ````
 
     ... displays a list of files in your current working folder
-    in the same way as Bash's `ls`. 
+    in the same way as Bash's `ls`.
 
     The Python interpreter will give an error if you do the same.
 
@@ -287,14 +287,14 @@ IPython can show graphics.
     plt.plot([1, 2, 3, 4])
     plt.show()
     ```
-   
+
     (or as a one-liner: `import matplotlib.pyplot as plt; plt.plot([1, 2, 3, 4]); plt.show()`)
 
     You will see a window appear:
 
     ![](img/ipython_matplotlib.png)
 
-    You will only see a window appear, if you've logged in to Rackham with 
+    You will only see a window appear, if you've logged in to Rackham with
     [SSH with X forwarding](../software/ssh_x_forwarding.md) enabled.
 
     Spoiler to login: `ssh -X sven@rackham.uppmax.uu.se`.
@@ -320,14 +320,14 @@ IPython can directly run scripts.
     IPython will run the script and remember variables, functions and classes
     created in that script.
 
-## Use Jupyter               
+## Use Jupyter
 
 Some features are:
 
 - interactive
 - web-based
 
-## Use Visual Studio Code    
+## Use Visual Studio Code
 
 Some features are:
 

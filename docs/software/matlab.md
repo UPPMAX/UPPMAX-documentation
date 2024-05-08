@@ -7,7 +7,7 @@ MATLAB can be started only if you load the matlab module first. Most of availabl
 Doing:
 
 ```console
-$ module load matlab 
+$ module load matlab
 ```
 
 will give you the latest version.
@@ -167,28 +167,28 @@ You can change your settings here: HOME > ENVIRONMENT > Parallel > Parallel pref
 With MATLAB you can e.g. submit jobs directly to our job queue scheduler, without having to use Slurm's commands directly. Let us first make two small function. The first one, little simpler, saved in the file ``parallel_example.m``:
 
 ```matlab
-    function t = parallel_example(nLoopIters, sleepTime) 
-      t0 = tic; 
-      parfor idx = 1:nLoopIters 
-        A(idx) = idx; 
-        pause(sleepTime); 
-      end 
-      t = toc(t0); 
+    function t = parallel_example(nLoopIters, sleepTime)
+      t0 = tic;
+      parfor idx = 1:nLoopIters
+        A(idx) = idx;
+        pause(sleepTime);
+      end
+      t = toc(t0);
 ```
 and the second, little longer, saved in ``parallel_example_hvy.m``:
 
 ```matlab
-    function t = parallel_example_hvy(nLoopIters, sleepTime) 
-      t0 = tic; 
+    function t = parallel_example_hvy(nLoopIters, sleepTime)
+      t0 = tic;
       ml = 'module list';
       [status, cmdout] = system(ml);
-      parfor idx = 1:nLoopIters 
-        A(idx) = idx; 
+      parfor idx = 1:nLoopIters
+        A(idx) = idx;
         for foo = 1:nLoopIters*sleepTime
           A(idx) = A(idx) + A(idx);
           A(idx) = A(idx)/3;
         end
-      end 
+      end
 ```
 Begin by running the command
 
@@ -196,20 +196,20 @@ Begin by running the command
 >> configCluster %(on Bianca it will look a little different)
 ```
 
-in Matlab Command Window to choose a cluster configuration. Matlab will set up a configuration and will then print out some instructions, seen below. You can also set environments that is read if you don't specify it. Go to HOME > ENVIRONMENT > Parallel > Parallel preferences. 
+in Matlab Command Window to choose a cluster configuration. Matlab will set up a configuration and will then print out some instructions, seen below. You can also set environments that is read if you don't specify it. Go to HOME > ENVIRONMENT > Parallel > Parallel preferences.
 
 ```matlab
        [1] rackham
        [2] snowy
     Select a cluster [1-2]: 1
-    >> 
+    >>
     >> c = parcluster('rackham'); %on Bianca 'bianca Rxxxxx'
     >> c.AdditionalProperties.AccountName = 'snic2021-X-YYY';
     >> c.AdditionalProperties.QueueName = 'node';
     >> c.AdditionalProperties.WallTime = '00:10:00';
     >> c.saveProfile
-    >> job = c.batch(@parallel_example, 1, {90, 5}, 'pool', 19) %19 is for 20 cores. On Snowy and Bianca use 15.  
-    >> job.wait  
+    >> job = c.batch(@parallel_example, 1, {90, 5}, 'pool', 19) %19 is for 20 cores. On Snowy and Bianca use 15.
+    >> job.wait
     >> job.fetchOutputs{:}"
 ```
 Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line "c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)" can be understood as put the function "parallel_example" to the batch queue. The arguments to batch are:
@@ -229,7 +229,7 @@ For jobs using several nodes (in this case 2) you may modify the call to:
        [1] rackham
        [2] snowy
     Select a cluster [1-2]: 1
-    >> 
+    >>
     >> c = parcluster('rackham'); %on Bianca 'bianca R<version>'
     >> c.AdditionalProperties.AccountName = 'snic2021-X-YYY';
     >> c.AdditionalProperties.QueueName = 'node';
@@ -259,7 +259,7 @@ $ interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 3:00:00
 On Bianca, getting 3 cpu:s and 1 gpu:
 
 ```console
-$ interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00 
+$ interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00
 ```
 
 Note that wall time "-t" should be set to more than one hour to not automatically put job in "devel" or "devcore" queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.

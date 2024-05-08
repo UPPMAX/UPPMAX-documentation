@@ -22,7 +22,7 @@ the same memory (variables, state, etc). (OpenMP)
 share data by communicating (passing messages) as needed. (Message Passing
 Interface (MPI)).
 
-There are several packages available for Python that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines. 
+There are several packages available for Python that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines.
 
 ### Threading
 
@@ -85,21 +85,21 @@ The multiprocessing.pool.Pool class provides an equivalent but parallelized (via
 [1, 4, 9, 16, 25, 36]
 ```
 
-As you can see, you can run distributed computing directly from the python shell. 
+As you can see, you can run distributed computing directly from the python shell.
 
-Another example, `distributed.py`: 
+Another example, `distributed.py`:
 
 ```
 import random
 
 def sample(n):
-    """Make n trials of points in the square.  
+    """Make n trials of points in the square.
     Return (n, number_in_circle)
-    This is our basic function.  
-    By design, it returns everything it needs to compute 
+    This is our basic function.
+    By design, it returns everything it needs to compute
     the final answer: both n (even though it is an input
-    argument) and n_inside_circle.  
-    To compute our final answer, all we have to do is 
+    argument) and n_inside_circle.
+    To compute our final answer, all we have to do is
     sum up the n:s and the n_inside_circle:s and do our
     computation"""
     n_inside_circle = 0
@@ -154,17 +154,17 @@ python distributed.py
 sbatch job_distributed.slurm
 ```
 
-##### Interactive example 
+##### Interactive example
 
 ```
-salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0 
+salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0
 python distributed.py
 ```
 
-### MPI 
+### MPI
 Presently you have to install your own mpi4py. You will need to activate paths to the MPI libraries. Therefore follow these steps.
 
-1. If you use python 3.10.8: 
+1. If you use python 3.10.8:
 
 ```
 $ module load gcc/12.2.0 openmpi/4.1.4
@@ -179,7 +179,7 @@ $ module load gcc/9.3.0 openmpi/3.1.5
 2. pip install locally or in an virtual environment
 
 ```
-$ pip install --user mpi4py 
+$ pip install --user mpi4py
 ```
 
 Remember that you will also have to load the the openmpi module before running mpi4py code, so that the MPI header files can be found (e.g. with the command "module load gcc/X.X.X openmpi/X.X.X"). Because of how MPI works, we need to explicitly write our code into a file,  pythonMPI.py:
@@ -189,13 +189,13 @@ import random
 import time
 from mpi4py import MPI
 def sample(n):
-    """Make n trials of points in the square.  
+    """Make n trials of points in the square.
     Return (n, number_in_circle)
-    This is our basic function.  
-    By design, it returns everything it needs to compute 
+    This is our basic function.
+    By design, it returns everything it needs to compute
     the final answer: both n (even though it is an input
-    argument) and n_inside_circle.  
-    To compute our final answer, all we have to do is 
+    argument) and n_inside_circle.
+    To compute our final answer, all we have to do is
     sum up the n:s and the n_inside_circle:s and do our
     computation"""
     n_inside_circle = 0
@@ -216,13 +216,13 @@ else:
 t0 = time.perf_counter()
 _, n_inside_circle = sample(n_task)
 t = time.perf_counter() - t0
-  
+
 print(f"before gather: rank {rank}, n_inside_circle: {n_inside_circle}")
 n_inside_circle = comm.gather(n_inside_circle, root=0)
 print(f"after gather: rank {rank}, n_inside_circle: {n_inside_circle}")
 if rank == 0:
     pi_estimate = 4.0 * sum(n_inside_circle) / n
-    print(f"\nnumber of darts: {n}, estimate: {pi_estimate}, 
+    print(f"\nnumber of darts: {n}, estimate: {pi_estimate},
         time spent: {t:.2} seconds")
 ```
 

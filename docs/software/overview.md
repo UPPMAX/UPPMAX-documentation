@@ -1,6 +1,6 @@
 # Software
 
-At the UPPMAX clusters, 
+At the UPPMAX clusters,
 a lot of software is pre-installed
 and accessible via the module system.
 
@@ -32,5 +32,5 @@ $ module load bioinfo-tools
 
 - When you list available modules with ``module avail`` after this, you will see that the bioinformatics tools are now also available in the listing.
 
-- Note that the ``module spider`` command will show bioinformatics modules regardless of whether you have loaded the bioinfo-tools module. 
+- Note that the ``module spider`` command will show bioinformatics modules regardless of whether you have loaded the bioinfo-tools module.
 - This command can also tell you whether a particular module requires the bioinfo-tools module, e.g. "module spider GEMINI/0.18.3".

@@ -17,7 +17,7 @@ Below is an example submit script for Rackham, running on 40 cores (2 nodes with
 #SBATCH -t 03:00:00
 
 module load gamess/20170930
- 
+
 rungms gms >gms.out
 ```
 

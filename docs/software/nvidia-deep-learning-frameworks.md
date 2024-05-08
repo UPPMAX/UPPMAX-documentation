@@ -13,21 +13,21 @@ Get an interactive shell.
 singularity shell --nv ~/external_1TB/tmp/pytorch_22.03-py3.sif
 
 Singularity> python3
-Python 3.8.12 | packaged by conda-forge | (default, Jan 30 2022, 23:42:07) 
+Python 3.8.12 | packaged by conda-forge | (default, Jan 30 2022, 23:42:07)
 [GCC 9.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 
 >>> import torch
 # Check torch version
->>> print(torch.__version__) 
+>>> print(torch.__version__)
 1.12.0a0+2c916ef
 
 # Check if CUDA is available
->>> print(torch.cuda.is_available()) 
+>>> print(torch.cuda.is_available())
 True
 
 # Check which GPU architectures are supported
->>> print(torch.cuda.get_arch_list()) 
+>>> print(torch.cuda.get_arch_list())
 ['sm_52', 'sm_60', 'sm_61', 'sm_70', 'sm_75', 'sm_80', 'sm_86', 'compute_86']
 
 # test torch

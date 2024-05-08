@@ -4,13 +4,13 @@ Jupyter is an [IDE](../software/ides.md) specialized for [the Python programming
 
 !!! info
 
-    - You can run Python in a **Jupyter-notebook**, 
+    - You can run Python in a **Jupyter-notebook**,
       i.e. in a web interface with possibility of inline figures and debugging.
     - **Jupyter-lab** is installed in the **python>=3.10.8 module**
 
 !!! warning
 
-    Always start Jupyter in a **ThinLinc** session 
+    Always start Jupyter in a **ThinLinc** session
     and preferably in an **interactive** session.
 
 ???- tip "Want to see a video?"
@@ -32,8 +32,8 @@ or jupyter lab:
 $ jupyter-lab
 ```
 
-A local Firefox session (not a internet web page!) 
-should start with the Jupyter notebook/lab interface. 
+A local Firefox session (not a internet web page!)
+should start with the Jupyter notebook/lab interface.
 
 - If not, make Jupyter work in background, start Firefox and paste the address.
 - `` <ctrl-z>``
@@ -57,4 +57,4 @@ $ pip install -I jupyter
 and run it as above.
 
 Be sure to start the kernel with the virtual environment name, like "project A", and not "Python 3 (ipykernel)".
-      
+

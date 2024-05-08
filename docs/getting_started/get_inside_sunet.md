@@ -22,7 +22,7 @@ flowchart TD
 
     subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
-    end    
+    end
 
     subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
@@ -51,7 +51,7 @@ flowchart TD
 To connect to all UPPMAX clusters, one must be inside SUNET.
 
 All Swedish university buildings are within SUNET.
-Hence, working from a University building 
+Hence, working from a University building
 is a non-technical solution to get direct access to Bianca.
 
 ## Use a virtual private network
@@ -84,8 +84,8 @@ To connect to all UPPMAX clusters, one must be inside SUNET.
 
 An HPC cluster within SUNET (for example, [Rackham](../cluster_guides/rackham.md))
 allows one to access all other clusters:
-your computer connects to the HPC cluster within SUNET, 
+your computer connects to the HPC cluster within SUNET,
 after which one accesses all other clusters.
 
-However, when using this method, one can only use the console 
+However, when using this method, one can only use the console
 environments (i.e. no remote desktop environment).

@@ -25,7 +25,7 @@ After logging in, one can
     Node1 -- interactive --> SubGraph2Flow
     Node1 -- sbatch --> SubGraph2Flow
     subgraph "Snowy"
-    SubGraph2Flow(calculation nodes) 
+    SubGraph2Flow(calculation nodes)
     end
 
 

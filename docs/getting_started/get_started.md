@@ -1,6 +1,6 @@
 # Get started here
 
-In order to use UPPMAX resources, you need to be a member of a project and a user account. 
+In order to use UPPMAX resources, you need to be a member of a project and a user account.
 
 ## PIs
 
@@ -10,7 +10,7 @@ Do you or members in your research group need compute and storage resources on a
 Are you interested in other services, e.g. large volume data storage?
 
 Let us know by contacting UPPMAX Support at support@uppmax.uu.se !
-  
+
 ## Users
 
 Once you or someone in your group or collaboration has a project, you must apply for a user account by following the link below.
@@ -52,7 +52,7 @@ On Unix/Linux and Mac OS, start a terminal and use the ssh command, like so (sub
     ssh username@rackham.uppmax.uu.se
 
 - Note: change "rackham" to the name of the machine you want to connect to.
-- In order to run graphical programs through SSH, you need to enable [X forwarding](../software/ssh_x_forwarding.md), 
+- In order to run graphical programs through SSH, you need to enable [X forwarding](../software/ssh_x_forwarding.md),
     i.e. use `ssh -X username@rackham.uppmax.uu.se`
 
 ## Specific for a Windows computer
@@ -96,11 +96,11 @@ The system will prompt you for your current password, after which it will ask yo
 
 Copy a file from you computer to your home directory on UPPMAX:
 
-    scp some_local_file user@rackham.uppmax.uu.se:/home/username/some-file 
+    scp some_local_file user@rackham.uppmax.uu.se:/home/username/some-file
 
 Copy a file from your home directory on UPPMAX to your computer:
 
-    scp user@rackham.uppmax.uu.se:/home/username/some-file local_file_or_directory 
+    scp user@rackham.uppmax.uu.se:/home/username/some-file local_file_or_directory
 
 To place the file in the directory you are currently standing in, use a dot ('.') as the local directory:
 
@@ -145,7 +145,7 @@ When you log in to UPPMAX for the first time you only have the following files c
     -rw-r--r--  1 user     uppmax  307 Apr 21  2008 .profile
     -rw-r--r--  1 user     uppmax  220 Jan  9  2008 .zshrc
 
-The files starting with a "." are hidden files — startup scripts or configuration files. 
+The files starting with a "." are hidden files — startup scripts or configuration files.
 
 The default permission of your home directory is 750, i.e. you can do everything, people belonging to the same group can read and execute your files and other people can not do anything. For more info on file permissions see this page on the online Linux Handbook.
 
@@ -184,7 +184,7 @@ Example: how to use emacs:
 
 Do the editing you want, then save with:
 
-    Control-x, Control-s 
+    Control-x, Control-s
 
 Exit emacs with:
 
@@ -198,9 +198,9 @@ For a tutorial on emacs: http://www.gnu.org/software/emacs/tour/
 
 ### The Gedit text editor
 
-If you have logged in with [X forwarding](../software/ssh_x_forwarding.md) 
-(i.e. with `ssh -X username@rackham.uppmax.uu.se`) 
-or through ThinLinc, then you can run `gedit`, 
+If you have logged in with [X forwarding](../software/ssh_x_forwarding.md)
+(i.e. with `ssh -X username@rackham.uppmax.uu.se`)
+or through ThinLinc, then you can run `gedit`,
 a program that feels very similar to the Windows program Wordpad.
 
 Example: how to run gedit from a terminal:

@@ -4,7 +4,7 @@
 
 Dardel is an HPC cluster at Stockholm maintained by PDC.
 
-If you are working on [Rackham](rackham.md), 
+If you are working on [Rackham](rackham.md),
 consider moving to Dardel.
 
 - [Login to Dardel](../getting_started/login_dardel.md)

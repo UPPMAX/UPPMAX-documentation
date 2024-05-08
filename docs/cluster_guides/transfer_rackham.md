@@ -24,7 +24,7 @@ a graphical tool.
 
 ## Using SCP
 
-One can transfer files to/from Rackham 
+One can transfer files to/from Rackham
 using SCP in a terminal.
 This works similar to a regular copy of files,
 except that a remote address needs to be specified.
@@ -36,7 +36,7 @@ for a step-by-step guide how to transfer files using SCP.
 ## Using SFTP
 
 One can transfer files to/from Rackham using SFTP in a terminal.
-One connects a local and a remote folder, 
+One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.
 
@@ -46,7 +46,7 @@ for a step-by-step guide how to transfer files using SFTP.
 ## Using `transit`
 
 One can transfer files to/from Rackham using the UPPMAX `transit` server.
-One connects a local folder and the `transit` server, 
+One connects a local folder and the `transit` server,
 after which one can upload and download files.
 
 See [Rackham file transfer using `transit`](rackham_file_transfer_using_transit.md)
@@ -95,7 +95,7 @@ flowchart TD
     user_local_files <--> |SFTP|files_in_rackham_home
     user_local_files <--> |graphical tool|files_on_transit
     user_local_files <--> |SFTP|files_on_transit
-    
+
     rackham_login --> |can use|files_in_rackham_home
 
     transit_login --> |can use|files_on_transit

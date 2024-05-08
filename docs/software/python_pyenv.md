@@ -1,11 +1,11 @@
 # Python `pyenv`
 
-`pyenv` is one of multiple 
+`pyenv` is one of multiple
 [Python virtual environment managers](python_virtual_environments.md).
 
 This approach is more advanced and should be, in our opinion, used only if the
 above are not enough for the purpose. Probably Conda will work well for you.
-The approach below allows you to install your own python version and much more… 
+The approach below allows you to install your own python version and much more…
 
 Confer the official pyenv documentation.
 
@@ -44,7 +44,7 @@ Python 3.3 or any other version.
 ### Install packages in your selected python version
 
 
-1. Set python version with 
+1. Set python version with
 
     ```pyenv global <version>```
 

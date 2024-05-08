@@ -21,7 +21,7 @@ and a [detailed overview of the clusters](#detailed-overview-of-the-uppmax-syste
 
 ## Overview of UPPMAX clusters
 
-UPPMAX clusters are computing systems, 
+UPPMAX clusters are computing systems,
 i.e. they allow a user to do heavy computational calculations.
 
 All UPPMAX clusters are named after Tintin characters.
@@ -47,7 +47,7 @@ flowchart TD
     is_sensitive[Do you use sensitive data?]
     is_long[Do you use long runs and/or GPUs?]
 
-    UPPMAX --> is_sensitive 
+    UPPMAX --> is_sensitive
     is_sensitive --> |yes|Bianca
     is_sensitive --> |no|is_long
     is_long --> |no|Rackham
@@ -56,7 +56,7 @@ flowchart TD
 ```
 
 All UPPMAX clusters follow the same [file system](uppmax_filesystem.md),
-with special folders. See the UPPMAX page on its file 
+with special folders. See the UPPMAX page on its file
 systems [here](uppmax_filesystem.md).
 
 ## What is a computer cluster technically?
@@ -72,7 +72,7 @@ There are three types of nodes:
 
 ???- tip "Logging in"
 
-    Logging in is described separately per cluster: 
+    Logging in is described separately per cluster:
 
     - [Bianca](../getting_started/login_bianca.md).
     - [Rackham](../getting_started/login_rackham.md).
@@ -94,7 +94,7 @@ There are three types of nodes:
     - [Bianca](start_interactive_node_on_bianca.md)
     - [Rackham](start_interactive_node_on_rackham.md)
 
-    This is done by requesting an interactive node 
+    This is done by requesting an interactive node
     from the Slurm scheduler.
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
@@ -152,14 +152,14 @@ This home-made computer cluster may not be suitable for high-performance.
 
 ![The Rackham computer cluster](./img/uppmax-light2_412_x_285.jpg)
 
-The image above shows Rackham, another UPPMAX 
+The image above shows Rackham, another UPPMAX
 computer cluster, suitable for high-performance computing.
 This makes Rackham an high-performance computing (HPC) cluster.
 Bianca and Rackham are HPC clusters.
 
 When using this definition:
 
-> a supercomputer is one big computer, 
+> a supercomputer is one big computer,
 > while high-performance computing is many computers working toward the same goal
 >
 > [Frank Downs](https://fedtechmagazine.com/article/2021/04/high-performance-computing-government-aggregating-impact-perfcon)
@@ -175,7 +175,7 @@ many calculations, as requested by multiple people, at the same time.
 To ensure fair use of this shared resource, regular users
 are restricted in some ways:
 
-- Users cannot run calculations directly. 
+- Users cannot run calculations directly.
   Instead, users need to request either (1) a calculation to be run,
   or (2) an interactive node
 
@@ -191,10 +191,10 @@ are restricted in some ways:
     - [Bianca](start_interactive_node_on_bianca.md)
     - [Rackham](start_interactive_node_on_rackham.md)
 
-    This is done by requesting an interactive node 
+    This is done by requesting an interactive node
     from the Slurm scheduler.
 
-- Users cannot install software directly. 
+- Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
   techniques how to run custom software anyway
 
@@ -206,7 +206,7 @@ are restricted in some ways:
 ???- tip "How to run custom software"
 
     Techniques how to run custom software is *not* part of this course.
-    Instead, one technique is part of the intermediate Bianca course 
+    Instead, one technique is part of the intermediate Bianca course
     and can be found described [here](extra/containers/),
     which is about using containers
 
@@ -215,7 +215,7 @@ and all UPPMAX clusters.
 
 ## Restrictions on a sensitive data computer cluster
 
-Next to the general restrictions above, 
+Next to the general restrictions above,
 a sensitive data cluster has additional restrictions.
 
 Here is an overview which clusters are designed for sensitive data:
@@ -227,7 +227,7 @@ Rackham     |No
 Snowy       |No
 
 
-On a sensitive data cluster, 
+On a sensitive data cluster,
 (sensitive) data must be protected to remain there,
 due to which there are these additional restrictions to users:
 
@@ -242,7 +242,7 @@ due to which there are these additional restrictions to users:
 
 The goal is *not* to prevent the up/download of sensitive data,
 instead it is to prevent the *accidental* up/download of sensitive data.
-As these up/downloads are monitored, in case of an accident, 
+As these up/downloads are monitored, in case of an accident,
 the extent of the leak and the person (accidentally) causing it
 is known. Identifying a responsible person in case of such an
 accident is required by law.
@@ -273,14 +273,14 @@ This is a technical summary of the UPPMAX clusters:
   Node1 -- interactive --> SubGraph2Flow
   Node1 -- sbatch --> SubGraph2Flow
   subgraph "Snowy"
-  SubGraph2Flow(calculation nodes) 
+  SubGraph2Flow(calculation nodes)
         end
 
         thinlinc -- usr-sensXXX + 2FA + VPN ----> SubGraph1Flow
         terminal -- usr --> Node1
         terminal -- usr-sensXXX + 2FA + VPN ----> SubGraph1Flow
         Node1 -- usr-sensXXX + 2FA + no VPN ----> SubGraph1Flow
-        
+
         subgraph "Bianca"
         SubGraph1Flow(Bianca login) -- usr+passwd --> private(private cluster)
         private -- interactive --> calcB(calculation nodes)

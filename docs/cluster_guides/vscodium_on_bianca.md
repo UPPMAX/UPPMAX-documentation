@@ -67,8 +67,8 @@ module load VSCodium/latest`
 
 ### 5. Start VSCodium
 
-With the modules loaded, 
-in that same terminal, 
+With the modules loaded,
+in that same terminal,
 start VSCodium:
 
 

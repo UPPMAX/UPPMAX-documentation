@@ -27,7 +27,7 @@ resources and to get an overview of the requested resources.
 
     > SUPR 2FA login. Use the SUPR 2FA (i.e. **not** UPPMAX)
 
-After logging in, the [SUPR](https://supr.naiss.se/) 
+After logging in, the [SUPR](https://supr.naiss.se/)
 website will show all projects you are a member of,
 under the 'Projects' tab.
 

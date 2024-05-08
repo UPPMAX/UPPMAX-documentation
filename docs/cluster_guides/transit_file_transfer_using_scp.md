@@ -42,14 +42,14 @@ scp [username]@transit.uppmax.uu.se:/home/[username]/[remote_filename] [local_fo
 ```
 
 where `[remote_filename]` is the path to a remote filename,
-`[username]` is your UPPMAX username, 
+`[username]` is your UPPMAX username,
 and `[local_folder]` is your local folder, for example:
 
 ```
 scp sven@transit.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 ```
 
-If asked, give your UPPMAX password. 
+If asked, give your UPPMAX password.
 
 You can get rid of this prompt if you have setup SSH keys
 
@@ -72,7 +72,7 @@ However, Transit is not a file server.
 The `scp` command will complete successfully,
 yet the file will not be found on Transit.
 
-If asked, give your UPPMAX password. 
+If asked, give your UPPMAX password.
 You can get rid of this prompt if you have setup SSH keys
 
 ## Overview

@@ -29,7 +29,7 @@ The UPPMAX HPC clusters have three types of nodes:
     Requesting a calculation is described [here](slurm.md).
     This is done by using the Slurm scheduler.
 
-- **interactive nodes**: a type of calculation node, 
+- **interactive nodes**: a type of calculation node,
   where a user can do calculations directly
 
 ???- tip "How can I find out on which node I am?"
@@ -39,7 +39,7 @@ The UPPMAX HPC clusters have three types of nodes:
     - the login node has name `rackham[number]`, where `[number]` is the number of the login node
     - an interactive node has name `r[number]`, where `[number]` is the compute node number
 
-As a login is shared with all users, 
+As a login is shared with all users,
 there is a simple rule to use it fairly:
 
 > Only do short and light things on the login node
@@ -54,7 +54,7 @@ Examples of short and light things are:
 Examples of heavy things are:
 
 - Running code with big calculations
-- Develop code with big calculations line-by-line 
+- Develop code with big calculations line-by-line
 
 ???- tip "Develop code with big calculations line-by-line "
 
@@ -63,14 +63,14 @@ Examples of heavy things are:
 ### When to use an interactive node
 
 Some users develop computer code on an HPC cluster
-in a line-by-line fashion. 
-These users typically want to run a (calculation-heavy) 
+in a line-by-line fashion.
+These users typically want to run a (calculation-heavy)
 script frequently, to test
 if the code works.
 
 However, scheduling each new line is too slow, as it
 can take minutes before the new code is run.
-Instead, there is a way to directly work 
+Instead, there is a way to directly work
 with such code: use an interactive node.
 
 An interactive node is a type of calculation node,

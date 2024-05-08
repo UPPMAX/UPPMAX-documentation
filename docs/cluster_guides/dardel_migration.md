@@ -7,17 +7,17 @@ the HPC cluster at PDC in Stockholm.
 
 ???- question "Why do I need this?"
 
-    The Rackham cluster will be decommissioned at the end of 2024, 
-    hence all project directories will be deleted. 
-    The plan from NAISS is that all Rackham users can move to the Dardel cluster at PDC, 
+    The Rackham cluster will be decommissioned at the end of 2024,
+    hence all project directories will be deleted.
+    The plan from NAISS is that all Rackham users can move to the Dardel cluster at PDC,
     and we encourage you to do so right away.
 
-    Researchers at Uppsala University, should they so desire, 
-    can choose to keep data at UPPMAX. 
-    Projects with UU affiliation that remain on Rackham 
+    Researchers at Uppsala University, should they so desire,
+    can choose to keep data at UPPMAX.
+    Projects with UU affiliation that remain on Rackham
     at the end of this year can be transferred to a new local system.
 
-    To facilitate this move, 
+    To facilitate this move,
     we have created a tool that makes the transfer easier.
 
     Move details of [the next UPPMAX system here](https://www.uppmax.uu.se/uppmax-news/?tarContentId=1080990).
@@ -36,7 +36,7 @@ The really short description is:
 
 See the rest of this guide for more information about these steps.
 
-    
+
 
 ## Long version
 
@@ -48,7 +48,7 @@ First, we are here to help.
 Please [contact support](../support.md) if you run into problems
 when trying the guide below.
 
-This migration consists of a couple of steps summarized below. 
+This migration consists of a couple of steps summarized below.
 Press the links to get more detailed explanation of each step.
 Note that step 1 requires some hours of waiting
 and step 2 requires an overnight wait.
@@ -106,7 +106,7 @@ this can take some hours.
     > Example PDC project overview
 
     From there, scroll down to 'Resources'.
-    If you see 'Dardel' among the compute resources, 
+    If you see 'Dardel' among the compute resources,
     you have confirmed you have access to a Dardel project.
 
     ![](./img/naiss_project_dardel_resources.png)
@@ -142,7 +142,7 @@ darsync sshkey
 
 ### 4. Add the public key to the PDC Login Portal
 
-See [create and use an SSH key pair for Dardel, step 2](../software/ssh_key_use_dardel.md/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal), 
+See [create and use an SSH key pair for Dardel, step 2](../software/ssh_key_use_dardel.md/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),
 to see how to upload the public SSH key to the PDC Login Portal.
 
 ### 5. Run the migration tool Darsync
@@ -172,7 +172,7 @@ darsync check
     darsync check --local-dir [foldername]
     ```
 
-    where `[foldername]` is the name to a folder, 
+    where `[foldername]` is the name to a folder,
     for example `darsync check --local-dir ~/my_folder`.
 
     There are some more optional arguments, see these by doing:
@@ -188,9 +188,9 @@ or try to fix them yourself.
 
     This is a file containing file ownership information. It is created in
     the root of the folder you told Darsync to transfer to Dardel.
-    
-    When a user transfer all the files in a project to a project at Dardel, 
-    all the files at Dardel will be owned by the user who did the transfer. 
+
+    When a user transfer all the files in a project to a project at Dardel,
+    all the files at Dardel will be owned by the user who did the transfer.
     By saving the ownership information of the files at UPPMAX,
     we can map the file ownership information to the corresponding users at Dardel.
 
@@ -200,11 +200,11 @@ or try to fix them yourself.
     new project a couple of months. By that time you should have encountered
     any problems with file permissions that you might have.
 
-    If you discover that you get problems because of wrong owner of files 
-    (write permissions etc), this file contains the information needed to 
-    recreate the file ownerships as they were before you transfered the files, 
+    If you discover that you get problems because of wrong owner of files
+    (write permissions etc), this file contains the information needed to
+    recreate the file ownerships as they were before you transfered the files,
     even if your UPPMAX project has already been deleted.
-    
+
 ???- question "How to fix `WARNING: files with uncompressed file extensions above the threshold detected`"
     It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
@@ -214,18 +214,18 @@ or try to fix them yourself.
     # fastq/fq/fasta/txt
     gzip file.fq
 
-    # vcf 
+    # vcf
     bgzip file.vcf
 
-    # sam 
+    # sam
     samtools view -b file.sam > file.bam
     # when the above command is completed successfully:
     # rm file.sam
     ```
 
-    For examples on how to compress other file formats, use an internet search engine to look for 
+    For examples on how to compress other file formats, use an internet search engine to look for
     ```
-    how to compress <insert file format name> file   
+    how to compress <insert file format name> file
 
 ???- question "How to fix `WARNING: Total number of files, or number of files in a single directory`"
 
@@ -249,7 +249,7 @@ In this third step, the [Slurm](slurm.md) script is created.
 
 !!! info "A lot of questions"
 
-    The script will ask multiple questions. 
+    The script will ask multiple questions.
     Below it is described how to get the answers :-)
 
 Running `darsync gen` will make Darsync prompt for questions:
@@ -259,8 +259,8 @@ Running `darsync gen` will make Darsync prompt for questions:
 darsync gen
 ```
 
-After answering all the questions a new file will be created. By default it will 
-be created in your home directory, named `darsync_foldername.sh`, 
+After answering all the questions a new file will be created. By default it will
+be created in your home directory, named `darsync_foldername.sh`,
 where `foldername` is the name of the folder you told it to transfer,
 e.g. `~/darsync_nais2024-23-9999.sh`
 
@@ -282,7 +282,7 @@ which is a regular [Slurm](slurm.md) script.
       --outfile [output_filename]
     ```
 
-    where 
+    where
 
     - `[foldername]` is the name to a folder, e.g. `~/my_folder`
     - `[slurm_account]` is the UPPMAX project ID, e.g. `uppmax2023-2-25`
@@ -355,8 +355,8 @@ which is a regular [Slurm](slurm.md) script.
 
     ![](./img/supr_naiss_dardel_storage.png)
 
-    > Composite image of a PDC project and its associated storage folder 
-    > at the bottom. 
+    > Composite image of a PDC project and its associated storage folder
+    > at the bottom.
     > In this case, the full folder name is `/cfs/klemming/projects/snic/naiss2023-22-10271`
 
 ### 6. Submit the script created by Darsync

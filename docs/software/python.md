@@ -22,8 +22,8 @@ and these more advanced topics:
 
 ## What is Python?
 
-Python is a high-level, general-purpose programming language. 
-Its design philosophy emphasizes code readability 
+Python is a high-level, general-purpose programming language.
+Its design philosophy emphasizes code readability
 with the use of significant indentation [Kuhlman, 2009].
 
 ## Python versions
@@ -36,8 +36,8 @@ to run a Python script.
 
 ???- question "Could you give me an example of a difference between Python 2 and 3?"
 
-    One example is how Python 2 and Python 3 dividetwo integers. 
-    Here is an example that will work on all UPMMAX clusters. 
+    One example is how Python 2 and Python 3 dividetwo integers.
+    Here is an example that will work on all UPMMAX clusters.
 
     Load Python 2.7.15:
 
@@ -45,13 +45,13 @@ to run a Python script.
     module load python/2.7.15
     ```
 
-    Then 
+    Then
 
     ```
     python -c "print(1/2)"
     ```
 
-    will print `0`, as this is an integer division: two fits zero times in one. 
+    will print `0`, as this is an integer division: two fits zero times in one.
 
     Load Python 3.11.4:
 
@@ -59,14 +59,14 @@ to run a Python script.
     module load python/3.11.4
     ```
 
-    Then 
+    Then
 
     ```
     python -c "print(1/2)"
     ```
 
     will print `0.5`, as this is turned into a floating point division,
-    equivalent to `1.0 / 2.0`. 
+    equivalent to `1.0 / 2.0`.
 
 ???- question "Which version of Python is `python`?"
 
@@ -95,7 +95,7 @@ to run a Python script.
     A video that shows how to load the Python module
     can be found [here](https://youtu.be/wBebYj3XlNM).
 
-The different versions of Python are available via 
+The different versions of Python are available via
 the module system on all UPPMAX clusters.
 Loading a Python module also makes some Python packages available.
 
@@ -139,7 +139,7 @@ To find out which Python modules there are, use `module spider python`.
             python/3.10.8
             python/3.11.4
          Other possible modules matches:
-            Biopython  Boost.Python  GitPython  IPython  Python  biopython  flatbuffers-python 
+            Biopython  Boost.Python  GitPython  IPython  Python  biopython  flatbuffers-python
      ...
 
     ---------------------------------------------------------------------------------------
@@ -157,18 +157,18 @@ To find out which Python modules there are, use `module spider python`.
     ---------------------------------------------------------------------------------------
     ```
 
-To load a specific version of Python into your environment, 
+To load a specific version of Python into your environment,
 type `module load python/[version]`,
 where `[version]` is a Python version,
 for example, `module load python/3.11.4`
 
 ???- question "Do I really need to load a Python module?"
 
-    It is *recommended* to load a Python module, 
+    It is *recommended* to load a Python module,
     but in some case you will not get into trouble.
 
     When you do not load a module, the system-installed Python version are used.
-    These are `python` version 2.7.5, and `python3` version 3.6.8. 
+    These are `python` version 2.7.5, and `python3` version 3.6.8.
 
     If using those older versions give you no trouble, all is well,
     for example, when running basic Python scripts that have no package imports.
@@ -177,16 +177,16 @@ for example, `module load python/3.11.4`
 
 ???- question "Why are there both ``python/3.X.Y`` and ``python3/3.X.Y`` modules?"
 
-    Sometimes existing software might use `python2` 
-    and there’s nothing you can do about that. 
+    Sometimes existing software might use `python2`
+    and there’s nothing you can do about that.
 
-    In pipelines and other toolchains the different tools may together 
-    require both `python2` and `python3`. 
+    In pipelines and other toolchains the different tools may together
+    require both `python2` and `python3`.
 
 ???- question "How to deal with tools that require both `python2` and `python3`?"
 
-    You can run two python modules at the same time if 
-    one of the modules is `python/2.X.Y` and the other module is `python3/3.X.Y` 
+    You can run two python modules at the same time if
+    one of the modules is `python/2.X.Y` and the other module is `python3/3.X.Y`
     (i.e. not `python/3.X.Y`).
 
 ## Loading Python package modules
@@ -194,11 +194,11 @@ for example, `module load python/3.11.4`
 !!! note "Terminology"
 
     There exist many Python libraries.
-    Although these are formally called 'modules', 
+    Although these are formally called 'modules',
     in this document, we call them 'packages',
     to distinguish those from [the UPPMAX modules](../cluster_guides/modules.md).
 
-For more complex complex Python packages, 
+For more complex complex Python packages,
 there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
 
 - `python_GIS_packages`: for geographic information system packages
@@ -217,7 +217,7 @@ there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
 !!! note "Terminology"
 
     There exist many Python libraries.
-    Although these are formally called 'modules', 
+    Although these are formally called 'modules',
     in this document, we call them 'packages',
     to distinguish those from [the UPPMAX modules](../cluster_guides/modules.md).
 
@@ -308,7 +308,7 @@ module help python/3.11.4
 
     This module provides the executable names 'python' and 'python3'.
 
-    Several additional python packages are also installed in this module. The complete list of 
+    Several additional python packages are also installed in this module. The complete list of
     packages in this module, produced using 'pip list', is:
 
     Package                   Version
@@ -324,7 +324,7 @@ module help python/3.11.4
 
 #### Importing the package
 
-Importing a Python package is a way to determine if a Python package 
+Importing a Python package is a way to determine if a Python package
 comes with your Python module installed.
 From the terminal do:
 
@@ -371,7 +371,7 @@ If the Python package is not pre-installed with your version of Python,
 use [the UPPMAX module system](../cluster_guides/modules.md)
 to search for it.
 
-Not all packages are easy to find, 
+Not all packages are easy to find,
 as some are part of super-packages,
 for example [the TensorFlow Python libraries](tensorflow.md),
 which are part of the `python_ML_packages/[version]-{cpu,gpu}`,
@@ -439,9 +439,9 @@ for example `python_ML_packages/3.11.8-cpu`.
     - wrapt
     - xxhash
 
-It may not always be easy to find your Python package within the many modules. 
+It may not always be easy to find your Python package within the many modules.
 Do not hesitate to [contact support](../support.md)
-so that you can spend time on your research 
+so that you can spend time on your research
 and we figure this out :-)
 
 ### Stand-alone tools
@@ -454,7 +454,7 @@ there by using the module system `spider` function:
 module spider [tool_name]
 ```
 
-where `[tool_name]` is (part of) the name of the tool. `module spider` 
+where `[tool_name]` is (part of) the name of the tool. `module spider`
 is case-insensitive, hence `YourTool` and `yourtool` give similar results.
 
 ???- question "What are UPPMAX modules?"
@@ -477,12 +477,12 @@ Python programming [here](python_programming.md)
 You can run a Python script in the shell by:
 
 ```console
-$ python example_script.py 
+$ python example_script.py
 ```
 or, if you loaded a `python3` module:
 
 ```console
-$ python3 example_script.py 
+$ python3 example_script.py
 ```
 
 ### Use Python in an interactive session
@@ -532,7 +532,7 @@ is described [here](python_virtual_environments.md).
 
 ## How to run parallel jobs in Python
 
-How to run parallel jobs in Python 
+How to run parallel jobs in Python
 is described [here](python_parallel_jobs.md).
 
 ## References

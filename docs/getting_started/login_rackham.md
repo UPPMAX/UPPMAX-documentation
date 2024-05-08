@@ -17,10 +17,10 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
 
-   ``` bash 
+   ``` bash
      [<user>@rackham3 ~]$
    ```
-    
+
 - You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
 
    ``` bash
@@ -30,36 +30,36 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 !!! info "Quick start log in!"
     - Below you find how to log in
     - Further down we present other procedures to reach Rackham, depending on your planned work.
-    
 
-## Log in with a terminal, omitting support for graphics  
+
+## Log in with a terminal, omitting support for graphics
 
 === "Mac"
 
     - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
       to run [`ssh`](../software/ssh.md)
-    
-    ``` bash 
+
+    ``` bash
     $ ssh <username>@rackham.uppmax.uu.se
     ```
-    
+
     - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
     <!-- ![Terminal](./img/Mac_terminal.png) -->
 
     - iTerm2 goodies:
-    
+
        - You can save hosts for later.
        - Drag and drop scp
-       
+
 === "Windows"
 
     - Start a terminal (see below) to run [`ssh`](../software/ssh.md):
-    
+
     ```bash
     $ ssh <username>@rackham.uppmax.uu.se
     ```
-    
+
     - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
     ![Terminal](./img/putty.jpg)
@@ -68,13 +68,13 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
         - You can save hosts for later.
         - No graphics.
-    
+
     - Windows Powershell terminal can also work
 
         - Cannot save hosts
         - no graphics
         - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
-    
+
     - Windows command prompt can also work
 
         - Cannot save hosts
@@ -85,7 +85,7 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 
 
-!!! info "Working on Rackham"    
+!!! info "Working on Rackham"
     - Now we present alternatives to work on Rackham
 
 
@@ -93,50 +93,50 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 !!! info "Login procedure"
     **Which login procedure is best for You, depends on:**
-    
+
     - Your background
     - Your OS environment,
     - Your planned interaction with your local computer
     - Your planned use of graphics on the cluster
 
     **If you plan to:**
-    
+
     - do **day-to-day** work where *terminal shell is sufficient*
 
         - Mac: *Terminal, iTerm2*
         - Linux: *Terminal*
         - Windows: *Putty*, *Windows Powershell* or even *command prompt (CMD)*
-     
+
     - **interact with you local computer**
-    
+
         - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
-       
+
             - (S)FTP browser: *Filezilla*, *Cyberduck*
-          
+
         - Windows
-       
+
             - (S)FTP browser: *WinSCP*
             - *MobaXterm* has built-in SFTP browser
-            - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*       
-        
+            - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*
+
     - **do day-to-day work** with **some graphical applications ([X forwarding](../software/ssh_x_forwarding.md))**
-    
+
         - Mac: *Terminal, iTerm2 + XQuartz*
         - Linux: *Terminal*
         - Windows: *MobaXterm*
-     
-     
+
+
     - integrate you cluster work with **code development**
-    
+
         - All OS: Example [Visual Studio Code](../cluster_guides/vscodium_on_rackham.md)
-     
-     
+
+
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
-    
+
         - *ThinLinc application*
-     
-     
-     
+
+
+
 ## Terminals (see above)
 
 ## Terminal with X11 server and light graphics
@@ -157,9 +157,9 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     ``` bash
     $ ssh -X [username]@rackham.uppmax.uu.se
     ```
-    
+
     where `[username]` is your UPPMAX username and `-X` enables [X forwarding](../software/ssh_x_forwarding.md).
-    For example, if your UPPMAX username is `sven`, this wold be 
+    For example, if your UPPMAX username is `sven`, this wold be
     `ssh -X sven@rackham.uppmax.uu.se`
 
     ???- question "How do I know XQuartz has been installed?"
@@ -173,11 +173,11 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     - Download and install ONE of the X-servers below (to enable graphics)
         - [GWSL](https://opticos.github.io/gwsl) (recommended because of hardware integration)
         - [X-ming](https://sourceforge.net/projects/xming/)
-        - [VCXSRV](https://sourceforge.net/projects/vcxsrv/) 
+        - [VCXSRV](https://sourceforge.net/projects/vcxsrv/)
 
 
-    - or... 
-    
+    - or...
+
     - Install a ssh (secure shell) program with built-in X11 and sftp file manager
         - [**MobaXterm**](https://mobaxterm.mobatek.net/)
         - sftp frame makes it easy to move, upload and download files.
@@ -191,8 +191,8 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     ``` bash
     $ ssh -X <username>@rackham.uppmax.uu.se
     ```
-    
-    - ``-X`` Enables [X forwarding](../software/ssh_x_forwarding.md). 
+
+    - ``-X`` Enables [X forwarding](../software/ssh_x_forwarding.md).
 
     ![Caption](./img/mobax_start1.jpg)
 
@@ -206,8 +206,8 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 !!! note "X-forwarding from the command line (generally)"
 
-    [X forwarding](../software/ssh_x_forwarding.md) allows 
-    graphics to be sent through the [SSH client](../software/ssh_client.md) 
+    [X forwarding](../software/ssh_x_forwarding.md) allows
+    graphics to be sent through the [SSH client](../software/ssh_client.md)
     connection you’re using to connect
 
     - Use `ssh -X`
@@ -223,7 +223,7 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 
 ???+ question "Test log in to **Rackham**, using your terminal"
-    
+
     - First try:
 
     ``` bash
@@ -256,7 +256,7 @@ You can do so:
 ### Remote desktop via the web
 
 Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se).
-   
+
 ## Remote desktop via a ThinLinc client
 
 Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
@@ -275,7 +275,7 @@ Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://
 
 
 ??? question "For windows users who wants to get started with WSL (not covered here)"
-    - Install WSL (Windows Subsystem for Linux) 
+    - Install WSL (Windows Subsystem for Linux)
         - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
         - Don’t forget to update to wsl2
     - Install a distribution or a ssh (secure shell) program
@@ -286,22 +286,22 @@ Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://
     - You may want to check this webpage as well!
         - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
 
- 
+
 ## Visual Studio Code (not covered here)
 
-???- question "How to use Visual Studio Code/Codium on Rackham in detail?" 
+???- question "How to use Visual Studio Code/Codium on Rackham in detail?"
 
     See a detailed guide how to use Visual Studio Code/Codium on Rackham [here](../cluster_guides/vscodium_on_rackham.md)
 
 - Integrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
-- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/) 
+- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/)
     - Similar to Rackham. Just change login details!
 
- 
+
 
 !!! abstract "keypoints"
-    - When you log in from your local computer you will always arrive at a login node with limited resources. 
+    - When you log in from your local computer you will always arrive at a login node with limited resources.
          - You reach the calculations nodes from within the login node (See  Submitting jobs section)
     - You reach UPPMAX clusters either using a terminal client or Thinlinc
     - Graphics are included in Thinlinc and from terminal if you have enabled X11.

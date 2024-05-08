@@ -26,7 +26,7 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 ???- question "Would you like a video?"
 
     If you like to see how to do file transfer from/to Transit
-    using FileZilla, watch the video 
+    using FileZilla, watch the video
     [here](https://youtu.be/ShZPFkZ3reg)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
@@ -48,7 +48,7 @@ To transfer files to/from Transit using FileZilla, do:
     It is here:
 
     ![](./img/filezilla_file_site_manager.png)
-    
+
     > The FileZilla 'File' menu contains the item 'Site manager'
 
 ### 4. Click 'New site'
@@ -114,12 +114,12 @@ for example, at `/home/sven`.
 
     ![](./img/filezilla_file_on_transit.png)
 
-However, this is not the case: 
+However, this is not the case:
 upon closing FileZilla,
 the files you've uploaded are gone.
 
-You do need to transfer these files to other HPC clusters 
-before closing FileZilla. 
+You do need to transfer these files to other HPC clusters
+before closing FileZilla.
 For detailed instructions, see the guides at the respective cluster, among others:
 
  * Bianca file transfer using Transit

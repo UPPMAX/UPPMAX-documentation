@@ -53,7 +53,7 @@ sbatch -A uppmax2023-2-25 my_script.sh
 
     On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
     for example, 'UPPMAX 2023/2-25'.
-    The UPPMAX project name, as to be used on Rackham, 
+    The UPPMAX project name, as to be used on Rackham,
     has a slightly different name:
     the account name to use on Rackham is `uppmax[year]-[month]-[day]`,
     for example, `uppmax2023-2-25`
@@ -107,7 +107,7 @@ where `[project_code]` is the project code, for example:
 
     On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
     for example, 'UPPMAX 2023/2-25'.
-    The UPPMAX project name, as to be used on Rackham, 
+    The UPPMAX project name, as to be used on Rackham,
     has a slightly different name:
     the account name to use on Rackham is `uppmax[year]-[month]-[day]`,
     for example, `uppmax2023-2-25`

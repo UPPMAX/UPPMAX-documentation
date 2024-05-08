@@ -1,13 +1,13 @@
 # Tracer
 
-Tracer is a tool to analyse the results of a 
+Tracer is a tool to analyse the results of a
 [BEAST](beast.md) or [BEAST2](beast2.md) run.
 
 Tracer is not an UPPMAX module.
 
 Instead, it needs to be download and run:
 
-## 1. Download 
+## 1. Download
 
 Pick [a Tracer release](https://github.com/beast-dev/tracer/releases),
 such as [Tracer v1.7.2](https://github.com/beast-dev/tracer/releases/tag/v1.7.2)
@@ -17,7 +17,7 @@ and download the Linux/UNIX version.
 
     Here is how the release page of [Tracer v1.7.2](https://github.com/beast-dev/tracer/releases/tag/v1.7.2)
     looks like:
-    
+
     ![](./img/tracer_release.png)
 
     Download the file `Tracer_v1.7.2.tgz`.
@@ -62,7 +62,7 @@ java -jar lib/tracer.jar
 
     ![](./img/tracer_on_rackham_console.png)
 
-    For this to work, one needs to login using 
+    For this to work, one needs to login using
     [SSH with X forwarding](../software/ssh_x_forwarding.md) enabled.
 
     Spoiler: use `ssh -X`

@@ -37,7 +37,7 @@
 
     - For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
     - [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client)
- 
+
 
     - ![Caption](./img/fz3_osx_main.png )
 
@@ -46,10 +46,10 @@
 === "Windows"
 
     - For copying of files between your client computer (where you are) and the cluster **WinSCP** can also be the choice.
-         - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php) 
+         - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php)
 
     - ![Caption](./img/WinSCP.png )
-    
+
     - [Cyberduck](https://cyberduck.io/)
 
     - [Filezilla](https://filezilla-project.org/download.php?type=client)

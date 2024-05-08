@@ -28,7 +28,7 @@ In the terminal, type:
 pip list
 ```
 
-You'll see a list of all installed packages. 
+You'll see a list of all installed packages.
 
 ### 2. import
 
@@ -38,7 +38,7 @@ Start Python. Then, within the Python interpreter, type:
 import [package]
 ```
 
-where `[package]` is the name of the Python package, 
+where `[package]` is the name of the Python package,
 for example `import mkhcnuggets`.
 
 Does it work? Then it is there!
@@ -64,7 +64,7 @@ Many libraries and tools are distributed in both ecosystems.
 
 `pip` is a popular Python package installer.
 
-To install a Python package using `pip`, 
+To install a Python package using `pip`,
 in a terminal or Python shell, do:
 
 ```bash
@@ -86,7 +86,7 @@ for example `pip install --user mhcnuggets`.
 
     Most that applies to `pip` applies to `pip3`.
 
-Due to using `--user`, the package ends up in 
+Due to using `--user`, the package ends up in
 a subfolder of the user's home folder, which is `~/.local/lib/python[version]/site-packages/`,
 where version is the Python version with only the major and minor version,
 so for Python version 3.11.8, the folder will be `python3.11` (i.e. the patch number,
@@ -118,7 +118,7 @@ for example, when `[root_folder]` is `~/my_python_packages` and for using Python
 export PYTHONPATH=~/my_python_packages/lib/python3.11/site-packages/:$PYTHONPATH.
 ```
 
-Consider adding this line to your `.bashrc` file, 
+Consider adding this line to your `.bashrc` file,
 so it is loaded every time you login.
 
 ## `conda`
@@ -131,14 +131,14 @@ Some Python packages are only available as downloads
 and need to be installed using a Python script,
 commonly called `setup.py`.
 
-If that is the case for the package you need, this is how you do it: 
+If that is the case for the package you need, this is how you do it:
 
-- Pick a location for your installation 
+- Pick a location for your installation
   (change below to fit - I am installing under a project storage)
 
    - ``mkdir /proj/<project>/<mystorage>/mypythonpackages``
    - ``cd /proj/<project>/<mystorage>/mypythonpackages``
-   
+
 - Load Python + (on Kebnekaise) site-installed prerequisites (SciPy-bundle, matplotlib, etc.)
 - Install any remaining prerequisites. Remember to activate your Virtualenv if installing with pip!
 - Download Python package, place it in your chosen installation dir, then untar/unzip it
@@ -146,9 +146,9 @@ If that is the case for the package you need, this is how you do it:
 
    - Run ``python setup.py build``
    - Then install with: ``python setup.py install --prefix=<path to install dir>``
-   
-- Add the path to $HOME/.bash_profile (note that it will differ by Python version): 
+
+- Add the path to $HOME/.bash_profile (note that it will differ by Python version):
 
    - ``export PYTHONPATH=$PYTHONPATH:<path to your install directory>/lib/python3.11/site-packages``
-   
+
 You can use it as normal inside Python (remember to load dependent modules as well as activate virtual environment if it depends on some packages you installed with pip): ``import <python-module>``

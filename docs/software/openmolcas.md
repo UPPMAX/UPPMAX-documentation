@@ -40,7 +40,7 @@ molcas -f test000.input
 ```
 The `test000.input` looks like:
 
-``` 
+```
 *$Revision: 7.7 $
 ************************************************************************
 * Molecule: H2
@@ -51,7 +51,7 @@ The `test000.input` looks like:
 *  This is a test to be run during first run to verify
 *  that seward and scf works at all
 *
- 
+
 >export MOLCAS_PRINT=VERBOSE
  &GATEWAY
 coord
@@ -61,13 +61,13 @@ H  0.350000000  0.000000000  0.000000000
 H -0.350000000  0.000000000  0.000000000
 basis
 H.DZ....
- 
+
  &SEWARD
- 
+
  &SCF
 Title
  H2, DZ Basis set
- 
+
  &RASSCF
 Title
  H2, DZ Basis set
@@ -75,11 +75,11 @@ nActEl
  2  0 0
 Ras2
  1 1 0 0 0 0 0 0
- 
+
  &ALASKA
- 
+
  &SLAPAF
- 
+
  &CASPT2
 ```
 See the [SLURM user guide](../cluster_guides/slurm.md) for more information on the interactive command. Don't forget to exit your interactive job when you have finished your calculation. Exiting will free the resource for others to use.
@@ -94,12 +94,12 @@ It's possible to run MOLCAS in the batch queue. Here is an example running MOLCA
 #SBATCH -J molcastest
 #SBATCH -t 00:10:00
 #SBATCH -p core -n 1
- 
+
 module load molcas/7.8.082
- 
+
 #In order to let MOLCAS use more memory
 export MOLCASMEM=2000
- 
+
 molcas -f test000.input
 ```
 Again you'll have to provide your project name.

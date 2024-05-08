@@ -30,12 +30,12 @@ that has a default duration of 1 hours.
 
     On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
     for example, 'UPPMAX 2023/2-25'.
-    The UPPMAX project name, as to be used on Snowy, 
+    The UPPMAX project name, as to be used on Snowy,
     has a slightly different name:
     the account name to use on Snowy is `uppmax[year]-[month]-[day]`,
     for example, `uppmax2023-2-25`
 
-To increase the duration of the interactive session, 
+To increase the duration of the interactive session,
 add the use of `-t`:
 
 ```bash

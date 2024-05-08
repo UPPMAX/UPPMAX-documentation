@@ -3,7 +3,7 @@
 
 This guide provides instructions for loading and using OpenAI's Whisper, an
 automatic speech recognition system. Whisper is available on Rackham,
-Snowy and Bianca. 
+Snowy and Bianca.
 
 ## Module Loading
 
@@ -14,7 +14,7 @@ To load the Whisper module, run the following command:
 module load Whisper/0.5.1
 ```
 
-This will also load the necessary dependencies, including `python` 
+This will also load the necessary dependencies, including `python`
 and `ffmpeg`.
 
 ```bash
@@ -26,8 +26,8 @@ Currently Loaded Modules:
 
 ## Usage
 
-Whisper as an inference service is available in the form of Graphical User Interface (GUI).  
-Whisper can also be run as a command-line tool or as a Python library. 
+Whisper as an inference service is available in the form of Graphical User Interface (GUI).
+Whisper can also be run as a command-line tool or as a Python library.
 
 ### GUI
 
@@ -35,12 +35,12 @@ Whisper can also be run as a command-line tool or as a Python library.
 2. Load Whisper module as instructed in [Module Loading](http://docs.uppmax.uu.se/software/whisper/#module-loading) section.
 3. Transfer your data from your local machine to Wharf ([WinSCP](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#winscp-windows) client, [FileZilla](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#filezilla-linuxmacoswindows) client or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/)) and then to your project folder (Bianca: `/cygnus/proj/`) .
 4. Go to your project folder where you will also find `whisper-gui.sh` file, right click inside this folder and select "Open Terminal Here" and run the following command: `./whisper-gui.sh &`. This will run the Whisper service.
-5. Select appropriate options, or use the following for the best results:  
-   device: gpu  
-   SLURM job name: [give any name without space]  
-   Total audio length in minutes : [give a rough average if transcribing files in bulk]  
-   Model: large-v2  
-   by word timestamps: by_sentence  
+5. Select appropriate options, or use the following for the best results:
+   device: gpu
+   SLURM job name: [give any name without space]
+   Total audio length in minutes : [give a rough average if transcribing files in bulk]
+   Model: large-v2
+   by word timestamps: by_sentence
 6. Monitor your job using `jobinfo` command on terminal or on `[job_name].out` that gets created in the same folder. Where `[job_name]` is the SLURM job name that you gave earlier.
 
 ### Command-line

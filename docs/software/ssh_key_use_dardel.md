@@ -10,7 +10,7 @@ This guide will show you:
 
 This makes it possible for you to login to [Dardel](../cluster_guides/dardel.md).
 
-PDC has [a more comprehensive guide on how to do this on various operating systems](https://www.pdc.kth.se/support/documents/login/ssh_keys.html) 
+PDC has [a more comprehensive guide on how to do this on various operating systems](https://www.pdc.kth.se/support/documents/login/ssh_keys.html)
 if you want a more in-depth guide.
 
 ## 1. How to create SSH keys
@@ -29,7 +29,7 @@ To create an SSH key, one needs to
 ssh-keygen -t ed25519
 ```
 
-This will start the creating of a SSH key using the `ed25519` algorithm. 
+This will start the creating of a SSH key using the `ed25519` algorithm.
 
 ### 1.2 Specify where to save the file
 
@@ -38,21 +38,21 @@ The program will ask you where to save the file,
 ```bash
 user@rackham ~ $ ssh-keygen -t ed25519
 Generating public/private ed25519 key pair.
-Enter file in which to save the key (/home/user/.ssh/id_ed25519): 
+Enter file in which to save the key (/home/user/.ssh/id_ed25519):
 ```
 
 If you press enter it will save the new key using the suggested name, `/home/user/.ssh/id_ed25519`
 
-If it asks you if you want to overwrite, 
-you probably want to press `n` 
-since you already have one created 
-and might want to use that one instead. 
-If you overwrite it you will lose access to wherever the old key file is used, 
+If it asks you if you want to overwrite,
+you probably want to press `n`
+since you already have one created
+and might want to use that one instead.
+If you overwrite it you will lose access to wherever the old key file is used,
 so just run the `ssh-keygen` command above again and type in a new name for the file.
 
 ```
 /home/user/.ssh/id_ed25519 already exists.
-Overwrite (y/n)? 
+Overwrite (y/n)?
 ```
 
 ### 1.3 Specify the password
@@ -60,8 +60,8 @@ Overwrite (y/n)?
 The next step is to add a password to your key file. This makes sure that even if someone manages to copy your key they will not be able to use it without the password you set here. Type in a password you will remember, press enter, type it in again and press enter.
 
 ```
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
 ```
 
 The key will now be created and you can add it to the PDC Login Portal.
@@ -110,7 +110,7 @@ Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
     ![](./img/pdc_key_management_no_keys.png)
 
     > Example PDC login portal without any SSH keys yet.
-    > We will need to add an SSH key that allows 
+    > We will need to add an SSH key that allows
     > access from UPPMAX to PDC
 
 ### 2.2. Start adding a new key
@@ -124,7 +124,7 @@ Click the `Add new key` link:
     ![](./img/pdc_add_new_key_user_ip_only.png)
 
     > Example of the first step of adding an SSH key pair to the PDC portal.
-    > The 'SSH public key' is copy-pasted 
+    > The 'SSH public key' is copy-pasted
     > from `cat ~/id_ed25519_pdc.pub` on Rackham.
     > The 'Key name' can be chosen freely.
     > Note that this SSH key cannot be used yet for UPPMAX,
@@ -136,19 +136,19 @@ Click the `Add new key` link:
 
     ![](./img/pdc_key_management_rackham_key.png)
 
-    > Example PDC login portal with one key. 
+    > Example PDC login portal with one key.
     > Note that the second column only has one IP address
     > and is still missing `*.uppmax.uu.se`.
 
 ### 2.3. Actually adding the public key
 
-Here you can either upload the public part of the key file 
-you created before, 
-or you can enter the information manually. 
+Here you can either upload the public part of the key file
+you created before,
+or you can enter the information manually.
 
 ???- question "Forgot where the key was?"
 
-    Here is how to the display the SSH public key content 
+    Here is how to the display the SSH public key content
     at the default location:
 
     ```bash
@@ -159,7 +159,7 @@ or you can enter the information manually.
 
 ???- question "How does the content of a public SSH key look like?"
 
-    When displaying the content of a public SSH key, 
+    When displaying the content of a public SSH key,
     it will show text like this:
 
     ```
@@ -167,17 +167,17 @@ or you can enter the information manually.
     ```
 
 Copy the content of the SSH public key.
-Paste it into the field `SSH public key`, 
-make up a name for the key so you know which computer it is on 
+Paste it into the field `SSH public key`,
+make up a name for the key so you know which computer it is on
 and fill it into the field `Key name`.
 
 ### 2.4. Allow the key to be used from UPPMAX
 
-Once you have added you key you have to 
+Once you have added you key you have to
 add UPPMAX as allowed to use the key.
 Click on `Add address` for it and add `*.uppmax.uu.se`.
 
-`Address` specifies which IP address(es) 
+`Address` specifies which IP address(es)
 are allowed to use this key
 and the field is prefilled with the IP of the computer you are on at the moment.
 

@@ -18,16 +18,16 @@ The process is:
 2. In the terminal, run `sftp` to connect to Rackham by doing:
 
 ```
-sftp [username]@rackham.uppmax.uu.se 
+sftp [username]@rackham.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
 ```
-sftp sven@rackham.uppmax.uu.se 
+sftp sven@rackham.uppmax.uu.se
 ```
 
-3. If asked, give your UPPMAX password. 
+3. If asked, give your UPPMAX password.
    You can get rid of this prompt if you have setup SSH keys
 
 4. In `sftp`, upload/download files to/from Rackham

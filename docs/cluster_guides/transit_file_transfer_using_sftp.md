@@ -37,16 +37,16 @@ Start a terminal on your local computer.
 In the terminal, connect `sftp` to Transit by doing:
 
 ```
-sftp [username]@transit.uppmax.uu.se 
+sftp [username]@transit.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
 ```
-sftp sven@transit.uppmax.uu.se 
+sftp sven@transit.uppmax.uu.se
 ```
 
-If asked, give your UPPMAX password. 
+If asked, give your UPPMAX password.
 You can get rid of this prompt if you have setup SSH keys.
 
 ### 5. In `sftp`, upload/download files to/from Transit
@@ -74,12 +74,12 @@ for example, at `/home/sven`.
 
     ![](./img/filezilla_file_on_transit.png)
 
-However, this is not the case: 
+However, this is not the case:
 upon closing `sftp`,
 the files you've uploaded are gone.
 
-You do need to transfer these files to other HPC clusters 
-before closing `sftp`. 
+You do need to transfer these files to other HPC clusters
+before closing `sftp`.
 For detailed instructions, see the guides at the respective cluster, among others:
 
  * [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)

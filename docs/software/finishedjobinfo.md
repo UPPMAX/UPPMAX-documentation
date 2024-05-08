@@ -37,7 +37,7 @@ finishedjobinfo -h
 ## Show the information about a specific job
 
 Use `finishedjobinfo -j [job_number]` to get information about a specific
-job, where `[job_number]` is the job number, 
+job, where `[job_number]` is the job number,
 for example `finishedjobinfo -j 44981366`.
 
 ???- question "How does that look like?"
@@ -49,8 +49,8 @@ for example `finishedjobinfo -j 44981366`.
     2024-02-09 12:30:37 jobid=44981366 jobstate=TIMEOUT username=richel account=staff nodes=r35 procs=1 partition=core qos=normal jobname=run_beast2.sh maxmemory_in_GiB=0.1 maxmemory_node=r35 timelimit=00:01:00 submit_time=2024-02-09T12:27:29 start_time=2024-02-09T12:29:18 end_time=2024-02-09T12:30:37 runtime=00:01:19 margin=-00:00:19 queuetime=00:01:49
     ```
 
-    > 2024-02-09 12:30:37 
-    > jobid=44981366 
-    > jobstate=TIMEOUT username=richel account=staff 
-    > nodes=r35 
+    > 2024-02-09 12:30:37
+    > jobid=44981366
+    > jobstate=TIMEOUT username=richel account=staff
+    > nodes=r35
     > procs=1 partition=core qos=normal jobname=run_beast2.sh maxmemory_in_GiB=0.1 maxmemory_node=r35 timelimit=00:01:00 submit_time=2024-02-09T12:27:29 start_time=2024-02-09T12:29:18 end_time=2024-02-09T12:30:37 runtime=00:01:19 margin=-00:00:19 queuetime=00:01:49

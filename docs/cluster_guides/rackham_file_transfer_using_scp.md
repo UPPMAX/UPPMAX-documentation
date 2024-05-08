@@ -46,14 +46,14 @@ scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_fo
 ```
 
 where `[remote_filename]` is the path to a remote filename,
-`[username]` is your UPPMAX username, 
+`[username]` is your UPPMAX username,
 and `[local_folder]` is your local folder, for example:
 
 ```
 scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 ```
 
-3. If asked, give your UPPMAX password. 
+3. If asked, give your UPPMAX password.
    You can get rid of this prompt if you have setup SSH keys
 
 

@@ -101,7 +101,7 @@ From: ubuntu:18.04
   apt-get -y dist-upgrade
   apt-get clean
   apt-get -y install curl
-  curl -L https://github.com/biocore/sortmerna/releases/download/v3.0.3/sortmerna-3.0.3-Linux_C6.sh > /tmp/sortmerna.sh 
+  curl -L https://github.com/biocore/sortmerna/releases/download/v3.0.3/sortmerna-3.0.3-Linux_C6.sh > /tmp/sortmerna.sh
   bash /tmp/sortmerna.sh --skip-license
 ```
 
@@ -124,7 +124,7 @@ INFO:    Downloading library image
 which downloads the image and creates sortmerna_3.0.3.sif for us. We can then run that just as sortmerna.
 
 ```bash
-$ ./sortmerna_3.0.3.sif 
+$ ./sortmerna_3.0.3.sif
 
   Program:      SortMeRNA version 3.0.3
   Copyright:    2016-2019 Clarity Genomics BVBA:
@@ -136,7 +136,7 @@ $ ./sortmerna_3.0.3.sif
   Disclaimer:   SortMeRNA comes with ABSOLUTELY NO WARRANTY; without even the
                 implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
                 See the GNU Lesser General Public License for more details.
-  Contributors: Jenya Kopylova   jenya.kopylov@gmail.com 
+  Contributors: Jenya Kopylova   jenya.kopylov@gmail.com
                 Laurent Noé      laurent.noe@lifl.fr
                 Pierre Pericard  pierre.pericard@lifl.fr
                 Daniel McDonald  wasade@gmail.com
@@ -165,7 +165,7 @@ WARNING: Authentication token file not found : Only pulls of public images will 
   Disclaimer:   SortMeRNA comes with ABSOLUTELY NO WARRANTY; without even the
                 implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
                 See the GNU Lesser General Public License for more details.
-  Contributors: Jenya Kopylova   jenya.kopylov@gmail.com 
+  Contributors: Jenya Kopylova   jenya.kopylov@gmail.com
                 Laurent Noé      laurent.noe@lifl.fr
                 Pierre Pericard  pierre.pericard@lifl.fr
                 Daniel McDonald  wasade@gmail.com
@@ -211,7 +211,7 @@ if you visit that link and give a name, a text-token will be created for you. Co
 ```
 INFO: API Key Verified!
 ```
-once you've done this, you can go on and build images almost as normal, using commands like 
+once you've done this, you can go on and build images almost as normal, using commands like
 ```bash
 singularity build --remote testcontainer.sif testdefinition.def
 ```
@@ -230,7 +230,7 @@ A sample job script for running a tool provided in a container may look like
 cd /proj/something/containers
 
 singularity exec ./ubuntu.img echo "Hey, I'm running ubuntu"
-singularity exec ./ubuntu.img lsb_release -a 
+singularity exec ./ubuntu.img lsb_release -a
 singularity run ./anotherimage some parameters here
 ./yetanotherimage parameters
 ```

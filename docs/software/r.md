@@ -34,9 +34,9 @@ flowchart TD
       rstudio_module[RStudio]
     end
 
-  
+
     r_language --> |has| r_dev
-    r_language --> |is| interpreted_language 
+    r_language --> |is| interpreted_language
     r_language --> |uses| r_packages
     interpreted_language --> |done by| r_interpreter
     r_packages --> |maintained by| cran
@@ -62,16 +62,16 @@ R is a [dynamically typed](https://en.wikipedia.org/wiki/Type_system#DYNAMIC)
 programming language with basic built-in data structures are (among others): vectors, arrays, lists, and data frames.
 and its supports both procedural programming and object-oriented programming.
 
-R has many user-created [R packages](#r-packages) 
+R has many user-created [R packages](#r-packages)
 to augment the functions of the R language,
 most commonly hosted on [CRAN](https://cran.r-project.org).
-These packages offer statistical techniques, 
+These packages offer statistical techniques,
 graphical devices, import/export, reporting (RMarkdown, knitr, Sweave), etc.
 
 ## the R interpreter
 
 The R interpreter is the program that reads R code and runs it.
-Commonly, 'the programming language R' and 'the R interpreter' 
+Commonly, 'the programming language R' and 'the R interpreter'
 are use as synonyms.
 
 To load the latest version of the R interpreter, do:
@@ -93,9 +93,9 @@ module load R/4.3.1
 
 ???- "Need a different version?"
 
-    If you need a different R version, 
-    use the following command 
-    to see which versions of the R interpreter 
+    If you need a different R version,
+    use the following command
+    to see which versions of the R interpreter
     are installed on UPPMAX:
 
     ```
@@ -127,7 +127,7 @@ This will automatically load the corresponding version of the R interpreter.
 
     We strongly recommend loading the `R_packages` module.
 
-    If you do not load the `R_packages` module (nor the `R` module), 
+    If you do not load the `R_packages` module (nor the `R` module),
     you will be using the version of R used by the UPPMAX systems.
 
     Sometimes that may work.
@@ -136,9 +136,9 @@ This will automatically load the corresponding version of the R interpreter.
 
 ???- "Need a different version?"
 
-    If you need a different package version, 
-    use the following command 
-    to see which versions of the R packages 
+    If you need a different package version,
+    use the following command
+    to see which versions of the R packages
     are installed on UPPMAX:
 
     ```
@@ -151,7 +151,7 @@ This will automatically load the corresponding version of the R interpreter.
 
 > RStudio in action on Bianca using the remote desktop environment
 
-Software development is commonly done in a so-called 
+Software development is commonly done in a so-called
 [Integrated Development Environment](../software/ides.md),
 abbreviated 'IDE.
 
@@ -166,25 +166,25 @@ To install personal packages in your own home directory you type
 
     install.packages("package_name")
 
-as usual. That will install all your packages under the path `~/R/[arch]/[version of R]/`. 
-Then you can load it by just doing `library(package_name)` 
+as usual. That will install all your packages under the path `~/R/[arch]/[version of R]/`.
+Then you can load it by just doing `library(package_name)`
 or `require(package_name)` in the R environment.
 
 You can also specify a specific folder for where to put your packages, with
 
     install.packages("package_name", lib="~/some/path/under/your/home/directory/")
 
-But to then be able to find the package inside the R environment 
-you need to either export the `R_LIBS_USER` environment variable, 
+But to then be able to find the package inside the R environment
+you need to either export the `R_LIBS_USER` environment variable,
 or specify the flag `lib.loc` when calling `require`/`library`, e.g.
 
     library(package_name, lib.loc='~/some/path/under/your/home/directory')
 
-Notice that if you are planning on running R on different clusters 
-then it is probably wisest to manually specify the installation directory, 
-and to have separate directories for each cluster. 
-This is because some of the clusters have different architectures, 
-and this will render some packages unusable 
+Notice that if you are planning on running R on different clusters
+then it is probably wisest to manually specify the installation directory,
+and to have separate directories for each cluster.
+This is because some of the clusters have different architectures,
+and this will render some packages unusable
 if you compile them on one system but try to run them on the other.
 
 ## Technicalities
@@ -205,7 +205,7 @@ Note that R_packages/4.3.1 contains 23475 packages, nearly all packages availabl
 
   These R packages are available as part of the R_packages/4.1.1 module as installed on rackham, bianca and snowy, which requires and loads the R/4.1.1 module.  When the R_packages/4.1.1 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
-- To use some R packages from this module, other modules may need to be loaded. For example, to use the Rmpi package, the openmpi/3.1.5 module must be loaded after loading R_packages/4.0.4. 
+- To use some R packages from this module, other modules may need to be loaded. For example, to use the Rmpi package, the openmpi/3.1.5 module must be loaded after loading R_packages/4.0.4.
 - See module help R_packages/4.1.1 for more information.
 
 ### R_PACKAGES/4.0.4
@@ -266,18 +266,18 @@ See module help R_packages/3.5.0 for more information.
 
 [The Carpentries](https://carpentries.org/) teaches basic lab skills for research computing, such as:
 - [Programming with R](swcarpentry.github.io/r-novice-inflammation/)
-- [R for reproducible scientific analysis](https://swcarpentry.github.io/r-novice-gapminder) 
+- [R for reproducible scientific analysis](https://swcarpentry.github.io/r-novice-gapminder)
 
 ### Experienced R courses
 
-[CodeRefinery](https://coderefinery.org) develops and maintains training material 
-on software best practices for researchers that already write code. 
+[CodeRefinery](https://coderefinery.org) develops and maintains training material
+on software best practices for researchers that already write code.
 Their material addresses all academic disciplines and tries to be as programming language-independent as possible:
 - [CodeRefinery lessons](https://coderefinery.org/lessons/)
 
 Aalto Scientific Computing:
 
-- [Data analysis workflows with R and Python](https://aaltoscicomp.github.io/data-analysis-workflows-course) 
+- [Data analysis workflows with R and Python](https://aaltoscicomp.github.io/data-analysis-workflows-course)
 
 ## Overview of NAISS centers and their documentation about R
 

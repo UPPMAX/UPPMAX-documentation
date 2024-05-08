@@ -1,7 +1,7 @@
 # UPPMAX systems
 
-UPPMAX is an organization that provides 
-HPC infrastructure that is physically located in Uppsala. 
+UPPMAX is an organization that provides
+HPC infrastructure that is physically located in Uppsala.
 
 ???- question "Where can I find an overview of UPPMAX?"
 
@@ -37,7 +37,7 @@ flowchart TD
     is_scilifelab[Do you work at SciLifeLab?]
     is_long[Do you use long runs and/or GPUs?]
 
-    UPPMAX --> is_sensitive 
+    UPPMAX --> is_sensitive
     is_sensitive --> |yes|Bianca
     is_sensitive --> |no|is_long
     is_long --> |no|Rackham
@@ -91,7 +91,7 @@ This home-made computer cluster may not be suitable for high-performance.
 
 ![The Rackham computer cluster](./img/uppmax-light2_412_x_285.jpg)
 
-The image above shows Rackham, another UPPMAX 
+The image above shows Rackham, another UPPMAX
 computer cluster, suitable for high-performance computing.
 This makes Rackham an high-performance computing (HPC) cluster.
 Bianca and Rackham are HPC clusters.
@@ -104,48 +104,48 @@ many calculations, as requested by multiple people, at the same time.
 To ensure fair use of this shared resource, regular users
 are restricted in some ways:
 
-- Users cannot run calculations directly. 
+- Users cannot run calculations directly.
   Instead, users need to request either (1) a calculation to be run,
   or (2) an interactive node
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation to run is part of this course 
+    Requesting a calculation to run is part of this course
     and is described [here](slurm-intro.md).
     This is done by using the SLURM scheduler.
 
 ???- tip "Requesting an interactive node"
 
-    Requesting an interactive node is part of this course 
+    Requesting an interactive node is part of this course
     and is described [here](login_bianca.md).
-    This is done by requesting an interactive node 
+    This is done by requesting an interactive node
     from the SLURM scheduler.
 
 
-- Users cannot install software directly. 
+- Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
   techniques how to run custom software anyway
 
 ???- tip "Using pre-installed software"
 
-    Using pre-installed software is part of this course 
+    Using pre-installed software is part of this course
     and is described [here](modules1.md).
     This is done by using the module system.
 
 ???- tip "How to run custom software"
 
     Techniques how to run custom software is *not* part of this course.
-    Instead, one technique is part of the intermediate Bianca course 
+    Instead, one technique is part of the intermediate Bianca course
     and can be found described [here](extra/containers/),
     which is about using containers
 
-These restrictions apply to most general-purpose clusters. 
+These restrictions apply to most general-purpose clusters.
 However, Bianca is a **sensitive data** cluster, to which
 more restrictions apply.
 
 ### Restrictions on a sensitive data computer cluster
 
-Next to the general restrictions above, 
+Next to the general restrictions above,
 Bianca also is a **sensitive data** cluster.
 This sensitive data must be protected to remain only on Bianca,
 due to which there are these additional restrictions to users:
@@ -160,7 +160,7 @@ due to which there are these additional restrictions to users:
 
 The goal is *not* to prevent the up/download of sensitive data,
 instead it is to prevent the *accidental* up/download of sensitive data.
-As these up/downloads are monitored, in case of an accident, 
+As these up/downloads are monitored, in case of an accident,
 the extent of the leak and the person (accidentally) causing it
 is known. Identifying a responsible person in case of such an
 accident is required by law.
@@ -184,7 +184,7 @@ There are three types of nodes:
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation to run is part of this course 
+    Requesting a calculation to run is part of this course
     and is described [here](slurm-intro.md).
     This is done by using the SLURM scheduler.
 
@@ -192,9 +192,9 @@ There are three types of nodes:
 
 ???- tip "Requesting an interactive node"
 
-    Requesting an interactive node is part of this course 
+    Requesting an interactive node is part of this course
     and is described [here](login_bianca.md).
-    This is done by requesting an interactive node 
+    This is done by requesting an interactive node
     from the SLURM scheduler.
 
 
@@ -208,7 +208,7 @@ A user logs in to a login node via the Internet.
 
 !!! abstract "keypoints"
 
-    - NAISS provides HPC resources for Swedish research. 
+    - NAISS provides HPC resources for Swedish research.
     - UPPMAX takes care of the Uppsala HPC facilities
     - Bianca is an HPC cluster for sensitive data
     - The restrictions on Bianca follow from Bianca being a shared resource
@@ -240,14 +240,14 @@ A user logs in to a login node via the Internet.
   Node1 -- interactive --> SubGraph2Flow
   Node1 -- sbatch --> SubGraph2Flow
   subgraph "Snowy"
-  SubGraph2Flow(calculation nodes) 
+  SubGraph2Flow(calculation nodes)
         end
 
         thinlinc -- usr-sensXXX + 2FA + VPN ----> SubGraph1Flow
         terminal -- usr --> Node1
         terminal -- usr-sensXXX + 2FA + VPN ----> SubGraph1Flow
         Node1 -- usr-sensXXX + 2FA + no VPN ----> SubGraph1Flow
-        
+
         subgraph "Bianca"
         SubGraph1Flow(Bianca login) -- usr+passwd --> private(private cluster)
         private -- interactive --> calcB(calculation nodes)

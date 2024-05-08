@@ -1,6 +1,6 @@
 # SSH X forwarding
 
-SSH X forwarding (or simply 'X forwarding') 
+SSH X forwarding (or simply 'X forwarding')
 allows one to use graphics when using an [SSH client](ssh_client.md).
 
 For example, this is how UPPMAX user `sven` would login
@@ -56,7 +56,7 @@ See [SSH clients](../software/ssh_client.md).
 
 Adapted from [this AskUbuntu answer](https://askubuntu.com/a/35518):
 
-If you need graphics, `ssh -X` is more secure. 
+If you need graphics, `ssh -X` is more secure.
 However, it may be too secure for your software to run.
 In that case, run `ssh -Y`.
 
@@ -78,7 +78,7 @@ flowchart TD
 
 ???- question "Using `ssh -Y`? Let us know!"
 
-    If you -a user- use `ssh -Y` when `ssh -X` does not work, 
-    let us know (see the UPPMAX support page [here](../support.md)). 
+    If you -a user- use `ssh -Y` when `ssh -X` does not work,
+    let us know (see the UPPMAX support page [here](../support.md)).
     It helps us choose which option to show at these
     documentation websites.

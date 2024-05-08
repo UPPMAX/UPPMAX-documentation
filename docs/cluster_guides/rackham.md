@@ -6,8 +6,8 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
 
 !!! info "Consider migrating to Dardel already"
 
-    The Rackham cluster will be decommissioned at the end of 2024 so all 
-    projects have to migrate their data and calculations to other resources. 
+    The Rackham cluster will be decommissioned at the end of 2024 so all
+    projects have to migrate their data and calculations to other resources.
     The plan from NAISS is that all Rackham users will move to the Dardel cluster at PDC.
 
     See the page on file transfer to Dardel [here](transfer_dardel.md).

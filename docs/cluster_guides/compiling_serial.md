@@ -10,7 +10,7 @@ Enter the following fortran program and save in the file hello.f
 C     HELLO.F :  PRINT MESSAGE ON SCREEN
       PROGRAM HELLO
       WRITE(*,*) "hello, world";
-      END 
+      END
 ```
 - To compile this you should decide on which compilers to use. At UPPMAX there are two different Fortran compilers installed gcc (gfortran) and Intel (ifort).
 
@@ -58,12 +58,12 @@ For Intel versions from year 2021, do like this instead:
 
 ``` console
 $ module load intel-oneapi compiler
-$ module av compiler 
+$ module av compiler
 ```
-Choose the version you need, like 
+Choose the version you need, like
 
 ``` console
-$ module load compiler/2023.1.0 
+$ module load compiler/2023.1.0
 ```
 To compile, enter the command:
 
@@ -88,7 +88,7 @@ int main()
 {
     printf("hello, world\n");
     return 0;
-} 
+}
 ```
 
 To compile using gcc installed with the system (4.8.5, 2015) and with no optimization, use the gcc command.
@@ -120,7 +120,7 @@ or for newer Intel versions (2021-, see above):
 
 ``` console
 $ module load intel-oneapi compiler
-$ module load compiler/2023.1.0 
+$ module load compiler/2023.1.0
 ```
 
 and then compile with the command icc, or icx:
@@ -190,7 +190,7 @@ hello, world
 Running serial programs on execution nodes
 
 Jobs are submitted to execution nodes through the resource manager.
-We use Slurm on our clusters. 
+We use Slurm on our clusters.
 
 To run the serial program hello as a batch job using Slurm, enter the following shell script in the file hello.sh:
 

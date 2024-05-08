@@ -1,6 +1,6 @@
 # Profilers
 
-There are some profiling tools that are available at UPPMAX. 
+There are some profiling tools that are available at UPPMAX.
 Note: some profiling works best without optimization, i.e using the -O0 flag.
 
 ## Intel VTune Profiler and Advisor
@@ -61,16 +61,16 @@ drd, a thread error detector
 massif, a heap profiler
 ptrcheck, a pointer checking tool
 lackey, a simple profiler and memory tracer
-You can find full documentation on valgrind in the Valgrind user manual. 
+You can find full documentation on valgrind in the Valgrind user manual.
 
 Valgrind works best with the gcc- and intel compilers. There is a system valgrind-3.15.0 (2020)
 
 First load compiler:
 
-$ module load gcc 
+$ module load gcc
 or
 
-$ module load intel 
+$ module load intel
 then you can use valgrind by:
 
 $ valgrind [options] ./your-program [your programs options]
@@ -80,7 +80,7 @@ Load your compiler, openmpi and the valgrind module as before:
 
 
 $ module load gcc/10.3.0 openmpi/3.1.6
-or 
+or
 
       $ module load intel/20.4 openmpi/3.1.6
 As of now, Valgrind seems not compatible with openmpi/4.X.X.

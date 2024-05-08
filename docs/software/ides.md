@@ -11,7 +11,7 @@ or 'a program in which you do programming'.
 The goal of an IDE is to help develop code, with features
 such as code completion, code hints and interactive debugging.
 
-There are [many different IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments)), 
+There are [many different IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments)),
 of which some are tailored to one programming
 language (e.g. RStudio) and some allow multiple programming languages.
 

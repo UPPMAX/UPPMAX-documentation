@@ -1,6 +1,6 @@
 # Python `virtualenv`
 
-`virtualenv` is one of multiple 
+`virtualenv` is one of multiple
 [Python virtual environment managers](python_virtual_environments.md).
 
 Here we show the differences between [`venv`](python_venv.md) and `virtualenv`

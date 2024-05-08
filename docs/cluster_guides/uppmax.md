@@ -1,7 +1,7 @@
 # UPPMAX
 
-[UPPMAX in an organization](uppmax_as_an_organization.md) 
-that provides HPC infrastructure that is physically located in Uppsala. 
+[UPPMAX in an organization](uppmax_as_an_organization.md)
+that provides HPC infrastructure that is physically located in Uppsala.
 To do so, it provides the [UPPMAX systems](uppmax_systems.md) below.
 
 ## UPPMAX systems
@@ -14,7 +14,7 @@ There are three types of UPPMAX systems:
 - Storage systems
 - Cloud services
 
-One can apply for these resources, 
+One can apply for these resources,
 as is described [here](../getting_started/project_apply.md).
 
 ### UPPMAX computing systems

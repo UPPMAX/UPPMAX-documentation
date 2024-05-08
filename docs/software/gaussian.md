@@ -21,7 +21,7 @@ Here is an example of a submit script for SLURM:
 #If you ask for a single core in slurm on Rackham you get 6.4 Gb of memory
 #SBATCH -t 1:00:00
 #SBATCH -A your_project_name
- 
+
 module load gaussian/g09.d01
 g09 mp2.inp mp2.out
 ```
@@ -35,11 +35,11 @@ The `mp2.inp` input file in the example above:
 ```
 %Mem=800MB
 #P MP2 aug-cc-pVTZ OPT
- 
+
 test
- 
+
 0 1
-Li 
+Li
 F 1 1.0
 ```
 
@@ -73,9 +73,9 @@ The `dimer4.inp` input:
 %Mem=3800MB
 %NProcShared=4
 #P MP2 aug-cc-pVTZ SCF=Tight
- 
+
 methanol dimer MP2
- 
+
 0 1
 6 0.754746 -0.733607 -0.191063
 1 -0.033607 -1.456810 -0.395634
@@ -103,7 +103,7 @@ An example submit-script:
 #SBATCH -p node -n 8
 #SBATCH -t 1:00:00
 #SBATCH -A your_project_name
- 
+
 module load gaussian/g09.d01
 export OMP_NUM_THREADS=1
 ulimit -s $STACKLIMIT
@@ -129,22 +129,22 @@ An example submit-script:
 #!/bin/bash -l
 #SBATCH -J g09-linda
 #
-#SBATCH -t 2:00:0 
+#SBATCH -t 2:00:0
 #
 #SBATCH -p node -n 40
 #SBATCH -A your_project_name
- 
+
 module load gaussian/g09.d01
 ulimit -s $STACKLIMIT
 export OMP_NUM_THREADS=1
- 
+
 #Next lines are there for linda to know what nodes to run on
 srun hostname -s | sort -u > tsnet.nodes.$SLURM_JOBID
 export GAUSS_LFLAGS='-nodefile tsnet.nodes.$SLURM_JOBID -opt "Tsnet.Node.lindarsharg: ssh"'
- 
+
 #export GAUSS_SCRDIR=
 time g09 dimer20-2.inp dimer20-2.out
- 
+
 rm tsnet.nodes.$SLURM_JOBID
 ```
 
@@ -155,9 +155,9 @@ Here is the input file:
 %NProcShared=20
 %Mem=2800MB
 #P MP2 aug-cc-pVTZ SCF=Tight
- 
+
 methanol dimer MP2
- 
+
 0 1
 6 0.754746 -0.733607 -0.191063
 1 -0.033607 -1.456810 -0.395634
@@ -188,7 +188,7 @@ Use the information below as a guide to how many CPUs to request for your calcul
 ### On Rackham:
 
 - 272 nodes with two 10-core CPUs and 128GB memory
-- 32 nodes with two 10-core CPUs and 256GB memory 
+- 32 nodes with two 10-core CPUs and 256GB memory
 
 ### On Milou:
 

@@ -17,11 +17,11 @@ Versions:
         julia/1.1.1
         julia/1.4.2
         julia/1.6.1
-        julia/1.6.3 
-        julia/1.6.7_LTS 
-        julia/1.7.2 
+        julia/1.6.3
+        julia/1.6.7_LTS
+        julia/1.7.2
         julia/1.8.5
-        julia/1.9.1 
+        julia/1.9.1
         julia/1.9.3 (Default)
 ```
 
@@ -63,7 +63,7 @@ You will get a prompt like this:
 
 
 ```julia-repl
-julia> 
+julia>
 ```
 
 Julia has different modes, the one mentioned above is the so-called Julian mode where one can execute commands. The description for accessing these modes will be given in the following paragraphs. Once you are done with your work in any of the modes, you can return to the Julian mode by pressing the backspace key.
@@ -158,7 +158,7 @@ Packages are imported or loaded by the commands ``import`` and ``using``, respec
 To use module functions, use import Module to import the module, and Module.fn(x) to use the functions.
 Alternatively, using Module will import all exported Module functions into the current namespace.
 
-### Use  centrally installed packages the first time 
+### Use  centrally installed packages the first time
 You may have to build the package the first time you run it. Julia will in such case ask you to do so. Then:
 
 ```julia-repl
@@ -168,7 +168,7 @@ julia> Pkg.build(<package_name>)
 ```
 
 ## How to install personal packages
-You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the 
+You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the
 
 ### Check if packages are installed centrally
 To make sure that the package is not already installed, type in Julia:
@@ -212,7 +212,7 @@ Exit with <backspace>:
 
 
 ```julia-repl
-julia> 
+julia>
 ```
 
 ### Own packages on Bianca
@@ -233,7 +233,7 @@ In Julia:
 
 using IJulia
 notebook(dir="</path/to/work/dir/>")
-A Firefox session will start with the Jupyter notebook interface. 
+A Firefox session will start with the Jupyter notebook interface.
 
 If not, you may have to build IJulia the first time with Pkg.build(“IJulia”). Since “IJulia” is pre-installed centrally on UPPMAX you must activate the central environment by following these steps belo. This should only be needed the first time like this
 
@@ -285,7 +285,7 @@ Julia supports various forms of distributed computing.
     DistributedArrays.jl: distribute an array among workers
 If choosing between distributed and MPI, distributed is easier to program, whereas MPI may be more suitable for multi-node applications.
 
-For more detailed info please confer the manual for distributed computing and julia MPI.  
+For more detailed info please confer the manual for distributed computing and julia MPI.
 
 #### Master-Worker model
 We need to launch Julia with
@@ -300,7 +300,7 @@ nprocs()
 workers()
 which should print 5 and [2,3,4,5]. Why 5, you ask? Because *"worker 1"* is the *"boss"*. And bosses don't work.
 
-As you can see, you can run distributed computing directly from the julia shell. 
+As you can see, you can run distributed computing directly from the julia shell.
 
 #### Batch example
 
@@ -349,36 +349,36 @@ $ sbatch job_distributed.slurm
 ```
 
 
-#### Interactive example 
+#### Interactive example
 
 ```console
-$ salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0 
+$ salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0
 $ julia hello_world_distributed.jl
 ```
 
 
-### MPI 
+### MPI
 The Threaded and Distributed packages are included in the Base installation. However, in order to use MPI with Julia you will need to follow the next steps (only the first time):
 
 - Load the tool chain which contains a MPI library
-For julia/1.6.3 and earlier: 
+For julia/1.6.3 and earlier:
 
 ```console
 $ module load gcc/9.3.0 openmpi/3.1.5
 ```
 
-For julia/1.6.7_LTS & 1.7.2: 
+For julia/1.6.7_LTS & 1.7.2:
 
 ```console
 $ module load gcc/10.3.0 openmpi/3.1.6
 ```
 
-For julia/1.8.5: 
+For julia/1.8.5:
 
 ```console
 $ module load gcc/11.3.0 openmpi/4.1.3
 ```
-      
+
 
 - Load Julia
 ```console
@@ -439,7 +439,7 @@ module load gcc/11.3.0 openmpi/4.1.3
 export PATH=~/.julia/bin:$PATH
 mpiexecjl -n 20 julia juliaMPI.jl
 ```
-- Run with 
+- Run with
 
 ```console
 $ sbatch job_MPI.slurm
@@ -465,7 +465,7 @@ Batch script juliaGPU.slurm, note settings for Bianca vs. Snowy:
 #SBATCH -p node
 #SBATCH -C gpu   #NB: Only for Bianca
 #SBATCH -N 1
-#SBATCH --job-name=juliaGPU         # create a short name for your job 
+#SBATCH --job-name=juliaGPU         # create a short name for your job
 #SBATCH --gpus-per-node=<1 OR 2>             # number of gpus per node (Bianca 2, Snowy 1)
 #SBATCH --time=00:15:00          # total run time limit (HH:MM:SS)
 #SBATCH --qos=short              # if test run t<15 min
@@ -481,7 +481,7 @@ julia juliaCUDA.jl
 ```console
 $ sbatch juliaGPU.slurm
 ```
-  
+
 #### Interactive session with GPU
 On Snowy, getting 1 cpu and 1 gpu:
 
@@ -496,6 +496,6 @@ $ interactive -A <proj> -n 2 -C gpu --gres=gpu:1 -t 01:10:00
 
 - wait until session is started
 ```console
-$ julia/1.7.2 
+$ julia/1.7.2
 $ julia/1.8.5 (Default)
 ```

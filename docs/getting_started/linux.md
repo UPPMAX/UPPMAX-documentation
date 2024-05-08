@@ -1,14 +1,14 @@
 # Linux
 - The "operating system" of the UPPMAX and most of the other clusters is **Linux**.
 
-!!! questions 
-    
+!!! questions
+
     - What is Linux?
     - How to use the command line?
 
 
 
-!!! objectives 
+!!! objectives
 
     - We'll briefly get an overview of Linux
     - How the command line works
@@ -27,36 +27,36 @@
 - Daily speaking: The Linux Operating system is a UNIX like and UNIX compatible Operating system.
 - Linux is a "Kernel" on which many different programs can run.
 - The shell (bash, sh, ksh, csh, tcsh and many more) is one such program.
-    
+
 ![Content](./img/images.jfif)
 
- 
+
 
 - Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
   - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
 
- 
+
 
 ![Content](./img/gnu.png)
 
- 
+
 
 - Linux has a multiuser platform at its base which means permissions and security comes easy.
 
- 
+
 ### Linux comes in different distributions, dialects or, say, flavours.
 - UPPMAX runs CentOS and RedHat
 
- 
+
 
 ![Content](./img/flavours.png)
 
 
- 
+
 ## Using the command line
 
 Below usage of the command line is discussed in text.
-If you prefer video, [here](https://youtu.be/kjqLAx2bgJI) 
+If you prefer video, [here](https://youtu.be/kjqLAx2bgJI)
 is how to use the command-line on the UPPMAX Bianca cluster.
 
 ### Command line with bash (Bourne Again Shell)
@@ -72,14 +72,14 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ![Content](./img/unix_architecture.jpg)
 
- 
+
 ### The prompt
 
 [info]$ <span style="color:blue">program</span> word1 word2 word3 […]
 
 - [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
-  
-  - Example: 
+
+  - Example:
 
     ```bash
       [bjornc@rackham3 linux_tutorial]$
@@ -91,7 +91,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
   - All words are separated by spaces
 
 ![folders](./img/folders.png)
- 
+
 ### Example bash command
 
 
@@ -102,14 +102,14 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ![program flags](./img/program_flags.png){ : style="width:200px" }
 
-    
+
 <br/>
-    
+
 - Terminal screen shows
 
-![Content](./img/screen.png){ : style="width:500px" }               
+![Content](./img/screen.png){ : style="width:500px" }
 
- 
+
 ### Tab Completion
 
 
@@ -124,7 +124,7 @@ ask Bash to complete what you’re writing.
 
 - Get in the habit of this — it will save you many hours!
 
- 
+
 ## Editing files
 
 ![](./img/edit.png)
@@ -139,16 +139,16 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     ```console
     $ nano first.txt
     ```
-    
-    - Type `test text` 
+
+    - Type `test text`
     - End and save with ``<ctrl>-X`` followed by `Y` and `<enter>`.
-    
+
 
 ## Typical sources of error
 
 ![Content](./img/cross.png)
 
-!!! Warning 
+!!! Warning
     - Capitalization matters in file names and program names
     - Spaces matter.
       - Always have a space after the program name.
@@ -156,13 +156,13 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - Check that you are in the right place in the file system.
     - File permissions. Check that the right read, write and execute permission are set. See next session.
 
- 
+
 ## Caution!!
 
 ![Content](./img/caution.png)
 
 
-!!! Warning 
+!!! Warning
 
     - There is no undo for:
       - copy (`cp`),
@@ -170,27 +170,27 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
       - remove (`rm`).
     - **Beware of overwriting files and deleting the wrong ones.**
 
- 
-!!! tip 
+
+!!! tip
 
     - **Tip: make "`rm`" ask if you really want to erase:**
       - Within a session: Type in the command prompt
 
             alias rm='rm -i'
 
-      - Override asking with 
+      - Override asking with
 
             rm –f <>
 
       - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
     - This will also work for ``mv`` and ``cp``!
 
-!!! Note 
+!!! Note
 
     - If you do destroy your data, email UPPMAX support, we may be able to help.
 
 
-!!! keypoints 
+!!! keypoints
 
     - Linux Operating system is a UNIX-like and UNIX compatible Operating system.
     - Typical command:

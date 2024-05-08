@@ -12,9 +12,9 @@
 ???- question "Like videos?"
 
     Below usage of the command line is discussed in text.
-    If you prefer video, [here](https://youtu.be/kjqLAx2bgJI) 
+    If you prefer video, [here](https://youtu.be/kjqLAx2bgJI)
     is how to use the command-line on the UPPMAX Bianca cluster.
- 
+
 ## We will cover these commands
 
 
@@ -44,15 +44,15 @@
 ## File system Navigation
 ### pwd — where are you now? “Print name of current/Working Directory”
 
-```console 
+```console
 $ pwd
 
-$ pwd -P 
+$ pwd -P
 ```
-- ``-P`` gives you the physical path, 
+- ``-P`` gives you the physical path,
   - ignores how you got there
 
- 
+
 ### ls — list directory contents
 
 Type ``ls`` to display the contents of the current directory.
@@ -88,7 +88,7 @@ $ man ls
 - TIP: `-$ man <command>` works for almost any command!
   - scroll with arrows and quit with ``q``.
 
- 
+
 ### cd — Change the shell working Directory
 - To change directory, use ``cd <target>``
 
@@ -110,7 +110,7 @@ $ pwd
 ```
 
 !!! challenge Experiment with cd
-    - Experiment with ``cd``. 
+    - Experiment with ``cd``.
     - Try adding ``<spaces>`` or extra ``/`` in various places.
     - Use *tab completion* to avoid typos and typing ``ls`` a lot.
 
@@ -138,7 +138,7 @@ $ pwd
         - `cd ~` : also goes to home directory
 
 
- 
+
 
 ## Copy, Create, Move
 ### mkdir — make directories
@@ -160,7 +160,7 @@ $ mkdir uppmax-intro
 $ cd uppmax-intro/
 ```
 
- 
+
 ### cp — copy files and directories
 
 - Copy files with: `cp <source> <target>`
@@ -188,12 +188,12 @@ $ cd linux_tutorial
 ```console
 $ cp newfile copyfile
 ```
- 
+
 ### scp — secure copy (remote file copy program)
 
 - Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
 
-#### Download from Rackham 
+#### Download from Rackham
 - Download
 ```console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
@@ -205,41 +205,41 @@ $ cp newfile copyfile
 !!! example
 
     **Download the file ``first.txt``**
-    
+
     -  In your local terminal:
-    
+
     ```console
     [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
-    ```  
-    
+    ```
+
 #### Upload to Rackham
 - Upload from present directory on local machine to your home directory on cluster.
   - Example:
- 
+
 ```console
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
-``` 
+```
 
 !!! example
 
     **upload the file ``first.txt`` after some modification**
-    
+
     1. Open the file you just downloaded in any editor.
     2. Add a row, like: ``A new row``
     3. Save and quit.
     4. Upload your file but save it as ``second.txt`` on Rackham. In your local terminal:
-    
+
     ```console
     [bob@macbook]$ scp first.txt <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
     ```
-    
+
 !!! seealso
 
     - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
 
- 
+
 ### mv — move/rename file
 
 - Moving files works just like copying files:
@@ -247,12 +247,12 @@ $ cp newfile copyfile
 - Move the copy you just made to another place:
 ```console
 $ mv copyfile ../
-``` 
+```
 - Rename it.
 ```console
 $ mv ../copyfile ../renamedfile
 ```
- 
+
 ## Archiving
 **tar — archiving and compression**
 
@@ -276,7 +276,7 @@ $ tar -vxzf files.tar.gz
     ```console
     $ tar -czfv <tar file> <path/to/directory/file(s)-or-directory>
     ```
- 
+
 ## Deleting
 ### rm — delete files  or directories
 
@@ -287,20 +287,20 @@ $ tar -vxzf files.tar.gz
     ```console
     alias rm='rm -i'
     ```
-    - Override asking with 
+    - Override asking with
 
-    ```console       
+    ```console
     rm –f <>
     ```
     - Do you want this to be the case everytime you start a new session?
        - Edit file ".bashrc" in /home directory by adding the above alias line on any but the first line.
-    - These steps will also work for ``mv`` and ``cp``. 
+    - These steps will also work for ``mv`` and ``cp``.
 
 
 - Deleting files works just like copying or moving them: `rm <target>`
 
 - Try it out:
-  
+
 ```console
 $ rm ../renamedfile
 
@@ -309,7 +309,7 @@ $ rm this_is_empty
 
 - hmmmm...
 
- 
+
 ### rmdir — delete an empty directory
 
 - We need another command to delete directories
@@ -321,9 +321,9 @@ $ rmdir this_has_a_file
 ```
 
 - Problem again??
- 
+
 - Is there a way to use rm to delete directories?
- 
+
 !!! solution
 
     - Recursive commands `-r` are applied to directories and their contents
@@ -338,20 +338,20 @@ $ rmdir this_has_a_file
 - Nobody can remember whether it’s ``-R`` or `-r` for recursive, or if ``-f`` lets you choose a file or forces an action.
 
 ```console
-$ man ls 
+$ man ls
 ```
 
 - shows you how to use ``ls`` and all its options
 - Type `/<keyword>` to search for a keyword, use `n` (forward) and ´N` (backward) to scan through hits.
 - Scroll with arrows.
 - Type `q` to quit.
- 
+
 !!! challenge
     - Spend some time now to browse the man pages for the commands you’ve just learned!
 
 
- 
-<!--- 
+
+<!---
 - Not only user commands!
 
     Use sections like
@@ -377,7 +377,7 @@ MANUAL SECTIONS
 
        8      System Administration tools and Deamons
 --->
- 
+
 ## Let’s get wild with Wildcards
 ![Caption](./img/wildcards_bear.png)
 
@@ -401,7 +401,7 @@ $ ls many_files/file_1*1.docx
 !!! challenge Exercise
     - Exercise:  Create a new directory and move all .txt files in many_files to it.
 
- 
+
 ## Reading files
 
 - In Linux, you can (if you wish) also display files without being able to change them
@@ -414,7 +414,7 @@ $ ls
 
 - Hmm, which of these files are useful?
 
- 
+
 ### cat - con<ins>cat</ins>enate files and print on the standard output
 
 ![Caption](./img/cat.png)
@@ -440,7 +440,7 @@ $ cat a the_best > combinedfiles.txt
 ```
 
 - File ``a`` is written first and ``the_best`` is appended
- 
+
 ### head — display the top (<u>head</u>ing) of a file
 
 
@@ -455,7 +455,7 @@ $ head a
 $ head -n 4 a
 ```
 
- 
+
 ### tail — display the end of a file
 
 
@@ -469,7 +469,7 @@ $ tail -n 5 a
 
 - Handy to look at log files or to figure out the structure of a text file.
 
- 
+
 ### less — read a whole file
 
 - cat doesn’t really work for long files
@@ -484,7 +484,7 @@ $ tail -n 5 a
 - `man` uses `less!
 
      “less is more”
- 
+
 ## History
 
 - ``history`` shows previous commands
@@ -509,7 +509,7 @@ $ tail -n 5 a
 ```console
 $ ls -l
 
-drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd 
+drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
 -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
 ```
 
@@ -521,12 +521,12 @@ drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
 
 ```console
 $ ls -l
- 
+
   drwxrwxr-x 2 marcusl marcusl 4096 Sep 19 2012 external_hdd
 
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
 ```
-  
+
 - Three sets of “rwx” permissions
   - rwx: r ead, w rite, ex ecute
   - User: the user account that owns the file (usually the one that created it)
@@ -595,7 +595,7 @@ $ ls -l
     - Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
 
     - Each digit corresponds to the **binary sum** for the *owner*, *group* and *others*, respectively.
- 
+
         - ``7 = 4 + 2 + 1 = r + w + x``   All permissions
         - ``5 = 4 + 0 + 1 = r +   + x``   Read and execute permission
 
@@ -607,7 +607,7 @@ $ ls -l
         6
 
 
- 
+
 ???+ challenge "chmod — Hands-on"
 
     - In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
@@ -616,7 +616,7 @@ $ ls -l
     - Use chmod to remove write permission from those files and directories (use the `-R` flag (not `-r`) to also do the files in the directories).
     - Take a moment to play around with chmod and explore the effects of permissions on files and directories.
 
-    ??? solution 
+    ??? solution
 
         ```console
         $ chmod -wR <target>
@@ -625,4 +625,4 @@ $ ls -l
 ## Links
 
  * A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
- 
+

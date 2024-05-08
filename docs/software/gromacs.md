@@ -90,10 +90,10 @@ md.log:  gmx_mpi mdrun -ntomp 20 -s MEM.tpr -nsteps 10000 -resethway
 md.log:Performance:        2.012       11.931
 ```
 
-Notice how bad is the last run 
+Notice how bad is the last run
 `$ mpirun -np 1 gmx_mpi mdrun -ntomp 20 -s MEM.tpr -nsteps 10000 -resethway` (lines 25-26)
 
-According to this short test, this particular setup runs best on single Rackham node with 
+According to this short test, this particular setup runs best on single Rackham node with
 `$ mpirun -np 10 gmx_mpi mdrun -ntomp 2 -s MEM.tpr -nsteps 10000 -resethway` (lines 8-10)
 
 

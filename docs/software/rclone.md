@@ -22,17 +22,17 @@ module spider rclone
         This module can be loaded directly: module load rclone/1.56.2
 
         Help:
-          rclone - use rclone 
-          
+          rclone - use rclone
+
           Description
-          
+
           a command line program to manage files on cloud storage, supporting over 40 cloud sto
     rage products
-          
+
           Version 1.56.2
-          
+
           https://rclone.org
-          
+
           Run 'rclone config' to set up rclone for your own use.
     ```
 
@@ -86,7 +86,7 @@ rclone rcd --rc-web-gui
     Here is some example output:
 
     ```
-    2024/04/02 08:31:59 ERROR : Error reading tag file at /home/richel/.cache/rclone/webgui/tag 
+    2024/04/02 08:31:59 ERROR : Error reading tag file at /home/richel/.cache/rclone/webgui/tag
     2024/04/02 08:31:59 NOTICE: A new release for gui (v2.0.5) is present at https://github.com/rclone/rclone-webui-react/releases/download/v2.0.5/currentbuild.zip
     2024/04/02 08:31:59 NOTICE: Downloading webgui binary. Please wait. [Size: 4763452, Path :  /home/richel/.cache/rclone/webgui/v2.0.5.zip]
     2024/04/02 08:32:00 NOTICE: Unzipping webgui binary
@@ -109,7 +109,7 @@ Rclone is one of the recommended ways to connect to Swestore.
     ![](./img/rclone_false_error.png)
 
     However, this may be a false error. To determine this:
-    click on 'Explorer' and explore Swestore. 
+    click on 'Explorer' and explore Swestore.
 
     ![](./img/rclone_swestore_folder_structure.png)
 

@@ -1,6 +1,6 @@
 # UPPMAX as an organization
 
-UPPMAX is a provider of HPC infrastructure 
+UPPMAX is a provider of HPC infrastructure
 that is physically located in Uppsala.
 
 ???- question "Where can I find an overview of UPPMAX?"
@@ -13,7 +13,7 @@ starting from the biggest source of money for research in Sweden.
 ![Vetenskapsrådet logo](./img/vr_logo_128_x_154.png)
 
 [Vetenskapsrådet](https://www.vr.se) ('Science counsel', VR) is biggest funder
-of research in Sweden and funds the national HPC infrastructure. 
+of research in Sweden and funds the national HPC infrastructure.
 
 ![NAISS logo](./img/naiss_logo_416_x_68.png)
 
@@ -23,8 +23,8 @@ among other Uppsala.
 
 ![UPPMAX logo](./img/uppmax_logo.png)
 
-[Uppsala Multidisciplinary Center for Advanced Computational Science](https://www.uppmax.uu.se/) (**UPPMAX = UppMACS**) 
-provides the HPC infrastructure that is physically located in Uppsala. 
+[Uppsala Multidisciplinary Center for Advanced Computational Science](https://www.uppmax.uu.se/) (**UPPMAX = UppMACS**)
+provides the HPC infrastructure that is physically located in Uppsala.
 Part of this is to provide training and [support](https://www.uppmax.uu.se/support).
 
 ```mermaid

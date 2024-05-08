@@ -1,7 +1,7 @@
 # Using CRAM to compress BAM files
 
 ## Introduction
-### Biological data is being produced at a higher rate each day, and it is a challenge to store it all somewhere. 
+### Biological data is being produced at a higher rate each day, and it is a challenge to store it all somewhere.
 
 The bioinformatics community is trying to keep up with the growing data amounts, and new file formats is part of this evolution. The BAM format was a huge success due to its ability to compress aligned reads by ~50-80% of their original size, but even that is not sustainable in the long run.
 

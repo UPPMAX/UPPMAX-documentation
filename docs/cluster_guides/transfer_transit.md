@@ -37,17 +37,17 @@ Transit only allows for sending files from A to B, not for storing them.
 One **can download** the files on Transit.
 However, Transit is not a file server.
 Instead, the files that appear to be on Transit
-are the files in your Rackham home folder. 
+are the files in your Rackham home folder.
 Due to this, it makes more sense to [use SCP to transfer files to/from Rackham](rackham_file_transfer_using_scp.md).
 
 For completeness sake, see [Transit file transfer using SCP](transit_file_transfer_using_scp.md)
-for a step-by-step guide how to transfer files using SCP. 
+for a step-by-step guide how to transfer files using SCP.
 It show one cannot upload files to Transit.
 
 ## Using SFTP
 
 One can transfer files to/from Transit using SFTP in a terminal.
-One connects a local and a remote folder, 
+One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.
 
@@ -91,7 +91,7 @@ flowchart TD
     style sub_rackham_shared_env fill:#fcc,color:#000,stroke:#000
     style sub_bianca_private_env fill:#ccf,color:#000,stroke:#000
     style sub_other_clusters fill:#ffc,color:#000,stroke:#000
-        
+
     user_local_files <--> |graphical tool|files_on_transit
     user_local_files <--> |SFTP|files_on_transit
 

@@ -2,13 +2,13 @@
 
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
 
-> The two Bianca environments to work on Bianca. 
+> The two Bianca environments to work on Bianca.
 > At the left is a remote desktop environment.
 > At the the right is the console environment.
 
 Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
-- [Bianca's design](../cluster_guides/biancas_design.md): 
+- [Bianca's design](../cluster_guides/biancas_design.md):
   helps understand why the procedure described here is needed.
 - [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can login to Bianca
 - [The two Bianca environments](#the-two-bianca-environments) shows the two ways to use Bianca
@@ -30,9 +30,9 @@ These prerequisites are discussed in detail below.
 ### An active research project
 
 One [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-is that you need to be a member of an active SNIC SENS 
-or SIMPLER research project (these are called `sens[number]` or `simp[number]`, 
-where `[number]` represent a number, for example `sens123456` or `simp123456`). 
+is that you need to be a member of an active SNIC SENS
+or SIMPLER research project (these are called `sens[number]` or `simp[number]`,
+where `[number]` represent a number, for example `sens123456` or `simp123456`).
 
 ???- question "Forgot your Bianca projects?"
 
@@ -55,7 +55,7 @@ and to get an overview of the requested resources.
 
     > SUPR 2FA login. Use the SUPR 2FA (i.e. **not** UPPMAX)
 
-After logging in, the [SUPR](https://supr.naiss.se/) 
+After logging in, the [SUPR](https://supr.naiss.se/)
 website will show all projects you are a member of,
 under the 'Projects' tab.
 
@@ -81,32 +81,32 @@ Note that the 'Accounts' tab can be useful to verify your username.
 
     ![](./img/supr_accounts.png)
 
-    > An example of a SUPR 'Accounts' tab. 
+    > An example of a SUPR 'Accounts' tab.
     > The example user has username `richel-sens2023598`,
     > which means his/her UPPMAX username is `richel`
 
 You can become a member of an active SNIC SENS by:
 
 - request membership to an existing project in SUPR
-- create a project. See the UPPMAX page on 
+- create a project. See the UPPMAX page on
   how to submit a project application [here](project_apply.md)
 
 ### An UPPMAX user account
 
 Another [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-is that you must have a personal UPPMAX user account. 
-This is separate from your SUPR account. 
-See the user account application page if you do not have one. 
+is that you must have a personal UPPMAX user account.
+This is separate from your SUPR account.
+See the user account application page if you do not have one.
 
-Once you are set up for login, 
+Once you are set up for login,
 this should also be reflected in SUPR through
- one or several additional account(s) 
+ one or several additional account(s)
 at UPPMAX for the specific project(s) you are a member of.
 
 ### An UPPMAX password
 
 Another [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-is that you need to know your UPPMAX password. 
+is that you need to know your UPPMAX password.
 If you change it, it may take up to an hour before changes are reflected in Bianca.
 
 For advice on handling sensitive personal data correctly on Bianca, see our FAQ page.
@@ -129,7 +129,7 @@ To use Bianca, there are two environments:
 
     > A more populated Bianca XFCE remote desktop
 
-- A [remote desktop environment](../cluster_guides/thinlinc.md), also called 'graphical environment', 
+- A [remote desktop environment](../cluster_guides/thinlinc.md), also called 'graphical environment',
   'GUI environment', 'ThinLinc environment'
 
 ???- question "How does the Bianca console environment look like?"
@@ -153,8 +153,8 @@ flowchart TD
 
     subgraph sub_bianca_private_env[The project's private virtual project cluster]
       bianca_private_console[Bianca console environment]
-      bianca_private_remote_desktop[Bianca remote desktop] 
-      bianca_private_terminal[Terminal] 
+      bianca_private_remote_desktop[Bianca remote desktop]
+      bianca_private_terminal[Terminal]
     end
 
     %% Shared subgraph color scheme
@@ -172,14 +172,14 @@ flowchart TD
 
 ## Get within the university networks
 
-Bianca has sensitive data. 
-To protect this data, 
+Bianca has sensitive data.
+To protect this data,
 Bianca is accessible from all Swedish university networks.
 To be precise, to connect to Bianca one needs to so from a
 [SUNET](https://www.sunet.se/) Internet Protocol ('IP') address.
 
 Due to this, the first step to access Bianca
-is to get an IP that is inside SUNET first. 
+is to get an IP that is inside SUNET first.
 
 See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
@@ -194,12 +194,12 @@ See the 'get inside the university networks' page [here](../getting_started/get_
 
 When inside SUNET, one can access the Bianca environments.
 
-- For a remote desktop environment, 
+- For a remote desktop environment,
   go to [login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
-- For a console environment, 
+- For a console environment,
   go to [login to the Bianca console environment](#login-to-the-Bianca-console-environment)
 
-Below, the ways to access these Bianca environments 
+Below, the ways to access these Bianca environments
 are discussed
 
 ```mermaid
@@ -214,7 +214,7 @@ flowchart TD
       subgraph sub_bianca_shared_env[Bianca shared network]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_console[Bianca console environment]
-          bianca_private_remote_desktop[Bianca remote desktop] 
+          bianca_private_remote_desktop[Bianca remote desktop]
         end
       end
     end
@@ -239,8 +239,8 @@ one needs to be within SUNET to be able to access her.
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-Bianca does not support any so-called 
-[X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham), 
+Bianca does not support any so-called
+[X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham),
 so instead UPPMAX maintains a website that uses
 ThinLinc to get a full [remote desktop environment](../cluster_guides/thinlinc.md).
 All you should need is a rather modern browser on any platform:
@@ -263,13 +263,13 @@ In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 ???- question "How does it look like when outside of SUNET?"
 
     [Here](https://youtu.be/W-PMTyNcbYI?si=9oQP29a7OLo3mVrt&t=160) you can
-    see how this looks like when outside of SUNET. 
-    
+    see how this looks like when outside of SUNET.
+
     Spoiler: quite dull, as nothing happens until these is a timeout.
 
 #### 2. Fill in the first dialog
 
-Fill in the first dialog. 
+Fill in the first dialog.
 
 Do use the `UPPMAX` [2-factor authentication](setup_2fa.md) (i.e. not SUPR!)
 
@@ -293,7 +293,7 @@ Do use the `UPPMAX` [2-factor authentication](setup_2fa.md) (i.e. not SUPR!)
 
     > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
-Sometimes a webpage will be shown that asks you to wait. 
+Sometimes a webpage will be shown that asks you to wait.
 Simply do that :-)
 
 ???- question "How does that web page look like?"
@@ -307,7 +307,7 @@ Simply do that :-)
     >
     > When this takes long, your original second factor code might expire. In that scenario, you'll be redirected to the first login page again.
 
-    This is the webpage that is shown when a login node needs to be created. 
+    This is the webpage that is shown when a login node needs to be created.
 
 #### 3. Fill in the second dialog, using your regular password
 
@@ -317,7 +317,7 @@ Fill in the second dialog, using your regular password (i.e. no need for two-fac
 
     ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
 
-    > The second Bianca remote desktop login dialog. 
+    > The second Bianca remote desktop login dialog.
     > Note that it uses ThinLinc to establish this connection
 
 #### 4. Picking a remote desktop flavor, but not KDE
@@ -332,7 +332,7 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
     ![](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
 
-    > Here you are asked to pick a remote desktop flavor, 
+    > Here you are asked to pick a remote desktop flavor,
     > with Xfce as the default.
     > Pick any, except KDE.
 
@@ -341,7 +341,7 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
     Avoid choosing the KDE desktop, as it gives problems when running interactive sessions.
 
     Instead, we recommend GNOME or XFCE.
-     
+
 #### 5. You are in!
 
 Enjoy! You are in! You are on a Bianca login node!
@@ -351,10 +351,10 @@ Enjoy! You are in! You are on a Bianca login node!
     On a login node, one can and should do simple things only:
     it is a resource shared with all other users on that node.
 
-    If you need to do more intense calculations, 
+    If you need to do more intense calculations,
     [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
 
-    If you need to do more intense calculations interactively, 
+    If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
 
 ???- question "How does the remote desktop look like?"
@@ -367,34 +367,34 @@ Enjoy! You are in! You are on a Bianca login node!
 
     This video shows how to use an installed VPN,
     after which the UPPMAX Bianca login website is used to
-    access the Bianca remote desktop environment: 
-    [YouTube](https://youtu.be/Ni9nyCf7me8), 
+    access the Bianca remote desktop environment:
+    [YouTube](https://youtu.be/Ni9nyCf7me8),
     [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
 
-Under the hidden tab in the left edge of the screen, 
-you can find a clipboard, 
+Under the hidden tab in the left edge of the screen,
+you can find a clipboard,
 icons of some special keys
 and the disconnect button:
 
 - the clipboard is needed to be able to copy-paste text to/from Bianca.
-- the icons of some special keys are needed for some users, 
+- the icons of some special keys are needed for some users,
   as not all keyboard keys reach Bianca as expected.
 - the disconnect button disconnects your session
 
 ???- question "What is the difference between 'disconnect session' and 'end session'?"
 
     'disconnect session' will save the current state of your session.
-    When you connect again, you will get the remote desktop back 
+    When you connect again, you will get the remote desktop back
     in exactly in the same place you left the system.
-    For example: if you were editing a file before disconnecting, 
-    your prompt will be in the same place you left it. 
+    For example: if you were editing a file before disconnecting,
+    your prompt will be in the same place you left it.
 
     'end session' will not save the current state of your session.
     Instead, you will start with a clean slate at the next login.
 
 Bianca has a automatically disconnect after 30 minutes of inactivity.
-In the future it is possible that we implement some kind 
-of "automatic log out from active graphical session". 
+In the future it is possible that we implement some kind
+of "automatic log out from active graphical session".
 
 ```mermaid
 flowchart TD
@@ -409,7 +409,7 @@ flowchart TD
       subgraph sub_bianca_shared_env[Bianca shared network]
         bianca_shared_remote_desktop[Bianca remote desktop login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          bianca_private_remote_desktop[Bianca remote desktop] 
+          bianca_private_remote_desktop[Bianca remote desktop]
 
           %% Ensure the innermost square gets big enough
           END:::hidden
@@ -439,7 +439,7 @@ using a terminal and the Secure Shell Protocol (SSH).
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
 You can use your favorite terminal to login (see <https://uppmax.github.io/uppmax_intro/login2.html#terminals> for an overview of many)
-to the Bianca command-line environment. 
+to the Bianca command-line environment.
 You can also have multiple log-ins active at once.
 
 There are multiple ways to set this up:
@@ -456,7 +456,7 @@ In a Bianca console environment:
   This means that if you create a lot of text output,
   you will have to wait some time before you get your prompt back.
 - Cut, copy and paste work as usual.
-  Be careful to not copy-paste sensitive data! 
+  Be careful to not copy-paste sensitive data!
 
 ```mermaid
 flowchart TD
@@ -503,7 +503,7 @@ using SSH with an SSH password.
 
 This is considered the easier one to setup,
 but one will have to type a password twice to login.
-To get rid of one password and setup SHH keys, 
+To get rid of one password and setup SHH keys,
 see [here](#login-to-the-Bianca-console-environment-using-ssh-keys).
 
 
@@ -524,52 +524,52 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 ???- question "How does it look like when outside of SUNET?"
 
     [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
-    see how this looks like when outside of SUNET. 
-    
+    see how this looks like when outside of SUNET.
+
     Spoiler: quite dull, as nothing happens until these is a timeout.
 
 ???- question "Why no `-A`?"
 
     On Bianca, one can use `-A`:
-   
+
     ```
     ssh -A username@bianca.uppmax.uu.se
     ```
 
-    this option is only useful when 
+    this option is only useful when
     [using SSH keys](#login-to-the-Bianca-console-environment-using-ssh-keys)
     to access Bianca.
-    As we here use passwords (i.e. no SSH keys) 
+    As we here use passwords (i.e. no SSH keys)
     to access Bianca, `-A` is unused
     and hence we simplify this documentation by omitting it.
 
 ???- question "Why no `-X`?"
 
     On Rackham, one can use `-X`:
-   
+
     ```
     ssh -X username@rackham.uppmax.uu.se
     ```
 
-    However, on Bianca, this so-called 
+    However, on Bianca, this so-called
     [X forwarding](../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
 
 #### 2. Type your UPPMAX password with 2FA
 
-Type your UPPMAX password, 
+Type your UPPMAX password,
 directly followed by the UPPMAX 2-factor authentication number,
 for example `verysecret678123`, then press enter.
 In this case, the password is `verysecret` and `678123`
 is the 2FA number.
 
-After authenticated using the UPPMAX password and 2FA, 
+After authenticated using the UPPMAX password and 2FA,
 you are logged in on Bianca's shared network,
-on a so-called 'jumphost'. 
+on a so-called 'jumphost'.
 
 However, you will still need to login to your own
-private virtual project cluster. 
+private virtual project cluster.
 As you are already properly authenticated (i.e. using an UPPMAX password
 and UPPMAX 2FA), you don't need 2FA anymore.
 
@@ -579,13 +579,13 @@ and UPPMAX 2FA), you don't need 2FA anymore.
     each Bianca project must be isolated from each other
     and are not allowed to, for example, share the same memory.
 
-    One way to achieve this, would be to build one HPC cluster 
+    One way to achieve this, would be to build one HPC cluster
     per project. While this would guarantee isolated project environments,
     this would be quite impractical.
 
     Instead, we create isolated project environments by using software,
     that creates so-called virtual clusters, as if they would be
-    physical clusters. Like physical clusters, a virtual cluster 
+    physical clusters. Like physical clusters, a virtual cluster
     has a guaranteed isolated project environment.
 
 When you login to Bianca's shared network,
@@ -601,7 +601,7 @@ for example `verysecret`
 
 #### 4. You are in!
 
-Enjoy! You are in! Or, to be precise, 
+Enjoy! You are in! Or, to be precise,
 you are on the login node of your own virtual project cluster.
 
 !!! note "How to behave on a login node"
@@ -609,21 +609,21 @@ you are on the login node of your own virtual project cluster.
     On a login node, one can and should do simple things only:
     it is a resource shared with all other users on that node.
 
-    If you need to do more intense calculations, 
+    If you need to do more intense calculations,
     [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
 
-    If you need to do more intense calculations interactively, 
+    If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
 
 By default, this node has one core,
-hence if you need more memory or more CPU power, 
-you submit a job (interactive or batch), 
+hence if you need more memory or more CPU power,
+you submit a job (interactive or batch),
 and an idle node will be moved into your project cluster.
 
 ???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
 
-    This video shows how to use a terminal and SSH to access 
-    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c), 
+    This video shows how to use a terminal and SSH to access
+    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c),
     [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
 
 ### Login to the Bianca console environment using SSH keys
@@ -657,25 +657,25 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
 ???- question "How does it look like when outside of SUNET?"
 
     [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
-    see how this looks like when outside of SUNET. 
-    
+    see how this looks like when outside of SUNET.
+
     Spoiler: quite dull, as nothing happens until these is a timeout.
 
 ???- question "Why no `-X`?"
 
     On Rackham, one can use `-X`:
-   
+
     ```
     ssh -X username@rackham.uppmax.uu.se
     ```
 
-    However, on Bianca, this so-called 
+    However, on Bianca, this so-called
     [X forwarding](../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
 #### 2. Type your UPPMAX password and 2FA
 
-Type your UPPMAX password, 
+Type your UPPMAX password,
 directly followed by the UPPMAX 2-factor authentication number,
 for example `verysecret678123`, then press enter.
 In this case, the password is `verysecret` and `678123`
@@ -690,10 +690,10 @@ Enjoy! You are in! To be precise, you are on a Bianca login node.
     On a login node, one can and should do simple things only:
     it is a resource shared with all other users on that node.
 
-    If you need to do more intense calculations, 
+    If you need to do more intense calculations,
     [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
 
-    If you need to do more intense calculations interactively, 
+    If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
 
 ???- question "Why does one need two passwords?"
@@ -701,7 +701,7 @@ Enjoy! You are in! To be precise, you are on a Bianca login node.
     The first password is needed to get into the shared Bianca environment.
     This password contains both an UPPMAX password and an UPPMAX 2FA number.
 
-    The second password is needed to go to the login node 
+    The second password is needed to go to the login node
     of a project's virtual cluster.
 
     ```mermaid
@@ -713,11 +713,11 @@ Enjoy! You are in! To be precise, you are on a Bianca login node.
 
         subgraph sub_bianca_shared_env[Bianca shared network]
           bianca_shared_console[Bianca console environment login]
-          bianca_shared_remote_desktop[Bianca remote desktop login] 
+          bianca_shared_remote_desktop[Bianca remote desktop login]
           subgraph sub_bianca_private_env[The project's private virtual project cluster]
             bianca_private_console[Bianca console environment]
-            bianca_private_remote_desktop[Bianca remote desktop] 
-            bianca_private_terminal[Terminal] 
+            bianca_private_remote_desktop[Bianca remote desktop]
+            bianca_private_terminal[Terminal]
           end
         end
 
@@ -750,7 +750,7 @@ flowchart TD
 
     subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
-    end    
+    end
 
     subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
@@ -759,11 +759,11 @@ flowchart TD
 
       subgraph sub_bianca_shared_env[Bianca shared network]
         bianca_shared_console[Bianca console environment login]
-        bianca_shared_remote_desktop[Bianca remote desktop login] 
+        bianca_shared_remote_desktop[Bianca remote desktop login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_console[Bianca console environment]
-          bianca_private_remote_desktop[Bianca remote desktop] 
-          bianca_private_terminal[Terminal] 
+          bianca_private_remote_desktop[Bianca remote desktop]
+          bianca_private_terminal[Terminal]
         end
       end
     end
@@ -804,7 +804,7 @@ flowchart TD
 
     subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
-    end    
+    end
 
     subgraph sub_inside[IP inside SUNET]
       physically_inside(Physically inside SUNET)
@@ -813,11 +813,11 @@ flowchart TD
 
       subgraph sub_bianca_shared_env[Bianca shared network]
         bianca_shared_console[Bianca console environment login]
-        bianca_shared_remote_desktop[Bianca remote desktop login] 
+        bianca_shared_remote_desktop[Bianca remote desktop login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_console[Bianca console environment]
-          bianca_private_remote_desktop[Bianca remote desktop] 
-          bianca_private_terminal[Terminal] 
+          bianca_private_remote_desktop[Bianca remote desktop]
+          bianca_private_terminal[Terminal]
         end
       end
     end

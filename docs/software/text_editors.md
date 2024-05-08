@@ -14,14 +14,14 @@ Try them out and pick one favorite editor!
 !!! tip
 
     **These commands are useful in the command line when something is stuck or a program is limiting you to do further work.**
-    
+
     - ``ctrl-C`` interrupts a program or a command that is "stuck"
     - ``ctrl-D`` quits some programs from the program environment in the terminal
     - ``ctrl-Z`` pauses a program, can be continued in background (`bg`) or  foreground (`fg`)
 
 ## Simple terminal editors
 
-### GNU nano 
+### GNU nano
 
 ???- question "Want to see a video?"
 
@@ -39,7 +39,7 @@ The keyboard shortcuts are shown on-screen,
 where `^` denotes `Ctrl` and `M` the meta key.
 
 - On Windows, `Alt` is the meta key
-- On Mac: in the `Terminal.app`, go to 'Preferences -> Settings -> Keyboard' 
+- On Mac: in the `Terminal.app`, go to 'Preferences -> Settings -> Keyboard'
   and turn on "Use option as meta key", after which `Alt` is the meta key
 
 See a nano cheat sheet [here](https://www.nano-editor.org/dist/latest/cheatsheet.html).
@@ -66,7 +66,7 @@ Then:
   - 1. Insert mode (type like normal text editor. Press ``i`` for insert mode)
   - 2. Command mode (give commands to the editor to get things done . Press `<ESC>` for command mode)
   - Cheat sheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
- 
+
 ### emacs
 
 `emacs` is an advanced terminal editor that is fast fast and powerful, once you learn it.
@@ -101,7 +101,7 @@ See the [SSH X forwarding page](../software/ssh_x_forwarding.md) how to do so.
     See the 'How to login to Bianca' page [here](../getting_started/login_bianca.md)
     for more details.
 
-### gedit 
+### gedit
 
 - graphical user interface — GUI, needs X-server
 - Also graphical editor within MobaXterm

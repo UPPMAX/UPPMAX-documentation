@@ -1,6 +1,6 @@
 # Python `venv`
 
-`venv` is one of multiple 
+`venv` is one of multiple
 [Python virtual environment managers](python_virtual_environments.md).
 
 `venv` is a Python-only environment manager
@@ -18,7 +18,7 @@ Then:
 
 ## Create a virtual environment
 
-A virtual environment can be created in multiple ways, 
+A virtual environment can be created in multiple ways,
 for example, from scratch, which is not recommended.
 
 Here we discuss the recommended way to create a virtual environment,
@@ -28,9 +28,9 @@ which has these steps:
 
 ### 1. Load a Python module or a modules with Python packages
 
-The first step is described at 
+The first step is described at
 ['Loading Python'](http://docs.uppmax.uu.se/software/python/#loading-python)
-and 
+and
 ['Loading Python package modules'](http://docs.uppmax.uu.se/software/python/#loading-python-modules).
 
 ???- question "Just show me how to do this"
@@ -69,20 +69,20 @@ For example `python -m venv --system-site-packages ~/my_venvs/example_venv`.
 
     Virtual environments can take up a lot of disc space.
 
-    If you use either (1) many `venv` virtual environments, 
+    If you use either (1) many `venv` virtual environments,
     or (2) install many Python packages to a `venv` virtual environment,
-    we strongly recommend that you create the `venv` 
+    we strongly recommend that you create the `venv`
     virtual environments in your project (`/proj/[your_uppmax_project]`) folder.
 
-The `-m` flag makes sure that you use the libraries 
+The `-m` flag makes sure that you use the libraries
 from the Python version you are using.
 The `--system-site-packages` flags ensure you use
-the packages already installed in the 
+the packages already installed in the
 loaded Python module.
 
 ???- question "How long does this step take?"
 
-    This depends. 
+    This depends.
 
     This takes around 10 seconds:
 
@@ -111,7 +111,7 @@ where `[path]` is the path where you want to create your `venv` virtual
 environment and `[venv_name]` is the name of the `venv` virtual environment.
 For example `source ~/my_venvs/example_venv/bin/activate`.
 
-When a `venv` virtual environment is active, 
+When a `venv` virtual environment is active,
 the prompt is changed to start with the name of your `venv`.
 
 ???- question "How does that look like?"
@@ -122,7 +122,7 @@ the prompt is changed to start with the name of your `venv`.
     [sven@rackham1 ~]$ module load python_ML_packages/3.11.8-cpu
     [sven@rackham1 ~]$ python -m venv --system-site-packages ~/my_venvs/example_venv
     [sven@rackham1 ~]$ source ~/my_venvs/example_venv/bin/activate
-    (example_venv) [sven@rackham1 ~]$ 
+    (example_venv) [sven@rackham1 ~]$
     ```
 
 With the `venv` virtual environment active,
@@ -137,7 +137,7 @@ To deactivate a `venv` virtual environment:
 deactivate
 ```
 
-As the `venv` virtual environment you just used is now inactive, 
+As the `venv` virtual environment you just used is now inactive,
 the prompt will not show the name of your `venv` anymore.
 
 You will need to [activate a virtual environment](#activate-a-virtual-environment)

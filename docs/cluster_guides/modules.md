@@ -14,31 +14,31 @@ as well as [links](#links) to almost all installed software and databases on UPP
 ## Background
 
 The UPPPMAX clusters are shared Linux computers with all the standard Linux tools installed,
-on which all users should be able to 
+on which all users should be able to
 do their work independently and undisturbed.
 
 To ensure this, users cannot modify, upgrade or uninstall software themselves
-and instead an [environment module system](https://lmod.readthedocs.io/en/latest/) 
+and instead an [environment module system](https://lmod.readthedocs.io/en/latest/)
 (from now on: 'module system') is used.
 This allow users to independently use their favorite versions of their
 favorite software.
 
-Using a module system keeps installed software hidden by default, 
-and users have to explicitly tell their terminal 
+Using a module system keeps installed software hidden by default,
+and users have to explicitly tell their terminal
 which version of which software they need.
 
 To have new software installed on an UPPMAX cluster,
 users must explicitly request a version of a piece of software.
-As of today, there are nearly 
-[800+ programs and packages, with multiple versions](../software/overview.md) 
+As of today, there are nearly
+[800+ programs and packages, with multiple versions](../software/overview.md)
 available on all UPPMAX clusters.
-Using explicit versions of software is easy to do 
+Using explicit versions of software is easy to do
 and improves the reproducibility of the scripts written.
 
 To preserve hard disk space, Bianca also
 has [multiple big databases installed](../databases/overview.md).
 
-!!! warning 
+!!! warning
     - To access bioinformatics tools, load the **bioinfo-tools** module first.
 
 ## Working with the module system
@@ -97,14 +97,14 @@ for example `module spider cowsay`.
                     ||     ||
     ```
 
-    Because `cowsay` is not part of the Linux kernel, 
-    users commonly need to install it. 
+    Because `cowsay` is not part of the Linux kernel,
+    users commonly need to install it.
     Or in our case: load a module to use it.
 
 ???- question "What is `R`?"
 
     `R` is the module for the R programming language.
-    R is a free and open-source programming language, 
+    R is a free and open-source programming language,
     commonly used in data analysis and visualization.
 
 ???- question "How does the output of `module spider R` look like?"
@@ -150,9 +150,9 @@ for example `module spider cowsay`.
 
     `samtools` is the module for SAMtools. From [wikipedia](https://en.wikipedia.org/wiki/SAMtools):
 
-    > SAMtools is a set of utilities for interacting with 
-    > and post-processing short DNA sequence read alignments 
-    > in the SAM (Sequence Alignment/Map), BAM (Binary Alignment/Map) 
+    > SAMtools is a set of utilities for interacting with
+    > and post-processing short DNA sequence read alignments
+    > in the SAM (Sequence Alignment/Map), BAM (Binary Alignment/Map)
     > and CRAM formats
 
 ???- question "How does the output of `module spider samtools` look like?"
@@ -216,7 +216,7 @@ for example `module spider cowsay`.
             Version 1.17
     ```
 
-    This reminds us that we need to load the `bioinfo-tools` 
+    This reminds us that we need to load the `bioinfo-tools`
     module to be able to load `samtools/1.17`.
     Again, this is required (just once) before loading bioinformatics software.
 
@@ -238,15 +238,15 @@ Of the module shown, also the different versions are reported.
     Ouch, now it is time to try out many things.
 
     Do not hesitate to [contact support](../support.md)
-    so that you can spend time on your research 
+    so that you can spend time on your research
     and we figure this out :-)
 
 
-To load a module, use `module load [module]`, 
+To load a module, use `module load [module]`,
 for example `module load cowsay`.
 This will load the default version of that module,
 which is almost always the latest version.
-Loading a module always results in a helpful message 
+Loading a module always results in a helpful message
 (such as that it worked fine), however,
 it is *not* general help for using the tool itself.
 
@@ -263,7 +263,7 @@ it is *not* general help for using the tool itself.
       1) uppmax   2) bioinfo-tools   3) samtools/1.17
     ```
 
-    In this example case, we can see that the modules `bioinfo-tools` 
+    In this example case, we can see that the modules `bioinfo-tools`
     and `samtools` version 1.17 are loaded.
 
 !!!- tip "Getting help on a module"
@@ -274,7 +274,7 @@ it is *not* general help for using the tool itself.
 For reproducible research, however, it is good practice
 to load a specific version. The information given by
 `module spider` contains the versions of the module.
-For example, to load the `samtools/1.17` module, 
+For example, to load the `samtools/1.17` module,
 do `module load samtools/1.17`.
 
 ???- question "How does the output of `module load GATK/4.3.0.0` look like?"
@@ -295,7 +295,7 @@ do `module load samtools/1.17`.
 
 ???- tip "Huh, `module load samtools/1.17` gives an error?"
 
-    If you do `module load samtools/1.17` without 
+    If you do `module load samtools/1.17` without
     doing `module load bioinfo-tools` first, you'll get the error:
 
     ```
@@ -400,13 +400,13 @@ Full command            |Shorthand syntax
 
     As far as I can see, there is no use case for `module avail`.
 
-`module avail` list all modules immediately available, 
+`module avail` list all modules immediately available,
 or search for a specific available module:
 
 - `module avail`
 - `module avail *tool*`
 
-This command is not so smart, 
+This command is not so smart,
 though, especially when searching for a specific tool, or a bioinformatics tool.
 It only reports modules that are immediately available.
 

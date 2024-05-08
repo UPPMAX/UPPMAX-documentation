@@ -1,6 +1,6 @@
 # Bianca overview
 
-Bianca is an [HPC cluster](uppmax_cluster.md) 
+Bianca is an [HPC cluster](uppmax_cluster.md)
 [designed to work on sensitive data](bianca.md)
 [named after a Tintin character](bianca.md),
 maintained by [UPPMAX](uppmax_as_an_organization.md).

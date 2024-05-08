@@ -4,12 +4,12 @@ BEAST2 is a tool for Bayesian phylogenetic analysis.
 
 ???- question "Is BEAST2 a new version of BEAST?"
 
-    No. 
+    No.
 
     Although BEAST and BEAST2 achieve a similar goal,
     BEAST and BEAST2 are developed independently.
 
-    Hence, 
+    Hence,
     - there are things BEAST can do that BEAST2 cannot, and vice versa
     - one cannot create a BEAST XML file and expect BEAST2 to be able to run it, and vice versa
 
@@ -20,7 +20,7 @@ Here is how to use BEAST2 on the UPPMAX clusters.
 ???- question "Prefer a video?"
 
     [This YouTube video](https://youtu.be/Z6LcFE5p5S0) shows
-    how to use BEAST2 on the UPPMAX clusters. 
+    how to use BEAST2 on the UPPMAX clusters.
 
 ## 1. Load a `beast2` module
 
@@ -67,11 +67,11 @@ it needs [SSH with X forwarding enabled](../software/ssh_x_forwarding.md) enable
 
 After using `BEAUti`, save the file with your BEAST2 model.
 
-## 3. Run 
+## 3. Run
 
 A BEAST2 run takes a lot of computing power,
 hence do not run it on a login node.
-Instead, run it on an interactive node 
+Instead, run it on an interactive node
 or use a script.
 
 ???- question "How to start an interactive node?"
@@ -138,7 +138,7 @@ beast -beagle_info
 
 ???- "How does that look like?"
 
-    Here the command is run on a [Rackham](../cluster_guides/rackham.md) 
+    Here the command is run on a [Rackham](../cluster_guides/rackham.md)
     compute node, using an interactive session.
 
     Here an interactive session with 1 node:
@@ -154,32 +154,32 @@ beast -beagle_info
                  Bayesian Evolutionary Analysis Sampling Trees
                            Designed and developed by
      Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
-                                        
+
                        Centre for Computational Evolution
                              University of Auckland
                            r.bouckaert@auckland.ac.nz
                             alexei@cs.auckland.ac.nz
-                                        
+
                        Institute of Evolutionary Biology
                             University of Edinburgh
                                a.rambaut@ed.ac.uk
-                                        
+
                         David Geffen School of Medicine
                      University of California, Los Angeles
                                msuchard@ucla.edu
-                                        
+
                           Downloads, Help & Resources:
                                http://beast2.org/
-                                        
+
       Source code distributed under the GNU Lesser General Public License:
                        http://github.com/CompEvol/beast2
-                                        
+
                                BEAST developers:
-       Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
-     Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
-    Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+       Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled,
+     Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+    Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
               Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
-                                        
+
                                    Thanks to:
               Roald Forsberg, Beth Shapiro and Korbinian Strimmer
 
@@ -203,32 +203,32 @@ beast -beagle_info
                  Bayesian Evolutionary Analysis Sampling Trees
                            Designed and developed by
      Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
-                                        
+
                        Centre for Computational Evolution
                              University of Auckland
                            r.bouckaert@auckland.ac.nz
                             alexei@cs.auckland.ac.nz
-                                        
+
                        Institute of Evolutionary Biology
                             University of Edinburgh
                                a.rambaut@ed.ac.uk
-                                        
+
                         David Geffen School of Medicine
                      University of California, Los Angeles
                                msuchard@ucla.edu
-                                        
+
                           Downloads, Help & Resources:
                                http://beast2.org/
-                                        
+
       Source code distributed under the GNU Lesser General Public License:
                        http://github.com/CompEvol/beast2
-                                        
+
                                BEAST developers:
-       Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
-     Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
-    Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+       Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled,
+     Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+    Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
               Oliver Pybus, Tim Vaughan, Chieh-Hsi Wu, Walter Xie
-                                        
+
                                    Thanks to:
               Roald Forsberg, Beth Shapiro and Korbinian Strimmer
 

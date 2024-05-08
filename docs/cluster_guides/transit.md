@@ -25,7 +25,7 @@ Transit is an UPPMAX service that can be used to securely transfer files.
     If you put a letter without an address in a post box,
     it will be thrown away.
 
-    If you put an address on the letter, 
+    If you put an address on the letter,
     the letter will be delivered.
     Here, 'putting an address on the letter'
     is to copy the file to the desired location.
@@ -46,7 +46,7 @@ Below is a step-by-step procedure to login to Transit.
 
 ### 2. Use SSH to login
 
-On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to login to Transit: 
+On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to login to Transit:
 
 ```
 ssh [username]@transit.uppmax.uu.se
@@ -65,7 +65,7 @@ it to your list of known hosts. Type `yes`.
 
 ???- question "How does that look like?"
 
-    This is how it looks like when you are asked 
+    This is how it looks like when you are asked
     for adding Transit to your list of known hosts.
 
     ![](./img/transit_add_to_known_hosts.png)

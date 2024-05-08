@@ -6,7 +6,7 @@ This page described how to use virtual environments in [Python](python.md).
 
 Virtual environments allows one to have independent Python environments.
 
-This allows one to have multiple projects 
+This allows one to have multiple projects
 
 - You can install specific, also older, versions into them
 - You can create one for each project and no problem if the two projects
@@ -44,13 +44,13 @@ Whatever virtual environment manager you use, this is the workflow:
 
 - You create the isolated environment
 - You activate the environment
-- You work in the isolated environment. 
+- You work in the isolated environment.
   Here you install (or update) the environment with the packages you need
-- You deactivate the environment after use 
+- You deactivate the environment after use
 
 A virtual environment can be created in multiple ways,
 for example, from scratch.
-However, there are more efficient ways, 
+However, there are more efficient ways,
 such as by re-using already installed Python packages.
 How to do so, can be found on the page about your specific virtual environment manager.
 
