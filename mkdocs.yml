@@ -51,12 +51,12 @@ nav:
     - Software table: software/software-table.md
     - Text editors: software/text_editors.md
     - Software-specific documentation:      
-      - Whisper: software/whisper.md
-      - Chemistry/physics:
+      - Chemistry/physics/atmosphere:
         - GAMESS_US: software/games_us.md
         - Gaussian: software/gaussian.md
         - GROMACS: software/gromacs.md
         - Molcas: software/openmolcas.md
+        - WRF: software/wrf.md
       - Integrated development environments (IDE):
         - Jupyter: software/jupyter.md
         - RStudio: software/rstudio.md
@@ -69,9 +69,10 @@ nav:
         - IGV: software/igv.md
         - MetONTIIME: software/metontiime.md
         - Tracer: software/tracer.md
-      - Machine Learning:
+      - Machine Learning and AI:
         - NVIDIA DLF: software/nvidia-deep-learning-frameworks.md
         - TensorFlow: software/tensorflow.md
+        - Whisper: software/whisper.md
       - Programming languages:
         - Julia: software/julia.md
         - MATLAB: software/matlab.md
@@ -84,6 +85,7 @@ nav:
         - projplot: software/projplot.md
         - Rclone: software/rclone.md      
         - SSH: software/ssh.md
+        - SFTP: software/sftp.md
       
   - Databases: 
      - Overview: databases/overview.md

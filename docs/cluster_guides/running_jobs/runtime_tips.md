@@ -169,75 +169,80 @@
 
 ???- question "How can I see my job's memory usage?"
 
-???- info "For UPPMAX staff"
+    - Historical information can first of all be found by issuing the command ``finishedjobinfo -j``. That will print out the maximum memory used by your job.
 
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-see-my-job-s-memory-usage/`
+    - If you want more details then we also save some memory information each 5 minute interval for the job in a file under ``/sw/share/slurm/[cluster-name]/uppmax_jobstats/``. Notice that this is only stored for 30 days.
 
-Historical information can first of all be found by issuing the command "finishedjobinfo -j". That will print out the maximum memory used by your job.
+    - You can also ask for an e-mail containing the log, when you submit your job with sbatch or start an "interactive" session, by adding a "-C usage_mail" flag to your command. Two examples:
 
-If you want more details then we also save some memory information each 5 minute interval for the job in a file under /sw/share/slurm/[cluster-name]/uppmax_jobstats//. Notice that this is only stored for 30 days.
+    ```
+    sbatch -A testproj -p core -n 5 -C usage_mail batchscript1
+    ```
 
-You can also ask for an e-mail containing the log, when you submit your job with sbatch or start an "interactive" session, by adding a "-C usage_mail" flag to your command. Two examples:
+    or, if interactive
 
-```
-sbatch -A testproj -p core -n 5 -C usage_mail batchscript1
+    ```
+    interactive -A testproj -p node -n 1 -C "fat&usage_mail"
+    ```
 
-interactive -A testproj -p node -n 1 -C "fat&usage_mail"
-```
+    - As you see, you have to be careful with the syntax when asking for two features, like "fat" and "usage_mail", at the same time. The logical AND operator "&" combines the flags.
 
-As you see, you have to be careful with the syntax when asking for two features, like "fat" and "usage_mail", at the same time. The logical AND operator "&" combines the flags.
+    - If you overdraft the RAM that you asked for, you will probably get an automatic e-mail anyway.
 
-If you overdraft the RAM that you asked for, you will probably get an automatic e-mail anyway.
+    - If, on the other hand, you want to view your memory consumption in real time then you will have to login to the node in question in another SSH session. (You will probably find a more recently updated memory information file there, named /var/spool/uppmax_jobstats/.)
 
-If, on the other hand, you want to view your memory consumption in real time then you will have to login to the node in question in another SSH session. (You will probably find a more recently updated memory information file there, named /var/spool/uppmax_jobstats/.)
+    - By naively looking at the memory consumption with tools like ``ps`` and ``top`` you as a user can easily get the wrong impression of the system, as the Linux kernel uses free memory for lots of buffers and caches to speed up other processes (but releases this as soon as applications requests it).
 
-By naively looking at the memory consumption with tools like "ps" and "top" you as a user can easily get the wrong impression of the system, as the Linux kernel uses free memory for lots of buffers and caches to speed up other processes (but releases this as soon as applications requests it).
+    - If you know that you are the only user running on the node (from requesting a node job for example), then you could issue the command "free -g" instead. That will show you how much memory is used/free by the whole system, exclusive to these caches. Look for the row called "-/+ buffers/cache".
 
-If you know that you are the only user running on the node (from requesting a node job for example), then you could issue the command "free -g" instead. That will show you how much memory is used/free by the whole system, exclusive to these caches. Look for the row called "-/+ buffers/cache".
+    - If you require more detailed live information, then it would probably be best if the tool called "smem" is used. Download the latest version from http://www.selenic.com/smem/download/ and unpack it in your home directory. Inside you will find an executable Python script, and by executing the command "smem -utk" you will see your user's memory usage reported in three different ways.
 
-If you require more detailed live information, then it would probably be best if the tool called "smem" is used. Download the latest version from http://www.selenic.com/smem/download/ and unpack it in your home directory. Inside you will find an executable Python script, and by executing the command "smem -utk" you will see your user's memory usage reported in three different ways.
+        - USS is the total memory used by the user without shared buffers or caches. 
+        - RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory. 
+        - And then there's also the PSS figure which tries to calculate a proportional memory usage per user for all shared memory buffers and caches (i.e. the figure will fall between USS and RSS).
 
-USS is the total memory used by the user without shared buffers or caches. RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory. And then there's also the PSS figure which tries to calculate a proportional memory usage per user for all shared memory buffers and caches (i.e. the figure will fall between USS and RSS).
 
 
 ???- question "My job has very low priority! What can be wrong?"
 
-???- info "For UPPMAX staff"
 
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/why-does-my-job-have-very-low-priority/`
+    - One reason could be that your project has consumed its allocated hours.
 
-One reason could be that your project has consumed its allocated hours.
+    - Background: Every job is associated with a project. 
+        - Suppose that that you are working for a SNIC project s00101-01 that's been granted 10000 core hours per 30-days running. 
+        - At the start of the project, s00101-01 is credited with 10000 hours and jobs that runs in that project are given a high priority. 
+        - All the jobs that are finished or are running during the last 30 days is compared with this granted time. 
+        - If enough jobs have run to consume this amount of hours the priority is lowered. 
+        - The more you have overdrafted your granted time, the lower the priority.
 
-Background: Every job is associated with a project. Suppose that that you are working for a SNIC project s00101-01 that's been granted 10000 core hours per 30-days running. At the start of the project, s00101-01 is credited with 10000 hours and jobs that runs in that project are given a high priority. All the jobs that are finished or are running during the last 30 days is compared with this granted time. If enough jobs have run to consume this amount of hours the priority is lowered. The more you have overdrafted your granted time, the lower the priority.
+    - If you have overdrafted your granted time it's still possible to run jobs. You will probably wait for a longer time in the queue.
 
-If you have overdrafted your granted time it's still possible to run jobs. You will probably wait for a longer time in the queue.
+    - To check status for your projects, run
 
-To check status for your projects, run
+    ```
+    $ projinfo
+    (Counting the number of core hours used since 2010-05-12/00:00:00 until now.)
 
-```
-$ projinfo
-(Counting the number of core hours used since 2010-05-12/00:00:00 until now.)
- 
-Project             Used[h]   Current allocation [h/month]
-User
------------------------------------------------------
-s00101-01          72779.48               50000
-some-user       72779.48 
-```
+    Project             Used[h]   Current allocation [h/month]
+    User
+    -----------------------------------------------------
+    s00101-01          72779.48               50000
+    some-user       72779.48 
+    ```
 
-If there are enough jobs left in projects that have not gone over their allocation, jobs associated with this project are therefore stuck wating at the bottom of the jobinfo list until the usage for the last 30 days drops down under its allocated budget again.
+    - If there are enough jobs left in projects that have not gone over their allocation, jobs associated with this project are therefore stuck wating at the bottom of the jobinfo list until the usage for the last 30 days drops down under its allocated budget again.
 
-On the other side they may be lucky to get some free nodes, so it could happen that they run as a bonus job before this happens.
+    - On the other side they may be lucky to get some free nodes, so it could happen that they run as a bonus job before this happens.
 
-The job queue, that you can see with the jobinfo command, is ordered on job priority. Jobs with a high priority will run first, if they can (depending on number of free nodes and any special demands on e.g. memory).
+    - The job queue, that you can see with the jobinfo command, is ordered on job priority. Jobs with a high priority will run first, if they can (depending on number of free nodes and any special demands on e.g. memory).
 
-Job priority is the sum of the following numbers (you may use the sprio command to get exact numbers for individual jobs):
+    - Job priority is the sum of the following numbers (you may use the sprio command to get exact numbers for individual jobs):
 
-A high number (100000 or 130000) if your project is within its allocation and a lower number otherwise. There are different grades of lower numbers, depending on how many times your project is overdrafted. As an example, a 2000 core hour project gets priority 70000 when it has used more than 2000 core hours, gets priority 60000 when it has used more than 4000 core hours, gets priority 50000 when it has used more than 6000 core hours, and so on. The lowest grade gives priority 10000 and does not go down from there.
-The number of minutes the job has been waiting in queue (for a maximum of 20160 after fourteen days).
-A job size number, higher for more nodes allocated to your job, for a maximum of 104.
-A very, very high number for "short" jobs, i.e. very short jobs that is not wider than four nodes.
-If your job priority is zero or one, there are more serious problems, for example that you asked for more resources than the batch system finds on the system.
+        - A high number (100000 or 130000) if your project is within its allocation and a lower number otherwise. There are different grades of lower numbers, depending on how many times your project is overdrafted. As an example, a 2000 core hour project gets priority 70000 when it has used more than 2000 core hours, gets priority 60000 when it has used more than 4000 core hours, gets priority 50000 when it has used more than 6000 core hours, and so on. The lowest grade gives priority 10000 and does not go down from there.
+        - The number of minutes the job has been waiting in queue (for a maximum of 20160 after fourteen days).
+        - A job size number, higher for more nodes allocated to your job, for a maximum of 104.
+        - A very, very high number for "short" jobs, i.e. very short jobs that is not wider than four nodes.
+        - If your job priority is zero or one, there are more serious problems, for example that you asked for more resources than the batch system finds on the system.
 
-If you ask for a longer run time (TimeLimit) than the maximum on the system, your job will not run. The maximum is currently ten days. If you must run a longer job, submit it with a ten-day runtime and contact UPPMAX support.
+    - If you ask for a longer run time (TimeLimit) than the maximum on the system, your job will not run. The maximum is currently ten days. If you must run a longer job, submit it with a ten-day runtime and contact UPPMAX support.
 
