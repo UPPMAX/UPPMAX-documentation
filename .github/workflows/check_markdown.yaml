@@ -22,7 +22,3 @@ jobs:
         uses: actions/checkout@v2
 
       - uses: articulate/actions-markdownlint@v1
-
-      - name: Make the error silent
-        run: echo "Make the error silent"
-        if: always()
