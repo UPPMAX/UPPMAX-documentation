@@ -1,15 +1,15 @@
-# Discovering job resource usage with jobstats
+# `jobstats`
 
-???- question "InfoGlue path?"
+![jobstats plot](jobstats_c_555912-l_1-k_bad_job_01.png)
 
-    In IG Support / User guides / Jobstats user guide
 
 `jobststats` is an UPPMAX tool to enable discovery of resource usage 
 for jobs submitted to the [Slurm](../cluster_guides/slurm.md) job queue.
 
 ```
-jobstats -p [options] [ -M cluster ] [ jobid [ jobid ... ] | -A project | - ]
+jobstats --plot [options] [ -M cluster ] [ jobid [ jobid ... ] | -A project | - ]
 ```
+
 With the -p/--plot option, a plot is produced from the jobstats for each
 jobid.  Plots contain one panel per booked node showing CPU (blue) and memory
 usage (black) traces and include text lines indicating the job number, cluster,
@@ -33,7 +33,7 @@ or [login to a remote desktop](../getting_started/login.md)
 # generate the plots
 
 ```
-$ jobstats -p -A b2015999
+$ jobstats --plot -A b2015999
 ```
 
 and then you can use the image viewer eog to view the files.
@@ -111,7 +111,7 @@ In the example command lines below, the -p/--plot option requests that plots of 
 Discovery by job number for a completed job:
 
 ```
-jobstats -p jobid1 jobid2 jobid3
+jobstats --plot jobid1 jobid2 jobid3
 ```
 The job numbers valid on the cluster. finishedjobinfo is used to determine further information for each job. This can be rather slow, and a message asking for your patience is printed for each job. If multiple queries are expected it would be quicker to run finishedjobinfo yourself separately, see Mode 4 below. See Mode 2 for a currently running job.
 
@@ -120,7 +120,7 @@ The job numbers valid on the cluster. finishedjobinfo is used to determine furth
 Discovery by job number for a currently running job.
 
 ```
-jobstats -p -r jobid1 jobid2 jobid3
+jobstats --plot -r jobid1 jobid2 jobid3
 ```
 
 Job numbers of jobs currently running on the cluster. The SLURM squeue tool is used to determine further information for each running job.
@@ -130,7 +130,7 @@ Job numbers of jobs currently running on the cluster. The SLURM squeue tool is u
 Discovery by node and job number, for a completed or running job.
 
 ```
-jobstats -p -n m15,m16 jobid
+jobstats --plot -n m15,m16 jobid
 ```
 
 `finishedjobinfo` is not called and 
@@ -143,7 +143,7 @@ or which nodes you are interested in, this will be much faster than Mode 1.
 Discovery by project.
 
 ```
-jobstats -p -A project
+jobstats --plot -A project
 ```
 
 When providing a project name that is valid for the cluster, finishedjobinfo is used to determine further information on jobs run within the project. As for Mode 1, this can be rather slow, and a message asking for your patience is printed. Furthermore only finishedjobinfo defaults for time span etc. are used for job discovery. If multiple queries are expected or additional finishedjobinfo options are desired, see Mode 5 below.
