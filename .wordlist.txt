@@ -3357,3 +3357,6 @@ xz
 YYXXX
 zstd
 ZZZZ
+Distro
+harddisk
+
