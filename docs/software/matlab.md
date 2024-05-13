@@ -30,6 +30,20 @@ That will start a matlab session with the common GUI. Use "&" to have MATLAB in 
 
 A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
 
+### First time, since May 13 2024
+
+- If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
+
+- After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
+
+```console
+$ module load matlab
+$ configCluster.sh <project-ID>    # Note: no '-A'
+```
+- This will run a short configuration job in an interactive session, closing itself when done.
+- Jobs will now default to the cluster rather than submit to the local machine.
+
+
 ## Introduction
 
 Using MATLAB on the cluster enables you to utilize high performance facilities like:
@@ -111,6 +125,20 @@ You may get the best of the MATLAB graphics by runing it the ThinLinc environmen
 You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se/getting_started/login_rackham/#thinlinc-all-platforms).
 
 ## How to run parallel jobs
+
+### First time, since May 13 2024
+
+- If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
+
+- After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
+
+```console
+$ module load matlab
+$ configCluster.sh <project-ID>    # Note: no '-A'
+```
+- This will run a short configuration job in an interactive session, closing itself when done.
+- Jobs will now default to the cluster rather than submit to the local machine.
+
 
 ### Two MATLAB commands
 
