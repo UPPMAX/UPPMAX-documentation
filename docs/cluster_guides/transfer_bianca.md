@@ -1,9 +1,5 @@
 # File transfer to/from Bianca
 
-!!! warning
-
-    It is important to keep the entire chain of transferring the data secure
-
 ```mermaid
 flowchart LR
   subgraph sunet[SUNET]
@@ -12,20 +8,21 @@ flowchart LR
     end
     transit[transit server]
     sftp_server[SFTP server]
-    rackham[Rackham]
-    user_in_sunet[User in SUNET]
+    user[User in SUNET\nUser on Rackham\nUser on other NAISSS clusters\n]
     wharf <--> transit
     wharf <--> sftp_server
-    transit <--> rackham
-    transit <--> user_in_sunet
-    sftp_server <--> rackham
-    sftp_server <--> user_in_sunet
+    transit <--> user
+    sftp_server <--> user
   end
 ```
 
 [File transfer](file_transfer.md) is the process of getting files 
 from one place to the other. This page shows how to do [file transfer](file_transfer.md) to/from
 the [Bianca](bianca.md) UPPMAX cluster.
+
+!!! warning
+
+    It is important to keep the entire chain of transferring the data secure
 
 ## File transfer methods
 
