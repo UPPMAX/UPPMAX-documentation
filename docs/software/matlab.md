@@ -34,6 +34,8 @@ A good and important suggestion is that you always specify a certain version. Th
 
 - If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
     - only needs to be called once per version of MATLAB.
+    - Note, however, that on Bianca this has to be done separately.
+
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
@@ -41,7 +43,6 @@ $ module load matlab
 $ configCluster.sh <project-ID>    # Note: no '-A'
 ```
 
-- Note, that on Bianca, this has to be done separately.
 - This will run a short configuration job in an interactive session, closing itself when done.
 - Jobs will now default to the cluster rather than submit to the local machine.
 
@@ -132,6 +133,7 @@ You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se
 
 - If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
     - only needs to be called once per version of MATLAB.
+    - Note, however, that on Bianca this has to be done separately.
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
@@ -139,7 +141,6 @@ $ module load matlab
 $ configCluster.sh <project-ID>    # Note: no '-A'
 ```
 
-- Note, that on Bianca, this has to be done separately.
 - This will run a short configuration job in an interactive session, closing itself when done.
 - Jobs will now default to the cluster rather than submit to the local machine.
 
