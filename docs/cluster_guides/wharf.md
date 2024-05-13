@@ -1,7 +1,7 @@
 # `wharf`
 
 `wharf` is a folder on [Bianca](bianca.md) used 
-for [file transfer on Bianca](tranfer_bianca.md).
+for [file transfer on Bianca](transfer_bianca.md).
 
 He it is described:
 

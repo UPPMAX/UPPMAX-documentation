@@ -10,7 +10,7 @@
     using FileZilla, watch the video
     [here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
 
-FileZilla is a [graphical tool to do file transfer to/from Bianca](bianca_fila_transfer_using_gui.md),
+FileZilla is a [graphical tool to do file transfer to/from Bianca](bianca_file_transfer_using_gui.md),
 that works under Linux, Mac and Windows.
 
 To transfer files to/from Bianca using FileZilla, do the following steps:

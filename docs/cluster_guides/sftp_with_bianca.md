@@ -1,7 +1,7 @@
 # Using `sftp` with Bianca
 
-[`sftp`](../software/sftp) is a command-line program
-to [transfer files to/from Bianca](tranfer_bianca.md).
+[`sftp`](../software/sftp.md) is a command-line program
+to [transfer files to/from Bianca](transfer_bianca.md).
 
 ## Usage
 
