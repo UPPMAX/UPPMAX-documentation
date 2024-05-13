@@ -39,7 +39,7 @@ For example:
 
 ## `wharf` use
 
-To [transfer data from/to Bianca](tranfer_bianca.md), 
+To [transfer data from/to Bianca](transfer_bianca.md), 
 `wharf` is to folder where files are sent to/from.
 
 Do not keep files in `wharf`, as this folder is connected to the outside

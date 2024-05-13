@@ -1,7 +1,7 @@
 # Using `lftp` with Bianca
 
 `lftp` is a command-line program
-to [transfer files to/from Bianca](tranfer_bianca.md).
+to [transfer files to/from Bianca](transfer_bianca.md).
 
 With the command line SFTP client `lftp`, 
 you need to "set net:connection_limit 1". 
