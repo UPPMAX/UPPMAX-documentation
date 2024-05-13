@@ -33,7 +33,7 @@ A good and important suggestion is that you always specify a certain version. Th
 ### First time, since May 13 2024
 
 - If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
-
+    - only needs to be called once per version of MATLAB.
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
@@ -131,7 +131,7 @@ You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se
 ### First time, since May 13 2024
 
 - If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
-
+    - only needs to be called once per version of MATLAB.
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
