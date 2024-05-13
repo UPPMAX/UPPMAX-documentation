@@ -25,7 +25,7 @@ Tool                                                |Description
 [WinSCP](bianca_file_transfer_using_winscp.md)      |Windows-only
 
 When using such a graphical tool,
-one needs to be inside of SUNET.
+one needs [to be inside of SUNET](../getting_started/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
@@ -98,8 +98,8 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 
 In general, one can pick any graphical tools with these constraints:
 
-* the tool must support SFTP
-* the tool must not store a password
+ * the tool must support SFTP
+ * the tool must not store a password
 
 Whatever tool one picks, it must do secure file transfer.
 For secure file transfer, Bianca supports the SFTP protocol.

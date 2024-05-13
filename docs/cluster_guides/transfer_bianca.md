@@ -20,9 +20,10 @@ flowchart LR
 from one place to the other. This page shows how to do [file transfer](file_transfer.md) to/from
 the [Bianca](bianca.md) UPPMAX cluster.
 
-!!! warning
+For all file transfer on Bianca:
 
-    It is important to keep the entire chain of transferring the data secure
+ * [The user needs to be inside of SUNET](../getting_started/get_inside_sunet.md)
+ * The files are moved from/to [the `wharf` folder](wharf.md)
 
 ## File transfer methods
 
@@ -30,46 +31,22 @@ There are multiple ways to transfer files to/from Bianca:
 
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
-[Using a graphical program](#gui-sftp-clients), see below     |Graphical interface, intuitive, for small amounts of data only
-Using standard command line SFTP client, see below            |Terminal, easy to learn, terminal-based, can use terminal commands to select files
+[Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
+[Using `sftp`](#using-sftp)                                   |Terminal, easy to learn, terminal-based, can use terminal commands to select files
+[Using `lftp`](#using-lftp)                                   |Terminal
 Transit server from/to Rackham, see below                     |Terminal, can be used to transfer data between clusters in general
 [Mounting `wharf` on your local computer](#mounting-wharf)    |Both graphical and terminal, need a computer with `sshfs` installed
 
-All file transfer on Bianca uses [the `wharf` folder](wharf.md).
 
-## GUI SFTP clients
----
+## Using a graphical program
 
-???- tip "Need a more detailed explanation?"
+To transfer files to/from [Bianca](bianca.md)
+one can use a graphical tool, such as FileZilla and WinSCP.
+See [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
+for details.
 
-    See [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
-    for a step-by-step guide how to transfer files using
-    a graphical tool.
+## Using `sftp`
 
-- Please note that **SFTP is NOT the same as SCP**.
-Be sure to really use a SFTP client -- not just a SCP client.
-
-- Also be aware that many SFTP clients use reconnects (with a cached version of your password). This will not work for Bianca, because of the second factor authentication! Other clients try to use multiple connections with the same password, which will fail as well.
-
-- So for example with the command line SFTP client LFTP, you need to "set net:connection_limit 1". LFTP may also defer the actual connection until it's really required unless you end your connect URL with a path.
-
-- An example command line for LFTP would be
-
-`lftp sftp://<username>-<projname>@bianca-sftp.uppmax.uu.se/<username>-<projname>/`
-
-### WinSCP (Windows)
-- Connect from local computer
-
-![WinSCP](../img/winscp-snaphot1.png)
-
-### FileZilla (Linux/MacOS/Windows)
-- Asks for password every time you transfer files
-- Connect from local computer
-
-![FileZilla](../img/filezilla-snapshot.png)
-
-
-## Using standard SFTP client (command line)
 ---
 <../software/sftp.md>
 
@@ -117,39 +94,28 @@ E.g.
 ```
 - `sftp` supports a recursive flag `-r` to upload (`put -r folder_name`) or download (`get -r folder_name`) entire folders and subfolders.
 
+## Using `lftp`
+
+With the command line SFTP client LFTP, 
+you need to "set net:connection_limit 1". 
+LFTP may also defer the actual connection 
+until it's really required unless you end your connect URL with a path.
+
+An example command line for LFTP would be:
+
+```
+lftp sftp://<username>-<projname>@bianca-sftp.uppmax.uu.se/<username>-<projname>/
+```
 
 ## Transit server
----
-- To facilitate secure data transfers to, from, and within the system for computing on sensitive data a special service is available via SSH at `transit.uppmax.uu.se`.
 
-```bash
-Transit server
+To facilitate secure data transfers to, from, 
+and within the system for computing on sensitive data a special service is available 
+via SSH at `transit.uppmax.uu.se`.
 
-You can mount bianca wharf with the command
+![A user that is logged in to Transit](./img/logged_in_transit.png)
 
-mount_wharf PROJECT [path]
-
-If you do not give a path the mount will show up as PROJECT in your home
-directory.
-
-Note; any changes you do to your normal home directory will not persist.
-```
-
-- Example
-
-```bash
-$ ssh my_user@transit.uppmax.uu.se
-
-my_user@transit:~$ mount_wharf sens2023531
-Mounting wharf (accessible for you only) to /home/<user>/sens2023531
-<user>-sens2023531@bianca-sftp.uppmax.uu.se's password:
-```
-- Enter password + F2A
-
-```bash
-my_user@transit:~$ ls sens2023531/
-my_user@transit:~$
-```
+See [the UPPMAX documentation on the Transit server](transit.md).
 
 - Note that your home directory is mounted _read-only_, any changes you do to your "local" home directory (on transit) will be lost upon logging out.
 
@@ -185,9 +151,11 @@ rsync -avh my_user@rackham.uppmax.uu.se:path/my_files ~/sens2023531/
 
 ### Moving data between projects
 
-- You can use transit to transfer data between projects by mounting the wharfs for the different projects and transferring data with ``rsync``.
-- Note that you may of course only do this if this is allowed (agreements, permissions, etc.)
-
+- You can use transit to transfer data between projects 
+  by mounting the wharfs for the different projects 
+  and transferring data with `rsync`.
+- Note that you may of course only do this if this is allowed 
+  (agreements, permissions, etc.)
 
 ## Mounting `wharf` on your local computer
 
@@ -201,17 +169,9 @@ See [the UPPMAX documentation of `wharf`](wharf.md) on how to do so.
 
 !!! info "Summary"
 
-    - Make sure you access Bianca from SUNET Network - use VPN, connect from Rackham, use university connection...
-    - For simple transfers use SFP to connect to `bianca-sftp.uppmax.uu.se` - use command line `sftp` or tools that support SFTP protocol.
+    - For simple transfers use SFTP to connect to `bianca-sftp.uppmax.uu.se` - use command line `sftp` or tools that support SFTP protocol.
     - For `rsync` - sync files to pre-mounted wharf folder from Rackham or secure local computer.
     - Keep in mind that project folders on Rackham are not available on transit.
-
-!!! abstract "keypoints"
-    - The "WHARF" works like a dock at the harbour.
-    - There are several ways to use the wharf to transfer files
-        - copy
-        - transit server
-        - rsync, scp/sftp
 
 ## Bianca file transfer as image
 
