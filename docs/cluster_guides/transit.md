@@ -30,11 +30,13 @@ Transit is an UPPMAX service that can be used to securely transfer files.
     Here, 'putting an address on the letter'
     is to copy the file to the desired location.
 
-This page shows how to login to Transit.
+This page shows:
 
-For file transfer using Transit see [here](transfer_transit.md).
+- [how to log in to Transit](#log-in-to-transit)
+- [software on Transit](#software-on-transit)
+- [file transfer using Transit](transfer_transit.md).
 
-## Login to Transit
+## Log in to Transit
 
 Below is a step-by-step procedure to login to Transit.
 
