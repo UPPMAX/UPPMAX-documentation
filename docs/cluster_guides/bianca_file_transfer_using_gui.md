@@ -1,4 +1,4 @@
-# File transfer to/from Bianca, using a graphical tool
+# File transfer to/from Bianca using a graphical tool
 
 ![](./img/filezilla_login_to_bianca_236_x_266.png)
 
@@ -16,15 +16,23 @@ to Bianca using a graphical tool/program.
 There are constraints on which programs
 we can use, due to Bianca being an HPC cluster
 for sensitive data.
-Details are described in 'Bianca's constraints'.
+Details are described in 'Bianca's constraints',
+here are graphical tools that work:
+
+Tool                                                |Description
+----------------------------------------------------|---------------------
+[FileZilla](bianca_file_transfer_using_filezilla.md)|All operating systems
+[WinSCP](bianca_file_transfer_using_winscp.md)      |Windows-only
 
 When using such a graphical tool,
 one needs to be inside of SUNET.
-FileZilla is a tool that is easy to setup.
-The full procedure is described in 'Using FileZilla'.
 
-The files you transfer will end up in your so-called `wharf` folder.
-Where to find this folder is shown in the section 'Where do my files end up?'.
+???- question "Forgot how to get within SUNET?"
+
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+
+When a tool is setup, one can only transfer files 
+between you local computer and [your Bianca `wharf` folder](wharf.md).
 
 ## Bianca's constraints
 
@@ -118,120 +126,6 @@ One tool that can be used for file transfer to Bianca
 is FileZilla, which is described in detail below.
 The extra materials at the bottom of this page contain
 other tools.
-
-## Using FileZilla
-
-![FileZilla logo, from https://en.wikipedia.org/wiki/FileZilla#/media/File:FileZilla_logo.svg](./img/filezilla_logo_240_x_240.png)
-
-> The FileZilla logo
-
-???- question "Would you like a video?"
-
-    If you like to see how to do file tranfer from/to Bianca
-    using FileZilla, watch the video
-    [here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
-
-FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
-
-To transfer files to/from Bianca using FileZilla, do:
-
-- Get inside SUNET
-
-???- question "Forgot how to get within SUNET?"
-
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
-
-- Start FileZilla
-- From the menu, select 'File | Site manager'
-
-???- tip "Where is that?"
-
-    It is here:
-
-    ![](./img/filezilla_file_site_manager.png)
-
-    > The FileZilla 'File' menu contains the item 'Site manager'
-
-- Click 'New site'
-
-???- tip "Where is that?"
-
-    It is here:
-
-    ![](./img/filezilla_site_manager.png)
-
-- Create a name for the site, e.g. `bianca-sens123456`.
-- For that site, use all standards, except:
-    - Set protocol to 'SFTP - SSH File Transfer Protocol'
-    - Set host to `bianca-sftp.uppmax.uu.se`
-    - Set user to `[username]-[project]`, e.g. `richel-sens123456`
-
-???- tip "How does that look like?"
-
-    It looks similar to these:
-
-    ![](./img/filezilla_setup_bianca_pavlin.png)
-
-    ![](./img/filezilla_setup_bianca_richel.png)
-
-!!! tip "Storing a password is useless"
-
-    Because Bianca holds sensitive data,
-    there is need to use the UPPMAX two-factor authentication
-    code every time you login.
-    Due to this, storing a password is hence useless
-
-- Click 'Connect'
-- You will be asked for your password with two-factor identification, hence
-  type `[your password][2FA code]`, e.g. `VerySecret123456`
-
-Now you can transfer files between your local computer and Bianca.
-
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![](./img/filezilla_login_to_bianca.png)
-
-## Where do my files end up?
-
-They end up in your personal `wharf` folder.
-
-Its location is at `/home/[user_name]/[project_name]/nobackup/wharf/[user_name]/[user_name]-[project_name]`,
-for example, at `/home/sven/sens123456/nobackup/wharf/sven/sven-sens123456`.
-
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![](./img/filezilla_file_on_bianca.png)
-
-## Extra material
-
-### WinSCP
-
-WinSCP is a secure file transfer tool that works under Windows.
-
-To transfer files to/from Bianca using WinSCP, do:
-
-- Get inside SUNET
-
-???- question "Forgot how to get within SUNET?"
-
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
-
-- Start WinSCP
-- Create a new site
-- For that site, use all standards, except:
-    - Set file protocol to 'SFTP'
-    - Set host name to `bianca-sftp.uppmax.uu.se`
-    - Set user name to `[username]-[project]`, e.g. `richel-sens123456`
-
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![WinSCP](./img/winscp-snaphot1.png)
 
 ### File transfer overview
 
