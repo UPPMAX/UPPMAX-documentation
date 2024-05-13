@@ -40,6 +40,7 @@ A good and important suggestion is that you always specify a certain version. Th
 $ module load matlab
 $ configCluster.sh <project-ID>    # Note: no '-A'
 ```
+
 - Note, that on Bianca, this has to be done separately.
 - This will run a short configuration job in an interactive session, closing itself when done.
 - Jobs will now default to the cluster rather than submit to the local machine.
@@ -137,6 +138,7 @@ You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se
 $ module load matlab
 $ configCluster.sh <project-ID>    # Note: no '-A'
 ```
+
 - Note, that on Bianca, this has to be done separately.
 - This will run a short configuration job in an interactive session, closing itself when done.
 - Jobs will now default to the cluster rather than submit to the local machine.
