@@ -5,6 +5,10 @@ to [transfer files to/from Bianca](tranfer_bianca.md).
 
 ## Usage
 
+???- question "Would you enjoy a video?"
+
+    A video showing how to `sftp` with Bianca can be found [here](https://youtu.be/URWIubTVSZQ).
+
 [When inside of SUNET](../getting_started/get_inside_sunet.md)
 (which can be on a local computer or on [Rackham](rackham.md)) do:
 
