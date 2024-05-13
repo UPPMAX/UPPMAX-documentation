@@ -56,16 +56,8 @@ See [using `sftp` with Bianca](sftp_with_bianca.md).
 
 ## Using `lftp`
 
-With the command line SFTP client LFTP, 
-you need to "set net:connection_limit 1". 
-LFTP may also defer the actual connection 
-until it's really required unless you end your connect URL with a path.
-
-An example command line for LFTP would be:
-
-```
-lftp sftp://<username>-<projname>@bianca-sftp.uppmax.uu.se/<username>-<projname>/
-```
+`sftp` is a terminal SFTP client to transfer files to/from Bianca.
+See [using `lftp` with Bianca](lftp_with_bianca.md).
 
 ## Transit server
 
