@@ -75,3 +75,37 @@ it to your list of known hosts. Type `yes`.
 You are now logged in to Transit!
 
 ![](./img/logged_in_transit.png)
+
+## Software on Transit
+
+While logged in to Transit, 
+you cannot make lasting changes to anything, 
+except for mounted wharf directories. 
+However, anything you have added to your Rackham home directory 
+is available on Transit. 
+
+In addition, some modules are available.
+
+ * SciLifeLab Data Delivery System - [https://delivery.scilifelab.se/](https://delivery.scilifelab.se/)
+
+    ```bash
+    # Load the tool from the software module tree
+    module load bioinfo-tools dds-cli
+
+    # Run the tool
+    dds
+    ```
+  ![dds-cli](../img/dds-cli.png)
+
+To download data from TCGA, 
+log in to Rackham and install the GDC client to your home directory. 
+Then log in to Transit, mount the wharf, and run ./gdc-client.
+
+!!! warning "2FA on transit"
+
+    If you connect from abroad and 
+    you are asked for the **2FA** (_two factor authentication_), 
+    there is a grace period (_about 5 minutes_) in which you can 
+    `ssh`/`scp`/`rsync`/`sftp` to **transit** without the need for **2FA**. 
+    This allows you to use these and other tools 
+    that might experience problems with the **2FA**.
