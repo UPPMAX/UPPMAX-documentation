@@ -1,8 +1,8 @@
 # File transfer to/from Bianca using FileZilla
 
-![FileZilla logo, from https://en.wikipedia.org/wiki/FileZilla#/media/File:FileZilla_logo.svg](./img/filezilla_logo_240_x_240.png)
+![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
 
-> The FileZilla logo
+> FileZilla connected to Bianca
 
 ???- question "Would you like a video?"
 

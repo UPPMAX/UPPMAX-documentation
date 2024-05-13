@@ -40,6 +40,10 @@ Transit server from/to Rackham, see below                     |Terminal, can be 
 
 ## Using a graphical program
 
+![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
+
+> FileZilla connected to Bianca
+
 To transfer files to/from [Bianca](bianca.md)
 one can use a graphical tool, such as FileZilla and WinSCP.
 See [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
@@ -47,52 +51,8 @@ for details.
 
 ## Using `sftp`
 
----
-<../software/sftp.md>
-
-```bash
-$ sftp -q <username>-<projid>@bianca-sftp.uppmax.uu.se
-```
- Ex.
-```bash
-$ sftp -q myuser-sens2023598@bianca-sftp.uppmax.uu.se
-```
-
-The `-q` flag is to be quiet (not showing the banner intended to help someone trying to ``ssh`` to the host), if your client does not support it, you can just skip it.
-
-Use your normal UPPMAX password directly followed by
-the six digits from the second factor application.
-
-Ex. if your password is "VerySecret" and the second factor code is 123 456 you would type VerySecret123456 as the password in this step.
-
-Once connected you will have to type the sftp commands to upload/download files. Have a look at the Basic SFTP commands guide to get started with it.
-
-Please note that in the wharf you only have access to upload your files to the directory that is named:
-
-`<username>-<projid>` e.g. `myuser-sens2023598`
-
-Example:
-```bash
-$ sftp -q  pmitev-sens2023598@bianca-sftp.uppmax.uu.se
-pmitev-sens2023598@bianca-sftp.uppmax.uu.se's password:
-
-sftp> ls
-pmitev-sens2023598
-
-sftp> cd pmitev-sens2023598
-sftp>
-```
-
-Alternatively, you can specify this at the end of the sftp command, so that you will always end up in the correct folder directly.
-
-```bash
-$ sftp -q <username>-<projid>@bianca-sftp.uppmax.uu.se:<username>-<projid>
-```
-E.g.
-```bash
-`$ sftp -q myuser-sens2023598@bianca-sftp.uppmax.uu.se:myuser-sens2023598
-```
-- `sftp` supports a recursive flag `-r` to upload (`put -r folder_name`) or download (`get -r folder_name`) entire folders and subfolders.
+`sftp` is a terminal SFTP client to transfer files to/from Bianca.
+See [using `sftp` with Bianca](sftp_with_bianca.md).
 
 ## Using `lftp`
 
