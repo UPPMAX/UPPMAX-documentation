@@ -4,7 +4,24 @@
 
     It is important to keep the entire chain of transferring the data secure
 
-![Bianca](../img/Bianca-transfer.png)
+```mermaid
+flowchart LR
+  subgraph sunet[SUNET]
+    subgraph bianca[Bianca]
+      wharf
+    end
+    transit[transit server]
+    sftp_server[SFTP server]
+    rackham[Rackham]
+    user_in_sunet[User in SUNET]
+    wharf <--> transit
+    wharf <--> sftp_server
+    transit <--> rackham
+    transit <--> user_in_sunet
+    sftp_server <--> rackham
+    sftp_server <--> user_in_sunet
+  end
+```
 
 [File transfer](file_transfer.md) is the process of getting files 
 from one place to the other. This page shows how to do [file transfer](file_transfer.md) to/from
@@ -198,4 +215,8 @@ See [the UPPMAX documentation of `wharf`](wharf.md) on how to do so.
         - copy
         - transit server
         - rsync, scp/sftp
+
+## Bianca file transfer as image
+
+![Bianca](../img/Bianca-transfer.png)
 
