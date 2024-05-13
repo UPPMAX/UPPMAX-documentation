@@ -2,7 +2,7 @@
 
 The MATLAB module
 
-MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023a``
+MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023b``
 
 Doing:
 
