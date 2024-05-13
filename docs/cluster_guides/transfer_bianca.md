@@ -6,37 +6,22 @@
 
 ![Bianca](../img/Bianca-transfer.png)
 
+[File transfer](file_transfer.md) is the process of getting files 
+from one place to the other. This page shows how to do [file transfer](file_transfer.md) to/from
+the [Bianca](bianca.md) UPPMAX cluster.
+
+## File transfer methods
+
 There are multiple ways to transfer files to/from Bianca:
 
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#gui-sftp-clients), see below     |Graphical interface, intuitive, for small amounts of data only
 Using standard command line SFTP client, see below            |Terminal, easy to learn, terminal-based, can use terminal commands to select files
-Transit Server from/to Rackham, see below                     |Terminal, can be used to transfer data between clusters in general
-Mounting the wharf on your local computer, see below          |Both graphical and terminal, need a computer with `sshfs` installed
+Transit server from/to Rackham, see below                     |Terminal, can be used to transfer data between clusters in general
+[Mounting `wharf` on your local computer](#mounting-wharf)    |Both graphical and terminal, need a computer with `sshfs` installed
 
-After discussing the `wharf`, each of these methods is discussed in detail.
-
-## The `wharf`
-
-The `wharf` is like a "postbox" :postbox: for data/file exchange between the Internet restricted Bianca cluster and the remaining of the World Wide Internet. This "postbox" is reachable to transfer data from two internal servers -
-`bianca-sftp.uppmax.uu.se` and `transit.uppmax.uu.se`.
-
----
-**The `wharf` location on Bianca**
-
-- The path to this special folder, once you are logged into your project's cluster, is:
-```
-/proj/<projid>/nobackup/wharf/<username>/<username>-<projid>
-```
-Example:
-```
-/proj/sens2023598/nobackup/wharf/myuser/myuser-sens2023598
-```
-
-- To transfer data from Bianca, copy/move the files/folders you want in that folder.
-- On Bianca you have full access to your `wharf` and readonly access to other's project users `wharf`s.
-
+All file transfer on Bianca uses [the `wharf` folder](wharf.md).
 
 ## GUI SFTP clients
 ---
@@ -162,6 +147,7 @@ my_user@transit:~$
 ### Moving data from transit to Rackham
 
 - **On Rackham:** (_or other computer_) copy files to Bianca via transit:
+
 ```bash
 # scp
 scp path/my_files my_user@transit.uppmax.uu.se:sens2023531/
@@ -188,7 +174,6 @@ rsync -avh my_user@rackham.uppmax.uu.se:path/my_files ~/sens2023531/
 - You can use transit to transfer data between projects by mounting the wharfs for the different projects and transferring data with ``rsync``.
 - Note that you may of course only do this if this is allowed (agreements, permissions, etc.)
 
-
 ### Software on Transit
 
 - While logged in to Transit, you cannot make lasting changes to anything except for mounted wharf directories. However, anything you have added to your Rackham home directory is available on Transit. In addition, some modules are available.
@@ -208,6 +193,14 @@ rsync -avh my_user@rackham.uppmax.uu.se:path/my_files ~/sens2023531/
 !!! warning "2FA on transit"
     If you connect from abroad and you are asked for the **2FA** (_two factor authentication_), there is a grace period (_about 5 minutes_) in which you can `ssh`/`scp`/`rsync`/`sftp` to **transit** without the need for **2FA**. This allows you to use these and other tools that might experience problems with the **2FA**.
 
+## Mounting `wharf` on your local computer
+
+Mounting `wharf` means that a `wharf` folder is added to the
+filesystem of your local computer, after which you can use
+it like any other folder.
+
+See [the UPPMAX documentation of `wharf`](wharf.md) on how to do so.
+
 ---
 
 !!! info "Summary"
@@ -224,17 +217,3 @@ rsync -avh my_user@rackham.uppmax.uu.se:path/my_files ~/sens2023531/
         - transit server
         - rsync, scp/sftp
 
-## Mounting the SFTP-server with ``sshfs`` on you local machine
----
-**Mount the wharf on your machine**
-
-- This is only possible on your own system.
-- ``sshfs`` allows you to mount the ``wharf`` on your own machine.
-- You will be able to copy and work on the data using your own local tools such as ``cp`` or ``vim``.
-- Remember that you are neither logged in on the distant server, nor is the data physically on your local disk (until you have copied it).
-
-!!! warning
-    - UPPMAX doesn't have ``sshfs`` client package installed for security reasons.
-    - ``sshfs`` is available on most Linux distributions:
-        - install the package ``sshfs`` on Ubuntu,
-        - ``fuse-sshfs`` on Fedora, RHEL7/CentOS7 (enable EPEL repository) and RHEL8 (enable codeready-builder repository) / CentOS8 (enable powertools repository).
