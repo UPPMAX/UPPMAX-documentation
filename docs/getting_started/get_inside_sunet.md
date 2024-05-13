@@ -16,10 +16,6 @@ Each of these three ways are described below.
 ```mermaid
 flowchart TD
 
-    %% Give a white background, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-    classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
-
     subgraph sub_outside[IP outside SUNET]
       outside(Physically outside SUNET)
     end
@@ -29,12 +25,6 @@ flowchart TD
       inside_using_vpn(Inside SUNET using VPN)
       inside_using_rackham(Inside SUNET using Rackham)
     end
-
-    %% Shared subgraph color scheme
-    style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    %% style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    %% style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Outside SUNET
     outside-->|Move physically|physically_inside
