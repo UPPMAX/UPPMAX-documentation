@@ -50,7 +50,7 @@ The software table is generated on each deploy on GitHub actions,
 so you have to do that manually if you want to view it locally:
 
 ``` bash
-python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
+./scripts/create_software_table.sh
 ```
 
 ### Text-to-speech
@@ -82,4 +82,3 @@ The website is created using
 [mkdocs-material](https://squidfunk.github.io/mkdocs-material). The landing
 page and layout was inspired by the documentation of the HPC cluster
 [LUMI](https://docs.lumi-supercomputer.eu/).
-
