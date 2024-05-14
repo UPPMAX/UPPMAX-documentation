@@ -70,11 +70,12 @@ python3 scripts/md_to_speech.py --input txt.md --lang en
 
 ## Files used by continuous integration scripts
 
-Filename                           |Descriptions
------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
-[mlc_config.json](mlc_config.json) |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
-[.spellcheck.yml](.spellcheck.yml) |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
-[.wordlist.txt](.wordlist.txt)     |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+Filename                              |Descriptions
+--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
+[mlc_config.json](mlc_config.json)    |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
+[.spellcheck.yml](.spellcheck.yml)    |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[.wordlist.txt](.wordlist.txt)        |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[markdownlint.json](markdownlint.json)|Configuration of the markdown linter, use `markdownlint --config markdownlint.json **/*.md` to do markdown linting locally
 
 ## Credits
 
