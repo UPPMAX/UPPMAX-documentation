@@ -16,7 +16,7 @@ flowchart LR
   end
 ```
 
-[File transfer](file_transfer.md) is the process of getting files 
+[File transfer](file_transfer.md) is the process of getting files
 from one place to the other. This page shows how to do [file transfer](file_transfer.md) to/from
 the [Bianca](bianca.md) UPPMAX cluster.
 
@@ -61,8 +61,8 @@ See [using `lftp` with Bianca](lftp_with_bianca.md).
 
 ## Transit server
 
-To facilitate secure data transfers to, from, 
-and within the system for computing on sensitive data a special service is available 
+To facilitate secure data transfers to, from,
+and within the system for computing on sensitive data a special service is available
 via SSH at `transit.uppmax.uu.se`.
 
 ![A user that is logged in to Transit](./img/logged_in_transit.png)
@@ -103,10 +103,10 @@ rsync -avh my_user@rackham.uppmax.uu.se:path/my_files ~/sens2023531/
 
 ### Moving data between projects
 
-- You can use transit to transfer data between projects 
-  by mounting the wharfs for the different projects 
+- You can use transit to transfer data between projects
+  by mounting the wharfs for the different projects
   and transferring data with `rsync`.
-- Note that you may of course only do this if this is allowed 
+- Note that you may of course only do this if this is allowed
   (agreements, permissions, etc.)
 
 ## Mounting `wharf` on your local computer

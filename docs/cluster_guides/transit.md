@@ -1,6 +1,6 @@
 # Transit
 
-[Transit](../cluster_guides/transit.md) 
+[Transit](../cluster_guides/transit.md)
 is an UPPMAX service that can be used to securely transfer files.
 
 ???- question "Is Transit a file server?"

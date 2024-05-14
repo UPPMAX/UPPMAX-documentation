@@ -53,7 +53,7 @@ In the 'Site Manager' dialog, click 'New site'
 
 In the 'New Site' dialog, create a name for the site, e.g. `bianca-sens123456`.
 
-## 6. Configure site 
+## 6. Configure site
 
 In the 'New Site' dialog, use all standards, except:
 

@@ -14,10 +14,10 @@ At this page, it is described:
  * [Examples](#example): Examples of ineffective resource use plots
  * Other `jobstats` functionality
    * Using `jobstats --help`
-  
+
 ## `jobstats --plot`
 
-With the `--plot` (or `-p`) option, 
+With the `--plot` (or `-p`) option,
 a plot is produced showing the resource use per node
 for a job that completed successfully and took longer than 5 minutes.
 
@@ -93,7 +93,7 @@ flowchart TD
   done(Done)
   blue_line_close_to_top --> |yes| done
   blue_line_close_to_top --> |no| black_line_close_to_top
-  black_line_close_to_top --> |yes| done  
+  black_line_close_to_top --> |yes| done
   black_line_close_to_top --> |no| can_decrease_number_of_cores
   can_decrease_number_of_cores --> |yes| decrease_number_of_cores
   can_decrease_number_of_cores --> |no| done
@@ -126,11 +126,11 @@ flowchart TD
 
     Because CPU is more flexible.
 
-    For example, imagine a job with a short CPU spike, 
+    For example, imagine a job with a short CPU spike,
     that can be processed by 16 CPUs.
     If 1 core of memory is enough, use 1 core or memory:
     the spike will be turned into a 100% CPU use (of that one core)
-    for a longer duration. 
+    for a longer duration.
 
 ???- question "Need a worked-out example?"
 
@@ -188,7 +188,7 @@ inefficiently, see [the examples below](#examples)
 
 ## Examples
 
-Here are some examples of how inefficient jobs can look 
+Here are some examples of how inefficient jobs can look
 and what you can do to make them more efficient.
 
 ### Inefficient job example 1: booking too much cores
@@ -217,7 +217,7 @@ This means booking 5 cores is recommended.
 
 ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
 
-This is one of the grayer areas: 
+This is one of the grayer areas:
 booking 2-9 cores is all considered reasonable.
 
 > Pick the number of cores to have enough memory
@@ -268,7 +268,7 @@ This is around 6 cores (600%), as with that amount of cores:
   that is 0 too much
 - only rarely, there is a little spike up or a bigger spike down
 
-There are no signs of anything slowing them down, as the line is very even. 
+There are no signs of anything slowing them down, as the line is very even.
 
 This jobs should either have been booked with 6 cores, or the program running should be told to use all 8 cores.
 
@@ -276,44 +276,44 @@ This jobs should either have been booked with 6 cores, or the program running sh
 
 ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_02_with_border.png)
 
-This job is using almost all of the cores it has booked, 
-but there seems to be something holding them back. 
-The uneven blue curve tells us that something is slowing down the analysis, 
-and it's not by a constant amount. 
+This job is using almost all of the cores it has booked,
+but there seems to be something holding them back.
+The uneven blue curve tells us that something is slowing down the analysis,
+and it's not by a constant amount.
 
-Usually this is how it looks when the filesystem is the cause of a slowdown. 
-Since the load of the filesystem is constantly changing, 
-so will the speed by which a job can read data from it also change. 
+Usually this is how it looks when the filesystem is the cause of a slowdown.
+Since the load of the filesystem is constantly changing,
+so will the speed by which a job can read data from it also change.
 
-This job should try to copy all the files it will be working 
-with to the nodes local harddrive before running the analysis, 
-and by doing so not be affected by the speed of the filesystem. 
+This job should try to copy all the files it will be working
+with to the nodes local harddrive before running the analysis,
+and by doing so not be affected by the speed of the filesystem.
 
-Please see the guide How to use the nodes own hard drive 
-for analysis for more information. 
+Please see the guide How to use the nodes own hard drive
+for analysis for more information.
 
-You basically just add 2 more commands to your script file 
+You basically just add 2 more commands to your script file
 and the problem should be solved.
 
 ### Inefficient job example 5
 
 ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_04_with_border.png)
 
-This job has the same problem as the example above, 
-but in a more extreme way. 
+This job has the same problem as the example above,
+but in a more extreme way.
 
-It's not uncommon that people book whole nodes out of habit 
-and only run single threaded programs that use almost no memory. 
-This job is a bit special in the way that it's being run on a high memory node, 
-as you can see on the left Y-axis, that it goes up to 256 GB RAM. 
-A normal node on Milou only have 128GB. 
-These high memory nodes are only bookable of you book the whole node, 
-so you can't book just a few cores on them. 
-That means that if you need 130GB RAM and the program is only single threaded, 
-your only option is to book a whole high memory node. 
-The job will look really inefficient, 
-but it's the only way to do it on our system. 
-The example in the plot does not fall into this category though, 
+It's not uncommon that people book whole nodes out of habit
+and only run single threaded programs that use almost no memory.
+This job is a bit special in the way that it's being run on a high memory node,
+as you can see on the left Y-axis, that it goes up to 256 GB RAM.
+A normal node on Milou only have 128GB.
+These high memory nodes are only bookable of you book the whole node,
+so you can't book just a few cores on them.
+That means that if you need 130GB RAM and the program is only single threaded,
+your only option is to book a whole high memory node.
+The job will look really inefficient,
+but it's the only way to do it on our system.
+The example in the plot does not fall into this category though,
 as it uses only ~15GB of RAM, which you could get by booking 2-3 normal cores.
 
 ## `jobstats --help`
@@ -419,25 +419,25 @@ jobstats --help
                            produced will reflect the scheduled end time of the job.
 
         -A project         Project valid on the cluster.  [finishedjobinfo](finishedjobinfo.md) is used to
-                           discover jobs for the project.  See further comments 
+                           discover jobs for the project.  See further comments
                            under 'Mode 4' above.
 
         -M cluster         Cluster on which jobs were run [default current cluster]
 
         -n node[,node...]  Cluster node(s) on which the job was run.  If specified,
                            then the [finishedjobinfo](finishedjobinfo.md) script is not run and discovery
-                           is restricted to only the specified nodes.  Nodes can be 
-                           specified as a comma-separated list of complete node 
+                           is restricted to only the specified nodes.  Nodes can be
+                           specified as a comma-separated list of complete node
                            names, or using the [finishedjobinfo](finishedjobinfo.md) syntax:
                                  m78,m90,m91,m92,m100  or  m[78,90-92,100]
                            Nonsensical results will occur if the syntaxes are mixed.
 
-        - | --stdin        Accept input on stdin formatted like [finishedjobinfo](finishedjobinfo.md) 
-                           output.  The short form of this option is a single dash 
+        - | --stdin        Accept input on stdin formatted like [finishedjobinfo](finishedjobinfo.md)
+                           output.  The short form of this option is a single dash
                            '-'.
-                           
-        -m | --memory      Always include memory usage flags in output.  Default 
-                           behaviour is to include memory usage flags only if CPU 
+
+        -m | --memory      Always include memory usage flags in output.  Default
+                           behaviour is to include memory usage flags only if CPU
                            usage flags are also present.
 
         -v | --verbose     Be wordy when describing flag values.
@@ -477,8 +477,8 @@ jobstats --help
                            <prefix>/<cluster>/extended_uppmax_jobstats/<node>/<jobid>
                            <prefix>/<cluster>/uppmax_jobstats/<node>/<jobid>
 
-        -X directory       Hard directory prefix to use for jobstats files.  
-                           Jobstats files are assumed available directly: 
+        -X directory       Hard directory prefix to use for jobstats files.
+                           Jobstats files are assumed available directly:
                                '<hard-prefix>/<jobid>'
         --no-multijobs     Run [finishedjobinfo](finishedjobinfo.md) separately for each jobid, rather
                            than all jobids bundled into one -j option (for debugging)
@@ -498,7 +498,7 @@ jobstats --help
     Unless the -q/--quiet option is provided, a table is also produces containing
     lines with the following tab-separated fields:
 
-      jobid cluster jobstate user project endtime runtime flags booked cores node[,node...] jobstats[,jobstats...] 
+      jobid cluster jobstate user project endtime runtime flags booked cores node[,node...] jobstats[,jobstats...]
 
     Field contents:
 
@@ -514,9 +514,9 @@ jobstats --help
       maxmem   : Maximum memory used as reported by SLURM (if unavailable, this is '.')
       cores    : Number of cores represented in the discovered jobstats files.
       node     : Node(s) booked for the job, expanded into individual node names,
-                 separated by commas; if no nodes were found, this is '.'.  
+                 separated by commas; if no nodes were found, this is '.'.
                  The nodes for which jobstats files are available are listed first.
-      jobstats : jobstats files for the nodes, in the same order the nodes are 
+      jobstats : jobstats files for the nodes, in the same order the nodes are
                  listed, separated by commas; if no jobstats files were discovered,
                  this is '.'
 
@@ -557,7 +557,7 @@ jobstats --help
       overbooked : % used (if < 80%)
           The maximum percentage of booked cores and/or memory that was used
       !!half_overbooked
-          No more than 1/2 of both cores and memory of a node was used; consider booking 
+          No more than 1/2 of both cores and memory of a node was used; consider booking
           half a node instead.
       !!severely_overbooked
           No more than 1/4 of both cores and memory of a node was used, examine your job
@@ -609,14 +609,14 @@ Discovery by job number for a completed job:
 ```
 jobstats --plot jobid1 jobid2 jobid3
 ```
-The job numbers valid on the cluster. 
-[finishedjobinfo](finishedjobinfo.md) is used 
-to determine further information for each job. 
-This can be rather slow, 
-and a message asking for your patience is printed for each job. 
+The job numbers valid on the cluster.
+[finishedjobinfo](finishedjobinfo.md) is used
+to determine further information for each job.
+This can be rather slow,
+and a message asking for your patience is printed for each job.
 
-If multiple queries are expected it would be quicker 
-to run [finishedjobinfo](finishedjobinfo.md) yourself separately, 
+If multiple queries are expected it would be quicker
+to run [finishedjobinfo](finishedjobinfo.md) yourself separately,
 see Mode 4 below. See Mode 2 for a currently running job.
 
 ### `jobstats` discovery mode 2: discovery by job number for a currently running job
@@ -627,8 +627,8 @@ Discovery by job number for a currently running job.
 jobstats --plot -r jobid1 jobid2 jobid3
 ```
 
-Job numbers of jobs currently running on the cluster. 
-[The Slurm schedule](../cluster_guides/slurm.md) is used to determine 
+Job numbers of jobs currently running on the cluster.
+[The Slurm schedule](../cluster_guides/slurm.md) is used to determine
 further information for each running job.
 
 ### `jobstats` discovery mode 3: discovery by node and job number, for a completed or running job
@@ -652,16 +652,16 @@ Discovery by project.
 jobstats --plot -A project
 ```
 
-When providing a project name that is valid for the cluster, 
-[finishedjobinfo](finishedjobinfo.md) is used 
-to determine further information on jobs run within the project. 
-As for Mode 1, this can be rather slow, 
-and a message asking for your patience is printed. 
+When providing a project name that is valid for the cluster,
+[finishedjobinfo](finishedjobinfo.md) is used
+to determine further information on jobs run within the project.
+As for Mode 1, this can be rather slow,
+and a message asking for your patience is printed.
 
-Furthermore only [finishedjobinfo](finishedjobinfo.md) defaults 
-for time span etc. are used for job discovery. 
-If multiple queries are expected 
-or additional [finishedjobinfo](finishedjobinfo.md) options are desired, 
+Furthermore only [finishedjobinfo](finishedjobinfo.md) defaults
+for time span etc. are used for job discovery.
+If multiple queries are expected
+or additional [finishedjobinfo](finishedjobinfo.md) options are desired,
 see Mode 5 below.
 
 ### `jobstats` discovery mode 5: discovery via information provided on stdin

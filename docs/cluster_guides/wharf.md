@@ -1,6 +1,6 @@
 # `wharf`
 
-`wharf` is a folder on [Bianca](bianca.md) used 
+`wharf` is a folder on [Bianca](bianca.md) used
 for [file transfer on Bianca](transfer_bianca.md).
 
 He it is described:
@@ -12,9 +12,9 @@ He it is described:
 
 ## What is `wharf`?
 
-The `wharf` is like a "postbox" :postbox: for data/file exchange 
-between the Internet restricted Bianca cluster 
-and the remaining of the World Wide Internet. 
+The `wharf` is like a "postbox" :postbox: for data/file exchange
+between the Internet restricted Bianca cluster
+and the remaining of the World Wide Internet.
 This "postbox" is reachable to transfer data from two internal servers -
 `bianca-sftp.uppmax.uu.se` and `transit.uppmax.uu.se`.
 
@@ -26,7 +26,7 @@ The path to this special folder is:
 /proj/[project_id]/nobackup/wharf/[user_name]/[user_name]-[project_id]
 ```
 
-where 
+where
 
  * `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
  * `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
@@ -39,13 +39,13 @@ For example:
 
 ## `wharf` use
 
-To [transfer data from/to Bianca](transfer_bianca.md), 
+To [transfer data from/to Bianca](transfer_bianca.md),
 `wharf` is to folder where files are sent to/from.
 
 Do not keep files in `wharf`, as this folder is connected to the outside
 world and hence is a security risk. Instead, move your data to your project folder.
 
-You have full access to your `wharf` and read-only access 
+You have full access to your `wharf` and read-only access
 to other users' `wharf` folders in that same project.
 
 `wharf` is only accessible when [inside the university networks](../getting_started/get_inside_sunet.md).

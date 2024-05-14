@@ -10,7 +10,7 @@ We have several compression programs installed and you are free to chose whichev
 gzip also has a parallel version (pigz) that will let the program use multiple cores, making it much faster. If you want to run multithreaded you should make a reservation in the queue system, as the login nodes will throttle your programs if they use too much resources.
 
 ```
-# compress a file 
+# compress a file
 $ gzip file.txt            # single threaded
 $ pigz -p 4 file.txt       # using 4 threads
 # decompress a file
@@ -23,7 +23,7 @@ $ unpigz -p 4 file.txt     # using 4 threads (4 is max)
 bzip2 also has a parallel version (pbzip2) that will let the program use multiple cores, making it much faster. If you want to run multithreaded you should make a reservation in the queue system, as the login nodes will throttle your programs if they use too much resources.
 
 ```
-# compress a file 
+# compress a file
 $ bzip2 file.txt            # single threaded
 $ pbzip2 -p4 file.txt       # using 4 threads
 # decompress a file
@@ -36,7 +36,7 @@ $ pbunzip2 -p4 file.txt.gz  # using 4 threads
 zstd has built in support for using multiple threads when compressing data only, making it much faster. If you want to run multithreaded you should make a reservation in the queue system, as the login nodes will throttle your programs if they use too much resources.
 
 ```
-# compress a file 
+# compress a file
 $ zstd --rm file.txt        # single threaded
 $ zstd --rm -T4 file.txt    # using 4 threads
 # decompress a file, only single threaded
@@ -48,7 +48,7 @@ The commands above work on a single file at a time, and if you have 1000s of fil
 
 ```
 # to compress a folder (folder/)
-# and all files/folder inside it, 
+# and all files/folder inside it,
 # creating a archive file named files.tar.gz
 $ tar -czvf files.tar.gz folder/
 # to decompress the archive later
@@ -76,7 +76,7 @@ There are some compression algorithms that have become standard practice to use 
 ### fastq files
 
 ```
-# compress sample.fq 
+# compress sample.fq
 $ gzip sample.fq        # single threaded
 $ pigz -p 4 sample.fq   # using 4 threads
 ```
@@ -103,7 +103,7 @@ $ module load bioinfo-tools htslib
 # compress sample.vcf / sample.g.vcf
 $ bgzip sample.vcf         # single threaded
 $ bgzip -@ 4 sample.vcf    # using 4 threads
-# index sample.vcf.gz / sample.g.vcf.gz 
+# index sample.vcf.gz / sample.g.vcf.gz
 $ tabix sample.vcf.gz
 ```
 
