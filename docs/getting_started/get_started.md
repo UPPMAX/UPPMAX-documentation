@@ -1,5 +1,7 @@
 # Get started here
 
+![](./img/image_that_does_not_exist.png)
+
 In order to use UPPMAX resources, you need to be a member of a project and a user account.
 
 ## PIs
