@@ -19,7 +19,6 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-# Go to the root folder
-cd .. || exit 41
+# We are at the root folder
 
 find . -type f | grep "\\.md$" | xargs -0 perl -pi -e 's/ +$//'
