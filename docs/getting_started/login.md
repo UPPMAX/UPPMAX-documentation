@@ -23,3 +23,8 @@ has its own login page:
 - [Login to Snowy](login_snowy.md)
 
 Go to those pages for more details.
+
+Other things to log in to:
+
+- [Login to Dardel](login_dardel.md) (this is not an UPPMAX cluster)
+- [Login to Transit](../cluster_guides/login_transit.md) (this is an UPPMAX service, not a cluster)
