@@ -13,7 +13,7 @@ is one of the ways to [transfer files to/from Transit](../cluster_guides/transfe
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
 
-![](./img/filezilla_login_to_transit_480_x_270.png)
+![FileZilla connected to Transit](./img/filezilla_login_to_transit_480_x_270.png)
 
 > FileZilla connected to Transit
 
@@ -47,7 +47,7 @@ To transfer files to/from Transit using FileZilla, do:
 
     It is here:
 
-    ![](./img/filezilla_file_site_manager.png)
+    ![From the menu, select 'File | Site manager'](./img/filezilla_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -57,7 +57,7 @@ To transfer files to/from Transit using FileZilla, do:
 
     It is here:
 
-    ![](./img/filezilla_site_manager.png)
+    ![Click 'New site'](./img/filezilla_site_manager.png)
 
 ### 5. Create a name for the site
 
@@ -75,11 +75,11 @@ For that site, use all standards, except:
 
     It looks similar to this:
 
-    ![](./img/filezilla_setup_transit_richel.png)
+    ![Setup the site done](./img/filezilla_setup_transit_richel.png)
 
 ### 7. Click 'Connect'
 
-### 8. You will be asked for your password,
+### 8. You will be asked for your password
 
 You will be asked for your password, hence
 type `[your password]`, e.g. `VerySecret`.
@@ -89,7 +89,7 @@ You can save the password.
 
     It looks similar to this:
 
-    ![](filezilla_enter_password_transit.png)
+    ![Asked for your password](filezilla_enter_password_transit.png)
 
 ### 9. Transfer files between local and Transit
 
@@ -99,7 +99,7 @@ Now you can transfer files between your local computer and Transit.
 
     It looks like this:
 
-    ![](./img/filezilla_login_to_transit.png)
+    ![Transfer files between local and Transit](./img/filezilla_login_to_transit.png)
 
 ## Where do my files end up?
 
@@ -112,7 +112,7 @@ for example, at `/home/sven`.
 
     It looks like this:
 
-    ![](./img/filezilla_file_on_transit.png)
+    ![Files seem to end up in Transit home folder](./img/filezilla_file_on_transit.png)
 
 However, this is not the case:
 upon closing FileZilla,
@@ -122,8 +122,8 @@ You do need to transfer these files to other HPC clusters
 before closing FileZilla.
 For detailed instructions, see the guides at the respective cluster, among others:
 
- * Bianca file transfer using Transit
- * [Rackham file transfer using Transit](rackham_file_transfer_using_transit.md)
+- Bianca file transfer using Transit
+- [Rackham file transfer using Transit](rackham_file_transfer_using_transit.md)
 
 ## Extra material
 
@@ -136,9 +136,9 @@ To transfer files to/from Transit using WinSCP, do:
 - Start WinSCP
 - Create a new site
 - For that site, use all standards, except:
-    - Set file protocol to 'SFTP'
-    - Set host name to `transit.uppmax.uu.se`
-    - Set user name to `[username]`, e.g. `richel`
+  - Set file protocol to 'SFTP'
+  - Set host name to `transit.uppmax.uu.se`
+  - Set user name to `[username]`, e.g. `richel`
 
 ### File transfer overview
 
