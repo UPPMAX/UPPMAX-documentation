@@ -21,4 +21,7 @@ fi
 
 # We are at the root folder
 
-find . -type f | grep "\\.md$" | sed -i 's/ *$//'
+markdown_filenames=$(find . -type f | grep "\\.md$")
+for markdown_filename in ${markdown_filenames}; do
+  sed -i 's/ *$//' "${markdown_filename}"
+done
