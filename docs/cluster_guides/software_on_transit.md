@@ -27,7 +27,7 @@ In addition, some modules are available.
 To download data from TCGA, 
 [log in to Rackham](../getting_started/login_rackham.md) 
 and install the GDC client to your home directory. 
-Then [logg in to Transit](../cluster_guides/login_transit.md), 
+Then [log in to Transit](../cluster_guides/login_transit.md), 
 mount the [wharf](../cluster_guides/wharf.md), 
 and run `./gdc-client`.
 
