@@ -12,11 +12,11 @@
 
 - WRF is installed as modules for version 4.1.3 and compiled with INTEL and parallelized for distributed memory (dmpar) or hybrid shared and distributed memory (sm+dm). These are available as:
 
-    - WRF/4.1.3-dmpar     default as WRF/4.1.3
-    - WRF/4.1.3-dm+sm
+  - WRF/4.1.3-dmpar     default as WRF/4.1.3
+  - WRF/4.1.3-dm+sm
 - WPS is installed as version 4.1 and available as:
 
-    - WPS/4.1
+  - WPS/4.1
 
 - There are WPS_GEOG data available.
 - Set the path in namelist.wps to:
@@ -28,12 +28,13 @@
 - It may not work for a large domain. If so, either modify TBL file or use in inner domains only.
 
 - To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the web pages below:
-    - [wrf-python](https://wrf-python.readthedocs.io/en/latest/),
-    - [Vapor](https://www.vapor.ucar.edu/) or
-    - [NCL](https://www.ncl.ucar.edu/Document/Pivot_to_Python/september_2019_update.shtml)
-        - is not updated anymore and the developers recommend [GeoCAT](https://geocat.ucar.edu/) which serves as an umbrella over wrf-python, among others.
+  - [wrf-python](https://wrf-python.readthedocs.io/en/latest/),
+  - [Vapor](https://www.vapor.ucar.edu/) or
+  - [NCL](https://www.ncl.ucar.edu/Document/Pivot_to_Python/september_2019_update.shtml)
+    - is not updated anymore and the developers recommend [GeoCAT](https://geocat.ucar.edu/) which serves as an umbrella over wrf-python, among others.
 
 # Get started
+
 - This section assumes that you are already familiar in running WRF. If not, please check the [tutorial](https://www2.mmm.ucar.edu/wrf/OnLineTutorial/index.php), where you can at least omit the first 5 buttons and go directly to the last button, or depending on your needs, also check the “Static geography data” and “Real-time data”.
 
 - When running WRF/WPS you would like your own settings for the model to run and not to interfere with other users. Therefore, you need to set up a local or project directory (e.g. 'WRF') and work from there like for a local installation. You also need some of the content from the central installation. Follow these steps:
@@ -131,6 +132,7 @@ If you would like to change in the FORTRAN code for physics or just want the lat
 1. ``tar zxvf <file>``
 
 ### Step 2: Configure and compile
+
 - Create and set the environment in a ``SOURCEME``  file, see example below for a intel-dmpar build.
 - Loading module WRF sets most of the environment but some variables have different names in configure file.
 - Examples below assumes dmpar, but can be interchanged to dm+sm for hybrid build.
@@ -154,6 +156,7 @@ export HDF5=$HDF5_DIR
 ```
 
 - Then
+
 ```
 source SOURCEME
 ./configure
@@ -184,6 +187,7 @@ NETCDFFPATH     =    $(NETCDFF)
 ```
 
 Then:
+
 ```
 ./compile em_real
 ```
@@ -193,11 +197,15 @@ When you have made modification of the code and once configure.wrf is created, j
 ```
 source SOURCEME
 ```
+
 and run:
+
 ```
 ./compile em_real
 ```
+
 ### Running
+
 Batch script should include:
 
 ```bash

@@ -76,7 +76,6 @@ with such code: use an interactive node.
 An interactive node is a type of calculation node,
 where one can run heavy calculations directly.
 
-
 ```mermaid
 flowchart TD
     UPPMAX(What to run on which node?)

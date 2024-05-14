@@ -11,7 +11,6 @@ Then, we show how to [load Python](#loading-python)
 and to [load Python packages](#loading-python-packages)
 after which you can [run Python](#running-python).
 
-
 Finally, you can find [UPPMAX Python-related courses](#uppmax-python-related-courses)
 and these more advanced topics:
 
@@ -225,7 +224,6 @@ Many scientific tools are distributed as Python packages,
 which allows any user to run complex tools from a terminal or script.
 For example, the following Python code imports the functionality
 of the `pandas` library:
-
 
 ```python
 import pandas
@@ -477,12 +475,13 @@ Python programming [here](python_programming.md)
 You can run a Python script in the shell by:
 
 ```console
-$ python example_script.py
+python example_script.py
 ```
+
 or, if you loaded a `python3` module:
 
 ```console
-$ python3 example_script.py
+python3 example_script.py
 ```
 
 ### Use Python in an interactive session
@@ -490,13 +489,13 @@ $ python3 example_script.py
 You start a python session by typing:
 
 ```console
-$ python
+python
 ```
 
 or
 
 ```console
-$ python3
+python3
 ```
 
 The python prompt looks like this:
@@ -504,6 +503,7 @@ The python prompt looks like this:
 ```python
 >>>
 ```
+
 Exit with `<Ctrl-D>`, `quit()` or `exit()`.
 
 ## Programming in Python
@@ -537,14 +537,12 @@ is described [here](python_parallel_jobs.md).
 
 ## References
 
- * [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
+- [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
 
 ## Links
 
-* [Official Python documentation](https://docs.python.org/3/)
-* [Python forum](https://www.python.org/community/forums/)
-* [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
-* [UPPMAX TensorFlow guide](tensorflow.md)
-* [UPPMAX PyTorch guide](pytorch.md)
-
-
+- [Official Python documentation](https://docs.python.org/3/)
+- [Python forum](https://www.python.org/community/forums/)
+- [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [UPPMAX TensorFlow guide](tensorflow.md)
+- [UPPMAX PyTorch guide](pytorch.md)

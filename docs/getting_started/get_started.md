@@ -5,15 +5,17 @@ In order to use UPPMAX resources, you need to be a member of a project and a use
 ## PIs
 
 Do you or members in your research group need compute and storage resources on a HPC cluster or Infrastructure-as-a-Service cloud? Learn how to apply for a project by following the link below.
+
 - [Project apply](project_apply.md)
 
 Are you interested in other services, e.g. large volume data storage?
 
-Let us know by contacting UPPMAX Support at support@uppmax.uu.se !
+Let us know by contacting UPPMAX Support at <support@uppmax.uu.se> !
 
 ## Users
 
 Once you or someone in your group or collaboration has a project, you must apply for a user account by following the link below.
+
 - [User account](user_account.md)
 
 Have an account already? Then check out these basic user guides:
@@ -22,15 +24,13 @@ Have an account already? Then check out these basic user guides:
 - [Rackham first steps](login_rackham.md)
 - [Snowy first steps](login_snowy.md)
 
-
 ## Students
 
 Are you taking a university course that uses UPPMAX and need help? Ask your instructor! If they can't help, contact us through IT Support.
 
-
 ## Getting started: First login to UPPMAX
 
-N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc web interface. 
+N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc web interface.
 
 In order to use the UPPMAX resources you must login to a dedicated login computer (or 'login node') using ssh ("secure shell"). On Linux/Unix computers this is done in the terminal with the 'ssh' command. On Windows you can download a small free program called [MobaXterm](https://mobaxterm.mobatek.net/) (or an alternative of your choice) to connect via ssh.
 
@@ -81,7 +81,6 @@ Now you are logged in! To log out again, type 'exit'.
 
 Note: The information displayed in the welcome screen contains very important information about the usage of UPPMAX, which might affect your jobs, such as scheduled downtime etc, so please read very carefully, and look out for any announcements!
 
-
 ## Changing your password
 
 You should regularly change your password. This is done in the standard Linux way. Type:
@@ -90,8 +89,8 @@ You should regularly change your password. This is done in the standard Linux wa
 
 The system will prompt you for your current password, after which it will ask you for a new password and a confirmation of the new password. If you lose your password and need to reset it, follow this link (which you can also find on our homepage).
 
-
 ## Copying files from/to your UPPMAX account
+
 ### From a Linux or Unix computer
 
 Copy a file from you computer to your home directory on UPPMAX:
@@ -104,7 +103,7 @@ Copy a file from your home directory on UPPMAX to your computer:
 
 To place the file in the directory you are currently standing in, use a dot ('.') as the local directory:
 
-scp user@milou.uppmax.uu.se:/home/username/some-file .
+scp <user@milou.uppmax.uu.se>:/home/username/some-file .
 
 ### From a Windows computer
 
@@ -152,6 +151,7 @@ The default permission of your home directory is 750, i.e. you can do everything
 Also note the private sub-folder. Here you can put files that you want only you, and no one else, to be able to access. Each day we have a job that ensures that all users's private folders still can't be accessed by anyone else, even if the permissions somehow accidentally would change.
 
 ## Creating and editing files
+
 ### The nano text editor
 
 There are several editors installed at UPPMAX. The one that is considered easiest to use for new users without graphics is nano.
@@ -194,7 +194,7 @@ You can read a tutorial in emacs by doing:
 
     Control-h t
 
-For a tutorial on emacs: http://www.gnu.org/software/emacs/tour/
+For a tutorial on emacs: <http://www.gnu.org/software/emacs/tour/>
 
 ### The Gedit text editor
 

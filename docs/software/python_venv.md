@@ -23,6 +23,7 @@ for example, from scratch, which is not recommended.
 
 Here we discuss the recommended way to create a virtual environment,
 which has these steps:
+
 1. Load a Python module or a modules with Python packages
 1. Create the virtual environment
 
@@ -145,8 +146,6 @@ to work with it again.
 
 ## Export and import a virtual environment
 
-
-
 ### Export
 
 To export the Python packages used in your virtual environment, do:
@@ -178,7 +177,6 @@ using the conventional name for such a file.
 
     Note that `[more Python packages]` is a placeholder for many
     more Python packages.
-
 
 ### Import
 

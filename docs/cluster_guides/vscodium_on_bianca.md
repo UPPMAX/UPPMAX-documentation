@@ -71,7 +71,6 @@ With the modules loaded,
 in that same terminal,
 start VSCodium:
 
-
 ```
 code
 ```

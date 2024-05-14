@@ -9,8 +9,8 @@ such as is ideal for making a backup. At this page, we use the word 'copy',
 although `rsync` by default does a one-way synchronize: if the data is already
 there, it will do nothing.
 
- * [Using `rsync` on Bianca](../cluster_guides/rsync_on_bianca.md)
- * [Using `rsync` on Rackham](../cluster_guides/rsync_on_rackham.md)
+* [Using `rsync` on Bianca](../cluster_guides/rsync_on_bianca.md)
+* [Using `rsync` on Rackham](../cluster_guides/rsync_on_rackham.md)
 
 ## Copy a folder from local to Rackham
 

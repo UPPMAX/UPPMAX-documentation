@@ -65,6 +65,7 @@ python3 example_script.py
 ```
 
 Some features of this approach are:
+
 - this is a simple way to write code: it is the same as writing any text file.
 - you get no help while writing code
 - you can only run the script from start to finish, i.e. you cannot
@@ -337,10 +338,8 @@ Some features are:
 
 ## Links
 
-* [Official Python documentation](https://docs.python.org/3/)
-* [Python forum](https://www.python.org/community/forums/)
-* [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
-* [UPPMAX TensorFlow guide](tensorflow.md)
-* [UPPMAX PyTorch guide](pytorch.md)
-
-
+- [Official Python documentation](https://docs.python.org/3/)
+- [Python forum](https://www.python.org/community/forums/)
+- [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [UPPMAX TensorFlow guide](tensorflow.md)
+- [UPPMAX PyTorch guide](pytorch.md)

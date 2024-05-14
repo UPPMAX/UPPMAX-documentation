@@ -59,5 +59,4 @@ That is, this solution should work:
 
 ## Links
 
- * [Wikipedia page on Tkinter](https://en.wikipedia.org/wiki/Tkinter)
-
+* [Wikipedia page on Tkinter](https://en.wikipedia.org/wiki/Tkinter)

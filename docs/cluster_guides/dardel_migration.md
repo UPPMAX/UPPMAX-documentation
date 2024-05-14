@@ -36,8 +36,6 @@ The really short description is:
 
 See the rest of this guide for more information about these steps.
 
-
-
 ## Long version
 
 ???- question "Prefer a video?"
@@ -159,7 +157,6 @@ This step is optional, yet may help against possible problems.
 
 Running `darsync check` will make Darsync prompt for questions:
 
-
 ```bash
 darsync check
 ```
@@ -242,7 +239,6 @@ or try to fix them yourself.
     # the the command above finished without error messages and you have a folder.tar.gz file that seems about right in size,
     rm -r /path/to/folder
 
-
 #### 5.3 Generate script
 
 In this third step, the [Slurm](slurm.md) script is created.
@@ -253,7 +249,6 @@ In this third step, the [Slurm](slurm.md) script is created.
     Below it is described how to get the answers :-)
 
 Running `darsync gen` will make Darsync prompt for questions:
-
 
 ```bash
 darsync gen
@@ -395,7 +390,6 @@ rm ~/id_ed25519_pdc*
 
 ## Troubleshooting
 
-
 ???- question "I get the error: `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`. How do I fix this?"
 
     ```
@@ -410,6 +404,3 @@ rm ~/id_ed25519_pdc*
     Check https://www.pdc.kth.se/about/pdc-news if there are any problems with Dardel.
 
     You can do nothing, except wait until Dardel is up again.
-
-
-

@@ -7,11 +7,13 @@ One of the ways in which Singularity is more suitable for HPC is that it very ac
 Singularity is installed and usable to run custom container images on the clusters bianca and rackham.
 
 ## Running an existing image
+
 It's possible to download and run pre-built images from the Singularity hub [https://singularity-hub.org](https://singularity-hub.org) and the singularity library ([https://cloud.sylabs.io](https://cloud.sylabs.io)  library) using the singularity pull sub command such as:
 
 ```bash
 singularity pull library://ubuntu
 ```
+
 Which will download the requested image and place it in the current directory. You can also upload and run image directly your self.
 
 Once you have an image, you can "run" it with a command such as
@@ -19,9 +21,11 @@ Once you have an image, you can "run" it with a command such as
 ```bash
 singularity run singularityhub-ubuntu-14.04.img
 ```
+
 which will try to execute a "run" target in the container. There are also the shell and exec subcommands for starting a shell and running a specific command respectively.
 
-## Access to UPPMAX file systems.
+## Access to UPPMAX file systems
+
 By default, singularity will try to help and map the UPPMAX file systems from the current cluster so that they can be accessed from within the container. For CentOS7 based clusters (snowy, rackham, bianca), this works as expected.
 
 Singularity is installed on the system (on each separate node) and does not require any module load to be available.
@@ -34,10 +38,12 @@ singularity shell docker://debian:stretch
 
 but note that Docker containers are typically designed to run with more privileges than are allowed with Singularity, so it's quite possible things do not work as expected.
 
-## Not all images may work everywhere!
+## Not all images may work everywhere
+
 Images run with the same linux kernel as the rest of the system. For HPC we systems, the kernel used tend to be quite old for stability reasons (with milou using very old kernels). This is not normally a problem, but can cause issues if the libraries of the images you try to run expects functionality added in newer kernels. How and what works is difficult to know without trying, but we have successfully started a shell in an image for the currently most recent Ubuntu release (17.04).
 
 ## Creating your own images
+
 If you have singularity on your own machine, you can create your own images and upload and run them from UPPMAX. Creating images directly on UPPMAX is not possible as it requires administrator (root) privileges (but see below).
 
 Singularity provides functionality to create and bootstrap images, and the installation contains example definitions for bootstrapping various images you can use as a start (like Ubuntu, Scientific Linux and so on). If you normally run Linux and have administrative access, you can install Singularity and build images locally, typical usage would be:
@@ -45,10 +51,10 @@ Singularity provides functionality to create and bootstrap images, and the insta
 ```bash
 sudo singularity build myimage.img examples/ubuntu.def
 ```
+
 Look for more examples on the [UPPMAX Singularity workshop](https://pmitev.github.io/UPPMAX-Singularity-workshop/) page - "Case Studies" section.
 
-
-## Building images on Rackham.
+## Building images on Rackham
 
 On Rackham, the singularity capabilities are instead provided by [Apptainer](https://apptainer.org/). The differences are beyond the scope of this material, but you can safely assume you are working with Singularity. Apptainer, also allows you to build containers without sudo/administrative rights. In most of the cases, you can simply start building directly without sudo i.e. `singularity build myimage.img examples/ubuntu.def`. Here are some precautions that will allow you to safely build images on Rackham.
 
@@ -72,11 +78,12 @@ mkdir -p $APPTAINER_CACHEDIR $APPTAINER_TMPDIR
 ```
 
 ## Using the sylabs cloud remote builder, an example
+
 Even if you don't run Linux on your desktop system, you can still build your own images. Typically software pages contain enough information as installation instructions to create a modified recipe to build images for software.
 
 [Sylabs](https://www.sylabs.io/) (the company currently developing singularity) offer an experimental cloud service for building images from recipes. Here's an example on how to use that to build an image for a software (for this example, we picked [sortmerna](https://github.com/biocore/sortmerna)  as it was the first user software request that came up).
 
-- First, we need to sign in to the sylabs remote builder, available at https://cloud.sylabs.io. It allows sign in through various providers (currently Google, Microsoft, GitHub, GitLab). If you don't have an account with one of these, at least one of them is likely to offer free registration.
+- First, we need to sign in to the sylabs remote builder, available at <https://cloud.sylabs.io>. It allows sign in through various providers (currently Google, Microsoft, GitHub, GitLab). If you don't have an account with one of these, at least one of them is likely to offer free registration.
 
 - Once signed in, we want to create a project for this software, so we click on "Singularity Library" in the top menu and select "Create a new project", set ourselves as owner and enter sortmerna as project name. We also select to make images for this project public.
 
@@ -195,26 +202,34 @@ From: ubuntu:18.04
 ```
 
 ## Using the sylabs cloud remote builder from the UPPMAX shell
+
 The remote builder service provided by sylabs also supports remote builds through an API. This means you can call on it from the shell at UPPMAX.
 
 Using this service also requires you to register/log in to the Sylabs cloud service. To use this, simply run
+
 ```bash
 singularity remote login SylabsCloud
 ```
+
 and you should see
+
 ```
 Generate an API Key at https://cloud.sylabs.io/auth/tokens, and paste here:
 API Key:
 ```
 
 if you visit that link and give a name, a text-token will be created for you. Copy and paste this to the prompt at UPPMAX. You should see
+
 ```
 INFO: API Key Verified!
 ```
+
 once you've done this, you can go on and build images almost as normal, using commands like
+
 ```bash
 singularity build --remote testcontainer.sif testdefinition.def
 ```
+
 which will build the container from testdefinition.def remotely and transfer it to your directory, storing it as testcontainer.sif
 
 Running your container in jobs
@@ -236,6 +251,7 @@ singularity run ./anotherimage some parameters here
 ```
 
 ## Another example; building a container from conda
+
 To build a container from a conda environment, here we demonstrate for `qiime2`
 
 ```singularity

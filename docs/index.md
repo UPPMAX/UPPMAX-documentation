@@ -10,9 +10,7 @@ template: home.html
 
 <br/>
 
-
 # Welcome to the UPPMAX documentation
-
 
 <br/>
 
@@ -26,6 +24,5 @@ template: home.html
 [:material-alert-box: Migration to Dardel](cluster_guides/dardel_migration.md){ .md-button .md-button--primary }
 
 <br/><br/>
-
 
 </center>

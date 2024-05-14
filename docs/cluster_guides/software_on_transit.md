@@ -13,7 +13,7 @@ is available on [Transit](../cluster_guides/transit.md).
 
 In addition, some modules are available.
 
- * SciLifeLab Data Delivery System - [https://delivery.scilifelab.se/](https://delivery.scilifelab.se/)
+* SciLifeLab Data Delivery System - [https://delivery.scilifelab.se/](https://delivery.scilifelab.se/)
 
     ```bash
     # Load the tool from the software module tree
@@ -22,6 +22,7 @@ In addition, some modules are available.
     # Run the tool
     dds
     ```
+
   ![dds-cli](../img/dds-cli.png)
 
 To download data from TCGA,

@@ -47,7 +47,6 @@ For more options you run gprof like this:
 
 gprof options [executable-file [profile-data-files…]] [> outfile]
 
-
 ### Valgrind
 
 Valgrind is a suite of simulation-based debugging and profiling tools for programs.
@@ -78,11 +77,10 @@ How to use valgrind with mpi programs
 
 Load your compiler, openmpi and the valgrind module as before:
 
-
 $ module load gcc/10.3.0 openmpi/3.1.6
 or
 
-      $ module load intel/20.4 openmpi/3.1.6
+      module load intel/20.4 openmpi/3.1.6
 As of now, Valgrind seems not compatible with openmpi/4.X.X.
 
 Then run:

@@ -3,6 +3,7 @@
 To avoid filling up the storage at UPPMAX, we all users to do their part and store their files in a good way. The best way to store files is of course to delete everything you don't need anymore, like temporary and intermediate files. For everything else you need to keep, here are some useful commands to know (section about biological data below).
 
 ## General files
+
 We have several compression programs installed and you are free to chose whichever you want (any better than none). Examples:
 
 ### gzip (fast, good compression)
@@ -44,6 +45,7 @@ $ unzstd --rm file.txt.zst
 ```
 
 ## Compressing lots of files
+
 The commands above work on a single file at a time, and if you have 1000s of files it is quite boring to go through them manually. If you want to combine all the files into a single compressed archive, you can use a program named tar.
 
 ```
@@ -71,6 +73,7 @@ $ find . \( -iname '*.fq' -o -iname '*.fastq' \) -print0 | xargs -0 -P 4 gzip
 ```
 
 ## Biological data
+
 There are some compression algorithms that have become standard practice to use in the realm of biological data. Most programs can read the compressed versions of files as long as it's compressed with the correct program. Leaving out the decompression commands, mostly because they are already described in the General files section about, but also because there is little reason to ever decompress biological data.
 
 ### fastq files
@@ -108,6 +111,7 @@ $ tabix sample.vcf.gz
 ```
 
 ## Programs that don't read compressed files
+
 There are clever ways to get around programs that don't support reading compressed files. Let's say you have a program that only reads plain text files. You can use something called process substitution (also known as anonymous named pipes) to be able to decompress the data on-the-fly while feeding it to the program.
 
 ### How you normally would run the program

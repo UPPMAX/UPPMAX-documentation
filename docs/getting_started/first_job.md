@@ -11,11 +11,9 @@
 - writing batch script
 - view your CPU hours and disk usage
 
-
 ## Transferring some files
+
 ### Graphical file manager
-
-
 
 ???- question "Want more detailed information of file transfer to/from Rackham using a graphical tool?"
 
@@ -54,14 +52,8 @@
 
     - [Filezilla](https://filezilla-project.org/download.php?type=client)
 
-
 !!! example "Type-along"
 
     TODO
 
-
-
-
-
 ## Using the compute nodes
-

@@ -18,7 +18,6 @@ After logging in, one can
 - [Start a batch job using Snowy resources](../cluster_guides/slurm.md)
 - [Start an interactive job](../cluster_guides/start_interactive_node_on_snowy.md)
 
-
 ```mermaid
     graph TB
 

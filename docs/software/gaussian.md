@@ -3,14 +3,17 @@
 > A short guide on how to run g09 on UPPMAX.
 
 ## Access to Gaussian 09
+
 Gaussian 09 is available at UPPMAX. Uppsala University has an university license for all employees. If you want to be able to run g09 email [support@uppmax.uu.se](mailto:support@uppmax.uu.se) and ask to be added to the g09 group.
 
 ## Running g09
+
 In order to run g09 you must first set up the correct environment. You do this with:
 
 `module load gaussian/g09.d01`
 
 ### Running single core jobs in SLURM
+
 Here is an example of a submit script for SLURM:
 
 ```slurm
@@ -44,6 +47,7 @@ F 1 1.0
 ```
 
 ## Scratch space
+
 The g09 module sets the environment `GAUSS_SCRDIR` to `/scratch/$SLURM_JOBID` in slurm. These directories are removed after the job is finished.
 
 If you want to set `GAUSS_SCRDIR`, you must do it after module load `gaussian/g09.a02` in your script.
@@ -55,6 +59,7 @@ If you think you will use a large amount of scratch space, you might want to set
 ```
 #P MP2 aug-cc-pVTZ SCF=Tight maxdisk=170GB
 ```
+
 or you can put something like:
 
 ```bash
@@ -66,9 +71,11 @@ sed -i '/^#/ s/$/ maxdisk='$MAXDISK'/'; inputfile
 in your scriptfile. This will set **maxdisk** to the currently available size of the /scratch disk on the node you will run on. Read more on maxdisk in the [online manual](https://gaussian.com/maxdisk/).
 
 ## Running g09 in parallel
+
 Gaussian can be run in parallel on a single node using shared memory. This is the input file for the slurm example below:
 
 The `dimer4.inp` input:
+
 ```
 %Mem=3800MB
 %NProcShared=4
@@ -93,6 +100,7 @@ methanol dimer MP2
 ```
 
 ### Running g09 in parallel in slurm
+
 This can be done by asking for CPUs on the same **node** using the parallel node environments and telling Gaussian to use several CPUs using the `NProcShared` link 0 command.
 
 An example submit-script:
@@ -118,9 +126,11 @@ _PrsmSu: requested number of processors reduced to: 1 ShMem 1 Linda._
 The reason for specifying `OMP_NUM_THREADS=1` is to not use the parts of OpenMP in the Gaussian code, but to use Gaussians own threads.
 
 ## Running g09 in parallel with linda
+
 In order to run g09 in parallel over several nodes we have acquired Linda TCP.
 
 ### Running g09 in parallel with linda in slurm
+
 This can be done by asking for CPUs on the same **node** using the parallel node environments and telling Gaussian to use several CPUs using the `NProcLinda` and `NProcShared` link 0 command.
 
 An example submit-script:
@@ -180,23 +190,25 @@ Please benchmark your own inputs as the speedup depends heavily on the method an
 
 In some cases Gaussian cannot use all the cpus you ask for. This is indicated in the output with lines looking like this:
 
-_ PrsmSu: requested number of processors reduced to: 1 ShMem 1 Linda._
+_PrsmSu: requested number of processors reduced to: 1 ShMem 1 Linda._
 
 ## Number of CPUs on the shared memory nodes
+
 Use the information below as a guide to how many CPUs to request for your calculation:
 
-### On Rackham:
+### On Rackham
 
 - 272 nodes with two 10-core CPUs and 128GB memory
 - 32 nodes with two 10-core CPUs and 256GB memory
 
-### On Milou:
+### On Milou
 
 - 174 nodes with two 8-core CPUs and 128GB memory
 - 17 nodes with two 8-core CPUs and 256GB memory
 - 17 nodes with two 8-core CPUs and 512GB memory
 
-### Note on chk-files:
+### Note on chk-files
+
 You may experience difficulties if you mix different versions (g09 and g03) or revisions of gaussian. If you use a checkpoint file (.chk file) from an older revision (say g03 e.01), in a new calculation with revision a.02, g09 may not run properly.
 
 We recommend using the same revision if you want to restart a calculation or reuse an older checkpoint file.

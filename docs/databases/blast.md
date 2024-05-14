@@ -1,7 +1,5 @@
 # Blast databases available locally
 
-
-
 Many pipelines involving annotation/assembly comparison involve Blast. Several Blast versions are available as modules, for example:
 
     blast/2.12.0+, etc. : the Blast+ suites (blastp, tblastn, etc.), recommended
@@ -37,51 +35,51 @@ Each NCBI-hosted database also includes a JSON file containing additional metada
 cat /sw/data/blast_databases/nr*.json
 
 The Blast databases available at UPPMAX are:
-Name 	Type 	Source 	Notes
-16S_ribosomal_RNA 	nucleotide 	NCBI 	16S ribosomal RNA (Bacteria and Archaea type strains)
-18S_fungal_sequences 	nucleotide 	NCBI 	18S ribosomal RNA sequences (SSU) from Fungi type and reference material (BioProject PRJNA39195)
-28S_fungal_sequences 	nucleotide 	NCBI 	28S ribosomal RNA sequences (LSU) from Fungi type and reference material (BioProject PRJNA51803)
-Betacoronavirus 	nucleotide 	NCBI 	Betacoronavirus nucleotide sequences
-cdd_delta 	protein 	NCBI 	Conserved domain database for use with delta-blast
-env_nr 	protein 	NCBI 	Protein sequences for metagenomes (EXCLUDED from nr)
-env_nt 	nucleotide 	NCBI 	Nucleotide sequences for metagenomes
-human_genome 	nucleotide 	NCBI 	Current RefSeq human genome assembly with various database masking
-ITS_eukaryote_sequences 	nucleotide 	NCBI 	Internal transcribed spacer region (ITS) for eukaryotic sequences
-ITS_RefSeq_Fungi 	nucleotide 	NCBI 	Internal transcribed spacer region (ITS) from Fungi type and reference material (BioProject PRJNA177353)
-landmark 	protein 	NCBI 	Proteomes of 27 model organisms. The landmark database includes complete proteomes from a few selected representative genomes spanning a wide taxonomic range, the main database used by the SmartBLAST services.
-LSU_eukaryote_rRNA 	nucleotide 	NCBI 	Large subunit ribosomal RNA sequences for eukaryotic sequences
-LSU_prokaryote_rRNA 	nucleotide 	NCBI 	Large subunit ribosomal RNA sequences for prokaryotic sequences
-mito 	nucleotide 	NCBI 	NCBI Genomic Mitochondrial Reference Sequences
-mouse_genome 	nucleotide 	NCBI 	Current RefSeq mouse genome assembly with various database masking
-nr 	protein 	NCBI 	Non-redundant protein sequences from GenPept, Swissprot, PIR, PDF, PDB, and NCBI RefSe
-nt 	nucleotide 	NCBI 	Partially non-redundant nucleotide sequences from all traditional divisions of GenBank, EMBL, and DDBJ
-pataa 	protein 	NCBI 	Patent protein sequences
-patnt 	nucleotide 	NCBI 	Patent nucleotide sequences. Both patent databases are directly from the USPTO, or from the EPO/JPO via EMBL/DDBJ
-pdbaa 	protein 	NCBI 	Sequences for the protein structure from the Protein Data Bank
-pdbnt 	nucleitide 	NCBI 	Sequences for the nucleotide structure from the Protein Data Bank. They are NOT the protein coding sequences for the corresponding pdbaa entries.
-ref_euk_rep_genomes 	nucleotide 	NCBI 	Refseq Representative Eukaryotic genomes (1000+ organisms)
-ref_prok_rep_genomes 	nucleotide 	NCBI 	Refseq Representative Prokaryotic genomes (5700+ organisms)
-ref_viroid_rep_genomes 	nucleotide 	NCBI 	Refseq Representative Viroid genomes (46 organisms)
-ref_viruses_rep_genomes 	nucleotide 	NCBI 	Refseq Representative Virus genomes (9000+ organisms)
-refseq_protein 	protein 	NCBI 	NCBI protein reference sequences
-refseq_rna 	nucleotide 	NCBI 	NCBI Transcript reference sequences
-refseq_select_prot 	protein 	NCBI 	NCBI RefSeq protein sequences from human, mouse, and prokaryotes, restricted to the RefSeq Select set of proteins. RefSeq Select includes one representative protein per protein-coding gene for human and mouse, and RefSeq proteins annotated on reference and representative genomes for prokaryotes
-refseq_select_rna 	nucleotide 	NCBI 	NCBI RefSeq transcript sequences from human and mouse, restricted to the RefSeq Select set with one representative transcript per protein-coding gene
-SSU_eukaryote_rRNA 	nucleotide 	NCBI 	Small subunit ribosomal RNA sequences for eukaryotic sequences
-swissprot 	protein 	NCBI 	Swiss-Prot sequence database (last major update)
-tsa_nr 	protein 	NCBI 	Protein sequences from the Transcriptome Shotgun Assembly. Its entries are EXCLUDED from the nr database.
-tsa_nt 	nucleotide 	NCBI 	A database with earlier non-project based Transcriptome Shotgun Assembly (TSA) entries. Project-based TSA entries are NOT included. Entries are EXCLUDED from the nt database.
-uniprot_sprot 	protein 	UniProt 	Swiss-Prot high quality manually annotated and non-redundant protein sequence database
-uniprot_trembl 	protein 	UniProt 	TrEMBL high quality but unreviewed protein sequence database
-uniprot_sptrembl 	protein 		uniprot_sprot and uniprot_trembl combined
-uniprot_all 	protein 		alias for uniprot_sptrembl
-uniprot_all.fasta 	protein 		alias for uniprot_sptrembl
-uniprot_sprot_varsplic 	protein 	UniProt 	UniProt canonical and isoform sequences (see link)
-uniprot_uniref50 	protein 	UniProt 	Clustered sets of 50%-similar protein sequences (see link)
-uniprot_uniref90 	protein 	UniProt 	Clustered sets of 90%-similar protein sequences (see link)
-uniprot_uniref100 	protein 	UniProt 	Clustered sets of identical protein sequences (see link)
-UniVec 	nucleotide 	UniVec 	Sequences commonly attached to cDNA/genomic DNA during the cloning process
-UniVec_Core 	nucleotide 	UniVec 	A subset of UniVec chosen to minimise false positives
+Name  Type  Source  Notes
+16S_ribosomal_RNA  nucleotide  NCBI  16S ribosomal RNA (Bacteria and Archaea type strains)
+18S_fungal_sequences  nucleotide  NCBI  18S ribosomal RNA sequences (SSU) from Fungi type and reference material (BioProject PRJNA39195)
+28S_fungal_sequences  nucleotide  NCBI  28S ribosomal RNA sequences (LSU) from Fungi type and reference material (BioProject PRJNA51803)
+Betacoronavirus  nucleotide  NCBI  Betacoronavirus nucleotide sequences
+cdd_delta  protein  NCBI  Conserved domain database for use with delta-blast
+env_nr  protein  NCBI  Protein sequences for metagenomes (EXCLUDED from nr)
+env_nt  nucleotide  NCBI  Nucleotide sequences for metagenomes
+human_genome  nucleotide  NCBI  Current RefSeq human genome assembly with various database masking
+ITS_eukaryote_sequences  nucleotide  NCBI  Internal transcribed spacer region (ITS) for eukaryotic sequences
+ITS_RefSeq_Fungi  nucleotide  NCBI  Internal transcribed spacer region (ITS) from Fungi type and reference material (BioProject PRJNA177353)
+landmark  protein  NCBI  Proteomes of 27 model organisms. The landmark database includes complete proteomes from a few selected representative genomes spanning a wide taxonomic range, the main database used by the SmartBLAST services.
+LSU_eukaryote_rRNA  nucleotide  NCBI  Large subunit ribosomal RNA sequences for eukaryotic sequences
+LSU_prokaryote_rRNA  nucleotide  NCBI  Large subunit ribosomal RNA sequences for prokaryotic sequences
+mito  nucleotide  NCBI  NCBI Genomic Mitochondrial Reference Sequences
+mouse_genome  nucleotide  NCBI  Current RefSeq mouse genome assembly with various database masking
+nr  protein  NCBI  Non-redundant protein sequences from GenPept, Swissprot, PIR, PDF, PDB, and NCBI RefSe
+nt  nucleotide  NCBI  Partially non-redundant nucleotide sequences from all traditional divisions of GenBank, EMBL, and DDBJ
+pataa  protein  NCBI  Patent protein sequences
+patnt  nucleotide  NCBI  Patent nucleotide sequences. Both patent databases are directly from the USPTO, or from the EPO/JPO via EMBL/DDBJ
+pdbaa  protein  NCBI  Sequences for the protein structure from the Protein Data Bank
+pdbnt  nucleitide  NCBI  Sequences for the nucleotide structure from the Protein Data Bank. They are NOT the protein coding sequences for the corresponding pdbaa entries.
+ref_euk_rep_genomes  nucleotide  NCBI  Refseq Representative Eukaryotic genomes (1000+ organisms)
+ref_prok_rep_genomes  nucleotide  NCBI  Refseq Representative Prokaryotic genomes (5700+ organisms)
+ref_viroid_rep_genomes  nucleotide  NCBI  Refseq Representative Viroid genomes (46 organisms)
+ref_viruses_rep_genomes  nucleotide  NCBI  Refseq Representative Virus genomes (9000+ organisms)
+refseq_protein  protein  NCBI  NCBI protein reference sequences
+refseq_rna  nucleotide  NCBI  NCBI Transcript reference sequences
+refseq_select_prot  protein  NCBI  NCBI RefSeq protein sequences from human, mouse, and prokaryotes, restricted to the RefSeq Select set of proteins. RefSeq Select includes one representative protein per protein-coding gene for human and mouse, and RefSeq proteins annotated on reference and representative genomes for prokaryotes
+refseq_select_rna  nucleotide  NCBI  NCBI RefSeq transcript sequences from human and mouse, restricted to the RefSeq Select set with one representative transcript per protein-coding gene
+SSU_eukaryote_rRNA  nucleotide  NCBI  Small subunit ribosomal RNA sequences for eukaryotic sequences
+swissprot  protein  NCBI  Swiss-Prot sequence database (last major update)
+tsa_nr  protein  NCBI  Protein sequences from the Transcriptome Shotgun Assembly. Its entries are EXCLUDED from the nr database.
+tsa_nt  nucleotide  NCBI  A database with earlier non-project based Transcriptome Shotgun Assembly (TSA) entries. Project-based TSA entries are NOT included. Entries are EXCLUDED from the nt database.
+uniprot_sprot  protein  UniProt  Swiss-Prot high quality manually annotated and non-redundant protein sequence database
+uniprot_trembl  protein  UniProt  TrEMBL high quality but unreviewed protein sequence database
+uniprot_sptrembl  protein   uniprot_sprot and uniprot_trembl combined
+uniprot_all  protein   alias for uniprot_sptrembl
+uniprot_all.fasta  protein   alias for uniprot_sptrembl
+uniprot_sprot_varsplic  protein  UniProt  UniProt canonical and isoform sequences (see link)
+uniprot_uniref50  protein  UniProt  Clustered sets of 50%-similar protein sequences (see link)
+uniprot_uniref90  protein  UniProt  Clustered sets of 90%-similar protein sequences (see link)
+uniprot_uniref100  protein  UniProt  Clustered sets of identical protein sequences (see link)
+UniVec  nucleotide  UniVec  Sequences commonly attached to cDNA/genomic DNA during the cloning process
+UniVec_Core  nucleotide  UniVec  A subset of UniVec chosen to minimise false positives
 
 Additionally, taxdb.btd and taxdb.bti are downloaded, which provide additional taxonomy information for these databases. Local copies of the NCBI Taxonomy databases are also available; further details are available on a separate page.
 

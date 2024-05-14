@@ -19,6 +19,6 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-markdownlint '**/*.md' --ignore node_modules --fix
+markdownlint --fix 'docs/**/*.md' --ignore node_modules 
 
 # ./scripts/remove_trailing_spaces.sh

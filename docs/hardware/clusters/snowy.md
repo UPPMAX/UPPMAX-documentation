@@ -8,7 +8,6 @@
 | 1 |  2x Xeon E5-2660 2.2 GHz  | 80 (10 x 8)    | 4TB | 3/4TB | N/A | s229 | |
 | 1 |  2x Xeon E5-2660 2.2 GHz  | 16 (2 x 8)    | 256GB | 3/4TB | Tesla T4 | s138 | |
 
-
 ## CPU
 
 ## GPU

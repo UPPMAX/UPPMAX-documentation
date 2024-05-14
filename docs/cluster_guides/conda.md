@@ -5,7 +5,7 @@
     If you want to see a video how to use Conda on Rackham,
     go [here](https://youtu.be/SMhawXQhtls?si=_2t6T2Vn2B10M6LW)
 
-## Install packages or not? Check it!
+## Install packages or not? Check it
 
 ### Python
 
@@ -13,7 +13,7 @@
 - load a python version like: ``ml python/3.10.8``
 - from the Python shell with the ``import`` command
 - from BASH shell with the
-	
+ 
 - ``pip list`` command
 - ``ml help python/3.9.5`` (or other version) at UPPMAX
 
@@ -143,15 +143,14 @@ both Rackham and Bianca. These are updated every third day. See above for these 
     - Since python or other packages are dependent on each-other expect solving the versions takes some time.
     - use an interactive session!
 
-1.  ```bash
+1. ```bash
     module load conda
     ```
 
     - This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
     - Check the text output as ``conda`` is loaded, especially the first time, see below
 
-
-2.  Create the Conda environment
+2. Create the Conda environment
 
     - Example:
 
@@ -182,6 +181,7 @@ both Rackham and Bianca. These are updated every third day. See above for these 
         #
         #     $ conda deactivate
         ```
+
      - or
 
         ```bash
@@ -194,8 +194,7 @@ both Rackham and Bianca. These are updated every third day. See above for these 
         #    $ mamba deactivate
         ```
 
-
-4.  Activate the conda environment by `source activate` if you have not enabled ``conda/mamba activate``, see above:
+4. Activate the conda environment by `source activate` if you have not enabled ``conda/mamba activate``, see above:
 
     ```bash
     source activate python36-env
@@ -209,15 +208,18 @@ both Rackham and Bianca. These are updated every third day. See above for these 
     conda list
     pip list
     ```
+
     - you can also add more packages within the environment by exact version (use `=`) or latest (?) compatible version:
+
     ```bash
     conda install --prefix   $CONDA_ENVS_PATH/python36-env pandas
     ```
+
     - that may have given you ``pandas=1.1.5`` which would be the newest version compatible with ``python3.6`` and ``numpy=1.13.1``
 
-5.  Now do your work!
+5. Now do your work!
 
-6.  Deactivate with ``conda``/``mamba deactivate`` (this will work in any case!)
+6. Deactivate with ``conda``/``mamba deactivate`` (this will work in any case!)
 
     ```bash
     (python-36-env) $ conda deactivate
@@ -231,14 +233,14 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 ## Working with Conda environments defined by files
 
--   Create an environment based on dependencies given in an environment
+- Create an environment based on dependencies given in an environment
     file:
 
-        $ conda env create --file environment.yml
+        conda env create --file environment.yml
 
--   Create file from present conda environment:
+- Create file from present conda environment:
 
-        $ conda env export > environment.yml
+        conda env export > environment.yml
 
 `environments.yml` (for conda) is a yaml-file which looks like this:
 
@@ -271,7 +273,6 @@ dependencies:
 
     - Dependency management from course [Python for Scientific computing](https://aaltoscicomp.github.io/python-for-scicomp/dependencies/)
 
-
 !!! abstract "keypoints"
 
     -   Conda is an installer of packages but also bigger toolkits
@@ -285,6 +286,7 @@ dependencies:
     -   That is, you cannot load the python module and use the packages therein inside your Conda environment.
 
 ## Conda in batch scripts
+
 If you already have setup the CONDA_ENVS_PATH path and run 'conda init bash' a batch script containing a conda environment shall include
 
 ```bash
@@ -293,6 +295,7 @@ conda activate <name of environment>
 ```
 
 ## Packages on Bianca
+
 Since we have mirrored conda repositories locally conda will work also on Bianca!
 
 First try Conda! There is a mirrored repository with many available packages.
@@ -308,7 +311,7 @@ You may have to:
 in source directory:
 
 ```
-$ cp –a <package_dir> <wharf_mnt_path>
+cp –a <package_dir> <wharf_mnt_path>
 ```
 
 you may want to tar before copying to include all possible symbolic links:
@@ -320,4 +323,4 @@ $ tar xfz <tarfile.tar.gz> #if there is a tar file!
 $ mv –a  <file(s)> ~/.local/lib/python<version>/site-packages/
 ```
 
-If problems arise, send an email to support@uppmax.uu.se and we'll help you.
+If problems arise, send an email to <support@uppmax.uu.se> and we'll help you.

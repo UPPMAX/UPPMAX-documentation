@@ -69,4 +69,4 @@ java -jar lib/tracer.jar
 
 ## Links
 
- * [Tracer GitHub repository](https://github.com/beast-dev/tracer)
+* [Tracer GitHub repository](https://github.com/beast-dev/tracer)

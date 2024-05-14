@@ -4,14 +4,12 @@ This page describes how to run the GROMACS molecular dynamics software on UPPMAX
 
 Have a look on this page as well - [best practices](https://docs.bioexcel.eu/gromacs_bpg/en/master/cookbook/cookbook.html) running GROMAC on HPC.
 
-
-
 Selected setups for benchmarking on HPC2N as [examples](https://github.com/hpc2n/CourseEfficientMD/tree/main/benchmark/GROMACS).
 
 ## Loading the gromac module
 
 ``` bash
-$ module load gromacs/2021.1.th
+module load gromacs/2021.1.th
 ```
 
 ## SBATCH script
@@ -52,11 +50,12 @@ $MPIRUN $GMX mdrun $ntmpi -ntomp $ntomp -s MEM.tpr -nsteps 10000 -resethway
 ```
 
 ## How important is to select appropriate options
-Here is a simple benchmark ran on single interactive node with 20CPUs using  the MEM example from this benchmark https://www.mpibpc.mpg.de/grubmueller/bench.
+
+Here is a simple benchmark ran on single interactive node with 20CPUs using  the MEM example from this benchmark <https://www.mpibpc.mpg.de/grubmueller/bench>.
 
 ``` bash
-$ module load gromacs/2021.1.th
-$ mpirun -np XX gmx_mpi mdrun -ntomp YY -s MEM.tpr -nsteps 10000 -resethway
+module load gromacs/2021.1.th
+mpirun -np XX gmx_mpi mdrun -ntomp YY -s MEM.tpr -nsteps 10000 -resethway
 ```
 
 where XX * YY = 20
@@ -96,20 +95,24 @@ Notice how bad is the last run
 According to this short test, this particular setup runs best on single Rackham node with
 `$ mpirun -np 10 gmx_mpi mdrun -ntomp 2 -s MEM.tpr -nsteps 10000 -resethway` (lines 8-10)
 
-
 ## Running older versions of gromacs
 
-### Versions 4.5.1 to 5.0.4:
+### Versions 4.5.1 to 5.0.4
+
 The gromacs tools have been compiled serially. The mdrun program has also been compiled in parallel using MPI. The name of the parallel binary is mdrun_mpi.
 
 Run the parallelized program using:
+
 ``` bash
 mpirun -np XXX mdrun_mpi
 ```
+
 ... where XXX is the number of cores to run the program on.
 
 ### Version 5.1.1
+
 The binary is gmx_mpi and (e.g.) the mdrun command is issued like this:
+
 ``` bash
 mpirun -np XXX gmx_mpi mdrun
 ```

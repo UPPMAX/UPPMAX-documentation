@@ -79,7 +79,7 @@ For that site, use all standards, except:
 
 ### 7. Click 'Connect'
 
-### 8. You will be asked for your password,
+### 8. You will be asked for your password
 
 You will be asked for your password, hence
 type `[your password]`, e.g. `VerySecret`.
@@ -122,8 +122,8 @@ You do need to transfer these files to other HPC clusters
 before closing FileZilla.
 For detailed instructions, see the guides at the respective cluster, among others:
 
- * Bianca file transfer using Transit
- * [Rackham file transfer using Transit](rackham_file_transfer_using_transit.md)
+- Bianca file transfer using Transit
+- [Rackham file transfer using Transit](rackham_file_transfer_using_transit.md)
 
 ## Extra material
 
@@ -136,9 +136,9 @@ To transfer files to/from Transit using WinSCP, do:
 - Start WinSCP
 - Create a new site
 - For that site, use all standards, except:
-    - Set file protocol to 'SFTP'
-    - Set host name to `transit.uppmax.uu.se`
-    - Set user name to `[username]`, e.g. `richel`
+  - Set file protocol to 'SFTP'
+  - Set host name to `transit.uppmax.uu.se`
+  - Set user name to `[username]`, e.g. `richel`
 
 ### File transfer overview
 

@@ -23,25 +23,15 @@ Start an interactive job with multiple cores (e.g. "interactive -p core -n 20 -A
 Debugging MPI programs:
 To be able to debug MPI program select MPI option as well as the "Submit to Queue" option, and then click on "Change" to select submission script configuration for Rackham and provide the job specific options.
 
-
-
 System> select "Auto-Detect" for "MPI/UPC Implementation" and tick "Create Root and Workers group automatically".
-
-
 
 Job Submission> Browse and select "/sw/comp/ddt/7.0/templates/rackham-core.qtf" in the filed "Submission template file:". Make sure that "Quick Restart" is also ticked. This will allow you to restart your program without cancelling the allocated time and allocating it again. (There is also a rackham-node.qtf in the same directory as the rackham-core.qtf configuration, this will allow you to submit the node and devcore partitions as well.)
 
-
-
 "Edit Queue Submission Parameters..." to specify Partition, Project and requested time. Failing to provide project number will cause failures in the submission process.
-
-
 
 On the main configuration window the button "Run" will change to "Submit". Click on this button to submit your debugging session to the queue manager.
 
 If you enable "Memory debugging", click the "Details" button and tick "Preload the memory debugging library" and select "C/Fortran threads" in the "Language:" field. Read the manual for more detail on the other options in this panel.
-
-
 
 Useful links
 

@@ -1,7 +1,8 @@
 # Using CRAM to compress BAM files
 
 ## Introduction
-### Biological data is being produced at a higher rate each day, and it is a challenge to store it all somewhere.
+
+### Biological data is being produced at a higher rate each day, and it is a challenge to store it all somewhere
 
 The bioinformatics community is trying to keep up with the growing data amounts, and new file formats is part of this evolution. The BAM format was a huge success due to its ability to compress aligned reads by ~50-80% of their original size, but even that is not sustainable in the long run.
 
@@ -44,24 +45,25 @@ Illumina 8-binning scheme:
 [Illumina's white paper on the matter](../files/c_557912-l_1-k_whitepaper_datacompression.pdf)
 
 ## Compression rate
+
 So, how much compression are we talking about here? Here are the results of a test with a 1.9 GB BAM file (7.4 GB SAM format).
 
 CRAM COMPRESSION RATE
 
-File format	|File size (GB)
+File format |File size (GB)
 ------------|--------------
-SAM	|7.4
-BAM	|1.9
-CRAM lossless|	1.4
-CRAM 8 bins|	0.8
-CRAM no quality scores|	0.26
+SAM |7.4
+BAM |1.9
+CRAM lossless| 1.4
+CRAM 8 bins| 0.8
+CRAM no quality scores| 0.26
 
 ![Graph showing the content of the above table](../img/c_557912-l_1-k_cram_compression.png)
 
-
-
 ## Examples
+
 ### Lossless compression of a BAM file
+
 Lossless compression means that the BAM file will be identical before and after compression/decompression The downside of this is that the produced CRAM file will be larger since if has to save each and every quality score. To make a lossless compression, use the following command (can also be written as a single line by removing the backslashes):
 
 $ module load bioinfo-tools cramtools
@@ -98,9 +100,11 @@ If you had NM or MD tags in your original BAM file, you have to specify that the
 and/or
 --calculate-nm-tag
 ```
+
 to the command.
 
 ### Lossy compression of a BAM file
+
 The motivation to use a lossy compression is that the compression ratio will be much larger, i.e. the cram file will be much smaller. The best compression ratio is reached, naturally, when the quality scores are removed all together. This does have an impact on future analysis such as SNP calling, so the trick is, as usual, to find a good balance.
 
 Illumina has started with a practice called binning. That means that instead of having 40 unique quality scores, you put similar values into bins. Illumina thought 8 bins would get the job done, and that is what CRAM recommends. See this page's introduction for more details about the bins.

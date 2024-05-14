@@ -11,4 +11,4 @@ It is not installed as a module.
 
 ## Links
 
- * [MetONTIIME GitHub repository](https://github.com/MaestSi/MetONTIIME)
+* [MetONTIIME GitHub repository](https://github.com/MaestSi/MetONTIIME)

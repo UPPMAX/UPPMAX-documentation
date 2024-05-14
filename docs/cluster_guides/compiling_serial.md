@@ -12,6 +12,7 @@ C     HELLO.F :  PRINT MESSAGE ON SCREEN
       WRITE(*,*) "hello, world";
       END
 ```
+
 - To compile this you should decide on which compilers to use. At UPPMAX there are two different Fortran compilers installed gcc (gfortran) and Intel (ifort).
 
 - For this example we will use Gnu Compiler Collection (gcc) compilers installed on UPPMAX, so the gfortran command can be used to compile fortran code. The GFortran compiler is fully compliant with the Fortran 95 Standard and includes legacy F77 support. In addition, a significant number of Fortran 2003 and Fortran 2008 features are implemented. Fortran2008 and Fortran2018 has full support from gcc/9.
@@ -19,16 +20,17 @@ C     HELLO.F :  PRINT MESSAGE ON SCREEN
 - A module must first be loaded to use the compilers. You can check what is available and then load a specific version. Choose one recent or one you know will work for your needs.
 
 ``` console
-$ module avail gcc
+module avail gcc
 
-$ module load gcc/10.3.0
+module load gcc/10.3.0
 ```
 
 To compile, enter the command:
 
 ``` console
-$ gfortran -o hello hello.f
+gfortran -o hello hello.f
 ```
+
 to run, enter:
 
 ``` console
@@ -45,31 +47,36 @@ hello, world
 For Intel versions up to 20.4 you do as follows:
 
 ``` console
-$ module avail intel
+module avail intel
 
-$ module load intel/20.4
+module load intel/20.4
 ```
+
 To compile, enter the command:
 
 ``` console
-$ ifort -o hello hello.f
+ifort -o hello hello.f
 ```
+
 For Intel versions from year 2021, do like this instead:
 
 ``` console
-$ module load intel-oneapi compiler
-$ module av compiler
+module load intel-oneapi compiler
+module av compiler
 ```
+
 Choose the version you need, like
 
 ``` console
-$ module load compiler/2023.1.0
+module load compiler/2023.1.0
 ```
+
 To compile, enter the command:
 
 ``` console
-$ ifx -o hello hello.f
+ifx -o hello hello.f
 ```
+
 to run, enter:
 
 ``` console
@@ -94,19 +101,20 @@ int main()
 To compile using gcc installed with the system (4.8.5, 2015) and with no optimization, use the gcc command.
 
 ``` console
-$ gcc -o hello hello.c
+gcc -o hello hello.c
 ```
 
 To use a newer version of ggc we load a module:
 
 ``` console
-$ module load gcc/10.3.0
-$ gcc -o hello hello.c
+module load gcc/10.3.0
+gcc -o hello hello.c
 ```
+
 with basic optimization:
 
 ``` console
-$ gcc -O3 -o hello hello.c
+gcc -O3 -o hello hello.c
 ```
 
 c11 standard has full support from gcc/4.8, c17 standard (bug-fix) from gcc/8.
@@ -114,32 +122,35 @@ c11 standard has full support from gcc/4.8, c17 standard (bug-fix) from gcc/8.
 To use the intel compiler, first load the intel module:
 
 ``` console
-$ module load intel/20.4
+module load intel/20.4
 ```
+
 or for newer Intel versions (2021-, see above):
 
 ``` console
-$ module load intel-oneapi compiler
-$ module load compiler/2023.1.0
+module load intel-oneapi compiler
+module load compiler/2023.1.0
 ```
 
 and then compile with the command icc, or icx:
 
 ``` console
-$ icc -o hello hello.c
+icc -o hello hello.c
 ```
 
 or for newer versions:
 
 ``` console
-$ icx -o hello hello.c
+icx -o hello hello.c
 ```
+
 To run, enter:
 
 ``` console
 $ ./hello
 hello, world
 ```
+
 c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
 
 ## Java programs
@@ -155,11 +166,12 @@ public static void main(String[] args)
 }
 }
 ```
+
 Before compiling a java program, the module java has to be loaded.
 To load the java module, enter the command:
 
 ``` console
-$ module load java
+module load java
 ```
 
 To check that the java module is loaded, use the command:
@@ -177,7 +189,7 @@ The java module is not always needed to run the program.
 To verify this, unload the java module:
 
 ``` console
-$ module unload java
+module unload java
 ```
 
 to run, enter:
@@ -216,8 +228,9 @@ The last line in the script is the command used to start the program.
 Submit the job to the batch queue:
 
 ``` console
-$ sbatch hello.sh
+sbatch hello.sh
 ```
+
 The program's output to stdout is saved in the file named at the -o flag.
 
 ``` console

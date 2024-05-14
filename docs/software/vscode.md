@@ -15,5 +15,3 @@ Cluster                                 | Works/fails |Documentation page
 [Rackham](../cluster_guides/rackham.md) | Works       |[VSCode on Rackham](../cluster_guides/vscode_on_rackham.md)
 
 - [1] Use [VSCodium on Bianca](../cluster_guides/vscodium_on_bianca.md) instead
-
-

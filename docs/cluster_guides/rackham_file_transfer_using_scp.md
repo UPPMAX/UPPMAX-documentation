@@ -56,7 +56,6 @@ scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 3. If asked, give your UPPMAX password.
    You can get rid of this prompt if you have setup SSH keys
 
-
 ```mermaid
 flowchart TD
 
@@ -98,4 +97,3 @@ flowchart TD
 > The purple nodes are about file transfer,
 > the blue nodes are about 'doing other things'.
 > The user can be either inside or outside SUNET.
-

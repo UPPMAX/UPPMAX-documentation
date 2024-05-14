@@ -9,12 +9,11 @@ There are multiple ways to transfer files to/from [Transit](../cluster_guides/tr
 
     See [the page about Transit](transit.md) for more detailed information.
 
-
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
-[Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
-[Using SCP](#using-SCP)                                       |:no_entry: only download, terminal, easy to learn, can be used in scripts
+[Using SFTP](#using-sftp)                                     |Terminal, easy to learn, secure
+[Using SCP](#using-scp)                                       |:no_entry: only download, terminal, easy to learn, can be used in scripts
 
 Each of these methods is discussed below.
 
@@ -106,4 +105,3 @@ flowchart TD
 ```
 
 > Overview of file transfer on Transit
-

@@ -1,13 +1,10 @@
 # Basic toolkit
 
-
 ![Caption](./img/terminal.png)
-
 
 !!! objectives
     - Let's dig into the most important BASH commands
     - We'll do a type-along session
-
 
 ???- question "Like videos?"
 
@@ -16,8 +13,6 @@
     is how to use the command-line on the UPPMAX Bianca cluster.
 
 ## We will cover these commands
-
-
 
 ### Navigation and file management
 
@@ -42,54 +37,56 @@
 16. `man`  &emsp;info about a command
 
 ## File system Navigation
+
 ### pwd — where are you now? “Print name of current/Working Directory”
 
 ```console
-$ pwd
+pwd
 
-$ pwd -P
+pwd -P
 ```
+
 - ``-P`` gives you the physical path,
   - ignores how you got there
-
 
 ### ls — list directory contents
 
 Type ``ls`` to display the contents of the current directory.
 
 ```console
-$ ls -a
+ls -a
 ```
 
 ``-a`` also shows hidden files and directories.
 
 ```console
-$ ls -l
+ls -l
 ```
+
 ``-l`` gives you listed and detailed information.
 
 ```console
-$ ls -lt
+ls -lt
 ```
 
 ``-lt`` sorts things by time modified.
 
 ```console
-$ ls –lrt
+ls –lrt
 ```
 
 ``-r`` gives reversed order, so in this case newest in last line.
 
 ```console
-$ man ls
+man ls
 ```
 
 - for complete information about a command.
 - TIP: `-$ man <command>` works for almost any command!
   - scroll with arrows and quit with ``q``.
 
-
 ### cd — Change the shell working Directory
+
 - To change directory, use ``cd <target>``
 
 !!! warning
@@ -98,15 +95,15 @@ $ man ls
     - These involve the `/proj/introtouppmax`` directory
 
 ```console
-$ cd /proj/introtouppmax
+cd /proj/introtouppmax
 
-$ pwd
+pwd
 
-$ ls
+ls
 
-$ cd labs
+cd labs
 
-$ pwd
+pwd
 ```
 
 !!! challenge Experiment with cd
@@ -137,29 +134,25 @@ $ pwd
 
         - `cd ~` : also goes to home directory
 
-
-
-
 ## Copy, Create, Move
+
 ### mkdir — make directories
 
 !!! warning
     - Make sure you’re in your home directory by `cd ~`
 
-
 - Create a new directory ``uppmax-intro``
 
 ```console
-$ cd ~
-$ mkdir uppmax-intro
+cd ~
+mkdir uppmax-intro
 ```
 
 - Go in there:
 
 ```console
-$ cd uppmax-intro/
+cd uppmax-intro/
 ```
-
 
 ### cp — copy files and directories
 
@@ -167,13 +160,14 @@ $ cd uppmax-intro/
 - Set target to ``.`` to keep name and to point at present directory.
 
 ```console
-$ cp /proj/introtouppmax/labs/linux_tutorial/ .
+cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 - Well, that didn’t work. What does the error say?
 - So... try
+
 ```console
-$ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
+cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 ``-r`` is for recursive, meaning including files and subdirectories!
@@ -181,12 +175,13 @@ $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 - Move to your just created ``linux_tutorial/``
 
 ```console
-$ cd linux_tutorial
+cd linux_tutorial
 ```
+
 - Make a copy of the file “newfile” in the same directory:
 
 ```console
-$ cp newfile copyfile
+cp newfile copyfile
 ```
 
 ### scp — secure copy (remote file copy program)
@@ -194,13 +189,14 @@ $ cp newfile copyfile
 - Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
 
 #### Download from Rackham
+
 - Download
+
 ```console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
-
 
 !!! example
 
@@ -213,6 +209,7 @@ $ cp newfile copyfile
     ```
 
 #### Upload to Rackham
+
 - Upload from present directory on local machine to your home directory on cluster.
   - Example:
 
@@ -239,28 +236,32 @@ $ cp newfile copyfile
 
     - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
 
-
 ### mv — move/rename file
 
 - Moving files works just like copying files:
 - `mv <source> <target>`
 - Move the copy you just made to another place:
+
 ```console
-$ mv copyfile ../
+mv copyfile ../
 ```
+
 - Rename it.
+
 ```console
-$ mv ../copyfile ../renamedfile
+mv ../copyfile ../renamedfile
 ```
 
 ## Archiving
+
 **tar — archiving and compression**
 
 - We’re going to need more files. Let's extract the tar.gz file (tared and gzipped file)
 
 ```console
-$ tar -vxzf files.tar.gz
+tar -vxzf files.tar.gz
 ```
+
 - The flags mean:
         - <u>v</u>erbosely
         - e<u>x</u>tract
@@ -278,6 +279,7 @@ $ tar -vxzf files.tar.gz
     ```
 
 ## Deleting
+
 ### rm — delete files  or directories
 
 !!! Note
@@ -296,28 +298,26 @@ $ tar -vxzf files.tar.gz
        - Edit file ".bashrc" in /home directory by adding the above alias line on any but the first line.
     - These steps will also work for ``mv`` and ``cp``.
 
-
 - Deleting files works just like copying or moving them: `rm <target>`
 
 - Try it out:
 
 ```console
-$ rm ../renamedfile
+rm ../renamedfile
 
-$ rm this_is_empty
+rm this_is_empty
 ```
 
 - hmmmm...
-
 
 ### rmdir — delete an empty directory
 
 - We need another command to delete directories
 
 ```console
-$ rmdir this_is_empty
+rmdir this_is_empty
 
-$ rmdir this_has_a_file
+rmdir this_has_a_file
 ```
 
 - Problem again??
@@ -331,14 +331,14 @@ $ rmdir this_has_a_file
     $ rm -r this_has_a_file
     ```
 
-
 ## Help
+
 ### man — manual, look up the right flags
 
 - Nobody can remember whether it’s ``-R`` or `-r` for recursive, or if ``-f`` lets you choose a file or forces an action.
 
 ```console
-$ man ls
+man ls
 ```
 
 - shows you how to use ``ls`` and all its options
@@ -348,8 +348,6 @@ $ man ls
 
 !!! challenge
     - Spend some time now to browse the man pages for the commands you’ve just learned!
-
-
 
 <!---
 - Not only user commands!
@@ -379,14 +377,15 @@ MANUAL SECTIONS
 --->
 
 ## Let’s get wild with Wildcards
+
 ![Caption](./img/wildcards_bear.png)
 
 ```console
-$ ls many_files
+ls many_files
 
-$ ls many_files/*.txt
+ls many_files/*.txt
 
-$ ls many_files/file_1*1.docx
+ls many_files/file_1*1.docx
 ```
 
 - Want to clean out temporary files ending in .tmp in all the subdirectories?
@@ -401,19 +400,17 @@ $ ls many_files/file_1*1.docx
 !!! challenge Exercise
     - Exercise:  Create a new directory and move all .txt files in many_files to it.
 
-
 ## Reading files
 
 - In Linux, you can (if you wish) also display files without being able to change them
 
 ```console
-$ cd old_project
+cd old_project
 
-$ ls
+ls
 ```
 
 - Hmm, which of these files are useful?
-
 
 ### cat - con<ins>cat</ins>enate files and print on the standard output
 
@@ -422,13 +419,13 @@ $ ls
 - ``cat`` dumps the contents of files to the terminal as text
 
 ```console
-$ cat the_best
+cat the_best
 ```
 
 - Yummy!
 
 ```console
-$ cat a
+cat a
 ```
 
 - What's this????
@@ -436,46 +433,43 @@ $ cat a
 - **Concatenate** files with this wizardry:
 
 ```console
-$ cat a the_best > combinedfiles.txt
+cat a the_best > combinedfiles.txt
 ```
 
 - File ``a`` is written first and ``the_best`` is appended
 
 ### head — display the top (<u>head</u>ing) of a file
 
-
 ![Caption](./img/head.png)
 
 ```console
-$ head a
+head a
 ```
+
 - You can choose how many lines to display (default 10)
 
 ```console
-$ head -n 4 a
+head -n 4 a
 ```
 
-
 ### tail — display the end of a file
-
 
 ![Caption](./img/tail.png)
 
 - Tail is the same as head, but for the other end.
 
 ```console
-$ tail -n 5 a
+tail -n 5 a
 ```
 
 - Handy to look at log files or to figure out the structure of a text file.
-
 
 ### less — read a whole file
 
 - cat doesn’t really work for long files
 
 ```console
- $ less a
+ less a
 ```
 
 - Search with `/<keyword>` and `n`/`N`
@@ -489,18 +483,13 @@ $ tail -n 5 a
 
 - ``history`` shows previous commands
 - You can rerun earlier commands by:
-    - copy-pasting and pressing ``<enter>``
-    - ``!990`` will run the command of line 990 of last `history` output.
+  - copy-pasting and pressing ``<enter>``
+  - ``!990`` will run the command of line 990 of last `history` output.
 - Search for earlier commands you just remember parts of:
-    - history | grep 'jobstats'
+  - history | grep 'jobstats'
 - [More info](https://www.redswitches.com/blog/linux-history-command/)
 
-
-
-
-
 ## File permissions
-
 
 ![Caption](./img/permission.png)
 
@@ -545,8 +534,8 @@ $ ls -l
   - Files: Run the file as a program
   - Directories: Traverse the directory (e.g. with “cd”)
 
-
 ## Changing permissions
+
 **chmod** — change file mode bits
 
 **If you own, i.e. created, the file or directory, you can modify the content**
@@ -557,38 +546,37 @@ $ ls -l
     - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
     - If you want to keep non-members from even seeing which files you have, you can!
 
-
 ### Syntax
 
 `chmod <mode> <files>`
 
 - `<mode>` is of the form: For whom, Modify, What permission(s)
 - For whom?
-    - `u`: user/owner
-    - `g`: group, often the members to a certain project
-    - `o`: others
-    - `a`: all
-    - if not set changes are applied for user AND group
+  - `u`: user/owner
+  - `g`: group, often the members to a certain project
+  - `o`: others
+  - `a`: all
+  - if not set changes are applied for user AND group
 - Modify?
-    - `+`: add permissions,
-    - `-`: remove
-    - `=`: set equal to
-      - `=` usually causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
+  - `+`: add permissions,
+  - `-`: remove
+  - `=`: set equal to
+    - `=` usually causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
 - What permissions?
-    - `r`, `w`, `x`, i.e. the actual permission
+  - `r`, `w`, `x`, i.e. the actual permission
 
 #### Examples
 
 - `<mode>` can be e.g.:
-  -  `u+x` : lets You (owner) run a script you just wrote
-  -  `-w` : no write permissions for **owner+group**
-    - warning: if `w` was already set for *others* it will be kept!!
-  -  `+rw` : let user and group members read and edit this file, not others if not already set
-  -  `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
-  -  `a=xw` : set xw for everyone
+  - `u+x` : lets You (owner) run a script you just wrote
+  - `-w` : no write permissions for **owner+group**
+  - warning: if `w` was already set for *others* it will be kept!!
+  - `+rw` : let user and group members read and edit this file, not others if not already set
+  - `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
+  - `a=xw` : set xw for everyone
 
 - chmod takes flags as usual, e.g.
-  -  `-R` for recursive (i.e. all files and sub-directories therein)
+  - `-R` for recursive (i.e. all files and sub-directories therein)
 
 !!! admonition "chmod 755 style — binary sum — octal bit mask"
 
@@ -606,8 +594,6 @@ $ ls -l
     ??? solution
         6
 
-
-
 ???+ challenge "chmod — Hands-on"
 
     - In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
@@ -624,5 +610,4 @@ $ ls -l
 
 ## Links
 
- * A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
-
+- A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).

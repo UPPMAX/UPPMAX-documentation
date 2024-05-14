@@ -86,11 +86,9 @@ Create SSH key and add it to the PDC Login Portal.
 
 - Create the password less SSH key in a Linux terminal (e.g. from Rackham):
 
-
 ```bash
 module load darsync
 ```
-
 
 ```bash
 darsync sshkey
@@ -137,4 +135,3 @@ where `[username]` is your PDC username, for example `ssh -X sven@dardel.pdc.kth
     The `-X` is for so-called [X forwarding](../software/ssh_x_forwarding.md).
     It allows you to view graphical things,
     such as viewing plots or running graphical programs
-
