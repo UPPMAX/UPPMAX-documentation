@@ -261,7 +261,7 @@ Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se).
 
 Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
 
-- Set the server name to ``rackham-gui.uppmax.uu.se``.
+- Set the server name to ``rackham-gui.uppmax.uu.se``. NB: leave out the ``https://www.``!
 
 ## Linux on your computer
 
