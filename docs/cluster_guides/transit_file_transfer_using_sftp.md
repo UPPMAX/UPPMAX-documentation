@@ -36,13 +36,13 @@ Start a terminal on your local computer.
 
 In the terminal, connect `sftp` to Transit by doing:
 
-```
+```bash
 sftp [username]@transit.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
-```
+```bash
 sftp sven@transit.uppmax.uu.se
 ```
 
@@ -55,7 +55,7 @@ In `sftp`, upload/download files to/from Transit.
 
 For example, to upload a file to Transit:
 
-```
+```bash
 put my_file.txt
 ```
 
@@ -82,7 +82,7 @@ You do need to transfer these files to other HPC clusters
 before closing `sftp`.
 For detailed instructions, see the guides at the respective cluster, among others:
 
- * [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
+* [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
 
 ## Overview
 
