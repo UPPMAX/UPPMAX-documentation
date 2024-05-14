@@ -1,10 +1,10 @@
 # Starting an interactive node
 
-![](./img/login_bianca_via_terminal_terminal_462_x_202.png)
+![Logged in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
 Below we describe the general ideas of using an interactive node:
 
-- [the types of nodes](#types_of_nodes)
+- [the types of nodes](#types-of-nodes)
 - [When to use an interactive node](#when-to-use-an-interactive node)
 
 To start an interactive node on specific cluster:
