@@ -45,7 +45,8 @@ Dependencies:
 pip install natsort
 ```
 
-The software table is generated on each deploy on GitHub actions, so you have to do that manually if you want to view it locally:
+The software table is generated on each deploy on GitHub actions, 
+so you have to do that manually if you want to view it locally:
 
 ``` bash
 python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
