@@ -1,0 +1,205 @@
+# Login to the Bianca remote desktop environment website
+
+There are multiple ways to [log in to Bianca](login_bianca.md).
+
+This page describes how to [log in to Bianca](login_bianca.md)
+using a remote desktop that is accessible from a webbrowser.
+
+## 1. Get inside SUNET
+
+As Bianca is an HPC cluster for sensitive data,
+one needs to be within SUNET to be able to access her.
+
+???- question "Forgot how to get within SUNET?"
+
+    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+
+Bianca does not support any so-called
+[X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham),
+so instead UPPMAX maintains a website that uses
+ThinLinc to get a full [remote desktop environment](../cluster_guides/thinlinc.md).
+All you should need is a rather modern browser on any platform:
+we have tested on Chrome and Firefox :-)
+
+???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
+
+    ![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+
+    > When accessing the Bianca UPPMAX login website from outside of SUNET,
+    > nothing will appear in your browser.
+
+When inside SUNET, one can access a [remote desktop environment](../cluster_guides/thinlinc.md)
+using a website:
+
+## 2. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+
+In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
+
+???- question "How does it look like when outside of SUNET?"
+
+    [Here](https://youtu.be/W-PMTyNcbYI?si=9oQP29a7OLo3mVrt&t=160) you can
+    see how this looks like when outside of SUNET.
+
+    Spoiler: quite dull, as nothing happens until these is a timeout.
+
+## 3. Fill in the first dialog
+
+Fill in the first dialog.
+
+Do use the `UPPMAX` [2-factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) (i.e. not SUPR!)
+
+???- question "How do I setup 2-factor authentication?"
+
+    See the guide at [2-factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor)
+    to setup an UPPMAX 2-factor authentication method.
+
+    You really need to use the UPPMAX 2-factor authentication,
+    i.e not the SUPR one, to login to Bianca.
+
+    ![](2fa_uppmax_and_supr.png)
+
+    > Screenshot of a two-factor authentication app.
+    > Use the 2-factor authentication called 'UPPMAX'
+    > to access Bianca
+
+???- question "How does that web page look like?"
+
+    ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
+
+    > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+
+Sometimes a webpage will be shown that asks you to wait.
+Simply do that :-)
+
+???- question "How does that web page look like?"
+
+    ![](/img/login_uppmax_bianca_website_create_login_node.png)
+
+    > No Thinlinc Web Access active
+    > The login node for your project cluster is probably asleep. Boot initiated. The startup can take from 2 to 8 minutes.
+    >
+    > This page will attempt to automatically reload. If nothing happens even after multiple minutes, you can do so manually. It is a bit more controlled in text mode.
+    >
+    > When this takes long, your original second factor code might expire. In that scenario, you'll be redirected to the first login page again.
+
+    This is the webpage that is shown when a login node needs to be created.
+
+## 4. Fill in the second dialog, using your regular password
+
+Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication).
+
+???- question "How does that web page look like?"
+
+    ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
+
+    > The second Bianca remote desktop login dialog.
+    > Note that it uses ThinLinc to establish this connection
+
+## 5. Picking a remote desktop flavor, but not KDE
+
+When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
+
+???- question "How does that look like?"
+
+    ![](./img/remote_desktop_thinlinc_profile_chooser.png)
+
+    > Here you are told you will need to pick a remote desktop flavor
+
+    ![](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
+
+    > Here you are asked to pick a remote desktop flavor,
+    > with Xfce as the default.
+    > Pick any, except KDE.
+
+!!! warning "Avoid choosing KDE"
+
+    Avoid choosing the KDE desktop, as it gives problems when running interactive sessions.
+
+    Instead, we recommend GNOME or XFCE.
+
+## 6. You are in
+
+Enjoy! You are in! You are on a Bianca login node!
+
+!!! note "How to behave on a login node"
+
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
+
+    If you need to do more intense calculations,
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+
+    If you need to do more intense calculations interactively,
+    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
+
+???- question "How does the remote desktop look like?"
+
+    ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
+
+    > The Bianca remote desktop
+
+???- tip "Video: using VPN and access the remote desktop"
+
+    This video shows how to use an installed VPN,
+    after which the UPPMAX Bianca login website is used to
+    access the Bianca remote desktop environment:
+    [YouTube](https://youtu.be/Ni9nyCf7me8),
+    [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+
+Under the hidden tab in the left edge of the screen,
+you can find a clipboard,
+icons of some special keys
+and the disconnect button:
+
+- the clipboard is needed to be able to copy-paste text to/from Bianca.
+- the icons of some special keys are needed for some users,
+  as not all keyboard keys reach Bianca as expected.
+- the disconnect button disconnects your session
+
+???- question "What is the difference between 'disconnect session' and 'end session'?"
+
+    'disconnect session' will save the current state of your session.
+    When you connect again, you will get the remote desktop back
+    in exactly in the same place you left the system.
+    For example: if you were editing a file before disconnecting,
+    your prompt will be in the same place you left it.
+
+    'end session' will not save the current state of your session.
+    Instead, you will start with a clean slate at the next login.
+
+Bianca has a automatically disconnect after 30 minutes of inactivity.
+In the future it is possible that we implement some kind
+of "automatic log out from active graphical session".
+
+```mermaid
+flowchart TD
+
+    %% Give a white background, instead of a transparent one
+    classDef node fill:#fff,color:#000,stroke:#000
+
+    subgraph sub_inside[IP inside SUNET]
+
+      user(User)
+
+      subgraph sub_bianca_shared_env[Bianca shared network]
+        bianca_shared_remote_desktop[Bianca remote desktop login]
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
+          bianca_private_remote_desktop[Bianca remote desktop]
+
+          %% Ensure the innermost square gets big enough
+          END:::hidden
+        end
+      end
+    end
+
+    %% Shared subgraph color scheme
+    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
+    style sub_inside fill:#fcc,color:#000,stroke:#fcc
+    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
+    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
+
+    %% Inside SUNET
+    user-->|Bianca website, UPPMAX password and 2FA|bianca_shared_remote_desktop
+
+    bianca_shared_remote_desktop --> |UPPMAX password| bianca_private_remote_desktop
+```
