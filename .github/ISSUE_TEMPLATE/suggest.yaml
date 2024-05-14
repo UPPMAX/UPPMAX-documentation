@@ -1,0 +1,19 @@
+name: Suggest
+description: Suggest how to improve the UPPMAX documentation
+title: "'Suggest: []"
+labels: ["enhancement"]
+body:
+- type: textarea
+  attributes:
+    label: Welcome
+    value: |
+      Thanks for suggesting how to make these pages better!
+
+      What do you suggest?
+- type: input
+  attributes:
+    label: Link to UPPMAX documentation page
+    description: What is the URL to the UPPMAX documentation page(s)?
+    value: https://docs.uppmax.uu.se/
+  validations:
+    required: false
