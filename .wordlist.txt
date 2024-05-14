@@ -3362,3 +3362,6 @@ harddisk
 configCluster
 linter
 markdownlint
+jsonc
+markdownlintignore
+
