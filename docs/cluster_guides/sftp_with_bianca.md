@@ -12,24 +12,24 @@ to [transfer files to/from Bianca](transfer_bianca.md).
 [When inside of SUNET](../getting_started/get_inside_sunet.md)
 (which can be on a local computer or on [Rackham](rackham.md)) do:
 
-```
+```bash
 sftp [user_name]-[project_id]@bianca-sftp.uppmax.uu.se:/[user_name]-[project_id]
 ```
 
 where
 
- * `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
- * `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+* `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+* `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
 For example:
 
-```
+```bash
 sftp sven-sens2016001@bianca-sftp.uppmax.uu.se:/sven-sens2016001
 ```
 
 `sftp` will ask for a password:
 
-```
+```bash
 sven-sens2016001@bianca-sftp.uppmax.uu.se's password:
 ```
 
@@ -78,7 +78,7 @@ and the `sftp` prompt.
     sftp -q sven-sens2016001@bianca-sftp.uppmax.uu.se
     ```
 
-The last line, `sftp> ` is the `sftp` prompt.
+The last line, `sftp>` is the `sftp` prompt.
 
 
 Once connected you will have to type the `sftp` commands to upload/download files.
