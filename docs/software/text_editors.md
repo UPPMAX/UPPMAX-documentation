@@ -31,7 +31,7 @@ GNU nano is a simple terminal editor that is easy to learn.
 
 Start nano on a terminal with:
 
-```
+```bash
 nano
 ```
 
@@ -57,15 +57,15 @@ See a nano cheat sheet [here](https://www.nano-editor.org/dist/latest/cheatsheet
 
 Start `vim` on a terminal with:
 
-```
+```bash
 vi
 ```
 
 Then:
 
-  - 1. Insert mode (type like normal text editor. Press ``i`` for insert mode)
-  - 2. Command mode (give commands to the editor to get things done . Press `<ESC>` for command mode)
-  - Cheat sheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
+- 1. Insert mode (type like normal text editor. Press ``i`` for insert mode)
+- 2. Command mode (give commands to the editor to get things done . Press `<ESC>` for command mode)
+- Cheat sheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
 
 ### emacs
 
@@ -73,17 +73,17 @@ Then:
 
 Start `emacs` on a terminal with:
 
-```
+```bash
 emacs
 ```
 
 Then:
 
-  - Cheat sheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
-    - (C = `<Ctrl>`)
+- Cheat sheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
+  - (C = `<Ctrl>`)
 - also With GUI
-   - ``emacs –nw``
-     - keeps you in terminal window.
+  - ``emacs –nw``
+    - keeps you in terminal window.
 
 ## Simple graphical editors
 
