@@ -21,4 +21,4 @@ fi
 
 # We are at the root folder
 
-find . -type f | grep "\\.md$" | sed -i 's/ *$//' '{}' ';'
+find . -type f | grep "\\.md$" | sed -i 's/ *$//'
