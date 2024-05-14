@@ -1,7 +1,7 @@
 # File transfer to/from Transit using a graphical tool
 
-Data transfer to/from Transit using a graphical tool
-is one of the ways to transfer files to/from Transit
+Data transfer to/from [Transit](../cluster_guides/transit.md) using a graphical tool
+is one of the ways to [transfer files to/from Transit](../cluster_guides/transfer_transit.md).
 
 ???- question "What is Transit?"
 

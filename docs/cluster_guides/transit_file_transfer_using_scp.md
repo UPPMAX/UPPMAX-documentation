@@ -1,7 +1,7 @@
 # Data transfer to/from Transit using SCP
 
-Data transfer to/from Transit using SCP
-is one of the ways ways to transfer files to/from Transit
+Data transfer to/from [Transit](../cluster_guides/transit.md) using SCP
+is one of the ways ways to [transfer files to/from Transit](../cluster_guides/transfer_transit.md).
 
 ???- question "What is Transit?"
 

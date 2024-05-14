@@ -1,6 +1,6 @@
 # File transfer to/from Transit
 
-There are multiple ways to transfer files to/from Transit:
+There are multiple ways to transfer files to/from [Transit](../cluster_guides/transit.md):
 
 ???- question "What is Transit?"
 

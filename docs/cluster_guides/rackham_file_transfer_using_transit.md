@@ -1,6 +1,6 @@
 # Data transfer to/from Rackham using Transit
 
-Data transfer to/from Rackham using Transit
+Data transfer to/from Rackham using [Transit](../cluster_guides/transit.md)
 is one of the ways ways to transfer files to/from Rackham
 
 ???- question "What is Transit?"
@@ -32,8 +32,7 @@ Both ways are shown step-by-step below.
 
 ### Login to Rackham
 
-One can transfer files to/from Rackham using the UPPMAX Transit server,
-using SCP.
+One can transfer files to/from Rackham using the UPPMAX Transit server, using SCP.
 The program `scp` allows you to copy file between Rackham and Transit.
 
 The process is:
@@ -110,7 +109,7 @@ The process is:
 ???- question "Forgot how to login to Transit?"
 
     A step-by-step guide how to login to Transit
-    can be found [here](transit.md).
+    can be found [here](../cluster_guides/login_transit.md).
 
     Spoiler: `ssh [username]@transit.uppmax.uu.se`
 
@@ -235,7 +234,7 @@ The process is:
 ???- question "Forgot how to login to Transit?"
 
     A step-by-step guide how to login to Transit
-    can be found [here](transit.md).
+    can be found [here](../cluster_guides/login_transit.md).
 
     Spoiler: `ssh [username]@transit.uppmax.uu.se`
 

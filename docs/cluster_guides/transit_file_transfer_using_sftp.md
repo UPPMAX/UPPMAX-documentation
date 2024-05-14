@@ -1,7 +1,7 @@
 # Data transfer to/from Transit using SFTP
 
-Data transfer to/from Transit using SFTP
-is one of the ways ways to transfer files to/from Transit
+Data transfer to/from [Transit](../cluster_guides/transit.md) using SFTP
+is one of the ways ways to [transfer files to/from Transit](../cluster_guides/transfer_transit.md).
 
 ???- question "What is Transit?"
 
