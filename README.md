@@ -41,11 +41,12 @@ mkdocs serve
 ### Software table
 
 Dependencies:
+
 ```bash
 pip install natsort
 ```
 
-The software table is generated on each deploy on GitHub actions, 
+The software table is generated on each deploy on GitHub actions,
 so you have to do that manually if you want to view it locally:
 
 ``` bash
