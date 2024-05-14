@@ -1,6 +1,7 @@
 # Transit
 
-Transit is an UPPMAX service that can be used to securely transfer files.
+[Transit](../cluster_guides/transit.md) 
+is an UPPMAX service that can be used to securely transfer files.
 
 ???- question "Is Transit a file server?"
 
@@ -30,46 +31,6 @@ Transit is an UPPMAX service that can be used to securely transfer files.
     Here, 'putting an address on the letter'
     is to copy the file to the desired location.
 
-This page shows:
-
-- [how to log in to Transit](#log-in-to-transit)
-- [software on Transit](#software-on-transit)
-- [file transfer using Transit](transfer_transit.md).
-
-## Log in to Transit
-
-See [log in to Transit](../cluster_guides/login_transit.md).
-
-## Software on Transit
-
-After [logging in to Transit](../cluster_guides/login_transit.md),
-you cannot make lasting changes to anything, 
-except for mounted wharf directories. 
-However, anything you have added to your Rackham home directory 
-is available on Transit. 
-
-In addition, some modules are available.
-
- * SciLifeLab Data Delivery System - [https://delivery.scilifelab.se/](https://delivery.scilifelab.se/)
-
-    ```bash
-    # Load the tool from the software module tree
-    module load bioinfo-tools dds-cli
-
-    # Run the tool
-    dds
-    ```
-  ![dds-cli](../img/dds-cli.png)
-
-To download data from TCGA, 
-log in to Rackham and install the GDC client to your home directory. 
-Then log in to Transit, mount the wharf, and run ./gdc-client.
-
-!!! warning "2FA on transit"
-
-    If you connect from abroad and 
-    you are asked for the **2FA** (_two factor authentication_), 
-    there is a grace period (_about 5 minutes_) in which you can 
-    `ssh`/`scp`/`rsync`/`sftp` to **transit** without the need for **2FA**. 
-    This allows you to use these and other tools 
-    that might experience problems with the **2FA**.
+ * [how to log in to Transit](../cluster_guides/login_transit.md)
+ * [file transfer using Transit](../cluster_guides/transfer_transit.md).
+ * [software on Transit](../cluster_guides/software_on_transit.md)
