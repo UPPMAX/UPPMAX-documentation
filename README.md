@@ -54,6 +54,7 @@ python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/soft
 ### Text-to-speech
 
 Dependencies:
+
 ```bash
 pip install beautifulsoup4\>=4.11.1 gTTS\>=2.2.4
 ```
