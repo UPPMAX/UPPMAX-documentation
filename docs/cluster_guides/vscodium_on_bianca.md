@@ -1,6 +1,6 @@
 # Using VSCodium on Bianca
 
-![](./img/vscodium_on_bianca_480_x_270.png)
+![VSCodium running on Bianca](./img/vscodium_on_bianca_480_x_270.png)
 
 > VSCodium running on Bianca
 
@@ -61,7 +61,7 @@ VSCodium needs the `VSCodium/latest` module.
 
 In the terminal of the interactive session, do:
 
-```
+```bash
 module load VSCodium/latest`
 ```
 
@@ -72,7 +72,7 @@ in that same terminal,
 start VSCodium:
 
 
-```
+```bash
 code
 ```
 
@@ -80,4 +80,4 @@ VSCodium starts up quickly.
 
 ???- info "How does VSCodium look on Bianca?"
 
-    ![](./img/vscodium_on_bianca.png)
+    ![VSCodium running on Bianca](./img/vscodium_on_bianca.png)
