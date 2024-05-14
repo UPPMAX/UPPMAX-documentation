@@ -24,19 +24,19 @@ In this session, we show how to use VSCode on Bianca.
 
 ### 2. Start VSCode on your local computer
 
-![](./img/start_vscode_ubuntu.png)
+![Start VSCode on your local computer](./img/start_vscode_ubuntu.png)
 
 ### 3. In VSCode, install the VSCode 'Remote Tunnels' plugin
 
-![](./img/vscode_remote_tunnels_before_install.png)
+![In VSCode, install the VSCode 'Remote Tunnels' plugin](./img/vscode_remote_tunnels_before_install.png)
 
-![](./img/vscode_remote_tunnels_after_install.png)
+![In VSCode, installed the VSCode 'Remote Tunnels' plugin](./img/vscode_remote_tunnels_after_install.png)
 
 ### 4. In VSCode, connect to Bianca
 
 In VSCode, at the 'Remote Explorer' tab, click on 'SSH',
 then on 'New Remote'.
 
-![](./img/vscode_add_new_remote.png)
+![In VSCode, connect to Bianca](./img/vscode_add_new_remote.png)
 
 !!! warning "This is the step that fails"
