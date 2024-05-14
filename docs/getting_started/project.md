@@ -7,9 +7,9 @@ To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
 
 This page is about UPPMAX projects:
 
- * [View your existing UPPMAX projects](#view-your-uppmax-projects)
- * [Type of UPPMAX projects](#type-of-uppmax-projects)
- * [Apply to an UPPMAX project](#apply-to-an-uppmax-project)
+- [View your existing UPPMAX projects](#view-your-uppmax-projects)
+- [Type of UPPMAX projects](#type-of-uppmax-projects)
+- [Apply to an UPPMAX project](#apply-to-an-uppmax-project)
 
 ## View your UPPMAX projects
 

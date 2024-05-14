@@ -104,7 +104,7 @@ display the public key.
 If, however, you missed it,
 you can view the public SSH key again; in a terminal logged into Rackham:
 
-```
+```bash
 cat ~/id_ed25519_pdc.pub
 ```
 
@@ -126,7 +126,7 @@ Follow our [step-by-step instructions on how to add SSH keys](../software/ssh_ke
 
 On a terminal, do:
 
-```
+```bash
 ssh -X [username]@dardel.pdc.kth.se
 ```
 
