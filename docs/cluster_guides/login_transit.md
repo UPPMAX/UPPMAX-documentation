@@ -2,6 +2,10 @@
 
 Below is a step-by-step procedure to login to [Transit](../cluster_guides/transit.md).
 
+???- question "Enjoy a video?"
+
+  [See how to log in to Transit as a video](https://youtu.be/uXMOP-WVGIY).
+
 ## 1. Get within SUNET
 
 [Get inside the university networks](../getting_started/get_inside_sunet.md).
