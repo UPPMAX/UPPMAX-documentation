@@ -26,3 +26,7 @@ jobs:
         uses: actions/checkout@v2
 
       - uses: articulate/actions-markdownlint@v1
+        with:
+          config: .markdownlint.jsonc
+          ignore: .markdownlintignore
+
