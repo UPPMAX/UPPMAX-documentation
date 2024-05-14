@@ -5,7 +5,6 @@ labels: ["enhancement"]
 body:
 - type: markdown
   attributes:
-    label: Thanks
     value: |
       Thanks for suggesting how to make these pages better!
 
