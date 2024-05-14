@@ -40,7 +40,7 @@ How to create an SSH key pair is described in detail at [the PDC page on how to 
 
 On Rackham, do:
 
-```
+```bash
 # generate the key
 ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519_pdc
 ```
@@ -69,13 +69,13 @@ in detail in [the PDC documentation on how to add SSH keys](https://www.pdc.kth.
 
 You will need to get the public part of the key in order to complete this step.i On Rackham, in a terminal, type:
 
-```
-$ cat ~/.ssh/id_ed25519_pdc.pub
+```bash
+cat ~/.ssh/id_ed25519_pdc.pub
 ```
 
 This will show a text similar to:
 
-```
+```text
 ssh-ed25519 AAAA63Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
 ```
 
@@ -184,7 +184,8 @@ rm ~/.ssh/id_ed25519_pdc*
 ```
 
 Create new ones if you still need to connect to Dardel from UPPMAX. To create new keys with password on them, simply run:
-```
+
+```bash
 ssh-keygen -t ed25519
 ```
 
@@ -194,4 +195,4 @@ Once you are sure your data has been transferred, we recommend that you switch o
 
 ## Link
 
- * [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html)
+- [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html)
