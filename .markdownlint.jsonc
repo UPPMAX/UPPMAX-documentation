@@ -4,12 +4,22 @@
   // Default state for all rules
   "default": true,
 
+  // Changed to allow indented code
+  //
+  // MD012/no-multiple-blanks : Multiple consecutive blank lines : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md012.md
+  "MD012": {
+    // Consecutive blank lines, CHANGED FROM 1
+    "maximum": 100
+  },
+
+  // Changed to allow indented code
+  //
   "MD013": {
-    // Number of characters
+    // Number of characters, CHANGED FROM 80
     "line_length": 800,
-    // Number of characters for headings
+    // Number of characters for headings, CHANGED FROM 80
     "heading_line_length": 800,
-    // Number of characters for code blocks
+    // Number of characters for code blocks, CHANGED FROM 80
     "code_block_line_length": 800,
     // Include code blocks
     "code_blocks": true,
@@ -22,5 +32,14 @@
     // Stern length checking
     "stern": false
   },
+
+  // Changed to allow indented code
+  //
+  // MD046/code-block-style : Code block style : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md046.md
+  "MD046": false
+  //"MD046": {
+  //  // Block style
+  //  "style": "consistent"
+  //},
 
 }
