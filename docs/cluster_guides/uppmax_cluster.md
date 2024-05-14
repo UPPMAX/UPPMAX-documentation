@@ -11,8 +11,8 @@ UPPMAX is an organization that provides HPC clusters.
     One can find an overview of UPPMAX's systems [here](uppmax_systems.md)
 
 After giving [an overview of the different UPPMAX clusters](#overview-of-uppmax-clusters),
-it is discussed [what a computer cluster is](#what-is-a-computer-cluster-technically?),
-how [it differs from a supercomputer](#difference-between-a-supercomputer-and-a-(high-performing)-computer-cluster),
+it is discussed [what a computer cluster is](#what-is-a-computer-cluster-technically),
+how [it differs from a supercomputer](#difference-between-a-supercomputer-and-a-high-performing-computer-cluster),
 what [the restrictions of a computer cluster are](#restrictions-on-a-computer-cluster),
 as well as some added [restrictions on a sensitive data computer cluster](#restrictions-on-a-sensitive-data-computer-cluster).
 
@@ -251,18 +251,18 @@ accident is required by law.
 
 This is a technical summary of the UPPMAX clusters:
 
-|                        |Rackham        |Snowy                     |Bianca                                      |
-|------------------------|---------------|--------------------------|--------------------------------------------|
-|**Purpose**             |General-purpose|General-purpose           |Sensitive                                   |
-|**# Intel CPU Nodes**   |486+144        |228                       |288                                         |
-|**# GPU Nodes**         |-              |50, Nvidia T4             |10, 2x Nvidia A100 each                     |
-|**Cores per node**      |20/16          |16                        |16/64                                       |
-|**Memory per node**     |128 GB         |128 GB                    |128 GB                                      |
-|**Fat nodes**           |256 GB & 1 TB  |256, 512 GB & 4 TB        |256 & 512 GB                                |
-|**Local disk (scratch)**|2/3 TB         |4 TB                      |4 TB                                        |
-|**Login nodes**         |Yes            |No (reached from Rackham) |Yes (2 cores and 15 GB)                     |
-|**"Home" storage**      |Domus          |Domus                     |Castor                                      |
-|**"Project" Storage**   |Crex, Lutra    |Crex, Lutra               |Castor                                      |
+                        |Rackham        |Snowy                     |Bianca                                      
+------------------------|---------------|--------------------------|--------------------------------------------
+**Purpose**             |General-purpose|General-purpose           |Sensitive
+**# Intel CPU Nodes**   |486+144        |228                       |288
+**# GPU Nodes**         |-              |50, Nvidia T4             |10, 2x Nvidia A100 each
+**Cores per node**      |20/16          |16                        |16/64
+**Memory per node**     |128 GB         |128 GB                    |128 GB
+**Fat nodes**           |256 GB & 1 TB  |256, 512 GB & 4 TB        |256 & 512 GB
+**Local disk (scratch)**|2/3 TB         |4 TB                      |4 TB
+**Login nodes**         |Yes            |No (reached from Rackham) |Yes (2 cores and 15 GB)
+**"Home" storage**      |Domus          |Domus                     |Castor
+**"Project" Storage**   |Crex, Lutra    |Crex, Lutra               |Castor
 
 ## Detailed overview of the UPPMAX systems
 
