@@ -1,6 +1,6 @@
 # Using VSCodium on Rackham
 
-![](./img/vscodium_on_bianca_480_x_270.png)
+![VSCodium on another cluster, as VSCodium on Rackham fails](./img/vscodium_on_bianca_480_x_270.png)
 
 > VSCodium on another cluster, as VSCodium on Rackham fails
 
@@ -59,7 +59,7 @@ VSCodium needs the `VSCodium/latest` module.
 
 In the terminal of the interactive session, do:
 
-```
+```bash
 module load VSCodium/latest`
 ```
 
@@ -70,7 +70,7 @@ in that same terminal,
 start VSCodium:
 
 
-```
+```bash
 code
 ```
 
@@ -78,4 +78,4 @@ VSCodium will give an error?
 
 ???- info "How does the VSCodium error look on Rackham?"
 
-    ![](./img/vscodium_on_rackham_error.png)
+    ![VSCodium on Rackham fails](./img/vscodium_on_rackham_error.png)
