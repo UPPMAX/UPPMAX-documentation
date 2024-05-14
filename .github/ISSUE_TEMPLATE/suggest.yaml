@@ -3,7 +3,6 @@ description: Suggest how to improve the UPPMAX documentation
 title: "Suggest: "
 labels: ["enhancement"]
 body:
-
 - type: markdown
   attributes:
     label: Thanks
