@@ -98,8 +98,8 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 
 In general, one can pick any graphical tools with these constraints:
 
-* the tool must support SFTP
-* the tool must not store a password
+ * the tool must support SFTP
+ * the tool must not store a password
 
 Whatever tool one picks, it must do secure file transfer.
 For secure file transfer, Bianca supports the SFTP protocol.

@@ -60,4 +60,4 @@ Where `.` means 'the folder where I am now'.
 
 ## Links
 
-* [`rsync` homepage](https://rsync.samba.org/)
+ * [`rsync` homepage](https://rsync.samba.org/)

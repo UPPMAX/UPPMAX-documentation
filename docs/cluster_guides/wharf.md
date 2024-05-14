@@ -5,10 +5,10 @@ for [file transfer on Bianca](transfer_bianca.md).
 
 He it is described:
 
-* [What is `wharf`?](#what-is-wharf)
-* [The `wharf` location](#the-wharf-location)
-* [`wharf` use](#wharf-use)
-* [mounting `wharf`](#mounting-wharf)
+ * [What is `wharf`?](#what-is-wharf)
+ * [The `wharf` location](#the-wharf-location)
+ * [`wharf` use](#wharf-use)
+ * [mounting `wharf`](#mounting-wharf)
 
 ## What is `wharf`?
 
@@ -28,8 +28,8 @@ The path to this special folder is:
 
 where
 
-* `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-* `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+ * `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+ * `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
 For example:
 
@@ -69,8 +69,8 @@ RHEL7/CentOS7 [1] | `fuse-sshfs`
 RHEL8 [2]         | `fuse-sshfs`
 CentOS8 [3]       | `fuse-sshfs`
 
-* [1] Enable EPEL repository
-* [2] Enable `codeready-builder` repository
-* [3] Enable `powertools` repository
+ * [1] Enable EPEL repository
+ * [2] Enable `codeready-builder` repository
+ * [3] Enable `powertools` repository
 
 UPPMAX does not have `sshfs` installed for security reasons.

@@ -23,10 +23,9 @@ Start WinSCP.
 In WinSCP, click on 'Create new site'.
 
 For that site, use all standards, except:
-
-* Set file protocol to 'SFTP'
-* Set host name to `bianca-sftp.uppmax.uu.se`
-* Set user name to `[username]-[project]`, e.g. `richel-sens123456`
+ * Set file protocol to 'SFTP'
+ * Set host name to `bianca-sftp.uppmax.uu.se`
+ * Set user name to `[username]-[project]`, e.g. `richel-sens123456`
 
 ???- tip "How does that look like?"
 

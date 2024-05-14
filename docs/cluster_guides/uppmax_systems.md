@@ -124,6 +124,7 @@ are restricted in some ways:
     This is done by requesting an interactive node
     from the SLURM scheduler.
 
+
 - Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
   techniques how to run custom software anyway
@@ -199,9 +200,12 @@ There are three types of nodes:
     This is done by requesting an interactive node
     from the SLURM scheduler.
 
+
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
 A user logs in to a login node via the Internet.
+
+
 
 ## Summary
 

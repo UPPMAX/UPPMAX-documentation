@@ -9,6 +9,7 @@ Snowy and Bianca.
 
 To load the Whisper module, run the following command:
 
+
 ```bash
 module load Whisper/0.5.1
 ```

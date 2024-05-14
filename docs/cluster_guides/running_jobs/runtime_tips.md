@@ -32,6 +32,7 @@
 
     (NOTE: The actual number above might be different for you, and should be changed accordingly!)
 
+
 ???- question "I want my program to send data to both stdout and to a file but nothing comes until the program ends"
 
     There is a program called unbuffer. You could try using it like (tee takes care of sending both to stdout and to a file):
@@ -55,6 +56,7 @@
     - The recommended solution is that if you need to recompile or reinstall while the program is running, create a copy of the executable file and execute the copy.
     - Then, the original executable file can be safely deleted. -
     - Alternatively, rename the currently executing file to something new and unique (using the mv command) before recompiling/reinstalling your program.
+
 
 ???- question "I have strange problems with my text-files / scripts when they have been copied from other computers"
 
@@ -117,7 +119,10 @@
     - [Start an interactive node](../start_interactive_node.md)
     - [More about interactive](interactive_more.md)
 
+
+
 ## Related to Batch jobs
+
 
 ???- question "Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!"
 
@@ -161,6 +166,7 @@
 
     i.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
 
+
 ???- question "How can I see my job's memory usage?"
 
     - Historical information can first of all be found by issuing the command ``finishedjobinfo -j``. That will print out the maximum memory used by your job.
@@ -195,7 +201,10 @@
         - RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory.
         - And then there's also the PSS figure which tries to calculate a proportional memory usage per user for all shared memory buffers and caches (i.e. the figure will fall between USS and RSS).
 
+
+
 ???- question "My job has very low priority! What can be wrong?"
+
 
     - One reason could be that your project has consumed its allocated hours.
 
@@ -236,3 +245,4 @@
         - If your job priority is zero or one, there are more serious problems, for example that you asked for more resources than the batch system finds on the system.
 
     - If you ask for a longer run time (TimeLimit) than the maximum on the system, your job will not run. The maximum is currently ten days. If you must run a longer job, submit it with a ten-day runtime and contact UPPMAX support.
+

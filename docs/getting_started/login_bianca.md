@@ -14,8 +14,8 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 - [The two Bianca environments](#the-two-bianca-environments) shows the two ways to use Bianca
 - [Get within the university networks](#get-within-the-university-networks) shows how *to be allowed to* access Bianca
 - [Get inside the Bianca environment](#get-inside-the-bianca-environment) show how to get inside the Bianca environments:
-  - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
-  - [Login to the Bianca console environment](#login-to-the-bianca-console-environment)
+    - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
+    - [Login to the Bianca console environment](#login-to-the-Bianca-console-environment)
 
 ## Prerequisites for using Bianca
 
@@ -144,6 +144,7 @@ The [remote desktop environment](../cluster_guides/thinlinc.md) is considered th
 new users, as it has most similarities with what a new user is familiar with.
 However, one must always use a terminal to some extent.
 
+
 ```mermaid
 flowchart TD
 
@@ -196,7 +197,7 @@ When inside SUNET, one can access the Bianca environments.
 - For a remote desktop environment,
   go to [login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
 - For a console environment,
-  go to [login to the Bianca console environment](#login-to-the-bianca-console-environment)
+  go to [login to the Bianca console environment](#login-to-the-Bianca-console-environment)
 
 Below, the ways to access these Bianca environments
 are discussed
@@ -341,7 +342,7 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
     Instead, we recommend GNOME or XFCE.
 
-#### 5. You are in
+#### 5. You are in!
 
 Enjoy! You are in! You are on a Bianca login node!
 
@@ -444,7 +445,7 @@ You can also have multiple log-ins active at once.
 There are multiple ways to set this up:
 
 - [Using an SSH password](#login-to-the-bianca-console-environment-using-an-ssh-password).
-- [Using SSH keys](#login-to-the-bianca-console-environment-using-ssh-keys)
+- [Using SSH keys](#login-to-the-Bianca-console-environment-using-ssh-keys)
 
 Using an SSH password is considered easiest,
 where using an SSH key is considered more elegant.
@@ -503,7 +504,8 @@ using SSH with an SSH password.
 This is considered the easier one to setup,
 but one will have to type a password twice to login.
 To get rid of one password and setup SHH keys,
-see [here](#login-to-the-bianca-console-environment-using-ssh-keys).
+see [here](#login-to-the-Bianca-console-environment-using-ssh-keys).
+
 
 #### 1. Use `ssh` to log in
 
@@ -553,6 +555,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     [X forwarding](../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
+
 #### 2. Type your UPPMAX password with 2FA
 
 Type your UPPMAX password,
@@ -596,7 +599,7 @@ which may take some minutes.
 Type your UPPMAX password,
 for example `verysecret`
 
-#### 4. You are in
+#### 4. You are in!
 
 Enjoy! You are in! Or, to be precise,
 you are on the login node of your own virtual project cluster.
@@ -678,7 +681,7 @@ for example `verysecret678123`, then press enter.
 In this case, the password is `verysecret` and `678123`
 is the 2FA number.
 
-### 3. You are in
+### 3. You are in!
 
 Enjoy! You are in! To be precise, you are on a Bianca login node.
 
@@ -733,6 +736,7 @@ Enjoy! You are in! To be precise, you are on a Bianca login node.
         bianca_private_remote_desktop-->|must also use|bianca_private_terminal
     ```
 
+	
 ## Extra material
 
 ### Overview

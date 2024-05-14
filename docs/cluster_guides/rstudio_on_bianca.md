@@ -71,6 +71,7 @@ Within that terminal, start an interactive session with 2 cores.
 
     Instead, load RStudio from the module system instead.
 
+
 ### 4. Load the modules needed
 
 In the terminal of the interactive session, do:

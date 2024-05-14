@@ -89,6 +89,7 @@ The key will now be created and you can add it to the PDC Login Portal.
     +----[SHA256]-----+
     ```
 
+
 ## 2. How to add an SSH key to the PDC Login Portal
 
 To add an SSH key to the PDC login portal, one needs to:

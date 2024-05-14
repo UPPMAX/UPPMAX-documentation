@@ -2,6 +2,7 @@
 
 ![Example use of eog](./img/eog.png)
 
+
 `eog` is a tool to view images on an UPPMAX cluster.
 
 To be able to see the images,
@@ -9,6 +10,7 @@ either use [SSH with X-forwarding](../software/ssh_x_forwarding.md)
 or [login to a remote desktop](../getting_started/login.md)
 
 Usage:
+
 
 ```
 eog [filename]

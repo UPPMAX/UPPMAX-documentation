@@ -28,13 +28,13 @@ For information specific to clusters, see:
 
 The Slurm system is accessed using the following commands:
 
-- `interactive` - Start an interactive session. This is described
+* `interactive` - Start an interactive session. This is described
   in-depth for [Bianca](start_interactive_node_on_bianca.md)
   and [Rackham](start_interactive_node_on_rackham.md)
-- `sbatch` - Submit and run a batch job script
-- `srun` - Typically used inside batch job scripts for running parallel jobs
+* `sbatch` - Submit and run a batch job script
+* `srun` - Typically used inside batch job scripts for running parallel jobs
   (See examples further down)
-- `scancel` - Cancel one or more of your jobs.
+* `scancel` - Cancel one or more of your jobs.
 
 ```mermaid
 flowchart TD
@@ -129,6 +129,7 @@ sbatch -A sens2017625 --partition core my_script.sh
 
 To specify multiple cores, use `--ntasks` (or `-n`) like this:
 
+
 ```bash
 sbatch -A [project_code] --partition core --ntasks [number_of_cores] [script_filename]
 ```
@@ -151,6 +152,9 @@ Here, two cores are used.
     sbatch -A [project_code] --partition core --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
     ```
 
+
+
+
 This is especially important if you might adjust core usage
 of the job to be something less than a full node.
 
@@ -166,6 +170,8 @@ to ensure that only 8 cores (less than a single node) are allocated for such a j
 ### The `devel` partition
 
 ### The `devcore` partition
+
+
 
 ### Specifying job parameters
 

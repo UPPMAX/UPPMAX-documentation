@@ -18,8 +18,8 @@ sftp [user_name]-[project_id]@bianca-sftp.uppmax.uu.se:/[user_name]-[project_id]
 
 where
 
-* `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-* `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+ * `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+ * `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
 For example:
 
@@ -48,27 +48,27 @@ and the `sftp` prompt.
     ```
     Hi!
 
- You are connected to the bianca wharf (sftp service) at
- bianca-sftp.uppmax.uu.se.
+	You are connected to the bianca wharf (sftp service) at
+	bianca-sftp.uppmax.uu.se.
 
- Note that we only support SFTP, which is not exactly the
- same as SSH (rsync and scp will not work).
+	Note that we only support SFTP, which is not exactly the
+	same as SSH (rsync and scp will not work).
 
- Please see our homepage and the Bianca User Guide
- for more information:
+	Please see our homepage and the Bianca User Guide
+	for more information:
 
- https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
+	https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
 
- If you have any questions not covered by the User Guide, you are
- welcome to contact us at support@uppmax.uu.se.
+	If you have any questions not covered by the User Guide, you are
+	welcome to contact us at support@uppmax.uu.se.
 
- Best regards,
- UPPMAX
+	Best regards,
+	UPPMAX
 
- richel-sens2016001@bianca-sftp.uppmax.uu.se's password:
- Connected to bianca-sftp.uppmax.uu.se.
- sftp>
- ```
+	richel-sens2016001@bianca-sftp.uppmax.uu.se's password:
+	Connected to bianca-sftp.uppmax.uu.se.
+	sftp>
+	```
 
 ???- question "How do I get rid of the welcome message?"
 
@@ -78,7 +78,8 @@ and the `sftp` prompt.
     sftp -q sven-sens2016001@bianca-sftp.uppmax.uu.se
     ```
 
-The last line, `sftp>` is the `sftp` prompt.
+The last line, `sftp> ` is the `sftp` prompt.
+
 
 Once connected you will have to type the `sftp` commands to upload/download files.
 See [the UPPMAX page on `sftp`](../software/sftp.md) how to do so.

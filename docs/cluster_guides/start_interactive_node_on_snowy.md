@@ -56,3 +56,4 @@ that has a maximum duration of 8 hours.
     It can take tens of seconds before an interactive node is allocated.
 
     Snowy has not frozen, just be a bit more patient.
+

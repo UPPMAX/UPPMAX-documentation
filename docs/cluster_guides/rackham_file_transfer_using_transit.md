@@ -20,8 +20,8 @@ This page assumes your files are 'posted' to Transit.
 
 To transfer files between Rackham and Transit can be done in multiple ways too:
 
-* [Using SCP](#using-scp)
-* [Using SFTP](#using-sftp)
+ * [Using SCP](#using-scp)
+ * [Using SFTP](#using-sftp)
 
 ## Using SCP
 
@@ -75,7 +75,6 @@ yet the file will not be found on Transit.
 #### 3b. Run `scp` to copy files from Transit to Rackham
 
 In the terminal, run `scp` to copy files from Transit to Rackham by doing:
-
 ```
 scp [file_on_rackham] [username]@transit.uppmax.uu.se
 ```
@@ -121,7 +120,6 @@ In the terminal, run `scp` to copy files from Transit to Rackham by doing:
 ```
 scp [username]@rackham.uppmax.uu.se:/home/[username]/[file_on_rackham] [path_on_transit]
 ```
-
 where `[file_on_rackham]` is the name of a file on Rackham,
 `[username]` is your UPPMAX username,
 and `[path_on_transit]` is the target path on Transit,
@@ -132,6 +130,7 @@ scp sven@rackham.uppmax.uu.se:/home/sven/my_rackham_file.txt .
 ```
 
 Where `.` means 'the directory where I am now on Transit'.
+
 
 #### 3b. :no_entry: Run `scp` to copy files from Rackham to Transit
 
@@ -153,7 +152,7 @@ However, [Transit is a service, not a file server](transit.md).
 The `scp` command will complete successfully,
 yet the file will not be found on Transit.
 
-#### 4. If asked, give your UPPMAX password
+#### 4. If asked, give your UPPMAX password.
 
 You can get rid of this prompt if you have setup SSH keys
 

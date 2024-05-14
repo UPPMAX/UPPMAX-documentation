@@ -70,6 +70,7 @@ ServerAliveInterval 120
 #=======================================
 ```
 
+
 Now
 
 ```
@@ -89,4 +90,4 @@ sftp ...
 
 ## Links
 
-- [SSH Tips by Pavlin Mitev](https://hackmd.io/@pmitev/SSH_tips)
+ * [SSH Tips by Pavlin Mitev](https://hackmd.io/@pmitev/SSH_tips)

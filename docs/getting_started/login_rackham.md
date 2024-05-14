@@ -31,6 +31,7 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     - Below you find how to log in
     - Further down we present other procedures to reach Rackham, depending on your planned work.
 
+
 ## Log in with a terminal, omitting support for graphics
 
 === "Mac"
@@ -82,8 +83,11 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
     - [Git bash](https://gitforwindows.org/)
 
+
+
 !!! info "Working on Rackham"
     - Now we present alternatives to work on Rackham
+
 
 ## Alternative ways to log in and work
 
@@ -130,6 +134,8 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
 
         - *ThinLinc application*
+
+
 
 ## Terminals (see above)
 
@@ -196,6 +202,8 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
     ![Caption](./img/mobax_start.jpg)
 
+
+
 !!! note "X-forwarding from the command line (generally)"
 
     [X forwarding](../software/ssh_x_forwarding.md) allows
@@ -211,6 +219,8 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     <!-- ![Caption](./img/xeyes.png) -->
 
     - Alternatively, use `<ctrl>-z` to put e.g. gedit to sleep and type "`bg`" to make last process in background.
+
+
 
 ???+ question "Test log in to **Rackham**, using your terminal"
 
@@ -241,7 +251,7 @@ This gives you a desktop environment, as if you were working on your own compute
 You can do so:
 
 - [via the web](#remote-desktop-via-the-web)
-- [via a ThinLinc client](#remote-desktop-via-a-thinlinc-client)
+- [via a ThinLinc client](#remote-desktop-via-a-ThinLinc-client)
 
 ### Remote desktop via the web
 
@@ -263,17 +273,19 @@ Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://
     - Mac is UNIX and very Linux-like
     - Windows requires WSL (Windows subsystem for Linux)
 
+
 ??? question "For windows users who wants to get started with WSL (not covered here)"
     - Install WSL (Windows Subsystem for Linux)
-        - <https://docs.microsoft.com/en-us/windows/wsl/install-win10> (Links to an external site.)
+        - https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
         - Don’t forget to update to wsl2
     - Install a distribution or a ssh (secure shell) program
         - Distribution such as ubuntu or
         - (recommended) a ssh program such as MobaXTerm
-        - <https://mobaxterm.mobatek.net/> (Links to an external site.)
+        - https://mobaxterm.mobatek.net/ (Links to an external site.)
             - sftp frame makes it easy to move, upload and download files.
     - You may want to check this webpage as well!
-        - <https://hackmd.io/@pmitev/Linux4WinUsers> (Links to an external site.)
+        - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
+
 
 ## Visual Studio Code (not covered here)
 
@@ -284,7 +296,9 @@ Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://
 - Integrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
 - [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/)
-  - Similar to Rackham. Just change login details!
+    - Similar to Rackham. Just change login details!
+
+
 
 !!! abstract "keypoints"
     - When you log in from your local computer you will always arrive at a login node with limited resources.
@@ -297,3 +311,4 @@ Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://
     - Best integrated systems
         - Visual Studio Code has several extensions (remote, SCP, programming IDE:s)
         - Windows: MobaXterm is somewhat easier to use.
+

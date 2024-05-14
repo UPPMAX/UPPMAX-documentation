@@ -3,7 +3,6 @@
 **Short answer: The best compression using a widely available format is provided by bzip2 and its parallel equivalent pbzip2. The best compression ratio for FastQ is provided by fqz_comp in the fqzcomp/4.6 module.  However, this tool is experimental and is not recommended for general, everyday use.**
 
 ## Long answer
-
 We conducted an informal examination of two specialty FastQ compression tools by recompressing an existing fastq.gz file. The first tool fqzcomp (available in the module fqzcomp/4.6) uses a compiled executable (fqz_comp) that works similar to e.g., gzip, while the second tool (LFQC in the module lfqc/1.1) uses separate ruby-language scripts for compression (lfqc.rb) and decompression (lfqcd.rb). It does not appear the LFQC scripts accept piping but the documentation is limited.
 
 ```
@@ -52,8 +51,8 @@ We also compared against bzip2 and xz, which are general-use compressors. These 
 
 Neither of these improved general-use compressors did as well with FastQ as the specialty compressors. This makes sense given the specialty compressors can take advantages of the restrictions of the format.
 
-### Which is the best method in this trial?
 
+### Which is the best method in this trial?
 From the results of this trial, the tool that provides the best compression ratio in a reasonable amount of time is fqz_comp in the fqzcomp/4.6 module. It is as fast as bzip2 which is also much better than gzip but does a much better job of compressing FastQ.  However, fqz_comp is experimental so we do not recommend using fqz_comp for everyday use.  We recommend using bzip2 or its parallel equivalent, pbzip2.
 
 The fqz_comp executable could be used to decompress FastQ within a named pipe if FastQ is required for input:
@@ -64,6 +63,6 @@ The fqz_comp executable could be used to decompress FastQ within a named pipe if
 
 Note that fqz_comp is designed to compress FastQ files alone, and neither method here provides the blocked compression format suitable for random access that bgzip does; see [which-compression-format-should-i-use-for-ngs-related-files](../storage/compress_format.md) for more on that subject.
 
-### Why not LFQC?
 
+### Why not LFQC?
 Though LFQC has the best compression of FastQ, there are some strong disadvantages. First, it takes quite a long time, perhaps 50x longer than fqz_comp. Second, it apparently cannot be used easily within a pipe like many other compressors. Third, it contains multiple scripts with multiple auxiliary programs, rather than a single executable. Fourth, it is quite verbose during operation, which can be helpful but cannot be turned off. Finally, it was difficult to track down for installation; two different links were provided in the publications and neither worked. It was finally found in a github repository, the location of which is provided in the module help.

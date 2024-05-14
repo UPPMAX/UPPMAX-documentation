@@ -5,8 +5,8 @@ There are multiple ways to transfer files to/from Rackham:
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
-[Using SCP](#using-scp)                                       |Terminal, easy to learn, can be used in scripts
-[Using SFTP](#using-sftp)                                     |Terminal, easy to learn, secure
+[Using SCP](#using-SCP)                                       |Terminal, easy to learn, can be used in scripts
+[Using SFTP](#using-SFTP)                                     |Terminal, easy to learn, secure
 [Using transit](#using-transit)                               |Terminal, easy to learn, secure, can transfer between HPC clusters
 
 Each of these methods is discussed below.
@@ -108,3 +108,4 @@ flowchart TD
 > The purple nodes are about file transfer,
 > the blue nodes are about 'doing other things'.
 > The user can be either inside or outside SUNET.
+

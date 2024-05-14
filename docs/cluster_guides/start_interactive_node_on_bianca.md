@@ -25,3 +25,4 @@ that uses 2 cores and has a maximum duration of 8 hours.
     It can take tens of minutes before an interactive node is allocated.
 
     Bianca has not frozen, go ahead and have a coffee break :-)
+

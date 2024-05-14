@@ -18,13 +18,13 @@ This is a short tutorial about how to use the queuing system, and how to compile
 
 For serial programs, see a short version of this page at [Compiling source code](compiling_serial.md).
 
-## Compiling and running parallel programs on UPPMAX clusters
-
+## Compiling and running parallel programs on UPPMAX clusters.
 ### Introduction
 
 These notes show by brief examples how to compile and run serial and parallel programs on the clusters at UPPMAX.
 
 All programs are of the trivial "hello, world" type. The point is to demonstrate how to compile and execute the programs, not how to write parallel programs!
+
 
 ## Running serial programs on execution nodes
 
@@ -57,7 +57,7 @@ The last line in the script is the command used to start the program.
 Submit the job to the batch queue:
 
 ```console
-sbatch hello.sh
+$ sbatch hello.sh
 ```
 
 The program's output to stdout is saved in the file named at the -o flag.
@@ -98,6 +98,7 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
 
 Check this compatibility page for a more complete picture of compatible versions.
 
+
 ### C programs
 
 Enter the following mpi program in c and save in the file hello.c
@@ -122,13 +123,13 @@ Before compiling a program for MPI we must choose which version of MPI. At UPPMA
 To load the openmpi module, enter the command below or choose other versions according to the lists above.
 
 ```console
-module load gcc/10.3.0 openmpi/3.1.6
+$ module load gcc/10.3.0 openmpi/3.1.6
 ```
 
 To check that the openmpi modules is loaded, use the command:
 
 ```console
-module list
+$ module list
 ```
 
 The command to compile a c program for mpi is mpicc. Which compiler is used when this command is issued depends on what compiler module was loaded before openmpi
@@ -136,13 +137,13 @@ The command to compile a c program for mpi is mpicc. Which compiler is used when
 To compile, enter the command:
 
 ```console
-mpicc -o hello-mpi hello-mpi.c
+$ mpicc -o hello-mpi hello-mpi.c
 ```
 
 You should add optimization and other flags to the mpicc command, just as you would to the compiler used. So if the gcc compiler is used and you wish to compile an mpi program written in C with good, fast optimization you should use a command similar to the following:
 
 ```console
-mpicc -fast -o hello-mpi hello-mpi.c
+$ mpicc -fast -o hello-mpi hello-mpi.c
 ```
 
 To run the mpi program hello using the batch system, we make a batch script with name ``hello-mpi.sh``
@@ -170,7 +171,7 @@ The last word on the last line is the program name hello.
 Submit the job to the batch queue:
 
 ```console
-sbatch hello-mpi.sh
+$ sbatch hello-mpi.sh
 ```
 
 The program's output to stdout is saved in the file named at the -o flag.
@@ -232,8 +233,8 @@ end program testampi
 The program can be compiled by this procedure, using mpif90:
 
 ```console
-module load intel/20.4 openmpi/3.1.6
-mpif90 -Ofast -o testampi testampi.f90
+$ module load intel/20.4 openmpi/3.1.6
+$ mpif90 -Ofast -o testampi testampi.f90
 ```
 
 The program can be run by creating a submit script sub.sh:
@@ -308,13 +309,13 @@ OpenMP uses threads that use shared memory. OpenMP is supported by both the gcc 
 Depending on your preferences load the chosen compiler:
 
 ```console
-module load gcc/12.1.0
+$ module load gcc/12.1.0
 ```
 
 or
 
 ```console
-module load intel/20.4
+$ module load intel/20.4
 ```
 
 ### C programs
@@ -341,13 +342,13 @@ int main()
 To compile, enter the command (note the -fopenmp or -qopenmp flag depending on compiler):
 
 ```console
-gcc -fopenmp -o hello_omp hello_omp.c
+$ gcc -fopenmp -o hello_omp hello_omp.c
 ```
 
 or
 
 ```console
-icc qfopenmp -o hello_omp hello_omp.c
+$ icc qfopenmp -o hello_omp hello_omp.c
 ```
 
 Also here you should add optimization flags such as -fast as appropriate.
@@ -381,7 +382,7 @@ The last line in the script is the command used to start the program.
 Submit the job to the batch queue:
 
 ```console
-sbatch hello.sh
+$ sbatch hello.sh
 ```
 
 The program's output to stdout is saved in the file named at the -o flag.
@@ -426,13 +427,13 @@ END
 With gcc compiler:
 
 ```console
-gfortran hello_omp.f90 -o hello_omp -fopenmp
+$ gfortran hello_omp.f90 -o hello_omp -fopenmp
 ```
 
 and with Intel compiler:
 
 ```console
-ifort hello_omp.f90 -o hello_omp -qopenmp
+$ ifort hello_omp.f90 -o hello_omp -qopenmp
 ```
 
 Run with:
@@ -446,6 +447,7 @@ $ ./hello_omp
  Hello World from thread =            3
  Number of threads =            4
 ```
+
 
 A batch file would look similar to the C version, above.
 
@@ -491,8 +493,8 @@ int main()
 To compile, enter the commands
 
 ```console
-module load gcc/10.2.0
-gcc -pthread -o hello_pthread hello_pthread.c
+$ module load gcc/10.2.0
+$ gcc -pthread -o hello_pthread hello_pthread.c
 ```
 
 To run the pthread program hello using the batch system, enter the following shell script in the file hello.sh:
@@ -519,9 +521,8 @@ The last line in the script is the command used to start the program.
 Submit the job to the batch queue:
 
 ```console
-sbatch hello.sh
+$ sbatch hello.sh
 ```
-
 The program's output to stdout is saved in the file named at the -o flag.
 A test run of the above program yelds the following output file:
 

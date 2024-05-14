@@ -1,6 +1,6 @@
 # UPPMAX history
 
-* On January 12, 2024, the Irham nodes `r[1001-1072,1179-1250]`
+ * On January 12, 2024, the Irham nodes `r[1001-1072,1179-1250]`
    have been decommissioned. In 2021, the NGI HPC system Irma was replaced
    by Miarka, freeing up Irma nodes.
    In later part of 2021 a research group expressed interest in

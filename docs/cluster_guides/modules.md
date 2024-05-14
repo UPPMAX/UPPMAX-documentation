@@ -241,6 +241,7 @@ Of the module shown, also the different versions are reported.
     so that you can spend time on your research
     and we figure this out :-)
 
+
 To load a module, use `module load [module]`,
 for example `module load cowsay`.
 This will load the default version of that module,
@@ -386,10 +387,10 @@ Full command            |Shorthand syntax
 
 ## Links
 
-- [Almost all installed software on UPPMAX](../software/overview.md)
-- [Almost all installed databases on UPPMAX](../databases/overview.md)
-- [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
-- [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
+ * [Almost all installed software on UPPMAX](../software/overview.md)
+ * [Almost all installed databases on UPPMAX](../databases/overview.md)
+ * [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
+ * [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
 
 ## Extra materials
 
@@ -410,9 +411,8 @@ though, especially when searching for a specific tool, or a bioinformatics tool.
 It only reports modules that are immediately available.
 
 ```
-module avail R
+$ module avail R
 ```
-
 outputs everything that has an `r` in the name... not useful.
 
 ```

@@ -62,4 +62,4 @@ cp $SNIC_TMP/sample.bam /proj/snic2022-X-YYY/nobackup/results/
 
 It's not harder than that. This way, the index files are copied to $SNIC_TMP in a single operation, which is much less straining for the file system than small random read/writes. The network filesystem is used when gathering reads for alignment, and streaming reads are easy for that filesystem. When the alignment is finished the results is copied back to project directory so that it can be used in other analysis.
 
-One problem that can happen is if your files and the results are too large for the node's hard drive. The drive is 2TiB on Rackham and 4TiB on Bianca, so it is unusual for the hard drive to be too small for the results of such analyses. If you run into this problem, please email UPPMAX at <support@uppmax.uu.se> and we can look into the problem.
+One problem that can happen is if your files and the results are too large for the node's hard drive. The drive is 2TiB on Rackham and 4TiB on Bianca, so it is unusual for the hard drive to be too small for the results of such analyses. If you run into this problem, please email UPPMAX at support@uppmax.uu.se and we can look into the problem.

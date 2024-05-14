@@ -17,8 +17,8 @@ lftp sftp://[user_name]-[project_id]@bianca-sftp.uppmax.uu.se/[user_name]-[proje
 
 where
 
-* `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-* `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+ * `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+ * `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
 For example:
 

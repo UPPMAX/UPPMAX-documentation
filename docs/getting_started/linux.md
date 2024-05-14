@@ -1,11 +1,12 @@
 # Linux
-
 - The "operating system" of the UPPMAX and most of the other clusters is **Linux**.
 
 !!! questions
 
     - What is Linux?
     - How to use the command line?
+
+
 
 !!! objectives
 
@@ -29,18 +30,28 @@
 
 ![Content](./img/images.jfif)
 
+
+
 - Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
   - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
 
+
+
 ![Content](./img/gnu.png)
+
+
 
 - Linux has a multiuser platform at its base which means permissions and security comes easy.
 
-### Linux comes in different distributions, dialects or, say, flavours
 
+### Linux comes in different distributions, dialects or, say, flavours.
 - UPPMAX runs CentOS and RedHat
 
+
+
 ![Content](./img/flavours.png)
+
+
 
 ## Using the command line
 
@@ -49,7 +60,6 @@ If you prefer video, [here](https://youtu.be/kjqLAx2bgJI)
 is how to use the command-line on the UPPMAX Bianca cluster.
 
 ### Command line with bash (Bourne Again Shell)
-
 - A Unix shell and command language.
 - Often default shell
 
@@ -61,6 +71,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
   - (because it sits around the kernel making it easy to interact with)
 
 ![Content](./img/unix_architecture.jpg)
+
 
 ### The prompt
 
@@ -83,6 +94,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ### Example bash command
 
+
 ![mv inbox](./img/mv_inbox.png){: style="width:300px"}
 <br/>
 
@@ -90,22 +102,28 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ![program flags](./img/program_flags.png){ : style="width:200px" }
 
+
 <br/>
 
 - Terminal screen shows
 
 ![Content](./img/screen.png){ : style="width:500px" }
 
+
 ### Tab Completion
+
 
 ![Content](./img/tab.png){ : style="width:200px" }
 
+
 <br/><
+
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
 
 - Get in the habit of this — it will save you many hours!
+
 
 ## Editing files
 
@@ -125,6 +143,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - Type `test text`
     - End and save with ``<ctrl>-X`` followed by `Y` and `<enter>`.
 
+
 ## Typical sources of error
 
 ![Content](./img/cross.png)
@@ -137,9 +156,11 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - Check that you are in the right place in the file system.
     - File permissions. Check that the right read, write and execute permission are set. See next session.
 
-## Caution
+
+## Caution!!
 
 ![Content](./img/caution.png)
+
 
 !!! Warning
 
@@ -148,6 +169,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
       - move (`mv`), and
       - remove (`rm`).
     - **Beware of overwriting files and deleting the wrong ones.**
+
 
 !!! tip
 
@@ -167,6 +189,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 
     - If you do destroy your data, email UPPMAX support, we may be able to help.
 
+
 !!! keypoints
 
     - Linux Operating system is a UNIX-like and UNIX compatible Operating system.
@@ -179,6 +202,8 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
         - no undo:s for copying, moving and removing
           - Solution: ``alias rm='rm -i' ``
 
+
+
 ## Links
 
-- A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
+ * A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).

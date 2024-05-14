@@ -82,7 +82,7 @@ You do need to transfer these files to other HPC clusters
 before closing `sftp`.
 For detailed instructions, see the guides at the respective cluster, among others:
 
-* [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
+ * [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
 
 ## Overview
 

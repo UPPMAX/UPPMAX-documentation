@@ -23,21 +23,20 @@ Jupyter is an [IDE](../software/ides.md) specialized for [the Python programming
 Start a notebook like this:
 
 ```bash
-module load python/<version>
-jupyter-notebook
+$ module load python/<version>
+$ jupyter-notebook
 ```
-
 or jupyter lab:
 
 ``` bash
-jupyter-lab
+$ jupyter-lab
 ```
 
 A local Firefox session (not a internet web page!)
 should start with the Jupyter notebook/lab interface.
 
 - If not, make Jupyter work in background, start Firefox and paste the address.
-- ``<ctrl-z>``
+- `` <ctrl-z>``
 - ``bg``
 - ``firefox &``
 
@@ -53,9 +52,9 @@ If you decide to use the ``--system-site-packages`` configuration you will get `
 However, you won't find your locally installed packages from that jupyter session. To solve this, reinstall jupyter within the virtual environment by force (option ``-I``):
 
 ```bash
-pip install -I jupyter
+$ pip install -I jupyter
 ```
-
 and run it as above.
 
 Be sure to start the kernel with the virtual environment name, like "project A", and not "Python 3 (ipykernel)".
+

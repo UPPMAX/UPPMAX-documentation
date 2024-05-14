@@ -49,7 +49,7 @@ In the 'Site Manager' dialog, click 'New site'
 
     ![](./img/filezilla_site_manager.png)
 
-## 5. Create a name for the site, e.g. `bianca-sens123456`
+## 5. Create a name for the site, e.g. `bianca-sens123456`.
 
 In the 'New Site' dialog, create a name for the site, e.g. `bianca-sens123456`.
 
@@ -57,9 +57,9 @@ In the 'New Site' dialog, create a name for the site, e.g. `bianca-sens123456`.
 
 In the 'New Site' dialog, use all standards, except:
 
-* Set protocol to 'SFTP - SSH File Transfer Protocol'
-* Set host to `bianca-sftp.uppmax.uu.se`
-* Set user to `[username]-[project]`, e.g. `richel-sens123456`
+ * Set protocol to 'SFTP - SSH File Transfer Protocol'
+ * Set host to `bianca-sftp.uppmax.uu.se`
+ * Set user to `[username]-[project]`, e.g. `richel-sens123456`
 
 ???- tip "How does that look like?"
 

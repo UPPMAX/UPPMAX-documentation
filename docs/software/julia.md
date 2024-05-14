@@ -1,5 +1,6 @@
 # Julia user guide
 
+
 ## Julia installations
 
  There is no system-installed Julia on the clusters. Therefore you need to load Julia with the module system. Different versions of Julia are available via the module system on Rackham, Snowy, and Bianca. Some installed packages are available via the module.
@@ -29,14 +30,16 @@ Versions:
 To load a specific version of Julia into your environment,  type e.g.
 
 ```console
-module load julia/1.6.7_LTS
+$ module load julia/1.6.7_LTS
 ```
+
 
 ​Doing:
 
 ```console
-module load julia
+$ module load julia
 ```
+
 
 will give you the default version (1.9.3), often the latest version.
 
@@ -45,16 +48,19 @@ A good and important suggestion is that you always specify a certain version. Th
 You can run a julia script in the shell by:
 
 ```console
-julia example_script.jl
+$ julia example_script.jl
 ```
+
 
 After loading the appropriate modules for Julia, you will have access to the read-eval-print-loop (REPL) command line by typing julia.
 
 ```console
-julia
+$ julia
 ```
 
+
 You will get a prompt like this:
+
 
 ```julia-repl
 julia>
@@ -102,12 +108,13 @@ A variable referring to the last computed value, automatically set at the intera
 ​
     - Exit with <Ctrl-D> or 'exit()'.
 
+
 !!! seealso
 
     More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
 
-## Introduction
 
+## Introduction
 Julia is according to <https://julialang.org/>:
 
 - Fast
@@ -122,7 +129,6 @@ Julia is according to <https://julialang.org/>:
 [Julia discussions](https://discourse.julialang.org/)
 
 ## Packages
-
 Some packages are pre-installed. That means that they are available also on **Bianca**. These include:
 
 - "BenchmarkTools"
@@ -153,7 +159,6 @@ To use module functions, use import Module to import the module, and Module.fn(x
 Alternatively, using Module will import all exported Module functions into the current namespace.
 
 ### Use  centrally installed packages the first time
-
 You may have to build the package the first time you run it. Julia will in such case ask you to do so. Then:
 
 ```julia-repl
@@ -163,11 +168,9 @@ julia> Pkg.build(<package_name>)
 ```
 
 ## How to install personal packages
-
 You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the
 
 ### Check if packages are installed centrally
-
 To make sure that the package is not already installed, type in Julia:
 
 ```julia
@@ -175,61 +178,55 @@ julia> using Pkg
 julia> Pkg.activate(DEPOT_PATH[2]*"/environments/v1.8");  #change version accordingly
 julia> Pkg.status()
 ```
-
 To go back to your own personal packages:
 
 ```julia-repl
 julia> Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");
 julia> Pkg.status()
 ```
-
 You can load (using/import) ANY package from both lotcal and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
 
 ### Start an installation locally
-
 To install personal packages, start to be sure that you are in your local environment. You type within Julia:
 
 ```julia-repl
      Pkg.activate(DEPOT_PATH[1]*"/environmentts/v1.8");
      Pkg.add("<package_name>")
 ```
-
 This will install under the path ~/.julia/packages/. Then you can load it by just doing "using/import <package_name>".
 
 ```julia-repl
       using <package_name>
 ```
-
 You can also activate a "package prompt" in julia with   ']':
+
 
 ```julia-repl
 (@v1.8) pkg> add <package name>
 ```
-
 For installing specific versions specify with  <package name>@<X.Y.Z>.
 
 After adding you may be asked to precompile or build. Do so according to instruction given on the screen. Otherwise, first time importing or using the package, Julia may start a precompilation that will take a few seconds up to several minutes.
 
 Exit with <backspace>:
 
+
 ```julia-repl
 julia>
 ```
 
 ### Own packages on Bianca
-
 You can use make an installation on Rackham and then use the wharf to copy it over to your ~/.julia/ directory.
 
-Otherwise, send an email to <support@uppmax.uu.se> and we'll help you.
+Otherwise, send an email to support@uppmax.uu.se and we'll help you.
 
 ## Running IJulia from Jupyter notebook
-
 Like for python it is possible to run a Julia in a notebook, i.e. in a web interface with possibility of inline figures and debugging. An easy way to do this is to load the python module as well. In shell:
 
 ```console
-module load julia/1.8.5
-module load python/3.10.8
-julia
+$ module load julia/1.8.5
+$ module load python/3.10.8
+$ julia
 ```
 
 In Julia:
@@ -247,11 +244,9 @@ If not, you may have to build IJulia the first time with Pkg.build(“IJulia”)
 This builds the package also locally before starting the notebook. If not done, Jupyter will not find the julia kernel of that version. With notebook(dir="</path/to/work/dir/>", detached=true) the notebook will not be killed when you exit your REPL julia session in the terminal.
 
 ## How to run parallel jobs
-
 There are several packages available for Julia that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines. You'll find an introduction here.
 
 ### Run interactively on compute node
-
 Always run parallel only on the compute nodes. This is an example with 4 cores on Rackham
 
 ```console
@@ -259,16 +254,17 @@ $ interactive -A <proj> -n 4 -t 3:00:00
 Running interactively at UPPMAX
 ```
 
+
 Slurm user guide
 
 ### Threading
-
 Threading divides up your work among a number of cores within a node. The threads share their memory. Below is an example from within Julia. First, in the shell type:
 
 ```console
-export JULIA_NUM_THREADS=4
-julia
+$ export JULIA_NUM_THREADS=4
+$ julia
 ```
+
 
 in Julia:
 
@@ -279,8 +275,8 @@ nthreads()
         a[i] = Threads.threadid()
 end
 
-### Distributed computing
 
+### Distributed computing
 Distributed processing uses individual processes with individual memory, that communicate with each other. In this case, data movement and communication is explicit.
 Julia supports various forms of distributed computing.
 
@@ -292,11 +288,10 @@ If choosing between distributed and MPI, distributed is easier to program, where
 For more detailed info please confer the manual for distributed computing and julia MPI.
 
 #### Master-Worker model
-
 We need to launch Julia with
 
 ```console
-julia -p 4
+$ julia -p 4
 ```
 
 then inside Julia you can check
@@ -350,49 +345,49 @@ julia hello_world_distributed.jl
 ​Put job in queue:
 
 ```console
-sbatch job_distributed.slurm
+$ sbatch job_distributed.slurm
 ```
+
 
 #### Interactive example
 
 ```console
-salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0
-julia hello_world_distributed.jl
+$ salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0
+$ julia hello_world_distributed.jl
 ```
 
-### MPI
 
+### MPI
 The Threaded and Distributed packages are included in the Base installation. However, in order to use MPI with Julia you will need to follow the next steps (only the first time):
 
 - Load the tool chain which contains a MPI library
 For julia/1.6.3 and earlier:
 
 ```console
-module load gcc/9.3.0 openmpi/3.1.5
+$ module load gcc/9.3.0 openmpi/3.1.5
 ```
 
 For julia/1.6.7_LTS & 1.7.2:
 
 ```console
-module load gcc/10.3.0 openmpi/3.1.6
+$ module load gcc/10.3.0 openmpi/3.1.6
 ```
 
 For julia/1.8.5:
 
 ```console
-module load gcc/11.3.0 openmpi/4.1.3
+$ module load gcc/11.3.0 openmpi/4.1.3
 ```
 
-- Load Julia
 
+- Load Julia
 ```console
-ml julia/1.8.5   # or other
+$ ml julia/1.8.5   # or other
 ```
 
 - Start Julia on the command line
-
 ```console
-julia
+$ julia
 ```
 
 - Change to ``package mode`` and add the ``MPI`` package
@@ -421,8 +416,8 @@ MPI.Finalize()
 You can execute your code as in an interactive session with several cores (at least 3 in this case):
 
 ```console
-module load gcc/11.3.0 openmpi/4.1.3
-mpiexecjl -np 3 julia juliaMPI.jl
+$ module load gcc/11.3.0 openmpi/4.1.3
+$ mpiexecjl -np 3 julia juliaMPI.jl
 ```
 
 A batch script, job_MPI.slurm, should include a "module load gcc/XXX openmpi/XXX"
@@ -444,17 +439,14 @@ module load gcc/11.3.0 openmpi/4.1.3
 export PATH=~/.julia/bin:$PATH
 mpiexecjl -n 20 julia juliaMPI.jl
 ```
-
 - Run with
 
 ```console
-sbatch job_MPI.slurm
+$ sbatch job_MPI.slurm
 ```
-
 See the MPI.jl examples for more input!
 
 ### GPU
-
 Example Julia script, juliaCUDA.jl:
 
 using CUDA, Test
@@ -486,28 +478,24 @@ julia juliaCUDA.jl
 ```
 
 - Put job in queue:
-
 ```console
-sbatch juliaGPU.slurm
+$ sbatch juliaGPU.slurm
 ```
 
 #### Interactive session with GPU
-
 On Snowy, getting 1 cpu and 1 gpu:
 
 ```console
-interactive -A <proj> -n 1 -M snowy --gres=gpu:1  -t 3:00:00
+$ interactive -A <proj> -n 1 -M snowy --gres=gpu:1  -t 3:00:00
 ```
-
 On Bianca, getting 2 cpu:s and 1 gpu:
 
 ```console
-interactive -A <proj> -n 2 -C gpu --gres=gpu:1 -t 01:10:00
+$ interactive -A <proj> -n 2 -C gpu --gres=gpu:1 -t 01:10:00
 ```
 
 - wait until session is started
-
 ```console
-julia/1.7.2
-julia/1.8.5 (Default)
+$ julia/1.7.2
+$ julia/1.8.5 (Default)
 ```

@@ -14,32 +14,32 @@ Uppmax maintains local copies of the full set of NCBI Taxonomy databases. Note t
 See the links for each database for specifics on file format and contents. Many tools know how to make use of these databases; follow each tool's specific instructions. The files can be found in the indicated directories.
 
 The databases available within /sw/data/ncbi_taxonomy/latest are below. For more on each, see the links.
-Name  Source  Notes
-taxdump  NCBI  NCBI taxonomic database, in multiple .dmp files (see taxdump_readme.txt or link)
-taxcat  NCBI  NCBI taxonomic categories, in categories.dmp (see taxcat_readme.txt or link)
-taxdump_readme.txt  NCBI  NCBI taxdump file description
-taxcat_readme.txt  NCBI  NCBI taxcat file description
-gi_taxid_nucl.dmp  NCBI  Mappings of nucleotide GI to taxid (DEPRECATED)
-gi_taxid_prot.dmp  NCBI  Mappings of protein GI to taxid (DEPRECATED)
+Name 	Source 	Notes
+taxdump 	NCBI 	NCBI taxonomic database, in multiple .dmp files (see taxdump_readme.txt or link)
+taxcat 	NCBI 	NCBI taxonomic categories, in categories.dmp (see taxcat_readme.txt or link)
+taxdump_readme.txt 	NCBI 	NCBI taxdump file description
+taxcat_readme.txt 	NCBI 	NCBI taxcat file description
+gi_taxid_nucl.dmp 	NCBI 	Mappings of nucleotide GI to taxid (DEPRECATED)
+gi_taxid_prot.dmp 	NCBI 	Mappings of protein GI to taxid (DEPRECATED)
 
 The databases available within /sw/data/ncbi_taxonomy/latest/new_taxdump are below. For more on each, see the links.
-Name  Source  Notes
-new_taxdump  NCBI  NCBI new-format taxonomic database, in multiple .dmp files (see this taxdump_readme.txt or link)
-taxdump_readme.txt  NCBI  NCBI new-format taxonomic database file description
+Name 	Source 	Notes
+new_taxdump 	NCBI 	NCBI new-format taxonomic database, in multiple .dmp files (see this taxdump_readme.txt or link)
+taxdump_readme.txt 	NCBI 	NCBI new-format taxonomic database file description
 
 The databases available within /sw/data/ncbi_taxonomy/latest/accession2taxid are below. The dead_ files contain accession-to-TaxID mappings for dead (suppressed or withdrawn) sequence records. For more on each, see the links.
-Name  Source  Notes
-nucl_wgs.accession2taxid  NCBI  TaxID mapping for nucleotide records of type WGS or TSA
-nucl_gb.accession2taxid  NCBI  TaxID mapping for nucleotide records not of the above types
-prot.accession2taxid  NCBI  TaxID mapping for protein records
-pdb.accession2taxid  NCBI  TaxID mapping for PDB protein records
-dead_nucl.accession2taxid  NCBI  TaxID mapping for dead nucleotide records
-dead_prot.accession2taxid  NCBI  TaxID mapping for dead protein records
-dead_wgs.accession2taxid  NCBI  TaxID mapping for dead WGS or TSA records
+Name 	Source 	Notes
+nucl_wgs.accession2taxid 	NCBI 	TaxID mapping for nucleotide records of type WGS or TSA
+nucl_gb.accession2taxid 	NCBI 	TaxID mapping for nucleotide records not of the above types
+prot.accession2taxid 	NCBI 	TaxID mapping for protein records
+pdb.accession2taxid 	NCBI 	TaxID mapping for PDB protein records
+dead_nucl.accession2taxid 	NCBI 	TaxID mapping for dead nucleotide records
+dead_prot.accession2taxid 	NCBI 	TaxID mapping for dead protein records
+dead_wgs.accession2taxid 	NCBI 	TaxID mapping for dead WGS or TSA records
 
 The biocollections databases contain collections location information. coll_dump.txt is located within the /sw/data/ncbi_taxonomy/latest directory. Those marked biocollections are located within the /sw/data/ncbi_taxonomy/latest/biocollections directory.
-Name  Source  Notes
-coll_dump.txt  NCBI  
-Collection_codes.txt  NCBI  biocollections
-Institution_codes.txt  NCBI  biocollections
-Unique_institution_codes.txt  NCBI  biocollections
+Name 	Source 	Notes
+coll_dump.txt 	NCBI 	
+Collection_codes.txt 	NCBI 	biocollections
+Institution_codes.txt 	NCBI 	biocollections
+Unique_institution_codes.txt 	NCBI 	biocollections
