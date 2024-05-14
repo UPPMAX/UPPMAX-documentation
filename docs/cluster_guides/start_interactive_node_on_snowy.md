@@ -1,6 +1,6 @@
 # Starting an interactive node on Snowy
 
-![](./img/login_rackham4_via_terminal_terminal_395_x_204.png)
+![Log in to Rackham4 via a terminal](./img/login_rackham4_via_terminal_terminal_395_x_204.png)
 
 This page describes how to start an interactive node on [Snowy](snowy.md),
 unlike the [general information on starting an interactive node](start_interactive_node.md).

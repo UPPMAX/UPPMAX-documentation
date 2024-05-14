@@ -1,6 +1,6 @@
 # Starting an interactive node on Bianca
 
-![](./img/login_bianca_via_terminal_terminal_462_x_202.png)
+![Log in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
 This page describes how to start an interactive node on [Bianca](bianca.md),
 unlike the [general information on starting an interactive node](start_interactive_node.md).
