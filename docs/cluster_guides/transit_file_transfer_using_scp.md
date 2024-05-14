@@ -37,7 +37,7 @@ The process is:
 
 In the terminal, copy files using `scp` to download files from Transit:
 
-```
+```bash
 scp [username]@transit.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
 ```
 
@@ -45,7 +45,7 @@ where `[remote_filename]` is the path to a remote filename,
 `[username]` is your UPPMAX username,
 and `[local_folder]` is your local folder, for example:
 
-```
+```bash
 scp sven@transit.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 ```
 
@@ -57,14 +57,14 @@ You can get rid of this prompt if you have setup SSH keys
 
 This is how you **would** copy a file from your local computer to Transit:
 
-```
+```bash
 scp [local_filename] [username]@transit.uppmax.uu.se:/home/[username]
 ```
 
 where `[local_filename]` is the path to a local filename,
 and `[username]` is your UPPMAX username, for example:
 
-```
+```bash
 scp my_file.txt sven@transit.uppmax.uu.se:/home/sven
 ```
 
