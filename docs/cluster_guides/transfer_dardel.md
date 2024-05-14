@@ -120,7 +120,9 @@ The next thing you have to do is to add UPPMAX as a placer permitted to use your
 
     > This is where you enter UPPMAX as allowed to use this key.
 
-@Richel, need a screenshot of adding custom domain.
+???- question "For staff only"
+
+    @Richel, need a screenshot of adding custom domain.
 
 To validate that it work you can connect to Dardel via SSH:
 
@@ -129,7 +131,9 @@ To validate that it work you can connect to Dardel via SSH:
 ssh -i ~/.ssh/id_ed25519_pdc your_dardel_username@dardel.pdc.kth.se
 ```
 
-@Richel, need a screenshot of ssh working
+???- question "For staff only"
+
+    @Richel, need a screenshot of ssh working
 
 ### 6. Transfer files
 
@@ -167,7 +171,9 @@ tail ~/dardel_transfer.out
 tail ~/dardel_transfer.err
 ```
 
-@Richel, need a screenshot of successful rsync command, as well as a failed one?
+???- question "For staff only"
+
+    @Richel, need a screenshot of successful rsync command, as well as a failed one?
 
 If there are any errors you can either run `darsync gen` again and correct any mistakes you made and submit the new script file.
 
