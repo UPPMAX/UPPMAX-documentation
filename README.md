@@ -61,7 +61,7 @@ pip install beautifulsoup4\>=4.11.1 gTTS\>=2.2.4
 The script `md_to_speech.py` takes an `.md` file, parses the text and generates
 an mp3 using [`gTTS`](https://gtts.readthedocs.io/en/latest/). Run it by
 
-```
+```bash
 python3 scripts/md_to_speech.py --input txt.md --lang en
 ```
 
