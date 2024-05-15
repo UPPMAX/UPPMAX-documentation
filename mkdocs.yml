@@ -128,8 +128,9 @@ extra_css:
 
 extra:
   social:
-    - link: https://www.uu.se/en/centre/uppmax
-      name: Uppmax main page
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
       
 markdown_extensions:
   - toc:
