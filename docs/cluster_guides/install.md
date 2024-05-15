@@ -3,12 +3,13 @@
 ## Install software yourself
 
 ### Build from source
+
 - To build from source use a **compiler module**
 - We have several compiler versions from GNU and INTEL
 - check with: ``$ ml avail gcc`` and ``$ ml avail intel``
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
-    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
+  - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
 
 
 ## Packages and libraries to scripting programs
@@ -53,8 +54,8 @@
 
 - On UPPMAX the module ``R_packages`` is an omnibus package library containing almost all packages in the CRAN and BioConductor repositories.
 - As of 2023-05-31, there were a total of 23100 R packages installed in ``R_packages/4.2.1``.
-    -  A total of 23109 packages were available in CRAN and BioConductor, and 23000 of these were installed in ``R_packages/4.2.1``
-    -  The additional 100 R packages available in this module were installed from the CRAN/BioConductor archives, or were hosted on github, gitlab or elsewhere.
+  - A total of 23109 packages were available in CRAN and BioConductor, and 23000 of these were installed in ``R_packages/4.2.1``
+  - The additional 100 R packages available in this module were installed from the CRAN/BioConductor archives, or were hosted on github, gitlab or elsewhere.
 
 - [Installing R packages](../software/r.md)
 
@@ -75,7 +76,7 @@
 
 - [Installing julia packages](http://docs.uppmax.uu.se/software/julia/#how-to-install-personal-packages)
 
-## "Containers"
+## Containers
 
 !!! info
 
@@ -87,35 +88,37 @@
         - you install also things that may be already installed
         - therefore, probably more disk space is needed
 
-#### Singularity
+### Singularity
 
-- [Singularity user guide](../cluster_guides/singularity.md)
+See [the UPPMAX Singularity user guide](../cluster_guides/singularity.md)
 
-#### Docker
-- Docker will unfortunately not work on the clusters, since it requires root permission.
+### Docker
+
+Docker will unfortunately not work on the clusters, since it requires root permission.
 
 !!! info "More info"
 
     - [Singularity user guide](../software/singularity.md)
     - [Part from Bianca course but applicable also on Rackham](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/extra/containers.md)
 
-### Spack
+## Spack
 
 - The UPPMAX staff has already other ways to install most software applications.
 - Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
 - [UPPMAX Spack user guide](../software/spack.md)
 
-### Own development...
+## Own development
 
 - You may have your own code that you want to run on UPPMAX.
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
-    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
+  - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
 - [User guide for debuggers](../cluster_guides/debuggers.md)
 - [User guide for profilers](../cluster_guides/profilers.md)
 
 ## Run own scripts or programs
-- Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
+
+Unless your script or program is in the active path, you run it by the full path or `./<file>` if you are in the present directory.
 
 ## Summary
 

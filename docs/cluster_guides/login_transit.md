@@ -18,13 +18,13 @@ Below is a step-by-step procedure to login to [Transit](../cluster_guides/transi
 
 On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to login to Transit:
 
-```
+```bash
 ssh [username]@transit.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
-```
+```bash
 ssh sven@transit.uppmax.uu.se
 ```
 
@@ -38,8 +38,8 @@ it to your list of known hosts. Type `yes`.
     This is how it looks like when you are asked
     for adding Transit to your list of known hosts.
 
-    ![](./img/transit_add_to_known_hosts.png)
+    ![Transit is added to your list of known hosts](./img/transit_add_to_known_hosts.png)
 
 You are now logged in to Transit!
 
-![](./img/logged_in_transit.png)
+![Logged in to Transit](./img/logged_in_transit.png)
