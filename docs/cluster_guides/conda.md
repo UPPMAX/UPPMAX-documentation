@@ -5,7 +5,7 @@
     If you want to see a video how to use Conda on Rackham,
     go [here](https://youtu.be/SMhawXQhtls?si=_2t6T2Vn2B10M6LW)
 
-## Install packages or not? Check it!
+## Install packages or not? Check it
 
 ### Python
 
@@ -13,9 +13,9 @@
 - load a python version like: ``ml python/3.10.8``
 - from the Python shell with the ``import`` command
 - from BASH shell with the
-	
-- ``pip list`` command
-- ``ml help python/3.9.5`` (or other version) at UPPMAX
+
+- `pip list` command
+- `module help python/3.9.5` (or other version) at UPPMAX
 
 ### Is it not there, or is it a stand-alone tool? Then proceed!**
 
@@ -34,27 +34,27 @@
     on the UPPMAX (and HPC2N) HPC clusters,
     go [here](https://youtu.be/novRJfAa2QA?si=IQM3g37TsimemDl6)
 
-- See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
+See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
 
-## Conda
+## Conda repositories
 
-- We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
+We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
 
 !!! info "Available Conda channels"
 
-    -   bioconda
-    -   biocore
-    -   conda-forge
-    -   dranew
-    -   free
-    -   main
-    -   pro
-    -   qiime2
-    -   r
-    -   r2018.11
-    -   scilifelab-lts
-    -   nvidia
-    -   pytorch
+    - bioconda
+    - biocore
+    - conda-forge
+    - dranew
+    - free
+    - main
+    - pro
+    - qiime2
+    - r
+    - r2018.11
+    - scilifelab-lts
+    - nvidia
+    - pytorch
 
 !!! info "More info"
 
@@ -64,39 +64,39 @@
 
 !!! info "Conda cheat sheet"
 
-    -   List all environments: `conda info -e` or `conda env list`
+    - List all environments: `conda info -e` or `conda env list`
 
-    -   Create a conda environment (it is good to directly define the packages included AND channels do not need to be explicitly mentioned)
+    - Create a conda environment (it is good to directly define the packages included AND channels do not need to be explicitly mentioned)
 
         ```conda create --prefix /some/path/to/env <package1> [<package2> ... ] ```
 
         - On our systems the above should replace `conda create --name myenvironment ...`
 
-    -   Create a new environment from requirements.txt:
+    - Create a new environment from requirements.txt:
 
         - `conda create --prefix /some/path/to/env --file requirements.txt`
 
-    -   Activate a specific environment: `conda activate myenvironment`
+    - Activate a specific environment: `conda activate myenvironment`
 
-    -   List packages in present environment: `conda list`
+    - List packages in present environment: `conda list`
 
         - Also pip list will work
 
-    -   Install additional package from an active environment:
+    - Install additional package from an active environment:
 
         - `conda install somepackage`
 
-    -   Install from certain channel (conda-forge):
+    - Install from certain channel (conda-forge):
 
         - `conda install -c conda-forge somepackage`
 
-    -   Install a specific version: `conda install somepackage=1.2.3`
+    - Install a specific version: `conda install somepackage=1.2.3`
 
         -   Install a specific version: `conda install somepackage=1.2.3`
 
-    -   Deactivate current environment: `conda deactivate`
+    - Deactivate current environment: `conda deactivate`
 
-    -  [More](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+    - [More](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 ## Your conda settings on Rackham and Bianca
 
@@ -111,17 +111,17 @@
 !!! warning
 
     - It seems you are required to use this path, ending with the name of your environment, together with ``--prefix`` when you install new envronments AND packages also after activating the conda environment!
-    Like: ``conda install --prefix $CONDA_ENVS_PATH/<your-environment> ...``
+      Like: ``conda install --prefix $CONDA_ENVS_PATH/<your-environment> ...``
 
 !!! tip
 
-    -   REMEMBER TO `conda clean -a` once in a while to remove unused and unnecessary files
+    - REMEMBER TO `conda clean -a` once in a while to remove unused and unnecessary files
 
 ??? info "By choice"
 
     - Run `source conda_init.sh` to initialise your shell (bash) to be able to run `conda activate` and `conda deactivate` etcetera instead of `source activate`. It will modify (append) your `.bashrc` file.
 
-    -   When conda is loaded you will by default be in the ``base`` environment, which works in the same way as other Conda environments. It is a “best practice” to avoid installing additional packages into your base software environment unless it is very general packages
+    - When conda is loaded you will by default be in the ``base`` environment, which works in the same way as other Conda environments. It is a “best practice” to avoid installing additional packages into your base software environment unless it is very general packages
 
 ## Installing using Conda
 
@@ -134,7 +134,7 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 !!! tip
 
-    - If you need a channel that isn't in our repository, we can easily add it. Just send us a message and we will do it.
+    If you need a channel that isn't in our repository, we can easily add it. Just send us a message and we will do it.
 
 ## Make a new conda environment
 
@@ -143,85 +143,88 @@ both Rackham and Bianca. These are updated every third day. See above for these 
     - Since python or other packages are dependent on each-other expect solving the versions takes some time.
     - use an interactive session!
 
-1.  ```bash
-    module load conda
-    ```
+1. ```bash
+   module load conda
+   ```
 
-    - This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
-    - Check the text output as ``conda`` is loaded, especially the first time, see below
-
-
-2.  Create the Conda environment
-
-    - Example:
-
-        ```bash
-        conda create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
-        ```
-
-    !!! info "The `mamba` alternative"
-
-        - :warning: There are currently issues with `mamba`
-        -   `mamba` is a fast drop-in alternative to conda, using
-            "libsolv" for dependency resolution. It is available from the
-            `conda` module.
-
-        -   Example:
-
-            ```bash
-            mamba create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1  matplotlib=2.2.2
-            ```
-    - It all worked if you get something like this:
-
-        ```bash
-        # To activate this environment, use
-        #
-        #     $ conda activate python36-env
-        #
-        # To deactivate an active environment, use
-        #
-        #     $ conda deactivate
-        ```
-     - or
-
-        ```bash
-        # To activate this environment, use
-        #
-        #    $ mamba activate python36-env
-        #
-        # To deactivate an active environment, use
-        #
-        #    $ mamba deactivate
-        ```
+   - This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
+   - Check the text output as ``conda`` is loaded, especially the first time, see below
 
 
-4.  Activate the conda environment by `source activate` if you have not enabled ``conda/mamba activate``, see above:
+1. Create the Conda environment
 
-    ```bash
-    source activate python36-env
-    ```
+   - Example:
 
-    - You will see that your prompt is changing to start with `(python-36-env)` to show that you are within an environment.
+       ```bash
+       conda create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
+       ```
 
-    - You can also see the installed packages by:
+   !!! info "The `mamba` alternative"
 
-    ```bash
-    conda list
-    pip list
-    ```
-    - you can also add more packages within the environment by exact version (use `=`) or latest (?) compatible version:
-    ```bash
-    conda install --prefix   $CONDA_ENVS_PATH/python36-env pandas
-    ```
-    - that may have given you ``pandas=1.1.5`` which would be the newest version compatible with ``python3.6`` and ``numpy=1.13.1``
+       - :warning: There are currently issues with `mamba`
+       -   `mamba` is a fast drop-in alternative to conda, using
+           "libsolv" for dependency resolution. It is available from the
+           `conda` module.
 
-5.  Now do your work!
+       -   Example:
 
-6.  Deactivate with ``conda``/``mamba deactivate`` (this will work in any case!)
+           ```bash
+           mamba create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1  matplotlib=2.2.2
+           ```
+   - It all worked if you get something like this:
 
-    ```bash
-    (python-36-env) $ conda deactivate
-    ```
+       ```bash
+       # To activate this environment, use
+       #
+       #     $ conda activate python36-env
+       #
+       # To deactivate an active environment, use
+       #
+       #     $ conda deactivate
+       ```
+
+   - or
+
+      ```bash
+      # To activate this environment, use
+      #
+      #    $ mamba activate python36-env
+      #
+      # To deactivate an active environment, use
+      #
+      #    $ mamba deactivate
+      ```
+
+1. Activate the conda environment by `source activate` if you have not enabled ``conda/mamba activate``, see above:
+
+   ```bash
+   source activate python36-env
+   ```
+
+   - You will see that your prompt is changing to start with `(python-36-env)` to show that you are within an environment.
+
+   - You can also see the installed packages by:
+
+   ```bash
+   conda list
+   pip list
+   ```
+
+   - you can also add more packages within the environment by exact version (use `=`) or latest (?) compatible version:
+
+   ```bash
+   conda install --prefix   $CONDA_ENVS_PATH/python36-env pandas
+   ```
+
+   - that may have given you ``pandas=1.1.5`` which would be the newest version compatible with ``python3.6`` and ``numpy=1.13.1``
+
+1. Now do your work!
+
+1. Deactivate with ``conda``/``mamba deactivate`` (this will work in any case!)
+
+   ```bash
+   (python-36-env) $ conda deactivate
+   ```
 
 !!! warning
 
@@ -231,12 +234,12 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 ## Working with Conda environments defined by files
 
--   Create an environment based on dependencies given in an environment
-    file:
+- Create an environment based on dependencies given in an environment
+  file:
 
         $ conda env create --file environment.yml
 
--   Create file from present conda environment:
+- Create file from present conda environment:
 
         $ conda env export > environment.yml
 
@@ -255,7 +258,7 @@ dependencies:
 
 `environments.yml` with versions:
 
-``` yaml
+```yaml
 name: my-environment
 channels:            #not needed on bianca
 - defaults
@@ -274,7 +277,7 @@ dependencies:
 
 !!! abstract "keypoints"
 
-    -   Conda is an installer of packages but also bigger toolkits
+    - Conda is an installer of packages but also bigger toolkits
 
     - Conda on Bianca is easy since the repos in the most used channels are local.
 
@@ -285,6 +288,7 @@ dependencies:
     -   That is, you cannot load the python module and use the packages therein inside your Conda environment.
 
 ## Conda in batch scripts
+
 If you already have setup the CONDA_ENVS_PATH path and run 'conda init bash' a batch script containing a conda environment shall include
 
 ```bash
@@ -293,6 +297,7 @@ conda activate <name of environment>
 ```
 
 ## Packages on Bianca
+
 Since we have mirrored conda repositories locally conda will work also on Bianca!
 
 First try Conda! There is a mirrored repository with many available packages.
@@ -301,23 +306,23 @@ If your desired package is not there but available as pip follow the guide below
 
 Make an installation on Rackham and then use the wharf to copy it over to your directory on Bianca.
 
-Path on Rackham and Bianca could be (~/.local/lib/python<version>/site-packages/ ).
+Path on Rackham and Bianca could be `~/.local/lib/python<version>/site-packages/`.
 
 You may have to:
 
 in source directory:
 
-```
+```bash
 $ cp –a <package_dir> <wharf_mnt_path>
 ```
 
 you may want to tar before copying to include all possible symbolic links:
 
-```
+```bash
 $ tar cfz <tarfile.tar.gz> <package>
 and in target directory (wharf_mnt) on Bianca:
 $ tar xfz <tarfile.tar.gz> #if there is a tar file!
 $ mv –a  <file(s)> ~/.local/lib/python<version>/site-packages/
 ```
 
-If problems arise, send an email to support@uppmax.uu.se and we'll help you.
+If problems arise, send an email to `support@uppmax.uu.se` and we'll help you.
