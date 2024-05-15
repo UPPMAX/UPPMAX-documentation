@@ -1,3 +1,5 @@
+# Lutra
+
 Lutra is a custom built storage system running GlusterFS. The system consist of
 6 Huawei 5288 V5 servers with a total of 6x38 10TB SATA-drives for a capacity
 of 2.2 PB. The usable disk space is 1.8PB. Lutra is meant for "offload" or
@@ -6,4 +8,4 @@ SEK/TB/year, for a commitment of four years and a minimum 50TB. The design and
 filesystem choice makes Lutra very scalable, cost efficient while retaining
 moderate read/write performance. Lutra is connected to Rackham and Snowy for
 general availability. If you are interested in this type of storage please
-contact support@uppmax.uu.se.
+contact `support@uppmax.uu.se`.
