@@ -128,7 +128,7 @@ extra_css:
 
 extra:
   social:
-      link: https://www.uu.se/en/centre/uppmax
+    - link: https://www.uu.se/en/centre/uppmax
       name: Uppmax main page
       
 markdown_extensions:
