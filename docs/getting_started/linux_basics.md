@@ -1,13 +1,10 @@
 # Basic toolkit
 
-
 ![Caption](./img/terminal.png)
-
 
 !!! objectives
     - Let's dig into the most important BASH commands
     - We'll do a type-along session
-
 
 ???- question "Like videos?"
 
@@ -16,8 +13,6 @@
     is how to use the command-line on the UPPMAX Bianca cluster.
 
 ## We will cover these commands
-
-
 
 ### Navigation and file management
 
@@ -33,23 +28,25 @@
 
 ### Read files and change file properties
 
-10. `cat`  &emsp;print content on screen
-11. `head`  &emsp;print first part
-12. `tail`  &emsp;print last part
-13. `less`  &emsp;browse content
-14. `tar`  &emsp;compress or extract file
-15. `chmod`  &emsp;change file permissions
-16. `man`  &emsp;info about a command
+1. `cat`  &emsp;print content on screen
+1. `head`  &emsp;print first part
+1. `tail`  &emsp;print last part
+1. `less`  &emsp;browse content
+1. `tar`  &emsp;compress or extract file
+1. `chmod`  &emsp;change file permissions
+1. `man`  &emsp;info about a command
 
 ## File system Navigation
-### pwd — where are you now? “Print name of current/Working Directory”
+
+### pwd — where are you now? “Print name of current/Working Directory`
 
 ```console
 $ pwd
 
 $ pwd -P
 ```
-- ``-P`` gives you the physical path,
+
+- `-P` gives you the physical path,
   - ignores how you got there
 
 
@@ -66,7 +63,8 @@ $ ls -a
 ```console
 $ ls -l
 ```
-``-l`` gives you listed and detailed information.
+
+`-l` gives you listed and detailed information.
 
 ```console
 $ ls -lt
@@ -75,7 +73,7 @@ $ ls -lt
 ``-lt`` sorts things by time modified.
 
 ```console
-$ ls –lrt
+$ ls -lrt
 ```
 
 ``-r`` gives reversed order, so in this case newest in last line.
@@ -90,6 +88,7 @@ $ man ls
 
 
 ### cd — Change the shell working Directory
+
 - To change directory, use ``cd <target>``
 
 !!! warning
@@ -141,6 +140,7 @@ $ pwd
 
 
 ## Copy, Create, Move
+
 ### mkdir — make directories
 
 !!! warning
@@ -160,7 +160,6 @@ $ mkdir uppmax-intro
 $ cd uppmax-intro/
 ```
 
-
 ### cp — copy files and directories
 
 - Copy files with: `cp <source> <target>`
@@ -172,6 +171,7 @@ $ cp /proj/introtouppmax/labs/linux_tutorial/ .
 
 - Well, that didn’t work. What does the error say?
 - So... try
+
 ```console
 $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
@@ -183,7 +183,8 @@ $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```console
 $ cd linux_tutorial
 ```
-- Make a copy of the file “newfile” in the same directory:
+
+- Make a copy of the file `newfile` in the same directory:
 
 ```console
 $ cp newfile copyfile
@@ -194,7 +195,9 @@ $ cp newfile copyfile
 - Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
 
 #### Download from Rackham
+
 - Download
+
 ```console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
@@ -213,6 +216,7 @@ $ cp newfile copyfile
     ```
 
 #### Upload to Rackham
+
 - Upload from present directory on local machine to your home directory on cluster.
   - Example:
 
@@ -245,27 +249,32 @@ $ cp newfile copyfile
 - Moving files works just like copying files:
 - `mv <source> <target>`
 - Move the copy you just made to another place:
+
 ```console
 $ mv copyfile ../
 ```
+
 - Rename it.
+
 ```console
 $ mv ../copyfile ../renamedfile
 ```
 
 ## Archiving
-**tar — archiving and compression**
+
+### tar — archiving and compression
 
 - We’re going to need more files. Let's extract the tar.gz file (tared and gzipped file)
 
 ```console
 $ tar -vxzf files.tar.gz
 ```
+
 - The flags mean:
-        - <u>v</u>erbosely
-        - e<u>x</u>tract
-        - g<u>z</u>ipped
-        - <u>f</u>ilename
+        - ***v**erbosely
+        - e**x**tract
+        - g**z**ipped
+        - **f**ilename
 - Order of flags may matter!
   - ``f`` should be in the start or in the end!
 - You should see a list of files being extracted
@@ -278,6 +287,7 @@ $ tar -vxzf files.tar.gz
     ```
 
 ## Deleting
+
 ### rm — delete files  or directories
 
 !!! Note
@@ -290,10 +300,10 @@ $ tar -vxzf files.tar.gz
     - Override asking with
 
     ```console
-    rm –f <>
+    rm -f <>
     ```
     - Do you want this to be the case everytime you start a new session?
-       - Edit file ".bashrc" in /home directory by adding the above alias line on any but the first line.
+       - Edit file `.bashrc` in /home directory by adding the above alias line on any but the first line.
     - These steps will also work for ``mv`` and ``cp``.
 
 
@@ -333,6 +343,7 @@ $ rmdir this_has_a_file
 
 
 ## Help
+
 ### man — manual, look up the right flags
 
 - Nobody can remember whether it’s ``-R`` or `-r` for recursive, or if ``-f`` lets you choose a file or forces an action.
@@ -379,6 +390,7 @@ MANUAL SECTIONS
 --->
 
 ## Let’s get wild with Wildcards
+
 ![Caption](./img/wildcards_bear.png)
 
 ```console
@@ -415,9 +427,9 @@ $ ls
 - Hmm, which of these files are useful?
 
 
-### cat - con<ins>cat</ins>enate files and print on the standard output
+### cat - concatenate files and print on the standard output
 
-![Caption](./img/cat.png)
+![cat in action](./img/cat.png)
 
 - ``cat`` dumps the contents of files to the terminal as text
 
@@ -441,14 +453,14 @@ $ cat a the_best > combinedfiles.txt
 
 - File ``a`` is written first and ``the_best`` is appended
 
-### head — display the top (<u>head</u>ing) of a file
+### head — display the top (heading) of a file
 
-
-![Caption](./img/head.png)
+![head in action](./img/head.png)
 
 ```console
 $ head a
 ```
+
 - You can choose how many lines to display (default 10)
 
 ```console
@@ -459,7 +471,7 @@ $ head -n 4 a
 ### tail — display the end of a file
 
 
-![Caption](./img/tail.png)
+![tail in action](./img/tail.png)
 
 - Tail is the same as head, but for the other end.
 
@@ -483,24 +495,19 @@ $ tail -n 5 a
 - scroll with arrows.
 - `man` uses `less!
 
-     “less is more”
+     “less is more`
 
 ## History
 
 - ``history`` shows previous commands
 - You can rerun earlier commands by:
-    - copy-pasting and pressing ``<enter>``
-    - ``!990`` will run the command of line 990 of last `history` output.
+  - copy-pasting and pressing ``<enter>``
+  - ``!990`` will run the command of line 990 of last `history` output.
 - Search for earlier commands you just remember parts of:
-    - history | grep 'jobstats'
+  - history | grep 'jobstats'
 - [More info](https://www.redswitches.com/blog/linux-history-command/)
 
-
-
-
-
 ## File permissions
-
 
 ![Caption](./img/permission.png)
 
@@ -527,29 +534,30 @@ $ ls -l
   -rwxr-xr-x 1 marcusl marcusl 17198 Jul 16 14:12 files.tar.gz
 ```
 
-- Three sets of “rwx” permissions
+- Three sets of “rwx` permissions
   - rwx: r ead, w rite, ex ecute
   - User: the user account that owns the file (usually the one that created it)
   - Group: the group that owns the file (usually the *project group* in /proj/xyz or the user’s group elsewhere)
   - Others: everyone else on the system (literally a thousand strangers)
 
-- r – read
+- r - read
   - Files: Read the contents of the file
   - Directories: List the files in the directory
 
-- w – write
+- w - write
   - Files: Modify the file
   - Directories: Add, rename, or delete files in the directory
 
-- x – execute
+- x - execute
   - Files: Run the file as a program
-  - Directories: Traverse the directory (e.g. with “cd”)
+  - Directories: Traverse the directory (e.g. with “cd`)
 
 
 ## Changing permissions
+
 **chmod** — change file mode bits
 
-**If you own, i.e. created, the file or directory, you can modify the content**
+If you own, i.e. created, the file or directory, you can modify the content.
 
 !!! admonition "Common issues"
 
@@ -557,42 +565,41 @@ $ ls -l
     - If you want to share data or scripts with a person not in your project (e.g. support staff like me), you can!
     - If you want to keep non-members from even seeing which files you have, you can!
 
-
 ### Syntax
 
 `chmod <mode> <files>`
 
 - `<mode>` is of the form: For whom, Modify, What permission(s)
 - For whom?
-    - `u`: user/owner
-    - `g`: group, often the members to a certain project
-    - `o`: others
-    - `a`: all
-    - if not set changes are applied for user AND group
+  - `u`: user/owner
+  - `g`: group, often the members to a certain project
+  - `o`: others
+  - `a`: all
+  - if not set changes are applied for user AND group
 - Modify?
-    - `+`: add permissions,
-    - `-`: remove
-    - `=`: set equal to
-      - `=` usually causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
+  - `+`: add permissions,
+  - `-`: remove
+  - `=`: set equal to
+    - `=` usually causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
 - What permissions?
-    - `r`, `w`, `x`, i.e. the actual permission
+  - `r`, `w`, `x`, i.e. the actual permission
 
 #### Examples
 
 - `<mode>` can be e.g.:
-  -  `u+x` : lets You (owner) run a script you just wrote
-  -  `-w` : no write permissions for **owner+group**
+  - `u+x` : lets You (owner) run a script you just wrote
+  - `-w` : no write permissions for **owner+group**
     - warning: if `w` was already set for *others* it will be kept!!
-  -  `+rw` : let user and group members read and edit this file, not others if not already set
-  -  `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
-  -  `a=xw` : set xw for everyone
+  - `+rw` : let user and group members read and edit this file, not others if not already set
+  - `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
+  - `a=xw` : set xw for everyone
 
 - chmod takes flags as usual, e.g.
-  -  `-R` for recursive (i.e. all files and sub-directories therein)
+  - `-R` for recursive (i.e. all files and sub-directories therein)
 
 !!! admonition "chmod 755 style — binary sum — octal bit mask"
 
-    - Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask”:
+    - Online, you will come across e.g. `chmod 755 <file/dir>`. What does this mean? It’s an "octal bit mask`:
 
     - Each digit corresponds to the **binary sum** for the *owner*, *group* and *others*, respectively.
 
@@ -624,5 +631,4 @@ $ ls -l
 
 ## Links
 
- * A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
-
+- A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
