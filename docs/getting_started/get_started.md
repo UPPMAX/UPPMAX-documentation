@@ -5,15 +5,17 @@ In order to use UPPMAX resources, you need to be a member of a project and a use
 ## PIs
 
 Do you or members in your research group need compute and storage resources on a HPC cluster or Infrastructure-as-a-Service cloud? Learn how to apply for a project by following the link below.
+
 - [Project apply](project_apply.md)
 
 Are you interested in other services, e.g. large volume data storage?
 
-Let us know by contacting UPPMAX Support at support@uppmax.uu.se !
+Let us know by contacting UPPMAX Support at `support@uppmax.uu.se`!
 
 ## Users
 
 Once you or someone in your group or collaboration has a project, you must apply for a user account by following the link below.
+
 - [User account](user_account.md)
 
 Have an account already? Then check out these basic user guides:
@@ -27,10 +29,9 @@ Have an account already? Then check out these basic user guides:
 
 Are you taking a university course that uses UPPMAX and need help? Ask your instructor! If they can't help, contact us through IT Support.
 
-
 ## Getting started: First login to UPPMAX
 
-N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc web interface. 
+N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc web interface.
 
 In order to use the UPPMAX resources you must login to a dedicated login computer (or 'login node') using ssh ("secure shell"). On Linux/Unix computers this is done in the terminal with the 'ssh' command. On Windows you can download a small free program called [MobaXterm](https://mobaxterm.mobatek.net/) (or an alternative of your choice) to connect via ssh.
 
@@ -39,7 +40,7 @@ Another option is to use the ThinLinc client, either the web based one or one yo
 If you are using Windows a more advanced option would be to install WSL (Windows Subsystem for Linux) which gives you a Linux-installation you can use on Windows. Please refer to [Microsoft's documentation on WSL](https://docs.microsoft.com/en-us/windows/wsl/) for more information.
 The hostname used to login via SSH is:
 
-```
+```text
 rackham.uppmax.uu.se
 ```
 
@@ -92,19 +93,26 @@ The system will prompt you for your current password, after which it will ask yo
 
 
 ## Copying files from/to your UPPMAX account
+
 ### From a Linux or Unix computer
 
 Copy a file from you computer to your home directory on UPPMAX:
 
-    scp some_local_file user@rackham.uppmax.uu.se:/home/username/some-file
+```bash
+scp some_local_file user@rackham.uppmax.uu.se:/home/username/some-file
+```
 
 Copy a file from your home directory on UPPMAX to your computer:
 
-    scp user@rackham.uppmax.uu.se:/home/username/some-file local_file_or_directory
+```bash
+scp user@rackham.uppmax.uu.se:/home/username/some-file local_file_or_directory
+```
 
 To place the file in the directory you are currently standing in, use a dot ('.') as the local directory:
 
-scp user@milou.uppmax.uu.se:/home/username/some-file .
+```bash
+scp user@rackham.uppmax.uu.se:/home/username/some-file .
+```
 
 ### From a Windows computer
 
@@ -152,6 +160,7 @@ The default permission of your home directory is 750, i.e. you can do everything
 Also note the private sub-folder. Here you can put files that you want only you, and no one else, to be able to access. Each day we have a job that ensures that all users's private folders still can't be accessed by anyone else, even if the permissions somehow accidentally would change.
 
 ## Creating and editing files
+
 ### The nano text editor
 
 There are several editors installed at UPPMAX. The one that is considered easiest to use for new users without graphics is nano.
@@ -194,7 +203,7 @@ You can read a tutorial in emacs by doing:
 
     Control-h t
 
-For a tutorial on emacs: http://www.gnu.org/software/emacs/tour/
+For a tutorial on emacs: [http://www.gnu.org/software/emacs/tour/](http://www.gnu.org/software/emacs/tour/)
 
 ### The Gedit text editor
 

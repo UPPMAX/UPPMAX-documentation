@@ -13,9 +13,8 @@
 
 
 ## Transferring some files
+
 ### Graphical file manager
-
-
 
 ???- question "Want more detailed information of file transfer to/from Rackham using a graphical tool?"
 
@@ -59,9 +58,4 @@
 
     TODO
 
-
-
-
-
 ## Using the compute nodes
-
