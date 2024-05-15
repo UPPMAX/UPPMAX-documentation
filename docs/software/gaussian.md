@@ -76,7 +76,7 @@ Gaussian can be run in parallel on a single node using shared memory. This is th
 
 The `dimer4.inp` input:
 
-```
+```text
 %Mem=3800MB
 %NProcShared=4
 #P MP2 aug-cc-pVTZ SCF=Tight

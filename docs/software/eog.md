@@ -2,7 +2,6 @@
 
 ![Example use of eog](./img/eog.png)
 
-
 `eog` is a tool to view images on an UPPMAX cluster.
 
 To be able to see the images,
@@ -12,13 +11,13 @@ or [login to a remote desktop](../getting_started/login.md)
 Usage:
 
 
-```
+```bash
 eog [filename]
 ```
 
 for example:
 
-```
+```bash
 eog my.png
 ```
 
@@ -26,7 +25,7 @@ eog my.png
 
     In the terminal, do:
 
-    ```
+    ```bash
     convert -size 32x32 xc:transparent my.png
     ```
 
