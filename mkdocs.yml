@@ -126,6 +126,11 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra:
+  social:
+      link: https://www.uu.se/en/centre/uppmax
+      name: Uppmax main page
+      
 markdown_extensions:
   - toc:
       toc_depth: 2
