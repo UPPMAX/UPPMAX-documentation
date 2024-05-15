@@ -3368,3 +3368,4 @@ subdirectory
 blastall
 megablast
 tblastn
+centre
