@@ -6,7 +6,7 @@ There is an Rclone module called `rclone`.
 
 ## Finding an Rclone version
 
-```
+```bash
 module spider rclone
 ```
 
@@ -14,7 +14,7 @@ module spider rclone
 
     Here is some example output:
 
-    ```
+    ```console
     ---------------------------------------------------------------------------------------
       rclone: rclone/1.56.2
     ---------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ module spider rclone
 
 Here the Rclone module for version 1.56.2 is loaded:
 
-```
+```bash
 module load rclone/1.56.2
 ```
 
@@ -48,7 +48,7 @@ module load rclone/1.56.2
 
     Here is some example output:
 
-    ```
+    ```console
     rclone/1.56.2 : run 'rclone config' to set up rclone for your own use.  'man rclone' is available for further documentation, and see https://rclone.org/ for more
     ```
 
@@ -57,7 +57,7 @@ module load rclone/1.56.2
 After having loaded an Rclone mode,
 one can find the path to the Rclone config file by:
 
-```
+```bash
 rclone config file
 ```
 
@@ -65,7 +65,7 @@ rclone config file
 
     Here is some example output:
 
-    ```
+    ```console
     Configuration file doesn't exist, but rclone will use this path:
     /home/richel/.config/rclone/rclone.conf
     ```
@@ -75,7 +75,7 @@ rclone config file
 With [SSH X forwarding enabled](ssh_x_forwarding.md), one can
 use `rclone` from a web interface:
 
-```
+```bash
 rclone rcd --rc-web-gui
 ```
 

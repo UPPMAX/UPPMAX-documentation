@@ -9,8 +9,8 @@ such as is ideal for making a backup. At this page, we use the word 'copy',
 although `rsync` by default does a one-way synchronize: if the data is already
 there, it will do nothing.
 
- * [Using `rsync` on Bianca](../cluster_guides/rsync_on_bianca.md)
- * [Using `rsync` on Rackham](../cluster_guides/rsync_on_rackham.md)
+- [Using `rsync` on Bianca](../cluster_guides/rsync_on_bianca.md)
+- [Using `rsync` on Rackham](../cluster_guides/rsync_on_rackham.md)
 
 ## Copy a folder from local to Rackham
 
@@ -18,13 +18,13 @@ Copy a folder from a local computer to a Rackham home folder.
 
 On your local computer, do:
 
-```
+```bash
 rsync --recursive [folder_name] [user_name]@rackham.uppmax.uu.se:/home/[user_name]/
 ```
 
 For example:
 
-```
+```bash
 rsync --recursive my_folder sven@rackham.uppmax.uu.se:/home/sven/
 ```
 
@@ -35,7 +35,7 @@ copy a folder and all of its subfolders.
 
     To preserve the files' timestamps, use the `--archive` flag, e.g.
 
-    ```
+    ```bash
     rsync --recursive --archive my_folder sven@rackham.uppmax.uu.se:/home/sven/
     ```
 
@@ -46,13 +46,13 @@ to your local computer.
 
 On your local computer, do:
 
-```
+```bash
 rsync --recursive [user_name]@rackham.uppmax.uu.se:/home/[user_name]/[folder_name] [local_folder_destination]
 ```
 
 For example:
 
-```
+```bash
 rsync --recursive sven@rackham.uppmax.uu.se:/home/sven/my_folder .
 ```
 

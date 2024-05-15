@@ -11,7 +11,7 @@ for the [Bianca](../cluster_guides/bianca.md) cluster.
   not wrapped/split over multiple lines.
 - **Make sure the permissions look something like this:**
 
-```
+```bash
 ls -ld .ssh
 drwx--S--- 2 user user 4096 May  7  2019 .ssh
 
@@ -22,13 +22,13 @@ total 1
 
 - Connect to Bianca (it is critical to use **SSH agent** in this case, see above)
 
-```
+```bash
 ssh -A user-sensXXXXX@bianca.uppmax.uu.se
 ```
 
 - To debug, run with `-vv`
 
-```
+```console
 ...
 debug1: Requesting authentication agent forwarding.
 debug2: channel 1: request auth-agent-req@openssh.com confirm 0

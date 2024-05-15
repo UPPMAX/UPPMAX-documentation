@@ -9,15 +9,17 @@ The approach below allows you to install your own python version and much moreâ€
 
 Confer the official pyenv documentation.
 
-### First time at UPPMAX
+## First time at UPPMAX
 
 1. Download pyenv:
 
-    ```git clone git://github.com/yyuu/pyenv.git ~/.pyenv```
+    ```bash
+    git clone git://github.com/yyuu/pyenv.git ~/.pyenv
+    ```
 
 2. Make pyenv start when you login each time
 
-```
+```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
@@ -25,15 +27,19 @@ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 
 To make sure everything gets loaded correctly, log out and back in to uppmax.
 
-### Installing own python version (not already available as an UPPMAX module)
+## Installing own python version (not already available as an UPPMAX module)
 
 1. Get pyenv to install the python version of your liking.
 
-    ```pyenv install 3.10.6```
+    ```bash
+    pyenv install 3.10.6
+    ```
 
 1. Make the version you just installed to the standard version for every time you run python.
 
-    ```pyenv global 3.10.6```
+    ```bash
+    pyenv global 3.10.6
+    ```
 
 Now you should be all set. If you change your mind about which version of
 Python to use, just redo this section and choose a different version. You can
@@ -41,21 +47,24 @@ also have multiple versions installed at the same time and just switch between
 them usuing 'pyenv global' as shown above, if you have a script that requires
 Python 3.3 or any other version.
 
-### Install packages in your selected python version
+## Install packages in your selected python version
 
 
 1. Set python version with
 
-    ```pyenv global <version>```
+    ```bash
+    pyenv global <version>
+    ```
 
 1. Install packages in your python, use `pip`
 
-    ```
+    ```bash
     pip install [package name]
     ```
 
 Example:
-```
+
+```bash
 pip install mechanize
 ```
 

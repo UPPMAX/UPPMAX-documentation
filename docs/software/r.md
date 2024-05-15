@@ -76,7 +76,7 @@ are use as synonyms.
 
 To load the latest version of the R interpreter, do:
 
-```
+```bash
 module load R/4.3.1
 ```
 
@@ -104,7 +104,7 @@ module load R/4.3.1
 
 Then start the R interpreter with:
 
-```
+```bash
 R
 ```
 
@@ -117,7 +117,7 @@ in one module, called `R_packages`
 
 To load the latest version of the pre-installed R packages, do:
 
-```
+```bash
 module load R_packages/4.3.1
 ```
 
@@ -141,13 +141,13 @@ This will automatically load the corresponding version of the R interpreter.
     to see which versions of the R packages
     are installed on UPPMAX:
 
-    ```
+    ```bash
     module spider R_packages
     ```
 
 ## R software development
 
-![](../cluster_guides/img/rstudio_in_action_480_x_270.png)
+![RStudio in action on Bianca using the remote desktop environment](../cluster_guides/img/rstudio_in_action_480_x_270.png)
 
 > RStudio in action on Bianca using the remote desktop environment
 
@@ -164,7 +164,9 @@ First load `R_packages` to make sure that the package is not already installed!
 
 To install personal packages in your own home directory you type
 
-    install.packages("package_name")
+```r
+install.packages("package_name")
+```
 
 as usual. That will install all your packages under the path `~/R/[arch]/[version of R]/`.
 Then you can load it by just doing `library(package_name)`
@@ -172,13 +174,17 @@ or `require(package_name)` in the R environment.
 
 You can also specify a specific folder for where to put your packages, with
 
-    install.packages("package_name", lib="~/some/path/under/your/home/directory/")
+```r
+install.packages("package_name", lib="~/some/path/under/your/home/directory/")
+```
 
 But to then be able to find the package inside the R environment
 you need to either export the `R_LIBS_USER` environment variable,
 or specify the flag `lib.loc` when calling `require`/`library`, e.g.
 
-    library(package_name, lib.loc='~/some/path/under/your/home/directory')
+```r
+library(package_name, lib.loc='~/some/path/under/your/home/directory')
+```
 
 Notice that if you are planning on running R on different clusters
 then it is probably wisest to manually specify the installation directory,
@@ -191,80 +197,94 @@ if you compile them on one system but try to run them on the other.
 
 As of this writing, our most recent installations are
 
-    R/4.3.1
-    R_packages/4.3.1
-    RStudio/2023.06.2-561
-    If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
+- `R/4.3.1`
+- `R_packages/4.3.1`
+- `RStudio/2023.06.2-561`
 
-Note that R_packages/4.3.1 contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.3.1 and R_packages for more information.
+If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
+
+Note that `R_packages/4.3.1` contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.3.1 and R_packages for more information.
 
 ## What R packages are in the omnibus `R_packages` modules?
 
 ### R_PACKAGES/4.1.1
-  As of 2021-11-11 there are a total of 21659 R packages installed. A total of 21740 packages are available in CRAN and BioConductor. 18022 CRAN packages are installed, out of 18348 available. 3382 BioConductor-specific packages are installed, out of 3392 available. 255 other R packages are installed. These are not in CRAN/BioConductor, and instead are hosted on github or elsewhere.
 
-  These R packages are available as part of the R_packages/4.1.1 module as installed on rackham, bianca and snowy, which requires and loads the R/4.1.1 module.  When the R_packages/4.1.1 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+As of 2021-11-11 there are a total of 21659 R packages installed. A total of 21740 packages are available in CRAN and BioConductor. 18022 CRAN packages are installed, out of 18348 available. 3382 BioConductor-specific packages are installed, out of 3392 available. 255 other R packages are installed. These are not in CRAN/BioConductor, and instead are hosted on github or elsewhere.
+
+These R packages are available as part of the R_packages/4.1.1 module as installed on rackham, bianca and snowy, which requires and loads the R/4.1.1 module.  When the R_packages/4.1.1 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 - To use some R packages from this module, other modules may need to be loaded. For example, to use the Rmpi package, the openmpi/3.1.5 module must be loaded after loading R_packages/4.0.4.
 - See module help R_packages/4.1.1 for more information.
 
 ### R_PACKAGES/4.0.4
-  As of 2021-04-16 there are a total of 20663 CRAN and BioConductor packages installed, out of 20751 packages available. 17354 CRAN packages are installed, out of 17428 available. 3309 BioConductor-specific packages are installed, out of 3323 available.
 
-  These R packages are available as part of the R_packages/4.0.4 module as installed on rackham, bianca and snowy, which requires and loads the R/4.0.4 module.  When the R_packages/4.0.4 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+As of 2021-04-16 there are a total of 20663 CRAN and BioConductor packages installed, out of 20751 packages available. 17354 CRAN packages are installed, out of 17428 available. 3309 BioConductor-specific packages are installed, out of 3323 available.
+
+These R packages are available as part of the R_packages/4.0.4 module as installed on rackham, bianca and snowy, which requires and loads the R/4.0.4 module.  When the R_packages/4.0.4 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 - To use some R packages from this module, other modules may need to be loaded. For example, to use the Rmpi package, the openmpi/3.1.5 module must be loaded after loading R_packages/4.0.4.
 - See module help R_packages/4.0.4 for more information.
 
 ### R_PACKAGES/4.0.0
-  As of 2021-02-24 there are a total of 18652 CRAN and BioConductor packages installed, out of 20422 packages available. 14839 CRAN packages are installed, out of 17165 available. 3217 BioConductor-specific packages are installed, out of 3257 available.
 
-  These R packages are available as part of the R_packages/4.0.0 module as installed on rackham, bianca and snowy, which requires and loads the R/4.0.0 module.  When the R_packages/4.0.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+As of 2021-02-24 there are a total of 18652 CRAN and BioConductor packages installed, out of 20422 packages available. 14839 CRAN packages are installed, out of 17165 available. 3217 BioConductor-specific packages are installed, out of 3257 available.
+
+These R packages are available as part of the R_packages/4.0.0 module as installed on rackham, bianca and snowy, which requires and loads the R/4.0.0 module.  When the R_packages/4.0.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 See module help R_packages/4.0.0 for more information.
 
 ### R_PACKAGES/3.6.1
-  As of 2019-09-18 there are a total of 17657 packages available in this module. This includes 14579 CRAN packages installed, out of 14913 available; and 3054 BioConductor-specific packages installed, out of 3079 available. These R packages are available as part of the R_packages/3.6.1 module as installed on rackham, bianca and snowy, which requires and loads the R/3.6.1 module.  When the R_packages/3.6.1 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+
+As of 2019-09-18 there are a total of 17657 packages available in this module. This includes 14579 CRAN packages installed, out of 14913 available; and 3054 BioConductor-specific packages installed, out of 3079 available. These R packages are available as part of the R_packages/3.6.1 module as installed on rackham, bianca and snowy, which requires and loads the R/3.6.1 module.  When the R_packages/3.6.1 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 See module help R_packages/3.6.1 for more information.
 
 ### R_PACKAGES/3.6.0
-  As of 2019-05-14 there are a total of 17257 packages available. This includes 13769 CRAN packages installed, out of 14178 available; and 3031 BioConductor-specific packages installed, out of 3079 available. These R packages are available as part of the R_packages/3.6.0 module as installed on rackham, bianca and snowy, which requires and loads the R/3.6.0 module.  When the R_packages/3.6.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+
+As of 2019-05-14 there are a total of 17257 packages available. This includes 13769 CRAN packages installed, out of 14178 available; and 3031 BioConductor-specific packages installed, out of 3079 available. These R packages are available as part of the R_packages/3.6.0 module as installed on rackham, bianca and snowy, which requires and loads the R/3.6.0 module.  When the R_packages/3.6.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 See module help R_packages/3.6.0 for more information.
 
 ### R_PACKAGES/3.5.2
-  As of 2019-02-08 there are a total of 16642 packages available. This includes 13355 CRAN packages installed, out of 13683 available; and 2933 BioConductor-specific packages installed, out of 2959 available. These R packages are available as part of the R_packages/3.5.2 module as installed on rackham, bianca and snowy, which requires and loads the R/3.5.2 module.  When the R_packages/3.5.2 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+
+As of 2019-02-08 there are a total of 16642 packages available. This includes 13355 CRAN packages installed, out of 13683 available; and 2933 BioConductor-specific packages installed, out of 2959 available. These R packages are available as part of the R_packages/3.5.2 module as installed on rackham, bianca and snowy, which requires and loads the R/3.5.2 module.  When the R_packages/3.5.2 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 See module help R_packages/3.5.2 for more information.
 
 ### R_PACKAGES/3.5.0
+
 With its 3.5.0 version, R_packages now attempts to install all available R packages from both CRAN and BioConductor.
 
-  As of 2018-06-26 there are a total of 14532 packages available. This includes 11734 CRAN packages installed, out of 12867 available; and 2798 BioConductor-specific packages installed, out of 2843 available. These R packages are available as part of the R_packages/3.5.0 module as installed on rackham, bianca and snowy, which requires and loads the R/3.5.0 module.  When the R_packages/3.5.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+As of 2018-06-26 there are a total of 14532 packages available. This includes 11734 CRAN packages installed, out of 12867 available; and 2798 BioConductor-specific packages installed, out of 2843 available. These R packages are available as part of the R_packages/3.5.0 module as installed on rackham, bianca and snowy, which requires and loads the R/3.5.0 module.  When the R_packages/3.5.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 See module help R_packages/3.5.0 for more information.
 
 ### R_packages/3.4.3
-  A large number of R packages are available as part of the R_packages/3.4.3 module as installed on rackham and bianca, which requires and loads the R/3.4.3 module.  When the R_packages/3.4.3 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+
+A large number of R packages are available as part of the R_packages/3.4.3 module as installed on rackham and bianca, which requires and loads the R/3.4.3 module.  When the R_packages/3.4.3 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 ### R_packages/3.4.0
-  A large number of R packages are available as part of the R_packages/3.4.0 module, which requires and loads the R/3.4.0 module.  When the R_packages/3.4.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+
+A large number of R packages are available as part of the R_packages/3.4.0 module, which requires and loads the R/3.4.0 module.  When the R_packages/3.4.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 ### R_packages/3.3.2
-  A large number of R packages are available as part of the R_packages/3.3.2 module, which requires and loads the R/3.3.2 module.  When the R_packages/3.3.2 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
+
+A large number of R packages are available as part of the R_packages/3.3.2 module, which requires and loads the R/3.3.2 module.  When the R_packages/3.3.2 module is loaded, it adds a directory to the R_LIBS_SITE environment variable.  Within R, these packages will be available via library(package-name).
 
 ### R_packages/3.3.1
-  A large number of R packages are available as part of the R_packages/3.3.1 module, which requires and loads the R/3.3.1 module.  When the R_packages/3.3.1 module is loaded, it adds a directory to the R_LIBS_SITE environment variable. Within R, these should be available via library(package-name).
+
+A large number of R packages are available as part of the R_packages/3.3.1 module, which requires and loads the R/3.3.1 module.  When the R_packages/3.3.1 module is loaded, it adds a directory to the R_LIBS_SITE environment variable. Within R, these should be available via library(package-name).
 
 ### R_packages/3.3.0
-  A large number of R packages are available as part of the R_packages/3.3.0 module, which requires and loads the R/3.3.0 module.  When the R_packages/3.3.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable. Within R, these should be available via library(package-name).
+
+A large number of R packages are available as part of the R_packages/3.3.0 module, which requires and loads the R/3.3.0 module.  When the R_packages/3.3.0 module is loaded, it adds a directory to the R_LIBS_SITE environment variable. Within R, these should be available via library(package-name).
 
 ## Learning R
 
 ### Starter R courses
 
 [The Carpentries](https://carpentries.org/) teaches basic lab skills for research computing, such as:
+
 - [Programming with R](swcarpentry.github.io/r-novice-inflammation/)
 - [R for reproducible scientific analysis](https://swcarpentry.github.io/r-novice-gapminder)
 
@@ -273,6 +293,7 @@ See module help R_packages/3.5.0 for more information.
 [CodeRefinery](https://coderefinery.org) develops and maintains training material
 on software best practices for researchers that already write code.
 Their material addresses all academic disciplines and tries to be as programming language-independent as possible:
+
 - [CodeRefinery lessons](https://coderefinery.org/lessons/)
 
 Aalto Scientific Computing:

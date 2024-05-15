@@ -6,7 +6,7 @@ allows one to use graphics when using an [SSH client](ssh_client.md).
 For example, this is how UPPMAX user `sven` would login
 to Rackham using [`ssh`](ssh.md) with X forwarding enabled:
 
-```
+```bash
 ssh -X sven@rackham.uppmax.uu.se
 ```
 
@@ -20,7 +20,7 @@ It is the `-X` that allows [ssh](ssh.md) to show graphics.
 
     In a terminal, type:
 
-    ```
+    ```bash
     xeyes
     ```
 
@@ -32,7 +32,7 @@ It is the `-X` that allows [ssh](ssh.md) to show graphics.
 
     If you do not have X forwarding enabled, you will get the error:
 
-    ```
+    ```console
     Error: Can't open display:
     ```
 

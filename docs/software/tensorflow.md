@@ -60,13 +60,13 @@ for example, `python_ML_packages/3.9.5-gpu`
 
 If you want to work interactively and test things, first allocate resources as seen below:
 
-**On Snowy**
+### On Snowy
 
 ```console
 $ interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 1:00:01
 ```
 
-**On Bianca**
+### On Bianca
 
 ```console
 $ interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00

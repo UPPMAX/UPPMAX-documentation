@@ -50,7 +50,7 @@ and might want to use that one instead.
 If you overwrite it you will lose access to wherever the old key file is used,
 so just run the `ssh-keygen` command above again and type in a new name for the file.
 
-```
+```console
 /home/user/.ssh/id_ed25519 already exists.
 Overwrite (y/n)?
 ```
@@ -59,7 +59,7 @@ Overwrite (y/n)?
 
 The next step is to add a password to your key file. This makes sure that even if someone manages to copy your key they will not be able to use it without the password you set here. Type in a password you will remember, press enter, type it in again and press enter.
 
-```
+```console
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
 ```
@@ -70,7 +70,7 @@ The key will now be created and you can add it to the PDC Login Portal.
 
     This is output similar to what you will see:
 
-    ```
+    ```console
     Your identification has been saved in /home/user/.ssh/id_ed25519
     Your public key has been saved in /home/user/.ssh/id_ed25519.pub
     The key fingerprint is:
@@ -107,7 +107,7 @@ Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
 
     That will look like this:
 
-    ![](./img/pdc_key_management_no_keys.png)
+    ![Example PDC login portal without any SSH keys yet](./img/pdc_key_management_no_keys.png)
 
     > Example PDC login portal without any SSH keys yet.
     > We will need to add an SSH key that allows
@@ -121,7 +121,7 @@ Click the `Add new key` link:
 
     That will look like this:
 
-    ![](./img/pdc_add_new_key_user_ip_only.png)
+    ![Example of the first step of adding an SSH key pair to the PDC portal](./img/pdc_add_new_key_user_ip_only.png)
 
     > Example of the first step of adding an SSH key pair to the PDC portal.
     > The 'SSH public key' is copy-pasted
@@ -134,7 +134,7 @@ Click the `Add new key` link:
 
     That will look like this:
 
-    ![](./img/pdc_key_management_rackham_key.png)
+    ![Example PDC login portal with one key](./img/pdc_key_management_rackham_key.png)
 
     > Example PDC login portal with one key.
     > Note that the second column only has one IP address
@@ -162,7 +162,7 @@ or you can enter the information manually.
     When displaying the content of a public SSH key,
     it will show text like this:
 
-    ```
+    ```bash
     ssh-ed25519 AAAA69Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
     ```
 
@@ -185,7 +185,7 @@ and the field is prefilled with the IP of the computer you are on at the moment.
 
     That will look like this:
 
-    ![](./img/pdc_add_new_key_uppmax.png)
+    ![Example of the second step of adding an SSH key pair to the PDC portal](./img/pdc_add_new_key_uppmax.png)
 
     > Example of the second step of adding an SSH key pair to the PDC portal.
     > Here the custom address `*.uppmax.uu.se` is added,
@@ -195,7 +195,7 @@ and the field is prefilled with the IP of the computer you are on at the moment.
 
     That will look like this:
 
-    ![](./img/pdc_key_management_uppmax_key.png)
+    ![Example PDC login portal with one key](./img/pdc_key_management_uppmax_key.png)
 
     > Example PDC login portal with one key. Note the `*.uppmax.uu.se`
     > at the bottom of the second column.

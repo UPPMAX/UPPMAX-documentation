@@ -23,6 +23,7 @@ for example, from scratch, which is not recommended.
 
 Here we discuss the recommended way to create a virtual environment,
 which has these steps:
+
 1. Load a Python module or a modules with Python packages
 1. Create the virtual environment
 
@@ -37,13 +38,13 @@ and
 
     Sure, here is how to [load a Python module](http://docs.uppmax.uu.se/software/python/#loading-python):
 
-    ```
+    ```bash
     module load python/3.11.8
     ```
 
     Here is how to [load a Python package module](http://docs.uppmax.uu.se/software/python/#loading-python-modules):
 
-    ```
+    ```bash
     module load python_ML_packages/3.11.8-cpu
     ```
 
@@ -57,7 +58,7 @@ After loading the needed Python modules,
 one can create a virtual environment
 most efficiently using:
 
-```
+```bash
 python -m venv --system-site-packages [path]/[venv_name]
 ```
 
@@ -86,14 +87,14 @@ loaded Python module.
 
     This takes around 10 seconds:
 
-    ```
+    ```bash
     module load python/3.11.8
     python -m venv --system-site-packages ~/my_venvs/example_venv
     ```
 
     This takes around 10 seconds:
 
-    ```
+    ```bash
     module load python_ML_packages/3.11.8-cpu
     python -m venv --system-site-packages ~/my_venvs/example_ml_venv
     ```
@@ -103,7 +104,7 @@ loaded Python module.
 To activate your newly created virtual environment locate the
 script called `activate` and execute it:
 
-```
+```bash
 source [path]/[venv_name]/bin/activate
 ```
 
@@ -118,7 +119,7 @@ the prompt is changed to start with the name of your `venv`.
 
     This is how your changed prompt looks like:
 
-    ```
+    ```console
     [sven@rackham1 ~]$ module load python_ML_packages/3.11.8-cpu
     [sven@rackham1 ~]$ python -m venv --system-site-packages ~/my_venvs/example_venv
     [sven@rackham1 ~]$ source ~/my_venvs/example_venv/bin/activate
@@ -133,7 +134,7 @@ in an isolated way.
 
 To deactivate a `venv` virtual environment:
 
-```
+```bash
 deactivate
 ```
 
@@ -151,7 +152,7 @@ to work with it again.
 
 To export the Python packages used in your virtual environment, do:
 
-```
+```bash
 pip freeze > requirements.txt
 ```
 
@@ -162,7 +163,7 @@ using the conventional name for such a file.
 
     This is how a `requirements.txt` file may look like:
 
-    ```
+    ```console
     anndata==0.10.5.post1
     anyio==4.2.0
     appdirs==1.4.4
@@ -182,6 +183,6 @@ using the conventional name for such a file.
 
 ### Import
 
-```
+```bash
 pip install -r requirements.txt
 ```

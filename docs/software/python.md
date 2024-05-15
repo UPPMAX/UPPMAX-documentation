@@ -1,6 +1,6 @@
 # Python user guide
 
-![](img/python_logo.png)
+![The Python logo](img/python_logo.png)
 
 Welcome to the UPPMAX Python user guide.
 
@@ -253,7 +253,7 @@ To determine if a Python package comes with your Python module,
 
 On a terminal, type:
 
-```
+```bash
 pip list
 ```
 
@@ -263,7 +263,7 @@ This shows a list of Python packages that are installed.
 
     Here is an example:
 
-    ```
+    ```console
     Package                   Version
     ------------------------- ---------------
     anndata                   0.10.5.post1
@@ -299,7 +299,7 @@ module help python/3.11.4
 
     Here is part of the output of `module help python/3.11.4`:
 
-    ```
+    ```console
     ------------------------ Module Specific Help for "python/3.11.4" -------------------------
         Python - use Python
 
@@ -328,7 +328,7 @@ Importing a Python package is a way to determine if a Python package
 comes with your Python module installed.
 From the terminal do:
 
-```
+```bash
 python -c "import [your_package]"
 ```
 
@@ -341,7 +341,7 @@ python -c "import [your_package]"
 where `[your_package]` is the name of a Python package,
 for example:
 
-```
+```bash
 python -c "import pandas"
 ```
 
@@ -479,6 +479,7 @@ You can run a Python script in the shell by:
 ```console
 $ python example_script.py
 ```
+
 or, if you loaded a `python3` module:
 
 ```console
@@ -504,6 +505,7 @@ The python prompt looks like this:
 ```python
 >>>
 ```
+
 Exit with `<Ctrl-D>`, `quit()` or `exit()`.
 
 ## Programming in Python
@@ -537,14 +539,14 @@ is described [here](python_parallel_jobs.md).
 
 ## References
 
- * [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
+- [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
 
 ## Links
 
-* [Official Python documentation](https://docs.python.org/3/)
-* [Python forum](https://www.python.org/community/forums/)
-* [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
-* [UPPMAX TensorFlow guide](tensorflow.md)
-* [UPPMAX PyTorch guide](pytorch.md)
+- [Official Python documentation](https://docs.python.org/3/)
+- [Python forum](https://www.python.org/community/forums/)
+- [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [UPPMAX TensorFlow guide](tensorflow.md)
+- [UPPMAX PyTorch guide](pytorch.md)
 
 

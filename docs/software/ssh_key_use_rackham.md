@@ -5,24 +5,24 @@ for the [Rackham](../cluster_guides/rackham.md) cluster.
 
 Create an SSH key pair with the following command:
 
-```
+```bash
 ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519_key -C "MyNewKey"
 ```
 
 Add your newly generated `ed25519` key to an **SSH agent**:
 
-```
+```bash
 ssh-add ~/.ssh/id_ed25519_key
 ```
 
 Copy the public key to Rackham or other server.
 
-```
+```bash
 ssh-copy-id -i .ssh/id_ed25519_key.pub rackham.uppmax.uu.se
 ```
 
 Connect
 
-```
+```bash
 ssh username@rackham.uppmax.uu.se
 ```
