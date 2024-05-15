@@ -9,7 +9,7 @@ is one of the ways to transfer files to/from Rackham
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
 
-![](./img/filezilla_login_to_rackham_480_x_270.png)
+![FileZilla connected to Rackham](./img/filezilla_login_to_rackham_480_x_270.png)
 
 > FileZilla connected to Rackham
 
@@ -36,7 +36,7 @@ To transfer files to/from Rackham using FileZilla, do:
 
     It is here:
 
-    ![](./img/filezilla_file_site_manager.png)
+    ![The FileZilla 'File' menu contains the item 'Site manager'](./img/filezilla_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -46,19 +46,19 @@ To transfer files to/from Rackham using FileZilla, do:
 
     It is here:
 
-    ![](./img/filezilla_site_manager.png)
+    ![The FileZilla Site Manager](./img/filezilla_site_manager.png)
 
 - Create a name for the site, e.g. `rackham`.
 - For that site, use all standards, except:
-    - Set protocol to 'SFTP - SSH File Transfer Protocol'
-    - Set host to `rackham.uppmax.uu.se`
-    - Set user to `[username]`, e.g. `richel`
+  - Set protocol to 'SFTP - SSH File Transfer Protocol'
+  - Set host to `rackham.uppmax.uu.se`
+  - Set user to `[username]`, e.g. `richel`
 
 ???- tip "How does that look like?"
 
     It looks similar to this:
 
-    ![](./img/filezilla_setup_rackham_richel.png)
+    ![FileZilla configured for Rackham](./img/filezilla_setup_rackham_richel.png)
 
 - Click 'Connect'
 - You will be asked for your password, hence
@@ -69,7 +69,7 @@ To transfer files to/from Rackham using FileZilla, do:
 
     It looks similar to this:
 
-    ![](filezilla_enter_password_rackham.png)
+    ![FilleZilla asks for a password](filezilla_enter_password_rackham.png)
 
 Now you can transfer files between your local computer and Rackham.
 
@@ -77,7 +77,7 @@ Now you can transfer files between your local computer and Rackham.
 
     It looks like this:
 
-    ![](./img/filezilla_login_to_rackham.png)
+    ![FileZilla is connected to Rackham](./img/filezilla_login_to_rackham.png)
 
 ## Where do my files end up?
 
@@ -103,9 +103,9 @@ To transfer files to/from Rackham using WinSCP, do:
 - Start WinSCP
 - Create a new site
 - For that site, use all standards, except:
-    - Set file protocol to 'SFTP'
-    - Set host name to `rackham.uppmax.uu.se`
-    - Set user name to `[username]`, e.g. `richel`
+  - Set file protocol to 'SFTP'
+  - Set host name to `rackham.uppmax.uu.se`
+  - Set user name to `[username]`, e.g. `richel`
 
 ### File transfer overview
 
