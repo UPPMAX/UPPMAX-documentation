@@ -37,7 +37,13 @@ CDD - Position-Specific Scoring Matrices for CD-Search
 
 The CDD database versions 3.14 and 3.16 are downloaded in their entirety and are available at /sw/data/cdd/{3.14,3.16}. These directories contains collections of position-specific scoring matrices (PSSMs) that have been created for the CD-Search service.
 
-The PSSMs are meant to be used for compiling RPS-BLAST search databases, which can be used with the standalone RPS-BLAST programs (rpsblast and rpsblastn). These programs, as well as the makeprofiledb application needed to convert files in this directory, are part of the BLAST+ executables (available on Uppmax as part of bioinfo-tools, e.g., module blast/2.2.31+). The makeprofiledb application is described at http://www.ncbi.nlm.nih.gov/books/NBK1763.
+The PSSMs are meant to be used for compiling RPS-BLAST search databases,
+which can be used with the standalone RPS-BLAST programs (rpsblast and rpsblastn).
+These programs, as well as the makeprofiledb application
+needed to convert files in this directory,
+are part of the BLAST+ executables (available on Uppmax as part of `bioinfo-tools`,
+e.g., module blast/2.2.31+).
+The makeprofiledb application is described at [http://www.ncbi.nlm.nih.gov/books/NBK1763](http://www.ncbi.nlm.nih.gov/books/NBK1763).
 
 More information is available in the CDD README either via FTP or its local copy /sw/data/cdd/README.
 iGenomes - Collection of reference sequences and annotation files
