@@ -21,8 +21,8 @@
 
     - You might also be interested in our [disk storage guide](../storage/disk_storage_guide.md).
 
-
 ## Compression
+
 ???- question "File compression guide"
 
     [Compression guide](../storage/compress_guide.md)

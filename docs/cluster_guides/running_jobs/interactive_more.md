@@ -1,9 +1,5 @@
 # How to run interactively on a compute node?
 
-???- info "For UPPMAX staff"
-
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/how-can-i-run-interactively-on-a-compute-node/`
-
 You may want to run an interactive application on one or several compute nodes. You may want to use one or several compute nodes as a development workbench, interactively. How can this be arranged?
 The program interactive may be what you are looking for.
 
@@ -13,13 +9,13 @@ The one parameter you must always specify is the project name. Let's assume for 
 
 To get one compute core with the proportional amount of RAM, we recommend you to use the most simple command on the login node for the cluster you want to use:
 
-```
+```bash
 interactive -A p2010099
 ```
 
 If you need more than one core, or special features on your node, you can specify that to the interactive command, e.g. on milou:
 
-```
+```bash
 interactive -A p2010099 -n 16 -C fat
 ```
 
@@ -36,11 +32,10 @@ In the last example ("interactive -A p2010099 -n 16 -C fat"), the interactive co
 
 If you also want to run for 15 hours, you may say so, with the command
 
-```
+```bash
 interactive -A p2010099 -n 16 -C fat -t 15:00:00
 ```
 
 but no "priority lane" can be used, you get your normal queue priority, and you might have to wait for a very long time for your session to start. Please note that you need to keep watch over when the job starts, because you are accounted for all the time from job start even if you are sleeping, and because an allocated and unused node is a waste of expensive resources.
-
 
 NB. You can not launch an interactive job from an other cluster with the flag -M, which otherwise is a common flag to other SLURM commands. You must launch it from a login node to the cluster you want to use.
