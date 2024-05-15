@@ -20,4 +20,4 @@ BEAST is a tool for Bayesian phylogenetic analysis.
 
 See [Tracer](tracer.md) how to use [Tracer](tracer.md).
 
-![](./img/tracer.png)
+![Tracer](./img/tracer.png)

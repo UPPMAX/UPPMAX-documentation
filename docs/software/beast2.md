@@ -28,13 +28,13 @@ First step is to load a BEAST2 module.
 
 Here is how to find the BEAST2 versions on the UPPMAX clusters:
 
-```
+```bash
 module spider beast2
 ```
 
 When loading a BEAST2 module, also load `bioinfo-tools`:
 
-```
+```bash
 module load bioinfo-tools beast2/2.7.4
 ```
 
@@ -52,7 +52,7 @@ module load bioinfo-tools beast2/2.7.4
 Next step is to create a BEAST2 configuration file
 using `BEAUti`. This graphical tool can be started using:
 
-```
+```bash
 beauti
 ```
 
@@ -82,7 +82,7 @@ or use a script.
 
 On an interactive node, run BEAST2 on the saved BEAST2 model:
 
-```
+```bash
 beast beast2_setup.xml
 ```
 
@@ -96,8 +96,8 @@ module load bioinfo-tools beast2/2.7.4
 beast beast2_setup.xml
 ```
 
- * In line 2, replace `uppmax2023-2-25` with [your UPPMAX project](../getting_started/project.md).
- * In line 3, you may want to replace `beast2/2.7.4` with your favorite BEAST2 version
+- In line 2, replace `uppmax2023-2-25` with [your UPPMAX project](../getting_started/project.md).
+- In line 3, you may want to replace `beast2/2.7.4` with your favorite BEAST2 version
 
 Then run this script using `sbatch run_beast2.sh`.
 
@@ -112,14 +112,14 @@ of a BEAST2 run.
 
 Run:
 
-```
+```bash
 densitree [trees_filename]
 ```
 
 where `[trees_filename]` is the name of the file containing the posterior trees,
 resulting in, for example, `densitree my_file.trees`.
 
-![](./img/densitree.png)
+![Densitree](./img/densitree.png)
 
 ## Run Tracer
 
@@ -128,11 +128,11 @@ resulting in, for example, `densitree my_file.trees`.
 
 See [Tracer](tracer.md) how to use [Tracer](tracer.md).
 
-![](./img/tracer.png)
+![Tracer](./img/tracer.png)
 
 ## Show info
 
-```
+```bash
 beast -beagle_info
 ```
 
@@ -143,11 +143,11 @@ beast -beagle_info
 
     Here an interactive session with 1 node:
 
-    ```
+    ```bash
     interactive -A uppmax2023-2-25 -M snowy -N 1 -n 16 --exclusive -t 1-00:00:00
     ```
 
-    ```
+    ```console
     [richel@s93 ~]$ beast -beagle_info
 
                             BEAST v2.7.4, 2002-2023
@@ -192,11 +192,11 @@ beast -beagle_info
 
     Here an interactive session with 2 nodes:
 
-    ```
+    ```bash
     interactive -A uppmax2023-2-25 -M snowy -N 2 -n 32 --exclusive -t 1-00:00:00
     ```
 
-    ```
+    ```console
     [richel@s106 ~]$ beast -beagle_info
 
                             BEAST v2.7.4, 2002-2023
@@ -243,7 +243,7 @@ beast -beagle_info
 
 ### BEAUti gives `BadAlloc`
 
- * Platform(s): MacOS
+- Platform(s): MacOS
 
 This problem seems to be related to not having a proper X server installed.
 In this case, [SSH X forwarding](ssh_x_forwarding.md) works to the extent
@@ -256,7 +256,7 @@ A solution may be to [use the remote desktop via the web](../getting_started/log
 
     Here is how it looks like:
 
-    ```
+    ```console
     [kayakhi@rackham2 ~]$ xeyes
 
     [kayakhi@rackham2 ~]$ module load bioinfo-tools beast2/2.7.4
@@ -285,10 +285,10 @@ A solution may be to [use the remote desktop via the web](../getting_started/log
 
 ## Optimize performance
 
- * [BEAST2 performance suggestions](https://www.beast2.org/performance-suggestions/index.html)
- * [BEAST2 and BEAGLE](https://www.beast2.org/beagle-beast-2-in-cluster/index.html)
+- [BEAST2 performance suggestions](https://www.beast2.org/performance-suggestions/index.html)
+- [BEAST2 and BEAGLE](https://www.beast2.org/beagle-beast-2-in-cluster/index.html)
 
 ## Links
 
- * [DensiTree GitHub repository](https://github.com/rbouckaert/DensiTree)
- * [CIPRES: cyberinfrastructure for phylogenetics research](https://www.phylo.org/)
+- [DensiTree GitHub repository](https://github.com/rbouckaert/DensiTree)
+- [CIPRES: cyberinfrastructure for phylogenetics research](https://www.phylo.org/)
