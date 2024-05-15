@@ -20,13 +20,13 @@ and accessible via the module system.
 
 You can always install software in your home on any UPPMAX system. If there are many users who would like to request the same software, it can be installed by UPPMAX application or system experts.
 
-Please send such requests to support@uppmax.uu.se.
+Please send such requests to `support@uppmax.uu.se`.
 
 ## Reach the Bioinformatics tools
 
 - Before you can list available bioinformatics tools you need to issue the command:
 
-```
+```bash
 $ module load bioinfo-tools
 ```
 
