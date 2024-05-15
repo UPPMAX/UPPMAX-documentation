@@ -6,19 +6,19 @@ Tkinter is a package built with (every!) Python executable.
 
 Load a Python module:
 
-```
+```bash
 module load python/3.12.1
 ```
 
 Start Python:
 
-```
+```bash
 python
 ```
 
 Import `thkinter` in Python:
 
-```
+```bash
 import tkinter
 ```
 
@@ -29,7 +29,7 @@ and documentation how to load `tkinter`.
 
 At that time, doing:
 
-```
+```bash
 module load python/3.11.4
 ```
 
@@ -41,7 +41,7 @@ import turtle
 
 results in:
 
-```
+```console
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
   File "/sw/comp/python3/3.11.4/rackham/lib/python3.11/turtle.py", line 107, in <module>
@@ -59,5 +59,5 @@ That is, this solution should work:
 
 ## Links
 
- * [Wikipedia page on Tkinter](https://en.wikipedia.org/wiki/Tkinter)
+* [Wikipedia page on Tkinter](https://en.wikipedia.org/wiki/Tkinter)
 

@@ -3,7 +3,7 @@
 VSCodium is the community edition of [Visual Studio Code](vscode.md)
 and is an [IDE](../software/ides.md) that can be used for software development in many languages.
 
-![](../cluster_guides/img/vscodium_on_bianca_480_x_270.png)
+![VSCodium running on Bianca](../cluster_guides/img/vscodium_on_bianca_480_x_270.png)
 
 > VSCodium running on Bianca
 

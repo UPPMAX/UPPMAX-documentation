@@ -52,7 +52,7 @@ Extract the downloaded file.
 
 Use `java` to run the Tracer `jar` file:
 
-```
+```bash
 java -jar lib/tracer.jar
 ```
 
@@ -69,4 +69,4 @@ java -jar lib/tracer.jar
 
 ## Links
 
- * [Tracer GitHub repository](https://github.com/beast-dev/tracer)
+* [Tracer GitHub repository](https://github.com/beast-dev/tracer)
