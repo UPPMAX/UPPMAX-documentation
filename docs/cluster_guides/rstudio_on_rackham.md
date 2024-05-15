@@ -1,6 +1,6 @@
 # RStudio on Rackham
 
-![](./img/rstudio_in_action_480_x_270.png)
+![RStudio on Rackham](./img/rstudio_in_action_480_x_270.png)
 
 ## Introduction
 
@@ -57,7 +57,7 @@ Within that terminal, start an interactive session with 2 cores.
 
     Spoiler: use:
 
-    ```
+    ```bash
     interactive -A sens2023598 -n 2 -t 8:00:00
     ```
 
@@ -72,7 +72,7 @@ Within that terminal, start an interactive session with 2 cores.
 
 In the terminal of the interactive session, do:
 
-```
+```bash
 module load RStudio/2023.06.2-561
 ```
 
@@ -91,7 +91,7 @@ module load RStudio/2023.06.2-561
 With the modules loaded, start RStudio from the terminal (on the
 interactive node):
 
-```
+```bash
 rstudio
 ```
 
@@ -103,24 +103,24 @@ Additionally, at startup and if enabled, your saved RStudio workspace
 
     RStudio when starting up:
 
-    ![](./img/rstudio_starting_up.png)
+    ![RStudio when starting up](./img/rstudio_starting_up.png)
 
     RStudio when started up:
 
-    ![](./img/rstudio_started.png)
+    ![RStudio when started up](./img/rstudio_started.png)
 
     RStudio in action:
 
-    ![](./img/rstudio_in_action.png)
+    ![RStudio in action](./img/rstudio_in_action.png)
 
     The RStudio debugger, at the error message level:
 
-    ![](./img/rstudio_debugger_at_error_level.png)
+    ![The RStudio debugger, at the error message level](./img/rstudio_debugger_at_error_level.png)
 
     The RStudio debugger, at the function-that-caused-the-error level:
 
-    ![](./img/rstudio_debugger_at_function_level.png)
+    ![The RStudio debugger, at the function-that-caused-the-error level](./img/rstudio_debugger_at_function_level.png)
 
     The RStudio debugger, at the program level:
 
-    ![](./img/rstudio_debugger_at_program_level.png)
+    ![The RStudio debugger, at the program level](./img/rstudio_debugger_at_program_level.png)

@@ -18,13 +18,13 @@ Copy a folder from a local computer to a Rackham home folder.
 
 On your local computer, do:
 
-```
+```bash
 rsync --recursive [folder_name] [user_name]@rackham.uppmax.uu.se:/home/[user_name]/
 ```
 
 For example:
 
-```
+```bash
 rsync --recursive my_folder sven@rackham.uppmax.uu.se:/home/sven/
 ```
 
@@ -46,13 +46,13 @@ to your local computer.
 
 On your local computer, do:
 
-```
+```bash
 rsync --recursive [user_name]@rackham.uppmax.uu.se:/home/[user_name]/[folder_name] [local_folder_destination]
 ```
 
 For example:
 
-```
+```bash
 rsync --recursive sven@rackham.uppmax.uu.se:/home/sven/my_folder .
 ```
 
@@ -60,4 +60,4 @@ Where `.` means 'the folder where I am now'.
 
 ## Links
 
- * [`rsync` homepage](https://rsync.samba.org/)
+- [`rsync` homepage](https://rsync.samba.org/)
