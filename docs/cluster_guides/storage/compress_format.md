@@ -2,7 +2,14 @@
 
 How well things compress will vary a great deal with the input data. An additional consideration is how useful the compressed format will be to you later. Some tools can handle only one compressed format (almost always gzip) and some can handle two (almost always gzip and bzip2). The help information for the tool should be explicit about which formats it understands. You can also use named pipes or the bash <() syntax to uncompress files 'on the fly' if the tool you are using cannot handle that compressed format.
 
-Another consideration for usefulness is the structure of the specific compressed format. By default gzip is not 'blocked'; the compression is applied continually across the entire file, and to uncompress something in the middle it is necessary to uncompress everything up to that point. Tools that understand compressed VCF and GFF files require these to be compressed with **bgzip** (available as part of the **htslib** module), which applies blocked gzip compression, so that it is possible to uncompress interior chunks of the files efficiently. This is useful when viewing compressed VCF/GFF files in a viewer such as IGV, for example. For viewing, such files also need an index created, which is accomplished using **tabix** (also part of the **htslib** module), which understands bgzip-compressed files. BAM files also use a type of gzip compression that is blocked. Files compressed with bgzip can be uncompressed with gzip.
+Another consideration for usefulness is the structure
+of the specific compressed format.
+By default gzip is not 'blocked';
+the compression is applied continually across the entire file,
+and to uncompress something in the middle
+it is necessary to uncompress everything up to that point.
+Tools that understand compressed VCF and GFF files
+require these to be compressed with **bgzip** (available as part of the **htslib** module), which applies blocked gzip compression, so that it is possible to uncompress interior chunks of the files efficiently. This is useful when viewing compressed VCF/GFF files in a viewer such as IGV, for example. For viewing, such files also need an index created, which is accomplished using **tabix** (also part of the **htslib** module), which understands bgzip-compressed files. BAM files also use a type of gzip compression that is blocked. Files compressed with bgzip can be uncompressed with gzip.
 
 Bzip2 is inherently blocked. Bzip2 is a more efficient compression method than gzip, but takes perhaps twice as long or longer to compress the same file. Fortunately, another advantage of blocked compression is that multiple parts of the file can be compressed at once. Uppmax has **pbzip2** available as a system tool, which can perform parallel compression and decompression of bzip2-format files using multiple threads. This is quite fast. Do 'pbzip2 -h' for help. An Uppmax user has provided a helpful SBATCH script.
 
