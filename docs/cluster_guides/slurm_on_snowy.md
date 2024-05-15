@@ -63,7 +63,7 @@ sbatch -A uppmax2023-2-25 -M snowy my_script.sh
     The script file `my_script.sh` is a minimal example script.
     Such a minimal example script could be:
 
-    ```bash
+    ```text
     #!/bin/bash
     echo "Hello"
     ```
@@ -87,14 +87,14 @@ sbatch my_script.sh
 
 The script must contain at least the following lines:
 
-```
+```text
 #SBATCH -A [project_code]
 #SBATCH -M snowy
 ```
 
 where `[project_code]` is the project code, for example:
 
-```bash
+```text
 #SBATCH -A uppmax2023-2-25
 #SBATCH -M snowy
 ```

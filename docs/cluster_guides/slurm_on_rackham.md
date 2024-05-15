@@ -81,13 +81,13 @@ sbatch [script_filename]
 
 where `[script_filename]` the name of a bash script, for example:
 
-``` bash
+```bash
 sbatch my_script.sh
 ```
 
 The script must contain at least the following lines:
 
-```
+```text
 #SBATCH -A [project_code]
 ```
 

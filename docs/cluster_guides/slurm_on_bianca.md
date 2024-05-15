@@ -80,13 +80,13 @@ sbatch my_script.sh
 
 The script must contain at least the following lines:
 
-```
+```text
 #SBATCH -A [project_code]
 ```
 
 where `[project_code]` is the project code, for example:
 
-```bash
+```text
 #SBATCH -A sens2017625
 ```
 
