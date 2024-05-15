@@ -1,6 +1,6 @@
 # `projplot`
 
-![](./img/projplot_regular_use.png)
+![Projplot plot](./img/projplot_regular_use.png)
 
 `projplot` is an UPPMAX tool to plot your core hour usage
 
@@ -8,19 +8,19 @@
 
 `projplot` needs only the project code:
 
-```
+```bash
 projplot -A [project_code]
 ```
 
 For example:
 
-```
+```bash
 projplot -A uppmax2020-2-2
 ```
 
 Output will look similar to this:
 
-![](./img/projplot_regular_use.png)
+![A projplot plot](./img/projplot_regular_use.png)
 
 > Example `projplot` output. The horizontal axis
 > shows the days before today, the vertical axis shows
@@ -57,7 +57,7 @@ your get those core hours back to the project.
 If we look at a project that has used more core hours than their projects allocation,
 the image will look like this:
 
-![](./img/projplot_over_quota.png)
+![A projplot that is over quota](./img/projplot_over_quota.png)
 
 There is a message about the core hour limit being reached at the top of the plot.
 If you look in the diagram at around 10 days ago,
@@ -75,7 +75,7 @@ so for each core hour they use the more to the right the `>` bar will move.
 
 `projplot` has more options, that are shown by using `--help`:
 
-```
+```bash
 projplot --help
 ```
 
@@ -85,7 +85,7 @@ Below, these options are discussed in detail.
 
 Use `--help` (or `-h`) to get a short description of the options and some examples:
 
-```
+```bash
 projplot --help
 ```
 
@@ -149,14 +149,14 @@ projplot --help
 Use `--days` (or `-d`) the plot a custom number of days,
 instead of the default of 30 days:
 
-```
+```bash
 projplot -A [project_code] --days [number_of_days]
 ```
 
 For example, this will plot the last 45 days:
 :
 
-```
+```bash
 projplot -A uppmax2020-2-2 --days 45
 ```
 
@@ -165,13 +165,13 @@ projplot -A uppmax2020-2-2 --days 45
 Use `--start` (or `-s`) to specify a custom starting date,
 from when the time in your plot will start:
 
-```
+```bash
 projplot -A [project_code] --start [starting_date_in_yyyy-mm-dd_format]
 ```
 
 For example:
 
-```
+```bash
 projplot -A uppmax2020-2-2 --start 2023-05-03
 ```
 
@@ -180,7 +180,7 @@ and the default number of days after that date.
 The command below does exactly the same, yet makes the default
 number of days explicit:
 
-```
+```bash
 projplot -A uppmax2020-2-2 --start 2023-05-03 --days 30
 ```
 
@@ -189,13 +189,13 @@ projplot -A uppmax2020-2-2 --start 2023-05-03 --days 30
 Use `--end` (or `-e`) to specify a custom ending date,
 from when the time in your plot will end:
 
-```
+```bash
 projplot -A [project_code] --end [ending_date_in_yyyy-mm-dd_format]
 ```
 
 For example:
 
-```
+```bash
 projplot -A uppmax2020-2-2 --end 2023-05-03
 ```
 
@@ -204,7 +204,7 @@ and the default number of days before that date.
 The command below does exactly the same, yet makes the default
 number of days explicit:
 
-```
+```bash
 projplot -A uppmax2020-2-2 --end 2023-05-03 --days 30
 ```
 
@@ -213,13 +213,13 @@ projplot -A uppmax2020-2-2 --end 2023-05-03 --days 30
 Use `--start` and `--end` combined to specify a custom range
 of dates for your plot:
 
-```
+```bash
 projplot -A [project_code] --start [starting_date_in_yyyy-mm-dd_format] --end [ending_date_in_yyyy-mm-dd_format]
 ```
 
 For example:
 
-```
+```bash
 projplot -A uppmax2020-2-2 --start 2022-05-03 --end 2023-05-03
 ```
 
@@ -231,13 +231,13 @@ By default, the current cluster is used.
 Since the different clusters at UPPMAX have separate core hour quotas,
 it makes sense to being able to plot them separately.
 
-```
+```bash
 projplot -A [project_code] -c [cluster_name]
 ```
 
 For example:
 
-```
+```bash
 projplot -A uppmax2020-2-2 -c snowy
 ```
 
@@ -247,7 +247,7 @@ Valid cluster names are `bianca`, `rackham` and `snowy`.
 
     Use `projplot` with a nonsense clustername:
 
-    ```
+    ```bash
     projplot -A uppmax2020-2-2 --cluster nonsensename
     ```
 
@@ -266,12 +266,12 @@ By giving `--no-running-jobs` when running `projplot`,
 it skips checking the queue and if you do have jobs running,
 they will not be visible in the plot or in the sum of core hours used.
 
-```
+```bash
 projplot -A [project_code] --no-running-jobs
 ```
 
 For example:
 
-```
+```bash
 projplot -A uppmax2020-2-2 --no-running-jobs
 ```

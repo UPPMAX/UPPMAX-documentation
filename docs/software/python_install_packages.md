@@ -4,7 +4,7 @@ This page described how to install [Python](python.md) packages.
 
 There are many ways to install a [Python](python.md) package:
 
-- [Using `setup.py`](#using-setup.py)
+- Using `setup.py`
 - using a Python package installer
   - **PyPI** using [`pip`](#pip)
   - **Conda** using [`conda`](#conda)
@@ -13,6 +13,7 @@ You may want to [check if a package is already installed](#check-if-a-package-is
 
 [The Python package installers are compared](#comparison-between-conda-and-pypi)
 after which each is discussed:
+
 - **PyPI** using [`pip`](#pip)
 - **Conda** using [`conda`](#conda)
 
@@ -24,7 +25,7 @@ There are multiple ways to check if a Python package is installed:
 
 In the terminal, type:
 
-```
+```bash
 pip list
 ```
 
@@ -53,7 +54,7 @@ Python interface.
 packages with a Python interface, it is often used to also distribute packages
 which do not contain any Python (e.g. C or C++ packages).
 
-Parameter                    | `conda` | `pip` 
+Parameter                    | `conda` | `pip`
 -----------------------------|---------|-------
 Installs Python packages     | Yes     | Yes
 Installs non-Python software | Yes     | No
