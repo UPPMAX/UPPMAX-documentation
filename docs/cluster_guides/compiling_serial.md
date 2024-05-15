@@ -12,6 +12,7 @@ C     HELLO.F :  PRINT MESSAGE ON SCREEN
       WRITE(*,*) "hello, world";
       END
 ```
+
 - To compile this you should decide on which compilers to use. At UPPMAX there are two different Fortran compilers installed gcc (gfortran) and Intel (ifort).
 
 - For this example we will use Gnu Compiler Collection (gcc) compilers installed on UPPMAX, so the gfortran command can be used to compile fortran code. The GFortran compiler is fully compliant with the Fortran 95 Standard and includes legacy F77 support. In addition, a significant number of Fortran 2003 and Fortran 2008 features are implemented. Fortran2008 and Fortran2018 has full support from gcc/9.
@@ -29,6 +30,7 @@ To compile, enter the command:
 ``` console
 $ gfortran -o hello hello.f
 ```
+
 to run, enter:
 
 ``` console
@@ -49,27 +51,32 @@ $ module avail intel
 
 $ module load intel/20.4
 ```
+
 To compile, enter the command:
 
 ``` console
 $ ifort -o hello hello.f
 ```
+
 For Intel versions from year 2021, do like this instead:
 
 ``` console
 $ module load intel-oneapi compiler
 $ module av compiler
 ```
+
 Choose the version you need, like
 
 ``` console
 $ module load compiler/2023.1.0
 ```
+
 To compile, enter the command:
 
 ``` console
 $ ifx -o hello hello.f
 ```
+
 to run, enter:
 
 ``` console
@@ -103,6 +110,7 @@ To use a newer version of ggc we load a module:
 $ module load gcc/10.3.0
 $ gcc -o hello hello.c
 ```
+
 with basic optimization:
 
 ``` console
@@ -116,6 +124,7 @@ To use the intel compiler, first load the intel module:
 ``` console
 $ module load intel/20.4
 ```
+
 or for newer Intel versions (2021-, see above):
 
 ``` console
@@ -134,12 +143,14 @@ or for newer versions:
 ``` console
 $ icx -o hello hello.c
 ```
+
 To run, enter:
 
 ``` console
 $ ./hello
 hello, world
 ```
+
 c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
 
 ## Java programs
@@ -155,6 +166,7 @@ public static void main(String[] args)
 }
 }
 ```
+
 Before compiling a java program, the module java has to be loaded.
 To load the java module, enter the command:
 
@@ -166,10 +178,11 @@ To check that the java module is loaded, use the command:
 
 ``` console
 $ module list
+```
 
 To compile, enter the command:
 
-``` console
+```console
 $ javac hello.java
 ```
 
@@ -215,9 +228,10 @@ The last line in the script is the command used to start the program.
 
 Submit the job to the batch queue:
 
-``` console
+```console
 $ sbatch hello.sh
 ```
+
 The program's output to stdout is saved in the file named at the -o flag.
 
 ``` console

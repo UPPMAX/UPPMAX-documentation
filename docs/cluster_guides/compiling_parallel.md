@@ -18,7 +18,8 @@ This is a short tutorial about how to use the queuing system, and how to compile
 
 For serial programs, see a short version of this page at [Compiling source code](compiling_serial.md).
 
-## Compiling and running parallel programs on UPPMAX clusters.
+## Compiling and running parallel programs on UPPMAX clusters
+
 ### Introduction
 
 These notes show by brief examples how to compile and run serial and parallel programs on the clusters at UPPMAX.
@@ -71,6 +72,7 @@ hello, world
 
 Before compiling a program for MPI we must choose, in addition to the compiler, which version of MPI we want to use. At UPPMAX there are two, openmpi and intelmpi. These, with their versions, are compatible only to a subset of the gcc and intel compiler versions. The lists below summarise the best choices.
 
+
     GCC
         v5: gcc/5.3.0 openmpi/1.10.3
         v6: gcc/6.3.0 openmpi/2.1.0
@@ -99,7 +101,7 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
 Check this compatibility page for a more complete picture of compatible versions.
 
 
-### C programs
+### C programs using OpenMPI
 
 Enter the following mpi program in c and save in the file hello.c
 
@@ -177,6 +179,7 @@ $ sbatch hello-mpi.sh
 The program's output to stdout is saved in the file named at the -o flag.
 A test run of the above program yelds the following output file:
 
+```bash
 $ cat hello-mpi.out
 From process 4 out of 8, Hello World!
 From process 5 out of 8, Hello World!
@@ -186,8 +189,9 @@ From process 6 out of 8, Hello World!
 From process 3 out of 8, Hello World!
 From process 1 out of 8, Hello World!
 From process 0 out of 8, Hello World!
+```
 
-### Fortran programs
+### Fortran programs using OpenMPI
 
 The following example program does numerical integration to find Pi (inefficiently, but it is just an example):
 
@@ -318,7 +322,7 @@ or
 $ module load intel/20.4
 ```
 
-### C programs
+### C programs using OpenMP
 
 Enter the following openmp program in c and save in the file hello_omp.c
 
@@ -402,7 +406,7 @@ From thread 7 out of 8, hello, world
 From thread 5 out of 8, hello, world
 ```
 
-### Fortran programs
+### Fortran programs using OpenMP
 
 Enter the following openmp program in Fortran and save in the file hello_omp.f90
 
@@ -523,6 +527,7 @@ Submit the job to the batch queue:
 ```console
 $ sbatch hello.sh
 ```
+
 The program's output to stdout is saved in the file named at the -o flag.
 A test run of the above program yelds the following output file:
 
