@@ -255,3 +255,6 @@ All jobs should be run using the batch queues. Read more for bianca and rackham,
 ## UPPMAX homepage
 
 Please check our homepage regularly for information, news and announcements. We will announce maintenance stops and down time there.
+- https://www.uu.se/en/centre/uppmax
+- https://www.uppmax.uu.se
+
