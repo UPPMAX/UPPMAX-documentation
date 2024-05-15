@@ -15,19 +15,19 @@ Use Visual Studio Code    |Interactive, install on local computer, use locally i
 
 ???- question "How does a text editor look like?"
 
-    ![](./img/gnu_nano_python.png)
+    ![GNU nano](./img/gnu_nano_python.png)
 
     > A text editor, in this case, GNU nano
 
 ???- question "How does a Python interpreter look like?"
 
-    ![](./img/python3_hello_world.png)
+    ![A Python interpreter](./img/python3_hello_world.png)
 
     > A Python interpreter
 
 ???- question "How does IPython look like?"
 
-    ![](./img/ipython_hello_world.png)
+    ![IPython](./img/ipython_hello_world.png)
 
     > IPython
 
@@ -39,13 +39,13 @@ it is the same as writing any text file.
 
 Here we use the text editor GNU nano to write a Python script:
 
-```
+```bash
 nano example_script.py
 ```
 
 Within nano, write:
 
-```
+```console
 print('Hello, world!')
 ```
 
@@ -65,6 +65,7 @@ python3 example_script.py
 ```
 
 Some features of this approach are:
+
 - this is a simple way to write code: it is the same as writing any text file.
 - you get no help while writing code
 - you can only run the script from start to finish, i.e. you cannot
@@ -77,13 +78,13 @@ Some features of this approach are:
 
     On the terminal, for `python`, do:
 
-    ```
+    ```bash
     pdb example_script.py
     ```
 
     or for `python3`:
 
-    ```
+    ```bash
     pdb3 example_script.py
     ```
 
@@ -125,7 +126,7 @@ The Python prompt looks like this:
 
 Type, for example:
 
-```
+```python
 print('Hello, world!')
 ```
 
@@ -139,7 +140,7 @@ The Python interpreter gives limited auto-complete while writing code
 
     As an example, writing this line of code in the Python interpreter ...
 
-    ```
+    ```python
     s = 'Hello, world!'
     ```
 
@@ -147,7 +148,7 @@ The Python interpreter gives limited auto-complete while writing code
 
     Now type ...
 
-    ```
+    ```python
     s.
     ```
 
@@ -234,7 +235,7 @@ IPython allows one to write code interactively.
 
 For example, in IPython, type:
 
-```
+```python
 print('Hello, world!')
 ```
 
@@ -246,7 +247,7 @@ IPython can interact with your file system.
 
     For example, within IPython, running ...
 
-    ```
+    ```python
     ls
     ````
 
@@ -261,7 +262,7 @@ IPython has an auto-complete triggered by Tab.
 
     As an example, writing this line of code in IPython ...
 
-    ```
+    ```python
     s = 'Hello, world!'
     ```
 
@@ -269,7 +270,7 @@ IPython has an auto-complete triggered by Tab.
 
     Now type ...
 
-    ```
+    ```python
     s.
     ```
 
@@ -307,13 +308,13 @@ IPython can directly run scripts.
 
     In IPython, run:
 
-    ```
+    ```bash
     run [filename]
     ```
 
     where `[filename]` is the name of a file, for example:
 
-    ```
+    ```bash
     run my_script.py
     ```
 
@@ -337,10 +338,8 @@ Some features are:
 
 ## Links
 
-* [Official Python documentation](https://docs.python.org/3/)
-* [Python forum](https://www.python.org/community/forums/)
-* [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
-* [UPPMAX TensorFlow guide](tensorflow.md)
-* [UPPMAX PyTorch guide](pytorch.md)
-
-
+- [Official Python documentation](https://docs.python.org/3/)
+- [Python forum](https://www.python.org/community/forums/)
+- [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
+- [UPPMAX TensorFlow guide](tensorflow.md)
+- [UPPMAX PyTorch guide](pytorch.md)
