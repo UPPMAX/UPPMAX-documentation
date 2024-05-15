@@ -26,6 +26,7 @@ Start a notebook like this:
 $ module load python/<version>
 $ jupyter-notebook
 ```
+
 or jupyter lab:
 
 ``` bash
@@ -36,9 +37,9 @@ A local Firefox session (not a internet web page!)
 should start with the Jupyter notebook/lab interface.
 
 - If not, make Jupyter work in background, start Firefox and paste the address.
-- `` <ctrl-z>``
-- ``bg``
-- ``firefox &``
+- `<ctrl-z>`
+- `bg`
+- `firefox &`
 
 - copy-paste one of the addresses from the jupyter output in the terminal into the address files in the open ``firefox`` session.
 
@@ -54,6 +55,7 @@ However, you won't find your locally installed packages from that jupyter sessio
 ```bash
 $ pip install -I jupyter
 ```
+
 and run it as above.
 
 Be sure to start the kernel with the virtual environment name, like "project A", and not "Python 3 (ipykernel)".

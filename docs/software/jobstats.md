@@ -9,11 +9,11 @@ for jobs submitted to the [Slurm](../cluster_guides/slurm.md) job queue.
 
 At this page, it is described:
 
- * [`jobstats --plot`](#jobstats--plot): How to use is `jobstats --plot` to see resource use in a graphical plot
- * [Efficient use](#efficient-use): How to use your resources efficiently
- * [Examples](#example): Examples of ineffective resource use plots
- * Other `jobstats` functionality
-   * Using `jobstats --help`
+- [`jobstats --plot`](#jobstats---plot): How to use is `jobstats --plot` to see resource use in a graphical plot
+- [Efficient use](#efficient-use): How to use your resources efficiently
+- [Examples](#examples): Examples of ineffective resource use plots
+- Other `jobstats` functionality
+  - Using `jobstats --help`
 
 ## `jobstats --plot`
 
@@ -23,13 +23,13 @@ for a job that completed successfully and took longer than 5 minutes.
 
 There are many ways to use `--plot`, a minimal use could be:
 
-```
+```bash
 jobstats --plot [job_id]
 ```
 
 for example:
 
-```
+```bash
 jobstats --plot 12345678
 ```
 
@@ -41,10 +41,10 @@ Use any image viewer, e.g. [eog](eog.md) to see it.
 
 Each plot shows:
 
- * detailed information in the title.
- * CPU usage in blue
- * current memory usage in solid black
- * overall memory usage in dotted black (if available)
+- detailed information in the title.
+- CPU usage in blue
+- current memory usage in solid black
+- overall memory usage in dotted black (if available)
 
 ## Interpreting a plot
 
@@ -52,13 +52,13 @@ For example, in this plot:
 
 ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_milou-b2010042-douglas-8769275_with_border.png)
 
- * the title shows the detailed info. `milou` is the name of a former UPPMAX cluster.
- * CPU usage in blue, which is around 1000%, which is the equivalent of 10 cores
-   being used 100%
- * current memory usage in solid black, which is around 20 GB (left-side vertical
-   axis) or a little bit less than 1 core (right-side vertical axis)
- * overall memory usage in dotted black, which is around 340 GB (left-side vertical
-   axis) or a little bit less than 11 cores     (right-side vertical axis)
+- the title shows the detailed info. `milou` is the name of a former UPPMAX cluster.
+- CPU usage in blue, which is around 1000%, which is the equivalent of 10 cores
+  being used 100%
+- current memory usage in solid black, which is around 20 GB (left-side vertical
+  axis) or a little bit less than 1 core (right-side vertical axis)
+- overall memory usage in dotted black, which is around 340 GB (left-side vertical
+  axis) or a little bit less than 11 cores     (right-side vertical axis)
 
 For jobs running on multiple nodes, plots have multiple columns:
 
@@ -68,15 +68,15 @@ Some plots shows suggestions in red:
 
 Text in plot                                        |Description
 ----------------------------------------------------|---------------------------------------------------------------------------------
-`nodes_overbooked : nodes booked : nodes used: `    |More nodes were booked than used
+`nodes_overbooked : nodes booked : nodes used:`     |More nodes were booked than used
 `overbooked : % used`                               |The maximum percentage of booked cores and/or memory that was used (if < 80%)
 `!!half_overbooked`                                 |No more than one-half of both cores and memory of a node was used; consider booking half a node instead.
 `!!severely_overbooked`                             |No more than one-quarter of both cores and memory of a node was used, examine your job requirements closely.
 `!!swap_used`                                       |Swap storage was used at any point within the job run
 `node_type_overbooked : type booked : type used:`   |A fat node was requested that was larger than was needed. This flag may be produced spuriously if SLURM ran the job on a fat node when a fat node was not requested by the user.
-`cores_overbooked : cores booked : cores used: `    |More cores were booked than used (if < 80%)
-`mem_overbooked : GB booked : GB used: `            |More memory was available than was used (if < 25% and more than one core).
-`core_mem_overbooked : GB in used cores : GB used: `|Less memory was used than was available in the cores that were used (if < 50%).
+`cores_overbooked : cores booked : cores used:`     |More cores were booked than used (if < 80%)
+`mem_overbooked : GB booked : GB used:`             |More memory was available than was used (if < 25% and more than one core).
+`core_mem_overbooked : GB in used cores : GB used:` |Less memory was used than was available in the cores that were used (if < 50%).
 
 In this example plot, however, the setup is considered good enough.
 
@@ -99,7 +99,7 @@ flowchart TD
   can_decrease_number_of_cores --> |no| done
 ```
 
-If not, follow the strategy at [efficient use](#efficient#use)
+If not, follow the strategy at [efficient use](#efficient-use)
 
 ## Efficient use
 
@@ -320,13 +320,13 @@ as it uses only ~15GB of RAM, which you could get by booking 2-3 normal cores.
 
 Use `jobstats --help` to see the help of `jobstats`:
 
-```
+```bash
 jobstats --help
 ```
 
 ???- question "How does the output look like?"
 
-    ```
+    ```text
     USAGE
     -----
 
@@ -606,9 +606,10 @@ In the example command lines below, the -p/--plot option requests that plots of 
 
 Discovery by job number for a completed job:
 
-```
+```bash
 jobstats --plot jobid1 jobid2 jobid3
 ```
+
 The job numbers valid on the cluster.
 [finishedjobinfo](finishedjobinfo.md) is used
 to determine further information for each job.
@@ -623,7 +624,7 @@ see Mode 4 below. See Mode 2 for a currently running job.
 
 Discovery by job number for a currently running job.
 
-```
+```bash
 jobstats --plot -r jobid1 jobid2 jobid3
 ```
 
@@ -635,7 +636,7 @@ further information for each running job.
 
 Discovery by node and job number, for a completed or running job.
 
-```
+```bash
 jobstats --plot -n m15,m16 jobid
 ```
 
@@ -648,7 +649,7 @@ or which nodes you are interested in, this will be much faster than Mode 1.
 
 Discovery by project.
 
-```
+```bash
 jobstats --plot -A project
 ```
 
@@ -673,7 +674,7 @@ Discovery via information provided on `stdin`:
     `stdin` is an abbreviation for 'Standard input',
     see [the Wikipedia page on 'stdin'](https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin))
 
-```
+```bash
 finishedjobinfo -q project | jobstats - --plot
 ```
 
@@ -689,7 +690,7 @@ For example, to produce analyses of all completed jobs in a project
 during the current calendar year, and produce separate tarballs
 analysing all jobs and providing jobstats plots for each user during this same period:
 
-```
+```bash
 project=myproj
 finishedjobinfo -q -y ${project} > ${project}-year.txt
 grep 'jobstat=COMPLETED' ${project}-year.txt | jobstats - > ${project}-completed-jobs.txt
