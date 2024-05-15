@@ -2,6012 +2,6010 @@
 
 A number of modules/packages are available by default with all Perl versions. This is a list of modules for perl/5.26.2 available by loading the module perl_modules/5.26.2. For previous Perl versions 5.18.4 and 5.24.1 (available through the software module system as perl/5.18.4 and perl/5.24.1), many more Perl modules are available by loading the software module perl_modules/5.18.4 or perl_modules/5.24.1. A complete list of the Perl modules available in perl_modules/5.26.2 module is as follows:
 
+## Perl Module Search on perl_modules/5.26.2/rackham
 
-```console
+Module name | Version
+------------|----------
+$pkg | 2.019
+Acme::Damn | 0.08
+Algorithm::C3 | 0.10
+Algorithm::Combinatorics | 0.27
+Algorithm::Diff | 1.1903
+Algorithm::FastPermute | 0.999
+Algorithm::Loops | 1.032
+Algorithm::Munkres | 0.08
+Algorithm::Permute | 0.16
+aliased | 0.34
+Apache::Htpasswd | 1.9
+Apache::LogFormat::Compiler | 0.35
+Apache::SOAP | 1.27
+App::Ack | 2.24
+App::Ack::ConfigDefault | unknown
+App::Ack::ConfigFinder | unknown
+App::Ack::ConfigLoader | unknown
+App::Ack::Filter | unknown
+App::Ack::Filter::Collection | unknown
+App::Ack::Filter::Default | unknown
+App::Ack::Filter::Extension | unknown
+App::Ack::Filter::ExtensionGroup | unknown
+App::Ack::Filter::FirstLineMatch | unknown
+App::Ack::Filter::Inverse | unknown
+App::Ack::Filter::Is | unknown
+App::Ack::Filter::IsGroup | unknown
+App::Ack::Filter::IsPath | unknown
+App::Ack::Filter::IsPathGroup | unknown
+App::Ack::Filter::Match | unknown
+App::Ack::Filter::MatchGroup | unknown
+App::Ack::Resource | unknown
+App::Ack::Resources | unknown
+App::Cmd | 0.331
+App::Cmd::ArgProcessor | 0.331
+App::Cmd::Command | 0.331
+App::Cmd::Command::commands | 0.331
+App::Cmd::Command::help | 0.331
+App::Cmd::Command::version | 0.331
+App::Cmd::Plugin | 0.331
+App::Cmd::Setup | 0.331
+App::Cmd::Simple | 0.331
+App::Cmd::Subdispatch | 0.331
+App::Cmd::Subdispatch::DashedStyle | 0.331
+App::Cmd::Tester | 0.331
+App::Cmd::Tester::CaptureExternal | 0.331
+App::cpanminus | 1.7044
+App::cpanminus::fatscript | 1.7044
+App::FatPacker | 0.010007
+App::FatPacker::Trace | unknown
+App::Nopaste | 1.012
+App::Nopaste::Command | 1.012
+App::Nopaste::Service | 1.012
+App::Nopaste::Service::Codepeek | 1.012
+App::Nopaste::Service::Debian | 1.012
+App::Nopaste::Service::Gist | 1.012
+App::Nopaste::Service::GitLab | 1.012
+App::Nopaste::Service::Mojopaste | 1.012
+App::Nopaste::Service::PastebinCom | 1.012
+App::Nopaste::Service::Pastie | 1.012
+App::Nopaste::Service::Shadowcat | 1.012
+App::Nopaste::Service::Snitch | 1.012
+App::Nopaste::Service::ssh | 1.012
+App::Nopaste::Service::Ubuntu | 1.012
+App::perlbrew | 0.84
+App::Pinto | 0.14
+App::Pinto::Command | 0.14
+App::Pinto::Command::add | 0.14
+App::Pinto::Command::clean | 0.14
+App::Pinto::Command::copy | 0.14
+App::Pinto::Command::default | 0.14
+App::Pinto::Command::delete | 0.14
+App::Pinto::Command::diff | 0.14
+App::Pinto::Command::help | 0.14
+App::Pinto::Command::init | 0.14
+App::Pinto::Command::install | 0.14
+App::Pinto::Command::kill | 0.14
+App::Pinto::Command::list | 0.14
+App::Pinto::Command::lock | 0.14
+App::Pinto::Command::log | 0.14
+App::Pinto::Command::look | 0.14
+App::Pinto::Command::manual | 0.14
+App::Pinto::Command::merge | 0.14
+App::Pinto::Command::migrate | 0.14
+App::Pinto::Command::new | 0.14
+App::Pinto::Command::nop | 0.14
+App::Pinto::Command::pin | 0.14
+App::Pinto::Command::props | 0.14
+App::Pinto::Command::pull | 0.14
+App::Pinto::Command::register | 0.14
+App::Pinto::Command::rename | 0.14
+App::Pinto::Command::reset | 0.14
+App::Pinto::Command::revert | 0.14
+App::Pinto::Command::roots | 0.14
+App::Pinto::Command::stacks | 0.14
+App::Pinto::Command::statistics | 0.14
+App::Pinto::Command::thanks | 0.14
+App::Pinto::Command::unlock | 0.14
+App::Pinto::Command::unpin | 0.14
+App::Pinto::Command::unregister | 0.14
+App::Pinto::Command::update | 0.14
+App::Pinto::Command::verify | 0.14
+App::Prove | 3.42
+App::Prove::State | 3.42
+App::Prove::State::Result | 3.42
+App::Prove::State::Result::Test | 3.42
+AppConfig | 1.71
+AppConfig::Args | 1.71
+AppConfig::CGI | 1.71
+AppConfig::File | 1.71
+AppConfig::Getopt | 1.71
+AppConfig::State | 1.71
+AppConfig::Sys | 1.71
+Archive::Any::Create | 0.03
+Archive::Any::Create::Tar | unknown
+Archive::Any::Create::Zip | unknown
+Archive::Extract | 0.80
+Archive::Zip | 1.60
+Archive::Zip::Archive | 1.60
+Archive::Zip::BufferedFileHandle | 1.60
+Archive::Zip::DirectoryMember | 1.60
+Archive::Zip::FileMember | 1.60
+Archive::Zip::Member | 1.60
+Archive::Zip::MemberRead | 1.60
+Archive::Zip::MockFileHandle | 1.60
+Archive::Zip::NewFileMember | 1.60
+Archive::Zip::StringMember | 1.60
+Archive::Zip::Tree | 1.60
+Archive::Zip::ZipFileMember | 1.60
+Array::Compare | 3.0.1
+Array::Unique | 0.08
+Array::Utils | 0.5
+asa | 1.03
+Astro::FITS::Header | 3.04
+Astro::FITS::Header::AST | 3.01
+Astro::FITS::Header::CFITSIO | 3.02
+Astro::FITS::Header::GSD | 3.01
+Astro::FITS::Header::Item | 3.02
+Astro::FITS::Header::NDF | 3.02
+Authen::SASL | 2.16
+Authen::SASL::CRAM_MD5 | 2.14
+Authen::SASL::EXTERNAL | 2.14
+Authen::SASL::Perl | 2.14
+Authen::SASL::Perl::ANONYMOUS | 2.14
+Authen::SASL::Perl::CRAM_MD5 | 2.14
+Authen::SASL::Perl::DIGEST_MD5 | 2.14
+Authen::SASL::Perl::EXTERNAL | 2.14
+Authen::SASL::Perl::GSSAPI | 0.05
+Authen::SASL::Perl::LOGIN | 2.14
+Authen::SASL::Perl::PLAIN | 2.14
+Authen::Simple | 0.5
+Authen::Simple::Adapter | unknown
+Authen::Simple::Apache | unknown
+Authen::Simple::Log | unknown
+Authen::Simple::Passwd | 0.6
+Authen::Simple::Password | unknown
+autobox | unknown
+autobox::universal | unknown
+B::Hooks::EndOfScope | 0.24
+B::Hooks::EndOfScope::PP | 0.24
+B::Hooks::EndOfScope::XS | 0.24
+B::Hooks::OP::Check | 0.22
+B::Hooks::OP::Check::Install::Files | unknown
+B::Hooks::OP::PPAddr | 0.06
+B::Hooks::OP::PPAddr::Install::Files | unknown
+B::Keywords | 1.18
+B::Utils | 0.27
+B::Utils::Install::Files | unknown
+B::Utils::OP | 0.27
+bareword::filehandles | 0.006
+Bit::Vector | 7.4
+Bit::Vector::Overload | 7.4
+Bit::Vector::String | 7.4
+boolean | 0.46
+Browser::Open | 0.04
+Bundle::DBD::mysql | 4.046
+Bundle::DBI | 12.008696
+Bundle::Object::InsideOut | 4.04
+C::StructType | unknown
+C::Type | unknown
+C::Var | unknown
+Cache::BaseCache | unknown
+Cache::BaseCacheTester | unknown
+Cache::Cache | 1.08
+Cache::CacheMetaData | unknown
+Cache::CacheSizer | unknown
+Cache::CacheTester | unknown
+Cache::CacheUtils | unknown
+Cache::FileBackend | unknown
+Cache::FileCache | unknown
+Cache::LRU | 0.04
+Cache::MemoryBackend | unknown
+Cache::MemoryCache | unknown
+Cache::NullCache | unknown
+Cache::Object | unknown
+Cache::SharedMemoryBackend | unknown
+Cache::SharedMemoryCache | unknown
+Cache::SizeAwareCache | unknown
+Cache::SizeAwareCacheTester | unknown
+Cache::SizeAwareFileCache | unknown
+Cache::SizeAwareMemoryCache | unknown
+Cache::SizeAwareSharedMemoryCache | unknown
+Capture::Tiny | 0.48
+Carp::Always | 0.13
+Carp::Assert | 0.21
+Carp::Assert::More | 1.16
+Carp::Clan | 6.06
+Carp::REPL | 0.18
+Carton | unknown
+Carton::Builder | unknown
+Carton::CLI | unknown
+Carton::CPANfile | unknown
+Carton::Dependency | unknown
+Carton::Dist | unknown
+Carton::Dist::Core | unknown
+Carton::Environment | unknown
+Carton::Error | unknown
+Carton::Index | unknown
+Carton::Mirror | unknown
+Carton::Package | unknown
+Carton::Packer | unknown
+Carton::Snapshot | unknown
+Carton::Snapshot::Emitter | unknown
+Carton::Snapshot::Parser | unknown
+Carton::Tree | unknown
+Carton::Util | unknown
+Catalyst | 5.90118
+Catalyst::Action | unknown
+Catalyst::Action::Deserialize | 1.21
+Catalyst::Action::Deserialize::Callback | 1.21
+Catalyst::Action::Deserialize::JSON | 1.21
+Catalyst::Action::Deserialize::JSON::XS | 1.21
+Catalyst::Action::Deserialize::View | 1.21
+Catalyst::Action::Deserialize::XML::Simple | 1.21
+Catalyst::Action::Deserialize::YAML | 1.21
+Catalyst::Action::DeserializeMultiPart | 1.21
+Catalyst::Action::RenderView | 0.16
+Catalyst::Action::REST | 1.21
+Catalyst::Action::REST::ForBrowsers | 1.21
+Catalyst::Action::Role::ACL | 0.07
+Catalyst::Action::Serialize | 1.21
+Catalyst::Action::Serialize::Callback | 1.21
+Catalyst::Action::Serialize::JSON | 1.21
+Catalyst::Action::Serialize::JSON::XS | 1.21
+Catalyst::Action::Serialize::JSONP | 1.21
+Catalyst::Action::Serialize::View | 1.21
+Catalyst::Action::Serialize::XML::Simple | 1.21
+Catalyst::Action::Serialize::YAML | 1.21
+Catalyst::Action::Serialize::YAML::HTML | 1.21
+Catalyst::Action::SerializeBase | 1.21
+Catalyst::ActionChain | unknown
+Catalyst::ActionContainer | unknown
+Catalyst::ActionRole::ACL | 0.07
+Catalyst::ActionRole::ConsumesContent | unknown
+Catalyst::ActionRole::HTTPMethods | unknown
+Catalyst::ActionRole::NeedsLogin | unknown
+Catalyst::ActionRole::QueryMatching | unknown
+Catalyst::ActionRole::Scheme | unknown
+Catalyst::Authentication::Credential::HTTP | 1.018
+Catalyst::Authentication::Credential::NoPassword | unknown
+Catalyst::Authentication::Credential::Password | unknown
+Catalyst::Authentication::Credential::Remote | unknown
+Catalyst::Authentication::Realm | unknown
+Catalyst::Authentication::Realm::Compatibility | unknown
+Catalyst::Authentication::Realm::Progressive | unknown
+Catalyst::Authentication::Realm::SimpleDB | unknown
+Catalyst::Authentication::Store::DBIx::Class | 0.1506
+Catalyst::Authentication::Store::DBIx::Class::User | unknown
+Catalyst::Authentication::Store::Minimal | unknown
+Catalyst::Authentication::Store::Null | unknown
+Catalyst::Authentication::User | unknown
+Catalyst::Authentication::User::Hash | unknown
+Catalyst::Base | unknown
+Catalyst::ClassData | unknown
+Catalyst::Component | unknown
+Catalyst::Component::ApplicationAttribute | unknown
+Catalyst::Component::ContextClosure | unknown
+Catalyst::Component::InstancePerContext | 0.001001
+Catalyst::Controller | unknown
+Catalyst::Controller::ActionRole | 0.17
+Catalyst::Controller::REST | 1.21
+Catalyst::Devel | 1.39
+Catalyst::Dispatcher | unknown
+Catalyst::DispatchType | unknown
+Catalyst::DispatchType::Chained | unknown
+Catalyst::DispatchType::Default | unknown
+Catalyst::DispatchType::Index | unknown
+Catalyst::DispatchType::Path | unknown
+Catalyst::Engine | unknown
+Catalyst::EngineLoader | unknown
+Catalyst::Exception | unknown
+Catalyst::Exception::Basic | unknown
+Catalyst::Exception::Detach | unknown
+Catalyst::Exception::Go | unknown
+Catalyst::Exception::Interface | unknown
+Catalyst::Helper | 1.39
+Catalyst::Helper::Model::Adaptor | unknown
+Catalyst::Helper::Model::DBIC::Schema | 0.65
+Catalyst::Helper::Model::Factory | unknown
+Catalyst::Helper::Model::Factory::PerRequest | unknown
+Catalyst::Helper::View::Email | 0.36
+Catalyst::Helper::View::Email::Template | 0.36
+Catalyst::Helper::View::TT | 0.44
+Catalyst::Helper::View::TTSite | 0.44
+Catalyst::Log | unknown
+Catalyst::Manual | 5.9009
+Catalyst::Middleware::Stash | unknown
+Catalyst::Model | unknown
+Catalyst::Model::Adaptor | 0.10
+Catalyst::Model::Adaptor::Base | unknown
+Catalyst::Model::DBIC::Schema | 0.65
+Catalyst::Model::Factory | 0.10
+Catalyst::Model::Factory::PerRequest | 0.10
+Catalyst::Plugin::Authentication | 0.10023
+Catalyst::Plugin::Authentication::Credential::Password | unknown
+Catalyst::Plugin::Authentication::Store::Minimal | unknown
+Catalyst::Plugin::Authentication::User | unknown
+Catalyst::Plugin::Authentication::User::Hash | unknown
+Catalyst::Plugin::ConfigLoader | 0.34
+Catalyst::Plugin::I18N | 0.10
+Catalyst::Plugin::Session | 0.40
+Catalyst::Plugin::Session::State | unknown
+Catalyst::Plugin::Session::State::Cookie | 0.17
+Catalyst::Plugin::Session::Store | unknown
+Catalyst::Plugin::Session::Store::DBIC | 0.14
+Catalyst::Plugin::Session::Store::DBIC::Delegate | unknown
+Catalyst::Plugin::Session::Store::Delegate | 0.06
+Catalyst::Plugin::Session::Store::Dummy | unknown
+Catalyst::Plugin::Session::Store::File | 0.18
+Catalyst::Plugin::Session::Test::Store | 123
+Catalyst::Plugin::StackTrace | 0.12
+Catalyst::Plugin::Static::Simple | 0.36
+Catalyst::Plugin::Unicode::Encoding | 5.90118
+Catalyst::Request | unknown
+Catalyst::Request::PartData | unknown
+Catalyst::Request::REST | 1.21
+Catalyst::Request::REST::ForBrowsers | 1.21
+Catalyst::Request::Upload | unknown
+Catalyst::Response | unknown
+Catalyst::Response::Writer | unknown
+Catalyst::Restarter | unknown
+Catalyst::Restarter::Forking | unknown
+Catalyst::Restarter::Win32 | unknown
+Catalyst::Runtime | 5.90118
+Catalyst::Script::CGI | unknown
+Catalyst::Script::Create | unknown
+Catalyst::Script::FastCGI | unknown
+Catalyst::Script::Server | unknown
+Catalyst::Script::Test | unknown
+Catalyst::ScriptRole | unknown
+Catalyst::ScriptRunner | unknown
+Catalyst::Stats | unknown
+Catalyst::Test | unknown
+Catalyst::TraitFor::Model::DBIC::Schema::Caching | unknown
+Catalyst::TraitFor::Model::DBIC::Schema::PerRequestSchema | unknown
+Catalyst::TraitFor::Model::DBIC::Schema::Replicated | unknown
+Catalyst::TraitFor::Model::DBIC::Schema::SchemaProxy | unknown
+Catalyst::TraitFor::Request::REST | 1.21
+Catalyst::TraitFor::Request::REST::ForBrowsers | 1.21
+Catalyst::Utils | unknown
+Catalyst::View | unknown
+Catalyst::View::Email | 0.36
+Catalyst::View::Email::Template | 0.36
+Catalyst::View::TT | 0.44
+CatalystX::Component::Traits | 0.19
+CatalystX::InjectComponent | 0.025
+CatalystX::LeakChecker | 0.06
+CatalystX::Profile | 0.02
+CatalystX::Profile::Controller::ControlProfiling | 0.02
+CatalystX::REPL | 0.04
+CatalystX::SimpleLogin | 0.20
+CatalystX::SimpleLogin::Controller::Login | unknown
+CatalystX::SimpleLogin::Form::Login | unknown
+CatalystX::SimpleLogin::Form::LoginOpenID | unknown
+CatalystX::SimpleLogin::TraitFor::Controller::Login::Logout | unknown
+CatalystX::SimpleLogin::TraitFor::Controller::Login::OpenID | unknown
+CatalystX::SimpleLogin::TraitFor::Controller::Login::RenderAsTTTemplate | unknown
+CatalystX::SimpleLogin::TraitFor::Controller::Login::WithRedirect | unknown
+CGI | 4.38
+CGI::Carp | 4.38
+CGI::Cookie | 4.38
+CGI::File::Temp | 4.38
+CGI::FormBuilder | 3.10
+CGI::FormBuilder::Field | 3.10
+CGI::FormBuilder::Field::button | 3.10
+CGI::FormBuilder::Field::checkbox | 3.10
+CGI::FormBuilder::Field::date | 3.10
+CGI::FormBuilder::Field::datetime | 3.10
+CGI::FormBuilder::Field::datetime_local | 3.10
+CGI::FormBuilder::Field::email | 3.10
+CGI::FormBuilder::Field::file | 3.10
+CGI::FormBuilder::Field::hidden | 3.10
+CGI::FormBuilder::Field::image | 3.10
+CGI::FormBuilder::Field::number | 3.10
+CGI::FormBuilder::Field::password | 3.10
+CGI::FormBuilder::Field::radio | 3.10
+CGI::FormBuilder::Field::select | 3.10
+CGI::FormBuilder::Field::static | 3.10
+CGI::FormBuilder::Field::submit | 3.10
+CGI::FormBuilder::Field::text | 3.10
+CGI::FormBuilder::Field::textarea | 3.10
+CGI::FormBuilder::Field::time | 3.10
+CGI::FormBuilder::Field::url | 3.10
+CGI::FormBuilder::Messages | 3.10
+CGI::FormBuilder::Messages::base | 3.10
+CGI::FormBuilder::Messages::default | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Messages::locale | 3.10
+CGI::FormBuilder::Multi | 3.10
+CGI::FormBuilder::Source | 3.10
+CGI::FormBuilder::Source::File | 3.10
+CGI::FormBuilder::Source::Perl | 0.01
+CGI::FormBuilder::Template | 3.10
+CGI::FormBuilder::Template::Builtin | 3.10
+CGI::FormBuilder::Template::CGI_SSI | 3.10
+CGI::FormBuilder::Template::Div | 3.10
+CGI::FormBuilder::Template::Fast | 3.10
+CGI::FormBuilder::Template::HTML | 3.10
+CGI::FormBuilder::Template::Text | 3.10
+CGI::FormBuilder::Template::TT2 | 3.10
+CGI::FormBuilder::Test | 3.10
+CGI::FormBuilder::Util | 3.10
+CGI::HTML::Functions | unknown
+CGI::Pretty | 4.38
+CGI::Push | 4.38
+CGI::Simple | 1.15
+CGI::Simple::Cookie | 1.15
+CGI::Simple::Standard | 1.15
+CGI::Simple::Util | 1.15
+CGI::Struct | 1.21
+CGI::Util | 4.38
+CHI | 0.60
+CHI::CacheObject | 0.60
+CHI::Constants | 0.60
+CHI::Driver | 0.60
+CHI::Driver::Base::CacheContainer | 0.60
+CHI::Driver::CacheCache | 0.60
+CHI::Driver::FastMmap | 0.60
+CHI::Driver::File | 0.60
+CHI::Driver::Memory | 0.60
+CHI::Driver::Metacache | 0.60
+CHI::Driver::Null | 0.60
+CHI::Driver::RawMemory | 0.60
+CHI::Driver::Role::HasSubcaches | 0.60
+CHI::Driver::Role::IsSizeAware | 0.60
+CHI::Driver::Role::IsSubcache | 0.60
+CHI::Driver::Role::Universal | 0.60
+CHI::Serializer::JSON | 0.60
+CHI::Serializer::Storable | 0.60
+CHI::Stats | 0.60
+CHI::t::Bugs | 0.60
+CHI::t::Config | 0.60
+CHI::t::Constants | 0.60
+CHI::t::Driver | 0.60
+CHI::t::Driver::CacheCache | 0.60
+CHI::t::Driver::FastMmap | 0.60
+CHI::t::Driver::File | 0.60
+CHI::t::Driver::File::DepthZero | 0.60
+CHI::t::Driver::Memory | 0.60
+CHI::t::Driver::NonMoose | 0.60
+CHI::t::Driver::RawMemory | 0.60
+CHI::t::Driver::Subcache | 0.60
+CHI::t::Driver::Subcache::l1_cache | 0.60
+CHI::t::Driver::Subcache::mirror_cache | 0.60
+CHI::t::GetError | 0.60
+CHI::t::Initialize | 0.60
+CHI::t::Null | 0.60
+CHI::t::RequiredModules | 0.60
+CHI::t::Sanity | 0.60
+CHI::t::SetError | 0.60
+CHI::t::Subcache | 0.60
+CHI::t::Subclass | 0.60
+CHI::t::Util | 0.60
+CHI::Test | 0.60
+CHI::Test::Class | 0.60
+CHI::Test::Driver::NonMoose | 0.60
+CHI::Test::Driver::Readonly | 0.60
+CHI::Test::Driver::Role::CheckKeyValidity | 0.60
+CHI::Test::Driver::Writeonly | 0.60
+CHI::Test::Util | 0.60
+CHI::Types | 0.60
+CHI::Util | 0.60
+Class::Accessor | 0.51
+Class::Accessor::Chained | 0.01
+Class::Accessor::Chained::Fast | unknown
+Class::Accessor::Fast | 0.51
+Class::Accessor::Faster | 0.51
+Class::Accessor::Grouped | 0.10014
+Class::Accessor::Lite | 0.08
+Class::AutoClass | 1.56
+Class::AutoClass::Root | 1
+Class::C3 | 0.34
+Class::C3::Adopt::NEXT | 0.14
+Class::C3::Componentised | 1.001002
+Class::C3::Componentised::ApplyHooks | unknown
+Class::Data::Inheritable | 0.08
+Class::Factory::Util | 1.7
+Class::Inspector | 1.32
+Class::Inspector::Functions | 1.32
+Class::Load | 0.25
+Class::Load::PP | 0.25
+Class::Load::XS | 0.10
+Class::Method::Modifiers | 2.12
+Class::MethodMaker | 2.24
+Class::MethodMaker::array | unknown
+Class::MethodMaker::Constants | unknown
+Class::MethodMaker::Engine | 2.24
+Class::MethodMaker::hash | unknown
+Class::MethodMaker::OptExt | unknown
+Class::MethodMaker::scalar | unknown
+Class::MethodMaker::V1Compat | unknown
+Class::MOP | 2.2011
+Class::MOP::Attribute | 2.2011
+Class::MOP::Class | 2.2011
+Class::MOP::Class::Immutable::Trait | 2.2011
+Class::MOP::Deprecated | 2.2011
+Class::MOP::Instance | 2.2011
+Class::MOP::Method | 2.2011
+Class::MOP::Method::Accessor | 2.2011
+Class::MOP::Method::Constructor | 2.2011
+Class::MOP::Method::Generated | 2.2011
+Class::MOP::Method::Inlined | 2.2011
+Class::MOP::Method::Meta | 2.2011
+Class::MOP::Method::Wrapped | 2.2011
+Class::MOP::MiniTrait | 2.2011
+Class::MOP::Mixin | 2.2011
+Class::MOP::Mixin::AttributeCore | 2.2011
+Class::MOP::Mixin::HasAttributes | 2.2011
+Class::MOP::Mixin::HasMethods | 2.2011
+Class::MOP::Mixin::HasOverloads | 2.2011
+Class::MOP::Module | 2.2011
+Class::MOP::Object | 2.2011
+Class::MOP::Overload | 2.2011
+Class::MOP::Package | 2.2011
+Class::Singleton | 1.5
+Class::Tiny | 1.006
+Class::Trigger | 0.14
+Class::Unload | 0.11
+Class::XSAccessor | 1.19
+Class::XSAccessor::Array | 1.19
+Clipboard | 0.13
+Clipboard::MacPasteboard | unknown
+Clipboard::Win32 | unknown
+Clipboard::Xclip | unknown
+Clone | 0.39
+Clone::Choose | 0.010
+Clone::PP | 1.07
+Commandable | 0.01
+Commandable::Invocation | 0.01
+common::sense | 3.74
+Compress::Bzip2 | 2.26
+Compress::Raw::Bzip2 | 2.081
+Compress::Raw::Zlib | 2.081
+Config::Any | 0.32
+Config::Any::Base | unknown
+Config::Any::General | unknown
+Config::Any::INI | unknown
+Config::Any::JSON | unknown
+Config::Any::Perl | unknown
+Config::Any::XML | unknown
+Config::Any::YAML | unknown
+Config::General | 2.63
+Config::General::Extended | 2.07
+Config::General::Interpolated | 2.15
+Config::INI | 0.025
+Config::INI::Reader | 0.025
+Config::INI::Writer | 0.025
+Config::MVP | 2.200011
+Config::MVP::Assembler | 2.200011
+Config::MVP::Assembler::WithBundles | 2.200011
+Config::MVP::Error | 2.200011
+Config::MVP::Reader | 2.200011
+Config::MVP::Reader::Findable | 2.200011
+Config::MVP::Reader::Findable::ByExtension | 2.200011
+Config::MVP::Reader::Finder | 2.200011
+Config::MVP::Reader::Hash | 2.200011
+Config::MVP::Reader::INI | 2.101463
+Config::MVP::Section | 2.200011
+Config::MVP::Sequence | 2.200011
+Config::Tiny | 2.23
+constant::boolean | 0.02
+Context::Preserve | 0.03
+Contextual::Return | 0.004014
+Contextual::Return::Failure | unknown
+Convert::Binary::C | 0.78
+Convert::Binary::C::Cached | 0.78
+Convert::BinHex | 1.125
+Convert::Color | 0.11
+Convert::Color::CMY | 0.11
+Convert::Color::CMYK | 0.11
+Convert::Color::HSL | 0.11
+Convert::Color::HSV | 0.11
+Convert::Color::RGB | 0.11
+Convert::Color::RGB16 | 0.11
+Convert::Color::RGB8 | 0.11
+Convert::Color::VGA | 0.11
+Convert::Color::X11 | 0.11
+Convert::Color::XTerm | 0.05
+Convert::UU | 0.5201
+Cookie::Baker | 0.09
+CPAN::Changes | 0.400002
+CPAN::Changes::Group | unknown
+CPAN::Changes::Release | unknown
+CPAN::Checksums | 2.12
+CPAN::Common::Index | 0.010
+CPAN::Common::Index::LocalPackage | 0.010
+CPAN::Common::Index::MetaDB | 0.010
+CPAN::Common::Index::Mirror | 0.010
+CPAN::Common::Index::Mux::Ordered | 0.010
+CPAN::DistnameInfo | 0.12
+CPAN::Meta::Check | 0.014
+CPAN::Mini | 1.111016
+CPAN::Mini::App | 1.111016
+CPAN::Perl::Releases | 3.68
+CPAN::Uploader | 0.103013
+Cpanel::JSON::XS | 4.04
+Cpanel::JSON::XS::Type | unknown
+Crypt::Blowfish | 2.14
+Crypt::CBC | 2.33
+Crypt::PasswdMD5 | 1.40
+Crypt::Random::Seed | 0.03
+Crypt::Random::TESHA2 | 0.01
+Crypt::Random::TESHA2::Config | 0.01
+Crypt::RC4 | 2.02
+CSS::Tiny | 1.20
+curry | 1.001000
+curry::weak | unknown
+Curses::Window | 1.36
+Cwd | 3.74
+Cwd::Guard | 0.05
+Dancer | 1.3400
+Dancer2 | 0.206000
+Dancer2::CLI | 0.206000
+Dancer2::CLI::Command::gen | 0.206000
+Dancer2::CLI::Command::version | 0.206000
+Dancer2::Core | 0.206000
+Dancer2::Core::App | 0.206000
+Dancer2::Core::Cookie | 0.206000
+Dancer2::Core::Dispatcher | 0.206000
+Dancer2::Core::DSL | 0.206000
+Dancer2::Core::Error | 0.206000
+Dancer2::Core::Factory | 0.206000
+Dancer2::Core::Hook | 0.206000
+Dancer2::Core::HTTP | 0.206000
+Dancer2::Core::MIME | 0.206000
+Dancer2::Core::Request | 0.206000
+Dancer2::Core::Request::Upload | 0.206000
+Dancer2::Core::Response | 0.206000
+Dancer2::Core::Response::Delayed | 0.206000
+Dancer2::Core::Role::ConfigReader | 0.206000
+Dancer2::Core::Role::DSL | 0.206000
+Dancer2::Core::Role::Engine | 0.206000
+Dancer2::Core::Role::Handler | 0.206000
+Dancer2::Core::Role::HasLocation | 0.206000
+Dancer2::Core::Role::Hookable | 0.206000
+Dancer2::Core::Role::Logger | 0.206000
+Dancer2::Core::Role::Serializer | 0.206000
+Dancer2::Core::Role::SessionFactory | 0.206000
+Dancer2::Core::Role::SessionFactory::File | 0.206000
+Dancer2::Core::Role::StandardResponses | 0.206000
+Dancer2::Core::Role::Template | 0.206000
+Dancer2::Core::Route | 0.206000
+Dancer2::Core::Runner | 0.206000
+Dancer2::Core::Session | 0.206000
+Dancer2::Core::Time | 0.206000
+Dancer2::Core::Types | 0.206000
+Dancer2::FileUtils | 0.206000
+Dancer2::Handler::AutoPage | 0.206000
+Dancer2::Handler::File | 0.206000
+Dancer2::Logger::Capture | 0.206000
+Dancer2::Logger::Capture::Trap | 0.206000
+Dancer2::Logger::Console | 0.206000
+Dancer2::Logger::Diag | 0.206000
+Dancer2::Logger::File | 0.206000
+Dancer2::Logger::LogReport | 1.27
+Dancer2::Logger::Note | 0.206000
+Dancer2::Logger::Null | 0.206000
+Dancer2::Plugin | 0.206000
+Dancer2::Plugin::LogReport | 1.27
+Dancer2::Plugin::LogReport::Message | 1.27
+Dancer2::Serializer::Dumper | 0.206000
+Dancer2::Serializer::JSON | 0.206000
+Dancer2::Serializer::Mutable | 0.206000
+Dancer2::Serializer::YAML | 0.206000
+Dancer2::Session::Simple | 0.206000
+Dancer2::Session::YAML | 0.206000
+Dancer2::Template::Implementation::ForkedTiny | 0.206000
+Dancer2::Template::Simple | 0.206000
+Dancer2::Template::TemplateToolkit | 0.206000
+Dancer2::Template::Tiny | 0.206000
+Dancer2::Test | 0.206000
+Dancer::App | 1.3400
+Dancer::Config | 1.3400
+Dancer::Config::Object | 1.3400
+Dancer::Continuation | 1.3400
+Dancer::Continuation::Halted | 1.3400
+Dancer::Continuation::Route | 1.3400
+Dancer::Continuation::Route::ErrorSent | 1.3400
+Dancer::Continuation::Route::FileSent | 1.3400
+Dancer::Continuation::Route::Forwarded | 1.3400
+Dancer::Continuation::Route::Passed | 1.3400
+Dancer::Continuation::Route::Templated | 1.3400
+Dancer::Cookie | 1.3400
+Dancer::Cookies | 1.3400
+Dancer::Deprecation | 1.3400
+Dancer::Engine | 1.3400
+Dancer::Error | 1.3400
+Dancer::Exception | 1.3400
+Dancer::Exception::Base | 1.3400
+Dancer::Factory::Hook | 1.3400
+Dancer::FileUtils | 1.3400
+Dancer::GetOpt | 1.3400
+Dancer::Handler | 1.3400
+Dancer::Handler::Debug | 1.3400
+Dancer::Handler::PSGI | 1.3400
+Dancer::Handler::Standalone | 1.3400
+Dancer::Hook | 1.3400
+Dancer::Hook::Properties | 1.3400
+Dancer::HTTP | 1.3400
+Dancer::Logger | 1.3400
+Dancer::Logger::Abstract | 1.3400
+Dancer::Logger::Capture | 1.3400
+Dancer::Logger::Capture::Trap | 1.3400
+Dancer::Logger::Console | 1.3400
+Dancer::Logger::Diag | 1.3400
+Dancer::Logger::File | 1.3400
+Dancer::Logger::LogReport | 1.27
+Dancer::Logger::Note | 1.3400
+Dancer::Logger::Null | 1.3400
+Dancer::MIME | 1.3400
+Dancer::ModuleLoader | 1.3400
+Dancer::Object | 1.3400
+Dancer::Object::Singleton | 1.3400
+Dancer::Plugin | 1.3400
+Dancer::Plugin::Ajax | 1.3400
+Dancer::Renderer | 1.3400
+Dancer::Request | 1.3400
+Dancer::Request::Upload | 1.3400
+Dancer::Response | 1.3400
+Dancer::Route | 1.3400
+Dancer::Route::Cache | 1.3400
+Dancer::Route::Registry | 1.3400
+Dancer::Serializer | 1.3400
+Dancer::Serializer::Abstract | 1.3400
+Dancer::Serializer::Dumper | 1.3400
+Dancer::Serializer::JSON | 1.3400
+Dancer::Serializer::JSONP | 1.3400
+Dancer::Serializer::Mutable | 1.3400
+Dancer::Serializer::XML | 1.3400
+Dancer::Serializer::YAML | 1.3400
+Dancer::Session | 1.3400
+Dancer::Session::Abstract | 1.3400
+Dancer::Session::Simple | 1.3400
+Dancer::Session::YAML | 1.3400
+Dancer::SharedData | 1.3400
+Dancer::Template | 1.3400
+Dancer::Template::Abstract | 1.3400
+Dancer::Template::Simple | 1.3400
+Dancer::Template::TemplateToolkit | 1.3400
+Dancer::Test | 1.3400
+Dancer::Timer | 1.3400
+Data::Clone | 0.004
+Data::Compare | 1.25
+Data::Compare::Plugins::Scalar::Properties | 1
+Data::Dump | 1.23
+Data::Dump::FilterContext | unknown
+Data::Dump::Filtered | unknown
+Data::Dump::Streamer | 2.40
+Data::Dump::Streamer::_::StringPrinter | 0.1
+Data::Dump::Trace | 0.02
+Data::Dumper::Again | 0.01
+Data::Dumper::Concise | 2.023
+Data::Dumper::Concise::Sugar | 2.023
+Data::Dumper::Perltidy | 0.03
+Data::Grove | 0.08
+Data::Grove::Parent | 0.08
+Data::Grove::Visitor | 0.08
+Data::Munge | 0.097
+Data::OptList | 0.110
+Data::Page | 2.02
+Data::Paginator | 0.08
+Data::Paginator::Types | 0.08
+Data::Perl | 0.002009
+Data::Perl::Bool | 0.002009
+Data::Perl::Bool::MooseLike | 0.001008
+Data::Perl::Code | 0.002009
+Data::Perl::Collection::Array | 0.002009
+Data::Perl::Collection::Array::MooseLike | 0.001008
+Data::Perl::Collection::Hash | 0.002009
+Data::Perl::Collection::Hash::MooseLike | 0.001008
+Data::Perl::Counter | 0.002009
+Data::Perl::Number | 0.002009
+Data::Perl::Number::MooseLike | 0.001008
+Data::Perl::Role::Bool | 0.002009
+Data::Perl::Role::Code | 0.002009
+Data::Perl::Role::Collection::Array | 0.002009
+Data::Perl::Role::Collection::Hash | 0.002009
+Data::Perl::Role::Counter | 0.002009
+Data::Perl::Role::Number | 0.002009
+Data::Perl::Role::String | 0.002009
+Data::Perl::String | 0.002009
+Data::Perl::String::MooseLike | 0.001008
+Data::PowerSet | 0.05
+Data::Printer | 0.40
+Data::Printer::Filter | unknown
+Data::Printer::Filter::DateTime | unknown
+Data::Printer::Filter::DB | unknown
+Data::Printer::Filter::Digest | unknown
+Data::Section | 0.200007
+Data::Stag | 0.14
+Data::Stag::Arr2HTML | 0.14
+Data::Stag::Base | 0.14
+Data::Stag::BaseGenerator | unknown
+Data::Stag::ChainHandler | 0.14
+Data::Stag::DTDWriter | 0.14
+Data::Stag::GraphHandler | 0.14
+Data::Stag::HashDB | 0.14
+Data::Stag::IndentParser | 0.14
+Data::Stag::IndentWriter | 0.14
+Data::Stag::ITextParser | 0.14
+Data::Stag::ITextWriter | 0.14
+Data::Stag::JSONWriter | 0.14
+Data::Stag::null | 0.14
+Data::Stag::PerlWriter | 0.14
+Data::Stag::PodParser | 0.14
+Data::Stag::SAX2Stag | 0.14
+Data::Stag::Simple | 0.14
+Data::Stag::StagDB | 0.14
+Data::Stag::StagI | unknown
+Data::Stag::StagImpl | 0.14
+Data::Stag::SxprParser | 0.14
+Data::Stag::SxprWriter | 0.14
+Data::Stag::Util | 0.14
+Data::Stag::Writer | 0.14
+Data::Stag::XMLParser | 0.14
+Data::Stag::XMLWriter | 0.14
+Data::Stag::XSLHandler | unknown
+Data::Stag::XSLTHandler | unknown
+Data::UUID | 1.221
+Data::Validate::Domain | 0.14
+Data::Validate::IP | 0.27
+Data::Validate::URI | 0.07
+Data::Visitor | 0.30
+Data::Visitor::Callback | 0.30
+Date::Format | 2.24
+Date::Language | 1.10
+Date::Language::Afar | 0.99
+Date::Language::Amharic | 1.00
+Date::Language::Austrian | 1.01
+Date::Language::Brazilian | 1.01
+Date::Language::Bulgarian | 1.01
+Date::Language::Chinese | 1.00
+Date::Language::Chinese_GB | 1.01
+Date::Language::Czech | 1.01
+Date::Language::Danish | 1.01
+Date::Language::Dutch | 1.02
+Date::Language::English | 1.01
+Date::Language::Finnish | 1.01
+Date::Language::French | 1.04
+Date::Language::Gedeo | 0.99
+Date::Language::German | 1.02
+Date::Language::Greek | 1.00
+Date::Language::Hungarian | 1.01
+Date::Language::Icelandic | 1.01
+Date::Language::Italian | 1.01
+Date::Language::Norwegian | 1.01
+Date::Language::Oromo | 0.99
+Date::Language::Romanian | 1.01
+Date::Language::Russian | 1.01
+Date::Language::Russian_cp1251 | 1.01
+Date::Language::Russian_koi8r | 1.01
+Date::Language::Sidama | 0.99
+Date::Language::Somali | 0.99
+Date::Language::Spanish | 1.00
+Date::Language::Swedish | 1.01
+Date::Language::Tigrinya | 1.00
+Date::Language::TigrinyaEritrean | 1.00
+Date::Language::TigrinyaEthiopian | 1.00
+Date::Language::Turkish | 1.0
+Date::Parse | 2.30
+Date::Tiny | 1.07
+DateTime | 1.49
+DateTime::Astro | 1.03
+DateTime::Astro | unknown
+DateTime::Astro | unknown
+DateTime::Calendar::Chinese | 1.00
+DateTime::Calendar::Japanese::Era | 0.08003
+DateTime::Duration | 1.49
+DateTime::Event::Chinese | 1.00
+DateTime::Event::ICal | 0.13
+DateTime::Event::SolarTerm | unknown
+DateTime::Format::Builder | 0.81
+DateTime::Format::Builder::Parser | 0.81
+DateTime::Format::Builder::Parser::Dispatch | 0.81
+DateTime::Format::Builder::Parser::generic | 0.81
+DateTime::Format::Builder::Parser::Quick | 0.81
+DateTime::Format::Builder::Parser::Regex | 0.81
+DateTime::Format::Builder::Parser::Strptime | 0.81
+DateTime::Format::DateParse | 0.05
+DateTime::Format::Duration | 1.04
+DateTime::Format::Epoch | 0.16
+DateTime::Format::Epoch::ActiveDirectory | 0.13
+DateTime::Format::Epoch::DotNet | 0.13
+DateTime::Format::Epoch::JD | 0.13
+DateTime::Format::Epoch::Lilian | 0.13
+DateTime::Format::Epoch::MacOS | 0.13
+DateTime::Format::Epoch::MJD | 0.13
+DateTime::Format::Epoch::NTP | 0.14
+DateTime::Format::Epoch::RataDie | 0.13
+DateTime::Format::Epoch::RJD | 0.13
+DateTime::Format::Epoch::TAI64 | 0.13
+DateTime::Format::Epoch::TJD | 0.13
+DateTime::Format::Epoch::Unix | 0.13
+DateTime::Format::Flexible | 0.30
+DateTime::Format::Flexible::lang | unknown
+DateTime::Format::Flexible::lang::de | unknown
+DateTime::Format::Flexible::lang::en | unknown
+DateTime::Format::Flexible::lang::es | unknown
+DateTime::Format::ICal | 0.09
+DateTime::Format::Mail | 0.403
+DateTime::Format::Natural | 1.05
+DateTime::Format::Natural::Calc | 1.41
+DateTime::Format::Natural::Compat | 0.07
+DateTime::Format::Natural::Duration | 0.06
+DateTime::Format::Natural::Duration::Checks | 0.04
+DateTime::Format::Natural::Expand | 0.03
+DateTime::Format::Natural::Extract | 0.11
+DateTime::Format::Natural::Formatted | 0.07
+DateTime::Format::Natural::Helpers | 0.06
+DateTime::Format::Natural::Lang::Base | 1.08
+DateTime::Format::Natural::Lang::EN | 1.62
+DateTime::Format::Natural::Rewrite | 0.06
+DateTime::Format::Natural::Test | 0.10
+DateTime::Format::Natural::Utils | 0.05
+DateTime::Format::Natural::Wrappers | 0.03
+DateTime::Format::Strptime | 1.75
+DateTime::Format::Strptime::Types | 1.75
+DateTime::Format::W3CDTF | 0.07
+DateTime::Helpers | 1.49
+DateTime::Infinite | 1.49
+DateTime::LeapSecond | 1.49
+DateTime::Locale | 1.22
+DateTime::Locale::Base | 1.22
+DateTime::Locale::Catalog | 1.22
+DateTime::Locale::Data | 1.22
+DateTime::Locale::FromData | 1.22
+DateTime::Locale::Util | 1.22
+DateTime::PP | 1.49
+DateTime::PPExtra | 1.49
+DateTime::Set | 0.3900
+DateTime::Set::ICal | 0.19
+DateTime::Span | unknown
+DateTime::SpanSet | unknown
+DateTime::TimeZone | 2.19
+DateTime::TimeZone::Africa::Abidjan | 2.19
+DateTime::TimeZone::Africa::Accra | 2.19
+DateTime::TimeZone::Africa::Algiers | 2.19
+DateTime::TimeZone::Africa::Bissau | 2.19
+DateTime::TimeZone::Africa::Cairo | 2.19
+DateTime::TimeZone::Africa::Casablanca | 2.19
+DateTime::TimeZone::Africa::Ceuta | 2.19
+DateTime::TimeZone::Africa::El_Aaiun | 2.19
+DateTime::TimeZone::Africa::Johannesburg | 2.19
+DateTime::TimeZone::Africa::Juba | 2.19
+DateTime::TimeZone::Africa::Khartoum | 2.19
+DateTime::TimeZone::Africa::Lagos | 2.19
+DateTime::TimeZone::Africa::Maputo | 2.19
+DateTime::TimeZone::Africa::Monrovia | 2.19
+DateTime::TimeZone::Africa::Nairobi | 2.19
+DateTime::TimeZone::Africa::Ndjamena | 2.19
+DateTime::TimeZone::Africa::Sao_Tome | 2.19
+DateTime::TimeZone::Africa::Tripoli | 2.19
+DateTime::TimeZone::Africa::Tunis | 2.19
+DateTime::TimeZone::Africa::Windhoek | 2.19
+DateTime::TimeZone::America::Adak | 2.19
+DateTime::TimeZone::America::Anchorage | 2.19
+DateTime::TimeZone::America::Araguaina | 2.19
+DateTime::TimeZone::America::Argentina::Buenos_Aires | 2.19
+DateTime::TimeZone::America::Argentina::Catamarca | 2.19
+DateTime::TimeZone::America::Argentina::Cordoba | 2.19
+DateTime::TimeZone::America::Argentina::Jujuy | 2.19
+DateTime::TimeZone::America::Argentina::La_Rioja | 2.19
+DateTime::TimeZone::America::Argentina::Mendoza | 2.19
+DateTime::TimeZone::America::Argentina::Rio_Gallegos | 2.19
+DateTime::TimeZone::America::Argentina::Salta | 2.19
+DateTime::TimeZone::America::Argentina::San_Juan | 2.19
+DateTime::TimeZone::America::Argentina::San_Luis | 2.19
+DateTime::TimeZone::America::Argentina::Tucuman | 2.19
+DateTime::TimeZone::America::Argentina::Ushuaia | 2.19
+DateTime::TimeZone::America::Asuncion | 2.19
+DateTime::TimeZone::America::Atikokan | 2.19
+DateTime::TimeZone::America::Bahia | 2.19
+DateTime::TimeZone::America::Bahia_Banderas | 2.19
+DateTime::TimeZone::America::Barbados | 2.19
+DateTime::TimeZone::America::Belem | 2.19
+DateTime::TimeZone::America::Belize | 2.19
+DateTime::TimeZone::America::Blanc_Sablon | 2.19
+DateTime::TimeZone::America::Boa_Vista | 2.19
+DateTime::TimeZone::America::Bogota | 2.19
+DateTime::TimeZone::America::Boise | 2.19
+DateTime::TimeZone::America::Cambridge_Bay | 2.19
+DateTime::TimeZone::America::Campo_Grande | 2.19
+DateTime::TimeZone::America::Cancun | 2.19
+DateTime::TimeZone::America::Caracas | 2.19
+DateTime::TimeZone::America::Cayenne | 2.19
+DateTime::TimeZone::America::Chicago | 2.19
+DateTime::TimeZone::America::Chihuahua | 2.19
+DateTime::TimeZone::America::Costa_Rica | 2.19
+DateTime::TimeZone::America::Creston | 2.19
+DateTime::TimeZone::America::Cuiaba | 2.19
+DateTime::TimeZone::America::Curacao | 2.19
+DateTime::TimeZone::America::Danmarkshavn | 2.19
+DateTime::TimeZone::America::Dawson | 2.19
+DateTime::TimeZone::America::Dawson_Creek | 2.19
+DateTime::TimeZone::America::Denver | 2.19
+DateTime::TimeZone::America::Detroit | 2.19
+DateTime::TimeZone::America::Edmonton | 2.19
+DateTime::TimeZone::America::Eirunepe | 2.19
+DateTime::TimeZone::America::El_Salvador | 2.19
+DateTime::TimeZone::America::Fort_Nelson | 2.19
+DateTime::TimeZone::America::Fortaleza | 2.19
+DateTime::TimeZone::America::Glace_Bay | 2.19
+DateTime::TimeZone::America::Godthab | 2.19
+DateTime::TimeZone::America::Goose_Bay | 2.19
+DateTime::TimeZone::America::Grand_Turk | 2.19
+DateTime::TimeZone::America::Guatemala | 2.19
+DateTime::TimeZone::America::Guayaquil | 2.19
+DateTime::TimeZone::America::Guyana | 2.19
+DateTime::TimeZone::America::Halifax | 2.19
+DateTime::TimeZone::America::Havana | 2.19
+DateTime::TimeZone::America::Hermosillo | 2.19
+DateTime::TimeZone::America::Indiana::Indianapolis | 2.19
+DateTime::TimeZone::America::Indiana::Knox | 2.19
+DateTime::TimeZone::America::Indiana::Marengo | 2.19
+DateTime::TimeZone::America::Indiana::Petersburg | 2.19
+DateTime::TimeZone::America::Indiana::Tell_City | 2.19
+DateTime::TimeZone::America::Indiana::Vevay | 2.19
+DateTime::TimeZone::America::Indiana::Vincennes | 2.19
+DateTime::TimeZone::America::Indiana::Winamac | 2.19
+DateTime::TimeZone::America::Inuvik | 2.19
+DateTime::TimeZone::America::Iqaluit | 2.19
+DateTime::TimeZone::America::Jamaica | 2.19
+DateTime::TimeZone::America::Juneau | 2.19
+DateTime::TimeZone::America::Kentucky::Louisville | 2.19
+DateTime::TimeZone::America::Kentucky::Monticello | 2.19
+DateTime::TimeZone::America::La_Paz | 2.19
+DateTime::TimeZone::America::Lima | 2.19
+DateTime::TimeZone::America::Los_Angeles | 2.19
+DateTime::TimeZone::America::Maceio | 2.19
+DateTime::TimeZone::America::Managua | 2.19
+DateTime::TimeZone::America::Manaus | 2.19
+DateTime::TimeZone::America::Martinique | 2.19
+DateTime::TimeZone::America::Matamoros | 2.19
+DateTime::TimeZone::America::Mazatlan | 2.19
+DateTime::TimeZone::America::Menominee | 2.19
+DateTime::TimeZone::America::Merida | 2.19
+DateTime::TimeZone::America::Metlakatla | 2.19
+DateTime::TimeZone::America::Mexico_City | 2.19
+DateTime::TimeZone::America::Miquelon | 2.19
+DateTime::TimeZone::America::Moncton | 2.19
+DateTime::TimeZone::America::Monterrey | 2.19
+DateTime::TimeZone::America::Montevideo | 2.19
+DateTime::TimeZone::America::Nassau | 2.19
+DateTime::TimeZone::America::New_York | 2.19
+DateTime::TimeZone::America::Nipigon | 2.19
+DateTime::TimeZone::America::Nome | 2.19
+DateTime::TimeZone::America::Noronha | 2.19
+DateTime::TimeZone::America::North_Dakota::Beulah | 2.19
+DateTime::TimeZone::America::North_Dakota::Center | 2.19
+DateTime::TimeZone::America::North_Dakota::New_Salem | 2.19
+DateTime::TimeZone::America::Ojinaga | 2.19
+DateTime::TimeZone::America::Panama | 2.19
+DateTime::TimeZone::America::Pangnirtung | 2.19
+DateTime::TimeZone::America::Paramaribo | 2.19
+DateTime::TimeZone::America::Phoenix | 2.19
+DateTime::TimeZone::America::Port_au_Prince | 2.19
+DateTime::TimeZone::America::Port_of_Spain | 2.19
+DateTime::TimeZone::America::Porto_Velho | 2.19
+DateTime::TimeZone::America::Puerto_Rico | 2.19
+DateTime::TimeZone::America::Punta_Arenas | 2.19
+DateTime::TimeZone::America::Rainy_River | 2.19
+DateTime::TimeZone::America::Rankin_Inlet | 2.19
+DateTime::TimeZone::America::Recife | 2.19
+DateTime::TimeZone::America::Regina | 2.19
+DateTime::TimeZone::America::Resolute | 2.19
+DateTime::TimeZone::America::Rio_Branco | 2.19
+DateTime::TimeZone::America::Santarem | 2.19
+DateTime::TimeZone::America::Santiago | 2.19
+DateTime::TimeZone::America::Santo_Domingo | 2.19
+DateTime::TimeZone::America::Sao_Paulo | 2.19
+DateTime::TimeZone::America::Scoresbysund | 2.19
+DateTime::TimeZone::America::Sitka | 2.19
+DateTime::TimeZone::America::St_Johns | 2.19
+DateTime::TimeZone::America::Swift_Current | 2.19
+DateTime::TimeZone::America::Tegucigalpa | 2.19
+DateTime::TimeZone::America::Thule | 2.19
+DateTime::TimeZone::America::Thunder_Bay | 2.19
+DateTime::TimeZone::America::Tijuana | 2.19
+DateTime::TimeZone::America::Toronto | 2.19
+DateTime::TimeZone::America::Vancouver | 2.19
+DateTime::TimeZone::America::Whitehorse | 2.19
+DateTime::TimeZone::America::Winnipeg | 2.19
+DateTime::TimeZone::America::Yakutat | 2.19
+DateTime::TimeZone::America::Yellowknife | 2.19
+DateTime::TimeZone::Antarctica::Casey | 2.19
+DateTime::TimeZone::Antarctica::Davis | 2.19
+DateTime::TimeZone::Antarctica::DumontDUrville | 2.19
+DateTime::TimeZone::Antarctica::Macquarie | 2.19
+DateTime::TimeZone::Antarctica::Mawson | 2.19
+DateTime::TimeZone::Antarctica::Palmer | 2.19
+DateTime::TimeZone::Antarctica::Rothera | 2.19
+DateTime::TimeZone::Antarctica::Syowa | 2.19
+DateTime::TimeZone::Antarctica::Troll | 2.19
+DateTime::TimeZone::Antarctica::Vostok | 2.19
+DateTime::TimeZone::Asia::Almaty | 2.19
+DateTime::TimeZone::Asia::Amman | 2.19
+DateTime::TimeZone::Asia::Anadyr | 2.19
+DateTime::TimeZone::Asia::Aqtau | 2.19
+DateTime::TimeZone::Asia::Aqtobe | 2.19
+DateTime::TimeZone::Asia::Ashgabat | 2.19
+DateTime::TimeZone::Asia::Atyrau | 2.19
+DateTime::TimeZone::Asia::Baghdad | 2.19
+DateTime::TimeZone::Asia::Baku | 2.19
+DateTime::TimeZone::Asia::Bangkok | 2.19
+DateTime::TimeZone::Asia::Barnaul | 2.19
+DateTime::TimeZone::Asia::Beirut | 2.19
+DateTime::TimeZone::Asia::Bishkek | 2.19
+DateTime::TimeZone::Asia::Brunei | 2.19
+DateTime::TimeZone::Asia::Chita | 2.19
+DateTime::TimeZone::Asia::Choibalsan | 2.19
+DateTime::TimeZone::Asia::Colombo | 2.19
+DateTime::TimeZone::Asia::Damascus | 2.19
+DateTime::TimeZone::Asia::Dhaka | 2.19
+DateTime::TimeZone::Asia::Dili | 2.19
+DateTime::TimeZone::Asia::Dubai | 2.19
+DateTime::TimeZone::Asia::Dushanbe | 2.19
+DateTime::TimeZone::Asia::Famagusta | 2.19
+DateTime::TimeZone::Asia::Gaza | 2.19
+DateTime::TimeZone::Asia::Hebron | 2.19
+DateTime::TimeZone::Asia::Ho_Chi_Minh | 2.19
+DateTime::TimeZone::Asia::Hong_Kong | 2.19
+DateTime::TimeZone::Asia::Hovd | 2.19
+DateTime::TimeZone::Asia::Irkutsk | 2.19
+DateTime::TimeZone::Asia::Jakarta | 2.19
+DateTime::TimeZone::Asia::Jayapura | 2.19
+DateTime::TimeZone::Asia::Jerusalem | 2.19
+DateTime::TimeZone::Asia::Kabul | 2.19
+DateTime::TimeZone::Asia::Kamchatka | 2.19
+DateTime::TimeZone::Asia::Karachi | 2.19
+DateTime::TimeZone::Asia::Kathmandu | 2.19
+DateTime::TimeZone::Asia::Khandyga | 2.19
+DateTime::TimeZone::Asia::Kolkata | 2.19
+DateTime::TimeZone::Asia::Krasnoyarsk | 2.19
+DateTime::TimeZone::Asia::Kuala_Lumpur | 2.19
+DateTime::TimeZone::Asia::Kuching | 2.19
+DateTime::TimeZone::Asia::Macau | 2.19
+DateTime::TimeZone::Asia::Magadan | 2.19
+DateTime::TimeZone::Asia::Makassar | 2.19
+DateTime::TimeZone::Asia::Manila | 2.19
+DateTime::TimeZone::Asia::Nicosia | 2.19
+DateTime::TimeZone::Asia::Novokuznetsk | 2.19
+DateTime::TimeZone::Asia::Novosibirsk | 2.19
+DateTime::TimeZone::Asia::Omsk | 2.19
+DateTime::TimeZone::Asia::Oral | 2.19
+DateTime::TimeZone::Asia::Pontianak | 2.19
+DateTime::TimeZone::Asia::Pyongyang | 2.19
+DateTime::TimeZone::Asia::Qatar | 2.19
+DateTime::TimeZone::Asia::Qyzylorda | 2.19
+DateTime::TimeZone::Asia::Riyadh | 2.19
+DateTime::TimeZone::Asia::Sakhalin | 2.19
+DateTime::TimeZone::Asia::Samarkand | 2.19
+DateTime::TimeZone::Asia::Seoul | 2.19
+DateTime::TimeZone::Asia::Shanghai | 2.19
+DateTime::TimeZone::Asia::Singapore | 2.19
+DateTime::TimeZone::Asia::Srednekolymsk | 2.19
+DateTime::TimeZone::Asia::Taipei | 2.19
+DateTime::TimeZone::Asia::Tashkent | 2.19
+DateTime::TimeZone::Asia::Tbilisi | 2.19
+DateTime::TimeZone::Asia::Tehran | 2.19
+DateTime::TimeZone::Asia::Thimphu | 2.19
+DateTime::TimeZone::Asia::Tokyo | 2.19
+DateTime::TimeZone::Asia::Tomsk | 2.19
+DateTime::TimeZone::Asia::Ulaanbaatar | 2.19
+DateTime::TimeZone::Asia::Urumqi | 2.19
+DateTime::TimeZone::Asia::Ust_Nera | 2.19
+DateTime::TimeZone::Asia::Vladivostok | 2.19
+DateTime::TimeZone::Asia::Yakutsk | 2.19
+DateTime::TimeZone::Asia::Yangon | 2.19
+DateTime::TimeZone::Asia::Yekaterinburg | 2.19
+DateTime::TimeZone::Asia::Yerevan | 2.19
+DateTime::TimeZone::Atlantic::Azores | 2.19
+DateTime::TimeZone::Atlantic::Bermuda | 2.19
+DateTime::TimeZone::Atlantic::Canary | 2.19
+DateTime::TimeZone::Atlantic::Cape_Verde | 2.19
+DateTime::TimeZone::Atlantic::Faroe | 2.19
+DateTime::TimeZone::Atlantic::Madeira | 2.19
+DateTime::TimeZone::Atlantic::Reykjavik | 2.19
+DateTime::TimeZone::Atlantic::South_Georgia | 2.19
+DateTime::TimeZone::Atlantic::Stanley | 2.19
+DateTime::TimeZone::Australia::Adelaide | 2.19
+DateTime::TimeZone::Australia::Brisbane | 2.19
+DateTime::TimeZone::Australia::Broken_Hill | 2.19
+DateTime::TimeZone::Australia::Currie | 2.19
+DateTime::TimeZone::Australia::Darwin | 2.19
+DateTime::TimeZone::Australia::Eucla | 2.19
+DateTime::TimeZone::Australia::Hobart | 2.19
+DateTime::TimeZone::Australia::Lindeman | 2.19
+DateTime::TimeZone::Australia::Lord_Howe | 2.19
+DateTime::TimeZone::Australia::Melbourne | 2.19
+DateTime::TimeZone::Australia::Perth | 2.19
+DateTime::TimeZone::Australia::Sydney | 2.19
+DateTime::TimeZone::Catalog | 2.19
+DateTime::TimeZone::CET | 2.19
+DateTime::TimeZone::CST6CDT | 2.19
+DateTime::TimeZone::EET | 2.19
+DateTime::TimeZone::EST | 2.19
+DateTime::TimeZone::EST5EDT | 2.19
+DateTime::TimeZone::Europe::Amsterdam | 2.19
+DateTime::TimeZone::Europe::Andorra | 2.19
+DateTime::TimeZone::Europe::Astrakhan | 2.19
+DateTime::TimeZone::Europe::Athens | 2.19
+DateTime::TimeZone::Europe::Belgrade | 2.19
+DateTime::TimeZone::Europe::Berlin | 2.19
+DateTime::TimeZone::Europe::Brussels | 2.19
+DateTime::TimeZone::Europe::Bucharest | 2.19
+DateTime::TimeZone::Europe::Budapest | 2.19
+DateTime::TimeZone::Europe::Chisinau | 2.19
+DateTime::TimeZone::Europe::Copenhagen | 2.19
+DateTime::TimeZone::Europe::Dublin | 2.19
+DateTime::TimeZone::Europe::Gibraltar | 2.19
+DateTime::TimeZone::Europe::Helsinki | 2.19
+DateTime::TimeZone::Europe::Istanbul | 2.19
+DateTime::TimeZone::Europe::Kaliningrad | 2.19
+DateTime::TimeZone::Europe::Kiev | 2.19
+DateTime::TimeZone::Europe::Kirov | 2.19
+DateTime::TimeZone::Europe::Lisbon | 2.19
+DateTime::TimeZone::Europe::London | 2.19
+DateTime::TimeZone::Europe::Luxembourg | 2.19
+DateTime::TimeZone::Europe::Madrid | 2.19
+DateTime::TimeZone::Europe::Malta | 2.19
+DateTime::TimeZone::Europe::Minsk | 2.19
+DateTime::TimeZone::Europe::Monaco | 2.19
+DateTime::TimeZone::Europe::Moscow | 2.19
+DateTime::TimeZone::Europe::Oslo | 2.19
+DateTime::TimeZone::Europe::Paris | 2.19
+DateTime::TimeZone::Europe::Prague | 2.19
+DateTime::TimeZone::Europe::Riga | 2.19
+DateTime::TimeZone::Europe::Rome | 2.19
+DateTime::TimeZone::Europe::Samara | 2.19
+DateTime::TimeZone::Europe::Saratov | 2.19
+DateTime::TimeZone::Europe::Simferopol | 2.19
+DateTime::TimeZone::Europe::Sofia | 2.19
+DateTime::TimeZone::Europe::Stockholm | 2.19
+DateTime::TimeZone::Europe::Tallinn | 2.19
+DateTime::TimeZone::Europe::Tirane | 2.19
+DateTime::TimeZone::Europe::Ulyanovsk | 2.19
+DateTime::TimeZone::Europe::Uzhgorod | 2.19
+DateTime::TimeZone::Europe::Vienna | 2.19
+DateTime::TimeZone::Europe::Vilnius | 2.19
+DateTime::TimeZone::Europe::Volgograd | 2.19
+DateTime::TimeZone::Europe::Warsaw | 2.19
+DateTime::TimeZone::Europe::Zaporozhye | 2.19
+DateTime::TimeZone::Europe::Zurich | 2.19
+DateTime::TimeZone::Floating | 2.19
+DateTime::TimeZone::HST | 2.19
+DateTime::TimeZone::Indian::Chagos | 2.19
+DateTime::TimeZone::Indian::Christmas | 2.19
+DateTime::TimeZone::Indian::Cocos | 2.19
+DateTime::TimeZone::Indian::Kerguelen | 2.19
+DateTime::TimeZone::Indian::Mahe | 2.19
+DateTime::TimeZone::Indian::Maldives | 2.19
+DateTime::TimeZone::Indian::Mauritius | 2.19
+DateTime::TimeZone::Indian::Reunion | 2.19
+DateTime::TimeZone::Local | 2.19
+DateTime::TimeZone::Local::Android | 2.19
+DateTime::TimeZone::Local::Unix | 2.19
+DateTime::TimeZone::Local::VMS | 2.19
+DateTime::TimeZone::MET | 2.19
+DateTime::TimeZone::MST | 2.19
+DateTime::TimeZone::MST7MDT | 2.19
+DateTime::TimeZone::OffsetOnly | 2.19
+DateTime::TimeZone::OlsonDB | 2.19
+DateTime::TimeZone::OlsonDB::Change | 2.19
+DateTime::TimeZone::OlsonDB::Observance | 2.19
+DateTime::TimeZone::OlsonDB::Rule | 2.19
+DateTime::TimeZone::OlsonDB::Zone | 2.19
+DateTime::TimeZone::Pacific::Apia | 2.19
+DateTime::TimeZone::Pacific::Auckland | 2.19
+DateTime::TimeZone::Pacific::Bougainville | 2.19
+DateTime::TimeZone::Pacific::Chatham | 2.19
+DateTime::TimeZone::Pacific::Chuuk | 2.19
+DateTime::TimeZone::Pacific::Easter | 2.19
+DateTime::TimeZone::Pacific::Efate | 2.19
+DateTime::TimeZone::Pacific::Enderbury | 2.19
+DateTime::TimeZone::Pacific::Fakaofo | 2.19
+DateTime::TimeZone::Pacific::Fiji | 2.19
+DateTime::TimeZone::Pacific::Funafuti | 2.19
+DateTime::TimeZone::Pacific::Galapagos | 2.19
+DateTime::TimeZone::Pacific::Gambier | 2.19
+DateTime::TimeZone::Pacific::Guadalcanal | 2.19
+DateTime::TimeZone::Pacific::Guam | 2.19
+DateTime::TimeZone::Pacific::Honolulu | 2.19
+DateTime::TimeZone::Pacific::Kiritimati | 2.19
+DateTime::TimeZone::Pacific::Kosrae | 2.19
+DateTime::TimeZone::Pacific::Kwajalein | 2.19
+DateTime::TimeZone::Pacific::Majuro | 2.19
+DateTime::TimeZone::Pacific::Marquesas | 2.19
+DateTime::TimeZone::Pacific::Nauru | 2.19
+DateTime::TimeZone::Pacific::Niue | 2.19
+DateTime::TimeZone::Pacific::Norfolk | 2.19
+DateTime::TimeZone::Pacific::Noumea | 2.19
+DateTime::TimeZone::Pacific::Pago_Pago | 2.19
+DateTime::TimeZone::Pacific::Palau | 2.19
+DateTime::TimeZone::Pacific::Pitcairn | 2.19
+DateTime::TimeZone::Pacific::Pohnpei | 2.19
+DateTime::TimeZone::Pacific::Port_Moresby | 2.19
+DateTime::TimeZone::Pacific::Rarotonga | 2.19
+DateTime::TimeZone::Pacific::Tahiti | 2.19
+DateTime::TimeZone::Pacific::Tarawa | 2.19
+DateTime::TimeZone::Pacific::Tongatapu | 2.19
+DateTime::TimeZone::Pacific::Wake | 2.19
+DateTime::TimeZone::Pacific::Wallis | 2.19
+DateTime::TimeZone::PST8PDT | 2.19
+DateTime::TimeZone::UTC | 2.19
+DateTime::TimeZone::WET | 2.19
+DateTime::Tiny | 1.07
+DateTime::Types | 1.49
+DateTimeX::Easy | 0.089
+DB | unknown
+DBD::DBM | 0.08
+DBD::ExampleP | 12.014311
+DBD::File | 0.44
+DBD::Gofer | 0.015327
+DBD::Gofer::Policy::Base | 0.010088
+DBD::Gofer::Policy::classic | 0.010088
+DBD::Gofer::Policy::pedantic | 0.010088
+DBD::Gofer::Policy::rush | 0.010088
+DBD::Gofer::Transport::Base | 0.014121
+DBD::Gofer::Transport::corostream | unknown
+DBD::Gofer::Transport::null | 0.010088
+DBD::Gofer::Transport::pipeone | 0.010088
+DBD::Gofer::Transport::stream | 0.014599
+DBD::Mem | 0.001
+DBD::mysql | 4.046
+DBD::mysql::GetInfo | unknown
+DBD::NullP | 12.014715
+DBD::Proxy | 0.2004
+DBD::Sponge | 12.010003
+DBD::SQLite | 1.58
+DBD::SQLite::Constants | unknown
+DBD::SQLite::VirtualTable | 1.58
+DBD::SQLite::VirtualTable::FileContent | unknown
+DBD::SQLite::VirtualTable::PerlData | unknown
+DBI | unknown
+DBI::Const::GetInfo::ANSI | 2.008697
+DBI::Const::GetInfo::ODBC | 2.011374
+DBI::Const::GetInfoReturn | 2.008697
+DBI::Const::GetInfoType | 2.008697
+DBI::DBD | 12.015129
+DBI::DBD::Metadata | 2.014214
+DBI::DBD::SqlEngine | 0.06
+DBI::FAQ | 1.014935
+DBI::Gofer::Execute | 0.014283
+DBI::Gofer::Request | 0.012537
+DBI::Gofer::Response | 0.011566
+DBI::Gofer::Serializer::Base | 0.009950
+DBI::Gofer::Serializer::DataDumper | 0.009950
+DBI::Gofer::Serializer::Storable | 0.015586
+DBI::Gofer::Transport::Base | 0.012537
+DBI::Gofer::Transport::pipeone | 0.012537
+DBI::Gofer::Transport::stream | 0.012537
+DBI::Profile | 2.015065
+DBI::ProfileData | 2.010008
+DBI::ProfileDumper | 2.015325
+DBI::ProfileDumper::Apache | 2.014121
+DBI::ProfileSubs | 0.009396
+DBI::ProxyServer | 0.3005
+DBI::SQL::Nano | 1.015544
+DBI::Util::_accessor | 0.009479
+DBI::Util::CacheMemory | 0.010315
+DBIx::Class | 0.082841
+DBIx::Class::AccessorGroup | unknown
+DBIx::Class::Admin | unknown
+DBIx::Class::CDBICompat | unknown
+DBIx::Class::CDBICompat::Iterator | unknown
+DBIx::Class::CDBICompat::SQLTransformer | unknown
+DBIx::Class::CDBICompat::Tied::ColumnValue | unknown
+DBIx::Class::Core | unknown
+DBIx::Class::Cursor | unknown
+DBIx::Class::Cursor::Cached | 1.001004
+DBIx::Class::DB | unknown
+DBIx::Class::Exception | unknown
+DBIx::Class::FilterColumn | unknown
+DBIx::Class::InflateColumn | unknown
+DBIx::Class::InflateColumn::DateTime | unknown
+DBIx::Class::InflateColumn::File | unknown
+DBIx::Class::Optional::Dependencies | unknown
+DBIx::Class::Ordered | unknown
+DBIx::Class::PK | unknown
+DBIx::Class::PK::Auto | unknown
+DBIx::Class::Relationship | unknown
+DBIx::Class::Relationship::Base | unknown
+DBIx::Class::ResultClass::HashRefInflator | unknown
+DBIx::Class::ResultSet | unknown
+DBIx::Class::ResultSetColumn | unknown
+DBIx::Class::ResultSetManager | unknown
+DBIx::Class::ResultSource | unknown
+DBIx::Class::ResultSource::Table | unknown
+DBIx::Class::ResultSource::View | unknown
+DBIx::Class::ResultSourceHandle | unknown
+DBIx::Class::ResultSourceProxy::Table | unknown
+DBIx::Class::Row | unknown
+DBIx::Class::Schema | unknown
+DBIx::Class::Schema::Loader | 0.07049
+DBIx::Class::Schema::Loader::Base | 0.07049
+DBIx::Class::Schema::Loader::Column | unknown
+DBIx::Class::Schema::Loader::DBI | 0.07049
+DBIx::Class::Schema::Loader::DBI::ADO | 0.07049
+DBIx::Class::Schema::Loader::DBI::ADO::Microsoft_SQL_Server | 0.07049
+DBIx::Class::Schema::Loader::DBI::ADO::MS_Jet | 0.07049
+DBIx::Class::Schema::Loader::DBI::Component::QuotedDefault | 0.07049
+DBIx::Class::Schema::Loader::DBI::DB2 | 0.07049
+DBIx::Class::Schema::Loader::DBI::Firebird | 0.07049
+DBIx::Class::Schema::Loader::DBI::Informix | 0.07049
+DBIx::Class::Schema::Loader::DBI::InterBase | 0.07049
+DBIx::Class::Schema::Loader::DBI::MSSQL | 0.07049
+DBIx::Class::Schema::Loader::DBI::mysql | 0.07049
+DBIx::Class::Schema::Loader::DBI::ODBC | 0.07049
+DBIx::Class::Schema::Loader::DBI::ODBC::ACCESS | 0.07049
+DBIx::Class::Schema::Loader::DBI::ODBC::Firebird | 0.07049
+DBIx::Class::Schema::Loader::DBI::ODBC::Microsoft_SQL_Server | 0.07049
+DBIx::Class::Schema::Loader::DBI::ODBC::SQL_Anywhere | 0.07049
+DBIx::Class::Schema::Loader::DBI::Oracle | 0.07049
+DBIx::Class::Schema::Loader::DBI::Pg | 0.07049
+DBIx::Class::Schema::Loader::DBI::SQLAnywhere | 0.07049
+DBIx::Class::Schema::Loader::DBI::SQLite | 0.07049
+DBIx::Class::Schema::Loader::DBI::Sybase | 0.07049
+DBIx::Class::Schema::Loader::DBI::Sybase::Common | 0.07049
+DBIx::Class::Schema::Loader::DBI::Sybase::Microsoft_SQL_Server | 0.07049
+DBIx::Class::Schema::Loader::DBI::Writing | 0.07049
+DBIx::Class::Schema::Loader::DBObject | unknown
+DBIx::Class::Schema::Loader::DBObject::Informix | unknown
+DBIx::Class::Schema::Loader::DBObject::Sybase | unknown
+DBIx::Class::Schema::Loader::Optional::Dependencies | unknown
+DBIx::Class::Schema::Loader::RelBuilder | 0.07049
+DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_040 | 0.07049
+DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_05 | 0.07049
+DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_06 | 0.07049
+DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_07 | 0.07049
+DBIx::Class::Schema::Loader::Table | unknown
+DBIx::Class::Schema::Loader::Table::Informix | unknown
+DBIx::Class::Schema::Loader::Table::Sybase | unknown
+DBIx::Class::Serialize::Storable | unknown
+DBIx::Class::SQLMaker | unknown
+DBIx::Class::SQLMaker::LimitDialects | unknown
+DBIx::Class::SQLMaker::OracleJoins | unknown
+DBIx::Class::StartupCheck | unknown
+DBIx::Class::Storage | unknown
+DBIx::Class::Storage::DBI | unknown
+DBIx::Class::Storage::DBI::ACCESS | unknown
+DBIx::Class::Storage::DBI::ADO | unknown
+DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server | unknown
+DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server::Cursor | unknown
+DBIx::Class::Storage::DBI::ADO::MS_Jet | unknown
+DBIx::Class::Storage::DBI::ADO::MS_Jet::Cursor | unknown
+DBIx::Class::Storage::DBI::AutoCast | unknown
+DBIx::Class::Storage::DBI::Cursor | unknown
+DBIx::Class::Storage::DBI::DB2 | unknown
+DBIx::Class::Storage::DBI::Firebird | unknown
+DBIx::Class::Storage::DBI::Firebird::Common | unknown
+DBIx::Class::Storage::DBI::IdentityInsert | unknown
+DBIx::Class::Storage::DBI::Informix | unknown
+DBIx::Class::Storage::DBI::InterBase | unknown
+DBIx::Class::Storage::DBI::MSSQL | unknown
+DBIx::Class::Storage::DBI::mysql | unknown
+DBIx::Class::Storage::DBI::NoBindVars | unknown
+DBIx::Class::Storage::DBI::ODBC | unknown
+DBIx::Class::Storage::DBI::ODBC::ACCESS | unknown
+DBIx::Class::Storage::DBI::ODBC::DB2_400_SQL | unknown
+DBIx::Class::Storage::DBI::ODBC::Firebird | unknown
+DBIx::Class::Storage::DBI::ODBC::Microsoft_SQL_Server | unknown
+DBIx::Class::Storage::DBI::ODBC::SQL_Anywhere | unknown
+DBIx::Class::Storage::DBI::Oracle | unknown
+DBIx::Class::Storage::DBI::Oracle::Generic | unknown
+DBIx::Class::Storage::DBI::Oracle::WhereJoins | unknown
+DBIx::Class::Storage::DBI::Pg | unknown
+DBIx::Class::Storage::DBI::Replicated | unknown
+DBIx::Class::Storage::DBI::Replicated::Balancer | unknown
+DBIx::Class::Storage::DBI::Replicated::Balancer::First | unknown
+DBIx::Class::Storage::DBI::Replicated::Balancer::Random | unknown
+DBIx::Class::Storage::DBI::Replicated::Pool | unknown
+DBIx::Class::Storage::DBI::Replicated::Replicant | unknown
+DBIx::Class::Storage::DBI::Replicated::WithDSN | unknown
+DBIx::Class::Storage::DBI::SQLAnywhere | unknown
+DBIx::Class::Storage::DBI::SQLAnywhere::Cursor | unknown
+DBIx::Class::Storage::DBI::SQLite | unknown
+DBIx::Class::Storage::DBI::Sybase | unknown
+DBIx::Class::Storage::DBI::Sybase::ASE | unknown
+DBIx::Class::Storage::DBI::Sybase::ASE::NoBindVars | unknown
+DBIx::Class::Storage::DBI::Sybase::FreeTDS | unknown
+DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server | unknown
+DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server::NoBindVars | unknown
+DBIx::Class::Storage::DBI::Sybase::MSSQL | unknown
+DBIx::Class::Storage::DBI::UniqueIdentifier | unknown
+DBIx::Class::Storage::Debug::PrettyPrint | unknown
+DBIx::Class::Storage::Statistics | unknown
+DBIx::Class::Storage::TxnScopeGuard | unknown
+DBIx::Class::UTF8Columns | unknown
+DBIx::Connector | 0.56
+DBIx::Connector::Driver | 0.56
+DBIx::Connector::Driver::Firebird | 0.56
+DBIx::Connector::Driver::MSSQL | 0.56
+DBIx::Connector::Driver::mysql | 0.56
+DBIx::Connector::Driver::Oracle | 0.56
+DBIx::Connector::Driver::Pg | 0.56
+DBIx::Connector::Driver::SQLite | 0.56
+DDP | unknown
+Declare::Constraints::Simple | 0.03
+Declare::Constraints::Simple::Library | unknown
+Declare::Constraints::Simple::Library::Array | unknown
+Declare::Constraints::Simple::Library::Base | unknown
+Declare::Constraints::Simple::Library::Exportable | unknown
+Declare::Constraints::Simple::Library::General | unknown
+Declare::Constraints::Simple::Library::Hash | unknown
+Declare::Constraints::Simple::Library::Numerical | unknown
+Declare::Constraints::Simple::Library::OO | unknown
+Declare::Constraints::Simple::Library::Operators | unknown
+Declare::Constraints::Simple::Library::Referencial | unknown
+Declare::Constraints::Simple::Library::Scalar | unknown
+Declare::Constraints::Simple::Result | unknown
+Devel::AssertC99 | unknown
+Devel::AssertOS | 1.21
+Devel::AssertOS::AIX | 1.2
+Devel::AssertOS::Amiga | 1.2
+Devel::AssertOS::Android | 1.2
+Devel::AssertOS::Apple | 1.3
+Devel::AssertOS::BeOS | 1.4
+Devel::AssertOS::Bitrig | 1.0
+Devel::AssertOS::BSDOS | 1.2
+Devel::AssertOS::Cygwin | 1.3
+Devel::AssertOS::DEC | 1.4
+Devel::AssertOS::DGUX | 1.2
+Devel::AssertOS::DragonflyBSD | 1.2
+Devel::AssertOS::Dynix | 1.2
+Devel::AssertOS::EBCDIC | 1.0
+Devel::AssertOS::FreeBSD | 1.2
+Devel::AssertOS::GNUkFreeBSD | 1.1
+Devel::AssertOS::Haiku | 1.1
+Devel::AssertOS::HPUX | 1.2
+Devel::AssertOS::Hurd | 1.0
+Devel::AssertOS::Interix | 1.2
+Devel::AssertOS::iOS | 1.0
+Devel::AssertOS::Irix | 1.2
+Devel::AssertOS::Linux | 1.3
+Devel::AssertOS::Linux::Debian | 1.0
+Devel::AssertOS::Linux::v2_6 | 1.3
+Devel::AssertOS::MachTen | 1.2
+Devel::AssertOS::MacOSclassic | 1.2
+Devel::AssertOS::MacOSX | 1.2
+Devel::AssertOS::MacOSX::v10_0 | 1.0
+Devel::AssertOS::MacOSX::v10_1 | 1.0
+Devel::AssertOS::MacOSX::v10_10 | 1.0
+Devel::AssertOS::MacOSX::v10_11 | 1.0
+Devel::AssertOS::MacOSX::v10_12 | 1.0
+Devel::AssertOS::MacOSX::v10_2 | 1.0
+Devel::AssertOS::MacOSX::v10_3 | 1.0
+Devel::AssertOS::MacOSX::v10_4 | 1.4
+Devel::AssertOS::MacOSX::v10_5 | 1.0
+Devel::AssertOS::MacOSX::v10_6 | 1.0
+Devel::AssertOS::MacOSX::v10_7 | 1.0
+Devel::AssertOS::MacOSX::v10_8 | 1.0
+Devel::AssertOS::MacOSX::v10_9 | 1.0
+Devel::AssertOS::MicrosoftWindows | 1.3
+Devel::AssertOS::MidnightBSD | 1.1
+Devel::AssertOS::Minix | 1.0
+Devel::AssertOS::MirOSBSD | 1.2
+Devel::AssertOS::MPEiX | 1.2
+Devel::AssertOS::MSDOS | 1.2
+Devel::AssertOS::MSWin32 | 1.3
+Devel::AssertOS::NetBSD | 1.2
+Devel::AssertOS::Netware | 1.2
+Devel::AssertOS::NeXT | 1.2
+Devel::AssertOS::OpenBSD | 1.2
+Devel::AssertOS::OS2 | 1.1
+Devel::AssertOS::OS390 | 1.2
+Devel::AssertOS::OS400 | 1.2
+Devel::AssertOS::OSF | 1.2
+Devel::AssertOS::OSFeatures::POSIXShellRedirection | 1.4
+Devel::AssertOS::POSIXBC | 1.2
+Devel::AssertOS::QNX | 1.2
+Devel::AssertOS::QNX::Neutrino | 1.1
+Devel::AssertOS::QNX::v4 | 1.1
+Devel::AssertOS::Realtime | 1.2
+Devel::AssertOS::RISCOS | 1.2
+Devel::AssertOS::SCO | 1.2
+Devel::AssertOS::Solaris | 1.2
+Devel::AssertOS::Sun | 1.3
+Devel::AssertOS::SunOS | 1.2
+Devel::AssertOS::SysVr4 | 1.2
+Devel::AssertOS::SysVr5 | 1.2
+Devel::AssertOS::Unicos | 1.2
+Devel::AssertOS::Unix | 1.6
+Devel::AssertOS::VMESA | 1.2
+Devel::AssertOS::VMS | 1.2
+Devel::AssertOS::VOS | 1.2
+Devel::Caller | 2.06
+Devel::CheckBin | 0.04
+Devel::CheckCompiler | 0.07
+Devel::CheckLib | 1.13
+Devel::CheckOS | 1.81
+Devel::Confess | 0.009004
+Devel::Confess::_Util | unknown
+Devel::Confess::Builtin | 0.009004
+Devel::Confess::Source | unknown
+Devel::Cover | 1.30
+Devel::Cover::Annotation::Git | 1.30
+Devel::Cover::Annotation::Random | 1.30
+Devel::Cover::Annotation::Svk | 1.30
+Devel::Cover::Branch | 1.30
+Devel::Cover::Collection | 1.30
+Devel::Cover::Condition | 1.30
+Devel::Cover::Condition_and_2 | 1.30
+Devel::Cover::Condition_and_3 | 1.30
+Devel::Cover::Condition_or_2 | 1.30
+Devel::Cover::Condition_or_3 | 1.30
+Devel::Cover::Condition_xor_4 | 1.30
+Devel::Cover::Criterion | 1.30
+Devel::Cover::DB | 1.30
+Devel::Cover::DB::Criterion | 1.30
+Devel::Cover::DB::Digests | 1.30
+Devel::Cover::DB::File | 1.30
+Devel::Cover::DB::IO | 1.30
+Devel::Cover::DB::IO::Base | 1.30
+Devel::Cover::DB::IO::JSON | 1.30
+Devel::Cover::DB::IO::Sereal | 1.30
+Devel::Cover::DB::IO::Storable | 1.30
+Devel::Cover::DB::Structure | 1.30
+Devel::Cover::Html_Common | 1.30
+Devel::Cover::Inc | 1.30
+Devel::Cover::Op | 1.30
+Devel::Cover::Pod | 1.30
+Devel::Cover::Report::Compilation | 1.30
+Devel::Cover::Report::Html | 1.30
+Devel::Cover::Report::Html_basic | 1.30
+Devel::Cover::Report::Html_minimal | 1.30
+Devel::Cover::Report::Html_subtle | 1.30
+Devel::Cover::Report::Json | 1.30
+Devel::Cover::Report::Sort | 1.30
+Devel::Cover::Report::Text | 1.30
+Devel::Cover::Report::Text2 | 1.30
+Devel::Cover::Report::Vim | 1.30
+Devel::Cover::Statement | 1.30
+Devel::Cover::Subroutine | 1.30
+Devel::Cover::Test | 1.30
+Devel::Cover::Time | 1.30
+Devel::Cover::Util | 1.30
+Devel::Cover::Web | 1.30
+Devel::Cycle | 1.12
+Devel::Declare | 0.006019
+Devel::Declare::Context::Simple | 0.006019
+Devel::Declare::MethodInstaller::Simple | 0.006019
+Devel::Dwarn | unknown
+Devel::FindPerl | 0.014
+Devel::GlobalDestruction | 0.14
+Devel::GlobalPhase | 0.003003
+Devel::GraphVizProf | 2.24
+Devel::Hide | 0.0010
+Devel::InnerPackage | 0.4
+Devel::Leak | 0.03
+Devel::LexAlias | 0.05
+Devel::MAT | 0.36
+Devel::MAT::Context | 0.36
+Devel::MAT::Dumper | 0.36
+Devel::MAT::Dumpfile | 0.36
+Devel::MAT::Graph | 0.36
+Devel::MAT::InternalTools | 0.36
+Devel::MAT::SV | 0.36
+Devel::MAT::Tool | 0.36
+Devel::MAT::Tool::Callstack | 0.36
+Devel::MAT::Tool::Count | 0.36
+Devel::MAT::Tool::Find | 0.36
+Devel::MAT::Tool::Identify | 0.36
+Devel::MAT::Tool::Inrefs | 0.36
+Devel::MAT::Tool::IO | 0.36
+Devel::MAT::Tool::Outrefs | 0.36
+Devel::MAT::Tool::Reachability | 0.36
+Devel::MAT::Tool::Roots | 0.36
+Devel::MAT::Tool::Show | 0.36
+Devel::MAT::Tool::Sizes | 0.36
+Devel::MAT::Tool::Symbols | 0.36
+Devel::NYTProf | 6.06
+Devel::NYTProf::Apache | 4.00
+Devel::NYTProf::Constants | unknown
+Devel::NYTProf::Core | 6.06
+Devel::NYTProf::Data | 4.02
+Devel::NYTProf::FileHandle | unknown
+Devel::NYTProf::FileInfo | unknown
+Devel::NYTProf::Reader | 4.06
+Devel::NYTProf::ReadStream | 4.00
+Devel::NYTProf::Run | unknown
+Devel::NYTProf::SubCallInfo | unknown
+Devel::NYTProf::SubInfo | unknown
+Devel::NYTProf::Util | 4.00
+Devel::OverloadInfo | 0.005
+Devel::PartialDump | 0.20
+Devel::PatchPerl | 1.52
+Devel::PatchPerl::Hints | 1.52
+Devel::PatchPerl::Plugin | 1.52
+Devel::REPL | 1.003028
+Devel::REPL::Error | 1.003028
+Devel::REPL::Meta::Plugin | 1.003028
+Devel::REPL::Plugin | 1.003028
+Devel::REPL::Plugin::B::Concise | 1.003028
+Devel::REPL::Plugin::Carp::REPL | 0.18
+Devel::REPL::Plugin::Colors | 1.003028
+Devel::REPL::Plugin::Commands | 1.003028
+Devel::REPL::Plugin::Completion | 1.003028
+Devel::REPL::Plugin::CompletionDriver::Globals | 1.003028
+Devel::REPL::Plugin::CompletionDriver::INC | 1.003028
+Devel::REPL::Plugin::CompletionDriver::Keywords | 1.003028
+Devel::REPL::Plugin::CompletionDriver::LexEnv | 1.003028
+Devel::REPL::Plugin::CompletionDriver::Methods | 1.003028
+Devel::REPL::Plugin::CompletionDriver::Turtles | 1.003028
+Devel::REPL::Plugin::DDC | 1.003028
+Devel::REPL::Plugin::DDS | 1.003028
+Devel::REPL::Plugin::DumpHistory | 1.003028
+Devel::REPL::Plugin::FancyPrompt | 1.003028
+Devel::REPL::Plugin::FindVariable | 1.003028
+Devel::REPL::Plugin::History | 1.003028
+Devel::REPL::Plugin::Interrupt | 1.003028
+Devel::REPL::Plugin::LexEnv | 1.003028
+Devel::REPL::Plugin::MultiLine::PPI | 1.003028
+Devel::REPL::Plugin::Nopaste | 1.003028
+Devel::REPL::Plugin::OutputCache | 1.003028
+Devel::REPL::Plugin::Packages | 1.003028
+Devel::REPL::Plugin::Peek | 1.003028
+Devel::REPL::Plugin::PPI | 1.003028
+Devel::REPL::Plugin::ReadLineHistory | 1.003028
+Devel::REPL::Plugin::Refresh | 1.003028
+Devel::REPL::Plugin::Selenium | 1.36
+Devel::REPL::Plugin::ShowClass | 1.003028
+Devel::REPL::Plugin::Timing | 1.003028
+Devel::REPL::Plugin::Turtles | 1.003028
+Devel::REPL::Profile | 1.003028
+Devel::REPL::Profile::Default | 1.003028
+Devel::REPL::Profile::Minimal | 1.003028
+Devel::REPL::Profile::Standard | 1.003028
+Devel::REPL::Script | 1.003028
+Devel::StackTrace | 2.03
+Devel::StackTrace::AsHTML | 0.15
+Devel::StackTrace::Frame | 2.03
+Devel::StackTrace::WithLexicals | 2.01
+Devel::StackTrace::WithLexicals::Frame | unknown
+Devel::Symdump | 2.18
+Devel::Symdump::Export | unknown
+Devel::TypeTiny::Perl56Compat | 1.002002
+Devel::TypeTiny::Perl58Compat | 1.002002
+Digest::HMAC | 1.03
+Digest::HMAC_MD5 | 1.01
+Digest::HMAC_SHA1 | 1.03
+Digest::JHash | 0.10
+Digest::Perl::MD5 | 1.9
+Digest::SHA1 | 2.13
+Dist::CheckConflicts | 0.11
+Dist::Metadata | 0.927
+Dist::Metadata::Archive | 0.927
+Dist::Metadata::Dir | 0.927
+Dist::Metadata::Dist | 0.927
+Dist::Metadata::Struct | 0.927
+Dist::Metadata::Tar | 0.927
+Dist::Metadata::Zip | 0.927
+Dist::Zilla::PluginBundle::Example | unknown
+Email::Abstract | 3.008
+Email::Abstract::EmailMIME | 3.008
+Email::Abstract::EmailSimple | 3.008
+Email::Abstract::MailInternet | 3.008
+Email::Abstract::MailMessage | 3.008
+Email::Abstract::MIMEEntity | 3.008
+Email::Abstract::Plugin | 3.008
+Email::Address | 1.909
+Email::Address::XS | 1.04
+Email::Date::Format | 1.005
+Email::MessageID | 1.406
+Email::MIME | 1.946
+Email::MIME::ContentType | 1.022
+Email::MIME::Creator | 1.946
+Email::MIME::Encode | 1.946
+Email::MIME::Encodings | 1.315
+Email::MIME::Header | 1.946
+Email::MIME::Header::AddressList | 1.946
+Email::MIME::Kit | 3.000006
+Email::MIME::Kit::Assembler::Standard | 3.000006
+Email::MIME::Kit::KitReader::Dir | 3.000006
+Email::MIME::Kit::ManifestReader::JSON | 3.000006
+Email::MIME::Kit::ManifestReader::YAML | 3.000006
+Email::MIME::Kit::Renderer::TestRenderer | 3.000006
+Email::MIME::Kit::Role::Assembler | 3.000006
+Email::MIME::Kit::Role::Component | 3.000006
+Email::MIME::Kit::Role::KitReader | 3.000006
+Email::MIME::Kit::Role::ManifestDesugarer | 3.000006
+Email::MIME::Kit::Role::ManifestReader | 3.000006
+Email::MIME::Kit::Role::Renderer | 3.000006
+Email::MIME::Kit::Role::Validator | 3.000006
+Email::MIME::Modifier | 1.946
+Email::Sender | 1.300031
+Email::Sender::Failure | 1.300031
+Email::Sender::Failure::Multi | 1.300031
+Email::Sender::Failure::Permanent | 1.300031
+Email::Sender::Failure::Temporary | 1.300031
+Email::Sender::Manual | 1.300031
+Email::Sender::Manual::QuickStart | 1.300031
+Email::Sender::Role::CommonSending | 1.300031
+Email::Sender::Role::HasMessage | 1.300031
+Email::Sender::Simple | 1.300031
+Email::Sender::Success | 1.300031
+Email::Sender::Success::Partial | 1.300031
+Email::Sender::Transport | 1.300031
+Email::Sender::Transport::DevNull | 1.300031
+Email::Sender::Transport::Failable | 1.300031
+Email::Sender::Transport::Maildir | 1.300031
+Email::Sender::Transport::Mbox | 1.300031
+Email::Sender::Transport::Print | 1.300031
+Email::Sender::Transport::Sendmail | 1.300031
+Email::Sender::Transport::SMTP | 1.300031
+Email::Sender::Transport::SMTP::Persistent | 1.300031
+Email::Sender::Transport::Test | 1.300031
+Email::Sender::Transport::Wrapper | 1.300031
+Email::Sender::Util | 1.300031
+Email::Simple | 2.216
+Email::Simple::Creator | 2.216
+Email::Simple::Header | 2.216
+Email::Valid | 1.202
+Encode | 2.98
+Encode::Alias | 2.24
+Encode::Byte | 2.04
+Encode::CJKConstants | 2.02
+Encode::CN | 2.03
+Encode::CN::HZ | 2.10
+Encode::Config | 2.05
+Encode::ConfigLocal | 1532079134
+Encode::EBCDIC | 2.02
+Encode::Encoder | 2.03
+Encode::Encoding | 2.08
+Encode::GSM0338 | 2.07
+Encode::Guess | 2.07
+Encode::JP | 2.04
+Encode::JP::H2Z | 2.02
+Encode::JP::JIS7 | 2.08
+Encode::KR | 2.03
+Encode::KR::2022_KR | 2.04
+Encode::Locale | 1.05
+Encode::MIME::Header | 2.28
+Encode::MIME::Header::ISO_2022_JP | 1.09
+Encode::MIME::Name | 1.03
+Encode::Symbol | 2.02
+Encode::TW | 2.03
+Encode::Unicode | 2.17
+Encode::Unicode::UTF7 | 2.10
+encoding | 2.22
+Env::Path | 0.19
+Error | 0.17026
+Error::Simple | 0.17026
+Error::TypeTiny | 1.002002
+Error::TypeTiny::Assertion | 1.002002
+Error::TypeTiny::Compilation | 1.002002
+Error::TypeTiny::WrongNumberOfParameters | 1.002002
+Eval::Closure | 0.14
+Eval::TypeTiny | 1.002002
+Eval::WithLexicals | 1.003006
+Eval::WithLexicals::WithHintPersistence | 1.003006
+Excel::Writer::XLSX | 0.98
+Excel::Writer::XLSX::Chart | 0.98
+Excel::Writer::XLSX::Chart::Area | 0.98
+Excel::Writer::XLSX::Chart::Bar | 0.98
+Excel::Writer::XLSX::Chart::Column | 0.98
+Excel::Writer::XLSX::Chart::Doughnut | 0.98
+Excel::Writer::XLSX::Chart::Line | 0.98
+Excel::Writer::XLSX::Chart::Pie | 0.98
+Excel::Writer::XLSX::Chart::Radar | 0.98
+Excel::Writer::XLSX::Chart::Scatter | 0.98
+Excel::Writer::XLSX::Chart::Stock | 0.98
+Excel::Writer::XLSX::Chartsheet | 0.98
+Excel::Writer::XLSX::Drawing | 0.98
+Excel::Writer::XLSX::Examples | 0.98
+Excel::Writer::XLSX::Format | 0.98
+Excel::Writer::XLSX::Package::App | 0.98
+Excel::Writer::XLSX::Package::Comments | 0.98
+Excel::Writer::XLSX::Package::ContentTypes | 0.98
+Excel::Writer::XLSX::Package::Core | 0.98
+Excel::Writer::XLSX::Package::Custom | 0.98
+Excel::Writer::XLSX::Package::Packager | 0.98
+Excel::Writer::XLSX::Package::Relationships | 0.98
+Excel::Writer::XLSX::Package::SharedStrings | 0.98
+Excel::Writer::XLSX::Package::Styles | 0.98
+Excel::Writer::XLSX::Package::Table | 0.98
+Excel::Writer::XLSX::Package::Theme | 0.98
+Excel::Writer::XLSX::Package::VML | 0.98
+Excel::Writer::XLSX::Package::XMLwriter | 0.98
+Excel::Writer::XLSX::Shape | 0.98
+Excel::Writer::XLSX::Utility | 0.98
+Excel::Writer::XLSX::Workbook | 0.98
+Excel::Writer::XLSX::Worksheet | 0.98
+Exception::Assertion | 0.0504
+Exception::Base | 0.2501
+Exception::Class | 1.44
+Exception::Class::Base | 1.44
+Expect | 1.35
+Expect::Simple | 0.04
+Exporter::Declare | 0.114
+Exporter::Declare::Export | unknown
+Exporter::Declare::Export::Alias | unknown
+Exporter::Declare::Export::Generator | unknown
+Exporter::Declare::Export::Sub | unknown
+Exporter::Declare::Export::Variable | unknown
+Exporter::Declare::Meta | unknown
+Exporter::Declare::Specs | unknown
+Exporter::Lite | 0.08
+Exporter::Shiny | 1.002001
+Exporter::Tidy | 0.08
+Exporter::Tiny | 1.002001
+ExtUtils::CChecker | 0.10
+ExtUtils::Config | 0.008
+ExtUtils::CppGuess | 0.12
+ExtUtils::Depends | 0.405
+ExtUtils::Helpers | 0.026
+ExtUtils::Helpers::Unix | 0.026
+ExtUtils::Helpers::VMS | 0.026
+ExtUtils::Helpers::Windows | 0.026
+ExtUtils::InstallPaths | 0.012
+ExtUtils::MakeMaker::CPANfile | 0.08
+ExtUtils::Manifest | 1.71
+ExtUtils::PkgConfig | 1.16
+FAlite | unknown
+FCGI | 0.78
+FCGI::ProcManager | 0.28
+FCGI::ProcManager::Constrained | unknown
+Fennec::Lite | 0.004
+Fh | 4.38
+File::ChangeNotify | 0.28
+File::ChangeNotify::Event | 0.28
+File::ChangeNotify::Watcher | 0.28
+File::ChangeNotify::Watcher::Default | 0.28
+File::ChangeNotify::Watcher::Inotify | 0.28
+File::ChangeNotify::Watcher::KQueue | 0.28
+File::Copy::Link | 0.06
+File::Copy::Recursive | 0.44
+File::Copy::Recursive::Reduced | 0.006
+File::Find::Rule | 0.34
+File::Grep | 0.02
+File::HomeDir | 1.004
+File::HomeDir::Darwin | 1.004
+File::HomeDir::Darwin::Carbon | 1.004
+File::HomeDir::Darwin::Cocoa | 1.004
+File::HomeDir::Driver | 1.004
+File::HomeDir::FreeDesktop | 1.004
+File::HomeDir::MacOS9 | 1.004
+File::HomeDir::Test | 1.004
+File::HomeDir::Unix | 1.004
+File::HomeDir::Windows | 1.004
+File::Listing | 6.04
+File::Map | 0.65
+File::Next | 1.16
+File::NFSLock | 1.27
+File::Path | 2.15
+File::pushd | 1.016
+File::Remove | 1.57
+File::Share | 0.25
+File::ShareDir | 1.116
+File::ShareDir::Install | 0.13
+File::Slurp | 9999.19
+File::Slurp::Tiny | 0.004
+File::Slurper | 0.012
+File::Spec | 3.74
+File::Spec::AmigaOS | 3.74
+File::Spec::Cygwin | 3.74
+File::Spec::Epoc | 3.74
+File::Spec::Functions | 3.74
+File::Spec::Link | 0.073
+File::Spec::Mac | 3.74
+File::Spec::Native | 1.004
+File::Spec::OS2 | 3.74
+File::Spec::Unix | 3.74
+File::Spec::VMS | 3.74
+File::Spec::Win32 | 3.74
+File::Temp | 0.2308
+File::Which | 1.22
+Filesys::Notify::Simple | 0.13
+Font::TTF | 1.06
+Font::TTF::AATKern | unknown
+Font::TTF::AATutils | unknown
+Font::TTF::Anchor | unknown
+Font::TTF::Bsln | unknown
+Font::TTF::Cmap | unknown
+Font::TTF::Coverage | unknown
+Font::TTF::Cvt_ | 0.0001
+Font::TTF::Delta | unknown
+Font::TTF::DSIG | unknown
+Font::TTF::Dumper | unknown
+Font::TTF::EBDT | unknown
+Font::TTF::EBLC | unknown
+Font::TTF::Fdsc | unknown
+Font::TTF::Feat | unknown
+Font::TTF::Features::Cvar | unknown
+Font::TTF::Features::Size | unknown
+Font::TTF::Features::Sset | unknown
+Font::TTF::Fmtx | unknown
+Font::TTF::Font | 0.39
+Font::TTF::Fpgm | 0.0001
+Font::TTF::GDEF | unknown
+Font::TTF::Glat | unknown
+Font::TTF::Gloc | unknown
+Font::TTF::Glyf | unknown
+Font::TTF::Glyph | unknown
+Font::TTF::GPOS | unknown
+Font::TTF::GrFeat | unknown
+Font::TTF::GSUB | unknown
+Font::TTF::Hdmx | unknown
+Font::TTF::Head | unknown
+Font::TTF::Hhea | unknown
+Font::TTF::Hmtx | unknown
+Font::TTF::Kern | unknown
+Font::TTF::Kern::ClassArray | unknown
+Font::TTF::Kern::CompactClassArray | unknown
+Font::TTF::Kern::OrderedList | unknown
+Font::TTF::Kern::StateTable | unknown
+Font::TTF::Kern::Subtable | unknown
+Font::TTF::Loca | unknown
+Font::TTF::LTSH | unknown
+Font::TTF::Maxp | unknown
+Font::TTF::Mort | unknown
+Font::TTF::Mort::Chain | unknown
+Font::TTF::Mort::Contextual | unknown
+Font::TTF::Mort::Insertion | unknown
+Font::TTF::Mort::Ligature | unknown
+Font::TTF::Mort::Noncontextual | unknown
+Font::TTF::Mort::Rearrangement | unknown
+Font::TTF::Mort::Subtable | unknown
+Font::TTF::Name | 1.1
+Font::TTF::OldCmap | unknown
+Font::TTF::OldMort | unknown
+Font::TTF::OS_2 | unknown
+Font::TTF::OTTags | unknown
+Font::TTF::PCLT | unknown
+Font::TTF::Post | 0.01
+Font::TTF::Prep | 0.0001
+Font::TTF::Prop | unknown
+Font::TTF::PSNames | unknown
+Font::TTF::Segarr | 0.0001
+Font::TTF::Silf | unknown
+Font::TTF::Sill | unknown
+Font::TTF::Table | 0.0001
+Font::TTF::Ttc | 0.0001
+Font::TTF::Ttopen | unknown
+Font::TTF::Utils | 0.0001
+Font::TTF::Vhea | unknown
+Font::TTF::Vmtx | unknown
+Font::TTF::Win32 | unknown
+Font::TTF::Woff | unknown
+Font::TTF::Woff::MetaData | unknown
+Font::TTF::Woff::PrivateData | unknown
+Font::TTF::XMLparse | unknown
+forks | 0.36
+forks::shared | 0.36
+Future | 0.38
+Future::Mutex | 0.38
+Future::Utils | 0.38
+GD | 2.68
+GD::Graph | 1.54
+GD::Graph::area | unknown
+GD::Graph::axestype | unknown
+GD::Graph::bars | unknown
+GD::Graph::colour | unknown
+GD::Graph::Data | unknown
+GD::Graph::Error | unknown
+GD::Graph::hbars | unknown
+GD::Graph::lines | unknown
+GD::Graph::linespoints | unknown
+GD::Graph::mixed | unknown
+GD::Graph::pie | unknown
+GD::Graph::points | unknown
+GD::Graph::utils | unknown
+GD::Group | 1
+GD::Image | 2.67
+GD::Polygon | unknown
+GD::Polyline | 0.2
+GD::Simple | unknown
+GD::SVG | 0.33
+GD::Text | 0.86
+GD::Text::Align | unknown
+GD::Text::Wrap | unknown
+Getopt::Long::Descriptive | 0.102
+Getopt::Long::Descriptive::Opts | 0.102
+Getopt::Long::Descriptive::Usage | 0.102
+Graph | 0.9704
+Graph::AdjacencyMap | unknown
+Graph::AdjacencyMap::Heavy | unknown
+Graph::AdjacencyMap::Light | unknown
+Graph::AdjacencyMap::Vertex | unknown
+Graph::AdjacencyMatrix | unknown
+Graph::Attribute | unknown
+Graph::BitMatrix | unknown
+Graph::Directed | unknown
+Graph::Matrix | unknown
+Graph::MSTHeapElem | unknown
+Graph::Reader | 2.09
+Graph::Reader::Dot | 2.09
+Graph::Reader::HTK | 2.09
+Graph::Reader::XML | 2.09
+Graph::ReadWrite | 2.09
+Graph::SPTHeapElem | unknown
+Graph::TransitiveClosure | unknown
+Graph::TransitiveClosure::Matrix | unknown
+Graph::Traversal | unknown
+Graph::Traversal::BFS | unknown
+Graph::Traversal::DFS | unknown
+Graph::Undirected | unknown
+Graph::UnionFind | unknown
+Graph::Writer | 2.09
+Graph::Writer::daVinci | 2.09
+Graph::Writer::Dot | 2.09
+Graph::Writer::HTK | 2.09
+Graph::Writer::VCG | 2.09
+Graph::Writer::XML | 2.09
+GraphViz | 2.24
+GraphViz::Data::Grapher | 2.24
+GraphViz::No | 2.24
+GraphViz::Parse::RecDescent | 2.24
+GraphViz::Parse::Yacc | 2.24
+GraphViz::Parse::Yapp | 2.24
+GraphViz::Regex | 2.24
+GraphViz::Small | 2.24
+GraphViz::XML | 2.24
+Hash::AutoHash | 1.17
+Hash::AutoHash::Args | 1.18
+Hash::AutoHash::Args::V0 | 1.18
+Hash::Merge | 0.300
+Hash::Merge::Simple | 0.051
+Hash::MoreUtils | 0.06
+Hash::MultiValue | 0.16
+Hash::Util::FieldHash::Compat | 0.11
+Hash::Util::FieldHash::Compat::Heavy | 0.11
+Heap071::Elem | unknown
+Heap071::Fibonacci | unknown
+Hook::LexWrap | 0.26
+HPC::Runner | 2.48
+HPC::Runner::Scheduler | 0.09
+HPC::Runner::Slurm | 2.58
+HTML::AsSubs | 5.07
+HTML::Element | 5.07
+HTML::Element::traverse | 5.07
+HTML::Entities | 3.69
+HTML::Filter | 3.72
+HTML::Form | 6.03
+HTML::FormHandler | 0.40068
+HTML::FormHandler::Base | 0.40068
+HTML::FormHandler::Blocks | 0.40068
+HTML::FormHandler::BuildFields | 0.40068
+HTML::FormHandler::BuildPages | 0.40068
+HTML::FormHandler::Field | 0.40068
+HTML::FormHandler::Field::AddElement | 0.40068
+HTML::FormHandler::Field::Boolean | 0.40068
+HTML::FormHandler::Field::BoolSelect | 0.40068
+HTML::FormHandler::Field::Button | 0.40068
+HTML::FormHandler::Field::Captcha | 0.40068
+HTML::FormHandler::Field::Checkbox | 0.40068
+HTML::FormHandler::Field::Compound | 0.40068
+HTML::FormHandler::Field::Date | 0.40068
+HTML::FormHandler::Field::DateMDY | 0.40068
+HTML::FormHandler::Field::DateTime | 0.40068
+HTML::FormHandler::Field::Display | 0.40068
+HTML::FormHandler::Field::Duration | 0.40068
+HTML::FormHandler::Field::Email | 0.40068
+HTML::FormHandler::Field::File | 0.40068
+HTML::FormHandler::Field::Float | 0.40068
+HTML::FormHandler::Field::Hidden | 0.40068
+HTML::FormHandler::Field::Hour | 0.40068
+HTML::FormHandler::Field::Integer | 0.40068
+HTML::FormHandler::Field::IntRange | 0.40068
+HTML::FormHandler::Field::Minute | 0.40068
+HTML::FormHandler::Field::Money | 0.40068
+HTML::FormHandler::Field::Month | 0.40068
+HTML::FormHandler::Field::MonthDay | 0.40068
+HTML::FormHandler::Field::MonthName | 0.40068
+HTML::FormHandler::Field::Multiple | 0.40068
+HTML::FormHandler::Field::Nested | 0.40068
+HTML::FormHandler::Field::NonEditable | 0.40068
+HTML::FormHandler::Field::NoValue | 0.40068
+HTML::FormHandler::Field::Password | 0.40068
+HTML::FormHandler::Field::PasswordConf | 0.40068
+HTML::FormHandler::Field::PosInteger | 0.40068
+HTML::FormHandler::Field::PrimaryKey | 0.40068
+HTML::FormHandler::Field::Repeatable | 0.40068
+HTML::FormHandler::Field::RequestToken | 0.40068
+HTML::FormHandler::Field::Reset | 0.40068
+HTML::FormHandler::Field::Result | 0.40068
+HTML::FormHandler::Field::RmElement | 0.40068
+HTML::FormHandler::Field::Role::RequestToken | 0.40068
+HTML::FormHandler::Field::Second | 0.40068
+HTML::FormHandler::Field::Select | 0.40068
+HTML::FormHandler::Field::SelectCSV | 0.40068
+HTML::FormHandler::Field::Submit | 0.40068
+HTML::FormHandler::Field::Text | 0.40068
+HTML::FormHandler::Field::TextArea | 0.40068
+HTML::FormHandler::Field::TextCSV | 0.40068
+HTML::FormHandler::Field::Upload | 0.40068
+HTML::FormHandler::Field::Weekday | 0.40068
+HTML::FormHandler::Field::Year | 0.40068
+HTML::FormHandler::Fields | 0.40068
+HTML::FormHandler::Foo | 0.40068
+HTML::FormHandler::I18N | 0.40068
+HTML::FormHandler::I18N::ar_kw | 0.40068
+HTML::FormHandler::I18N::bg_bg | 0.40068
+HTML::FormHandler::I18N::ca_es | 0.40068
+HTML::FormHandler::I18N::cs_cz | 0.40068
+HTML::FormHandler::I18N::de_de | 0.40068
+HTML::FormHandler::I18N::en_us | 0.40068
+HTML::FormHandler::I18N::es_es | 0.40068
+HTML::FormHandler::I18N::hu_hu | 0.40068
+HTML::FormHandler::I18N::it_it | 0.40068
+HTML::FormHandler::I18N::ja_jp | 0.40068
+HTML::FormHandler::I18N::pt_br | 0.40068
+HTML::FormHandler::I18N::ru_ru | 0.40068
+HTML::FormHandler::I18N::sv_se | 0.40068
+HTML::FormHandler::I18N::tr_tr | 0.40068
+HTML::FormHandler::I18N::ua_ua | 0.40068
+HTML::FormHandler::InitResult | 0.40068
+HTML::FormHandler::Merge | 0.40068
+HTML::FormHandler::Model | 0.40068
+HTML::FormHandler::Model::Object | 0.40068
+HTML::FormHandler::Moose | 0.40068
+HTML::FormHandler::Moose::Role | 0.40068
+HTML::FormHandler::Page | 0.40068
+HTML::FormHandler::Page::Simple | 0.40068
+HTML::FormHandler::Pages | 0.40068
+HTML::FormHandler::Render::RepeatableJs | 0.40068
+HTML::FormHandler::Render::Simple | 0.40068
+HTML::FormHandler::Render::Table | 0.40068
+HTML::FormHandler::Render::Util | 0.40068
+HTML::FormHandler::Render::WithTT | 0.40068
+HTML::FormHandler::Result | 0.40068
+HTML::FormHandler::Result::Role | 0.40068
+HTML::FormHandler::Test | 0.40068
+HTML::FormHandler::TraitFor::Captcha | 0.40068
+HTML::FormHandler::TraitFor::I18N | 0.40068
+HTML::FormHandler::TraitFor::Types | 0.40068
+HTML::FormHandler::Traits | 0.40068
+HTML::FormHandler::Types | 0.40068
+HTML::FormHandler::Validate | 0.40068
+HTML::FormHandler::Widget::ApplyRole | 0.40068
+HTML::FormHandler::Widget::Block | 0.40068
+HTML::FormHandler::Widget::Block::Bootstrap | 0.40068
+HTML::FormHandler::Widget::Field::Button | 0.40068
+HTML::FormHandler::Widget::Field::ButtonTag | 0.40068
+HTML::FormHandler::Widget::Field::Captcha | 0.40068
+HTML::FormHandler::Widget::Field::Checkbox | 0.40068
+HTML::FormHandler::Widget::Field::CheckboxGroup | 0.40068
+HTML::FormHandler::Widget::Field::Compound | 0.40068
+HTML::FormHandler::Widget::Field::Hidden | 0.40068
+HTML::FormHandler::Widget::Field::HorizCheckboxGroup | 0.40068
+HTML::FormHandler::Widget::Field::NoRender | 0.40068
+HTML::FormHandler::Widget::Field::Password | 0.40068
+HTML::FormHandler::Widget::Field::RadioGroup | 0.40068
+HTML::FormHandler::Widget::Field::Repeatable | 0.40068
+HTML::FormHandler::Widget::Field::Reset | 0.40068
+HTML::FormHandler::Widget::Field::Role::HTMLAttributes | 0.40068
+HTML::FormHandler::Widget::Field::Role::SelectedOption | 0.40068
+HTML::FormHandler::Widget::Field::Select | 0.40068
+HTML::FormHandler::Widget::Field::Span | 0.40068
+HTML::FormHandler::Widget::Field::Submit | 0.40068
+HTML::FormHandler::Widget::Field::Text | 0.40068
+HTML::FormHandler::Widget::Field::Textarea | 0.40068
+HTML::FormHandler::Widget::Field::Upload | 0.40068
+HTML::FormHandler::Widget::Form::Role::HTMLAttributes | 0.40068
+HTML::FormHandler::Widget::Form::Simple | 0.40068
+HTML::FormHandler::Widget::Form::Table | 0.40068
+HTML::FormHandler::Widget::Theme::Bootstrap | 0.40068
+HTML::FormHandler::Widget::Theme::Bootstrap3 | 0.40068
+HTML::FormHandler::Widget::Theme::BootstrapFormMessages | 0.40068
+HTML::FormHandler::Widget::Wrapper::Base | 0.40068
+HTML::FormHandler::Widget::Wrapper::Bootstrap | 0.40068
+HTML::FormHandler::Widget::Wrapper::Bootstrap3 | 0.40068
+HTML::FormHandler::Widget::Wrapper::Fieldset | 0.40068
+HTML::FormHandler::Widget::Wrapper::None | 0.40068
+HTML::FormHandler::Widget::Wrapper::Simple | 0.40068
+HTML::FormHandler::Widget::Wrapper::SimpleInline | 0.40068
+HTML::FormHandler::Widget::Wrapper::Table | 0.40068
+HTML::FormHandler::Widget::Wrapper::TableInline | 0.40068
+HTML::FormHandler::Wizard | 0.40068
+HTML::HeadParser | 3.71
+HTML::LinkExtor | 3.69
+HTML::Parse | 5.07
+HTML::Parser | 3.72
+HTML::Perlinfo | 1.69
+HTML::Perlinfo::Apache | unknown
+HTML::Perlinfo::Base | unknown
+HTML::Perlinfo::Common | unknown
+HTML::Perlinfo::General | unknown
+HTML::Perlinfo::Loaded | 1.02
+HTML::Perlinfo::Modules | 1.19
+HTML::PullParser | 3.57
+HTML::TableExtract | 2.15
+HTML::Tagset | 3.20
+HTML::TokeParser | 3.69
+HTML::Tree | 5.07
+HTML::TreeBuilder | 5.07
+HTTP::Body | 1.22
+HTTP::Body::MultiPart | 1.22
+HTTP::Body::OctetStream | 1.22
+HTTP::Body::UrlEncoded | 1.22
+HTTP::Body::XForms | 1.22
+HTTP::Body::XFormsMultipart | 1.22
+HTTP::Config | 6.18
+HTTP::CookieJar | 0.008
+HTTP::CookieJar::LWP | 0.008
+HTTP::Cookies | 6.04
+HTTP::Cookies::Microsoft | 6.04
+HTTP::Cookies::Netscape | 6.04
+HTTP::Daemon | 6.01
+HTTP::Date | 6.02
+HTTP::Entity::Parser | 0.21
+HTTP::Entity::Parser::JSON | unknown
+HTTP::Entity::Parser::MultiPart | unknown
+HTTP::Entity::Parser::OctetStream | unknown
+HTTP::Entity::Parser::UrlEncoded | unknown
+HTTP::Headers | 6.18
+HTTP::Headers::Auth | 6.18
+HTTP::Headers::ETag | 6.18
+HTTP::Headers::Fast | 0.21
+HTTP::Headers::Util | 6.18
+HTTP::Message | 6.18
+HTTP::Message::PSGI | unknown
+HTTP::MultiPartParser | 0.02
+HTTP::Negotiate | 6.01
+HTTP::Parser::XS | 0.17
+HTTP::Parser::XS::PP | unknown
+HTTP::Request | 6.18
+HTTP::Request::AsCGI | 1.2
+HTTP::Request::Common | 6.18
+HTTP::Response | 6.18
+HTTP::Server::PSGI | unknown
+HTTP::Server::PSGI::Net::Server::PreFork | unknown
+HTTP::Server::Simple | 0.52
+HTTP::Server::Simple::CGI | unknown
+HTTP::Server::Simple::CGI::Environment | unknown
+HTTP::Server::Simple::PSGI | 0.16
+HTTP::Status | 6.18
+HTTP::Thin | 0.006
+HTTP::Tinyish | 0.14
+HTTP::Tinyish::Base | unknown
+HTTP::Tinyish::Curl | unknown
+HTTP::Tinyish::HTTPTiny | unknown
+HTTP::Tinyish::LWP | unknown
+HTTP::Tinyish::Wget | unknown
+HTTP::XSCookies | 0.000021
+Image::PNG | 0.23
+Image::PNG::Const | 0.45
+Image::PNG::Container | 0.23
+Image::PNG::Libpng | 0.45
+Image::PNG::Util | unknown
+Import::Into | 1.002005
+Importer | 0.025
+inc::Module::Install | 1.19
+inc::Module::Install::DSL | 1.19
+indirect | 0.38
+Inline | 0.80
+Inline::C | 0.78
+Inline::C::Parser | unknown
+Inline::C::Parser::Pegex | unknown
+Inline::C::Parser::Pegex::AST | unknown
+Inline::C::Parser::Pegex::Grammar | unknown
+Inline::C::Parser::RecDescent | unknown
+Inline::C::Parser::RegExp | unknown
+Inline::denter | unknown
+Inline::Foo | 0.80
+Inline::MakeMaker | 0.80
+Inline::MakePdlppInstallable | unknown
+Inline::Pdlpp | 0.4
+IO::All | 0.87
+IO::All::Base | unknown
+IO::All::DBM | unknown
+IO::All::Dir | unknown
+IO::All::File | unknown
+IO::All::Filesys | unknown
+IO::All::Link | unknown
+IO::All::MLDBM | unknown
+IO::All::Pipe | unknown
+IO::All::Socket | unknown
+IO::All::STDIO | unknown
+IO::All::String | unknown
+IO::All::Temp | unknown
+IO::Async | 0.72
+IO::Async::Channel | 0.72
+IO::Async::Debug | 0.72
+IO::Async::File | 0.72
+IO::Async::FileStream | 0.72
+IO::Async::Function | 0.72
+IO::Async::Future | 0.72
+IO::Async::Handle | 0.72
+IO::Async::Internals::ChildManager | 0.72
+IO::Async::Listener | 0.72
+IO::Async::Loop | 0.72
+IO::Async::Loop::Poll | 0.72
+IO::Async::Loop::Select | 0.72
+IO::Async::LoopTests | 0.72
+IO::Async::Notifier | 0.72
+IO::Async::OS | 0.72
+IO::Async::OS::cygwin | 0.72
+IO::Async::OS::linux | 0.72
+IO::Async::OS::MSWin32 | 0.72
+IO::Async::PID | 0.72
+IO::Async::Process | 0.72
+IO::Async::Protocol | 0.72
+IO::Async::Protocol::LineStream | 0.72
+IO::Async::Protocol::Stream | 0.72
+IO::Async::Resolver | 0.72
+IO::Async::Routine | 0.72
+IO::Async::Signal | 0.72
+IO::Async::Socket | 0.72
+IO::Async::Stream | 0.72
+IO::Async::Test | 0.72
+IO::Async::Timer | 0.72
+IO::Async::Timer::Absolute | 0.72
+IO::Async::Timer::Countdown | 0.72
+IO::Async::Timer::Periodic | 0.72
+IO::AtomicFile | 2.111
+IO::CaptureOutput | 1.1104
+IO::HTML | 1.001
+IO::InnerFile | 2.111
+IO::Interactive | 1.022
+IO::Lines | 2.111
+IO::Pipely | 0.005
+IO::Prompt | 0.997004
+IO::Pty | 1.12
+IO::Scalar | 2.111
+IO::ScalarArray | 2.111
+IO::SessionData | 1.03
+IO::SessionSet | unknown
+IO::Socket::SSL | 2.058
+IO::Socket::SSL::Intercept | 2.056
+IO::Socket::SSL::PublicSuffix | unknown
+IO::Socket::SSL::Utils | 2.014
+IO::Socket::Timeout | 0.32
+IO::String | 1.08
+IO::Stringy | 2.111
+IO::TieCombine | 1.005
+IO::TieCombine::Handle | 1.005
+IO::TieCombine::Scalar | 1.005
+IO::Tty | 1.12
+IO::Tty::Constant | unknown
+IO::Wrap | 2.111
+IO::WrapTie | 2.111
+IPC::Run | 20180523.0
+IPC::Run3 | 0.048
+IPC::Run3::ProfArrayBuffer | 0.048
+IPC::Run3::ProfLogger | 0.048
+IPC::Run3::ProfLogReader | 0.048
+IPC::Run3::ProfPP | 0.048
+IPC::Run3::ProfReporter | 0.048
+IPC::Run::Debug | 20180523.0
+IPC::Run::IO | 20180523.0
+IPC::Run::Timer | 20180523.0
+IPC::Run::Win32Helper | 20180523.0
+IPC::Run::Win32IO | 20180523.0
+IPC::Run::Win32Pump | 20180523.0
+IPC::ShareLite | 0.17
+IPC::System::Simple | 1.25
+JSON | 2.97001
+JSON::Any | 1.39
+JSON::MaybeXS | 1.004000
+Lexical::Persistence | 1.020
+lib::core::only | unknown
+Lingua::EN::FindNumber | 1.32
+Lingua::EN::Inflect | 1.903
+Lingua::EN::Inflect::Number | 1.12
+Lingua::EN::Inflect::Phrase | 0.20
+Lingua::EN::Number::IsOrdinal | 0.05
+Lingua::EN::Tagger | 0.29
+Lingua::EN::Words2Nums | unknown
+Lingua::GL::Stemmer | 0.02
+Lingua::PT::Stemmer | 0.02
+Lingua::Stem | 0.84
+Lingua::Stem::AutoLoader | 1.02
+Lingua::Stem::Da | 1.01
+Lingua::Stem::De | 1.01
+Lingua::Stem::En | 2.16
+Lingua::Stem::EnBroken | 2.13
+Lingua::Stem::Fr | 0.02
+Lingua::Stem::Gl | 1.02
+Lingua::Stem::It | 0.02
+Lingua::Stem::No | 1.01
+Lingua::Stem::Pt | 1.01
+Lingua::Stem::Ru | 0.04
+Lingua::Stem::Snowball::Da | 1.01
+Lingua::Stem::Snowball::No | 1.2
+Lingua::Stem::Snowball::Se | 1.2
+Lingua::Stem::Sv | 1.01
+List::AllUtils | 0.14
+List::MoreUtils | 0.428
+List::MoreUtils::PP | 0.428
+List::MoreUtils::XS | 0.428
+List::SomeUtils | 0.56
+List::SomeUtils::PP | 0.56
+List::SomeUtils::XS | 0.58
+List::Util | 1.50
+List::Util::XS | 1.50
+List::UtilsBy | 0.11
+local::lib | 2.000024
+Locale::Maketext::Extract | 1.00
+Locale::Maketext::Extract::Plugin::Base | 1.00
+Locale::Maketext::Extract::Plugin::FormFu | 1.00
+Locale::Maketext::Extract::Plugin::Generic | 1.00
+Locale::Maketext::Extract::Plugin::Haml | 1.00
+Locale::Maketext::Extract::Plugin::Mason | 1.00
+Locale::Maketext::Extract::Plugin::Perl | 1.00
+Locale::Maketext::Extract::Plugin::PPI | 1.00
+Locale::Maketext::Extract::Plugin::TextTemplate | 1.00
+Locale::Maketext::Extract::Plugin::TT2 | 1.00
+Locale::Maketext::Extract::Plugin::YAML | 1.00
+Locale::Maketext::Extract::Run | 1.00
+Locale::Maketext::Lexicon | 1.00
+Locale::Maketext::Lexicon::Auto | 1.00
+Locale::Maketext::Lexicon::Gettext | 1.00
+Locale::Maketext::Lexicon::Msgcat | 1.00
+Locale::Maketext::Lexicon::Tie | 1.00
+Log::Any | 1.706
+Log::Any::Adapter | 1.706
+Log::Any::Adapter::Base | 1.706
+Log::Any::Adapter::File | 1.706
+Log::Any::Adapter::Null | 1.706
+Log::Any::Adapter::Stderr | 1.706
+Log::Any::Adapter::Stdout | 1.706
+Log::Any::Adapter::Syslog | 1.706
+Log::Any::Adapter::Test | 1.706
+Log::Any::Adapter::Util | 1.706
+Log::Any::Manager | 1.706
+Log::Any::Proxy | 1.706
+Log::Any::Proxy::Null | 1.706
+Log::Any::Proxy::Test | 1.706
+Log::Any::Test | 1.706
+Log::Contextual | 0.008001
+Log::Contextual::Easy::Default | 0.008001
+Log::Contextual::Easy::Package | 0.008001
+Log::Contextual::Role::Router | 0.008001
+Log::Contextual::Role::Router::HasLogger | 0.008001
+Log::Contextual::Role::Router::SetLogger | 0.008001
+Log::Contextual::Role::Router::WithLogger | 0.008001
+Log::Contextual::Router | 0.008001
+Log::Contextual::SimpleLogger | 0.008001
+Log::Contextual::TeeLogger | 0.008001
+Log::Contextual::WarnLogger | 0.008001
+Log::Dispatch | 2.67
+Log::Dispatch::ApacheLog | 2.67
+Log::Dispatch::Array | 1.003
+Log::Dispatch::Base | 2.67
+Log::Dispatch::Code | 2.67
+Log::Dispatch::Config | 1.04
+Log::Dispatch::Configurator | 1.00
+Log::Dispatch::Configurator::AppConfig | 1.00
+Log::Dispatch::Email | 2.67
+Log::Dispatch::Email::MailSend | 2.67
+Log::Dispatch::Email::MailSender | 2.67
+Log::Dispatch::Email::MailSendmail | 2.67
+Log::Dispatch::Email::MIMELite | 2.67
+Log::Dispatch::File | 2.67
+Log::Dispatch::File::Locked | 2.67
+Log::Dispatch::Handle | 2.67
+Log::Dispatch::Null | 2.67
+Log::Dispatch::Output | 2.67
+Log::Dispatch::Screen | 2.67
+Log::Dispatch::Syslog | 2.67
+Log::Dispatch::Types | 2.67
+Log::Dispatch::Vars | 2.67
+Log::Dispatchouli | 2.016
+Log::Dispatchouli::Global | 2.016
+Log::Dispatchouli::Proxy | 2.016
+Log::Log4perl | 1.49
+Log::Log4perl::Appender | unknown
+Log::Log4perl::Appender::Buffer | unknown
+Log::Log4perl::Appender::DBI | unknown
+Log::Log4perl::Appender::File | unknown
+Log::Log4perl::Appender::Limit | unknown
+Log::Log4perl::Appender::RRDs | unknown
+Log::Log4perl::Appender::Screen | unknown
+Log::Log4perl::Appender::ScreenColoredLevels | unknown
+Log::Log4perl::Appender::Socket | unknown
+Log::Log4perl::Appender::String | unknown
+Log::Log4perl::Appender::Synchronized | unknown
+Log::Log4perl::Appender::TestArrayBuffer | unknown
+Log::Log4perl::Appender::TestBuffer | unknown
+Log::Log4perl::Appender::TestFileCreeper | unknown
+Log::Log4perl::Catalyst | unknown
+Log::Log4perl::Config | unknown
+Log::Log4perl::Config::BaseConfigurator | unknown
+Log::Log4perl::Config::DOMConfigurator | 0.03
+Log::Log4perl::Config::PropertyConfigurator | unknown
+Log::Log4perl::Config::Watch | unknown
+Log::Log4perl::DateFormat | unknown
+Log::Log4perl::Filter | unknown
+Log::Log4perl::Filter::Boolean | unknown
+Log::Log4perl::Filter::LevelMatch | unknown
+Log::Log4perl::Filter::LevelRange | unknown
+Log::Log4perl::Filter::MDC | unknown
+Log::Log4perl::Filter::StringMatch | unknown
+Log::Log4perl::InternalDebug | unknown
+Log::Log4perl::JavaMap | unknown
+Log::Log4perl::JavaMap::ConsoleAppender | unknown
+Log::Log4perl::JavaMap::FileAppender | unknown
+Log::Log4perl::JavaMap::JDBCAppender | unknown
+Log::Log4perl::JavaMap::NTEventLogAppender | unknown
+Log::Log4perl::JavaMap::RollingFileAppender | unknown
+Log::Log4perl::JavaMap::SyslogAppender | unknown
+Log::Log4perl::JavaMap::TestBuffer | unknown
+Log::Log4perl::Layout | unknown
+Log::Log4perl::Layout::NoopLayout | unknown
+Log::Log4perl::Layout::PatternLayout | unknown
+Log::Log4perl::Layout::PatternLayout::Multiline | unknown
+Log::Log4perl::Layout::SimpleLayout | unknown
+Log::Log4perl::Level | unknown
+Log::Log4perl::Logger | unknown
+Log::Log4perl::MDC | unknown
+Log::Log4perl::NDC | unknown
+Log::Log4perl::Resurrector | unknown
+Log::Log4perl::Util | unknown
+Log::Log4perl::Util::Semaphore | unknown
+Log::Log4perl::Util::TimeTracker | unknown
+Log::Message | 0.08
+Log::Message::Config | 0.08
+Log::Message::Handlers | 0.08
+Log::Message::Item | 0.08
+Log::Message::Simple | 0.10
+Log::Report | 1.27
+Log::Report::DBIC::Profiler | 1.27
+Log::Report::Die | 1.27
+Log::Report::Dispatcher | 1.27
+Log::Report::Dispatcher::Callback | 1.27
+Log::Report::Dispatcher::File | 1.27
+Log::Report::Dispatcher::Log4perl | 1.27
+Log::Report::Dispatcher::LogDispatch | 1.27
+Log::Report::Dispatcher::Perl | 1.27
+Log::Report::Dispatcher::Syslog | 1.27
+Log::Report::Dispatcher::Try | 1.27
+Log::Report::Domain | 1.27
+Log::Report::Exception | 1.27
+Log::Report::Message | 1.27
+Log::Report::Minimal | 1.06
+Log::Report::Minimal::Domain | 1.06
+Log::Report::Optional | 1.06
+Log::Report::Translator | 1.27
+Log::Report::Util | 1.06
+Logger::Simple | 2.0
+LWP | 6.35
+LWP::Authen::Basic | 6.35
+LWP::Authen::Digest | 6.35
+LWP::Authen::Ntlm | 6.35
+LWP::ConnCache | 6.35
+LWP::Debug | 6.35
+LWP::Debug | unknown
+LWP::Debug::TraceHTTP | 6.35
+LWP::DebugFile | 6.35
+LWP::MediaTypes | 6.02
+LWP::MemberMixin | 6.35
+LWP::Protocol | 6.35
+LWP::Protocol::cpan | 6.35
+LWP::Protocol::data | 6.35
+LWP::Protocol::file | 6.35
+LWP::Protocol::ftp | 6.35
+LWP::Protocol::gopher | 6.35
+LWP::Protocol::http | 6.35
+LWP::Protocol::https | 6.07
+LWP::Protocol::loopback | 6.35
+LWP::Protocol::mailto | 6.35
+LWP::Protocol::nntp | 6.35
+LWP::Protocol::nogo | 6.35
+LWP::RobotUA | 6.35
+LWP::Simple | 6.35
+LWP::UserAgent | 6.35
+Mail::Address | 2.20
+Mail::Cap | 2.20
+Mail::Field | 2.20
+Mail::Field::AddrList | 2.20
+Mail::Field::Date | 2.20
+Mail::Field::Generic | 2.20
+Mail::Filter | 2.20
+Mail::Header | 2.20
+Mail::Internet | 2.20
+Mail::Mailer | 2.20
+Mail::Mailer::qmail | 2.20
+Mail::Mailer::rfc822 | 2.20
+Mail::Mailer::sendmail | 2.20
+Mail::Mailer::smtp | 2.20
+Mail::Mailer::smtps | 2.20
+Mail::Mailer::testfile | 2.20
+Mail::Send | 2.20
+Mail::Util | 2.20
+MailTools | 2.20
+Math::Bezier | 0.01
+Math::BigFloat | 1.999813
+Math::BigInt | 1.999813
+Math::BigInt::Calc | 1.999813
+Math::BigInt::CalcEmu | 1.999813
+Math::BigInt::Lib | 1.999813
+Math::CDF | 0.1
+Math::Cephes | 0.5305
+Math::Cephes::Complex | 0.5305
+Math::Cephes::Fraction | 0.5305
+Math::Cephes::Matrix | 0.5305
+Math::Cephes::Polynomial | 0.5305
+Math::Combinatorics | 0.09
+Math::Counting | 0.1305
+Math::Derivative | 1.01
+Math::GSL::Linalg::SVD | 0.0.2
+Math::MatrixReal | 2.13
+Math::Prime::Util | 0.70
+Math::Prime::Util::ChaCha | 0.70
+Math::Prime::Util::ECAffinePoint | 0.70
+Math::Prime::Util::ECProjectivePoint | 0.70
+Math::Prime::Util::Entropy | 0.70
+Math::Prime::Util::GMP | 0.50
+Math::Prime::Util::MemFree | 0.70
+Math::Prime::Util::PP | 0.70
+Math::Prime::Util::PPFE | unknown
+Math::Prime::Util::PrimalityProving | 0.70
+Math::Prime::Util::PrimeArray | 0.70
+Math::Prime::Util::PrimeIterator | 0.70
+Math::Prime::Util::RandomPrimes | 0.70
+Math::Prime::Util::ZetaBigFloat | 0.70
+Math::Random | 0.72
+Math::Random::ISAAC | 1.004
+Math::Random::ISAAC::PP | 1.004
+Math::Random::MT::Auto | 6.22
+Math::Random::MT::Auto::Range | 6.22
+Math::Round | 0.07
+Math::Spline | 0.02
+Math::Utils | 1.12
+Math::VecStat | 0.08
+Memoize::ExpireLRU | 0.56
+Menlo | 1.9019
+Menlo::Builder::Static | unknown
+Menlo::CLI::Compat | 1.9022
+Menlo::Dependency | unknown
+Menlo::Index::MetaCPAN | unknown
+Menlo::Index::MetaDB | 1.9019
+Menlo::Index::Mirror | unknown
+Menlo::Legacy | 1.9022
+Menlo::Util | unknown
+Meta::Builder | 0.003
+Meta::Builder::Base | unknown
+Meta::Builder::Util | unknown
+metaclass | 2.2011
+Method::Generate::Accessor | unknown
+Method::Generate::BuildAll | unknown
+Method::Generate::Constructor | unknown
+Method::Generate::DemolishAll | unknown
+Method::Inliner | unknown
+MIME::Charset | 1.012.2
+MIME::Charset::_Compat | 1.003.1
+MIME::Charset::UTF | 1.010
+MIME::Type | 2.17
+MIME::Types | 2.17
+Mixin::Linewise | 0.108
+Mixin::Linewise::Readers | 0.108
+Mixin::Linewise::Writers | 0.108
+Mock::Config | 0.03
+Modern::Perl | 1.20180701
+Module::AutoInstall | 1.19
+Module::Build | 0.4224
+Module::Build::Base | 0.4224
+Module::Build::Compat | 0.4224
+Module::Build::Config | 0.4224
+Module::Build::ConfigData | unknown
+Module::Build::Cookbook | 0.4224
+Module::Build::Dumper | 0.4224
+Module::Build::Notes | 0.4224
+Module::Build::Platform::aix | 0.4224
+Module::Build::Platform::cygwin | 0.4224
+Module::Build::Platform::darwin | 0.4224
+Module::Build::Platform::Default | 0.4224
+Module::Build::Platform::MacOS | 0.4224
+Module::Build::Platform::os2 | 0.4224
+Module::Build::Platform::Unix | 0.4224
+Module::Build::Platform::VMS | 0.4224
+Module::Build::Platform::VOS | 0.4224
+Module::Build::Platform::Windows | 0.4224
+Module::Build::PodParser | 0.4224
+Module::Build::PPMMaker | 0.4224
+Module::Build::Tiny | 0.039
+Module::Build::XSUtil | 0.19
+Module::Compile | 0.37
+Module::Compile::Opt | unknown
+Module::CPANfile | 1.1004
+Module::CPANfile::Environment | unknown
+Module::CPANfile::Prereq | unknown
+Module::CPANfile::Prereqs | unknown
+Module::CPANfile::Requirement | unknown
+Module::Faker | 0.020
+Module::Faker::Appendix | 0.020
+Module::Faker::Dist | 0.020
+Module::Faker::File | 0.020
+Module::Faker::Heavy | 0.020
+Module::Faker::Module | 0.020
+Module::Faker::Package | 0.020
+Module::Find | 0.13
+Module::Implementation | 0.09
+Module::Install | 1.19
+Module::Install::Admin | 1.19
+Module::Install::Admin::Bundle | 1.19
+Module::Install::Admin::Compiler | 1.19
+Module::Install::Admin::Find | 1.19
+Module::Install::Admin::Include | 1.19
+Module::Install::Admin::Makefile | 1.19
+Module::Install::Admin::Manifest | 1.19
+Module::Install::Admin::Metadata | 1.19
+Module::Install::Admin::ScanDeps | 1.19
+Module::Install::Admin::WriteAll | 1.19
+Module::Install::AutoInstall | 1.19
+Module::Install::Base | 1.19
+Module::Install::Bundle | 1.19
+Module::Install::Can | 1.19
+Module::Install::Catalyst | unknown
+Module::Install::Compiler | 1.19
+Module::Install::Deprecated | 1.19
+Module::Install::DSL | 1.19
+Module::Install::External | 1.19
+Module::Install::Fetch | 1.19
+Module::Install::Include | 1.19
+Module::Install::Inline | 1.19
+Module::Install::Makefile | 1.19
+Module::Install::MakeMaker | 1.19
+Module::Install::Metadata | 1.19
+Module::Install::PAR | 1.19
+Module::Install::Run | 1.19
+Module::Install::Scripts | 1.19
+Module::Install::Share | 1.19
+Module::Install::Win32 | 1.19
+Module::Install::With | 1.19
+Module::Install::WriteAll | 1.19
+Module::Optimize | unknown
+Module::Path | 0.19
+Module::Pluggable | 5.2
+Module::Pluggable::Object | 5.2
+Module::Runtime | 0.016
+Module::Runtime::Conflicts | 0.003
+Module::ScanDeps | 1.24
+Module::ScanDeps::Cache | unknown
+Module::Util | 1.09
+Mojo | unknown
+Mojo::Asset | unknown
+Mojo::Asset::File | unknown
+Mojo::Asset::Memory | unknown
+Mojo::Base | unknown
+Mojo::ByteStream | unknown
+Mojo::Cache | unknown
+Mojo::Collection | unknown
+Mojo::Content | unknown
+Mojo::Content::MultiPart | unknown
+Mojo::Content::Single | unknown
+Mojo::Cookie | unknown
+Mojo::Cookie::Request | unknown
+Mojo::Cookie::Response | unknown
+Mojo::Date | unknown
+Mojo::DOM | unknown
+Mojo::DOM::CSS | unknown
+Mojo::DOM::HTML | unknown
+Mojo::EventEmitter | unknown
+Mojo::Exception | unknown
+Mojo::File | unknown
+Mojo::Headers | unknown
+Mojo::HelloWorld | unknown
+Mojo::Home | unknown
+Mojo::IOLoop | unknown
+Mojo::IOLoop::Client | unknown
+Mojo::IOLoop::Delay | unknown
+Mojo::IOLoop::Server | unknown
+Mojo::IOLoop::Stream | unknown
+Mojo::IOLoop::Stream::HTTPClient | unknown
+Mojo::IOLoop::Stream::HTTPServer | unknown
+Mojo::IOLoop::Stream::WebSocketClient | unknown
+Mojo::IOLoop::Stream::WebSocketServer | unknown
+Mojo::IOLoop::Subprocess | unknown
+Mojo::IOLoop::TLS | unknown
+Mojo::JSON | unknown
+Mojo::JSON::Pointer | unknown
+Mojo::Loader | unknown
+Mojo::Log | unknown
+Mojo::Message | unknown
+Mojo::Message::Request | unknown
+Mojo::Message::Response | unknown
+Mojo::Parameters | unknown
+Mojo::Path | unknown
+Mojo::Promise | unknown
+Mojo::Reactor | unknown
+Mojo::Reactor::EV | unknown
+Mojo::Reactor::Poll | unknown
+Mojo::Server | unknown
+Mojo::Server::CGI | unknown
+Mojo::Server::Daemon | unknown
+Mojo::Server::Hypnotoad | unknown
+Mojo::Server::Morbo | unknown
+Mojo::Server::Morbo::Backend | unknown
+Mojo::Server::Morbo::Backend::Poll | unknown
+Mojo::Server::Prefork | unknown
+Mojo::Server::PSGI | unknown
+Mojo::Template | unknown
+Mojo::Transaction | unknown
+Mojo::Transaction::HTTP | unknown
+Mojo::Transaction::WebSocket | unknown
+Mojo::Upload | unknown
+Mojo::URL | unknown
+Mojo::UserAgent | unknown
+Mojo::UserAgent::CookieJar | unknown
+Mojo::UserAgent::Proxy | unknown
+Mojo::UserAgent::Server | unknown
+Mojo::UserAgent::Transactor | unknown
+Mojo::Util | unknown
+Mojo::WebSocket | unknown
+Mojolicious | 7.88
+Mojolicious::Command | unknown
+Mojolicious::Command::cgi | unknown
+Mojolicious::Command::cpanify | unknown
+Mojolicious::Command::daemon | unknown
+Mojolicious::Command::eval | unknown
+Mojolicious::Command::generate | unknown
+Mojolicious::Command::generate::app | unknown
+Mojolicious::Command::generate::lite_app | unknown
+Mojolicious::Command::generate::makefile | unknown
+Mojolicious::Command::generate::plugin | 0.01
+Mojolicious::Command::get | unknown
+Mojolicious::Command::inflate | unknown
+Mojolicious::Command::prefork | unknown
+Mojolicious::Command::psgi | unknown
+Mojolicious::Command::routes | unknown
+Mojolicious::Command::test | unknown
+Mojolicious::Command::version | unknown
+Mojolicious::Commands | unknown
+Mojolicious::Controller | unknown
+Mojolicious::Lite | unknown
+Mojolicious::Plugin | unknown
+Mojolicious::Plugin::Config | unknown
+Mojolicious::Plugin::DefaultHelpers | unknown
+Mojolicious::Plugin::EPLRenderer | unknown
+Mojolicious::Plugin::EPRenderer | unknown
+Mojolicious::Plugin::HeaderCondition | unknown
+Mojolicious::Plugin::JSONConfig | unknown
+Mojolicious::Plugin::Mount | unknown
+Mojolicious::Plugin::PODRenderer | unknown
+Mojolicious::Plugin::TagHelpers | unknown
+Mojolicious::Plugins | unknown
+Mojolicious::Renderer | unknown
+Mojolicious::Routes | unknown
+Mojolicious::Routes::Match | unknown
+Mojolicious::Routes::Pattern | unknown
+Mojolicious::Routes::Route | unknown
+Mojolicious::Sessions | unknown
+Mojolicious::Static | unknown
+Mojolicious::Types | unknown
+Mojolicious::Validator | unknown
+Mojolicious::Validator::Validation | unknown
+MojoX::Log::Report | 1.27
+MojoX::MIME::Types | 2.17
+Moo | 2.001001
+Moo::_mro | unknown
+Moo::_strictures | unknown
+Moo::_Utils | unknown
+Moo::HandleMoose | unknown
+Moo::HandleMoose::_TypeMap | unknown
+Moo::HandleMoose::FakeMetaClass | unknown
+Moo::Object | unknown
+Moo::Role | 2.001001
+Moo::sification | unknown
+Moose | 2.2011
+Moose::Autobox | 0.16
+Moose::Autobox::Array | 0.16
+Moose::Autobox::Code | 0.16
+Moose::Autobox::Defined | 0.16
+Moose::Autobox::Hash | 0.16
+Moose::Autobox::Indexed | 0.16
+Moose::Autobox::Item | 0.16
+Moose::Autobox::List | 0.16
+Moose::Autobox::Number | 0.16
+Moose::Autobox::Ref | 0.16
+Moose::Autobox::Scalar | 0.16
+Moose::Autobox::String | 0.16
+Moose::Autobox::Undef | 0.16
+Moose::Autobox::Value | 0.16
+Moose::Deprecated | 2.2011
+Moose::Exception | 2.2011
+Moose::Exception::AccessorMustReadWrite | 2.2011
+Moose::Exception::AddParameterizableTypeTakesParameterizableType | 2.2011
+Moose::Exception::AddRoleTakesAMooseMetaRoleInstance | 2.2011
+Moose::Exception::AddRoleToARoleTakesAMooseMetaRole | 2.2011
+Moose::Exception::ApplyTakesABlessedInstance | 2.2011
+Moose::Exception::AttachToClassNeedsAClassMOPClassInstanceOrASubclass | 2.2011
+Moose::Exception::AttributeConflictInRoles | 2.2011
+Moose::Exception::AttributeConflictInSummation | 2.2011
+Moose::Exception::AttributeExtensionIsNotSupportedInRoles | 2.2011
+Moose::Exception::AttributeIsRequired | 2.2011
+Moose::Exception::AttributeMustBeAnClassMOPMixinAttributeCoreOrSubclass | 2.2011
+Moose::Exception::AttributeNamesDoNotMatch | 2.2011
+Moose::Exception::AttributeValueIsNotAnObject | 2.2011
+Moose::Exception::AttributeValueIsNotDefined | 2.2011
+Moose::Exception::AutoDeRefNeedsArrayRefOrHashRef | 2.2011
+Moose::Exception::BadOptionFormat | 2.2011
+Moose::Exception::BothBuilderAndDefaultAreNotAllowed | 2.2011
+Moose::Exception::BuilderDoesNotExist | 2.2011
+Moose::Exception::BuilderMethodNotSupportedForAttribute | 2.2011
+Moose::Exception::BuilderMethodNotSupportedForInlineAttribute | 2.2011
+Moose::Exception::BuilderMustBeAMethodName | 2.2011
+Moose::Exception::CallingMethodOnAnImmutableInstance | 2.2011
+Moose::Exception::CallingReadOnlyMethodOnAnImmutableInstance | 2.2011
+Moose::Exception::CanExtendOnlyClasses | 2.2011
+Moose::Exception::CannotAddAdditionalTypeCoercionsToUnion | 2.2011
+Moose::Exception::CannotAddAsAnAttributeToARole | 2.2011
+Moose::Exception::CannotApplyBaseClassRolesToRole | 2.2011
+Moose::Exception::CannotAssignValueToReadOnlyAccessor | 2.2011
+Moose::Exception::CannotAugmentIfLocalMethodPresent | 2.2011
+Moose::Exception::CannotAugmentNoSuperMethod | 2.2011
+Moose::Exception::CannotAutoDereferenceTypeConstraint | 2.2011
+Moose::Exception::CannotAutoDerefWithoutIsa | 2.2011
+Moose::Exception::CannotCalculateNativeType | 2.2011
+Moose::Exception::CannotCallAnAbstractBaseMethod | 2.2011
+Moose::Exception::CannotCallAnAbstractMethod | 2.2011
+Moose::Exception::CannotCoerceAttributeWhichHasNoCoercion | 2.2011
+Moose::Exception::CannotCoerceAWeakRef | 2.2011
+Moose::Exception::CannotCreateHigherOrderTypeWithoutATypeParameter | 2.2011
+Moose::Exception::CannotCreateMethodAliasLocalMethodIsPresent | 2.2011
+Moose::Exception::CannotCreateMethodAliasLocalMethodIsPresentInClass | 2.2011
+Moose::Exception::CannotDelegateLocalMethodIsPresent | 2.2011
+Moose::Exception::CannotDelegateWithoutIsa | 2.2011
+Moose::Exception::CannotFindDelegateMetaclass | 2.2011
+Moose::Exception::CannotFindType | 2.2011
+Moose::Exception::CannotFindTypeGivenToMatchOnType | 2.2011
+Moose::Exception::CannotFixMetaclassCompatibility | 2.2011
+Moose::Exception::CannotGenerateInlineConstraint | 2.2011
+Moose::Exception::CannotInitializeMooseMetaRoleComposite | 2.2011
+Moose::Exception::CannotInlineTypeConstraintCheck | 2.2011
+Moose::Exception::CannotLocatePackageInINC | 2.2011
+Moose::Exception::CannotMakeMetaclassCompatible | 2.2011
+Moose::Exception::CannotOverrideALocalMethod | 2.2011
+Moose::Exception::CannotOverrideBodyOfMetaMethods | 2.2011
+Moose::Exception::CannotOverrideLocalMethodIsPresent | 2.2011
+Moose::Exception::CannotOverrideNoSuperMethod | 2.2011
+Moose::Exception::CannotRegisterUnnamedTypeConstraint | 2.2011
+Moose::Exception::CannotUseLazyBuildAndDefaultSimultaneously | 2.2011
+Moose::Exception::CanOnlyConsumeRole | 2.2011
+Moose::Exception::CanOnlyWrapBlessedCode | 2.2011
+Moose::Exception::CanReblessOnlyIntoASubclass | 2.2011
+Moose::Exception::CanReblessOnlyIntoASuperclass | 2.2011
+Moose::Exception::CircularReferenceInAlso | 2.2011
+Moose::Exception::ClassDoesNotHaveInitMeta | 2.2011
+Moose::Exception::ClassDoesTheExcludedRole | 2.2011
+Moose::Exception::ClassNamesDoNotMatch | 2.2011
+Moose::Exception::CloneObjectExpectsAnInstanceOfMetaclass | 2.2011
+Moose::Exception::CodeBlockMustBeACodeRef | 2.2011
+Moose::Exception::CoercingWithoutCoercions | 2.2011
+Moose::Exception::CoercionAlreadyExists | 2.2011
+Moose::Exception::CoercionNeedsTypeConstraint | 2.2011
+Moose::Exception::ConflictDetectedInCheckRoleExclusions | 2.2011
+Moose::Exception::ConflictDetectedInCheckRoleExclusionsInToClass | 2.2011
+Moose::Exception::ConstructClassInstanceTakesPackageName | 2.2011
+Moose::Exception::CouldNotCreateMethod | 2.2011
+Moose::Exception::CouldNotCreateWriter | 2.2011
+Moose::Exception::CouldNotEvalConstructor | 2.2011
+Moose::Exception::CouldNotEvalDestructor | 2.2011
+Moose::Exception::CouldNotFindTypeConstraintToCoerceFrom | 2.2011
+Moose::Exception::CouldNotGenerateInlineAttributeMethod | 2.2011
+Moose::Exception::CouldNotLocateTypeConstraintForUnion | 2.2011
+Moose::Exception::CouldNotParseType | 2.2011
+Moose::Exception::CreateMOPClassTakesArrayRefOfAttributes | 2.2011
+Moose::Exception::CreateMOPClassTakesArrayRefOfSuperclasses | 2.2011
+Moose::Exception::CreateMOPClassTakesHashRefOfMethods | 2.2011
+Moose::Exception::CreateTakesArrayRefOfRoles | 2.2011
+Moose::Exception::CreateTakesHashRefOfAttributes | 2.2011
+Moose::Exception::CreateTakesHashRefOfMethods | 2.2011
+Moose::Exception::DefaultToMatchOnTypeMustBeCodeRef | 2.2011
+Moose::Exception::DelegationToAClassWhichIsNotLoaded | 2.2011
+Moose::Exception::DelegationToARoleWhichIsNotLoaded | 2.2011
+Moose::Exception::DelegationToATypeWhichIsNotAClass | 2.2011
+Moose::Exception::DoesRequiresRoleName | 2.2011
+Moose::Exception::EnumCalledWithAnArrayRefAndAdditionalArgs | 2.2011
+Moose::Exception::EnumValuesMustBeString | 2.2011
+Moose::Exception::ExtendsMissingArgs | 2.2011
+Moose::Exception::HandlesMustBeAHashRef | 2.2011
+Moose::Exception::IllegalInheritedOptions | 2.2011
+Moose::Exception::IllegalMethodTypeToAddMethodModifier | 2.2011
+Moose::Exception::IncompatibleMetaclassOfSuperclass | 2.2011
+Moose::Exception::InitializeTakesUnBlessedPackageName | 2.2011
+Moose::Exception::InitMetaRequiresClass | 2.2011
+Moose::Exception::InstanceBlessedIntoWrongClass | 2.2011
+Moose::Exception::InstanceMustBeABlessedReference | 2.2011
+Moose::Exception::InvalidArgPassedToMooseUtilMetaRole | 2.2011
+Moose::Exception::InvalidArgumentsToTraitAliases | 2.2011
+Moose::Exception::InvalidArgumentToMethod | 2.2011
+Moose::Exception::InvalidBaseTypeGivenToCreateParameterizedTypeConstraint | 2.2011
+Moose::Exception::InvalidHandleValue | 2.2011
+Moose::Exception::InvalidHasProvidedInARole | 2.2011
+Moose::Exception::InvalidNameForType | 2.2011
+Moose::Exception::InvalidOverloadOperator | 2.2011
+Moose::Exception::InvalidRoleApplication | 2.2011
+Moose::Exception::InvalidTypeConstraint | 2.2011
+Moose::Exception::InvalidTypeGivenToCreateParameterizedTypeConstraint | 2.2011
+Moose::Exception::InvalidValueForIs | 2.2011
+Moose::Exception::IsaDoesNotDoTheRole | 2.2011
+Moose::Exception::IsaLacksDoesMethod | 2.2011
+Moose::Exception::LazyAttributeNeedsADefault | 2.2011
+Moose::Exception::Legacy | 2.2011
+Moose::Exception::MatchActionMustBeACodeRef | 2.2011
+Moose::Exception::MessageParameterMustBeCodeRef | 2.2011
+Moose::Exception::MetaclassIsAClassNotASubclassOfGivenMetaclass | 2.2011
+Moose::Exception::MetaclassIsARoleNotASubclassOfGivenMetaclass | 2.2011
+Moose::Exception::MetaclassIsNotASubclassOfGivenMetaclass | 2.2011
+Moose::Exception::MetaclassMustBeASubclassOfMooseMetaClass | 2.2011
+Moose::Exception::MetaclassMustBeASubclassOfMooseMetaRole | 2.2011
+Moose::Exception::MetaclassMustBeDerivedFromClassMOPClass | 2.2011
+Moose::Exception::MetaclassNotLoaded | 2.2011
+Moose::Exception::MetaclassTypeIncompatible | 2.2011
+Moose::Exception::MethodExpectedAMetaclassObject | 2.2011
+Moose::Exception::MethodExpectsFewerArgs | 2.2011
+Moose::Exception::MethodExpectsMoreArgs | 2.2011
+Moose::Exception::MethodModifierNeedsMethodName | 2.2011
+Moose::Exception::MethodNameConflictInRoles | 2.2011
+Moose::Exception::MethodNameNotFoundInInheritanceHierarchy | 2.2011
+Moose::Exception::MethodNameNotGiven | 2.2011
+Moose::Exception::MOPAttributeNewNeedsAttributeName | 2.2011
+Moose::Exception::MustDefineAMethodName | 2.2011
+Moose::Exception::MustDefineAnAttributeName | 2.2011
+Moose::Exception::MustDefineAnOverloadOperator | 2.2011
+Moose::Exception::MustHaveAtLeastOneValueToEnumerate | 2.2011
+Moose::Exception::MustPassAHashOfOptions | 2.2011
+Moose::Exception::MustPassAMooseMetaRoleInstanceOrSubclass | 2.2011
+Moose::Exception::MustPassAPackageNameOrAnExistingClassMOPPackageInstance | 2.2011
+Moose::Exception::MustPassEvenNumberOfArguments | 2.2011
+Moose::Exception::MustPassEvenNumberOfAttributeOptions | 2.2011
+Moose::Exception::MustProvideANameForTheAttribute | 2.2011
+Moose::Exception::MustSpecifyAtleastOneMethod | 2.2011
+Moose::Exception::MustSpecifyAtleastOneRole | 2.2011
+Moose::Exception::MustSpecifyAtleastOneRoleToApplicant | 2.2011
+Moose::Exception::MustSupplyAClassMOPAttributeInstance | 2.2011
+Moose::Exception::MustSupplyADelegateToMethod | 2.2011
+Moose::Exception::MustSupplyAMetaclass | 2.2011
+Moose::Exception::MustSupplyAMooseMetaAttributeInstance | 2.2011
+Moose::Exception::MustSupplyAnAccessorTypeToConstructWith | 2.2011
+Moose::Exception::MustSupplyAnAttributeToConstructWith | 2.2011
+Moose::Exception::MustSupplyArrayRefAsCurriedArguments | 2.2011
+Moose::Exception::MustSupplyPackageNameAndName | 2.2011
+Moose::Exception::NeedsTypeConstraintUnionForTypeCoercionUnion | 2.2011
+Moose::Exception::NeitherAttributeNorAttributeNameIsGiven | 2.2011
+Moose::Exception::NeitherClassNorClassNameIsGiven | 2.2011
+Moose::Exception::NeitherRoleNorRoleNameIsGiven | 2.2011
+Moose::Exception::NeitherTypeNorTypeNameIsGiven | 2.2011
+Moose::Exception::NoAttributeFoundInSuperClass | 2.2011
+Moose::Exception::NoBodyToInitializeInAnAbstractBaseClass | 2.2011
+Moose::Exception::NoCasesMatched | 2.2011
+Moose::Exception::NoConstraintCheckForTypeConstraint | 2.2011
+Moose::Exception::NoDestructorClassSpecified | 2.2011
+Moose::Exception::NoImmutableTraitSpecifiedForClass | 2.2011
+Moose::Exception::NoParentGivenToSubtype | 2.2011
+Moose::Exception::OnlyInstancesCanBeCloned | 2.2011
+Moose::Exception::OperatorIsRequired | 2.2011
+Moose::Exception::OverloadConflictInSummation | 2.2011
+Moose::Exception::OverloadRequiresAMetaClass | 2.2011
+Moose::Exception::OverloadRequiresAMetaMethod | 2.2011
+Moose::Exception::OverloadRequiresAMetaOverload | 2.2011
+Moose::Exception::OverloadRequiresAMethodNameOrCoderef | 2.2011
+Moose::Exception::OverloadRequiresAnOperator | 2.2011
+Moose::Exception::OverloadRequiresNamesForCoderef | 2.2011
+Moose::Exception::OverrideConflictInComposition | 2.2011
+Moose::Exception::OverrideConflictInSummation | 2.2011
+Moose::Exception::PackageDoesNotUseMooseExporter | 2.2011
+Moose::Exception::PackageNameAndNameParamsNotGivenToWrap | 2.2011
+Moose::Exception::PackagesAndModulesAreNotCachable | 2.2011
+Moose::Exception::ParameterIsNotSubtypeOfParent | 2.2011
+Moose::Exception::ReferencesAreNotAllowedAsDefault | 2.2011
+Moose::Exception::RequiredAttributeLacksInitialization | 2.2011
+Moose::Exception::RequiredAttributeNeedsADefault | 2.2011
+Moose::Exception::RequiredMethodsImportedByClass | 2.2011
+Moose::Exception::RequiredMethodsNotImplementedByClass | 2.2011
+Moose::Exception::Role::Attribute | 2.2011
+Moose::Exception::Role::AttributeName | 2.2011
+Moose::Exception::Role::Class | 2.2011
+Moose::Exception::Role::EitherAttributeOrAttributeName | 2.2011
+Moose::Exception::Role::Instance | 2.2011
+Moose::Exception::Role::InstanceClass | 2.2011
+Moose::Exception::Role::InvalidAttributeOptions | 2.2011
+Moose::Exception::Role::Method | 2.2011
+Moose::Exception::Role::ParamsHash | 2.2011
+Moose::Exception::Role::Role | 2.2011
+Moose::Exception::Role::RoleForCreate | 2.2011
+Moose::Exception::Role::RoleForCreateMOPClass | 2.2011
+Moose::Exception::Role::TypeConstraint | 2.2011
+Moose::Exception::RoleDoesTheExcludedRole | 2.2011
+Moose::Exception::RoleExclusionConflict | 2.2011
+Moose::Exception::RoleNameRequired | 2.2011
+Moose::Exception::RoleNameRequiredForMooseMetaRole | 2.2011
+Moose::Exception::RolesDoNotSupportAugment | 2.2011
+Moose::Exception::RolesDoNotSupportExtends | 2.2011
+Moose::Exception::RolesDoNotSupportInner | 2.2011
+Moose::Exception::RolesDoNotSupportRegexReferencesForMethodModifiers | 2.2011
+Moose::Exception::RolesInCreateTakesAnArrayRef | 2.2011
+Moose::Exception::RolesListMustBeInstancesOfMooseMetaRole | 2.2011
+Moose::Exception::SingleParamsToNewMustBeHashRef | 2.2011
+Moose::Exception::TriggerMustBeACodeRef | 2.2011
+Moose::Exception::TypeConstraintCannotBeUsedForAParameterizableType | 2.2011
+Moose::Exception::TypeConstraintIsAlreadyCreated | 2.2011
+Moose::Exception::TypeParameterMustBeMooseMetaType | 2.2011
+Moose::Exception::UnableToCanonicalizeHandles | 2.2011
+Moose::Exception::UnableToCanonicalizeNonRolePackage | 2.2011
+Moose::Exception::UnableToRecognizeDelegateMetaclass | 2.2011
+Moose::Exception::UndefinedHashKeysPassedToMethod | 2.2011
+Moose::Exception::UnionCalledWithAnArrayRefAndAdditionalArgs | 2.2011
+Moose::Exception::UnionTakesAtleastTwoTypeNames | 2.2011
+Moose::Exception::ValidationFailedForInlineTypeConstraint | 2.2011
+Moose::Exception::ValidationFailedForTypeConstraint | 2.2011
+Moose::Exception::WrapTakesACodeRefToBless | 2.2011
+Moose::Exception::WrongTypeConstraintGiven | 2.2011
+Moose::Exporter | 2.2011
+Moose::Meta::Attribute | 2.2011
+Moose::Meta::Attribute::Native | 2.2011
+Moose::Meta::Attribute::Native::Trait | 2.2011
+Moose::Meta::Attribute::Native::Trait::Array | 2.2011
+Moose::Meta::Attribute::Native::Trait::Bool | 2.2011
+Moose::Meta::Attribute::Native::Trait::Code | 2.2011
+Moose::Meta::Attribute::Native::Trait::Counter | 2.2011
+Moose::Meta::Attribute::Native::Trait::Hash | 2.2011
+Moose::Meta::Attribute::Native::Trait::Number | 2.2011
+Moose::Meta::Attribute::Native::Trait::String | 2.2011
+Moose::Meta::Class | 2.2011
+Moose::Meta::Class::Immutable::Trait | 2.2011
+Moose::Meta::Instance | 2.2011
+Moose::Meta::Method | 2.2011
+Moose::Meta::Method::Accessor | 2.2011
+Moose::Meta::Method::Accessor::Native | 2.2011
+Moose::Meta::Method::Accessor::Native::Array | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::accessor | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::clear | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::count | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::delete | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::elements | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::first | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::first_index | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::get | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::grep | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::insert | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::is_empty | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::join | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::map | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::natatime | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::pop | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::push | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::reduce | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::set | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::shallow_clone | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::shift | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::shuffle | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::sort | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::sort_in_place | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::splice | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::uniq | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::unshift | 2.2011
+Moose::Meta::Method::Accessor::Native::Array::Writer | 2.2011
+Moose::Meta::Method::Accessor::Native::Bool::not | 2.2011
+Moose::Meta::Method::Accessor::Native::Bool::set | 2.2011
+Moose::Meta::Method::Accessor::Native::Bool::toggle | 2.2011
+Moose::Meta::Method::Accessor::Native::Bool::unset | 2.2011
+Moose::Meta::Method::Accessor::Native::Code::execute | 2.2011
+Moose::Meta::Method::Accessor::Native::Code::execute_method | 2.2011
+Moose::Meta::Method::Accessor::Native::Collection | 2.2011
+Moose::Meta::Method::Accessor::Native::Counter::dec | 2.2011
+Moose::Meta::Method::Accessor::Native::Counter::inc | 2.2011
+Moose::Meta::Method::Accessor::Native::Counter::reset | 2.2011
+Moose::Meta::Method::Accessor::Native::Counter::set | 2.2011
+Moose::Meta::Method::Accessor::Native::Counter::Writer | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::accessor | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::clear | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::count | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::defined | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::delete | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::elements | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::exists | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::get | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::is_empty | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::keys | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::kv | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::set | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::shallow_clone | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::values | 2.2011
+Moose::Meta::Method::Accessor::Native::Hash::Writer | 2.2011
+Moose::Meta::Method::Accessor::Native::Number::abs | 2.2011
+Moose::Meta::Method::Accessor::Native::Number::add | 2.2011
+Moose::Meta::Method::Accessor::Native::Number::div | 2.2011
+Moose::Meta::Method::Accessor::Native::Number::mod | 2.2011
+Moose::Meta::Method::Accessor::Native::Number::mul | 2.2011
+Moose::Meta::Method::Accessor::Native::Number::set | 2.2011
+Moose::Meta::Method::Accessor::Native::Number::sub | 2.2011
+Moose::Meta::Method::Accessor::Native::Reader | 2.2011
+Moose::Meta::Method::Accessor::Native::String::append | 2.2011
+Moose::Meta::Method::Accessor::Native::String::chomp | 2.2011
+Moose::Meta::Method::Accessor::Native::String::chop | 2.2011
+Moose::Meta::Method::Accessor::Native::String::clear | 2.2011
+Moose::Meta::Method::Accessor::Native::String::inc | 2.2011
+Moose::Meta::Method::Accessor::Native::String::length | 2.2011
+Moose::Meta::Method::Accessor::Native::String::match | 2.2011
+Moose::Meta::Method::Accessor::Native::String::prepend | 2.2011
+Moose::Meta::Method::Accessor::Native::String::replace | 2.2011
+Moose::Meta::Method::Accessor::Native::String::substr | 2.2011
+Moose::Meta::Method::Accessor::Native::Writer | 2.2011
+Moose::Meta::Method::Augmented | 2.2011
+Moose::Meta::Method::Constructor | 2.2011
+Moose::Meta::Method::Delegation | 2.2011
+Moose::Meta::Method::Destructor | 2.2011
+Moose::Meta::Method::Meta | 2.2011
+Moose::Meta::Method::Overridden | 2.2011
+Moose::Meta::Mixin::AttributeCore | 2.2011
+Moose::Meta::Object::Trait | 2.2011
+Moose::Meta::Role | 2.2011
+Moose::Meta::Role::Application | 2.2011
+Moose::Meta::Role::Application::RoleSummation | 2.2011
+Moose::Meta::Role::Application::ToClass | 2.2011
+Moose::Meta::Role::Application::ToInstance | 2.2011
+Moose::Meta::Role::Application::ToRole | 2.2011
+Moose::Meta::Role::Attribute | 2.2011
+Moose::Meta::Role::Composite | 2.2011
+Moose::Meta::Role::Method | 2.2011
+Moose::Meta::Role::Method::Conflicting | 2.2011
+Moose::Meta::Role::Method::Required | 2.2011
+Moose::Meta::TypeCoercion | 2.2011
+Moose::Meta::TypeCoercion::Union | 2.2011
+Moose::Meta::TypeConstraint | 2.2011
+Moose::Meta::TypeConstraint::Class | 2.2011
+Moose::Meta::TypeConstraint::DuckType | 2.2011
+Moose::Meta::TypeConstraint::Enum | 2.2011
+Moose::Meta::TypeConstraint::Parameterizable | 2.2011
+Moose::Meta::TypeConstraint::Parameterized | 2.2011
+Moose::Meta::TypeConstraint::Registry | 2.2011
+Moose::Meta::TypeConstraint::Role | 2.2011
+Moose::Meta::TypeConstraint::Union | 2.2011
+Moose::Object | 2.2011
+Moose::Role | 2.2011
+Moose::Util | 2.2011
+Moose::Util::MetaRole | 2.2011
+Moose::Util::TypeConstraints | 2.2011
+Moose::Util::TypeConstraints::Builtins | 2.2011
+MooseX::Adopt::Class::Accessor::Fast | 0.009032
+MooseX::Aliases | 0.11
+MooseX::Aliases::Meta::Trait::Attribute | 0.11
+MooseX::Aliases::Meta::Trait::Class | 0.11
+MooseX::Aliases::Meta::Trait::Method | 0.11
+MooseX::Aliases::Meta::Trait::Role | 0.11
+MooseX::Aliases::Meta::Trait::Role::ApplicationToClass | 0.11
+MooseX::Aliases::Meta::Trait::Role::ApplicationToRole | 0.11
+MooseX::Aliases::Meta::Trait::Role::Composite | 0.11
+MooseX::App::Cmd | 0.32
+MooseX::App::Cmd::Command | 0.32
+MooseX::ArrayRef | 0.005
+MooseX::ArrayRef::Meta::Class | 0.005
+MooseX::ArrayRef::Meta::Instance | 0.005
+MooseX::ClassAttribute | 0.29
+MooseX::ClassAttribute::Meta::Role::Attribute | 0.29
+MooseX::ClassAttribute::Trait::Application | 0.29
+MooseX::ClassAttribute::Trait::Application::ToClass | 0.29
+MooseX::ClassAttribute::Trait::Application::ToRole | 0.29
+MooseX::ClassAttribute::Trait::Attribute | 0.29
+MooseX::ClassAttribute::Trait::Class | 0.29
+MooseX::ClassAttribute::Trait::Mixin::HasClassAttributes | 0.29
+MooseX::ClassAttribute::Trait::Role | 0.29
+MooseX::ClassAttribute::Trait::Role::Composite | 0.29
+MooseX::Clone | 0.06
+MooseX::Clone::Meta::Attribute::Trait::Clone | 0.06
+MooseX::Clone::Meta::Attribute::Trait::Clone::Base | 0.06
+MooseX::Clone::Meta::Attribute::Trait::Clone::Std | 0.06
+MooseX::Clone::Meta::Attribute::Trait::Copy | 0.06
+MooseX::Clone::Meta::Attribute::Trait::NoClone | 0.06
+MooseX::Clone::Meta::Attribute::Trait::StorableClone | 0.06
+MooseX::ConfigFromFile | 0.14
+MooseX::Configuration | 0.02
+MooseX::Configuration::Trait::Attribute | 0.02
+MooseX::Configuration::Trait::Attribute::ConfigKey | 0.02
+MooseX::Configuration::Trait::Object | 0.02
+MooseX::Daemonize | 0.21
+MooseX::Daemonize::Core | 0.21
+MooseX::Daemonize::Pid | 0.21
+MooseX::Daemonize::Pid::File | 0.21
+MooseX::Daemonize::WithPidFile | 0.21
+MooseX::Declare | 0.43
+MooseX::Declare::Context | 0.43
+MooseX::Declare::Context::Namespaced | 0.43
+MooseX::Declare::Context::Parameterized | 0.43
+MooseX::Declare::Syntax::EmptyBlockIfMissing | 0.43
+MooseX::Declare::Syntax::Extending | 0.43
+MooseX::Declare::Syntax::InnerSyntaxHandling | 0.43
+MooseX::Declare::Syntax::Keyword::Class | 0.43
+MooseX::Declare::Syntax::Keyword::Clean | 0.43
+MooseX::Declare::Syntax::Keyword::Method | 0.43
+MooseX::Declare::Syntax::Keyword::MethodModifier | 0.43
+MooseX::Declare::Syntax::Keyword::Namespace | 0.43
+MooseX::Declare::Syntax::Keyword::Role | 0.43
+MooseX::Declare::Syntax::Keyword::With | 0.43
+MooseX::Declare::Syntax::KeywordHandling | 0.43
+MooseX::Declare::Syntax::MethodDeclaration | 0.43
+MooseX::Declare::Syntax::MooseSetup | 0.43
+MooseX::Declare::Syntax::NamespaceHandling | 0.43
+MooseX::Declare::Syntax::OptionHandling | 0.43
+MooseX::Declare::Syntax::RoleApplication | 0.43
+MooseX::Declare::Util | 0.43
+MooseX::Emulate::Class::Accessor::Fast | 0.009032
+MooseX::Emulate::Class::Accessor::Fast::Meta::Accessor | unknown
+MooseX::Emulate::Class::Accessor::Fast::Meta::Role::Attribute | unknown
+MooseX::Getopt | 0.71
+MooseX::Getopt::Basic | 0.71
+MooseX::Getopt::Dashes | 0.71
+MooseX::Getopt::GLD | 0.71
+MooseX::Getopt::Meta::Attribute | 0.71
+MooseX::Getopt::Meta::Attribute::NoGetopt | 0.71
+MooseX::Getopt::Meta::Attribute::Trait | 0.71
+MooseX::Getopt::Meta::Attribute::Trait::NoGetopt | 0.71
+MooseX::Getopt::OptionTypeMap | 0.71
+MooseX::Getopt::ProcessedArgv | 0.71
+MooseX::Getopt::Strict | 0.71
+MooseX::Getopt::Usage | 0.24
+MooseX::Getopt::Usage::Formatter | 0.24
+MooseX::Getopt::Usage::Pod::Text | 0.24
+MooseX::Getopt::Usage::Role::Man | 0.24
+MooseX::GlobRef | 0.0701
+MooseX::GlobRef::Object | 0.0701
+MooseX::GlobRef::Role::Meta::Instance | 0.0701
+MooseX::GlobRef::Role::Object | 0.0701
+MooseX::InsideOut | 0.106
+MooseX::InsideOut::Role::Meta::Instance | 0.106
+MooseX::Iterator | 0.11
+MooseX::Iterator::Array | 0.11
+MooseX::Iterator::Hash | 0.11
+MooseX::Iterator::Meta::Iterable | 0.11
+MooseX::Iterator::Role | 0.11
+MooseX::LazyLogDispatch | 0.02
+MooseX::LazyLogDispatch::Levels | 0.02
+MooseX::LazyRequire | 0.11
+MooseX::LazyRequire::Meta::Attribute::Trait::LazyRequire | 0.11
+MooseX::Log::Log4perl | 0.47
+MooseX::Log::Log4perl::Easy | 0.47
+MooseX::LogDispatch | 1.2002
+MooseX::LogDispatch::Levels | unknown
+MooseX::MarkAsMethods | 0.15
+MooseX::Meta::TypeConstraint::ForceCoercion | 0.01
+MooseX::Method::Signatures | 0.49
+MooseX::Method::Signatures::Meta::Method | 0.49
+MooseX::Method::Signatures::Types | 0.49
+MooseX::MethodAttributes | 0.31
+MooseX::MethodAttributes::Inheritable | 0.31
+MooseX::MethodAttributes::Role | 0.31
+MooseX::MethodAttributes::Role::AttrContainer | 0.31
+MooseX::MethodAttributes::Role::AttrContainer::Inheritable | 0.31
+MooseX::MethodAttributes::Role::Meta::Class | 0.31
+MooseX::MethodAttributes::Role::Meta::Map | 0.31
+MooseX::MethodAttributes::Role::Meta::Method | 0.31
+MooseX::MethodAttributes::Role::Meta::Method::MaybeWrapped | 0.31
+MooseX::MethodAttributes::Role::Meta::Method::Wrapped | 0.31
+MooseX::MethodAttributes::Role::Meta::Role | 0.31
+MooseX::MethodAttributes::Role::Meta::Role::Application | 0.31
+MooseX::MethodAttributes::Role::Meta::Role::Application::Summation | 0.31
+MooseX::NonMoose | 0.26
+MooseX::NonMoose::InsideOut | 0.26
+MooseX::NonMoose::Meta::Role::Class | 0.26
+MooseX::NonMoose::Meta::Role::Constructor | 0.26
+MooseX::Object::Pluggable | 0.0014
+MooseX::OneArgNew | 0.005
+MooseX::Param | 0.02
+MooseX::Params::Validate | 0.21
+MooseX::Params::Validate::Exception::ValidationFailedForTypeConstraint | 0.21
+MooseX::POE | 0.215
+MooseX::POE::Aliased | 0.215
+MooseX::POE::Meta::Method::State | 0.215
+MooseX::POE::Meta::Role | 0.215
+MooseX::POE::Meta::Trait | 0.215
+MooseX::POE::Meta::Trait::Class | 0.215
+MooseX::POE::Meta::Trait::Instance | 0.215
+MooseX::POE::Meta::Trait::Object | 0.215
+MooseX::POE::Meta::Trait::SweetArgs | 0.215
+MooseX::POE::Role | 0.215
+MooseX::POE::SweetArgs | 0.215
+MooseX::RelatedClassRoles | 0.004
+MooseX::Role::Cmd | 0.10
+MooseX::Role::Cmd::Meta::Attribute::Trait | unknown
+MooseX::Role::Parameterised | 1.10
+MooseX::Role::Parameterized | 1.10
+MooseX::Role::Parameterized::Meta::Role::Parameterized | 1.10
+MooseX::Role::Parameterized::Meta::Trait::Parameterizable | 1.10
+MooseX::Role::Parameterized::Meta::Trait::Parameterized | 1.10
+MooseX::Role::Parameterized::Parameters | 1.10
+MooseX::Role::TraitConstructor | 0.01
+MooseX::Role::WithOverloading | 0.17
+MooseX::Role::WithOverloading::Meta::Role | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToClass | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToInstance | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToRole | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::FixOverloadedRefs | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::ToClass | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::ToInstance | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Application::ToRole | 0.17
+MooseX::Role::WithOverloading::Meta::Role::Composite | 0.17
+MooseX::SemiAffordanceAccessor | 0.10
+MooseX::SemiAffordanceAccessor::Role::Attribute | 0.10
+MooseX::SetOnce | 0.200002
+MooseX::SimpleConfig | 0.11
+MooseX::Singleton | 0.30
+MooseX::Singleton::Role::Meta::Class | 0.30
+MooseX::Singleton::Role::Meta::Instance | 0.30
+MooseX::Singleton::Role::Meta::Method::Constructor | 0.30
+MooseX::Singleton::Role::Object | 0.30
+MooseX::Storage | 0.52
+MooseX::Storage::Base::WithChecksum | 0.52
+MooseX::Storage::Basic | 0.52
+MooseX::Storage::Deferred | 0.52
+MooseX::Storage::Engine | 0.52
+MooseX::Storage::Engine::IO::AtomicFile | 0.52
+MooseX::Storage::Engine::IO::File | 0.52
+MooseX::Storage::Engine::Trait::DisableCycleDetection | 0.52
+MooseX::Storage::Engine::Trait::OnlyWhenBuilt | 0.52
+MooseX::Storage::Format::JSON | 0.52
+MooseX::Storage::Format::Storable | 0.52
+MooseX::Storage::Format::YAML | 0.52
+MooseX::Storage::IO::AtomicFile | 0.52
+MooseX::Storage::IO::File | 0.52
+MooseX::Storage::IO::StorableFile | 0.52
+MooseX::Storage::Meta::Attribute::DoNotSerialize | 0.52
+MooseX::Storage::Meta::Attribute::Trait::DoNotSerialize | 0.52
+MooseX::Storage::Traits::DisableCycleDetection | 0.52
+MooseX::Storage::Traits::OnlyWhenBuilt | 0.52
+MooseX::Storage::Util | 0.52
+MooseX::StrictConstructor | 0.21
+MooseX::StrictConstructor::Trait::Class | 0.21
+MooseX::StrictConstructor::Trait::Method::Constructor | 0.21
+MooseX::Traits | 0.13
+MooseX::Traits::Pluggable | 0.12
+MooseX::Traits::Util | 0.13
+MooseX::Types | 0.50
+MooseX::Types::Base | 0.50
+MooseX::Types::CheckedUtilExports | 0.50
+MooseX::Types::Combine | 0.50
+MooseX::Types::Common | 0.001014
+MooseX::Types::Common::Numeric | 0.001014
+MooseX::Types::Common::String | 0.001014
+MooseX::Types::DateTime | 0.13
+MooseX::Types::LoadableClass | 0.015
+MooseX::Types::Moose | 0.50
+MooseX::Types::Path::Class | 0.09
+MooseX::Types::Path::Tiny | 0.012
+MooseX::Types::Perl | 0.101343
+MooseX::Types::Set::Object | 0.05
+MooseX::Types::Stringlike | 0.003
+MooseX::Types::Structured | 0.36
+MooseX::Types::TypeDecorator | 0.50
+MooseX::Types::UndefinedType | 0.50
+MooseX::Types::Util | 0.50
+MooseX::Types::Wrapper | 0.50
+MooseX::Workers | 0.24
+MooseX::Workers::Engine | 0.24
+MooseX::Workers::Job | 0.24
+MooX::HandlesVia | 0.001008
+MooX::Types::MooseLike | 0.29
+MooX::Types::MooseLike::Base | 0.29
+MooX::Types::MooseLike::Numeric | 1.03
+Mozilla::CA | 20180117
+MRO::Compat | 0.13
+multidimensional | 0.014
+MyApp::Schema | 0.001
+MyApplication::Form::User | unknown
+MyPersonHandler | 0.14
+namespace::autoclean | 0.28
+namespace::clean | 0.27
+Net::Domain::TLD | 1.75
+Net::EmptyPort | unknown
+Net::HTTP | 6.18
+Net::HTTP::Methods | 6.18
+Net::HTTP::NB | 6.18
+Net::HTTPS | 6.18
+Net::Server | 2.009
+Net::Server::Daemonize | 0.06
+Net::Server::Fork | unknown
+Net::Server::HTTP | unknown
+Net::Server::INET | unknown
+Net::Server::Log::Log::Log4perl | unknown
+Net::Server::Log::Sys::Syslog | unknown
+Net::Server::Multiplex | unknown
+Net::Server::MultiType | unknown
+Net::Server::PreFork | unknown
+Net::Server::PreForkSimple | unknown
+Net::Server::Proto | unknown
+Net::Server::Proto::SSL | unknown
+Net::Server::Proto::SSLEAY | unknown
+Net::Server::Proto::TCP | unknown
+Net::Server::Proto::UDP | unknown
+Net::Server::Proto::UNIX | unknown
+Net::Server::Proto::UNIXDGRAM | unknown
+Net::Server::PSGI | unknown
+Net::Server::SIG | 0.03
+Net::Server::Single | unknown
+Net::SSLeay | 1.85
+Net::SSLeay::Handle | 0.61
+NetAddr::IP | 4.079
+NetAddr::IP::InetBase | 0.08
+NetAddr::IP::Lite | 1.57
+NetAddr::IP::Util | 1.53
+NetAddr::IP::Util_IS | 1
+NetAddr::IP::UtilPP | 1.09
+ntheory | 0.70
+Number::Compare | 0.03
+Number::Format | 1.75
+Number::Misc | 1.2
+Obj | 1.39
+Object::InsideOut | 4.04
+Object::InsideOut | unknown
+Object::InsideOut | unknown
+Object::InsideOut | unknown
+Object::InsideOut | 4.04
+Object::InsideOut | unknown
+Object::InsideOut | unknown
+Object::InsideOut | unknown
+Object::InsideOut | unknown
+Object::InsideOut | unknown
+Object::InsideOut | unknown
+Object::InsideOut::Exception | 4.04
+Object::InsideOut::Metadata | 4.04
+Object::InsideOut::Secure | 4.04
+Object::InsideOut::Util | 4.04
+Object::Signature | 1.07
+Object::Signature::File | 1.07
+ojo | unknown
+ok | 1.302138
+OLE::Storage_Lite::PPS | 0.19
+oo | unknown
+oose | 2.2011
+Package::DeprecationManager | 0.17
+Package::Stash | 0.37
+Package::Stash::PP | 0.37
+Package::Stash::XS | 0.28
+Package::Variant | 1.003002
+PadWalker | 2.3
+Parallel::ForkManager | 1.20
+Params::Util | 1.07
+Params::Validate | 1.29
+Params::Validate::Constants | 1.29
+Params::Validate::PP | 1.29
+Params::Validate::XS | 1.29
+Params::ValidationCompiler | 0.27
+Params::ValidationCompiler::Compiler | 0.27
+Params::ValidationCompiler::Exceptions | 0.27
+Parse::Method::Signatures | 1.003019
+Parse::Method::Signatures::Param | unknown
+Parse::Method::Signatures::Param::Bindable | unknown
+Parse::Method::Signatures::Param::Named | unknown
+Parse::Method::Signatures::Param::Placeholder | unknown
+Parse::Method::Signatures::Param::Positional | unknown
+Parse::Method::Signatures::Param::Unpacked | unknown
+Parse::Method::Signatures::Param::Unpacked::Array | unknown
+Parse::Method::Signatures::Param::Unpacked::Hash | unknown
+Parse::Method::Signatures::ParamCollection | unknown
+Parse::Method::Signatures::Sig | unknown
+Parse::Method::Signatures::TypeConstraint | unknown
+Parse::Method::Signatures::Types | unknown
+Parse::PMFile | 0.41
+Parse::RecDescent | 1.967015
+Parse::Yapp | 1.21
+Parse::Yapp::Driver | 1.21
+Parse::Yapp::Grammar | unknown
+Parse::Yapp::Lalr | unknown
+Parse::Yapp::Options | unknown
+Parse::Yapp::Output | unknown
+Parse::Yapp::Parse | unknown
+Path::Class | 0.37
+Path::Class::Dir | 0.37
+Path::Class::Entity | 0.37
+Path::Class::File | 0.37
+Path::FindDev | unknown
+Path::FindDev::Object | unknown
+Path::IsDev | 1.001003
+Path::IsDev::Heuristic::Changelog | 1.001003
+Path::IsDev::Heuristic::DevDirMarker | 1.001003
+Path::IsDev::Heuristic::Makefile | 1.001003
+Path::IsDev::Heuristic::META | 1.001003
+Path::IsDev::Heuristic::MYMETA | 1.001003
+Path::IsDev::Heuristic::TestDir | 1.001003
+Path::IsDev::Heuristic::Tool::Dzil | 1.001003
+Path::IsDev::Heuristic::Tool::MakeMaker | 1.001003
+Path::IsDev::Heuristic::Tool::ModuleBuild | 1.001003
+Path::IsDev::Heuristic::VCS::Git | 1.001003
+Path::IsDev::HeuristicSet::Basic | 1.001003
+Path::IsDev::NegativeHeuristic::HomeDir | 1.001003
+Path::IsDev::NegativeHeuristic::IsDev::IgnoreFile | 1.001003
+Path::IsDev::NegativeHeuristic::PerlINC | 1.001003
+Path::IsDev::Object | 1.001003
+Path::IsDev::Result | 1.001003
+Path::IsDev::Role::Heuristic | 1.001003
+Path::IsDev::Role::HeuristicSet | 1.001003
+Path::IsDev::Role::HeuristicSet::Simple | 1.001003
+Path::IsDev::Role::Matcher::Child::BaseName::MatchRegexp | 1.001003
+Path::IsDev::Role::Matcher::Child::BaseName::MatchRegexp::File | 1.001003
+Path::IsDev::Role::Matcher::Child::Exists::Any | 1.001003
+Path::IsDev::Role::Matcher::Child::Exists::Any::Dir | 1.001003
+Path::IsDev::Role::Matcher::Child::Exists::Any::File | 1.001003
+Path::IsDev::Role::Matcher::FullPath::Is::Any | 1.001003
+Path::IsDev::Role::NegativeHeuristic | 1.001003
+Path::Tiny | 0.106
+PDL | unknown
+PDL::Bad | unknown
+PDL::Basic | unknown
+PDL::CallExt | unknown
+PDL::Char | unknown
+PDL::Complex | 2.009
+PDL::Compression | unknown
+PDL::Constants | 0.02
+PDL::Core | 2.019
+PDL::Core::Dev | unknown
+PDL::Dbg | unknown
+PDL::Demos::BAD2_demo | unknown
+PDL::Demos::BAD_demo | unknown
+PDL::Demos::Cartography_demo | unknown
+PDL::Demos::General | unknown
+PDL::Demos::Gnuplot_demo | unknown
+PDL::Demos::PGPLOT_demo | unknown
+PDL::Demos::PGPLOT_OO_demo | unknown
+PDL::Demos::Prima | unknown
+PDL::Demos::Routines | unknown
+PDL::Demos::Transform_demo | unknown
+PDL::Demos::TriD1 | unknown
+PDL::Demos::TriD2 | unknown
+PDL::Demos::TriDGallery | unknown
+PDL::Doc::Config | unknown
+PDL::Doc::Perldl | unknown
+PDL::FFT | unknown
+PDL::Filter::Linear | unknown
+PDL::Filter::LinSmooth | unknown
+PDL::Fit::Gaussian | unknown
+PDL::Fit::Linfit | unknown
+PDL::Fit::LM | unknown
+PDL::Fit::Polynomial | unknown
+PDL::Func | unknown
+PDL::Graphics2D | unknown
+PDL::Graphics::IIS | unknown
+PDL::Graphics::Limits | 0.01
+PDL::Graphics::LUT | unknown
+PDL::Graphics::PGPLOT | unknown
+PDL::Graphics::PGPLOT::Window | unknown
+PDL::Graphics::PGPLOTOptions | unknown
+PDL::Graphics::State | unknown
+PDL::GSL::DIFF | unknown
+PDL::GSL::INTEG | unknown
+PDL::GSL::INTERP | unknown
+PDL::GSL::MROOT | unknown
+PDL::GSL::RNG | unknown
+PDL::GSLSF::AIRY | unknown
+PDL::GSLSF::BESSEL | unknown
+PDL::GSLSF::CLAUSEN | unknown
+PDL::GSLSF::COULOMB | unknown
+PDL::GSLSF::COUPLING | unknown
+PDL::GSLSF::DAWSON | unknown
+PDL::GSLSF::DEBYE | unknown
+PDL::GSLSF::DILOG | unknown
+PDL::GSLSF::ELEMENTARY | unknown
+PDL::GSLSF::ELLINT | unknown
+PDL::GSLSF::ELLJAC | unknown
+PDL::GSLSF::ERF | unknown
+PDL::GSLSF::EXP | unknown
+PDL::GSLSF::EXPINT | unknown
+PDL::GSLSF::FERMI_DIRAC | unknown
+PDL::GSLSF::GAMMA | unknown
+PDL::GSLSF::GEGENBAUER | unknown
+PDL::GSLSF::HYPERG | unknown
+PDL::GSLSF::LAGUERRE | unknown
+PDL::GSLSF::LEGENDRE | unknown
+PDL::GSLSF::LOG | unknown
+PDL::GSLSF::POLY | unknown
+PDL::GSLSF::POW_INT | unknown
+PDL::GSLSF::PSI | unknown
+PDL::GSLSF::SYNCHROTRON | unknown
+PDL::GSLSF::TRANSPORT | unknown
+PDL::GSLSF::TRIG | unknown
+PDL::GSLSF::ZETA | unknown
+PDL::Image2D | unknown
+PDL::ImageND | unknown
+PDL::ImageRGB | unknown
+PDL::Install::Files | 2.009
+PDL::IO::Dicom | unknown
+PDL::IO::Dumper | 1.3.2
+PDL::IO::FastRaw | unknown
+PDL::IO::FITS | 0.92
+PDL::IO::FlexRaw | unknown
+PDL::IO::GD | unknown
+PDL::IO::Misc | unknown
+PDL::IO::Pic | unknown
+PDL::IO::Pnm | unknown
+PDL::IO::Storable | unknown
+PDL::Lite | unknown
+PDL::LiteF | unknown
+PDL::Lvalue | unknown
+PDL::Math | unknown
+PDL::Matrix | 0.5
+PDL::MatrixOps | unknown
+PDL::MyMod | unknown
+PDL::NiceSlice | 1.001
+PDL::Ops | unknown
+PDL::Opt::Simplex | unknown
+PDL::Options | 0.92
+PDL::Perldl2::Plugin::CleanErrors | unknown
+PDL::Perldl2::Plugin::NiceSlice | unknown
+PDL::Perldl2::Plugin::PDLCommands | unknown
+PDL::Perldl2::Plugin::PrintControl | unknown
+PDL::Perldl2::Profile::Perldl2 | 0.008
+PDL::Perldl2::Script | unknown
+PDL::PodParser | unknown
+PDL::PP::Code | unknown
+PDL::PP::Dump | unknown
+PDL::PP::PdlDimsObj | unknown
+PDL::PP::PdlParObj | unknown
+PDL::PP::Rule | 2.3
+PDL::PP::Signature | unknown
+PDL::Primitive | unknown
+PDL::Reduce | unknown
+PDL::Slices | unknown
+PDL::Transform | unknown
+PDL::Transform::Cartography | 0.6
+PDL::Types | unknown
+PDL::Ufunc | unknown
+PDL::Version | 2.019
+Pegex | 0.64
+Pegex::Base | unknown
+Pegex::Bootstrap | unknown
+Pegex::Compiler | unknown
+Pegex::Grammar | unknown
+Pegex::Grammar::Atoms | unknown
+Pegex::Input | unknown
+Pegex::Module | unknown
+Pegex::Optimizer | unknown
+Pegex::Parser | unknown
+Pegex::Parser::Indent | unknown
+Pegex::Pegex::AST | unknown
+Pegex::Pegex::Grammar | unknown
+Pegex::Receiver | unknown
+Pegex::Regex | unknown
+Pegex::Tree | unknown
+Pegex::Tree::Wrap | unknown
+Perl6::Export | 0.07
+Perl6::Form | 0.06
+Perl::Critic | 1.132
+Perl::Critic::Annotation | 1.132
+Perl::Critic::Command | 1.132
+Perl::Critic::Config | 1.132
+Perl::Critic::Document | 1.132
+Perl::Critic::Exception | 1.132
+Perl::Critic::Exception::AggregateConfiguration | 1.132
+Perl::Critic::Exception::Configuration | 1.132
+Perl::Critic::Exception::Configuration::Generic | 1.132
+Perl::Critic::Exception::Configuration::NonExistentPolicy | 1.132
+Perl::Critic::Exception::Configuration::Option | 1.132
+Perl::Critic::Exception::Configuration::Option::Global | 1.132
+Perl::Critic::Exception::Configuration::Option::Global::ExtraParameter | 1.132
+Perl::Critic::Exception::Configuration::Option::Global::ParameterValue | 1.132
+Perl::Critic::Exception::Configuration::Option::Policy | 1.132
+Perl::Critic::Exception::Configuration::Option::Policy::ExtraParameter | 1.132
+Perl::Critic::Exception::Configuration::Option::Policy::ParameterValue | 1.132
+Perl::Critic::Exception::Fatal | 1.132
+Perl::Critic::Exception::Fatal::Generic | 1.132
+Perl::Critic::Exception::Fatal::Internal | 1.132
+Perl::Critic::Exception::Fatal::PolicyDefinition | 1.132
+Perl::Critic::Exception::IO | 1.132
+Perl::Critic::Exception::Parse | 1.132
+Perl::Critic::OptionsProcessor | 1.132
+Perl::Critic::Policy | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitBooleanGrep | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitComplexMappings | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitLvalueSubstr | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitReverseSortBlock | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitSleepViaSelect | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitStringyEval | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitStringySplit | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitUniversalCan | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitUniversalIsa | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitUselessTopic | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitVoidGrep | 1.132
+Perl::Critic::Policy::BuiltinFunctions::ProhibitVoidMap | 1.132
+Perl::Critic::Policy::BuiltinFunctions::RequireBlockGrep | 1.132
+Perl::Critic::Policy::BuiltinFunctions::RequireBlockMap | 1.132
+Perl::Critic::Policy::BuiltinFunctions::RequireGlobFunction | 1.132
+Perl::Critic::Policy::BuiltinFunctions::RequireSimpleSortBlock | 1.132
+Perl::Critic::Policy::ClassHierarchies::ProhibitAutoloading | 1.132
+Perl::Critic::Policy::ClassHierarchies::ProhibitExplicitISA | 1.132
+Perl::Critic::Policy::ClassHierarchies::ProhibitOneArgBless | 1.132
+Perl::Critic::Policy::CodeLayout::ProhibitHardTabs | 1.132
+Perl::Critic::Policy::CodeLayout::ProhibitParensWithBuiltins | 1.132
+Perl::Critic::Policy::CodeLayout::ProhibitQuotedWordLists | 1.132
+Perl::Critic::Policy::CodeLayout::ProhibitTrailingWhitespace | 1.132
+Perl::Critic::Policy::CodeLayout::RequireConsistentNewlines | 1.132
+Perl::Critic::Policy::CodeLayout::RequireTidyCode | 1.132
+Perl::Critic::Policy::CodeLayout::RequireTrailingCommas | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitCascadingIfElse | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitCStyleForLoops | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitDeepNests | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitLabelsWithSpecialBlockNames | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitMutatingListFunctions | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitNegativeExpressionsInUnlessAndUntilConditions | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitPostfixControls | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitUnlessBlocks | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitUnreachableCode | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitUntilBlocks | 1.132
+Perl::Critic::Policy::ControlStructures::ProhibitYadaOperator | 1.132
+Perl::Critic::Policy::Documentation::PodSpelling | 1.132
+Perl::Critic::Policy::Documentation::RequirePackageMatchesPodName | 1.132
+Perl::Critic::Policy::Documentation::RequirePodAtEnd | 1.132
+Perl::Critic::Policy::Documentation::RequirePodLinksIncludeText | 1.132
+Perl::Critic::Policy::Documentation::RequirePodSections | 1.132
+Perl::Critic::Policy::ErrorHandling::RequireCarping | 1.132
+Perl::Critic::Policy::ErrorHandling::RequireCheckingReturnValueOfEval | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitBacktickOperators | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitBarewordFileHandles | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitExplicitStdin | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitInteractiveTest | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitJoinedReadline | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitOneArgSelect | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitReadlineInForLoop | 1.132
+Perl::Critic::Policy::InputOutput::ProhibitTwoArgOpen | 1.132
+Perl::Critic::Policy::InputOutput::RequireBracedFileHandleWithPrint | 1.132
+Perl::Critic::Policy::InputOutput::RequireBriefOpen | 1.132
+Perl::Critic::Policy::InputOutput::RequireCheckedClose | 1.132
+Perl::Critic::Policy::InputOutput::RequireCheckedOpen | 1.132
+Perl::Critic::Policy::InputOutput::RequireCheckedSyscalls | 1.132
+Perl::Critic::Policy::InputOutput::RequireEncodingWithUTF8Layer | 1.132
+Perl::Critic::Policy::Miscellanea::ProhibitFormats | 1.132
+Perl::Critic::Policy::Miscellanea::ProhibitTies | 1.132
+Perl::Critic::Policy::Miscellanea::ProhibitUnrestrictedNoCritic | 1.132
+Perl::Critic::Policy::Miscellanea::ProhibitUselessNoCritic | 1.132
+Perl::Critic::Policy::Modules::ProhibitAutomaticExportation | 1.132
+Perl::Critic::Policy::Modules::ProhibitConditionalUseStatements | 1.132
+Perl::Critic::Policy::Modules::ProhibitEvilModules | 1.132
+Perl::Critic::Policy::Modules::ProhibitExcessMainComplexity | 1.132
+Perl::Critic::Policy::Modules::ProhibitMultiplePackages | 1.132
+Perl::Critic::Policy::Modules::RequireBarewordIncludes | 1.132
+Perl::Critic::Policy::Modules::RequireEndWithOne | 1.132
+Perl::Critic::Policy::Modules::RequireExplicitPackage | 1.132
+Perl::Critic::Policy::Modules::RequireFilenameMatchesPackage | 1.132
+Perl::Critic::Policy::Modules::RequireNoMatchVarsWithUseEnglish | 1.132
+Perl::Critic::Policy::Modules::RequireVersionVar | 1.132
+Perl::Critic::Policy::NamingConventions::Capitalization | 1.132
+Perl::Critic::Policy::NamingConventions::ProhibitAmbiguousNames | 1.132
+Perl::Critic::Policy::Objects::ProhibitIndirectSyntax | 1.132
+Perl::Critic::Policy::References::ProhibitDoubleSigils | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitCaptureWithoutTest | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitComplexRegexes | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitEnumeratedClasses | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitEscapedMetacharacters | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitFixedStringMatches | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitSingleCharAlternation | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitUnusedCapture | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitUnusualDelimiters | 1.132
+Perl::Critic::Policy::RegularExpressions::ProhibitUselessTopic | 1.132
+Perl::Critic::Policy::RegularExpressions::RequireBracesForMultiline | 1.132
+Perl::Critic::Policy::RegularExpressions::RequireDotMatchAnything | 1.132
+Perl::Critic::Policy::RegularExpressions::RequireExtendedFormatting | 1.132
+Perl::Critic::Policy::RegularExpressions::RequireLineBoundaryMatching | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitAmpersandSigils | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitBuiltinHomonyms | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitExcessComplexity | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitExplicitReturnUndef | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitManyArgs | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitNestedSubs | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitReturnSort | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitSubroutinePrototypes | 1.132
+Perl::Critic::Policy::Subroutines::ProhibitUnusedPrivateSubroutines | 1.132
+Perl::Critic::Policy::Subroutines::ProtectPrivateSubs | 1.132
+Perl::Critic::Policy::Subroutines::RequireArgUnpacking | 1.132
+Perl::Critic::Policy::Subroutines::RequireFinalReturn | 1.132
+Perl::Critic::Policy::TestingAndDebugging::ProhibitNoStrict | 1.132
+Perl::Critic::Policy::TestingAndDebugging::ProhibitNoWarnings | 1.132
+Perl::Critic::Policy::TestingAndDebugging::ProhibitProlongedStrictureOverride | 1.132
+Perl::Critic::Policy::TestingAndDebugging::RequireTestLabels | 1.132
+Perl::Critic::Policy::TestingAndDebugging::RequireUseStrict | 1.132
+Perl::Critic::Policy::TestingAndDebugging::RequireUseWarnings | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitCommaSeparatedStatements | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitComplexVersion | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitConstantPragma | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitEmptyQuotes | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitEscapedCharacters | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitImplicitNewlines | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitInterpolationOfLiterals | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitLeadingZeros | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitLongChainsOfMethodCalls | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitMagicNumbers | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitMismatchedOperators | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitMixedBooleanOperators | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitNoisyQuotes | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitQuotesAsQuotelikeOperatorDelimiters | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitSpecialLiteralHeredocTerminator | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitVersionStrings | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::RequireConstantVersion | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::RequireInterpolationOfMetachars | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::RequireNumberSeparators | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::RequireQuotedHeredocTerminator | 1.132
+Perl::Critic::Policy::ValuesAndExpressions::RequireUpperCaseHeredocTerminator | 1.132
+Perl::Critic::Policy::Variables::ProhibitAugmentedAssignmentInDeclaration | 1.132
+Perl::Critic::Policy::Variables::ProhibitConditionalDeclarations | 1.132
+Perl::Critic::Policy::Variables::ProhibitEvilVariables | 1.132
+Perl::Critic::Policy::Variables::ProhibitLocalVars | 1.132
+Perl::Critic::Policy::Variables::ProhibitMatchVars | 1.132
+Perl::Critic::Policy::Variables::ProhibitPackageVars | 1.132
+Perl::Critic::Policy::Variables::ProhibitPerl4PackageNames | 1.132
+Perl::Critic::Policy::Variables::ProhibitPunctuationVars | 1.132
+Perl::Critic::Policy::Variables::ProhibitReusedNames | 1.132
+Perl::Critic::Policy::Variables::ProhibitUnusedVariables | 1.132
+Perl::Critic::Policy::Variables::ProtectPrivateVars | 1.132
+Perl::Critic::Policy::Variables::RequireInitializationForLocalVars | 1.132
+Perl::Critic::Policy::Variables::RequireLexicalLoopIterators | 1.132
+Perl::Critic::Policy::Variables::RequireLocalizedPunctuationVars | 1.132
+Perl::Critic::Policy::Variables::RequireNegativeIndices | 1.132
+Perl::Critic::PolicyConfig | 1.132
+Perl::Critic::PolicyFactory | 1.132
+Perl::Critic::PolicyListing | 1.132
+Perl::Critic::PolicyParameter | 1.132
+Perl::Critic::PolicyParameter::Behavior | 1.132
+Perl::Critic::PolicyParameter::Behavior::Boolean | 1.132
+Perl::Critic::PolicyParameter::Behavior::Enumeration | 1.132
+Perl::Critic::PolicyParameter::Behavior::Integer | 1.132
+Perl::Critic::PolicyParameter::Behavior::String | 1.132
+Perl::Critic::PolicyParameter::Behavior::StringList | 1.132
+Perl::Critic::ProfilePrototype | 1.132
+Perl::Critic::Statistics | 1.132
+Perl::Critic::TestUtils | 1.132
+Perl::Critic::Theme | 1.132
+Perl::Critic::ThemeListing | 1.132
+Perl::Critic::UserProfile | 1.132
+Perl::Critic::Utils | 1.132
+Perl::Critic::Utils::Constants | 1.132
+Perl::Critic::Utils::DataConversion | 1.132
+Perl::Critic::Utils::McCabe | 1.132
+Perl::Critic::Utils::Perl | 1.132
+Perl::Critic::Utils::POD | 1.132
+Perl::Critic::Utils::POD::ParseInteriorSequence | 1.132
+Perl::Critic::Utils::PPI | 1.132
+Perl::Critic::Violation | 1.132
+Perl::PrereqScanner | 1.023
+Perl::PrereqScanner::Scanner | 1.023
+Perl::PrereqScanner::Scanner::Aliased | 1.023
+Perl::PrereqScanner::Scanner::Moose | 1.023
+Perl::PrereqScanner::Scanner::Perl5 | 1.023
+Perl::PrereqScanner::Scanner::POE | 1.023
+Perl::PrereqScanner::Scanner::Superclass | 1.023
+Perl::PrereqScanner::Scanner::TestMore | 1.023
+Perl::Tidy | unknown
+Perl::Unsafe::Signals | 0.03
+Perl::Version | 1.013
+PerlIO::gzip | 0.20
+PerlIO::Layers | 0.011
+PerlIO::utf8_strict | 0.007
+PerlIO::via::Timeout | 0.32
+Pinto | 0.14
+Pinto::Action | 0.14
+Pinto::Action::Add | 0.14
+Pinto::Action::Clean | 0.14
+Pinto::Action::Copy | 0.14
+Pinto::Action::Default | 0.14
+Pinto::Action::Delete | 0.14
+Pinto::Action::Diff | 0.14
+Pinto::Action::Install | 0.14
+Pinto::Action::Kill | 0.14
+Pinto::Action::List | 0.14
+Pinto::Action::Lock | 0.14
+Pinto::Action::Log | 0.14
+Pinto::Action::Look | 0.14
+Pinto::Action::Merge | 0.14
+Pinto::Action::New | 0.14
+Pinto::Action::Nop | 0.14
+Pinto::Action::Pin | 0.14
+Pinto::Action::Props | 0.14
+Pinto::Action::Pull | 0.14
+Pinto::Action::Register | 0.14
+Pinto::Action::Rename | 0.14
+Pinto::Action::Reset | 0.14
+Pinto::Action::Revert | 0.14
+Pinto::Action::Roots | 0.14
+Pinto::Action::Stacks | 0.14
+Pinto::Action::Statistics | 0.14
+Pinto::Action::Unlock | 0.14
+Pinto::Action::Unpin | 0.14
+Pinto::Action::Unregister | 0.14
+Pinto::Action::Update | 0.14
+Pinto::Action::Verify | 0.14
+Pinto::ArchiveUnpacker | 0.14
+Pinto::Chrome | 0.14
+Pinto::Chrome::Net | 0.14
+Pinto::Chrome::Term | 0.14
+Pinto::Config | 0.14
+Pinto::Constants | 0.14
+Pinto::Database | 0.14
+Pinto::Difference | 0.14
+Pinto::DifferenceEntry | 0.14
+Pinto::Editor | 0.14
+Pinto::Editor::Clip | 0.14
+Pinto::Editor::Edit | 0.14
+Pinto::Exception | 0.14
+Pinto::Globals | 0.14
+Pinto::IndexReader | 0.14
+Pinto::IndexWriter | 0.14
+Pinto::Initializer | 0.14
+Pinto::Locator | 0.14
+Pinto::Locator::Mirror | 0.14
+Pinto::Locator::Multiplex | 0.14
+Pinto::Locator::Stratopan | 0.14
+Pinto::Locker | 0.14
+Pinto::Migrator | 0.14
+Pinto::ModlistWriter | 0.14
+Pinto::PackageExtractor | 0.14
+Pinto::PrerequisiteWalker | 0.14
+Pinto::Remote | 0.14
+Pinto::Remote::Action | 0.14
+Pinto::Remote::Action::Add | 0.14
+Pinto::Remote::Action::Install | 0.14
+Pinto::Remote::Result | 0.14
+Pinto::Repository | 0.14
+Pinto::Result | 0.14
+Pinto::RevisionWalker | 0.14
+Pinto::Role::Committable | 0.14
+Pinto::Role::Installer | 0.14
+Pinto::Role::PauseConfig | 0.14
+Pinto::Role::Plated | 0.14
+Pinto::Role::Puller | 0.14
+Pinto::Role::Schema::Result | 0.14
+Pinto::Role::Transactional | 0.14
+Pinto::Role::UserAgent | 0.14
+Pinto::Schema | 0.14
+Pinto::Schema::Result::Ancestry | 0.14
+Pinto::Schema::Result::Distribution | 0.14
+Pinto::Schema::Result::Package | 0.14
+Pinto::Schema::Result::Prerequisite | 0.14
+Pinto::Schema::Result::Registration | 0.14
+Pinto::Schema::Result::Revision | 0.14
+Pinto::Schema::Result::Stack | 0.14
+Pinto::Schema::ResultSet::Distribution | 0.14
+Pinto::Schema::ResultSet::Package | 0.14
+Pinto::Schema::ResultSet::Registration | 0.14
+Pinto::Server | 0.14
+Pinto::Server::Responder | 0.14
+Pinto::Server::Responder::Action | 0.14
+Pinto::Server::Responder::File | 0.14
+Pinto::Server::Router | 0.14
+Pinto::Shell | 0.14
+Pinto::Statistics | 0.14
+Pinto::Store | 0.14
+Pinto::Target | 0.14
+Pinto::Target::Distribution | 0.14
+Pinto::Target::Package | 0.14
+Pinto::Types | 0.14
+Pinto::Util | 0.14
+Plack | 1.0047
+Plack::App::Cascade | unknown
+Plack::App::CGIBin | unknown
+Plack::App::Directory | unknown
+Plack::App::File | unknown
+Plack::App::PSGIBin | unknown
+Plack::App::URLMap | unknown
+Plack::App::WrapCGI | unknown
+Plack::Builder | unknown
+Plack::Component | unknown
+Plack::Handler | unknown
+Plack::Handler::Apache1 | unknown
+Plack::Handler::Apache2 | unknown
+Plack::Handler::Apache2::Registry | unknown
+Plack::Handler::CGI | unknown
+Plack::Handler::FCGI | unknown
+Plack::Handler::HTTP::Server::PSGI | unknown
+Plack::Handler::HTTP::Server::Simple | 0.16
+Plack::Handler::Standalone | unknown
+Plack::Handler::Starman | unknown
+Plack::HTTPParser | unknown
+Plack::HTTPParser::PP | unknown
+Plack::Loader | unknown
+Plack::Loader::Delayed | unknown
+Plack::Loader::Restarter | unknown
+Plack::Loader::Shotgun | unknown
+Plack::LWPish | unknown
+Plack::Middleware | unknown
+Plack::Middleware::AccessLog | unknown
+Plack::Middleware::AccessLog::Timed | unknown
+Plack::Middleware::Auth::Basic | unknown
+Plack::Middleware::BufferedStreaming | unknown
+Plack::Middleware::Chunked | unknown
+Plack::Middleware::Conditional | unknown
+Plack::Middleware::ConditionalGET | unknown
+Plack::Middleware::ContentLength | unknown
+Plack::Middleware::ContentMD5 | unknown
+Plack::Middleware::ErrorDocument | unknown
+Plack::Middleware::FixMissingBodyInRedirect | 0.12
+Plack::Middleware::Head | unknown
+Plack::Middleware::HTTPExceptions | unknown
+Plack::Middleware::IIS6ScriptNameFix | unknown
+Plack::Middleware::IIS7KeepAliveFix | unknown
+Plack::Middleware::JSONP | unknown
+Plack::Middleware::LighttpdScriptNameFix | unknown
+Plack::Middleware::Lint | unknown
+Plack::Middleware::Log4perl | unknown
+Plack::Middleware::LogDispatch | unknown
+Plack::Middleware::MethodOverride | 0.20
+Plack::Middleware::NullLogger | unknown
+Plack::Middleware::RearrangeHeaders | unknown
+Plack::Middleware::Recursive | unknown
+Plack::Middleware::Refresh | unknown
+Plack::Middleware::RemoveRedundantBody | 0.06
+Plack::Middleware::ReverseProxy | 0.15
+Plack::Middleware::Runtime | unknown
+Plack::Middleware::SimpleContentFilter | unknown
+Plack::Middleware::SimpleLogger | unknown
+Plack::Middleware::StackTrace | unknown
+Plack::Middleware::Static | unknown
+Plack::Middleware::XFramework | unknown
+Plack::Middleware::XSendfile | unknown
+Plack::MIME | unknown
+Plack::Request | 1.0047
+Plack::Request::Upload | unknown
+Plack::Response | 1.0047
+Plack::Runner | unknown
+Plack::TempBuffer | unknown
+Plack::Test | unknown
+Plack::Test::ExternalServer | 0.02
+Plack::Test::MockHTTP | unknown
+Plack::Test::Server | unknown
+Plack::Test::Suite | unknown
+Plack::Util | unknown
+Plack::Util::Accessor | unknown
+Pod::Coverage | 0.23
+Pod::Coverage::CountParents | unknown
+Pod::Coverage::ExportOnly | unknown
+Pod::Coverage::Moose | 0.07
+Pod::Coverage::Overloader | unknown
+Pod::Coverage::TrustPod | 0.100005
+Pod::Elemental | 0.103004
+Pod::Elemental::Autoblank | 0.103004
+Pod::Elemental::Autochomp | 0.103004
+Pod::Elemental::Command | 0.103004
+Pod::Elemental::Document | 0.103004
+Pod::Elemental::Element::Generic::Blank | 0.103004
+Pod::Elemental::Element::Generic::Command | 0.103004
+Pod::Elemental::Element::Generic::Nonpod | 0.103004
+Pod::Elemental::Element::Generic::Text | 0.103004
+Pod::Elemental::Element::Nested | 0.103004
+Pod::Elemental::Element::Pod5::Command | 0.103004
+Pod::Elemental::Element::Pod5::Data | 0.103004
+Pod::Elemental::Element::Pod5::Nonpod | 0.103004
+Pod::Elemental::Element::Pod5::Ordinary | 0.103004
+Pod::Elemental::Element::Pod5::Region | 0.103004
+Pod::Elemental::Element::Pod5::Verbatim | 0.103004
+Pod::Elemental::Flat | 0.103004
+Pod::Elemental::Node | 0.103004
+Pod::Elemental::Objectifier | 0.103004
+Pod::Elemental::Paragraph | 0.103004
+Pod::Elemental::Selectors | 0.103004
+Pod::Elemental::Transformer | 0.103004
+Pod::Elemental::Transformer::Gatherer | 0.103004
+Pod::Elemental::Transformer::Nester | 0.103004
+Pod::Elemental::Transformer::Pod5 | 0.103004
+Pod::Elemental::Types | 0.103004
+Pod::Eventual | 0.094001
+Pod::Eventual::Simple | 0.094001
+Pod::Markdown | 3.005
+Pod::Perldoc::ToMarkdown | 3.005
+Pod::Readme | unknown
+Pod::Readme::Filter | unknown
+Pod::Readme::Plugin | unknown
+Pod::Readme::Plugin::changes | unknown
+Pod::Readme::Plugin::requires | unknown
+Pod::Readme::Plugin::version | unknown
+Pod::Readme::Types | unknown
+Pod::Spell | 1.20
+Pod::Wordlist | 1.20
+POE | 1.367
+POE::Component | 1.367
+POE::Component::Client::TCP | 1.367
+POE::Component::Server::TCP | 1.367
+POE::Driver | 1.367
+POE::Driver::SysRW | 1.367
+POE::Filter | 1.367
+POE::Filter::Block | 1.367
+POE::Filter::Grep | 1.367
+POE::Filter::HTTPD | 1.367
+POE::Filter::Line | 1.367
+POE::Filter::Map | 1.367
+POE::Filter::RecordBlock | 1.367
+POE::Filter::Reference | 1.367
+POE::Filter::Stackable | 1.367
+POE::Filter::Stream | 1.367
+POE::Kernel | 1.367
+POE::Loop | 1.367
+POE::Loop::IO_Poll | 1.367
+POE::Loop::PerlSignals | 1.367
+POE::Loop::Select | 1.367
+POE::NFA | 1.367
+POE::Pipe | 1.367
+POE::Pipe::OneWay | 1.367
+POE::Pipe::TwoWay | 1.367
+POE::Queue | 1.367
+POE::Queue::Array | 1.367
+POE::Resource | 1.367
+POE::Resource::Aliases | 1.367
+POE::Resource::Clock | 1.367
+POE::Resource::Events | 1.367
+POE::Resource::Extrefs | 1.367
+POE::Resource::FileHandles | 1.367
+POE::Resource::Sessions | 1.367
+POE::Resource::SIDs | 1.367
+POE::Resource::Signals | 1.367
+POE::Resources | 1.367
+POE::Session | 1.367
+POE::Test::DondeEstan | 1.360
+POE::Test::Loops | 1.360
+POE::Test::Sequence | unknown
+POE::Wheel | 1.367
+POE::Wheel::Curses | 1.367
+POE::Wheel::FollowTail | 1.367
+POE::Wheel::ListenAccept | 1.367
+POE::Wheel::ReadLine | 1.367
+POE::Wheel::ReadWrite | 1.367
+POE::Wheel::Run | 1.367
+POE::Wheel::SocketFactory | 1.367
+POSIX::strftime::Compiler | 0.42
+PostScript::Document | 0.06
+PostScript::Elements | unknown
+PostScript::Metrics | 0.06
+PostScript::TextBlock | 0.06
+PPI | 1.236
+PPI::Cache | 1.236
+PPI::Document | 1.236
+PPI::Document::File | 1.236
+PPI::Document::Fragment | 1.236
+PPI::Document::Normalized | 1.236
+PPI::Dumper | 1.236
+PPI::Element | 1.236
+PPI::Exception | 1.236
+PPI::Exception::ParserRejection | 1.236
+PPI::Find | 1.236
+PPI::HTML | 1.08
+PPI::HTML::Fragment | 1.08
+PPI::Lexer | 1.236
+PPI::Node | 1.236
+PPI::Normal | 1.236
+PPI::Normal::Standard | 1.236
+PPI::Statement | 1.236
+PPI::Statement::Break | 1.236
+PPI::Statement::Compound | 1.236
+PPI::Statement::Data | 1.236
+PPI::Statement::End | 1.236
+PPI::Statement::Expression | 1.236
+PPI::Statement::Given | 1.236
+PPI::Statement::Include | 1.236
+PPI::Statement::Include::Perl6 | 1.236
+PPI::Statement::Null | 1.236
+PPI::Statement::Package | 1.236
+PPI::Statement::Scheduled | 1.236
+PPI::Statement::Sub | 1.236
+PPI::Statement::Unknown | 1.236
+PPI::Statement::UnmatchedBrace | 1.236
+PPI::Statement::Variable | 1.236
+PPI::Statement::When | 1.236
+PPI::Structure | 1.236
+PPI::Structure::Block | 1.236
+PPI::Structure::Condition | 1.236
+PPI::Structure::Constructor | 1.236
+PPI::Structure::For | 1.236
+PPI::Structure::Given | 1.236
+PPI::Structure::List | 1.236
+PPI::Structure::Subscript | 1.236
+PPI::Structure::Unknown | 1.236
+PPI::Structure::When | 1.236
+PPI::Token | 1.236
+PPI::Token::_QuoteEngine | 1.236
+PPI::Token::_QuoteEngine::Full | 1.236
+PPI::Token::_QuoteEngine::Simple | 1.236
+PPI::Token::ArrayIndex | 1.236
+PPI::Token::Attribute | 1.236
+PPI::Token::BOM | 1.236
+PPI::Token::Cast | 1.236
+PPI::Token::Comment | 1.236
+PPI::Token::DashedWord | 1.236
+PPI::Token::Data | 1.236
+PPI::Token::End | 1.236
+PPI::Token::HereDoc | 1.236
+PPI::Token::Label | 1.236
+PPI::Token::Magic | 1.236
+PPI::Token::Number | 1.236
+PPI::Token::Number::Binary | 1.236
+PPI::Token::Number::Exp | 1.236
+PPI::Token::Number::Float | 1.236
+PPI::Token::Number::Hex | 1.236
+PPI::Token::Number::Octal | 1.236
+PPI::Token::Number::Version | 1.236
+PPI::Token::Operator | 1.236
+PPI::Token::Pod | 1.236
+PPI::Token::Prototype | 1.236
+PPI::Token::Quote | 1.236
+PPI::Token::Quote::Double | 1.236
+PPI::Token::Quote::Interpolate | 1.236
+PPI::Token::Quote::Literal | 1.236
+PPI::Token::Quote::Single | 1.236
+PPI::Token::QuoteLike | 1.236
+PPI::Token::QuoteLike::Backtick | 1.236
+PPI::Token::QuoteLike::Command | 1.236
+PPI::Token::QuoteLike::Readline | 1.236
+PPI::Token::QuoteLike::Regexp | 1.236
+PPI::Token::QuoteLike::Words | 1.236
+PPI::Token::Regexp | 1.236
+PPI::Token::Regexp::Match | 1.236
+PPI::Token::Regexp::Substitute | 1.236
+PPI::Token::Regexp::Transliterate | 1.236
+PPI::Token::Separator | 1.236
+PPI::Token::Structure | 1.236
+PPI::Token::Symbol | 1.236
+PPI::Token::Unknown | 1.236
+PPI::Token::Whitespace | 1.236
+PPI::Token::Word | 1.236
+PPI::Tokenizer | 1.236
+PPI::Transform | 1.236
+PPI::Transform::UpdateCopyright | 1.236
+PPI::Util | 1.236
+PPI::XSAccessor | 1.236
+PPIx::QuoteLike | 0.006
+PPIx::QuoteLike::Constant | 0.006
+PPIx::QuoteLike::Dumper | 0.006
+PPIx::QuoteLike::Token | 0.006
+PPIx::QuoteLike::Token::Control | 0.006
+PPIx::QuoteLike::Token::Delimiter | 0.006
+PPIx::QuoteLike::Token::Interpolation | 0.006
+PPIx::QuoteLike::Token::String | 0.006
+PPIx::QuoteLike::Token::Structure | 0.006
+PPIx::QuoteLike::Token::Unknown | 0.006
+PPIx::QuoteLike::Token::Whitespace | 0.006
+PPIx::QuoteLike::Utils | 0.006
+PPIx::Regexp | 0.061
+PPIx::Regexp::Constant | 0.061
+PPIx::Regexp::Dumper | 0.061
+PPIx::Regexp::Element | 0.061
+PPIx::Regexp::Lexer | 0.061
+PPIx::Regexp::Node | 0.061
+PPIx::Regexp::Node::Range | 0.061
+PPIx::Regexp::Node::Unknown | 0.061
+PPIx::Regexp::StringTokenizer | 0.061
+PPIx::Regexp::Structure | 0.061
+PPIx::Regexp::Structure::Assertion | 0.061
+PPIx::Regexp::Structure::BranchReset | 0.061
+PPIx::Regexp::Structure::Capture | 0.061
+PPIx::Regexp::Structure::CharClass | 0.061
+PPIx::Regexp::Structure::Code | 0.061
+PPIx::Regexp::Structure::Main | 0.061
+PPIx::Regexp::Structure::Modifier | 0.061
+PPIx::Regexp::Structure::NamedCapture | 0.061
+PPIx::Regexp::Structure::Quantifier | 0.061
+PPIx::Regexp::Structure::Regexp | 0.061
+PPIx::Regexp::Structure::RegexSet | 0.061
+PPIx::Regexp::Structure::Replacement | 0.061
+PPIx::Regexp::Structure::Subexpression | 0.061
+PPIx::Regexp::Structure::Switch | 0.061
+PPIx::Regexp::Structure::Unknown | 0.061
+PPIx::Regexp::Support | 0.061
+PPIx::Regexp::Token | 0.061
+PPIx::Regexp::Token::Assertion | 0.061
+PPIx::Regexp::Token::Backreference | 0.061
+PPIx::Regexp::Token::Backtrack | 0.061
+PPIx::Regexp::Token::CharClass | 0.061
+PPIx::Regexp::Token::CharClass::POSIX | 0.061
+PPIx::Regexp::Token::CharClass::POSIX::Unknown | 0.061
+PPIx::Regexp::Token::CharClass::Simple | 0.061
+PPIx::Regexp::Token::Code | 0.061
+PPIx::Regexp::Token::Comment | 0.061
+PPIx::Regexp::Token::Condition | 0.061
+PPIx::Regexp::Token::Control | 0.061
+PPIx::Regexp::Token::Delimiter | 0.061
+PPIx::Regexp::Token::Greediness | 0.061
+PPIx::Regexp::Token::GroupType | 0.061
+PPIx::Regexp::Token::GroupType::Assertion | 0.061
+PPIx::Regexp::Token::GroupType::BranchReset | 0.061
+PPIx::Regexp::Token::GroupType::Code | 0.061
+PPIx::Regexp::Token::GroupType::Modifier | 0.061
+PPIx::Regexp::Token::GroupType::NamedCapture | 0.061
+PPIx::Regexp::Token::GroupType::Subexpression | 0.061
+PPIx::Regexp::Token::GroupType::Switch | 0.061
+PPIx::Regexp::Token::Interpolation | 0.061
+PPIx::Regexp::Token::Literal | 0.061
+PPIx::Regexp::Token::Modifier | 0.061
+PPIx::Regexp::Token::NoOp | 0.061
+PPIx::Regexp::Token::Operator | 0.061
+PPIx::Regexp::Token::Quantifier | 0.061
+PPIx::Regexp::Token::Recursion | 0.061
+PPIx::Regexp::Token::Reference | 0.061
+PPIx::Regexp::Token::Structure | 0.061
+PPIx::Regexp::Token::Unknown | 0.061
+PPIx::Regexp::Token::Unmatched | 0.061
+PPIx::Regexp::Token::Whitespace | 0.061
+PPIx::Regexp::Tokenizer | 0.061
+PPIx::Regexp::Util | 0.061
+PPIx::Utilities | 1.001000
+PPIx::Utilities::Exception::Bug | 1.001000
+PPIx::Utilities::Node | 1.001000
+PPIx::Utilities::Statement | 1.001000
+Proc::Fork | 0.804
+Proc::Terminator::Ctx | 0.05
+RDF::Trine | 1.019
+RDF::Trine::Error | 1.019
+RDF::Trine::Exporter::CSV | 1.019
+RDF::Trine::Exporter::RDFPatch | 1.019
+RDF::Trine::Graph | 1.019
+RDF::Trine::Iterator | 1.019
+RDF::Trine::Iterator::Bindings | 1.019
+RDF::Trine::Iterator::Bindings::Materialized | 1.019
+RDF::Trine::Iterator::Boolean | 1.019
+RDF::Trine::Iterator::Graph | 1.019
+RDF::Trine::Iterator::Graph::Materialized | 1.019
+RDF::Trine::Iterator::JSONHandler | 1.019
+RDF::Trine::Iterator::SAXHandler | 1.019
+RDF::Trine::Model | 1.019
+RDF::Trine::Model::Dataset | 1.019
+RDF::Trine::Model::StatementFilter | 1.019
+RDF::Trine::Model::Union | 1.019
+RDF::Trine::Namespace | 1.019
+RDF::Trine::NamespaceMap | 1.019
+RDF::Trine::Node | 1.019
+RDF::Trine::Node::Blank | 1.019
+RDF::Trine::Node::Literal | 1.019
+RDF::Trine::Node::Nil | 1.019
+RDF::Trine::Node::Resource | 1.019
+RDF::Trine::Node::Variable | 1.019
+RDF::Trine::Parser | 1.019
+RDF::Trine::Parser::LineProtocol | 1.019
+RDF::Trine::Parser::NQuads | 1.019
+RDF::Trine::Parser::NTriples | 1.019
+RDF::Trine::Parser::RDFa | 1.019
+RDF::Trine::Parser::RDFJSON | 1.019
+RDF::Trine::Parser::RDFPatch | 1.019
+RDF::Trine::Parser::RDFXML | 1.019
+RDF::Trine::Parser::Redland | 1.019
+RDF::Trine::Parser::TriG | 1.019
+RDF::Trine::Parser::Turtle | 1.019
+RDF::Trine::Parser::Turtle::Constants | 1.019
+RDF::Trine::Parser::Turtle::Lexer | 1.019
+RDF::Trine::Parser::Turtle::Token | unknown
+RDF::Trine::Pattern | 1.019
+RDF::Trine::Serializer | 1.019
+RDF::Trine::Serializer::NQuads | 1.019
+RDF::Trine::Serializer::NTriples | 1.019
+RDF::Trine::Serializer::NTriples::Canonical | 1.019
+RDF::Trine::Serializer::RDFJSON | 1.019
+RDF::Trine::Serializer::RDFPatch | 1.019
+RDF::Trine::Serializer::RDFXML | 1.019
+RDF::Trine::Serializer::TriG | 1.019
+RDF::Trine::Serializer::TSV | 1.019
+RDF::Trine::Serializer::Turtle | 1.019
+RDF::Trine::Statement | 1.019
+RDF::Trine::Statement::Quad | 1.019
+RDF::Trine::Store | 1.019
+RDF::Trine::Store::DBI | 1.019
+RDF::Trine::Store::DBI::mysql | 1.019
+RDF::Trine::Store::DBI::Pg | 1.019
+RDF::Trine::Store::DBI::SQLite | 1.019
+RDF::Trine::Store::Dydra | 1.019
+RDF::Trine::Store::Hexastore | 1.019
+RDF::Trine::Store::LanguagePreference | 1.019
+RDF::Trine::Store::Memory | 1.019
+RDF::Trine::Store::Redis | 1.019
+RDF::Trine::Store::Redland | 1.019
+RDF::Trine::Store::SPARQL | 1.019
+RDF::Trine::VariableBindings | 1.019
+re::engine::RE2 | 0.13
+Readonly | 2.05
+Redis | 1.991
+Redis::Hash | 1.991
+Redis::List | 1.991
+Redis::Sentinel | 1.991
+Ref::Util | 0.204
+Ref::Util::PP | 0.204
+Ref::Util::XS | 0.117
+Regexp::Common | 2017060201
+Regexp::Common::_support | 2017060201
+Regexp::Common::balanced | 2017060201
+Regexp::Common::CC | 2017060201
+Regexp::Common::comment | 2017060201
+Regexp::Common::delimited | 2017060201
+Regexp::Common::lingua | 2017060201
+Regexp::Common::list | 2017060201
+Regexp::Common::net | 2017060201
+Regexp::Common::number | 2017060201
+Regexp::Common::profanity | 2017060201
+Regexp::Common::SEN | 2017060201
+Regexp::Common::URI | 2017060201
+Regexp::Common::URI::fax | 2017060201
+Regexp::Common::URI::file | 2017060201
+Regexp::Common::URI::ftp | 2017060201
+Regexp::Common::URI::gopher | 2017060201
+Regexp::Common::URI::http | 2017060201
+Regexp::Common::URI::news | 2017060201
+Regexp::Common::URI::pop | 2017060201
+Regexp::Common::URI::prospero | 2017060201
+Regexp::Common::URI::RFC1035 | 2017060201
+Regexp::Common::URI::RFC1738 | 2017060201
+Regexp::Common::URI::RFC1808 | 2017060201
+Regexp::Common::URI::RFC2384 | 2017060201
+Regexp::Common::URI::RFC2396 | 2017060201
+Regexp::Common::URI::RFC2806 | 2017060201
+Regexp::Common::URI::tel | 2017060201
+Regexp::Common::URI::telnet | 2017060201
+Regexp::Common::URI::tv | 2017060201
+Regexp::Common::URI::wais | 2017060201
+Regexp::Common::whitespace | 2017060201
+Regexp::Common::zip | 2017060201
+Reply::Plugin::TypeTiny | 1.002002
+Return::MultiLevel | 0.05
+rlib | 0.02
+Role::HasMessage | 0.006
+Role::HasMessage::Errf | 0.006
+Role::Identifiable::HasIdent | 0.007
+Role::Identifiable::HasTags | 0.007
+Role::Tiny | 2.000006
+Role::Tiny::With | 2.000006
+Router::Simple | 0.17
+Router::Simple::Declare | unknown
+Router::Simple::Route | unknown
+Router::Simple::SubMapper | unknown
+Safe::Isa | 1.000010
+Scalar::Util | 1.50
+Scalar::Util::Numeric | 0.40
+Scope::Guard | 0.21
+Scope::Upper | 0.30
+Set::Infinite | 0.65
+Set::Infinite::_recurrence | unknown
+Set::Infinite::Arithmetic | unknown
+Set::Infinite::Basic | unknown
+Set::IntervalTree | 0.12
+Set::IntSpan | 1.19
+Set::Object::Weak | unknown
+Set::Scalar | 1.29
+Set::Scalar::Base | 1.29
+Set::Scalar::Null | 1.29
+Set::Scalar::Real | 1.29
+Set::Scalar::Universe | 1.29
+Set::Scalar::Valued | 1.29
+Set::Scalar::ValuedUniverse | 1.29
+Set::Scalar::Virtual | 1.29
+Slurp | 0.4
+Smart::Comments | 1.06
+SOAP::Constants | 1.27
+SOAP::Lite | 1.27
+SOAP::Lite::Deserializer::XMLSchema1999 | 1.27
+SOAP::Lite::Deserializer::XMLSchema2001 | 1.27
+SOAP::Lite::Deserializer::XMLSchemaSOAP1_1 | 1.27
+SOAP::Lite::Deserializer::XMLSchemaSOAP1_2 | 1.27
+SOAP::Lite::Packager | 1.27
+SOAP::Lite::Utils | 1.27
+SOAP::Packager | 1.27
+SOAP::Test | 1.27
+SOAP::Transport::HTTP | 1.27
+SOAP::Transport::IO | 1.27
+SOAP::Transport::LOCAL | 1.27
+SOAP::Transport::LOOPBACK | 1.27
+SOAP::Transport::MAILTO | 1.27
+SOAP::Transport::POP3 | 1.27
+SOAP::Transport::TCP | 1.27
+Socket::GetAddrInfo | 0.22
+Socket::GetAddrInfo::Core | 0.22
+Socket::GetAddrInfo::Emul | 0.22
+Socket::GetAddrInfo::Socket6api | 0.22
+Socket::GetAddrInfo::Strict | 0.22
+Socket::GetAddrInfo::XS | 0.22
+Software::License | 0.103013
+Software::License::AGPL_3 | 0.103013
+Software::License::Apache_1_1 | 0.103013
+Software::License::Apache_2_0 | 0.103013
+Software::License::Artistic_1_0 | 0.103013
+Software::License::Artistic_2_0 | 0.103013
+Software::License::BSD | 0.103013
+Software::License::CC0_1_0 | 0.103013
+Software::License::Custom | 0.103013
+Software::License::EUPL_1_1 | 0.103013
+Software::License::EUPL_1_2 | 0.103013
+Software::License::FreeBSD | 0.103013
+Software::License::GFDL_1_2 | 0.103013
+Software::License::GFDL_1_3 | 0.103013
+Software::License::GPL_1 | 0.103013
+Software::License::GPL_2 | 0.103013
+Software::License::GPL_3 | 0.103013
+Software::License::LGPL_2_1 | 0.103013
+Software::License::LGPL_3_0 | 0.103013
+Software::License::MIT | 0.103013
+Software::License::Mozilla_1_0 | 0.103013
+Software::License::Mozilla_1_1 | 0.103013
+Software::License::Mozilla_2_0 | 0.103013
+Software::License::None | 0.103013
+Software::License::OpenSSL | 0.103013
+Software::License::Perl_5 | 0.103013
+Software::License::PostgreSQL | 0.103013
+Software::License::QPL_1_0 | 0.103013
+Software::License::SSLeay | 0.103013
+Software::License::Sun | 0.103013
+Software::License::Zlib | 0.103013
+Software::LicenseUtils | 0.103013
+Sort::Naturally | 1.03
+Specio | 0.42
+Specio::Coercion | 0.42
+Specio::Constraint::AnyCan | 0.42
+Specio::Constraint::AnyDoes | 0.42
+Specio::Constraint::AnyIsa | 0.42
+Specio::Constraint::Enum | 0.42
+Specio::Constraint::Intersection | 0.42
+Specio::Constraint::ObjectCan | 0.42
+Specio::Constraint::ObjectDoes | 0.42
+Specio::Constraint::ObjectIsa | 0.42
+Specio::Constraint::Parameterizable | 0.42
+Specio::Constraint::Parameterized | 0.42
+Specio::Constraint::Role::CanType | 0.42
+Specio::Constraint::Role::DoesType | 0.42
+Specio::Constraint::Role::Interface | 0.42
+Specio::Constraint::Role::IsaType | 0.42
+Specio::Constraint::Simple | 0.42
+Specio::Constraint::Structurable | 0.42
+Specio::Constraint::Structured | 0.42
+Specio::Constraint::Union | 0.42
+Specio::Declare | 0.42
+Specio::DeclaredAt | 0.42
+Specio::Exception | 0.42
+Specio::Exporter | 0.42
+Specio::Helpers | 0.42
+Specio::Library::Builtins | 0.42
+Specio::Library::Numeric | 0.42
+Specio::Library::Perl | 0.42
+Specio::Library::String | 0.42
+Specio::Library::Structured | 0.42
+Specio::Library::Structured::Dict | 0.42
+Specio::Library::Structured::Map | 0.42
+Specio::Library::Structured::Tuple | 0.42
+Specio::OO | 0.42
+Specio::PartialDump | 0.42
+Specio::Registry | 0.42
+Specio::Role::Inlinable | 0.42
+Specio::Subs | 0.42
+Specio::TypeChecks | 0.42
+Spiffy | 0.46
+Spiffy::mixin | unknown
+Spreadsheet::ParseExcel | 0.65
+Spreadsheet::ParseExcel::Cell | 0.65
+Spreadsheet::ParseExcel::Dump | 0.65
+Spreadsheet::ParseExcel::FmtDefault | 0.65
+Spreadsheet::ParseExcel::FmtJapan | 0.65
+Spreadsheet::ParseExcel::FmtJapan2 | 0.65
+Spreadsheet::ParseExcel::FmtUnicode | 0.65
+Spreadsheet::ParseExcel::Font | 0.65
+Spreadsheet::ParseExcel::Format | 0.65
+Spreadsheet::ParseExcel::SaveParser | 0.65
+Spreadsheet::ParseExcel::SaveParser::Workbook | 0.65
+Spreadsheet::ParseExcel::SaveParser::Worksheet | 0.65
+Spreadsheet::ParseExcel::Simple | 1.04
+Spreadsheet::ParseExcel::Utility | 0.65
+Spreadsheet::ParseExcel::Workbook | 0.65
+Spreadsheet::ParseExcel::Worksheet | 0.65
+Spreadsheet::WriteExcel | 2.40
+Spreadsheet::WriteExcel::BIFFwriter | 2.40
+Spreadsheet::WriteExcel::Big | 2.40
+Spreadsheet::WriteExcel::Chart | 2.40
+Spreadsheet::WriteExcel::Chart::Area | 2.40
+Spreadsheet::WriteExcel::Chart::Bar | 2.40
+Spreadsheet::WriteExcel::Chart::Column | 2.40
+Spreadsheet::WriteExcel::Chart::External | 2.40
+Spreadsheet::WriteExcel::Chart::Line | 2.40
+Spreadsheet::WriteExcel::Chart::Pie | 2.40
+Spreadsheet::WriteExcel::Chart::Scatter | 2.40
+Spreadsheet::WriteExcel::Chart::Stock | 2.40
+Spreadsheet::WriteExcel::Examples | 2.40
+Spreadsheet::WriteExcel::Format | 2.40
+Spreadsheet::WriteExcel::Formula | 2.40
+Spreadsheet::WriteExcel::OLEwriter | 2.40
+Spreadsheet::WriteExcel::Properties | 2.40
+Spreadsheet::WriteExcel::Simple | 1.04
+Spreadsheet::WriteExcel::Utility | 2.40
+Spreadsheet::WriteExcel::Workbook | 2.40
+Spreadsheet::WriteExcel::Worksheet | 2.40
+SQL::Abstract | 1.86
+SQL::Abstract::Test | unknown
+SQL::Abstract::Tree | unknown
+SQL::Translator | 0.11024
+SQL::Translator::Diff | unknown
+SQL::Translator::Filter::DefaultExtra | 1.59
+SQL::Translator::Filter::Globals | 1.59
+SQL::Translator::Filter::Names | 1.59
+SQL::Translator::Generator::DDL::MySQL | unknown
+SQL::Translator::Generator::DDL::PostgreSQL | unknown
+SQL::Translator::Generator::DDL::SQLite | unknown
+SQL::Translator::Generator::DDL::SQLServer | unknown
+SQL::Translator::Generator::Role::DDL | unknown
+SQL::Translator::Generator::Role::Quote | unknown
+SQL::Translator::Parser | 1.60
+SQL::Translator::Parser::Access | 1.59
+SQL::Translator::Parser::DB2 | unknown
+SQL::Translator::Parser::DB2::Grammar | unknown
+SQL::Translator::Parser::DBI | 1.59
+SQL::Translator::Parser::DBI::DB2 | 1.59
+SQL::Translator::Parser::DBI::MySQL | 1.59
+SQL::Translator::Parser::DBI::Oracle | 1.59
+SQL::Translator::Parser::DBI::PostgreSQL | 1.59
+SQL::Translator::Parser::DBI::SQLite | 1.59
+SQL::Translator::Parser::DBI::SQLServer | 1.59
+SQL::Translator::Parser::DBI::Sybase | 1.59
+SQL::Translator::Parser::DBIx::Class | 1.10
+SQL::Translator::Parser::Excel | 1.59
+SQL::Translator::Parser::JSON | 1.00
+SQL::Translator::Parser::MySQL | 1.59
+SQL::Translator::Parser::Oracle | 1.59
+SQL::Translator::Parser::PostgreSQL | 1.59
+SQL::Translator::Parser::SQLite | 1.59
+SQL::Translator::Parser::SQLServer | 1.59
+SQL::Translator::Parser::Storable | 1.59
+SQL::Translator::Parser::Sybase | 1.59
+SQL::Translator::Parser::XML | 1.59
+SQL::Translator::Parser::XML::SQLFairy | 1.59
+SQL::Translator::Parser::xSV | 1.59
+SQL::Translator::Parser::YAML | 1.59
+SQL::Translator::Producer | 1.59
+SQL::Translator::Producer::ClassDBI | 1.59
+SQL::Translator::Producer::DB2 | 1.59
+SQL::Translator::Producer::DBIx::Class::File | 0.1
+SQL::Translator::Producer::Diagram | 1.59
+SQL::Translator::Producer::DiaUml | 1.59
+SQL::Translator::Producer::Dumper | 1.59
+SQL::Translator::Producer::GraphViz | 1.59
+SQL::Translator::Producer::HTML | 1.59
+SQL::Translator::Producer::JSON | 1.00
+SQL::Translator::Producer::Latex | 1.59
+SQL::Translator::Producer::MySQL | 1.59
+SQL::Translator::Producer::Oracle | 1.59
+SQL::Translator::Producer::POD | 1.59
+SQL::Translator::Producer::PostgreSQL | 1.59
+SQL::Translator::Producer::SQLite | 1.59
+SQL::Translator::Producer::SQLServer | 1.59
+SQL::Translator::Producer::Storable | 1.59
+SQL::Translator::Producer::Sybase | 1.59
+SQL::Translator::Producer::TT::Base | 1.59
+SQL::Translator::Producer::TT::Table | 1.59
+SQL::Translator::Producer::TTSchema | 1.59
+SQL::Translator::Producer::XML | 1.59
+SQL::Translator::Producer::XML::SQLFairy | 1.59
+SQL::Translator::Producer::YAML | 1.59
+SQL::Translator::Role::BuildArgs | unknown
+SQL::Translator::Role::Debug | unknown
+SQL::Translator::Role::Error | unknown
+SQL::Translator::Role::ListAttr | unknown
+SQL::Translator::Schema | 1.59
+SQL::Translator::Schema::Constants | 1.59
+SQL::Translator::Schema::Constraint | 1.59
+SQL::Translator::Schema::Field | 1.59
+SQL::Translator::Schema::Index | 1.59
+SQL::Translator::Schema::Object | 1.59
+SQL::Translator::Schema::Procedure | 1.59
+SQL::Translator::Schema::Role::Compare | unknown
+SQL::Translator::Schema::Role::Extra | unknown
+SQL::Translator::Schema::Table | 1.59
+SQL::Translator::Schema::Trigger | 1.59
+SQL::Translator::Schema::View | 1.59
+SQL::Translator::Types | unknown
+SQL::Translator::Utils | 1.59
+StackTrace::Auto | 0.200013
+Starman | 0.4014
+Starman::Server | unknown
+Statistics::ANOVA | 0.14
+Statistics::ANOVA::Compare | 0.01
+Statistics::ANOVA::EffectSize | 0.02
+Statistics::ANOVA::Friedman | 0.02
+Statistics::ANOVA::JT | unknown
+Statistics::ANOVA::KW | 0.01
+Statistics::ANOVA::Page | 0.02
+Statistics::Basic | 1.6611
+Statistics::Basic::_OneVectorBase | unknown
+Statistics::Basic::_TwoVectorBase | unknown
+Statistics::Basic::ComputedVector | unknown
+Statistics::Basic::Correlation | unknown
+Statistics::Basic::Covariance | unknown
+Statistics::Basic::LeastSquareFit | unknown
+Statistics::Basic::Mean | unknown
+Statistics::Basic::Median | unknown
+Statistics::Basic::Mode | unknown
+Statistics::Basic::StdDev | unknown
+Statistics::Basic::Variance | unknown
+Statistics::Basic::Vector | unknown
+Statistics::Candidates | unknown
+Statistics::ChiSquare | 1.0000
+Statistics::Contingency | 0.09
+Statistics::Cook | 0.0.6
+Statistics::Data | 0.11
+Statistics::Data::Dichotomize | 0.05
+Statistics::Data::Rank | 0.02
+Statistics::DependantTTest | 0.03
+Statistics::Descriptive | 3.0701
+Statistics::Descriptive::Discrete | 0.07
+Statistics::Descriptive::Full | 3.0701
+Statistics::Descriptive::LogScale | 0.11
+Statistics::Descriptive::Smoother | 3.0701
+Statistics::Descriptive::Smoother::Exponential | 3.0701
+Statistics::Descriptive::Smoother::Weightedexponential | 3.0701
+Statistics::Descriptive::Sparse | 3.0701
+Statistics::Discrete | 0.05.00
+Statistics::Distributions | 1.02
+Statistics::Distributions::Bartlett | unknown
+Statistics::Distributions::GTest | unknown
+Statistics::Diversity::Shannon | 0.0102
+Statistics::FactorAnalysis | unknown
+Statistics::FisherPitman | 0.034
+Statistics::Frequency | 0.04
+Statistics::Histogram | 0.1
+Statistics::KruskalWallis | 0.01
+Statistics::Lite | 3.62
+Statistics::MaxEntropy | 1.0
+Statistics::Normality | 0.01
+Statistics::PCA | unknown
+Statistics::PCA::Varimax | unknown
+Statistics::PointEstimation | 1.1
+Statistics::R | 0.34
+Statistics::R::Legacy | unknown
+Statistics::R::Win32 | unknown
+Statistics::RankCorrelation | 0.1205
+Statistics::Robust | 0.02
+Statistics::Robust::Bootstrap | unknown
+Statistics::Robust::Density | unknown
+Statistics::Robust::Location | unknown
+Statistics::Robust::Scale | unknown
+Statistics::Sampler::Multinomial | 0.7
+Statistics::Sampler::Multinomial::AliasMethod | 0.7
+Statistics::Sequences | 0.15
+Statistics::Sequences::Joins | 0.20
+Statistics::Sequences::Pot | 0.12
+Statistics::Sequences::Runs | 0.22
+Statistics::Sequences::Turns | 0.13
+Statistics::Sequences::Vnomes | 0.20
+Statistics::Shannon | 0.05
+Statistics::Simpson | 0.03
+Statistics::SparseVector | 0.2
+Statistics::Standard_Normal | unknown
+Statistics::TopK | 0.02
+Statistics::TTest | 1.1
+Statistics::Zed | 0.10
+Storable | 3.11
+Stream::Buffered | 0.03
+Stream::Buffered::Auto | unknown
+Stream::Buffered::File | unknown
+Stream::Buffered::PerlIO | unknown
+strictures | 2.000005
+strictures::extra | unknown
+String::Diff | 0.07
+String::Errf | 0.008
+String::Escape | 2010.002
+String::Flogger | 1.101245
+String::Format | 1.18
+String::Formatter | 0.102084
+String::Formatter::Cookbook | 0.102084
+String::Numeric | 0.9
+String::Numeric::PP | 0.9
+String::Print | 0.93
+String::RewritePrefix | 0.007
+String::ShellQuote | 1.04
+String::Tagged | 0.15
+String::Tagged::Terminal | 0.02
+String::ToIdentifier::EN | 0.12
+String::ToIdentifier::EN::Unicode | 0.12
+String::Truncate | 1.100602
+String::Util | 1.26
+Struct::Dumb | 0.09
+Sub::Attribute | 0.06
+Sub::Defer | 2.001001
+Sub::Exporter | 0.987
+Sub::Exporter::ForMethods | 0.100052
+Sub::Exporter::GlobExporter | 0.005
+Sub::Exporter::Progressive | 0.001013
+Sub::Exporter::Util | 0.987
+Sub::Identify | 0.14
+Sub::Info | 0.002
+Sub::Install | 0.928
+Sub::Name | 0.21
+Sub::Quote | 2.001001
+Sub::Uplevel | 0.2800
+Sub::Util | 1.50
+SUPER | 1.20141117
+SVG | 2.84
+SVG::DOM | 2.84
+SVG::Element | 2.84
+SVG::Extension | 2.84
+SVG::Graph | 0.02
+SVG::Graph::Data | unknown
+SVG::Graph::Data::Datum | unknown
+SVG::Graph::Data::Node | unknown
+SVG::Graph::Data::Tree | unknown
+SVG::Graph::File | unknown
+SVG::Graph::Frame | unknown
+SVG::Graph::Glyph | unknown
+SVG::Graph::Glyph::axis | unknown
+SVG::Graph::Glyph::bar | unknown
+SVG::Graph::Glyph::barflex | unknown
+SVG::Graph::Glyph::bezier | unknown
+SVG::Graph::Glyph::bubble | unknown
+SVG::Graph::Glyph::heatmap | unknown
+SVG::Graph::Glyph::line | unknown
+SVG::Graph::Glyph::pictogram | unknown
+SVG::Graph::Glyph::scatter | unknown
+SVG::Graph::Glyph::tree | unknown
+SVG::Graph::Glyph::wedge | unknown
+SVG::Graph::Group | unknown
+SVG::XML | 2.84
+Symbol::Util | 0.0203
+SymTab | unknown
+syntax | 0.004
+Syntax::Feature::Junction | 0.003008
+Syntax::Keyword::Junction | 0.003008
+Syntax::Keyword::Junction::All | 0.003008
+Syntax::Keyword::Junction::Any | 0.003008
+Syntax::Keyword::Junction::Base | 0.003008
+Syntax::Keyword::Junction::None | 0.003008
+Syntax::Keyword::Junction::One | 0.003008
+Sys::SigAction | 0.23
+Sys::SigAction::Alarm | unknown
+TAP::Base | 3.42
+TAP::Formatter::Base | 3.42
+TAP::Formatter::Color | 3.42
+TAP::Formatter::Console | 3.42
+TAP::Formatter::Console::ParallelSession | 3.42
+TAP::Formatter::Console::Session | 3.42
+TAP::Formatter::File | 3.42
+TAP::Formatter::File::Session | 3.42
+TAP::Formatter::Session | 3.42
+TAP::Harness | 3.42
+TAP::Harness::Env | 3.42
+TAP::Object | 3.42
+TAP::Parser | 3.42
+TAP::Parser::Aggregator | 3.42
+TAP::Parser::Grammar | 3.42
+TAP::Parser::Iterator | 3.42
+TAP::Parser::Iterator::Array | 3.42
+TAP::Parser::Iterator::Process | 3.42
+TAP::Parser::Iterator::Stream | 3.42
+TAP::Parser::IteratorFactory | 3.42
+TAP::Parser::Multiplexer | 3.42
+TAP::Parser::Result | 3.42
+TAP::Parser::Result::Bailout | 3.42
+TAP::Parser::Result::Comment | 3.42
+TAP::Parser::Result::Plan | 3.42
+TAP::Parser::Result::Pragma | 3.42
+TAP::Parser::Result::Test | 3.42
+TAP::Parser::Result::Unknown | 3.42
+TAP::Parser::Result::Version | 3.42
+TAP::Parser::Result::YAML | 3.42
+TAP::Parser::ResultFactory | 3.42
+TAP::Parser::Scheduler | 3.42
+TAP::Parser::Scheduler::Job | 3.42
+TAP::Parser::Scheduler::Spinner | 3.42
+TAP::Parser::Source | 3.42
+TAP::Parser::SourceHandler | 3.42
+TAP::Parser::SourceHandler::Executable | 3.42
+TAP::Parser::SourceHandler::File | 3.42
+TAP::Parser::SourceHandler::Handle | 3.42
+TAP::Parser::SourceHandler::Perl | 3.42
+TAP::Parser::SourceHandler::RawTAP | 3.42
+TAP::Parser::YAMLish::Reader | 3.42
+TAP::Parser::YAMLish::Writer | 3.42
+Task::Catalyst | 4.02
+Task::Kensho | 0.39
+Task::Kensho::Async | 0.39
+Task::Kensho::CLI | 0.39
+Task::Kensho::Config | 0.39
+Task::Kensho::Dates | 0.39
+Task::Kensho::DBDev | 0.39
+Task::Kensho::Email | 0.39
+Task::Kensho::ExcelCSV | 0.39
+Task::Kensho::Exceptions | 0.39
+Task::Kensho::Hackery | 0.39
+Task::Kensho::Logging | 0.39
+Task::Kensho::ModuleDev | 0.39
+Task::Kensho::OOP | 0.39
+Task::Kensho::Scalability | 0.39
+Task::Kensho::Testing | 0.39
+Task::Kensho::Toolchain | 0.39
+Task::Kensho::WebCrawling | 0.39
+Task::Kensho::WebDev | 0.39
+Task::Kensho::XML | 0.39
+Task::Moose | 0.03
+Task::Weaken | 1.06
+Template | 2.27
+Template::Base | 2.78
+Template::Config | 2.75
+Template::Constants | 2.75
+Template::Context | 2.98
+Template::Directive | 2.2
+Template::Document | 2.79
+Template::Exception | 2.7
+Template::Filters | 2.87
+Template::Grammar | 2.26
+Template::Iterator | 2.68
+Template::Namespace::Constants | 1.27
+Template::Parser | 2.89
+Template::Plugin | 2.7
+Template::Plugin::Assert | 1
+Template::Plugin::CGI | 2.7
+Template::Plugin::Datafile | 2.72
+Template::Plugin::Date | 2.78
+Template::Plugin::Directory | 2.7
+Template::Plugin::Dumper | 2.7
+Template::Plugin::File | 2.71
+Template::Plugin::Filter | 1.38
+Template::Plugin::Format | 2.7
+Template::Plugin::HTML | 2.62
+Template::Plugin::Image | 1.21
+Template::Plugin::Iterator | 2.68
+Template::Plugin::Math | 1.16
+Template::Plugin::Pod | 2.69
+Template::Plugin::Procedural | 1.17
+Template::Plugin::Scalar | 1
+Template::Plugin::String | 2.4
+Template::Plugin::Table | 2.71
+Template::Plugin::URL | 2.74
+Template::Plugin::View | 2.68
+Template::Plugin::Wrap | 2.68
+Template::Plugins | 2.77
+Template::Provider | 2.94
+Template::Service | 2.8
+Template::Stash | 2.91
+Template::Stash::Context | 1.63
+Template::Stash::XS | unknown
+Template::Test | 2.75
+Template::Timer | 1.00
+Template::Tiny | 1.12
+Template::Toolkit | unknown
+Template::View | 2.91
+Template::VMethods | 2.16
+Term::Encoding | 0.02
+Term::ProgressBar | 2.22
+Term::ProgressBar::IO | 2.22
+Term::ProgressBar::Quiet | 0.31
+Term::ProgressBar::Simple | 0.03
+Term::ReadKey | 2.37
+Term::ReadLine::Perl5 | 1.45
+Term::ReadLine::Perl5::Common | unknown
+Term::ReadLine::Perl5::Dumb | unknown
+Term::ReadLine::Perl5::History | unknown
+Term::ReadLine::Perl5::Keymap | unknown
+Term::ReadLine::Perl5::OO | 0.43
+Term::ReadLine::Perl5::OO::History | unknown
+Term::ReadLine::Perl5::OO::Keymap | unknown
+Term::ReadLine::Perl5::OO::State | unknown
+Term::ReadLine::Perl5::readline | 1.45
+Term::ReadLine::Perl5::TermCap | unknown
+Term::ReadLine::Perl5::Tie | 1.45
+Term::Size | 0.207
+Term::Table | 0.012
+Term::Table::Cell | 0.012
+Term::Table::CellStack | 0.012
+Term::Table::HashBase | 0.003
+Term::Table::LineBreak | 0.012
+Term::Table::Spacer | 0.012
+Term::Table::Util | 0.012
+Term::UI | 0.46
+Term::UI::History | 0.46
+Test2 | 1.302138
+Test2::API | 1.302138
+Test2::API::Breakage | 1.302138
+Test2::API::Context | 1.302138
+Test2::API::Instance | 1.302138
+Test2::API::Stack | 1.302138
+Test2::AsyncSubtest | 0.000115
+Test2::AsyncSubtest::Event::Attach | 0.000115
+Test2::AsyncSubtest::Event::Detach | 0.000115
+Test2::AsyncSubtest::Formatter | 0.000115
+Test2::AsyncSubtest::Hub | 0.000115
+Test2::Bundle | 0.000115
+Test2::Bundle::Extended | 0.000115
+Test2::Bundle::More | 0.000115
+Test2::Bundle::Simple | 0.000115
+Test2::Compare | 0.000115
+Test2::Compare::Array | 0.000115
+Test2::Compare::Bag | 0.000115
+Test2::Compare::Base | 0.000115
+Test2::Compare::Bool | 0.000115
+Test2::Compare::Custom | 0.000115
+Test2::Compare::DeepRef | 0.000115
+Test2::Compare::Delta | 0.000115
+Test2::Compare::Event | 0.000115
+Test2::Compare::EventMeta | 0.000115
+Test2::Compare::Float | 0.000115
+Test2::Compare::Hash | 0.000115
+Test2::Compare::Meta | 0.000115
+Test2::Compare::Negatable | 0.000115
+Test2::Compare::Number | 0.000115
+Test2::Compare::Object | 0.000115
+Test2::Compare::OrderedSubset | 0.000115
+Test2::Compare::Pattern | 0.000115
+Test2::Compare::Ref | 0.000115
+Test2::Compare::Regex | 0.000115
+Test2::Compare::Scalar | 0.000115
+Test2::Compare::Set | 0.000115
+Test2::Compare::String | 0.000115
+Test2::Compare::Undef | 0.000115
+Test2::Compare::Wildcard | 0.000115
+Test2::Event | 1.302138
+Test2::Event::Bail | 1.302138
+Test2::Event::Diag | 1.302138
+Test2::Event::Encoding | 1.302138
+Test2::Event::Exception | 1.302138
+Test2::Event::Fail | 1.302138
+Test2::Event::Generic | 1.302138
+Test2::Event::Note | 1.302138
+Test2::Event::Ok | 1.302138
+Test2::Event::Pass | 1.302138
+Test2::Event::Plan | 1.302138
+Test2::Event::Skip | 1.302138
+Test2::Event::Subtest | 1.302138
+Test2::Event::TAP::Version | 1.302138
+Test2::Event::Times | 0.000115
+Test2::Event::V2 | 1.302138
+Test2::Event::Waiting | 1.302138
+Test2::Event::Warning | 0.06
+Test2::EventFacet | 1.302138
+Test2::EventFacet::About | 1.302138
+Test2::EventFacet::Amnesty | 1.302138
+Test2::EventFacet::Assert | 1.302138
+Test2::EventFacet::Control | 1.302138
+Test2::EventFacet::Error | 1.302138
+Test2::EventFacet::Hub | 1.302138
+Test2::EventFacet::Info | 1.302138
+Test2::EventFacet::Meta | 1.302138
+Test2::EventFacet::Parent | 1.302138
+Test2::EventFacet::Plan | 1.302138
+Test2::EventFacet::Render | 1.302138
+Test2::EventFacet::Trace | 1.302138
+Test2::Formatter | 1.302138
+Test2::Formatter::TAP | 1.302138
+Test2::Hub | 1.302138
+Test2::Hub::Interceptor | 1.302138
+Test2::Hub::Interceptor::Terminator | 1.302138
+Test2::Hub::Subtest | 1.302138
+Test2::IPC | 1.302138
+Test2::IPC::Driver | 1.302138
+Test2::IPC::Driver::Files | 1.302138
+Test2::Manual | 0.000115
+Test2::Manual::Anatomy | 0.000115
+Test2::Manual::Anatomy::API | 0.000115
+Test2::Manual::Anatomy::Context | 0.000115
+Test2::Manual::Anatomy::EndToEnd | 0.000115
+Test2::Manual::Anatomy::Event | 0.000115
+Test2::Manual::Anatomy::Hubs | 0.000115
+Test2::Manual::Anatomy::IPC | 0.000115
+Test2::Manual::Anatomy::Utilities | 0.000115
+Test2::Manual::Contributing | 0.000115
+Test2::Manual::Testing | 0.000115
+Test2::Manual::Testing::Introduction | 0.000115
+Test2::Manual::Testing::Migrating | 0.000115
+Test2::Manual::Testing::Planning | 0.000115
+Test2::Manual::Testing::Todo | 0.000115
+Test2::Manual::Tooling | 0.000115
+Test2::Manual::Tooling::FirstTool | 0.000115
+Test2::Manual::Tooling::Formatter | 0.000115
+Test2::Manual::Tooling::Nesting | 0.000115
+Test2::Manual::Tooling::Plugin::TestExit | 0.000115
+Test2::Manual::Tooling::Plugin::TestingDone | 0.000115
+Test2::Manual::Tooling::Plugin::ToolCompletes | 0.000115
+Test2::Manual::Tooling::Plugin::ToolStarts | 0.000115
+Test2::Manual::Tooling::Subtest | 0.000115
+Test2::Manual::Tooling::TestBuilder | 0.000115
+Test2::Manual::Tooling::Testing | 0.000115
+Test2::Mock | 0.000115
+Test2::Plugin | 0.000115
+Test2::Plugin::BailOnFail | 0.000115
+Test2::Plugin::DieOnFail | 0.000115
+Test2::Plugin::ExitSummary | 0.000115
+Test2::Plugin::NoWarnings | 0.06
+Test2::Plugin::SRand | 0.000115
+Test2::Plugin::Times | 0.000115
+Test2::Plugin::UTF8 | 0.000115
+Test2::Require | 0.000115
+Test2::Require::AuthorTesting | 0.000115
+Test2::Require::EnvVar | 0.000115
+Test2::Require::Fork | 0.000115
+Test2::Require::Module | 0.000115
+Test2::Require::Perl | 0.000115
+Test2::Require::RealFork | 0.000115
+Test2::Require::Threads | 0.000115
+Test2::Suite | 0.000115
+Test2::Todo | 0.000115
+Test2::Tools | 0.000115
+Test2::Tools::AsyncSubtest | 0.000115
+Test2::Tools::Basic | 0.000115
+Test2::Tools::Class | 0.000115
+Test2::Tools::ClassicCompare | 0.000115
+Test2::Tools::Compare | 0.000115
+Test2::Tools::Defer | 0.000115
+Test2::Tools::Encoding | 0.000115
+Test2::Tools::Event | 0.000115
+Test2::Tools::Exception | 0.000115
+Test2::Tools::Exports | 0.000115
+Test2::Tools::GenTemp | 0.000115
+Test2::Tools::Grab | 0.000115
+Test2::Tools::Mock | 0.000115
+Test2::Tools::Ref | 0.000115
+Test2::Tools::Spec | 0.000115
+Test2::Tools::Subtest | 0.000115
+Test2::Tools::Target | 0.000115
+Test2::Tools::Tester | 0.000115
+Test2::Tools::Tiny | 1.302138
+Test2::Tools::Warnings | 0.000115
+Test2::Util | 1.302138
+Test2::Util::ExternalMeta | 1.302138
+Test2::Util::Facets2Legacy | 1.302138
+Test2::Util::Grabber | 0.000115
+Test2::Util::HashBase | 1.302138
+Test2::Util::Ref | 0.000115
+Test2::Util::Stash | 0.000115
+Test2::Util::Sub | 0.000115
+Test2::Util::Table | 0.000115
+Test2::Util::Table::Cell | 0.000115
+Test2::Util::Table::LineBreak | 0.000115
+Test2::Util::Term | 0.000115
+Test2::Util::Times | 0.000115
+Test2::Util::Trace | 1.302138
+Test2::V0 | 0.000115
+Test2::Workflow | 0.000115
+Test2::Workflow::BlockBase | 0.000115
+Test2::Workflow::Build | 0.000115
+Test2::Workflow::Runner | 0.000115
+Test2::Workflow::Task | 0.000115
+Test2::Workflow::Task::Action | 0.000115
+Test2::Workflow::Task::Group | 0.000115
+Test::Assert | 0.0504
+Test::Base | 0.89
+Test::Base::Filter | unknown
+Test::Builder | 1.302138
+Test::Builder::Formatter | 1.302138
+Test::Builder::IO::Scalar | 2.114
+Test::Builder::Module | 1.302138
+Test::Builder::Tester | 1.302138
+Test::Builder::Tester::Color | 1.302138
+Test::Builder::TodoDiag | 1.302138
+Test::Class | 0.50
+Test::Class::Load | 0.50
+Test::Class::MethodInfo | 0.50
+Test::Class::Moose | 0.92
+Test::Class::Moose::AttributeRegistry | 0.92
+Test::Class::Moose::CLI | 0.92
+Test::Class::Moose::Config | 0.92
+Test::Class::Moose::Deprecated | 0.92
+Test::Class::Moose::Executor::Parallel | 0.92
+Test::Class::Moose::Executor::Sequential | 0.92
+Test::Class::Moose::Load | 0.92
+Test::Class::Moose::Report | 0.92
+Test::Class::Moose::Report::Class | 0.92
+Test::Class::Moose::Report::Instance | 0.92
+Test::Class::Moose::Report::Method | 0.92
+Test::Class::Moose::Report::Time | 0.92
+Test::Class::Moose::Role | 0.92
+Test::Class::Moose::Role::AutoUse | 0.92
+Test::Class::Moose::Role::CLI | 0.92
+Test::Class::Moose::Role::Executor | 0.92
+Test::Class::Moose::Role::HasTimeReport | 0.92
+Test::Class::Moose::Role::ParameterizedInstances | 0.92
+Test::Class::Moose::Role::Reporting | 0.92
+Test::Class::Moose::Runner | 0.92
+Test::Class::Moose::Tutorial | 0.92
+Test::Class::Moose::Util | 0.92
+Test::CleanNamespaces | 0.23
+Test::CPAN::Changes | 0.400002
+Test::CPAN::Meta | 0.25
+Test::CPAN::Meta::Version | 0.25
+Test::Deep | 1.128
+Test::Deep::All | unknown
+Test::Deep::Any | unknown
+Test::Deep::Array | unknown
+Test::Deep::ArrayEach | unknown
+Test::Deep::ArrayElementsOnly | unknown
+Test::Deep::ArrayLength | unknown
+Test::Deep::ArrayLengthOnly | unknown
+Test::Deep::Blessed | unknown
+Test::Deep::Boolean | unknown
+Test::Deep::Cache | unknown
+Test::Deep::Cache::Simple | unknown
+Test::Deep::Class | unknown
+Test::Deep::Cmp | unknown
+Test::Deep::Code | unknown
+Test::Deep::Hash | unknown
+Test::Deep::HashEach | unknown
+Test::Deep::HashElements | unknown
+Test::Deep::HashKeys | unknown
+Test::Deep::HashKeysOnly | unknown
+Test::Deep::Ignore | unknown
+Test::Deep::Isa | unknown
+Test::Deep::JSON | 0.05
+Test::Deep::ListMethods | unknown
+Test::Deep::Methods | unknown
+Test::Deep::MM | unknown
+Test::Deep::None | unknown
+Test::Deep::NoTest | unknown
+Test::Deep::Number | unknown
+Test::Deep::Obj | unknown
+Test::Deep::Ref | unknown
+Test::Deep::RefType | unknown
+Test::Deep::Regexp | unknown
+Test::Deep::RegexpMatches | unknown
+Test::Deep::RegexpOnly | unknown
+Test::Deep::RegexpRef | unknown
+Test::Deep::RegexpRefOnly | unknown
+Test::Deep::RegexpVersion | unknown
+Test::Deep::ScalarRef | unknown
+Test::Deep::ScalarRefOnly | unknown
+Test::Deep::Set | unknown
+Test::Deep::Shallow | unknown
+Test::Deep::Stack | unknown
+Test::Deep::String | unknown
+Test::Deep::Type | 0.008
+Test::Differences | 0.64
+Test::EOL | 2.00
+Test::Exception | 0.43
+Test::Expect | 0.34
+Test::FailWarnings | 0.008
+Test::Fatal | 0.014
+Test::File | 1.443
+Test::File::ShareDir | 1.001002
+Test::File::ShareDir::Dist | 1.001002
+Test::File::ShareDir::Module | 1.001002
+Test::File::ShareDir::Object::Dist | 1.001002
+Test::File::ShareDir::Object::Inc | 1.001002
+Test::File::ShareDir::Object::Module | 1.001002
+Test::File::ShareDir::TempDirObject | 1.001002
+Test::File::ShareDir::Utils | 1.001002
+Test::Fork | 0.02
+Test::Future | 0.38
+Test::Harness | 3.42
+Test::Identity | 0.01
+Test::JSON | 0.11
+Test::LeakTrace | 0.16
+Test::LeakTrace::Script | unknown
+Test::LongString | 0.17
+Test::LWP::UserAgent | 0.033
+Test::Memory::Cycle | 1.06
+Test::Mock::HTTP::Request | 0.01
+Test::Mock::HTTP::Response | 0.01
+Test::Mock::LWP | 0.08
+Test::Mock::LWP::UserAgent | 0.01
+Test::MockModule | 0.15
+Test::MockObject | 1.20180705
+Test::MockObject::Extends | 1.20180705
+Test::MockTime | 0.17
+Test::Mojo | unknown
+Test::Moose | 2.2011
+Test::MooseX::Daemonize | 0.21
+Test::More | 1.302138
+Test::More::UTF8 | 0.05
+Test::Most | 0.35
+Test::Most::Exception | 0.35
+Test::Needs | 0.002005
+Test::NoWarnings | 1.04
+Test::NoWarnings::Warning | 1.04
+Test::Number::Delta | 1.06
+Test::Object | 0.08
+Test::Object::Test | 0.08
+Test::Output | 1.031
+Test::Perl::Critic::Policy | 1.132
+Test::Pod | 1.52
+Test::Pod::Content | unknown
+Test::Pod::Coverage | 1.10
+Test::RDF::Trine::Store | 1.019
+Test::Refcount | 0.08
+Test::Requires | 0.10
+Test::RequiresInternet | 0.05
+Test::SharedFork | 0.35
+Test::SharedFork::Array | unknown
+Test::SharedFork::Scalar | unknown
+Test::SharedFork::Store | unknown
+Test::Simple | 1.302138
+Test::Spec | 0.54
+Test::Spec::Context | unknown
+Test::Spec::Example | unknown
+Test::Spec::Mocks | unknown
+Test::Spec::SharedHash | unknown
+Test::Spec::TodoExample | unknown
+Test::Specio | 0.42
+Test::SQL::Translator | 1.59
+Test::SubCalls | 1.10
+Test::TCP | 2.19
+Test::TCP::CheckPort | unknown
+Test::TempDir::Tiny | 0.018
+Test::Tester | 1.302138
+Test::Tester::Capture | 1.302138
+Test::Tester::CaptureRunner | 1.302138
+Test::Tester::Delegate | 1.302138
+Test::Time | 0.06
+Test::Toolbox | 0.4
+Test::Trap | unknown
+Test::Trap::Builder | unknown
+Test::Trap::Builder::PerlIO | unknown
+Test::Trap::Builder::SystemSafe | unknown
+Test::Trap::Builder::TempFile | unknown
+Test::TypeTiny | 1.002002
+Test::Unit::Lite | 0.1202
+Test::use::ok | 1.302138
+Test::utf8 | 1.01
+Test::Warn | 0.36
+Test::Warnings | 0.026
+Test::Without::Module | 0.20
+Test::WWW::Mechanize | 1.50
+Test::WWW::Mechanize::Catalyst | 0.60
+Test::WWW::Mechanize::PSGI | 0.38
+Test::WWW::Selenium | 1.36
+Test::YAML | 1.07
+Text::Aligner | 0.13
+Text::Autoformat | 1.74
+Text::Autoformat::Hang | 1.74
+Text::Autoformat::NullHang | 1.74
+Text::CSV | 1.95
+Text::CSV_PP | 1.95
+Text::CSV_XS | 1.36
+Text::Diff | 1.45
+Text::Diff::Config | 1.44
+Text::Diff::Table | 1.44
+Text::Format | 0.61
+Text::German | 0.06
+Text::German::Adjektiv | unknown
+Text::German::Ausnahme | unknown
+Text::German::Cache | unknown
+Text::German::Endung | unknown
+Text::German::Regel | unknown
+Text::German::Util | unknown
+Text::German::Verb | unknown
+Text::German::Vorsilbe | unknown
+Text::Glob | 0.11
+Text::LineFold | 2016.00702
+Text::Reform | 1.20
+Text::SimpleTable | 2.05
+Text::Table | 1.133
+Text::Template | 1.53
+Text::Template::Preprocess | 1.53
+Text::Unidecode | 1.30
+Text::VisualWidth::PP | 0.05
+threads::shared::array | 0.36
+threads::shared::handle | 0.36
+threads::shared::hash | 0.36
+threads::shared::scalar | 0.36
+Throwable | 0.200013
+Throwable::Error | 0.200013
+Tie::Handle::Offset | 0.004
+Tie::Handle::SkipHeader | 0.004
+Tie::Hash::MultiValue | 1.05
+Tie::IxHash | 1.23
+Tie::ToObject | 0.03
+Tie::Watch | 1.302
+Time::CTime | 2011.0505
+Time::DaysInMonth | 99.1117
+Time::Duration | 1.20
+Time::Duration::Parse | 0.14
+Time::HiRes | 1.9758
+Time::JulianDay | 2011.0505
+Time::ParseDate | 2015.103
+Time::Piece | 1.3204
+Time::Seconds | 1.3204
+Time::Timezone | 2015.0925
+Time::Tiny | 1.08
+Time::Zone | 2.24
+Tk | 804.034
+Tk::Adjuster | 4.008
+Tk::After | 4.008
+Tk::Animation | 4.008
+Tk::Balloon | 4.012
+Tk::Bitmap | 4.004
+Tk::BrowseEntry | 4.015
+Tk::Button | 4.010
+Tk::Canvas | 4.013
+Tk::Checkbutton | 4.006
+Tk::Clipboard | 4.009
+Tk::CmdLine | 4.007
+Tk::ColorDialog | 4.014
+Tk::ColorEditor | 4.014
+Tk::ColorSelect | 4.014
+Tk::Compound | 4.004
+Tk::Config | 804.034
+Tk::Configure | 4.009
+Tk::Derived | 4.011
+Tk::Dialog | 4.005
+Tk::DialogBox | 4.016
+Tk::Dirlist | 4.004
+Tk::DirTree | 4.022
+Tk::DragDrop | 4.015
+Tk::DragDrop::Common | 4.005
+Tk::DragDrop::Local | 4.004
+Tk::DragDrop::Rect | 4.012
+Tk::DragDrop::SunConst | 4.004
+Tk::DragDrop::SunDrop | 4.006
+Tk::DragDrop::SunSite | 4.007
+Tk::DragDrop::XDNDDrop | 4.007
+Tk::DragDrop::XDNDSite | 4.007
+Tk::DropSite | 4.008
+Tk::DummyEncode | 4.007
+Tk::English | 4.006
+Tk::Entry | 4.018
+Tk::ErrorDialog | 4.007
+Tk::Event | 4.035
+Tk::Event::IO | 4.009
+Tk::FBox | 4.018
+Tk::FileSelect | 4.018
+Tk::FloatEntry | 4.004
+Tk::Font | 4.004
+Tk::Frame | 4.010
+Tk::HList | 4.015
+Tk::IconList | 4.007
+Tk::Image | 4.011
+Tk::InputO | 4.004
+Tk::install | 4.004
+Tk::IO | 4.006
+Tk::ItemStyle | 4.004
+Tk::JPEG | 4.003
+Tk::Label | 4.006
+Tk::LabeledEntryLabeledRadiobutton | 4.004
+Tk::Labelframe | 4.003
+Tk::LabEntry | 4.006
+Tk::LabFrame | 4.010
+Tk::LabRadiobutton | 4.004
+Tk::Listbox | 4.015
+Tk::MainWindow | 4.015
+Tk::MakeDepend | 4.015
+Tk::Menu | 4.023
+Tk::Menu::Item | 4.005
+Tk::Menubar | 4.006
+Tk::Menubutton | 4.005
+Tk::Message | 4.006
+Tk::MMtry | 4.009
+Tk::MMutil | 4.026
+Tk::MsgBox | 4.002
+Tk::Mwm | 4.004
+Tk::NBFrame | 4.004
+Tk::NoteBook | 4.009
+Tk::Optionmenu | 4.014
+Tk::Pane | 4.007
+Tk::Panedwindow | 4.004
+Tk::Photo | 4.006
+Tk::Pixmap | 4.004
+Tk::PNG | 4.004
+Tk::Pretty | 4.006
+Tk::ProgressBar | 4.015
+Tk::Radiobutton | 4.006
+Tk::Region | 4.006
+Tk::Reindex | 4.006
+Tk::ReindexedROText | 4.004
+Tk::ReindexedText | 4.004
+Tk::ROText | 4.010
+Tk::Scale | 4.004
+Tk::Scrollbar | 4.010
+Tk::Spinbox | 4.007
+Tk::Stats | 4.004
+Tk::Submethods | 4.005
+Tk::Table | 4.016
+Tk::Text | 4.024
+Tk::Text::Tag | 4.004
+Tk::TextEdit | 4.004
+Tk::TextList | 4.006
+Tk::TextUndo | 4.015
+Tk::Tiler | 4.012
+Tk::TixGrid | 4.010
+Tk::TList | 4.006
+Tk::Toplevel | 4.006
+Tk::Trace | 4.009
+Tk::Tree | 4.72
+Tk::Widget | 4.036
+Tk::widgets | 4.005
+Tk::WinPhoto | 4.005
+Tk::Wm | 4.015
+Tk::X | 4.005
+Tk::X11Font | 4.007
+Tk::Xlib | 4.004
+Tk::Xrm | 4.005
+Tree::DAG_Node | 1.31
+Tree::Simple | 1.33
+Tree::Simple::Visitor | 1.33
+Tree::Simple::Visitor::BreadthFirstTraversal | 0.15
+Tree::Simple::Visitor::CreateDirectoryTree | 0.15
+Tree::Simple::Visitor::FindByNodeValue | 0.15
+Tree::Simple::Visitor::FindByPath | 0.15
+Tree::Simple::Visitor::FindByUID | 0.15
+Tree::Simple::Visitor::FromNestedArray | 0.15
+Tree::Simple::Visitor::FromNestedHash | 0.15
+Tree::Simple::Visitor::GetAllDescendents | 0.15
+Tree::Simple::Visitor::LoadClassHierarchy | 0.15
+Tree::Simple::Visitor::LoadDirectoryTree | 0.15
+Tree::Simple::Visitor::PathToRoot | 0.15
+Tree::Simple::Visitor::PostOrderTraversal | 0.15
+Tree::Simple::Visitor::PreOrderTraversal | 0.15
+Tree::Simple::Visitor::Sort | 0.15
+Tree::Simple::Visitor::ToNestedArray | 0.15
+Tree::Simple::Visitor::ToNestedHash | 0.15
+Tree::Simple::Visitor::VariableDepthClone | 0.15
+Tree::Simple::VisitorFactory | 0.15
+Try::Tiny | 0.30
+TryCatch | 1.003002
+Type::Coercion | 1.002002
+Type::Coercion::FromMoose | 1.002002
+Type::Coercion::Union | 1.002002
+Type::Library | 1.002002
+Type::Params | 1.002002
+Type::Parser | 1.002002
+Type::Registry | 1.002002
+Type::Tiny | 1.002002
+Type::Tiny::_HalfOp | 1.002002
+Type::Tiny::Class | 1.002002
+Type::Tiny::Duck | 1.002002
+Type::Tiny::Enum | 1.002002
+Type::Tiny::Intersection | 1.002002
+Type::Tiny::Role | 1.002002
+Type::Tiny::Union | 1.002002
+Type::Utils | 1.002002
+Types::Common::Numeric | 1.002002
+Types::Common::String | 1.002002
+Types::Serialiser | 1.0
+Types::Standard | 1.002002
+Types::Standard::ArrayRef | 1.002002
+Types::Standard::CycleTuple | 1.002002
+Types::Standard::Dict | 1.002002
+Types::Standard::HashRef | 1.002002
+Types::Standard::Map | 1.002002
+Types::Standard::ScalarRef | 1.002002
+Types::Standard::Tuple | 1.002002
+Types::TypeTiny | 1.002002
+Unicode::CharName | 0.00
+Unicode::EastAsianWidth | 1.33
+Unicode::EastAsianWidth::Detect | 0.03
+Unicode::GCString | 2013.10
+Unicode::LineBreak | 2018.003
+Unicode::LineBreak | unknown
+Unicode::Map | 0.112
+Unicode::Map8 | 0.13
+Unicode::String | 2.10
+UNIVERSAL::can | 1.20140328
+UNIVERSAL::isa | 1.20171012
+UNIVERSAL::require | 0.18
+URI | 1.74
+URI::_foreign | 1.74
+URI::_generic | 1.74
+URI::_idna | 1.74
+URI::_ldap | 1.74
+URI::_login | 1.74
+URI::_punycode | 1.74
+URI::_query | 1.74
+URI::_segment | 1.74
+URI::_server | 1.74
+URI::_userpass | 1.74
+URI::data | 1.74
+URI::Escape | 3.31
+URI::file | 4.21
+URI::file::Base | 1.74
+URI::file::FAT | 1.74
+URI::file::Mac | 1.74
+URI::file::OS2 | 1.74
+URI::file::QNX | 1.74
+URI::file::Unix | 1.74
+URI::file::Win32 | 1.74
+URI::Find | 20160806
+URI::Find::Schemeless | 20160806
+URI::ftp | 1.74
+URI::gopher | 1.74
+URI::Heuristic | 4.20
+URI::http | 1.74
+URI::https | 1.74
+URI::IRI | 1.74
+URI::ldap | 1.74
+URI::ldapi | 1.74
+URI::ldaps | 1.74
+URI::mailto | 1.74
+URI::mms | 1.74
+URI::news | 1.74
+URI::nntp | 1.74
+URI::pop | 1.74
+URI::QueryParam | 1.74
+URI::rlogin | 1.74
+URI::rsync | 1.74
+URI::rtsp | 1.74
+URI::rtspu | 1.74
+URI::sftp | 1.74
+URI::sip | 1.74
+URI::sips | 1.74
+URI::snews | 1.74
+URI::Split | 1.74
+URI::ssh | 1.74
+URI::telnet | 1.74
+URI::tn3270 | 1.74
+URI::URL | 5.04
+URI::urn | 1.74
+URI::urn::isbn | 1.74
+URI::urn::oid | 1.74
+URI::WithBase | 2.20
+URI::ws | 0.03
+URI::wss | 0.03
+UUID::Tiny | 1.04
+Variable::Magic | 0.62
+Want | 0.29
+WidgetDemo | 4.012
+Win32::ShellQuote | 0.003001
+WWW::Form::UrlEncoded | 0.24
+WWW::Form::UrlEncoded::PP | unknown
+WWW::Mechanize | 1.88
+WWW::Mechanize::Image | 1.88
+WWW::Mechanize::Link | 1.88
+WWW::Mechanize::TreeBuilder | 1.20000
+WWW::Pastebin::PastebinCom::Create | 1.003
+WWW::RobotRules | 6.02
+WWW::RobotRules::AnyDBM_File | 6.00
+WWW::Selenium | 1.36
+WWW::Selenium::Util | 1.36
+XML::Atom | 0.42
+XML::Atom::Base | unknown
+XML::Atom::Category | unknown
+XML::Atom::Client | unknown
+XML::Atom::Content | unknown
+XML::Atom::Entry | unknown
+XML::Atom::ErrorHandler | unknown
+XML::Atom::Feed | unknown
+XML::Atom::Link | unknown
+XML::Atom::Person | unknown
+XML::Atom::Server | unknown
+XML::Atom::Thing | unknown
+XML::Atom::Util | unknown
+XML::CommonNS | 0.06
+XML::Compile | 1.60
+XML::Compile::Iterator | 1.60
+XML::Compile::Schema | 1.60
+XML::Compile::Schema::BuiltInFacets | 1.60
+XML::Compile::Schema::BuiltInTypes | 1.60
+XML::Compile::Schema::Instance | 1.60
+XML::Compile::Schema::NameSpaces | 1.60
+XML::Compile::Schema::Specs | 1.60
+XML::Compile::Tester | 0.91
+XML::Compile::Translate | 1.60
+XML::Compile::Translate::Reader | 1.60
+XML::Compile::Translate::Template | 1.60
+XML::Compile::Translate::Writer | 1.60
+XML::Compile::Util | 1.60
+XML::DOM | 1.46
+XML::DOM::DOMException | unknown
+XML::DOM::NamedNodeMap | unknown
+XML::DOM::NodeList | unknown
+XML::DOM::PerlSAX | unknown
+XML::DOM::XPath | 0.14
+XML::ESISParser | 0.08
+XML::Filter::BufferText | 1.01
+XML::Generator::PerlData | 0.95
+XML::Handler::BuildDOM | unknown
+XML::Handler::CanonXMLWriter | 0.08
+XML::Handler::Sample | unknown
+XML::Handler::Subs | 0.08
+XML::Handler::XMLWriter | 0.08
+XML::LibXML | 2.0132
+XML::LibXML::AttributeHash | 2.0132
+XML::LibXML::Boolean | 2.0132
+XML::LibXML::Common | 2.0132
+XML::LibXML::Devel | 2.0132
+XML::LibXML::ErrNo | 2.0132
+XML::LibXML::Error | 2.0132
+XML::LibXML::Literal | 2.0132
+XML::LibXML::NodeList | 2.0132
+XML::LibXML::Number | 2.0132
+XML::LibXML::Reader | 2.0132
+XML::LibXML::SAX | 2.0132
+XML::LibXML::SAX::Builder | 2.0132
+XML::LibXML::SAX::Generator | 2.0132
+XML::LibXML::SAX::Parser | 2.0132
+XML::LibXML::Simple | 0.99
+XML::LibXML::XPathContext | 2.0132
+XML::LibXSLT | 1.96
+XML::Namespace | 0.02
+XML::NamespaceFactory | 1.02
+XML::NamespaceSupport | 1.12
+XML::Parser | 2.44
+XML::Parser::Expat | 2.44
+XML::Parser::Lite | 0.721
+XML::Parser::PerlSAX | 0.08
+XML::Parser::Style::Debug | unknown
+XML::Parser::Style::Objects | unknown
+XML::Parser::Style::Stream | unknown
+XML::Parser::Style::Subs | unknown
+XML::Parser::Style::Tree | unknown
+XML::PatAct::ACTION | unknown
+XML::PatAct::Amsterdam | 0.08
+XML::PatAct::MatchName | 0.08
+XML::PatAct::PATTERN | unknown
+XML::PatAct::ToObjects | 0.08
+XML::Perl2SAX | 0.08
+XML::RegExp | 0.04
+XML::RSS | 1.60
+XML::RSS::Private::Output::Base | 1.60
+XML::RSS::Private::Output::Roles::ImageDims | 1.60
+XML::RSS::Private::Output::Roles::ModulesElems | 1.60
+XML::RSS::Private::Output::V0_9 | 1.60
+XML::RSS::Private::Output::V0_91 | 1.60
+XML::RSS::Private::Output::V1_0 | 1.60
+XML::RSS::Private::Output::V2_0 | 1.60
+XML::SAX | 1.00
+XML::SAX2Perl | 0.08
+XML::SAX::Base | 1.09
+XML::SAX::DocumentLocator | unknown
+XML::SAX::Exception | 1.09
+XML::SAX::Expat | 0.51
+XML::SAX::ParserFactory | 1.01
+XML::SAX::PurePerl | 1.00
+XML::SAX::PurePerl | unknown
+XML::SAX::PurePerl | unknown
+XML::SAX::PurePerl | unknown
+XML::SAX::PurePerl | unknown
+XML::SAX::PurePerl | unknown
+XML::SAX::PurePerl | unknown
+XML::SAX::PurePerl::DebugHandler | unknown
+XML::SAX::PurePerl::Exception | unknown
+XML::SAX::PurePerl::Productions | unknown
+XML::SAX::PurePerl::Reader | unknown
+XML::SAX::PurePerl::Reader | unknown
+XML::SAX::PurePerl::Reader | unknown
+XML::SAX::PurePerl::Reader::Stream | unknown
+XML::SAX::PurePerl::Reader::String | unknown
+XML::SAX::PurePerl::Reader::URI | unknown
+XML::SAX::Writer | 0.57
+XML::SAX::Writer::XML | 0.57
+XML::Simple | 2.25
+XML::Twig | 3.52
+XML::Twig::XPath | 0.02
+XML::Writer | 0.625
+XML::XPath | 1.42
+XML::XPath::Boolean | 1.42
+XML::XPath::Builder | 1.42
+XML::XPath::Expr | 1.42
+XML::XPath::Function | 1.42
+XML::XPath::Literal | 1.42
+XML::XPath::LocationPath | 1.42
+XML::XPath::Node | 1.42
+XML::XPath::Node::Attribute | 1.42
+XML::XPath::Node::Comment | 1.42
+XML::XPath::Node::Element | 1.42
+XML::XPath::Node::Namespace | 1.42
+XML::XPath::Node::PI | 1.42
+XML::XPath::Node::Text | 1.42
+XML::XPath::NodeSet | 1.42
+XML::XPath::Number | 1.42
+XML::XPath::Parser | 1.42
+XML::XPath::PerlSAX | 1.42
+XML::XPath::Root | 1.42
+XML::XPath::Step | 1.42
+XML::XPath::Variable | 1.42
+XML::XPath::XMLParser | 1.42
+XML::XPathEngine | 0.14
+XML::XPathEngine::Boolean | unknown
+XML::XPathEngine::Expr | unknown
+XML::XPathEngine::Function | unknown
+XML::XPathEngine::Literal | unknown
+XML::XPathEngine::LocationPath | unknown
+XML::XPathEngine::NodeSet | unknown
+XML::XPathEngine::Number | unknown
+XML::XPathEngine::Root | unknown
+XML::XPathEngine::Step | 1.0
+XML::XPathEngine::Variable | unknown
+XS | unknown
+YAML | 1.26
+YAML::Any | 1.26
+YAML::Dumper | unknown
+YAML::Dumper::Base | unknown
+YAML::Error | unknown
+YAML::LibYAML | 0.72
+YAML::Loader | unknown
+YAML::Loader::Base | unknown
+YAML::Marshall | unknown
+YAML::Mo | unknown
+YAML::Node | unknown
+YAML::Tag | unknown
+YAML::Tiny | 1.73
+YAML::Types | unknown
+YAML::XS | 0.72
+YAML::XS::LibYAML | unknown
 
-Perl Module Search on perl_modules/5.26.2/rackham
-Module name	Version
-$pkg	2.019
-Acme::Damn	0.08
-Algorithm::C3	0.10
-Algorithm::Combinatorics	0.27
-Algorithm::Diff	1.1903
-Algorithm::FastPermute	0.999
-Algorithm::Loops	1.032
-Algorithm::Munkres	0.08
-Algorithm::Permute	0.16
-aliased	0.34
-Apache::Htpasswd	1.9
-Apache::LogFormat::Compiler	0.35
-Apache::SOAP	1.27
-App::Ack	2.24
-App::Ack::ConfigDefault	unknown
-App::Ack::ConfigFinder	unknown
-App::Ack::ConfigLoader	unknown
-App::Ack::Filter	unknown
-App::Ack::Filter::Collection	unknown
-App::Ack::Filter::Default	unknown
-App::Ack::Filter::Extension	unknown
-App::Ack::Filter::ExtensionGroup	unknown
-App::Ack::Filter::FirstLineMatch	unknown
-App::Ack::Filter::Inverse	unknown
-App::Ack::Filter::Is	unknown
-App::Ack::Filter::IsGroup	unknown
-App::Ack::Filter::IsPath	unknown
-App::Ack::Filter::IsPathGroup	unknown
-App::Ack::Filter::Match	unknown
-App::Ack::Filter::MatchGroup	unknown
-App::Ack::Resource	unknown
-App::Ack::Resources	unknown
-App::Cmd	0.331
-App::Cmd::ArgProcessor	0.331
-App::Cmd::Command	0.331
-App::Cmd::Command::commands	0.331
-App::Cmd::Command::help	0.331
-App::Cmd::Command::version	0.331
-App::Cmd::Plugin	0.331
-App::Cmd::Setup	0.331
-App::Cmd::Simple	0.331
-App::Cmd::Subdispatch	0.331
-App::Cmd::Subdispatch::DashedStyle	0.331
-App::Cmd::Tester	0.331
-App::Cmd::Tester::CaptureExternal	0.331
-App::cpanminus	1.7044
-App::cpanminus::fatscript	1.7044
-App::FatPacker	0.010007
-App::FatPacker::Trace	unknown
-App::Nopaste	1.012
-App::Nopaste::Command	1.012
-App::Nopaste::Service	1.012
-App::Nopaste::Service::Codepeek	1.012
-App::Nopaste::Service::Debian	1.012
-App::Nopaste::Service::Gist	1.012
-App::Nopaste::Service::GitLab	1.012
-App::Nopaste::Service::Mojopaste	1.012
-App::Nopaste::Service::PastebinCom	1.012
-App::Nopaste::Service::Pastie	1.012
-App::Nopaste::Service::Shadowcat	1.012
-App::Nopaste::Service::Snitch	1.012
-App::Nopaste::Service::ssh	1.012
-App::Nopaste::Service::Ubuntu	1.012
-App::perlbrew	0.84
-App::Pinto	0.14
-App::Pinto::Command	0.14
-App::Pinto::Command::add	0.14
-App::Pinto::Command::clean	0.14
-App::Pinto::Command::copy	0.14
-App::Pinto::Command::default	0.14
-App::Pinto::Command::delete	0.14
-App::Pinto::Command::diff	0.14
-App::Pinto::Command::help	0.14
-App::Pinto::Command::init	0.14
-App::Pinto::Command::install	0.14
-App::Pinto::Command::kill	0.14
-App::Pinto::Command::list	0.14
-App::Pinto::Command::lock	0.14
-App::Pinto::Command::log	0.14
-App::Pinto::Command::look	0.14
-App::Pinto::Command::manual	0.14
-App::Pinto::Command::merge	0.14
-App::Pinto::Command::migrate	0.14
-App::Pinto::Command::new	0.14
-App::Pinto::Command::nop	0.14
-App::Pinto::Command::pin	0.14
-App::Pinto::Command::props	0.14
-App::Pinto::Command::pull	0.14
-App::Pinto::Command::register	0.14
-App::Pinto::Command::rename	0.14
-App::Pinto::Command::reset	0.14
-App::Pinto::Command::revert	0.14
-App::Pinto::Command::roots	0.14
-App::Pinto::Command::stacks	0.14
-App::Pinto::Command::statistics	0.14
-App::Pinto::Command::thanks	0.14
-App::Pinto::Command::unlock	0.14
-App::Pinto::Command::unpin	0.14
-App::Pinto::Command::unregister	0.14
-App::Pinto::Command::update	0.14
-App::Pinto::Command::verify	0.14
-App::Prove	3.42
-App::Prove::State	3.42
-App::Prove::State::Result	3.42
-App::Prove::State::Result::Test	3.42
-AppConfig	1.71
-AppConfig::Args	1.71
-AppConfig::CGI	1.71
-AppConfig::File	1.71
-AppConfig::Getopt	1.71
-AppConfig::State	1.71
-AppConfig::Sys	1.71
-Archive::Any::Create	0.03
-Archive::Any::Create::Tar	unknown
-Archive::Any::Create::Zip	unknown
-Archive::Extract	0.80
-Archive::Zip	1.60
-Archive::Zip::Archive	1.60
-Archive::Zip::BufferedFileHandle	1.60
-Archive::Zip::DirectoryMember	1.60
-Archive::Zip::FileMember	1.60
-Archive::Zip::Member	1.60
-Archive::Zip::MemberRead	1.60
-Archive::Zip::MockFileHandle	1.60
-Archive::Zip::NewFileMember	1.60
-Archive::Zip::StringMember	1.60
-Archive::Zip::Tree	1.60
-Archive::Zip::ZipFileMember	1.60
-Array::Compare	3.0.1
-Array::Unique	0.08
-Array::Utils	0.5
-asa	1.03
-Astro::FITS::Header	3.04
-Astro::FITS::Header::AST	3.01
-Astro::FITS::Header::CFITSIO	3.02
-Astro::FITS::Header::GSD	3.01
-Astro::FITS::Header::Item	3.02
-Astro::FITS::Header::NDF	3.02
-Authen::SASL	2.16
-Authen::SASL::CRAM_MD5	2.14
-Authen::SASL::EXTERNAL	2.14
-Authen::SASL::Perl	2.14
-Authen::SASL::Perl::ANONYMOUS	2.14
-Authen::SASL::Perl::CRAM_MD5	2.14
-Authen::SASL::Perl::DIGEST_MD5	2.14
-Authen::SASL::Perl::EXTERNAL	2.14
-Authen::SASL::Perl::GSSAPI	0.05
-Authen::SASL::Perl::LOGIN	2.14
-Authen::SASL::Perl::PLAIN	2.14
-Authen::Simple	0.5
-Authen::Simple::Adapter	unknown
-Authen::Simple::Apache	unknown
-Authen::Simple::Log	unknown
-Authen::Simple::Passwd	0.6
-Authen::Simple::Password	unknown
-autobox	unknown
-autobox::universal	unknown
-B::Hooks::EndOfScope	0.24
-B::Hooks::EndOfScope::PP	0.24
-B::Hooks::EndOfScope::XS	0.24
-B::Hooks::OP::Check	0.22
-B::Hooks::OP::Check::Install::Files	unknown
-B::Hooks::OP::PPAddr	0.06
-B::Hooks::OP::PPAddr::Install::Files	unknown
-B::Keywords	1.18
-B::Utils	0.27
-B::Utils::Install::Files	unknown
-B::Utils::OP	0.27
-bareword::filehandles	0.006
-Bit::Vector	7.4
-Bit::Vector::Overload	7.4
-Bit::Vector::String	7.4
-boolean	0.46
-Browser::Open	0.04
-Bundle::DBD::mysql	4.046
-Bundle::DBI	12.008696
-Bundle::Object::InsideOut	4.04
-C::StructType	unknown
-C::Type	unknown
-C::Var	unknown
-Cache::BaseCache	unknown
-Cache::BaseCacheTester	unknown
-Cache::Cache	1.08
-Cache::CacheMetaData	unknown
-Cache::CacheSizer	unknown
-Cache::CacheTester	unknown
-Cache::CacheUtils	unknown
-Cache::FileBackend	unknown
-Cache::FileCache	unknown
-Cache::LRU	0.04
-Cache::MemoryBackend	unknown
-Cache::MemoryCache	unknown
-Cache::NullCache	unknown
-Cache::Object	unknown
-Cache::SharedMemoryBackend	unknown
-Cache::SharedMemoryCache	unknown
-Cache::SizeAwareCache	unknown
-Cache::SizeAwareCacheTester	unknown
-Cache::SizeAwareFileCache	unknown
-Cache::SizeAwareMemoryCache	unknown
-Cache::SizeAwareSharedMemoryCache	unknown
-Capture::Tiny	0.48
-Carp::Always	0.13
-Carp::Assert	0.21
-Carp::Assert::More	1.16
-Carp::Clan	6.06
-Carp::REPL	0.18
-Carton	unknown
-Carton::Builder	unknown
-Carton::CLI	unknown
-Carton::CPANfile	unknown
-Carton::Dependency	unknown
-Carton::Dist	unknown
-Carton::Dist::Core	unknown
-Carton::Environment	unknown
-Carton::Error	unknown
-Carton::Index	unknown
-Carton::Mirror	unknown
-Carton::Package	unknown
-Carton::Packer	unknown
-Carton::Snapshot	unknown
-Carton::Snapshot::Emitter	unknown
-Carton::Snapshot::Parser	unknown
-Carton::Tree	unknown
-Carton::Util	unknown
-Catalyst	5.90118
-Catalyst::Action	unknown
-Catalyst::Action::Deserialize	1.21
-Catalyst::Action::Deserialize::Callback	1.21
-Catalyst::Action::Deserialize::JSON	1.21
-Catalyst::Action::Deserialize::JSON::XS	1.21
-Catalyst::Action::Deserialize::View	1.21
-Catalyst::Action::Deserialize::XML::Simple	1.21
-Catalyst::Action::Deserialize::YAML	1.21
-Catalyst::Action::DeserializeMultiPart	1.21
-Catalyst::Action::RenderView	0.16
-Catalyst::Action::REST	1.21
-Catalyst::Action::REST::ForBrowsers	1.21
-Catalyst::Action::Role::ACL	0.07
-Catalyst::Action::Serialize	1.21
-Catalyst::Action::Serialize::Callback	1.21
-Catalyst::Action::Serialize::JSON	1.21
-Catalyst::Action::Serialize::JSON::XS	1.21
-Catalyst::Action::Serialize::JSONP	1.21
-Catalyst::Action::Serialize::View	1.21
-Catalyst::Action::Serialize::XML::Simple	1.21
-Catalyst::Action::Serialize::YAML	1.21
-Catalyst::Action::Serialize::YAML::HTML	1.21
-Catalyst::Action::SerializeBase	1.21
-Catalyst::ActionChain	unknown
-Catalyst::ActionContainer	unknown
-Catalyst::ActionRole::ACL	0.07
-Catalyst::ActionRole::ConsumesContent	unknown
-Catalyst::ActionRole::HTTPMethods	unknown
-Catalyst::ActionRole::NeedsLogin	unknown
-Catalyst::ActionRole::QueryMatching	unknown
-Catalyst::ActionRole::Scheme	unknown
-Catalyst::Authentication::Credential::HTTP	1.018
-Catalyst::Authentication::Credential::NoPassword	unknown
-Catalyst::Authentication::Credential::Password	unknown
-Catalyst::Authentication::Credential::Remote	unknown
-Catalyst::Authentication::Realm	unknown
-Catalyst::Authentication::Realm::Compatibility	unknown
-Catalyst::Authentication::Realm::Progressive	unknown
-Catalyst::Authentication::Realm::SimpleDB	unknown
-Catalyst::Authentication::Store::DBIx::Class	0.1506
-Catalyst::Authentication::Store::DBIx::Class::User	unknown
-Catalyst::Authentication::Store::Minimal	unknown
-Catalyst::Authentication::Store::Null	unknown
-Catalyst::Authentication::User	unknown
-Catalyst::Authentication::User::Hash	unknown
-Catalyst::Base	unknown
-Catalyst::ClassData	unknown
-Catalyst::Component	unknown
-Catalyst::Component::ApplicationAttribute	unknown
-Catalyst::Component::ContextClosure	unknown
-Catalyst::Component::InstancePerContext	0.001001
-Catalyst::Controller	unknown
-Catalyst::Controller::ActionRole	0.17
-Catalyst::Controller::REST	1.21
-Catalyst::Devel	1.39
-Catalyst::Dispatcher	unknown
-Catalyst::DispatchType	unknown
-Catalyst::DispatchType::Chained	unknown
-Catalyst::DispatchType::Default	unknown
-Catalyst::DispatchType::Index	unknown
-Catalyst::DispatchType::Path	unknown
-Catalyst::Engine	unknown
-Catalyst::EngineLoader	unknown
-Catalyst::Exception	unknown
-Catalyst::Exception::Basic	unknown
-Catalyst::Exception::Detach	unknown
-Catalyst::Exception::Go	unknown
-Catalyst::Exception::Interface	unknown
-Catalyst::Helper	1.39
-Catalyst::Helper::Model::Adaptor	unknown
-Catalyst::Helper::Model::DBIC::Schema	0.65
-Catalyst::Helper::Model::Factory	unknown
-Catalyst::Helper::Model::Factory::PerRequest	unknown
-Catalyst::Helper::View::Email	0.36
-Catalyst::Helper::View::Email::Template	0.36
-Catalyst::Helper::View::TT	0.44
-Catalyst::Helper::View::TTSite	0.44
-Catalyst::Log	unknown
-Catalyst::Manual	5.9009
-Catalyst::Middleware::Stash	unknown
-Catalyst::Model	unknown
-Catalyst::Model::Adaptor	0.10
-Catalyst::Model::Adaptor::Base	unknown
-Catalyst::Model::DBIC::Schema	0.65
-Catalyst::Model::Factory	0.10
-Catalyst::Model::Factory::PerRequest	0.10
-Catalyst::Plugin::Authentication	0.10023
-Catalyst::Plugin::Authentication::Credential::Password	unknown
-Catalyst::Plugin::Authentication::Store::Minimal	unknown
-Catalyst::Plugin::Authentication::User	unknown
-Catalyst::Plugin::Authentication::User::Hash	unknown
-Catalyst::Plugin::ConfigLoader	0.34
-Catalyst::Plugin::I18N	0.10
-Catalyst::Plugin::Session	0.40
-Catalyst::Plugin::Session::State	unknown
-Catalyst::Plugin::Session::State::Cookie	0.17
-Catalyst::Plugin::Session::Store	unknown
-Catalyst::Plugin::Session::Store::DBIC	0.14
-Catalyst::Plugin::Session::Store::DBIC::Delegate	unknown
-Catalyst::Plugin::Session::Store::Delegate	0.06
-Catalyst::Plugin::Session::Store::Dummy	unknown
-Catalyst::Plugin::Session::Store::File	0.18
-Catalyst::Plugin::Session::Test::Store	123
-Catalyst::Plugin::StackTrace	0.12
-Catalyst::Plugin::Static::Simple	0.36
-Catalyst::Plugin::Unicode::Encoding	5.90118
-Catalyst::Request	unknown
-Catalyst::Request::PartData	unknown
-Catalyst::Request::REST	1.21
-Catalyst::Request::REST::ForBrowsers	1.21
-Catalyst::Request::Upload	unknown
-Catalyst::Response	unknown
-Catalyst::Response::Writer	unknown
-Catalyst::Restarter	unknown
-Catalyst::Restarter::Forking	unknown
-Catalyst::Restarter::Win32	unknown
-Catalyst::Runtime	5.90118
-Catalyst::Script::CGI	unknown
-Catalyst::Script::Create	unknown
-Catalyst::Script::FastCGI	unknown
-Catalyst::Script::Server	unknown
-Catalyst::Script::Test	unknown
-Catalyst::ScriptRole	unknown
-Catalyst::ScriptRunner	unknown
-Catalyst::Stats	unknown
-Catalyst::Test	unknown
-Catalyst::TraitFor::Model::DBIC::Schema::Caching	unknown
-Catalyst::TraitFor::Model::DBIC::Schema::PerRequestSchema	unknown
-Catalyst::TraitFor::Model::DBIC::Schema::Replicated	unknown
-Catalyst::TraitFor::Model::DBIC::Schema::SchemaProxy	unknown
-Catalyst::TraitFor::Request::REST	1.21
-Catalyst::TraitFor::Request::REST::ForBrowsers	1.21
-Catalyst::Utils	unknown
-Catalyst::View	unknown
-Catalyst::View::Email	0.36
-Catalyst::View::Email::Template	0.36
-Catalyst::View::TT	0.44
-CatalystX::Component::Traits	0.19
-CatalystX::InjectComponent	0.025
-CatalystX::LeakChecker	0.06
-CatalystX::Profile	0.02
-CatalystX::Profile::Controller::ControlProfiling	0.02
-CatalystX::REPL	0.04
-CatalystX::SimpleLogin	0.20
-CatalystX::SimpleLogin::Controller::Login	unknown
-CatalystX::SimpleLogin::Form::Login	unknown
-CatalystX::SimpleLogin::Form::LoginOpenID	unknown
-CatalystX::SimpleLogin::TraitFor::Controller::Login::Logout	unknown
-CatalystX::SimpleLogin::TraitFor::Controller::Login::OpenID	unknown
-CatalystX::SimpleLogin::TraitFor::Controller::Login::RenderAsTTTemplate	unknown
-CatalystX::SimpleLogin::TraitFor::Controller::Login::WithRedirect	unknown
-CGI	4.38
-CGI::Carp	4.38
-CGI::Cookie	4.38
-CGI::File::Temp	4.38
-CGI::FormBuilder	3.10
-CGI::FormBuilder::Field	3.10
-CGI::FormBuilder::Field::button	3.10
-CGI::FormBuilder::Field::checkbox	3.10
-CGI::FormBuilder::Field::date	3.10
-CGI::FormBuilder::Field::datetime	3.10
-CGI::FormBuilder::Field::datetime_local	3.10
-CGI::FormBuilder::Field::email	3.10
-CGI::FormBuilder::Field::file	3.10
-CGI::FormBuilder::Field::hidden	3.10
-CGI::FormBuilder::Field::image	3.10
-CGI::FormBuilder::Field::number	3.10
-CGI::FormBuilder::Field::password	3.10
-CGI::FormBuilder::Field::radio	3.10
-CGI::FormBuilder::Field::select	3.10
-CGI::FormBuilder::Field::static	3.10
-CGI::FormBuilder::Field::submit	3.10
-CGI::FormBuilder::Field::text	3.10
-CGI::FormBuilder::Field::textarea	3.10
-CGI::FormBuilder::Field::time	3.10
-CGI::FormBuilder::Field::url	3.10
-CGI::FormBuilder::Messages	3.10
-CGI::FormBuilder::Messages::base	3.10
-CGI::FormBuilder::Messages::default	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Messages::locale	3.10
-CGI::FormBuilder::Multi	3.10
-CGI::FormBuilder::Source	3.10
-CGI::FormBuilder::Source::File	3.10
-CGI::FormBuilder::Source::Perl	0.01
-CGI::FormBuilder::Template	3.10
-CGI::FormBuilder::Template::Builtin	3.10
-CGI::FormBuilder::Template::CGI_SSI	3.10
-CGI::FormBuilder::Template::Div	3.10
-CGI::FormBuilder::Template::Fast	3.10
-CGI::FormBuilder::Template::HTML	3.10
-CGI::FormBuilder::Template::Text	3.10
-CGI::FormBuilder::Template::TT2	3.10
-CGI::FormBuilder::Test	3.10
-CGI::FormBuilder::Util	3.10
-CGI::HTML::Functions	unknown
-CGI::Pretty	4.38
-CGI::Push	4.38
-CGI::Simple	1.15
-CGI::Simple::Cookie	1.15
-CGI::Simple::Standard	1.15
-CGI::Simple::Util	1.15
-CGI::Struct	1.21
-CGI::Util	4.38
-CHI	0.60
-CHI::CacheObject	0.60
-CHI::Constants	0.60
-CHI::Driver	0.60
-CHI::Driver::Base::CacheContainer	0.60
-CHI::Driver::CacheCache	0.60
-CHI::Driver::FastMmap	0.60
-CHI::Driver::File	0.60
-CHI::Driver::Memory	0.60
-CHI::Driver::Metacache	0.60
-CHI::Driver::Null	0.60
-CHI::Driver::RawMemory	0.60
-CHI::Driver::Role::HasSubcaches	0.60
-CHI::Driver::Role::IsSizeAware	0.60
-CHI::Driver::Role::IsSubcache	0.60
-CHI::Driver::Role::Universal	0.60
-CHI::Serializer::JSON	0.60
-CHI::Serializer::Storable	0.60
-CHI::Stats	0.60
-CHI::t::Bugs	0.60
-CHI::t::Config	0.60
-CHI::t::Constants	0.60
-CHI::t::Driver	0.60
-CHI::t::Driver::CacheCache	0.60
-CHI::t::Driver::FastMmap	0.60
-CHI::t::Driver::File	0.60
-CHI::t::Driver::File::DepthZero	0.60
-CHI::t::Driver::Memory	0.60
-CHI::t::Driver::NonMoose	0.60
-CHI::t::Driver::RawMemory	0.60
-CHI::t::Driver::Subcache	0.60
-CHI::t::Driver::Subcache::l1_cache	0.60
-CHI::t::Driver::Subcache::mirror_cache	0.60
-CHI::t::GetError	0.60
-CHI::t::Initialize	0.60
-CHI::t::Null	0.60
-CHI::t::RequiredModules	0.60
-CHI::t::Sanity	0.60
-CHI::t::SetError	0.60
-CHI::t::Subcache	0.60
-CHI::t::Subclass	0.60
-CHI::t::Util	0.60
-CHI::Test	0.60
-CHI::Test::Class	0.60
-CHI::Test::Driver::NonMoose	0.60
-CHI::Test::Driver::Readonly	0.60
-CHI::Test::Driver::Role::CheckKeyValidity	0.60
-CHI::Test::Driver::Writeonly	0.60
-CHI::Test::Util	0.60
-CHI::Types	0.60
-CHI::Util	0.60
-Class::Accessor	0.51
-Class::Accessor::Chained	0.01
-Class::Accessor::Chained::Fast	unknown
-Class::Accessor::Fast	0.51
-Class::Accessor::Faster	0.51
-Class::Accessor::Grouped	0.10014
-Class::Accessor::Lite	0.08
-Class::AutoClass	1.56
-Class::AutoClass::Root	1
-Class::C3	0.34
-Class::C3::Adopt::NEXT	0.14
-Class::C3::Componentised	1.001002
-Class::C3::Componentised::ApplyHooks	unknown
-Class::Data::Inheritable	0.08
-Class::Factory::Util	1.7
-Class::Inspector	1.32
-Class::Inspector::Functions	1.32
-Class::Load	0.25
-Class::Load::PP	0.25
-Class::Load::XS	0.10
-Class::Method::Modifiers	2.12
-Class::MethodMaker	2.24
-Class::MethodMaker::array	unknown
-Class::MethodMaker::Constants	unknown
-Class::MethodMaker::Engine	2.24
-Class::MethodMaker::hash	unknown
-Class::MethodMaker::OptExt	unknown
-Class::MethodMaker::scalar	unknown
-Class::MethodMaker::V1Compat	unknown
-Class::MOP	2.2011
-Class::MOP::Attribute	2.2011
-Class::MOP::Class	2.2011
-Class::MOP::Class::Immutable::Trait	2.2011
-Class::MOP::Deprecated	2.2011
-Class::MOP::Instance	2.2011
-Class::MOP::Method	2.2011
-Class::MOP::Method::Accessor	2.2011
-Class::MOP::Method::Constructor	2.2011
-Class::MOP::Method::Generated	2.2011
-Class::MOP::Method::Inlined	2.2011
-Class::MOP::Method::Meta	2.2011
-Class::MOP::Method::Wrapped	2.2011
-Class::MOP::MiniTrait	2.2011
-Class::MOP::Mixin	2.2011
-Class::MOP::Mixin::AttributeCore	2.2011
-Class::MOP::Mixin::HasAttributes	2.2011
-Class::MOP::Mixin::HasMethods	2.2011
-Class::MOP::Mixin::HasOverloads	2.2011
-Class::MOP::Module	2.2011
-Class::MOP::Object	2.2011
-Class::MOP::Overload	2.2011
-Class::MOP::Package	2.2011
-Class::Singleton	1.5
-Class::Tiny	1.006
-Class::Trigger	0.14
-Class::Unload	0.11
-Class::XSAccessor	1.19
-Class::XSAccessor::Array	1.19
-Clipboard	0.13
-Clipboard::MacPasteboard	unknown
-Clipboard::Win32	unknown
-Clipboard::Xclip	unknown
-Clone	0.39
-Clone::Choose	0.010
-Clone::PP	1.07
-Commandable	0.01
-Commandable::Invocation	0.01
-common::sense	3.74
-Compress::Bzip2	2.26
-Compress::Raw::Bzip2	2.081
-Compress::Raw::Zlib	2.081
-Config::Any	0.32
-Config::Any::Base	unknown
-Config::Any::General	unknown
-Config::Any::INI	unknown
-Config::Any::JSON	unknown
-Config::Any::Perl	unknown
-Config::Any::XML	unknown
-Config::Any::YAML	unknown
-Config::General	2.63
-Config::General::Extended	2.07
-Config::General::Interpolated	2.15
-Config::INI	0.025
-Config::INI::Reader	0.025
-Config::INI::Writer	0.025
-Config::MVP	2.200011
-Config::MVP::Assembler	2.200011
-Config::MVP::Assembler::WithBundles	2.200011
-Config::MVP::Error	2.200011
-Config::MVP::Reader	2.200011
-Config::MVP::Reader::Findable	2.200011
-Config::MVP::Reader::Findable::ByExtension	2.200011
-Config::MVP::Reader::Finder	2.200011
-Config::MVP::Reader::Hash	2.200011
-Config::MVP::Reader::INI	2.101463
-Config::MVP::Section	2.200011
-Config::MVP::Sequence	2.200011
-Config::Tiny	2.23
-constant::boolean	0.02
-Context::Preserve	0.03
-Contextual::Return	0.004014
-Contextual::Return::Failure	unknown
-Convert::Binary::C	0.78
-Convert::Binary::C::Cached	0.78
-Convert::BinHex	1.125
-Convert::Color	0.11
-Convert::Color::CMY	0.11
-Convert::Color::CMYK	0.11
-Convert::Color::HSL	0.11
-Convert::Color::HSV	0.11
-Convert::Color::RGB	0.11
-Convert::Color::RGB16	0.11
-Convert::Color::RGB8	0.11
-Convert::Color::VGA	0.11
-Convert::Color::X11	0.11
-Convert::Color::XTerm	0.05
-Convert::UU	0.5201
-Cookie::Baker	0.09
-CPAN::Changes	0.400002
-CPAN::Changes::Group	unknown
-CPAN::Changes::Release	unknown
-CPAN::Checksums	2.12
-CPAN::Common::Index	0.010
-CPAN::Common::Index::LocalPackage	0.010
-CPAN::Common::Index::MetaDB	0.010
-CPAN::Common::Index::Mirror	0.010
-CPAN::Common::Index::Mux::Ordered	0.010
-CPAN::DistnameInfo	0.12
-CPAN::Meta::Check	0.014
-CPAN::Mini	1.111016
-CPAN::Mini::App	1.111016
-CPAN::Perl::Releases	3.68
-CPAN::Uploader	0.103013
-Cpanel::JSON::XS	4.04
-Cpanel::JSON::XS::Type	unknown
-Crypt::Blowfish	2.14
-Crypt::CBC	2.33
-Crypt::PasswdMD5	1.40
-Crypt::Random::Seed	0.03
-Crypt::Random::TESHA2	0.01
-Crypt::Random::TESHA2::Config	0.01
-Crypt::RC4	2.02
-CSS::Tiny	1.20
-curry	1.001000
-curry::weak	unknown
-Curses::Window	1.36
-Cwd	3.74
-Cwd::Guard	0.05
-Dancer	1.3400
-Dancer2	0.206000
-Dancer2::CLI	0.206000
-Dancer2::CLI::Command::gen	0.206000
-Dancer2::CLI::Command::version	0.206000
-Dancer2::Core	0.206000
-Dancer2::Core::App	0.206000
-Dancer2::Core::Cookie	0.206000
-Dancer2::Core::Dispatcher	0.206000
-Dancer2::Core::DSL	0.206000
-Dancer2::Core::Error	0.206000
-Dancer2::Core::Factory	0.206000
-Dancer2::Core::Hook	0.206000
-Dancer2::Core::HTTP	0.206000
-Dancer2::Core::MIME	0.206000
-Dancer2::Core::Request	0.206000
-Dancer2::Core::Request::Upload	0.206000
-Dancer2::Core::Response	0.206000
-Dancer2::Core::Response::Delayed	0.206000
-Dancer2::Core::Role::ConfigReader	0.206000
-Dancer2::Core::Role::DSL	0.206000
-Dancer2::Core::Role::Engine	0.206000
-Dancer2::Core::Role::Handler	0.206000
-Dancer2::Core::Role::HasLocation	0.206000
-Dancer2::Core::Role::Hookable	0.206000
-Dancer2::Core::Role::Logger	0.206000
-Dancer2::Core::Role::Serializer	0.206000
-Dancer2::Core::Role::SessionFactory	0.206000
-Dancer2::Core::Role::SessionFactory::File	0.206000
-Dancer2::Core::Role::StandardResponses	0.206000
-Dancer2::Core::Role::Template	0.206000
-Dancer2::Core::Route	0.206000
-Dancer2::Core::Runner	0.206000
-Dancer2::Core::Session	0.206000
-Dancer2::Core::Time	0.206000
-Dancer2::Core::Types	0.206000
-Dancer2::FileUtils	0.206000
-Dancer2::Handler::AutoPage	0.206000
-Dancer2::Handler::File	0.206000
-Dancer2::Logger::Capture	0.206000
-Dancer2::Logger::Capture::Trap	0.206000
-Dancer2::Logger::Console	0.206000
-Dancer2::Logger::Diag	0.206000
-Dancer2::Logger::File	0.206000
-Dancer2::Logger::LogReport	1.27
-Dancer2::Logger::Note	0.206000
-Dancer2::Logger::Null	0.206000
-Dancer2::Plugin	0.206000
-Dancer2::Plugin::LogReport	1.27
-Dancer2::Plugin::LogReport::Message	1.27
-Dancer2::Serializer::Dumper	0.206000
-Dancer2::Serializer::JSON	0.206000
-Dancer2::Serializer::Mutable	0.206000
-Dancer2::Serializer::YAML	0.206000
-Dancer2::Session::Simple	0.206000
-Dancer2::Session::YAML	0.206000
-Dancer2::Template::Implementation::ForkedTiny	0.206000
-Dancer2::Template::Simple	0.206000
-Dancer2::Template::TemplateToolkit	0.206000
-Dancer2::Template::Tiny	0.206000
-Dancer2::Test	0.206000
-Dancer::App	1.3400
-Dancer::Config	1.3400
-Dancer::Config::Object	1.3400
-Dancer::Continuation	1.3400
-Dancer::Continuation::Halted	1.3400
-Dancer::Continuation::Route	1.3400
-Dancer::Continuation::Route::ErrorSent	1.3400
-Dancer::Continuation::Route::FileSent	1.3400
-Dancer::Continuation::Route::Forwarded	1.3400
-Dancer::Continuation::Route::Passed	1.3400
-Dancer::Continuation::Route::Templated	1.3400
-Dancer::Cookie	1.3400
-Dancer::Cookies	1.3400
-Dancer::Deprecation	1.3400
-Dancer::Engine	1.3400
-Dancer::Error	1.3400
-Dancer::Exception	1.3400
-Dancer::Exception::Base	1.3400
-Dancer::Factory::Hook	1.3400
-Dancer::FileUtils	1.3400
-Dancer::GetOpt	1.3400
-Dancer::Handler	1.3400
-Dancer::Handler::Debug	1.3400
-Dancer::Handler::PSGI	1.3400
-Dancer::Handler::Standalone	1.3400
-Dancer::Hook	1.3400
-Dancer::Hook::Properties	1.3400
-Dancer::HTTP	1.3400
-Dancer::Logger	1.3400
-Dancer::Logger::Abstract	1.3400
-Dancer::Logger::Capture	1.3400
-Dancer::Logger::Capture::Trap	1.3400
-Dancer::Logger::Console	1.3400
-Dancer::Logger::Diag	1.3400
-Dancer::Logger::File	1.3400
-Dancer::Logger::LogReport	1.27
-Dancer::Logger::Note	1.3400
-Dancer::Logger::Null	1.3400
-Dancer::MIME	1.3400
-Dancer::ModuleLoader	1.3400
-Dancer::Object	1.3400
-Dancer::Object::Singleton	1.3400
-Dancer::Plugin	1.3400
-Dancer::Plugin::Ajax	1.3400
-Dancer::Renderer	1.3400
-Dancer::Request	1.3400
-Dancer::Request::Upload	1.3400
-Dancer::Response	1.3400
-Dancer::Route	1.3400
-Dancer::Route::Cache	1.3400
-Dancer::Route::Registry	1.3400
-Dancer::Serializer	1.3400
-Dancer::Serializer::Abstract	1.3400
-Dancer::Serializer::Dumper	1.3400
-Dancer::Serializer::JSON	1.3400
-Dancer::Serializer::JSONP	1.3400
-Dancer::Serializer::Mutable	1.3400
-Dancer::Serializer::XML	1.3400
-Dancer::Serializer::YAML	1.3400
-Dancer::Session	1.3400
-Dancer::Session::Abstract	1.3400
-Dancer::Session::Simple	1.3400
-Dancer::Session::YAML	1.3400
-Dancer::SharedData	1.3400
-Dancer::Template	1.3400
-Dancer::Template::Abstract	1.3400
-Dancer::Template::Simple	1.3400
-Dancer::Template::TemplateToolkit	1.3400
-Dancer::Test	1.3400
-Dancer::Timer	1.3400
-Data::Clone	0.004
-Data::Compare	1.25
-Data::Compare::Plugins::Scalar::Properties	1
-Data::Dump	1.23
-Data::Dump::FilterContext	unknown
-Data::Dump::Filtered	unknown
-Data::Dump::Streamer	2.40
-Data::Dump::Streamer::_::StringPrinter	0.1
-Data::Dump::Trace	0.02
-Data::Dumper::Again	0.01
-Data::Dumper::Concise	2.023
-Data::Dumper::Concise::Sugar	2.023
-Data::Dumper::Perltidy	0.03
-Data::Grove	0.08
-Data::Grove::Parent	0.08
-Data::Grove::Visitor	0.08
-Data::Munge	0.097
-Data::OptList	0.110
-Data::Page	2.02
-Data::Paginator	0.08
-Data::Paginator::Types	0.08
-Data::Perl	0.002009
-Data::Perl::Bool	0.002009
-Data::Perl::Bool::MooseLike	0.001008
-Data::Perl::Code	0.002009
-Data::Perl::Collection::Array	0.002009
-Data::Perl::Collection::Array::MooseLike	0.001008
-Data::Perl::Collection::Hash	0.002009
-Data::Perl::Collection::Hash::MooseLike	0.001008
-Data::Perl::Counter	0.002009
-Data::Perl::Number	0.002009
-Data::Perl::Number::MooseLike	0.001008
-Data::Perl::Role::Bool	0.002009
-Data::Perl::Role::Code	0.002009
-Data::Perl::Role::Collection::Array	0.002009
-Data::Perl::Role::Collection::Hash	0.002009
-Data::Perl::Role::Counter	0.002009
-Data::Perl::Role::Number	0.002009
-Data::Perl::Role::String	0.002009
-Data::Perl::String	0.002009
-Data::Perl::String::MooseLike	0.001008
-Data::PowerSet	0.05
-Data::Printer	0.40
-Data::Printer::Filter	unknown
-Data::Printer::Filter::DateTime	unknown
-Data::Printer::Filter::DB	unknown
-Data::Printer::Filter::Digest	unknown
-Data::Section	0.200007
-Data::Stag	0.14
-Data::Stag::Arr2HTML	0.14
-Data::Stag::Base	0.14
-Data::Stag::BaseGenerator	unknown
-Data::Stag::ChainHandler	0.14
-Data::Stag::DTDWriter	0.14
-Data::Stag::GraphHandler	0.14
-Data::Stag::HashDB	0.14
-Data::Stag::IndentParser	0.14
-Data::Stag::IndentWriter	0.14
-Data::Stag::ITextParser	0.14
-Data::Stag::ITextWriter	0.14
-Data::Stag::JSONWriter	0.14
-Data::Stag::null	0.14
-Data::Stag::PerlWriter	0.14
-Data::Stag::PodParser	0.14
-Data::Stag::SAX2Stag	0.14
-Data::Stag::Simple	0.14
-Data::Stag::StagDB	0.14
-Data::Stag::StagI	unknown
-Data::Stag::StagImpl	0.14
-Data::Stag::SxprParser	0.14
-Data::Stag::SxprWriter	0.14
-Data::Stag::Util	0.14
-Data::Stag::Writer	0.14
-Data::Stag::XMLParser	0.14
-Data::Stag::XMLWriter	0.14
-Data::Stag::XSLHandler	unknown
-Data::Stag::XSLTHandler	unknown
-Data::UUID	1.221
-Data::Validate::Domain	0.14
-Data::Validate::IP	0.27
-Data::Validate::URI	0.07
-Data::Visitor	0.30
-Data::Visitor::Callback	0.30
-Date::Format	2.24
-Date::Language	1.10
-Date::Language::Afar	0.99
-Date::Language::Amharic	1.00
-Date::Language::Austrian	1.01
-Date::Language::Brazilian	1.01
-Date::Language::Bulgarian	1.01
-Date::Language::Chinese	1.00
-Date::Language::Chinese_GB	1.01
-Date::Language::Czech	1.01
-Date::Language::Danish	1.01
-Date::Language::Dutch	1.02
-Date::Language::English	1.01
-Date::Language::Finnish	1.01
-Date::Language::French	1.04
-Date::Language::Gedeo	0.99
-Date::Language::German	1.02
-Date::Language::Greek	1.00
-Date::Language::Hungarian	1.01
-Date::Language::Icelandic	1.01
-Date::Language::Italian	1.01
-Date::Language::Norwegian	1.01
-Date::Language::Oromo	0.99
-Date::Language::Romanian	1.01
-Date::Language::Russian	1.01
-Date::Language::Russian_cp1251	1.01
-Date::Language::Russian_koi8r	1.01
-Date::Language::Sidama	0.99
-Date::Language::Somali	0.99
-Date::Language::Spanish	1.00
-Date::Language::Swedish	1.01
-Date::Language::Tigrinya	1.00
-Date::Language::TigrinyaEritrean	1.00
-Date::Language::TigrinyaEthiopian	1.00
-Date::Language::Turkish	1.0
-Date::Parse	2.30
-Date::Tiny	1.07
-DateTime	1.49
-DateTime::Astro	1.03
-DateTime::Astro	unknown
-DateTime::Astro	unknown
-DateTime::Calendar::Chinese	1.00
-DateTime::Calendar::Japanese::Era	0.08003
-DateTime::Duration	1.49
-DateTime::Event::Chinese	1.00
-DateTime::Event::ICal	0.13
-DateTime::Event::SolarTerm	unknown
-DateTime::Format::Builder	0.81
-DateTime::Format::Builder::Parser	0.81
-DateTime::Format::Builder::Parser::Dispatch	0.81
-DateTime::Format::Builder::Parser::generic	0.81
-DateTime::Format::Builder::Parser::Quick	0.81
-DateTime::Format::Builder::Parser::Regex	0.81
-DateTime::Format::Builder::Parser::Strptime	0.81
-DateTime::Format::DateParse	0.05
-DateTime::Format::Duration	1.04
-DateTime::Format::Epoch	0.16
-DateTime::Format::Epoch::ActiveDirectory	0.13
-DateTime::Format::Epoch::DotNet	0.13
-DateTime::Format::Epoch::JD	0.13
-DateTime::Format::Epoch::Lilian	0.13
-DateTime::Format::Epoch::MacOS	0.13
-DateTime::Format::Epoch::MJD	0.13
-DateTime::Format::Epoch::NTP	0.14
-DateTime::Format::Epoch::RataDie	0.13
-DateTime::Format::Epoch::RJD	0.13
-DateTime::Format::Epoch::TAI64	0.13
-DateTime::Format::Epoch::TJD	0.13
-DateTime::Format::Epoch::Unix	0.13
-DateTime::Format::Flexible	0.30
-DateTime::Format::Flexible::lang	unknown
-DateTime::Format::Flexible::lang::de	unknown
-DateTime::Format::Flexible::lang::en	unknown
-DateTime::Format::Flexible::lang::es	unknown
-DateTime::Format::ICal	0.09
-DateTime::Format::Mail	0.403
-DateTime::Format::Natural	1.05
-DateTime::Format::Natural::Calc	1.41
-DateTime::Format::Natural::Compat	0.07
-DateTime::Format::Natural::Duration	0.06
-DateTime::Format::Natural::Duration::Checks	0.04
-DateTime::Format::Natural::Expand	0.03
-DateTime::Format::Natural::Extract	0.11
-DateTime::Format::Natural::Formatted	0.07
-DateTime::Format::Natural::Helpers	0.06
-DateTime::Format::Natural::Lang::Base	1.08
-DateTime::Format::Natural::Lang::EN	1.62
-DateTime::Format::Natural::Rewrite	0.06
-DateTime::Format::Natural::Test	0.10
-DateTime::Format::Natural::Utils	0.05
-DateTime::Format::Natural::Wrappers	0.03
-DateTime::Format::Strptime	1.75
-DateTime::Format::Strptime::Types	1.75
-DateTime::Format::W3CDTF	0.07
-DateTime::Helpers	1.49
-DateTime::Infinite	1.49
-DateTime::LeapSecond	1.49
-DateTime::Locale	1.22
-DateTime::Locale::Base	1.22
-DateTime::Locale::Catalog	1.22
-DateTime::Locale::Data	1.22
-DateTime::Locale::FromData	1.22
-DateTime::Locale::Util	1.22
-DateTime::PP	1.49
-DateTime::PPExtra	1.49
-DateTime::Set	0.3900
-DateTime::Set::ICal	0.19
-DateTime::Span	unknown
-DateTime::SpanSet	unknown
-DateTime::TimeZone	2.19
-DateTime::TimeZone::Africa::Abidjan	2.19
-DateTime::TimeZone::Africa::Accra	2.19
-DateTime::TimeZone::Africa::Algiers	2.19
-DateTime::TimeZone::Africa::Bissau	2.19
-DateTime::TimeZone::Africa::Cairo	2.19
-DateTime::TimeZone::Africa::Casablanca	2.19
-DateTime::TimeZone::Africa::Ceuta	2.19
-DateTime::TimeZone::Africa::El_Aaiun	2.19
-DateTime::TimeZone::Africa::Johannesburg	2.19
-DateTime::TimeZone::Africa::Juba	2.19
-DateTime::TimeZone::Africa::Khartoum	2.19
-DateTime::TimeZone::Africa::Lagos	2.19
-DateTime::TimeZone::Africa::Maputo	2.19
-DateTime::TimeZone::Africa::Monrovia	2.19
-DateTime::TimeZone::Africa::Nairobi	2.19
-DateTime::TimeZone::Africa::Ndjamena	2.19
-DateTime::TimeZone::Africa::Sao_Tome	2.19
-DateTime::TimeZone::Africa::Tripoli	2.19
-DateTime::TimeZone::Africa::Tunis	2.19
-DateTime::TimeZone::Africa::Windhoek	2.19
-DateTime::TimeZone::America::Adak	2.19
-DateTime::TimeZone::America::Anchorage	2.19
-DateTime::TimeZone::America::Araguaina	2.19
-DateTime::TimeZone::America::Argentina::Buenos_Aires	2.19
-DateTime::TimeZone::America::Argentina::Catamarca	2.19
-DateTime::TimeZone::America::Argentina::Cordoba	2.19
-DateTime::TimeZone::America::Argentina::Jujuy	2.19
-DateTime::TimeZone::America::Argentina::La_Rioja	2.19
-DateTime::TimeZone::America::Argentina::Mendoza	2.19
-DateTime::TimeZone::America::Argentina::Rio_Gallegos	2.19
-DateTime::TimeZone::America::Argentina::Salta	2.19
-DateTime::TimeZone::America::Argentina::San_Juan	2.19
-DateTime::TimeZone::America::Argentina::San_Luis	2.19
-DateTime::TimeZone::America::Argentina::Tucuman	2.19
-DateTime::TimeZone::America::Argentina::Ushuaia	2.19
-DateTime::TimeZone::America::Asuncion	2.19
-DateTime::TimeZone::America::Atikokan	2.19
-DateTime::TimeZone::America::Bahia	2.19
-DateTime::TimeZone::America::Bahia_Banderas	2.19
-DateTime::TimeZone::America::Barbados	2.19
-DateTime::TimeZone::America::Belem	2.19
-DateTime::TimeZone::America::Belize	2.19
-DateTime::TimeZone::America::Blanc_Sablon	2.19
-DateTime::TimeZone::America::Boa_Vista	2.19
-DateTime::TimeZone::America::Bogota	2.19
-DateTime::TimeZone::America::Boise	2.19
-DateTime::TimeZone::America::Cambridge_Bay	2.19
-DateTime::TimeZone::America::Campo_Grande	2.19
-DateTime::TimeZone::America::Cancun	2.19
-DateTime::TimeZone::America::Caracas	2.19
-DateTime::TimeZone::America::Cayenne	2.19
-DateTime::TimeZone::America::Chicago	2.19
-DateTime::TimeZone::America::Chihuahua	2.19
-DateTime::TimeZone::America::Costa_Rica	2.19
-DateTime::TimeZone::America::Creston	2.19
-DateTime::TimeZone::America::Cuiaba	2.19
-DateTime::TimeZone::America::Curacao	2.19
-DateTime::TimeZone::America::Danmarkshavn	2.19
-DateTime::TimeZone::America::Dawson	2.19
-DateTime::TimeZone::America::Dawson_Creek	2.19
-DateTime::TimeZone::America::Denver	2.19
-DateTime::TimeZone::America::Detroit	2.19
-DateTime::TimeZone::America::Edmonton	2.19
-DateTime::TimeZone::America::Eirunepe	2.19
-DateTime::TimeZone::America::El_Salvador	2.19
-DateTime::TimeZone::America::Fort_Nelson	2.19
-DateTime::TimeZone::America::Fortaleza	2.19
-DateTime::TimeZone::America::Glace_Bay	2.19
-DateTime::TimeZone::America::Godthab	2.19
-DateTime::TimeZone::America::Goose_Bay	2.19
-DateTime::TimeZone::America::Grand_Turk	2.19
-DateTime::TimeZone::America::Guatemala	2.19
-DateTime::TimeZone::America::Guayaquil	2.19
-DateTime::TimeZone::America::Guyana	2.19
-DateTime::TimeZone::America::Halifax	2.19
-DateTime::TimeZone::America::Havana	2.19
-DateTime::TimeZone::America::Hermosillo	2.19
-DateTime::TimeZone::America::Indiana::Indianapolis	2.19
-DateTime::TimeZone::America::Indiana::Knox	2.19
-DateTime::TimeZone::America::Indiana::Marengo	2.19
-DateTime::TimeZone::America::Indiana::Petersburg	2.19
-DateTime::TimeZone::America::Indiana::Tell_City	2.19
-DateTime::TimeZone::America::Indiana::Vevay	2.19
-DateTime::TimeZone::America::Indiana::Vincennes	2.19
-DateTime::TimeZone::America::Indiana::Winamac	2.19
-DateTime::TimeZone::America::Inuvik	2.19
-DateTime::TimeZone::America::Iqaluit	2.19
-DateTime::TimeZone::America::Jamaica	2.19
-DateTime::TimeZone::America::Juneau	2.19
-DateTime::TimeZone::America::Kentucky::Louisville	2.19
-DateTime::TimeZone::America::Kentucky::Monticello	2.19
-DateTime::TimeZone::America::La_Paz	2.19
-DateTime::TimeZone::America::Lima	2.19
-DateTime::TimeZone::America::Los_Angeles	2.19
-DateTime::TimeZone::America::Maceio	2.19
-DateTime::TimeZone::America::Managua	2.19
-DateTime::TimeZone::America::Manaus	2.19
-DateTime::TimeZone::America::Martinique	2.19
-DateTime::TimeZone::America::Matamoros	2.19
-DateTime::TimeZone::America::Mazatlan	2.19
-DateTime::TimeZone::America::Menominee	2.19
-DateTime::TimeZone::America::Merida	2.19
-DateTime::TimeZone::America::Metlakatla	2.19
-DateTime::TimeZone::America::Mexico_City	2.19
-DateTime::TimeZone::America::Miquelon	2.19
-DateTime::TimeZone::America::Moncton	2.19
-DateTime::TimeZone::America::Monterrey	2.19
-DateTime::TimeZone::America::Montevideo	2.19
-DateTime::TimeZone::America::Nassau	2.19
-DateTime::TimeZone::America::New_York	2.19
-DateTime::TimeZone::America::Nipigon	2.19
-DateTime::TimeZone::America::Nome	2.19
-DateTime::TimeZone::America::Noronha	2.19
-DateTime::TimeZone::America::North_Dakota::Beulah	2.19
-DateTime::TimeZone::America::North_Dakota::Center	2.19
-DateTime::TimeZone::America::North_Dakota::New_Salem	2.19
-DateTime::TimeZone::America::Ojinaga	2.19
-DateTime::TimeZone::America::Panama	2.19
-DateTime::TimeZone::America::Pangnirtung	2.19
-DateTime::TimeZone::America::Paramaribo	2.19
-DateTime::TimeZone::America::Phoenix	2.19
-DateTime::TimeZone::America::Port_au_Prince	2.19
-DateTime::TimeZone::America::Port_of_Spain	2.19
-DateTime::TimeZone::America::Porto_Velho	2.19
-DateTime::TimeZone::America::Puerto_Rico	2.19
-DateTime::TimeZone::America::Punta_Arenas	2.19
-DateTime::TimeZone::America::Rainy_River	2.19
-DateTime::TimeZone::America::Rankin_Inlet	2.19
-DateTime::TimeZone::America::Recife	2.19
-DateTime::TimeZone::America::Regina	2.19
-DateTime::TimeZone::America::Resolute	2.19
-DateTime::TimeZone::America::Rio_Branco	2.19
-DateTime::TimeZone::America::Santarem	2.19
-DateTime::TimeZone::America::Santiago	2.19
-DateTime::TimeZone::America::Santo_Domingo	2.19
-DateTime::TimeZone::America::Sao_Paulo	2.19
-DateTime::TimeZone::America::Scoresbysund	2.19
-DateTime::TimeZone::America::Sitka	2.19
-DateTime::TimeZone::America::St_Johns	2.19
-DateTime::TimeZone::America::Swift_Current	2.19
-DateTime::TimeZone::America::Tegucigalpa	2.19
-DateTime::TimeZone::America::Thule	2.19
-DateTime::TimeZone::America::Thunder_Bay	2.19
-DateTime::TimeZone::America::Tijuana	2.19
-DateTime::TimeZone::America::Toronto	2.19
-DateTime::TimeZone::America::Vancouver	2.19
-DateTime::TimeZone::America::Whitehorse	2.19
-DateTime::TimeZone::America::Winnipeg	2.19
-DateTime::TimeZone::America::Yakutat	2.19
-DateTime::TimeZone::America::Yellowknife	2.19
-DateTime::TimeZone::Antarctica::Casey	2.19
-DateTime::TimeZone::Antarctica::Davis	2.19
-DateTime::TimeZone::Antarctica::DumontDUrville	2.19
-DateTime::TimeZone::Antarctica::Macquarie	2.19
-DateTime::TimeZone::Antarctica::Mawson	2.19
-DateTime::TimeZone::Antarctica::Palmer	2.19
-DateTime::TimeZone::Antarctica::Rothera	2.19
-DateTime::TimeZone::Antarctica::Syowa	2.19
-DateTime::TimeZone::Antarctica::Troll	2.19
-DateTime::TimeZone::Antarctica::Vostok	2.19
-DateTime::TimeZone::Asia::Almaty	2.19
-DateTime::TimeZone::Asia::Amman	2.19
-DateTime::TimeZone::Asia::Anadyr	2.19
-DateTime::TimeZone::Asia::Aqtau	2.19
-DateTime::TimeZone::Asia::Aqtobe	2.19
-DateTime::TimeZone::Asia::Ashgabat	2.19
-DateTime::TimeZone::Asia::Atyrau	2.19
-DateTime::TimeZone::Asia::Baghdad	2.19
-DateTime::TimeZone::Asia::Baku	2.19
-DateTime::TimeZone::Asia::Bangkok	2.19
-DateTime::TimeZone::Asia::Barnaul	2.19
-DateTime::TimeZone::Asia::Beirut	2.19
-DateTime::TimeZone::Asia::Bishkek	2.19
-DateTime::TimeZone::Asia::Brunei	2.19
-DateTime::TimeZone::Asia::Chita	2.19
-DateTime::TimeZone::Asia::Choibalsan	2.19
-DateTime::TimeZone::Asia::Colombo	2.19
-DateTime::TimeZone::Asia::Damascus	2.19
-DateTime::TimeZone::Asia::Dhaka	2.19
-DateTime::TimeZone::Asia::Dili	2.19
-DateTime::TimeZone::Asia::Dubai	2.19
-DateTime::TimeZone::Asia::Dushanbe	2.19
-DateTime::TimeZone::Asia::Famagusta	2.19
-DateTime::TimeZone::Asia::Gaza	2.19
-DateTime::TimeZone::Asia::Hebron	2.19
-DateTime::TimeZone::Asia::Ho_Chi_Minh	2.19
-DateTime::TimeZone::Asia::Hong_Kong	2.19
-DateTime::TimeZone::Asia::Hovd	2.19
-DateTime::TimeZone::Asia::Irkutsk	2.19
-DateTime::TimeZone::Asia::Jakarta	2.19
-DateTime::TimeZone::Asia::Jayapura	2.19
-DateTime::TimeZone::Asia::Jerusalem	2.19
-DateTime::TimeZone::Asia::Kabul	2.19
-DateTime::TimeZone::Asia::Kamchatka	2.19
-DateTime::TimeZone::Asia::Karachi	2.19
-DateTime::TimeZone::Asia::Kathmandu	2.19
-DateTime::TimeZone::Asia::Khandyga	2.19
-DateTime::TimeZone::Asia::Kolkata	2.19
-DateTime::TimeZone::Asia::Krasnoyarsk	2.19
-DateTime::TimeZone::Asia::Kuala_Lumpur	2.19
-DateTime::TimeZone::Asia::Kuching	2.19
-DateTime::TimeZone::Asia::Macau	2.19
-DateTime::TimeZone::Asia::Magadan	2.19
-DateTime::TimeZone::Asia::Makassar	2.19
-DateTime::TimeZone::Asia::Manila	2.19
-DateTime::TimeZone::Asia::Nicosia	2.19
-DateTime::TimeZone::Asia::Novokuznetsk	2.19
-DateTime::TimeZone::Asia::Novosibirsk	2.19
-DateTime::TimeZone::Asia::Omsk	2.19
-DateTime::TimeZone::Asia::Oral	2.19
-DateTime::TimeZone::Asia::Pontianak	2.19
-DateTime::TimeZone::Asia::Pyongyang	2.19
-DateTime::TimeZone::Asia::Qatar	2.19
-DateTime::TimeZone::Asia::Qyzylorda	2.19
-DateTime::TimeZone::Asia::Riyadh	2.19
-DateTime::TimeZone::Asia::Sakhalin	2.19
-DateTime::TimeZone::Asia::Samarkand	2.19
-DateTime::TimeZone::Asia::Seoul	2.19
-DateTime::TimeZone::Asia::Shanghai	2.19
-DateTime::TimeZone::Asia::Singapore	2.19
-DateTime::TimeZone::Asia::Srednekolymsk	2.19
-DateTime::TimeZone::Asia::Taipei	2.19
-DateTime::TimeZone::Asia::Tashkent	2.19
-DateTime::TimeZone::Asia::Tbilisi	2.19
-DateTime::TimeZone::Asia::Tehran	2.19
-DateTime::TimeZone::Asia::Thimphu	2.19
-DateTime::TimeZone::Asia::Tokyo	2.19
-DateTime::TimeZone::Asia::Tomsk	2.19
-DateTime::TimeZone::Asia::Ulaanbaatar	2.19
-DateTime::TimeZone::Asia::Urumqi	2.19
-DateTime::TimeZone::Asia::Ust_Nera	2.19
-DateTime::TimeZone::Asia::Vladivostok	2.19
-DateTime::TimeZone::Asia::Yakutsk	2.19
-DateTime::TimeZone::Asia::Yangon	2.19
-DateTime::TimeZone::Asia::Yekaterinburg	2.19
-DateTime::TimeZone::Asia::Yerevan	2.19
-DateTime::TimeZone::Atlantic::Azores	2.19
-DateTime::TimeZone::Atlantic::Bermuda	2.19
-DateTime::TimeZone::Atlantic::Canary	2.19
-DateTime::TimeZone::Atlantic::Cape_Verde	2.19
-DateTime::TimeZone::Atlantic::Faroe	2.19
-DateTime::TimeZone::Atlantic::Madeira	2.19
-DateTime::TimeZone::Atlantic::Reykjavik	2.19
-DateTime::TimeZone::Atlantic::South_Georgia	2.19
-DateTime::TimeZone::Atlantic::Stanley	2.19
-DateTime::TimeZone::Australia::Adelaide	2.19
-DateTime::TimeZone::Australia::Brisbane	2.19
-DateTime::TimeZone::Australia::Broken_Hill	2.19
-DateTime::TimeZone::Australia::Currie	2.19
-DateTime::TimeZone::Australia::Darwin	2.19
-DateTime::TimeZone::Australia::Eucla	2.19
-DateTime::TimeZone::Australia::Hobart	2.19
-DateTime::TimeZone::Australia::Lindeman	2.19
-DateTime::TimeZone::Australia::Lord_Howe	2.19
-DateTime::TimeZone::Australia::Melbourne	2.19
-DateTime::TimeZone::Australia::Perth	2.19
-DateTime::TimeZone::Australia::Sydney	2.19
-DateTime::TimeZone::Catalog	2.19
-DateTime::TimeZone::CET	2.19
-DateTime::TimeZone::CST6CDT	2.19
-DateTime::TimeZone::EET	2.19
-DateTime::TimeZone::EST	2.19
-DateTime::TimeZone::EST5EDT	2.19
-DateTime::TimeZone::Europe::Amsterdam	2.19
-DateTime::TimeZone::Europe::Andorra	2.19
-DateTime::TimeZone::Europe::Astrakhan	2.19
-DateTime::TimeZone::Europe::Athens	2.19
-DateTime::TimeZone::Europe::Belgrade	2.19
-DateTime::TimeZone::Europe::Berlin	2.19
-DateTime::TimeZone::Europe::Brussels	2.19
-DateTime::TimeZone::Europe::Bucharest	2.19
-DateTime::TimeZone::Europe::Budapest	2.19
-DateTime::TimeZone::Europe::Chisinau	2.19
-DateTime::TimeZone::Europe::Copenhagen	2.19
-DateTime::TimeZone::Europe::Dublin	2.19
-DateTime::TimeZone::Europe::Gibraltar	2.19
-DateTime::TimeZone::Europe::Helsinki	2.19
-DateTime::TimeZone::Europe::Istanbul	2.19
-DateTime::TimeZone::Europe::Kaliningrad	2.19
-DateTime::TimeZone::Europe::Kiev	2.19
-DateTime::TimeZone::Europe::Kirov	2.19
-DateTime::TimeZone::Europe::Lisbon	2.19
-DateTime::TimeZone::Europe::London	2.19
-DateTime::TimeZone::Europe::Luxembourg	2.19
-DateTime::TimeZone::Europe::Madrid	2.19
-DateTime::TimeZone::Europe::Malta	2.19
-DateTime::TimeZone::Europe::Minsk	2.19
-DateTime::TimeZone::Europe::Monaco	2.19
-DateTime::TimeZone::Europe::Moscow	2.19
-DateTime::TimeZone::Europe::Oslo	2.19
-DateTime::TimeZone::Europe::Paris	2.19
-DateTime::TimeZone::Europe::Prague	2.19
-DateTime::TimeZone::Europe::Riga	2.19
-DateTime::TimeZone::Europe::Rome	2.19
-DateTime::TimeZone::Europe::Samara	2.19
-DateTime::TimeZone::Europe::Saratov	2.19
-DateTime::TimeZone::Europe::Simferopol	2.19
-DateTime::TimeZone::Europe::Sofia	2.19
-DateTime::TimeZone::Europe::Stockholm	2.19
-DateTime::TimeZone::Europe::Tallinn	2.19
-DateTime::TimeZone::Europe::Tirane	2.19
-DateTime::TimeZone::Europe::Ulyanovsk	2.19
-DateTime::TimeZone::Europe::Uzhgorod	2.19
-DateTime::TimeZone::Europe::Vienna	2.19
-DateTime::TimeZone::Europe::Vilnius	2.19
-DateTime::TimeZone::Europe::Volgograd	2.19
-DateTime::TimeZone::Europe::Warsaw	2.19
-DateTime::TimeZone::Europe::Zaporozhye	2.19
-DateTime::TimeZone::Europe::Zurich	2.19
-DateTime::TimeZone::Floating	2.19
-DateTime::TimeZone::HST	2.19
-DateTime::TimeZone::Indian::Chagos	2.19
-DateTime::TimeZone::Indian::Christmas	2.19
-DateTime::TimeZone::Indian::Cocos	2.19
-DateTime::TimeZone::Indian::Kerguelen	2.19
-DateTime::TimeZone::Indian::Mahe	2.19
-DateTime::TimeZone::Indian::Maldives	2.19
-DateTime::TimeZone::Indian::Mauritius	2.19
-DateTime::TimeZone::Indian::Reunion	2.19
-DateTime::TimeZone::Local	2.19
-DateTime::TimeZone::Local::Android	2.19
-DateTime::TimeZone::Local::Unix	2.19
-DateTime::TimeZone::Local::VMS	2.19
-DateTime::TimeZone::MET	2.19
-DateTime::TimeZone::MST	2.19
-DateTime::TimeZone::MST7MDT	2.19
-DateTime::TimeZone::OffsetOnly	2.19
-DateTime::TimeZone::OlsonDB	2.19
-DateTime::TimeZone::OlsonDB::Change	2.19
-DateTime::TimeZone::OlsonDB::Observance	2.19
-DateTime::TimeZone::OlsonDB::Rule	2.19
-DateTime::TimeZone::OlsonDB::Zone	2.19
-DateTime::TimeZone::Pacific::Apia	2.19
-DateTime::TimeZone::Pacific::Auckland	2.19
-DateTime::TimeZone::Pacific::Bougainville	2.19
-DateTime::TimeZone::Pacific::Chatham	2.19
-DateTime::TimeZone::Pacific::Chuuk	2.19
-DateTime::TimeZone::Pacific::Easter	2.19
-DateTime::TimeZone::Pacific::Efate	2.19
-DateTime::TimeZone::Pacific::Enderbury	2.19
-DateTime::TimeZone::Pacific::Fakaofo	2.19
-DateTime::TimeZone::Pacific::Fiji	2.19
-DateTime::TimeZone::Pacific::Funafuti	2.19
-DateTime::TimeZone::Pacific::Galapagos	2.19
-DateTime::TimeZone::Pacific::Gambier	2.19
-DateTime::TimeZone::Pacific::Guadalcanal	2.19
-DateTime::TimeZone::Pacific::Guam	2.19
-DateTime::TimeZone::Pacific::Honolulu	2.19
-DateTime::TimeZone::Pacific::Kiritimati	2.19
-DateTime::TimeZone::Pacific::Kosrae	2.19
-DateTime::TimeZone::Pacific::Kwajalein	2.19
-DateTime::TimeZone::Pacific::Majuro	2.19
-DateTime::TimeZone::Pacific::Marquesas	2.19
-DateTime::TimeZone::Pacific::Nauru	2.19
-DateTime::TimeZone::Pacific::Niue	2.19
-DateTime::TimeZone::Pacific::Norfolk	2.19
-DateTime::TimeZone::Pacific::Noumea	2.19
-DateTime::TimeZone::Pacific::Pago_Pago	2.19
-DateTime::TimeZone::Pacific::Palau	2.19
-DateTime::TimeZone::Pacific::Pitcairn	2.19
-DateTime::TimeZone::Pacific::Pohnpei	2.19
-DateTime::TimeZone::Pacific::Port_Moresby	2.19
-DateTime::TimeZone::Pacific::Rarotonga	2.19
-DateTime::TimeZone::Pacific::Tahiti	2.19
-DateTime::TimeZone::Pacific::Tarawa	2.19
-DateTime::TimeZone::Pacific::Tongatapu	2.19
-DateTime::TimeZone::Pacific::Wake	2.19
-DateTime::TimeZone::Pacific::Wallis	2.19
-DateTime::TimeZone::PST8PDT	2.19
-DateTime::TimeZone::UTC	2.19
-DateTime::TimeZone::WET	2.19
-DateTime::Tiny	1.07
-DateTime::Types	1.49
-DateTimeX::Easy	0.089
-DB	unknown
-DBD::DBM	0.08
-DBD::ExampleP	12.014311
-DBD::File	0.44
-DBD::Gofer	0.015327
-DBD::Gofer::Policy::Base	0.010088
-DBD::Gofer::Policy::classic	0.010088
-DBD::Gofer::Policy::pedantic	0.010088
-DBD::Gofer::Policy::rush	0.010088
-DBD::Gofer::Transport::Base	0.014121
-DBD::Gofer::Transport::corostream	unknown
-DBD::Gofer::Transport::null	0.010088
-DBD::Gofer::Transport::pipeone	0.010088
-DBD::Gofer::Transport::stream	0.014599
-DBD::Mem	0.001
-DBD::mysql	4.046
-DBD::mysql::GetInfo	unknown
-DBD::NullP	12.014715
-DBD::Proxy	0.2004
-DBD::Sponge	12.010003
-DBD::SQLite	1.58
-DBD::SQLite::Constants	unknown
-DBD::SQLite::VirtualTable	1.58
-DBD::SQLite::VirtualTable::FileContent	unknown
-DBD::SQLite::VirtualTable::PerlData	unknown
-DBI	unknown
-DBI::Const::GetInfo::ANSI	2.008697
-DBI::Const::GetInfo::ODBC	2.011374
-DBI::Const::GetInfoReturn	2.008697
-DBI::Const::GetInfoType	2.008697
-DBI::DBD	12.015129
-DBI::DBD::Metadata	2.014214
-DBI::DBD::SqlEngine	0.06
-DBI::FAQ	1.014935
-DBI::Gofer::Execute	0.014283
-DBI::Gofer::Request	0.012537
-DBI::Gofer::Response	0.011566
-DBI::Gofer::Serializer::Base	0.009950
-DBI::Gofer::Serializer::DataDumper	0.009950
-DBI::Gofer::Serializer::Storable	0.015586
-DBI::Gofer::Transport::Base	0.012537
-DBI::Gofer::Transport::pipeone	0.012537
-DBI::Gofer::Transport::stream	0.012537
-DBI::Profile	2.015065
-DBI::ProfileData	2.010008
-DBI::ProfileDumper	2.015325
-DBI::ProfileDumper::Apache	2.014121
-DBI::ProfileSubs	0.009396
-DBI::ProxyServer	0.3005
-DBI::SQL::Nano	1.015544
-DBI::Util::_accessor	0.009479
-DBI::Util::CacheMemory	0.010315
-DBIx::Class	0.082841
-DBIx::Class::AccessorGroup	unknown
-DBIx::Class::Admin	unknown
-DBIx::Class::CDBICompat	unknown
-DBIx::Class::CDBICompat::Iterator	unknown
-DBIx::Class::CDBICompat::SQLTransformer	unknown
-DBIx::Class::CDBICompat::Tied::ColumnValue	unknown
-DBIx::Class::Core	unknown
-DBIx::Class::Cursor	unknown
-DBIx::Class::Cursor::Cached	1.001004
-DBIx::Class::DB	unknown
-DBIx::Class::Exception	unknown
-DBIx::Class::FilterColumn	unknown
-DBIx::Class::InflateColumn	unknown
-DBIx::Class::InflateColumn::DateTime	unknown
-DBIx::Class::InflateColumn::File	unknown
-DBIx::Class::Optional::Dependencies	unknown
-DBIx::Class::Ordered	unknown
-DBIx::Class::PK	unknown
-DBIx::Class::PK::Auto	unknown
-DBIx::Class::Relationship	unknown
-DBIx::Class::Relationship::Base	unknown
-DBIx::Class::ResultClass::HashRefInflator	unknown
-DBIx::Class::ResultSet	unknown
-DBIx::Class::ResultSetColumn	unknown
-DBIx::Class::ResultSetManager	unknown
-DBIx::Class::ResultSource	unknown
-DBIx::Class::ResultSource::Table	unknown
-DBIx::Class::ResultSource::View	unknown
-DBIx::Class::ResultSourceHandle	unknown
-DBIx::Class::ResultSourceProxy::Table	unknown
-DBIx::Class::Row	unknown
-DBIx::Class::Schema	unknown
-DBIx::Class::Schema::Loader	0.07049
-DBIx::Class::Schema::Loader::Base	0.07049
-DBIx::Class::Schema::Loader::Column	unknown
-DBIx::Class::Schema::Loader::DBI	0.07049
-DBIx::Class::Schema::Loader::DBI::ADO	0.07049
-DBIx::Class::Schema::Loader::DBI::ADO::Microsoft_SQL_Server	0.07049
-DBIx::Class::Schema::Loader::DBI::ADO::MS_Jet	0.07049
-DBIx::Class::Schema::Loader::DBI::Component::QuotedDefault	0.07049
-DBIx::Class::Schema::Loader::DBI::DB2	0.07049
-DBIx::Class::Schema::Loader::DBI::Firebird	0.07049
-DBIx::Class::Schema::Loader::DBI::Informix	0.07049
-DBIx::Class::Schema::Loader::DBI::InterBase	0.07049
-DBIx::Class::Schema::Loader::DBI::MSSQL	0.07049
-DBIx::Class::Schema::Loader::DBI::mysql	0.07049
-DBIx::Class::Schema::Loader::DBI::ODBC	0.07049
-DBIx::Class::Schema::Loader::DBI::ODBC::ACCESS	0.07049
-DBIx::Class::Schema::Loader::DBI::ODBC::Firebird	0.07049
-DBIx::Class::Schema::Loader::DBI::ODBC::Microsoft_SQL_Server	0.07049
-DBIx::Class::Schema::Loader::DBI::ODBC::SQL_Anywhere	0.07049
-DBIx::Class::Schema::Loader::DBI::Oracle	0.07049
-DBIx::Class::Schema::Loader::DBI::Pg	0.07049
-DBIx::Class::Schema::Loader::DBI::SQLAnywhere	0.07049
-DBIx::Class::Schema::Loader::DBI::SQLite	0.07049
-DBIx::Class::Schema::Loader::DBI::Sybase	0.07049
-DBIx::Class::Schema::Loader::DBI::Sybase::Common	0.07049
-DBIx::Class::Schema::Loader::DBI::Sybase::Microsoft_SQL_Server	0.07049
-DBIx::Class::Schema::Loader::DBI::Writing	0.07049
-DBIx::Class::Schema::Loader::DBObject	unknown
-DBIx::Class::Schema::Loader::DBObject::Informix	unknown
-DBIx::Class::Schema::Loader::DBObject::Sybase	unknown
-DBIx::Class::Schema::Loader::Optional::Dependencies	unknown
-DBIx::Class::Schema::Loader::RelBuilder	0.07049
-DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_040	0.07049
-DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_05	0.07049
-DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_06	0.07049
-DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_07	0.07049
-DBIx::Class::Schema::Loader::Table	unknown
-DBIx::Class::Schema::Loader::Table::Informix	unknown
-DBIx::Class::Schema::Loader::Table::Sybase	unknown
-DBIx::Class::Serialize::Storable	unknown
-DBIx::Class::SQLMaker	unknown
-DBIx::Class::SQLMaker::LimitDialects	unknown
-DBIx::Class::SQLMaker::OracleJoins	unknown
-DBIx::Class::StartupCheck	unknown
-DBIx::Class::Storage	unknown
-DBIx::Class::Storage::DBI	unknown
-DBIx::Class::Storage::DBI::ACCESS	unknown
-DBIx::Class::Storage::DBI::ADO	unknown
-DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server	unknown
-DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server::Cursor	unknown
-DBIx::Class::Storage::DBI::ADO::MS_Jet	unknown
-DBIx::Class::Storage::DBI::ADO::MS_Jet::Cursor	unknown
-DBIx::Class::Storage::DBI::AutoCast	unknown
-DBIx::Class::Storage::DBI::Cursor	unknown
-DBIx::Class::Storage::DBI::DB2	unknown
-DBIx::Class::Storage::DBI::Firebird	unknown
-DBIx::Class::Storage::DBI::Firebird::Common	unknown
-DBIx::Class::Storage::DBI::IdentityInsert	unknown
-DBIx::Class::Storage::DBI::Informix	unknown
-DBIx::Class::Storage::DBI::InterBase	unknown
-DBIx::Class::Storage::DBI::MSSQL	unknown
-DBIx::Class::Storage::DBI::mysql	unknown
-DBIx::Class::Storage::DBI::NoBindVars	unknown
-DBIx::Class::Storage::DBI::ODBC	unknown
-DBIx::Class::Storage::DBI::ODBC::ACCESS	unknown
-DBIx::Class::Storage::DBI::ODBC::DB2_400_SQL	unknown
-DBIx::Class::Storage::DBI::ODBC::Firebird	unknown
-DBIx::Class::Storage::DBI::ODBC::Microsoft_SQL_Server	unknown
-DBIx::Class::Storage::DBI::ODBC::SQL_Anywhere	unknown
-DBIx::Class::Storage::DBI::Oracle	unknown
-DBIx::Class::Storage::DBI::Oracle::Generic	unknown
-DBIx::Class::Storage::DBI::Oracle::WhereJoins	unknown
-DBIx::Class::Storage::DBI::Pg	unknown
-DBIx::Class::Storage::DBI::Replicated	unknown
-DBIx::Class::Storage::DBI::Replicated::Balancer	unknown
-DBIx::Class::Storage::DBI::Replicated::Balancer::First	unknown
-DBIx::Class::Storage::DBI::Replicated::Balancer::Random	unknown
-DBIx::Class::Storage::DBI::Replicated::Pool	unknown
-DBIx::Class::Storage::DBI::Replicated::Replicant	unknown
-DBIx::Class::Storage::DBI::Replicated::WithDSN	unknown
-DBIx::Class::Storage::DBI::SQLAnywhere	unknown
-DBIx::Class::Storage::DBI::SQLAnywhere::Cursor	unknown
-DBIx::Class::Storage::DBI::SQLite	unknown
-DBIx::Class::Storage::DBI::Sybase	unknown
-DBIx::Class::Storage::DBI::Sybase::ASE	unknown
-DBIx::Class::Storage::DBI::Sybase::ASE::NoBindVars	unknown
-DBIx::Class::Storage::DBI::Sybase::FreeTDS	unknown
-DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server	unknown
-DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server::NoBindVars	unknown
-DBIx::Class::Storage::DBI::Sybase::MSSQL	unknown
-DBIx::Class::Storage::DBI::UniqueIdentifier	unknown
-DBIx::Class::Storage::Debug::PrettyPrint	unknown
-DBIx::Class::Storage::Statistics	unknown
-DBIx::Class::Storage::TxnScopeGuard	unknown
-DBIx::Class::UTF8Columns	unknown
-DBIx::Connector	0.56
-DBIx::Connector::Driver	0.56
-DBIx::Connector::Driver::Firebird	0.56
-DBIx::Connector::Driver::MSSQL	0.56
-DBIx::Connector::Driver::mysql	0.56
-DBIx::Connector::Driver::Oracle	0.56
-DBIx::Connector::Driver::Pg	0.56
-DBIx::Connector::Driver::SQLite	0.56
-DDP	unknown
-Declare::Constraints::Simple	0.03
-Declare::Constraints::Simple::Library	unknown
-Declare::Constraints::Simple::Library::Array	unknown
-Declare::Constraints::Simple::Library::Base	unknown
-Declare::Constraints::Simple::Library::Exportable	unknown
-Declare::Constraints::Simple::Library::General	unknown
-Declare::Constraints::Simple::Library::Hash	unknown
-Declare::Constraints::Simple::Library::Numerical	unknown
-Declare::Constraints::Simple::Library::OO	unknown
-Declare::Constraints::Simple::Library::Operators	unknown
-Declare::Constraints::Simple::Library::Referencial	unknown
-Declare::Constraints::Simple::Library::Scalar	unknown
-Declare::Constraints::Simple::Result	unknown
-Devel::AssertC99	unknown
-Devel::AssertOS	1.21
-Devel::AssertOS::AIX	1.2
-Devel::AssertOS::Amiga	1.2
-Devel::AssertOS::Android	1.2
-Devel::AssertOS::Apple	1.3
-Devel::AssertOS::BeOS	1.4
-Devel::AssertOS::Bitrig	1.0
-Devel::AssertOS::BSDOS	1.2
-Devel::AssertOS::Cygwin	1.3
-Devel::AssertOS::DEC	1.4
-Devel::AssertOS::DGUX	1.2
-Devel::AssertOS::DragonflyBSD	1.2
-Devel::AssertOS::Dynix	1.2
-Devel::AssertOS::EBCDIC	1.0
-Devel::AssertOS::FreeBSD	1.2
-Devel::AssertOS::GNUkFreeBSD	1.1
-Devel::AssertOS::Haiku	1.1
-Devel::AssertOS::HPUX	1.2
-Devel::AssertOS::Hurd	1.0
-Devel::AssertOS::Interix	1.2
-Devel::AssertOS::iOS	1.0
-Devel::AssertOS::Irix	1.2
-Devel::AssertOS::Linux	1.3
-Devel::AssertOS::Linux::Debian	1.0
-Devel::AssertOS::Linux::v2_6	1.3
-Devel::AssertOS::MachTen	1.2
-Devel::AssertOS::MacOSclassic	1.2
-Devel::AssertOS::MacOSX	1.2
-Devel::AssertOS::MacOSX::v10_0	1.0
-Devel::AssertOS::MacOSX::v10_1	1.0
-Devel::AssertOS::MacOSX::v10_10	1.0
-Devel::AssertOS::MacOSX::v10_11	1.0
-Devel::AssertOS::MacOSX::v10_12	1.0
-Devel::AssertOS::MacOSX::v10_2	1.0
-Devel::AssertOS::MacOSX::v10_3	1.0
-Devel::AssertOS::MacOSX::v10_4	1.4
-Devel::AssertOS::MacOSX::v10_5	1.0
-Devel::AssertOS::MacOSX::v10_6	1.0
-Devel::AssertOS::MacOSX::v10_7	1.0
-Devel::AssertOS::MacOSX::v10_8	1.0
-Devel::AssertOS::MacOSX::v10_9	1.0
-Devel::AssertOS::MicrosoftWindows	1.3
-Devel::AssertOS::MidnightBSD	1.1
-Devel::AssertOS::Minix	1.0
-Devel::AssertOS::MirOSBSD	1.2
-Devel::AssertOS::MPEiX	1.2
-Devel::AssertOS::MSDOS	1.2
-Devel::AssertOS::MSWin32	1.3
-Devel::AssertOS::NetBSD	1.2
-Devel::AssertOS::Netware	1.2
-Devel::AssertOS::NeXT	1.2
-Devel::AssertOS::OpenBSD	1.2
-Devel::AssertOS::OS2	1.1
-Devel::AssertOS::OS390	1.2
-Devel::AssertOS::OS400	1.2
-Devel::AssertOS::OSF	1.2
-Devel::AssertOS::OSFeatures::POSIXShellRedirection	1.4
-Devel::AssertOS::POSIXBC	1.2
-Devel::AssertOS::QNX	1.2
-Devel::AssertOS::QNX::Neutrino	1.1
-Devel::AssertOS::QNX::v4	1.1
-Devel::AssertOS::Realtime	1.2
-Devel::AssertOS::RISCOS	1.2
-Devel::AssertOS::SCO	1.2
-Devel::AssertOS::Solaris	1.2
-Devel::AssertOS::Sun	1.3
-Devel::AssertOS::SunOS	1.2
-Devel::AssertOS::SysVr4	1.2
-Devel::AssertOS::SysVr5	1.2
-Devel::AssertOS::Unicos	1.2
-Devel::AssertOS::Unix	1.6
-Devel::AssertOS::VMESA	1.2
-Devel::AssertOS::VMS	1.2
-Devel::AssertOS::VOS	1.2
-Devel::Caller	2.06
-Devel::CheckBin	0.04
-Devel::CheckCompiler	0.07
-Devel::CheckLib	1.13
-Devel::CheckOS	1.81
-Devel::Confess	0.009004
-Devel::Confess::_Util	unknown
-Devel::Confess::Builtin	0.009004
-Devel::Confess::Source	unknown
-Devel::Cover	1.30
-Devel::Cover::Annotation::Git	1.30
-Devel::Cover::Annotation::Random	1.30
-Devel::Cover::Annotation::Svk	1.30
-Devel::Cover::Branch	1.30
-Devel::Cover::Collection	1.30
-Devel::Cover::Condition	1.30
-Devel::Cover::Condition_and_2	1.30
-Devel::Cover::Condition_and_3	1.30
-Devel::Cover::Condition_or_2	1.30
-Devel::Cover::Condition_or_3	1.30
-Devel::Cover::Condition_xor_4	1.30
-Devel::Cover::Criterion	1.30
-Devel::Cover::DB	1.30
-Devel::Cover::DB::Criterion	1.30
-Devel::Cover::DB::Digests	1.30
-Devel::Cover::DB::File	1.30
-Devel::Cover::DB::IO	1.30
-Devel::Cover::DB::IO::Base	1.30
-Devel::Cover::DB::IO::JSON	1.30
-Devel::Cover::DB::IO::Sereal	1.30
-Devel::Cover::DB::IO::Storable	1.30
-Devel::Cover::DB::Structure	1.30
-Devel::Cover::Html_Common	1.30
-Devel::Cover::Inc	1.30
-Devel::Cover::Op	1.30
-Devel::Cover::Pod	1.30
-Devel::Cover::Report::Compilation	1.30
-Devel::Cover::Report::Html	1.30
-Devel::Cover::Report::Html_basic	1.30
-Devel::Cover::Report::Html_minimal	1.30
-Devel::Cover::Report::Html_subtle	1.30
-Devel::Cover::Report::Json	1.30
-Devel::Cover::Report::Sort	1.30
-Devel::Cover::Report::Text	1.30
-Devel::Cover::Report::Text2	1.30
-Devel::Cover::Report::Vim	1.30
-Devel::Cover::Statement	1.30
-Devel::Cover::Subroutine	1.30
-Devel::Cover::Test	1.30
-Devel::Cover::Time	1.30
-Devel::Cover::Util	1.30
-Devel::Cover::Web	1.30
-Devel::Cycle	1.12
-Devel::Declare	0.006019
-Devel::Declare::Context::Simple	0.006019
-Devel::Declare::MethodInstaller::Simple	0.006019
-Devel::Dwarn	unknown
-Devel::FindPerl	0.014
-Devel::GlobalDestruction	0.14
-Devel::GlobalPhase	0.003003
-Devel::GraphVizProf	2.24
-Devel::Hide	0.0010
-Devel::InnerPackage	0.4
-Devel::Leak	0.03
-Devel::LexAlias	0.05
-Devel::MAT	0.36
-Devel::MAT::Context	0.36
-Devel::MAT::Dumper	0.36
-Devel::MAT::Dumpfile	0.36
-Devel::MAT::Graph	0.36
-Devel::MAT::InternalTools	0.36
-Devel::MAT::SV	0.36
-Devel::MAT::Tool	0.36
-Devel::MAT::Tool::Callstack	0.36
-Devel::MAT::Tool::Count	0.36
-Devel::MAT::Tool::Find	0.36
-Devel::MAT::Tool::Identify	0.36
-Devel::MAT::Tool::Inrefs	0.36
-Devel::MAT::Tool::IO	0.36
-Devel::MAT::Tool::Outrefs	0.36
-Devel::MAT::Tool::Reachability	0.36
-Devel::MAT::Tool::Roots	0.36
-Devel::MAT::Tool::Show	0.36
-Devel::MAT::Tool::Sizes	0.36
-Devel::MAT::Tool::Symbols	0.36
-Devel::NYTProf	6.06
-Devel::NYTProf::Apache	4.00
-Devel::NYTProf::Constants	unknown
-Devel::NYTProf::Core	6.06
-Devel::NYTProf::Data	4.02
-Devel::NYTProf::FileHandle	unknown
-Devel::NYTProf::FileInfo	unknown
-Devel::NYTProf::Reader	4.06
-Devel::NYTProf::ReadStream	4.00
-Devel::NYTProf::Run	unknown
-Devel::NYTProf::SubCallInfo	unknown
-Devel::NYTProf::SubInfo	unknown
-Devel::NYTProf::Util	4.00
-Devel::OverloadInfo	0.005
-Devel::PartialDump	0.20
-Devel::PatchPerl	1.52
-Devel::PatchPerl::Hints	1.52
-Devel::PatchPerl::Plugin	1.52
-Devel::REPL	1.003028
-Devel::REPL::Error	1.003028
-Devel::REPL::Meta::Plugin	1.003028
-Devel::REPL::Plugin	1.003028
-Devel::REPL::Plugin::B::Concise	1.003028
-Devel::REPL::Plugin::Carp::REPL	0.18
-Devel::REPL::Plugin::Colors	1.003028
-Devel::REPL::Plugin::Commands	1.003028
-Devel::REPL::Plugin::Completion	1.003028
-Devel::REPL::Plugin::CompletionDriver::Globals	1.003028
-Devel::REPL::Plugin::CompletionDriver::INC	1.003028
-Devel::REPL::Plugin::CompletionDriver::Keywords	1.003028
-Devel::REPL::Plugin::CompletionDriver::LexEnv	1.003028
-Devel::REPL::Plugin::CompletionDriver::Methods	1.003028
-Devel::REPL::Plugin::CompletionDriver::Turtles	1.003028
-Devel::REPL::Plugin::DDC	1.003028
-Devel::REPL::Plugin::DDS	1.003028
-Devel::REPL::Plugin::DumpHistory	1.003028
-Devel::REPL::Plugin::FancyPrompt	1.003028
-Devel::REPL::Plugin::FindVariable	1.003028
-Devel::REPL::Plugin::History	1.003028
-Devel::REPL::Plugin::Interrupt	1.003028
-Devel::REPL::Plugin::LexEnv	1.003028
-Devel::REPL::Plugin::MultiLine::PPI	1.003028
-Devel::REPL::Plugin::Nopaste	1.003028
-Devel::REPL::Plugin::OutputCache	1.003028
-Devel::REPL::Plugin::Packages	1.003028
-Devel::REPL::Plugin::Peek	1.003028
-Devel::REPL::Plugin::PPI	1.003028
-Devel::REPL::Plugin::ReadLineHistory	1.003028
-Devel::REPL::Plugin::Refresh	1.003028
-Devel::REPL::Plugin::Selenium	1.36
-Devel::REPL::Plugin::ShowClass	1.003028
-Devel::REPL::Plugin::Timing	1.003028
-Devel::REPL::Plugin::Turtles	1.003028
-Devel::REPL::Profile	1.003028
-Devel::REPL::Profile::Default	1.003028
-Devel::REPL::Profile::Minimal	1.003028
-Devel::REPL::Profile::Standard	1.003028
-Devel::REPL::Script	1.003028
-Devel::StackTrace	2.03
-Devel::StackTrace::AsHTML	0.15
-Devel::StackTrace::Frame	2.03
-Devel::StackTrace::WithLexicals	2.01
-Devel::StackTrace::WithLexicals::Frame	unknown
-Devel::Symdump	2.18
-Devel::Symdump::Export	unknown
-Devel::TypeTiny::Perl56Compat	1.002002
-Devel::TypeTiny::Perl58Compat	1.002002
-Digest::HMAC	1.03
-Digest::HMAC_MD5	1.01
-Digest::HMAC_SHA1	1.03
-Digest::JHash	0.10
-Digest::Perl::MD5	1.9
-Digest::SHA1	2.13
-Dist::CheckConflicts	0.11
-Dist::Metadata	0.927
-Dist::Metadata::Archive	0.927
-Dist::Metadata::Dir	0.927
-Dist::Metadata::Dist	0.927
-Dist::Metadata::Struct	0.927
-Dist::Metadata::Tar	0.927
-Dist::Metadata::Zip	0.927
-Dist::Zilla::PluginBundle::Example	unknown
-Email::Abstract	3.008
-Email::Abstract::EmailMIME	3.008
-Email::Abstract::EmailSimple	3.008
-Email::Abstract::MailInternet	3.008
-Email::Abstract::MailMessage	3.008
-Email::Abstract::MIMEEntity	3.008
-Email::Abstract::Plugin	3.008
-Email::Address	1.909
-Email::Address::XS	1.04
-Email::Date::Format	1.005
-Email::MessageID	1.406
-Email::MIME	1.946
-Email::MIME::ContentType	1.022
-Email::MIME::Creator	1.946
-Email::MIME::Encode	1.946
-Email::MIME::Encodings	1.315
-Email::MIME::Header	1.946
-Email::MIME::Header::AddressList	1.946
-Email::MIME::Kit	3.000006
-Email::MIME::Kit::Assembler::Standard	3.000006
-Email::MIME::Kit::KitReader::Dir	3.000006
-Email::MIME::Kit::ManifestReader::JSON	3.000006
-Email::MIME::Kit::ManifestReader::YAML	3.000006
-Email::MIME::Kit::Renderer::TestRenderer	3.000006
-Email::MIME::Kit::Role::Assembler	3.000006
-Email::MIME::Kit::Role::Component	3.000006
-Email::MIME::Kit::Role::KitReader	3.000006
-Email::MIME::Kit::Role::ManifestDesugarer	3.000006
-Email::MIME::Kit::Role::ManifestReader	3.000006
-Email::MIME::Kit::Role::Renderer	3.000006
-Email::MIME::Kit::Role::Validator	3.000006
-Email::MIME::Modifier	1.946
-Email::Sender	1.300031
-Email::Sender::Failure	1.300031
-Email::Sender::Failure::Multi	1.300031
-Email::Sender::Failure::Permanent	1.300031
-Email::Sender::Failure::Temporary	1.300031
-Email::Sender::Manual	1.300031
-Email::Sender::Manual::QuickStart	1.300031
-Email::Sender::Role::CommonSending	1.300031
-Email::Sender::Role::HasMessage	1.300031
-Email::Sender::Simple	1.300031
-Email::Sender::Success	1.300031
-Email::Sender::Success::Partial	1.300031
-Email::Sender::Transport	1.300031
-Email::Sender::Transport::DevNull	1.300031
-Email::Sender::Transport::Failable	1.300031
-Email::Sender::Transport::Maildir	1.300031
-Email::Sender::Transport::Mbox	1.300031
-Email::Sender::Transport::Print	1.300031
-Email::Sender::Transport::Sendmail	1.300031
-Email::Sender::Transport::SMTP	1.300031
-Email::Sender::Transport::SMTP::Persistent	1.300031
-Email::Sender::Transport::Test	1.300031
-Email::Sender::Transport::Wrapper	1.300031
-Email::Sender::Util	1.300031
-Email::Simple	2.216
-Email::Simple::Creator	2.216
-Email::Simple::Header	2.216
-Email::Valid	1.202
-Encode	2.98
-Encode::Alias	2.24
-Encode::Byte	2.04
-Encode::CJKConstants	2.02
-Encode::CN	2.03
-Encode::CN::HZ	2.10
-Encode::Config	2.05
-Encode::ConfigLocal	1532079134
-Encode::EBCDIC	2.02
-Encode::Encoder	2.03
-Encode::Encoding	2.08
-Encode::GSM0338	2.07
-Encode::Guess	2.07
-Encode::JP	2.04
-Encode::JP::H2Z	2.02
-Encode::JP::JIS7	2.08
-Encode::KR	2.03
-Encode::KR::2022_KR	2.04
-Encode::Locale	1.05
-Encode::MIME::Header	2.28
-Encode::MIME::Header::ISO_2022_JP	1.09
-Encode::MIME::Name	1.03
-Encode::Symbol	2.02
-Encode::TW	2.03
-Encode::Unicode	2.17
-Encode::Unicode::UTF7	2.10
-encoding	2.22
-Env::Path	0.19
-Error	0.17026
-Error::Simple	0.17026
-Error::TypeTiny	1.002002
-Error::TypeTiny::Assertion	1.002002
-Error::TypeTiny::Compilation	1.002002
-Error::TypeTiny::WrongNumberOfParameters	1.002002
-Eval::Closure	0.14
-Eval::TypeTiny	1.002002
-Eval::WithLexicals	1.003006
-Eval::WithLexicals::WithHintPersistence	1.003006
-Excel::Writer::XLSX	0.98
-Excel::Writer::XLSX::Chart	0.98
-Excel::Writer::XLSX::Chart::Area	0.98
-Excel::Writer::XLSX::Chart::Bar	0.98
-Excel::Writer::XLSX::Chart::Column	0.98
-Excel::Writer::XLSX::Chart::Doughnut	0.98
-Excel::Writer::XLSX::Chart::Line	0.98
-Excel::Writer::XLSX::Chart::Pie	0.98
-Excel::Writer::XLSX::Chart::Radar	0.98
-Excel::Writer::XLSX::Chart::Scatter	0.98
-Excel::Writer::XLSX::Chart::Stock	0.98
-Excel::Writer::XLSX::Chartsheet	0.98
-Excel::Writer::XLSX::Drawing	0.98
-Excel::Writer::XLSX::Examples	0.98
-Excel::Writer::XLSX::Format	0.98
-Excel::Writer::XLSX::Package::App	0.98
-Excel::Writer::XLSX::Package::Comments	0.98
-Excel::Writer::XLSX::Package::ContentTypes	0.98
-Excel::Writer::XLSX::Package::Core	0.98
-Excel::Writer::XLSX::Package::Custom	0.98
-Excel::Writer::XLSX::Package::Packager	0.98
-Excel::Writer::XLSX::Package::Relationships	0.98
-Excel::Writer::XLSX::Package::SharedStrings	0.98
-Excel::Writer::XLSX::Package::Styles	0.98
-Excel::Writer::XLSX::Package::Table	0.98
-Excel::Writer::XLSX::Package::Theme	0.98
-Excel::Writer::XLSX::Package::VML	0.98
-Excel::Writer::XLSX::Package::XMLwriter	0.98
-Excel::Writer::XLSX::Shape	0.98
-Excel::Writer::XLSX::Utility	0.98
-Excel::Writer::XLSX::Workbook	0.98
-Excel::Writer::XLSX::Worksheet	0.98
-Exception::Assertion	0.0504
-Exception::Base	0.2501
-Exception::Class	1.44
-Exception::Class::Base	1.44
-Expect	1.35
-Expect::Simple	0.04
-Exporter::Declare	0.114
-Exporter::Declare::Export	unknown
-Exporter::Declare::Export::Alias	unknown
-Exporter::Declare::Export::Generator	unknown
-Exporter::Declare::Export::Sub	unknown
-Exporter::Declare::Export::Variable	unknown
-Exporter::Declare::Meta	unknown
-Exporter::Declare::Specs	unknown
-Exporter::Lite	0.08
-Exporter::Shiny	1.002001
-Exporter::Tidy	0.08
-Exporter::Tiny	1.002001
-ExtUtils::CChecker	0.10
-ExtUtils::Config	0.008
-ExtUtils::CppGuess	0.12
-ExtUtils::Depends	0.405
-ExtUtils::Helpers	0.026
-ExtUtils::Helpers::Unix	0.026
-ExtUtils::Helpers::VMS	0.026
-ExtUtils::Helpers::Windows	0.026
-ExtUtils::InstallPaths	0.012
-ExtUtils::MakeMaker::CPANfile	0.08
-ExtUtils::Manifest	1.71
-ExtUtils::PkgConfig	1.16
-FAlite	unknown
-FCGI	0.78
-FCGI::ProcManager	0.28
-FCGI::ProcManager::Constrained	unknown
-Fennec::Lite	0.004
-Fh	4.38
-File::ChangeNotify	0.28
-File::ChangeNotify::Event	0.28
-File::ChangeNotify::Watcher	0.28
-File::ChangeNotify::Watcher::Default	0.28
-File::ChangeNotify::Watcher::Inotify	0.28
-File::ChangeNotify::Watcher::KQueue	0.28
-File::Copy::Link	0.06
-File::Copy::Recursive	0.44
-File::Copy::Recursive::Reduced	0.006
-File::Find::Rule	0.34
-File::Grep	0.02
-File::HomeDir	1.004
-File::HomeDir::Darwin	1.004
-File::HomeDir::Darwin::Carbon	1.004
-File::HomeDir::Darwin::Cocoa	1.004
-File::HomeDir::Driver	1.004
-File::HomeDir::FreeDesktop	1.004
-File::HomeDir::MacOS9	1.004
-File::HomeDir::Test	1.004
-File::HomeDir::Unix	1.004
-File::HomeDir::Windows	1.004
-File::Listing	6.04
-File::Map	0.65
-File::Next	1.16
-File::NFSLock	1.27
-File::Path	2.15
-File::pushd	1.016
-File::Remove	1.57
-File::Share	0.25
-File::ShareDir	1.116
-File::ShareDir::Install	0.13
-File::Slurp	9999.19
-File::Slurp::Tiny	0.004
-File::Slurper	0.012
-File::Spec	3.74
-File::Spec::AmigaOS	3.74
-File::Spec::Cygwin	3.74
-File::Spec::Epoc	3.74
-File::Spec::Functions	3.74
-File::Spec::Link	0.073
-File::Spec::Mac	3.74
-File::Spec::Native	1.004
-File::Spec::OS2	3.74
-File::Spec::Unix	3.74
-File::Spec::VMS	3.74
-File::Spec::Win32	3.74
-File::Temp	0.2308
-File::Which	1.22
-Filesys::Notify::Simple	0.13
-Font::TTF	1.06
-Font::TTF::AATKern	unknown
-Font::TTF::AATutils	unknown
-Font::TTF::Anchor	unknown
-Font::TTF::Bsln	unknown
-Font::TTF::Cmap	unknown
-Font::TTF::Coverage	unknown
-Font::TTF::Cvt_	0.0001
-Font::TTF::Delta	unknown
-Font::TTF::DSIG	unknown
-Font::TTF::Dumper	unknown
-Font::TTF::EBDT	unknown
-Font::TTF::EBLC	unknown
-Font::TTF::Fdsc	unknown
-Font::TTF::Feat	unknown
-Font::TTF::Features::Cvar	unknown
-Font::TTF::Features::Size	unknown
-Font::TTF::Features::Sset	unknown
-Font::TTF::Fmtx	unknown
-Font::TTF::Font	0.39
-Font::TTF::Fpgm	0.0001
-Font::TTF::GDEF	unknown
-Font::TTF::Glat	unknown
-Font::TTF::Gloc	unknown
-Font::TTF::Glyf	unknown
-Font::TTF::Glyph	unknown
-Font::TTF::GPOS	unknown
-Font::TTF::GrFeat	unknown
-Font::TTF::GSUB	unknown
-Font::TTF::Hdmx	unknown
-Font::TTF::Head	unknown
-Font::TTF::Hhea	unknown
-Font::TTF::Hmtx	unknown
-Font::TTF::Kern	unknown
-Font::TTF::Kern::ClassArray	unknown
-Font::TTF::Kern::CompactClassArray	unknown
-Font::TTF::Kern::OrderedList	unknown
-Font::TTF::Kern::StateTable	unknown
-Font::TTF::Kern::Subtable	unknown
-Font::TTF::Loca	unknown
-Font::TTF::LTSH	unknown
-Font::TTF::Maxp	unknown
-Font::TTF::Mort	unknown
-Font::TTF::Mort::Chain	unknown
-Font::TTF::Mort::Contextual	unknown
-Font::TTF::Mort::Insertion	unknown
-Font::TTF::Mort::Ligature	unknown
-Font::TTF::Mort::Noncontextual	unknown
-Font::TTF::Mort::Rearrangement	unknown
-Font::TTF::Mort::Subtable	unknown
-Font::TTF::Name	1.1
-Font::TTF::OldCmap	unknown
-Font::TTF::OldMort	unknown
-Font::TTF::OS_2	unknown
-Font::TTF::OTTags	unknown
-Font::TTF::PCLT	unknown
-Font::TTF::Post	0.01
-Font::TTF::Prep	0.0001
-Font::TTF::Prop	unknown
-Font::TTF::PSNames	unknown
-Font::TTF::Segarr	0.0001
-Font::TTF::Silf	unknown
-Font::TTF::Sill	unknown
-Font::TTF::Table	0.0001
-Font::TTF::Ttc	0.0001
-Font::TTF::Ttopen	unknown
-Font::TTF::Utils	0.0001
-Font::TTF::Vhea	unknown
-Font::TTF::Vmtx	unknown
-Font::TTF::Win32	unknown
-Font::TTF::Woff	unknown
-Font::TTF::Woff::MetaData	unknown
-Font::TTF::Woff::PrivateData	unknown
-Font::TTF::XMLparse	unknown
-forks	0.36
-forks::shared	0.36
-Future	0.38
-Future::Mutex	0.38
-Future::Utils	0.38
-GD	2.68
-GD::Graph	1.54
-GD::Graph::area	unknown
-GD::Graph::axestype	unknown
-GD::Graph::bars	unknown
-GD::Graph::colour	unknown
-GD::Graph::Data	unknown
-GD::Graph::Error	unknown
-GD::Graph::hbars	unknown
-GD::Graph::lines	unknown
-GD::Graph::linespoints	unknown
-GD::Graph::mixed	unknown
-GD::Graph::pie	unknown
-GD::Graph::points	unknown
-GD::Graph::utils	unknown
-GD::Group	1
-GD::Image	2.67
-GD::Polygon	unknown
-GD::Polyline	0.2
-GD::Simple	unknown
-GD::SVG	0.33
-GD::Text	0.86
-GD::Text::Align	unknown
-GD::Text::Wrap	unknown
-Getopt::Long::Descriptive	0.102
-Getopt::Long::Descriptive::Opts	0.102
-Getopt::Long::Descriptive::Usage	0.102
-Graph	0.9704
-Graph::AdjacencyMap	unknown
-Graph::AdjacencyMap::Heavy	unknown
-Graph::AdjacencyMap::Light	unknown
-Graph::AdjacencyMap::Vertex	unknown
-Graph::AdjacencyMatrix	unknown
-Graph::Attribute	unknown
-Graph::BitMatrix	unknown
-Graph::Directed	unknown
-Graph::Matrix	unknown
-Graph::MSTHeapElem	unknown
-Graph::Reader	2.09
-Graph::Reader::Dot	2.09
-Graph::Reader::HTK	2.09
-Graph::Reader::XML	2.09
-Graph::ReadWrite	2.09
-Graph::SPTHeapElem	unknown
-Graph::TransitiveClosure	unknown
-Graph::TransitiveClosure::Matrix	unknown
-Graph::Traversal	unknown
-Graph::Traversal::BFS	unknown
-Graph::Traversal::DFS	unknown
-Graph::Undirected	unknown
-Graph::UnionFind	unknown
-Graph::Writer	2.09
-Graph::Writer::daVinci	2.09
-Graph::Writer::Dot	2.09
-Graph::Writer::HTK	2.09
-Graph::Writer::VCG	2.09
-Graph::Writer::XML	2.09
-GraphViz	2.24
-GraphViz::Data::Grapher	2.24
-GraphViz::No	2.24
-GraphViz::Parse::RecDescent	2.24
-GraphViz::Parse::Yacc	2.24
-GraphViz::Parse::Yapp	2.24
-GraphViz::Regex	2.24
-GraphViz::Small	2.24
-GraphViz::XML	2.24
-Hash::AutoHash	1.17
-Hash::AutoHash::Args	1.18
-Hash::AutoHash::Args::V0	1.18
-Hash::Merge	0.300
-Hash::Merge::Simple	0.051
-Hash::MoreUtils	0.06
-Hash::MultiValue	0.16
-Hash::Util::FieldHash::Compat	0.11
-Hash::Util::FieldHash::Compat::Heavy	0.11
-Heap071::Elem	unknown
-Heap071::Fibonacci	unknown
-Hook::LexWrap	0.26
-HPC::Runner	2.48
-HPC::Runner::Scheduler	0.09
-HPC::Runner::Slurm	2.58
-HTML::AsSubs	5.07
-HTML::Element	5.07
-HTML::Element::traverse	5.07
-HTML::Entities	3.69
-HTML::Filter	3.72
-HTML::Form	6.03
-HTML::FormHandler	0.40068
-HTML::FormHandler::Base	0.40068
-HTML::FormHandler::Blocks	0.40068
-HTML::FormHandler::BuildFields	0.40068
-HTML::FormHandler::BuildPages	0.40068
-HTML::FormHandler::Field	0.40068
-HTML::FormHandler::Field::AddElement	0.40068
-HTML::FormHandler::Field::Boolean	0.40068
-HTML::FormHandler::Field::BoolSelect	0.40068
-HTML::FormHandler::Field::Button	0.40068
-HTML::FormHandler::Field::Captcha	0.40068
-HTML::FormHandler::Field::Checkbox	0.40068
-HTML::FormHandler::Field::Compound	0.40068
-HTML::FormHandler::Field::Date	0.40068
-HTML::FormHandler::Field::DateMDY	0.40068
-HTML::FormHandler::Field::DateTime	0.40068
-HTML::FormHandler::Field::Display	0.40068
-HTML::FormHandler::Field::Duration	0.40068
-HTML::FormHandler::Field::Email	0.40068
-HTML::FormHandler::Field::File	0.40068
-HTML::FormHandler::Field::Float	0.40068
-HTML::FormHandler::Field::Hidden	0.40068
-HTML::FormHandler::Field::Hour	0.40068
-HTML::FormHandler::Field::Integer	0.40068
-HTML::FormHandler::Field::IntRange	0.40068
-HTML::FormHandler::Field::Minute	0.40068
-HTML::FormHandler::Field::Money	0.40068
-HTML::FormHandler::Field::Month	0.40068
-HTML::FormHandler::Field::MonthDay	0.40068
-HTML::FormHandler::Field::MonthName	0.40068
-HTML::FormHandler::Field::Multiple	0.40068
-HTML::FormHandler::Field::Nested	0.40068
-HTML::FormHandler::Field::NonEditable	0.40068
-HTML::FormHandler::Field::NoValue	0.40068
-HTML::FormHandler::Field::Password	0.40068
-HTML::FormHandler::Field::PasswordConf	0.40068
-HTML::FormHandler::Field::PosInteger	0.40068
-HTML::FormHandler::Field::PrimaryKey	0.40068
-HTML::FormHandler::Field::Repeatable	0.40068
-HTML::FormHandler::Field::RequestToken	0.40068
-HTML::FormHandler::Field::Reset	0.40068
-HTML::FormHandler::Field::Result	0.40068
-HTML::FormHandler::Field::RmElement	0.40068
-HTML::FormHandler::Field::Role::RequestToken	0.40068
-HTML::FormHandler::Field::Second	0.40068
-HTML::FormHandler::Field::Select	0.40068
-HTML::FormHandler::Field::SelectCSV	0.40068
-HTML::FormHandler::Field::Submit	0.40068
-HTML::FormHandler::Field::Text	0.40068
-HTML::FormHandler::Field::TextArea	0.40068
-HTML::FormHandler::Field::TextCSV	0.40068
-HTML::FormHandler::Field::Upload	0.40068
-HTML::FormHandler::Field::Weekday	0.40068
-HTML::FormHandler::Field::Year	0.40068
-HTML::FormHandler::Fields	0.40068
-HTML::FormHandler::Foo	0.40068
-HTML::FormHandler::I18N	0.40068
-HTML::FormHandler::I18N::ar_kw	0.40068
-HTML::FormHandler::I18N::bg_bg	0.40068
-HTML::FormHandler::I18N::ca_es	0.40068
-HTML::FormHandler::I18N::cs_cz	0.40068
-HTML::FormHandler::I18N::de_de	0.40068
-HTML::FormHandler::I18N::en_us	0.40068
-HTML::FormHandler::I18N::es_es	0.40068
-HTML::FormHandler::I18N::hu_hu	0.40068
-HTML::FormHandler::I18N::it_it	0.40068
-HTML::FormHandler::I18N::ja_jp	0.40068
-HTML::FormHandler::I18N::pt_br	0.40068
-HTML::FormHandler::I18N::ru_ru	0.40068
-HTML::FormHandler::I18N::sv_se	0.40068
-HTML::FormHandler::I18N::tr_tr	0.40068
-HTML::FormHandler::I18N::ua_ua	0.40068
-HTML::FormHandler::InitResult	0.40068
-HTML::FormHandler::Merge	0.40068
-HTML::FormHandler::Model	0.40068
-HTML::FormHandler::Model::Object	0.40068
-HTML::FormHandler::Moose	0.40068
-HTML::FormHandler::Moose::Role	0.40068
-HTML::FormHandler::Page	0.40068
-HTML::FormHandler::Page::Simple	0.40068
-HTML::FormHandler::Pages	0.40068
-HTML::FormHandler::Render::RepeatableJs	0.40068
-HTML::FormHandler::Render::Simple	0.40068
-HTML::FormHandler::Render::Table	0.40068
-HTML::FormHandler::Render::Util	0.40068
-HTML::FormHandler::Render::WithTT	0.40068
-HTML::FormHandler::Result	0.40068
-HTML::FormHandler::Result::Role	0.40068
-HTML::FormHandler::Test	0.40068
-HTML::FormHandler::TraitFor::Captcha	0.40068
-HTML::FormHandler::TraitFor::I18N	0.40068
-HTML::FormHandler::TraitFor::Types	0.40068
-HTML::FormHandler::Traits	0.40068
-HTML::FormHandler::Types	0.40068
-HTML::FormHandler::Validate	0.40068
-HTML::FormHandler::Widget::ApplyRole	0.40068
-HTML::FormHandler::Widget::Block	0.40068
-HTML::FormHandler::Widget::Block::Bootstrap	0.40068
-HTML::FormHandler::Widget::Field::Button	0.40068
-HTML::FormHandler::Widget::Field::ButtonTag	0.40068
-HTML::FormHandler::Widget::Field::Captcha	0.40068
-HTML::FormHandler::Widget::Field::Checkbox	0.40068
-HTML::FormHandler::Widget::Field::CheckboxGroup	0.40068
-HTML::FormHandler::Widget::Field::Compound	0.40068
-HTML::FormHandler::Widget::Field::Hidden	0.40068
-HTML::FormHandler::Widget::Field::HorizCheckboxGroup	0.40068
-HTML::FormHandler::Widget::Field::NoRender	0.40068
-HTML::FormHandler::Widget::Field::Password	0.40068
-HTML::FormHandler::Widget::Field::RadioGroup	0.40068
-HTML::FormHandler::Widget::Field::Repeatable	0.40068
-HTML::FormHandler::Widget::Field::Reset	0.40068
-HTML::FormHandler::Widget::Field::Role::HTMLAttributes	0.40068
-HTML::FormHandler::Widget::Field::Role::SelectedOption	0.40068
-HTML::FormHandler::Widget::Field::Select	0.40068
-HTML::FormHandler::Widget::Field::Span	0.40068
-HTML::FormHandler::Widget::Field::Submit	0.40068
-HTML::FormHandler::Widget::Field::Text	0.40068
-HTML::FormHandler::Widget::Field::Textarea	0.40068
-HTML::FormHandler::Widget::Field::Upload	0.40068
-HTML::FormHandler::Widget::Form::Role::HTMLAttributes	0.40068
-HTML::FormHandler::Widget::Form::Simple	0.40068
-HTML::FormHandler::Widget::Form::Table	0.40068
-HTML::FormHandler::Widget::Theme::Bootstrap	0.40068
-HTML::FormHandler::Widget::Theme::Bootstrap3	0.40068
-HTML::FormHandler::Widget::Theme::BootstrapFormMessages	0.40068
-HTML::FormHandler::Widget::Wrapper::Base	0.40068
-HTML::FormHandler::Widget::Wrapper::Bootstrap	0.40068
-HTML::FormHandler::Widget::Wrapper::Bootstrap3	0.40068
-HTML::FormHandler::Widget::Wrapper::Fieldset	0.40068
-HTML::FormHandler::Widget::Wrapper::None	0.40068
-HTML::FormHandler::Widget::Wrapper::Simple	0.40068
-HTML::FormHandler::Widget::Wrapper::SimpleInline	0.40068
-HTML::FormHandler::Widget::Wrapper::Table	0.40068
-HTML::FormHandler::Widget::Wrapper::TableInline	0.40068
-HTML::FormHandler::Wizard	0.40068
-HTML::HeadParser	3.71
-HTML::LinkExtor	3.69
-HTML::Parse	5.07
-HTML::Parser	3.72
-HTML::Perlinfo	1.69
-HTML::Perlinfo::Apache	unknown
-HTML::Perlinfo::Base	unknown
-HTML::Perlinfo::Common	unknown
-HTML::Perlinfo::General	unknown
-HTML::Perlinfo::Loaded	1.02
-HTML::Perlinfo::Modules	1.19
-HTML::PullParser	3.57
-HTML::TableExtract	2.15
-HTML::Tagset	3.20
-HTML::TokeParser	3.69
-HTML::Tree	5.07
-HTML::TreeBuilder	5.07
-HTTP::Body	1.22
-HTTP::Body::MultiPart	1.22
-HTTP::Body::OctetStream	1.22
-HTTP::Body::UrlEncoded	1.22
-HTTP::Body::XForms	1.22
-HTTP::Body::XFormsMultipart	1.22
-HTTP::Config	6.18
-HTTP::CookieJar	0.008
-HTTP::CookieJar::LWP	0.008
-HTTP::Cookies	6.04
-HTTP::Cookies::Microsoft	6.04
-HTTP::Cookies::Netscape	6.04
-HTTP::Daemon	6.01
-HTTP::Date	6.02
-HTTP::Entity::Parser	0.21
-HTTP::Entity::Parser::JSON	unknown
-HTTP::Entity::Parser::MultiPart	unknown
-HTTP::Entity::Parser::OctetStream	unknown
-HTTP::Entity::Parser::UrlEncoded	unknown
-HTTP::Headers	6.18
-HTTP::Headers::Auth	6.18
-HTTP::Headers::ETag	6.18
-HTTP::Headers::Fast	0.21
-HTTP::Headers::Util	6.18
-HTTP::Message	6.18
-HTTP::Message::PSGI	unknown
-HTTP::MultiPartParser	0.02
-HTTP::Negotiate	6.01
-HTTP::Parser::XS	0.17
-HTTP::Parser::XS::PP	unknown
-HTTP::Request	6.18
-HTTP::Request::AsCGI	1.2
-HTTP::Request::Common	6.18
-HTTP::Response	6.18
-HTTP::Server::PSGI	unknown
-HTTP::Server::PSGI::Net::Server::PreFork	unknown
-HTTP::Server::Simple	0.52
-HTTP::Server::Simple::CGI	unknown
-HTTP::Server::Simple::CGI::Environment	unknown
-HTTP::Server::Simple::PSGI	0.16
-HTTP::Status	6.18
-HTTP::Thin	0.006
-HTTP::Tinyish	0.14
-HTTP::Tinyish::Base	unknown
-HTTP::Tinyish::Curl	unknown
-HTTP::Tinyish::HTTPTiny	unknown
-HTTP::Tinyish::LWP	unknown
-HTTP::Tinyish::Wget	unknown
-HTTP::XSCookies	0.000021
-Image::PNG	0.23
-Image::PNG::Const	0.45
-Image::PNG::Container	0.23
-Image::PNG::Libpng	0.45
-Image::PNG::Util	unknown
-Import::Into	1.002005
-Importer	0.025
-inc::Module::Install	1.19
-inc::Module::Install::DSL	1.19
-indirect	0.38
-Inline	0.80
-Inline::C	0.78
-Inline::C::Parser	unknown
-Inline::C::Parser::Pegex	unknown
-Inline::C::Parser::Pegex::AST	unknown
-Inline::C::Parser::Pegex::Grammar	unknown
-Inline::C::Parser::RecDescent	unknown
-Inline::C::Parser::RegExp	unknown
-Inline::denter	unknown
-Inline::Foo	0.80
-Inline::MakeMaker	0.80
-Inline::MakePdlppInstallable	unknown
-Inline::Pdlpp	0.4
-IO::All	0.87
-IO::All::Base	unknown
-IO::All::DBM	unknown
-IO::All::Dir	unknown
-IO::All::File	unknown
-IO::All::Filesys	unknown
-IO::All::Link	unknown
-IO::All::MLDBM	unknown
-IO::All::Pipe	unknown
-IO::All::Socket	unknown
-IO::All::STDIO	unknown
-IO::All::String	unknown
-IO::All::Temp	unknown
-IO::Async	0.72
-IO::Async::Channel	0.72
-IO::Async::Debug	0.72
-IO::Async::File	0.72
-IO::Async::FileStream	0.72
-IO::Async::Function	0.72
-IO::Async::Future	0.72
-IO::Async::Handle	0.72
-IO::Async::Internals::ChildManager	0.72
-IO::Async::Listener	0.72
-IO::Async::Loop	0.72
-IO::Async::Loop::Poll	0.72
-IO::Async::Loop::Select	0.72
-IO::Async::LoopTests	0.72
-IO::Async::Notifier	0.72
-IO::Async::OS	0.72
-IO::Async::OS::cygwin	0.72
-IO::Async::OS::linux	0.72
-IO::Async::OS::MSWin32	0.72
-IO::Async::PID	0.72
-IO::Async::Process	0.72
-IO::Async::Protocol	0.72
-IO::Async::Protocol::LineStream	0.72
-IO::Async::Protocol::Stream	0.72
-IO::Async::Resolver	0.72
-IO::Async::Routine	0.72
-IO::Async::Signal	0.72
-IO::Async::Socket	0.72
-IO::Async::Stream	0.72
-IO::Async::Test	0.72
-IO::Async::Timer	0.72
-IO::Async::Timer::Absolute	0.72
-IO::Async::Timer::Countdown	0.72
-IO::Async::Timer::Periodic	0.72
-IO::AtomicFile	2.111
-IO::CaptureOutput	1.1104
-IO::HTML	1.001
-IO::InnerFile	2.111
-IO::Interactive	1.022
-IO::Lines	2.111
-IO::Pipely	0.005
-IO::Prompt	0.997004
-IO::Pty	1.12
-IO::Scalar	2.111
-IO::ScalarArray	2.111
-IO::SessionData	1.03
-IO::SessionSet	unknown
-IO::Socket::SSL	2.058
-IO::Socket::SSL::Intercept	2.056
-IO::Socket::SSL::PublicSuffix	unknown
-IO::Socket::SSL::Utils	2.014
-IO::Socket::Timeout	0.32
-IO::String	1.08
-IO::Stringy	2.111
-IO::TieCombine	1.005
-IO::TieCombine::Handle	1.005
-IO::TieCombine::Scalar	1.005
-IO::Tty	1.12
-IO::Tty::Constant	unknown
-IO::Wrap	2.111
-IO::WrapTie	2.111
-IPC::Run	20180523.0
-IPC::Run3	0.048
-IPC::Run3::ProfArrayBuffer	0.048
-IPC::Run3::ProfLogger	0.048
-IPC::Run3::ProfLogReader	0.048
-IPC::Run3::ProfPP	0.048
-IPC::Run3::ProfReporter	0.048
-IPC::Run::Debug	20180523.0
-IPC::Run::IO	20180523.0
-IPC::Run::Timer	20180523.0
-IPC::Run::Win32Helper	20180523.0
-IPC::Run::Win32IO	20180523.0
-IPC::Run::Win32Pump	20180523.0
-IPC::ShareLite	0.17
-IPC::System::Simple	1.25
-JSON	2.97001
-JSON::Any	1.39
-JSON::MaybeXS	1.004000
-Lexical::Persistence	1.020
-lib::core::only	unknown
-Lingua::EN::FindNumber	1.32
-Lingua::EN::Inflect	1.903
-Lingua::EN::Inflect::Number	1.12
-Lingua::EN::Inflect::Phrase	0.20
-Lingua::EN::Number::IsOrdinal	0.05
-Lingua::EN::Tagger	0.29
-Lingua::EN::Words2Nums	unknown
-Lingua::GL::Stemmer	0.02
-Lingua::PT::Stemmer	0.02
-Lingua::Stem	0.84
-Lingua::Stem::AutoLoader	1.02
-Lingua::Stem::Da	1.01
-Lingua::Stem::De	1.01
-Lingua::Stem::En	2.16
-Lingua::Stem::EnBroken	2.13
-Lingua::Stem::Fr	0.02
-Lingua::Stem::Gl	1.02
-Lingua::Stem::It	0.02
-Lingua::Stem::No	1.01
-Lingua::Stem::Pt	1.01
-Lingua::Stem::Ru	0.04
-Lingua::Stem::Snowball::Da	1.01
-Lingua::Stem::Snowball::No	1.2
-Lingua::Stem::Snowball::Se	1.2
-Lingua::Stem::Sv	1.01
-List::AllUtils	0.14
-List::MoreUtils	0.428
-List::MoreUtils::PP	0.428
-List::MoreUtils::XS	0.428
-List::SomeUtils	0.56
-List::SomeUtils::PP	0.56
-List::SomeUtils::XS	0.58
-List::Util	1.50
-List::Util::XS	1.50
-List::UtilsBy	0.11
-local::lib	2.000024
-Locale::Maketext::Extract	1.00
-Locale::Maketext::Extract::Plugin::Base	1.00
-Locale::Maketext::Extract::Plugin::FormFu	1.00
-Locale::Maketext::Extract::Plugin::Generic	1.00
-Locale::Maketext::Extract::Plugin::Haml	1.00
-Locale::Maketext::Extract::Plugin::Mason	1.00
-Locale::Maketext::Extract::Plugin::Perl	1.00
-Locale::Maketext::Extract::Plugin::PPI	1.00
-Locale::Maketext::Extract::Plugin::TextTemplate	1.00
-Locale::Maketext::Extract::Plugin::TT2	1.00
-Locale::Maketext::Extract::Plugin::YAML	1.00
-Locale::Maketext::Extract::Run	1.00
-Locale::Maketext::Lexicon	1.00
-Locale::Maketext::Lexicon::Auto	1.00
-Locale::Maketext::Lexicon::Gettext	1.00
-Locale::Maketext::Lexicon::Msgcat	1.00
-Locale::Maketext::Lexicon::Tie	1.00
-Log::Any	1.706
-Log::Any::Adapter	1.706
-Log::Any::Adapter::Base	1.706
-Log::Any::Adapter::File	1.706
-Log::Any::Adapter::Null	1.706
-Log::Any::Adapter::Stderr	1.706
-Log::Any::Adapter::Stdout	1.706
-Log::Any::Adapter::Syslog	1.706
-Log::Any::Adapter::Test	1.706
-Log::Any::Adapter::Util	1.706
-Log::Any::Manager	1.706
-Log::Any::Proxy	1.706
-Log::Any::Proxy::Null	1.706
-Log::Any::Proxy::Test	1.706
-Log::Any::Test	1.706
-Log::Contextual	0.008001
-Log::Contextual::Easy::Default	0.008001
-Log::Contextual::Easy::Package	0.008001
-Log::Contextual::Role::Router	0.008001
-Log::Contextual::Role::Router::HasLogger	0.008001
-Log::Contextual::Role::Router::SetLogger	0.008001
-Log::Contextual::Role::Router::WithLogger	0.008001
-Log::Contextual::Router	0.008001
-Log::Contextual::SimpleLogger	0.008001
-Log::Contextual::TeeLogger	0.008001
-Log::Contextual::WarnLogger	0.008001
-Log::Dispatch	2.67
-Log::Dispatch::ApacheLog	2.67
-Log::Dispatch::Array	1.003
-Log::Dispatch::Base	2.67
-Log::Dispatch::Code	2.67
-Log::Dispatch::Config	1.04
-Log::Dispatch::Configurator	1.00
-Log::Dispatch::Configurator::AppConfig	1.00
-Log::Dispatch::Email	2.67
-Log::Dispatch::Email::MailSend	2.67
-Log::Dispatch::Email::MailSender	2.67
-Log::Dispatch::Email::MailSendmail	2.67
-Log::Dispatch::Email::MIMELite	2.67
-Log::Dispatch::File	2.67
-Log::Dispatch::File::Locked	2.67
-Log::Dispatch::Handle	2.67
-Log::Dispatch::Null	2.67
-Log::Dispatch::Output	2.67
-Log::Dispatch::Screen	2.67
-Log::Dispatch::Syslog	2.67
-Log::Dispatch::Types	2.67
-Log::Dispatch::Vars	2.67
-Log::Dispatchouli	2.016
-Log::Dispatchouli::Global	2.016
-Log::Dispatchouli::Proxy	2.016
-Log::Log4perl	1.49
-Log::Log4perl::Appender	unknown
-Log::Log4perl::Appender::Buffer	unknown
-Log::Log4perl::Appender::DBI	unknown
-Log::Log4perl::Appender::File	unknown
-Log::Log4perl::Appender::Limit	unknown
-Log::Log4perl::Appender::RRDs	unknown
-Log::Log4perl::Appender::Screen	unknown
-Log::Log4perl::Appender::ScreenColoredLevels	unknown
-Log::Log4perl::Appender::Socket	unknown
-Log::Log4perl::Appender::String	unknown
-Log::Log4perl::Appender::Synchronized	unknown
-Log::Log4perl::Appender::TestArrayBuffer	unknown
-Log::Log4perl::Appender::TestBuffer	unknown
-Log::Log4perl::Appender::TestFileCreeper	unknown
-Log::Log4perl::Catalyst	unknown
-Log::Log4perl::Config	unknown
-Log::Log4perl::Config::BaseConfigurator	unknown
-Log::Log4perl::Config::DOMConfigurator	0.03
-Log::Log4perl::Config::PropertyConfigurator	unknown
-Log::Log4perl::Config::Watch	unknown
-Log::Log4perl::DateFormat	unknown
-Log::Log4perl::Filter	unknown
-Log::Log4perl::Filter::Boolean	unknown
-Log::Log4perl::Filter::LevelMatch	unknown
-Log::Log4perl::Filter::LevelRange	unknown
-Log::Log4perl::Filter::MDC	unknown
-Log::Log4perl::Filter::StringMatch	unknown
-Log::Log4perl::InternalDebug	unknown
-Log::Log4perl::JavaMap	unknown
-Log::Log4perl::JavaMap::ConsoleAppender	unknown
-Log::Log4perl::JavaMap::FileAppender	unknown
-Log::Log4perl::JavaMap::JDBCAppender	unknown
-Log::Log4perl::JavaMap::NTEventLogAppender	unknown
-Log::Log4perl::JavaMap::RollingFileAppender	unknown
-Log::Log4perl::JavaMap::SyslogAppender	unknown
-Log::Log4perl::JavaMap::TestBuffer	unknown
-Log::Log4perl::Layout	unknown
-Log::Log4perl::Layout::NoopLayout	unknown
-Log::Log4perl::Layout::PatternLayout	unknown
-Log::Log4perl::Layout::PatternLayout::Multiline	unknown
-Log::Log4perl::Layout::SimpleLayout	unknown
-Log::Log4perl::Level	unknown
-Log::Log4perl::Logger	unknown
-Log::Log4perl::MDC	unknown
-Log::Log4perl::NDC	unknown
-Log::Log4perl::Resurrector	unknown
-Log::Log4perl::Util	unknown
-Log::Log4perl::Util::Semaphore	unknown
-Log::Log4perl::Util::TimeTracker	unknown
-Log::Message	0.08
-Log::Message::Config	0.08
-Log::Message::Handlers	0.08
-Log::Message::Item	0.08
-Log::Message::Simple	0.10
-Log::Report	1.27
-Log::Report::DBIC::Profiler	1.27
-Log::Report::Die	1.27
-Log::Report::Dispatcher	1.27
-Log::Report::Dispatcher::Callback	1.27
-Log::Report::Dispatcher::File	1.27
-Log::Report::Dispatcher::Log4perl	1.27
-Log::Report::Dispatcher::LogDispatch	1.27
-Log::Report::Dispatcher::Perl	1.27
-Log::Report::Dispatcher::Syslog	1.27
-Log::Report::Dispatcher::Try	1.27
-Log::Report::Domain	1.27
-Log::Report::Exception	1.27
-Log::Report::Message	1.27
-Log::Report::Minimal	1.06
-Log::Report::Minimal::Domain	1.06
-Log::Report::Optional	1.06
-Log::Report::Translator	1.27
-Log::Report::Util	1.06
-Logger::Simple	2.0
-LWP	6.35
-LWP::Authen::Basic	6.35
-LWP::Authen::Digest	6.35
-LWP::Authen::Ntlm	6.35
-LWP::ConnCache	6.35
-LWP::Debug	6.35
-LWP::Debug	unknown
-LWP::Debug::TraceHTTP	6.35
-LWP::DebugFile	6.35
-LWP::MediaTypes	6.02
-LWP::MemberMixin	6.35
-LWP::Protocol	6.35
-LWP::Protocol::cpan	6.35
-LWP::Protocol::data	6.35
-LWP::Protocol::file	6.35
-LWP::Protocol::ftp	6.35
-LWP::Protocol::gopher	6.35
-LWP::Protocol::http	6.35
-LWP::Protocol::https	6.07
-LWP::Protocol::loopback	6.35
-LWP::Protocol::mailto	6.35
-LWP::Protocol::nntp	6.35
-LWP::Protocol::nogo	6.35
-LWP::RobotUA	6.35
-LWP::Simple	6.35
-LWP::UserAgent	6.35
-Mail::Address	2.20
-Mail::Cap	2.20
-Mail::Field	2.20
-Mail::Field::AddrList	2.20
-Mail::Field::Date	2.20
-Mail::Field::Generic	2.20
-Mail::Filter	2.20
-Mail::Header	2.20
-Mail::Internet	2.20
-Mail::Mailer	2.20
-Mail::Mailer::qmail	2.20
-Mail::Mailer::rfc822	2.20
-Mail::Mailer::sendmail	2.20
-Mail::Mailer::smtp	2.20
-Mail::Mailer::smtps	2.20
-Mail::Mailer::testfile	2.20
-Mail::Send	2.20
-Mail::Util	2.20
-MailTools	2.20
-Math::Bezier	0.01
-Math::BigFloat	1.999813
-Math::BigInt	1.999813
-Math::BigInt::Calc	1.999813
-Math::BigInt::CalcEmu	1.999813
-Math::BigInt::Lib	1.999813
-Math::CDF	0.1
-Math::Cephes	0.5305
-Math::Cephes::Complex	0.5305
-Math::Cephes::Fraction	0.5305
-Math::Cephes::Matrix	0.5305
-Math::Cephes::Polynomial	0.5305
-Math::Combinatorics	0.09
-Math::Counting	0.1305
-Math::Derivative	1.01
-Math::GSL::Linalg::SVD	0.0.2
-Math::MatrixReal	2.13
-Math::Prime::Util	0.70
-Math::Prime::Util::ChaCha	0.70
-Math::Prime::Util::ECAffinePoint	0.70
-Math::Prime::Util::ECProjectivePoint	0.70
-Math::Prime::Util::Entropy	0.70
-Math::Prime::Util::GMP	0.50
-Math::Prime::Util::MemFree	0.70
-Math::Prime::Util::PP	0.70
-Math::Prime::Util::PPFE	unknown
-Math::Prime::Util::PrimalityProving	0.70
-Math::Prime::Util::PrimeArray	0.70
-Math::Prime::Util::PrimeIterator	0.70
-Math::Prime::Util::RandomPrimes	0.70
-Math::Prime::Util::ZetaBigFloat	0.70
-Math::Random	0.72
-Math::Random::ISAAC	1.004
-Math::Random::ISAAC::PP	1.004
-Math::Random::MT::Auto	6.22
-Math::Random::MT::Auto::Range	6.22
-Math::Round	0.07
-Math::Spline	0.02
-Math::Utils	1.12
-Math::VecStat	0.08
-Memoize::ExpireLRU	0.56
-Menlo	1.9019
-Menlo::Builder::Static	unknown
-Menlo::CLI::Compat	1.9022
-Menlo::Dependency	unknown
-Menlo::Index::MetaCPAN	unknown
-Menlo::Index::MetaDB	1.9019
-Menlo::Index::Mirror	unknown
-Menlo::Legacy	1.9022
-Menlo::Util	unknown
-Meta::Builder	0.003
-Meta::Builder::Base	unknown
-Meta::Builder::Util	unknown
-metaclass	2.2011
-Method::Generate::Accessor	unknown
-Method::Generate::BuildAll	unknown
-Method::Generate::Constructor	unknown
-Method::Generate::DemolishAll	unknown
-Method::Inliner	unknown
-MIME::Charset	1.012.2
-MIME::Charset::_Compat	1.003.1
-MIME::Charset::UTF	1.010
-MIME::Type	2.17
-MIME::Types	2.17
-Mixin::Linewise	0.108
-Mixin::Linewise::Readers	0.108
-Mixin::Linewise::Writers	0.108
-Mock::Config	0.03
-Modern::Perl	1.20180701
-Module::AutoInstall	1.19
-Module::Build	0.4224
-Module::Build::Base	0.4224
-Module::Build::Compat	0.4224
-Module::Build::Config	0.4224
-Module::Build::ConfigData	unknown
-Module::Build::Cookbook	0.4224
-Module::Build::Dumper	0.4224
-Module::Build::Notes	0.4224
-Module::Build::Platform::aix	0.4224
-Module::Build::Platform::cygwin	0.4224
-Module::Build::Platform::darwin	0.4224
-Module::Build::Platform::Default	0.4224
-Module::Build::Platform::MacOS	0.4224
-Module::Build::Platform::os2	0.4224
-Module::Build::Platform::Unix	0.4224
-Module::Build::Platform::VMS	0.4224
-Module::Build::Platform::VOS	0.4224
-Module::Build::Platform::Windows	0.4224
-Module::Build::PodParser	0.4224
-Module::Build::PPMMaker	0.4224
-Module::Build::Tiny	0.039
-Module::Build::XSUtil	0.19
-Module::Compile	0.37
-Module::Compile::Opt	unknown
-Module::CPANfile	1.1004
-Module::CPANfile::Environment	unknown
-Module::CPANfile::Prereq	unknown
-Module::CPANfile::Prereqs	unknown
-Module::CPANfile::Requirement	unknown
-Module::Faker	0.020
-Module::Faker::Appendix	0.020
-Module::Faker::Dist	0.020
-Module::Faker::File	0.020
-Module::Faker::Heavy	0.020
-Module::Faker::Module	0.020
-Module::Faker::Package	0.020
-Module::Find	0.13
-Module::Implementation	0.09
-Module::Install	1.19
-Module::Install::Admin	1.19
-Module::Install::Admin::Bundle	1.19
-Module::Install::Admin::Compiler	1.19
-Module::Install::Admin::Find	1.19
-Module::Install::Admin::Include	1.19
-Module::Install::Admin::Makefile	1.19
-Module::Install::Admin::Manifest	1.19
-Module::Install::Admin::Metadata	1.19
-Module::Install::Admin::ScanDeps	1.19
-Module::Install::Admin::WriteAll	1.19
-Module::Install::AutoInstall	1.19
-Module::Install::Base	1.19
-Module::Install::Bundle	1.19
-Module::Install::Can	1.19
-Module::Install::Catalyst	unknown
-Module::Install::Compiler	1.19
-Module::Install::Deprecated	1.19
-Module::Install::DSL	1.19
-Module::Install::External	1.19
-Module::Install::Fetch	1.19
-Module::Install::Include	1.19
-Module::Install::Inline	1.19
-Module::Install::Makefile	1.19
-Module::Install::MakeMaker	1.19
-Module::Install::Metadata	1.19
-Module::Install::PAR	1.19
-Module::Install::Run	1.19
-Module::Install::Scripts	1.19
-Module::Install::Share	1.19
-Module::Install::Win32	1.19
-Module::Install::With	1.19
-Module::Install::WriteAll	1.19
-Module::Optimize	unknown
-Module::Path	0.19
-Module::Pluggable	5.2
-Module::Pluggable::Object	5.2
-Module::Runtime	0.016
-Module::Runtime::Conflicts	0.003
-Module::ScanDeps	1.24
-Module::ScanDeps::Cache	unknown
-Module::Util	1.09
-Mojo	unknown
-Mojo::Asset	unknown
-Mojo::Asset::File	unknown
-Mojo::Asset::Memory	unknown
-Mojo::Base	unknown
-Mojo::ByteStream	unknown
-Mojo::Cache	unknown
-Mojo::Collection	unknown
-Mojo::Content	unknown
-Mojo::Content::MultiPart	unknown
-Mojo::Content::Single	unknown
-Mojo::Cookie	unknown
-Mojo::Cookie::Request	unknown
-Mojo::Cookie::Response	unknown
-Mojo::Date	unknown
-Mojo::DOM	unknown
-Mojo::DOM::CSS	unknown
-Mojo::DOM::HTML	unknown
-Mojo::EventEmitter	unknown
-Mojo::Exception	unknown
-Mojo::File	unknown
-Mojo::Headers	unknown
-Mojo::HelloWorld	unknown
-Mojo::Home	unknown
-Mojo::IOLoop	unknown
-Mojo::IOLoop::Client	unknown
-Mojo::IOLoop::Delay	unknown
-Mojo::IOLoop::Server	unknown
-Mojo::IOLoop::Stream	unknown
-Mojo::IOLoop::Stream::HTTPClient	unknown
-Mojo::IOLoop::Stream::HTTPServer	unknown
-Mojo::IOLoop::Stream::WebSocketClient	unknown
-Mojo::IOLoop::Stream::WebSocketServer	unknown
-Mojo::IOLoop::Subprocess	unknown
-Mojo::IOLoop::TLS	unknown
-Mojo::JSON	unknown
-Mojo::JSON::Pointer	unknown
-Mojo::Loader	unknown
-Mojo::Log	unknown
-Mojo::Message	unknown
-Mojo::Message::Request	unknown
-Mojo::Message::Response	unknown
-Mojo::Parameters	unknown
-Mojo::Path	unknown
-Mojo::Promise	unknown
-Mojo::Reactor	unknown
-Mojo::Reactor::EV	unknown
-Mojo::Reactor::Poll	unknown
-Mojo::Server	unknown
-Mojo::Server::CGI	unknown
-Mojo::Server::Daemon	unknown
-Mojo::Server::Hypnotoad	unknown
-Mojo::Server::Morbo	unknown
-Mojo::Server::Morbo::Backend	unknown
-Mojo::Server::Morbo::Backend::Poll	unknown
-Mojo::Server::Prefork	unknown
-Mojo::Server::PSGI	unknown
-Mojo::Template	unknown
-Mojo::Transaction	unknown
-Mojo::Transaction::HTTP	unknown
-Mojo::Transaction::WebSocket	unknown
-Mojo::Upload	unknown
-Mojo::URL	unknown
-Mojo::UserAgent	unknown
-Mojo::UserAgent::CookieJar	unknown
-Mojo::UserAgent::Proxy	unknown
-Mojo::UserAgent::Server	unknown
-Mojo::UserAgent::Transactor	unknown
-Mojo::Util	unknown
-Mojo::WebSocket	unknown
-Mojolicious	7.88
-Mojolicious::Command	unknown
-Mojolicious::Command::cgi	unknown
-Mojolicious::Command::cpanify	unknown
-Mojolicious::Command::daemon	unknown
-Mojolicious::Command::eval	unknown
-Mojolicious::Command::generate	unknown
-Mojolicious::Command::generate::app	unknown
-Mojolicious::Command::generate::lite_app	unknown
-Mojolicious::Command::generate::makefile	unknown
-Mojolicious::Command::generate::plugin	0.01
-Mojolicious::Command::get	unknown
-Mojolicious::Command::inflate	unknown
-Mojolicious::Command::prefork	unknown
-Mojolicious::Command::psgi	unknown
-Mojolicious::Command::routes	unknown
-Mojolicious::Command::test	unknown
-Mojolicious::Command::version	unknown
-Mojolicious::Commands	unknown
-Mojolicious::Controller	unknown
-Mojolicious::Lite	unknown
-Mojolicious::Plugin	unknown
-Mojolicious::Plugin::Config	unknown
-Mojolicious::Plugin::DefaultHelpers	unknown
-Mojolicious::Plugin::EPLRenderer	unknown
-Mojolicious::Plugin::EPRenderer	unknown
-Mojolicious::Plugin::HeaderCondition	unknown
-Mojolicious::Plugin::JSONConfig	unknown
-Mojolicious::Plugin::Mount	unknown
-Mojolicious::Plugin::PODRenderer	unknown
-Mojolicious::Plugin::TagHelpers	unknown
-Mojolicious::Plugins	unknown
-Mojolicious::Renderer	unknown
-Mojolicious::Routes	unknown
-Mojolicious::Routes::Match	unknown
-Mojolicious::Routes::Pattern	unknown
-Mojolicious::Routes::Route	unknown
-Mojolicious::Sessions	unknown
-Mojolicious::Static	unknown
-Mojolicious::Types	unknown
-Mojolicious::Validator	unknown
-Mojolicious::Validator::Validation	unknown
-MojoX::Log::Report	1.27
-MojoX::MIME::Types	2.17
-Moo	2.001001
-Moo::_mro	unknown
-Moo::_strictures	unknown
-Moo::_Utils	unknown
-Moo::HandleMoose	unknown
-Moo::HandleMoose::_TypeMap	unknown
-Moo::HandleMoose::FakeMetaClass	unknown
-Moo::Object	unknown
-Moo::Role	2.001001
-Moo::sification	unknown
-Moose	2.2011
-Moose::Autobox	0.16
-Moose::Autobox::Array	0.16
-Moose::Autobox::Code	0.16
-Moose::Autobox::Defined	0.16
-Moose::Autobox::Hash	0.16
-Moose::Autobox::Indexed	0.16
-Moose::Autobox::Item	0.16
-Moose::Autobox::List	0.16
-Moose::Autobox::Number	0.16
-Moose::Autobox::Ref	0.16
-Moose::Autobox::Scalar	0.16
-Moose::Autobox::String	0.16
-Moose::Autobox::Undef	0.16
-Moose::Autobox::Value	0.16
-Moose::Deprecated	2.2011
-Moose::Exception	2.2011
-Moose::Exception::AccessorMustReadWrite	2.2011
-Moose::Exception::AddParameterizableTypeTakesParameterizableType	2.2011
-Moose::Exception::AddRoleTakesAMooseMetaRoleInstance	2.2011
-Moose::Exception::AddRoleToARoleTakesAMooseMetaRole	2.2011
-Moose::Exception::ApplyTakesABlessedInstance	2.2011
-Moose::Exception::AttachToClassNeedsAClassMOPClassInstanceOrASubclass	2.2011
-Moose::Exception::AttributeConflictInRoles	2.2011
-Moose::Exception::AttributeConflictInSummation	2.2011
-Moose::Exception::AttributeExtensionIsNotSupportedInRoles	2.2011
-Moose::Exception::AttributeIsRequired	2.2011
-Moose::Exception::AttributeMustBeAnClassMOPMixinAttributeCoreOrSubclass	2.2011
-Moose::Exception::AttributeNamesDoNotMatch	2.2011
-Moose::Exception::AttributeValueIsNotAnObject	2.2011
-Moose::Exception::AttributeValueIsNotDefined	2.2011
-Moose::Exception::AutoDeRefNeedsArrayRefOrHashRef	2.2011
-Moose::Exception::BadOptionFormat	2.2011
-Moose::Exception::BothBuilderAndDefaultAreNotAllowed	2.2011
-Moose::Exception::BuilderDoesNotExist	2.2011
-Moose::Exception::BuilderMethodNotSupportedForAttribute	2.2011
-Moose::Exception::BuilderMethodNotSupportedForInlineAttribute	2.2011
-Moose::Exception::BuilderMustBeAMethodName	2.2011
-Moose::Exception::CallingMethodOnAnImmutableInstance	2.2011
-Moose::Exception::CallingReadOnlyMethodOnAnImmutableInstance	2.2011
-Moose::Exception::CanExtendOnlyClasses	2.2011
-Moose::Exception::CannotAddAdditionalTypeCoercionsToUnion	2.2011
-Moose::Exception::CannotAddAsAnAttributeToARole	2.2011
-Moose::Exception::CannotApplyBaseClassRolesToRole	2.2011
-Moose::Exception::CannotAssignValueToReadOnlyAccessor	2.2011
-Moose::Exception::CannotAugmentIfLocalMethodPresent	2.2011
-Moose::Exception::CannotAugmentNoSuperMethod	2.2011
-Moose::Exception::CannotAutoDereferenceTypeConstraint	2.2011
-Moose::Exception::CannotAutoDerefWithoutIsa	2.2011
-Moose::Exception::CannotCalculateNativeType	2.2011
-Moose::Exception::CannotCallAnAbstractBaseMethod	2.2011
-Moose::Exception::CannotCallAnAbstractMethod	2.2011
-Moose::Exception::CannotCoerceAttributeWhichHasNoCoercion	2.2011
-Moose::Exception::CannotCoerceAWeakRef	2.2011
-Moose::Exception::CannotCreateHigherOrderTypeWithoutATypeParameter	2.2011
-Moose::Exception::CannotCreateMethodAliasLocalMethodIsPresent	2.2011
-Moose::Exception::CannotCreateMethodAliasLocalMethodIsPresentInClass	2.2011
-Moose::Exception::CannotDelegateLocalMethodIsPresent	2.2011
-Moose::Exception::CannotDelegateWithoutIsa	2.2011
-Moose::Exception::CannotFindDelegateMetaclass	2.2011
-Moose::Exception::CannotFindType	2.2011
-Moose::Exception::CannotFindTypeGivenToMatchOnType	2.2011
-Moose::Exception::CannotFixMetaclassCompatibility	2.2011
-Moose::Exception::CannotGenerateInlineConstraint	2.2011
-Moose::Exception::CannotInitializeMooseMetaRoleComposite	2.2011
-Moose::Exception::CannotInlineTypeConstraintCheck	2.2011
-Moose::Exception::CannotLocatePackageInINC	2.2011
-Moose::Exception::CannotMakeMetaclassCompatible	2.2011
-Moose::Exception::CannotOverrideALocalMethod	2.2011
-Moose::Exception::CannotOverrideBodyOfMetaMethods	2.2011
-Moose::Exception::CannotOverrideLocalMethodIsPresent	2.2011
-Moose::Exception::CannotOverrideNoSuperMethod	2.2011
-Moose::Exception::CannotRegisterUnnamedTypeConstraint	2.2011
-Moose::Exception::CannotUseLazyBuildAndDefaultSimultaneously	2.2011
-Moose::Exception::CanOnlyConsumeRole	2.2011
-Moose::Exception::CanOnlyWrapBlessedCode	2.2011
-Moose::Exception::CanReblessOnlyIntoASubclass	2.2011
-Moose::Exception::CanReblessOnlyIntoASuperclass	2.2011
-Moose::Exception::CircularReferenceInAlso	2.2011
-Moose::Exception::ClassDoesNotHaveInitMeta	2.2011
-Moose::Exception::ClassDoesTheExcludedRole	2.2011
-Moose::Exception::ClassNamesDoNotMatch	2.2011
-Moose::Exception::CloneObjectExpectsAnInstanceOfMetaclass	2.2011
-Moose::Exception::CodeBlockMustBeACodeRef	2.2011
-Moose::Exception::CoercingWithoutCoercions	2.2011
-Moose::Exception::CoercionAlreadyExists	2.2011
-Moose::Exception::CoercionNeedsTypeConstraint	2.2011
-Moose::Exception::ConflictDetectedInCheckRoleExclusions	2.2011
-Moose::Exception::ConflictDetectedInCheckRoleExclusionsInToClass	2.2011
-Moose::Exception::ConstructClassInstanceTakesPackageName	2.2011
-Moose::Exception::CouldNotCreateMethod	2.2011
-Moose::Exception::CouldNotCreateWriter	2.2011
-Moose::Exception::CouldNotEvalConstructor	2.2011
-Moose::Exception::CouldNotEvalDestructor	2.2011
-Moose::Exception::CouldNotFindTypeConstraintToCoerceFrom	2.2011
-Moose::Exception::CouldNotGenerateInlineAttributeMethod	2.2011
-Moose::Exception::CouldNotLocateTypeConstraintForUnion	2.2011
-Moose::Exception::CouldNotParseType	2.2011
-Moose::Exception::CreateMOPClassTakesArrayRefOfAttributes	2.2011
-Moose::Exception::CreateMOPClassTakesArrayRefOfSuperclasses	2.2011
-Moose::Exception::CreateMOPClassTakesHashRefOfMethods	2.2011
-Moose::Exception::CreateTakesArrayRefOfRoles	2.2011
-Moose::Exception::CreateTakesHashRefOfAttributes	2.2011
-Moose::Exception::CreateTakesHashRefOfMethods	2.2011
-Moose::Exception::DefaultToMatchOnTypeMustBeCodeRef	2.2011
-Moose::Exception::DelegationToAClassWhichIsNotLoaded	2.2011
-Moose::Exception::DelegationToARoleWhichIsNotLoaded	2.2011
-Moose::Exception::DelegationToATypeWhichIsNotAClass	2.2011
-Moose::Exception::DoesRequiresRoleName	2.2011
-Moose::Exception::EnumCalledWithAnArrayRefAndAdditionalArgs	2.2011
-Moose::Exception::EnumValuesMustBeString	2.2011
-Moose::Exception::ExtendsMissingArgs	2.2011
-Moose::Exception::HandlesMustBeAHashRef	2.2011
-Moose::Exception::IllegalInheritedOptions	2.2011
-Moose::Exception::IllegalMethodTypeToAddMethodModifier	2.2011
-Moose::Exception::IncompatibleMetaclassOfSuperclass	2.2011
-Moose::Exception::InitializeTakesUnBlessedPackageName	2.2011
-Moose::Exception::InitMetaRequiresClass	2.2011
-Moose::Exception::InstanceBlessedIntoWrongClass	2.2011
-Moose::Exception::InstanceMustBeABlessedReference	2.2011
-Moose::Exception::InvalidArgPassedToMooseUtilMetaRole	2.2011
-Moose::Exception::InvalidArgumentsToTraitAliases	2.2011
-Moose::Exception::InvalidArgumentToMethod	2.2011
-Moose::Exception::InvalidBaseTypeGivenToCreateParameterizedTypeConstraint	2.2011
-Moose::Exception::InvalidHandleValue	2.2011
-Moose::Exception::InvalidHasProvidedInARole	2.2011
-Moose::Exception::InvalidNameForType	2.2011
-Moose::Exception::InvalidOverloadOperator	2.2011
-Moose::Exception::InvalidRoleApplication	2.2011
-Moose::Exception::InvalidTypeConstraint	2.2011
-Moose::Exception::InvalidTypeGivenToCreateParameterizedTypeConstraint	2.2011
-Moose::Exception::InvalidValueForIs	2.2011
-Moose::Exception::IsaDoesNotDoTheRole	2.2011
-Moose::Exception::IsaLacksDoesMethod	2.2011
-Moose::Exception::LazyAttributeNeedsADefault	2.2011
-Moose::Exception::Legacy	2.2011
-Moose::Exception::MatchActionMustBeACodeRef	2.2011
-Moose::Exception::MessageParameterMustBeCodeRef	2.2011
-Moose::Exception::MetaclassIsAClassNotASubclassOfGivenMetaclass	2.2011
-Moose::Exception::MetaclassIsARoleNotASubclassOfGivenMetaclass	2.2011
-Moose::Exception::MetaclassIsNotASubclassOfGivenMetaclass	2.2011
-Moose::Exception::MetaclassMustBeASubclassOfMooseMetaClass	2.2011
-Moose::Exception::MetaclassMustBeASubclassOfMooseMetaRole	2.2011
-Moose::Exception::MetaclassMustBeDerivedFromClassMOPClass	2.2011
-Moose::Exception::MetaclassNotLoaded	2.2011
-Moose::Exception::MetaclassTypeIncompatible	2.2011
-Moose::Exception::MethodExpectedAMetaclassObject	2.2011
-Moose::Exception::MethodExpectsFewerArgs	2.2011
-Moose::Exception::MethodExpectsMoreArgs	2.2011
-Moose::Exception::MethodModifierNeedsMethodName	2.2011
-Moose::Exception::MethodNameConflictInRoles	2.2011
-Moose::Exception::MethodNameNotFoundInInheritanceHierarchy	2.2011
-Moose::Exception::MethodNameNotGiven	2.2011
-Moose::Exception::MOPAttributeNewNeedsAttributeName	2.2011
-Moose::Exception::MustDefineAMethodName	2.2011
-Moose::Exception::MustDefineAnAttributeName	2.2011
-Moose::Exception::MustDefineAnOverloadOperator	2.2011
-Moose::Exception::MustHaveAtLeastOneValueToEnumerate	2.2011
-Moose::Exception::MustPassAHashOfOptions	2.2011
-Moose::Exception::MustPassAMooseMetaRoleInstanceOrSubclass	2.2011
-Moose::Exception::MustPassAPackageNameOrAnExistingClassMOPPackageInstance	2.2011
-Moose::Exception::MustPassEvenNumberOfArguments	2.2011
-Moose::Exception::MustPassEvenNumberOfAttributeOptions	2.2011
-Moose::Exception::MustProvideANameForTheAttribute	2.2011
-Moose::Exception::MustSpecifyAtleastOneMethod	2.2011
-Moose::Exception::MustSpecifyAtleastOneRole	2.2011
-Moose::Exception::MustSpecifyAtleastOneRoleToApplicant	2.2011
-Moose::Exception::MustSupplyAClassMOPAttributeInstance	2.2011
-Moose::Exception::MustSupplyADelegateToMethod	2.2011
-Moose::Exception::MustSupplyAMetaclass	2.2011
-Moose::Exception::MustSupplyAMooseMetaAttributeInstance	2.2011
-Moose::Exception::MustSupplyAnAccessorTypeToConstructWith	2.2011
-Moose::Exception::MustSupplyAnAttributeToConstructWith	2.2011
-Moose::Exception::MustSupplyArrayRefAsCurriedArguments	2.2011
-Moose::Exception::MustSupplyPackageNameAndName	2.2011
-Moose::Exception::NeedsTypeConstraintUnionForTypeCoercionUnion	2.2011
-Moose::Exception::NeitherAttributeNorAttributeNameIsGiven	2.2011
-Moose::Exception::NeitherClassNorClassNameIsGiven	2.2011
-Moose::Exception::NeitherRoleNorRoleNameIsGiven	2.2011
-Moose::Exception::NeitherTypeNorTypeNameIsGiven	2.2011
-Moose::Exception::NoAttributeFoundInSuperClass	2.2011
-Moose::Exception::NoBodyToInitializeInAnAbstractBaseClass	2.2011
-Moose::Exception::NoCasesMatched	2.2011
-Moose::Exception::NoConstraintCheckForTypeConstraint	2.2011
-Moose::Exception::NoDestructorClassSpecified	2.2011
-Moose::Exception::NoImmutableTraitSpecifiedForClass	2.2011
-Moose::Exception::NoParentGivenToSubtype	2.2011
-Moose::Exception::OnlyInstancesCanBeCloned	2.2011
-Moose::Exception::OperatorIsRequired	2.2011
-Moose::Exception::OverloadConflictInSummation	2.2011
-Moose::Exception::OverloadRequiresAMetaClass	2.2011
-Moose::Exception::OverloadRequiresAMetaMethod	2.2011
-Moose::Exception::OverloadRequiresAMetaOverload	2.2011
-Moose::Exception::OverloadRequiresAMethodNameOrCoderef	2.2011
-Moose::Exception::OverloadRequiresAnOperator	2.2011
-Moose::Exception::OverloadRequiresNamesForCoderef	2.2011
-Moose::Exception::OverrideConflictInComposition	2.2011
-Moose::Exception::OverrideConflictInSummation	2.2011
-Moose::Exception::PackageDoesNotUseMooseExporter	2.2011
-Moose::Exception::PackageNameAndNameParamsNotGivenToWrap	2.2011
-Moose::Exception::PackagesAndModulesAreNotCachable	2.2011
-Moose::Exception::ParameterIsNotSubtypeOfParent	2.2011
-Moose::Exception::ReferencesAreNotAllowedAsDefault	2.2011
-Moose::Exception::RequiredAttributeLacksInitialization	2.2011
-Moose::Exception::RequiredAttributeNeedsADefault	2.2011
-Moose::Exception::RequiredMethodsImportedByClass	2.2011
-Moose::Exception::RequiredMethodsNotImplementedByClass	2.2011
-Moose::Exception::Role::Attribute	2.2011
-Moose::Exception::Role::AttributeName	2.2011
-Moose::Exception::Role::Class	2.2011
-Moose::Exception::Role::EitherAttributeOrAttributeName	2.2011
-Moose::Exception::Role::Instance	2.2011
-Moose::Exception::Role::InstanceClass	2.2011
-Moose::Exception::Role::InvalidAttributeOptions	2.2011
-Moose::Exception::Role::Method	2.2011
-Moose::Exception::Role::ParamsHash	2.2011
-Moose::Exception::Role::Role	2.2011
-Moose::Exception::Role::RoleForCreate	2.2011
-Moose::Exception::Role::RoleForCreateMOPClass	2.2011
-Moose::Exception::Role::TypeConstraint	2.2011
-Moose::Exception::RoleDoesTheExcludedRole	2.2011
-Moose::Exception::RoleExclusionConflict	2.2011
-Moose::Exception::RoleNameRequired	2.2011
-Moose::Exception::RoleNameRequiredForMooseMetaRole	2.2011
-Moose::Exception::RolesDoNotSupportAugment	2.2011
-Moose::Exception::RolesDoNotSupportExtends	2.2011
-Moose::Exception::RolesDoNotSupportInner	2.2011
-Moose::Exception::RolesDoNotSupportRegexReferencesForMethodModifiers	2.2011
-Moose::Exception::RolesInCreateTakesAnArrayRef	2.2011
-Moose::Exception::RolesListMustBeInstancesOfMooseMetaRole	2.2011
-Moose::Exception::SingleParamsToNewMustBeHashRef	2.2011
-Moose::Exception::TriggerMustBeACodeRef	2.2011
-Moose::Exception::TypeConstraintCannotBeUsedForAParameterizableType	2.2011
-Moose::Exception::TypeConstraintIsAlreadyCreated	2.2011
-Moose::Exception::TypeParameterMustBeMooseMetaType	2.2011
-Moose::Exception::UnableToCanonicalizeHandles	2.2011
-Moose::Exception::UnableToCanonicalizeNonRolePackage	2.2011
-Moose::Exception::UnableToRecognizeDelegateMetaclass	2.2011
-Moose::Exception::UndefinedHashKeysPassedToMethod	2.2011
-Moose::Exception::UnionCalledWithAnArrayRefAndAdditionalArgs	2.2011
-Moose::Exception::UnionTakesAtleastTwoTypeNames	2.2011
-Moose::Exception::ValidationFailedForInlineTypeConstraint	2.2011
-Moose::Exception::ValidationFailedForTypeConstraint	2.2011
-Moose::Exception::WrapTakesACodeRefToBless	2.2011
-Moose::Exception::WrongTypeConstraintGiven	2.2011
-Moose::Exporter	2.2011
-Moose::Meta::Attribute	2.2011
-Moose::Meta::Attribute::Native	2.2011
-Moose::Meta::Attribute::Native::Trait	2.2011
-Moose::Meta::Attribute::Native::Trait::Array	2.2011
-Moose::Meta::Attribute::Native::Trait::Bool	2.2011
-Moose::Meta::Attribute::Native::Trait::Code	2.2011
-Moose::Meta::Attribute::Native::Trait::Counter	2.2011
-Moose::Meta::Attribute::Native::Trait::Hash	2.2011
-Moose::Meta::Attribute::Native::Trait::Number	2.2011
-Moose::Meta::Attribute::Native::Trait::String	2.2011
-Moose::Meta::Class	2.2011
-Moose::Meta::Class::Immutable::Trait	2.2011
-Moose::Meta::Instance	2.2011
-Moose::Meta::Method	2.2011
-Moose::Meta::Method::Accessor	2.2011
-Moose::Meta::Method::Accessor::Native	2.2011
-Moose::Meta::Method::Accessor::Native::Array	2.2011
-Moose::Meta::Method::Accessor::Native::Array::accessor	2.2011
-Moose::Meta::Method::Accessor::Native::Array::clear	2.2011
-Moose::Meta::Method::Accessor::Native::Array::count	2.2011
-Moose::Meta::Method::Accessor::Native::Array::delete	2.2011
-Moose::Meta::Method::Accessor::Native::Array::elements	2.2011
-Moose::Meta::Method::Accessor::Native::Array::first	2.2011
-Moose::Meta::Method::Accessor::Native::Array::first_index	2.2011
-Moose::Meta::Method::Accessor::Native::Array::get	2.2011
-Moose::Meta::Method::Accessor::Native::Array::grep	2.2011
-Moose::Meta::Method::Accessor::Native::Array::insert	2.2011
-Moose::Meta::Method::Accessor::Native::Array::is_empty	2.2011
-Moose::Meta::Method::Accessor::Native::Array::join	2.2011
-Moose::Meta::Method::Accessor::Native::Array::map	2.2011
-Moose::Meta::Method::Accessor::Native::Array::natatime	2.2011
-Moose::Meta::Method::Accessor::Native::Array::pop	2.2011
-Moose::Meta::Method::Accessor::Native::Array::push	2.2011
-Moose::Meta::Method::Accessor::Native::Array::reduce	2.2011
-Moose::Meta::Method::Accessor::Native::Array::set	2.2011
-Moose::Meta::Method::Accessor::Native::Array::shallow_clone	2.2011
-Moose::Meta::Method::Accessor::Native::Array::shift	2.2011
-Moose::Meta::Method::Accessor::Native::Array::shuffle	2.2011
-Moose::Meta::Method::Accessor::Native::Array::sort	2.2011
-Moose::Meta::Method::Accessor::Native::Array::sort_in_place	2.2011
-Moose::Meta::Method::Accessor::Native::Array::splice	2.2011
-Moose::Meta::Method::Accessor::Native::Array::uniq	2.2011
-Moose::Meta::Method::Accessor::Native::Array::unshift	2.2011
-Moose::Meta::Method::Accessor::Native::Array::Writer	2.2011
-Moose::Meta::Method::Accessor::Native::Bool::not	2.2011
-Moose::Meta::Method::Accessor::Native::Bool::set	2.2011
-Moose::Meta::Method::Accessor::Native::Bool::toggle	2.2011
-Moose::Meta::Method::Accessor::Native::Bool::unset	2.2011
-Moose::Meta::Method::Accessor::Native::Code::execute	2.2011
-Moose::Meta::Method::Accessor::Native::Code::execute_method	2.2011
-Moose::Meta::Method::Accessor::Native::Collection	2.2011
-Moose::Meta::Method::Accessor::Native::Counter::dec	2.2011
-Moose::Meta::Method::Accessor::Native::Counter::inc	2.2011
-Moose::Meta::Method::Accessor::Native::Counter::reset	2.2011
-Moose::Meta::Method::Accessor::Native::Counter::set	2.2011
-Moose::Meta::Method::Accessor::Native::Counter::Writer	2.2011
-Moose::Meta::Method::Accessor::Native::Hash	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::accessor	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::clear	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::count	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::defined	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::delete	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::elements	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::exists	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::get	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::is_empty	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::keys	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::kv	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::set	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::shallow_clone	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::values	2.2011
-Moose::Meta::Method::Accessor::Native::Hash::Writer	2.2011
-Moose::Meta::Method::Accessor::Native::Number::abs	2.2011
-Moose::Meta::Method::Accessor::Native::Number::add	2.2011
-Moose::Meta::Method::Accessor::Native::Number::div	2.2011
-Moose::Meta::Method::Accessor::Native::Number::mod	2.2011
-Moose::Meta::Method::Accessor::Native::Number::mul	2.2011
-Moose::Meta::Method::Accessor::Native::Number::set	2.2011
-Moose::Meta::Method::Accessor::Native::Number::sub	2.2011
-Moose::Meta::Method::Accessor::Native::Reader	2.2011
-Moose::Meta::Method::Accessor::Native::String::append	2.2011
-Moose::Meta::Method::Accessor::Native::String::chomp	2.2011
-Moose::Meta::Method::Accessor::Native::String::chop	2.2011
-Moose::Meta::Method::Accessor::Native::String::clear	2.2011
-Moose::Meta::Method::Accessor::Native::String::inc	2.2011
-Moose::Meta::Method::Accessor::Native::String::length	2.2011
-Moose::Meta::Method::Accessor::Native::String::match	2.2011
-Moose::Meta::Method::Accessor::Native::String::prepend	2.2011
-Moose::Meta::Method::Accessor::Native::String::replace	2.2011
-Moose::Meta::Method::Accessor::Native::String::substr	2.2011
-Moose::Meta::Method::Accessor::Native::Writer	2.2011
-Moose::Meta::Method::Augmented	2.2011
-Moose::Meta::Method::Constructor	2.2011
-Moose::Meta::Method::Delegation	2.2011
-Moose::Meta::Method::Destructor	2.2011
-Moose::Meta::Method::Meta	2.2011
-Moose::Meta::Method::Overridden	2.2011
-Moose::Meta::Mixin::AttributeCore	2.2011
-Moose::Meta::Object::Trait	2.2011
-Moose::Meta::Role	2.2011
-Moose::Meta::Role::Application	2.2011
-Moose::Meta::Role::Application::RoleSummation	2.2011
-Moose::Meta::Role::Application::ToClass	2.2011
-Moose::Meta::Role::Application::ToInstance	2.2011
-Moose::Meta::Role::Application::ToRole	2.2011
-Moose::Meta::Role::Attribute	2.2011
-Moose::Meta::Role::Composite	2.2011
-Moose::Meta::Role::Method	2.2011
-Moose::Meta::Role::Method::Conflicting	2.2011
-Moose::Meta::Role::Method::Required	2.2011
-Moose::Meta::TypeCoercion	2.2011
-Moose::Meta::TypeCoercion::Union	2.2011
-Moose::Meta::TypeConstraint	2.2011
-Moose::Meta::TypeConstraint::Class	2.2011
-Moose::Meta::TypeConstraint::DuckType	2.2011
-Moose::Meta::TypeConstraint::Enum	2.2011
-Moose::Meta::TypeConstraint::Parameterizable	2.2011
-Moose::Meta::TypeConstraint::Parameterized	2.2011
-Moose::Meta::TypeConstraint::Registry	2.2011
-Moose::Meta::TypeConstraint::Role	2.2011
-Moose::Meta::TypeConstraint::Union	2.2011
-Moose::Object	2.2011
-Moose::Role	2.2011
-Moose::Util	2.2011
-Moose::Util::MetaRole	2.2011
-Moose::Util::TypeConstraints	2.2011
-Moose::Util::TypeConstraints::Builtins	2.2011
-MooseX::Adopt::Class::Accessor::Fast	0.009032
-MooseX::Aliases	0.11
-MooseX::Aliases::Meta::Trait::Attribute	0.11
-MooseX::Aliases::Meta::Trait::Class	0.11
-MooseX::Aliases::Meta::Trait::Method	0.11
-MooseX::Aliases::Meta::Trait::Role	0.11
-MooseX::Aliases::Meta::Trait::Role::ApplicationToClass	0.11
-MooseX::Aliases::Meta::Trait::Role::ApplicationToRole	0.11
-MooseX::Aliases::Meta::Trait::Role::Composite	0.11
-MooseX::App::Cmd	0.32
-MooseX::App::Cmd::Command	0.32
-MooseX::ArrayRef	0.005
-MooseX::ArrayRef::Meta::Class	0.005
-MooseX::ArrayRef::Meta::Instance	0.005
-MooseX::ClassAttribute	0.29
-MooseX::ClassAttribute::Meta::Role::Attribute	0.29
-MooseX::ClassAttribute::Trait::Application	0.29
-MooseX::ClassAttribute::Trait::Application::ToClass	0.29
-MooseX::ClassAttribute::Trait::Application::ToRole	0.29
-MooseX::ClassAttribute::Trait::Attribute	0.29
-MooseX::ClassAttribute::Trait::Class	0.29
-MooseX::ClassAttribute::Trait::Mixin::HasClassAttributes	0.29
-MooseX::ClassAttribute::Trait::Role	0.29
-MooseX::ClassAttribute::Trait::Role::Composite	0.29
-MooseX::Clone	0.06
-MooseX::Clone::Meta::Attribute::Trait::Clone	0.06
-MooseX::Clone::Meta::Attribute::Trait::Clone::Base	0.06
-MooseX::Clone::Meta::Attribute::Trait::Clone::Std	0.06
-MooseX::Clone::Meta::Attribute::Trait::Copy	0.06
-MooseX::Clone::Meta::Attribute::Trait::NoClone	0.06
-MooseX::Clone::Meta::Attribute::Trait::StorableClone	0.06
-MooseX::ConfigFromFile	0.14
-MooseX::Configuration	0.02
-MooseX::Configuration::Trait::Attribute	0.02
-MooseX::Configuration::Trait::Attribute::ConfigKey	0.02
-MooseX::Configuration::Trait::Object	0.02
-MooseX::Daemonize	0.21
-MooseX::Daemonize::Core	0.21
-MooseX::Daemonize::Pid	0.21
-MooseX::Daemonize::Pid::File	0.21
-MooseX::Daemonize::WithPidFile	0.21
-MooseX::Declare	0.43
-MooseX::Declare::Context	0.43
-MooseX::Declare::Context::Namespaced	0.43
-MooseX::Declare::Context::Parameterized	0.43
-MooseX::Declare::Syntax::EmptyBlockIfMissing	0.43
-MooseX::Declare::Syntax::Extending	0.43
-MooseX::Declare::Syntax::InnerSyntaxHandling	0.43
-MooseX::Declare::Syntax::Keyword::Class	0.43
-MooseX::Declare::Syntax::Keyword::Clean	0.43
-MooseX::Declare::Syntax::Keyword::Method	0.43
-MooseX::Declare::Syntax::Keyword::MethodModifier	0.43
-MooseX::Declare::Syntax::Keyword::Namespace	0.43
-MooseX::Declare::Syntax::Keyword::Role	0.43
-MooseX::Declare::Syntax::Keyword::With	0.43
-MooseX::Declare::Syntax::KeywordHandling	0.43
-MooseX::Declare::Syntax::MethodDeclaration	0.43
-MooseX::Declare::Syntax::MooseSetup	0.43
-MooseX::Declare::Syntax::NamespaceHandling	0.43
-MooseX::Declare::Syntax::OptionHandling	0.43
-MooseX::Declare::Syntax::RoleApplication	0.43
-MooseX::Declare::Util	0.43
-MooseX::Emulate::Class::Accessor::Fast	0.009032
-MooseX::Emulate::Class::Accessor::Fast::Meta::Accessor	unknown
-MooseX::Emulate::Class::Accessor::Fast::Meta::Role::Attribute	unknown
-MooseX::Getopt	0.71
-MooseX::Getopt::Basic	0.71
-MooseX::Getopt::Dashes	0.71
-MooseX::Getopt::GLD	0.71
-MooseX::Getopt::Meta::Attribute	0.71
-MooseX::Getopt::Meta::Attribute::NoGetopt	0.71
-MooseX::Getopt::Meta::Attribute::Trait	0.71
-MooseX::Getopt::Meta::Attribute::Trait::NoGetopt	0.71
-MooseX::Getopt::OptionTypeMap	0.71
-MooseX::Getopt::ProcessedArgv	0.71
-MooseX::Getopt::Strict	0.71
-MooseX::Getopt::Usage	0.24
-MooseX::Getopt::Usage::Formatter	0.24
-MooseX::Getopt::Usage::Pod::Text	0.24
-MooseX::Getopt::Usage::Role::Man	0.24
-MooseX::GlobRef	0.0701
-MooseX::GlobRef::Object	0.0701
-MooseX::GlobRef::Role::Meta::Instance	0.0701
-MooseX::GlobRef::Role::Object	0.0701
-MooseX::InsideOut	0.106
-MooseX::InsideOut::Role::Meta::Instance	0.106
-MooseX::Iterator	0.11
-MooseX::Iterator::Array	0.11
-MooseX::Iterator::Hash	0.11
-MooseX::Iterator::Meta::Iterable	0.11
-MooseX::Iterator::Role	0.11
-MooseX::LazyLogDispatch	0.02
-MooseX::LazyLogDispatch::Levels	0.02
-MooseX::LazyRequire	0.11
-MooseX::LazyRequire::Meta::Attribute::Trait::LazyRequire	0.11
-MooseX::Log::Log4perl	0.47
-MooseX::Log::Log4perl::Easy	0.47
-MooseX::LogDispatch	1.2002
-MooseX::LogDispatch::Levels	unknown
-MooseX::MarkAsMethods	0.15
-MooseX::Meta::TypeConstraint::ForceCoercion	0.01
-MooseX::Method::Signatures	0.49
-MooseX::Method::Signatures::Meta::Method	0.49
-MooseX::Method::Signatures::Types	0.49
-MooseX::MethodAttributes	0.31
-MooseX::MethodAttributes::Inheritable	0.31
-MooseX::MethodAttributes::Role	0.31
-MooseX::MethodAttributes::Role::AttrContainer	0.31
-MooseX::MethodAttributes::Role::AttrContainer::Inheritable	0.31
-MooseX::MethodAttributes::Role::Meta::Class	0.31
-MooseX::MethodAttributes::Role::Meta::Map	0.31
-MooseX::MethodAttributes::Role::Meta::Method	0.31
-MooseX::MethodAttributes::Role::Meta::Method::MaybeWrapped	0.31
-MooseX::MethodAttributes::Role::Meta::Method::Wrapped	0.31
-MooseX::MethodAttributes::Role::Meta::Role	0.31
-MooseX::MethodAttributes::Role::Meta::Role::Application	0.31
-MooseX::MethodAttributes::Role::Meta::Role::Application::Summation	0.31
-MooseX::NonMoose	0.26
-MooseX::NonMoose::InsideOut	0.26
-MooseX::NonMoose::Meta::Role::Class	0.26
-MooseX::NonMoose::Meta::Role::Constructor	0.26
-MooseX::Object::Pluggable	0.0014
-MooseX::OneArgNew	0.005
-MooseX::Param	0.02
-MooseX::Params::Validate	0.21
-MooseX::Params::Validate::Exception::ValidationFailedForTypeConstraint	0.21
-MooseX::POE	0.215
-MooseX::POE::Aliased	0.215
-MooseX::POE::Meta::Method::State	0.215
-MooseX::POE::Meta::Role	0.215
-MooseX::POE::Meta::Trait	0.215
-MooseX::POE::Meta::Trait::Class	0.215
-MooseX::POE::Meta::Trait::Instance	0.215
-MooseX::POE::Meta::Trait::Object	0.215
-MooseX::POE::Meta::Trait::SweetArgs	0.215
-MooseX::POE::Role	0.215
-MooseX::POE::SweetArgs	0.215
-MooseX::RelatedClassRoles	0.004
-MooseX::Role::Cmd	0.10
-MooseX::Role::Cmd::Meta::Attribute::Trait	unknown
-MooseX::Role::Parameterised	1.10
-MooseX::Role::Parameterized	1.10
-MooseX::Role::Parameterized::Meta::Role::Parameterized	1.10
-MooseX::Role::Parameterized::Meta::Trait::Parameterizable	1.10
-MooseX::Role::Parameterized::Meta::Trait::Parameterized	1.10
-MooseX::Role::Parameterized::Parameters	1.10
-MooseX::Role::TraitConstructor	0.01
-MooseX::Role::WithOverloading	0.17
-MooseX::Role::WithOverloading::Meta::Role	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::Composite	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToClass	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToInstance	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToRole	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::FixOverloadedRefs	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::ToClass	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::ToInstance	0.17
-MooseX::Role::WithOverloading::Meta::Role::Application::ToRole	0.17
-MooseX::Role::WithOverloading::Meta::Role::Composite	0.17
-MooseX::SemiAffordanceAccessor	0.10
-MooseX::SemiAffordanceAccessor::Role::Attribute	0.10
-MooseX::SetOnce	0.200002
-MooseX::SimpleConfig	0.11
-MooseX::Singleton	0.30
-MooseX::Singleton::Role::Meta::Class	0.30
-MooseX::Singleton::Role::Meta::Instance	0.30
-MooseX::Singleton::Role::Meta::Method::Constructor	0.30
-MooseX::Singleton::Role::Object	0.30
-MooseX::Storage	0.52
-MooseX::Storage::Base::WithChecksum	0.52
-MooseX::Storage::Basic	0.52
-MooseX::Storage::Deferred	0.52
-MooseX::Storage::Engine	0.52
-MooseX::Storage::Engine::IO::AtomicFile	0.52
-MooseX::Storage::Engine::IO::File	0.52
-MooseX::Storage::Engine::Trait::DisableCycleDetection	0.52
-MooseX::Storage::Engine::Trait::OnlyWhenBuilt	0.52
-MooseX::Storage::Format::JSON	0.52
-MooseX::Storage::Format::Storable	0.52
-MooseX::Storage::Format::YAML	0.52
-MooseX::Storage::IO::AtomicFile	0.52
-MooseX::Storage::IO::File	0.52
-MooseX::Storage::IO::StorableFile	0.52
-MooseX::Storage::Meta::Attribute::DoNotSerialize	0.52
-MooseX::Storage::Meta::Attribute::Trait::DoNotSerialize	0.52
-MooseX::Storage::Traits::DisableCycleDetection	0.52
-MooseX::Storage::Traits::OnlyWhenBuilt	0.52
-MooseX::Storage::Util	0.52
-MooseX::StrictConstructor	0.21
-MooseX::StrictConstructor::Trait::Class	0.21
-MooseX::StrictConstructor::Trait::Method::Constructor	0.21
-MooseX::Traits	0.13
-MooseX::Traits::Pluggable	0.12
-MooseX::Traits::Util	0.13
-MooseX::Types	0.50
-MooseX::Types::Base	0.50
-MooseX::Types::CheckedUtilExports	0.50
-MooseX::Types::Combine	0.50
-MooseX::Types::Common	0.001014
-MooseX::Types::Common::Numeric	0.001014
-MooseX::Types::Common::String	0.001014
-MooseX::Types::DateTime	0.13
-MooseX::Types::LoadableClass	0.015
-MooseX::Types::Moose	0.50
-MooseX::Types::Path::Class	0.09
-MooseX::Types::Path::Tiny	0.012
-MooseX::Types::Perl	0.101343
-MooseX::Types::Set::Object	0.05
-MooseX::Types::Stringlike	0.003
-MooseX::Types::Structured	0.36
-MooseX::Types::TypeDecorator	0.50
-MooseX::Types::UndefinedType	0.50
-MooseX::Types::Util	0.50
-MooseX::Types::Wrapper	0.50
-MooseX::Workers	0.24
-MooseX::Workers::Engine	0.24
-MooseX::Workers::Job	0.24
-MooX::HandlesVia	0.001008
-MooX::Types::MooseLike	0.29
-MooX::Types::MooseLike::Base	0.29
-MooX::Types::MooseLike::Numeric	1.03
-Mozilla::CA	20180117
-MRO::Compat	0.13
-multidimensional	0.014
-MyApp::Schema	0.001
-MyApplication::Form::User	unknown
-MyPersonHandler	0.14
-namespace::autoclean	0.28
-namespace::clean	0.27
-Net::Domain::TLD	1.75
-Net::EmptyPort	unknown
-Net::HTTP	6.18
-Net::HTTP::Methods	6.18
-Net::HTTP::NB	6.18
-Net::HTTPS	6.18
-Net::Server	2.009
-Net::Server::Daemonize	0.06
-Net::Server::Fork	unknown
-Net::Server::HTTP	unknown
-Net::Server::INET	unknown
-Net::Server::Log::Log::Log4perl	unknown
-Net::Server::Log::Sys::Syslog	unknown
-Net::Server::Multiplex	unknown
-Net::Server::MultiType	unknown
-Net::Server::PreFork	unknown
-Net::Server::PreForkSimple	unknown
-Net::Server::Proto	unknown
-Net::Server::Proto::SSL	unknown
-Net::Server::Proto::SSLEAY	unknown
-Net::Server::Proto::TCP	unknown
-Net::Server::Proto::UDP	unknown
-Net::Server::Proto::UNIX	unknown
-Net::Server::Proto::UNIXDGRAM	unknown
-Net::Server::PSGI	unknown
-Net::Server::SIG	0.03
-Net::Server::Single	unknown
-Net::SSLeay	1.85
-Net::SSLeay::Handle	0.61
-NetAddr::IP	4.079
-NetAddr::IP::InetBase	0.08
-NetAddr::IP::Lite	1.57
-NetAddr::IP::Util	1.53
-NetAddr::IP::Util_IS	1
-NetAddr::IP::UtilPP	1.09
-ntheory	0.70
-Number::Compare	0.03
-Number::Format	1.75
-Number::Misc	1.2
-Obj	1.39
-Object::InsideOut	4.04
-Object::InsideOut	unknown
-Object::InsideOut	unknown
-Object::InsideOut	unknown
-Object::InsideOut	4.04
-Object::InsideOut	unknown
-Object::InsideOut	unknown
-Object::InsideOut	unknown
-Object::InsideOut	unknown
-Object::InsideOut	unknown
-Object::InsideOut	unknown
-Object::InsideOut::Exception	4.04
-Object::InsideOut::Metadata	4.04
-Object::InsideOut::Secure	4.04
-Object::InsideOut::Util	4.04
-Object::Signature	1.07
-Object::Signature::File	1.07
-ojo	unknown
-ok	1.302138
-OLE::Storage_Lite::PPS	0.19
-oo	unknown
-oose	2.2011
-Package::DeprecationManager	0.17
-Package::Stash	0.37
-Package::Stash::PP	0.37
-Package::Stash::XS	0.28
-Package::Variant	1.003002
-PadWalker	2.3
-Parallel::ForkManager	1.20
-Params::Util	1.07
-Params::Validate	1.29
-Params::Validate::Constants	1.29
-Params::Validate::PP	1.29
-Params::Validate::XS	1.29
-Params::ValidationCompiler	0.27
-Params::ValidationCompiler::Compiler	0.27
-Params::ValidationCompiler::Exceptions	0.27
-Parse::Method::Signatures	1.003019
-Parse::Method::Signatures::Param	unknown
-Parse::Method::Signatures::Param::Bindable	unknown
-Parse::Method::Signatures::Param::Named	unknown
-Parse::Method::Signatures::Param::Placeholder	unknown
-Parse::Method::Signatures::Param::Positional	unknown
-Parse::Method::Signatures::Param::Unpacked	unknown
-Parse::Method::Signatures::Param::Unpacked::Array	unknown
-Parse::Method::Signatures::Param::Unpacked::Hash	unknown
-Parse::Method::Signatures::ParamCollection	unknown
-Parse::Method::Signatures::Sig	unknown
-Parse::Method::Signatures::TypeConstraint	unknown
-Parse::Method::Signatures::Types	unknown
-Parse::PMFile	0.41
-Parse::RecDescent	1.967015
-Parse::Yapp	1.21
-Parse::Yapp::Driver	1.21
-Parse::Yapp::Grammar	unknown
-Parse::Yapp::Lalr	unknown
-Parse::Yapp::Options	unknown
-Parse::Yapp::Output	unknown
-Parse::Yapp::Parse	unknown
-Path::Class	0.37
-Path::Class::Dir	0.37
-Path::Class::Entity	0.37
-Path::Class::File	0.37
-Path::FindDev	unknown
-Path::FindDev::Object	unknown
-Path::IsDev	1.001003
-Path::IsDev::Heuristic::Changelog	1.001003
-Path::IsDev::Heuristic::DevDirMarker	1.001003
-Path::IsDev::Heuristic::Makefile	1.001003
-Path::IsDev::Heuristic::META	1.001003
-Path::IsDev::Heuristic::MYMETA	1.001003
-Path::IsDev::Heuristic::TestDir	1.001003
-Path::IsDev::Heuristic::Tool::Dzil	1.001003
-Path::IsDev::Heuristic::Tool::MakeMaker	1.001003
-Path::IsDev::Heuristic::Tool::ModuleBuild	1.001003
-Path::IsDev::Heuristic::VCS::Git	1.001003
-Path::IsDev::HeuristicSet::Basic	1.001003
-Path::IsDev::NegativeHeuristic::HomeDir	1.001003
-Path::IsDev::NegativeHeuristic::IsDev::IgnoreFile	1.001003
-Path::IsDev::NegativeHeuristic::PerlINC	1.001003
-Path::IsDev::Object	1.001003
-Path::IsDev::Result	1.001003
-Path::IsDev::Role::Heuristic	1.001003
-Path::IsDev::Role::HeuristicSet	1.001003
-Path::IsDev::Role::HeuristicSet::Simple	1.001003
-Path::IsDev::Role::Matcher::Child::BaseName::MatchRegexp	1.001003
-Path::IsDev::Role::Matcher::Child::BaseName::MatchRegexp::File	1.001003
-Path::IsDev::Role::Matcher::Child::Exists::Any	1.001003
-Path::IsDev::Role::Matcher::Child::Exists::Any::Dir	1.001003
-Path::IsDev::Role::Matcher::Child::Exists::Any::File	1.001003
-Path::IsDev::Role::Matcher::FullPath::Is::Any	1.001003
-Path::IsDev::Role::NegativeHeuristic	1.001003
-Path::Tiny	0.106
-PDL	unknown
-PDL::Bad	unknown
-PDL::Basic	unknown
-PDL::CallExt	unknown
-PDL::Char	unknown
-PDL::Complex	2.009
-PDL::Compression	unknown
-PDL::Constants	0.02
-PDL::Core	2.019
-PDL::Core::Dev	unknown
-PDL::Dbg	unknown
-PDL::Demos::BAD2_demo	unknown
-PDL::Demos::BAD_demo	unknown
-PDL::Demos::Cartography_demo	unknown
-PDL::Demos::General	unknown
-PDL::Demos::Gnuplot_demo	unknown
-PDL::Demos::PGPLOT_demo	unknown
-PDL::Demos::PGPLOT_OO_demo	unknown
-PDL::Demos::Prima	unknown
-PDL::Demos::Routines	unknown
-PDL::Demos::Transform_demo	unknown
-PDL::Demos::TriD1	unknown
-PDL::Demos::TriD2	unknown
-PDL::Demos::TriDGallery	unknown
-PDL::Doc::Config	unknown
-PDL::Doc::Perldl	unknown
-PDL::FFT	unknown
-PDL::Filter::Linear	unknown
-PDL::Filter::LinSmooth	unknown
-PDL::Fit::Gaussian	unknown
-PDL::Fit::Linfit	unknown
-PDL::Fit::LM	unknown
-PDL::Fit::Polynomial	unknown
-PDL::Func	unknown
-PDL::Graphics2D	unknown
-PDL::Graphics::IIS	unknown
-PDL::Graphics::Limits	0.01
-PDL::Graphics::LUT	unknown
-PDL::Graphics::PGPLOT	unknown
-PDL::Graphics::PGPLOT::Window	unknown
-PDL::Graphics::PGPLOTOptions	unknown
-PDL::Graphics::State	unknown
-PDL::GSL::DIFF	unknown
-PDL::GSL::INTEG	unknown
-PDL::GSL::INTERP	unknown
-PDL::GSL::MROOT	unknown
-PDL::GSL::RNG	unknown
-PDL::GSLSF::AIRY	unknown
-PDL::GSLSF::BESSEL	unknown
-PDL::GSLSF::CLAUSEN	unknown
-PDL::GSLSF::COULOMB	unknown
-PDL::GSLSF::COUPLING	unknown
-PDL::GSLSF::DAWSON	unknown
-PDL::GSLSF::DEBYE	unknown
-PDL::GSLSF::DILOG	unknown
-PDL::GSLSF::ELEMENTARY	unknown
-PDL::GSLSF::ELLINT	unknown
-PDL::GSLSF::ELLJAC	unknown
-PDL::GSLSF::ERF	unknown
-PDL::GSLSF::EXP	unknown
-PDL::GSLSF::EXPINT	unknown
-PDL::GSLSF::FERMI_DIRAC	unknown
-PDL::GSLSF::GAMMA	unknown
-PDL::GSLSF::GEGENBAUER	unknown
-PDL::GSLSF::HYPERG	unknown
-PDL::GSLSF::LAGUERRE	unknown
-PDL::GSLSF::LEGENDRE	unknown
-PDL::GSLSF::LOG	unknown
-PDL::GSLSF::POLY	unknown
-PDL::GSLSF::POW_INT	unknown
-PDL::GSLSF::PSI	unknown
-PDL::GSLSF::SYNCHROTRON	unknown
-PDL::GSLSF::TRANSPORT	unknown
-PDL::GSLSF::TRIG	unknown
-PDL::GSLSF::ZETA	unknown
-PDL::Image2D	unknown
-PDL::ImageND	unknown
-PDL::ImageRGB	unknown
-PDL::Install::Files	2.009
-PDL::IO::Dicom	unknown
-PDL::IO::Dumper	1.3.2
-PDL::IO::FastRaw	unknown
-PDL::IO::FITS	0.92
-PDL::IO::FlexRaw	unknown
-PDL::IO::GD	unknown
-PDL::IO::Misc	unknown
-PDL::IO::Pic	unknown
-PDL::IO::Pnm	unknown
-PDL::IO::Storable	unknown
-PDL::Lite	unknown
-PDL::LiteF	unknown
-PDL::Lvalue	unknown
-PDL::Math	unknown
-PDL::Matrix	0.5
-PDL::MatrixOps	unknown
-PDL::MyMod	unknown
-PDL::NiceSlice	1.001
-PDL::Ops	unknown
-PDL::Opt::Simplex	unknown
-PDL::Options	0.92
-PDL::Perldl2::Plugin::CleanErrors	unknown
-PDL::Perldl2::Plugin::NiceSlice	unknown
-PDL::Perldl2::Plugin::PDLCommands	unknown
-PDL::Perldl2::Plugin::PrintControl	unknown
-PDL::Perldl2::Profile::Perldl2	0.008
-PDL::Perldl2::Script	unknown
-PDL::PodParser	unknown
-PDL::PP::Code	unknown
-PDL::PP::Dump	unknown
-PDL::PP::PdlDimsObj	unknown
-PDL::PP::PdlParObj	unknown
-PDL::PP::Rule	2.3
-PDL::PP::Signature	unknown
-PDL::Primitive	unknown
-PDL::Reduce	unknown
-PDL::Slices	unknown
-PDL::Transform	unknown
-PDL::Transform::Cartography	0.6
-PDL::Types	unknown
-PDL::Ufunc	unknown
-PDL::Version	2.019
-Pegex	0.64
-Pegex::Base	unknown
-Pegex::Bootstrap	unknown
-Pegex::Compiler	unknown
-Pegex::Grammar	unknown
-Pegex::Grammar::Atoms	unknown
-Pegex::Input	unknown
-Pegex::Module	unknown
-Pegex::Optimizer	unknown
-Pegex::Parser	unknown
-Pegex::Parser::Indent	unknown
-Pegex::Pegex::AST	unknown
-Pegex::Pegex::Grammar	unknown
-Pegex::Receiver	unknown
-Pegex::Regex	unknown
-Pegex::Tree	unknown
-Pegex::Tree::Wrap	unknown
-Perl6::Export	0.07
-Perl6::Form	0.06
-Perl::Critic	1.132
-Perl::Critic::Annotation	1.132
-Perl::Critic::Command	1.132
-Perl::Critic::Config	1.132
-Perl::Critic::Document	1.132
-Perl::Critic::Exception	1.132
-Perl::Critic::Exception::AggregateConfiguration	1.132
-Perl::Critic::Exception::Configuration	1.132
-Perl::Critic::Exception::Configuration::Generic	1.132
-Perl::Critic::Exception::Configuration::NonExistentPolicy	1.132
-Perl::Critic::Exception::Configuration::Option	1.132
-Perl::Critic::Exception::Configuration::Option::Global	1.132
-Perl::Critic::Exception::Configuration::Option::Global::ExtraParameter	1.132
-Perl::Critic::Exception::Configuration::Option::Global::ParameterValue	1.132
-Perl::Critic::Exception::Configuration::Option::Policy	1.132
-Perl::Critic::Exception::Configuration::Option::Policy::ExtraParameter	1.132
-Perl::Critic::Exception::Configuration::Option::Policy::ParameterValue	1.132
-Perl::Critic::Exception::Fatal	1.132
-Perl::Critic::Exception::Fatal::Generic	1.132
-Perl::Critic::Exception::Fatal::Internal	1.132
-Perl::Critic::Exception::Fatal::PolicyDefinition	1.132
-Perl::Critic::Exception::IO	1.132
-Perl::Critic::Exception::Parse	1.132
-Perl::Critic::OptionsProcessor	1.132
-Perl::Critic::Policy	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitBooleanGrep	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitComplexMappings	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitLvalueSubstr	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitReverseSortBlock	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitSleepViaSelect	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitStringyEval	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitStringySplit	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitUniversalCan	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitUniversalIsa	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitUselessTopic	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitVoidGrep	1.132
-Perl::Critic::Policy::BuiltinFunctions::ProhibitVoidMap	1.132
-Perl::Critic::Policy::BuiltinFunctions::RequireBlockGrep	1.132
-Perl::Critic::Policy::BuiltinFunctions::RequireBlockMap	1.132
-Perl::Critic::Policy::BuiltinFunctions::RequireGlobFunction	1.132
-Perl::Critic::Policy::BuiltinFunctions::RequireSimpleSortBlock	1.132
-Perl::Critic::Policy::ClassHierarchies::ProhibitAutoloading	1.132
-Perl::Critic::Policy::ClassHierarchies::ProhibitExplicitISA	1.132
-Perl::Critic::Policy::ClassHierarchies::ProhibitOneArgBless	1.132
-Perl::Critic::Policy::CodeLayout::ProhibitHardTabs	1.132
-Perl::Critic::Policy::CodeLayout::ProhibitParensWithBuiltins	1.132
-Perl::Critic::Policy::CodeLayout::ProhibitQuotedWordLists	1.132
-Perl::Critic::Policy::CodeLayout::ProhibitTrailingWhitespace	1.132
-Perl::Critic::Policy::CodeLayout::RequireConsistentNewlines	1.132
-Perl::Critic::Policy::CodeLayout::RequireTidyCode	1.132
-Perl::Critic::Policy::CodeLayout::RequireTrailingCommas	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitCascadingIfElse	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitCStyleForLoops	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitDeepNests	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitLabelsWithSpecialBlockNames	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitMutatingListFunctions	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitNegativeExpressionsInUnlessAndUntilConditions	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitPostfixControls	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitUnlessBlocks	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitUnreachableCode	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitUntilBlocks	1.132
-Perl::Critic::Policy::ControlStructures::ProhibitYadaOperator	1.132
-Perl::Critic::Policy::Documentation::PodSpelling	1.132
-Perl::Critic::Policy::Documentation::RequirePackageMatchesPodName	1.132
-Perl::Critic::Policy::Documentation::RequirePodAtEnd	1.132
-Perl::Critic::Policy::Documentation::RequirePodLinksIncludeText	1.132
-Perl::Critic::Policy::Documentation::RequirePodSections	1.132
-Perl::Critic::Policy::ErrorHandling::RequireCarping	1.132
-Perl::Critic::Policy::ErrorHandling::RequireCheckingReturnValueOfEval	1.132
-Perl::Critic::Policy::InputOutput::ProhibitBacktickOperators	1.132
-Perl::Critic::Policy::InputOutput::ProhibitBarewordFileHandles	1.132
-Perl::Critic::Policy::InputOutput::ProhibitExplicitStdin	1.132
-Perl::Critic::Policy::InputOutput::ProhibitInteractiveTest	1.132
-Perl::Critic::Policy::InputOutput::ProhibitJoinedReadline	1.132
-Perl::Critic::Policy::InputOutput::ProhibitOneArgSelect	1.132
-Perl::Critic::Policy::InputOutput::ProhibitReadlineInForLoop	1.132
-Perl::Critic::Policy::InputOutput::ProhibitTwoArgOpen	1.132
-Perl::Critic::Policy::InputOutput::RequireBracedFileHandleWithPrint	1.132
-Perl::Critic::Policy::InputOutput::RequireBriefOpen	1.132
-Perl::Critic::Policy::InputOutput::RequireCheckedClose	1.132
-Perl::Critic::Policy::InputOutput::RequireCheckedOpen	1.132
-Perl::Critic::Policy::InputOutput::RequireCheckedSyscalls	1.132
-Perl::Critic::Policy::InputOutput::RequireEncodingWithUTF8Layer	1.132
-Perl::Critic::Policy::Miscellanea::ProhibitFormats	1.132
-Perl::Critic::Policy::Miscellanea::ProhibitTies	1.132
-Perl::Critic::Policy::Miscellanea::ProhibitUnrestrictedNoCritic	1.132
-Perl::Critic::Policy::Miscellanea::ProhibitUselessNoCritic	1.132
-Perl::Critic::Policy::Modules::ProhibitAutomaticExportation	1.132
-Perl::Critic::Policy::Modules::ProhibitConditionalUseStatements	1.132
-Perl::Critic::Policy::Modules::ProhibitEvilModules	1.132
-Perl::Critic::Policy::Modules::ProhibitExcessMainComplexity	1.132
-Perl::Critic::Policy::Modules::ProhibitMultiplePackages	1.132
-Perl::Critic::Policy::Modules::RequireBarewordIncludes	1.132
-Perl::Critic::Policy::Modules::RequireEndWithOne	1.132
-Perl::Critic::Policy::Modules::RequireExplicitPackage	1.132
-Perl::Critic::Policy::Modules::RequireFilenameMatchesPackage	1.132
-Perl::Critic::Policy::Modules::RequireNoMatchVarsWithUseEnglish	1.132
-Perl::Critic::Policy::Modules::RequireVersionVar	1.132
-Perl::Critic::Policy::NamingConventions::Capitalization	1.132
-Perl::Critic::Policy::NamingConventions::ProhibitAmbiguousNames	1.132
-Perl::Critic::Policy::Objects::ProhibitIndirectSyntax	1.132
-Perl::Critic::Policy::References::ProhibitDoubleSigils	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitCaptureWithoutTest	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitComplexRegexes	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitEnumeratedClasses	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitEscapedMetacharacters	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitFixedStringMatches	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitSingleCharAlternation	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitUnusedCapture	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitUnusualDelimiters	1.132
-Perl::Critic::Policy::RegularExpressions::ProhibitUselessTopic	1.132
-Perl::Critic::Policy::RegularExpressions::RequireBracesForMultiline	1.132
-Perl::Critic::Policy::RegularExpressions::RequireDotMatchAnything	1.132
-Perl::Critic::Policy::RegularExpressions::RequireExtendedFormatting	1.132
-Perl::Critic::Policy::RegularExpressions::RequireLineBoundaryMatching	1.132
-Perl::Critic::Policy::Subroutines::ProhibitAmpersandSigils	1.132
-Perl::Critic::Policy::Subroutines::ProhibitBuiltinHomonyms	1.132
-Perl::Critic::Policy::Subroutines::ProhibitExcessComplexity	1.132
-Perl::Critic::Policy::Subroutines::ProhibitExplicitReturnUndef	1.132
-Perl::Critic::Policy::Subroutines::ProhibitManyArgs	1.132
-Perl::Critic::Policy::Subroutines::ProhibitNestedSubs	1.132
-Perl::Critic::Policy::Subroutines::ProhibitReturnSort	1.132
-Perl::Critic::Policy::Subroutines::ProhibitSubroutinePrototypes	1.132
-Perl::Critic::Policy::Subroutines::ProhibitUnusedPrivateSubroutines	1.132
-Perl::Critic::Policy::Subroutines::ProtectPrivateSubs	1.132
-Perl::Critic::Policy::Subroutines::RequireArgUnpacking	1.132
-Perl::Critic::Policy::Subroutines::RequireFinalReturn	1.132
-Perl::Critic::Policy::TestingAndDebugging::ProhibitNoStrict	1.132
-Perl::Critic::Policy::TestingAndDebugging::ProhibitNoWarnings	1.132
-Perl::Critic::Policy::TestingAndDebugging::ProhibitProlongedStrictureOverride	1.132
-Perl::Critic::Policy::TestingAndDebugging::RequireTestLabels	1.132
-Perl::Critic::Policy::TestingAndDebugging::RequireUseStrict	1.132
-Perl::Critic::Policy::TestingAndDebugging::RequireUseWarnings	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitCommaSeparatedStatements	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitComplexVersion	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitConstantPragma	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitEmptyQuotes	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitEscapedCharacters	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitImplicitNewlines	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitInterpolationOfLiterals	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitLeadingZeros	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitLongChainsOfMethodCalls	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitMagicNumbers	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitMismatchedOperators	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitMixedBooleanOperators	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitNoisyQuotes	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitQuotesAsQuotelikeOperatorDelimiters	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitSpecialLiteralHeredocTerminator	1.132
-Perl::Critic::Policy::ValuesAndExpressions::ProhibitVersionStrings	1.132
-Perl::Critic::Policy::ValuesAndExpressions::RequireConstantVersion	1.132
-Perl::Critic::Policy::ValuesAndExpressions::RequireInterpolationOfMetachars	1.132
-Perl::Critic::Policy::ValuesAndExpressions::RequireNumberSeparators	1.132
-Perl::Critic::Policy::ValuesAndExpressions::RequireQuotedHeredocTerminator	1.132
-Perl::Critic::Policy::ValuesAndExpressions::RequireUpperCaseHeredocTerminator	1.132
-Perl::Critic::Policy::Variables::ProhibitAugmentedAssignmentInDeclaration	1.132
-Perl::Critic::Policy::Variables::ProhibitConditionalDeclarations	1.132
-Perl::Critic::Policy::Variables::ProhibitEvilVariables	1.132
-Perl::Critic::Policy::Variables::ProhibitLocalVars	1.132
-Perl::Critic::Policy::Variables::ProhibitMatchVars	1.132
-Perl::Critic::Policy::Variables::ProhibitPackageVars	1.132
-Perl::Critic::Policy::Variables::ProhibitPerl4PackageNames	1.132
-Perl::Critic::Policy::Variables::ProhibitPunctuationVars	1.132
-Perl::Critic::Policy::Variables::ProhibitReusedNames	1.132
-Perl::Critic::Policy::Variables::ProhibitUnusedVariables	1.132
-Perl::Critic::Policy::Variables::ProtectPrivateVars	1.132
-Perl::Critic::Policy::Variables::RequireInitializationForLocalVars	1.132
-Perl::Critic::Policy::Variables::RequireLexicalLoopIterators	1.132
-Perl::Critic::Policy::Variables::RequireLocalizedPunctuationVars	1.132
-Perl::Critic::Policy::Variables::RequireNegativeIndices	1.132
-Perl::Critic::PolicyConfig	1.132
-Perl::Critic::PolicyFactory	1.132
-Perl::Critic::PolicyListing	1.132
-Perl::Critic::PolicyParameter	1.132
-Perl::Critic::PolicyParameter::Behavior	1.132
-Perl::Critic::PolicyParameter::Behavior::Boolean	1.132
-Perl::Critic::PolicyParameter::Behavior::Enumeration	1.132
-Perl::Critic::PolicyParameter::Behavior::Integer	1.132
-Perl::Critic::PolicyParameter::Behavior::String	1.132
-Perl::Critic::PolicyParameter::Behavior::StringList	1.132
-Perl::Critic::ProfilePrototype	1.132
-Perl::Critic::Statistics	1.132
-Perl::Critic::TestUtils	1.132
-Perl::Critic::Theme	1.132
-Perl::Critic::ThemeListing	1.132
-Perl::Critic::UserProfile	1.132
-Perl::Critic::Utils	1.132
-Perl::Critic::Utils::Constants	1.132
-Perl::Critic::Utils::DataConversion	1.132
-Perl::Critic::Utils::McCabe	1.132
-Perl::Critic::Utils::Perl	1.132
-Perl::Critic::Utils::POD	1.132
-Perl::Critic::Utils::POD::ParseInteriorSequence	1.132
-Perl::Critic::Utils::PPI	1.132
-Perl::Critic::Violation	1.132
-Perl::PrereqScanner	1.023
-Perl::PrereqScanner::Scanner	1.023
-Perl::PrereqScanner::Scanner::Aliased	1.023
-Perl::PrereqScanner::Scanner::Moose	1.023
-Perl::PrereqScanner::Scanner::Perl5	1.023
-Perl::PrereqScanner::Scanner::POE	1.023
-Perl::PrereqScanner::Scanner::Superclass	1.023
-Perl::PrereqScanner::Scanner::TestMore	1.023
-Perl::Tidy	unknown
-Perl::Unsafe::Signals	0.03
-Perl::Version	1.013
-PerlIO::gzip	0.20
-PerlIO::Layers	0.011
-PerlIO::utf8_strict	0.007
-PerlIO::via::Timeout	0.32
-Pinto	0.14
-Pinto::Action	0.14
-Pinto::Action::Add	0.14
-Pinto::Action::Clean	0.14
-Pinto::Action::Copy	0.14
-Pinto::Action::Default	0.14
-Pinto::Action::Delete	0.14
-Pinto::Action::Diff	0.14
-Pinto::Action::Install	0.14
-Pinto::Action::Kill	0.14
-Pinto::Action::List	0.14
-Pinto::Action::Lock	0.14
-Pinto::Action::Log	0.14
-Pinto::Action::Look	0.14
-Pinto::Action::Merge	0.14
-Pinto::Action::New	0.14
-Pinto::Action::Nop	0.14
-Pinto::Action::Pin	0.14
-Pinto::Action::Props	0.14
-Pinto::Action::Pull	0.14
-Pinto::Action::Register	0.14
-Pinto::Action::Rename	0.14
-Pinto::Action::Reset	0.14
-Pinto::Action::Revert	0.14
-Pinto::Action::Roots	0.14
-Pinto::Action::Stacks	0.14
-Pinto::Action::Statistics	0.14
-Pinto::Action::Unlock	0.14
-Pinto::Action::Unpin	0.14
-Pinto::Action::Unregister	0.14
-Pinto::Action::Update	0.14
-Pinto::Action::Verify	0.14
-Pinto::ArchiveUnpacker	0.14
-Pinto::Chrome	0.14
-Pinto::Chrome::Net	0.14
-Pinto::Chrome::Term	0.14
-Pinto::Config	0.14
-Pinto::Constants	0.14
-Pinto::Database	0.14
-Pinto::Difference	0.14
-Pinto::DifferenceEntry	0.14
-Pinto::Editor	0.14
-Pinto::Editor::Clip	0.14
-Pinto::Editor::Edit	0.14
-Pinto::Exception	0.14
-Pinto::Globals	0.14
-Pinto::IndexReader	0.14
-Pinto::IndexWriter	0.14
-Pinto::Initializer	0.14
-Pinto::Locator	0.14
-Pinto::Locator::Mirror	0.14
-Pinto::Locator::Multiplex	0.14
-Pinto::Locator::Stratopan	0.14
-Pinto::Locker	0.14
-Pinto::Migrator	0.14
-Pinto::ModlistWriter	0.14
-Pinto::PackageExtractor	0.14
-Pinto::PrerequisiteWalker	0.14
-Pinto::Remote	0.14
-Pinto::Remote::Action	0.14
-Pinto::Remote::Action::Add	0.14
-Pinto::Remote::Action::Install	0.14
-Pinto::Remote::Result	0.14
-Pinto::Repository	0.14
-Pinto::Result	0.14
-Pinto::RevisionWalker	0.14
-Pinto::Role::Committable	0.14
-Pinto::Role::Installer	0.14
-Pinto::Role::PauseConfig	0.14
-Pinto::Role::Plated	0.14
-Pinto::Role::Puller	0.14
-Pinto::Role::Schema::Result	0.14
-Pinto::Role::Transactional	0.14
-Pinto::Role::UserAgent	0.14
-Pinto::Schema	0.14
-Pinto::Schema::Result::Ancestry	0.14
-Pinto::Schema::Result::Distribution	0.14
-Pinto::Schema::Result::Package	0.14
-Pinto::Schema::Result::Prerequisite	0.14
-Pinto::Schema::Result::Registration	0.14
-Pinto::Schema::Result::Revision	0.14
-Pinto::Schema::Result::Stack	0.14
-Pinto::Schema::ResultSet::Distribution	0.14
-Pinto::Schema::ResultSet::Package	0.14
-Pinto::Schema::ResultSet::Registration	0.14
-Pinto::Server	0.14
-Pinto::Server::Responder	0.14
-Pinto::Server::Responder::Action	0.14
-Pinto::Server::Responder::File	0.14
-Pinto::Server::Router	0.14
-Pinto::Shell	0.14
-Pinto::Statistics	0.14
-Pinto::Store	0.14
-Pinto::Target	0.14
-Pinto::Target::Distribution	0.14
-Pinto::Target::Package	0.14
-Pinto::Types	0.14
-Pinto::Util	0.14
-Plack	1.0047
-Plack::App::Cascade	unknown
-Plack::App::CGIBin	unknown
-Plack::App::Directory	unknown
-Plack::App::File	unknown
-Plack::App::PSGIBin	unknown
-Plack::App::URLMap	unknown
-Plack::App::WrapCGI	unknown
-Plack::Builder	unknown
-Plack::Component	unknown
-Plack::Handler	unknown
-Plack::Handler::Apache1	unknown
-Plack::Handler::Apache2	unknown
-Plack::Handler::Apache2::Registry	unknown
-Plack::Handler::CGI	unknown
-Plack::Handler::FCGI	unknown
-Plack::Handler::HTTP::Server::PSGI	unknown
-Plack::Handler::HTTP::Server::Simple	0.16
-Plack::Handler::Standalone	unknown
-Plack::Handler::Starman	unknown
-Plack::HTTPParser	unknown
-Plack::HTTPParser::PP	unknown
-Plack::Loader	unknown
-Plack::Loader::Delayed	unknown
-Plack::Loader::Restarter	unknown
-Plack::Loader::Shotgun	unknown
-Plack::LWPish	unknown
-Plack::Middleware	unknown
-Plack::Middleware::AccessLog	unknown
-Plack::Middleware::AccessLog::Timed	unknown
-Plack::Middleware::Auth::Basic	unknown
-Plack::Middleware::BufferedStreaming	unknown
-Plack::Middleware::Chunked	unknown
-Plack::Middleware::Conditional	unknown
-Plack::Middleware::ConditionalGET	unknown
-Plack::Middleware::ContentLength	unknown
-Plack::Middleware::ContentMD5	unknown
-Plack::Middleware::ErrorDocument	unknown
-Plack::Middleware::FixMissingBodyInRedirect	0.12
-Plack::Middleware::Head	unknown
-Plack::Middleware::HTTPExceptions	unknown
-Plack::Middleware::IIS6ScriptNameFix	unknown
-Plack::Middleware::IIS7KeepAliveFix	unknown
-Plack::Middleware::JSONP	unknown
-Plack::Middleware::LighttpdScriptNameFix	unknown
-Plack::Middleware::Lint	unknown
-Plack::Middleware::Log4perl	unknown
-Plack::Middleware::LogDispatch	unknown
-Plack::Middleware::MethodOverride	0.20
-Plack::Middleware::NullLogger	unknown
-Plack::Middleware::RearrangeHeaders	unknown
-Plack::Middleware::Recursive	unknown
-Plack::Middleware::Refresh	unknown
-Plack::Middleware::RemoveRedundantBody	0.06
-Plack::Middleware::ReverseProxy	0.15
-Plack::Middleware::Runtime	unknown
-Plack::Middleware::SimpleContentFilter	unknown
-Plack::Middleware::SimpleLogger	unknown
-Plack::Middleware::StackTrace	unknown
-Plack::Middleware::Static	unknown
-Plack::Middleware::XFramework	unknown
-Plack::Middleware::XSendfile	unknown
-Plack::MIME	unknown
-Plack::Request	1.0047
-Plack::Request::Upload	unknown
-Plack::Response	1.0047
-Plack::Runner	unknown
-Plack::TempBuffer	unknown
-Plack::Test	unknown
-Plack::Test::ExternalServer	0.02
-Plack::Test::MockHTTP	unknown
-Plack::Test::Server	unknown
-Plack::Test::Suite	unknown
-Plack::Util	unknown
-Plack::Util::Accessor	unknown
-Pod::Coverage	0.23
-Pod::Coverage::CountParents	unknown
-Pod::Coverage::ExportOnly	unknown
-Pod::Coverage::Moose	0.07
-Pod::Coverage::Overloader	unknown
-Pod::Coverage::TrustPod	0.100005
-Pod::Elemental	0.103004
-Pod::Elemental::Autoblank	0.103004
-Pod::Elemental::Autochomp	0.103004
-Pod::Elemental::Command	0.103004
-Pod::Elemental::Document	0.103004
-Pod::Elemental::Element::Generic::Blank	0.103004
-Pod::Elemental::Element::Generic::Command	0.103004
-Pod::Elemental::Element::Generic::Nonpod	0.103004
-Pod::Elemental::Element::Generic::Text	0.103004
-Pod::Elemental::Element::Nested	0.103004
-Pod::Elemental::Element::Pod5::Command	0.103004
-Pod::Elemental::Element::Pod5::Data	0.103004
-Pod::Elemental::Element::Pod5::Nonpod	0.103004
-Pod::Elemental::Element::Pod5::Ordinary	0.103004
-Pod::Elemental::Element::Pod5::Region	0.103004
-Pod::Elemental::Element::Pod5::Verbatim	0.103004
-Pod::Elemental::Flat	0.103004
-Pod::Elemental::Node	0.103004
-Pod::Elemental::Objectifier	0.103004
-Pod::Elemental::Paragraph	0.103004
-Pod::Elemental::Selectors	0.103004
-Pod::Elemental::Transformer	0.103004
-Pod::Elemental::Transformer::Gatherer	0.103004
-Pod::Elemental::Transformer::Nester	0.103004
-Pod::Elemental::Transformer::Pod5	0.103004
-Pod::Elemental::Types	0.103004
-Pod::Eventual	0.094001
-Pod::Eventual::Simple	0.094001
-Pod::Markdown	3.005
-Pod::Perldoc::ToMarkdown	3.005
-Pod::Readme	unknown
-Pod::Readme::Filter	unknown
-Pod::Readme::Plugin	unknown
-Pod::Readme::Plugin::changes	unknown
-Pod::Readme::Plugin::requires	unknown
-Pod::Readme::Plugin::version	unknown
-Pod::Readme::Types	unknown
-Pod::Spell	1.20
-Pod::Wordlist	1.20
-POE	1.367
-POE::Component	1.367
-POE::Component::Client::TCP	1.367
-POE::Component::Server::TCP	1.367
-POE::Driver	1.367
-POE::Driver::SysRW	1.367
-POE::Filter	1.367
-POE::Filter::Block	1.367
-POE::Filter::Grep	1.367
-POE::Filter::HTTPD	1.367
-POE::Filter::Line	1.367
-POE::Filter::Map	1.367
-POE::Filter::RecordBlock	1.367
-POE::Filter::Reference	1.367
-POE::Filter::Stackable	1.367
-POE::Filter::Stream	1.367
-POE::Kernel	1.367
-POE::Loop	1.367
-POE::Loop::IO_Poll	1.367
-POE::Loop::PerlSignals	1.367
-POE::Loop::Select	1.367
-POE::NFA	1.367
-POE::Pipe	1.367
-POE::Pipe::OneWay	1.367
-POE::Pipe::TwoWay	1.367
-POE::Queue	1.367
-POE::Queue::Array	1.367
-POE::Resource	1.367
-POE::Resource::Aliases	1.367
-POE::Resource::Clock	1.367
-POE::Resource::Events	1.367
-POE::Resource::Extrefs	1.367
-POE::Resource::FileHandles	1.367
-POE::Resource::Sessions	1.367
-POE::Resource::SIDs	1.367
-POE::Resource::Signals	1.367
-POE::Resources	1.367
-POE::Session	1.367
-POE::Test::DondeEstan	1.360
-POE::Test::Loops	1.360
-POE::Test::Sequence	unknown
-POE::Wheel	1.367
-POE::Wheel::Curses	1.367
-POE::Wheel::FollowTail	1.367
-POE::Wheel::ListenAccept	1.367
-POE::Wheel::ReadLine	1.367
-POE::Wheel::ReadWrite	1.367
-POE::Wheel::Run	1.367
-POE::Wheel::SocketFactory	1.367
-POSIX::strftime::Compiler	0.42
-PostScript::Document	0.06
-PostScript::Elements	unknown
-PostScript::Metrics	0.06
-PostScript::TextBlock	0.06
-PPI	1.236
-PPI::Cache	1.236
-PPI::Document	1.236
-PPI::Document::File	1.236
-PPI::Document::Fragment	1.236
-PPI::Document::Normalized	1.236
-PPI::Dumper	1.236
-PPI::Element	1.236
-PPI::Exception	1.236
-PPI::Exception::ParserRejection	1.236
-PPI::Find	1.236
-PPI::HTML	1.08
-PPI::HTML::Fragment	1.08
-PPI::Lexer	1.236
-PPI::Node	1.236
-PPI::Normal	1.236
-PPI::Normal::Standard	1.236
-PPI::Statement	1.236
-PPI::Statement::Break	1.236
-PPI::Statement::Compound	1.236
-PPI::Statement::Data	1.236
-PPI::Statement::End	1.236
-PPI::Statement::Expression	1.236
-PPI::Statement::Given	1.236
-PPI::Statement::Include	1.236
-PPI::Statement::Include::Perl6	1.236
-PPI::Statement::Null	1.236
-PPI::Statement::Package	1.236
-PPI::Statement::Scheduled	1.236
-PPI::Statement::Sub	1.236
-PPI::Statement::Unknown	1.236
-PPI::Statement::UnmatchedBrace	1.236
-PPI::Statement::Variable	1.236
-PPI::Statement::When	1.236
-PPI::Structure	1.236
-PPI::Structure::Block	1.236
-PPI::Structure::Condition	1.236
-PPI::Structure::Constructor	1.236
-PPI::Structure::For	1.236
-PPI::Structure::Given	1.236
-PPI::Structure::List	1.236
-PPI::Structure::Subscript	1.236
-PPI::Structure::Unknown	1.236
-PPI::Structure::When	1.236
-PPI::Token	1.236
-PPI::Token::_QuoteEngine	1.236
-PPI::Token::_QuoteEngine::Full	1.236
-PPI::Token::_QuoteEngine::Simple	1.236
-PPI::Token::ArrayIndex	1.236
-PPI::Token::Attribute	1.236
-PPI::Token::BOM	1.236
-PPI::Token::Cast	1.236
-PPI::Token::Comment	1.236
-PPI::Token::DashedWord	1.236
-PPI::Token::Data	1.236
-PPI::Token::End	1.236
-PPI::Token::HereDoc	1.236
-PPI::Token::Label	1.236
-PPI::Token::Magic	1.236
-PPI::Token::Number	1.236
-PPI::Token::Number::Binary	1.236
-PPI::Token::Number::Exp	1.236
-PPI::Token::Number::Float	1.236
-PPI::Token::Number::Hex	1.236
-PPI::Token::Number::Octal	1.236
-PPI::Token::Number::Version	1.236
-PPI::Token::Operator	1.236
-PPI::Token::Pod	1.236
-PPI::Token::Prototype	1.236
-PPI::Token::Quote	1.236
-PPI::Token::Quote::Double	1.236
-PPI::Token::Quote::Interpolate	1.236
-PPI::Token::Quote::Literal	1.236
-PPI::Token::Quote::Single	1.236
-PPI::Token::QuoteLike	1.236
-PPI::Token::QuoteLike::Backtick	1.236
-PPI::Token::QuoteLike::Command	1.236
-PPI::Token::QuoteLike::Readline	1.236
-PPI::Token::QuoteLike::Regexp	1.236
-PPI::Token::QuoteLike::Words	1.236
-PPI::Token::Regexp	1.236
-PPI::Token::Regexp::Match	1.236
-PPI::Token::Regexp::Substitute	1.236
-PPI::Token::Regexp::Transliterate	1.236
-PPI::Token::Separator	1.236
-PPI::Token::Structure	1.236
-PPI::Token::Symbol	1.236
-PPI::Token::Unknown	1.236
-PPI::Token::Whitespace	1.236
-PPI::Token::Word	1.236
-PPI::Tokenizer	1.236
-PPI::Transform	1.236
-PPI::Transform::UpdateCopyright	1.236
-PPI::Util	1.236
-PPI::XSAccessor	1.236
-PPIx::QuoteLike	0.006
-PPIx::QuoteLike::Constant	0.006
-PPIx::QuoteLike::Dumper	0.006
-PPIx::QuoteLike::Token	0.006
-PPIx::QuoteLike::Token::Control	0.006
-PPIx::QuoteLike::Token::Delimiter	0.006
-PPIx::QuoteLike::Token::Interpolation	0.006
-PPIx::QuoteLike::Token::String	0.006
-PPIx::QuoteLike::Token::Structure	0.006
-PPIx::QuoteLike::Token::Unknown	0.006
-PPIx::QuoteLike::Token::Whitespace	0.006
-PPIx::QuoteLike::Utils	0.006
-PPIx::Regexp	0.061
-PPIx::Regexp::Constant	0.061
-PPIx::Regexp::Dumper	0.061
-PPIx::Regexp::Element	0.061
-PPIx::Regexp::Lexer	0.061
-PPIx::Regexp::Node	0.061
-PPIx::Regexp::Node::Range	0.061
-PPIx::Regexp::Node::Unknown	0.061
-PPIx::Regexp::StringTokenizer	0.061
-PPIx::Regexp::Structure	0.061
-PPIx::Regexp::Structure::Assertion	0.061
-PPIx::Regexp::Structure::BranchReset	0.061
-PPIx::Regexp::Structure::Capture	0.061
-PPIx::Regexp::Structure::CharClass	0.061
-PPIx::Regexp::Structure::Code	0.061
-PPIx::Regexp::Structure::Main	0.061
-PPIx::Regexp::Structure::Modifier	0.061
-PPIx::Regexp::Structure::NamedCapture	0.061
-PPIx::Regexp::Structure::Quantifier	0.061
-PPIx::Regexp::Structure::Regexp	0.061
-PPIx::Regexp::Structure::RegexSet	0.061
-PPIx::Regexp::Structure::Replacement	0.061
-PPIx::Regexp::Structure::Subexpression	0.061
-PPIx::Regexp::Structure::Switch	0.061
-PPIx::Regexp::Structure::Unknown	0.061
-PPIx::Regexp::Support	0.061
-PPIx::Regexp::Token	0.061
-PPIx::Regexp::Token::Assertion	0.061
-PPIx::Regexp::Token::Backreference	0.061
-PPIx::Regexp::Token::Backtrack	0.061
-PPIx::Regexp::Token::CharClass	0.061
-PPIx::Regexp::Token::CharClass::POSIX	0.061
-PPIx::Regexp::Token::CharClass::POSIX::Unknown	0.061
-PPIx::Regexp::Token::CharClass::Simple	0.061
-PPIx::Regexp::Token::Code	0.061
-PPIx::Regexp::Token::Comment	0.061
-PPIx::Regexp::Token::Condition	0.061
-PPIx::Regexp::Token::Control	0.061
-PPIx::Regexp::Token::Delimiter	0.061
-PPIx::Regexp::Token::Greediness	0.061
-PPIx::Regexp::Token::GroupType	0.061
-PPIx::Regexp::Token::GroupType::Assertion	0.061
-PPIx::Regexp::Token::GroupType::BranchReset	0.061
-PPIx::Regexp::Token::GroupType::Code	0.061
-PPIx::Regexp::Token::GroupType::Modifier	0.061
-PPIx::Regexp::Token::GroupType::NamedCapture	0.061
-PPIx::Regexp::Token::GroupType::Subexpression	0.061
-PPIx::Regexp::Token::GroupType::Switch	0.061
-PPIx::Regexp::Token::Interpolation	0.061
-PPIx::Regexp::Token::Literal	0.061
-PPIx::Regexp::Token::Modifier	0.061
-PPIx::Regexp::Token::NoOp	0.061
-PPIx::Regexp::Token::Operator	0.061
-PPIx::Regexp::Token::Quantifier	0.061
-PPIx::Regexp::Token::Recursion	0.061
-PPIx::Regexp::Token::Reference	0.061
-PPIx::Regexp::Token::Structure	0.061
-PPIx::Regexp::Token::Unknown	0.061
-PPIx::Regexp::Token::Unmatched	0.061
-PPIx::Regexp::Token::Whitespace	0.061
-PPIx::Regexp::Tokenizer	0.061
-PPIx::Regexp::Util	0.061
-PPIx::Utilities	1.001000
-PPIx::Utilities::Exception::Bug	1.001000
-PPIx::Utilities::Node	1.001000
-PPIx::Utilities::Statement	1.001000
-Proc::Fork	0.804
-Proc::Terminator::Ctx	0.05
-RDF::Trine	1.019
-RDF::Trine::Error	1.019
-RDF::Trine::Exporter::CSV	1.019
-RDF::Trine::Exporter::RDFPatch	1.019
-RDF::Trine::Graph	1.019
-RDF::Trine::Iterator	1.019
-RDF::Trine::Iterator::Bindings	1.019
-RDF::Trine::Iterator::Bindings::Materialized	1.019
-RDF::Trine::Iterator::Boolean	1.019
-RDF::Trine::Iterator::Graph	1.019
-RDF::Trine::Iterator::Graph::Materialized	1.019
-RDF::Trine::Iterator::JSONHandler	1.019
-RDF::Trine::Iterator::SAXHandler	1.019
-RDF::Trine::Model	1.019
-RDF::Trine::Model::Dataset	1.019
-RDF::Trine::Model::StatementFilter	1.019
-RDF::Trine::Model::Union	1.019
-RDF::Trine::Namespace	1.019
-RDF::Trine::NamespaceMap	1.019
-RDF::Trine::Node	1.019
-RDF::Trine::Node::Blank	1.019
-RDF::Trine::Node::Literal	1.019
-RDF::Trine::Node::Nil	1.019
-RDF::Trine::Node::Resource	1.019
-RDF::Trine::Node::Variable	1.019
-RDF::Trine::Parser	1.019
-RDF::Trine::Parser::LineProtocol	1.019
-RDF::Trine::Parser::NQuads	1.019
-RDF::Trine::Parser::NTriples	1.019
-RDF::Trine::Parser::RDFa	1.019
-RDF::Trine::Parser::RDFJSON	1.019
-RDF::Trine::Parser::RDFPatch	1.019
-RDF::Trine::Parser::RDFXML	1.019
-RDF::Trine::Parser::Redland	1.019
-RDF::Trine::Parser::TriG	1.019
-RDF::Trine::Parser::Turtle	1.019
-RDF::Trine::Parser::Turtle::Constants	1.019
-RDF::Trine::Parser::Turtle::Lexer	1.019
-RDF::Trine::Parser::Turtle::Token	unknown
-RDF::Trine::Pattern	1.019
-RDF::Trine::Serializer	1.019
-RDF::Trine::Serializer::NQuads	1.019
-RDF::Trine::Serializer::NTriples	1.019
-RDF::Trine::Serializer::NTriples::Canonical	1.019
-RDF::Trine::Serializer::RDFJSON	1.019
-RDF::Trine::Serializer::RDFPatch	1.019
-RDF::Trine::Serializer::RDFXML	1.019
-RDF::Trine::Serializer::TriG	1.019
-RDF::Trine::Serializer::TSV	1.019
-RDF::Trine::Serializer::Turtle	1.019
-RDF::Trine::Statement	1.019
-RDF::Trine::Statement::Quad	1.019
-RDF::Trine::Store	1.019
-RDF::Trine::Store::DBI	1.019
-RDF::Trine::Store::DBI::mysql	1.019
-RDF::Trine::Store::DBI::Pg	1.019
-RDF::Trine::Store::DBI::SQLite	1.019
-RDF::Trine::Store::Dydra	1.019
-RDF::Trine::Store::Hexastore	1.019
-RDF::Trine::Store::LanguagePreference	1.019
-RDF::Trine::Store::Memory	1.019
-RDF::Trine::Store::Redis	1.019
-RDF::Trine::Store::Redland	1.019
-RDF::Trine::Store::SPARQL	1.019
-RDF::Trine::VariableBindings	1.019
-re::engine::RE2	0.13
-Readonly	2.05
-Redis	1.991
-Redis::Hash	1.991
-Redis::List	1.991
-Redis::Sentinel	1.991
-Ref::Util	0.204
-Ref::Util::PP	0.204
-Ref::Util::XS	0.117
-Regexp::Common	2017060201
-Regexp::Common::_support	2017060201
-Regexp::Common::balanced	2017060201
-Regexp::Common::CC	2017060201
-Regexp::Common::comment	2017060201
-Regexp::Common::delimited	2017060201
-Regexp::Common::lingua	2017060201
-Regexp::Common::list	2017060201
-Regexp::Common::net	2017060201
-Regexp::Common::number	2017060201
-Regexp::Common::profanity	2017060201
-Regexp::Common::SEN	2017060201
-Regexp::Common::URI	2017060201
-Regexp::Common::URI::fax	2017060201
-Regexp::Common::URI::file	2017060201
-Regexp::Common::URI::ftp	2017060201
-Regexp::Common::URI::gopher	2017060201
-Regexp::Common::URI::http	2017060201
-Regexp::Common::URI::news	2017060201
-Regexp::Common::URI::pop	2017060201
-Regexp::Common::URI::prospero	2017060201
-Regexp::Common::URI::RFC1035	2017060201
-Regexp::Common::URI::RFC1738	2017060201
-Regexp::Common::URI::RFC1808	2017060201
-Regexp::Common::URI::RFC2384	2017060201
-Regexp::Common::URI::RFC2396	2017060201
-Regexp::Common::URI::RFC2806	2017060201
-Regexp::Common::URI::tel	2017060201
-Regexp::Common::URI::telnet	2017060201
-Regexp::Common::URI::tv	2017060201
-Regexp::Common::URI::wais	2017060201
-Regexp::Common::whitespace	2017060201
-Regexp::Common::zip	2017060201
-Reply::Plugin::TypeTiny	1.002002
-Return::MultiLevel	0.05
-rlib	0.02
-Role::HasMessage	0.006
-Role::HasMessage::Errf	0.006
-Role::Identifiable::HasIdent	0.007
-Role::Identifiable::HasTags	0.007
-Role::Tiny	2.000006
-Role::Tiny::With	2.000006
-Router::Simple	0.17
-Router::Simple::Declare	unknown
-Router::Simple::Route	unknown
-Router::Simple::SubMapper	unknown
-Safe::Isa	1.000010
-Scalar::Util	1.50
-Scalar::Util::Numeric	0.40
-Scope::Guard	0.21
-Scope::Upper	0.30
-Set::Infinite	0.65
-Set::Infinite::_recurrence	unknown
-Set::Infinite::Arithmetic	unknown
-Set::Infinite::Basic	unknown
-Set::IntervalTree	0.12
-Set::IntSpan	1.19
-Set::Object::Weak	unknown
-Set::Scalar	1.29
-Set::Scalar::Base	1.29
-Set::Scalar::Null	1.29
-Set::Scalar::Real	1.29
-Set::Scalar::Universe	1.29
-Set::Scalar::Valued	1.29
-Set::Scalar::ValuedUniverse	1.29
-Set::Scalar::Virtual	1.29
-Slurp	0.4
-Smart::Comments	1.06
-SOAP::Constants	1.27
-SOAP::Lite	1.27
-SOAP::Lite::Deserializer::XMLSchema1999	1.27
-SOAP::Lite::Deserializer::XMLSchema2001	1.27
-SOAP::Lite::Deserializer::XMLSchemaSOAP1_1	1.27
-SOAP::Lite::Deserializer::XMLSchemaSOAP1_2	1.27
-SOAP::Lite::Packager	1.27
-SOAP::Lite::Utils	1.27
-SOAP::Packager	1.27
-SOAP::Test	1.27
-SOAP::Transport::HTTP	1.27
-SOAP::Transport::IO	1.27
-SOAP::Transport::LOCAL	1.27
-SOAP::Transport::LOOPBACK	1.27
-SOAP::Transport::MAILTO	1.27
-SOAP::Transport::POP3	1.27
-SOAP::Transport::TCP	1.27
-Socket::GetAddrInfo	0.22
-Socket::GetAddrInfo::Core	0.22
-Socket::GetAddrInfo::Emul	0.22
-Socket::GetAddrInfo::Socket6api	0.22
-Socket::GetAddrInfo::Strict	0.22
-Socket::GetAddrInfo::XS	0.22
-Software::License	0.103013
-Software::License::AGPL_3	0.103013
-Software::License::Apache_1_1	0.103013
-Software::License::Apache_2_0	0.103013
-Software::License::Artistic_1_0	0.103013
-Software::License::Artistic_2_0	0.103013
-Software::License::BSD	0.103013
-Software::License::CC0_1_0	0.103013
-Software::License::Custom	0.103013
-Software::License::EUPL_1_1	0.103013
-Software::License::EUPL_1_2	0.103013
-Software::License::FreeBSD	0.103013
-Software::License::GFDL_1_2	0.103013
-Software::License::GFDL_1_3	0.103013
-Software::License::GPL_1	0.103013
-Software::License::GPL_2	0.103013
-Software::License::GPL_3	0.103013
-Software::License::LGPL_2_1	0.103013
-Software::License::LGPL_3_0	0.103013
-Software::License::MIT	0.103013
-Software::License::Mozilla_1_0	0.103013
-Software::License::Mozilla_1_1	0.103013
-Software::License::Mozilla_2_0	0.103013
-Software::License::None	0.103013
-Software::License::OpenSSL	0.103013
-Software::License::Perl_5	0.103013
-Software::License::PostgreSQL	0.103013
-Software::License::QPL_1_0	0.103013
-Software::License::SSLeay	0.103013
-Software::License::Sun	0.103013
-Software::License::Zlib	0.103013
-Software::LicenseUtils	0.103013
-Sort::Naturally	1.03
-Specio	0.42
-Specio::Coercion	0.42
-Specio::Constraint::AnyCan	0.42
-Specio::Constraint::AnyDoes	0.42
-Specio::Constraint::AnyIsa	0.42
-Specio::Constraint::Enum	0.42
-Specio::Constraint::Intersection	0.42
-Specio::Constraint::ObjectCan	0.42
-Specio::Constraint::ObjectDoes	0.42
-Specio::Constraint::ObjectIsa	0.42
-Specio::Constraint::Parameterizable	0.42
-Specio::Constraint::Parameterized	0.42
-Specio::Constraint::Role::CanType	0.42
-Specio::Constraint::Role::DoesType	0.42
-Specio::Constraint::Role::Interface	0.42
-Specio::Constraint::Role::IsaType	0.42
-Specio::Constraint::Simple	0.42
-Specio::Constraint::Structurable	0.42
-Specio::Constraint::Structured	0.42
-Specio::Constraint::Union	0.42
-Specio::Declare	0.42
-Specio::DeclaredAt	0.42
-Specio::Exception	0.42
-Specio::Exporter	0.42
-Specio::Helpers	0.42
-Specio::Library::Builtins	0.42
-Specio::Library::Numeric	0.42
-Specio::Library::Perl	0.42
-Specio::Library::String	0.42
-Specio::Library::Structured	0.42
-Specio::Library::Structured::Dict	0.42
-Specio::Library::Structured::Map	0.42
-Specio::Library::Structured::Tuple	0.42
-Specio::OO	0.42
-Specio::PartialDump	0.42
-Specio::Registry	0.42
-Specio::Role::Inlinable	0.42
-Specio::Subs	0.42
-Specio::TypeChecks	0.42
-Spiffy	0.46
-Spiffy::mixin	unknown
-Spreadsheet::ParseExcel	0.65
-Spreadsheet::ParseExcel::Cell	0.65
-Spreadsheet::ParseExcel::Dump	0.65
-Spreadsheet::ParseExcel::FmtDefault	0.65
-Spreadsheet::ParseExcel::FmtJapan	0.65
-Spreadsheet::ParseExcel::FmtJapan2	0.65
-Spreadsheet::ParseExcel::FmtUnicode	0.65
-Spreadsheet::ParseExcel::Font	0.65
-Spreadsheet::ParseExcel::Format	0.65
-Spreadsheet::ParseExcel::SaveParser	0.65
-Spreadsheet::ParseExcel::SaveParser::Workbook	0.65
-Spreadsheet::ParseExcel::SaveParser::Worksheet	0.65
-Spreadsheet::ParseExcel::Simple	1.04
-Spreadsheet::ParseExcel::Utility	0.65
-Spreadsheet::ParseExcel::Workbook	0.65
-Spreadsheet::ParseExcel::Worksheet	0.65
-Spreadsheet::WriteExcel	2.40
-Spreadsheet::WriteExcel::BIFFwriter	2.40
-Spreadsheet::WriteExcel::Big	2.40
-Spreadsheet::WriteExcel::Chart	2.40
-Spreadsheet::WriteExcel::Chart::Area	2.40
-Spreadsheet::WriteExcel::Chart::Bar	2.40
-Spreadsheet::WriteExcel::Chart::Column	2.40
-Spreadsheet::WriteExcel::Chart::External	2.40
-Spreadsheet::WriteExcel::Chart::Line	2.40
-Spreadsheet::WriteExcel::Chart::Pie	2.40
-Spreadsheet::WriteExcel::Chart::Scatter	2.40
-Spreadsheet::WriteExcel::Chart::Stock	2.40
-Spreadsheet::WriteExcel::Examples	2.40
-Spreadsheet::WriteExcel::Format	2.40
-Spreadsheet::WriteExcel::Formula	2.40
-Spreadsheet::WriteExcel::OLEwriter	2.40
-Spreadsheet::WriteExcel::Properties	2.40
-Spreadsheet::WriteExcel::Simple	1.04
-Spreadsheet::WriteExcel::Utility	2.40
-Spreadsheet::WriteExcel::Workbook	2.40
-Spreadsheet::WriteExcel::Worksheet	2.40
-SQL::Abstract	1.86
-SQL::Abstract::Test	unknown
-SQL::Abstract::Tree	unknown
-SQL::Translator	0.11024
-SQL::Translator::Diff	unknown
-SQL::Translator::Filter::DefaultExtra	1.59
-SQL::Translator::Filter::Globals	1.59
-SQL::Translator::Filter::Names	1.59
-SQL::Translator::Generator::DDL::MySQL	unknown
-SQL::Translator::Generator::DDL::PostgreSQL	unknown
-SQL::Translator::Generator::DDL::SQLite	unknown
-SQL::Translator::Generator::DDL::SQLServer	unknown
-SQL::Translator::Generator::Role::DDL	unknown
-SQL::Translator::Generator::Role::Quote	unknown
-SQL::Translator::Parser	1.60
-SQL::Translator::Parser::Access	1.59
-SQL::Translator::Parser::DB2	unknown
-SQL::Translator::Parser::DB2::Grammar	unknown
-SQL::Translator::Parser::DBI	1.59
-SQL::Translator::Parser::DBI::DB2	1.59
-SQL::Translator::Parser::DBI::MySQL	1.59
-SQL::Translator::Parser::DBI::Oracle	1.59
-SQL::Translator::Parser::DBI::PostgreSQL	1.59
-SQL::Translator::Parser::DBI::SQLite	1.59
-SQL::Translator::Parser::DBI::SQLServer	1.59
-SQL::Translator::Parser::DBI::Sybase	1.59
-SQL::Translator::Parser::DBIx::Class	1.10
-SQL::Translator::Parser::Excel	1.59
-SQL::Translator::Parser::JSON	1.00
-SQL::Translator::Parser::MySQL	1.59
-SQL::Translator::Parser::Oracle	1.59
-SQL::Translator::Parser::PostgreSQL	1.59
-SQL::Translator::Parser::SQLite	1.59
-SQL::Translator::Parser::SQLServer	1.59
-SQL::Translator::Parser::Storable	1.59
-SQL::Translator::Parser::Sybase	1.59
-SQL::Translator::Parser::XML	1.59
-SQL::Translator::Parser::XML::SQLFairy	1.59
-SQL::Translator::Parser::xSV	1.59
-SQL::Translator::Parser::YAML	1.59
-SQL::Translator::Producer	1.59
-SQL::Translator::Producer::ClassDBI	1.59
-SQL::Translator::Producer::DB2	1.59
-SQL::Translator::Producer::DBIx::Class::File	0.1
-SQL::Translator::Producer::Diagram	1.59
-SQL::Translator::Producer::DiaUml	1.59
-SQL::Translator::Producer::Dumper	1.59
-SQL::Translator::Producer::GraphViz	1.59
-SQL::Translator::Producer::HTML	1.59
-SQL::Translator::Producer::JSON	1.00
-SQL::Translator::Producer::Latex	1.59
-SQL::Translator::Producer::MySQL	1.59
-SQL::Translator::Producer::Oracle	1.59
-SQL::Translator::Producer::POD	1.59
-SQL::Translator::Producer::PostgreSQL	1.59
-SQL::Translator::Producer::SQLite	1.59
-SQL::Translator::Producer::SQLServer	1.59
-SQL::Translator::Producer::Storable	1.59
-SQL::Translator::Producer::Sybase	1.59
-SQL::Translator::Producer::TT::Base	1.59
-SQL::Translator::Producer::TT::Table	1.59
-SQL::Translator::Producer::TTSchema	1.59
-SQL::Translator::Producer::XML	1.59
-SQL::Translator::Producer::XML::SQLFairy	1.59
-SQL::Translator::Producer::YAML	1.59
-SQL::Translator::Role::BuildArgs	unknown
-SQL::Translator::Role::Debug	unknown
-SQL::Translator::Role::Error	unknown
-SQL::Translator::Role::ListAttr	unknown
-SQL::Translator::Schema	1.59
-SQL::Translator::Schema::Constants	1.59
-SQL::Translator::Schema::Constraint	1.59
-SQL::Translator::Schema::Field	1.59
-SQL::Translator::Schema::Index	1.59
-SQL::Translator::Schema::Object	1.59
-SQL::Translator::Schema::Procedure	1.59
-SQL::Translator::Schema::Role::Compare	unknown
-SQL::Translator::Schema::Role::Extra	unknown
-SQL::Translator::Schema::Table	1.59
-SQL::Translator::Schema::Trigger	1.59
-SQL::Translator::Schema::View	1.59
-SQL::Translator::Types	unknown
-SQL::Translator::Utils	1.59
-StackTrace::Auto	0.200013
-Starman	0.4014
-Starman::Server	unknown
-Statistics::ANOVA	0.14
-Statistics::ANOVA::Compare	0.01
-Statistics::ANOVA::EffectSize	0.02
-Statistics::ANOVA::Friedman	0.02
-Statistics::ANOVA::JT	unknown
-Statistics::ANOVA::KW	0.01
-Statistics::ANOVA::Page	0.02
-Statistics::Basic	1.6611
-Statistics::Basic::_OneVectorBase	unknown
-Statistics::Basic::_TwoVectorBase	unknown
-Statistics::Basic::ComputedVector	unknown
-Statistics::Basic::Correlation	unknown
-Statistics::Basic::Covariance	unknown
-Statistics::Basic::LeastSquareFit	unknown
-Statistics::Basic::Mean	unknown
-Statistics::Basic::Median	unknown
-Statistics::Basic::Mode	unknown
-Statistics::Basic::StdDev	unknown
-Statistics::Basic::Variance	unknown
-Statistics::Basic::Vector	unknown
-Statistics::Candidates	unknown
-Statistics::ChiSquare	1.0000
-Statistics::Contingency	0.09
-Statistics::Cook	0.0.6
-Statistics::Data	0.11
-Statistics::Data::Dichotomize	0.05
-Statistics::Data::Rank	0.02
-Statistics::DependantTTest	0.03
-Statistics::Descriptive	3.0701
-Statistics::Descriptive::Discrete	0.07
-Statistics::Descriptive::Full	3.0701
-Statistics::Descriptive::LogScale	0.11
-Statistics::Descriptive::Smoother	3.0701
-Statistics::Descriptive::Smoother::Exponential	3.0701
-Statistics::Descriptive::Smoother::Weightedexponential	3.0701
-Statistics::Descriptive::Sparse	3.0701
-Statistics::Discrete	0.05.00
-Statistics::Distributions	1.02
-Statistics::Distributions::Bartlett	unknown
-Statistics::Distributions::GTest	unknown
-Statistics::Diversity::Shannon	0.0102
-Statistics::FactorAnalysis	unknown
-Statistics::FisherPitman	0.034
-Statistics::Frequency	0.04
-Statistics::Histogram	0.1
-Statistics::KruskalWallis	0.01
-Statistics::Lite	3.62
-Statistics::MaxEntropy	1.0
-Statistics::Normality	0.01
-Statistics::PCA	unknown
-Statistics::PCA::Varimax	unknown
-Statistics::PointEstimation	1.1
-Statistics::R	0.34
-Statistics::R::Legacy	unknown
-Statistics::R::Win32	unknown
-Statistics::RankCorrelation	0.1205
-Statistics::Robust	0.02
-Statistics::Robust::Bootstrap	unknown
-Statistics::Robust::Density	unknown
-Statistics::Robust::Location	unknown
-Statistics::Robust::Scale	unknown
-Statistics::Sampler::Multinomial	0.7
-Statistics::Sampler::Multinomial::AliasMethod	0.7
-Statistics::Sequences	0.15
-Statistics::Sequences::Joins	0.20
-Statistics::Sequences::Pot	0.12
-Statistics::Sequences::Runs	0.22
-Statistics::Sequences::Turns	0.13
-Statistics::Sequences::Vnomes	0.20
-Statistics::Shannon	0.05
-Statistics::Simpson	0.03
-Statistics::SparseVector	0.2
-Statistics::Standard_Normal	unknown
-Statistics::TopK	0.02
-Statistics::TTest	1.1
-Statistics::Zed	0.10
-Storable	3.11
-Stream::Buffered	0.03
-Stream::Buffered::Auto	unknown
-Stream::Buffered::File	unknown
-Stream::Buffered::PerlIO	unknown
-strictures	2.000005
-strictures::extra	unknown
-String::Diff	0.07
-String::Errf	0.008
-String::Escape	2010.002
-String::Flogger	1.101245
-String::Format	1.18
-String::Formatter	0.102084
-String::Formatter::Cookbook	0.102084
-String::Numeric	0.9
-String::Numeric::PP	0.9
-String::Print	0.93
-String::RewritePrefix	0.007
-String::ShellQuote	1.04
-String::Tagged	0.15
-String::Tagged::Terminal	0.02
-String::ToIdentifier::EN	0.12
-String::ToIdentifier::EN::Unicode	0.12
-String::Truncate	1.100602
-String::Util	1.26
-Struct::Dumb	0.09
-Sub::Attribute	0.06
-Sub::Defer	2.001001
-Sub::Exporter	0.987
-Sub::Exporter::ForMethods	0.100052
-Sub::Exporter::GlobExporter	0.005
-Sub::Exporter::Progressive	0.001013
-Sub::Exporter::Util	0.987
-Sub::Identify	0.14
-Sub::Info	0.002
-Sub::Install	0.928
-Sub::Name	0.21
-Sub::Quote	2.001001
-Sub::Uplevel	0.2800
-Sub::Util	1.50
-SUPER	1.20141117
-SVG	2.84
-SVG::DOM	2.84
-SVG::Element	2.84
-SVG::Extension	2.84
-SVG::Graph	0.02
-SVG::Graph::Data	unknown
-SVG::Graph::Data::Datum	unknown
-SVG::Graph::Data::Node	unknown
-SVG::Graph::Data::Tree	unknown
-SVG::Graph::File	unknown
-SVG::Graph::Frame	unknown
-SVG::Graph::Glyph	unknown
-SVG::Graph::Glyph::axis	unknown
-SVG::Graph::Glyph::bar	unknown
-SVG::Graph::Glyph::barflex	unknown
-SVG::Graph::Glyph::bezier	unknown
-SVG::Graph::Glyph::bubble	unknown
-SVG::Graph::Glyph::heatmap	unknown
-SVG::Graph::Glyph::line	unknown
-SVG::Graph::Glyph::pictogram	unknown
-SVG::Graph::Glyph::scatter	unknown
-SVG::Graph::Glyph::tree	unknown
-SVG::Graph::Glyph::wedge	unknown
-SVG::Graph::Group	unknown
-SVG::XML	2.84
-Symbol::Util	0.0203
-SymTab	unknown
-syntax	0.004
-Syntax::Feature::Junction	0.003008
-Syntax::Keyword::Junction	0.003008
-Syntax::Keyword::Junction::All	0.003008
-Syntax::Keyword::Junction::Any	0.003008
-Syntax::Keyword::Junction::Base	0.003008
-Syntax::Keyword::Junction::None	0.003008
-Syntax::Keyword::Junction::One	0.003008
-Sys::SigAction	0.23
-Sys::SigAction::Alarm	unknown
-TAP::Base	3.42
-TAP::Formatter::Base	3.42
-TAP::Formatter::Color	3.42
-TAP::Formatter::Console	3.42
-TAP::Formatter::Console::ParallelSession	3.42
-TAP::Formatter::Console::Session	3.42
-TAP::Formatter::File	3.42
-TAP::Formatter::File::Session	3.42
-TAP::Formatter::Session	3.42
-TAP::Harness	3.42
-TAP::Harness::Env	3.42
-TAP::Object	3.42
-TAP::Parser	3.42
-TAP::Parser::Aggregator	3.42
-TAP::Parser::Grammar	3.42
-TAP::Parser::Iterator	3.42
-TAP::Parser::Iterator::Array	3.42
-TAP::Parser::Iterator::Process	3.42
-TAP::Parser::Iterator::Stream	3.42
-TAP::Parser::IteratorFactory	3.42
-TAP::Parser::Multiplexer	3.42
-TAP::Parser::Result	3.42
-TAP::Parser::Result::Bailout	3.42
-TAP::Parser::Result::Comment	3.42
-TAP::Parser::Result::Plan	3.42
-TAP::Parser::Result::Pragma	3.42
-TAP::Parser::Result::Test	3.42
-TAP::Parser::Result::Unknown	3.42
-TAP::Parser::Result::Version	3.42
-TAP::Parser::Result::YAML	3.42
-TAP::Parser::ResultFactory	3.42
-TAP::Parser::Scheduler	3.42
-TAP::Parser::Scheduler::Job	3.42
-TAP::Parser::Scheduler::Spinner	3.42
-TAP::Parser::Source	3.42
-TAP::Parser::SourceHandler	3.42
-TAP::Parser::SourceHandler::Executable	3.42
-TAP::Parser::SourceHandler::File	3.42
-TAP::Parser::SourceHandler::Handle	3.42
-TAP::Parser::SourceHandler::Perl	3.42
-TAP::Parser::SourceHandler::RawTAP	3.42
-TAP::Parser::YAMLish::Reader	3.42
-TAP::Parser::YAMLish::Writer	3.42
-Task::Catalyst	4.02
-Task::Kensho	0.39
-Task::Kensho::Async	0.39
-Task::Kensho::CLI	0.39
-Task::Kensho::Config	0.39
-Task::Kensho::Dates	0.39
-Task::Kensho::DBDev	0.39
-Task::Kensho::Email	0.39
-Task::Kensho::ExcelCSV	0.39
-Task::Kensho::Exceptions	0.39
-Task::Kensho::Hackery	0.39
-Task::Kensho::Logging	0.39
-Task::Kensho::ModuleDev	0.39
-Task::Kensho::OOP	0.39
-Task::Kensho::Scalability	0.39
-Task::Kensho::Testing	0.39
-Task::Kensho::Toolchain	0.39
-Task::Kensho::WebCrawling	0.39
-Task::Kensho::WebDev	0.39
-Task::Kensho::XML	0.39
-Task::Moose	0.03
-Task::Weaken	1.06
-Template	2.27
-Template::Base	2.78
-Template::Config	2.75
-Template::Constants	2.75
-Template::Context	2.98
-Template::Directive	2.2
-Template::Document	2.79
-Template::Exception	2.7
-Template::Filters	2.87
-Template::Grammar	2.26
-Template::Iterator	2.68
-Template::Namespace::Constants	1.27
-Template::Parser	2.89
-Template::Plugin	2.7
-Template::Plugin::Assert	1
-Template::Plugin::CGI	2.7
-Template::Plugin::Datafile	2.72
-Template::Plugin::Date	2.78
-Template::Plugin::Directory	2.7
-Template::Plugin::Dumper	2.7
-Template::Plugin::File	2.71
-Template::Plugin::Filter	1.38
-Template::Plugin::Format	2.7
-Template::Plugin::HTML	2.62
-Template::Plugin::Image	1.21
-Template::Plugin::Iterator	2.68
-Template::Plugin::Math	1.16
-Template::Plugin::Pod	2.69
-Template::Plugin::Procedural	1.17
-Template::Plugin::Scalar	1
-Template::Plugin::String	2.4
-Template::Plugin::Table	2.71
-Template::Plugin::URL	2.74
-Template::Plugin::View	2.68
-Template::Plugin::Wrap	2.68
-Template::Plugins	2.77
-Template::Provider	2.94
-Template::Service	2.8
-Template::Stash	2.91
-Template::Stash::Context	1.63
-Template::Stash::XS	unknown
-Template::Test	2.75
-Template::Timer	1.00
-Template::Tiny	1.12
-Template::Toolkit	unknown
-Template::View	2.91
-Template::VMethods	2.16
-Term::Encoding	0.02
-Term::ProgressBar	2.22
-Term::ProgressBar::IO	2.22
-Term::ProgressBar::Quiet	0.31
-Term::ProgressBar::Simple	0.03
-Term::ReadKey	2.37
-Term::ReadLine::Perl5	1.45
-Term::ReadLine::Perl5::Common	unknown
-Term::ReadLine::Perl5::Dumb	unknown
-Term::ReadLine::Perl5::History	unknown
-Term::ReadLine::Perl5::Keymap	unknown
-Term::ReadLine::Perl5::OO	0.43
-Term::ReadLine::Perl5::OO::History	unknown
-Term::ReadLine::Perl5::OO::Keymap	unknown
-Term::ReadLine::Perl5::OO::State	unknown
-Term::ReadLine::Perl5::readline	1.45
-Term::ReadLine::Perl5::TermCap	unknown
-Term::ReadLine::Perl5::Tie	1.45
-Term::Size	0.207
-Term::Table	0.012
-Term::Table::Cell	0.012
-Term::Table::CellStack	0.012
-Term::Table::HashBase	0.003
-Term::Table::LineBreak	0.012
-Term::Table::Spacer	0.012
-Term::Table::Util	0.012
-Term::UI	0.46
-Term::UI::History	0.46
-Test2	1.302138
-Test2::API	1.302138
-Test2::API::Breakage	1.302138
-Test2::API::Context	1.302138
-Test2::API::Instance	1.302138
-Test2::API::Stack	1.302138
-Test2::AsyncSubtest	0.000115
-Test2::AsyncSubtest::Event::Attach	0.000115
-Test2::AsyncSubtest::Event::Detach	0.000115
-Test2::AsyncSubtest::Formatter	0.000115
-Test2::AsyncSubtest::Hub	0.000115
-Test2::Bundle	0.000115
-Test2::Bundle::Extended	0.000115
-Test2::Bundle::More	0.000115
-Test2::Bundle::Simple	0.000115
-Test2::Compare	0.000115
-Test2::Compare::Array	0.000115
-Test2::Compare::Bag	0.000115
-Test2::Compare::Base	0.000115
-Test2::Compare::Bool	0.000115
-Test2::Compare::Custom	0.000115
-Test2::Compare::DeepRef	0.000115
-Test2::Compare::Delta	0.000115
-Test2::Compare::Event	0.000115
-Test2::Compare::EventMeta	0.000115
-Test2::Compare::Float	0.000115
-Test2::Compare::Hash	0.000115
-Test2::Compare::Meta	0.000115
-Test2::Compare::Negatable	0.000115
-Test2::Compare::Number	0.000115
-Test2::Compare::Object	0.000115
-Test2::Compare::OrderedSubset	0.000115
-Test2::Compare::Pattern	0.000115
-Test2::Compare::Ref	0.000115
-Test2::Compare::Regex	0.000115
-Test2::Compare::Scalar	0.000115
-Test2::Compare::Set	0.000115
-Test2::Compare::String	0.000115
-Test2::Compare::Undef	0.000115
-Test2::Compare::Wildcard	0.000115
-Test2::Event	1.302138
-Test2::Event::Bail	1.302138
-Test2::Event::Diag	1.302138
-Test2::Event::Encoding	1.302138
-Test2::Event::Exception	1.302138
-Test2::Event::Fail	1.302138
-Test2::Event::Generic	1.302138
-Test2::Event::Note	1.302138
-Test2::Event::Ok	1.302138
-Test2::Event::Pass	1.302138
-Test2::Event::Plan	1.302138
-Test2::Event::Skip	1.302138
-Test2::Event::Subtest	1.302138
-Test2::Event::TAP::Version	1.302138
-Test2::Event::Times	0.000115
-Test2::Event::V2	1.302138
-Test2::Event::Waiting	1.302138
-Test2::Event::Warning	0.06
-Test2::EventFacet	1.302138
-Test2::EventFacet::About	1.302138
-Test2::EventFacet::Amnesty	1.302138
-Test2::EventFacet::Assert	1.302138
-Test2::EventFacet::Control	1.302138
-Test2::EventFacet::Error	1.302138
-Test2::EventFacet::Hub	1.302138
-Test2::EventFacet::Info	1.302138
-Test2::EventFacet::Meta	1.302138
-Test2::EventFacet::Parent	1.302138
-Test2::EventFacet::Plan	1.302138
-Test2::EventFacet::Render	1.302138
-Test2::EventFacet::Trace	1.302138
-Test2::Formatter	1.302138
-Test2::Formatter::TAP	1.302138
-Test2::Hub	1.302138
-Test2::Hub::Interceptor	1.302138
-Test2::Hub::Interceptor::Terminator	1.302138
-Test2::Hub::Subtest	1.302138
-Test2::IPC	1.302138
-Test2::IPC::Driver	1.302138
-Test2::IPC::Driver::Files	1.302138
-Test2::Manual	0.000115
-Test2::Manual::Anatomy	0.000115
-Test2::Manual::Anatomy::API	0.000115
-Test2::Manual::Anatomy::Context	0.000115
-Test2::Manual::Anatomy::EndToEnd	0.000115
-Test2::Manual::Anatomy::Event	0.000115
-Test2::Manual::Anatomy::Hubs	0.000115
-Test2::Manual::Anatomy::IPC	0.000115
-Test2::Manual::Anatomy::Utilities	0.000115
-Test2::Manual::Contributing	0.000115
-Test2::Manual::Testing	0.000115
-Test2::Manual::Testing::Introduction	0.000115
-Test2::Manual::Testing::Migrating	0.000115
-Test2::Manual::Testing::Planning	0.000115
-Test2::Manual::Testing::Todo	0.000115
-Test2::Manual::Tooling	0.000115
-Test2::Manual::Tooling::FirstTool	0.000115
-Test2::Manual::Tooling::Formatter	0.000115
-Test2::Manual::Tooling::Nesting	0.000115
-Test2::Manual::Tooling::Plugin::TestExit	0.000115
-Test2::Manual::Tooling::Plugin::TestingDone	0.000115
-Test2::Manual::Tooling::Plugin::ToolCompletes	0.000115
-Test2::Manual::Tooling::Plugin::ToolStarts	0.000115
-Test2::Manual::Tooling::Subtest	0.000115
-Test2::Manual::Tooling::TestBuilder	0.000115
-Test2::Manual::Tooling::Testing	0.000115
-Test2::Mock	0.000115
-Test2::Plugin	0.000115
-Test2::Plugin::BailOnFail	0.000115
-Test2::Plugin::DieOnFail	0.000115
-Test2::Plugin::ExitSummary	0.000115
-Test2::Plugin::NoWarnings	0.06
-Test2::Plugin::SRand	0.000115
-Test2::Plugin::Times	0.000115
-Test2::Plugin::UTF8	0.000115
-Test2::Require	0.000115
-Test2::Require::AuthorTesting	0.000115
-Test2::Require::EnvVar	0.000115
-Test2::Require::Fork	0.000115
-Test2::Require::Module	0.000115
-Test2::Require::Perl	0.000115
-Test2::Require::RealFork	0.000115
-Test2::Require::Threads	0.000115
-Test2::Suite	0.000115
-Test2::Todo	0.000115
-Test2::Tools	0.000115
-Test2::Tools::AsyncSubtest	0.000115
-Test2::Tools::Basic	0.000115
-Test2::Tools::Class	0.000115
-Test2::Tools::ClassicCompare	0.000115
-Test2::Tools::Compare	0.000115
-Test2::Tools::Defer	0.000115
-Test2::Tools::Encoding	0.000115
-Test2::Tools::Event	0.000115
-Test2::Tools::Exception	0.000115
-Test2::Tools::Exports	0.000115
-Test2::Tools::GenTemp	0.000115
-Test2::Tools::Grab	0.000115
-Test2::Tools::Mock	0.000115
-Test2::Tools::Ref	0.000115
-Test2::Tools::Spec	0.000115
-Test2::Tools::Subtest	0.000115
-Test2::Tools::Target	0.000115
-Test2::Tools::Tester	0.000115
-Test2::Tools::Tiny	1.302138
-Test2::Tools::Warnings	0.000115
-Test2::Util	1.302138
-Test2::Util::ExternalMeta	1.302138
-Test2::Util::Facets2Legacy	1.302138
-Test2::Util::Grabber	0.000115
-Test2::Util::HashBase	1.302138
-Test2::Util::Ref	0.000115
-Test2::Util::Stash	0.000115
-Test2::Util::Sub	0.000115
-Test2::Util::Table	0.000115
-Test2::Util::Table::Cell	0.000115
-Test2::Util::Table::LineBreak	0.000115
-Test2::Util::Term	0.000115
-Test2::Util::Times	0.000115
-Test2::Util::Trace	1.302138
-Test2::V0	0.000115
-Test2::Workflow	0.000115
-Test2::Workflow::BlockBase	0.000115
-Test2::Workflow::Build	0.000115
-Test2::Workflow::Runner	0.000115
-Test2::Workflow::Task	0.000115
-Test2::Workflow::Task::Action	0.000115
-Test2::Workflow::Task::Group	0.000115
-Test::Assert	0.0504
-Test::Base	0.89
-Test::Base::Filter	unknown
-Test::Builder	1.302138
-Test::Builder::Formatter	1.302138
-Test::Builder::IO::Scalar	2.114
-Test::Builder::Module	1.302138
-Test::Builder::Tester	1.302138
-Test::Builder::Tester::Color	1.302138
-Test::Builder::TodoDiag	1.302138
-Test::Class	0.50
-Test::Class::Load	0.50
-Test::Class::MethodInfo	0.50
-Test::Class::Moose	0.92
-Test::Class::Moose::AttributeRegistry	0.92
-Test::Class::Moose::CLI	0.92
-Test::Class::Moose::Config	0.92
-Test::Class::Moose::Deprecated	0.92
-Test::Class::Moose::Executor::Parallel	0.92
-Test::Class::Moose::Executor::Sequential	0.92
-Test::Class::Moose::Load	0.92
-Test::Class::Moose::Report	0.92
-Test::Class::Moose::Report::Class	0.92
-Test::Class::Moose::Report::Instance	0.92
-Test::Class::Moose::Report::Method	0.92
-Test::Class::Moose::Report::Time	0.92
-Test::Class::Moose::Role	0.92
-Test::Class::Moose::Role::AutoUse	0.92
-Test::Class::Moose::Role::CLI	0.92
-Test::Class::Moose::Role::Executor	0.92
-Test::Class::Moose::Role::HasTimeReport	0.92
-Test::Class::Moose::Role::ParameterizedInstances	0.92
-Test::Class::Moose::Role::Reporting	0.92
-Test::Class::Moose::Runner	0.92
-Test::Class::Moose::Tutorial	0.92
-Test::Class::Moose::Util	0.92
-Test::CleanNamespaces	0.23
-Test::CPAN::Changes	0.400002
-Test::CPAN::Meta	0.25
-Test::CPAN::Meta::Version	0.25
-Test::Deep	1.128
-Test::Deep::All	unknown
-Test::Deep::Any	unknown
-Test::Deep::Array	unknown
-Test::Deep::ArrayEach	unknown
-Test::Deep::ArrayElementsOnly	unknown
-Test::Deep::ArrayLength	unknown
-Test::Deep::ArrayLengthOnly	unknown
-Test::Deep::Blessed	unknown
-Test::Deep::Boolean	unknown
-Test::Deep::Cache	unknown
-Test::Deep::Cache::Simple	unknown
-Test::Deep::Class	unknown
-Test::Deep::Cmp	unknown
-Test::Deep::Code	unknown
-Test::Deep::Hash	unknown
-Test::Deep::HashEach	unknown
-Test::Deep::HashElements	unknown
-Test::Deep::HashKeys	unknown
-Test::Deep::HashKeysOnly	unknown
-Test::Deep::Ignore	unknown
-Test::Deep::Isa	unknown
-Test::Deep::JSON	0.05
-Test::Deep::ListMethods	unknown
-Test::Deep::Methods	unknown
-Test::Deep::MM	unknown
-Test::Deep::None	unknown
-Test::Deep::NoTest	unknown
-Test::Deep::Number	unknown
-Test::Deep::Obj	unknown
-Test::Deep::Ref	unknown
-Test::Deep::RefType	unknown
-Test::Deep::Regexp	unknown
-Test::Deep::RegexpMatches	unknown
-Test::Deep::RegexpOnly	unknown
-Test::Deep::RegexpRef	unknown
-Test::Deep::RegexpRefOnly	unknown
-Test::Deep::RegexpVersion	unknown
-Test::Deep::ScalarRef	unknown
-Test::Deep::ScalarRefOnly	unknown
-Test::Deep::Set	unknown
-Test::Deep::Shallow	unknown
-Test::Deep::Stack	unknown
-Test::Deep::String	unknown
-Test::Deep::Type	0.008
-Test::Differences	0.64
-Test::EOL	2.00
-Test::Exception	0.43
-Test::Expect	0.34
-Test::FailWarnings	0.008
-Test::Fatal	0.014
-Test::File	1.443
-Test::File::ShareDir	1.001002
-Test::File::ShareDir::Dist	1.001002
-Test::File::ShareDir::Module	1.001002
-Test::File::ShareDir::Object::Dist	1.001002
-Test::File::ShareDir::Object::Inc	1.001002
-Test::File::ShareDir::Object::Module	1.001002
-Test::File::ShareDir::TempDirObject	1.001002
-Test::File::ShareDir::Utils	1.001002
-Test::Fork	0.02
-Test::Future	0.38
-Test::Harness	3.42
-Test::Identity	0.01
-Test::JSON	0.11
-Test::LeakTrace	0.16
-Test::LeakTrace::Script	unknown
-Test::LongString	0.17
-Test::LWP::UserAgent	0.033
-Test::Memory::Cycle	1.06
-Test::Mock::HTTP::Request	0.01
-Test::Mock::HTTP::Response	0.01
-Test::Mock::LWP	0.08
-Test::Mock::LWP::UserAgent	0.01
-Test::MockModule	0.15
-Test::MockObject	1.20180705
-Test::MockObject::Extends	1.20180705
-Test::MockTime	0.17
-Test::Mojo	unknown
-Test::Moose	2.2011
-Test::MooseX::Daemonize	0.21
-Test::More	1.302138
-Test::More::UTF8	0.05
-Test::Most	0.35
-Test::Most::Exception	0.35
-Test::Needs	0.002005
-Test::NoWarnings	1.04
-Test::NoWarnings::Warning	1.04
-Test::Number::Delta	1.06
-Test::Object	0.08
-Test::Object::Test	0.08
-Test::Output	1.031
-Test::Perl::Critic::Policy	1.132
-Test::Pod	1.52
-Test::Pod::Content	unknown
-Test::Pod::Coverage	1.10
-Test::RDF::Trine::Store	1.019
-Test::Refcount	0.08
-Test::Requires	0.10
-Test::RequiresInternet	0.05
-Test::SharedFork	0.35
-Test::SharedFork::Array	unknown
-Test::SharedFork::Scalar	unknown
-Test::SharedFork::Store	unknown
-Test::Simple	1.302138
-Test::Spec	0.54
-Test::Spec::Context	unknown
-Test::Spec::Example	unknown
-Test::Spec::Mocks	unknown
-Test::Spec::SharedHash	unknown
-Test::Spec::TodoExample	unknown
-Test::Specio	0.42
-Test::SQL::Translator	1.59
-Test::SubCalls	1.10
-Test::TCP	2.19
-Test::TCP::CheckPort	unknown
-Test::TempDir::Tiny	0.018
-Test::Tester	1.302138
-Test::Tester::Capture	1.302138
-Test::Tester::CaptureRunner	1.302138
-Test::Tester::Delegate	1.302138
-Test::Time	0.06
-Test::Toolbox	0.4
-Test::Trap	unknown
-Test::Trap::Builder	unknown
-Test::Trap::Builder::PerlIO	unknown
-Test::Trap::Builder::SystemSafe	unknown
-Test::Trap::Builder::TempFile	unknown
-Test::TypeTiny	1.002002
-Test::Unit::Lite	0.1202
-Test::use::ok	1.302138
-Test::utf8	1.01
-Test::Warn	0.36
-Test::Warnings	0.026
-Test::Without::Module	0.20
-Test::WWW::Mechanize	1.50
-Test::WWW::Mechanize::Catalyst	0.60
-Test::WWW::Mechanize::PSGI	0.38
-Test::WWW::Selenium	1.36
-Test::YAML	1.07
-Text::Aligner	0.13
-Text::Autoformat	1.74
-Text::Autoformat::Hang	1.74
-Text::Autoformat::NullHang	1.74
-Text::CSV	1.95
-Text::CSV_PP	1.95
-Text::CSV_XS	1.36
-Text::Diff	1.45
-Text::Diff::Config	1.44
-Text::Diff::Table	1.44
-Text::Format	0.61
-Text::German	0.06
-Text::German::Adjektiv	unknown
-Text::German::Ausnahme	unknown
-Text::German::Cache	unknown
-Text::German::Endung	unknown
-Text::German::Regel	unknown
-Text::German::Util	unknown
-Text::German::Verb	unknown
-Text::German::Vorsilbe	unknown
-Text::Glob	0.11
-Text::LineFold	2016.00702
-Text::Reform	1.20
-Text::SimpleTable	2.05
-Text::Table	1.133
-Text::Template	1.53
-Text::Template::Preprocess	1.53
-Text::Unidecode	1.30
-Text::VisualWidth::PP	0.05
-threads::shared::array	0.36
-threads::shared::handle	0.36
-threads::shared::hash	0.36
-threads::shared::scalar	0.36
-Throwable	0.200013
-Throwable::Error	0.200013
-Tie::Handle::Offset	0.004
-Tie::Handle::SkipHeader	0.004
-Tie::Hash::MultiValue	1.05
-Tie::IxHash	1.23
-Tie::ToObject	0.03
-Tie::Watch	1.302
-Time::CTime	2011.0505
-Time::DaysInMonth	99.1117
-Time::Duration	1.20
-Time::Duration::Parse	0.14
-Time::HiRes	1.9758
-Time::JulianDay	2011.0505
-Time::ParseDate	2015.103
-Time::Piece	1.3204
-Time::Seconds	1.3204
-Time::Timezone	2015.0925
-Time::Tiny	1.08
-Time::Zone	2.24
-Tk	804.034
-Tk::Adjuster	4.008
-Tk::After	4.008
-Tk::Animation	4.008
-Tk::Balloon	4.012
-Tk::Bitmap	4.004
-Tk::BrowseEntry	4.015
-Tk::Button	4.010
-Tk::Canvas	4.013
-Tk::Checkbutton	4.006
-Tk::Clipboard	4.009
-Tk::CmdLine	4.007
-Tk::ColorDialog	4.014
-Tk::ColorEditor	4.014
-Tk::ColorSelect	4.014
-Tk::Compound	4.004
-Tk::Config	804.034
-Tk::Configure	4.009
-Tk::Derived	4.011
-Tk::Dialog	4.005
-Tk::DialogBox	4.016
-Tk::Dirlist	4.004
-Tk::DirTree	4.022
-Tk::DragDrop	4.015
-Tk::DragDrop::Common	4.005
-Tk::DragDrop::Local	4.004
-Tk::DragDrop::Rect	4.012
-Tk::DragDrop::SunConst	4.004
-Tk::DragDrop::SunDrop	4.006
-Tk::DragDrop::SunSite	4.007
-Tk::DragDrop::XDNDDrop	4.007
-Tk::DragDrop::XDNDSite	4.007
-Tk::DropSite	4.008
-Tk::DummyEncode	4.007
-Tk::English	4.006
-Tk::Entry	4.018
-Tk::ErrorDialog	4.007
-Tk::Event	4.035
-Tk::Event::IO	4.009
-Tk::FBox	4.018
-Tk::FileSelect	4.018
-Tk::FloatEntry	4.004
-Tk::Font	4.004
-Tk::Frame	4.010
-Tk::HList	4.015
-Tk::IconList	4.007
-Tk::Image	4.011
-Tk::InputO	4.004
-Tk::install	4.004
-Tk::IO	4.006
-Tk::ItemStyle	4.004
-Tk::JPEG	4.003
-Tk::Label	4.006
-Tk::LabeledEntryLabeledRadiobutton	4.004
-Tk::Labelframe	4.003
-Tk::LabEntry	4.006
-Tk::LabFrame	4.010
-Tk::LabRadiobutton	4.004
-Tk::Listbox	4.015
-Tk::MainWindow	4.015
-Tk::MakeDepend	4.015
-Tk::Menu	4.023
-Tk::Menu::Item	4.005
-Tk::Menubar	4.006
-Tk::Menubutton	4.005
-Tk::Message	4.006
-Tk::MMtry	4.009
-Tk::MMutil	4.026
-Tk::MsgBox	4.002
-Tk::Mwm	4.004
-Tk::NBFrame	4.004
-Tk::NoteBook	4.009
-Tk::Optionmenu	4.014
-Tk::Pane	4.007
-Tk::Panedwindow	4.004
-Tk::Photo	4.006
-Tk::Pixmap	4.004
-Tk::PNG	4.004
-Tk::Pretty	4.006
-Tk::ProgressBar	4.015
-Tk::Radiobutton	4.006
-Tk::Region	4.006
-Tk::Reindex	4.006
-Tk::ReindexedROText	4.004
-Tk::ReindexedText	4.004
-Tk::ROText	4.010
-Tk::Scale	4.004
-Tk::Scrollbar	4.010
-Tk::Spinbox	4.007
-Tk::Stats	4.004
-Tk::Submethods	4.005
-Tk::Table	4.016
-Tk::Text	4.024
-Tk::Text::Tag	4.004
-Tk::TextEdit	4.004
-Tk::TextList	4.006
-Tk::TextUndo	4.015
-Tk::Tiler	4.012
-Tk::TixGrid	4.010
-Tk::TList	4.006
-Tk::Toplevel	4.006
-Tk::Trace	4.009
-Tk::Tree	4.72
-Tk::Widget	4.036
-Tk::widgets	4.005
-Tk::WinPhoto	4.005
-Tk::Wm	4.015
-Tk::X	4.005
-Tk::X11Font	4.007
-Tk::Xlib	4.004
-Tk::Xrm	4.005
-Tree::DAG_Node	1.31
-Tree::Simple	1.33
-Tree::Simple::Visitor	1.33
-Tree::Simple::Visitor::BreadthFirstTraversal	0.15
-Tree::Simple::Visitor::CreateDirectoryTree	0.15
-Tree::Simple::Visitor::FindByNodeValue	0.15
-Tree::Simple::Visitor::FindByPath	0.15
-Tree::Simple::Visitor::FindByUID	0.15
-Tree::Simple::Visitor::FromNestedArray	0.15
-Tree::Simple::Visitor::FromNestedHash	0.15
-Tree::Simple::Visitor::GetAllDescendents	0.15
-Tree::Simple::Visitor::LoadClassHierarchy	0.15
-Tree::Simple::Visitor::LoadDirectoryTree	0.15
-Tree::Simple::Visitor::PathToRoot	0.15
-Tree::Simple::Visitor::PostOrderTraversal	0.15
-Tree::Simple::Visitor::PreOrderTraversal	0.15
-Tree::Simple::Visitor::Sort	0.15
-Tree::Simple::Visitor::ToNestedArray	0.15
-Tree::Simple::Visitor::ToNestedHash	0.15
-Tree::Simple::Visitor::VariableDepthClone	0.15
-Tree::Simple::VisitorFactory	0.15
-Try::Tiny	0.30
-TryCatch	1.003002
-Type::Coercion	1.002002
-Type::Coercion::FromMoose	1.002002
-Type::Coercion::Union	1.002002
-Type::Library	1.002002
-Type::Params	1.002002
-Type::Parser	1.002002
-Type::Registry	1.002002
-Type::Tiny	1.002002
-Type::Tiny::_HalfOp	1.002002
-Type::Tiny::Class	1.002002
-Type::Tiny::Duck	1.002002
-Type::Tiny::Enum	1.002002
-Type::Tiny::Intersection	1.002002
-Type::Tiny::Role	1.002002
-Type::Tiny::Union	1.002002
-Type::Utils	1.002002
-Types::Common::Numeric	1.002002
-Types::Common::String	1.002002
-Types::Serialiser	1.0
-Types::Standard	1.002002
-Types::Standard::ArrayRef	1.002002
-Types::Standard::CycleTuple	1.002002
-Types::Standard::Dict	1.002002
-Types::Standard::HashRef	1.002002
-Types::Standard::Map	1.002002
-Types::Standard::ScalarRef	1.002002
-Types::Standard::Tuple	1.002002
-Types::TypeTiny	1.002002
-Unicode::CharName	0.00
-Unicode::EastAsianWidth	1.33
-Unicode::EastAsianWidth::Detect	0.03
-Unicode::GCString	2013.10
-Unicode::LineBreak	2018.003
-Unicode::LineBreak	unknown
-Unicode::Map	0.112
-Unicode::Map8	0.13
-Unicode::String	2.10
-UNIVERSAL::can	1.20140328
-UNIVERSAL::isa	1.20171012
-UNIVERSAL::require	0.18
-URI	1.74
-URI::_foreign	1.74
-URI::_generic	1.74
-URI::_idna	1.74
-URI::_ldap	1.74
-URI::_login	1.74
-URI::_punycode	1.74
-URI::_query	1.74
-URI::_segment	1.74
-URI::_server	1.74
-URI::_userpass	1.74
-URI::data	1.74
-URI::Escape	3.31
-URI::file	4.21
-URI::file::Base	1.74
-URI::file::FAT	1.74
-URI::file::Mac	1.74
-URI::file::OS2	1.74
-URI::file::QNX	1.74
-URI::file::Unix	1.74
-URI::file::Win32	1.74
-URI::Find	20160806
-URI::Find::Schemeless	20160806
-URI::ftp	1.74
-URI::gopher	1.74
-URI::Heuristic	4.20
-URI::http	1.74
-URI::https	1.74
-URI::IRI	1.74
-URI::ldap	1.74
-URI::ldapi	1.74
-URI::ldaps	1.74
-URI::mailto	1.74
-URI::mms	1.74
-URI::news	1.74
-URI::nntp	1.74
-URI::pop	1.74
-URI::QueryParam	1.74
-URI::rlogin	1.74
-URI::rsync	1.74
-URI::rtsp	1.74
-URI::rtspu	1.74
-URI::sftp	1.74
-URI::sip	1.74
-URI::sips	1.74
-URI::snews	1.74
-URI::Split	1.74
-URI::ssh	1.74
-URI::telnet	1.74
-URI::tn3270	1.74
-URI::URL	5.04
-URI::urn	1.74
-URI::urn::isbn	1.74
-URI::urn::oid	1.74
-URI::WithBase	2.20
-URI::ws	0.03
-URI::wss	0.03
-UUID::Tiny	1.04
-Variable::Magic	0.62
-Want	0.29
-WidgetDemo	4.012
-Win32::ShellQuote	0.003001
-WWW::Form::UrlEncoded	0.24
-WWW::Form::UrlEncoded::PP	unknown
-WWW::Mechanize	1.88
-WWW::Mechanize::Image	1.88
-WWW::Mechanize::Link	1.88
-WWW::Mechanize::TreeBuilder	1.20000
-WWW::Pastebin::PastebinCom::Create	1.003
-WWW::RobotRules	6.02
-WWW::RobotRules::AnyDBM_File	6.00
-WWW::Selenium	1.36
-WWW::Selenium::Util	1.36
-XML::Atom	0.42
-XML::Atom::Base	unknown
-XML::Atom::Category	unknown
-XML::Atom::Client	unknown
-XML::Atom::Content	unknown
-XML::Atom::Entry	unknown
-XML::Atom::ErrorHandler	unknown
-XML::Atom::Feed	unknown
-XML::Atom::Link	unknown
-XML::Atom::Person	unknown
-XML::Atom::Server	unknown
-XML::Atom::Thing	unknown
-XML::Atom::Util	unknown
-XML::CommonNS	0.06
-XML::Compile	1.60
-XML::Compile::Iterator	1.60
-XML::Compile::Schema	1.60
-XML::Compile::Schema::BuiltInFacets	1.60
-XML::Compile::Schema::BuiltInTypes	1.60
-XML::Compile::Schema::Instance	1.60
-XML::Compile::Schema::NameSpaces	1.60
-XML::Compile::Schema::Specs	1.60
-XML::Compile::Tester	0.91
-XML::Compile::Translate	1.60
-XML::Compile::Translate::Reader	1.60
-XML::Compile::Translate::Template	1.60
-XML::Compile::Translate::Writer	1.60
-XML::Compile::Util	1.60
-XML::DOM	1.46
-XML::DOM::DOMException	unknown
-XML::DOM::NamedNodeMap	unknown
-XML::DOM::NodeList	unknown
-XML::DOM::PerlSAX	unknown
-XML::DOM::XPath	0.14
-XML::ESISParser	0.08
-XML::Filter::BufferText	1.01
-XML::Generator::PerlData	0.95
-XML::Handler::BuildDOM	unknown
-XML::Handler::CanonXMLWriter	0.08
-XML::Handler::Sample	unknown
-XML::Handler::Subs	0.08
-XML::Handler::XMLWriter	0.08
-XML::LibXML	2.0132
-XML::LibXML::AttributeHash	2.0132
-XML::LibXML::Boolean	2.0132
-XML::LibXML::Common	2.0132
-XML::LibXML::Devel	2.0132
-XML::LibXML::ErrNo	2.0132
-XML::LibXML::Error	2.0132
-XML::LibXML::Literal	2.0132
-XML::LibXML::NodeList	2.0132
-XML::LibXML::Number	2.0132
-XML::LibXML::Reader	2.0132
-XML::LibXML::SAX	2.0132
-XML::LibXML::SAX::Builder	2.0132
-XML::LibXML::SAX::Generator	2.0132
-XML::LibXML::SAX::Parser	2.0132
-XML::LibXML::Simple	0.99
-XML::LibXML::XPathContext	2.0132
-XML::LibXSLT	1.96
-XML::Namespace	0.02
-XML::NamespaceFactory	1.02
-XML::NamespaceSupport	1.12
-XML::Parser	2.44
-XML::Parser::Expat	2.44
-XML::Parser::Lite	0.721
-XML::Parser::PerlSAX	0.08
-XML::Parser::Style::Debug	unknown
-XML::Parser::Style::Objects	unknown
-XML::Parser::Style::Stream	unknown
-XML::Parser::Style::Subs	unknown
-XML::Parser::Style::Tree	unknown
-XML::PatAct::ACTION	unknown
-XML::PatAct::Amsterdam	0.08
-XML::PatAct::MatchName	0.08
-XML::PatAct::PATTERN	unknown
-XML::PatAct::ToObjects	0.08
-XML::Perl2SAX	0.08
-XML::RegExp	0.04
-XML::RSS	1.60
-XML::RSS::Private::Output::Base	1.60
-XML::RSS::Private::Output::Roles::ImageDims	1.60
-XML::RSS::Private::Output::Roles::ModulesElems	1.60
-XML::RSS::Private::Output::V0_9	1.60
-XML::RSS::Private::Output::V0_91	1.60
-XML::RSS::Private::Output::V1_0	1.60
-XML::RSS::Private::Output::V2_0	1.60
-XML::SAX	1.00
-XML::SAX2Perl	0.08
-XML::SAX::Base	1.09
-XML::SAX::DocumentLocator	unknown
-XML::SAX::Exception	1.09
-XML::SAX::Expat	0.51
-XML::SAX::ParserFactory	1.01
-XML::SAX::PurePerl	1.00
-XML::SAX::PurePerl	unknown
-XML::SAX::PurePerl	unknown
-XML::SAX::PurePerl	unknown
-XML::SAX::PurePerl	unknown
-XML::SAX::PurePerl	unknown
-XML::SAX::PurePerl	unknown
-XML::SAX::PurePerl::DebugHandler	unknown
-XML::SAX::PurePerl::Exception	unknown
-XML::SAX::PurePerl::Productions	unknown
-XML::SAX::PurePerl::Reader	unknown
-XML::SAX::PurePerl::Reader	unknown
-XML::SAX::PurePerl::Reader	unknown
-XML::SAX::PurePerl::Reader::Stream	unknown
-XML::SAX::PurePerl::Reader::String	unknown
-XML::SAX::PurePerl::Reader::URI	unknown
-XML::SAX::Writer	0.57
-XML::SAX::Writer::XML	0.57
-XML::Simple	2.25
-XML::Twig	3.52
-XML::Twig::XPath	0.02
-XML::Writer	0.625
-XML::XPath	1.42
-XML::XPath::Boolean	1.42
-XML::XPath::Builder	1.42
-XML::XPath::Expr	1.42
-XML::XPath::Function	1.42
-XML::XPath::Literal	1.42
-XML::XPath::LocationPath	1.42
-XML::XPath::Node	1.42
-XML::XPath::Node::Attribute	1.42
-XML::XPath::Node::Comment	1.42
-XML::XPath::Node::Element	1.42
-XML::XPath::Node::Namespace	1.42
-XML::XPath::Node::PI	1.42
-XML::XPath::Node::Text	1.42
-XML::XPath::NodeSet	1.42
-XML::XPath::Number	1.42
-XML::XPath::Parser	1.42
-XML::XPath::PerlSAX	1.42
-XML::XPath::Root	1.42
-XML::XPath::Step	1.42
-XML::XPath::Variable	1.42
-XML::XPath::XMLParser	1.42
-XML::XPathEngine	0.14
-XML::XPathEngine::Boolean	unknown
-XML::XPathEngine::Expr	unknown
-XML::XPathEngine::Function	unknown
-XML::XPathEngine::Literal	unknown
-XML::XPathEngine::LocationPath	unknown
-XML::XPathEngine::NodeSet	unknown
-XML::XPathEngine::Number	unknown
-XML::XPathEngine::Root	unknown
-XML::XPathEngine::Step	1.0
-XML::XPathEngine::Variable	unknown
-XS	unknown
-YAML	1.26
-YAML::Any	1.26
-YAML::Dumper	unknown
-YAML::Dumper::Base	unknown
-YAML::Error	unknown
-YAML::LibYAML	0.72
-YAML::Loader	unknown
-YAML::Loader::Base	unknown
-YAML::Marshall	unknown
-YAML::Mo	unknown
-YAML::Node	unknown
-YAML::Tag	unknown
-YAML::Tiny	1.73
-YAML::Types	unknown
-YAML::XS	0.72
-YAML::XS::LibYAML	unknown
+Include path (INC) directories | Searched | Number of Modules
+-------------------------------|----------|--------------------
+/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/5.26.2/x86_64-linux-thread-multi | yes | 0
+/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/5.26.2 | yes | 0
+/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/x86_64-linux-thread-multi | yes | 1055
+/sw/comp/perl_modules/5.26.2/rackham/lib/perl5 | yes | 5989
+/sw/comp/perl/5.26.2/rackham/lib/5.26.2/x86_64-linux-thread-multi | no | unknown
+/sw/comp/perl/5.26.2/rackham/lib/5.26.2 | no | unknown
+/sw/comp/perl/5.26.2/rackham/lib | no | unknown
+/sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2/x86_64-linux-thread-multi | no | unknown
+/sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2 | no | unknown
 
-Include path (INC) directories	Searched	Number of Modules
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/5.26.2/x86_64-linux-thread-multi	yes	0
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/5.26.2	yes	0
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/x86_64-linux-thread-multi	yes	1055
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5	yes	5989
-/sw/comp/perl/5.26.2/rackham/lib/5.26.2/x86_64-linux-thread-multi	no	unknown
-/sw/comp/perl/5.26.2/rackham/lib/5.26.2	no	unknown
-/sw/comp/perl/5.26.2/rackham/lib	no	unknown
-/sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2/x86_64-linux-thread-multi	no	unknown
-/sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2	no	unknown
-
-Total modules	5989
-
-```
+- Total modules : 5989
