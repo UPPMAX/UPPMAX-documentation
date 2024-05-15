@@ -5,14 +5,9 @@ name: Check markdown
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
 on:
   push:
-    branches:
-      - 'issue_61'
   pull_request:
-    branches:
-      - 'issue_61'
   schedule:
   - cron: "0 0 21 * *"
-
 
 jobs:
   check_markdown:
