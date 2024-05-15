@@ -125,12 +125,6 @@ theme:
     
 extra_css:
   - stylesheets/extra.css
-
-extra:
-  social:
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-      name: squidfunk on Fosstodon
       
 markdown_extensions:
   - toc:
