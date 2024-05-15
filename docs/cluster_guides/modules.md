@@ -39,7 +39,8 @@ To preserve hard disk space, Bianca also
 has [multiple big databases installed](../databases/overview.md).
 
 !!! warning
-    - To access bioinformatics tools, load the **bioinfo-tools** module first.
+
+    To access bioinformatics tools, load the **bioinfo-tools** module first.
 
 ## Working with the module system
 
@@ -81,13 +82,14 @@ for example `module spider cowsay`.
     From a terminal, running:
 
 
-    ```
+    ```bash
     cowsay hello
     ```
 
     results in:
 
-    ``` _______
+    ```text
+     _______
     < hello >
      -------
             \   ^__^
@@ -109,7 +111,7 @@ for example `module spider cowsay`.
 
 ???- question "How does the output of `module spider R` look like?"
 
-    ```
+    ```bash
     $ module spider R
 
     -------------------------------------------
@@ -157,7 +159,7 @@ for example `module spider cowsay`.
 
 ???- question "How does the output of `module spider samtools` look like?"
 
-    ```
+    ```bash
     $ module spider samtools
 
     -------------------------------------------
@@ -199,7 +201,7 @@ for example `module spider cowsay`.
 
 ???- question "How does the output of `module spider samtools/1.17` look like?"
 
-    ```
+    ```bash
     $ module spider samtools/1.17
 
     -------------------------------------------
@@ -256,7 +258,7 @@ it is *not* general help for using the tool itself.
 
 ???- question "How does the output of `module list` look like?"
 
-    ```
+    ```bash
     $ module list
 
     Currently Loaded Modules:
@@ -279,7 +281,7 @@ do `module load samtools/1.17`.
 
 ???- question "How does the output of `module load GATK/4.3.0.0` look like?"
 
-    ```
+    ```bash
     $ module load GATK/4.3.0.0
     Note that all versions of GATK starting with 4.0.8.0 use a different wrapper
     script (gatk) than previous versions of GATK.  You might need to update your
@@ -298,7 +300,7 @@ do `module load samtools/1.17`.
     If you do `module load samtools/1.17` without
     doing `module load bioinfo-tools` first, you'll get the error:
 
-    ```
+    ```bash
     $ module load samtools/1.17
     Lmod has detected the following error:  These module(s) or
     extension(s) exist but cannot be loaded as requested: "samtools/1.17"
@@ -311,7 +313,7 @@ To see which modules are loaded, use `module list`.
 
 ???- question "How does the output of `module list` look like?"
 
-    ```
+    ```text
     $ module list
 
     Currently Loaded Modules:
@@ -324,7 +326,7 @@ To see a module-specific help, use `module help [module]` (e.g. `module help cow
 
 ???- question "How does the output of `module help GATK/4.3.0.0` look like?"
 
-    ```
+    ```bash
     $ module help GATK/4.3.0.0
 
     -------------- Module Specific Help for "GATK/4.3.0.0" ---------------
@@ -360,7 +362,7 @@ just load the module needed before using the software in that module.
 
 For example, this is a valid bash script:
 
-```
+```text
 #!/bin/bash
 module load cowsay/3.03
 cowsay hello
@@ -369,7 +371,7 @@ cowsay hello
 When using a bioinformatics tool such as `samtools` version 1.17,
 one needs to first load `bioinfo-tools`:
 
-```
+```text
 #!/bin/bash
 module load bioinfo-tools
 module load samtools/1.17
@@ -387,10 +389,10 @@ Full command            |Shorthand syntax
 
 ## Links
 
- * [Almost all installed software on UPPMAX](../software/overview.md)
- * [Almost all installed databases on UPPMAX](../databases/overview.md)
- * [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
- * [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
+- [Almost all installed software on UPPMAX](../software/overview.md)
+- [Almost all installed databases on UPPMAX](../databases/overview.md)
+- [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
+- [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
 
 ## Extra materials
 
@@ -410,12 +412,13 @@ This command is not so smart,
 though, especially when searching for a specific tool, or a bioinformatics tool.
 It only reports modules that are immediately available.
 
-```
+```bash
 $ module avail R
 ```
+
 outputs everything that has an `r` in the name... not useful.
 
-```
+```bash
 $ module avail samtools
 No module(s) or extension(s) found!
 Use "module spider" to find all possible modules and extensions.
