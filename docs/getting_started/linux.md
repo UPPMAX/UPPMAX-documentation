@@ -1,12 +1,11 @@
 # Linux
+
 - The "operating system" of the UPPMAX and most of the other clusters is **Linux**.
 
 !!! questions
 
     - What is Linux?
     - How to use the command line?
-
-
 
 !!! objectives
 
@@ -22,7 +21,7 @@
 
 ## What is Linux?
 
-![Content](./img/pingvin.png)
+![Tux](./img/pingvin.png)
 
 - Daily speaking: The Linux Operating system is a UNIX like and UNIX compatible Operating system.
 - Linux is a "Kernel" on which many different programs can run.
@@ -30,28 +29,18 @@
 
 ![Content](./img/images.jfif)
 
-
-
 - Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
   - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
 
-
-
 ![Content](./img/gnu.png)
-
-
 
 - Linux has a multiuser platform at its base which means permissions and security comes easy.
 
+### Linux comes in different distributions, dialects or, say, flavours
 
-### Linux comes in different distributions, dialects or, say, flavours.
 - UPPMAX runs CentOS and RedHat
 
-
-
 ![Content](./img/flavours.png)
-
-
 
 ## Using the command line
 
@@ -60,6 +49,7 @@ If you prefer video, [here](https://youtu.be/kjqLAx2bgJI)
 is how to use the command-line on the UPPMAX Bianca cluster.
 
 ### Command line with bash (Bourne Again Shell)
+
 - A Unix shell and command language.
 - Often default shell
 
@@ -75,35 +65,30 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ### The prompt
 
-[info]$ <span style="color:blue">program</span> word1 word2 word3 […]
+```bash
+[info]$ word1 word2 word3 [...]
+```
 
 - [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
 
   - Example:
 
     ```bash
-      [bjornc@rackham3 linux_tutorial]$
+    [bjornc@rackham3 linux_tutorial]$
     ```
 
   - For changing info (only for advanced users!)  Does not matter for this course!:
     - <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
-  - The <span style="color:blue">program</span> to run is the first word
+  - The program to run is the first word
   - All words are separated by spaces
 
 ![folders](./img/folders.png)
 
 ### Example bash command
 
-
 ![mv inbox](./img/mv_inbox.png){: style="width:300px"}
-<br/>
-
-<br/>
 
 ![program flags](./img/program_flags.png){ : style="width:200px" }
-
-
-<br/>
 
 - Terminal screen shows
 
@@ -115,10 +100,6 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ![Content](./img/tab.png){ : style="width:200px" }
 
-
-<br/><
-
-
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
 
@@ -127,7 +108,7 @@ ask Bash to complete what you’re writing.
 
 ## Editing files
 
-![](./img/edit.png)
+![Edit](./img/edit.png)
 
 To edit files, you will use a text editor.
 The UPPMAX HPC clusters have multiple text editors installed,
@@ -157,7 +138,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - File permissions. Check that the right read, write and execute permission are set. See next session.
 
 
-## Caution!!
+## Caution
 
 ![Content](./img/caution.png)
 
@@ -206,4 +187,4 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 
 ## Links
 
- * A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
+- A free online book about Linux: ['The Linux Command Line'](https://linuxcommand.org/tlcl.php).
