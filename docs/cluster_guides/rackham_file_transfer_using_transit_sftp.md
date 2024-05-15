@@ -1,27 +1,17 @@
-# Data transfer to/from Rackham using Transit
+# Data transfer to/from Rackham using Transit and SFTP
 
 Data transfer to/from Rackham using [Transit](../cluster_guides/transit.md)
 is one of the ways ways to transfer files to/from Rackham
 
-???- question "What is Transit?"
+One can use SFTP to copy files between Rackham and Transit,
+from either Rackham or Transit.
 
-    See [the page about the UPPMAX Transit server](transit.md).
+Both ways are shown step-by-step below.
 
-???- question "What are the other ways?"
+- [Using SFTP from Rackham](rackham_file_transfer_using_transit_sftp_from_rackham.md)
+- [Using SFTP from transit](rackham_file_transfer_using_transit_sftp_from_transit.md)
 
-    Other ways to transfer data to/from Rackham are described [here](transfer_rackham.md)
-
-This page assumes your files are 'posted' to Transit.
-[Transit is a service, not a file server](transit.md).
-
-???- question "How to transfer files to/from Transit?"
-
-    See [here](transfer_transit.md)
-
-To transfer files between Rackham and Transit can be done in multiple ways too:
-
-- [Using SCP](rackham_file_transfer_using_transit_scp.md)
-- [Using SFTP](rackham_file_transfer_using_transit_sftp.md)
+Basic `sftp` command can be found [here](../software/sftp.md).
 
 ## Overview
 

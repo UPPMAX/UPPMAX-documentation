@@ -16,10 +16,15 @@ by coping them between your local computer and Rackham.
 
 The process is:
 
-1. Start a terminal on your local computer
-2. In the terminal, copy files using `scp` to connect to Rackham:
+## Step 1. Start a terminal on your local computer
 
-```
+Start a terminal on your local computer
+
+## Step 2. Copy files using `scp`
+
+In the terminal, copy files using `scp` to connect to Rackham:
+
+```bash
 scp [from] [to]
 ```
 
@@ -28,20 +33,20 @@ This is quite a shorthand notation!
 
 This is how you copy a file from your local computer to Rackham:
 
-```
+```bash
 scp [local_filename] [username]@rackham.uppmax.uu.se:/home/[username]
 ```
 
 where `[local_filename]` is the path to a local filename,
 and `[username]` is your UPPMAX username, for example:
 
-```
+```bash
 scp my_file.txt sven@rackham.uppmax.uu.se:/home/sven
 ```
 
 To copy a file from Rackham to your local computer, do the command above in reverse order:
 
-```
+```bash
 scp [username]@rackham.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
 ```
 
@@ -49,12 +54,14 @@ where `[remote_filename]` is the path to a remote filename,
 `[username]` is your UPPMAX username,
 and `[local_folder]` is your local folder, for example:
 
-```
+```bash
 scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 ```
 
-3. If asked, give your UPPMAX password.
-   You can get rid of this prompt if you have setup SSH keys
+## Step 3. If asked, give your UPPMAX password
+
+If asked, give your UPPMAX password.
+You can get rid of this prompt if you have setup SSH keys
 
 
 ```mermaid

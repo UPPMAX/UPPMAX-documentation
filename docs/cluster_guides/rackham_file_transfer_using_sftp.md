@@ -12,25 +12,34 @@ SFTP is an abbreviation of 'SSH File Transfer Protocol',
 where 'SSH' is an abbreviation of 'Secure Shell protocol'
 The program `sftp` allows you to transfer files to/from Rackham using SFTP.
 
-The process is:
+The process is described here:
 
-1. Start a terminal on your local computer
-2. In the terminal, run `sftp` to connect to Rackham by doing:
+## Step 1. Start a terminal on your local computer
 
-```
+Start a terminal on your local computer.
+
+## Step 2. Run `sftp` to connect to Rackham
+
+In the terminal, run `sftp` to connect to Rackham by doing:
+
+```bash
 sftp [username]@rackham.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
-```
+```bash
 sftp sven@rackham.uppmax.uu.se
 ```
 
-3. If asked, give your UPPMAX password.
-   You can get rid of this prompt if you have setup SSH keys
+### Step 3. If asked, give your UPPMAX password
 
-4. In `sftp`, upload/download files to/from Rackham
+If asked, give your UPPMAX password.
+You can get rid of this prompt if you have setup SSH keys
+
+### Step 4. Upload/download files to/from Rackham
+
+In `sftp`, upload/download files to/from Rackham.
 
 Basic `sftp` command can be found [here](../software/sftp.md).
 
