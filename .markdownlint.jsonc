@@ -33,6 +33,9 @@
     "stern": false
   },
 
+  //MD014/commands-show-output: Show dollar before command : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md014.md
+  "MD014": false,
+
   // Changed to allow indented code
   //
   // MD046/code-block-style : Code block style : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md046.md
