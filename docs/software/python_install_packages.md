@@ -45,18 +45,18 @@ Does it work? Then it is there!
 
 ## Comparison between Conda and PyPI
 
-* **PyPI** (`pip`) is traditionally for Python-only packages but it is no problem to
+- **PyPI** (`pip`) is traditionally for Python-only packages but it is no problem to
 also distribute packages written in other languages as long as they provide a
 Python interface.
 
-* **Conda** (`conda`) is more general and while it contains many Python packages and
+- **Conda** (`conda`) is more general and while it contains many Python packages and
 packages with a Python interface, it is often used to also distribute packages
 which do not contain any Python (e.g. C or C++ packages).
 
-| Parameter                    | `conda` | `pip` |
-|------------------------------|---------|-------|
-| Installs Python packages     | Yes     | Yes   |
-| Installs non-Python software | Yes     | No    |
+Parameter                    | `conda` | `pip` 
+-----------------------------|---------|-------
+Installs Python packages     | Yes     | Yes
+Installs non-Python software | Yes     | No
 
 Many libraries and tools are distributed in both ecosystems.
 
@@ -107,14 +107,14 @@ When using a custom root folder, Python cannot find it without help.
 Setting the environment variable `PYTHONPATH` to the correct folder
 allows Python to find packages in a custom folder.
 
-```
+```bash
 export PYTHONPATH=[root_folder]/lib/python[version]/site-packages/:$PYTHONPATH.
 ```
 
 for example, when `[root_folder]` is `~/my_python_packages` and for using Python
 3.11.8, this will be:
 
-```
+```bash
 export PYTHONPATH=~/my_python_packages/lib/python3.11/site-packages/:$PYTHONPATH.
 ```
 
@@ -136,19 +136,19 @@ If that is the case for the package you need, this is how you do it:
 - Pick a location for your installation
   (change below to fit - I am installing under a project storage)
 
-   - ``mkdir /proj/<project>/<mystorage>/mypythonpackages``
-   - ``cd /proj/<project>/<mystorage>/mypythonpackages``
+  - ``mkdir /proj/<project>/<mystorage>/mypythonpackages``
+  - ``cd /proj/<project>/<mystorage>/mypythonpackages``
 
 - Load Python + (on Kebnekaise) site-installed prerequisites (SciPy-bundle, matplotlib, etc.)
 - Install any remaining prerequisites. Remember to activate your Virtualenv if installing with pip!
 - Download Python package, place it in your chosen installation dir, then untar/unzip it
 - cd into the source directory of the Python package
 
-   - Run ``python setup.py build``
-   - Then install with: ``python setup.py install --prefix=<path to install dir>``
+  - Run ``python setup.py build``
+  - Then install with: ``python setup.py install --prefix=<path to install dir>``
 
 - Add the path to $HOME/.bash_profile (note that it will differ by Python version):
 
-   - ``export PYTHONPATH=$PYTHONPATH:<path to your install directory>/lib/python3.11/site-packages``
+  - `export PYTHONPATH=$PYTHONPATH:<path to your install directory>/lib/python3.11/site-packages`
 
 You can use it as normal inside Python (remember to load dependent modules as well as activate virtual environment if it depends on some packages you installed with pip): ``import <python-module>``
