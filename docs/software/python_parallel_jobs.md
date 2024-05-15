@@ -1,4 +1,4 @@
-## How to run parallel jobs in Python
+# How to run parallel jobs in Python
 
 This page describes how to run parallel jobs in Python.
 For the general pages on Python, go [here](python.md).
@@ -10,21 +10,21 @@ Computing](https://aaltoscicomp.github.io/python-for-scicomp/parallel/)
 **Parallel computing** is when many different tasks are carried out simultaneously.
 There are three main models:
 
-* **Embarrassingly parallel:** the code does not need to synchronize/communicate
+- **Embarrassingly parallel:** the code does not need to synchronize/communicate
 with other instances, and you can run multiple instances of the code
 separately, and combine the results later. If you can do this, great! (array
 jobs, task queues)
 
-* **Shared memory parallelism:** Parallel threads need to communicate and do so via
+- **Shared memory parallelism:** Parallel threads need to communicate and do so via
 the same memory (variables, state, etc). (OpenMP)
 
-* **Message passing:** Different processes manage their own memory segments. They
+- **Message passing:** Different processes manage their own memory segments. They
 share data by communicating (passing messages) as needed. (Message Passing
 Interface (MPI)).
 
 There are several packages available for Python that let you run parallel jobs. Some of them are only able to run on one node, while others try to leverage several machines.
 
-### Threading
+## Threading
 
 Threading divides up your work among a number of cores within a node. The
 threads shares its memory.
@@ -45,18 +45,19 @@ Threading python module. This is very low level and you shouldn’t use it unles
 
 We recommend you find a UNIX threading tutorial first before embarking on using the threading module.
 
-### Distributed computing
+## Distributed computing
 
 As opposed to threading, Python has a reasonable way of doing something similar that uses multiple processes.
 
 Distributed processing uses individual processes with individual memory, that communicate with each other. In this case, data movement and communication is explicit.
 Python supports various forms of distributed computing.
 
-    A native master-worker system based on remote procedure calls: multiprocessing.py
-    MPI through mpi4py : a Python wrapper for the MPI protocol, see further down
+- A native master-worker system based on remote procedure calls: multiprocessing.py
+- MPI through mpi4py : a Python wrapper for the MPI protocol, see further down
+
 If choosing between multiprocessing and MPI, distributed is easier to program, whereas MPI may be more suitable for multi-node applications.
 
-#### Multiprocessing/distributed
+### Multiprocessing/distributed
 
 The interface is a lot like threading, but in the background creates new processes to get around the global interpreter lock.
 
@@ -64,21 +65,21 @@ There are low-level functions which have a lot of the same risks and difficultie
 
 To show an example, the split-apply-combine or map-reduce paradigm is quite useful for many scientific workflows. Consider you have this:
 
-```
+```python
 def square(x):
     return x*x
 ```
 
 You can apply the function to every element in a list using the map() function:
 
-```
+```python
 >>>list(map(square, [1, 2, 3, 4, 5, 6]))
 [1, 4, 9, 16, 25, 36]
 ```
 
 The multiprocessing.pool.Pool class provides an equivalent but parallelized (via multiprocessing) way of doing this. The pool class, by default, creates one new process per CPU and does parallel calculations on the list:
 
-```
+```python
 >>>from multiprocessing import Pool
 >>>with Pool() as pool:
 ...    pool.map(square, [1, 2, 3, 4, 5, 6])
@@ -89,7 +90,7 @@ As you can see, you can run distributed computing directly from the python shell
 
 Another example, `distributed.py`:
 
-```
+```python
 import random
 
 def sample(n):
@@ -126,13 +127,13 @@ pi = 4.0 * (n_inside_circle_sum / n_sum)
 print(pi)
 ```
 
-##### Batch example
+#### Batch example
 
 If you need to revive your knowledge about the scheduling system, please check Slurm user guide.
 
 Batch script job_distributed.slurm:
 
-```
+```bash
 #!/bin/bash
 #SBATCH -A j<proj>
 #SBATCH -p devel
@@ -150,41 +151,42 @@ python distributed.py
 
 ​Put job in queue:
 
-```
+```bash
 sbatch job_distributed.slurm
 ```
 
-##### Interactive example
+#### Interactive example
 
-```
+```bash
 salloc -A <proj> -p node -N 1 -n 10 -t 1:0:0
 python distributed.py
 ```
 
-### MPI
+## MPI
+
 Presently you have to install your own mpi4py. You will need to activate paths to the MPI libraries. Therefore follow these steps.
 
 1. If you use python 3.10.8:
 
-```
+```bash
 $ module load gcc/12.2.0 openmpi/4.1.4
 ```
 
      Otherwise:
 
-```
+```bash
 $ module load gcc/9.3.0 openmpi/3.1.5
 ```
 
-2. pip install locally or in an virtual environment
+1. pip install locally or in an virtual environment
 
-```
+```bash
 $ pip install --user mpi4py
 ```
 
 Remember that you will also have to load the the openmpi module before running mpi4py code, so that the MPI header files can be found (e.g. with the command "module load gcc/X.X.X openmpi/X.X.X"). Because of how MPI works, we need to explicitly write our code into a file,  pythonMPI.py:
 
-```
+```python
 import random
 import time
 from mpi4py import MPI
@@ -229,13 +231,13 @@ if rank == 0:
 You can execute your code the normal way as
 
 
-```
+```bash
 mpirun -n 3 python pythonMPI.py
 ```
 
 A batch script, job_MPI.slurm, should include a "module load gcc/9.3.0 openmpi/3.1.5"
 
-```
+```bash
 #!/bin/bash
 #SBATCH -A j<proj>
 #SBATCH -p devel
@@ -252,17 +254,17 @@ module load gcc/9.3.0 openmpi/3.1.5
 mpirun -n 20 python pythonMPI.py
 ```
 
-### Using the GPU nodes
+## Using the GPU nodes
 
 Example with numba. First install numba locally:
 
-```
+```bash
 pip install --user numba
 ```
 
 Test script: add-list.py
 
-```
+```python
 import numpy as np
 from timeit import default_timer as timer
 from numba import vectorize
@@ -300,7 +302,7 @@ if __name__ == "__main__":
 
 Run in an interactive session with GPU:s on Snowy
 
-```
+```bash
 [bjornc@rackham3 ~]$ interactive -A staff -n 1 -M snowy --gres=gpu:1  -t 1:00:01 --mail-type=BEGIN --mail-user=bjorn.claremar@uppmax.uu.se
 You receive the high interactive priority.
 Please, use no more than 8 GB of RAM.
