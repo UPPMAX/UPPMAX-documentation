@@ -1,3 +1,4 @@
+# Bianca hardware
 
 ## CPU
 
