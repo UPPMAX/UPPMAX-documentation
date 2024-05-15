@@ -53,7 +53,7 @@ access Bianca.
 
 One such constraint in accessing Bianca,
 is that one has to be within the university
-networks, as described at [get within the university networks](get_inside_sunet.md).
+networks, as described at [get within the university networks](../getting_started/get_inside_sunet.md).
 
 Another such constraint, is that data can be
 transferred to or from a virtual project cluster through the so-called 'wharf',
