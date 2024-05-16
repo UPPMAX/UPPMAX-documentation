@@ -68,12 +68,14 @@ The Spack oriented files are stored in two places:
         - linux
             - ​compilers.yaml
             - packages.yaml
+         
+
 The .yaml files in the .spack/linux directory contains information which tolls you want to include from the UPPMAX system.
 
 - The compilers.yaml file lists the compilers (intel or gcc) modules available to build your software tool.
 - The packages.yaml file lists tools available already as modules.
 
-By default, these files are empty but you can copy working "central" files that can be extended for your needs. The content of the files can be larger than the needed packages/compilers, i.e. only the packages /dependencies needed for your installation will be "taken" from these files and the rest will be ignored. Therefore, the UPPMAX staff may update these central files once in a while. 
+By default, these files are empty but you can copy working "central" files that can be extended for your needs. The content of the files can be larger than the needed packages/compilers, i.e. only the packages /dependencies needed for your installation will be "taken" from these files and the rest will be ignored. Therefore, the UPPMAX staff may update these central files once in a while.
 
 ### Get templates
 
@@ -85,7 +87,8 @@ $ cp /sw/build/spack/0.17.1/src/spack/share/spack/templates/packages.yaml ~/.spa
 ```
 
 ## Install your program
-Check available software applications via Spack: 
+
+Check available software applications via Spack:
 
 ``` console
 $ spack list
@@ -172,11 +175,11 @@ $ spack install <tool>%<compiler>@<compiler-version>^<dependency>@<version>
 
 Here is a summarizing table
 
-Command	|Option 
+Command	|Option
 -|-
-@	|Which version
-%	|which compiler
-^	|which dependency
+@|Which version
+%|which compiler
+^|which dependency
 
 ## Use your tool
 
@@ -186,9 +189,9 @@ $ spack load <tool>
 $ <tool> [<arguments>]
 ```
 
-## Develop 
+## Develop
 
-More to come... Meanwhile: 
+More to come... Meanwhile:
 
 [Developer guide](https://spack.readthedocs.io/en/latest/developer_guide.html)
 
@@ -199,7 +202,7 @@ The builds are by default located here: ``<spack-root>/opt/spack/linux-centos7-b
 
 ## Packages and environments
 
-More to come... Meanwhile: 
+More to come... Meanwhile:
 
 [Packaging guide](https://spack-tutorial.readthedocs.io/en/latest/tutorial_developer_workflows.html)
 
@@ -208,6 +211,7 @@ More to come... Meanwhile:
 [Environments tutorial](https://spack-tutorial.readthedocs.io/en/latest/tutorial_environments.html)
 
 ## Garbage collection
+
 Installing and uninstalling softwares will in the end use up your disk space so it is good practice to do some garbage collection
 
 ``` console
