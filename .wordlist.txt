@@ -3369,3 +3369,10 @@ blastall
 megablast
 tblastn
 centre
+spack
+zlib
+centos
+gc
+manyFiles
+repo
+src
