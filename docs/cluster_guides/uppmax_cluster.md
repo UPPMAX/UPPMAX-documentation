@@ -146,9 +146,9 @@ may not take a week. The image above is a supercomputer.
 
 ![A computer cluster using some Raspberry Pi's](./img/small_cluster_307_x_230.jpg)
 
-A computer cluster is a machine that is optimized for doing a lot of calculations.
+A computer cluster is a set of computers that work together so that they can be viewed as a single system.
 The image above shows a home-made computer cluster.
-This home-made computer cluster may not be suitable for high-performance.
+This home-made computer cluster may not be suitable for high-performance computing.
 
 ![The Rackham computer cluster](./img/uppmax-light2_412_x_285.jpg)
 
