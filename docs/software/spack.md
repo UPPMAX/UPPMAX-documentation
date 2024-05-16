@@ -16,24 +16,37 @@ This version assumes no vailable SPACK module, which may come in the near future
 You have your own instance of Spack but can get a configuration file provided by UPPMAX.
 
 ## First steps: Installing your own instance of SPACK
+
 You may want to use your project folder if you want your colleagues to be able to run the application. Then change directory to a giood place before installing Spack.
 
+```
 $ cd <good place>
+```
 
 ### Step 1: clone spack
 
+```
 $ module load git
 $ git clone -c feature.manyFiles=true https://github.com/spack/spack.git 
 $ cd spack
+```
+
 To get version v0.18:
 
+```
 $ git checkout releases/v0.18
+```
+
 Next, add Spack to your path. Spack has some nice command-line integration tools, so instead of simply appending to your PATH variable, source the Spack setup script.
 
+```
 $ source <root dir of spack>/spack/share/spack/setup-env.sh
+```
+
 Adding this line to your ~/.bachrc as well will activate the "spack commands" each time you start a new terminal session.
 
 ### Orientation of the SPACK files
+
 The Spack oriented files are stored in two places:
 
 Spack directory
@@ -65,56 +78,97 @@ By default, these files are empty but you can copy working "central" files that 
 
 Do the following to get these templates (be sure to not overwrite old versions of these .yaml files that you configured yourself and might need).
 
+```
 $ cp /sw/build/spack/0.17.1/src/spack/share/spack/templates/compilers.yaml ~/.spack/linux/
 $ cp /sw/build/spack/0.17.1/src/spack/share/spack/templates/packages.yaml ~/.spack/linux/
+```
 
 ## Install your program
 Check available software applications via Spack: 
 
+```
 $ spack list
 $ spack list <search string>
+```
+
 Check already installed software applications with spack
 
+```
 $ spack find
 $ spack find <search string>
+```
+
 Some installations won't need any compilers or "large dependencies". The installation is straightforward:
 
+```
 $ spack install <tool>
+```
+
 Example:
 
+```
 $ spack install zlib
+```
+
 In other cases, for larger applications tools that require larger dependencies (that we might already have as modules), watch the installation documentation to see what is needed. Any recommended compiler? You can also check with a "dry run" before installing, to see what Spack "thinks" its needs to install. Use the spec command:
 
+```
 $ spack spec -I <tool>
+```
+
 To check the presently, for Spack, available compilers, type:
 
+```
 $ spack compilers
+```
+
 If your desired compiler is not there you can add it by first loading the module and then integrate it into the compilers.yaml file with a spack command:
 
 Example:
 
+```
 $ module load intel/20.4
 $ spack compiler add
+```
+
 You can check if the compiler was added, either in the .spack/linux/compilers.yaml file or directly by:
 
+```
 $ spack compilers
+```
+
 To install a tool with a certain compiler version, if there are several compilers added for Spack, use "%". For specific version of the software tool or package, use "@".
 
+```
 $ spack install <tool>%<compiler>@<compiler-version>
+```
+
 Example:
 
+```
 $ spack install zlib%gcc@5.3.0
+```
+
 Large application tools may take a couple of hours so might be good to run in an interactive session (4 cores, -n 4).
 
+```
 $ spack install -j 4 <tool>
+```
+
 Use dependencies already available from our [environment module system](../cluster_guides/modules.md)) ('module load').
 
+```
 $ cat .spack/linux/packages.yaml
+```
+
 Fill it with text,defining the spack name and lmod module names (be careful with indentations)
 Then install you tool, as above.
 To install a specific version of a dependency with Spack, use the command "^":
 
+```
 $ spack install <tool>%<compiler>@<compiler-version>^<dependency>@<version>
+```
+
 Here is a summarizing table
 
 |Command	|Option |
@@ -124,21 +178,26 @@ Here is a summarizing table
 |^	which dependency|
 
 ## Use your tool
-$ spack load <tool>  
 
+```
+$ spack load <tool>  
 # module load of the install dependencies will not be needed here, since their paths are integrated in spack
-<tool> [<arguments>]
-Develop 
+$ <tool> [<arguments>]
+```
+
+## Develop 
+
 More to come... Meanwhile: 
 
 [Developer guide](https://spack.readthedocs.io/en/latest/developer_guide.html)
 
 [Developer workflows tutorial](https://spack-tutorial.readthedocs.io/en/latest/tutorial_developer_workflows.html)
 
-The builds are by default located here: 
+The builds are by default located here: ``<spack-root>/opt/spack/linux-centos7-broadwell/<compiler-version>/``
 
-$ spack-root//opt/spack/linux-centos7-broadwell/<compiler-version>/
-Packages and environments
+
+## Packages and environments
+
 More to come... Meanwhile: 
 
 [Packaging guide](https://spack-tutorial.readthedocs.io/en/latest/tutorial_developer_workflows.html)
