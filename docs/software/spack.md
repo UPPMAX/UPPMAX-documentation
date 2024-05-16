@@ -133,7 +133,7 @@ More to come... Meanwhile:
 
 [Developer guide](https://spack.readthedocs.io/en/latest/developer_guide.html)
 
-[Developer workflows tutorial](https://spack-tutorial.readthedocs.io/en/lanl19/tutorial_developer_workflows.html)
+[Developer workflows tutorial](https://spack-tutorial.readthedocs.io/en/latest/tutorial_developer_workflows.html)
 
 The builds are by default located here: 
 
@@ -141,11 +141,11 @@ $ spack-root//opt/spack/linux-centos7-broadwell/<compiler-version>/
 Packages and environments
 More to come... Meanwhile: 
 
-[Packaging guide](https://spack-tutorial.readthedocs.io/en/lanl19/tutorial_developer_workflows.html)
+[Packaging guide](https://spack-tutorial.readthedocs.io/en/latest/tutorial_developer_workflows.html)
 
 [Environments guide](https://spack.readthedocs.io/en/latest/environments.html)
 
-[Environments tutorial](https://spack-tutorial.readthedocs.io/en/lanl19/tutorial_environments.html)
+[Environments tutorial](https://spack-tutorial.readthedocs.io/en/latest/tutorial_environments.html)
 
 ## Garbage collection
 Installing and uninstalling softwares will in the end use up your disk space so it is good practice to do some garbage collection
