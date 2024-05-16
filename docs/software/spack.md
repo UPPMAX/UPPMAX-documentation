@@ -171,11 +171,11 @@ $ spack install <tool>%<compiler>@<compiler-version>^<dependency>@<version>
 
 Here is a summarizing table
 
-|Command	|Option |
-|-|-|
-|@	Which version|
-|%	which compiler|
-|^	which dependency|
+Command	|Option 
+-|-
+@	|Which version
+%	|which compiler
+^	|which dependency
 
 ## Use your tool
 
@@ -209,4 +209,6 @@ More to come... Meanwhile:
 ## Garbage collection
 Installing and uninstalling softwares will in the end use up your disk space so it is good practice to do some garbage collection
 
+```
 $ spack gc
+```
