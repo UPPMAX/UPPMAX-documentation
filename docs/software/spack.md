@@ -49,29 +49,30 @@ Adding this line to your ~/.bachrc as well will activate the "spack commands" ea
 
 The Spack oriented files are stored in two places:
 
-Spack directory
-the cloned git repo
-directories (important in bold)
-bin        spack executables
-etc        configuration files
-lib         libraries
-share    documentation, scripts etc...
-var        other settings
-opt        produced after first installation, contains all packages (tools, dependencies and libraries) 
-             tools are found in a tree: ...opt/spack/linux-<arch>/<compiler>/tool/
-.spack
-local config and packages files
-directories (important in bold)
-bootstrap
-cache
-reports
-linux
-​compilers.yaml     
-packages.yaml
-The .yaml files in the .spack/linux directory contains information which tolls you want to include from the UPPMAX system. 
+- Spack directory
+    - the cloned git repo
+    - directories (important in bold)
+        - bin        spack executables
+        - etc        configuration files
+        - lib         libraries
+        - share       documentation, scripts etc...
+        - var        other settings
+        - opt        produced after first installation, contains all packages (tools, dependencies and libraries)
+             - tools are found in a tree: ...opt/spack/linux-<arch>/<compiler>/tool/
+- .spack
+    - local config and packages files
+    - directories (important in bold)
+        - bootstrap
+        - cache
+        - reports
+        - linux
+            - ​compilers.yaml
+            - packages.yaml
+The .yaml files in the .spack/linux directory contains information which tolls you want to include from the UPPMAX system.
 
-The compilers.yaml file lists the compilers (intel or gcc) modules available to build your software tool.
-The packages.yaml file lists tools available already as modules.
+- The compilers.yaml file lists the compilers (intel or gcc) modules available to build your software tool.
+- The packages.yaml file lists tools available already as modules.
+
 By default, these files are empty but you can copy working "central" files that can be extended for your needs. The content of the files can be larger than the needed packages/compilers, i.e. only the packages /dependencies needed for your installation will be "taken" from these files and the rest will be ignored. Therefore, the UPPMAX staff may update these central files once in a while. 
 
 ### Get templates
