@@ -19,13 +19,13 @@ You have your own instance of Spack but can get a configuration file provided by
 
 You may want to use your project folder if you want your colleagues to be able to run the application. Then change directory to a giood place before installing Spack.
 
-```
+``` console
 $ cd <good place>
 ```
 
 ### Step 1: clone spack
 
-```
+``` console
 $ module load git
 $ git clone -c feature.manyFiles=true https://github.com/spack/spack.git 
 $ cd spack
@@ -33,13 +33,13 @@ $ cd spack
 
 To get version v0.18:
 
-```
+``` console
 $ git checkout releases/v0.18
 ```
 
 Next, add Spack to your path. Spack has some nice command-line integration tools, so instead of simply appending to your PATH variable, source the Spack setup script.
 
-```
+``` console
 $ source <root dir of spack>/spack/share/spack/setup-env.sh
 ```
 
@@ -78,7 +78,7 @@ By default, these files are empty but you can copy working "central" files that 
 
 Do the following to get these templates (be sure to not overwrite old versions of these .yaml files that you configured yourself and might need).
 
-```
+``` console
 $ cp /sw/build/spack/0.17.1/src/spack/share/spack/templates/compilers.yaml ~/.spack/linux/
 $ cp /sw/build/spack/0.17.1/src/spack/share/spack/templates/packages.yaml ~/.spack/linux/
 ```
@@ -86,39 +86,39 @@ $ cp /sw/build/spack/0.17.1/src/spack/share/spack/templates/packages.yaml ~/.spa
 ## Install your program
 Check available software applications via Spack: 
 
-```
+``` console
 $ spack list
 $ spack list <search string>
 ```
 
 Check already installed software applications with spack
 
-```
+``` console
 $ spack find
 $ spack find <search string>
 ```
 
 Some installations won't need any compilers or "large dependencies". The installation is straightforward:
 
-```
+``` console
 $ spack install <tool>
 ```
 
 Example:
 
-```
+``` console
 $ spack install zlib
 ```
 
 In other cases, for larger applications tools that require larger dependencies (that we might already have as modules), watch the installation documentation to see what is needed. Any recommended compiler? You can also check with a "dry run" before installing, to see what Spack "thinks" its needs to install. Use the spec command:
 
-```
+``` console
 $ spack spec -I <tool>
 ```
 
 To check the presently, for Spack, available compilers, type:
 
-```
+``` console
 $ spack compilers
 ```
 
@@ -126,38 +126,38 @@ If your desired compiler is not there you can add it by first loading the module
 
 Example:
 
-```
+``` console
 $ module load intel/20.4
 $ spack compiler add
 ```
 
 You can check if the compiler was added, either in the .spack/linux/compilers.yaml file or directly by:
 
-```
+``` console
 $ spack compilers
 ```
 
 To install a tool with a certain compiler version, if there are several compilers added for Spack, use "%". For specific version of the software tool or package, use "@".
 
-```
+``` console
 $ spack install <tool>%<compiler>@<compiler-version>
 ```
 
 Example:
 
-```
+``` console
 $ spack install zlib%gcc@5.3.0
 ```
 
 Large application tools may take a couple of hours so might be good to run in an interactive session (4 cores, -n 4).
 
-```
+``` console
 $ spack install -j 4 <tool>
 ```
 
 Use dependencies already available from our [environment module system](../cluster_guides/modules.md)) ('module load').
 
-```
+``` console
 $ cat .spack/linux/packages.yaml
 ```
 
@@ -165,7 +165,7 @@ Fill it with text,defining the spack name and lmod module names (be careful with
 Then install you tool, as above.
 To install a specific version of a dependency with Spack, use the command "^":
 
-```
+``` console
 $ spack install <tool>%<compiler>@<compiler-version>^<dependency>@<version>
 ```
 
@@ -179,7 +179,7 @@ Command	|Option
 
 ## Use your tool
 
-```
+``` console
 $ spack load <tool>  
 # module load of the install dependencies will not be needed here, since their paths are integrated in spack
 $ <tool> [<arguments>]
@@ -209,6 +209,6 @@ More to come... Meanwhile:
 ## Garbage collection
 Installing and uninstalling softwares will in the end use up your disk space so it is good practice to do some garbage collection
 
-```
+``` console
 $ spack gc
 ```
