@@ -6,13 +6,13 @@ Spack is a simple package management tool or installer that also installs depend
 
 It offers a simple spec syntax so that users can specify versions and configuration options concisely. Spack is also simple for package authors: package files are written in pure Python, and specs allow package authors to maintain a single file for many different builds of the same package.
 
-Spack documentation
+[Spack documentation](spack.readthedocs.io/en/latest/)
 
 The UPPMAX staff has already other ways to install most software applications. Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild (that the staff can manage centrally). One or the reasons is that SPACK produces very many small files and that having two parallel build systems centrally may make things a little complex.
 
 This guide may change with time. Please come back and see updates.
 
-This version assumes no vailable SPACK module, which may come in the near future. 
+This version assumes no vailable SPACK module, which may come in the near future.
 You have your own instance of Spack but can get a configuration file provided by UPPMAX.
 
 ## First steps: Installing your own instance of SPACK
@@ -107,7 +107,7 @@ $ spack install zlib%gcc@5.3.0
 Large application tools may take a couple of hours so might be good to run in an interactive session (4 cores, -n 4).
 
 $ spack install -j 4 <tool>
-Use dependencies already available from our environment module system ('module load').
+Use dependencies already available from our [environment module system](../cluster_userguide/modules.md)) ('module load').
 
 $ cat .spack/linux/packages.yaml
 Fill it with text,defining the spack name and lmod module names (be careful with indentations)
@@ -117,10 +117,11 @@ To install a specific version of a dependency with Spack, use the command "^":
 $ spack install <tool>%<compiler>@<compiler-version>^<dependency>@<version>
 Here is a summarizing table
 
-Command	Option
-@	Which version
-%	which compiler
-^	which dependency
+|Command	|Option |
+|-|-|
+|@	Which version|
+|%	which compiler|
+|^	which dependency|
 
 ## Use your tool
 $ spack load <tool>  
@@ -130,9 +131,9 @@ $ spack load <tool>
 Develop 
 More to come... Meanwhile: 
 
-Developer guide.
+[Developer guide](spack.readthedocs.io/en/latest/developer_guide.html)
 
-Developer workflows tutorial
+[Developer workflows tutorial](spack-tutorial.readthedocs.io/en/lanl19/tutorial_developer_workflows.html)
 
 The builds are by default located here: 
 
@@ -140,11 +141,11 @@ $ spack-root//opt/spack/linux-centos7-broadwell/<compiler-version>/
 Packages and environments
 More to come... Meanwhile: 
 
-Packaging guide
+[Packaging guide](spack-tutorial.readthedocs.io/en/lanl19/tutorial_developer_workflows.html)
 
-Environments guide
+[Environments guide](spack.readthedocs.io/en/latest/environments.html)
 
-Environments tutorial
+[Environments tutorial](spack-tutorial.readthedocs.io/en/lanl19/tutorial_environments.html)
 
 ## Garbage collection
 Installing and uninstalling softwares will in the end use up your disk space so it is good practice to do some garbage collection
