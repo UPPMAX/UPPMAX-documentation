@@ -43,7 +43,7 @@ Next, add Spack to your path. Spack has some nice command-line integration tools
 $ source <root dir of spack>/spack/share/spack/setup-env.sh
 ```
 
-Adding this line to your ~/.bachrc as well will activate the "spack commands" each time you start a new terminal session.
+Adding this line to your ``~/.bashrc`` as well will activate the "spack commands" each time you start a new terminal session.
 
 ### Orientation of the SPACK files
 
@@ -212,7 +212,7 @@ More to come... Meanwhile:
 
 ## Garbage collection
 
-Installing and uninstalling softwares will in the end use up your disk space so it is good practice to do some garbage collection
+Installing and uninstalling software will in the end use up your disk space so it is good practice to do some garbage collection
 
 ``` console
 $ spack gc
