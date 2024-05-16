@@ -45,7 +45,8 @@ nav:
       - Compiling parallel code: cluster_guides/compiling_parallel.md
       - Debuggers: cluster_guides/debuggers.md
       - Profilers: cluster_guides/profilers.md
-      - Singularity/Apptainer : cluster_guides/singularity.md
+      - Singularity/Apptainer: cluster_guides/singularity.md
+      - Spack: software/spack.md
   - Software:
     - Overview: software/overview.md
     - Software table: software/software-table.md
