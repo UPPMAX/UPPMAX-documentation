@@ -107,7 +107,7 @@ $ spack install zlib%gcc@5.3.0
 Large application tools may take a couple of hours so might be good to run in an interactive session (4 cores, -n 4).
 
 $ spack install -j 4 <tool>
-Use dependencies already available from our [environment module system](../cluster_userguide/modules.md)) ('module load').
+Use dependencies already available from our [environment module system](../cluster_guides/modules.md)) ('module load').
 
 $ cat .spack/linux/packages.yaml
 Fill it with text,defining the spack name and lmod module names (be careful with indentations)
