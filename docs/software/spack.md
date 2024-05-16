@@ -6,7 +6,7 @@ Spack is a simple package management tool or installer that also installs depend
 
 It offers a simple spec syntax so that users can specify versions and configuration options concisely. Spack is also simple for package authors: package files are written in pure Python, and specs allow package authors to maintain a single file for many different builds of the same package.
 
-[Spack documentation](spack.readthedocs.io/en/latest/)
+[Spack documentation](https://spack.readthedocs.io/en/latest/)
 
 The UPPMAX staff has already other ways to install most software applications. Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild (that the staff can manage centrally). One or the reasons is that SPACK produces very many small files and that having two parallel build systems centrally may make things a little complex.
 
