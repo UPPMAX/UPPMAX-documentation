@@ -20,7 +20,7 @@ Bianca is designed to:
 
 ???- info "The Bianca architecture"
 
-    ![The Bianca architecure](./img/bianca_architecture.png)
+    ![The Bianca architecure](../img/bianca_architecture.png)
 
     > Bianca's architecture.
     > Red shows the university networks.
