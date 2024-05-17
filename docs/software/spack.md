@@ -17,7 +17,7 @@ You have your own instance of Spack but can get a configuration file provided by
 
 ## First steps: Installing your own instance of SPACK
 
-You may want to use your project folder if you want your colleagues to be able to run the application. Then change directory to a giood place before installing Spack.
+You may want to use your project folder if you want your colleagues to be able to run the application. Then change directory to a good place before installing Spack.
 
 ``` console
 $ cd <good place>
