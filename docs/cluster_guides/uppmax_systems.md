@@ -206,7 +206,6 @@ Each node contains several CPU/GPU cores, RAM and local storage space.
 A user logs in to a login node via the Internet.
 
 
-
 ## Summary
 
 !!! abstract "keypoints"

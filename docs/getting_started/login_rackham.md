@@ -84,7 +84,6 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     - [Git bash](https://gitforwindows.org/)
 
 
-
 !!! info "Working on Rackham"
     - Now we present alternatives to work on Rackham
 
@@ -134,7 +133,6 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
 
         - *ThinLinc application*
-
 
 
 ## Terminals (see above)
@@ -203,7 +201,6 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     ![Caption](./img/mobax_start.jpg)
 
 
-
 !!! note "X-forwarding from the command line (generally)"
 
     [X forwarding](../software/ssh_x_forwarding.md) allows
@@ -219,7 +216,6 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     <!-- ![Caption](./img/xeyes.png) -->
 
     - Alternatively, use `<ctrl>-z` to put e.g. gedit to sleep and type "`bg`" to make last process in background.
-
 
 
 ???+ question "Test log in to **Rackham**, using your terminal"
@@ -296,8 +292,7 @@ Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://
 - Integrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
 - [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/)
-  - Similar to Rackham. Just change login details!
-
+    - Similar to Rackham. Just change login details!
 
 
 !!! abstract "keypoints"

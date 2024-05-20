@@ -16,4 +16,3 @@ Cluster                                 | Works/fails |Documentation page
 
 - [1] Use [VSCode on Rackham](../cluster_guides/vscode_on_rackham.md) instead
 
-

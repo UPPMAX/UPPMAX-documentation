@@ -37,7 +37,6 @@ The really short description is:
 See the rest of this guide for more information about these steps.
 
 
-
 ## Long version
 
 ???- question "Prefer a video?"
@@ -410,6 +409,4 @@ rm ~/id_ed25519_pdc*
     Check https://www.pdc.kth.se/about/pdc-news if there are any problems with Dardel.
 
     You can do nothing, except wait until Dardel is up again.
-
-
 

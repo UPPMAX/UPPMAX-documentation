@@ -13,7 +13,7 @@ At this page, it is described:
 - [Efficient use](#efficient-use): How to use your resources efficiently
 - [Examples](#examples): Examples of ineffective resource use plots
 - Other `jobstats` functionality
-  - Using `jobstats --help`
+    - Using `jobstats --help`
 
 ## `jobstats --plot`
 

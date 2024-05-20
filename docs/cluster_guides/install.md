@@ -9,7 +9,7 @@
 - check with: ``$ ml avail gcc`` and ``$ ml avail intel``
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
-  - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
+    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
 
 
 ## Packages and libraries to scripting programs
@@ -54,8 +54,8 @@
 
 - On UPPMAX the module ``R_packages`` is an omnibus package library containing almost all packages in the CRAN and BioConductor repositories.
 - As of 2023-05-31, there were a total of 23100 R packages installed in ``R_packages/4.2.1``.
-  - A total of 23109 packages were available in CRAN and BioConductor, and 23000 of these were installed in ``R_packages/4.2.1``
-  - The additional 100 R packages available in this module were installed from the CRAN/BioConductor archives, or were hosted on github, gitlab or elsewhere.
+    - A total of 23109 packages were available in CRAN and BioConductor, and 23000 of these were installed in ``R_packages/4.2.1``
+    - The additional 100 R packages available in this module were installed from the CRAN/BioConductor archives, or were hosted on github, gitlab or elsewhere.
 
 - [Installing R packages](../software/r.md)
 
@@ -112,7 +112,7 @@ Docker will unfortunately not work on the clusters, since it requires root permi
 - You may have your own code that you want to run on UPPMAX.
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
-  - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
+    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
 - [User guide for debuggers](../cluster_guides/debuggers.md)
 - [User guide for profilers](../cluster_guides/profilers.md)
 

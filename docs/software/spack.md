@@ -58,7 +58,7 @@ The Spack oriented files are stored in two places:
         - share       documentation, scripts etc...
         - var        other settings
         - opt        produced after first installation, contains all packages (tools, dependencies and libraries)
-             - tools are found in a tree: ...opt/spack/linux-<arch>/<compiler>/tool/
+            - tools are found in a tree: .`..opt/spack/linux-<arch>/<compiler>/tool/`
 - .spack
     - local config and packages files
     - directories (important in bold)
@@ -68,7 +68,7 @@ The Spack oriented files are stored in two places:
         - linux
             - ​compilers.yaml
             - packages.yaml
-         
+
 
 The .yaml files in the .spack/linux directory contains information which tolls you want to include from the UPPMAX system.
 
@@ -175,7 +175,7 @@ $ spack install <tool>%<compiler>@<compiler-version>^<dependency>@<version>
 
 Here is a summarizing table
 
-Command	|Option
+Command |Option
 -|-
 @|Which version
 %|which compiler

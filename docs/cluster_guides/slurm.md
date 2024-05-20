@@ -153,8 +153,6 @@ Here, two cores are used.
     ```
 
 
-
-
 This is especially important if you might adjust core usage
 of the job to be something less than a full node.
 
@@ -170,7 +168,6 @@ to ensure that only 8 cores (less than a single node) are allocated for such a j
 ### The `devel` partition
 
 ### The `devcore` partition
-
 
 
 ### Specifying job parameters

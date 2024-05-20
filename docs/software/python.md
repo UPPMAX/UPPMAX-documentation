@@ -549,4 +549,3 @@ is described [here](python_parallel_jobs.md).
 - [UPPMAX TensorFlow guide](tensorflow.md)
 - [UPPMAX PyTorch guide](pytorch.md)
 
-

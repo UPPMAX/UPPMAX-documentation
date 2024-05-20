@@ -147,7 +147,6 @@ to work with it again.
 ## Export and import a virtual environment
 
 
-
 ### Export
 
 To export the Python packages used in your virtual environment, do:

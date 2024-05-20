@@ -14,8 +14,8 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 - [The two Bianca environments](#the-two-bianca-environments) shows the two ways to use Bianca
 - [Get within the university networks](#get-within-the-university-networks) shows how *to be allowed to* access Bianca
 - [Get inside the Bianca environment](#get-inside-the-bianca-environment) show how to get inside the Bianca environments:
-  - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
-  - [Login to the Bianca console environment](#login-to-the-bianca-console-environment)
+    - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
+    - [Login to the Bianca console environment](#login-to-the-bianca-console-environment)
 
 ## Prerequisites for using Bianca
 

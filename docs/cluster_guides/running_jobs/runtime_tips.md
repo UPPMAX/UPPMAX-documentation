@@ -120,7 +120,6 @@
     - [More about interactive](interactive_more.md)
 
 
-
 ## Related to Batch jobs
 
 
@@ -200,7 +199,6 @@
         - USS is the total memory used by the user without shared buffers or caches.
         - RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory.
         - And then there's also the PSS figure which tries to calculate a proportional memory usage per user for all shared memory buffers and caches (i.e. the figure will fall between USS and RSS).
-
 
 
 ???- question "My job has very low priority! What can be wrong?"
