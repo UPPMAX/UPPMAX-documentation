@@ -2,7 +2,7 @@
 
 Thanks for considering to contribute and reading this!
 
-Here we discuss how to contribute 
+Here we discuss how to contribute
 
 - [spoken text](#spoken-text), e.g. ideas, feedback, messages, etc. and are written in English.
 - [code](#code), e.g. textual changes where the text is formatted in Markdown
