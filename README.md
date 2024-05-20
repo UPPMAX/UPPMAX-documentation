@@ -7,18 +7,9 @@
 This repository contains the source code for the [UPPMAX
 documentation](https://uppmax.github.io/UPPMAX-documentation/)
 
-## Contributing
+## [Contributing](CONTRIBUTING.md)
 
-Everyone is welcome to contribute either by creating a new issue or solving an
-[existing one](https://github.com/UPPMAX/UPPMAX-documentation/issues) by submitting
-a pull request. The recommended workflow for collaborators when working on an
-issue is to:
-
-1. Clone the [repository](https://github.com/UPPMAX/UPPMAX-documentation/issues)
-2. Create a new branch where you add your changes
-3. Push and submit a pull request
-4. If the change is accepted after review it will be merged into the main
-   branch
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Working on the documentation locally
 

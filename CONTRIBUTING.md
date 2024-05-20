@@ -23,5 +23,13 @@ We welcome any contribution that:
 - improves the experience of UPPMAX users trying to use our resources
 - follow all standards set by the continuous integration tools (e.g. use 4 spaces for indentation)
 
-One can contribute by creating a Pull Request to `main`.
+One can contribute by:
+
+1. Fork this repository
+1. Change your Fork of this repository
+1. When done, creating a Pull Request from your Fork to this repository,
+   merging to the `main` branch is fine :-)
+1. If the change is accepted after review it will be merged into the main branch
+   
+
 
