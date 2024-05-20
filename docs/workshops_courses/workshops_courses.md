@@ -3,8 +3,8 @@
 ## Course pages
 
 - Intro to UPPMAX:
-  - [First intro day](https://uppmax.github.io/uppmax_intro/)
-  - [Intro to Python](https://uppmax.github.io/uppmax_intro_python/)
+    - [First intro day](https://uppmax.github.io/uppmax_intro/)
+    - [Intro to Python](https://uppmax.github.io/uppmax_intro_python/)
 - [Introduction to Bianca](https://uppmax.github.io/bianca_workshop)
 - [HPC-Python](https://uppmax.github.io/HPC-python/index.html)
 - [Introduction to running R, Python, and Julia in HPC](https://uppmax.github.io/R-python-julia-HPC/index.html)
