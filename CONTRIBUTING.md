@@ -30,6 +30,4 @@ One can contribute by:
 1. When done, creating a Pull Request from your Fork to this repository,
    merging to the `main` branch is fine :-)
 1. If the change is accepted after review it will be merged into the main branch
-   
-
 
