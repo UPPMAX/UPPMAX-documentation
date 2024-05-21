@@ -34,7 +34,7 @@ On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to 
 ssh [username]@transit.uppmax.uu.se
 ```
 
-where 
+where
 
 - `[username]` is your UPPMAX username
 
