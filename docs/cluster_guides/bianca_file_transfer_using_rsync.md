@@ -3,6 +3,11 @@
 [rsync](../software/rsync.md) is a tool [to do file transfer to/from Bianca](transfer_bianca.md),
 that works under Linux, Mac and Windows.
 
+???- question "Prefer a video?"
+
+    Watch [this video](https://youtu.be/QlGhgPm_h7I)
+    to see the procedure below as a video.
+
 To transfer files to/from Bianca using [rsync](../software/rsync.md), do the following steps:
 
 ```mermaid
@@ -17,6 +22,7 @@ flowchart TD
   bianca --> |5. rsync| local_computer
   transit --> |3. mount| bianca
 ```
+
 
 ## 1. Get inside SUNET
 
