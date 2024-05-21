@@ -49,7 +49,7 @@ When asked for a password, use your UPPMAX password (without 2FA).
 See [Log in to transit](login_transit.md) for more details
 on how to log in to [Transit](transit.md).
 
-## 3. Mount Bianca
+## 3. Mount a Bianca project
 
 On transit, mount the wharf of your Bianca project:
 
@@ -83,7 +83,10 @@ for example:
 mount_wharf sens2016001
 ```
 
-The password here is your UPPMAX password and your UPPMAX 2FA.
+The password is your normal UPPMAX password directly followed by
+the six digits from the [the `UPPMAX` 2-factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor).
+For example, if your password is `VerySecret` and the second factor code is `123456`
+you would type `VerySecret123456` as the password in this step.
 
 Now a folder called `sens2016001` is created.
 
