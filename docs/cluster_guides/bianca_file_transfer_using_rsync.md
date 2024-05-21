@@ -1,6 +1,6 @@
 # File transfer to/from Bianca using rsync
 
-[rsync](../software/rsync.md) is a tool [to do file transfer to/from Bianca](bianca_file_transfer.md),
+[rsync](../software/rsync.md) is a tool [to do file transfer to/from Bianca](transfer_bianca.md),
 that works under Linux, Mac and Windows.
 
 To transfer files to/from Bianca using [rsync](../software/rsync.md), do the following steps:
