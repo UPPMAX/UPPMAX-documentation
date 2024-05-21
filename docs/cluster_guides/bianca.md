@@ -22,4 +22,5 @@ suitable for working with sensitive data.
 - [Workshops and courses](../workshops_courses/workshops_courses.md)
 - NAISS-sens
 - Best practices
+    - [Git on Bianca](git_on_bianca.md)) 
 - Bianca installation guides
