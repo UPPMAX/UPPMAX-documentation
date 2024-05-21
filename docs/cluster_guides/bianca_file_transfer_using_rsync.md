@@ -161,7 +161,7 @@ You can transfer files from Bianca to your local computer by:
 On your local computer, do:
 
 ```bash
-rsync --recursive [username]@transit.uppmax.uu.se:[project_id]:/[file_in_wharf] .
+rsync [username]@transit.uppmax.uu.se:[project_id]/[file_in_wharf] .
 ```
 
 where
@@ -174,7 +174,7 @@ where
 for example:
 
 ```bash
-rsync --recursive richel@transit.uppmax.uu.se:sens2016001:/my_file_in_wharf.txt .
+rsync richel@transit.uppmax.uu.se:sens2016001/my_file_in_wharf.txt .
 ```
 
 To copy the individual files in your wharf to your local computer.
@@ -209,4 +209,6 @@ for example:
 rsync --recursive richel@transit.uppmax.uu.se:sens2016001 .
 ```
 
-To copy all folders in wharf to your local computer.
+To your wharf folder to your local computer.
+The folder created on your local computer will be called `[project_id]`,
+for example, `sens2016001`.
