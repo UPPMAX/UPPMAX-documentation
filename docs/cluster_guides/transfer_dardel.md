@@ -26,7 +26,7 @@ flowchart TD
   get_pdc_account[2. Access to a PDC account]
   create_ssh_key[3. Create SSH key pair on Rackham]
   add_ssh_key[4. Add public SSH key to PDC Login Portal]
-  transfer_files[5. Tranfer files to Dardel]
+  transfer_files[5. Transfer files to Dardel]
 
   get_supr_project --> |requires| get_pdc_account
   create_ssh_key --> |requires| add_ssh_key

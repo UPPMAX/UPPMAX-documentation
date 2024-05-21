@@ -85,9 +85,41 @@ The password here is your UPPMAX password and your UPPMAX 2FA.
 
 Now a folder called `sens2016001` is created.
 
-## 4. Tranfer files to Bianca
+## 4. Transfer files to Bianca
 
-On local computer:
+You can transfer files to Bianca by:
+
+- [4a. Transfer individual files to Bianca](#4a-transfer-individual-files-to-bianca)
+- [4b. Transfer all files in a folder to Bianca](#4b-transfer-all-files-in-a-folder-to-bianca)
+
+### 4a. Transfer individual files to Bianca
+
+On local computer, do:
+
+```bash
+rsync [my_local_file] [username]@transit.uppmax.uu.se:[project_id]
+```
+
+where
+
+- `[my_local_file]` is the path to your local file
+- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[username]` is your UPPMAX username
+
+for example:
+
+```bash
+rsync my_local_file.txt richel@transit.uppmax.uu.se:sens2016001
+```
+
+No need to specify the path to the mounted folder, if defaults are used.
+
+The files can now be found in [your wharf folder](wharf.md).
+
+
+### 4b. Transfer all files in a folder to Bianca
+
+On local computer, do:
 
 ```bash
 rsync --recursive my_folder [username]@transit.uppmax.uu.se:[project_id]
@@ -110,23 +142,49 @@ The files can now be found in [your wharf folder](wharf.md).
 
 ## 5. Transfer files from Bianca to you local computer
 
+!!! note "Be responsible with sensitive data"
+
+    This command below will copy data from Bianca to your local computer.
+
+You can transfer files from Bianca to your local computer by:
+
+- [5a. Transfer individual files from Bianca to your local computer](#5a-transfer-individual-files-from-bianca-to-your-local-computer)
+- [5b. Transfer all folders from Bianca to you local computer](#5b-transfer-all-folders-from-bianca-to-you-local-computer)
+
+## 5a. Transfer individual files from Bianca to your local computer
+
+On your local computer, do:
+
+```bash
+rsync --recursive [username]@transit.uppmax.uu.se:[project_id]:/[file_in_wharf] .
+```
+
+where
+
+- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[username]` is your UPPMAX username
+- `[file_in_wharf]` is the name of the file in `wharf`
+- `.` means 'in the current folder of my local computer' or 'here'
+
+for example:
+
+```bash
+rsync --recursive richel@transit.uppmax.uu.se:sens2016001:/my_file_in_wharf.txt .
+```
+
+To copy the individual files in your wharf to your local computer.
+
+## 5b. Transfer all folders from Bianca to you local computer
+
 !!! note "This will copy all folders in your wharf"
 
     This command below will copy all folders in your [wharf](wharf.md) folder
     to your local computer.
 
-    This assumes that:
+    This assumes that there is few data in your [wharf](wharf.md) folder.
 
-    - there is no sensitive data in your [wharf](wharf.md) folder
-    - there is few data in your [wharf](wharf.md) folder
-
-    We assume:
-
-    - you know how to handle sensitive data
-    - your follow good [wharf](wharf.md) hygiene, 
-      i.e. your [wharf](wharf.md) folder is mostly empty most of the time
-
-    Hence, the commands below are great!
+    We assume your follow good [wharf](wharf.md) hygiene, 
+    i.e. your [wharf](wharf.md) folder is mostly empty most of the time.
 
 On your local computer, do:
 
