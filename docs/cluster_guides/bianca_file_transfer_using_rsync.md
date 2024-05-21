@@ -44,6 +44,8 @@ For example:
 ssh richel@transit.uppmax.uu.se
 ```
 
+When asked for a password, use your UPPMAX password (without 2FA).
+
 See [Log in to transit](login_transit.md) for more details
 on how to log in to [Transit](transit.md).
 
