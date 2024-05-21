@@ -32,7 +32,8 @@ There are multiple ways to transfer files to/from Bianca:
 Method                                                                            |Features
 ----------------------------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)                           |Graphical interface, intuitive, for small amounts of data only
-[Using `sftp`](#using-sftp)                                                       |Terminal, easy to learn, terminal-based, can use terminal commands to select files
+[Using `rsync`](#using-rsync)                                                     |Terminal, recommended
+[Using `sftp`](#using-sftp)                                                       |Terminal, easy to learn, can use terminal commands to select files
 [Using `lftp`](#using-lftp)                                                       |Terminal
 Transit server from/to Rackham, see below                                         |Terminal, can be used to transfer data between clusters in general
 [Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer) |Both graphical and terminal, need a computer with `sshfs` installed
@@ -58,6 +59,11 @@ See [using `sftp` with Bianca](sftp_with_bianca.md).
 
 `sftp` is a terminal SFTP client to transfer files to/from Bianca.
 See [using `lftp` with Bianca](lftp_with_bianca.md).
+
+## Using `rsync`
+
+[rsync](../software/rsync.md) is a terminal program to transfer files to/from Bianca.
+See [Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md).
 
 ## Transit server
 
