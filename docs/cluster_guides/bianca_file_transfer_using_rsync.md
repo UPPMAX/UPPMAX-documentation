@@ -14,6 +14,7 @@ flowchart TD
   local_computer_ourside_sunet --> |1. Get inside SUNET|local_computer
   local_computer --> |2. login| transit
   local_computer --> |4. rsync| bianca
+  bianca --> |5. rsync| local_computer
   transit --> |3. mount| bianca
 ```
 
@@ -76,3 +77,14 @@ rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001
 No need to specify the path to the mounted folder, if defaults are used.
 
 The files can now be found in [your wharf folder](wharf.md).
+
+## 5. Tranfer files from Bianca to you local computer
+
+On local computer, do:
+
+```
+rsync --recursive richel@transit.uppmax.uu.se:sens2016001 .
+```
+
+To copy all folders in wharf to your local computer.
+
