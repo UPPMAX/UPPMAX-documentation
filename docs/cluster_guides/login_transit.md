@@ -42,4 +42,21 @@ it to your list of known hosts. Type `yes`.
 
 You are now logged in to Transit!
 
-![Logged in to Transit](./img/logged_in_transit.png)
+???- question "How does that look like?"
+
+    ```
+    richel@richel-N141CU:~/GitHubs/UPPMAX-documentation/docs/cluster_guides$ ssh richel@transit.uppmax.uu.se
+    richel@transit.uppmax.uu.se's password: 
+    Last login: Tue May 14 07:32:22 2024 from vpnpool188-185.anst.uu.se
+
+    Transit server
+
+    You can mount bianca wharf with the command
+
+    mount_wharf PROJECT [path]
+
+    If you do not give a path the mount will show up as PROJECT in your home
+    directory.
+
+    Note; any chagnes you do to your normal home directory will not persist.
+    ```

@@ -13,9 +13,8 @@ flowchart TD
   bianca[Bianca]
   local_computer_ourside_sunet --> |1. Get inside SUNET|local_computer
   local_computer --> |2. login| transit
-  local_computer --> |4. rsync| transit
+  local_computer --> |4. rsync| bianca
   transit --> |3. mount| bianca
-  transit --> |5. rsync| bianca
 ```
 
 ## 1. Get inside SUNET
@@ -37,7 +36,7 @@ ssh [username]@transit.uppmax.uu.se
 where `[username]` is your UPPMAX username, for example:
 
 ```bash
-ssh sven@transit.uppmax.uu.se
+ssh richel@transit.uppmax.uu.se
 ```
 
 See [Log in to transit](login_transit.md) for more details 
@@ -59,34 +58,21 @@ where
 for example:
 
 ```
-mount_wharf richel-sens2016001
-mount_wharf richel-sens2016001 .
-mount_wharf richel-sens2016001 my_mount_to_sens2016001
+mount_wharf sens2016001
 ```
 
-## 4. Tranfer files to transit
+The password here is your UPPMAX password and your UPPMAX 2FA.
 
-?Directly to Bianca:
+Now a folder called `sens2016001` is created.
 
-```
-rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001/my_mount_to_sens2016001
-```
+## 4. Tranfer files to Bianca
 
-To Transit:
+On local computer:
 
 ```
-rsync -avh [my_local_folder] richel@transit.uppmax.uu.se:sens2016001/
-rsync --recursive [folder_name] [user_name]@rackham.uppmax.uu.se:/home/[user_name]/
-rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001/
-
-rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001/my_mount_to_sens2016001
+rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001
 ```
 
-To Bianca:
+No need to specify the path to the mounted folder, if defaults are used.
 
-```
-rsync --recursive my_folder my_mount_to_sens2016001
-
-```
-
-
+The files can now be found in [your wharf folder](wharf.md).
