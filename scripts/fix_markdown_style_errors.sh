@@ -19,24 +19,4 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-#
-# This is too powerful, as it unindents:
-#
-#########################################
-# ???- question "A question?"
-#
-#     Some text that needs to be indented
-#########################################
-#
-# to
-#
-#########################################
-# ???- question "A question?"
-#
-# Some text that needs to be indented
-#########################################
-#
-
-# markdownlint --fix '**/*.md' --ignore node_modules --fix
-
-# ./scripts/remove_trailing_spaces.sh
+markdownlint --fix "**/*.md"
