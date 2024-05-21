@@ -108,7 +108,25 @@ No need to specify the path to the mounted folder, if defaults are used.
 
 The files can now be found in [your wharf folder](wharf.md).
 
-## 5. Tranfer files from Bianca to you local computer
+## 5. Transfer files from Bianca to you local computer
+
+!!! note "This will copy all folders in your wharf"
+
+    This command below will copy all folders in your [wharf](wharf.md) folder
+    to your local computer.
+
+    This assumes that:
+
+    - there is no sensitive data in your [wharf](wharf.md) folder
+    - there is few data in your [wharf](wharf.md) folder
+
+    We assume:
+
+    - you know how to handle sensitive data
+    - your follow good [wharf](wharf.md) hygiene, 
+      i.e. your [wharf](wharf.md) folder is mostly empty most of the time
+
+    Hence, the commands below are great!
 
 On your local computer, do:
 
