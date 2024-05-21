@@ -106,16 +106,16 @@ For secure file transfer, Bianca supports the SFTP protocol.
 So, for secure file transfer to Bianca, one needs a tool
 that supports SFTP.
 
-???- warning "Use SFTP ... and why SCP will never work"
+???- warning "Use SFTP ... and why users think incorrectly that SCP will work"
 
-    You must use SFTP.
+    Only SFTP will work. SCP will never work. 
 
-    However, some users find tools that support
-    another protocol called 'SCP'.
-    We understand the confusion, due
-    to the many technical and abbreviated terms.
+    However, some users use tools that support SFTP,
+    yet that have 'SCP' in the name, for example, 'WinSCP'.
+    As users hear from colleagues that the tool 'WinSCP' works, 
+    they may incorrectly conclude that SCP will work.
 
-    Only SFTP will work.
+    SCP will never work. Only SFTP will work.
 
 Whatever tool one picks, additionally, the tool must **not** store a password.
 Due to security reasons, one needs to connect to Bianca using a password
