@@ -40,14 +40,14 @@ where `[username]` is your UPPMAX username, for example:
 ssh richel@transit.uppmax.uu.se
 ```
 
-See [Log in to transit](login_transit.md) for more details 
+See [Log in to transit](login_transit.md) for more details
 on how to log in to [Transit](transit.md).
 
 ## 3. Mount Bianca
 
 On transit, mount the wharf of your Bianca project:
 
-```
+```bash
 mount_wharf [project_id] [path]
 ```
 
@@ -58,7 +58,7 @@ where
 
 for example:
 
-```
+```bash
 mount_wharf sens2016001
 ```
 
@@ -70,7 +70,7 @@ Now a folder called `sens2016001` is created.
 
 On local computer:
 
-```
+```bash
 rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001
 ```
 
@@ -82,7 +82,7 @@ The files can now be found in [your wharf folder](wharf.md).
 
 On local computer, do:
 
-```
+```bash
 rsync --recursive richel@transit.uppmax.uu.se:sens2016001 .
 ```
 
