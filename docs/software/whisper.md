@@ -33,7 +33,7 @@ Whisper can also be run as a command-line tool or as a Python library.
 ### GUI
 
 1. Login to [Rackham](https://rackham-gui.uppmax.uu.se/) or [Bianca](https://bianca.uppmax.uu.se/) via ThinLinc.
-2. Load Whisper module as instructed in [Module Loading](http://docs.uppmax.uu.se/software/whisper/#module-loading) section.
+2. Load Whisper-gui module as instructed in [Module Loading](http://docs.uppmax.uu.se/software/whisper/#module-loading) section.
 3. Transfer your data from your local machine to Wharf ([WinSCP](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#winscp-windows) client, [FileZilla](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#filezilla-linuxmacoswindows) client or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/)) and then to your project folder (Bianca: `/cygnus/proj/`) .
 4. Go to your project folder where you will also find `whisper-gui.sh` file, right click inside this folder and select "Open Terminal Here" and run the following command: `./whisper-gui.sh &`. This will run the Whisper service.
 5. Select appropriate options, or use the following for the best results:
