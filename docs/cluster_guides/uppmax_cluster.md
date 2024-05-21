@@ -104,28 +104,15 @@ A user logs in to a login node via the Internet.
 ```mermaid
 flowchart TD
 
-    %% Give a white background to all nodes, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
-    %% Graph nodes for files and calculations
-    classDef file_node fill:#fcf,color:#000,stroke:#f0f
-    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
-
     subgraph sub_inside[IP inside SUNET]
       subgraph sub_bianca_shared_env[Bianca shared network]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           login_node(User on login node)
           interactive_node(User on interactive node)
-          computation_node(Computation node):::calculation_node
+          computation_node(Computation node)
         end
       end
     end
-
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     login_node --> |move user, interative|interactive_node
     login_node --> |submit jobs, sbatch|computation_node
@@ -133,8 +120,6 @@ flowchart TD
 ```
 
 > The different types of nodes an UPPMAX cluster has.
-> White nodes: nodes a user can interact with.
-> Blue nodes: nodes a user cannot interact with.
 
 ## Difference between a supercomputer and a (high-performing) computer cluster
 
