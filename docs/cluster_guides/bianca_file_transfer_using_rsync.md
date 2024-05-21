@@ -34,7 +34,11 @@ On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to 
 ssh [username]@transit.uppmax.uu.se
 ```
 
-where `[username]` is your UPPMAX username, for example:
+where 
+
+- `[username]` is your UPPMAX username
+
+For example:
 
 ```bash
 ssh richel@transit.uppmax.uu.se
@@ -48,13 +52,28 @@ on how to log in to [Transit](transit.md).
 On transit, mount the wharf of your Bianca project:
 
 ```bash
-mount_wharf [project_id] [path]
+mount_wharf [project_id]
 ```
 
 where
 
 - `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-- `[path]` is the path of your mount
+
+
+???- question "What about the `[path]` argument?"
+
+    Well spotted!
+
+    Indeed, the Transit server gives these arguments:
+
+    ```bash
+    mount_wharf [project_id] [path]
+    ```
+
+    However, the `[path]` argument is optional: if not
+    given, a default will be used. 
+    
+    To simplify matters, here we use the default.
 
 for example:
 
@@ -71,6 +90,17 @@ Now a folder called `sens2016001` is created.
 On local computer:
 
 ```bash
+rsync --recursive my_folder [username]@transit.uppmax.uu.se:[project_id]
+```
+
+where
+
+- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[username]` is your UPPMAX username
+
+for example:
+
+```bash
 rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001
 ```
 
@@ -80,11 +110,22 @@ The files can now be found in [your wharf folder](wharf.md).
 
 ## 5. Tranfer files from Bianca to you local computer
 
-On local computer, do:
+On your local computer, do:
+
+```bash
+rsync --recursive [username]@transit.uppmax.uu.se:[project_id] .
+```
+
+where
+
+- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[username]` is your UPPMAX username
+- `.` means 'in the current folder of my local computer' or 'here'
+
+for example:
 
 ```bash
 rsync --recursive richel@transit.uppmax.uu.se:sens2016001 .
 ```
 
 To copy all folders in wharf to your local computer.
-
