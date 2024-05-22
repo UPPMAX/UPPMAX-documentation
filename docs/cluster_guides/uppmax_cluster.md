@@ -236,7 +236,7 @@ accident is required by law.
 
 This is a technical summary of the UPPMAX clusters:
 
-.                       |Rackham        |Snowy                     |Bianca                   
+.                       |Rackham        |Snowy                     |Bianca
 ------------------------|---------------|--------------------------|-------------------------
 **Purpose**             |General-purpose|General-purpose           |Sensitive
 **# Intel CPU Nodes**   |486+144        |228                       |288
