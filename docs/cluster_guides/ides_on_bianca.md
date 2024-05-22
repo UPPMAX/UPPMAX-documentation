@@ -31,9 +31,10 @@ Here we show how to use some [IDEs](../software/ides.md) on Bianca.
 
 Here are step-by-step guides to start these IDEs on Rackham:
 
-IDE                                     |Languages
-----------------------------------------|----------------
-[Jupyter](../software/jupyter.md)       |Python
-[RStudio](rstudio_on_bianca.md)         |R
-:no_entry: [VSCode](vscode_on_bianca.md)|General-purpose
-[VSCodium](vscodium_on_bianca.md)       |General-purpose
+IDE                                     |Languages       |Screenshot
+----------------------------------------|----------------|-----------------------
+[Jupyter](../software/jupyter.md)       |Python          |No screenshot available
+[RStudio](rstudio_on_bianca.md)         |R               |![RStudio on Bianca](./img/rstudio_in_action_480_x_270.png)
+:no_entry: [VSCode](vscode_on_bianca.md)|General-purpose |Impossible
+[VSCodium](vscodium_on_bianca.md)       |General-purpose |![VSCodium running on Bianca](./img/vscodium_on_bianca_480_x_270.png)
+
