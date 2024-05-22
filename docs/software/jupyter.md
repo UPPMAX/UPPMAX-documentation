@@ -1,7 +1,7 @@
 # Jupyter
 
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
-among other [Jupyter](../software/jupyter.md). 
+among other [Jupyter](../software/jupyter.md).
 Here we describe how to run [Jupyter](../software/jupyter.md).
 
 Jupyter is an [IDE](../software/ides.md) specialized for [the Python programming language](../software/python.md).
