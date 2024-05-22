@@ -10,7 +10,7 @@
 ## Introduction
 
 There are multiple [IDEs on Bianca](../cluster_guides/ides_on_bianca.md),
-among other [VSCodium](../software/vscodium.md). 
+among other [VSCodium](../software/vscodium.md).
 Here we discuss that running [VSCode](../software/vscode.md)
 on [Bianca](../cluster_guides/bianca.md) will fail.
 
