@@ -11,7 +11,7 @@ This will **not** work on **Bianca** for security reasons.
 
 ## Control access
 
-- A subset of [.htaccess](httpd.apache.org/docs/current/howto/htaccess.html)/[.htpasswd](httpd.apache.org/docs/2.4/programs/htpasswd.html) functionality is available to control access.
+- A subset of [.htaccess](https://httpd.apache.org/docs/current/howto/htaccess.html)/[.htpasswd](https://httpd.apache.org/docs/2.4/programs/htpasswd.html) functionality is available to control access.
 
 - Example:
     - ``/crex/proj/naiss2024-1-123/webexport/Project_portal/.htaccess``
