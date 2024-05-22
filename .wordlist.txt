@@ -3376,3 +3376,5 @@ gc
 manyFiles
 repo
 src
+Bitbucket
+else's
