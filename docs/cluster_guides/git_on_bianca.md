@@ -114,7 +114,7 @@ If you are a collaborator on a software you will need to do both pulling and pus
 The general approach to using git as a collaborator with GitHub on Bianca is:
 
 1. On Bianca: make a backup of your code directory.
-1. On Bianca: move the enitre code directory to the wharf folder.
+1. On Bianca: move the entire code directory to the wharf folder.
 1. On Rackham: mount the wharf directory.
 1. On Rackham: change the git remote url to GitHub’s URL.
 1. On Rackham: pull and push from GitHub.
