@@ -28,6 +28,7 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
     - :no_entry: [VSCodium](vscodium_on_rackham.md)
 - Isolated environments
     - [venv](venv_on_rackham.md)
+- [Run webexport](webexport.md)
 - Best practices
 - Rackham installation guides
 - Rackham workshops
