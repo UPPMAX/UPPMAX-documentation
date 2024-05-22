@@ -7,7 +7,7 @@
 ## Introduction
 
 There are multiple [IDEs on Bianca](../cluster_guides/ides_on_bianca.md),
-among other [VSCodium](../software/vscodium.md). 
+among other [VSCodium](../software/vscodium.md).
 Here we discuss how to run [VSCodium](../software/vscodium.md)
 on [Bianca](../cluster_guides/bianca.md).
 
