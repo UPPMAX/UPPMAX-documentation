@@ -13,7 +13,7 @@
 
 - Example:
   
-  - /crex/proj/[naiss2024-1-123]/webexport/[site name]/.htaccess
-  - /crex/proj/[naiss2024-1-123]/[user dir]/.htpasswd
+  - ``/crex/proj/naiss2024-1-123/webexport/Project_portal/.htaccess``
+  - ``/crex/proj/naiss2024-1-123/Nisse/.htpasswd``
 
   - Note that you need the full physical ``/crex/proj...`` path. This full path is given from the `command, ``pwd -P``.
