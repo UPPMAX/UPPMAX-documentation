@@ -43,7 +43,7 @@ $ jupyter-lab --ip 0.0.0.0 --no-browser
 - `<ctrl-z>`
 - `bg`
 - `firefox <URL> &`
-    - Example firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &
+    - Example ``firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &``
 
 - You can browse in jupyter to a test notebook in ``/proj/workshop/Jupyter-demo/Test-01.ipynb``
 
