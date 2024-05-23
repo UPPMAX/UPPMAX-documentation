@@ -1,10 +1,7 @@
 # What do the fields PRIORITY and REASON mean in "jobinfo" output?
 
-???- info "For UPPMAX staff"
 
-    TODO: InfoGlue link: `https://www.uppmax.uu.se/support/faq/running-jobs-faq/your-priority-in-the-waiting-job-queue/`
-
-Initial priority, at submit time
+## Initial priority, at submit time
 
 One of the columns in "jobinfo" output is named PRIORITY. The queue is sorted on priority, i.e. normally the job with the highest priority starts first, so this is an important parameter.
 
@@ -19,12 +16,14 @@ For every minute waiting in queue, a job gets a priority increase of approximate
 
 Now the waiting for each kind of jobs will be described: For high-priority jobs, bonus jobs and normal jobs.
 
-High-priority job
+### High-priority job
+
 Getting a high priority, i.e. a priority higher than 210000, already at submit time, this job will probably start quickly.
 
 The priority value will slowly increase, for each minute passing, until the job starts.
 
-Bonus job
+### Bonus job
+
 Getting a low priority already at submit time, this job may have to wait a long time before starting. It is very difficult to estimate the waiting time, because all new high-priority and normal jobs will have a higher priority.
 
 At night or during next weekend, this job may be lucky and start. Waiting long enough, the monthly allocation of the project will not be overdrafted any longer, and the job automatically converted to a normal job.
@@ -33,7 +32,8 @@ The priority value will slowly increase, for each minute passing, until the job 
 
 Once the job has started, it will be treated like any other job.
 
-Normal job
+### Normal job
+
 A normal job, starting at priority 100000, increases slowly in priority and may eventually start at a priority a little above 100000.
 
 But more likely, something else will happen to it before that: It will be elevated to a higher starting priority: 190000. At the same time it loses the extra priority it accumulated while waiting at the priority 100000 level.
@@ -54,7 +54,8 @@ At least one job per user is elevated, regardless of size and regardless of the 
 The elevated jobs of a user must not together ask for more than 64 cores.
 The elevated jobs of a user must not together ask for more than 2688 core hours, i.e. 112 core days.
 
-How does SLURM decide what job to start next?
+## How does SLURM decide what job to start next?
+
 When there are free nodes, an approximate model of SLURM's behaviour is this:
 
 Step 1: Can the job in position one start now?
@@ -65,7 +66,8 @@ Step 5: If it can, remove it from the queue, start it, recalculate what nodes ar
 Step 6: If it can not, look at next job, and continue with step 4.
 As soon as a new job is submitted and as soon as a job finishes, SLURM restarts with step 1, so most of the time only jobs at the top of the queue are tested for the possibility to start it. As a side effect of this restart behaviour, START_TIME approximations are normally NOT CALCULATED FOR ALL JOBS.
 
-More about other jobinfo columns for waiting jobs
+## More about other jobinfo columns for waiting jobs
+
 Until now, we have looked into the PRIORITY and USER columns. Let us talk about some of the others, for waiting jobs:
 
 JOBID: This is the best way to identify a job in a unique way. If you succeed to submit a job, it gets a jobID. The jobID of your finished jobs can be found with the finishedjobinfo command.
