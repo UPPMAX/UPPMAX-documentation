@@ -28,24 +28,22 @@ Start a notebook like this:
 
 ```bash
 $ module load python/<version>
-$ jupyter-notebook
+$ jupyter-notebook --ip 0.0.0.0 --no-browser
 ```
 
 or jupyter lab:
 
 ``` bash
-$ jupyter-lab
+$ jupyter-lab --ip 0.0.0.0 --no-browser
 ```
 
-A local Firefox session (not a internet web page!)
-should start with the Jupyter notebook/lab interface.
+- copy-paste one of the URL addresses from the jupyter output in the terminal into the address files in the open ``firefox`` session.
 
-- If not, make Jupyter work in background, start Firefox and paste the address.
+- Make Jupyter work in background, start Firefox with the copied URL address.
 - `<ctrl-z>`
 - `bg`
-- `firefox &`
-
-- copy-paste one of the addresses from the jupyter output in the terminal into the address files in the open ``firefox`` session.
+- `firefox <URL> &`
+    - Example firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &
 
 - You can browse in jupyter to a test notebook in ``/proj/workshop/Jupyter-demo/Test-01.ipynb``
 
