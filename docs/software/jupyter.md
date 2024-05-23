@@ -60,3 +60,6 @@ and run it as above.
 
 Be sure to start the kernel with the virtual environment name, like "project A", and not "Python 3 (ipykernel)".
 
+!!! info "Jupyter from web browser on your computer"
+
+    - Get insipration from <https://uppmax.github.io/R-python-julia-HPC/python/jupyter.html#on-own-computer>
