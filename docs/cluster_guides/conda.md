@@ -159,18 +159,8 @@ both Rackham and Bianca. These are updated every third day. See above for these 
        conda create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
        ```
 
-   !!! info "The `mamba` alternative"
+    !!! info "The `mamba` alternative is not needed in newer versions of Conda!
 
-       - :warning: There are currently issues with `mamba`
-       -   `mamba` is a fast drop-in alternative to conda, using
-           "libsolv" for dependency resolution. It is available from the
-           `conda` module.
-
-       -   Example:
-
-           ```bash
-           mamba create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1  matplotlib=2.2.2
-           ```
    - It all worked if you get something like this:
 
        ```bash
@@ -183,19 +173,7 @@ both Rackham and Bianca. These are updated every third day. See above for these 
        #     $ conda deactivate
        ```
 
-   - or
-
-      ```bash
-      # To activate this environment, use
-      #
-      #    $ mamba activate python36-env
-      #
-      # To deactivate an active environment, use
-      #
-      #    $ mamba deactivate
-      ```
-
-1. Activate the conda environment by `source activate` if you have not enabled ``conda/mamba activate``, see above:
+1. Activate the conda environment by `source activate` if you have not enabled ``conda activate``, see above:
 
    ```bash
    source activate python36-env
@@ -220,7 +198,7 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 1. Now do your work!
 
-1. Deactivate with ``conda``/``mamba deactivate`` (this will work in any case!)
+1. Deactivate with ``conda deactivate`` (this will work in any case!)
 
    ```bash
    (python-36-env) $ conda deactivate
