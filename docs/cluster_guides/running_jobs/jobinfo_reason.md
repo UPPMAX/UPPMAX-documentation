@@ -1,6 +1,6 @@
 # What do the fields PRIORITY and REASON mean in "jobinfo" output?
 
-!!!- info "For staff"
+???- info "For staff"
 
      IG: Running jobs FAQ/Your priority...
 
