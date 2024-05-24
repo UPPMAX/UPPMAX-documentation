@@ -64,3 +64,28 @@ Normally you don't have to change anything else here, and we have also disabled 
 The servers listed above also offer a HTML5 client available at the according https URLs:
 
 <https://rackham-gui.uppmax.uu.se>
+
+## ThinLinc usage
+
+### How do I copy/paste within a ThinLinc session?" 
+
+- Windows/MAC: Right-click and choose, or
+- Windows:
+    - paste: `shift+insert`
+    - copy: `ctrl+insert`
+
+### How do I copy/paste between ThinLinc and locally?
+
+![copy-paste](../img/copy_paste.PNG)
+
+- Like a "wharf" for clipboard
+
+- Copy in ThinLinc by the ThinLinc command (see above) and it ends up here in the ThinLinc clipboard
+    - Mark and copy with Windows/Mac command
+    - Paste locally with Windows/Mac command
+
+- Copy from locally 
+    - paste in the ThinLinc clipboard with Windows/Mac command
+    - paste to ThinLinc place by the ThinLinc command (see above)
+
+
