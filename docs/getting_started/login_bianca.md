@@ -273,9 +273,7 @@ flowchart TD
     bianca_shared_console --> |UPPMAX password or SSH key|bianca_private_console
 ```
 
-## Extra material
-
-### Overview
+## Overview of all steps possible/needed to access Bianca
 
 ```mermaid
 flowchart TD
@@ -322,3 +320,7 @@ flowchart TD
     bianca_private_console---|is a|bianca_private_terminal
     bianca_private_remote_desktop-->|must also use|bianca_private_terminal
 ```
+
+This is an overview of all steps possible/needed to access Bianca.
+It is all graphs on this pages combined.
+
