@@ -76,7 +76,7 @@ The servers listed above also offer a HTML5 client available at the according ht
 
 ### How do I copy/paste between ThinLinc and locally?
 
-![copy-paste](img/copy_paste.PNG)
+![copy-paste](img/copy_paste.png)
 
 - Like a "wharf" for clipboard
 
