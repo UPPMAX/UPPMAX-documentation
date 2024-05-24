@@ -67,7 +67,7 @@ The servers listed above also offer a HTML5 client available at the according ht
 
 ## ThinLinc usage
 
-### How do I copy/paste within a ThinLinc session?" 
+### How do I copy/paste within a ThinLinc session?"
 
 - Windows/MAC: Right-click and choose, or
 - Windows:
@@ -84,8 +84,7 @@ The servers listed above also offer a HTML5 client available at the according ht
     - Mark and copy with Windows/Mac command
     - Paste locally with Windows/Mac command
 
-- Copy from locally 
+- Copy from locally
     - paste in the ThinLinc clipboard with Windows/Mac command
     - paste to ThinLinc place by the ThinLinc command (see above)
-
 
