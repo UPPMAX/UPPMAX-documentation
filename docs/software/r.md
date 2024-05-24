@@ -160,6 +160,10 @@ See [the UPPMAX page about RStudio](rstudio.md) on how to use.
 
 ## How to install personal packages
 
+!!! tip "Instaling R packages on Bianca"
+
+    - Presently we refer to our [Bianca course section about installing R packages)[https://uppmax.github.io/bianca_workshop/extra/rpackages/]
+
 First load `R_packages` to make sure that the package is not already installed!
 
 To install personal packages in your own home directory you type
