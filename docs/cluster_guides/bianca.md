@@ -15,7 +15,7 @@ suitable for working with sensitive data.
     - [File transfer using FileZilla](bianca_file_transfer_using_filezilla.md) (easiest)
 - [The module system](bianca_modules.md)
 - [IDEs](ides_on_bianca.md)
-    - [Jupyter](../software/jupyter.md)
+    - [Jupyter](jupyter_on_bianca.md)
     - [RStudio](rstudio_on_bianca.md)
     - :no_entry: [VSCode](vscode_on_bianca.md)
     - [VSCodium](vscodium_on_bianca.md)
