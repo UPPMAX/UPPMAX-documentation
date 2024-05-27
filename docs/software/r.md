@@ -160,7 +160,7 @@ See [the UPPMAX page about RStudio](rstudio.md) on how to use.
 
 ## How to install personal packages
 
-!!! tip "Instaling R packages on Bianca"
+!!! tip "Installing R packages on Bianca"
 
     - Presently we refer to our [Bianca course section about installing R packages)[https://uppmax.github.io/bianca_workshop/extra/rpackages/]
 
@@ -203,7 +203,7 @@ As of this writing, our most recent installations are
 
 - `R/4.3.1`
 - `R_packages/4.3.1`
-- `RStudio/2023.06.2-561`
+- `RStudio/2023.12.1-402`
 
 If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
 
