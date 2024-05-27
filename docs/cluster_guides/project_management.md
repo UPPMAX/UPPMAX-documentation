@@ -20,4 +20,6 @@
         - The directory was used for files needed by all job instances and could house files exceeding the quota of the home directory.
         - Job input and output files was (and can still be) stored here.
 
+ - [Display the disk quota on the more detailed level](storage/disk_quota_more.md)       
+
 ## Members
