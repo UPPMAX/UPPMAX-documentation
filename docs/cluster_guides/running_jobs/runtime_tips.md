@@ -181,7 +181,7 @@
     i.e. notice the trailing "-l". This tells bash to load the correct environment settings, which makes the module system usable.
 
 
-???- question "slurmstepd: error: _get_pss:ferror() /proc/$$/smaps"
+???- question "I get ``slurmstepd: error: _get_pss:ferror() /proc/$$/smaps``"
 
     Sometimes, this error message occurs in the Slurm output file: ``slurmstepd: error: _get_pss: ferror() indicates error on file /proc/$$/smaps``
     
