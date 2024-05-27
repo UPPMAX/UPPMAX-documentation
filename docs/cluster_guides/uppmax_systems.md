@@ -49,8 +49,8 @@ flowchart TD
 Storage systems allow a user to storage (big amounts of) data,
 for either active use (i.e. in calculations) or to archive it (cold data).
 
-You are not supposed to do calculations on the cold data. This is stored on off-load storage where the file system is much slower. 
-You need to transfer the data to an active storage first. 
+You are not supposed to do calculations on the cold data. This is stored on off-load storage where the file system is much slower.
+You need to transfer the data to an active storage first.
 
 
 The UPPMAX storage systems are:
