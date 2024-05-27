@@ -120,9 +120,9 @@
     - [More about interactive](interactive_more.md)
 
 
-???-question "I have a mac and got problems running Perl on UPPMAX with messages about 'locale'"
+???- question "I got problems running Perl on UPPMAX with messages about 'locale'"
 
-    - Edit your ``.bashrc`` file (located in your home folder) and add the following lines:
+    - Edit your ``.bashrc`` file (located in your home folderon a UPPMAX cluster, like Rackham) and add the following lines:
 
     ```bash
     export LC_CTYPE=en_US.UTF-8 
