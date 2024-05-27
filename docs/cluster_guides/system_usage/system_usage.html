@@ -1,15 +1,72 @@
-<h3>Rackham</h3>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="10">
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
 
-<p><a href="rackham_usage.html"><img alt="" height="274" src="https://content.uppmax.uu.se/graph/rackham_weekly.png" style="border-style:solid; border-width:0px" width="597" /></a></p>
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1', {'packages':['corechart','bar']});
 
-<h3>Bianca</h3>
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
 
-<p><a href="rackham_usage.html"><img alt="" height="274" src="https://content.uppmax.uu.se/graph/bianca_weekly.png" style="border-style:solid; border-width:0px" width="597" /></a></p>
+      // Callback that creates and populates a data table,
+      // instantiates the bar chart, passes in the data and
+      // draws it.
+      function drawChart() {
 
-<h3>Snowy</h3>
+        // Create the data table.
+        var data = new google.visualization.arrayToDataTable([
+	  ['System',
+            'Usage',
+            {role: 'annotation'}, 
+            {role: 'tooltip'},
+           'Cores in mixed nodes',
+            {role: 'tooltip'},
+           'Cores in standby nodes',
+            {role: 'tooltip'},
+      ],
+	  ['snowy', 1551/3264,  'Pending: 3', 'Busy cores\nLast updated: 1 minutes ago', 0, 'Idle cores in mixed nodes\nLast updated: 1 minutes ago', 0, 'Idle cores in standby nodes\nLast updated: 1 minutes ago',],
+	  ['rackham', 7560/9720,  'Pending: 3901', 'Busy cores\nLast updated: 1 minutes ago', 0, 'Idle cores in mixed nodes\nLast updated: 1 minutes ago', 0, 'Idle cores in standby nodes\nLast updated: 1 minutes ago',],
+	  ['bianca', 2322/3104,  'Pending: 15', 'Busy cores\nLast updated: 0 minutes ago', 0.0509021, 'Idle cores in mixed nodes\nLast updated: 0 minutes ago', 1.14433, 'Idle cores in standby nodes\nLast updated: 0 minutes ago',],
+        ]);
 
-<p><a href="rackham_usage.html"><img alt="" height="274" src="https://content.uppmax.uu.se/graph/snowy_weekly.png" style="border-style:solid; border-width:0px" width="597" /></a></p>
+        // Set chart options     
+        var options = {title:'System usage',
+                       hAxis: {minValue: 0, format: 'percent'},
+                       isStacked: true,
+			legend: { position: "none" },
+               colors: ['#3366cc', '#5588ff', '#77aaff'],
+	};
+   
 
-<div></div>
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
 
-<p></p>
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+
+    <h3>Rackham</h3>
+
+    <p><a href="rackham_usage.html"><img alt="" height="274" src="https://content.uppmax.uu.se/graph/rackham_weekly.png" style="border-style:solid; border-width:0px" width="597" /></a></p>
+
+    <h3>Bianca</h3>
+
+    <p><a href="rackham_usage.html"><img alt="" height="274" src="https://content.uppmax.uu.se/graph/bianca_weekly.png" style="border-style:solid; border-width:0px" width="597" /></a></p>
+
+    <h3>Snowy</h3>
+
+    <p><a href="rackham_usage.html"><img alt="" height="274" src="https://content.uppmax.uu.se/graph/snowy_weekly.png" style="border-style:solid; border-width:0px" width="597" /></a></p>
+
+    <div></div>
+
+    <p></p>
+  </body>
+</html>
