@@ -6,8 +6,8 @@
 
 ## Storage
 
-- [Disk storage guide](../storage/disk_storage_guide.md)
-- [Backup](../backup.md)
+- [Disk storage guide](storage/disk_storage_guide.md)
+- [Backup](backup.md)
 
 ???- question "What is this 'glob' folder in my home folder?"
 
