@@ -1,8 +1,32 @@
 # Manage you projects
 
 
-## CPU hours
+## Check the CPU hours of your project(s)
 
+### On an UPPMAX cluster
+
+To get an overview of how much of your project allocation that has been used, please use the ``projinfo`` command. Please use the command ``projinfo -h`` to get details on usage.
+
+```bash
+Usage: projinfo [-OPTIONS [-MORE_OPTIONS]] [--] [PROGRAM_ARG1 ...]
+
+The following single-character options are accepted:
+        With arguments: -s -e -M
+        Boolean (without arguments): -h -q -v -m -y
+
+```
+
+- With no flags given, projinfo will tell you your usage during the current month.
+
+- Usage in project "testproj" during the current year: ``projinfo -y testproj``
+
+- Usage in project testproj during the specified two months: ``projinfo -s 2010-02 -e 2010-03 testproj ``
+
+Usage in your projects today until the moment you run the command: ``projinfo -s today``
+
+### SUPR:
+
+Log in to [SUPR](https://supr.naiss.se/) and view your projects there. You can also get information about usage levels, storage levels, membership, etc.
 
 ## Storage
 
