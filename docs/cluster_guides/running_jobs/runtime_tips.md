@@ -184,8 +184,11 @@
 ???- question "slurmstepd: error: _get_pss:ferror() /proc/$$/smaps"
 
     Sometimes, this error message occurs in the Slurm output file: ``slurmstepd: error: _get_pss: ferror() indicates error on file /proc/$$/smaps``
+    
     This error does not affect the results and can be ignored. 
+    
     Statistics are collected when a job has finished, including PSS, which is a measure of memory usage. The error message means that when Slurm tries to collect all info to calculate PSS, the file exposing kernel statistics for the process is already gone. This is probably due to the cleaning process being slightly out of sync.
+    
     Job statistics based on the PSS value, like how much memory a job has used, might not be reliable. But since this is something that happens after the job has finished, results should not be affected.
 
 
