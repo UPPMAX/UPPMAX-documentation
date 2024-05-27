@@ -14,7 +14,7 @@
 - Display your project quota with the command:
 
 ```console
-uquota
+$ uquota
 ```
 - Usage
 
