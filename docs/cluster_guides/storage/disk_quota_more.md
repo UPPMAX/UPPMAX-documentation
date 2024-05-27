@@ -15,4 +15,4 @@ du -b $PWD | sort -rn | awk 'NR==1 {ALL=$1} {print int($1*100/ALL) "% " $0}'
 find $PWD -print0 -type f | xargs -0 stat -c "%s %n" | sort -rn
 ```
 
-You should also read the [Disk Storage Guide](disk_storage_guid.md).
+You should also read the [Disk Storage Guide](disk_storage_guide.md).
