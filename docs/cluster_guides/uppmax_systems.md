@@ -47,27 +47,29 @@ flowchart TD
 ## UPPMAX storage systems
 
 Storage systems allow a user to storage (big amounts of) data,
-for either active use (i.e. in calculations) or to archive it.
-Storage for active use is also called 'on-load' storage,
-where archived data is called 'off-load' storage.
+for either active use (i.e. in calculations) or to archive it (cold data).
+
+You are not supposed to do calculations on the cold data. This is stored on off-load storage where the file system is much slower. 
+You need to transfer the data to an active storage first. 
+
 
 The UPPMAX storage systems are:
 
-- On-load: Castor for Bianca, Crex for Rackham
+- Active: Cygnus for Bianca, Crex for Rackham
 - Off-load: Lutra for Rackham
 
 ```mermaid
 flowchart TD
     UPPMAX[Which UPPMAX storage system?]
     which_cluster[Which UPPMAX cluster?]
-    Castor
+    Cygnus
     Lutra
     usage_type{Type of use?}
 
     UPPMAX-->which_cluster
     which_cluster-->|Rackham|usage_type
-    which_cluster-->|Bianca|Castor
-    usage_type-->|on-load|Crex
+    which_cluster-->|Bianca|Cygnus
+    usage_type-->|active|Crex
     usage_type-->|off-load|Lutra
 ```
 
