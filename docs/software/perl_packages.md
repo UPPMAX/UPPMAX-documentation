@@ -1,9 +1,11 @@
 # How do I install local Perl packages?
 
+## What is available already in the perl modules?
+
 A number of packages are available by default with all Perl versions. For Perl version 5.18.4 in particular (available through the software module system as perl/5.18.4), we have installed many more Perl packages. These are available by loading the software module perl_modules/5.18.4. We have a complete list of the Perl packages available in this software module.
 If you would like to use BioPerl, module avail BioPerl after loading bioinfo-tools will show the versions available. The latest is BioPerl/1.6.924_Perl5.18.4, which is built against Perl 5.18.4 so also loads the modules perl/5.18.4 and perl_modules/5.18.4.
 
-That's great! ... but I can't find what I am looking for there.
+## Install other packages
 
 You could email support at support@uppmax.uu.se and suggest we include the package in perl_modules. If that doesn't work, or you decide to install it for yourself, please keep reading.
 
