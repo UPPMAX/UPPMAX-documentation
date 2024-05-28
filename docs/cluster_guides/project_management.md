@@ -20,11 +20,11 @@ The following single-character options are accepted:
 
 - Usage in project "testproj" during the current year: ``projinfo -y testproj``
 
-- Usage in project testproj during the specified two months: ``projinfo -s 2010-02 -e 2010-03 testproj ``
+- Usage in project testproj during the specified two months: ``projinfo -s 2010-02 -e 2010-03 testproj``
 
 Usage in your projects today until the moment you run the command: ``projinfo -s today``
 
-### SUPR:
+### SUPR
 
 Log in to [SUPR](https://supr.naiss.se/) and view your projects there. You can also get information about usage levels, storage levels, membership, etc.
 
@@ -76,7 +76,6 @@ How do I specify that I do not need my large datasets to be backed up?
 
     Also note that all projects  have a separate nobackup folder under the ``/proj/xyz/`` hierarchy (and also under the ``/proj/xyz/private/`` hierarchy) with a separate quota limit than the ordinary backed up project folder. You can read more about this in our [disk storage guide](storage/disk_storage_guide.md).
 
-
 ???- question "What is this 'glob' folder in my home folder?"
 
     - The glob directory found in your home has been deprecated since early 2017.
@@ -87,7 +86,6 @@ How do I specify that I do not need my large datasets to be backed up?
         - It was shared by all nodes.
         - The directory was used for files needed by all job instances and could house files exceeding the quota of the home directory.
         - Job input and output files was (and can still be) stored here.
-
 
 
 ## Members
