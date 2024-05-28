@@ -192,7 +192,6 @@
     Job statistics based on the PSS value, like how much memory a job has used, might not be reliable. But since this is something that happens after the job has finished, results should not be affected.
 
 
-
 ???- question "How can I see my job's memory usage?"
 
     - Historical information can first of all be found by issuing the command ``finishedjobinfo -j``. That will print out the maximum memory used by your job.
