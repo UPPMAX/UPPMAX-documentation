@@ -2,7 +2,7 @@
 
 ## What is available already in the perl modules?
 
-- A number of packages are available by default with all Perl versions. 
+- A number of packages are available by default with all Perl versions.
 
 - For Perl version 5.18.4 in particular (available through the software module system as `perl/5.18.4`), we have installed many more Perl packages. These are available by loading the software module `perl_modules/5.18.4`. We have a [complete list of the Perl packages available](perl.md#perl-module-search-on-perl_modules5262rackham).
 
@@ -10,7 +10,7 @@
 
 ## Install other packages
 
-You could email support at support@uppmax.uu.se and suggest we include the package in `perl_modules`. If that doesn't work, or you decide to install it for yourself, please keep reading.
+You could email support at `support@uppmax.uu.se` and suggest we include the package in `perl_modules`. If that doesn't work, or you decide to install it for yourself, please keep reading.
 
 First you have to decide where you want to put your local Perl packages. Save this in a temporary environment variable called MY_PERL, make sure to substitute the path with your own:
 
