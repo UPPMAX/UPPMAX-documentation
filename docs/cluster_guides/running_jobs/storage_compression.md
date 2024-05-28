@@ -44,8 +44,8 @@
         ``-r`` is for recursive
         ``-l`` is to preserve links
         ``-p`` is to preserve permissions
-        ``-t`` is to preserve times 
-    
+        ``-t`` is to preserve times
+
 
 ## Compression
 
