@@ -141,7 +141,7 @@ darsync sshkey
 
 ### 4. Add the public key to the PDC Login Portal
 
-See [create and use an SSH key pair for Dardel, step 2](../software/ssh_key_use_dardel.md/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),
+See [create and use an SSH key pair for Dardel, step 2](http://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),
 to see how to upload the public SSH key to the PDC Login Portal.
 
 ### 5. Run the migration tool Darsync
