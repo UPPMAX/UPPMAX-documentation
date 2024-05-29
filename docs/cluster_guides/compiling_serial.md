@@ -92,6 +92,13 @@ See [Compile C using GCC](../software/gcc_compile_c.md).
 
 ### Using Intel
 
+???- question "For UPPMAX staff"
+
+   I cannot get this to work. What do I miss?
+
+   I keep this original text below here intact, until I can move this
+   to [Compile C using the Intel compiler](../software/icc_compile_c.md).
+
 To use the intel compiler, first load the intel module:
 
 ``` console
