@@ -34,7 +34,6 @@ In the ThinLinc login dialog, set:
 
 ???- question "How does that look like?"
 
-    
 
     > The ThinLinc login dialog
 

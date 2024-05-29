@@ -7,7 +7,7 @@ GCC is part of the `gcc` [module](../cluster_guides/modules.md)
 and can be used to:
 
 - [Compile a C program](#compile-a-c-program)
-- [Compile a C++ program](#compile-a-c++-program)
+- [Compile a C++ program](#compile-a-cpp-program)
 
 Working together with GCC are:
 
@@ -57,7 +57,17 @@ Output:
 hello, world
 ```
 
-## Compile a C++ program
+## Compile a Cpp program
+
+!!! info "Technical note"
+
+    This header should have been 'Compile a C++ program'.
+
+???- question "Why not use 'Compile a C++ program' as a header?"
+
+    The link to the header 'Compile a C program' and 'Compile a C++ program' 
+    would be `#compile-a-c-program` for both, as
+    all punctuation (hence, the plus signs) must be removed.
 
 Load a recent GCC module:
 
