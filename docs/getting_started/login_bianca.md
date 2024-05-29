@@ -129,8 +129,8 @@ To use Bianca, there are two environments:
 
     > A more populated Bianca XFCE remote desktop
 
-- A [remote desktop environment](../cluster_guides/thinlinc.md), also called 'graphical environment',
-  'GUI environment', 'ThinLinc environment'
+- A remote desktop environment, also called 'graphical environment',
+  'GUI environment', '[ThinLinc](../software/thinlinc.md) environment'
 
 ???- question "How does the Bianca console environment look like?"
 
@@ -140,7 +140,7 @@ To use Bianca, there are two environments:
 
 - A console environment, also called 'terminal environment' or 'terminal'
 
-The [remote desktop environment](../cluster_guides/thinlinc.md) is considered the easier place to start for most
+The [remote desktop environment](../software/thinlinc.md) is considered the easier place to start for most
 new users, as it has most similarities with what a new user is familiar with.
 However, one must always use a terminal to some extent.
 

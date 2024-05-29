@@ -17,7 +17,7 @@ one needs to be within SUNET to be able to access her.
 Bianca does not support any so-called
 [X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham),
 so instead UPPMAX maintains a website that uses
-ThinLinc to get a full [remote desktop environment](../cluster_guides/thinlinc.md).
+[ThinLinc](../software/thinlinc.md) to get a full remote desktop environment.
 All you should need is a rather modern browser on any platform:
 we have tested on Chrome and Firefox :-)
 
@@ -28,8 +28,7 @@ we have tested on Chrome and Firefox :-)
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
 
-When inside SUNET, one can access a [remote desktop environment](../cluster_guides/thinlinc.md)
-using a website:
+When inside SUNET, one can access a remote desktop environment using a website:
 
 ## 2. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
@@ -93,7 +92,7 @@ Fill in the second dialog, using your regular password (i.e. no need for two-fac
     ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
 
     > The second Bianca remote desktop login dialog.
-    > Note that it uses ThinLinc to establish this connection
+    > Note that it uses [ThinLinc](../software/thinlinc.md) to establish this connection
 
 ## 5. Picking a remote desktop flavor, but not KDE
 
