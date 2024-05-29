@@ -2,13 +2,11 @@
 
 UPPMAX supports two kind of compilers:
 
-- GNU project compilers
-- Intel compilers
+- [GCC](gcc.md): the GNU compiler collection
+- [icc](icc.md): an Intel compiler
 
-This tutorial will show how to use the tools provided
-with the compilers and some other profiling tools.
-Since all these tools is strongly connected to the compiler they come with,
-it is recommended to only have that compiler module loaded.
+Each compilers have its own [debuggers](debuggers.md)
+and [profiling tools](profilers.md).
 
 ???- question "How to make sure you have only the right compiler loaded?"
 
