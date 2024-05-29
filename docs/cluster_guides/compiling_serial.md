@@ -2,6 +2,19 @@
 
 For parallel programs, see [MPI and OpenMP user guide](compiling_parallel.md).
 
+## Overview
+
+Language|Compiler                 |Find guide at ...
+--------|-------------------------|---------------------
+C       |[GCC](../software/gcc.md)|[Compile C using GCC](../software/gcc_compile_c.md).
+C       |Intel, `icc`             |[Compile C using icc](../software/icc_compile_c.md)
+C       |Intel, `icx`             |[Compile C using icx](../software/icx_compile_c.md)
+C++     |[GCC](../software/gcc.md)|[Compile C++ using GCC](../software/gcc_compile_cpp.md)
+C++     |Intel, `icpc`            |[Compile C++ using icpc](../software/icpc_compile_cpp.md)
+Java    |`javac`                  |[Compile Java using javac](../software/javac_compile_jave.md)
+Fortran |GCC                      |See below
+Fortran |Intel                    |See below
+
 ## Fortran programs
 
 Enter the following fortran program and save in the file hello.f
@@ -12,6 +25,8 @@ C     HELLO.F :  PRINT MESSAGE ON SCREEN
       WRITE(*,*) "hello, world";
       END
 ```
+
+### GCC
 
 - To compile this you should decide on which compilers to use. At UPPMAX there are two different Fortran compilers installed gcc (gfortran) and Intel (ifort).
 
@@ -39,6 +54,8 @@ hello, world
 ```
 
 -To compile with good optimization you can use the "-Ofast" flag to the compiler, but be a bit careful with the -Ofast flag, since sometimes the compiler is a bit overenthusiastic in the optimization and this is especially true if your code contains programming errors (which if you are responsible for the code ought to fix, but if this is someone elses code your options are often more limited). Should -Ofast not work for your code you may try with -O3 instead.
+
+### Intel 
 
 - Intel oneAPI collection (intel) compilers are installed on UPPMAX, so the ifort command can be used to compile fortran code. The ifort compiler is fully compliant with the Fortran 95 Standard and includes legacy F77 support. In addition, a significant number of Fortran 2003 and Fortran 2008 features are implemented. Fortran2008 has full support from intel/18. Fortran2018 has full support from intel/19+.
 
@@ -84,103 +101,3 @@ $ ./hello
 hello, world
 ```
 
-## C programs
-
-- Using [GCC](../software/gcc.md):
-    - [Compile C using GCC](../software/gcc_compile_c.md).
-- Using an Intel compiler:
-    - [Compile C using icc](../software/icc_compile_c.md)
-    - [Compile C using icx](../software/icx_compile_c.md)
-
-## C++ programs
-
-- Using [GCC](../software/gcc.md):
-    - [Compile C++ using GCC](../software/gcc_compile_cpp.md).
-- Using an Intel compiler:
-    - [Compile C++ using icpc](../software/icpc_compile_cpp.md)
-
-## Java programs
-
-Enter the following java program and save in the file hello.java
-
-``` java
-/* hello.java :  print message on screen */
-class hello {
-public static void main(String[] args)
-{
-     System.out.println("hello, world");
-}
-}
-```
-
-Before compiling a java program, the module java has to be loaded.
-To load the java module, enter the command:
-
-``` console
-$ module load java
-```
-
-To check that the java module is loaded, use the command:
-
-``` console
-$ module list
-```
-
-To compile, enter the command:
-
-```console
-$ javac hello.java
-```
-
-The java module is not always needed to run the program.
-To verify this, unload the java module:
-
-``` console
-$ module unload java
-```
-
-to run, enter:
-
-``` console
-$ java hello
-hello, world
-```
-
-Running serial programs on execution nodes
-
-Jobs are submitted to execution nodes through the resource manager.
-We use Slurm on our clusters.
-
-To run the serial program hello as a batch job using Slurm, enter the following shell script in the file hello.sh:
-
-```bash
-#!/bin/bash -l
-# hello.sh :  execute hello serially in Slurm
-# command: $ sbatch hello.sh
-# sbatch options use the sentinel #SBATCH
-# You must specify a project
-#SBATCH -A your_project_name
-#SBATCH -J serialtest
-# Put all output in the file hello.out
-#SBATCH -o hello.out
-# request 5 seconds of run time
-#SBATCH -t 0:0:5
-# request one core
-#SBATCH -p core -n 1
-./hello
-```
-
-The last line in the script is the command used to start the program.
-
-Submit the job to the batch queue:
-
-```console
-$ sbatch hello.sh
-```
-
-The program's output to stdout is saved in the file named at the -o flag.
-
-``` console
-$ cat hello.out
-hello, world
-```
