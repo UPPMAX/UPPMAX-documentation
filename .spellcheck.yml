@@ -10,7 +10,7 @@ matrix:
       markdown_extensions:
       - markdown.extensions.extra:
   - pyspelling.filters.html:
-      comments: false
+      comments: true
       attributes:
       - alt
       ignores:
@@ -32,7 +32,7 @@ matrix:
       markdown_extensions:
       - markdown.extensions.extra:
   - pyspelling.filters.html:
-      comments: false
+      comments: true
       attributes:
       - alt
       ignores:
