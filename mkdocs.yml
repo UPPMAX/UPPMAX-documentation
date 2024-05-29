@@ -41,6 +41,7 @@ nav:
     - Installing and development: 
       - Installing: cluster_guides/install.md
       - Installing with conda: cluster_guides/conda.md
+      - Compilers: software/compilers.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
       - Debuggers: software/debuggers.md
