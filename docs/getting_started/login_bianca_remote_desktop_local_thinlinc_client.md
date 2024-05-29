@@ -6,11 +6,13 @@ This page describes how to [log in to Bianca](login_bianca.md)
 using a remote desktop that is accessible via a
 local [ThinLinc](../software/thinlinc.md) client.
 
-## 1. Install ThinLinc
+## Procedure
 
-See [the UPPMAX page on ThinLinc](../software/thinlinc.md) how to install ThinLinc.
+### 1. Install ThinLinc
 
-## 2. Get inside SUNET
+Install ThinLinc. For help, see [the UPPMAX page on ThinLinc](../software/thinlinc.md).
+
+### 2. Get inside SUNET
 
 As Bianca is an HPC cluster for sensitive data,
 one needs to be within SUNET to be able to access her.
@@ -19,9 +21,32 @@ one needs to be within SUNET to be able to access her.
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-## Connecting
+### 3. Start ThinLinc
 
-### Login node connection
+???- warning "To UPPMAX staff"
+
+    Here, I (Richel) cannot get it to work. Below 
+
+In the ThinLinc login dialog, set:
+
+- the server name to `bianca-gui.uppmax.uu.se`
+- your username to `[username]-[project_id]`, e.g. `sven-sens123456`
+
+???- question "How does that look like?"
+
+    
+
+    > The ThinLinc login dialog
+
+???- question "Why not use `https://www.bianca-gui.uppmax.uu.se`?"
+
+    Because that does not work :-)
+
+???- question "Why not use `bianca.uppmax.uu.se`?"
+
+    Because that does not work :-)
+
+### 3. Connecting
 
 You can connect with ThinLinc to get a graphical desktop session on a login node.
 These are subject to the same limitations normal login sessions
@@ -44,8 +69,7 @@ Provided you have set it up earlier, you can also use key based authentication.
 ## Two factor authentication
 
 The ThinLinc client connects over SSH which means
-it may be required to present a code from two factor authentication
-(**FIX LINK**).
+it may be required to present a code from two factor authentication.
 The ThinLinc client does not know to ask for this
 so you will need to use the grace time feature,
 similar to file transfers with SFTP/rsync.
@@ -56,10 +80,6 @@ The login server will remember that you just logged in for a few minutes
 and not ask for two factor authentication again,
 so make sure you do not wait too long to connect with the ThinLinc client.
 
-## Server names
-
-The server name to connect to is `bianca-gui.uppmax.uu.se`.
-to make a login node connection.
 
 ## 6. You are in
 

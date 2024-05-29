@@ -4,7 +4,7 @@
 
 There are multiple ways to [log in to Rackham](login_rackham.md).
 This page described how to log in to its remote desktop environment
-via a local ThinLinc client.
+via a local [ThinLinc](../software/thinlinc.md) client.
 
 ## Procedure
 
