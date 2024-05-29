@@ -17,7 +17,7 @@ module load intel/20.4
 
 C11 and C17 (bug fix) standards have support from intel/17+ (fully from 19).
 
-### 2. 
+### 2
 
 Create and write a C source file called `hello_world.c`:
 
