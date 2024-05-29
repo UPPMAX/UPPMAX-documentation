@@ -217,7 +217,7 @@ flowchart TD
 There are multiple ways to do so:
 
 - [Login to the Bianca remote desktop environment website](login_bianca_remote_desktop_website.md).
-- Login to the Bianca remote desktop environment using a local ThinLinc client
+- [Login to the Bianca remote desktop environment using a local ThinLinc client](login_bianca_remote_desktop_local_thinlinc_client.md).
 
 ### Login to the Bianca console environment
 

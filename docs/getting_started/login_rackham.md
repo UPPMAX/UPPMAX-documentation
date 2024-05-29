@@ -239,25 +239,26 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 ## Remote desktop
 
-![Rackham's remote desktop environment](./img/rackham_via_remote_desktop_50.jpg)
+![Rackham's remote desktop environment via a webbrowser](./img/rackham_via_remote_desktop_50.jpg)
 
-You can also login to Rackham's [remote desktop environment](../cluster_guides/thinlinc.md).
+You can also login to Rackham's remote desktop environment.
 This gives you a desktop environment, as if you were working on your own computer!
 
-You can do so:
+There are two ways to do so:
 
-- [via the web](#remote-desktop-via-the-web)
-- [via a ThinLinc client](#remote-desktop-via-a-thinlinc-client)
+Parameter      |Local ThinLinc client|Web browser login
+---------------|---------------------|-----------------
+Install        |ThinLinc client      |Nothing [1]
+Simplicity     |Easy                 |Trivial
+Performance    |Higher               |Lower
+Recommended for|Most use cases       |Small tasks, when other approach fails
 
-### Remote desktop via the web
+- [1] You already have a webbrowser installed :-)
 
-Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se).
+Here are the UPPMAX pages on how to do so:
 
-## Remote desktop via a ThinLinc client
-
-Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
-
-- Set the server name to ``rackham-gui.uppmax.uu.se``. NB: leave out the ``https://www.``!
+- [Web browser login](../getting_started/login_rackham_remote_desktop_website.md)
+- [Local ThinLinc client](../getting_started/login_rackham_remote_desktop_local_thinlinc_client.md)
 
 ## Linux on your computer
 
