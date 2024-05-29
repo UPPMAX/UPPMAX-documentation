@@ -43,8 +43,8 @@ nav:
       - Installing with conda: cluster_guides/conda.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
-      - Debuggers: cluster_guides/debuggers.md
-      - Profilers: cluster_guides/profilers.md
+      - Debuggers: software/debuggers.md
+      - Profilers: software/profilers.md
       - Singularity/Apptainer: cluster_guides/singularity.md
       - Spack: software/spack.md
   - Software:

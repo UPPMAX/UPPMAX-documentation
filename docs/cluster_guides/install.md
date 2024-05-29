@@ -113,8 +113,8 @@ Docker will unfortunately not work on the clusters, since it requires root permi
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
     - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
-- [User guide for debuggers](../cluster_guides/debuggers.md)
-- [User guide for profilers](../cluster_guides/profilers.md)
+- [User guide for debuggers](../software/debuggers.md)
+- [User guide for profilers](../software/profilers.md)
 
 ## Run own scripts or programs
 
