@@ -87,6 +87,7 @@ nav:
         - Rclone: software/rclone.md      
         - SSH: software/ssh.md
         - SFTP: software/sftp.md
+        - ThinLinc: software/thinlinc.md
       
   - Databases: 
      - Overview: databases/overview.md
