@@ -6,8 +6,9 @@ a collection of [compilers](compilers.md).
 GCC is part of the `gcc` [module](../cluster_guides/modules.md)
 and can be used to:
 
-- [Compile a C program](#compile-a-c-program)
-- [Compile a C++ program](#compile-a-cpp-program)
+- [Compile a C program](gcc_compile_c.md)
+- [Compile a C++ program](gcc_compile_cpp.md)
+- [Compile a Fortan program](gcc_compile_fortran.md)
 
 Working together with GCC are:
 
@@ -56,6 +57,44 @@ Output:
 ```console
 hello, world
 ```
+
+### Again
+
+## C programs
+
+Enter the following c program and save in the file hello.c
+
+``` c
+/* hello.c :  print message on screen */
+#include <stdio.h>
+int main()
+{
+    printf("hello, world\n");
+    return 0;
+}
+```
+
+To compile using gcc installed with the system (4.8.5, 2015) and with no optimization, use the gcc command.
+
+``` console
+$ gcc -o hello hello.c
+```
+
+To use a newer version of ggc we load a module:
+
+``` console
+$ module load gcc/10.3.0
+$ gcc -o hello hello.c
+```
+
+with basic optimization:
+
+``` console
+$ gcc -O3 -o hello hello.c
+```
+
+c11 standard has full support from gcc/4.8, c17 standard (bug-fix) from gcc/8.
+
 
 ## Compile a Cpp program
 

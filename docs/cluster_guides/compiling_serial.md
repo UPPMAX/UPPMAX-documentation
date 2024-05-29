@@ -86,38 +86,11 @@ hello, world
 
 ## C programs
 
-Enter the following c program and save in the file hello.c
+### Using GCC
 
-``` c
-/* hello.c :  print message on screen */
-#include <stdio.h>
-int main()
-{
-    printf("hello, world\n");
-    return 0;
-}
-```
+See [Compile C using GCC](../software/gcc_compile_c.md).
 
-To compile using gcc installed with the system (4.8.5, 2015) and with no optimization, use the gcc command.
-
-``` console
-$ gcc -o hello hello.c
-```
-
-To use a newer version of ggc we load a module:
-
-``` console
-$ module load gcc/10.3.0
-$ gcc -o hello hello.c
-```
-
-with basic optimization:
-
-``` console
-$ gcc -O3 -o hello hello.c
-```
-
-c11 standard has full support from gcc/4.8, c17 standard (bug-fix) from gcc/8.
+### Using Intel
 
 To use the intel compiler, first load the intel module:
 

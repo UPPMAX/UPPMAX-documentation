@@ -2,8 +2,13 @@
 
 UPPMAX supports two kind of compilers:
 
-- [GCC](gcc.md): the GNU compiler collection
-- [icc](icc.md): an Intel compiler
+Compiler         |Language(s)    |Description
+-----------------|---------------|---------------------------
+[GCC](gcc.md)    |C, C++, Fortran|The GNU compiler collection
+[icc](icc.md)    |C              |Intel C compiler
+[icpc](icpc.md)  |C++            |Intel C++ compiler
+[ifort](ifort.md)|Fortran        |Intel Fortran compiler
+[javac](javac.md)|Java           |Java compiler
 
 Each compilers have its own [debuggers](debuggers.md)
 and [profiling tools](profilers.md).

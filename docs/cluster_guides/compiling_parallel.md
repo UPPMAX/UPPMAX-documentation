@@ -2,17 +2,17 @@
 
 Table of contents:
 
-    Compiling and running parallel programs on UPPMAX clusters.
-        Introduction
-    Overview of available compilers from GCC and Intel and compatible MPI libraries
-    Running serial programs on execution nodes
-    MPI using the OpenMPI library
-        C programs
-        Fortran programs
-    OpenMP
-        C programs
-        Fortran programs
-    Pthreads
+- Compiling and running parallel programs on UPPMAX clusters.
+    - Introduction
+- Overview of available compilers from GCC and Intel and compatible MPI libraries
+- Running serial programs on execution nodes
+- MPI using the OpenMPI library
+    - C programs
+    -Fortran programs
+- OpenMP
+    - C programs
+    - Fortran programs
+- Pthreads
 
 This is a short tutorial about how to use the queuing system, and how to compile and run MPI and OpenMP jobs.
 
