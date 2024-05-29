@@ -14,7 +14,7 @@ Install ThinLinc. For help, see [the UPPMAX page on ThinLinc](../software/thinli
 
 ### 2. Start ThinLinc
 
-In the ThinLinc login dialog, set the server name to `rackham-gui.uppmax.uu.se`. 
+In the ThinLinc login dialog, set the server name to `rackham-gui.uppmax.uu.se`.
 
 ???- question "How does that look like?"
 

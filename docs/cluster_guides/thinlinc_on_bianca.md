@@ -4,7 +4,7 @@
 
 > Bianca's remote desktop, using a webbrowser
 
-[ThinLinc](thinlinc.md) provides for a remote desktop environment 
+[ThinLinc](thinlinc.md) provides for a remote desktop environment
 for the UPPMAX clusters.
 This page describes how to use ThinLinc on [Bianca](bianca.md).
 

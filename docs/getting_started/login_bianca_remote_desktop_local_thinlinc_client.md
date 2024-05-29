@@ -3,7 +3,7 @@
 There are multiple ways to [log in to Bianca](login_bianca.md).
 
 This page describes how to [log in to Bianca](login_bianca.md)
-using a remote desktop that is accessible via a 
+using a remote desktop that is accessible via a
 local [ThinLinc](../software/thinlinc.md) client.
 
 ## 1. Install ThinLinc
@@ -23,37 +23,37 @@ one needs to be within SUNET to be able to access her.
 
 ### Login node connection
 
-You can connect with ThinLinc to get a graphical desktop session on a login node. 
-These are subject to the same limitations normal login sessions 
+You can connect with ThinLinc to get a graphical desktop session on a login node.
+These are subject to the same limitations normal login sessions
 are (memory and run time limits, don't do anything that might disturb other users).
 
-In addition to the normal limitations, login node connections may have 
+In addition to the normal limitations, login node connections may have
 short (10-15) minute idle timeouts meaning your session may disappear if you leave it.
 
 ### Making the connection
 
-After downloading and installing, you can launch the ThinLinc client, 
-and should see a form where you can enter your username and 
+After downloading and installing, you can launch the ThinLinc client,
+and should see a form where you can enter your username and
 password (and possibly a server name). If you only see the simple form:
 
 ![Login](img/c_555890-l_1-k_thinlincsimple.png)
 
-you can click Advanced to be able to set the server name to connect to. 
+you can click Advanced to be able to set the server name to connect to.
 Provided you have set it up earlier, you can also use key based authentication.
 
 ## Two factor authentication
 
-The ThinLinc client connects over SSH which means 
-it may be required to present a code from two factor authentication 
-(**FIX LINK**). 
-The ThinLinc client does not know to ask for this 
-so you will need to use the grace time feature, 
-similar to file transfers with SFTP/rsync. 
-To do this, first you have to connect with regular SSH 
-and present the required code. 
-Once you have logged in over SSH you can safely exit again. 
-The login server will remember that you just logged in for a few minutes 
-and not ask for two factor authentication again, 
+The ThinLinc client connects over SSH which means
+it may be required to present a code from two factor authentication
+(**FIX LINK**).
+The ThinLinc client does not know to ask for this
+so you will need to use the grace time feature,
+similar to file transfers with SFTP/rsync.
+To do this, first you have to connect with regular SSH
+and present the required code.
+Once you have logged in over SSH you can safely exit again.
+The login server will remember that you just logged in for a few minutes
+and not ask for two factor authentication again,
 so make sure you do not wait too long to connect with the ThinLinc client.
 
 ## Server names
