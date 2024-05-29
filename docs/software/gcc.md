@@ -9,6 +9,12 @@ and can be used to:
 - [Compile a C program](#compile-a-c-program)
 - [Compile a C++ program](#compile-a-c++-program)
 
+Working together with GCC are:
+
+- A [debugger](debuggers.md) called [`gdb`](gdb.md)
+- A [profiler](profilers.md) called [`gprof`](gprof.md)
+- A general [profiler](profilers.md) called [Valgrind](valgrind.md)
+
 ## Compile a C program
 
 Load a recent GCC module:
