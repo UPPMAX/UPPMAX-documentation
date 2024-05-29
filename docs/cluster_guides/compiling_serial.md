@@ -86,52 +86,18 @@ hello, world
 
 ## C programs
 
-### Using GCC
+- Using [GCC](../software/gcc.md):
+    - [Compile C using GCC](../software/gcc_compile_c.md).
+- Using an Intel compiler:
+    - [Compile C using icc](../software/icc_compile_c.md)
+    - [Compile C using icx](../software/icx_compile_c.md)
 
-See [Compile C using GCC](../software/gcc_compile_c.md).
+## C++ programs
 
-### Using Intel
-
-???- question "For UPPMAX staff"
-
-   I cannot get this to work. What do I miss?
-
-   I keep this original text below here intact, until I can move this
-   to [Compile C using the Intel compiler](../software/icc_compile_c.md).
-
-To use the intel compiler, first load the intel module:
-
-``` console
-$ module load intel/20.4
-```
-
-or for newer Intel versions (2021-, see above):
-
-``` console
-$ module load intel-oneapi compiler
-$ module load compiler/2023.1.0
-```
-
-and then compile with the command icc, or icx:
-
-``` console
-$ icc -o hello hello.c
-```
-
-or for newer versions:
-
-``` console
-$ icx -o hello hello.c
-```
-
-To run, enter:
-
-``` console
-$ ./hello
-hello, world
-```
-
-c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
+- Using [GCC](../software/gcc.md):
+    - [Compile C++ using GCC](../software/gcc_compile_cpp.md).
+- Using an Intel compiler:
+    - [Compile C++ using icpc](../software/icpc_compile_cpp.md)
 
 ## Java programs
 

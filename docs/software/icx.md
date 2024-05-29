@@ -1,12 +1,12 @@
-# `icc`
+# `icx`
 
 There are multiple [compilers](compilers.md) on the UPPMAX HPC clusters.
-This page describes `icc`, an Intel C compiler.
+This page describes `icx`, an Intel C compiler.
 
 The Intel compiler is part of the `intel` [module](../cluster_guides/modules.md)
 and can be used to:
 
-- [Compile a C program](icc_compile_c.md)
+- [Compile a C program](icx_compile_c.md)
 
 Working together with this Intel compiler are:
 

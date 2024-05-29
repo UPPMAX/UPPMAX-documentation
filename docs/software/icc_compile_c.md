@@ -1,7 +1,7 @@
 # Compile a C program using `icc`
 
 [icc](icc.md) is the Intel C [compiler](compilers.md).
-This page describes how to compile C code using the GCC.
+This page describes how to compile C code using `icc`.
 
 ## Procedure
 
@@ -15,15 +15,7 @@ from 15 to and including 20:
 module load intel/20.4
 ```
 
-For newer Intel versions, pick one from 2021 or later, where
-the versions have four digits:
-
-``` console
-module load intel/20.4
-module load intel-oneapi 
-module load compiler
-module load compiler/2023.1.0
-```
+C11 and C17 (bug fix) standards have support from intel/17+ (fully from 19).
 
 ### 2. 
 
@@ -60,27 +52,3 @@ Output:
 ```console
 hello, world
 ```
-
-## Other
-
-
-and then compile with the command icc, or icx:
-
-``` console
-$ icc -o hello hello.c
-```
-
-or for newer versions:
-
-``` console
-$ icx -o hello hello.c
-```
-
-To run, enter:
-
-``` console
-$ ./hello
-hello, world
-```
-
-c11 and c17 (bug fix) standards have support from intel/17+ (fully from 19).
