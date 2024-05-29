@@ -48,6 +48,10 @@ nav:
         - gdb: software/gdb.md
         - idb: software/idb.md
       - Profilers: software/profilers.md
+        - gprof: software/gprof.md
+        - Intel Advisor: software/intel_advisor.md
+        - Intel VTune: software/intel_vtune.md
+        - Valgrind: software/valgrind.md
       - Singularity/Apptainer: cluster_guides/singularity.md
       - Spack: software/spack.md
   - Software:
