@@ -3,12 +3,12 @@
 There are many [debuggers](debuggers.md).
 This page described `gdb`, the GNU debugger.
 
-`gdb` is a debugger provided with the GNU [compilers](compilers.md). 
-It works fine for C, C++ and Fortran. 
+`gdb` is a debugger provided with the GNU [compilers](compilers.md).
+It works fine for C, C++ and Fortran.
 With older versions there were problems with fortran90/95.
 
 - [Debugging GCC-compiled programs](#debugging-gcc-compiled-programs)
-- [Debugging Intel-compiled programs](#Debugging-intel-compiled-programs)
+- [Debugging Intel-compiled programs](#debugging-intel-compiled-programs)
 
 ## Debugging GCC-compiled programs
 

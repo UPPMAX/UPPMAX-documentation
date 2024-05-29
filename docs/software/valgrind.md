@@ -17,7 +17,7 @@ Valgrind contains several tools:
 - `ptrcheck`, a pointer checking tool
 - `lackey`, a simple profiler and memory tracer
 
-Valgrind works best with the GCC and Intel compilers. 
+Valgrind works best with the GCC and Intel compilers.
 
 There is a system `valgrind-3.15.0` from 2020.
 
@@ -39,7 +39,7 @@ then you can use `valgrind` by:
 valgrind [options] ./your-program [your programs options]
 ```
 
-### How to use valgrind with MPI programs
+## How to use valgrind with MPI programs
 
 Load your compiler, `openmpi` and the `valgrind` module as before:
 

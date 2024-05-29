@@ -23,7 +23,7 @@ gcc -O0 -pg -g your-program.c -o your-program
 
 run it:
 
-```
+```bash
 ./your-program
 ```
 
