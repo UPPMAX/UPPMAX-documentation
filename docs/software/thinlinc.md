@@ -47,7 +47,7 @@ The client can be downloaded from the [official download page](https://www.cendi
 ![The ThinLinc clipboard](../software/img/thinlinc_clipboard.png)
 
 ThinLinc has a clipboard where one can shuttle text via copy-pasting
-inside/outside the ThinLinc remoted desktop environment.
+inside/outside the ThinLinc remote desktop environment.
 
 - Copy in ThinLinc by the ThinLinc command (see above) and it ends up here in the ThinLinc clipboard
     - Mark and copy with Windows/Mac command
