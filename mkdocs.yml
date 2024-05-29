@@ -45,6 +45,8 @@ nav:
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md
       - Debuggers: software/debuggers.md
+        - gdb: software/gdb.md
+        - idb: software/idb.md
       - Profilers: software/profilers.md
       - Singularity/Apptainer: cluster_guides/singularity.md
       - Spack: software/spack.md
