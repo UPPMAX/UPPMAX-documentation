@@ -4,13 +4,13 @@
 
 > Bianca's remote desktop, using a webbrowser
 
-[ThinLinc](thinlinc.md) provides for a remote desktop environment
+[ThinLinc](../software/thinlinc.md) provides for a remote desktop environment
 for the UPPMAX clusters.
 This page describes how to use ThinLinc on [Bianca](bianca.md).
 
 There are two ways of connecting to the clusters using ThinLinc:
 using a local ThinLinc client or login using a webbrowser.
-See [ThinLinc](thinlinc.md) for a comparison.
+See [ThinLinc](../software/thinlinc.md) for a comparison.
 
 ## Local ThinLinc client
 

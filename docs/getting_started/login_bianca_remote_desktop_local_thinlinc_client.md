@@ -36,7 +36,7 @@ After downloading and installing, you can launch the ThinLinc client,
 and should see a form where you can enter your username and
 password (and possibly a server name). If you only see the simple form:
 
-![Login](img/c_555890-l_1-k_thinlincsimple.png)
+![Login](../cluster_guides/img/c_555890-l_1-k_thinlincsimple.png)
 
 you can click Advanced to be able to set the server name to connect to.
 Provided you have set it up earlier, you can also use key based authentication.
