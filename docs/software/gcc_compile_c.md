@@ -4,7 +4,7 @@
 is a collection of [compilers](compilers.md)
 able to compile multiple different programming languages.
 
-This page describes how to compile C code.
+This page describes how to compile C code using the GCC.
 
 ## Procedure
 

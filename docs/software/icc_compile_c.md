@@ -8,20 +8,22 @@ This page describes how to compile C code using the GCC.
 ### 1. Load an `intel` module
 
 For version of the Intel compiler to and including 2020,
-load an `intel` module :
+load an `intel` module with a version having two digits,
+from 15 to and including 20:
 
 ```bash
 module load intel/20.4
 ```
 
-For newer Intel versions (2021-, see above):
+For newer Intel versions, pick one from 2021 or later, where
+the versions have four digits:
 
 ``` console
-module load intel-oneapi compiler
+module load intel/20.4
+module load intel-oneapi 
+module load compiler
 module load compiler/2023.1.0
 ```
-
-
 
 ### 2. 
 
