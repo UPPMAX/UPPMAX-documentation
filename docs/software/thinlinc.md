@@ -10,12 +10,14 @@ There are two ways of connecting to the clusters using ThinLinc,
 using a local ThinLinc client or login using a webbrowser.
 Here are the differences:
 
-Parameter      |Local ThinLinc client|Web browser login
----------------|---------------------|-----------------
-Install        |ThinLinc client      |Nothing [1]
-Simplicity     |Easy                 |Trivial
-Performance    |Higher               |Lower
-Recommended for|Most use cases       |Small tasks, when other approach fails
+Parameter                 |Local ThinLinc client|Web browser login
+--------------------------|---------------------|-----------------
+[Bianca](bianca.md) use   |Impossible           |Possible
+[Rackham](rackham.md) use |Recommended          |Possible
+Install                   |ThinLinc client      |Nothing [1]
+Simplicity                |Easy                 |Trivial
+Performance               |Higher               |Lower
+Recommended for           |Most use cases       |Small tasks, when other approach fails
 
 - [1] You already have a webbrowser installed :-)
 
@@ -31,7 +33,6 @@ The client can be downloaded from the [official download page](https://www.cendi
 - [ThinLinc on Bianca](../cluster_guides/thinlinc_on_bianca.md)
 - [ThinLinc on Rackham](../cluster_guides/thinlinc_on_rackham.md)
 - ThinLinc on Snowy: same as [ThinLinc on Rackham](../cluster_guides/thinlinc_on_rackham.md)
-
 
 ## ThinLinc usage
 
