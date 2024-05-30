@@ -14,4 +14,4 @@ C++     |Intel, `icpc`            |[Compile C++ using icpc](../software/icpc_com
 Fortran |GCC                      |[Compile Fortran using GCC](../software/gcc_compile_fortran.md)
 Fortran |Intel, `ifort`           |[Compile Fortran using ifort](../software/ifort_compile_fortran.md)
 Fortran |Intel, `ifx`             |[Compile Fortran using ifx](../software/ifx_compile_fortran.md)
-Java    |`javac`                  |[Compile Java using javac](../software/javac_compile_jave.md)
+Java    |`javac`                  |[Compile Java using javac](../software/javac_compile_java.md)
