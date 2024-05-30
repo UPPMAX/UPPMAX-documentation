@@ -1,12 +1,12 @@
 # `icpc`
 
 There are multiple [compilers](compilers.md) on the UPPMAX HPC clusters.
-This page describes `icpc`, an Intel C compiler.
+This page describes `icpc`, an Intel C++ compiler.
 
 The Intel compiler is part of the `intel` [module](../cluster_guides/modules.md)
 and can be used to:
 
-- [Compile a C program](icpc_compile_c.md)
+- [Compile a C++ program](icpc_compile_cpp.md)
 
 Working together with this Intel compiler are:
 
