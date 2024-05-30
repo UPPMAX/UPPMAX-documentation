@@ -61,10 +61,10 @@ To compiles the file `hello_world.f` with run-time speed optimization
 and creating an executable with a more sensible name, use:
 
 ```bash
-gfortran -O3 -o hello_world hello_world.f
+gfortran -Ofast -o hello_world hello_world.f
 ```
 
-- `-O3`: optimize for run-time speed
+- `-Ofast`: optimize for run-time speed, similar to `-O3`
 - `-o hello_world`: the executable created is called `hello_world`
 
 ### 3. Run

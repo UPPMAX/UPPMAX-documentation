@@ -8,7 +8,8 @@ Compiler         |Language(s)    |Description
 [icc](icc.md)    |C              |Older Intel C compiler
 [icpc](icpc.md)  |C++            |Intel C++ compiler
 [icx](icx.md)    |C              |Newer Intel C compiler
-[ifort](ifort.md)|Fortran        |Intel Fortran compiler
+[ifort](ifort.md)|Fortran        |Older Intel Fortran compiler
+[ifx](ifx.md)    |Fortran        |Newer Intel Fortran compiler
 [javac](javac.md)|Java           |Java compiler
 
 Different compilers are association with different [debuggers](debuggers.md)
