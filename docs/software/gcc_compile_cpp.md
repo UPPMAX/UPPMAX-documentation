@@ -8,6 +8,29 @@ This page describes how to compile C++ code using the GCC.
 
 ## Procedure
 
+### 0. Create a C++ source file
+
+You will need C++ code to work on.
+
+In this optional step, a file with a minimal C++ program is created.
+
+Create and write a C++ source file called `hello_world.cpp`:
+
+```bash
+nano hello_world.c
+```
+
+In [nano](nano.md), write the C++ program as such:
+
+```c++
+#include <iostream>
+
+int main()
+{
+  std::cout << "hello, world\n";
+}
+```
+
 ### 1. Load a GCC module
 
 Load a recent GCC module:
@@ -23,27 +46,7 @@ module load gcc/13.2.0
     For sake of doing reproducible research, 
     always load a module of a specific version.
 
-
-### 2. Create a C++ source file
-
-Create and write a C source file called `hello_world.cpp`:
-
-```bash
-nano hello_world.c
-```
-
-In [nano](nano.md), write the C program as such:
-
-```c
-#include <iostream>
-
-int main()
-{
-  std::cout << "hello, world\n";
-}
-```
-
-### 3. Compile the source file
+### 2. Compile the source file
 
 After saving and closing nano, compile as such:
 
@@ -66,7 +69,7 @@ g++ -O3 -o hello_world hello_world.cpp
 - `-O3`: optimize for run-time speed
 - `-o hello_world`: the executable created is called `hello_world`
 
-### 4. Run
+### 3. Run
 
 Run the program:
 

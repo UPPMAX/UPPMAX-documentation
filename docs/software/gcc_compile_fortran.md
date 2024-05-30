@@ -1,33 +1,32 @@
-# Compile C using GCC
+# Compile Fortran using GCC
 
 [GCC](gcc.md) (shorthand for 'GNU Compiler Collection')
 is a collection of [compilers](compilers.md)
 able to compile multiple different programming languages.
 
-This page describes how to compile C code using the GCC.
+This page describes how to compile Fortran code using the GCC.
 
 ## Procedure
 
-### 0. Create a C source file
+### 0. Create a Fortran source file
 
-You will need C code to work on.
+You will need Fortran code to work on.
 
-In this optional step, a file with a minimal C program is created.
+In this optional step, a file with a minimal Fortran program is created.
 
-Create and write a C source file called `hello_world.c`:
+Create and write a Fortran source file called `hello_world.f`:
 
 ```bash
-nano hello_world.c
+nano hello_world.f
 ```
 
-In [nano](nano.md), write the C program as such:
+In [nano](nano.md), write the Fortran program as such:
 
-```c
-#include <stdio.h>
-
-int main() {
-  printf("hello, world\n");
-}
+``` fortran
+C     HELLO.F :  PRINT MESSAGE ON SCREEN
+      PROGRAM HELLO
+      WRITE(*,*) "hello, world";
+      END
 ```
 
 ### 1. Load a GCC module
@@ -45,32 +44,24 @@ module load gcc/13.2.0
     For sake of doing reproducible research, 
     always load a module of a specific version.
 
-
-If you need the C11 or C17 standards, use these module versions or newer:
-
-Module version|Description
---------------|------------------------------
-`gcc/4.8`     |Fully implemented C11 standard
-`gcc/8`       |Fully implemented C17 standard
-
 ### 2. Compile the source file
 
 After saving and closing nano, compile as such:
 
 ```bash
-gcc hello_world.c
+gfortran hello_world.f
 ```
 
-This compiles the file `hello_world.c` using all defaults:
+This compiles the file `hello_world.f` using all defaults:
 
 - default/no optimization
 - the executable created is called `a.out`
 
-To compiles the file `hello_world.c` with run-time speed optimization
+To compiles the file `hello_world.f` with run-time speed optimization
 and creating an executable with a more sensible name, use:
 
 ```bash
-gcc -O3 -o hello_world hello_world.c
+gfortran -O3 -o hello_world hello_world.f
 ```
 
 - `-O3`: optimize for run-time speed
