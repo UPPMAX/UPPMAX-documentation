@@ -21,6 +21,8 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
-      # - uses: igsekor/pyspelling-any@v0.0.2
+      # The older version is faster
+      - uses: igsekor/pyspelling-any@v0.0.2
 
-      - uses: igsekor/pyspelling-any@v1.0.4
+      # The newer version takes around two hours, as of 2024-05-30
+      # - uses: igsekor/pyspelling-any@v1.0.4
