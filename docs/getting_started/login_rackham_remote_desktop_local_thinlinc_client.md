@@ -8,6 +8,10 @@ via a local [ThinLinc](../software/thinlinc.md) client.
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    This procedure is also shown by [this YouTube video](https://youtu.be/PqEpsn74l0g).
+
 ### 1. Install ThinLinc
 
 Install ThinLinc. For help, see [the UPPMAX page on ThinLinc](../software/thinlinc.md).
