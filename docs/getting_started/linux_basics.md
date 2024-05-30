@@ -383,7 +383,7 @@ MANUAL SECTIONS
 
        7      Miscellanea
 
-       8      System Administration tools and Deamons
+       8      System Administration tools and Daemons
 --->
 
 ## Let’s get wild with Wildcards
