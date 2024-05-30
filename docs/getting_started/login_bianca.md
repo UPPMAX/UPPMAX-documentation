@@ -214,10 +214,13 @@ flowchart TD
 
 ### Login to the Bianca remote desktop environment
 
-There are multiple ways to do so:
+One can only [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md).
 
-- [Login to the Bianca remote desktop environment website](login_bianca_remote_desktop_website.md).
-- [Login to the Bianca remote desktop environment using a local ThinLinc client](login_bianca_remote_desktop_local_thinlinc_client.md).
+???- question "Will a local ThinLinc client work too?"
+
+    No. 
+
+    One really can only [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md).
 
 ### Login to the Bianca console environment
 
