@@ -40,7 +40,7 @@ nav:
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
     - Installing and development: 
       - Installing: cluster_guides/install.md
-      - Installing with conda: cluster_guides/conda.md
+      - Installing with conda: software/conda.md
       - Compilers: software/compilers.md
       - Compiling serial code: cluster_guides/compiling_serial.md
       - Compiling parallel code: cluster_guides/compiling_parallel.md

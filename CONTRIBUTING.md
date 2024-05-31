@@ -43,7 +43,7 @@ As an external contributor, one can contribute by:
 
 ## Where to put files?
 
-All files are put in `docs` or `docs/[some_folder]`, 
+All files are put in `docs` or `docs/[some_folder]`,
 but not not deeper than that.
 
 Description                                | Where          | Typical name
