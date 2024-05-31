@@ -3,6 +3,8 @@
 'OrthoFinder is a software program for phylogenetic orthology inference'
 (from [OrthoFinder tutorials](https://davidemms.github.io/)).
 
+It is not installed via the module system.
+
 ???- info "For UPPMAX staff"
 
     Tickets:
