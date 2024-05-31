@@ -44,7 +44,7 @@
     - r2018.11
     - scilifelab-lts
 
-- [Conda user guide](conda.md)
+- [Conda user guide](../software/conda.md)
 
 ### Python packages with pip
 
