@@ -89,3 +89,9 @@ How do I specify that I do not need my large datasets to be backed up?
 
 
 ## Members
+
+If you want to check which members that presently belong to a project you do:
+
+```bash
+$ getent groups <project name>
+```
