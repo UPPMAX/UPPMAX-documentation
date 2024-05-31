@@ -82,6 +82,7 @@ nav:
         - Perl: software/perl.md
         - R: software/r.md
       - Misc tools:
+        - Allinea DDT: software/allinea-ddt.md
         - darsync: cluster_guides/darsync.md
         - jobstats: software/jobstats.md
         - projplot: software/projplot.md
