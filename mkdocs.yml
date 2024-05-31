@@ -33,7 +33,7 @@ nav:
       - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
       - Runtime tips: cluster_guides/running_jobs/runtime_tips.md
       - Storage and compression: cluster_guides/running_jobs/storage_compression.md
-      - Screen: cluster_guides/screen.md
+      - Screen: software/screen.md
     - Data transfer: 
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Migrate to Dardel: cluster_guides/dardel_migration.md
