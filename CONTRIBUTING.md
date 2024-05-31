@@ -43,6 +43,9 @@ As an external contributor, one can contribute by:
 
 ## Where to put files?
 
+All files are put in `docs` or `docs/[some_folder]`, 
+but not not deeper than that.
+
 Description                                | Where          | Typical name
 -------------------------------------------|----------------|------------------------------------------
 Information about clusters                 |`cluster_guides`|`bianca.md`, `rackham.md`, `snowy.md`
