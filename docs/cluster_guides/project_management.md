@@ -90,7 +90,7 @@ How do I specify that I do not need my large datasets to be backed up?
 
 ## Members
 
-Check the current project memebrs with 
+Check the current project members with 
 
 ```bash
 $ projmembers <project-name>
@@ -102,4 +102,4 @@ If you want to check which members that presently belong to a certain (Linux) gr
 $ getent groups <project name>
 ```
 
-- Ypoi can also check in <supr.naiss.se>
+- You can also check in supr.naiss.se
