@@ -102,4 +102,4 @@ If you want to check which members that presently belong to a certain (Linux) gr
 $ getent groups <project name>
 ```
 
-- You can also check in https://supr.naiss.se/
+- You can also check in [SUPR - Swedish User and Project Repository](https://supr.naiss.se/)
