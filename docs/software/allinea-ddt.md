@@ -13,7 +13,7 @@ To use the graphical user interface
 use [ssh with forwarding](ssh_x_forwarding.md)
 or [ThinLinc](thinlinc.md).
 
-To use the program load the `ddt` [module](../cluster_guides/module.md)
+To use the program load the `ddt` [module](../cluster_guides/modules.md)
 from you command line:
 
 ```bash
