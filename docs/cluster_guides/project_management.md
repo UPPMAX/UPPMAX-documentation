@@ -95,3 +95,5 @@ If you want to check which members that presently belong to a project you do:
 ```bash
 $ getent groups <project name>
 ```
+
+- Ypoi can also check in <supr.naiss.se>
