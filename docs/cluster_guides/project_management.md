@@ -90,7 +90,7 @@ How do I specify that I do not need my large datasets to be backed up?
 
 ## Members
 
-Check the current project members with 
+Check the current project members with:
 
 ```bash
 $ projmembers <project-name>
