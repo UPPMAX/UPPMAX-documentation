@@ -1,6 +1,6 @@
 # MATLAB user guide
 
-[test file](files/uppsala.Desktop.zip)
+[test file](../../files/uppsala.Desktop.zip)
 
 The MATLAB module
 
