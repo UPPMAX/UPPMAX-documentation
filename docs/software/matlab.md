@@ -1,6 +1,8 @@
 # MATLAB user guide
 
-[test file](../../files/uppsala.Desktop.zip)
+
+<a id="raw-url" href="https://github.com/UPPMAX/UPPMAX-documentation/blob/main/files/uppsala.Desktop.zip">Download FILE</a>
+
 
 The MATLAB module
 
