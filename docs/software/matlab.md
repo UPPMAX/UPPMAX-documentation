@@ -3,7 +3,7 @@
 
 [Download Minion](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/files/uppsala.Desktop.zip "download")
 
-<a href="https://octodex.github.com/images/minion.png" title="Download" download>Download</a>
+<a href="https://github.com/UPPMAX/UPPMAX-documentation/blob/main/files/uppsala.Desktop.zip" title="Download" download>Download</a>
 
 The MATLAB module
 
