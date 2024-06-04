@@ -1,8 +1,7 @@
 # MATLAB user guide
 
 
-<a id="raw-url" href="https://github.com/UPPMAX/UPPMAX-documentation/blob/main/files/uppsala.Desktop.zip">Download FILE</a>
-
+[Download Minion](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/files/uppsala.Desktop.zip "download")
 
 The MATLAB module
 
