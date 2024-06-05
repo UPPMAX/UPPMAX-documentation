@@ -18,7 +18,7 @@ whereas Amplifier is more broadly aimed at performance analysis.
 In order to use VTune do the following:
 
 ```bash
-module load intel intel-oneapi vtune
+module load intel-oneapi vtune
 ```
 
 Making sure you have a graphical connection
