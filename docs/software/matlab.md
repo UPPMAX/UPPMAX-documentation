@@ -1,11 +1,6 @@
 # MATLAB user guide
 
-
-[Download Minion](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/files/uppsala.Desktop.zip "download")
-
-<a href="https://github.com/UPPMAX/UPPMAX-documentation/blob/main/files/uppsala.Desktop.zip" title="Download" download>Download</a>
-
-The MATLAB module
+## The MATLAB module
 
 MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023b``
 
