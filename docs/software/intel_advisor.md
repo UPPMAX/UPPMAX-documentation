@@ -15,7 +15,7 @@ including MPI and OpenMP code.
 In order to use Advisor, do the following:
 
 ```bash
-module load intel intel-oneapi advisor
+module load intel-oneapi advisor
 ```
 
 Making sure you have a graphical connection
