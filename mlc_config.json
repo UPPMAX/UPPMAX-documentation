@@ -31,5 +31,8 @@
     {
       "pattern": "^http://hostname:8888$"
     }
+    {
+      "pattern": "^software-table.md"
+    }
   ]
 }
