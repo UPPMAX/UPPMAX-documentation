@@ -30,7 +30,7 @@ Log in to [SUPR](https://supr.naiss.se/) and view your projects there. You can a
 
 ## Storage
 
-- [Disk storage guide](storage/disk_storage_guide.md)
+- [Disk storage guide](disk_storage_guide.md)
 - [Backup](backup.md)
 
 ### Display storage quota
@@ -62,7 +62,7 @@ optional arguments:
   -s, --slow            Deprecated. Previously ran 'du' command
 ```
 
-- [Display the disk quota on the more detailed level](storage/disk_quota_more.md)
+- [Display the disk quota on the more detailed level](disk_quota_more.md)
 
 ### Other
 
