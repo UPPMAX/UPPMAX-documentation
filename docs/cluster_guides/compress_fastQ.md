@@ -63,7 +63,7 @@ The fqz_comp executable could be used to decompress FastQ within a named pipe if
 ... <(fqz_comp -d < file.fastq.fqz) ...
 ```
 
-Note that fqz_comp is designed to compress FastQ files alone, and neither method here provides the blocked compression format suitable for random access that bgzip does; see [which-compression-format-should-i-use-for-ngs-related-files](../storage/compress_format.md) for more on that subject.
+Note that fqz_comp is designed to compress FastQ files alone, and neither method here provides the blocked compression format suitable for random access that bgzip does; see [which-compression-format-should-i-use-for-ngs-related-files](compress_format.md) for more on that subject.
 
 
 ### Why not LFQC?
