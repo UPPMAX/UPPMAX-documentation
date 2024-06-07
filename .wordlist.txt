@@ -3966,4 +3966,6 @@ wxWindows
 xgenomics
 zig
 zsh
-
+Linargoforge
+PowerShell
+orthology
