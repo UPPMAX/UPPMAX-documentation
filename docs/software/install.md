@@ -90,7 +90,7 @@
 
 ### Singularity
 
-See [the UPPMAX Singularity user guide](../cluster_guides/singularity.md)
+See [the UPPMAX Singularity user guide](../singularity.md)
 
 ### Docker
 
