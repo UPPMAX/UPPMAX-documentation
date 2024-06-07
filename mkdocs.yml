@@ -38,16 +38,6 @@ nav:
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Migrate to Dardel: cluster_guides/dardel_migration.md
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
-    - Installing and development: 
-      - Installing: cluster_guides/install.md
-      - Installing with conda: software/conda.md
-      - Compilers: software/compilers.md
-      - Compiling serial code: cluster_guides/compiling_serial.md
-      - Compiling parallel code: cluster_guides/compiling_parallel.md
-      - Debuggers: software/debuggers.md
-      - Profilers: software/profilers.md
-      - Singularity/Apptainer: cluster_guides/singularity.md
-      - Spack: software/spack.md
   - Software:
     - Overview: software/overview.md
     - Software table: software/software-table.md
@@ -90,6 +80,16 @@ nav:
         - SSH: software/ssh.md
         - SFTP: software/sftp.md
         - ThinLinc: software/thinlinc.md
+    - Installing and development: 
+      - Installing: cluster_guides/install.md
+      - Installing with conda: software/conda.md
+      - Compilers: software/compilers.md
+      - Compiling serial code: cluster_guides/compiling_serial.md
+      - Compiling parallel code: cluster_guides/compiling_parallel.md
+      - Debuggers: software/debuggers.md
+      - Profilers: software/profilers.md
+      - Singularity/Apptainer: cluster_guides/singularity.md
+      - Spack: software/spack.md
       
   - Databases: 
      - Overview: databases/overview.md
