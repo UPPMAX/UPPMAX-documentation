@@ -396,9 +396,6 @@ Full command            |Shorthand syntax
 
 ## Extra materials
 
-- [Conflicting modules](modules_conflicts.md]
-
-
 ### About `module avail`
 
 !!! info "Why here?"
@@ -427,3 +424,8 @@ No module(s) or extension(s) found!
 Use "module spider" to find all possible modules and extensions.
 Use "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".
 ```
+
+## Conflicting modules
+
+Sometimes some tools cannot be run together, that is working when another module is loaded. 
+Read about this in the page [Conflicting modules](modules_conflicts.md)
