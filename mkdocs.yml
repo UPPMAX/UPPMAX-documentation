@@ -81,14 +81,14 @@ nav:
         - SFTP: software/sftp.md
         - ThinLinc: software/thinlinc.md
     - Installing and development: 
-      - Installing: cluster_guides/install.md
+      - Installing: software/install.md
       - Installing with conda: software/conda.md
       - Compilers: software/compilers.md
-      - Compiling serial code: cluster_guides/compiling_serial.md
-      - Compiling parallel code: cluster_guides/compiling_parallel.md
+      - Compiling serial code: software/compiling_serial.md
+      - Compiling parallel code: software/compiling_parallel.md
       - Debuggers: software/debuggers.md
       - Profilers: software/profilers.md
-      - Singularity/Apptainer: cluster_guides/singularity.md
+      - Singularity/Apptainer: software/singularity.md
       - Spack: software/spack.md
       
   - Databases: 
