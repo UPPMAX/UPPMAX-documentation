@@ -396,6 +396,9 @@ Full command            |Shorthand syntax
 
 ## Extra materials
 
+- [Conflicting modules](modules_conflicts.md]
+
+
 ### About `module avail`
 
 !!! info "Why here?"
