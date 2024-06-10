@@ -42,5 +42,3 @@ Please send such requests to `support@uppmax.uu.se`.
 ### Installing yourself
 
 Go to our [installation page](install.md)
-
-
