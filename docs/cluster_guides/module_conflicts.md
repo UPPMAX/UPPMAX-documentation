@@ -25,7 +25,3 @@ Then start to load the modules you need, one by one:
 Until you can run your program without errors.
 
 UPPMAX recommends that you only load as many modules as you need for each program, to minimize the risk of having conflicting modules.
-
-
-
-
