@@ -427,5 +427,6 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
 
 ## Conflicting modules
 
-Sometimes some tools cannot be run together, that is working when another module is loaded. 
-Read about this in the page [Conflicting modules](modules_conflicts.md)
+Sometimes some tools cannot be run together, that is working when another module is loaded. Read about this in the page:
+
+- [Conflicting modules](modules_conflicts.md)
