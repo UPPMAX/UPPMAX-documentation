@@ -31,7 +31,6 @@ Login to a remote desktop:
 - Login to your local ThinLinc client
 
 ### UPPMAX procedure step 2: start an interactive session
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Start a terminal. Within that terminal, 
 start an interactive session from the login node 
@@ -39,30 +38,30 @@ start an interactive session from the login node
   
 **For Rackham**
 
-.. code-block:: sh
-
-   $ interactive -A <naiss-project-id>  -t 4:00:00
+```sh
+$ interactive -A <naiss-project-id>  -t 4:00:00
+```
 
 **For Snowy**
 
-.. code-block:: sh
+```sh
+$ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
+```
 
-   $ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
-   
 ### UPPMAX procedure step 3: start Jupyter in the interactive session
 
 Within your terminal with the interactive session, 
 load a modern Python module:
 
-.. code-block:: sh
-		
-   module load python/3.11.8
+```sh
+module load python/3.11.8
+```
 
 Then, start ``jupyter-notebook`` (or ``jupyter-lab``):
 
-.. code-block:: sh
-
-   jupyter-notebook --ip 0.0.0.0 --no-browser
+```sh
+jupyter-notebook --ip 0.0.0.0 --no-browser
+```
 
 Leave this terminal open.
 
