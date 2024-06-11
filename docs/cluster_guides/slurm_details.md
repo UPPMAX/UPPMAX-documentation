@@ -137,7 +137,6 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
     - ``--output=slurm-%j.out`` and ``--error=slurm-%j.err``
 
         -  by default, where `%j` will be replaced by the job ID
-
     - ``--output=my.output.file``
     - ``--error=my.error.file``
 
@@ -150,6 +149,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
     - `jobinfo -A sens2023598`
     - `jobinfo -u username --state=running`
     - `jobinfo -u username --state=pending`
+
 - You may also use the ``squeue`` command.
 
 - `bianca_combined_jobinfo` (queued jobs of all projects)
