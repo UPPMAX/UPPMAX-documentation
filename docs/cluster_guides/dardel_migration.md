@@ -10,7 +10,7 @@ the HPC cluster at PDC in Stockholm.
     Every Tuesday at 11:15 (except for the month of July)
     there is online Rackham 2 Dardel Drop-in at Zoom
     with meeting ID 64896912764
- 
+
 Please join us if you need assistance logging in to Dardel or migrating your data.
 
 ???- question "Why do I need this?"
