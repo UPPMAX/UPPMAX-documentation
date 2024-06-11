@@ -150,7 +150,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
     - `jobinfo -A sens2023598`
     - `jobinfo -u username --state=running`
     - `jobinfo -u username --state=pending`
-      
+
 - You may also use the ``squeue`` command.
 
 - `bianca_combined_jobinfo` (queued jobs of all projects)
@@ -321,7 +321,7 @@ sd > out.log
 nvidia-smi
 ```
 
-- https://slurm.schedmd.com/gres.html#Running_Jobs
+- <https://slurm.schedmd.com/gres.html#Running_Jobs>
 
 ### Running on several nodes: MPI jobs
 
