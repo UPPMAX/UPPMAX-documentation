@@ -1,5 +1,5 @@
 # Compute nodes, Slurm and debugging jobs on Bianca
-    
+
 ## More Slurm and other advanced UPPMAX techniques
 
 - A closer look at Slurm
@@ -11,11 +11,12 @@
 ## The Slurm Workload Manager
 
 - Free, popular, lightweight
-- Open source: https://slurm.schedmd.com
+- Open source: <https://slurm.schedmd.com>
 - Available at all SNIC centres
 - [UPPMAX Slurm user guide](http://docs.uppmax.uu.se/cluster_guides/slurm/)
 
 ### More on sbatch
+
 Recap:
 
 sbatch | -A sens2023598  |   -t 10:00 | -p core | -n 10 | my_job.sh
@@ -60,7 +61,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
     - up to 1 hour in length
     - only 1 at a time
     - ``-p devcore``, ``-p devel``
- 
+
 ???- question "Any free nodes in the devel partition? Check status with"
 
     - ``sinfo -p devel``
@@ -82,8 +83,8 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
     - ``interactive -n 80 -t 03:00:00 -A sens2023598``
 
     - up to 12 hours
-    - useful together with the --begin=<time> flag
-    - ``salloc -A snic2022-22-50 --begin=2022-02-17T08:00:00`
+    - useful together with the ``--begin=<time> flag``
+    - ``salloc -A snic2022-22-50 --begin=2022-02-17T08:00:00``
 
     - asks for an interactive job that will start earliest tomorrow at 08:00
 
@@ -99,6 +100,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 #SBATCH -n 1
 #SBATCH -t 24:00:00
 ```
+
 Just a quick test:
 
 ```console
@@ -134,11 +136,10 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 
     - ``--output=slurm-%j.out`` and ``—-error=slurm-%j.err``
 
-        -  by default, where %j will be replaced by the job ID
+        - by default, where %j will be replaced by the job ID
 
     - ``--output=my.output.file``
     - ``--error=my.error.file``
-
 
 ## Monitoring jobs
 
@@ -149,6 +150,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
     - `jobinfo -A sens2023598`
     - `jobinfo -u username --state=running`
     - `jobinfo -u username --state=pending`
+      
 - You may also use the ``squeue`` command.
 
 - `bianca_combined_jobinfo` (queued jobs of all projects)
@@ -189,7 +191,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 
     - submit early = run early
     - bonus jobs always run eventually, but may need to wait until the night or weekend
-    - In detail: <http://docs.uppmax.uu.se/cluster_guides/running_jobs/jobinfo_reason/>
+    - In detail: <http://docs.uppmax.uu.se/cluster_guides/jobinfo_reason/>
 
 
 ???+ question "Hands-on #2: sbatch/squeue/scancel/scontrol/jobinfo"
@@ -334,7 +336,6 @@ nvidia-smi
 ### for jobs shorter than 15 min (max 4 nodes):
 ###SBATCH --qos=short
 
-
 module load RSPt/2021-10-04
 export RSPT_SCRATCH=$SNIC_TMP
 
@@ -369,13 +370,13 @@ env
 
 - You may use ``scontrol`` to modify some of the job arrays.
 
-### Snakemake and Nextflow 
+### Snakemake and Nextflow
 
 - Conceptually similar, but with different flavours
 - First define steps, each with an input, an output, and a command that transforms the input into output
 - Then just ask for the desired output and the system will handle the rest
-- Snakemake hackathon: https://www.naiss.se/event/online-training-snakemake-hackathon-2024-05/ (re-occurring event)
-- Nextflow training: https://training.nextflow.io/
+- [Snakemake hackathon](https://www.naiss.se/event/online-training-snakemake-hackathon-2024-05/) (re-occurring event)
+- [Nextflow training](https://training.nextflow.io/)
 
 ???+ question "Hands-on #4: make it your own"
 
