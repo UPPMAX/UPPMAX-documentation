@@ -49,9 +49,7 @@ start an interactive session from the login node
 
    $ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
    
-
 ### UPPMAX procedure step 3: start Jupyter in the interactive session
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Within your terminal with the interactive session, 
 load a modern Python module:
@@ -85,20 +83,16 @@ In both cases, you can access Jupyter from your local computer
 
 ### On own computer
 
-
 - If you use ssh to connect to Rackham, you need to forward the port of the interactive node to your local computer.
     - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
 
-.. code-block:: sh
-		
+```sh
    $ ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
-
+```
     - If you use Windows it may be better to do this in the PowerShell instead of a WSL2 terminal.
     - If you use PuTTY - you need to change the settings in "Tunnels" accordingly (could be done for the current connection as well).
 
-.. figure:: ../../img/putty.png
-   :width: 450
-   :align: center
+![putty](../img/putty.png)
 
 [SSH port forwarding](https://uplogix.com/docs/local-manager-user-guide/advanced-features/ssh-port-forwarding)
     
@@ -110,7 +104,6 @@ or
 
     This should bring the jupyter interface on your computer and all calculations and files will be on Rackham.
 
-
 .. warning:: 
 
    **Running Jupyter in a virtual environment**
@@ -120,18 +113,16 @@ or
    If you decide to use the --system-site-packages configuration you will get ``jupyter`` from the python modules you created your virtual environment with.
    However, you **won't find your locally installed packages** from that jupyter session. To solve this reinstall jupyter within the virtual environment by force:
 
-   .. code-block:: console
-
-      $ pip install -I jupyter
-
+```sh
+$ pip install -I jupyter
+```
    and run:
 
-   .. code-block:: console
-
-      $ jupyter-notebook
+```sh
+$ jupyter-notebook
+```
    
-   Be sure to start the **kernel with the virtual environment name**, like "Example", and not "Python 3 (ipykernel)".
-
+Be sure to start the **kernel with the virtual environment name**, like "Example", and not "Python 3 (ipykernel)".
 
 Links
 ---------
