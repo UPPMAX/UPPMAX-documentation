@@ -136,7 +136,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 
     - ``--output=slurm-%j.out`` and ``--error=slurm-%j.err``
 
-        -  by default, where `%j` will be replaced by the job ID
+        - by default, where `%j` will be replaced by the job ID
     - ``--output=my.output.file``
     - ``--error=my.error.file``
 
