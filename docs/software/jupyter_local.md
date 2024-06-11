@@ -91,7 +91,7 @@ In both cases, you can access Jupyter from your local computer
 On your computer open  the address you got but replace ``r486`` with ``localhost`` i.e.
 
 ``http://localhost:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
-or 
+or
 ``http://127.0.0.0:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
 
     This should bring the jupyter interface on your computer and all calculations and files will be on Rackham.
@@ -116,8 +116,7 @@ or
    
     Be sure to start the **kernel with the virtual environment name**, like "Example", and not "Python 3 (ipykernel)".
 
-Links
----------
+## Links
 
 - `The Jupyter project <https://jupyter.org/>`_ contains a lot of information and inspiration
 - `The Jupyter Notebook documentation <https://jupyter-notebook.readthedocs.io/en/stable/>`_  
