@@ -1,40 +1,6 @@
-Jupyter on compute nodes
-========================
+# Jupyter on compute nodes
 
-.. tabs::
-
-   .. tab:: Learning objectives
-
-      - Start Jupyter via an interactive session from the remote desktop website.
-
-   .. tab:: For teachers
-
-      Teaching goals are:
-
-      - Learners have started Jupyter via an interactive session from the remote desktop website.
-
-      Lesson plan (10 minutes in total):
-
-      - 1 mins: prior knowledge
-         - What is Jupyter?
-         - Why can't I run it on a login node?
-         - Why can't I run it on a compute node node?
-      - 1 mins: presentation
-      - 7 mins: challenge
-      - 1 mins: recap
-
-.. admonition:: Compute allocations in this workshop 
-
-   - Rackham: ``naiss2024-22-107``
-   - Kebnekaise: ``hpc2n2024-025``
-
-.. admonition:: Storage space for this workshop 
-
-   - Rackham: ``/proj/r-py-jl``
-   - Kebnekaise: ``/proj/nobackup/hpc2n2024-025``
-
-Introduction
-------------
+## Introduction
 
 Jupyter is web application that allows literature programming
 for Python. That is, Jupyter allows to create documents 
@@ -48,27 +14,23 @@ Jupyter is:
 - started and running on a server, for example, an interactive node
 - displayed in a **web browser**, such as ``firefox``.
 
-Jupyter can be slow when using a remote desktop website 
-(e.g. ``rackham-gui.uppmax.uu.se`` or ``kebnekaise-tl.hpc2n.umu.se``).
+Jupyter can be slow when using remote desktop webpage
+(e.g. ``https://rackham-gui.uppmax.uu.se``).
 
-- For HPC2N, as ``JupyterLab`` is only accessible from within HPC2N's, 
-  there is no way to improve it
 - For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter.
   See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_
   on how to install the ThinLinc client locally
 
-UPPMAX procedure
-----------------
+## UPPMAX procedure
 
-UPPMAX procedure step 1: login to a remote desktop
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### UPPMAX procedure step 1: login to a remote desktop
 
 Login to a remote desktop:
 
 - Login to the remote desktop website at ``rackham-gui.uppmax.uu.se``
 - Login to your local ThinLinc client
 
-UPPMAX procedure step 2: start an interactive session
+### UPPMAX procedure step 2: start an interactive session
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Start a terminal. Within that terminal, 
@@ -88,7 +50,7 @@ start an interactive session from the login node
    $ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
    
 
-UPPMAX procedure step 3: start Jupyter in the interactive session
+### UPPMAX procedure step 3: start Jupyter in the interactive session
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Within your terminal with the interactive session, 
@@ -106,8 +68,7 @@ Then, start ``jupyter-notebook`` (or ``jupyter-lab``):
 
 Leave this terminal open.
 
-UPPMAX procedure step 4: connect to the running notebook 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### UPPMAX procedure step 4: connect to the running notebook 
 
 The terminal will display multiple URLs.
 
@@ -122,8 +83,8 @@ In both cases, you can access Jupyter from your local computer
 - browse to the second URL, which will be similar to 
   ``http://r486:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
 
-On own computer
-'''''''''''''''
+### On own computer
+
 
 - If you use ssh to connect to Rackham, you need to forward the port of the interactive node to your local computer.
     - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
@@ -171,136 +132,6 @@ or
    
    Be sure to start the **kernel with the virtual environment name**, like "Example", and not "Python 3 (ipykernel)".
 
-
-
-
-Kebnekaise
-----------
-
-Since the JupyterLab will only be accessible from within HPC2N's domain, it is by far easiest to do this from inside ThinLinc, so **this is highly recommended**. You can find information about using ThinLinc at HPC2N here: https://www.hpc2n.umu.se/documentation/guides/thinlinc
-
-1. At HPC2N, you currently need to start JupyterLab on a specific compute node. To do that you need a submit file and inside that you load the JupyterLab module and its prerequisites (and possibly other Python modules if you need them - more about that later).
-
-To see the currently available versions, do
-
-``module spider JupyterLab``
-
-You then do
-
-``module spider JupyterLab/<version>``
-
-for a specific <version> to see which prerequisites should be loaded first.
-
-**Example, loading ``JupyterLab/4.0.5``**
-
-``module load GCC/12.3.0 JupyterLab/4.0.5``
-
-2. Making the submit file
-
-Something like the file below will work. Remember to change the project id after the course, how many cores you need, and how long you want the JupyterLab to be available:
-
-.. code-block:: slurm
-		
-   #!/bin/bash
-   #SBATCH -A hpc2n2024-025
-   # This example asks for 1 core
-   #SBATCH -n 1
-   # Ask for a suitable amount of time. Remember, this is the time the Jupyter notebook will be available! HHH:MM:SS.
-   #SBATCH --time=05:00:00
- 
-   # Clear the environment from any previously loaded modules
-   module purge > /dev/null 2>&1
- 
-   # Load the module environment suitable for the job
-   module load GCC/12.3.0 JupyterLab/4.0.5
-
-   # Start JupyterLab
-   jupyter lab --no-browser --ip $(hostname)
-
-Where the flags used to the Jupyter command has the following meaning (you can use ``Jupyter --help`` and ``Jupyter lab --help``> to see extra options):
-
-- **lab**: This launches JupyterLab computational environment for Jupyter.
-- **--no-browser**: Prevent the opening of the default url in the browser.
-- **--ip=<IP address>**: The IP address the JupyterLab server will listen on. Default is 'localhost'. In the above example script I use ``$(hostname)`` to get the content of the environment variable for the hostname for the node I am allocated by the job.
-
-**Note** again that the JupyterLab is *only* accessible from within the HPC2N domain, so it is easiest to work on the ThinLinc.
-
-3. Submit the above submit file. Here I am calling it ``MyJupyterLab.sh``
-
-``sbatch MyJupyterLab.sh``
-
-4. Get the URL from the SLURM output file.
-
-Wait until the job gets resources allocated. Check the SLURM output file; when the job has resources allocated it will have a number of URLs inside at the bottom.
-
-The SLURM output file is as default named ``slurm-<job-id>.out`` where you get the ``<job-id>`` when you submit the SLURM submit file (as in item 3. here).
-
-**NOTE**: Grab the URL with the *hostname* since the localhost one requires you to login to the compute node and so will not work!
-
-The file will look similar to this:
-
-.. code-block:: sh
-
-   b-an03 [~]$ cat slurm-24661064.out
-   [I 2024-03-09 15:35:30.595 ServerApp] Package jupyterlab took 0.0000s to import
-   [I 2024-03-09 15:35:30.617 ServerApp] Package jupyter_lsp took 0.0217s to import
-   [W 2024-03-09 15:35:30.617 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-   [I 2024-03-09 15:35:30.626 ServerApp] Package jupyter_server_terminals took 0.0087s to import
-   [I 2024-03-09 15:35:30.627 ServerApp] Package notebook_shim took 0.0000s to import
-   [W 2024-03-09 15:35:30.627 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-   [I 2024-03-09 15:35:30.627 ServerApp] jupyter_lsp | extension was successfully linked.
-   [I 2024-03-09 15:35:30.632 ServerApp] jupyter_server_terminals | extension was successfully linked.
-   [I 2024-03-09 15:35:30.637 ServerApp] jupyterlab | extension was successfully linked.
-   [I 2024-03-09 15:35:30.995 ServerApp] notebook_shim | extension was successfully linked.
-   [I 2024-03-09 15:35:31.020 ServerApp] notebook_shim | extension was successfully loaded.
-   [I 2024-03-09 15:35:31.022 ServerApp] jupyter_lsp | extension was successfully loaded.
-   [I 2024-03-09 15:35:31.023 ServerApp] jupyter_server_terminals | extension was successfully loaded.
-   [I 2024-03-09 15:35:31.027 LabApp] JupyterLab extension loaded from /hpc2n/eb/software/JupyterLab/4.0.5-GCCcore-12.3.0/lib/python3.11/site-packages/jupyterlab
-   [I 2024-03-09 15:35:31.027 LabApp] JupyterLab application directory is /cvmfs/ebsw.hpc2n.umu.se/amd64_ubuntu2004_skx/software/JupyterLab/4.0.5-GCCcore-12.3.0/share/jupyter/lab
-   [I 2024-03-09 15:35:31.028 LabApp] Extension Manager is 'pypi'.
-   [I 2024-03-09 15:35:31.029 ServerApp] jupyterlab | extension was successfully loaded.
-   [I 2024-03-09 15:35:31.030 ServerApp] Serving notebooks from local directory: /pfs/stor10/users/home/b/bbrydsoe
-   [I 2024-03-09 15:35:31.030 ServerApp] Jupyter Server 2.7.2 is running at:
-   [I 2024-03-09 15:35:31.030 ServerApp] http://b-cn1520.hpc2n.umu.se:8888/lab?token=c45b36c6f22322c4cb1e037e046ec33da94506004aa137c1
-   [I 2024-03-09 15:35:31.030 ServerApp]     http://127.0.0.1:8888/lab?token=c45b36c6f22322c4cb1e037e046ec33da94506004aa137c1
-   [I 2024-03-09 15:35:31.030 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-   [C 2024-03-09 15:35:31.039 ServerApp]
-
-    To access the server, open this file in a browser:
-        file:///pfs/stor10/users/home/b/bbrydsoe/.local/share/jupyter/runtime/jpserver-121683-open.html
-    Or copy and paste one of these URLs:
-        http://b-cn1520.hpc2n.umu.se:8888/lab?token=c45b36c6f22322c4cb1e037e046ec33da94506004aa137c1
-        http://127.0.0.1:8888/lab?token=c45b36c6f22322c4cb1e037e046ec33da94506004aa137c1
-   [I 2024-03-09 15:35:31.078 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
-
- 
-To access the server, go to
-
-``file:///.local/share/jupyter/runtime/jpserver-<newest>-open.html``
-
-from a browser within the ThinLinc session. <newest> is a number that you find by looking in the directory ``.local/share/jupyter/runtime/`` under your home directory.
-
-Or, to access the server you can copy and paste this URLs from the file:
-
-.. code-block:: sh
-
-   http://b-cn1520.hpc2n.umu.se:8888/lab?token=c45b36c6f22322c4cb1e037e046ec33da94506004aa137c1
-
-**NOTE** of course, do not copy the above, but the similar looking one from the file you get from running the batch script!!!
-
-5. Start a webbrowser within HPC2N (ThinLinc interface). Open the html or put in the URL you grabbed, including the token:
-
-.. figure:: ../img/jupyterlab-start.png
-   :width: 450
-   :align: center
-
-After a few moments JupyterLab starts up:
-
-.. figure:: ../img/jupyterlab_started.png
-   :width: 450
-   :align: center
-
-You shut it down from the menu with "File" > "Shut Down"
 
 Links
 ---------
