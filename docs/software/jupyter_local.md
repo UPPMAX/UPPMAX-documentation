@@ -14,7 +14,7 @@ Jupyter is:
 Jupyter can be slow when using remote desktop webpage
 (e.g. ``https://rackham-gui.uppmax.uu.se``).
 
-- For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter. See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_ on how to install the ThinLinc client locally
+- For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter. See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_ on how to install the ThinLinc client locally.
 
 ## UPPMAX procedure
 
@@ -27,9 +27,7 @@ Login to a remote desktop:
 
 ### UPPMAX procedure step 2: start an interactive session
 
-Start a terminal. Within that terminal, 
-start an interactive session from the login node 
-(change to the correct NAISS project ID) 
+Start a terminal. Within that terminal, start an interactive session from the login node (change to the correct NAISS project ID) 
   
 **For Rackham**
 
@@ -45,8 +43,7 @@ $ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
 
 ### UPPMAX procedure step 3: start Jupyter in the interactive session
 
-Within your terminal with the interactive session, 
-load a modern Python module:
+Within your terminal with the interactive session, load a modern Python module:
 
 ```sh
 module load python/3.11.8
@@ -104,8 +101,7 @@ or
 
    You could also use ``jupyter`` (``-lab`` or ``-notebook``) in a virtual environment.
 
-   If you decide to use the --system-site-packages configuration you will get ``jupyter`` from the python modules you created your virtual environment with.
-   However, you **won't find your locally installed packages** from that jupyter session. To solve this reinstall jupyter within the virtual environment by force:
+   If you decide to use the --system-site-packages configuration you will get ``jupyter`` from the python modules you created your virtual environment with.   However, you **won't find your locally installed packages** from that jupyter session. To solve this reinstall jupyter within the virtual environment by force:
 
 ```sh
 $ pip install -I jupyter
