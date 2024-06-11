@@ -27,15 +27,15 @@ Login to a remote desktop:
 
 ### UPPMAX procedure step 2: start an interactive session
 
-Start a terminal. Within that terminal, start an interactive session from the login node (change to the correct NAISS project ID) 
+Start a terminal. Within that terminal, start an interactive session from the login node (change to the correct NAISS project ID).
   
-**For Rackham**
+#### For Rackham
 
 ```sh
 $ interactive -A <naiss-project-id>  -t 4:00:00
 ```
 
-**For Snowy**
+#### For Snowy
 
 ```sh
 $ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
@@ -57,7 +57,7 @@ jupyter-notebook --ip 0.0.0.0 --no-browser
 
 Leave this terminal open.
 
-### UPPMAX procedure step 4: connect to the running notebook 
+### UPPMAX procedure step 4: connect to the running notebook
 
 The terminal will display multiple URLs.
 
@@ -69,7 +69,7 @@ If you use the remote desktop website:
 In both cases, you can access Jupyter from your local computer
 
 - start ``firefox`` on your local computer
-- browse to the second URL, which will be similar to 
+- browse to the second URL, which will be similar to
   ``http://r486:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
 
 ### On own computer
@@ -80,14 +80,15 @@ In both cases, you can access Jupyter from your local computer
 ```sh
    $ ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
 ```
+
     - If you use Windows it may be better to do this in the PowerShell instead of a WSL2 terminal.
     - If you use PuTTY - you need to change the settings in "Tunnels" accordingly (could be done for the current connection as well).
 
 ![putty](../img/putty.png)
 
 [SSH port forwarding](https://uplogix.com/docs/local-manager-user-guide/advanced-features/ssh-port-forwarding)
-    
-On your computer open  the address you got but replace r486 with localhost i.e.
+
+On your computer open  the address you got but replace ``r486`` with ``localhost`` i.e.
 
 ``http://localhost:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
 or 
@@ -95,24 +96,25 @@ or
 
     This should bring the jupyter interface on your computer and all calculations and files will be on Rackham.
 
-.. warning:: 
+!!! warning
 
-   **Running Jupyter in a virtual environment**
+    **Running Jupyter in a virtual environment**
 
-   You could also use ``jupyter`` (``-lab`` or ``-notebook``) in a virtual environment.
+    You could also use ``jupyter`` (``-lab`` or ``-notebook``) in a virtual environment.
 
-   If you decide to use the --system-site-packages configuration you will get ``jupyter`` from the python modules you created your virtual environment with.   However, you **won't find your locally installed packages** from that jupyter session. To solve this reinstall jupyter within the virtual environment by force:
+    If you decide to use the ``--system-site-packages`` configuration you will get ``jupyter`` from the python modules you created your virtual environment with.   However, you **won't find your locally installed packages** from that jupyter session. To solve this reinstall jupyter within the virtual environment by force:
 
-```sh
-$ pip install -I jupyter
-```
-   and run:
+    ```sh
+    $ pip install -I jupyter
+    ```
 
-```sh
-$ jupyter-notebook
-```
+    and run:
+
+    ```sh
+    $ jupyter-notebook
+    ```
    
-Be sure to start the **kernel with the virtual environment name**, like "Example", and not "Python 3 (ipykernel)".
+    Be sure to start the **kernel with the virtual environment name**, like "Example", and not "Python 3 (ipykernel)".
 
 Links
 ---------
