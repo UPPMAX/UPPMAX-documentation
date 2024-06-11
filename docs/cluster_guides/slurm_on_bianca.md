@@ -109,4 +109,7 @@ echo "Hello"
 ```
 
 Again, what is shown here is a minimal use of `sbatch`.
-See the general page on Slurm [here](slurm.md).
+See the [general page on Slurm](slurm.md).
+
+## [More about slurm on Bianca](slurm_on_bianca_details.md)
+
