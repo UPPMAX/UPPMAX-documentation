@@ -2,10 +2,7 @@
 
 ## Introduction
 
-Jupyter is web application that allows literature programming
-for Python. That is, Jupyter allows to create documents 
-where Python code is shown and run and its results shown, 
-surrounded by written text (e.g. English).
+Jupyter is web application that allows literature programming for Python. That is, Jupyter allows to create documents where Python code is shown and run and its results shown, surrounded by written text (e.g. English).
 
 Additionally, Jupyter allows to share files and hence includes a file manager.
 
@@ -17,9 +14,7 @@ Jupyter is:
 Jupyter can be slow when using remote desktop webpage
 (e.g. ``https://rackham-gui.uppmax.uu.se``).
 
-- For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter.
-  See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_
-  on how to install the ThinLinc client locally
+- For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter. See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_ on how to install the ThinLinc client locally
 
 ## UPPMAX procedure
 
