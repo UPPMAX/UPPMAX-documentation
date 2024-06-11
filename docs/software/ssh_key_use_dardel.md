@@ -23,7 +23,7 @@ To create an SSH key, one needs to
 
 ### 1.1 Start generating the key
 
-- Add the content of your public key `id_ed25To create a SSH key, run the following command:
+- Add the content of your public key `id_ed25519.pub.` To create a SSH key, run the following command:
 
 ```bash
 ssh-keygen -t ed25519
