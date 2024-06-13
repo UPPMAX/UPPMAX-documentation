@@ -19,7 +19,7 @@
 
 Recap:
 
-sbatch | -A sens2023598  |   -t 10:00 | -p core | -n 10 | my_job.sh
+sbatch | -A naiss20YY-XX-ZZ  |   -t 10:00 | -p core | -n 10 | my_job.sh
 -|-|-|-|-|-
 slurm batch| project name | max runtime | partition ("job type") | #cores | job script
 
@@ -48,7 +48,8 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 
 - ``-p core``
     - “core” is the default partition
-    - ≤ 16 cores on Bianca
+    - ≤ 16 cores on Bianca and Nsowy
+    - ≤ 20 cores in Rackham
     - a script or program written without any thought on parallelism will use 1 core
 
 - ``-p node``
@@ -84,7 +85,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 
     - up to 12 hours
     - useful together with the ``--begin=<time> flag``
-    - ``salloc -A snic2022-22-50 --begin=2022-02-17T08:00:00``
+    - ``salloc -A naiss20YY-XX-ZZ --begin=2022-02-17T08:00:00``
 
     - asks for an interactive job that will start earliest tomorrow at 08:00
 
@@ -95,7 +96,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 
 ```bash
 #!/bin/bash
-#SBATCH -A sens2023598
+#SBATCH -A naiss20YY-XX-ZZ
 #SBATCH -p core
 #SBATCH -n 1
 #SBATCH -t 24:00:00
@@ -104,7 +105,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 Just a quick test:
 
 ```console
-sbatch -p devcore -t 00:15:00 jobscript.sh
+sbatch -A naiss20YY-XX-ZZ -p devcore -t 00:15:00 jobscript.sh
 ```
 
 ???+ question "Hands-on #1: sbatch/jobinfo"
@@ -146,7 +147,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 
     - lists running and pending jobs
     - `jobinfo -u username`
-    - `jobinfo -A sens2023598`
+    - `jobinfo -A naiss20YY-XX-ZZ`
     - `jobinfo -u username --state=running`
     - `jobinfo -u username --state=pending`
 
@@ -244,7 +245,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 ```bash
 #!/bin/bash
 #SBATCH -J jobname
-#SBATCH -A sens2023598
+#SBATCH -A naiss20YY-XX-ZZ
 #SBATCH -p core
 #SBATCH -n 10
 #SBATCH -t 10:00:00
@@ -270,7 +271,7 @@ module load python/3.9.5
 ```bash
 #!/bin/bash
 #SBATCH -J jobname
-#SBATCH -A sens2023598
+#SBATCH -A naiss20YY-XX-ZZ
 #SBATCH -p core
 #SBATCH -n 1
 #SBATCH -t 10:00:00
@@ -292,7 +293,7 @@ cp *.out $SRCDIR/path-to-output/.
 
 ```bash
 #!/bin/bash
-#SBATCH -A sens2023598
+#SBATCH -A naiss20YY-XX-ZZ
 #SBATCH --exclusive
 #SBATCH -p node
 #SBATCH --ntasks-per-node=1
@@ -306,9 +307,10 @@ sd > out.log
 ```
 
 
-### GPU nodes on Bianca
+### GPU nodes
 
-- Nodes with Nvidia A100 40 GB
+- Bianca: Nodes with Nvidia A100 40 GB
+- Snowy: Nodes with Tesla T4 16 GB
 - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
 - SBATCH options:
 
@@ -328,7 +330,7 @@ nvidia-smi
 #!/bin/bash -l
 #SBATCH -J rsptjob
 #SBATCH —mail-type=FAIL
-#SBATCH -A sens2023598
+#SBATCH -A naiss20YY-XX-ZZ
 #SBATCH -t 00-07:00:00
 #SBATCH -p node
 #SBATCH -N 4
@@ -351,7 +353,7 @@ rm -f apts dmft_lock_file e_entropy efgArray.dat.0 efgData.out.0 energy_matrices
 
 ```bash
 #!/bin/bash
-#SBATCH -A sens2023598
+#SBATCH -A naiss20YY-XX-ZZ
 #SBATCH -p node
 #SBATCH -N 2
 #SBATCH -t 01:00:00
