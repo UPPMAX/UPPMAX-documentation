@@ -62,4 +62,8 @@ Be sure to start the kernel with the virtual environment name, like "project A",
 
 !!! info "Jupyter from web browser on your computer"
 
+## [Run Jupyter in your local browser](jupyter_local.md)
+
+
+
     - Get insipration from <https://uppmax.github.io/R-python-julia-HPC/python/jupyter.html#on-own-computer>
