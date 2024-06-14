@@ -48,7 +48,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 
 - ``-p core``
     - “core” is the default partition
-    - ≤ 16 cores on Bianca and Nsowy
+    - ≤ 16 cores on Bianca and Snowy
     - ≤ 20 cores in Rackham
     - a script or program written without any thought on parallelism will use 1 core
 
