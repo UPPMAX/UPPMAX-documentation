@@ -231,11 +231,13 @@ RAM|Rackham|Snowy|Bianca
 - Snowy: Nodes with Tesla T4 16 GB
     - The GPU nodes have eihter 128 or 256 GB memory and one GPU per node
 
-- slurm options:
+  Sslurm options:
 
     - Snowy 128 GB: ``-M snowy -p node --gres=gpu:1``
     - Snowy 256 GB: ``-M snowy -p node -C mem256GB --gres=gpu:1``
-    - Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00`` 
+    - Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00``
 
 
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
+
+## [More about Slurm on UPPMAX](slurm_details.md)
