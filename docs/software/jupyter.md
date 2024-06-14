@@ -24,8 +24,8 @@ Jupyter is an [IDE](../software/ides.md) specialized for [the Python programming
 
 ## Links
 
-- `The Jupyter project <https://jupyter.org/>`_ contains a lot of information and inspiration
-- `The Jupyter Notebook documentation <https://jupyter-notebook.readthedocs.io/en/stable/>`_  
+- [The Jupyter project](https://jupyter.org/) contains a lot of information and inspiration
+- [The Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/)  
 
 
 ## Introduction
