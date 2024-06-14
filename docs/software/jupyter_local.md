@@ -8,27 +8,27 @@ This possible for the Rackham and Snow clusters.
 
     This feature is not possible for Bianca
 
-### Step 1: Login to an UPPMAX cluster
+## Step 1: Login to an UPPMAX cluster
 
 - Using thinLinc or a terminal does not matter.,
 
-### Step 2: start an interactive session
+## Step 2: start an interactive session
 
 Start a terminal. Within that terminal, start an interactive session from the login node (change to the correct NAISS project ID).
   
-#### For Rackham
+### For Rackham
 
 ```sh
 $ interactive -A <naiss-project-id>  -t 4:00:00
 ```
 
-#### For Snowy
+### For Snowy
 
 ```sh
 $ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
 ```
 
-### Step 3: start Jupyter in the interactive session
+## Step 3: start Jupyter in the interactive session
 
 Within your terminal with the interactive session, load a modern Python module:
 
@@ -50,7 +50,7 @@ Copy one of these, like:
 
   ``http://r486:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
 
-### Step 4: On own computer
+## Step 4: On own computer
 
 - If you use ssh to connect to Rackham, you need to forward the port of the interactive node to your local computer.
     - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
@@ -58,8 +58,8 @@ Copy one of these, like:
 ```sh
    $ ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
 ```
-- Replace r486 if you got another node
 
+- Replace ``r486`` if you got another node
 - If you use Windows it may be better to do this in the PowerShell instead of a WSL2 terminal.
 - If you use PuTTY - you need to change the settings in "Tunnels" accordingly (could be done for the current connection as well).
 
