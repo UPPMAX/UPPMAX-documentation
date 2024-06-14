@@ -220,11 +220,12 @@ RAM|Rackham|Snowy|Bianca
 -|-|-|-
 256 GB| `-C mem256GB`| `-C mem256GB`| `-C mem256GB`
 512 GB| N/A| `-C mem512GB`| `-C mem512GB`
-1 TB| `-C mem1TB`| N/A| N/A 
+1 TB| `-C mem1TB`| N/A| N/A
 2 TB| N/A| `-p veryfat -C mem2TB`| N/A
 4 TB| N/A | `-p veryfat -C mem4TB`| N/A
 
 ### GPUs
+
 - Bianca: Nodes with Nvidia A100 40 GB
 - Snowy: Nodes with Tesla T4 16 GB
 - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
@@ -237,4 +238,3 @@ RAM|Rackham|Snowy|Bianca
 
 nvidia-smi
 ```
-
