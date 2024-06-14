@@ -212,9 +212,9 @@ sbatch job_script.sh
 
 ### More memory
 
-If you need extra memory, 128 GB is available in common nodes, you can allocate larger nodes. The number and sizes differ among the clusters.
+If you need extra memory (128 GB is available in common nodes) you can allocate larger nodes. The number and sizes differ among the clusters.
 
-Table below shows the configurations.
+Table below shows the configurations and flags to use.
 
 RAM|Rackham|Snowy|Bianca
 -|-|-|-
@@ -224,7 +224,7 @@ RAM|Rackham|Snowy|Bianca
 2 TB| N/A| `-p veryfat -C mem2TB`| N/A
 4 TB| N/A | `-p veryfat -C mem4TB`| N/A
 
-### GPU:s
+### GPUs
 - Bianca: Nodes with Nvidia A100 40 GB
 - Snowy: Nodes with Tesla T4 16 GB
 - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
