@@ -221,8 +221,8 @@ RAM|Rackham|Snowy|Bianca
 256 GB| `-C mem256GB`| `-C mem256GB`| `-C mem256GB`
 512 GB| N/A| `-C mem512GB`| `-C mem512GB`
 1 TB| `-C mem1TB`| N/A| N/A 
-2 TB| N/A| `-C mem2TB`| N/A
-4 TB| N/A | `-C mem4TB`| N/A
+2 TB| N/A| `-p veryfat -C mem2TB`| N/A
+4 TB| N/A | `-p veryfat -C mem4TB`| N/A
 
 ### GPU:s
 - Bianca: Nodes with Nvidia A100 40 GB
