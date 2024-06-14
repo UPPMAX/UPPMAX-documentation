@@ -227,14 +227,15 @@ RAM|Rackham|Snowy|Bianca
 ### GPUs
 
 - Bianca: Nodes with Nvidia A100 40 GB
+    - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
 - Snowy: Nodes with Tesla T4 16 GB
-- All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
-- SBATCH options:
+    - The GPU nodes have eihter 128 or 256 GB memory and one GPU per node
 
-```bash
-#SBATCH -C gpu
-#SBATCH --gpus=2            #number of GPUs requested
-#SBATCH --gpus-per-node=2   #number of GPUs per node
+- slurm options:
 
-nvidia-smi
-```
+    - Snowy 128 GB: ``-M snowy -p node --gres=gpu:1``
+    - Snowy 256 GB: ``-M snowy -p node -C mem256GB --gres=gpu:1``
+    - Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00`` 
+
+
+- <https://slurm.schedmd.com/gres.html#Running_Jobs>
