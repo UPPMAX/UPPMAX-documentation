@@ -207,3 +207,34 @@ sbatch job_script.sh
 ???- question "How to see how many resources my project has used?"
 
   Use [projplot](../software/projplot.md).
+
+## Need more resources or GPU?
+
+### More memory
+
+If you need extra memory, 128 GB is available in common nodes, you can allocate larger nodes. The number and sizes differ among the clusters.
+
+Table below shows the configurations.
+
+   |Rackham|Snowy|Bianca
+  -|-|-|-
+  256 GB| ´-C mem256GB`| ´-C mem256GB`| ´-C mem256GB`
+  512 GB| N/A| ´-C mem512GB`| ´-C mem512GB`
+  1 TB| ´-C mem1TB`| N/A| N/A 
+  2 TB| N/A| ´-C mem2TB`| N/A
+  4 TB| N/A | ´-C mem4TB`| N/A
+
+### GPU:s
+- Bianca: Nodes with Nvidia A100 40 GB
+- Snowy: Nodes with Tesla T4 16 GB
+- All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
+- SBATCH options:
+
+```bash
+#SBATCH -C gpu
+#SBATCH --gpus=2            #number of GPUs requested
+#SBATCH --gpus-per-node=2   #number of GPUs per node
+
+nvidia-smi
+```
+
