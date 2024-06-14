@@ -1,6 +1,6 @@
 # Jupyter in local browser
 
-To increase the speed of graphics it is possible to run Jupyter on a compute node, but using the graphics on ypou local computer. That will speed up the interactio with plotting figures and GUI management.
+To increase the speed of graphics it is possible to run Jupyter on a compute node, but using the graphics on your local computer. That will speed up the interactio with plotting figures and GUI management.
 
 This possible for the Rackham and Snow clusters.
 
@@ -10,7 +10,7 @@ This possible for the Rackham and Snow clusters.
 
 ## Step 1: Login to an UPPMAX cluster
 
-- Using thinLinc or a terminal does not matter.,
+- Using ThinLinc or a terminal does not matter.,
 
 ## Step 2: start an interactive session
 
