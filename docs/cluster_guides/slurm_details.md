@@ -264,7 +264,7 @@ module load python/3.9.5
 - ``sbatch anotherjobscript.sh``   submitted job with jobid2
 - ``--dependency=afterok:jobid1:jobid2 job`` will only start running after the successful end of jobs jobid1:jobid2
 - very handy for clearly defined workflows
-- You may also use -``-dependency=afternotok:jobid`` in case you’d like to resubmit a failed job, OOM (out of memory) for example, to a node with a higher memory: ``-C mem215GB`` or ``-C mem512GB``
+- You may also use -``-dependency=afternotok:jobid`` in case you’d like to resubmit a failed job, OOM (out of memory) for example, to a node with a higher memory: ``-C mem256GB`` or ``-C mem512GB``
 
 ### I/O intensive jobs: $SNIC_TMP
 
@@ -312,15 +312,12 @@ sd > out.log
 - Bianca: Nodes with Nvidia A100 40 GB
 - Snowy: Nodes with Tesla T4 16 GB
 - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
-- SBATCH options:
 
-```bash
-#SBATCH -C gpu
-#SBATCH --gpus=2            #number of GPUs requested
-#SBATCH --gpus-per-node=2   #number of GPUs per node
+- slurm options:
 
-nvidia-smi
-```
+    - Snowy: ``-M snowy --gres=gpu:1``
+    - Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00
+
 
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
 
