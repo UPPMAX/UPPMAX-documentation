@@ -26,8 +26,15 @@ These notes show by brief examples how to compile and run serial and parallel pr
 
 All programs are of the trivial "hello, world" type. The point is to demonstrate how to compile and execute the programs, not how to write parallel programs!
 
-
 ## Running serial programs on execution nodes
+
+### Standard compatibility
+- c11            gcc/4.8      intel/16+
+- c17 (bug-fix)  gcc/8        intel/17+ 19 full
+- Fortran2008    gcc/9        intel/15+ 18 full
+- Fortran2018    gcc/9        intel/19+
+
+### Examples
 
 Jobs are submitted to execution nodes through the resource manager.
 We use Slurm on our clusters.
