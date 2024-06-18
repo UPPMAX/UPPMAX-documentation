@@ -13,6 +13,11 @@ This makes it possible for you to login to [Dardel](../cluster_guides/dardel.md)
 PDC has [a more comprehensive guide on how to do this on various operating systems](https://www.pdc.kth.se/support/documents/login/ssh_keys.html)
 if you want a more in-depth guide.
 
+!!! warning
+
+    - To be able to transfer from Rackham you have to do the following steps on **Rackham**.
+    - You can _also_ do the steps for you local computer to be able to log in directly from your terminal and not via Rackham.
+
 ## 1. How to create SSH keys
 
 To create an SSH key, one needs to
