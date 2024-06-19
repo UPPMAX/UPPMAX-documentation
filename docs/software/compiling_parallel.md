@@ -29,6 +29,7 @@ All programs are of the trivial "hello, world" type. The point is to demonstrate
 ## Running serial programs on execution nodes
 
 ### Standard compatibility
+
 - c11            gcc/4.8      intel/16+
 - c17 (bug-fix)  gcc/8        intel/17+ 19 full
 - Fortran2008    gcc/9        intel/15+ 18 full
