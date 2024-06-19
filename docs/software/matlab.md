@@ -50,6 +50,24 @@ $ configCluster.sh <project-ID>    # Note: no '-A'
 
 ![matlab configCluster.sh](matlab_configCluster.PNG)
 
+- When done, start MAtlab as you usually do.
+
+!!! warning
+
+    - Do these steps for each matlab version you will use.
+    - On Bianca you need to do this for each sens project that will use MATLAB, as well.
+
+!!! tip
+
+    - Check the Matlab version for which you have set the slurm configuration by
+
+    ```bash
+    ls -l .matlab/*/parallel.mlsettings
+    ```
+    
+    - Look for dates from May 2024 and forward.
+
+
 
 ## Introduction
 
