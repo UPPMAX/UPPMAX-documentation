@@ -48,17 +48,17 @@ Check this compatibility page for a more complete picture of compatible versions
 
 ### Suggestions for compatibility Rackham and  Snowy
 
-* GCC
-    * v4: gcc/4.8.2 openmpi/1.7.4
-    * v5: gcc/5.3.0 openmpi/1.10.3
-    * v6: gcc/6.3.0 openmpi/2.1.0
-    * v7: gcc/7.4.0 openmpi/3.1.3
-    * v8: gcc/8.3.0 openmpi/3.1.3
-    * v9: gcc/9.3.0 openmpi/3.1.3 or openmpi/4.0.3
-    * v10: gcc/10.3.0 openmpi/**3.1.6** #or openmpi/**4.1.1**
-    * v11: gcc/11.3.0 openmpi/4.1.2
-    * v12: gcc/12.2.0 openmpi/4.1.4
-    * v13: gcc/13.1.0 openmpi/4.1.5
+- GCC
+    - v4: gcc/4.8.2 openmpi/1.7.4
+    - v5: gcc/5.3.0 openmpi/1.10.3
+    - v6: gcc/6.3.0 openmpi/2.1.0
+    - v7: gcc/7.4.0 openmpi/3.1.3
+    - v8: gcc/8.3.0 openmpi/3.1.3
+    - v9: gcc/9.3.0 openmpi/3.1.3 or openmpi/4.0.3
+    - v10: gcc/10.3.0 openmpi/**3.1.6** #or openmpi/**4.1.1**
+    - v11: gcc/11.3.0 openmpi/4.1.2
+    - v12: gcc/12.2.0 openmpi/4.1.4
+    - v13: gcc/13.1.0 openmpi/4.1.5
 
 - Intel
     - v18: intel/18.3 openmpi/3.1.3
