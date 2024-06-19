@@ -42,9 +42,9 @@ Check this compatibility page for a more complete picture of compatible versions
     * v10: gcc/10.3.0 openmpi/**3.1.6** or openmpi/**4.1.0**
     * v11: gcc/11.2.0 openmpi/4.1.1 **will work also on Miarka**
 
-- Intel
-    - v18: intel/18.3 openmpi/3.1.3
-    - v20: intel/20.4 openmpi/**3.1.6** or openmpi/**4.0.4**
+* Intel
+    * v18: intel/18.3 openmpi/3.1.3
+    * v20: intel/20.4 openmpi/**3.1.6** or openmpi/**4.0.4**
 
 ### Suggestions for compatibility Rackham and  Snowy
 
