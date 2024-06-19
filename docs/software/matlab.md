@@ -48,7 +48,7 @@ $ configCluster.sh <project-ID>    # Note: no '-A'
 
 - It should look like this (example for Bianca)
 
-![matlab configCluster.sh](matlab_configCluster.PNG)
+![matlab configCluster.sh](img/matlab_configCluster.PNG)
 
 - When done, start MAtlab as you usually do.
 
