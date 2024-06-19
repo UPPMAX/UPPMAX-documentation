@@ -43,14 +43,16 @@ $ module load matlab/<version>
 $ configCluster.sh <project-ID>    # Note: no '-A'
 ```
 
-- This will run a short configuration job in an interactive session, closing itself when done.
+- This will run a short configuration job in an interactive session.
 - Jobs will now default to the cluster rather than submit to the local machine.
-
 - It should look like this (example for Bianca)
 
 ![matlab configCluster.sh](img/matlab_configCluster.PNG)
 
-- When done, start MAtlab as you usually do.
+- The session should exit automatically but if not you can end the session by
+   - ``exit``
+   - or ``<CTRL-C> 
+- When done, start Matlab as you usually do with  ``matlab &``.
 
 !!! warning
 
@@ -65,7 +67,7 @@ $ configCluster.sh <project-ID>    # Note: no '-A'
     ls -l .matlab/*/parallel.mlsettings
     ```
     
-    - Look for dates from May 2024 and forward.
+    - Look for dates from May 2024 and onwards.
 
 
 
