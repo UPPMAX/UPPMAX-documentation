@@ -50,8 +50,8 @@ $ configCluster.sh <project-ID>    # Note: no '-A'
 ![matlab configCluster.sh](img/matlab_configCluster.PNG)
 
 - The session should exit automatically but if not you can end the session by
-   - ``exit``
-   - or ``<CTRL-C> 
+    - ``exit``
+    - or ``<CTRL-C>``
 - When done, start Matlab as you usually do with  ``matlab &``.
 
 !!! warning
@@ -68,8 +68,6 @@ $ configCluster.sh <project-ID>    # Note: no '-A'
     ```
     
     - Look for dates from May 2024 and onwards.
-
-
 
 ## Introduction
 
