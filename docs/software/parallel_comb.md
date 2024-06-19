@@ -30,7 +30,7 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
 
 Check this compatibility page for a more complete picture of compatible versions.
 
-# UPPMAX parallel
+## UPPMAX parallel
 
 ### Suggestions for compatibility Rackham, Snowy, Bianca
 
@@ -196,9 +196,4 @@ Check this compatibility page for a more complete picture of compatible versions
 20.2    | 3.1.6, 4.0.4
 20.4    | 3.1.6, 4.0.4
 
-## Standard compatibility
-- c11            gcc/4.8      intel/16+
-- c17 (bug-fix)  gcc/8        intel/17+ 19 full
-- Fortran2008    gcc/9        intel/15+ 18 full
-- Fortran2018    gcc/9        intel/19+
 
