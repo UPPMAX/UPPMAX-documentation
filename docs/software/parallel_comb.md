@@ -2,7 +2,6 @@
 
 Before compiling a program for MPI we must choose, in addition to the compiler, which version of MPI we want to use. At UPPMAX there are two, openmpi and intelmpi. These, with their versions, are compatible only to a subset of the gcc and intel compiler versions. The lists below summarise the best choices.
 
-
     GCC
         v5: gcc/5.3.0 openmpi/1.10.3
         v6: gcc/6.3.0 openmpi/2.1.0
@@ -43,9 +42,6 @@ Check this compatibility page for a more complete picture of compatible versions
     * v10: gcc/10.3.0 openmpi/**3.1.6** or openmpi/**4.1.0**
     * v11: gcc/11.2.0 openmpi/4.1.1 **will work also on Miarka**
 
-
-
-
 - Intel
     - v18: intel/18.3 openmpi/3.1.3
     - v20: intel/20.4 openmpi/**3.1.6** or openmpi/**4.0.4**
@@ -63,14 +59,10 @@ Check this compatibility page for a more complete picture of compatible versions
     * v11: gcc/11.3.0 openmpi/4.1.2
     * v12: gcc/12.2.0 openmpi/4.1.4
     * v13: gcc/13.1.0 openmpi/4.1.5
-    * 
-
 
 - Intel
     - v18: intel/18.3 openmpi/3.1.3
     - v20: intel/20.4 openmpi/**3.1.6** # or openmpi/**4.1.1**
-
-
 
 ## Rackham
 
@@ -122,7 +114,6 @@ Check this compatibility page for a more complete picture of compatible versions
 20.0    | 3.1.5, 3.1.6, *4.0.3*, 4.0.4
 20.2    | ***3.1.6***, ***4.0.4***
 20.4    | ***3.1.6***, ***4.0.4***, *4.1.0*, *4.1.1*
-
 
 | openmpi | gcc  | intel | pgi | 
 | ------- | ---  | ----- | --- | 
@@ -182,7 +173,6 @@ Check this compatibility page for a more complete picture of compatible versions
 10.3.0| 3.1.6, 4.0.5, 4.1.0
 11.2.0| 4.1.1
 
-
 | Intel |   openmpi
 | ----- |   -------
 15.3    | 1.10.0, 1.10.1
@@ -195,5 +185,3 @@ Check this compatibility page for a more complete picture of compatible versions
 18.3    | 3.1.2, 3.1.3
 20.2    | 3.1.6, 4.0.4
 20.4    | 3.1.6, 4.0.4
-
-
