@@ -39,12 +39,16 @@ A good and important suggestion is that you always specify a certain version. Th
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
-$ module load matlab
+$ module load matlab/<version>
 $ configCluster.sh <project-ID>    # Note: no '-A'
 ```
 
 - This will run a short configuration job in an interactive session, closing itself when done.
 - Jobs will now default to the cluster rather than submit to the local machine.
+
+- It should look like this (example for Bianca)
+
+![matlab configCluster.sh](matlab_configCluster.PNG)
 
 
 ## Introduction
