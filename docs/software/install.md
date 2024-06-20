@@ -9,7 +9,7 @@
 - check with: ``$ ml avail gcc`` and ``$ ml avail intel``
 - [Guide for compiling **serial** programs](compiling_serial.md)
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
-    - [Available **combinations** of compilers and parallel libraries](compiling_parallel.md#overview-of-available-compilers-from-gcc-and-intel-and-compatible-mpi-libraries)
+    - [Available **combinations** of compilers and parallel libraries](parallel_comb.md)
 
 
 ## Packages and libraries to scripting programs
