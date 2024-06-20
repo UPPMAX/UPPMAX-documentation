@@ -11,6 +11,36 @@
 - [Guide for compiling **parallel** programs](compiling_parallel.md)
     - [Available **combinations** of compilers and parallel libraries](parallel_comb.md)
 
+### Example
+
+This guide might not work on all programs. **Read the installation instructions for your program!**
+
+- Download the program, with ``wget`` or by other means like ``git clone <https-URL to `GITHUB repo>`.
+- If the not cloning, unpack it with ``tar``, ``gunzip`` or similar.
+
+```bash
+tar xvfz program.tgz
+```
+**This is general**
+
+- Read the installation instructions!
+- If Fortran or C or C++, load a compiler. Often you'll have less problems with gcc but intel gives faster code.
+
+```bash
+module load gcc
+```
+
+- If applicable, do:
+
+```bash
+mkdir $HOME/glob/program_name
+./configure --prefix=$HOME/glob/program_name
+make
+make test
+make install
+```
+
+- Try to find a test on the home page of the program or in the installation instructions and try to run it.
 
 ## Packages and libraries to scripting programs
 
