@@ -6,6 +6,7 @@ Snowy is one of the [UPPMAX clusters](uppmax_cluster.md).
 
 - [Snowy's name](snowys_name.md)
 - [Snowy's design](snowys_design.md)
+- [Snowy's hardware](../hardware/clusters/snowy.md)
 - [Log in](../getting_started/login_snowy.md)
 - [Submitting jobs, using Slurm](slurm.md)
 - [Workshops and courses](../workshops_courses/workshops_courses.md)
