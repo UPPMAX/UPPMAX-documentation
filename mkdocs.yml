@@ -9,10 +9,10 @@ nav:
     - Applying for a Project: getting_started/project_apply.md
     - Accessing UPPMAX:
       - Get inside the university networks: getting_started/get_inside_sunet.md
-      - Log in to Bianca: getting_started/login_bianca.md
-      - Log in to Dardel: getting_started/login_dardel.md
       - Log in to Rackham: getting_started/login_rackham.md
+      - Log in to Bianca: getting_started/login_bianca.md
       - Log in to Snowy: getting_started/login_snowy.md
+      - Log in to Dardel (at PDC): getting_started/login_dardel.md
     - Linux tutorials:
       - Working in Linux: getting_started/linux.md
       - Basic Linux commands: getting_started/linux_basics.md
@@ -20,10 +20,10 @@ nav:
   - Cluster user guide:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
     - Clusters: 
-      - Bianca: cluster_guides/bianca.md
-      - Dardel: cluster_guides/dardel.md
       - Rackham: cluster_guides/rackham.md
+      - Bianca: cluster_guides/bianca.md
       - Snowy: cluster_guides/snowy.md
+      - Dardel (at PDC): cluster_guides/dardel.md
     - General cluster tools: 
       - Start an interactive node: cluster_guides/start_interactive_node.md
       - Modules: cluster_guides/modules.md
