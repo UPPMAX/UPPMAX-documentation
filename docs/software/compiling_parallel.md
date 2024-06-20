@@ -78,35 +78,11 @@ hello, world
 
 ## MPI using the OpenMPI library
 
-Before compiling a program for MPI we must choose, in addition to the compiler, which version of MPI we want to use. At UPPMAX there are two, openmpi and intelmpi. These, with their versions, are compatible only to a subset of the gcc and intel compiler versions. The lists below summarise the best choices.
+Before compiling a program for MPI we must choose, in addition to the compiler, which version of MPI we want to use. At UPPMAX there are two, openmpi and intelmpi. These, with their versions, are compatible only to a subset of the gcc and intel compiler versions. 
 
+!!! tip
 
-    GCC
-        v5: gcc/5.3.0 openmpi/1.10.3
-        v6: gcc/6.3.0 openmpi/2.1.0
-        v7: gcc/7.4.0 openmpi/3.1.3
-        v8: gcc/8.3.0 openmpi/3.1.3
-        v9: gcc/9.3.0 openmpi/3.1.3
-        v10: gcc/10.3.0 openmpi/3.1.6 or openmpi/4.1.0
-        v11: gcc/11.2.0 openmpi/4.1.1
-        v12: gcc/12.2.0 openmpi/4.1.4
-        v13: gcc/13.2.0 openmpi/4.1.5
-
-    Intel & openmpi
-        v18: intel/18.3 openmpi/3.1.3
-        v20: intel/20.4 openmpi/3.1.6 or openmpi/4.0.4
-    Intel & intelmpi
-        load the corresponding version of intelmpi as of the intel compiler (versions up to 20.4)
-        For all versions of intel from 2021 there is not necessarily a mpi library with same version as the compiler.
-
-            $ module load intel-oneapi
-
-            check availability and load desired version
-            $ module avail mpi  # showing both compilers and mpi ;-)
-            Example:
-            $ module load compiler/2023.1.0 mpi/2021.9.0
-
-Check this compatibility page for a more complete picture of compatible versions.
+    Check this [compatibility page](parallel_comb.md) for a more complete picture of compatible versions.
 
 
 ### C programs using OpenMPI
