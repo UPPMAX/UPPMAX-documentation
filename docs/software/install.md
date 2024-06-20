@@ -21,7 +21,8 @@ This guide might not work on all programs. **Read the installation instructions 
 ```bash
 tar xvfz program.tgz
 ```
-**This is general**
+
+The below is more general again:
 
 - Read the installation instructions!
 - If Fortran or C or C++, load a compiler. Often you'll have less problems with gcc but intel gives faster code.
