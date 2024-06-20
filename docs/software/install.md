@@ -15,7 +15,7 @@
 
 This guide might not work on all programs. **Read the installation instructions for your program!**
 
-- Download the program, with ``wget`` or by other means like ``git clone <https-URL to `GITHUB repo>`.
+- Download the program, with ``wget`` or by other means like ``git clone <https-URL to GITHUB repo>``.
 - If the not cloning, unpack it with ``tar``, ``gunzip`` or similar.
 
 ```bash
