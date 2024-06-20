@@ -129,8 +129,8 @@ theme:
     - content.tabs.link
   custom_dir: mkdocs_uppmax/
     
-extra:
-  homepage: https://www.uu.se/en/centre/uppmax
+#extra:
+#  homepage: https://www.uu.se/en/centre/uppmax
   
 extra_css:
   - stylesheets/extra.css
