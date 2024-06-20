@@ -25,15 +25,15 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
 
 - Load the corresponding version of intelmpi as of the intel compiler (versions up to 20.4)
 
-### Intel after version 20.4        
-        
+### Intel after version 20.4
+
 - For all versions of intel from 2021 there is not necessarily a mpi library with same version as the compiler.
 
 ```bash
 $ module load intel-oneapi
 ```
 
--  check availability and load desired version
+- Check availability and load desired version
 
 ```bash
 $ module avail mpi  # showing both compilers and mpi ;-)
@@ -69,7 +69,7 @@ $ module load compiler/2023.1.0 mpi/2021.9.0
 - Also on Snowy AND Bianca in ***bold***
 
 GCC  | openmpi
------| -----
+-----| -------
 4.8.2  |  *1.7.4*
 5.2.0  |  *1.8.8*
 5.3.0  |  ***1.10.1***
@@ -97,8 +97,8 @@ GCC  | openmpi
 12.3.0 |  *4.1.5*
 13.1.0 |  *4.1.5*
 
-| Intel |   openmpi
-| ----- |   -------
+Intel |   openmpi
+----- |   -------
 15.3    | 1.10.0, 1.10.1, 2.1.0
 16.1    | 1.10.1, 1.10.2
 17.1    | 2.0.1, 2.0.2,
@@ -114,14 +114,14 @@ GCC  | openmpi
 20.2    | ***3.1.6***, ***4.0.4***
 20.4    | ***3.1.6***, ***4.0.4***, *4.1.0*, *4.1.1*
 
-| openmpi | gcc  | intel | pgi | 
-| ------- | ---  | ----- | --- | 
-1.7.4 |   4.8.2| 
-1.8.8 |   5.2.0| 
-1.10.0 |  | 15.3
+openmpi | gcc  | intel | pgi
+------- | ---  | ----- | ---
+1.7.4 |   4.8.2| |
+1.8.8 |   5.2.0| |
+1.10.0 |  | 15.3|
 1.10.1|   5.3.0|    15.3, 16.1
 1.10.2|   |  16.1 |  16.9, 17.4, 17.7, 17.10
-1.10.3|   5.5.0
+1.10.3|   5.5.0|
 2.0.1 |   6.3.0  |  17.1
 2.0.2 |   6.3.0  |  17.1, 17.2
 2.1.0 |   6.3.0, 7.1.0 |   15.3, 17.2
@@ -152,8 +152,8 @@ GCC  | openmpi
 
 ## Bianca
 
-| GCC  | openmpi | 
-| -----| -----   | 
+GCC  | openmmpi
+-----| -------- 
 5.3.0| 1.10.1
 5.4.0| 2.0.0, 2.0.1
 6.1.0| 2.0.0, 2.0.1
@@ -172,8 +172,8 @@ GCC  | openmpi
 10.3.0| 3.1.6, 4.0.5, 4.1.0
 11.2.0| 4.1.1
 
-| Intel |   openmpi
-| ----- |   -------
+Intel |   openmpi
+----- |   -------
 15.3    | 1.10.0, 1.10.1
 16.1    | 1.10.1, 1.10.2
 16.3    | 2.0.0, 2.0.1
