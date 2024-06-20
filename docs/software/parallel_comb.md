@@ -6,19 +6,20 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
 
 ### GCC
 
-* v5: gcc/5.3.0 openmpi/1.10.3
-* v6: gcc/6.3.0 openmpi/2.1.0
-* v7: gcc/7.4.0 openmpi/3.1.3
-* v8: gcc/8.3.0 openmpi/3.1.3
-* v9: gcc/9.3.0 openmpi/3.1.5
-* v10: gcc/10.3.0 openmpi/**3.1.6** or openmpi/**4.1.0**
-* v11: gcc/11.2.0 openmpi/4.1.1 **will work also on Miarka**
-* v12: gcc/12.2.0 openmpi/4.1.4
-* v13: gcc/13.2.0 openmpi/4.1.5
+- v5: gcc/5.3.0 openmpi/1.10.3
+- v6: gcc/6.3.0 openmpi/2.1.0
+- v7: gcc/7.4.0 openmpi/3.1.3
+- v8: gcc/8.3.0 openmpi/3.1.3
+- v9: gcc/9.3.0 openmpi/3.1.5
+- v10: gcc/10.3.0 openmpi/**3.1.6** or openmpi/**4.1.0**
+- v11: gcc/11.2.0 openmpi/4.1.1 **will work also on Miarka**
+- v12: gcc/12.2.0 openmpi/4.1.4
+- v13: gcc/13.2.0 openmpi/4.1.5
 
 ### Intel
-    * v18: intel/18.3 openmpi/3.1.3
-    * v20: intel/20.4 openmpi/**3.1.6** or openmpi/**4.0.4**
+
+- v18: intel/18.3 openmpi/3.1.3
+- v20: intel/20.4 openmpi/**3.1.6** or openmpi/**4.0.4**
 
 ### Intel & intelmpi
 
@@ -53,22 +54,22 @@ $ module load compiler/2023.1.0 mpi/2021.9.0
     - v7: gcc/7.4.0 openmpi/3.1.3
     - v8: gcc/8.3.0 openmpi/3.1.3
     - v9: gcc/9.3.0 openmpi/3.1.3 or openmpi/4.0.3
-    - v10: gcc/10.3.0 openmpi/**3.1.6** #or openmpi/**4.1.1**
+    - v10: gcc/10.3.0 openmpi/**3.1.6*- #or openmpi/**4.1.1**
     - v11: gcc/11.3.0 openmpi/4.1.2
     - v12: gcc/12.2.0 openmpi/4.1.4
     - v13: gcc/13.1.0 openmpi/4.1.5
 
 - Intel
     - v18: intel/18.3 openmpi/3.1.3
-    - v20: intel/20.4 openmpi/**3.1.6** # or openmpi/**4.1.1**
+    - v20: intel/20.4 openmpi/**3.1.6*- # or openmpi/**4.1.1**
 
 ## Rackham
 
 - Also on Snowy in *italic*
 - Also on Snowy AND Bianca in ***bold***
 
-| GCC  | openmpi |
-| -----| -----   |
+GCC  | openmpi
+-----| -----
 4.8.2  |  *1.7.4*
 5.2.0  |  *1.8.8*
 5.3.0  |  ***1.10.1***
