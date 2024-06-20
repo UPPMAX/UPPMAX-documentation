@@ -38,6 +38,7 @@ nav:
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Migrate to Dardel: cluster_guides/dardel_migration.md
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
+      - Webexport: cluster_guides/webexport.md
   - Software:
     - Overview: software/overview.md
     - Software table: software/software-table.md
