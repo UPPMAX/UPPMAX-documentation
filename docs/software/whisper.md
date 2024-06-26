@@ -15,13 +15,21 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 
 ### Step 2: Data transfer from local to project  
-1. Transfer your data from your local machine to Wharf ([WinSCP](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#winscp-windows) client, [FileZilla](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#filezilla-linuxmacoswindows) client or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/)) and then to your project folder (Bianca: `/cygnus/proj/`) .
+1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#winscp-windows) client (Windows only), [FileZilla](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#filezilla-linuxmacoswindows) client (Mac, Windows or Linux) or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/).
 
 ### Step 3: Transcribing/Translating  
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
-2. Load Whisper-gui module as instructed in [Module Loading](http://docs.uppmax.uu.se/software/whisper/#module-loading) section.  
-3. Go to your project folder where you will also find `whisper-gui.sh` file, right click inside this folder and select "Open Terminal Here" and run the following command: `./whisper-gui.sh &`. This will run the Whisper service.  
-4. Select appropriate options, or use the following for the best results:
+2. Transfer your data from Wharf to your project folder (Bianca: `/cygnus/proj/`).
+3. Go to your project folder where you kept your data, right click inside this folder and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
+    ```console
+    module load Whisper-gui/0.1
+    ```
+
+4. Enter following command to run the Whisper service GUI:  
+    ```console
+    whisper-gui.sh
+    ```
+5. Select appropriate options, or use the following for the best results:
    device: gpu
    SLURM job name: [give any name without space]
    Total audio length in minutes : [give a rough average if transcribing files in bulk]
@@ -29,12 +37,21 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
    by word timestamps: by_sentence
 
 ### Step 4: Monitoring jobs  
-6. Monitor your job using `jobinfo` command on terminal or on `[job_name].out` that gets created in the same folder. Where `[job_name]` is the SLURM job name that you gave earlier.
+1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
 
 
 ### Step 5: Data transfer from project to local
+1. Transfer your output results from project folder (Bianca: `/cygnus/proj/`) to Wharf.
+2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 2.
 
 ### Output files
+By default you receive 5 types of output files for each file you transcribe/translate:   
+With timestamps: `.srt`, `.vtt`, `.tsv`  
+Without timestamps: `.txt`  
+With detailed model metadata: `.json`. 
+
+On Mac, `.srt` and `.vtt` can be opened in Word by:  
+Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
 
 ### Advance settings
 
@@ -102,7 +119,7 @@ For making offline usage of Whisper more convenient, we provide
 pre-trained models as part of the Whisper module. You can list
 all the available models by:
 
-```bash
+```console
 $ ll /sw/apps/Whisper/0.5.1/rackham/models
 total 13457440
 -rw-rw-r-- 1 sw  145261783 Nov 10 14:22 base.en.pt
