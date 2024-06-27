@@ -10,24 +10,26 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 ## User Interface (GUI)
 
 ### Step 1: Accessing your project
-1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authenication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.
+1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.
 2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
 
 ### Step 2: Data transfer from local to project  
+
 1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#winscp-windows) client (Windows only), [FileZilla](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#filezilla-linuxmacoswindows) client (Mac, Windows or Linux) or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/).
 
 ### Step 3: Transcribing/Translating  
+
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 2. Transfer your data from Wharf to your project folder (Bianca: `/cygnus/proj/`).
 3. Go to your project folder where you kept your data, right click inside this folder and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
     ```console
-    module load Whisper-gui/0.1
+    [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
     ```
 
 4. Enter following command to run the Whisper service GUI:  
     ```console
-    whisper-gui.sh
+    [jayan@sens2024544-bianca jayan]$ whisper-gui.sh
     ```
 5. Select appropriate options, or use the following for the best results:
    device: gpu
@@ -37,14 +39,17 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
    by word timestamps: by_sentence
 
 ### Step 4: Monitoring jobs  
+
 1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
 
 
 ### Step 5: Data transfer from project to local
+
 1. Transfer your output results from project folder (Bianca: `/cygnus/proj/`) to Wharf.
 2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 2.
 
 ### Output files
+
 By default you receive 5 types of output files for each file you transcribe/translate:   
 With timestamps: `.srt`, `.vtt`, `.tsv`  
 Without timestamps: `.txt`  
@@ -56,13 +61,19 @@ Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file li
 ### Advance settings
 
 ### <a name="proposal_template"></a>Proposal template
+
 Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:  
-**Project Title** : Whisper service for [Name of the project]   
-**Abstract**: [What is the project about, give links, funding info, duration etc.]  
-**Resource Usage**:  [Explain where transcriptions/translations are needed like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or tranlation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.]  
-**Abridged Data Management Plan**:  [Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.]  
-**Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]  
-**Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arrises again in the future.]   
+* **Project Title** : Whisper service for [Name of the project]   
+
+* **Abstract**: [What is the project about, give links, funding info, duration etc.]  
+
+* **Resource Usage**:  [Explain where transcriptions/translations are needed like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or translation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.]  
+
+* **Abridged Data Management Plan**:  [Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.]  
+
+* **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]  
+
+* **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]   
 
 
 
@@ -75,15 +86,15 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
 To load the Whisper module, run the following command:
 
 
-```bash
-module load Whisper/0.5.1
+```console
+[jayan@sens2024544-bianca jayan]$ module load Whisper/0.5.1
 ```
 
 This will also load the necessary dependencies, including `python`
 and `ffmpeg`.
 
-```bash
-$ module list
+```console
+[jayan@sens2024544-bianca jayan]$ module list
 Currently Loaded Modules:
   1) uppmax       3) mp-tools/latest   5) FFmpeg/5.1.2
   2) git/2.34.1   4) python/3.11.4     6) Whisper/0.5.1
@@ -93,8 +104,8 @@ Currently Loaded Modules:
 
 The `whisper` command can be used to transcribe audio files. For example:
 
-```bash
-whisper audio.flac audio.mp3 audio.wav --model medium
+```console
+[jayan@sens2024544-bianca jayan]$ whisper audio.flac audio.mp3 audio.wav --model medium
 ```
 
 ### Python
@@ -120,7 +131,7 @@ pre-trained models as part of the Whisper module. You can list
 all the available models by:
 
 ```console
-$ ll /sw/apps/Whisper/0.5.1/rackham/models
+[jayan@sens2024544-bianca jayan]$ ll /sw/apps/Whisper/0.5.1/rackham/models
 total 13457440
 -rw-rw-r-- 1 sw  145261783 Nov 10 14:22 base.en.pt
 -rw-rw-r-- 1 sw  145262807 Nov 10 14:23 base.pt
