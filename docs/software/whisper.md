@@ -28,7 +28,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
     ```
 
-    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Setp 2 and transfer this to `proj` folder.
+    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder.
 3. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
 
     ```console
