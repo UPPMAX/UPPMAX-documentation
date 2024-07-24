@@ -9,9 +9,9 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 ## User Interface (GUI)
 
-### Step 1: Accessing your project
-1.1 Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.
-1.2 Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
+### Step 1: Accessing your project  
+1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
+2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
 
 ### Step 2: Data transfer from local to project  
