@@ -18,7 +18,7 @@ ssh-add ~/.ssh/id_ed25519_key
 Copy the public key to Rackham or other server.
 
 ```bash
-ssh-copy-id -i .ssh/id_ed25519_key.pub rackham.uppmax.uu.se
+ssh-copy-id -i .ssh/id_ed25519_key.pub username@rackham.uppmax.uu.se
 ```
 
 Connect
