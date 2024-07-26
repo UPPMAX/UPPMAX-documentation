@@ -20,6 +20,7 @@ Command                                          |Description
 [finishedjobinfo](../software/finishedjobinfo.md)|information about finished jobs
 **projmembers**                                  |telling you about project memberships
 **projsummary [project id]**                     |summarizes some useful information about projects
+[jobstats](../software/jobstats.md)              |see CPU and memory use of finished job in a plot
 
 ???- info "Working on Snowy? Use -M snowy"
 
