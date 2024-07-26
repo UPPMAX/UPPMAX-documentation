@@ -31,7 +31,7 @@ The Slurm system is accessed using the following commands:
 - `interactive` - Start an interactive session. This is described
   in-depth for [Bianca](start_interactive_node_on_bianca.md)
   and [Rackham](start_interactive_node_on_rackham.md)
-- `sbatch` - Submit and run a batch job script
+- [`sbatch`](../software/sbatch.md) - Submit and run a batch job script
 - `srun` - Typically used inside batch job scripts for running parallel jobs
   (See examples further down)
 - `scancel` - Cancel one or more of your jobs.
