@@ -22,16 +22,20 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 2. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
+
     ```console
     [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
     ```
     This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder. 
+
 3. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
+
     ```console
     [jayan@sens2024544-bianca proj]$ module load Whisper-gui
     [jayan@sens2024544-bianca proj]$ whisper-gui.sh
     ```
     Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created. 
+
 4. Select appropriate options, or use the following for the best results:  
    device: gpu  
    SLURM job name: [give any name without space]  
@@ -51,10 +55,10 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 ### Output files
 
-By default you receive 5 types of output files for each file you transcribe/translate:   
+By default you receive 5 types of output files for each file you transcribe/translate:
 With timestamps: `.srt`, `.vtt`, `.tsv`  
 Without timestamps: `.txt`  
-With detailed model metadata: `.json`. 
+With detailed model metadata: `.json`.
 
 On Mac, `.srt` and `.vtt` can be opened in Word by:  
 Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
@@ -163,10 +167,11 @@ Use the following 2 letter code to perform transcribing when asked in the GUI:
     `su`: "sundanese",
     `yue`: "cantonese"
 
-### <a name="proposal_template"></a>Proposal template
+### Proposal template
 
 Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:  
-* **Project Title** : Whisper service for [Name of the project]   
+
+* **Project Title** : Whisper service for [Name of the project]
 
 * **Abstract**: [What is the project about, give links, funding info, duration etc.]  
 
@@ -176,12 +181,7 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
 
 * **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]  
 
-* **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]   
-
-
-
-
-
+* **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
 
 
 ## Module Loading

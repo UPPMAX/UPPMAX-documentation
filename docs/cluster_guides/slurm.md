@@ -31,7 +31,7 @@ The Slurm system is accessed using the following commands:
 - `interactive` - Start an interactive session. This is described
   in-depth for [Bianca](start_interactive_node_on_bianca.md)
   and [Rackham](start_interactive_node_on_rackham.md)
-- `sbatch` - Submit and run a batch job script
+- [`sbatch`](../software/sbatch.md) - Submit and run a batch job script
 - `srun` - Typically used inside batch job scripts for running parallel jobs
   (See examples further down)
 - `scancel` - Cancel one or more of your jobs.
@@ -207,3 +207,36 @@ sbatch job_script.sh
 ???- question "How to see how many resources my project has used?"
 
   Use [projplot](../software/projplot.md).
+
+## Need more resources or GPU?
+
+### More memory
+
+If you need extra memory (128 GB is available in common nodes) you can allocate larger nodes. The number and sizes differ among the clusters.
+
+Table below shows the configurations and flags to use.
+
+RAM|Rackham|Snowy|Bianca
+-|-|-|-
+256 GB| `-C mem256GB`| `-C mem256GB`| `-C mem256GB`
+512 GB| N/A| `-C mem512GB`| `-C mem512GB`
+1 TB| `-C mem1TB`| N/A| N/A
+2 TB| N/A| `-p veryfat -C mem2TB`| N/A
+4 TB| N/A | `-p veryfat -C mem4TB`| N/A
+
+### GPUs
+
+- Bianca: Nodes with Nvidia A100 40 GB
+    - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
+- Snowy: Nodes with Tesla T4 16 GB
+    - The GPU nodes have either 128 or 256 GB memory and one GPU per node
+
+**Slurm options**:
+
+- Snowy 128 GB: ``-M snowy -p node --gres=gpu:1``
+- Snowy 256 GB: ``-M snowy -p node -C mem256GB --gres=gpu:1``
+- Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00``
+
+- <https://slurm.schedmd.com/gres.html#Running_Jobs>
+
+## [More about Slurm on UPPMAX](slurm_details.md)

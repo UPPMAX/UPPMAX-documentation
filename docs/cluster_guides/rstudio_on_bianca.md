@@ -77,8 +77,10 @@ Within that terminal, start an interactive session with 2 cores.
 In the terminal of the interactive session, do:
 
 ```bash
-module load RStudio/2023.06.2-561
+module load RStudio/2023.12.1-402
 ```
+
+:warning: There have been issues using ``RStudio/2023.06.2-561`` together with ``R/4.3.1``
 
 ???- question "Do I need to load `R` or `R_packages`?"
 

@@ -14,6 +14,7 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
 
 - [Rackham's name](rackhams_name.md)
 - [Rackham's design](rackhams_design.md)
+- [Rackham's hardware](../hardware/clusters/rackham.md)
 - [Log in](../getting_started/login_rackham.md)
 - [Starting an interactive node](start_interactive_node_on_rackham.md)
 - [File transfer](transfer_rackham.md)
@@ -28,6 +29,7 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
     - :no_entry: [VSCodium](vscodium_on_rackham.md)
 - Isolated environments
     - [venv](venv_on_rackham.md)
+- [Run webexport](webexport.md)
 - Best practices
 - Rackham installation guides
 - Rackham workshops

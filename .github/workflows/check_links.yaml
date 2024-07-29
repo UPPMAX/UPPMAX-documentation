@@ -7,7 +7,7 @@ on:
   schedule:
   - cron: "0 0 21 * *"
 
-name: check-links
+name: check links
 
 jobs:
   check-links:

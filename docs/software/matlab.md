@@ -1,6 +1,6 @@
 # MATLAB user guide
 
-The MATLAB module
+## The MATLAB module
 
 MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023b``
 
@@ -25,7 +25,7 @@ $ module load matlab/R2023a
 $ matlab &
 ```
 
-That will start a matlab session with the common GUI. Use "&" to have MATLAB in background making terminal still active for other work.
+That will start a matlab session with the common GUI. Use ``&`` to have MATLAB in background making terminal still active for other work.
 
 
 A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
@@ -39,13 +39,35 @@ A good and important suggestion is that you always specify a certain version. Th
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
-$ module load matlab
+$ module load matlab/<version>
 $ configCluster.sh <project-ID>    # Note: no '-A'
 ```
 
-- This will run a short configuration job in an interactive session, closing itself when done.
+- This will run a short configuration job in an interactive session.
 - Jobs will now default to the cluster rather than submit to the local machine.
+- It should look like this (example for Bianca)
 
+![matlab configCluster.sh](img/matlab_configCluster.PNG)
+
+- The session should exit automatically but if not you can end the session by
+    - ``exit``
+    - or ``<CTRL-C>``
+- When done, start Matlab as you usually do with  ``matlab &``.
+
+!!! warning
+
+    - Do these steps for each matlab version you will use.
+    - On Bianca you need to do this for each sens project that will use MATLAB, as well.
+
+!!! tip
+
+    - Check the Matlab version for which you have set the slurm configuration by
+
+    ```bash
+    ls -l .matlab/*/parallel.mlsettings
+    ```
+    
+    - Look for dates from May 2024 and onwards.
 
 ## Introduction
 
@@ -173,7 +195,7 @@ What happens if you try to run the above command twice?  You can't run multiple 
 >> p.NumWorkers
 ```
 
-'gcp' will "get current pool" and return a handle to it.  If a pool has not already been started, it will create a new one first and then return the handle to it:
+``gcp`` will "get current pool" and return a handle to it.  If a pool has not already been started, it will create a new one first and then return the handle to it:
 
 ```matlab
 >> p = gcp
@@ -246,10 +268,10 @@ in Matlab Command Window to choose a cluster configuration. Matlab will set up a
     >> c.saveProfile
     >> job = c.batch(@parallel_example, 1, {90, 5}, 'pool', 19) %19 is for 20 cores. On Snowy and Bianca use 15.
     >> job.wait
-    >> job.fetchOutputs{:}"
+    >> job.fetchOutputs{:}
 ```
 
-Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line "c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)" can be understood as put the function "parallel_example" to the batch queue. The arguments to batch are:
+Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line ``c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)`` can be understood as put the function ``parallel_example`` to the batch queue. The arguments to batch are:
 
 ```matlab
     c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', no of additional workers to the master)
@@ -299,7 +321,7 @@ On Bianca, getting 3 cpu:s and 1 gpu:
 $ interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00
 ```
 
-Note that wall time "-t" should be set to more than one hour to not automatically put job in "devel" or "devcore" queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.
+Note that wall time ``-t`` should be set to more than one hour to not automatically put job in ``devel`` or ``devcore`` queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.
 
 Load MATLAB module and start matlab as usual (with &) in the new session. Then test if the gpu device is found by typing:
 

@@ -13,6 +13,7 @@ There are multiple ways to transfer files to/from [Transit](../cluster_guides/tr
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
+[Using rsync](#using-rsync)                                   |Terminal, easy to learn, secure
 [Using SFTP](#using-sftp)                                     |Terminal, easy to learn, secure
 [Using SCP](#using-scp)                                       |:no_entry: only download, terminal, easy to learn, can be used in scripts
 
@@ -28,6 +29,11 @@ and whatever you do cannot be automated.
 See [Transit file transfer using a graphical program](transit_file_transfer_using_gui.md)
 for a step-by-step guide how to transfer files using
 a graphical tool.
+
+## Using `rsync`
+
+[Transit](transit.md) is used as a stepping-stone to
+[transfer files to Bianca using rsync](bianca_file_transfer_using_rsync.md).
 
 ## Using SCP
 
@@ -53,6 +59,7 @@ SFTP is considered a secure file transfer protocol.
 
 See [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
+
 
 ### Overview
 

@@ -47,18 +47,18 @@ Transit server from/to Rackham, see below                                       
 
 To transfer files to/from [Bianca](bianca.md)
 one can use a graphical tool, such as FileZilla and WinSCP.
-See [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
+See [Bianca file transfer using a graphical program](bianca_file_transfer_using_gui.md)
 for details.
 
 ## Using `sftp`
 
 `sftp` is a terminal SFTP client to transfer files to/from Bianca.
-See [using `sftp` with Bianca](sftp_with_bianca.md).
+See [Bianca file transfer using sftp](bianca_file_transfer_using_sftp.md).
 
 ## Using `lftp`
 
 `sftp` is a terminal SFTP client to transfer files to/from Bianca.
-See [using `lftp` with Bianca](lftp_with_bianca.md).
+See [Bianca file transfer using lftp](bianca_file_transfer_using_lftp.md).
 
 ## Using `rsync`
 

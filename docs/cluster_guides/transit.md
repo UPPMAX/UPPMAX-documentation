@@ -1,7 +1,9 @@
 # Transit
 
 [Transit](../cluster_guides/transit.md)
-is an UPPMAX service that can be used to securely transfer files.
+is an UPPMAX service that can be used to securely transfer files
+between online locations, such as your local computer, [Bianca](bianca.md),
+[Rackham](rackham.md) and other sensitive data clusters.
 
 ???- question "Is Transit a file server?"
 
@@ -31,6 +33,7 @@ is an UPPMAX service that can be used to securely transfer files.
     Here, 'putting an address on the letter'
     is to copy the file to the desired location.
 
-* [how to log in to Transit](../cluster_guides/login_transit.md)
-* [file transfer using Transit](../cluster_guides/transfer_transit.md).
-* [software on Transit](../cluster_guides/software_on_transit.md)
+- [how to log in to Transit](../cluster_guides/login_transit.md)
+- [file transfer using Transit](../cluster_guides/transfer_transit.md).
+    - [Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md)
+- [software on Transit](../cluster_guides/software_on_transit.md)

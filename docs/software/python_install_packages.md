@@ -124,7 +124,7 @@ so it is loaded every time you login.
 
 ## `conda`
 
-See our [Conda user Guide](../cluster_guides/conda.md)
+See our [Conda user Guide](../software/conda.md)
 
 ## Using `setup.py`
 

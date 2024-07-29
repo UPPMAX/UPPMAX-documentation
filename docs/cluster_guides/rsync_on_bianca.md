@@ -5,11 +5,17 @@ for [file transfer](../cluster_guides/file_transfer.md).
 
 This page describes how to use [`rsync`](../software/rsync.md) on [Bianca](bianca.md).
 
-One cannot `rsync` directly to `wharf`.
+Using [`rsync`](../software/rsync.md) for direct file transfer
+from a local computer to [wharf](wharf.md) fails,
+as cannot `rsync` directly to [wharf](wharf.md).
+
+It can be made to work (by using [transit](transit.md)), as described in
+[the UPPMAX Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md).
+
 
 ???- question "How does it look like if I try to `rsync` directly to `wharf` anyways?"
 
-    One cannot `rsync` directly to `wharf`.
+    One cannot [`rsync`](../software/rsync.md) directly to [wharf](wharf.md).
 
     However, this is how it looks like:
 
@@ -42,6 +48,8 @@ One cannot `rsync` directly to `wharf`.
     rsync error: protocol incompatibility (code 2) at compat.c(622) [sender=3.2.7]
     ```
 
+If you want to do file transfer to/from Bianca,
+read [the UPPMAX page on Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md).
 
 ## Links
 

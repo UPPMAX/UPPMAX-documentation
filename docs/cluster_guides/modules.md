@@ -384,6 +384,7 @@ Full command            |Shorthand syntax
 `module`                |-
 `module avail`          |`ml av`
 `module spider`         |`ml spider`
+`module load`           |`ml`
 `module list`           |`ml`
 `module unload [module]`|`ml -[module]`
 
@@ -424,3 +425,9 @@ No module(s) or extension(s) found!
 Use "module spider" to find all possible modules and extensions.
 Use "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".
 ```
+
+## Conflicting modules
+
+Sometimes some tools cannot be run together, that is working when another module is loaded. Read about this in the page:
+
+- [Conflicting modules](module_conflicts.md)

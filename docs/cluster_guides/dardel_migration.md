@@ -5,6 +5,14 @@
 This page describes how to transfer files to Dardel,
 the HPC cluster at PDC in Stockholm.
 
+???- info "Visit the Rackham 2 Dardel Drop-in"
+
+    Every Tuesday at 11:15 (except for the month of July)
+    there is online Rackham 2 Dardel Drop-in at Zoom
+    with meeting ID 64896912764
+
+Please join us if you need assistance logging in to Dardel or migrating your data.
+
 ???- question "Why do I need this?"
 
     The Rackham cluster will be decommissioned at the end of 2024,
@@ -141,7 +149,7 @@ darsync sshkey
 
 ### 4. Add the public key to the PDC Login Portal
 
-See [create and use an SSH key pair for Dardel, step 2](../software/ssh_key_use_dardel.md/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),
+See [create and use an SSH key pair for Dardel, step 2](http://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),
 to see how to upload the public SSH key to the PDC Login Portal.
 
 ### 5. Run the migration tool Darsync
@@ -394,19 +402,53 @@ rm ~/id_ed25519_pdc*
 
 ## Troubleshooting
 
+### `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
 
-???- question "I get the error: `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`. How do I fix this?"
+Full error message:
 
-    ```
-    [richel@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
-    ssh: connect to host dardel.pdc.kth.se port 22: No route to host
-    rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-    rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
-    ```
+```text
+[richel@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
+ssh: connect to host dardel.pdc.kth.se port 22: No route to host
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
+```
 
-    This means that Dardel is down, probably due to maintenance.
+Likely cause:
 
-    Check https://www.pdc.kth.se/about/pdc-news if there are any problems with Dardel.
+This probably means that Dardel is down, likely due to maintenance.
 
-    You can do nothing, except wait until Dardel is up again.
+Solution:
 
+You can do nothing, except wait until Dardel is up again.
+
+You may check the PDC news at 
+[https://www.pdc.kth.se/about/pdc-news](https://www.pdc.kth.se/about/pdc-news) 
+to confirm that there is indeed a problem with Dardel.
+
+### `rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/naiss2024-23-352/.": Operation not permitted (1)`
+
+Full error message:
+
+```bash
+$ bash darsync_my_folder.slurm
+sending incremental file list
+rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/naiss2024-23-352/.": Operation not permitted (1)
+```
+
+after which the script keeps running.
+
+???- question "For UPPMAX staff"
+
+    An example can be found at [https://github.com/UPPMAX/ticket_296149](https://github.com/UPPMAX/ticket_296149).
+
+Hypothesized cause:
+
+This darsync script is running for the second (or more) time,
+hence it has already created the target folders on Dardel.
+This hypothesis is backed by [this Stack Overflow post](https://stackoverflow.com/a/54861420)
+where it is suggested to delete the folders; in this case: the target folders on Dardel.
+
+Solution:
+
+On Dardel, delete the target folders that are already there
+and re-run the script.

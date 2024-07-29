@@ -1,6 +1,6 @@
 # Bianca's design
 
-Bianca is an high-performance computing (HPC) cluster for sensitive data.
+[Bianca](bianca.md) is an high-performance computing (HPC) cluster for sensitive data.
 
 ???- question "What is an HPC cluster for sensitive data?"
 

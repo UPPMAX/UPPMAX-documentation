@@ -10,10 +10,10 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 - [Bianca's design](../cluster_guides/biancas_design.md):
   helps understand why the procedure described here is needed.
-- [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can login to Bianca
-- [The two Bianca environments](#the-two-bianca-environments) shows the two ways to use Bianca
+- [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can access Bianca
+- [The two Bianca environments](#the-two-bianca-environments) shows the two ways to access Bianca
 - [Get within the university networks](#get-within-the-university-networks) shows how *to be allowed to* access Bianca
-- [Get inside the Bianca environment](#get-inside-the-bianca-environment) show how to get inside the Bianca environments:
+- [Get inside the Bianca environment](#get-inside-the-bianca-environment) show how access the two Bianca environments:
     - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
     - [Login to the Bianca console environment](#login-to-the-bianca-console-environment)
 
@@ -129,8 +129,8 @@ To use Bianca, there are two environments:
 
     > A more populated Bianca XFCE remote desktop
 
-- A [remote desktop environment](../cluster_guides/thinlinc.md), also called 'graphical environment',
-  'GUI environment', 'ThinLinc environment'
+- A remote desktop environment, also called 'graphical environment',
+  'GUI environment', '[ThinLinc](../software/thinlinc.md) environment'
 
 ???- question "How does the Bianca console environment look like?"
 
@@ -140,7 +140,7 @@ To use Bianca, there are two environments:
 
 - A console environment, also called 'terminal environment' or 'terminal'
 
-The [remote desktop environment](../cluster_guides/thinlinc.md) is considered the easier place to start for most
+The [remote desktop environment](../software/thinlinc.md) is considered the easier place to start for most
 new users, as it has most similarities with what a new user is familiar with.
 However, one must always use a terminal to some extent.
 
@@ -148,20 +148,11 @@ However, one must always use a terminal to some extent.
 ```mermaid
 flowchart TD
 
-    %% Give a white background, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
     subgraph sub_bianca_private_env[The project's private virtual project cluster]
       bianca_private_console[Bianca console environment]
       bianca_private_remote_desktop[Bianca remote desktop]
       bianca_private_terminal[Terminal]
     end
-
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    %% style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    %% style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Private Bianca
     bianca_private_console---|is a|bianca_private_terminal
@@ -205,9 +196,6 @@ are discussed
 ```mermaid
 flowchart TD
 
-    %% Give a white background, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
     subgraph sub_inside[IP inside SUNET]
       user(User)
 
@@ -219,12 +207,6 @@ flowchart TD
       end
     end
 
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
-
     %% Inside SUNET
     user --> bianca_private_console
     user --> bianca_private_remote_desktop
@@ -232,10 +214,13 @@ flowchart TD
 
 ### Login to the Bianca remote desktop environment
 
-There are multiple ways to do so:
+One can only [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md).
 
-- [Login to the Bianca remote desktop environment website](login_bianca_remote_desktop_website.md).
-- Login to the Bianca remote desktop environment using a local ThinLinc client
+???- question "Will a local ThinLinc client work too?"
+
+    No. 
+
+    One really can only [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md).
 
 ### Login to the Bianca console environment
 
@@ -269,9 +254,6 @@ In a Bianca console environment:
 ```mermaid
 flowchart TD
 
-    %% Give a white background, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
     subgraph sub_inside[IP inside SUNET]
 
       user(User)
@@ -288,79 +270,13 @@ flowchart TD
       end
     end
 
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
-
     %% Inside SUNET
     user-->|SSH, UPPMAX password and 2FA|bianca_shared_console
 
     bianca_shared_console --> |UPPMAX password or SSH key|bianca_private_console
 ```
 
-## Extra material
-
-### Overview
-
-```mermaid
-flowchart TD
-
-    %% Give a white background, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-    classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
-
-    subgraph sub_outside[IP outside SUNET]
-      outside(Physically outside SUNET)
-    end
-
-    subgraph sub_inside[IP inside SUNET]
-      physically_inside(Physically inside SUNET)
-      inside_using_vpn(Inside SUNET using VPN)
-      inside_using_rackham(Inside SUNET using Rackham)
-
-      subgraph sub_bianca_shared_env[Bianca shared network]
-        bianca_shared_console[Bianca console environment login]
-        bianca_shared_remote_desktop[Bianca remote desktop login]
-        subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          bianca_private_console[Bianca console environment]
-          bianca_private_remote_desktop[Bianca remote desktop]
-          bianca_private_terminal[Terminal]
-        end
-      end
-    end
-
-    %% Shared subgraph color scheme
-    style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
-
-    %% Outside SUNET
-    outside-->|Move physically|physically_inside
-    outside-->|Use a VPN|inside_using_vpn
-    outside-->|Login to Rackham|inside_using_rackham
-
-    %% Inside SUNET
-    physically_inside-->|SSH|bianca_shared_console
-    physically_inside-->|UPPMAX website|bianca_shared_remote_desktop
-    physically_inside-.->inside_using_rackham
-    physically_inside-.->inside_using_vpn
-    inside_using_vpn-->|SSH|bianca_shared_console
-    inside_using_vpn-->|UPPMAX website|bianca_shared_remote_desktop
-    inside_using_rackham-->|SSH|bianca_shared_console
-
-    %% Shared Bianca
-    bianca_shared_console --> |UPPMAX password|bianca_private_console
-    bianca_shared_remote_desktop-->|UPPMAX password|bianca_private_remote_desktop
-
-    %% Private Bianca
-    bianca_private_console---|is a|bianca_private_terminal
-    bianca_private_remote_desktop-->|must also use|bianca_private_terminal
-```
-
-Using default coloring:
+## Overview of all steps possible/needed to access Bianca
 
 ```mermaid
 flowchart TD
@@ -407,3 +323,7 @@ flowchart TD
     bianca_private_console---|is a|bianca_private_terminal
     bianca_private_remote_desktop-->|must also use|bianca_private_terminal
 ```
+
+This is an overview of all steps possible/needed to access Bianca.
+It is all graphs on this pages combined.
+
