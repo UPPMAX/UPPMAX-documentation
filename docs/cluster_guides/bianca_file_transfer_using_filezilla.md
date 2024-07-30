@@ -35,7 +35,7 @@ In FileZilla, from the menu, select 'File | Site manager'
 
     It is here:
 
-    ![](./img/filezilla_file_site_manager.png)
+    ![The FileZilla 'File' menu contains the item 'Site manager'](./img/filezilla_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -47,7 +47,9 @@ In the 'Site Manager' dialog, click 'New site'
 
     It is here:
 
-    ![](./img/filezilla_site_manager.png)
+    !['New site' can be found at the bottom-left](./img/filezilla_site_manager.png)
+
+    > 'New site' can be found at the bottom-left
 
 ## 5. Create a name for the site, e.g. `bianca-sens123456`
 
@@ -65,9 +67,9 @@ In the 'New Site' dialog, use all standards, except:
 
     It looks similar to these:
 
-    ![](./img/filezilla_setup_bianca_pavlin.png)
+    ![FileZilla settings for a user](./img/filezilla_setup_bianca_pavlin.png)
 
-    ![](./img/filezilla_setup_bianca_richel.png)
+    ![FileZilla settings for another user](./img/filezilla_setup_bianca_richel.png)
 
 !!! tip "Storing a password is useless"
 
@@ -89,4 +91,6 @@ Now you can transfer files between your local computer and [your `wharf` folder]
 
     It looks like this:
 
-    ![](./img/filezilla_login_to_bianca.png)
+    ![FileZilla is ready to transfer files](./img/filezilla_login_to_bianca.png)
+
+    > FileZilla is ready to transfer files
