@@ -80,6 +80,17 @@ You will get a PDC account overnight.
 
     > Example of a user having an account at PDC's Dardel HPC cluster
 
+???- question "How do I find out my PDC username?"
+
+    In [the PDC login portal](https://loginportal.pdc.kth.se), after logging
+    in, you can see your Dardel username in the top-right corner:
+
+    ![PDC login portal with username and key](./img/pdc_login_portal_with_username_and_key.png)
+
+    > Example screenshot of the PDC login portal. 
+    > The Dardel username of this user is `richelbi`
+
+
 ### 3. Create SSH key pair
 
 Create SSH key and add it to the PDC Login Portal.
