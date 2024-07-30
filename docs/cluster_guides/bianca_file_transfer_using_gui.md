@@ -108,11 +108,11 @@ that supports SFTP.
 
 ???- warning "Use SFTP ... and why users think incorrectly that SCP will work"
 
-    Only SFTP will work. SCP will never work. 
+    Only SFTP will work. SCP will never work.
 
     However, some users use tools that support SFTP,
     yet that have 'SCP' in the name, for example, 'WinSCP'.
-    As users hear from colleagues that the tool 'WinSCP' works, 
+    As users hear from colleagues that the tool 'WinSCP' works,
     they may incorrectly conclude that SCP will work.
 
     SCP will never work. Only SFTP will work.

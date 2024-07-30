@@ -45,7 +45,7 @@ and the `sftp` prompt.
 
     This is the welcome message:
 
-    ```
+    ```text
     Hi!
 
     You are connected to the bianca wharf (sftp service) at
@@ -74,7 +74,7 @@ and the `sftp` prompt.
 
     Use `sftp`'s `-q` (which is short for 'quiet') flag:
 
-    ```
+    ```bash
     sftp -q sven-sens2016001@bianca-sftp.uppmax.uu.se
     ```
 

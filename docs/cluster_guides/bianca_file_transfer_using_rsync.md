@@ -79,7 +79,7 @@ where
     ```
 
     However, the `[path]` argument is optional: if not
-    given, a default will be used. 
+    given, a default will be used.
     
     To simplify matters, here we use the default.
 
@@ -194,7 +194,7 @@ To copy the individual files in your wharf to your local computer.
 
     This assumes that there is few data in your [wharf](wharf.md) folder.
 
-    We assume your follow good [wharf](wharf.md) hygiene, 
+    We assume your follow good [wharf](wharf.md) hygiene,
     i.e. your [wharf](wharf.md) folder is mostly empty most of the time.
 
 On your local computer, do:
