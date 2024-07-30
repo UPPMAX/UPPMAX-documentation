@@ -421,8 +421,8 @@ Solution:
 
 You can do nothing, except wait until Dardel is up again.
 
-You may check the PDC news at 
-[https://www.pdc.kth.se/about/pdc-news](https://www.pdc.kth.se/about/pdc-news) 
+You may check the PDC news at
+[https://www.pdc.kth.se/about/pdc-news](https://www.pdc.kth.se/about/pdc-news)
 to confirm that there is indeed a problem with Dardel.
 
 ### `rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/naiss2024-23-352/.": Operation not permitted (1)`

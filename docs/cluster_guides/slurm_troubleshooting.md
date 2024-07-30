@@ -11,7 +11,7 @@ This page describes Slurm errors.
 sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified
 ```
 
-###  To reproduce
+### To reproduce
 
 ```bash
 touch do_something.sh
@@ -28,7 +28,7 @@ As stated by the error message: you've used either:
   for example using a Rackham account for a Snowy partition
 
 Or, in less formal terms, you are using a NAISS project that is not
-an active UPPMAX project for that UPPMAX cluster. 
+an active UPPMAX project for that UPPMAX cluster.
 
 ### Solution
 

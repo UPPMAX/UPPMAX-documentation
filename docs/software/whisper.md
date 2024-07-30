@@ -10,6 +10,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 ## User Interface (GUI)
 
 ### Step 1: Accessing your project  
+
 1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
 2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
@@ -26,7 +27,8 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     ```console
     [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
     ```
-    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder. 
+
+    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder.
 
 3. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
 
@@ -34,7 +36,8 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     [jayan@sens2024544-bianca proj]$ module load Whisper-gui
     [jayan@sens2024544-bianca proj]$ whisper-gui.sh
     ```
-    Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created. 
+
+    Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
 
 4. Select appropriate options, or use the following for the best results:  
    device: gpu  
@@ -64,7 +67,9 @@ On Mac, `.srt` and `.vtt` can be opened in Word by:
 Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
 
 ### Advance settings
+
 ### Languages available
+
 Use the following 2 letter code to perform transcribing when asked in the GUI:  
 `en`: "english",
     `zh`: "chinese",
