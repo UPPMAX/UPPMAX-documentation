@@ -68,12 +68,6 @@ They *seem* to end up in your Transit home folder.
 Its location is at `/home/[user_name]`,
 for example, at `/home/sven`.
 
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![](./img/filezilla_file_on_transit.png)
-
 However, this is not the case:
 upon closing `sftp`,
 the files you've uploaded are gone.

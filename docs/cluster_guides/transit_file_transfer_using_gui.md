@@ -89,7 +89,7 @@ You can save the password.
 
     It looks similar to this:
 
-    ![Asked for your password](filezilla_enter_password_transit.png)
+    ![Asked for your password](./img/filezilla_enter_password_transit.png)
 
 ### 9. Transfer files between local and Transit
 
@@ -107,12 +107,6 @@ They *seem* to end up in your Transit home folder.
 
 Its location is at `/home/[user_name]`,
 for example, at `/home/sven`.
-
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![Files seem to end up in Transit home folder](./img/filezilla_file_on_transit.png)
 
 However, this is not the case:
 upon closing FileZilla,

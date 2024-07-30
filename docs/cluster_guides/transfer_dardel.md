@@ -116,7 +116,7 @@ The next thing you have to do is to add UPPMAX as a placer permitted to use your
 
 ???- question "How does that look like?"
 
-    ![](./img/pdc_add_uppmax_domain.png)
+    ![](./img/pdc_add_new_key_uppmax.png)
 
     > This is where you enter UPPMAX as allowed to use this key.
 

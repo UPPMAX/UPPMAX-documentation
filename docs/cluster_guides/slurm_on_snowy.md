@@ -21,7 +21,7 @@ the Snowy computer nodes.
 
 ???- question "Want to start an interactive job?"
 
-    See how to start an interactive job on Snowy [here](start_interactive_job_on_snowy.md)
+    See how to start an interactive job on Snowy [here](start_interactive_node_on_snowy.md)
 
 Here it is shown how to submit a job with:
 

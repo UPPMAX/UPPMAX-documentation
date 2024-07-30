@@ -19,7 +19,7 @@ how to fix Slurm errors.
 
 ???- question "Want to start an interactive job?"
 
-    See how to start an interactive job on Bianca [here](start_interactive_job_on_bianca.md)
+    See how to start an interactive job on Bianca [here](start_interactive_node_on_bianca.md)
 
 Here it is shown how to submit a job with:
 
