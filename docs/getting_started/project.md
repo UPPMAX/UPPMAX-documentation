@@ -19,11 +19,11 @@ resources and to get an overview of the requested resources.
 
 ???- question "How does the SUPR website look like?"
 
-    ![](./img/supr_first_page.png)
+    ![First SUPR page](./img/supr_first_page.png)
 
     > First SUPR page
 
-    ![](./img/supr_2fa.png)
+    ![SUPR 2FA login](./img/supr_2fa.png)
 
     > SUPR 2FA login. Use the SUPR 2FA (i.e. **not** UPPMAX)
 
@@ -33,9 +33,9 @@ under the 'Projects' tab.
 
 ???- question "How does the 'Projects' tab of the SUPR website look like?"
 
-    ![](./img/supr_projects.png)
+    ![An example overview of SUPR projects](./img/supr_projects.png)
 
-    > Example overview of SUPR projects
+    > An example overview of SUPR projects
 
 ## Type of UPPMAX projects
 

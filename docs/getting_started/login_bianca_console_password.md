@@ -37,13 +37,12 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 
     On Bianca, one can use `-A`:
 
-    ```
+    ```bash
     ssh -A username@bianca.uppmax.uu.se
     ```
 
-    this option is only useful when
-    [using SSH keys](#login-to-the-Bianca-console-environment-using-ssh-keys)
-    to access Bianca.
+    this option is only useful when you want to
+    [log in to Bianca using an SSH key](login_bianca_ssh_key.md).
     As we here use passwords (i.e. no SSH keys)
     to access Bianca, `-A` is unused
     and hence we simplify this documentation by omitting it.
@@ -52,7 +51,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 
     On Rackham, one can use `-X`:
 
-    ```
+    ```bash
     ssh -X username@rackham.uppmax.uu.se
     ```
 

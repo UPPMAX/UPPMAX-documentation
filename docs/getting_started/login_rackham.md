@@ -17,17 +17,18 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
 
-   ``` bash
-     [<user>@rackham3 ~]$
-   ```
+    ```bash
+    [<user>@rackham3 ~]$
+    ```
 
 - You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
 
-   ``` bash
-      [<user>@r484 ~]
-   ```
+    ```bash
+    [<user>@r484 ~]
+    ```
 
 !!! info "Quick start log in!"
+
     - Below you find how to log in
     - Further down we present other procedures to reach Rackham, depending on your planned work.
 
@@ -49,8 +50,8 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
     - iTerm2 goodies:
 
-       - You can save hosts for later.
-       - Drag and drop scp
+        - You can save hosts for later.
+        - Drag and drop scp
 
 === "Windows"
 
@@ -85,8 +86,8 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 
 !!! info "Working on Rackham"
-    - Now we present alternatives to work on Rackham
 
+    Now we present alternatives to work on Rackham
 
 ## Alternative ways to log in and work
 
@@ -210,8 +211,9 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     - Use `ssh -X`
 
     - The X servers that enables graphics are needed, as mentioned above!
-      - When starting a graphical program, a new window will open, but your terminal will be “locked”.
-      - Run using "`&`" at the end to run it as a background process e.g. "`xeyes &`" or “`gedit &`”
+
+        - When starting a graphical program, a new window will open, but your terminal will be “locked”.
+        - Run using "`&`" at the end to run it as a background process e.g. "`xeyes &`" or “`gedit &`”
 
     <!-- ![Caption](./img/xeyes.png) -->
 
@@ -222,18 +224,18 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
     - First try:
 
-    ``` bash
+    ```bash
     $ ssh -X <username>@rackham.uppmax.uu.se
     ```
 
     - If you receive errors or warnings, instead try:
 
-    ``` bash
+    ```bash
     $ ssh <username>@rackham.uppmax.uu.se
     ```
 
     - If you do have X11 installed:
-    ``` bash
+    ```bash
     $ xeyes &
     ```
 
@@ -273,8 +275,10 @@ Here are the UPPMAX pages on how to do so:
 
 ??? question "For windows users who wants to get started with WSL (not covered here)"
     - Install WSL (Windows Subsystem for Linux)
+
         - [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Links to an external site.)
         - Don’t forget to update to WSL2
+
     - Install a distribution or a ssh (secure shell) program
         - Distribution such as ubuntu or
         - (recommended) a ssh program such as MobaXTerm
@@ -298,7 +302,9 @@ Here are the UPPMAX pages on how to do so:
 
 !!! abstract "keypoints"
     - When you log in from your local computer you will always arrive at a login node with limited resources.
+
          - You reach the calculations nodes from within the login node (See  Submitting jobs section)
+
     - You reach UPPMAX clusters either using a terminal client or Thinlinc
     - Graphics are included in Thinlinc and from terminal if you have enabled X11.
     - Which client to use?

@@ -100,7 +100,7 @@ A variable referring to the last computed value, automatically set at the intera
 
 !!! info
 ​
-    - Exit with `<Ctrl-D>` or 'exit()'.
+    Exit with `<Ctrl-D>` or `exit()`.
 
 
 !!! seealso

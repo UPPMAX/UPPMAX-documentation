@@ -40,7 +40,7 @@ module load bioinfo-tools beast2/2.7.4
 
 ???- question "How does that look like?"
 
-    ```
+    ```bash
     $ module load bioinfo-tools beast2/2.7.4
     beast2/2.7.4: Also loaded beagle/4.0.0
     beast2/2.7.4: Many Beast packages are available, to see the list, 'packagemanager -list'
@@ -63,7 +63,7 @@ it needs [SSH with X forwarding enabled](../software/ssh_x_forwarding.md) enable
 
     Starting `BEAUti` results in the following pop-up window:
 
-    ![](./img/beauti.png)
+    ![BEAUti](./img/beauti.png)
 
 After using `BEAUti`, save the file with your BEAST2 model.
 

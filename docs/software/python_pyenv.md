@@ -17,7 +17,7 @@ Confer the official pyenv documentation.
     git clone git://github.com/yyuu/pyenv.git ~/.pyenv
     ```
 
-2. Make pyenv start when you login each time
+1. Make pyenv start when you login each time
 
 ```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile

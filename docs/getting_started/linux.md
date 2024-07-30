@@ -181,8 +181,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
         - use Tab completion
         - capitalization and spaces matters
         - no undo:s for copying, moving and removing
-          - Solution: ``alias rm='rm -i' ``
-
+          - Solution: `alias rm='rm -i'`
 
 ## Links
 

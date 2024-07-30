@@ -23,7 +23,7 @@ we have tested on Chrome and Firefox :-)
 
 ???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
 
-    ![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+    ![Nothing will appear in your browser](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
@@ -55,7 +55,7 @@ Do use the `UPPMAX` [2-factor authentication](https://www.uu.se/en/centre/uppmax
     You really need to use the UPPMAX 2-factor authentication,
     i.e not the SUPR one, to login to Bianca.
 
-    ![](./img/2fa_uppmax_and_supr.png)
+    ![Screenshot of a two-factor authentication app](./img/2fa_uppmax_and_supr.png)
 
     > Screenshot of a two-factor authentication app.
     > Use the 2-factor authentication called 'UPPMAX'
@@ -72,7 +72,7 @@ Simply do that :-)
 
 ???- question "How does that web page look like?"
 
-    ![](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
+    ![No Thinlinc Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
 
     > No Thinlinc Web Access active
     > The login node for your project cluster is probably asleep. Boot initiated. The startup can take from 2 to 8 minutes.
@@ -100,11 +100,11 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 ???- question "How does that look like?"
 
-    ![](./img/remote_desktop_thinlinc_profile_chooser.png)
+    ![Here you are told you will need to pick a remote desktop flavor](./img/remote_desktop_thinlinc_profile_chooser.png)
 
     > Here you are told you will need to pick a remote desktop flavor
 
-    ![](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
+    ![Pick a remote desktop flavor](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
 
     > Here you are asked to pick a remote desktop flavor,
     > with Xfce as the default.

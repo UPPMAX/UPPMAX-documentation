@@ -154,5 +154,6 @@ Unless your script or program is in the active path, you run it by the full path
 ## Summary
 
 !!! abstract "Keypoints"
-    - You have got an overview of the procedures to install packages/libraries and tools on Bianca through the ``wharf``
+
+    - You have got an overview of the procedures to install packages/libraries and tools on Bianca through the `wharf`
     - If you feel uncomfortable or think that many users would benefit from the software, ask the support to install it.

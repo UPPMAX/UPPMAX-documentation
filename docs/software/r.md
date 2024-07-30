@@ -98,7 +98,7 @@ module load R/4.3.1
     to see which versions of the R interpreter
     are installed on UPPMAX:
 
-    ```
+    ```bash
     module spider R
     ```
 

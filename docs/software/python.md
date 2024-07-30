@@ -41,13 +41,13 @@ to run a Python script.
 
     Load Python 2.7.15:
 
-    ```
+    ```bash
     module load python/2.7.15
     ```
 
     Then
 
-    ```
+    ```bash
     python -c "print(1/2)"
     ```
 
@@ -55,13 +55,13 @@ to run a Python script.
 
     Load Python 3.11.4:
 
-    ```
+    ```bash
     module load python/3.11.4
     ```
 
     Then
 
-    ```
+    ```bash
     python -c "print(1/2)"
     ```
 
@@ -72,7 +72,7 @@ to run a Python script.
 
     To determine which version `python` is, in a terminal, type:
 
-    ```
+    ```bash
     python --version
     ```
 
@@ -82,7 +82,7 @@ to run a Python script.
 
     To determine which version `python3` is, in a terminal, type:
 
-    ```
+    ```bash
     python3 --version
     ```
 
@@ -353,13 +353,13 @@ python -c "import pandas"
 
     Here an absent package is loaded, with the nonsense name `absentpackage`:
 
-    ```
+    ```bash
     python -c "import absentpackage"
     ```
 
     This results in the following error:
 
-    ```
+    ```console
     Traceback (most recent call last):
       File "<string>", line 1, in <module>
     ModuleNotFoundError: No module named 'absentpackage'

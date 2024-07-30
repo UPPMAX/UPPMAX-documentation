@@ -43,14 +43,14 @@ this can take some hours.
     If there is a PDC project,
     you may have access to a project with Dardel.
 
-    ![](../cluster_guides/img/supr_naiss_dardel_project.png)
+    ![Example user that has access to a PDC project](../cluster_guides/img/supr_naiss_dardel_project.png)
 
     > Example user that has access to a PDC project
 
     If you may a PDC project that does not use Dardel,
     click on the project to go the the project overview.
 
-    ![](../cluster_guides/img/supr_naiss_dardel_project_overview.png)
+    ![Example PDC project overview](../cluster_guides/img/supr_naiss_dardel_project_overview.png)
 
     > Example PDC project overview
 
@@ -58,7 +58,7 @@ this can take some hours.
     If you see 'Dardel' among the compute resources,
     you have confirmed you have access to a Dardel project.
 
-    ![](../cluster_guides/img/naiss_project_dardel_resources.png)
+    ![Resources from an example PDC project](../cluster_guides/img/naiss_project_dardel_resources.png)
 
     > Resources from an example PDC project
 
@@ -76,7 +76,7 @@ You will get a PDC account overnight.
     If you see 'Dardel' among the resources, and status 'Enabled'
     in the same row, you have a PDC account!
 
-    ![](../cluster_guides/img/supr_naiss_dardel_account.png)
+    ![Example of a user having an account at PDC's Dardel HPC cluster](../cluster_guides/img/supr_naiss_dardel_account.png)
 
     > Example of a user having an account at PDC's Dardel HPC cluster
 
@@ -87,7 +87,7 @@ You will get a PDC account overnight.
 
     ![PDC login portal with username and key](./img/pdc_login_portal_with_username_and_key.png)
 
-    > Example screenshot of the PDC login portal. 
+    > Example screenshot of the PDC login portal.
     > The Dardel username of this user is `richelbi`
 
 
@@ -123,7 +123,7 @@ cat ~/id_ed25519_pdc.pub
 
     The text will look similar to this:
 
-    ```
+    ```console
     ssh-ed25519 AAAA69Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
     ```
 

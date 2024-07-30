@@ -50,7 +50,7 @@ XFCE   |Recommended
 
 !!! warning "Avoid choosing KDE"
 
-    Avoid choosing the KDE desktop, as it gives problems 
+    Avoid choosing the KDE desktop, as it gives problems
     when running interactive sessions.
 
     Instead, we recommend GNOME or XFCE.

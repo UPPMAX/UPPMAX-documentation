@@ -153,25 +153,25 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 1. Create the Conda environment
 
-   - Example:
-
-       ```bash
-       conda create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
-       ```
+    - Example:
+    
+        ```bash
+        conda create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
+        ```
 
     !!! info "The `mamba` alternative is not needed in newer versions of Conda!
 
-   - It all worked if you get something like this:
+    - It all worked if you get something like this:
 
-       ```bash
-       # To activate this environment, use
-       #
-       #     $ conda activate python36-env
-       #
-       # To deactivate an active environment, use
-       #
-       #     $ conda deactivate
-       ```
+        ```bash
+        # To activate this environment, use
+        #
+        #     $ conda activate python36-env
+        #
+        # To deactivate an active environment, use
+        #
+        #     $ conda deactivate
+        ```
 
 1. Activate the conda environment by `source activate` if you have not enabled ``conda activate``, see above:
 
@@ -206,9 +206,9 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 !!! warning
 
-    -   Conda is known to create **many** *small* files. Your diskspace is not only limited in GB:s, but also in number of files (typically `300000` in ``$home``).
-    -   Check your disk usage and quota limit with `uquota`
-    -   Do a `conda clean -a` once in a while to remove unused and unnecessary files
+    - Conda is known to create **many** *small* files. Your diskspace is not only limited in GB:s, but also in number of files (typically `300000` in ``$home``).
+    - Check your disk usage and quota limit with `uquota`
+    - Do a `conda clean -a` once in a while to remove unused and unnecessary files
 
 ## Working with Conda environments defined by files
 
@@ -259,11 +259,11 @@ dependencies:
 
     - Conda on Bianca is easy since the repos in the most used channels are local.
 
-    -   Conda creates isolated environments not clashing with other installations of python and other versions of packages
+    - Conda creates isolated environments not clashing with other installations of python and other versions of packages
 
-    -   Conda environment requires that you install all packages needed by yourself, although automatically.
+    - Conda environment requires that you install all packages needed by yourself, although automatically.
 
-    -   That is, you cannot load the python module and use the packages therein inside your Conda environment.
+    - That is, you cannot load the python module and use the packages therein inside your Conda environment.
 
 ## Conda in batch scripts
 

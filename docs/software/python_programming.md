@@ -170,7 +170,7 @@ The Python interpreter can show graphics.
 
     You will see a window appear:
 
-    ![](img/python_matplotlib.png)
+    ![A window with the plot](img/python_matplotlib.png)
 
     You will only see a window appear, if you've logged in to Rackham with
     [SSH with X forwarding enabled](../software/ssh_x_forwarding.md).
@@ -293,7 +293,7 @@ IPython can show graphics.
 
     You will see a window appear:
 
-    ![](img/ipython_matplotlib.png)
+    ![A window with the plot](img/ipython_matplotlib.png)
 
     You will only see a window appear, if you've logged in to Rackham with
     [SSH with X forwarding](../software/ssh_x_forwarding.md) enabled.

@@ -44,7 +44,7 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
 
     On Rackham, one can use `-X`:
 
-    ```
+    ```bash
     ssh -X username@rackham.uppmax.uu.se
     ```
 

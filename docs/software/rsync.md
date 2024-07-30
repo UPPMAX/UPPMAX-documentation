@@ -26,7 +26,7 @@ To installing `rsync`, see [the official `rsync` download page](https://rsync.sa
 
 ???- question "Tip for Windows users"
 
-    When looking to download an executable of `rsycn`, 
+    When looking to download an executable of `rsycn`,
     look for the words 'binary' (all executables are binary)
     and Cygwin (the environment in which the `rsync` executable
     was built on Windows).
@@ -81,6 +81,6 @@ Where `.` means 'the folder where I am now'.
 
     To preserve the files' timestamps, use the `--archive` flag, e.g.
 
-    ```
+    ```bash
     rsync --recursive --archive my_folder sven@rackham.uppmax.uu.se:/home/sven/
     ```

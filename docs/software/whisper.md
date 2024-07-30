@@ -22,7 +22,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 ### Step 3: Transcribing/Translating  
 
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
-2. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
+1. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
 
     ```console
     [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
@@ -30,7 +30,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
     This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder.
 
-3. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
+1. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
 
     ```console
     [jayan@sens2024544-bianca proj]$ module load Whisper-gui
@@ -39,7 +39,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
     Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
 
-4. Select appropriate options, or use the following for the best results:  
+1. Select appropriate options, or use the following for the best results:  
    device: gpu  
    SLURM job name: [give any name without space]  
    Total audio length in minutes : [give a rough average if transcribing files in bulk]  

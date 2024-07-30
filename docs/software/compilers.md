@@ -19,7 +19,7 @@ and different [profiling tools](profilers.md).
 
     Use
 
-    ```
+    ```bash
     module list
     ```
 
@@ -27,7 +27,7 @@ and different [profiling tools](profilers.md).
 
     This may look like this:
 
-    ```
+    ```console
     Currently Loaded Modules:
       1)  uppmax    2) intel/19.5
     ```
@@ -35,7 +35,7 @@ and different [profiling tools](profilers.md).
     If there are modules connected to the incorrect compiler,
     unload the module, for example:
 
-    ```
+    ```bash
     module unload intel
     ```
 

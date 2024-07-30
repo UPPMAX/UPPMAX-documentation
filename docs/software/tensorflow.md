@@ -77,7 +77,7 @@ $ interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00
 
     Load the module to get access to the library:
 
-    ```
+    ```bash
     module load python_ML_packages/3.9.5-gpu
     ```
 
