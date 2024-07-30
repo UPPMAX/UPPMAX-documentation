@@ -32,6 +32,9 @@
       "pattern": "^http://hostname:8888$"
     },
     {
+      "pattern": "^https://supr.naiss.se/$"
+    },
+    {
       "pattern": "^software-table.md"
     }
   ]
