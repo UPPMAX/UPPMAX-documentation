@@ -116,7 +116,7 @@
 
 ???- question "How to run interactively on a compute node?"
 
-    - [Start an interactive node](../start_interactive_node.md)
+    - [Start an interactive node](../cluster_guides/start_interactive_node.md)
     - [More about interactive](interactive_more.md)
 
 
@@ -156,7 +156,7 @@
 
     in your submit script.
 
-    - For more information, read the [module system guide](../modules.md)
+    - For more information, read the [module system guide](../cluster_guides/modules.md)
 
 ???- question "What is causing the sbatch script error 'Unknown shell type `load`'?"
 
