@@ -101,22 +101,22 @@ this can take some hours.
     If there is a PDC project,
     you may have access to a project with Dardel.
 
-    ![](./img/supr_naiss_dardel_project.png)
+    ![An example user that has access to a PDC project](./img/supr_naiss_dardel_project.png)
 
-    > Example user that has access to a PDC project
+    > An example user that has access to a PDC project
 
     If you may a PDC project that does not use Dardel,
     click on the project to go the the project overview.
 
-    ![](./img/supr_naiss_dardel_project_overview.png)
+    ![An example PDC project overview](./img/supr_naiss_dardel_project_overview.png)
 
-    > Example PDC project overview
+    > An example PDC project overview
 
     From there, scroll down to 'Resources'.
     If you see 'Dardel' among the compute resources,
     you have confirmed you have access to a Dardel project.
 
-    ![](./img/naiss_project_dardel_resources.png)
+    ![Resources from an example PDC project](./img/naiss_project_dardel_resources.png)
 
     > Resources from an example PDC project
 
@@ -134,7 +134,7 @@ You will get a PDC account overnight.
     If you see 'Dardel' among the resources, and status 'Enabled'
     in the same row, you have a PDC account!
 
-    ![](./img/supr_naiss_dardel_account.png)
+    ![Example of a user having an account at PDC's Dardel HPC cluster](./img/supr_naiss_dardel_account.png)
 
     > Example of a user having an account at PDC's Dardel HPC cluster
 
@@ -213,7 +213,9 @@ or try to fix them yourself.
     even if your UPPMAX project has already been deleted.
 
 ???- question "How to fix `WARNING: files with uncompressed file extensions above the threshold detected`"
-    It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
+
+    It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`.
+    If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
     Examples of how to compress common formats:
 
@@ -236,7 +238,10 @@ or try to fix them yourself.
 
 ???- question "How to fix `WARNING: Total number of files, or number of files in a single directory`"
 
-    If a project consists of many small files it will decrease the data transfer speed, as there is an overhead cost to starting and stopping each file transfer. A way around this is to pack all the small files into a single `tar` archive, so that it only has to start and stop a single time.
+    If a project consists of many small files it will decrease the data transfer speed,
+    as there is an overhead cost to starting and stopping each file transfer. 
+    A way around this is to pack all the small files into a single `tar` archive,
+    so that it only has to start and stop a single time.
 
     Example of how to pack a folder and all files in it into a single `tar` archive.
 
@@ -332,9 +337,9 @@ which is a regular [Slurm](slurm.md) script.
     NAISS 2024/22-49   |`naiss2024-22-49`
     UPPMAX 2023/2-25   |`uppmax2023-2-25`
 
-    ![](../cluster_guides/img/supr_naiss_example_projects.png)
+    ![An example SUPR NAISS page](../cluster_guides/img/supr_naiss_example_projects.png)
 
-    > Example [https://supr.naiss.se/](https://supr.naiss.se/) page.
+    > An example [https://supr.naiss.se/](https://supr.naiss.se/) page.
     > Eligible candidates seem 'NAISS 2024/22-49' and 'UPPMAX 2023/2-25'.
 
 ???- question "How to find out my PDC username?"
@@ -346,9 +351,9 @@ which is a regular [Slurm](slurm.md) script.
     in the same row, you have a PDC account.
     In the first column of such a row, you will see your username
 
-    ![](./img/supr_naiss_dardel_account.png)
+    ![An example of a user having an account at PDC's Dardel HPC cluster](./img/supr_naiss_dardel_account.png)
 
-    > Example of a user having an account at PDC's Dardel HPC cluster.
+    > An example of a user having an account at PDC's Dardel HPC cluster.
     > In this case, the username is `richelbi`
 
 ???- question "How to find out where on Dardel I will transfer your data to?"

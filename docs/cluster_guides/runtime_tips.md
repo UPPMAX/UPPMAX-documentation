@@ -4,9 +4,13 @@
 
 ???- question "How can I run X11 applications inside GNU screen?"
 
-    **If I log in to the login nodes with ssh -XA user@hostname as supposed when wanting to run X applications, and then try to start an X application inside a screen session, why does this not work?**
+    **If I log in to the login nodes with ssh -XA user@hostname
+    as supposed when wanting to run X applications,
+    and then try to start an X application inside a screen session,
+    why does this not work?**
 
-    **(This applies also for trying to do PNG output in R, since it depends on X11)**
+    (This applies also for trying to do PNG output in R,
+    since it depends on X11)
 
     When starting a screen session, your DISPLAY environment can sometimes change from the one that you had when you logged in.
 
@@ -14,19 +18,19 @@
 
     So, outside the screen session, do:
 
-    ```
+    ```bash
     echo $DISPLAY
     ```
 
     You might see something like:
 
-    ```
+    ```console
     localhost:45.0
     ```
 
     Then, inside your screen session, set your DISPLAY env variable to that same value using the export command, like so:
 
-    ```
+    ```bash
     export DISPLAY=localhost:45.0
     ```
 
@@ -37,7 +41,7 @@
 
     There is a program called unbuffer. You could try using it like (tee takes care of sending both to stdout and to a file):
 
-    ```
+    ```bash
     unbuffer your_program |tee some_output_file
     ```
 
@@ -70,21 +74,21 @@
 
     This might happen because your file was created, for instance, on a Windows computer and later copied to UPPMAX Linux machines. Text files have different line terminations on for instance Windows and Linux/Unix. If this is an ordinary textfile you can test this by using the "file" command, like this:
 
-    ```
+    ```bash
     $ file myfile
     myfile: ASCII text, with CRLF line terminators
     ```
 
     `CRLF terminators` tells you that each line of the file is ended by both a carriage-return and a line-feed, as on Windows. On all UPPMAX systems, the file can simply be converted to UNIX style text files using the "dos2unix" command:
 
-    ```
+    ```bash
     $ dos2unix myfile
     dos2unix: converting file myfile to UNIX format ...
     ```
 
     Checking the file again with the "file" command reveals that it now has ordinary UNIX line terminators (only LF):
 
-    ```
+    ```bash
     $ file myfile
     myfile: ASCII text
     ```
@@ -93,7 +97,7 @@
 
     If a shell script is behaving strangely, it can be due to the same problem. Trying to execute a program where the end of line marker is wrong might result in an error message such as the one below:
 
-    ```
+    ```bash
     $ cat myscript.sh
     #!/bin/sh
     ./program
@@ -103,7 +107,7 @@
 
     The "file" command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable". Opening the script using "vi" shows at the bottom of the screen "myscript.sh" [dos] 2L, 22C. The "[dos]" is a sure marker of the same problem. Opening the same file in emacs reveals the same thing (-uu-(DOS)---F1 myscript.sh). Convert the script to unix-format using the "dos2unix" command as described above. An alternative is to copy the file and use the "dos2unix" command on the copy and compare the file sizes using "ls -l":
 
-    ```
+    ```bash
     $ ls -l testme.sh
     rwxr-xr-x  1 daniels uppmax_staff 22 Dec 15 10:53 testme.sh
     $ dos2unix testme.sh
@@ -150,7 +154,7 @@
 
     - Note. For the batch system slurm to work with modules you must have
 
-    ```
+    ```console
     #!/bin/bash -l
     ```
 
@@ -162,19 +166,19 @@
 
     - If you're getting the error message
 
-    ```
+    ```console
     init.c(379):ERROR:109: Unknown shell type load
     ```
 
     when running your sbatch script, then your script is probably starting with the line
 
-    ```
+    ```console
     #!/bin/bash
     ```
 
     To remedy this you need to make sure that your script starts with
 
-    ```
+    ```console
     #!/bin/bash -l
     ```
 
@@ -200,13 +204,13 @@
 
     - You can also ask for an e-mail containing the log, when you submit your job with sbatch or start an "interactive" session, by adding a "-C usage_mail" flag to your command. Two examples:
 
-    ```
+    ```bash
     sbatch -A testproj -p core -n 5 -C usage_mail batchscript1
     ```
 
     or, if interactive
 
-    ```
+    ```bash
     interactive -A testproj -p node -n 1 -C "fat&usage_mail"
     ```
 
@@ -243,7 +247,7 @@
 
     - To check status for your projects, run
 
-    ```
+    ```bash
     $ projinfo
     (Counting the number of core hours used since 2010-05-12/00:00:00 until now.)
 

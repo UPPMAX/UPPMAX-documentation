@@ -4,7 +4,8 @@ NOTE: This guide assumes you know basic git commands and will not cover how to u
 
 - One of the security features of Bianca is that there is no internet access from the cluster.
 - This makes it a bit more complicated to use things like Git to collaborate on files.
-- In this guide we will cover two use-cases;
+- In this guide we will cover two use-cases:
+
     1. collaborate with other users within the same Bianca project, and
     1. collaborate with other users using Github.
 

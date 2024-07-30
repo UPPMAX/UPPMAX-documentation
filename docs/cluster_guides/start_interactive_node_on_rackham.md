@@ -24,9 +24,9 @@ that has a default duration of 1 hours.
 
     One can go to the SUPR NAISS pages to see one's projects,
 
-    ![](./img/naiss_supr_project_2023_2_25.png)
+    ![An example of the Rackham project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
 
-    > Example of the Rackham project called 'UPPMAX 2023/2-25'
+    > An example of the Rackham project called 'UPPMAX 2023/2-25'
 
     On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
     for example, 'UPPMAX 2023/2-25'.

@@ -49,14 +49,14 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc
 
     Running the temporary export gives no output:
 
-    ```
+    ```bash
     [sven@rackham4 ~]$ export PATH=$PATH:/proj/staff/dahlo/testarea/darsync
     ```
 
     The folder `GitHubs` is a folder containing multiple GitHub repositories
     and is chosen as the test subject:
 
-    ```
+    ```bash
     [sven@rackham4 ~]$ darsync check -l GitHubs/
 
 

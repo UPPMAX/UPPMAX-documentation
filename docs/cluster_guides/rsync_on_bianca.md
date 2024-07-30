@@ -20,7 +20,7 @@ It can be made to work (by using [transit](transit.md)), as described in
     However, this is how it looks like:
 
 
-    ```
+    ```console
     richel@richel-N141CU:~$ rsync my_local_file.txt richel-sens2016001@bianca-sftp.uppmax.uu.se:/richel-sens2016001
 
     Hi!

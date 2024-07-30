@@ -225,9 +225,11 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
         -  finishedjobinfo -m username
         - Write down the IDs from some interesting jobs.
         - Generate the images:
+
         ```console
         $ jobstats -p ID1 ID2 ID3
         ```
+
     - Look at the images
        
     ```console
