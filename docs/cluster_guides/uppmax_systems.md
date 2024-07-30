@@ -141,7 +141,7 @@ are restricted in some ways:
 
     Techniques how to run custom software is *not* part of this course.
     Instead, one technique is part of the intermediate Bianca course
-    and can be found described [here](extra/containers/),
+    and can be found described [here](../software/containers.md),
     which is about using containers
 
 These restrictions apply to most general-purpose clusters.
@@ -190,7 +190,7 @@ There are three types of nodes:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is part of this course
-    and is described [here](slurm-intro.md).
+    and is described [here](slurm.md).
     This is done by using the SLURM scheduler.
 
 - **interactive nodes**: a type of calculation node, where a user can do calculations directly

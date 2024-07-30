@@ -332,7 +332,7 @@ which is a regular [Slurm](slurm.md) script.
     NAISS 2024/22-49   |`naiss2024-22-49`
     UPPMAX 2023/2-25   |`uppmax2023-2-25`
 
-    ![](supr_naiss_example_projects.png)
+    ![](./img/supr_naiss_example_projects.png)
 
     > Example [https://supr.naiss.se/](https://supr.naiss.se/) page.
     > Eligible candidates seem 'NAISS 2024/22-49' and 'UPPMAX 2023/2-25'.
