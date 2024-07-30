@@ -58,8 +58,6 @@ emacs
 
 Then:
 
-- Cheat sheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
-    - (C = `<Ctrl>`)
 - also With GUI
     - ``emacs –nw``
         - keeps you in terminal window.
