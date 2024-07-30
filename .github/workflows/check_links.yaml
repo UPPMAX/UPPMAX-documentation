@@ -39,14 +39,8 @@ jobs:
       # In our case, it is not: for us, it is usually an admonition (i.e. a 'question' or 'info' block)
       # Here all indented text is unindented
       # https://github.com/UPPMAX/UPPMAX-documentation/issues/114
-      - name: check before unindent text
-        run: cat docs/getting_started/login_dardel.md 
-
       - name: unindent text
         run: ./scripts/unindent_text.sh
-
-      - name: check after unindent text
-        run: cat docs/getting_started/login_dardel.md 
 
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
