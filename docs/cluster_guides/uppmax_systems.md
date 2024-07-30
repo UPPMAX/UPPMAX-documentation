@@ -116,7 +116,7 @@ are restricted in some ways:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is part of this course
-    and is described [here](slurm-intro.md).
+    and is described [here](slurm.md).
     This is done by using the SLURM scheduler.
 
 ???- tip "Requesting an interactive node"
