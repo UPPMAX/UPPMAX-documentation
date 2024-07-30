@@ -204,8 +204,6 @@ You can read a tutorial in emacs by doing:
 
     Control-h t
 
-For a tutorial on emacs: [http://www.gnu.org/software/emacs/tour/](http://www.gnu.org/software/emacs/tour/)
-
 ### The Gedit text editor
 
 If you have logged in with [X forwarding](../software/ssh_x_forwarding.md)
