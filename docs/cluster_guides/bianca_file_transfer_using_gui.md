@@ -90,7 +90,7 @@ This means that files cannot be downloaded directly.
 
 ???- tip "What is an HPC cluster again?"
 
-    What an HPC cluster is, is described in general terms [here](overview.md).
+    What an HPC cluster is, is described in general terms [here](../cluster_guides/uppmax_clusters.md).
 
 Instead, one needs to learn one of the many ways to do **secure** file transfer.
 

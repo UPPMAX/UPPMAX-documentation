@@ -21,7 +21,7 @@ the Rackham computer nodes.
 
 ???- question "Want to start an interactive job?"
 
-    See how to start an interactive job on Rackham [here](start_interactive_job_on_rackham.md)
+    See how to start an interactive job on Rackham [here](start_interactive_node_on_rackham.md)
 
 Here it is shown how to submit a job with:
 

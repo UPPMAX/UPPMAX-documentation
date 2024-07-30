@@ -35,6 +35,21 @@
       "pattern": "^https://supr.naiss.se/$"
     },
     {
+      "pattern": "^https://www.naiss.se/event/online-training-snakemake-hackathon-2024-05/$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/hpc-services/computing-systems/dardel$"
+    },
+    {
+      "pattern": "^https://supr.naiss.se/project/$"
+    },
+    {
+      "pattern": "^https://supr.naiss.se/account/$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login $"
+    },
+    {
       "pattern": "^software-table.md"
     }
   ]
