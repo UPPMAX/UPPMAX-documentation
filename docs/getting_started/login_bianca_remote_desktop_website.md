@@ -55,7 +55,7 @@ Do use the `UPPMAX` [2-factor authentication](https://www.uu.se/en/centre/uppmax
     You really need to use the UPPMAX 2-factor authentication,
     i.e not the SUPR one, to login to Bianca.
 
-    ![](2fa_uppmax_and_supr.png)
+    ![](./img/2fa_uppmax_and_supr.png)
 
     > Screenshot of a two-factor authentication app.
     > Use the 2-factor authentication called 'UPPMAX'
@@ -72,7 +72,7 @@ Simply do that :-)
 
 ???- question "How does that web page look like?"
 
-    ![](/img/login_uppmax_bianca_website_create_login_node.png)
+    ![](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
 
     > No Thinlinc Web Access active
     > The login node for your project cluster is probably asleep. Boot initiated. The startup can take from 2 to 8 minutes.

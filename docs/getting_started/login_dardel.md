@@ -43,14 +43,14 @@ this can take some hours.
     If there is a PDC project,
     you may have access to a project with Dardel.
 
-    ![](./img/supr_naiss_dardel_project.png)
+    ![](../cluster_guides/img/supr_naiss_dardel_project.png)
 
     > Example user that has access to a PDC project
 
     If you may a PDC project that does not use Dardel,
     click on the project to go the the project overview.
 
-    ![](./img/supr_naiss_dardel_project_overview.png)
+    ![](../cluster_guides/img/supr_naiss_dardel_project_overview.png)
 
     > Example PDC project overview
 
@@ -58,7 +58,7 @@ this can take some hours.
     If you see 'Dardel' among the compute resources,
     you have confirmed you have access to a Dardel project.
 
-    ![](./img/naiss_project_dardel_resources.png)
+    ![](../cluster_guides/img/naiss_project_dardel_resources.png)
 
     > Resources from an example PDC project
 
@@ -76,7 +76,7 @@ You will get a PDC account overnight.
     If you see 'Dardel' among the resources, and status 'Enabled'
     in the same row, you have a PDC account!
 
-    ![](./img/supr_naiss_dardel_account.png)
+    ![](../cluster_guides/img/supr_naiss_dardel_account.png)
 
     > Example of a user having an account at PDC's Dardel HPC cluster
 

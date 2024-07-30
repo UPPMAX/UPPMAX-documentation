@@ -125,7 +125,7 @@ To use Bianca, there are two environments:
 
     > The Bianca XFCE remote desktop environment
 
-    ![A more populated Bianca remote desktop](./img/Thinlinc2.jpg)
+    ![A more populated Bianca remote desktop](./img/thinlinc_local_bianca.jpg)
 
     > A more populated Bianca XFCE remote desktop
 
