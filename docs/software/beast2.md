@@ -77,7 +77,7 @@ or use a script.
 ???- question "How to start an interactive node?"
 
     View the UPPMAX documentation
-    ['How to start an interactive node on Rackham'](../cluster_guides/start_interactive_node_on_rackham).
+    ['How to start an interactive node on Rackham'](../cluster_guides/start_interactive_node_on_rackham.md).
 
 
 On an interactive node, run BEAST2 on the saved BEAST2 model:
