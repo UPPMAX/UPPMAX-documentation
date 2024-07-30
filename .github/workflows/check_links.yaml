@@ -43,7 +43,7 @@ jobs:
         run: cat docs/getting_started/login_dardel.md 
 
       - name: unindent text
-        run: sed -i 's/^    //g' *.md
+        run: ./scripts/unindent_text.sh
 
       - name: check after unindent text
         run: cat docs/getting_started/login_dardel.md 
