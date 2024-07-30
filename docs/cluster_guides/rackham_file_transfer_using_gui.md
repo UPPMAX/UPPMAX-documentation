@@ -69,7 +69,7 @@ To transfer files to/from Rackham using FileZilla, do:
 
     It looks similar to this:
 
-    ![FilleZilla asks for a password](filezilla_enter_password_rackham.png)
+    ![FilleZilla asks for a password](.img/filezilla_enter_password_rackham.png)
 
 Now you can transfer files between your local computer and Rackham.
 
@@ -78,19 +78,6 @@ Now you can transfer files between your local computer and Rackham.
     It looks like this:
 
     ![FileZilla is connected to Rackham](./img/filezilla_login_to_rackham.png)
-
-## Where do my files end up?
-
-They end up in your personal home folder.
-
-Its location is at `/home/[user_name]`,
-for example, at `/home/sven`.
-
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![](./img/filezilla_file_on_rackham.png)
 
 ## Extra material
 
