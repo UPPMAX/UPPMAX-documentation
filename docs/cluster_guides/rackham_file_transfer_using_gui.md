@@ -69,7 +69,7 @@ To transfer files to/from Rackham using FileZilla, do:
 
     It looks similar to this:
 
-    ![FilleZilla asks for a password](.img/filezilla_enter_password_rackham.png)
+    ![FilleZilla asks for a password](./img/filezilla_enter_password_rackham.png)
 
 Now you can transfer files between your local computer and Rackham.
 

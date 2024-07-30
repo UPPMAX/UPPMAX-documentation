@@ -28,7 +28,7 @@ Please join us if you need assistance logging in to Dardel or migrating your dat
     To facilitate this move,
     we have created a tool that makes the transfer easier.
 
-    Move details of [the next UPPMAX system here](https://www.uppmax.uu.se/uppmax-news/?tarContentId=1080990).
+    [More details of Rackham end of life here](https://www.uu.se/centrum/uppmax/nyheter/nyheter/2024-02-16-rackham-end-of-life).
 
 ## Short version
 
