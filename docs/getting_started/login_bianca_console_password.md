@@ -42,7 +42,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     ```
 
     this option is only useful when you want to
-    [log in to Bianca using an SSH key](login_bianca_ssh_key.md).
+    [log in to Bianca via the console using an SSH key](login_bianca_console_ssh_key.md).
     As we here use passwords (i.e. no SSH keys)
     to access Bianca, `-A` is unused
     and hence we simplify this documentation by omitting it.
