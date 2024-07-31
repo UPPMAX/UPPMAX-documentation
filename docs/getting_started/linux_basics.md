@@ -307,14 +307,14 @@ $ tar -vxzf files.tar.gz
     rm -f <>
     ```
 
-   - Do you want this to be the case everytime you start a new session?
+    - Do you want this to be the case everytime you start a new session?
         - Edit file `.bashrc` in /home directory by adding the above alias line on any but the first line.
-    - These steps will also work for ``mv`` and ``cp``.
+    - These steps will also work for `mv` and `cp`.
 
 
 - Deleting files works just like copying or moving them: `rm <target>`
 
-- Try it out:
+    - Try it out:
 
 ```console
 $ rm ../renamedfile

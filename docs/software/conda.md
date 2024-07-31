@@ -208,8 +208,8 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 !!! warning
 
-    - Conda is known to create _many small_ files. 
-      Your diskspace is not only limited in gigabytes, 
+    - Conda is known to create _many small_ files.
+      Your diskspace is not only limited in gigabytes,
       but also in number of files (typically 300000 in `$HOME`).
     - Check your disk usage and quota limit with `uquota`
     - Do a `conda clean -a` once in a while to remove unused and unnecessary files
