@@ -40,7 +40,7 @@ but note that Docker containers are typically designed to run with more privileg
 
 ## Not all images may work everywhere
 
-Images run with the same linux kernel as the rest of the system. For HPC we systems, the kernel used tend to be quite old for stability reasons (with milou using very old kernels). This is not normally a problem, but can cause issues if the libraries of the images you try to run expects functionality added in newer kernels. How and what works is difficult to know without trying, but we have successfully started a shell in an image for the currently most recent Ubuntu release (17.04).
+Images run with the same linux kernel as the rest of the system. For HPC we systems, the kernel used tend to be quite old for stability reasons. This is not normally a problem, but can cause issues if the libraries of the images you try to run expects functionality added in newer kernels. How and what works is difficult to know without trying, but we have successfully started a shell in an image for the currently most recent Ubuntu release (17.04).
 
 ## Creating your own images
 
@@ -251,7 +251,7 @@ singularity run ./anotherimage some parameters here
 ./yetanotherimage parameters
 ```
 
-## Another example; building a container from conda
+## Example Singularity script: building a container from conda
 
 To build a container from a conda environment, here we demonstrate for `qiime2`
 
@@ -278,4 +278,24 @@ From: centos:7
   # OPTIONAL CLEANUP
   rm qiime2-2019.7-py36-linux-conda.yml
   /miniconda/bin/conda clean -a
+```
+
+## Example Singularity script: building a container with an R package from GitHub
+
+Although the `R_Packages` [module](../cluster_guides/modules.md)
+has thousands of packages, sometimes you need a package from GitHub.
+
+```singularity
+Bootstrap: docker
+From: rocker/tidyverse
+
+%post
+    # From https://github.com/brucemoran/Singularity/blob/8eb44591284ffb29056d234c47bf8b1473637805/shub/bases/recipe.CentOs7-R_3.5.2#L21
+    echo 'export LANG=en_US.UTF-8 LANGUAGE=C LC_ALL=C LC_CTYPE=C LC_COLLATE=C  LC_TIME=C LC_MONETARY=C LC_PAPER=C LC_MEASUREMENT=C' >> $SINGULARITY_ENVIRONMENT
+
+    Rscript -e 'install.packages(c("remotes", "devtools"))'
+    Rscript -e 'remotes::install_github("richelbilderbeek/plinkr")'
+
+%runscript
+Rscript "$@"
 ```
