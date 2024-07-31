@@ -243,7 +243,7 @@ or try to fix them yourself.
 ???- question "How to fix `WARNING: Total number of files, or number of files in a single directory`"
 
     If a project consists of many small files it will decrease the data transfer speed,
-    as there is an overhead cost to starting and stopping each file transfer. 
+    as there is an overhead cost to starting and stopping each file transfer.
     A way around this is to pack all the small files into a single `tar` archive,
     so that it only has to start and stop a single time.
 

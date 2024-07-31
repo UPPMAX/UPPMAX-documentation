@@ -51,13 +51,13 @@ and you have created a SSH key pair.
 
     On Rackham, in a terminal, type:
 
-    ```
+    ```bash
     $ cat ~/.ssh/id_ed25519_pdc.pub
     ```
 
     This will show a text similar to:
 
-    ```
+    ```text
     ssh-ed25519 AAAA63Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
     ```
 

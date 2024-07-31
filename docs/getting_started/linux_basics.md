@@ -306,7 +306,7 @@ $ tar -vxzf files.tar.gz
     ```console
     rm -f <>
     ```
- 
+
    - Do you want this to be the case everytime you start a new session?
         - Edit file `.bashrc` in /home directory by adding the above alias line on any but the first line.
     - These steps will also work for ``mv`` and ``cp``.

@@ -221,7 +221,7 @@ sbatch -A naiss20YY-XX-ZZ -p devcore -t 00:15:00 jobscript.sh
 ???+ question "Hands-on #3: jobstats"
 
     - Generate jobstats plots for your jobs
-        - Firstly, find some job IDs from this month, using 
+        - Firstly, find some job IDs from this month, using
           `finishedjobinfo -m username`
         - Write down the IDs from some interesting jobs.
         - Generate the images:
@@ -231,7 +231,7 @@ sbatch -A naiss20YY-XX-ZZ -p devcore -t 00:15:00 jobscript.sh
         ```
 
     - Look at the images
-       
+
     ```console
     $ eog *png &
     ```
