@@ -128,9 +128,9 @@ See [the UPPMAX documentation of `wharf`](wharf.md) on how to do so.
 
 !!! info "Summary"
 
-    - For simple transfers use SFTP to connect to `bianca-sftp.uppmax.uu.se` - use command line `sftp` or tools that support SFTP protocol.
-    - For `rsync` - sync files to pre-mounted wharf folder from Rackham or secure local computer.
-    - Keep in mind that project folders on Rackham are not available on transit.
+    * For simple transfers use SFTP to connect to `bianca-sftp.uppmax.uu.se` - use command line `sftp` or tools that support SFTP protocol.
+    * For `rsync` - sync files to pre-mounted wharf folder from Rackham or secure local computer.
+    * Keep in mind that project folders on Rackham are not available on transit.
 
 ## Bianca file transfer as image
 

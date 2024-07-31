@@ -189,7 +189,7 @@
 
     Sometimes, this error message occurs in the Slurm output file: ``slurmstepd: error: _get_pss: ferror() indicates error on file /proc/$$/smaps``
     
-    This error does not affect the results and can be ignored. 
+    This error does not affect the results and can be ignored.
     
     Statistics are collected when a job has finished, including PSS, which is a measure of memory usage. The error message means that when Slurm tries to collect all info to calculate PSS, the file exposing kernel statistics for the process is already gone. This is probably due to the cleaning process being slightly out of sync.
     
@@ -224,7 +224,10 @@
 
     - If you know that you are the only user running on the node (from requesting a node job for example), then you could issue the command "free -g" instead. That will show you how much memory is used/free by the whole system, exclusive to these caches. Look for the row called "-/+ buffers/cache".
 
-    - If you require more detailed live information, then it would probably be best if the tool called "smem" is used. Download the latest version from http://www.selenic.com/smem/download/ and unpack it in your home directory. Inside you will find an executable Python script, and by executing the command "smem -utk" you will see your user's memory usage reported in three different ways.
+    - If you require more detailed live information, 
+      then it would probably be best if the tool called `smem` is used. 
+      Download the latest version from [http://www.selenic.com/smem/download/](http://www.selenic.com/smem/download/) and unpack it in your home directory. 
+      Inside you will find an executable Python script, and by executing the command `smem -utk` you will see your user's memory usage reported in three different ways.
 
         - USS is the total memory used by the user without shared buffers or caches.
         - RSS is the number reported in "top" and "ps"; i.e. including ALL shared buffered/cached memory.

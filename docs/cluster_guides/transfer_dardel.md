@@ -92,15 +92,15 @@ In short,
 
 ???- question "How does the adding the key look like?"
 
-    ![](./img/pdc_prove_identity.png)
+    ![Click on 'Prove Indentity'](./img/pdc_prove_identity.png)
 
     > Click on 'Prove Indentity'
 
-    ![](./img/pdc_key_management_no_keys.png)
+    ![PDC key managements before any keys are added](./img/pdc_key_management_no_keys.png)
 
     > PDC key managements before any keys are added.
 
-    ![](./img/pdc_portal_addkey1.png)
+    ![How it looks when adding a new key](./img/pdc_portal_addkey1.png)
 
     > How it looks when adding a new key.
 
@@ -108,7 +108,7 @@ After having added your public SSH key, you will be able to see your registered 
 
 ???- question "How does that look like?"
 
-    ![](./img/pdc_key_management_rackham_key.png)
+    ![Here we see that there is an SSH key added](./img/pdc_key_management_rackham_key.png)
 
     > Here we see that there is an SSH key added.
 
@@ -116,9 +116,9 @@ The next thing you have to do is to add UPPMAX as a placer permitted to use your
 
 ???- question "How does that look like?"
 
-    ![](./img/pdc_add_new_key_uppmax.png)
+    ![This is where you enter that UPPMAX is allowed to use this key.](./img/pdc_add_new_key_uppmax.png)
 
-    > This is where you enter UPPMAX as allowed to use this key.
+    > This is where you enter that UPPMAX is allowed to use this key.
 
 ???- question "For staff only"
 

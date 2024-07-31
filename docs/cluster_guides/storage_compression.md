@@ -23,15 +23,15 @@
 
 ???- question "Disk quota exceeded when copying data"
 
-    **The problem**
+    #### The problem
     
     If you have data in a project directory, e.g. ``/proj/snic2017-1-999``, and are copying the data to another project directory, e.g. ``/proj/uppstore2017-999``, then you may get a "disk quota exceeded" error.
     
-    **The cause**
+    #### The cause
     
     This happens when your (snic2017-1-999) project quota is almost full and you're copying the data without changing the group ownership of the files. Even though the destination folder is owned by a project with sufficient quota, the files will for a short time be owned by the original project. By copying the files, the earlier project's disk usage is increased and the quota is exceeded.
     
-    **The solution**
+    #### The solution
     
     We offer three options:
     

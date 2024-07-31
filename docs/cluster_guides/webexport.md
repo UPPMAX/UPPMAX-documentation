@@ -21,4 +21,4 @@ This will **not** work on **Bianca** for security reasons.
 
 !!! admonition "see also"
 
-    You may want to check the external [Easy_webshare_on_UPPMAX](https://github.com/nylander/Easy_webshare_on_UPPMAX) while we update this page 
+    You may want to check the external [Easy_webshare_on_UPPMAX](https://github.com/nylander/Easy_webshare_on_UPPMAX) while we update this page

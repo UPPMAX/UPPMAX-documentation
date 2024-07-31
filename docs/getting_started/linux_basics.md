@@ -3,6 +3,7 @@
 ![Caption](./img/terminal.png)
 
 !!! objectives
+
     - Let's dig into the most important BASH commands
     - We'll do a type-along session
 
@@ -109,9 +110,10 @@ $ pwd
 ```
 
 !!! challenge Experiment with cd
-    - Experiment with ``cd``.
-    - Try adding ``<spaces>`` or extra ``/`` in various places.
-    - Use *tab completion* to avoid typos and typing ``ls`` a lot.
+
+    - Experiment with ``cd``
+    - Try adding ``<spaces>`` or extra ``/`` in various places
+    - Use *tab completion* to avoid typos and typing ``ls`` a lot
 
     - Figure out the use of the following:
 
@@ -142,6 +144,7 @@ $ pwd
 ### mkdir — make directories
 
 !!! warning
+
     - Make sure you’re in your home directory by `cd ~`
 
 
@@ -207,7 +210,7 @@ $ cp newfile copyfile
 
     **Download the file ``first.txt``**
 
-    -  In your local terminal:
+    - In your local terminal:
 
     ```console
     [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
@@ -278,6 +281,7 @@ $ tar -vxzf files.tar.gz
 - You should see a list of files being extracted
 
 !!! tip
+
     - To compress use the flag `-c`instead of `-x`
 
     ```console
@@ -289,19 +293,22 @@ $ tar -vxzf files.tar.gz
 ### rm — delete files  or directories
 
 !!! Note
+
     - **Tip: make "rm" ask if you really want to erase:**
     - Within a session: Type in the command prompt
 
     ```console
     alias rm='rm -i'
     ```
+
     - Override asking with
 
     ```console
     rm -f <>
     ```
-    - Do you want this to be the case everytime you start a new session?
-       - Edit file `.bashrc` in /home directory by adding the above alias line on any but the first line.
+ 
+   - Do you want this to be the case everytime you start a new session?
+        - Edit file `.bashrc` in /home directory by adding the above alias line on any but the first line.
     - These steps will also work for ``mv`` and ``cp``.
 
 
@@ -335,6 +342,7 @@ $ rmdir this_has_a_file
 !!! solution
 
     - Recursive commands `-r` are applied to directories and their contents
+
     ```console
     $ rm -r this_has_a_file
     ```
@@ -356,6 +364,7 @@ $ man ls
 - Type `q` to quit.
 
 !!! challenge
+
     - Spend some time now to browse the man pages for the commands you’ve just learned!
 
 
@@ -401,6 +410,7 @@ $ ls many_files/file_1*1.docx
 - Want to clean out temporary files ending in .tmp in all the subdirectories?
 
 !!! warning
+
     - It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 
     ```console
@@ -408,6 +418,7 @@ $ ls many_files/file_1*1.docx
     ```
 
 !!! challenge Exercise
+
     - Exercise:  Create a new directory and move all .txt files in many_files to it.
 
 

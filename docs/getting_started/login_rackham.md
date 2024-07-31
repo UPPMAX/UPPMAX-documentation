@@ -3,6 +3,7 @@
 Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
 !!! info "Objectives"
+
     - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
     - See different clients
     - Enable graphics
@@ -235,6 +236,7 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
     ```
 
     - If you do have X11 installed:
+
     ```bash
     $ xeyes &
     ```
@@ -265,6 +267,7 @@ Here are the UPPMAX pages on how to do so:
 ## Linux on your computer
 
 !!! abstract "Local Linux environment"
+
     - You may sometimes benefit from having a local Linux environment.
     - Examples:
         - Mimic cluster environment to work with your local files and data as on the Cluster
@@ -274,6 +277,7 @@ Here are the UPPMAX pages on how to do so:
 
 
 ??? question "For windows users who wants to get started with WSL (not covered here)"
+
     - Install WSL (Windows Subsystem for Linux)
 
         - [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Links to an external site.)
@@ -301,9 +305,10 @@ Here are the UPPMAX pages on how to do so:
 
 
 !!! abstract "keypoints"
+
     - When you log in from your local computer you will always arrive at a login node with limited resources.
 
-         - You reach the calculations nodes from within the login node (See  Submitting jobs section)
+        - You reach the calculations nodes from within the login node (See  Submitting jobs section)
 
     - You reach UPPMAX clusters either using a terminal client or Thinlinc
     - Graphics are included in Thinlinc and from terminal if you have enabled X11.

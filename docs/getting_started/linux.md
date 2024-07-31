@@ -117,6 +117,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 !!! example
 
     **Start nano and save a file called `first.txt`**
+
     ```console
     $ nano first.txt
     ```
@@ -130,10 +131,11 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 ![Content](./img/cross.png)
 
 !!! Warning
+
     - Capitalization matters in file names and program names
     - Spaces matter.
-      - Always have a space after the program name.
-      - Don’t add spaces within file names.
+        - Always have a space after the program name.
+        - Don’t add spaces within file names.
     - Check that you are in the right place in the file system.
     - File permissions. Check that the right read, write and execute permission are set. See next session.
 
@@ -146,24 +148,24 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 !!! Warning
 
     - There is no undo for:
-      - copy (`cp`),
-      - move (`mv`), and
-      - remove (`rm`).
+        - copy (`cp`),
+        - move (`mv`), and
+        - remove (`rm`).
     - **Beware of overwriting files and deleting the wrong ones.**
 
 
 !!! tip
 
     - **Tip: make "`rm`" ask if you really want to erase:**
-      - Within a session: Type in the command prompt
+        - Within a session: Type in the command prompt
 
             alias rm='rm -i'
 
-      - Override asking with
+        - Override asking with
 
             rm –f <>
 
-      - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
+        - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
     - This will also work for ``mv`` and ``cp``!
 
 !!! Note
@@ -181,7 +183,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
         - use Tab completion
         - capitalization and spaces matters
         - no undo:s for copying, moving and removing
-          - Solution: `alias rm='rm -i'`
+            - Solution: `alias rm='rm -i'`
 
 ## Links
 

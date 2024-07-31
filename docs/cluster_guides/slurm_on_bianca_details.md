@@ -222,8 +222,8 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 
     - Generate jobstats plots for your jobs
         - Firstly, find some job IDs from this month
-        -  finishedjobinfo -m username
-        - Write down the IDs from some interesting jobs.
+        - Run `finishedjobinfo -m username`
+        - Write down the IDs from some interesting jobs
         - Generate the images:
 
         ```console
@@ -231,7 +231,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
         ```
 
     - Look at the images
-       
+
     ```console
     $ eog *png &
     ```

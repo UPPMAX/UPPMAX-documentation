@@ -24,7 +24,7 @@ that has a default duration of 1 hours.
 
     One can go to the SUPR NAISS pages to see one's projects,
 
-    ![](./img/naiss_supr_project_2023_2_25.png)
+    ![Example of the Snowy project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
 
     > Example of the Snowy project called 'UPPMAX 2023/2-25'
 

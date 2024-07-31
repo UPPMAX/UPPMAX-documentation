@@ -47,7 +47,7 @@ sbatch -A uppmax2023-2-25 my_script.sh
 
     One can go to the SUPR NAISS pages to see one's projects,
 
-    ![](./img/naiss_supr_project_2023_2_25.png)
+    ![Example of the Rackham project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
 
     > Example of the Rackham project called 'UPPMAX 2023/2-25'
 
@@ -101,7 +101,7 @@ where `[project_code]` is the project code, for example:
 
     One can go to the SUPR NAISS pages to see one's projects,
 
-    ![](./img/naiss_supr_project_2023_2_25.png)
+    ![Example of the Rackham project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
 
     > Example of the Rackham project called 'UPPMAX 2023/2-25'
 

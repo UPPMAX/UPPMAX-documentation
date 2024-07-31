@@ -51,7 +51,9 @@ Note: This is a "round robin" address which will direct you to one of the physic
 
 On Unix/Linux and Mac OS, start a terminal and use the ssh command, like so (substitute 'username' with your own username):
 
-    ssh username@rackham.uppmax.uu.se
+```bash
+ssh username@rackham.uppmax.uu.se
+```
 
 - Note: change "rackham" to the name of the machine you want to connect to.
 - In order to run graphical programs through SSH, you need to enable [X forwarding](../software/ssh_x_forwarding.md),
@@ -67,7 +69,9 @@ The Customizer file is only used if you have bought a license and can safely be 
 
 Double click the MobaXterm_Personal_X.X.exe and you should see a terminal window. Use the ssh command, like so (substitute 'username' with your own username):
 
-    username@rackham.uppmax.uu.se
+```text
+username@rackham.uppmax.uu.se
+```
 
 ## Common for all systems (Windows, Linux, OSX)
 

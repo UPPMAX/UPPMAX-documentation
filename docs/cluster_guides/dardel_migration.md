@@ -235,8 +235,10 @@ or try to fix them yourself.
     ```
 
     For examples on how to compress other file formats, use an internet search engine to look for
-    ```
+
+    ```text
     how to compress <insert file format name> file
+    ```
 
 ???- question "How to fix `WARNING: Total number of files, or number of files in a single directory`"
 
@@ -360,14 +362,14 @@ which is a regular [Slurm](slurm.md) script.
 
 ???- question "How to find out where on Dardel I will transfer your data to?"
 
-    * Your home folder: `/cfs/klemming/home/r/[username]`,
+    - Your home folder: `/cfs/klemming/home/r/[username]`,
       where `[username]` is your PDC username,
       for example `/cfs/klemming/home/r/sven`
-    * Your project folder: `/cfs/klemming/projects/[project_storage]`,
+    - Your project folder: `/cfs/klemming/projects/[project_storage]`,
       where `[project_storage]` is your PDC project storage folder,
       for example `/cfs/klemming/projects/snic/naiss2023-22-1027`
 
-    ![](./img/supr_naiss_dardel_storage.png)
+    ![Composite image of a PDC project and its associated storage folder](./img/supr_naiss_dardel_storage.png)
 
     > Composite image of a PDC project and its associated storage folder
     > at the bottom.

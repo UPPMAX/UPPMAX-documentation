@@ -56,7 +56,7 @@ Within that terminal, start an interactive session with 1 core.
 
     Spoiler: use:
 
-    ```
+    ```bash
     interactive -A sens2023598 -n 1 -t 8:00:00
     ```
 

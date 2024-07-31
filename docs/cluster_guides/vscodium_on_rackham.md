@@ -49,7 +49,7 @@ Within that terminal, start an interactive session with 1 core.
 
     Spoiler: use:
 
-    ```
+    ```bash
     interactive -A uppmax2023-2-25
     ```
 
