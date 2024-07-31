@@ -3,10 +3,37 @@
 This page describes [how to create and use an SSH key](ssh_key_use.md)
 for the [Rackham](../cluster_guides/rackham.md) cluster.
 
+
+## Procedure
+
 ???- question "Prefer a video?"
 
-    - [Create and use an SSH key pair for Rackham when outside SUNET without a VPN (fails!)](https://youtu.be/-f0C66zIrwI)
+    - [Create and use an SSH key pair for Rackham when outside of SUNET (fails!)](https://youtu.be/-f0C66zIrwI)
     - [Create and use an SSH key pair for Rackham on Ubuntu 24.04 Noble (fails!)](https://youtu.be/j6F8sJu2NFs)
+
+This figure shows the procedure:
+
+```mermaid
+flowchart TD
+  subgraph ip_inside_sunet[IP inside SUNET]
+    create[1. Create an SSH key pair]
+    add[2. Add your keys to an SSH agent]
+    copy[3. Copy the public key to Rackham]
+  end
+  create --> add
+  add --> copy
+```
+
+This procedure will fail if:
+
+- You are outside of the university networks, 
+  see [how to get inside the university networks](../getting_started/get_inside_sunet.md).
+  [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being 
+  outside of the university networks
+- You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
+  where a password is still requested after doing this procedure
+
+## 1. Create an SSH key pair
 
 Create an SSH key pair with the following command:
 
@@ -19,18 +46,17 @@ ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
  * `-f ~/.ssh/id_ed25519_uppmax_login`: specify filename, following the naming scheme as suggested [here](https://superuser.com/a/1261644)
  * `-C "My comment"`: a comment that will be stored in the key, so you can find out what it was for
 
-Add your newly generated `ed25519` key to an **SSH agent**:
+## 2. Add your keys to an SSH agent
 
-<!-- ssh-add ~/.ssh/id_ed25519_key -->
+Add your newly generated `ed25519` key to an SSH agent:
 
 ```bash
 ssh-add ~/.ssh/id_ed25519_uppmax_login
 ```
 
-Copy the public key to Rackham or other server.
+## 3. Copy the public key to Rackham
 
-<!-- ssh-copy-id -i .ssh/id_ed25519_key.pub username@rackham.uppmax.uu.se -->
-<!-- ssh-copy-id --identity_file .ssh/id_ed25519_key.pub [username]@rackham.uppmax.uu.se -->
+Copy the public key to Rackham or other server.
 
 ```bash
 ssh-copy-id -i .ssh/id_ed25519_uppmax_login.pub [username]@rackham.uppmax.uu.se
