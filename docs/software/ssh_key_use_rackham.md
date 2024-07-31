@@ -26,9 +26,9 @@ flowchart TD
 
 This procedure will fail if:
 
-- You are outside of the university networks, 
+- You are outside of the university networks,
   see [how to get inside the university networks](../getting_started/get_inside_sunet.md).
-  [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being 
+  [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being
   outside of the university networks
 - You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
   where a password is still requested after doing this procedure
@@ -41,10 +41,10 @@ Create an SSH key pair with the following command:
 ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
 ```
 
- * `-a 100`:  100 rounds of key derivations, making your key's password harder to brute-force, as is recommended [here](https://security.stackexchange.com/a/144044)
- * `-t ed25519`: type of encryption scheme
- * `-f ~/.ssh/id_ed25519_uppmax_login`: specify filename, following the naming scheme as suggested [here](https://superuser.com/a/1261644)
- * `-C "My comment"`: a comment that will be stored in the key, so you can find out what it was for
+- `-a 100`:  100 rounds of key derivations, making your key's password harder to brute-force, as is recommended [here](https://security.stackexchange.com/a/144044)
+- `-t ed25519`: type of encryption scheme
+- `-f ~/.ssh/id_ed25519_uppmax_login`: specify filename, following the naming scheme as suggested [here](https://superuser.com/a/1261644)
+- `-C "My comment"`: a comment that will be stored in the key, so you can find out what it was for
 
 ## 2. Add your keys to an SSH agent
 
@@ -62,7 +62,7 @@ Copy the public key to Rackham or other server.
 ssh-copy-id -i .ssh/id_ed25519_uppmax_login.pub [username]@rackham.uppmax.uu.se
 ```
 
- * `-i .ssh/id_ed25519_uppmax_login.pub`: the identity file, the public key's filename
- * `[username]@rackham.uppmax.uu.se`: your UPPMAX username, for example `sven@rackham.uppmax.uu.se`
+- `-i .ssh/id_ed25519_uppmax_login.pub`: the identity file, the public key's filename
+- `[username]@rackham.uppmax.uu.se`: your UPPMAX username, for example `sven@rackham.uppmax.uu.se`
 
 After this, you can login to Rackham without specifying a password.

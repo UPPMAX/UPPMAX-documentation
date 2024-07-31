@@ -7,9 +7,9 @@ for the [Bianca](../cluster_guides/bianca.md) cluster.
 
 This procedure will fail if:
 
-- You are outside of the university networks, 
+- You are outside of the university networks,
   see [how to get inside the university networks](../getting_started/get_inside_sunet.md).
-  [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being 
+  [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being
   outside of the university networks
 - You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
   where a password is still requested after doing this procedure

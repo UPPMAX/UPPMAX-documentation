@@ -208,7 +208,7 @@ there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
 
     Use:
 
-    ```
+    ```bash
     module spider packages
     ```
 

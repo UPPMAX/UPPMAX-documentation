@@ -68,7 +68,9 @@ We have mirrored all major Conda repositories directly on UPPMAX, on both Rackha
 
     - Create a conda environment (it is good to directly define the packages included AND channels do not need to be explicitly mentioned)
 
-        ```conda create --prefix /some/path/to/env <package1> [<package2> ... ] ```
+        ```bash
+        conda create --prefix /some/path/to/env <package1> [<package2> ... ]
+        ```
 
         - On our systems the above should replace `conda create --name myenvironment ...`
 
@@ -92,7 +94,7 @@ We have mirrored all major Conda repositories directly on UPPMAX, on both Rackha
 
     - Install a specific version: `conda install somepackage=1.2.3`
 
-        -   Install a specific version: `conda install somepackage=1.2.3`
+        - Install a specific version: `conda install somepackage=1.2.3`
 
     - Deactivate current environment: `conda deactivate`
 
@@ -206,7 +208,9 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 !!! warning
 
-    - Conda is known to create **many** *small* files. Your diskspace is not only limited in GB:s, but also in number of files (typically `300000` in ``$home``).
+    - Conda is known to create _many small_ files. 
+      Your diskspace is not only limited in gigabytes, 
+      but also in number of files (typically 300000 in `$HOME`).
     - Check your disk usage and quota limit with `uquota`
     - Do a `conda clean -a` once in a while to remove unused and unnecessary files
 

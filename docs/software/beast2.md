@@ -9,7 +9,8 @@ BEAST2 is a tool for Bayesian phylogenetic analysis.
     Although BEAST and BEAST2 achieve a similar goal,
     BEAST and BEAST2 are developed independently.
 
-    Hence,
+    Hence:
+
     - there are things BEAST can do that BEAST2 cannot, and vice versa
     - one cannot create a BEAST XML file and expect BEAST2 to be able to run it, and vice versa
 

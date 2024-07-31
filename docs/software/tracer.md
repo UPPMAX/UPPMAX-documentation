@@ -40,7 +40,7 @@ Extract the downloaded file.
 
     Right-click the file and click 'Extract here'.
 
-    ![](../cluster_guides/img/rackham_remote_desktop_extract_file.png)
+    ![Click 'Extract here' in this pop-up menu](../cluster_guides/img/rackham_remote_desktop_extract_file.png)
 
 ???- question "How to do so, using the console environment?"
 
