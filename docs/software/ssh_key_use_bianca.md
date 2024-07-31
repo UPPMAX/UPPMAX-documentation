@@ -3,6 +3,20 @@
 This page describes [how to create and use an SSH key](ssh_key_use.md)
 for the [Bianca](../cluster_guides/bianca.md) cluster.
 
+## Procedure
+
+This procedure will fail if:
+
+- You are outside of the university networks, 
+  see [how to get inside the university networks](../getting_started/get_inside_sunet.md).
+  [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being 
+  outside of the university networks
+- You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
+  where a password is still requested after doing this procedure
+  on Rackham
+
+Here is the procedure:
+
 - Add the content of your public key `id_ed25519_key.pub` to
   `$HOME/.ssh/authorized_keys`.
   **You can not** use the same command ssh-copy as in the case for Rackham,
