@@ -34,7 +34,7 @@ total 1
 -rw-r----- 1 user user 743 May  7  2019 authorized_keys
 ```
 
-Then [log in to Bianca via the console using an SSH key](login_bianca_console_ssh_key.md):
+Then [log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md):
 
 ```bash
 ssh -A user-sensXXXXX@bianca.uppmax.uu.se
