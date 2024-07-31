@@ -3,11 +3,12 @@
 This page describes [how to create and use an SSH key](ssh_key_use.md)
 for the [Rackham](../cluster_guides/rackham.md) cluster.
 
-Create an SSH key pair with the following command:
+???- question "Prefer a video?"
 
-<!-- ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519_key -C "MyNewKey" -->
-<!-- ssh-keygen --rounds 100 -t ed25519 --filename ~/.ssh/id_ed25519_key --comment "Sven's key to UPPMAX" -->
-<!-- ssh-keygen -t ed25519 --filename ~/.ssh/id_ed25519_uppmax_login --comment "Sven's key to UPPMAX" -->
+    - [Create and use an SSH key pair for Rackham when outside SUNET without a VPN (fails!)](https://youtu.be/-f0C66zIrwI)
+    - [Create and use an SSH key pair for Rackham on Ubuntu 24.04 Noble (fails!)](https://youtu.be/j6F8sJu2NFs)
+
+Create an SSH key pair with the following command:
 
 ```bash
 ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
