@@ -70,6 +70,7 @@ flowchart TD
   slurm[6. Submit the script created by Darsync]
   check_logs[7. Check logs]
   delete_ssh_keys[8. Delete the temporary SSH keys]
+  delete_rackham_files[9. Delete the files on Rackham]
 
   get_supr_project --> |needed for| get_pdc_account
 
@@ -79,6 +80,7 @@ flowchart TD
   run_darsync --> |needed for| slurm
   slurm --> |needed for| check_logs
   check_logs --> |needed for| delete_ssh_keys
+  delete_ssh_keys --> |needed for| delete_rackham_files
 ```
 
 > Overview of the migration process.
@@ -404,6 +406,11 @@ After the migration, these temporary SSH keys can and should be deleted:
 ```bash
 rm ~/id_ed25519_pdc*
 ```
+
+### 9. Delete the files on Rackham
+
+Now that the files are transferred to Dardel,
+you can delete the files on Rackham that you've just transferred to Dardel.
 
 ## Troubleshooting
 
