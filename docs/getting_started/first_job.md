@@ -30,7 +30,7 @@
 
     One such graphical tool is FileZilla:
 
-    ![Filezilla](../cluster_guides/img/filezilla_login_to_rackham_480_x_270.png)
+    ![Filezilla](../software/img/filezilla_login_to_rackham_480_x_270.png)
 
 === "Mac"
 

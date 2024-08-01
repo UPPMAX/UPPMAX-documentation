@@ -11,7 +11,7 @@ Here we describe how to log in to [Snowy](../cluster_guides/snowy.md)
 ## Reach the Snowy compute nodes
 
 To make Snowy do a calculation, one needs to log in to a Rackham login node,
-which is described [here](login_rackham.md).
+which is described [here](../getting_started/login_rackham.md).
 
 After logging in, one can
 
