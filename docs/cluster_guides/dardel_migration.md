@@ -149,6 +149,43 @@ module load darsync
 darsync sshkey
 ```
 
+???- question "How does that look like?"
+
+    The screen output will look similar to this:
+
+    ```bash
+    [richel@rackham1 ~]$ module load darsync
+    [richel@rackham1 ~]$ darsync sshkey
+
+
+      ____ ____  _   _ _  _________   __
+     / ___/ ___|| | | | |/ / ____\ \ / /
+     \___ \___ \| |_| | ' /|  _|  \ V /
+      ___) |__) |  _  | . \| |___  | |
+     |____/____/|_| |_|_|\_\_____| |_|
+            
+    The sshkey module of this script will generate a SSH key pair that you can use to login to Dardel.
+    It will create two files, one with the private key and one with the public key.
+    The private key should be kept secret and the public key should be added to your authorized_keys file on Dardel.
+
+
+
+     
+    Created SSH key: /home/richel/id_ed25519_pdc and /home/richel/id_ed25519_pdc.pub
+
+    Content of the public key:
+
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAZkAoqlvm+YQrw26mCuH/4B/meG8O6aS8BB3kw1FDfl richel@rackham1.uppmax.uu.se
+
+
+
+
+    You will now have to add the public key above to the Dardel Login Portal, https://loginportal.pdc.kth.se
+
+    See the user guide for more info about this, 
+    http://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal
+    ```
+
 ### 4. Add the public key to the PDC Login Portal
 
 See [create and use an SSH key pair for Dardel, step 2](http://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),

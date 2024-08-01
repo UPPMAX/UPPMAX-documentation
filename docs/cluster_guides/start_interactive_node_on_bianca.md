@@ -6,6 +6,10 @@ This page describes how to start an interactive node on [Bianca](bianca.md).
 See the [general information on starting an interactive node](start_interactive_node.md)
 on how to do so in general.
 
+???- question "Prefer a video?"
+
+    See the video [Starting an interactive node on Bianca](https://youtu.be/hQkMKW41-u4)
+
 To use an interactive node, in a terminal, type:
 
 ```bash
