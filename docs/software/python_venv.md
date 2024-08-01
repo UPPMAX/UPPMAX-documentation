@@ -30,19 +30,19 @@ which has these steps:
 ### 1. Load a Python module or a modules with Python packages
 
 The first step is described at
-['Loading Python'](../software/python/#loading-python)
+['Loading Python'](../software/python.md#loading-python)
 and
-['Loading Python package modules'](../software/python/#loading-python-modules).
+['Loading Python package modules'](../software/python.md#loading-python-modules).
 
 ???- question "Just show me how to do this"
 
-    Sure, here is how to [load a Python module](../software/python/#loading-python):
+    Sure, here is how to [load a Python module](../software/python.md#loading-python):
 
     ```bash
     module load python/3.11.8
     ```
 
-    Here is how to [load a Python package module](../software/python/#loading-python-modules):
+    Here is how to [load a Python package module](../software/python.md#loading-python-modules):
 
     ```bash
     module load python_ML_packages/3.11.8-cpu
