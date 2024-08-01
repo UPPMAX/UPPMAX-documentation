@@ -294,7 +294,7 @@ From: rocker/tidyverse
     echo 'export LANG=en_US.UTF-8 LANGUAGE=C LC_ALL=C LC_CTYPE=C LC_COLLATE=C  LC_TIME=C LC_MONETARY=C LC_PAPER=C LC_MEASUREMENT=C' >> $SINGULARITY_ENVIRONMENT
 
     Rscript -e 'install.packages(c("remotes", "devtools"))'
-    Rscript -e 'remotes::install_github("richelbilderbeek/plinkr")'
+    Rscript -e 'remotes::install_github("Moonerss/CIBERSORT")'
 
 %runscript
 Rscript "$@"
