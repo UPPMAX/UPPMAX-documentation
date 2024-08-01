@@ -24,7 +24,7 @@ it must be run on an interactive node.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the 'Starting an interactive node' page](start_interactive_node_on_rackham.md).
+    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_rackham.md).
 
 ## Procedure to start RStudio
 
@@ -53,7 +53,7 @@ Within that terminal, start an interactive session with 2 cores.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the 'Starting an interactive node' page](start_interactive_node_on_rackham.md).
+    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_rackham.md).
 
     Spoiler: use:
 

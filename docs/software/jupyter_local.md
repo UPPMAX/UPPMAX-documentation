@@ -63,7 +63,7 @@ Copy one of these, like:
 - If you use Windows it may be better to do this in the PowerShell instead of a WSL2 terminal.
 - If you use PuTTY - you need to change the settings in "Tunnels" accordingly (could be done for the current connection as well).
 
-![putty](../getting_started/img/putty.jpg)
+![putty](../software/img/putty.jpg)
 
 [SSH port forwarding](https://uplogix.com/docs/local-manager-user-guide/advanced-features/ssh-port-forwarding)
 

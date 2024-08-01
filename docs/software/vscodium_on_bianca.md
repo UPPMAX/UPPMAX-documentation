@@ -6,7 +6,7 @@
 
 ## Introduction
 
-There are multiple [IDEs on Bianca](../cluster_guides/ides_on_bianca.md),
+There are multiple [IDEs on Bianca](../software/ides_on_bianca.md),
 among other [VSCodium](../software/vscodium.md).
 Here we discuss how to run [VSCodium](../software/vscodium.md)
 on [Bianca](../cluster_guides/bianca.md).
@@ -52,7 +52,7 @@ Within that terminal, start an interactive session with 1 core.
 
 ???- tip "Forgot how to start an interactive node?"
 
-    See [the 'Starting an interactive node' page](start_interactive_node_on_bianca.md).
+    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_bianca.md).
 
     Spoiler: use:
 

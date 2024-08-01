@@ -12,7 +12,7 @@ is one of the ways ways to [transfer files to/from Transit](../cluster_guides/tr
 
 ???- question "What are the other ways to transfer files from/to Transit?"
 
-    Other ways to transfer data to/from Transit are described [here](transfer_transit.md)
+    Other ways to transfer data to/from Transit are described [here](../cluster_guides/transfer_transit.md)
 
 One **cannot** transfer files to/from Transit using SCP.
 SCP is an abbreviation of 'Secure copy protocol',

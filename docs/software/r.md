@@ -147,7 +147,7 @@ This will automatically load the corresponding version of the R interpreter.
 
 ## R software development
 
-![RStudio in action on Bianca using the remote desktop environment](../cluster_guides/img/rstudio_in_action_480_x_270.png)
+![RStudio in action on Bianca using the remote desktop environment](../software/img/rstudio_in_action_480_x_270.png)
 
 > RStudio in action on Bianca using the remote desktop environment
 

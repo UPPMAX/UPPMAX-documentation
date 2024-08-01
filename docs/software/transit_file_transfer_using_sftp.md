@@ -9,7 +9,7 @@ is one of the ways ways to [transfer files to/from Transit](../cluster_guides/tr
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Transit are described [here](transfer_transit.md)
+    Other ways to transfer data to/from Transit are described [here](../cluster_guides/transfer_transit.md)
 
 One can transfer files to/from Transit using SFTP.
 SFTP is an abbreviation of 'SSH File Transfer Protocol',

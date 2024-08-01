@@ -1,6 +1,6 @@
 # Log in to Rackham's remote desktop environment using a local ThinLinc client
 
-![The Rackham remote desktop environment via a local ThinLinc client](./img/thinlinc_local_rackham.png)
+![The Rackham remote desktop environment via a local ThinLinc client](../software/img/thinlinc_local_rackham.png)
 
 There are multiple ways to [log in to Rackham](login_rackham.md).
 This page described how to log in to its remote desktop environment
@@ -22,7 +22,7 @@ In the ThinLinc login dialog, set the server name to `rackham-gui.uppmax.uu.se`.
 
 ???- question "How does that look like?"
 
-    ![ThinLinc login](./img/thinlinc_local_login_rackham.png)
+    ![ThinLinc login](../software/img/thinlinc_local_login_rackham.png)
 
     > The ThinLinc login dialog
 
@@ -36,7 +36,7 @@ On the ThinLinc 'Welcome' dialog, click 'Forward'
 
 ???- question "How does that look like?"
 
-    ![The ThinLinc 'Welcome' dialog](./img/thinlinc_local_welcome.png)
+    ![The ThinLinc 'Welcome' dialog](../software/img/thinlinc_local_welcome.png)
 
 ### 4. Select a ThinLinc profile
 
@@ -57,7 +57,7 @@ XFCE   |Recommended
 
 ???- question "How does that look like?"
 
-    ![The ThinLinc 'Select profile' dialog](./img/thinlinc_local_select_profile.png)
+    ![The ThinLinc 'Select profile' dialog](../software/img/thinlinc_local_select_profile.png)
 
     > Here you are asked to pick a remote desktop flavor,
     > with Xfce as the default.
@@ -69,7 +69,7 @@ You are in! Well done!
 
 ???- question "How does that look like?"
 
-    ![The Rackham remote desktop environment via a local ThinLinc client](./img/thinlinc_local_rackham.png)
+    ![The Rackham remote desktop environment via a local ThinLinc client](../software/img/thinlinc_local_rackham.png)
 
 ## Usage
 

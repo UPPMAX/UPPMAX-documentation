@@ -64,7 +64,7 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
     - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
 
-    ![Terminal](./img/putty.jpg)
+    ![Terminal](../software/img/putty.jpg)
 
     - The ssh (secure shell) client [**putty**](https://www.putty.org/)
 
