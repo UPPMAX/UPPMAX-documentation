@@ -121,7 +121,9 @@ make install
 
 ### Singularity
 
-See [the UPPMAX Singularity user guide](singularity.md)
+See [the UPPMAX Singularity user guide](singularity.md):
+
+- [Create a Singularity container for an R package](create_singularity_container_for_r_package.md)
 
 ### Docker
 

@@ -12,6 +12,7 @@ Here we discuss:
 - [R packages](#r-packages)
 - [R software development](#r-software-development)
 - [How to install personal packages](#how-to-install-personal-packages)
+- [How to create a Singularity container for an R package](create_singularity_container_for_r_package.md)
 
 
 ```mermaid
