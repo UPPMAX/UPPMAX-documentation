@@ -40,7 +40,7 @@ as [sbatch](../software/sbatch.md).
     One easy way to see your Bianca projects is to use the
     Bianca remote desktop login screen at <https://bianca.uppmax.uu.se/>.
 
-    ![The Bianca remote desktop login screen](./img/bianca_remote_desktop_login_shows_sens_projects.png)
+    ![The Bianca remote desktop login screen](../getting_started/img/bianca_remote_desktop_login_shows_sens_projects.png)
 
 !!! note "Has Bianca frozen?"
 
