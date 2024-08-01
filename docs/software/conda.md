@@ -156,7 +156,7 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 1. Create the Conda environment
 
     - Example:
-    
+
         ```bash
         conda create --prefix  $CONDA_ENVS_PATH/python36-env python=3.6 numpy=1.13.1 matplotlib=2.2.2
         ```

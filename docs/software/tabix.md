@@ -30,9 +30,9 @@ module spider tabix
           bioinfo-tools
      
         Help:
-          	tabix - use tabix 0.2.6
+           tabix - use tabix 0.2.6
           
-          	Version 0.2.6
+           Version 0.2.6
           
           
           
