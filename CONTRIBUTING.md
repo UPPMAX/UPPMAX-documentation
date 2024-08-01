@@ -51,18 +51,18 @@ Description                                | Where          | Typical name
 Information about clusters                 |`cluster_guides`|`bianca.md`, `rackham.md`, `snowy.md`
 Information about Slurm                    |`cluster_guides`|`slurm.md`
 Information about general cluster processes|`cluster_guides`|`[general_process_name].md`
-Cluster-specific information for software  |`software`      |`[x]_on_bianca.md`
+Cluster-specific information for software  |`software`      |`[x]_on_bianca.md`, `rackham_do_something_with_[x].md`
 Software in general                        |`software`      |`[name of program].md`
 
 Examples on file transfer:
 
-- `cluster_guides/bianca_file_transfer_using_rsync.md`
+- `software/bianca_file_transfer_using_rsync.md`
 - `software/rsync.md`
 - `cluster_guides/file_transfer.md`
 
 Examples on job scheduler:
 
-- `software/slurm_on_bianca.md`
+- `cluster_guides/slurm_on_bianca.md`
 - `software/squeue.md`
 - `software/sbatch.md`
 - `cluster_guides/slurm.md`
