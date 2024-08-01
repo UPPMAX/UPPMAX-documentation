@@ -35,5 +35,5 @@ between online locations, such as your local computer, [Bianca](bianca.md),
 
 - [how to log in to Transit](../cluster_guides/login_transit.md)
 - [file transfer using Transit](../cluster_guides/transfer_transit.md).
-    - [Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md)
+    - [Bianca file transfer using rsync](../software/bianca_file_transfer_using_rsync.md)
 - [software on Transit](../cluster_guides/software_on_transit.md)
