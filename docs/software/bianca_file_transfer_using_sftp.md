@@ -1,7 +1,7 @@
 # Using `sftp` with Bianca
 
 [`sftp`](../software/sftp.md) is a command-line program
-to [transfer files to/from Bianca](transfer_bianca.md).
+to [transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
 
 ## Usage
 
@@ -10,7 +10,7 @@ to [transfer files to/from Bianca](transfer_bianca.md).
     A video showing how to `sftp` with Bianca can be found [here](https://youtu.be/URWIubTVSZQ).
 
 [When inside of SUNET](../getting_started/get_inside_sunet.md)
-(which can be on a local computer or on [Rackham](rackham.md)) do:
+(which can be on a local computer or on [Rackham](../cluster_guides/rackham.md)) do:
 
 ```bash
 sftp [user_name]-[project_id]@bianca-sftp.uppmax.uu.se:/[user_name]-[project_id]
@@ -84,4 +84,4 @@ The last line, `sftp>` is the `sftp` prompt.
 Once connected you will have to type the `sftp` commands to upload/download files.
 See [the UPPMAX page on `sftp`](../software/sftp.md) how to do so.
 
-With `sftp` you only have access to [your wharf folder](wharf.md).
+With `sftp` you only have access to [your wharf folder](../cluster_guides/wharf.md).

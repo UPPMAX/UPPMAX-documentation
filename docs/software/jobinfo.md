@@ -1,10 +1,14 @@
-# What do the fields PRIORITY and REASON mean in "jobinfo" output?
+# jobinfo
+
+`jobinfo` is a tool.
+
+## What do the fields PRIORITY and REASON mean in "jobinfo" output?
 
 ???- info "For staff"
 
      IG: Running jobs FAQ/Your priority...
 
-## Initial priority, at submit time
+### Initial priority, at submit time
 
 One of the columns in "jobinfo" output is named PRIORITY. The queue is sorted on priority, i.e. normally the job with the highest priority starts first, so this is an important parameter.
 
@@ -20,13 +24,13 @@ For every minute waiting in queue, a job gets a priority increase of approximate
 
 Now the waiting for each kind of jobs will be described: For high-priority jobs, bonus jobs and normal jobs.
 
-### High-priority job
+#### High-priority job
 
 Getting a high priority, i.e. a priority higher than 210000, already at submit time, this job will probably start quickly.
 
 The priority value will slowly increase, for each minute passing, until the job starts.
 
-### Bonus job
+#### Bonus job
 
 Getting a low priority already at submit time, this job may have to wait a long time before starting. It is very difficult to estimate the waiting time, because all new high-priority and normal jobs will have a higher priority.
 
@@ -36,7 +40,7 @@ The priority value will slowly increase, for each minute passing, until the job 
 
 Once the job has started, it will be treated like any other job.
 
-### Normal job
+#### Normal job
 
 A normal job, starting at priority 100000, increases slowly in priority and may eventually start at a priority a little above 100000.
 
@@ -58,7 +62,7 @@ Here is a detailed description on how jobs are picked for elevation:
 - The elevated jobs of a user must not together ask for more than 64 cores.
 - The elevated jobs of a user must not together ask for more than 2688 core hours, i.e. 112 core days.
 
-## How does SLURM decide what job to start next?
+### How does SLURM decide what job to start next?
 
 When there are free nodes, an approximate model of SLURM's behaviour is this:
 
@@ -71,7 +75,7 @@ When there are free nodes, an approximate model of SLURM's behaviour is this:
 
 As soon as a new job is submitted and as soon as a job finishes, SLURM restarts with step 1, so most of the time only jobs at the top of the queue are tested for the possibility to start it. As a side effect of this restart behaviour, START_TIME approximations are normally NOT CALCULATED FOR ALL JOBS.
 
-## More about other jobinfo columns for waiting jobs
+### More about other jobinfo columns for waiting jobs
 
 Until now, we have looked into the PRIORITY and USER columns. Let us talk about some of the others, for waiting jobs:
 

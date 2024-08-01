@@ -13,13 +13,13 @@ is one of the ways to [transfer files to/from Transit](../cluster_guides/transfe
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
 
-![FileZilla connected to Transit](./img/filezilla_login_to_transit_480_x_270.png)
+![FileZilla connected to Transit](../software/img/filezilla_login_to_transit_480_x_270.png)
 
 > FileZilla connected to Transit
 
 ## Using FileZilla
 
-![FileZilla logo, from https://en.wikipedia.org/wiki/FileZilla#/media/File:FileZilla_logo.svg](./img/filezilla_logo_240_x_240.png)
+![FileZilla logo, from https://en.wikipedia.org/wiki/FileZilla#/media/File:FileZilla_logo.svg](../software/img/filezilla_logo_240_x_240.png)
 
 > The FileZilla logo
 
@@ -47,7 +47,7 @@ To transfer files to/from Transit using FileZilla, do:
 
     It is here:
 
-    ![From the menu, select 'File | Site manager'](./img/filezilla_file_site_manager.png)
+    ![From the menu, select 'File | Site manager'](../software/img/filezilla_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -57,7 +57,7 @@ To transfer files to/from Transit using FileZilla, do:
 
     It is here:
 
-    ![Click 'New site'](./img/filezilla_site_manager.png)
+    ![Click 'New site'](../software/img/filezilla_site_manager.png)
 
 ### 5. Create a name for the site
 
@@ -75,7 +75,7 @@ For that site, use all standards, except:
 
     It looks similar to this:
 
-    ![Setup the site done](./img/filezilla_setup_transit_richel.png)
+    ![Setup the site done](../software/img/filezilla_setup_transit_richel.png)
 
 ### 7. Click 'Connect'
 
@@ -89,7 +89,7 @@ You can save the password.
 
     It looks similar to this:
 
-    ![Asked for your password](./img/filezilla_enter_password_transit.png)
+    ![Asked for your password](../software/img/filezilla_enter_password_transit.png)
 
 ### 9. Transfer files between local and Transit
 
@@ -99,7 +99,7 @@ Now you can transfer files between your local computer and Transit.
 
     It looks like this:
 
-    ![Transfer files between local and Transit](./img/filezilla_login_to_transit.png)
+    ![Transfer files between local and Transit](../software/img/filezilla_login_to_transit.png)
 
 ## Where do my files end up?
 

@@ -11,4 +11,4 @@ There are many graphical tools that can do this:
 
 - [File transfer to/from Rackham using FileZilla](../software/rackham_file_transfer_using_filezilla.md)
 
-![FileZilla connected to Rackham](./img/filezilla_login_to_rackham_480_x_270.png)
+![FileZilla connected to Rackham](../software/img/filezilla_login_to_rackham_480_x_270.png)

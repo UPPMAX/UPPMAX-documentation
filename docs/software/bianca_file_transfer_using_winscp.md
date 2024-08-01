@@ -36,4 +36,4 @@ For that site, use all standards, except:
 
 ## 4. Transfer files
 
-Now you can transfer files between your local computer and [your `wharf` folder](wharf.md).
+Now you can transfer files between your local computer and [your `wharf` folder](../cluster_guides/wharf.md).

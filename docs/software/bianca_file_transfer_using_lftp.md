@@ -1,7 +1,7 @@
 # Using `lftp` with Bianca
 
 `lftp` is a command-line program
-to [transfer files to/from Bianca](transfer_bianca.md).
+to [transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
 
 With the command line SFTP client `lftp`,
 you need to "set net:connection_limit 1".
@@ -9,7 +9,7 @@ you need to "set net:connection_limit 1".
 until it's really required unless you end your connect URL with a path.
 
 [When inside of SUNET](../getting_started/get_inside_sunet.md)
-(which can be on a local computer or on [Rackham](rackham.md)) do:
+(which can be on a local computer or on [Rackham](../cluster_guides/rackham.md)) do:
 
 ```bash
 lftp sftp://[user_name]-[project_id]@bianca-sftp.uppmax.uu.se/[user_name]-[project_id]/

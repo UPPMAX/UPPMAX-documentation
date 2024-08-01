@@ -85,7 +85,7 @@ In FileZilla, click 'Connect'
 You will be asked for your password with two-factor identification, hence
 type `[your password][2FA code]`, e.g. `VerySecret123456`.
 
-Now you can transfer files between your local computer and [your `wharf` folder](wharf.md).
+Now you can transfer files between your local computer and [your `wharf` folder](../cluster_guides/wharf.md).
 
 ???- tip "How does that look like?"
 

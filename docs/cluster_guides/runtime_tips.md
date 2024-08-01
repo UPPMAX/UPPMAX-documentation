@@ -144,7 +144,7 @@
 
 ???- question "Looking at "jobinfo" output, PRIORITY and REASON for my waiting jobs change over time. Please explain what is going on!"
 
-    [What do the fields PRIORITY and REASON mean in "jobinfo" output?](jobinfo_reason.md)
+    [What do the fields PRIORITY and REASON mean in "jobinfo" output?](../software/jobinfo.md)
 
 ???- question "How do I use the modules in batch jobs?"
 

@@ -1,6 +1,6 @@
 # File transfer to/from Bianca using rsync
 
-[rsync](../software/rsync.md) is a tool [to do file transfer to/from Bianca](transfer_bianca.md),
+[rsync](../software/rsync.md) is a tool [to do file transfer to/from Bianca](../cluster_guides/transfer_bianca.md),
 that works under Linux, Mac and Windows.
 
 ???- question "Prefer a video?"
@@ -52,8 +52,8 @@ ssh richel@transit.uppmax.uu.se
 
 When asked for a password, use your UPPMAX password (without 2FA).
 
-See [Log in to transit](login_transit.md) for more details
-on how to log in to [Transit](transit.md).
+See [Log in to transit](../cluster_guides/login_transit.md) for more details
+on how to log in to [Transit](../cluster_guides/transit.md).
 
 ## 3. Mount a Bianca project
 
@@ -125,7 +125,7 @@ rsync my_local_file.txt richel@transit.uppmax.uu.se:sens2016001
 
 No need to specify the path to the mounted folder, if defaults are used.
 
-The files can now be found in [your wharf folder](wharf.md).
+The files can now be found in [your wharf folder](../cluster_guides/wharf.md).
 
 
 ### 4b. Transfer all files in a folder to Bianca
@@ -149,7 +149,7 @@ rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001
 
 No need to specify the path to the mounted folder, if defaults are used.
 
-The files can now be found in [your wharf folder](wharf.md).
+The files can now be found in [your wharf folder](../cluster_guides/wharf.md).
 
 ## 5. Transfer files from Bianca to you local computer
 
@@ -189,13 +189,13 @@ To copy the individual files in your wharf to your local computer.
 
 !!! note "This will copy all folders in your wharf"
 
-    This command below will copy all folders in your [wharf](wharf.md) folder
+    This command below will copy all folders in your [wharf](../cluster_guides/wharf.md) folder
     to your local computer.
 
-    This assumes that there is few data in your [wharf](wharf.md) folder.
+    This assumes that there is few data in your [wharf](../cluster_guides/wharf.md) folder.
 
-    We assume your follow good [wharf](wharf.md) hygiene,
-    i.e. your [wharf](wharf.md) folder is mostly empty most of the time.
+    We assume your follow good [wharf](../cluster_guides/wharf.md) hygiene,
+    i.e. your [wharf](../cluster_guides/wharf.md) folder is mostly empty most of the time.
 
 On your local computer, do:
 

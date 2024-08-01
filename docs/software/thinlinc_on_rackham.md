@@ -14,7 +14,7 @@ See [ThinLinc](../software/thinlinc.md) for a comparison.
 
 ## Local ThinLinc client
 
-![Rackham's remote desktop environment via a local ThinLinc client](../getting_started/img/thinlinc_local_rackham.png)
+![Rackham's remote desktop environment via a local ThinLinc client](../software/img/thinlinc_local_rackham.png)
 
 > Rackham's remote desktop environment accessed via a local ThinLinc client
 
