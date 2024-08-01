@@ -311,7 +311,7 @@ Aalto Scientific Computing:
 - [LUNARC](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Rscript/)
 - [NSC](https://ipv4.www.nsc.liu.se/software/catalogue/tetralith/modules/r.html)
 - [PDC](https://www.pdc.kth.se/software/software/R/index_general.html)
-- [UPPMAX](../software/r/)
+- [UPPMAX](../software/r.md)
 
 ## Links
 

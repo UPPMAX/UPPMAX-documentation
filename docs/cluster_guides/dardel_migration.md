@@ -183,7 +183,7 @@ darsync sshkey
     You will now have to add the public key above to the Dardel Login Portal, https://loginportal.pdc.kth.se
 
     See the user guide for more info about this, 
-    ../software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal
+    https://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal
     ```
 
 ### 4. Add the public key to the PDC Login Portal

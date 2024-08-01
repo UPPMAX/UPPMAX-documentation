@@ -80,9 +80,9 @@ sbatch -A sens2017625 my_script.sh
 
 Minimal and complete examples of using `sbatch` is described at the respective cluster guides:
 
-- [Bianca](../cluster_guides/slurm_on_bianca/#sbatch-and-interactive-on-bianca)
-- [Rackham](../cluster_guides/slurm_on_rackham/#sbatch-and-interactive-on-rackham)
-- [Snowy](../cluster_guides/slurm_on_snowy/#sbatch-and-interactive-on-snowy)
+- [Bianca](../cluster_guides/slurm_on_bianca.md#sbatch-and-interactive-on-bianca)
+- [Rackham](../cluster_guides/slurm_on_rackham.md#sbatch-and-interactive-on-rackham)
+- [Snowy](../cluster_guides/slurm_on_snowy.md#sbatch-and-interactive-on-snowy)
 
 ### Partitions
 

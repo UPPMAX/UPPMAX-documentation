@@ -13,7 +13,7 @@
 - Free, popular, lightweight
 - Open source: <https://slurm.schedmd.com>
 - Available at all SNIC centres
-- [UPPMAX Slurm user guide](../cluster_guides/slurm/)
+- [UPPMAX Slurm user guide](../cluster_guides/slurm.md)
 
 ### More on sbatch
 
@@ -216,7 +216,7 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
     - `A project` - check all recent jobs of a given project
     - `p jobid` - produce a CPU and memory usage plot
 
-- [Jobstats user guide](../software/jobstats/)
+- [Jobstats user guide](../software/jobstats.md)
 
 ???+ question "Hands-on #3: jobstats"
 

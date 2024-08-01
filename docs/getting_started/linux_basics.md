@@ -242,7 +242,7 @@ $ cp newfile copyfile
 
 !!! seealso
 
-    - [Rackham file transfer using scp](../cluster_guides/rackham_file_transfer_using_scp/)
+    - [Rackham file transfer using scp](../cluster_guides/rackham_file_transfer_using_scp.md)
 
 
 ### mv — move/rename file

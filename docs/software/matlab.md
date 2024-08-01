@@ -148,7 +148,7 @@ You may get the best of the MATLAB graphics by runing it the ThinLinc environmen
 
 - For Bianca (from web-browser): <https://bianca.uppmax.uu.se>
 
-You may want to confer our UPPMAX [ThinLinc user guide](../getting_started/login_rackham/#thinlinc-all-platforms).
+You may want to confer our UPPMAX [ThinLinc user guide](../software/thinlinc.md).
 
 ## How to run parallel jobs
 
