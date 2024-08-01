@@ -83,7 +83,7 @@ Which will build a Singularity container called `my_container.sif`.
     * DONE (devtools)
 
     The downloaded source packages are in
-	    ‘/tmp/Rtmpow1CFQ/downloaded_packages’
+     ‘/tmp/Rtmpow1CFQ/downloaded_packages’
     + Rscript -e remotes::install_github("bmbolstad/preprocessCore")
     Downloading GitHub repo bmbolstad/preprocessCore@HEAD
     ── R CMD build ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
