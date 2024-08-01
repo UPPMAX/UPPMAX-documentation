@@ -381,7 +381,7 @@ darsync gen
 
 ???- question "How does that look like?"
 
-    Here is output similar to yours, for a fictional user called Sven Svensson, 
+    Here is output similar to yours, for a fictional user called Sven Svensson,
     with the UPPMAX username of `sven` and the PCD username
     of `svensv`:
 
@@ -679,7 +679,7 @@ you can delete the files on Rackham that you've just transferred to Dardel.
     If you transferred one folder, for example, `Documents`, here
     is how to delete it and how that looks like:
 
-    ```
+    ```bash
     [sven@rackham1 ~]$ rm -rf Documents/
     [sven@rackham1 ~]$ 
     ```
