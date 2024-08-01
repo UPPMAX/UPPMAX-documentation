@@ -1,11 +1,11 @@
 # Darsync
 
 [Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare
-your project for transfer to 
+your project for transfer to
 [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel).
 It has two modes; **check mode** where it goes through your files
 and looks for uncompressed file formats and counts the number of files,
-and **gen mode** where it generates a script file you can submit 
+and **gen mode** where it generates a script file you can submit
 to [Slurm](../cluster_guides/slurm.md) to do the actual data transfer.
 
 The idea is to
