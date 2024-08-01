@@ -22,7 +22,7 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
     - [using SCP](../software/rackham_file_transfer_using_scp.md)
     - [using SFTP](../software/rackham_file_transfer_using_sftp.md)
 - [The module system](rackham_modules.md)
-- [IDEs](ides_on_rackham.md)
+- [IDEs](../software/ides_on_rackham.md)
     - [Jupyter](../software/jupyter.md)
     - [RStudio](../software/rstudio_on_rackham.md)
     - [VSCode](../software/vscode_on_rackham.md)

@@ -5,7 +5,7 @@ is one of the ways to transfer files to/from Rackham
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Rackham are described [here](transfer_rackham.md)
+    Other ways to transfer data to/from Rackham are described [here](../cluster_guides/transfer_rackham.md)
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
 

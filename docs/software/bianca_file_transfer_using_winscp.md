@@ -4,7 +4,7 @@
 
 WinSCP is a secure file transfer tool that works under Windows.
 
-To transfer files to/from [Bianca](bianca.md) using WinSCP, do the following steps:
+To transfer files to/from [Bianca](../cluster_guides/bianca.md) using WinSCP, do the following steps:
 
 ## 1. Get inside SUNET
 

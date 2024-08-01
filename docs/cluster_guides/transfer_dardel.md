@@ -142,7 +142,7 @@ a tool that can inspect your files and make suggestions
 to make the transfer easier,
 as well as generating a script file you can submit to [Slurm](slurm.md)
 to perform the actual file transfer.
-[Read more about how to use Darsync here](../cluster_guides/darsync.md).
+[Read more about how to use Darsync here](../software/darsync.md).
 
 Here is a summary of how to run it, using `/path/to/dir` as a placeholder for the actual path to the directory you want to copy to Dardel:
 
