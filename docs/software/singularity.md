@@ -285,17 +285,5 @@ From: centos:7
 Although the `R_Packages` [module](../cluster_guides/modules.md)
 has thousands of packages, sometimes you need a package from GitHub.
 
-```singularity
-Bootstrap: docker
-From: rocker/tidyverse
-
-%post
-    # From https://github.com/brucemoran/Singularity/blob/8eb44591284ffb29056d234c47bf8b1473637805/shub/bases/recipe.CentOs7-R_3.5.2#L21
-    echo 'export LANG=en_US.UTF-8 LANGUAGE=C LC_ALL=C LC_CTYPE=C LC_COLLATE=C  LC_TIME=C LC_MONETARY=C LC_PAPER=C LC_MEASUREMENT=C' >> $SINGULARITY_ENVIRONMENT
-
-    Rscript -e 'install.packages(c("remotes", "devtools"))'
-    Rscript -e 'remotes::install_github("Moonerss/CIBERSORT")'
-
-%runscript
-Rscript "$@"
-```
+See [create a Singularity container for an R package](create_singularity_container_for_r_package.md)
+how to do so.
