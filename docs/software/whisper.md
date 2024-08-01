@@ -17,7 +17,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 ### Step 2: Data transfer from local to project  
 
-1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#winscp-windows) client (Windows only), [FileZilla](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/#filezilla-linuxmacoswindows) client (Mac, Windows or Linux) or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/).
+1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](../cluster_guides/transfer_bianca/#winscp-windows) client (Windows only), [FileZilla](../cluster_guides/transfer_bianca/#filezilla-linuxmacoswindows) client (Mac, Windows or Linux) or other ways via [terminal](../cluster_guides/transfer_bianca/).
 
 ### Step 3: Transcribing/Translating  
 

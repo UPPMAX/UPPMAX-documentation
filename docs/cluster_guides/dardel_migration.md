@@ -183,12 +183,12 @@ darsync sshkey
     You will now have to add the public key above to the Dardel Login Portal, https://loginportal.pdc.kth.se
 
     See the user guide for more info about this, 
-    http://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal
+    ../software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal
     ```
 
 ### 4. Add the public key to the PDC Login Portal
 
-See [create and use an SSH key pair for Dardel, step 2](http://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),
+See [create and use an SSH key pair for Dardel, step 2](../software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal),
 to see how to upload the public SSH key to the PDC Login Portal.
 
 ### 5. Run the migration tool Darsync
@@ -270,7 +270,7 @@ darsync check
     /domus/h1/sven/Documents/darsync_Documents.ownership.gz,
     has been created. This file can be used to make sure that the
     file ownership (user/group) will look the same on Dardel as it does here. 
-    See http://docs.uppmax.uu.se/cluster_guides/dardel_migration/#52-check-for-problems 
+    See ../cluster_guides/dardel_migration/#52-check-for-problems 
     for more info about this.
         
     ```

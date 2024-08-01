@@ -105,7 +105,7 @@ make install
         PyPlot
         DataFrames
 
-- [Installing julia packages](http://docs.uppmax.uu.se/software/julia/#how-to-install-personal-packages)
+- [Installing julia packages](../software/julia/#how-to-install-personal-packages)
 
 ## Containers
 
