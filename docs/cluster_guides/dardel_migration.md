@@ -210,6 +210,72 @@ Running `darsync check` will make Darsync prompt for questions:
 darsync check
 ```
 
+???- question "How does that look like?"
+
+    Here is output similar to yours, for a user with username `sven`
+    that wants to transfer his `Documents` folder:
+
+    ```bash
+    [sven@rackham1 ~]$ darsync check
+
+
+       ____ _   _ _____ ____ _  __
+      / ___| | | | ____/ ___| |/ /
+     | |   | |_| |  _|| |   | ' /
+     | |___|  _  | |__| |___| . \
+      \____|_| |_|_____\____|_|\_\
+
+    The check module of this script will recursively go through 
+    all the files in, and under, the folder you specify to see if there 
+    are any improvements you can to do save space and speed up the data transfer. 
+
+    It will look for file formats that are uncompressed, like .fasta and .vcf files 
+    (most uncompressed file formats have compressed variants of them that only 
+    take up 25% of the space of the uncompressed file).
+
+    If you have many small files, e.g. folders with 100 000 or more files, 
+    it will slow down the data transfer since there is an overhead cost per file 
+    you want to transfer. Large folders like this can be archived/packed into 
+    a single file to speed things up.
+
+
+    Specify which directory you want to copy. 
+    Make sure to use tab completion (press the tab key to complete directory names) 
+    to avoid spelling errors.
+    Ex.
+    /proj/naiss2099-22-999/
+    or
+    /proj/naiss2099-22-999/raw_data_only
+
+    Specify local directory: Documents
+    /domus/h1/sven/Documents/MATLAB
+
+
+      ____   ___  _   _ _____ 
+     |  _ \ / _ \| \ | | ____|
+     | | | | | | |  \| |  _|  
+     | |_| | |_| | |\  | |___ 
+     |____/ \___/|_| \_|_____|
+
+    Checking completed. Unless you got any warning messages above you 
+    should be good to go.
+
+    Generate a SLURM script file to do the transfer by running this script again, 
+    but use the 'gen' option this time. See the help message for details, 
+    or continue reading the user guide for examples on how to run it.
+
+    darsync gen -h
+
+    A file containing file ownership information, 
+    /domus/h1/sven/Documents/darsync_Documents.ownership.gz,
+    has been created. This file can be used to make sure that the
+    file ownership (user/group) will look the same on Dardel as it does here. 
+    See http://docs.uppmax.uu.se/cluster_guides/dardel_migration/#52-check-for-problems 
+    for more info about this.
+        
+    ```
+
+
 ???- question "Can I also give the arguments on the command line?"
 
     If you prefer to specify everything from the command-line, do:
@@ -226,6 +292,7 @@ darsync check
     ```bash
     darsync check --help
     ```
+
 
 If there are problems reported, [contact support](../support.md)
 or try to fix them yourself.
@@ -311,6 +378,121 @@ Running `darsync gen` will make Darsync prompt for questions:
 ```bash
 darsync gen
 ```
+
+???- question "How does that look like?"
+
+    Here is output similar to yours, for a fictional user called Sven Svensson, 
+    with the UPPMAX username of `sven` and the PCD username
+    of `svensv`:
+
+    ```bash
+    [sven@rackham1 ~]$ darsync gen
+
+
+       ____ _____ _   _
+      / ___| ____| \ | |
+     | |  _|  _| |  \| |
+     | |_| | |___| |\  |
+      \____|_____|_| \_|
+
+    The gen module of this script will collect the information needed
+    and generate a script that can be submitted to SLURM to preform the
+    data transfer.
+
+    It will require you to know 
+
+        1) Which directory on UPPMAX you want to transfer (local directory).
+        2) Which UPPMAX project id the SLURM job should be run under. 
+            ex. naiss2099-23-999
+        3) Which cluster the SLURM job should be run on.
+            ex. rackham, snowy
+        4) Which username you have at Dardel.
+        5) Where on Dardel it should transfer your data to. 
+            ex. /cfs/klemming/projects/snic/naiss2099-23-999/from_uppmax
+        6) Which SSH key should be used when connecting to Dardel.
+            ex. /home/user/id_ed25519_pdc
+        7) Where you want to save the generated SLURM script. 
+
+
+
+    Specify which directory you want to copy. 
+    Make sure to use tab completion (press the tab key to complete directory names) 
+    to avoid spelling errors.
+    Ex.
+    /proj/naiss2099-22-999/
+    or
+    /proj/naiss2099-22-999/raw_data_only
+
+    Specify local directory: Documents
+
+
+    Specify which project id should be used to run the data transfer job in SLURM.
+    Ex.
+    naiss2099-23-999
+
+    Specify project id: naiss2099-23-999
+
+
+    Specify which cluster the SLURM job should be run on.
+    Choose between rackham and snowy.
+    Default is rackham
+
+    Specify cluster: rackham
+
+
+    Specify the username that should be used to login at Dardel. 
+    It is the username you have created at PDC and it is 
+    probably not the same as your UPPMAX username.
+
+    Specify Dardel username: svensv
+
+
+    Specify the directory on Dardel you want to transfer your data to.
+    Ex.
+    /cfs/klemming/projects/snic/naiss2099-23-999
+
+    Specify Dardel path: /cfs/klemming/projects/snic/naiss2099-23-999
+
+
+    Specify which SSH key should be used to login to Dardel. 
+    Create one by running `dardel_ssh-keygen` if you have not done so yet. 
+    If no path is given it will use the default key created by `dardel_ssh-keygen`, 
+    ~/id_ed25519_pdc
+                        
+    Specify SSH key: 
+
+
+    Specify where the SLURM script file should be saved. 
+    If not given it will save it here: ~/darsync_Documents.slurm
+                        
+    Specify SLURM script path: 
+
+
+      ____   ___  _   _ _____ 
+     |  _ \ / _ \| \ | | ____|
+     | | | | | | |  \| |  _|  
+     | |_| | |_| | |\  | |___ 
+     |____/ \___/|_| \_|_____|
+
+
+    Created SLURM script: /home/sven/darsync_Documents.slurm
+
+    containing the following command:
+
+    rsync -e "ssh -i /home/sven/id_ed25519_pdc -o StrictHostKeyChecking=no" -acPuv /domus/h1/sven/Documents/ svensv@dardel.pdc.kth.se:/cfs/klemming/projects/snic/naiss2099-23-999
+
+
+    To test if the generated file works, run
+
+    bash /home/sven/darsync_Documents.slurm
+
+    If the transfer starts you know the script is working, and you can terminate 
+    it by pressing ctrl+c and submit the script as a SLURM job.
+
+    Run this command to submit it as a job:
+
+    sbatch /home/sven/darsync_Documents.slurm
+    ```
 
 After answering all the questions a new file will be created. By default it will
 be created in your home directory, named `darsync_foldername.sh`,
@@ -421,12 +603,33 @@ Replace `nais2024-23-9999` with the name of the folder you told Darsync to trans
 sbatch ~/dardel_naiss2024-23-9999.sh
 ```
 
+???- question "How does that look like?"
+
+    Similar to this:
+
+    ```bash
+    [richel@rackham1 ~]$ sbatch /home/richel/darsync_Documents.slurm
+    Submitted batch job 49021945 on cluster rackham
+    ```
+
 ???- question "I get an error 'sbatch: error: Batch job submission failed'. What do I do?"
 
     It means that the script created for you has a mistake.
 
     See [Slurm troubleshooting](slurm_troubleshooting.md) for guidance
     on how to troubleshoot this.
+
+???- question "How do I know this job has finished?"
+
+    One way is to see if your job queue is empty:
+
+    ```bash
+    [sven@rackham1 ~]$ squeue -u $USER
+                 JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+    ```
+
+    Here, an empty job queue is shown.
+    If the job is still running, you can find it in this list.
 
 ### 7. Check logs
 
@@ -438,6 +641,17 @@ tail ~/dardel_naiss2024-23-9999.out
 tail ~/dardel_naiss2024-23-9999.err
 ```
 
+???- question "How does that look like?"
+
+    If the job finished successfully, the output will look similar to this:
+
+    ```bash
+    [sven@rackham1 ~]$ tail darsync_Documents.out 
+    sending incremental file list
+    [sven@rackham1 ~]$ tail darsync_Documents.err 
+    [sven@rackham1 ~]$ 
+    ```
+
 ### 8. Delete the SSH key
 
 After the migration, these temporary SSH keys can and should be deleted:
@@ -446,10 +660,33 @@ After the migration, these temporary SSH keys can and should be deleted:
 rm ~/id_ed25519_pdc*
 ```
 
+???- question "How does this look like?"
+
+    You screen will show something similar to this:
+
+    ```bash
+    [sven@rackham1 ~]$ rm ~/id_ed25519_pdc*
+    [sven@rackham1 ~]$ 
+    ```
+
 ### 9. Delete the files on Rackham
 
 Now that the files are transferred to Dardel,
 you can delete the files on Rackham that you've just transferred to Dardel.
+
+???- question "How does that look like?"
+
+    If you transferred one folder, for example, `Documents`, here
+    is how to delete it and how that looks like:
+
+    ```
+    [sven@rackham1 ~]$ rm -rf Documents/
+    [sven@rackham1 ~]$ 
+    ```
+
+    The `rm` command (`rm` is short for 'remove') cannot be undone.
+    Luckily, your files are on Dardel already :-)
+
 
 ## Troubleshooting
 
