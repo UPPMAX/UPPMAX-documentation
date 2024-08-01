@@ -11,7 +11,7 @@ If you can use VSCode, depends on the HPC cluster:
 
 Cluster                                 | Works/fails |Documentation page
 ----------------------------------------|-------------|---------------------------------------------------------------
-[Bianca](../cluster_guides/bianca.md)   | Fails [1]   |[VSCode on Bianca](../cluster_guides/vscode_on_bianca.md)
-[Rackham](../cluster_guides/rackham.md) | Works       |[VSCode on Rackham](../cluster_guides/vscode_on_rackham.md)
+[Bianca](../cluster_guides/bianca.md)   | Fails [1]   |[VSCode on Bianca](../software/vscode_on_bianca.md)
+[Rackham](../cluster_guides/rackham.md) | Works       |[VSCode on Rackham](../software/vscode_on_rackham.md)
 
-- [1] Use [VSCodium on Bianca](../cluster_guides/vscodium_on_bianca.md) instead
+- [1] Use [VSCodium on Bianca](../software/vscodium_on_bianca.md) instead

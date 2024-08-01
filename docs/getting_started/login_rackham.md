@@ -129,7 +129,7 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
 
     - integrate you cluster work with **code development**
 
-        - All OS: Example [Visual Studio Code](../cluster_guides/vscodium_on_rackham.md)
+        - All OS: Example [Visual Studio Code](../software/vscodium_on_rackham.md)
 
 
     - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
@@ -296,7 +296,7 @@ Here are the UPPMAX pages on how to do so:
 
 ???- question "How to use Visual Studio Code/Codium on Rackham in detail?"
 
-    See a detailed guide how to use Visual Studio Code/Codium on Rackham [here](../cluster_guides/vscodium_on_rackham.md)
+    See a detailed guide how to use Visual Studio Code/Codium on Rackham [here](../software/vscodium_on_rackham.md)
 
 - Integrate you cluster work with *code development*
 - [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)

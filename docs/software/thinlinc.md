@@ -30,9 +30,9 @@ The second option is to download the ThinLinc client,
 which offers higher performance and is recommended for most users.
 The client can be downloaded from the [official download page](https://www.cendio.com/thinlinc/download/).
 
-- [ThinLinc on Bianca](../cluster_guides/thinlinc_on_bianca.md)
-- [ThinLinc on Rackham](../cluster_guides/thinlinc_on_rackham.md)
-- ThinLinc on Snowy: same as [ThinLinc on Rackham](../cluster_guides/thinlinc_on_rackham.md)
+- [ThinLinc on Bianca](../software/thinlinc_on_bianca.md)
+- [ThinLinc on Rackham](../software/thinlinc_on_rackham.md)
+- ThinLinc on Snowy: same as [ThinLinc on Rackham](../software/thinlinc_on_rackham.md)
 
 ## ThinLinc usage
 
