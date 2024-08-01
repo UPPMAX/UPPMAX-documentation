@@ -6,7 +6,7 @@
 
 [ThinLinc](../software/thinlinc.md) provides for a remote desktop environment
 for the UPPMAX clusters.
-This page describes how to use ThinLinc on [Rackham](rackham.md).
+This page describes how to use ThinLinc on [Rackham](../cluster_guides/rackham.md).
 
 There are two ways of connecting to the clusters using ThinLinc:
 using a local ThinLinc client or login using a webbrowser.

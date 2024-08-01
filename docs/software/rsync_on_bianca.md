@@ -3,19 +3,19 @@
 [`rsync`](../software/rsync.md) is a command-line tool
 for [file transfer](../cluster_guides/file_transfer.md).
 
-This page describes how to use [`rsync`](../software/rsync.md) on [Bianca](bianca.md).
+This page describes how to use [`rsync`](../software/rsync.md) on [Bianca](../cluster_guides/bianca.md).
 
 Using [`rsync`](../software/rsync.md) for direct file transfer
-from a local computer to [wharf](wharf.md) fails,
-as cannot `rsync` directly to [wharf](wharf.md).
+from a local computer to [wharf](../cluster_guides/wharf.md) fails,
+as cannot `rsync` directly to [wharf](../cluster_guides/wharf.md).
 
-It can be made to work (by using [transit](transit.md)), as described in
-[the UPPMAX Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md).
+It can be made to work (by using [transit](../cluster_guides/transit.md)), as described in
+[the UPPMAX Bianca file transfer using rsync](../software/bianca_file_transfer_using_rsync.md).
 
 
 ???- question "How does it look like if I try to `rsync` directly to `wharf` anyways?"
 
-    One cannot [`rsync`](../software/rsync.md) directly to [wharf](wharf.md).
+    One cannot [`rsync`](../software/rsync.md) directly to [wharf](../cluster_guides/wharf.md).
 
     However, this is how it looks like:
 
@@ -49,7 +49,7 @@ It can be made to work (by using [transit](transit.md)), as described in
     ```
 
 If you want to do file transfer to/from Bianca,
-read [the UPPMAX page on Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md).
+read [the UPPMAX page on Bianca file transfer using rsync](../software/bianca_file_transfer_using_rsync.md).
 
 ## Links
 

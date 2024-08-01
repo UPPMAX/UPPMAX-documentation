@@ -8,7 +8,7 @@ is one of the ways ways to [transfer files to/from Transit](../cluster_guides/tr
     Transit is an UPPMAX service to send files around.
     It is not a file server.
 
-    See [the page about Transit](transit.md) for more detailed information.
+    See [the page about Transit](../cluster_guides/transit.md) for more detailed information.
 
 ???- question "What are the other ways to transfer files from/to Transit?"
 

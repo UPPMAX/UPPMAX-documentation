@@ -60,7 +60,7 @@ and `[username]` is your UPPMAX username, for example:
 scp my_local_rackham_file.txt [username]@transit.uppmax.uu.se
 ```
 
-However, [Transit is a service, not a file server](transit.md).
+However, [Transit is a service, not a file server](../cluster_guides/transit.md).
 The `scp` command will complete successfully,
 yet the file will not be found on Transit.
 

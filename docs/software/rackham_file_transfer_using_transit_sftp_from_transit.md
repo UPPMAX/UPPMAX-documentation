@@ -45,7 +45,7 @@ You can get rid of this prompt if you have setup SSH keys
 
 ## 5. In `sftp`, upload/download files to/from Rackham
 
-[Transit is a service, not a file server](transit.md).
+[Transit is a service, not a file server](../cluster_guides/transit.md).
 This means that if you upload files to Transit using SFTP,
 they will remain there as long a the connection is active.
 These files need to be forwarded to more permanent storage.

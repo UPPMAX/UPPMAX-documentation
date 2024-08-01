@@ -2,7 +2,7 @@
 
 [`rsync`](../software/rsync.md) is a command-line tool for [file transfer](../cluster_guides/file_transfer.md).
 
-This page describes how to use [`rsync`](../software/rsync.md) on [Rackham](rackham.md).
+This page describes how to use [`rsync`](../software/rsync.md) on [Rackham](../cluster_guides/rackham.md).
 
 ## Copy a folder from local to Rackham
 

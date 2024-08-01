@@ -5,7 +5,7 @@ is one of the ways ways to [transfer files to/from Transit](../cluster_guides/tr
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](transit.md).
+    See [the page about the UPPMAX Transit server](../cluster_guides/transit.md).
 
 ???- question "What are the other ways?"
 
