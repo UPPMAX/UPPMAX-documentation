@@ -9,6 +9,10 @@ docker pull lycheeverse/lychee
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    You can see the procedure below in the video [Create a Singularity container from `docker pull`](https://youtu.be/gFpRvEUpJZ4).
+
 The hardest part of this procedure may be to have
 Linux with Singularity installed on a computer where you have
 super-user rights.
