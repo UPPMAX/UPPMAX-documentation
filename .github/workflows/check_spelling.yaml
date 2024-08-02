@@ -1,10 +1,13 @@
 # Check that there is correct spelling in all files
 name: Check spelling
 
+# Check spelling on the main branch only, as it takes quite long.
 # Check spelling on the 21st day of the month.
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
 on:
   push:
+    branches:
+      - main
   pull_request:
   schedule:
   - cron: "0 0 21 * *"
