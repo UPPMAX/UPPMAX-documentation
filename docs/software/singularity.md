@@ -287,3 +287,9 @@ has thousands of packages, sometimes you need a package from GitHub.
 
 See [create a Singularity container for an R package](create_singularity_container_for_r_package.md)
 how to do so.
+
+## Example Singularity script: building a container from a `docker pull`
+
+If the documentation of what you need mentions a `docker pull` to install it,
+it can be put into a Singularity container as described [here](create_singularity_container_from_docker_pull.md)
+how to do so.
