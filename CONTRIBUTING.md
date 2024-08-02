@@ -4,8 +4,11 @@ Thanks for considering to contribute and reading this!
 
 Here we discuss how to contribute
 
-- [spoken text](#spoken-text), e.g. ideas, feedback, messages, etc. and are written in English.
-- [code](#code), e.g. textual changes where the text is formatted in Markdown
+- [Spoken text](#spoken-text), e.g. ideas, feedback, messages, etc. and are written in English.
+- [Code](#code), e.g. textual changes where the text is formatted in Markdown
+- [Where to put files](#where-to-put-files)
+- [Which branch](#which-branch)
+
 
 ## Spoken text
 
@@ -41,7 +44,7 @@ As an external contributor, one can contribute by:
    merging to the `main` branch is fine :-)
 1. If the change is accepted after review it will be merged into the main branch
 
-## Where to put files?
+## Where to put files
 
 All files are put in `docs` or `docs/[some_folder]`,
 but not not deeper than that.
@@ -71,3 +74,15 @@ Examples on general software use:
 
 - `software/gcc.md` (a collection of programs is software)
 - `software/gcc_compile_c.md` (same for all clusters)
+
+## Which branch
+
+Submitting to the main branch is fine! Thanks!
+
+Branch name|Description            |Submit yes/no
+-----------|-----------------------|-------------
+`main`     |The main branch        |Yes
+`develop`  |A develop branch       |Yes
+`gh-pages` |The GitHub Pages branch|No
+
+
