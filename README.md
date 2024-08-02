@@ -8,6 +8,15 @@
 This repository contains the source code for the [UPPMAX
 documentation](https://uppmax.github.io/UPPMAX-documentation/)
 
+## Branch descriptions
+
+Branch name|Description
+-----------|-------------------------------------------------------------------------------
+`main`     |The main branch, runs all CI scripts
+`develop`  |A develop branch, does not spellcheck, does not deploy the website
+`issue_x`  |A branch named after an Issue, does not spellcheck, does not deploy the website
+`gh-pages` |The GitHub Pages branch, maintained by GitHub Actions
+
 ## [Contributing](CONTRIBUTING.md)
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).

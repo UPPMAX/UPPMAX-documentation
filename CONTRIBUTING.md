@@ -79,10 +79,3 @@ Examples on general software use:
 
 Submitting to the main branch is fine! Thanks!
 
-Branch name|Description            |Submit yes/no
------------|-----------------------|-------------
-`main`     |The main branch        |Yes
-`develop`  |A develop branch       |Yes
-`gh-pages` |The GitHub Pages branch|No
-
-
