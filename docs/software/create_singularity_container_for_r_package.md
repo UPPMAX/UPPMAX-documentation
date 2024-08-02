@@ -37,7 +37,7 @@ Replace the R package to suit your needs.
 
 ## 2. Build the Singularity container
 
-Here is how you creata a Singularity container called `my_container.sif` from the Singularity script:
+Here is how you create a Singularity container called `my_container.sif` from the Singularity script:
 
 ```bash
 sudo singularity build my_container.sif Singularity
