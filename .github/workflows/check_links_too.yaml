@@ -1,4 +1,8 @@
-# Check that all links are valid, i.e. not broken
+# Check that all links are valid, i.e. not broken, using a newer tool
+#
+# Unsure if that newer tool is better, until there is a difference.
+# See details at https://github.com/UPPMAX/UPPMAX-documentation/issues/119
+#
 name: Check links too
 
 # Check links on the 21st day of the month.
