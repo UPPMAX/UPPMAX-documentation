@@ -1,3 +1,5 @@
+# Check that all links are valid, i.e. not broken
+name: Check links
 
 # Check links on the 21st day of the month.
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
@@ -7,7 +9,6 @@ on:
   schedule:
   - cron: "0 0 21 * *"
 
-name: check links
 
 jobs:
   check-links:
