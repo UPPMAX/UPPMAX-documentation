@@ -35,7 +35,7 @@ The Slurm system is accessed using the following commands:
 - `srun` - Typically used inside batch job scripts for running parallel jobs
   (See examples further down)
 - `scancel` - Cancel one or more of your jobs.
-- [`sinfo`](../software/sinfo.md): view information 
+- [`sinfo`](../software/sinfo.md): view information
   about [Slurm](../cluster_guides/slurm.md) nodes and partitions
 
 ```mermaid
