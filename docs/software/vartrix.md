@@ -9,7 +9,7 @@ To use VarTrix on an UPPMAX cluster, do
 module load bioinfo-tools
 ```
 
-After this, search for your favorit Vartrix version, using:
+After this, search for your favorite Vartrix version, using:
 
 ```bash
 module spider vartrix
