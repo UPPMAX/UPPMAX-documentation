@@ -1,6 +1,6 @@
 # VarTrix
 
-VarTrix is 'a software tool for extracting single cell variant information 
+VarTrix is 'a software tool for extracting single cell variant information
 from 10x Genomics single cell data' (as quoted from [the VarTrix repository](https://github.com/10XGenomics/vartrix)).
 
 To use VarTrix on an UPPMAX cluster, do
@@ -9,7 +9,7 @@ To use VarTrix on an UPPMAX cluster, do
 module load bioinfo-tools
 ```
 
-After this, search for your favorit Vartrix version, using: 
+After this, search for your favorit Vartrix version, using:
 
 ```bash
 module spider vartrix
