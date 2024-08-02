@@ -7,6 +7,10 @@ has thousands of packages, sometimes you need a package from GitHub.
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    See the video ['Create a Singularity container for an R package on GitHub'](https://youtu.be/QKEXqgEiEB0)
+
 The most important things for creating a Singularity container
 is to start with a good container.
 
