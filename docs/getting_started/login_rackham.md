@@ -292,18 +292,6 @@ Here are the UPPMAX pages on how to do so:
         - [https://hackmd.io/@pmitev/Linux4WinUsers](https://hackmd.io/@pmitev/Linux4WinUsers) (Links to an external site.)
 
 
-## Visual Studio Code (not covered here)
-
-???- question "How to use Visual Studio Code/Codium on Rackham in detail?"
-
-    See a detailed guide how to use Visual Studio Code/Codium on Rackham [here](../software/vscodium_on_rackham.md)
-
-- Integrate you cluster work with *code development*
-- [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
-- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/)
-    - Similar to Rackham. Just change login details!
-
-
 !!! abstract "keypoints"
 
     - When you log in from your local computer you will always arrive at a login node with limited resources.
