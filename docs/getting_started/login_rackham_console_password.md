@@ -129,4 +129,3 @@ and an idle node will be moved into your project cluster.
     This video shows how to use a terminal and SSH to access
     the Rackham console environment: [YouTube](https://youtu.be/upBozh2BI5c)
 
-
