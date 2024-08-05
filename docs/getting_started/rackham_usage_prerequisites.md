@@ -12,16 +12,16 @@ These prerequisites are discussed in detail below.
 ## An active research project
 
 One [prerequisite for using Rackham](#prerequisites-for-using-rackham)
-is that you need to be a member of an active SNIC SENS
-or SIMPLER research project (these are called `sens[number]` or `simp[number]`,
-where `[number]` represent a number, for example `sens123456` or `simp123456`).
+is that you need to be a member of an active SNIC
+or SIMPLER research project (these can have many names such as `uppmax[number]`,
+`snic[number]` or`naiss[number]`),
+where `[number]` represent a number, for example `uppmax2021-2-1`, `snic2022-6-230` or `naiss2023-6-382`).
 
 ???- question "Forgot your Rackham projects?"
 
-    One easy way to see your Rackham projects is to use the
-    Rackham remote desktop login screen at <https://rackham.uppmax.uu.se/>.
+    How to see you [research projects](project.md) is described at [research projects](project.md).
 
-    ![The Rackham remote desktop login screen](./img/rackham_remote_desktop_login_shows_sens_projects.png)
+    Spoiler: go to [https://supr.naiss.se](https://supr.naiss.se)
 
 [SUPR](https://supr.naiss.se/) (the 'Swedish User and Project Repository')
 is the website that allows one to request access to Rackham
@@ -53,9 +53,10 @@ there is a table. Under 'Resource' it should state 'Rackham @ UPPMAX'.
 
 ???- question "How does the 'Resources' page of an example project look like?"
 
-    ![The 'Resources' page of an example project.](./img/supr_project_sens2023598_resources.png)
+    ![The 'Resources' page of an example project](./img/supr_project_naiss2024-22-49_resources.png)
 
-    > The 'Resources' page of an example project.
+    > The 'Resources' page of an example project. This project has two compute
+    > resources and two storage resources.
 
 Note that the 'Accounts' tab can be useful to verify your username.
 
