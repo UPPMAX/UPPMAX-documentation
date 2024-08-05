@@ -8,8 +8,6 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md).
     - [Terminal](login_rackham_console_password.md)
     - [Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
-## Prerequisites
-
 ## Which way to login?
 
 There are multiple ways to log in to [Rackham](../cluster_guides/rackham.md):
