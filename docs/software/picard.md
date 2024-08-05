@@ -80,7 +80,7 @@ module help picard/3.1.1
     [richel@rackham2 ~]$ module help picard/3.1.1
 
     ----------------------------------------------------------------------- Module Specific Help for "picard/3.1.1" -----------------------------------------------------------------------
-	    picard - use picard/3.1.1
+     picard - use picard/3.1.1
 
         Version 3.1.1
 
@@ -134,7 +134,7 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     INFO: Loading libgkl_compression.so from jar:file:/sw/bioinfo/picard/3.1.1/rackham/picard.jar!/com/intel/gkl/native/libgkl_compression.so
     [Mon Aug 05 09:16:47 CEST 2024] ValidateSamFile --INPUT sample_mc.bam --MODE VERBOSE --MAX_OUTPUT 100 --IGNORE_WARNINGS false --VALIDATE_INDEX true --INDEX_VALIDATION_STRINGENCY EXHAUSTIVE --IS_BISULFITE_SEQUENCED false --MAX_OPEN_TEMP_FILES 8000 --SKIP_MATE_VALIDATION false --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
     [Mon Aug 05 09:16:47 CEST 2024] Executing as richel@rackham2.uppmax.uu.se on Linux 3.10.0-1160.119.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 17+35-2724; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.1.1
-    WARNING	2024-08-05 09:16:47	ValidateSamFile	NM validation cannot be performed without the reference. All other validations will still occur.
+    WARNING 2024-08-05 09:16:47 ValidateSamFile NM validation cannot be performed without the reference. All other validations will still occur.
     No errors found
     [Mon Aug 05 09:16:48 CEST 2024] picard.sam.ValidateSamFile done. Elapsed time: 0.01 minutes.
     Runtime.totalMemory()=2181038080
@@ -150,13 +150,12 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     INFO: Loading libgkl_compression.so from jar:file:/sw/bioinfo/picard/3.1.1/rackham/picard.jar!/com/intel/gkl/native/libgkl_compression.so
     [Mon Aug 05 09:13:20 CEST 2024] ValidateSamFile --INPUT app.R --MODE VERBOSE --MAX_OUTPUT 100 --IGNORE_WARNINGS false --VALIDATE_INDEX true --INDEX_VALIDATION_STRINGENCY EXHAUSTIVE --IS_BISULFITE_SEQUENCED false --MAX_OPEN_TEMP_FILES 8000 --SKIP_MATE_VALIDATION false --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
     [Mon Aug 05 09:13:21 CEST 2024] Executing as richel@rackham2.uppmax.uu.se on Linux 3.10.0-1160.119.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 17+35-2724; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.1.1
-    WARNING	2024-08-05 09:13:21	ValidateSamFile	NM validation cannot be performed without the reference. All other validations will still occur.
+    WARNING 2024-08-05 09:13:21 ValidateSamFile NM validation cannot be performed without the reference. All other validations will still occur.
     ERROR::MISSING_READ_GROUP:Read groups is empty
     SAMFormatException on record 01
-    ERROR	2024-08-05 09:13:21	ValidateSamFile	SAMFormatException on record 01
+    ERROR 2024-08-05 09:13:21 ValidateSamFile SAMFormatException on record 01
     [Mon Aug 05 09:13:21 CEST 2024] picard.sam.ValidateSamFile done. Elapsed time: 0.01 minutes.
     Runtime.totalMemory()=2181038080
     To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
     ```
-
 
