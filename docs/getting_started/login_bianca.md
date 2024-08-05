@@ -155,7 +155,7 @@ flowchart TD
 
 ### Login to the Bianca remote desktop environment
 
-![The Bianca remote desktop environment](./img/bianca_remote_desktop_463_x_262.png.png)
+![The Bianca remote desktop environment](./img/bianca_remote_desktop_463_x_262.png)
 
 > The Bianca remote desktop environment
 
