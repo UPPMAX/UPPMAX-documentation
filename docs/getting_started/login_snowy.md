@@ -2,19 +2,8 @@
 
 Here we describe how to log in to [Snowy](../cluster_guides/snowy.md)
 
-## Prerequisites
-
-To be allowed to use Snowy, one needs all of these:
-
-- [ ] An active research project
-- [ ] An UPPMAX account
-- [ ] An UPPMAX password
-
-- User account: visit the [UPPMAX page on user accounts](user_account.md)
-- A local UPPMAX project: see [project](project.md).
-  Snowy is available as compute nodes only
-
-## Reach the Snowy compute nodes
+One needs to be allowed to use Snowy.
+[These prerequisites](rackham_usage_prerequisites.md) describes what is needed before one can use Snowy.
 
 To make Snowy do a calculation, one needs to log in to a Rackham login node,
 which is described [here](../getting_started/login_rackham.md).
@@ -26,17 +15,16 @@ After logging in, one can
 
 
 ```mermaid
-    graph TB
+graph LR
 
-    Node1 -- interactive --> SubGraph2Flow
-    Node1 -- sbatch --> SubGraph2Flow
-    subgraph "Snowy"
-    SubGraph2Flow(calculation nodes)
-    end
+  subgraph "Snowy"
+    snowy_calculation_node[Calculation nodes]
+  end
 
 
-    subgraph "Rackham"
-    Node1[Login] -- interactive --> Node2[calculation nodes]
-    Node1 -- sbatch --> Node2
-    end
+  subgraph "Rackham"
+    login_node[Login node]
+  end
+    
+  login_node --> |interactive\nsbatch| snowy_calculation_node
 ```
