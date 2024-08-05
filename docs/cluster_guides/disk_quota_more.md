@@ -2,7 +2,7 @@
 
 To limit the amount of disk space each user can allocate we use a disk quota system at UPPMAX. The default disk quota is 32 GByte in your home directory. Every SNIC-project also comes with a default 128 GByte backed-up project storage. If more data is needed you may apply for an UPPMAX Storage Project and get more quota. UPPNEX project have a default 512 GByte backed-up project storage and a and 512 GB nobackup space.
 
-You can display your current usage with the command 'uquota'.
+You can display your current usage with the command [uquota](../software/uquota).
 
 When you exceed your quota, the system will not let you write any more data and you have to either remove some files or request more quota. The 'uquota' command will also show the date and to what limit your quota will change to, if you have been given a larger quota.
 
