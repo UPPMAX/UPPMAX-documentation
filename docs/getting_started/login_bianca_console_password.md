@@ -127,5 +127,4 @@ and an idle node will be moved into your project cluster.
 ???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
 
     This video shows how to use a terminal and SSH to access
-    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c),
-    [download (.ogv)](https://richelbilderbeek.nl/login_bianca_inside_sunet.ogv)
+    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c)

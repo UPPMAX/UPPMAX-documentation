@@ -143,8 +143,7 @@ Enjoy! You are in! You are on a Bianca login node!
     This video shows how to use an installed VPN,
     after which the UPPMAX Bianca login website is used to
     access the Bianca remote desktop environment:
-    [YouTube](https://youtu.be/Ni9nyCf7me8),
-    [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+    [YouTube](https://youtu.be/Ni9nyCf7me8)
 
 Under the hidden tab in the left edge of the screen,
 you can find a clipboard,
