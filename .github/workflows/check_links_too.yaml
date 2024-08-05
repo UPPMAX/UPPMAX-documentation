@@ -3,6 +3,11 @@
 # Unsure if that newer tool is better, until there is a difference.
 # See details at https://github.com/UPPMAX/UPPMAX-documentation/issues/119
 #
+# Conclusion:
+#
+# The older link checker is both faster and detects more links
+# that are indeed broken. Due to this, this workflow is disabled.
+#
 name: Check links too
 
 # Check links on the 21st day of the month.
