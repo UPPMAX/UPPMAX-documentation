@@ -16,9 +16,9 @@ There are multiple ways to log in to [Rackham](../cluster_guides/rackham.md):
 
 Login                |Description                                   |Screenshot
 ---------------------|----------------------------------------------|---------------------------------
-Website              |Remote desktop, no installation needed, slow  |![The Rackham remote desktop via the website](rackham_remote_desktop_via_website_480_x_270.png)
-Terminal             |Console environment, recommended              |![The Rackham console environment](login_rackham_via_terminal_terminal_409_x_290.png)
-Local ThinLinc client|Remote desktop, recommended, need installation|![The Rackham remote desktop via the website](rackham_remote_desktop_via_website_480_x_270.png)
+Website              |Remote desktop, no installation needed, slow  |![The Rackham remote desktop via the website](./img/rackham_remote_desktop_via_website_480_x_270.png)
+Terminal             |Console environment, recommended              |![The Rackham console environment](./img/login_rackham_via_terminal_terminal_409_x_290.png)
+Local ThinLinc client|Remote desktop, recommended, need installation|![The Rackham remote desktop via the website](./img/rackham_remote_desktop_via_website_480_x_270.png)
 
 Here is a decision tree, to determine which way to log in:
 
