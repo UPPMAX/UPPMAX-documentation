@@ -76,7 +76,7 @@ module help picard/3.1.1
 
     Your output will be similar to this:
 
-    ```
+    ```bash
     [richel@rackham2 ~]$ module help picard/3.1.1
 
     ----------------------------------------------------------------------- Module Specific Help for "picard/3.1.1" -----------------------------------------------------------------------
