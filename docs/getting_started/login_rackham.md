@@ -36,6 +36,31 @@ flowchart TD
   need_easy_or_speedy --> |fastest| use_local
 ```
 
+## Login using website
+
+![Rackham's remote desktop environment via a webbrowser](./img/rackham_via_remote_desktop_50.jpg)
+
+You can also login to Rackham's remote desktop environment.
+This gives you a desktop environment, as if you were working on your own computer!
+
+- [Web browser login](../getting_started/login_rackham_remote_desktop_website.md)
+
+## Login using terminal
+
+- Login to the Rackham console environment with a password
+- Login to the Rackham console environment with an SSH key
+
+## Login using local ThinLinc client
+
+![Rackham's remote desktop environment via a webbrowser](./img/rackham_via_remote_desktop_50.jpg)
+
+You can also login to Rackham's remote desktop environment.
+This gives you a desktop environment, as if you were working on your own computer!
+
+- [Local ThinLinc client](../getting_started/login_rackham_remote_desktop_local_thinlinc_client.md)
+
+## Older
+
 !!! info "Objectives"
 
     - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
@@ -274,29 +299,6 @@ flowchart TD
     ```bash
     $ xeyes &
     ```
-
-## Remote desktop
-
-![Rackham's remote desktop environment via a webbrowser](./img/rackham_via_remote_desktop_50.jpg)
-
-You can also login to Rackham's remote desktop environment.
-This gives you a desktop environment, as if you were working on your own computer!
-
-There are two ways to do so:
-
-Parameter      |Local ThinLinc client|Web browser login
----------------|---------------------|-----------------
-Install        |ThinLinc client      |Nothing [1]
-Simplicity     |Easy                 |Trivial
-Performance    |Higher               |Lower
-Recommended for|Most use cases       |Small tasks, when other approach fails
-
-- [1] You already have a webbrowser installed :-)
-
-Here are the UPPMAX pages on how to do so:
-
-- [Web browser login](../getting_started/login_rackham_remote_desktop_website.md)
-- [Local ThinLinc client](../getting_started/login_rackham_remote_desktop_local_thinlinc_client.md)
 
 ## Linux on your computer
 

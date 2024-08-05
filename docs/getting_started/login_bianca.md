@@ -10,7 +10,7 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 - [Bianca's design](../cluster_guides/biancas_design.md):
   helps understand why the procedure described here is needed.
-- [Prerequisites](#prerequisites-for-using-bianca) describes what is needed before one can access Bianca
+- [Prerequisites](#bianca-usage-prerequisites) describes what is needed before one can access Bianca
 - [The two Bianca environments](#the-two-bianca-environments) shows the two ways to access Bianca
 - [Get within the university networks](#get-within-the-university-networks) shows how *to be allowed to* access Bianca
 - [Get inside the Bianca environment](#get-inside-the-bianca-environment) show how access the two Bianca environments:
@@ -36,7 +36,7 @@ flowchart TD
   need_gui --> |yes| use_website
 ```
 
-## Prerequisites to log in to Bianca
+## Bianca usage prerequisites
 
 To be allowed to use Bianca, one needs all of these:
 
@@ -44,7 +44,7 @@ To be allowed to use Bianca, one needs all of these:
 - [ ] An UPPMAX account
 - [ ] An UPPMAX password
 
-These are discussed in more detail [here](login_bianca_prerequisites.md).
+These are discussed in more detail [here](bianca_usage_prerequisites.md).
 
 ## The two Bianca environments
 
