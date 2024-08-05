@@ -176,6 +176,12 @@ See the 'get inside the university networks' page [here](../getting_started/get_
 
 ## Get inside the Bianca environment
 
+![The Bianca environments](./img/bianca_environments_926_x_261.png)
+
+> The two Bianca environments to work on Bianca.
+> At the left is a remote desktop environment.
+> At the the right is the console environment.
+
 ???- question "Want a video?"
 
     - [Login to the Bianca remote desktop and Bianca console environment, physically inside SUNET](https://youtu.be/upBozh2BI5c?si=NXUHKyA1tNeZFeSR)
@@ -214,6 +220,10 @@ flowchart TD
 
 ### Login to the Bianca remote desktop environment
 
+![The Bianca remote desktop environment](./img/bianca_remote_desktop_463_x_262.png.png)
+
+> The Bianca remote desktop environment
+
 One can only [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md).
 
 ???- question "Will a local ThinLinc client work too?"
@@ -223,6 +233,10 @@ One can only [access Bianca remote desktop environment via a website](login_bian
     One really can only [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md).
 
 ### Login to the Bianca console environment
+
+![The Bianca console environment](./img/login_bianca_via_terminal_terminal_462_x_202.png)
+
+> The Bianca console environment
 
 When inside SUNET, one can access a Bianca console environment
 using a terminal and the Secure Shell Protocol (SSH).

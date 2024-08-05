@@ -32,7 +32,8 @@ When inside SUNET, one can access a remote desktop environment using a website:
 
 ## 2. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
-In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
+[When inside SUNET](../getting_started/get_inside_sunet.md), 
+in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
 
 ???- question "How does it look like when outside of SUNET?"
 
