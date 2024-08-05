@@ -68,3 +68,54 @@ basic Linux knowledge to use Bianca.
     Using Linux (and especially the so-called command-line/terminal) is essential
     to use Bianca. Learning the essential Linux commands
     is described [here](../getting_started/linux.md).
+
+
+## Overview of all steps possible/needed to access Bianca
+
+```mermaid
+flowchart TD
+
+    subgraph sub_outside[IP outside SUNET]
+      outside(Physically outside SUNET)
+    end
+
+    subgraph sub_inside[IP inside SUNET]
+      physically_inside(Physically inside SUNET)
+      inside_using_vpn(Inside SUNET using VPN)
+      inside_using_rackham(Inside SUNET using Rackham)
+
+      subgraph sub_bianca_shared_env[Bianca shared network]
+        bianca_shared_console[Bianca console environment login]
+        bianca_shared_remote_desktop[Bianca remote desktop login]
+        subgraph sub_bianca_private_env[The project's private virtual project cluster]
+          bianca_private_console[Bianca console environment]
+          bianca_private_remote_desktop[Bianca remote desktop]
+          bianca_private_terminal[Terminal]
+        end
+      end
+    end
+
+    %% Outside SUNET
+    outside-->|Move physically|physically_inside
+    outside-->|Use a VPN|inside_using_vpn
+    outside-->|Login to Rackham|inside_using_rackham
+
+    %% Inside SUNET
+    physically_inside-->|SSH|bianca_shared_console
+    physically_inside-->|UPPMAX website|bianca_shared_remote_desktop
+    physically_inside-.->inside_using_rackham
+    physically_inside-.->inside_using_vpn
+    inside_using_vpn-->|SSH|bianca_shared_console
+    inside_using_vpn-->|UPPMAX website|bianca_shared_remote_desktop
+    inside_using_rackham-->|SSH|bianca_shared_console
+
+    %% Shared Bianca
+    bianca_shared_console --> |UPPMAX password|bianca_private_console
+    bianca_shared_remote_desktop-->|UPPMAX password|bianca_private_remote_desktop
+
+    %% Private Bianca
+    bianca_private_console---|is a|bianca_private_terminal
+    bianca_private_remote_desktop-->|must also use|bianca_private_terminal
+```
+
+This is an overview of all steps possible/needed to access Bianca.

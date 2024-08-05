@@ -18,8 +18,7 @@ Bianca does not support any so-called
 [X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham),
 so instead UPPMAX maintains a website that uses
 [ThinLinc](../software/thinlinc.md) to get a full remote desktop environment.
-All you should need is a rather modern browser on any platform:
-we have tested on Chrome and Firefox :-)
+All you should need is a rather modern browser on any platform.
 
 ???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
 
@@ -27,6 +26,12 @@ we have tested on Chrome and Firefox :-)
 
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
+
+???- question "Will a local ThinLinc client work too?"
+
+    No.
+
+    One really can only access Bianca remote desktop environment via a website
 
 When inside SUNET, one can access a remote desktop environment using a website:
 
@@ -120,6 +125,14 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 ## 6. You are in
 
 Enjoy! You are in! You are on a Bianca login node!
+
+In a Bianca console environment:
+
+- Text display is limited to 50kBit/s.
+  This means that if you create a lot of text output,
+  you will have to wait some time before you get your prompt back.
+- Cut, copy and paste work as usual.
+  Be careful to not copy-paste sensitive data!
 
 !!! note "How to behave on a login node"
 

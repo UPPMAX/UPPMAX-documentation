@@ -64,6 +64,14 @@ is the 2FA number.
 
 Enjoy! You are in! To be precise, you are on a Bianca login node.
 
+In a Bianca console environment:
+
+- Text display is limited to 50kBit/s.
+  This means that if you create a lot of text output,
+  you will have to wait some time before you get your prompt back.
+- Cut, copy and paste work as usual.
+  Be careful to not copy-paste sensitive data!
+
 !!! note "How to behave on a login node"
 
     On a login node, one can and should do simple things only:
