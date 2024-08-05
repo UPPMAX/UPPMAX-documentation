@@ -24,41 +24,18 @@ an easier setup is [log in to the Rackham console environment with a password](l
 From a terminal, use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
-ssh -A [user]-[project name]@rackham.uppmax.uu.se
+ssh -AX [user]@rackham.uppmax.uu.se
 ```
 
 For example:
 
 ```bash
-ssh -A sven-sens2023598@rackham.uppmax.uu.se
+ssh -AX sven@rackham.uppmax.uu.se
 ```
 
-???- question "How does it look like when outside of SUNET?"
+## 3. Type your UPPMAX password
 
-    [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
-    see how this looks like when outside of SUNET.
-
-    Spoiler: quite dull, as nothing happens until these is a timeout.
-
-???- question "Why no `-X`?"
-
-    On Rackham, one can use `-X`:
-
-    ```bash
-    ssh -X username@rackham.uppmax.uu.se
-    ```
-
-    However, on Rackham, this so-called
-    [X forwarding](../software/ssh_x_forwarding.md) is disabled.
-    Hence, we do not teach it :-)
-
-## 3. Type your UPPMAX password and 2FA
-
-Type your UPPMAX password,
-directly followed by the UPPMAX 2-factor authentication number,
-for example `verysecret678123`, then press enter.
-In this case, the password is `verysecret` and `678123`
-is the 2FA number.
+Type your UPPMAX password.
 
 ## 4. You are in
 
@@ -82,43 +59,3 @@ In a Rackham console environment:
 
     If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
-
-???- question "Why does one need two passwords?"
-
-    The first password is needed to get into the shared Rackham environment.
-    This password contains both an UPPMAX password and an UPPMAX 2FA number.
-
-    The second password is needed to go to the login node
-    of a project's virtual cluster.
-
-    ```mermaid
-    flowchart TD
-
-        %% Give a white background, instead of a transparent one
-        classDef node fill:#fff,color:#000,stroke:#000
-        classDef focus_node fill:#fff,color:#000,stroke:#000,stroke-width:4px
-
-        subgraph sub_rackham_shared_env[Rackham shared network]
-          rackham_shared_console[Rackham console environment login]
-          rackham_shared_remote_desktop[Rackham remote desktop login]
-          subgraph sub_rackham_private_env[The project's private virtual project cluster]
-            rackham_private_console[Rackham console environment]
-            rackham_private_remote_desktop[Rackham remote desktop]
-            rackham_private_terminal[Terminal]
-          end
-        end
-
-        %% Shared subgraph color scheme
-        %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-        %% style sub_inside fill:#fcc,color:#000,stroke:#fcc
-        style sub_rackham_shared_env fill:#ffc,color:#000,stroke:#ffc
-        style sub_rackham_private_env fill:#cfc,color:#000,stroke:#cfc
-
-        %% Shared Rackham
-        rackham_shared_console --> |UPPMAX password|rackham_private_console
-        rackham_shared_remote_desktop-->|UPPMAX password|rackham_private_remote_desktop
-
-        %% Private Rackham
-        rackham_private_console---|is a|rackham_private_terminal
-        rackham_private_remote_desktop-->|must also use|rackham_private_terminal
-    ```
