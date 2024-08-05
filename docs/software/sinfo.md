@@ -68,6 +68,6 @@
     ```
 
     Although it may seem unexpected that only 1 node is idle,
-    this is the expected behavior from a virtual cluster: 
+    this is the expected behavior from a virtual cluster:
     most physical nodes are not allocated to this project and hence unavailable.
 
