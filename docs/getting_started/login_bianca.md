@@ -40,9 +40,9 @@ flowchart TD
 
 To be allowed to use Bianca, one needs all of these:
 
-- [ ] An active research project
-- [ ] An UPPMAX account
-- [ ] An UPPMAX password
+- [ ] :square-check: An active research project
+- [ ] :check_mark_button: An UPPMAX account
+- [ ] :fontawesome-square-check: An UPPMAX password
 
 These are discussed in more detail [here](bianca_usage_prerequisites.md).
 
