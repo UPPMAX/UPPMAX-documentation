@@ -42,6 +42,30 @@
 
 ![Content](./img/flavours.png)
 
+!!! abstract "Local Linux environment"
+
+    - You may sometimes benefit from having a local Linux environment.
+    - Examples:
+        - Mimic cluster environment to work with your local files and data as on the Cluster
+        - get used to Linux (!)
+    - Mac is UNIX and very Linux-like
+    - Windows requires WSL (Windows subsystem for Linux)
+
+??? question "For windows users who wants to get started with WSL (not covered here)"
+
+    - Install WSL (Windows Subsystem for Linux)
+
+        - [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Links to an external site.)
+        - Don’t forget to update to WSL2
+
+    - Install a distribution or a ssh (secure shell) program
+        - Distribution such as ubuntu or
+        - (recommended) a ssh program such as MobaXTerm
+        - [https://mobaxterm.mobatek.net/](https://mobaxterm.mobatek.net/) (Links to an external site.)
+            - `sftp` frame makes it easy to move, upload and download files.
+    - You may want to check this webpage as well!
+        - [https://hackmd.io/@pmitev/Linux4WinUsers](https://hackmd.io/@pmitev/Linux4WinUsers) (Links to an external site.)
+
 ## Using the command line
 
 Below usage of the command line is discussed in text.
