@@ -56,7 +56,7 @@ there is a table. Under 'Resource' it should state 'Snowy @ UPPMAX'.
     ![The 'Resources' page of an example project](./img/supr_project_naiss2024-22-49_resources.png)
 
     > The 'Resources' page of an example project. This project has two compute
-    > resources and two storage resources. 
+    > resources and two storage resources.
     > A Snowy project would show the word 'Snowy' somewhere,
     > so this is not a Snowy project.
 
