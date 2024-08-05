@@ -4,6 +4,12 @@ Here we describe how to log in to [Snowy](../cluster_guides/snowy.md)
 
 ## Prerequisites
 
+To be allowed to use Snowy, one needs all of these:
+
+- [ ] An active research project
+- [ ] An UPPMAX account
+- [ ] An UPPMAX password
+
 - User account: visit the [UPPMAX page on user accounts](user_account.md)
 - A local UPPMAX project: see [project](project.md).
   Snowy is available as compute nodes only

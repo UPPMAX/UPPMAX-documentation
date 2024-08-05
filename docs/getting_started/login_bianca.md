@@ -17,99 +17,34 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
     - [Login to the Bianca remote desktop environment](#login-to-the-bianca-remote-desktop-environment)
     - [Login to the Bianca console environment](#login-to-the-bianca-console-environment)
 
-## Prerequisites for using Bianca
+## Login
+
+There are multiple ways to login:
+
+Login                |Description
+---------------------|----------------------------------------------
+Website              |Remote desktop, no installation needed, slow
+Terminal             |Console environment, recommended
+
+```mermaid
+flowchart TD
+  need_gui(Need to run a graphical program?)
+  use_terminal[Use a terminal]
+  use_website[Use the remote desktop website]
+
+  need_gui --> |no| use_terminal
+  need_gui --> |yes| use_website
+```
+
+## Prerequisites to log in to Bianca
 
 To be allowed to use Bianca, one needs all of these:
 
-- [An active research project](#an-active-research-project)
-- [An UPPMAX account](#an-uppmax-user-account)
-- [An UPPMAX password](#an-uppmax-password)
+- [ ] An active research project
+- [ ] An UPPMAX account
+- [ ] An UPPMAX password
 
-These prerequisites are discussed in detail below.
-
-### An active research project
-
-One [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-is that you need to be a member of an active SNIC SENS
-or SIMPLER research project (these are called `sens[number]` or `simp[number]`,
-where `[number]` represent a number, for example `sens123456` or `simp123456`).
-
-???- question "Forgot your Bianca projects?"
-
-    One easy way to see your Bianca projects is to use the
-    Bianca remote desktop login screen at <https://bianca.uppmax.uu.se/>.
-
-    ![The Bianca remote desktop login screen](./img/bianca_remote_desktop_login_shows_sens_projects.png)
-
-[SUPR](https://supr.naiss.se/) (the 'Swedish User and Project Repository')
-is the website that allows one to request access to Bianca
-and to get an overview of the requested resources.
-
-???- question "How does the SUPR website look like?"
-
-    ![First SUPR page](./img/supr_first_page.png)
-
-    > First SUPR page
-
-    ![SUPR 2FA login](./img/supr_2fa.png)
-
-    > SUPR 2FA login. Use the SUPR 2FA (i.e. **not** UPPMAX)
-
-After logging in, the [SUPR](https://supr.naiss.se/)
-website will show all projects you are a member of,
-under the 'Projects' tab.
-
-???- question "How does the 'Projects' tab of the SUPR website look like?"
-
-    ![Example overview of SUPR projects](./img/supr_projects.png)
-
-    > Example overview of SUPR projects
-
-To see if a project has access to Bianca, click on the
-project and scroll to the 'Resources' section. In the 'Compute' subsection,
-there is a table. Under 'Resource' it should state 'Bianca @ UPPMAX'.
-
-???- question "How does the 'Resources' page of an example project look like?"
-
-    ![The 'Resources' page of an example project.](./img/supr_project_sens2023598_resources.png)
-
-    > The 'Resources' page of an example project.
-
-Note that the 'Accounts' tab can be useful to verify your username.
-
-???- question "How does the 'Accounts' tab help me find my username?"
-
-    ![An example of a SUPR 'Accounts' tab](./img/supr_accounts.png)
-
-    > An example of a SUPR 'Accounts' tab.
-    > The example user has username `richel-sens2023598`,
-    > which means his/her UPPMAX username is `richel`
-
-You can become a member of an active SNIC SENS by:
-
-- request membership to an existing project in SUPR
-- create a project. See the UPPMAX page on
-  how to submit a project application [here](project_apply.md)
-
-### An UPPMAX user account
-
-Another [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-is that you must have a personal UPPMAX user account.
-This is separate from your SUPR account.
-See the user account application page if you do not have one.
-
-Once you are set up for login,
-this should also be reflected in SUPR through
- one or several additional account(s)
-at UPPMAX for the specific project(s) you are a member of.
-
-### An UPPMAX password
-
-Another [prerequisite for using Bianca](#prerequisites-for-using-bianca)
-is that you need to know your UPPMAX password.
-If you change it, it may take up to an hour before changes are reflected in Bianca.
-
-For advice on handling sensitive personal data correctly on Bianca, see our FAQ page.
+These are discussed in more detail [here](login_bianca_prerequisites.md).
 
 ## The two Bianca environments
 

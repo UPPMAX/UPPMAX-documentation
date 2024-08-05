@@ -1,6 +1,40 @@
 # Log in to Rackham
 
-Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
+Here we describe how to log in to [Rackham](../cluster_guides/rackham.md).
+
+- [Prerequisites](#prerequisites)
+- [Which way to login?](#which-way-to-login)
+    - [Login using website](#login-using-website)
+    - [Login using terminal](#login-using-terminal)
+    - [Login using local ThinLinc client](#login-using-local-thinlinc-client)
+
+## Prerequisites
+
+## Which way to login?
+
+There are multiple ways to log in to [Rackham](../cluster_guides/rackham.md):
+
+Login                |Description                                   |Screenshot
+---------------------|----------------------------------------------|---------------------------------
+Website              |Remote desktop, no installation needed, slow  |![The Rackham remote desktop via the website](rackham_remote_desktop_via_website_480_x_270.png)
+Terminal             |Console environment, recommended              |![The Rackham console environment](login_rackham_via_terminal_terminal_409_x_290.png)
+Local ThinLinc client|Remote desktop, recommended, need installation|![The Rackham remote desktop via the website](rackham_remote_desktop_via_website_480_x_270.png)
+
+Here is a decision tree, to determine which way to log in:
+
+```mermaid
+flowchart TD
+  need_gui(Need to run a graphical program?)
+  use_terminal[Use a terminal]
+  use_website[Use the remote desktop website]
+  need_easy_or_speedy(Need easiest or fastest?)
+  use_local[Use a local ThinLinc client]
+
+  need_gui --> |no| use_terminal
+  need_gui --> |yes| need_easy_or_speedy
+  need_easy_or_speedy --> |easiest| use_website
+  need_easy_or_speedy --> |fastest| use_local
+```
 
 !!! info "Objectives"
 
