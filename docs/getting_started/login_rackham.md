@@ -46,6 +46,6 @@ flowchart TD
 The procedures can be found at:
 
 - [Login to the Rackham remote desktop environment using the website](login_rackham_remote_desktop_website.md)
-- [Login to the Rackham console environment with a password](login_rackham_console_password.md)
+- [Login to the Rackham console environment with a password](login_rackham_console_password.md).
   If you want to get rid of using a password every time, see [login to the Rackham console environment with an SSH key](login_rackham_console_ssh_key.md)
 - [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
