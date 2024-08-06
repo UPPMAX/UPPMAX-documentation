@@ -25,7 +25,7 @@ ssh -X sven@rackham.uppmax.uu.se
 
 `-X` enables so-called [X forwarding](../software/ssh_x_forwarding.md),
 which allows you to run programs that require light graphics,
-such as [eog](../software/eog) to display an image.
+such as [eog](../software/eog.md) to display an image.
 
 ???- question "Can I log in without `-X`?"
 
