@@ -16,7 +16,7 @@ Login                |Description                                   |Screenshot
 ---------------------|----------------------------------------------|---------------------------------
 [Website](login_rackham_remote_desktop_website.md)              |Remote desktop, no installation needed, slow  |![The Rackham remote desktop via the website](./img/rackham_remote_desktop_via_website_480_x_270.png)
 [Terminal](login_rackham_console_password.md)             |Console environment, recommended              |![The Rackham console environment](./img/login_rackham_via_terminal_terminal_409_x_290.png)
-[Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)|Remote desktop, recommended, need installation|![The Rackham remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_rackham.png)
+[Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)|Remote desktop, recommended, need installation|![The Rackham remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_rackham_zoom.png)
 
 Here is a decision tree, to determine which way to log in:
 
