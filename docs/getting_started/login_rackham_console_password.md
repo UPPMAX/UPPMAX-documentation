@@ -55,7 +55,7 @@ Type your UPPMAX password and press enter.
 You will see no asterisks to indicate how many
 characters you've typed in.
 
-If you are outside 
+If you are outside
 [the university networks](../getting_started/get_inside_sunet.md)
 you will be asked for your UPPMAX 2-factor authentication number.
 
