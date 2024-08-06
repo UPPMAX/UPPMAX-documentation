@@ -63,7 +63,7 @@ On DockerHub, we can find the tags for our Docker script ar [https://hub.docker.
 
     Here is how [https://hub.docker.com/r/lindenb/jvarkit/tags](https://hub.docker.com/r/lindenb/jvarkit/tags) looks like:
 
-    ![jvarkit tags](jvarkit_tags.png)
+    ![jvarkit tags](./img/jvarkit_tags.png)
 
 We can see there that `1b2aedf24` is the tag for the latest version.
 
