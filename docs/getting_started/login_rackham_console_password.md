@@ -5,33 +5,35 @@ There are multiple ways to [log in to Rackham](login_rackham.md).
 This page describes how to [log in to Rackham](login_rackham.md)
 using a terminal and a password.
 
-When inside SUNET, one can access a Rackham console environment
-using SSH with an SSH password.
+## Procedure
 
-???- question "Forgot how to get within SUNET?"
-
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
-
-## 1. Use `ssh` to log in
+### 1. Use `ssh` to log in
 
 From a terminal, use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
-ssh [user]-[project name]@rackham.uppmax.uu.se
+ssh -X [username]@rackham.uppmax.uu.se
 ```
 
-For example:
+`[username]` is your UPPMAX username, for example, `sven`,
+resulting in:
+
 
 ```bash
-ssh sven-sens2023598@rackham.uppmax.uu.se
+ssh -X sven@rackham.uppmax.uu.se
 ```
 
-???- question "How does it look like when outside of SUNET?"
+`-X` enables so-called [X forwarding](../software/ssh_x_forwarding.md),
+which allows you to run programs that require light graphics,
+such as [eog](../software/eog) to display an image.
 
-    [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
-    see how this looks like when outside of SUNET.
+???- question "Can I log in without `-X`?"
 
-    Spoiler: quite dull, as nothing happens until these is a timeout.
+    Yes!
+
+    If you do not need [X forwarding](../software/ssh_x_forwarding.md)
+    to run programs that require light graphics,
+    omitting the `-X` is just fine.
 
 ???- question "Why no `-A`?"
 
@@ -47,66 +49,20 @@ ssh sven-sens2023598@rackham.uppmax.uu.se
     to access Rackham, `-A` is unused
     and hence we simplify this documentation by omitting it.
 
-???- question "Why no `-X`?"
+## 2. Type your UPPMAX password
 
-    On Rackham, one can use `-X`:
+Type your UPPMAX password and press enter.
+You will see no asterisks to indicate how many
+characters you've typed in.
 
-    ```bash
-    ssh -X username@rackham.uppmax.uu.se
-    ```
+If you are outside 
+[the university networks](../getting_started/get_inside_sunet.md)
+you will be asked for your UPPMAX 2-factor authentication number.
 
-    However, on Rackham, this so-called
-    [X forwarding](../software/ssh_x_forwarding.md) is disabled.
-    Hence, we do not teach it :-)
-
-
-## 2. Type your UPPMAX password with 2FA
-
-Type your UPPMAX password,
-directly followed by the UPPMAX 2-factor authentication number,
-for example `verysecret678123`, then press enter.
-In this case, the password is `verysecret` and `678123`
-is the 2FA number.
-
-After authenticated using the UPPMAX password and 2FA,
-you are logged in on Rackham's shared network,
-on a so-called 'jumphost'.
-
-However, you will still need to login to your own
-private virtual project cluster.
-As you are already properly authenticated (i.e. using an UPPMAX password
-and UPPMAX 2FA), you don't need 2FA anymore.
-
-???- question "What is a virtual project cluster?"
-
-    As Rackham holds sensitive data, by regulations,
-    each Rackham project must be isolated from each other
-    and are not allowed to, for example, share the same memory.
-
-    One way to achieve this, would be to build one HPC cluster
-    per project. While this would guarantee isolated project environments,
-    this would be quite impractical.
-
-    Instead, we create isolated project environments by using software,
-    that creates so-called virtual clusters, as if they would be
-    physical clusters. Like physical clusters, a virtual cluster
-    has a guaranteed isolated project environment.
-
-When you login to Rackham's shared network,
-you will get a message of your project's login node status.
-It can be `up and running` or `down`.
-If it is `down`, the virtual cluster is started,
-which may take some minutes.
-
-## 3. Type your UPPMAX password
-
-Type your UPPMAX password,
-for example `verysecret`
-
-## 4. You are in
+## 3. You are in
 
 Enjoy! You are in! Or, to be precise,
-you are in your home folder on the login node of your own virtual project cluster.
+you are in your home folder on a Rackham login node.
 
 !!! note "How to behave on a login node"
 
@@ -118,14 +74,4 @@ you are in your home folder on the login node of your own virtual project cluste
 
     If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
-
-By default, this node has one core,
-hence if you need more memory or more CPU power,
-you submit a job (interactive or batch),
-and an idle node will be moved into your project cluster.
-
-???- tip "Video: how to use a terminal and SSH to access the Rackham console environment"
-
-    This video shows how to use a terminal and SSH to access
-    the Rackham console environment: [YouTube](https://youtu.be/upBozh2BI5c)
 
