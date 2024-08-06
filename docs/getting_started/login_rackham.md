@@ -1,3 +1,10 @@
+---
+tags:
+  - login
+  - log in
+  - Rackham
+---
+
 # Log in to Rackham
 
 Here we describe how to log in to [Rackham](../cluster_guides/rackham.md).

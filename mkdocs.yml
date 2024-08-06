@@ -135,6 +135,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
       
+plugins:
+  - tags
+
 markdown_extensions:
   - toc:
       toc_depth: 2
