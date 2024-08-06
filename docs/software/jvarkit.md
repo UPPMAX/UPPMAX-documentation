@@ -7,7 +7,7 @@ According to [the `jvarkit` GitHub repository](https://github.com/lindenb/jvarki
 
 ## Create a `jvarkit` Singularity container
 
-To create a [Singularity](singularity) container
+To create a [Singularity](singularity.md) container
 one can follow the procedure documented at ['Create a Singularity container from DockHub'](create_singularity_container_from_dockerhub.md).
 
 Spoiler:
