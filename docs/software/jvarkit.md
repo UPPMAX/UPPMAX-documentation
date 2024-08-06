@@ -1,6 +1,6 @@
 # jvarkit
 
-According to [the `jvarkit` GitHub repository](https://github.com/lindenb/jvarkit) 
+According to [the `jvarkit` GitHub repository](https://github.com/lindenb/jvarkit)
 `jvarkit` is 'Java utilities for Bioinformatics',
 
 `jvarkit` is unavailable in [the UPPMAX module system](../cluster_guides/modules.md).

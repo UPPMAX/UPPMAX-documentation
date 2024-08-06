@@ -56,7 +56,7 @@ FATAL:   While performing build: conveyor failed to get: GET https://index.docke
 ```
 
 This means that DockerHub cannot conclude with Docker script we want to use *exactly*.
-To solve this, we need to find a tag that allows us to find an exact script. 
+To solve this, we need to find a tag that allows us to find an exact script.
 On DockerHub, we can find the tags for our Docker script ar [https://hub.docker.com/r/lindenb/jvarkit/tags](https://hub.docker.com/r/lindenb/jvarkit/tags).
 
 ???- question "How does that page look like?"
