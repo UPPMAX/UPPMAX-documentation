@@ -1,3 +1,10 @@
+---
+tags:
+  - login node
+  - node
+  - login
+---
+
 # Login node
 
 A login node is the computer where you arrive after logging in

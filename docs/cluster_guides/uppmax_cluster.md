@@ -104,19 +104,13 @@ A user logs in to a [login node](../cluster_guides/login_node.md) via the Intern
 ```mermaid
 flowchart TD
 
-    subgraph sub_inside[IP inside SUNET]
-      subgraph sub_bianca_shared_env[Bianca shared network]
-        subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          login_node(User on login node)
-          interactive_node(User on interactive node)
-          computation_node(Computation node)
-        end
-      end
-    end
+  login_node(User on login node)
+  interactive_node(User on interactive node)
+  computation_node(Computation node)
 
-    login_node --> |move user, interative|interactive_node
-    login_node --> |submit jobs, sbatch|computation_node
-    computation_node -.-> |can become| interactive_node
+  login_node --> |move user, interative|interactive_node
+  login_node --> |submit jobs, sbatch|computation_node
+  computation_node -.-> |can become| interactive_node
 ```
 
 > The different types of nodes an UPPMAX cluster has.
