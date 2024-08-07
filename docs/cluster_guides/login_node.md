@@ -79,8 +79,8 @@ flowchart TD
 
     Yes!
 
-    Or, to be more precise: yes, if the login node is powerful enough for your 
-    calculations. 
+    Or, to be more precise: yes, if the login node is powerful enough for your
+    calculations.
 
     For example, when
     [using RStudio on Bianca](../software/rstudio_on_bianca.md)
