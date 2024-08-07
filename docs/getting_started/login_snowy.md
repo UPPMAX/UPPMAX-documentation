@@ -1,5 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Snowy
+---
+
 # Log in to Snowy
 
+There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
 Here we describe how to log in to [Snowy](../cluster_guides/snowy.md)
 
 One needs to be allowed to use Snowy.

@@ -1,5 +1,6 @@
 # Log in to Dardel
 
+There are multiple clusters one can [log in to](../getting_started/login.md).
 Here it is described how to login to Dardel.
 
 ## How do I do this?

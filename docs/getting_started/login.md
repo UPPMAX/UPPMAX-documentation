@@ -1,3 +1,10 @@
+---
+tags:
+  - login
+  - log in
+  - general
+---
+
 # Log in
 
 One needs to log in into an UPPMAX cluster to use it.

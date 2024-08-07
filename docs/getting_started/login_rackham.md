@@ -7,6 +7,7 @@ tags:
 
 # Log in to Rackham
 
+There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
 Here we describe how to log in to [Rackham](../cluster_guides/rackham.md).
 
 - [Prerequisites](rackham_usage_prerequisites.md) describes what is needed before one can access Rackham

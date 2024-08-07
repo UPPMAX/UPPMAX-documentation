@@ -1,3 +1,10 @@
+---
+tags:
+  - login
+  - log in
+  - Bianca
+---
+
 # Log in to Bianca
 
 ![The Bianca environments](./img/bianca_environments_926_x_261.png)
@@ -6,6 +13,7 @@
 > At the left is a remote desktop environment.
 > At the the right is the console environment.
 
+There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
 Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 - [Prerequisites](bianca_usage_prerequisites.md) describes what is needed before one can access Bianca
