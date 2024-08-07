@@ -52,7 +52,7 @@ Examples of short and light things are:
 
 Examples of heavy things are:
 
-- Running code with big calculations, 
+- Running code with big calculations,
   use [the job scheduler](../cluster_guides/slurm.md) instead
 - Develop code with big calculations line-by-line,
   use [an interactive node](./cluster_guides/start_interactive_node.md) instead
@@ -90,4 +90,4 @@ flowchart TD
     either use [the job scheduler](../cluster_guides/slurm.md) or
     use [an interactive node](./cluster_guides/start_interactive_node.md)
     with more nodes than the login node has.
-    
+
