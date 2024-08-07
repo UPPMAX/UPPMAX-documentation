@@ -34,7 +34,6 @@ flowchart TD
     Rackham
     Snowy
     is_sensitive[Do you use sensitive data?]
-    is_scilifelab[Do you work at SciLifeLab?]
     is_long[Do you use long runs and/or GPUs?]
 
     UPPMAX --> is_sensitive
