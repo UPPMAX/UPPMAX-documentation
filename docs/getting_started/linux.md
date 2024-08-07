@@ -101,8 +101,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
     [bjornc@rackham3 linux_tutorial]$
     ```
 
-    - For changing info (only for advanced users!)  Does not matter for this course!:
-        - <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
+    - For changing info (only for advanced users!): <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
     - The program to run is the first word
     - All words are separated by spaces
 

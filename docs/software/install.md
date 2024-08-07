@@ -129,10 +129,8 @@ See [the UPPMAX Singularity user guide](singularity.md):
 
 Docker will unfortunately not work on the clusters, since it requires root permission.
 
-!!! info "More info"
-
-    - [Singularity user guide](../software/singularity.md)
-    - [Part from Bianca course but applicable also on Rackham](https://github.com/UPPMAX/bianca_workshop/blob/main/docs/extra/containers.md)
+However, it is possible to convert a Docker script to a [Singularity](../software/singularity.md)
+container.
 
 ## Spack
 

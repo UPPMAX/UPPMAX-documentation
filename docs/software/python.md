@@ -516,11 +516,8 @@ Python programming [here](python_programming.md)
 
 ## UPPMAX Python-related courses
 
-There are these UPPMAX courses related to Python:
-
-- [Introduction to Python](https://github.com/UPPMAX/uppmax_intro_python)
-- [1-day workshop 'Using Python in a HPC environment'](https://uppmax.github.io/HPC-python/)
-- [3-day course on Python, Julia and R](https://uppmax.github.io/R-python-julia-HPC/)
+See [the UPPMAX workshops and courses](../workshop_courses/workshop_courses.md)
+to find UPPMAX courses related to Python.
 
 ## Installing Python packages
 

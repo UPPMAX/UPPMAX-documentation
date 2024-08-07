@@ -190,10 +190,8 @@ are restricted in some ways:
 
 ???- tip "How to run custom software"
 
-    Techniques how to run custom software is *not* part of this course.
-    Instead, one technique is part of the intermediate Bianca course
-    and can be found described [here](https://uppmax.github.io/bianca_workshop/extra/containers/),
-    which is about using containers
+    Using [a Singularity container](../software/singularity.md)
+    allows you to run most custom software on any HPC cluster
 
 These restrictions apply to most general-purpose clusters
 and all UPPMAX clusters.

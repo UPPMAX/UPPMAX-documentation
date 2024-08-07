@@ -8,4 +8,6 @@ One level up in the file system, /sw/data/KGP/regional holds sequence data for s
 
 Users interesting in any of this data should request membership
 in the "KGP" group (via `support@uppmax.uu.se`).
-This requirement is not intended to restrict the resource in any way but makes it easier to inform interested users of possible changes. Considering the large storage space used, it is possible that the data would need to be reorganized or possibly even reduced in the future, depending of course on the perceived need for the resource by the members of the KGP group.
+This requirement is not intended to restrict the resource in any way,
+but makes it easier to inform interested users of possible changes.
+Considering the large storage space used, it is possible that the data would need to be reorganized or possibly even reduced in the future, depending of course on the perceived need for the resource by the members of the KGP group.

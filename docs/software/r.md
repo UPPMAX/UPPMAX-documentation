@@ -163,7 +163,8 @@ See [the UPPMAX page about RStudio](rstudio.md) on how to use.
 
 !!! tip "Installing R packages on Bianca"
 
-    - Presently we refer to our [Bianca course section about installing R packages](https://uppmax.github.io/bianca_workshop/extra/rpackages/)
+    If a package is unavailable on Bianca, 
+    one can [create a Singularity container for R packages](../software/create_singularity_container_for_r_packages.md)
 
 First load `R_packages` to make sure that the package is not already installed!
 

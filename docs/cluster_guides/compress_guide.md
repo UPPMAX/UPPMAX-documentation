@@ -1,6 +1,8 @@
 # Brief compression guide
 
-To avoid filling up the storage at UPPMAX, we all users to do their part and store their files in a good way. The best way to store files is of course to delete everything you don't need anymore, like temporary and intermediate files. For everything else you need to keep, here are some useful commands to know (section about biological data below).
+To avoid filling up the storage at UPPMAX, we all users to do their part and store their files in a good way.
+The best way to store files is to delete everything you don't need anymore,
+like temporary and intermediate files. For everything else you need to keep, here are some useful commands to know (section about biological data below).
 
 ## General files
 

@@ -113,7 +113,7 @@ rsync -avh my_user@rackham.uppmax.uu.se:path/my_files ~/sens2023531/
 * You can use transit to transfer data between projects
   by mounting the wharfs for the different projects
   and transferring data with `rsync`.
-* Note that you may of course only do this if this is allowed
+* Note that you may only do this if this is allowed
   (agreements, permissions, etc.)
 
 ## Mounting `wharf` on your local computer

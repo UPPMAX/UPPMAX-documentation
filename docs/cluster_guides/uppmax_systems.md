@@ -115,17 +115,16 @@ are restricted in some ways:
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation to run is part of this course
-    and is described [here](slurm.md).
+    Requesting a calculation to run is described
+    [here](../cluster_guides/slurm.md).
     This is done by using the SLURM scheduler.
 
 ???- tip "Requesting an interactive node"
 
-    Requesting an interactive node is part of this course
-    and is described [here](../getting_started/login_bianca.md).
+    Requesting an interactive node is described
+    [here](../cluster_guides/start_interactive_node.md).
     This is done by requesting an interactive node
     from the SLURM scheduler.
-
 
 - Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
@@ -133,16 +132,13 @@ are restricted in some ways:
 
 ???- tip "Using pre-installed software"
 
-    Using pre-installed software is part of this course
-    and is described [here](modules.md).
+    Using pre-installed software is described [here](modules.md).
     This is done by using the module system.
 
 ???- tip "How to run custom software"
 
-    Techniques how to run custom software is *not* part of this course.
-    Instead, one technique is part of the intermediate Bianca course
-    and can be found described [here](../software/containers.md),
-    which is about using containers
+    One can use [Singularity containers](../software/containers.md)
+    to run software on an HPC cluster.
 
 These restrictions apply to most general-purpose clusters.
 However, Bianca is a **sensitive data** cluster, to which
@@ -160,8 +156,7 @@ due to which there are these additional restrictions to users:
 
 ???- tip "File transfer"
 
-    Transferring file is part of this course and is described [here](file_transfer.md).
-    This is done using
+    Transferring file is described [here](file_transfer.md).
 
 The goal is *not* to prevent the up/download of sensitive data,
 instead it is to prevent the *accidental* up/download of sensitive data.
@@ -183,7 +178,7 @@ There are three types of nodes:
 
 ???- tip "Logging in"
 
-    Logging in is part of this course and is described [here](../getting_started/login_bianca.md).
+    Logging in is described [here](../getting_started/login_bianca.md).
 
 - **calculation nodes**: nodes that do the calculations
 
