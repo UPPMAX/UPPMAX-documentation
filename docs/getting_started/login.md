@@ -44,7 +44,7 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
     If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
 
-Other things to log in to, shown for completess:
+Other things to log in to, shown for completeness:
 
 - [Login to Dardel](login_dardel.md) (this is not an UPPMAX cluster)
 - [Login to Transit](../cluster_guides/login_transit.md) (this is an UPPMAX service, not a cluster)
