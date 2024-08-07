@@ -8,6 +8,19 @@ One needs to be allowed to use Snowy.
 To make Snowy do a calculation, one needs to log in to a Rackham login node,
 which is described [here](../getting_started/login_rackham.md).
 
+After login, you will be on a [login node](../cluster_guides/login_node.md).
+
+!!! note "How to behave on a login node"
+
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
+
+    If you need to do more intense calculations,
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
+
+    If you need to do more intense calculations interactively,
+    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
+
 After logging in, one can
 
 - [Start a batch job using Snowy resources](../cluster_guides/slurm.md)

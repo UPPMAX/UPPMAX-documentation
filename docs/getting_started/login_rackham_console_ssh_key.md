@@ -39,15 +39,7 @@ Type your UPPMAX password.
 
 ## 4. You are in
 
-Enjoy! You are in! To be precise, you are on a Rackham login node.
-
-In a Rackham console environment:
-
-- Text display is limited to 50kBit/s.
-  This means that if you create a lot of text output,
-  you will have to wait some time before you get your prompt back.
-- Cut, copy and paste work as usual.
-  Be careful to not copy-paste sensitive data!
+Enjoy! You are in! To be precise, you are on a Rackham [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -59,3 +51,11 @@ In a Rackham console environment:
 
     If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
+
+In a Rackham console environment:
+
+- Text display is limited to 50kBit/s.
+  This means that if you create a lot of text output,
+  you will have to wait some time before you get your prompt back.
+- Cut, copy and paste work as usual.
+  Be careful to not copy-paste sensitive data!

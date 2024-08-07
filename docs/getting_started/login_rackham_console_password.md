@@ -62,7 +62,7 @@ you will be asked for your UPPMAX 2-factor authentication number.
 ## 3. You are in
 
 Enjoy! You are in! Or, to be precise,
-you are in your home folder on a Rackham login node.
+you are in your home folder on a Rackham [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -74,4 +74,3 @@ you are in your home folder on a Rackham login node.
 
     If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
-

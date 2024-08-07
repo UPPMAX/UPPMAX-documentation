@@ -57,7 +57,7 @@ The procedures can be found at:
   If you want to get rid of using a password every time, see [login to the Rackham console environment with an SSH key](login_rackham_console_ssh_key.md)
 - [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
-After login, you will be on a login node.
+After login, you will be on a [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 

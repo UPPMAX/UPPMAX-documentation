@@ -10,9 +10,24 @@ via a web browser.
 
 ## Procedure
 
+This is a simple procedure with one step.
+
 ### 1. Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
 
 In a webbrowser, go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se).
+
+After login, you will be on a [login node](../cluster_guides/login_node.md).
+
+!!! note "How to behave on a login node"
+
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
+
+    If you need to do more intense calculations,
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
+
+    If you need to do more intense calculations interactively,
+    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
 
 ## Usage
 

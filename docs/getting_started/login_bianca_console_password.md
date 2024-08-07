@@ -106,7 +106,7 @@ for example `verysecret`
 ## 4. You are in
 
 Enjoy! You are in! Or, to be precise,
-you are on the login node of your own virtual project cluster.
+you are on the [login node](../cluster_guides/login_node.md) of your own virtual project cluster.
 
 !!! note "How to behave on a login node"
 
@@ -114,10 +114,10 @@ you are on the login node of your own virtual project cluster.
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
+    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
 
 By default, this node has one core,
 hence if you need more memory or more CPU power,

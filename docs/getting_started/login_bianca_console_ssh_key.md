@@ -62,7 +62,19 @@ is the 2FA number.
 
 ## 4. You are in
 
-Enjoy! You are in! To be precise, you are on a Bianca login node.
+Enjoy! You are in! To be precise,
+you are on a Bianca [login node](../cluster_guides/login_node.md).
+
+!!! note "How to behave on a login node"
+
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
+
+    If you need to do more intense calculations,
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
+
+    If you need to do more intense calculations interactively,
+    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
 
 In a Bianca console environment:
 
@@ -71,17 +83,6 @@ In a Bianca console environment:
   you will have to wait some time before you get your prompt back.
 - Cut, copy and paste work as usual.
   Be careful to not copy-paste sensitive data!
-
-!!! note "How to behave on a login node"
-
-    On a login node, one can and should do simple things only:
-    it is a resource shared with all other users on that node.
-
-    If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
-
-    If you need to do more intense calculations interactively,
-    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
 
 ???- question "Why does one need two passwords?"
 
