@@ -16,7 +16,6 @@
 ## Other centers
 
 - [HPC2N courses](https://www.hpc2n.umu.se/events/courses)
-- [SNIC training](http://snicdocs.nsc.liu.se/wiki/Training)
 - [CodeRefinery workshops](https://coderefinery.org/workshops/upcoming/)
 - [ENCCS training events](https://enccs.se/events)
 - [ENCCS Lessons](https://enccs.se/lessons/)
