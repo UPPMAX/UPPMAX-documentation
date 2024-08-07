@@ -45,11 +45,11 @@ as is discussed in more detail there.
 **Note:** When accessing snowy from Rackhams [login nodes](../cluster_guides/login_node.md) you must always use the flag -M for all Slurm commands.
 Examples:
 
-- squeue -M snowy
-- jobinfo -M snowy
-- sbatch -M snowy slurm\_script\_file
-- scancel -u username -M snowy
-- interactive -A projectname -M snowy -p node -n 32 -t 01:00:00
+- [`squeue`](../software/squeue.md) `-M snowy`
+- [`jobinfo`](../software/jobinfo.md) `-M snowy`
+- [`sbatch`](../software/sbatch.md) `-M snowy slurm_script_file`
+- `scancel -u username -M snowy`
+- [`interactive`](../software/interactive.md) `-A projectname -M snowy -p node -n 32 -t 01:00:00`
 
 **Note:** We always recommend loading all your modules in your job script file.
 This is even more important when running on Snowy since the
