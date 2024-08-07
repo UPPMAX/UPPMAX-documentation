@@ -84,5 +84,3 @@ is that you must have a personal [UPPMAX user account](../getting_started/user_a
 Another [prerequisite for using Rackham](#prerequisites-for-using-rackham)
 is that you need to know your UPPMAX password.
 If you change it, it may take up to an hour before changes are reflected in Rackham.
-
-For advice on handling sensitive personal data correctly on Rackham, see our FAQ page.
