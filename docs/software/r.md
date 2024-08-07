@@ -164,7 +164,7 @@ See [the UPPMAX page about RStudio](rstudio.md) on how to use.
 !!! tip "Installing R packages on Bianca"
 
     If a package is unavailable on Bianca,
-    one can [create a Singularity container for R packages](../software/create_singularity_container_for_r_packages.md)
+    one can [create a Singularity container for R packages](../software/create_singularity_container_for_r_package.md)
 
 First load `R_packages` to make sure that the package is not already installed!
 
