@@ -178,9 +178,6 @@ of "automatic log out from active graphical session".
 ```mermaid
 flowchart TD
 
-    %% Give a white background, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
     subgraph sub_inside[IP inside SUNET]
 
       user(User)
@@ -195,12 +192,6 @@ flowchart TD
         end
       end
     end
-
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
 
     %% Inside SUNET
     user-->|Bianca website, UPPMAX password and 2FA|bianca_shared_remote_desktop
