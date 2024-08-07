@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Bianca
+  - remote desktop
+  - website
+  - URL
+---
+
 # Login to the Bianca remote desktop environment website
 
 There are multiple ways to [log in to Bianca](login_bianca.md).

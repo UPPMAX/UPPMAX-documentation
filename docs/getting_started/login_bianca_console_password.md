@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Bianca
+  - console
+  - terminal
+  - password
+---
+
 # Login to the Bianca console environment with a password
 
 There are multiple ways to [log in to Bianca](login_bianca.md).

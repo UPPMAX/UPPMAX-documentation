@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Rackham
+  - console
+  - terminal
+  - SSH
+---
+
 # Login to the Rackham console environment using SSH keys
 
 There are multiple ways to [log in to Rackham](login_rackham.md).

@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Rackham
+  - console
+  - terminal
+  - passwrod
+---
+
 # Login to the Rackham console environment with a password
 
 There are multiple ways to [log in to Rackham](login_rackham.md).

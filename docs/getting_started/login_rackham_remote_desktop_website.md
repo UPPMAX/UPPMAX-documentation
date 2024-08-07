@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Rackham
+  - remote desktop
+  - website
+  - URL
+---
+
 # Log in to Rackham's remote desktop via a webbrowser
 
 ![Rackham's remote desktop environment](./img/rackham_via_remote_desktop_50.jpg)

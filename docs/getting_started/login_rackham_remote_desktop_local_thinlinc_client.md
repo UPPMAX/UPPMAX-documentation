@@ -1,3 +1,14 @@
+---
+tags:
+  - login
+  - log in
+  - Rackham
+  - remote desktop
+  - local
+  - ThinLinc
+  - ThinLinc client
+---
+
 # Log in to Rackham's remote desktop environment using a local ThinLinc client
 
 ![The Rackham remote desktop environment via a local ThinLinc client](../software/img/thinlinc_local_rackham.png)

@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Bianca
+  - console
+  - terminal
+  - SSH
+---
+
 # Login to the Bianca console environment using SSH keys
 
 There are multiple ways to [log in to Bianca](login_bianca.md).
