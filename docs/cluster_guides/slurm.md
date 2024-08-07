@@ -48,7 +48,7 @@ flowchart TD
     end
   end
 
-  login_node --> |move user, interative|interactive_node
+  login_node --> |move user, interactive|interactive_node
   login_node ==> |submit jobs, sbatch|computation_node
   computation_node -.-> |can become| interactive_node
 ```

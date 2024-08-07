@@ -179,7 +179,7 @@ Each computer of a cluster is called a **node**.
 
 There are three types of nodes:
 
-- **login nodes**: nodes where a user enters and interacts with the system
+- **[login nodes](../cluster_guides/login_node.md)**: nodes where a user enters and interacts with the system
 
 ???- tip "Logging in"
 
@@ -205,7 +205,7 @@ There are three types of nodes:
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
-A user logs in to a login node via the Internet.
+A user logs in to a [login node](../cluster_guides/login_node.md) via the Internet.
 
 
 ## Summary

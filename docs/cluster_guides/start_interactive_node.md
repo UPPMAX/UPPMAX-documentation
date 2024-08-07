@@ -21,7 +21,7 @@ The UPPMAX HPC clusters have three types of nodes:
 
     What nodes are, is described in general terms [here](uppmax_cluster.md).
 
-- **login nodes**: nodes where a user enters and interacts with the system
+- **[login nodes](../cluster_guides/login_node.md)**: nodes where a user enters and interacts with the system
 - **calculation nodes**: nodes that do the calculations
 
 ???- tip "Requesting a calculation to run"
@@ -36,7 +36,7 @@ The UPPMAX HPC clusters have three types of nodes:
 
     In a terminal, type `hostname`:
 
-    - the login node has name `rackham[number]`, where `[number]` is the number of the login node
+    - the [login node](../cluster_guides/login_node.md) has name `rackham[number]`, where `[number]` is the number of the login node
     - an interactive node has name `r[number]`, where `[number]` is the compute node number
 
 As a login is shared with all users,
@@ -75,7 +75,6 @@ with such code: use an interactive node.
 
 An interactive node is a type of calculation node,
 where one can run heavy calculations directly.
-
 
 ```mermaid
 flowchart TD

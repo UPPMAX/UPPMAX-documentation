@@ -14,7 +14,8 @@ basic Linux knowledge to use Snowy.
 
 Additionally, Snowy has GPUs and allows for jobs running for maximally 30 days.
 
-Snowy does not have a login node. Instead, it uses a login node on [Rackham](rackham.md).
+Snowy does not have a [login node](../cluster_guides/login_node.md).
+Instead, it uses a login node on [Rackham](rackham.md).
 
 ???- tip "Using Linux"
 

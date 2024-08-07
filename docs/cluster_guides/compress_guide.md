@@ -8,7 +8,9 @@ We have several compression programs installed and you are free to chose whichev
 
 ### gzip (fast, good compression)
 
-gzip also has a parallel version (pigz) that will let the program use multiple cores, making it much faster. If you want to run multithreaded you should make a reservation in the queue system, as the login nodes will throttle your programs if they use too much resources.
+gzip also has a parallel version (pigz) that will let the program use multiple cores, making it much faster.
+If you want to run multithreaded you should make a reservation in the queue system,
+as the [login nodes](../cluster_guides/login_node.md) will throttle your programs if they use too much resources.
 
 ```bash
 # compress a file
@@ -21,7 +23,9 @@ $ unpigz -p 4 file.txt     # using 4 threads (4 is max)
 
 ### bzip2 (slow, better compression)
 
-bzip2 also has a parallel version (pbzip2) that will let the program use multiple cores, making it much faster. If you want to run multithreaded you should make a reservation in the queue system, as the login nodes will throttle your programs if they use too much resources.
+bzip2 also has a parallel version (pbzip2) that will let the program use multiple cores, making it much faster.
+If you want to run multithreaded you should make a reservation in the queue system,
+as the [login nodes](../cluster_guides/login_node.md) will throttle your programs if they use too much resources.
 
 ```bash
 # compress a file
@@ -34,7 +38,9 @@ $ pbunzip2 -p4 file.txt.gz  # using 4 threads
 
 ### zstd (fast, better compression)
 
-zstd has built in support for using multiple threads when compressing data only, making it much faster. If you want to run multithreaded you should make a reservation in the queue system, as the login nodes will throttle your programs if they use too much resources.
+zstd has built in support for using multiple threads when compressing data only, making it much faster.
+If you want to run multithreaded you should make a reservation in the queue system,
+as the [login nodes](../cluster_guides/login_node.md) will throttle your programs if they use too much resources.
 
 ```bash
 # compress a file

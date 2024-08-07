@@ -14,8 +14,9 @@ Snowy is one of the [UPPMAX clusters](uppmax_cluster.md).
 ## Accounts and log in
 
 Snowy is different from other clusters at UPPMAX in that
-there are no login nodes for Snowy.
-All access to this system is done via secure shell (a.k.a [SSH](../software/ssh.md)) interactive login to the login node,
+there are no [login nodes](../cluster_guides/login_node.md) for Snowy.
+All access to this system is done via secure shell
+(a.k.a [SSH](../software/ssh.md)) interactive login to the login node,
 using the domain name **rackham.uppmax.uu.se**
 
 ```bash
@@ -28,7 +29,8 @@ on how to get a user account.
 For questions concerning accounts and access to [Rackham](rackham.md) and [Snowy](snowy.md),
 please contact [UPPMAX support](../support.md).
 
-Note that the machine you arrive at when logged in is only a so called login node, where you can do various smaller tasks.
+Note that the machine you arrive at when logged in,
+is only a so called [login node](../cluster_guides/login_node.md), where you can do various smaller tasks.
 We have [some limits](../cluster_guides/login_node_restrictions.md) in place that restricts your usage.
 For larger tasks you should use our batch system that pushes your jobs onto other machines within the cluster.
 
@@ -40,7 +42,7 @@ To allow a fair and efficient usage of the system we use a resource manager to c
 On Snowy we use [the Slurm resource manager](../cluster_guides/slurm.md),
 as is discussed in more detail there.
 
-**Note:** When accessing snowy from Rackhams login nodes you must always use the flag -M for all Slurm commands.
+**Note:** When accessing snowy from Rackhams [login nodes](../cluster_guides/login_node.md) you must always use the flag -M for all Slurm commands.
 Examples:
 
 - squeue -M snowy
@@ -49,7 +51,11 @@ Examples:
 - scancel -u username -M snowy
 - interactive -A projectname -M snowy -p node -n 32 -t 01:00:00
 
-**Note:** We always recommend loading all your modules in your job script file, This is even more important when running on Snowy since the module environment is not the same on the Rackham login nodes as on Snowy compute nodes.
+**Note:** We always recommend loading all your modules in your job script file.
+This is even more important when running on Snowy since the
+[module environment](../cluster_guides/modules.md)
+is not the same on the Rackham [login nodes](../cluster_guides/login_node.md)
+as on Snowy compute nodes.
 
 ### Some Limits
 
@@ -128,7 +134,8 @@ basic Linux knowledge to use Snowy.
 
 Additionally, Snowy has GPUs and allows for jobs running for maximally 30 days.
 
-Snowy does not have a login node. Instead, it uses a login node on [Rackham](rackham.md).
+Snowy does not have a [login node](../cluster_guides/login_node.md).
+Instead, it uses a login node on [Rackham](rackham.md).
 
 ???- tip "Using Linux"
 

@@ -1,13 +1,14 @@
 # How to run interactively on a compute node?
 
-You may want to run an interactive application on one or several compute nodes. You may want to use one or several compute nodes as a development workbench, interactively. How can this be arranged?
+You may want to run an interactive application on one or several compute nodes.
+You may want to use one or several compute nodes as a development workbench, interactively. How can this be arranged?
 The program interactive may be what you are looking for.
 
 The best way to use the command is usually to add as few parameters as possible, because the interactive command tries to find an optimal solution to give you a high queue priority and thus a quick job start. If you have a clear idea about what parameters you need, please specify them, otherwise it might be a good idea to first see what you get with fewer parameters.
 
 The one parameter you must always specify is the project name. Let's assume for this article that your project name is p2010099.
 
-To get one compute core with the proportional amount of RAM, we recommend you to use the most simple command on the login node for the cluster you want to use:
+To get one compute core with the proportional amount of RAM, we recommend you to use the most simple command on the [login node](../cluster_guides/login_node.md) for the cluster you want to use:
 
 ```bash
 interactive -A p2010099
