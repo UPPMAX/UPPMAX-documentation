@@ -61,7 +61,7 @@ Click on 'Remote builder'.
 
     Click here:
 
-    ![](sylabs_container_services_logged_in_click_remote_builder.png)
+    ![Here is where you can click on 'Remote builder'](sylabs_container_services_logged_in_click_remote_builder.png)
 
 ### 5. Setup the remote builder
 
@@ -71,7 +71,7 @@ The remote builder shows a Singularity script and some default settings.
 
     The remote builder's default settings look similar to this:
 
-    ![](sylabs_remote_builder_first_content.png)
+    ![The remote builder's default settings](sylabs_remote_builder_first_content.png)
 
 Make the following changes:
 
