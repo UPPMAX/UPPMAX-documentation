@@ -1,3 +1,9 @@
+---
+tags:
+  - FileZilla
+  - Bianca
+---
+
 # File transfer to/from Bianca using FileZilla
 
 ![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
