@@ -74,7 +74,7 @@ module spider MultiQC/1.22.2
           
           
           Version 1.22.2 is installed using python/3.8.7
-    ```      
+    ```
 
 After reading that documentation, we know how to load it:
 

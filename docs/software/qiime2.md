@@ -76,7 +76,7 @@ qiime2: qiime2/2024.2
       
       This is because qiime2 is running within an Apptainer container. This message can be ignored.
       
-    ```      
+    ```
 
 After reading that documentation, we know how to load it:
 
