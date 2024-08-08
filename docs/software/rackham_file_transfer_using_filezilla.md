@@ -1,11 +1,6 @@
 # File transfer to/from Rackham using FileZilla
 
-Data transfer to/from Rackham using a graphical tool
-is one of the ways to transfer files to/from Rackham
-
-???- question "What are the other ways?"
-
-    Other ways to transfer data to/from Rackham are described [here](../cluster_guides/transfer_rackham.md)
+There are multiple ways to [transfer data to/from Rackham](../cluster_guides/transfer_rackham.md).
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
 
@@ -13,7 +8,7 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 
 > FileZilla connected to Rackham
 
-## Using FileZilla
+## Procedure
 
 ![FileZilla logo, from https://en.wikipedia.org/wiki/FileZilla#/media/File:FileZilla_logo.svg](./img/filezilla_logo_240_x_240.png)
 
@@ -27,10 +22,17 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
-To transfer files to/from Rackham using FileZilla, do:
+To transfer files to/from Rackham using FileZilla, do
+the following steps:
 
-- Start FileZilla
-- From the menu, select 'File | Site manager'
+
+### 1. Start FileZilla
+
+Start FileZilla.
+
+### 2. Start FileZilla's site manager
+
+From the menu, select 'File | Site manager'
 
 ???- tip "Where is that?"
 
@@ -40,7 +42,9 @@ To transfer files to/from Rackham using FileZilla, do:
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
-- Click 'New site'
+### 3. Add a new site in FileZilla's site manager
+
+In FileZilla's site manager, click 'New site'
 
 ???- tip "Where is that?"
 
@@ -48,8 +52,12 @@ To transfer files to/from Rackham using FileZilla, do:
 
     ![The FileZilla Site Manager](./img/filezilla_site_manager.png)
 
-- Create a name for the site, e.g. `rackham`.
-- For that site, use all standards, except:
+### 4. Setup the site
+
+In FileZilla's site manager:
+
+- create a name for the site, e.g. `rackham`.
+- for that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `rackham.uppmax.uu.se`
     - Set user to `[username]`, e.g. `richel`
@@ -60,16 +68,23 @@ To transfer files to/from Rackham using FileZilla, do:
 
     ![FileZilla configured for Rackham](./img/filezilla_setup_rackham_richel.png)
 
-- Click 'Connect'
-- You will be asked for your password, hence
-  type `[your password]`, e.g. `VerySecret`.
-  You can save the password.
+### 5. Connect to the site
+
+Click 'Connect'.
+
+### 6. Fill in your password
+
+You will be asked for your password, hence
+type `[your password]`, e.g. `VerySecret`.
+You can save the password.
 
 ???- tip "How does that look like?"
 
     It looks similar to this:
 
     ![FilleZilla asks for a password](./img/filezilla_enter_password_rackham.png)
+
+### 7. Ready to transfer files
 
 Now you can transfer files between your local computer and Rackham.
 
@@ -78,62 +93,3 @@ Now you can transfer files between your local computer and Rackham.
     It looks like this:
 
     ![FileZilla is connected to Rackham](./img/filezilla_login_to_rackham.png)
-
-## Extra material
-
-### WinSCP
-
-WinSCP is a secure file transfer tool that works under Windows.
-
-To transfer files to/from Rackham using WinSCP, do:
-
-- Start WinSCP
-- Create a new site
-- For that site, use all standards, except:
-    - Set file protocol to 'SFTP'
-    - Set host name to `rackham.uppmax.uu.se`
-    - Set user name to `[username]`, e.g. `richel`
-
-### File transfer overview
-
-```mermaid
-flowchart TD
-
-    %% Give a white background to all nodes, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
-    %% Graph nodes for files and calculations
-    classDef file_node fill:#fcf,color:#000,stroke:#f0f
-    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
-
-    user(User)
-      user_local_files(Files on user computer):::file_node
-
-    subgraph sub_inside[SUNET]
-      subgraph sub_rackham_shared_env[Rackham]
-          login_node(login/calculation/interactive node):::calculation_node
-          files_in_rackham_home(Files in Rackham home folder):::file_node
-      end
-    end
-
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_rackham_shared_env fill:#ffc,color:#000,stroke:#ffc
-
-    user --> |logs in |login_node
-    user --> |uses| user_local_files
-
-    login_node --> |can use|files_in_rackham_home
-    user_local_files <==> |graphical tool|files_in_rackham_home
-    %% user_local_files <--> |SCP|files_in_rackham_home
-    %% user_local_files <--> |SFTP|files_in_rackham_home
-
-    %% Aligns nodes prettier
-    user_local_files ~~~ login_node
-```
-
-> Overview of file transfer on Rackham
-> The purple nodes are about file transfer,
-> the blue nodes are about 'doing other things'.
-> The user can be either inside or outside SUNET.
