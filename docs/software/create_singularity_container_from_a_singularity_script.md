@@ -1,49 +1,103 @@
-# Create a Singularity container for an R package
+# Create a Singularity container from a Singularity script
 
-This page shows how to create a Singularity container for an R package.
+This page shows how to create a Singularity container from a Singularity script.
 
-Although the `R_Packages` [module](../cluster_guides/modules.md)
-has thousands of packages, sometimes you need a package from GitHub.
-
-## Procedure
+## Procedures
 
 ???- question "Prefer a video?"
 
-    See the video ['Create a Singularity container for an R package on GitHub'](https://youtu.be/QKEXqgEiEB0)
+    See the video ['Create a Singularity container from a Singularity script'](absent_on_purpose)
 
-The hardest part of this procedure may be to have
-Linux with Singularity installed on a computer where you have
-super-user rights.
+There are two procedures:
 
-The most important things for creating a Singularity container
-is to start with a good container.
+- using a website
+- using a computer with Linux where you have super-user rights
 
-## 1. Create a Singularity script
+Using a website is easiest for Mac and Windows users.
 
-Create a file called `Singularity` (this is the recommended filename
-for Singularity scripts) with the following content:
+Using a computer with Linux where you have super-user rights
+is harder for Mac and Windows users. Note that users
+have no super-user rights on our UPPMAX clusters.
 
-```singularity
-Bootstrap: docker
-From: rocker/tidyverse
+## Procedure 1: using a website
 
-%post
-    # From https://github.com/brucemoran/Singularity/blob/8eb44591284ffb29056d234c47bf8b1473637805/shub/bases/recipe.CentOs7-R_3.5.2#L21
-    echo 'export LANG=en_US.UTF-8 LANGUAGE=C LC_ALL=C LC_CTYPE=C LC_COLLATE=C  LC_TIME=C LC_MONETARY=C LC_PAPER=C LC_MEASUREMENT=C' >> $SINGULARITY_ENVIRONMENT
+### 1.1. Login to Syslabs
 
-    Rscript -e 'install.packages(c("remotes", "devtools"))'
-    Rscript -e 'remotes::install_github("bmbolstad/preprocessCore")'
+Log in to <https://www.sylabs.io/>. 
 
-%runscript
-Rscript "$@"
+### 1.2. Go to the remote builder
+
+- First, we need to sign in to the sylabs remote builder,
+  available at [https://cloud.sylabs.io](https://cloud.sylabs.io). It allows sign in through various providers (currently Google, Microsoft, GitHub, GitLab). If you don't have an account with one of these, at least one of them is likely to offer free registration.
+
+### 1.3 Create a project
+
+- Once signed in, we want to create a project for this software, so we click on "Singularity Library" in the top menu and select "Create a new project", set ourselves as owner and enter sortmerna as project name. We also select to make images for this project public.
+
+### 1.3. Paste the script
+
+- Once we click onward, we can create our first image for the project. This can be done either by pushing an image from a client (commands are given) or by building in the cloud service.
+- Since we want to use the cloud service, we click remote builder and get a box to fill in an image recipe. We also get a box to enter a tag or version and the possibility to enter a description.
+- As we'll create an image for the currently latest release version (3.0.3), we enter 3.0.3 in the  tag field.
+
+- We paste that recipe in the box (or upload a file with it)
+
+### 1.4. Let the container be built
+
+- Click build. The service will try to find an available builder and It will work for a while. Output from the build process will be displayed in a console window on the same page.
+
+- Hopefully the build completes successfully (a notification is shown and build status is updated). We can when go to the the projects through the drop-down with our user name in the upper right corner, select "My projects", select the sortmerna project.
+
+- Once on the project view, we select the tab "Images" to see what images we have built. We see that we have an image tagged 3.0.3 and are given the option to download the image file through the web browser as well as commands to let singularity pull it.
+
+### 1.5. Download the container
+
+There are multiple ways to download your Singularity container:
+
+- Download from the website
+- Use a `singularity pull`
+
+For example:
+
+```bash
+$ singularity pull library://pontus/default/sortmerna:3.0.3
+WARNING: Authentication token file not found : Only pulls of public images will succeed
+INFO:    Downloading library image
+ 65.02 MiB / 65.02 MiB [=========================================================================================================================================] 100.00% 30.61 MiB/s 2s
 ```
 
+### 1.6. Use the container
 
-This example script installs the R package hosted on GitHub at
-[https://github.com/bmbolstad/preprocessCore](https://github.com/bmbolstad/preprocessCore).
-Replace the R package to suit your needs.
+See ['Using the container' below](#using-the-container) for some
+help on how to use your Singularity container.
 
-## 2. Build the Singularity container
+## Procedure 2: using a computer with Linux where you have super-user rights
+
+### 2.1. Save the script to a Singularity file
+
+Save the script as a file called `Singularity` (this is the recommended filename
+for Singularity scripts).
+
+???- question "Do you have an example Singularity script?"
+
+    Yes! Here is an example Singularity script:
+
+    ```singularity
+    Bootstrap: docker
+    From: rocker/tidyverse
+
+    %post
+        # From https://github.com/brucemoran/Singularity/blob/8eb44591284ffb29056d234c47bf8b1473637805/shub/bases/recipe.CentOs7-R_3.5.2#L21
+        echo 'export LANG=en_US.UTF-8 LANGUAGE=C LC_ALL=C LC_CTYPE=C LC_COLLATE=C  LC_TIME=C LC_MONETARY=C LC_PAPER=C LC_MEASUREMENT=C' >> $SINGULARITY_ENVIRONMENT
+
+        Rscript -e 'install.packages(c("remotes", "devtools"))'
+        Rscript -e 'remotes::install_github("bmbolstad/preprocessCore")'
+
+    %runscript
+    Rscript "$@"
+    ```
+
+### 2.2. Build the Singularity container
 
 Here is how you create a Singularity container called `my_container.sif` from the Singularity script:
 
@@ -228,43 +282,31 @@ Which will build a Singularity container called `my_container.sif`.
     INFO:    Build complete: my_container.sif
     ```
 
-## 3. Create an R script for the container to use
+### 2.3. Use the container
 
-Here we create an R script of the container to use.
+See ['Using the container' below](#using-the-container) for some
+help on how to use your Singularity container.
 
-Here is such an example R script, that prints the contents of the
-`preprocessCore::colSummarizeAvgLog` function:
+## Using the container
 
-```r
-preprocessCore::colSummarizeAvgLog
-```
+How to use a container, depends on what it does.
 
-Save this R script, for example, as `my_r_script.R`.
+Here are some thing to try:
 
-## 4. Use the Singularity container on an R script
-
-Run the container on the R script:
+Run the container without arguments, in the hope of getting a clear error message with instructions:
 
 ```bash
-./my_container.sif my_r_script.R
+./my_container.sif
 ```
 
-???- question "How does that look like?"
+Run the container in the hope of seeing its documentation:
 
-    You output will be similar to this:
+```bash
+./my_container.sif --help
+```
 
-    ```bash
-    richel@richel-N141CU:~/temp$ ./my_container.sif my_r_script.R
-    function (y) 
-    {
-        if (!is.matrix(y)) 
-            stop("argument should be matrix")
-        if (!is.double(y) & is.numeric(y)) 
-            y <- matrix(as.double(y), dim(y)[1], dim(y)[2])
-        else if (!is.numeric(y)) 
-            stop("argument should be numeric matrix")
-        .Call("R_colSummarize_avg_log", y, PACKAGE = "preprocessCore")
-    }
-    <bytecode: 0x62d460a4d470>
-    <environment: namespace:preprocessCore>
-    ```
+Run the container on the local folder, in the hope of getting a clear error message with instructions:
+
+```bash
+./my_container.sif .
+```
