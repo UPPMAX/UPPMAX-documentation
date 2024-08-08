@@ -21,52 +21,151 @@ have no super-user rights on our UPPMAX clusters.
 
 ## Procedure 1: using a website
 
-### 1.1. Login to Syslabs
+### 1.1. Go to to Sylabs website
 
-Log in to <https://www.sylabs.io/>. 
+Go to [the Sylabs website](https://www.sylabs.io/)
 
-### 1.2. Go to the remote builder
+???- question "How does that look like?"
 
-- First, we need to sign in to the sylabs remote builder,
-  available at [https://cloud.sylabs.io](https://cloud.sylabs.io). It allows sign in through various providers (currently Google, Microsoft, GitHub, GitLab). If you don't have an account with one of these, at least one of them is likely to offer free registration.
+    The Sylabs website looks similar to this:
 
-### 1.3 Create a project
+    ![The Sylabs website](./img/sylabs_select_container_services.png)
 
-- Once signed in, we want to create a project for this software, so we click on "Singularity Library" in the top menu and select "Create a new project", set ourselves as owner and enter sortmerna as project name. We also select to make images for this project public.
+### 1.2. Got to the Syslabs Singularity Container Services website
 
-### 1.3. Paste the script
+On [the Sylabs website](https://www.sylabs.io/),
+click 'Products | Singularity Container Services'
 
-- Once we click onward, we can create our first image for the project. This can be done either by pushing an image from a client (commands are given) or by building in the cloud service.
-- Since we want to use the cloud service, we click remote builder and get a box to fill in an image recipe. We also get a box to enter a tag or version and the possibility to enter a description.
-- As we'll create an image for the currently latest release version (3.0.3), we enter 3.0.3 in the  tag field.
+???- question "Where to click?"
 
-- We paste that recipe in the box (or upload a file with it)
+    Click here:
 
-### 1.4. Let the container be built
+    ![The Sylabs website](./img/sylabs_select_container_services.png)
 
-- Click build. The service will try to find an available builder and It will work for a while. Output from the build process will be displayed in a console window on the same page.
+You will be takes to the 'Singularity Container Services'.
 
-- Hopefully the build completes successfully (a notification is shown and build status is updated). We can when go to the the projects through the drop-down with our user name in the upper right corner, select "My projects", select the sortmerna project.
+???- question "How does that look like?"
 
-- Once on the project view, we select the tab "Images" to see what images we have built. We see that we have an image tagged 3.0.3 and are given the option to download the image file through the web browser as well as commands to let singularity pull it.
+    The Singularity Container Services website looks similar to this:
 
-### 1.5. Download the container
+    ![The Singularity Container Services website](./img/sylabs_container_services_not_logged_in.png)
+
+### 1.3. Sign in or sign up
+
+At the 'Singularity Container Services' website, click 'Sign Up' or 'Sign In'
+
+???- question "How does signing in look like?"
+
+    Signing in looks similar to this:
+
+    ![Signing in to the Singularity Container Services](./img/sylabs_sign_in.png)
+
+You are now logged in at the 'Singularity Container Services':
+
+???- question "How does that look like?"
+
+    The Singularity Container Services looks similar to this after logging in:
+
+    ![Logged in](img/sylabs_container_services_logged_in.png)
+
+### 1.4. Go to the remote builder
+
+Click on 'Remote builder'.
+
+???- question "Where to click?"
+
+    Click here:
+
+    ![](sylabs_container_services_logged_in_click_remote_builder.png)
+
+### 1.5. Setup the remote builder
+
+The remote builder shows a Singularity script and some default settings.
+
+???- question "How does that look like?"
+
+    The remote builder's default settings look similar to this:
+
+    ![](sylabs_remote_builder_first_content.png)
+
+Make the following changes:
+
+- paste your Singularity script in the text box
+- change `Repository` to a valid name (as indicated), for example, as `default/my_container`
+
+???- question "How does that look like?"
+
+    The remote builder with modified values looks similar to this:
+
+    ![Filled in values](sylabs_click_submit_build.png)
+
+### 1.6. Let the container be built
+
+Click 'Submit Build'.
+
+???- question "Where to click?"
+
+    Click here:
+
+    ![Click 'Submit Build'](sylabs_click_submit_build.png)
+
+The building wil start.
+
+???- question "How does that look like?"
+
+    A build that has just started looks similar to this:
+
+    ![Building in progress](sylabs_view_remote_build_in_progress.png)
+
+After a while the building will be done.
+
+???- question "How does that look like?"
+
+    A build that has finished looks similar to this:
+
+    ![Building done](sylabs_view_remote_build_done.png)
+
+### 1.7. Download the container
 
 There are multiple ways to download your Singularity container:
 
-- Download from the website
+- Download from the website: click on 'View image',
+  then scroll down and click 'Download'
+
+???- question "How does that look like?"
+
+    Click on 'View image' here:
+
+    ![Click on 'View image'](sylabs_remote_builder_click_view_image.png)
+
+    The 'View image' page looks similar to this:
+
+    ![View image](sylabs_view_image.png)
+
+    At the 'View image' page, scroll down to find the 'Download' button:
+
+    ![View image and click on Download](sylabs_view_image_download.png)
+
 - Use a `singularity pull`
 
 For example:
 
 ```bash
-$ singularity pull library://pontus/default/sortmerna:3.0.3
-WARNING: Authentication token file not found : Only pulls of public images will succeed
-INFO:    Downloading library image
- 65.02 MiB / 65.02 MiB [=========================================================================================================================================] 100.00% 30.61 MiB/s 2s
-```
+singularity pull library://sven/default/my_container
+````
 
-### 1.6. Use the container
+???- question "How does that look like?"
+
+    For example:
+
+    ```bash
+    $ singularity pull library://pontus/default/sortmerna:3.0.3
+    WARNING: Authentication token file not found : Only pulls of public images will succeed
+    INFO:    Downloading library image
+     65.02 MiB / 65.02 MiB [=========================================================================================================================================] 100.00% 30.61 MiB/s 2s
+    ```
+
+### 1.8. Use the container
 
 See ['Using the container' below](#using-the-container) for some
 help on how to use your Singularity container.
