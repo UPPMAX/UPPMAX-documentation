@@ -51,7 +51,7 @@ You are now logged in at the 'Singularity Container Services':
 
     The Singularity Container Services looks similar to this after logging in:
 
-    ![Logged in](img/sylabs_container_services_logged_in.png)
+    ![Logged in](./img/sylabs_container_services_logged_in.png)
 
 ### 4. Go to the remote builder
 
@@ -61,7 +61,7 @@ Click on 'Remote builder'.
 
     Click here:
 
-    ![Here is where you can click on 'Remote builder'](sylabs_container_services_logged_in_click_remote_builder.png)
+    ![Here is where you can click on 'Remote builder'](./img/sylabs_container_services_logged_in_click_remote_builder.png)
 
 ### 5. Setup the remote builder
 
@@ -71,7 +71,7 @@ The remote builder shows a Singularity script and some default settings.
 
     The remote builder's default settings look similar to this:
 
-    ![The remote builder's default settings](sylabs_remote_builder_first_content.png)
+    ![The remote builder's default settings](./img/sylabs_remote_builder_first_content.png)
 
 Make the following changes:
 
@@ -82,7 +82,7 @@ Make the following changes:
 
     The remote builder with modified values looks similar to this:
 
-    ![Filled in values](sylabs_click_submit_build.png)
+    ![Filled in values](./img/sylabs_click_submit_build.png)
 
 ### 6. Let the container be built
 
@@ -92,7 +92,7 @@ Click 'Submit Build'.
 
     Click here:
 
-    ![Click 'Submit Build'](sylabs_click_submit_build.png)
+    ![Click 'Submit Build'](./img/sylabs_click_submit_build.png)
 
 The building wil start.
 
@@ -100,7 +100,7 @@ The building wil start.
 
     A build that has just started looks similar to this:
 
-    ![Building in progress](sylabs_view_remote_build_in_progress.png)
+    ![Building in progress](./img/sylabs_view_remote_build_in_progress.png)
 
 After a while the building will be done.
 
@@ -108,7 +108,7 @@ After a while the building will be done.
 
     A build that has finished looks similar to this:
 
-    ![Building done](sylabs_view_remote_build_done.png)
+    ![Building done](./img/sylabs_view_remote_build_done.png)
 
 ### 7. Download the container
 
@@ -121,15 +121,15 @@ There are multiple ways to download your Singularity container:
 
     Click on 'View image' here:
 
-    ![Click on 'View image'](sylabs_remote_builder_click_view_image.png)
+    ![Click on 'View image'](./img/sylabs_remote_builder_click_view_image.png)
 
     The 'View image' page looks similar to this:
 
-    ![View image](sylabs_view_image.png)
+    ![View image](./img/sylabs_view_image.png)
 
     At the 'View image' page, scroll down to find the 'Download' button:
 
-    ![View image and click on Download](sylabs_view_image_download.png)
+    ![View image and click on Download](./img/sylabs_view_image_download.png)
 
 - Use a `singularity pull`
 
