@@ -11,4 +11,3 @@ Procedure                                                                       
 
 Note that users have no super-user rights on our UPPMAX clusters.
 
-
