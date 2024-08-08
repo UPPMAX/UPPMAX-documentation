@@ -68,9 +68,9 @@ module spider MultiQC/1.22.2
           bioinfo-tools
      
         Help:
-          	MultiQC - use MultiQC 1.22.2
+           MultiQC - use MultiQC 1.22.2
           
-          	Version 1.22.2
+           Version 1.22.2
           
           
           Version 1.22.2 is installed using python/3.8.7
