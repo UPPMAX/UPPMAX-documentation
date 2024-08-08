@@ -1,5 +1,7 @@
 # Create a Singularity container from DockerHub
 
+There are multiple ways how to [create a Singularity container](singularity.md).
+
 This page shows how to create a Singularity container from a Docker script on DockerHub.
 
 ## Procedure

@@ -165,36 +165,14 @@ singularity run ./anotherimage some parameters here
 ./yetanotherimage parameters
 ```
 
-## Example Singularity script: building a container from conda
+## Examples
 
-To build a container from a conda environment, here we demonstrate for `qiime2`
+### Building a container from conda
 
-```singularity
-BootStrap: library
-From: centos:7
+To build a container from a conda environment, see [create a Singularity container from conda](create_singularity_container_from_conda.md)
+how to do so.
 
-%runscript
-  . /miniconda/etc/profile.d/conda.sh
-  PATH=$PATH:/miniconda/bin
-  conda activate qiime2-2019.7
-  qiime "$@"
-
-%post
-  yum clean all
-  yum -y update
-  yum -y install wget python-devel
-  cd /tmp
-  wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
-  bash ./Miniconda2-latest-Linux-x86_64.sh -b -p /miniconda
-  /miniconda/bin/conda update -y conda
-  wget https://data.qiime2.org/distro/core/qiime2-2019.7-py36-linux-conda.yml
-  /miniconda/bin/conda env create -n qiime2-2019.7 --file qiime2-2019.7-py36-linux-conda.yml
-  # OPTIONAL CLEANUP
-  rm qiime2-2019.7-py36-linux-conda.yml
-  /miniconda/bin/conda clean -a
-```
-
-## Example Singularity script: building a container with an R package from GitHub
+### Building a container with an R package from GitHub
 
 Although the `R_Packages` [module](../cluster_guides/modules.md)
 has thousands of packages, sometimes you need a package from GitHub.
@@ -202,13 +180,14 @@ has thousands of packages, sometimes you need a package from GitHub.
 See [create a Singularity container for an R package](create_singularity_container_for_r_package.md)
 how to do so.
 
-## Example Singularity script: building a container from DockerHub
+
+### Building a container from DockerHub
 
 If there is a Docker script on DockerHub,
 it can be put into a Singularity container as described [here](create_singularity_container_from_dockerhub.md)
 how to do so.
 
-## Example Singularity script: building a container from a `docker pull`
+### Building a container from a `docker pull`
 
 If the documentation of what you need mentions a `docker pull` to install it,
 it can be put into a Singularity container as described [here](create_singularity_container_from_docker_pull.md)

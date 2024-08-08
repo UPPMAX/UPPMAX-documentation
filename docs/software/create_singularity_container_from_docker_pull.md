@@ -1,5 +1,7 @@
 # Create a Singularity container from a Docker pull
 
+There are multiple ways how to [create a Singularity container](singularity.md).
+
 This page shows how to create a Singularity container from a Docker pull,
 such as this one (from [here](https://github.com/lycheeverse/lychee?tab=readme-ov-file#docker))
 

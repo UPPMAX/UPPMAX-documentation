@@ -1,5 +1,7 @@
 # Create a Singularity container from a Singularity script
 
+There are multiple ways how to [create a Singularity container](singularity.md).
+
 This page shows how to create a [Singularity](singularity.md) container from a Singularity script.
 
 These are the procedures:

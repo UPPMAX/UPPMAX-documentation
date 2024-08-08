@@ -1,5 +1,7 @@
 # Create a Singularity container for an R package
 
+There are multiple ways how to [create a Singularity container](singularity.md).
+
 This page shows how to create a Singularity container for an R package.
 
 Although the `R_Packages` [module](../cluster_guides/modules.md)
