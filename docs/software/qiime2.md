@@ -44,38 +44,38 @@ module spider qiime2/1.22.2
     Output will look similar to:
 
     ```bash
-[richel@rackham3 ~]$ module spider qiime2/2024.2
+    [richel@rackham3 ~]$ module spider qiime2/2024.2
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-qiime2: qiime2/2024.2
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    qiime2: qiime2/2024.2
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    You will need to load all module(s) on any one of the lines below before the "qiime2/2024.2" module is available to load.
+        You will need to load all module(s) on any one of the lines below before the "qiime2/2024.2" module is available to load.
 
-      bioinfo-tools
- 
-    Help:
-      qiime2 - use qiime2 
-      
-      Description
-      
-      Version 2024.2
-      
-      https://qiime2.org
-      
-      The version installed is 2024.2 amplicon, slightly modified from the publicly available docker image.
-      
-      
-         qiime ...
-      
-      
-      You may see a message like 
-      
-          Matplotlib created a temporary config/cache directory at /scratch/matplotlib-a10b2an0 because the default path (/home/qiime2/matplotlib) is not a writable directory...
-      
-      This is because qiime2 is running within an Apptainer container. This message can be ignored.
-      
+          bioinfo-tools
+     
+        Help:
+          qiime2 - use qiime2 
+          
+          Description
+          
+          Version 2024.2
+          
+          https://qiime2.org
+          
+          The version installed is 2024.2 amplicon, slightly modified from the publicly available docker image.
+          
+          
+             qiime ...
+          
+          
+          You may see a message like 
+          
+              Matplotlib created a temporary config/cache directory at /scratch/matplotlib-a10b2an0 because the default path (/home/qiime2/matplotlib) is not a writable directory...
+          
+          This is because qiime2 is running within an Apptainer container. This message can be ignored.
+          
     ```
 
 After reading that documentation, we know how to load it:
