@@ -145,7 +145,7 @@ Here are some common errors and their solutions:
 
 ### Permission denied, please try again
 
-```
+```bash
 Permission denied, please try again.
 ```
 
@@ -172,7 +172,7 @@ flowchart TD
 
 ???- question "How do I know my password is correct?"
 
-    You don't. 
+    You don't.
 
     It could be a typo: you don't see your password when you type (this is a
     security measure), so a typo is likely to occur. Also check if 'Caps Lock'
@@ -194,7 +194,7 @@ flowchart TD
     The UPPMAX one, titled `[username]@UPPMAX`, for example `sven@UPPMAX`.
 
     When using UPPMAX, one needs to create other 2FAs too, such as for SUPR
-    or the Uppsala VPN. Don't use those numbers to login to Bianca. 
+    or the Uppsala VPN. Don't use those numbers to login to Bianca.
 
 ???- question "How do I know if I am within the university networks?"
 
@@ -213,7 +213,7 @@ flowchart TD
     go to <https://bianca.uppmax.uu.se>
     and type your username. If the project is displayed, it is active.
 
-    To confirm your project is active or inactive, use the SUPR NAISS website. 
+    To confirm your project is active or inactive, use the SUPR NAISS website.
     See [the UPPMAX documentation on projects](../getting_started/project.md)
     how to see if your project is active?
 
@@ -224,6 +224,6 @@ flowchart TD
     and type your username. If the project is displayed,
     you are a member of the Bianca project.
 
-    To confirm your project is active or inactive, use the SUPR NAISS website. 
+    To confirm your project is active or inactive, use the SUPR NAISS website.
     See [the UPPMAX documentation on projects](../getting_started/project.md)
     how to see which projects you are a member of.
