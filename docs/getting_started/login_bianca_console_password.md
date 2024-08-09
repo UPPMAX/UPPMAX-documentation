@@ -138,3 +138,92 @@ and an idle node will be moved into your project cluster.
 
     This video shows how to use a terminal and SSH to access
     the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c)
+
+## Troubleshooting
+
+Here are some common errors and their solutions:
+
+### Permission denied, please try again
+
+```
+Permission denied, please try again.
+```
+
+Here are questions to solve that problem:
+
+```mermaid
+flowchart TD
+    error[Permission denied, please try again.]
+    correct_password[Is your password correct?]
+    added_2fa[Have you added a 2FA number at the end of your password?]
+    added_correct_2fa[Have you added the correct 2FA number at the end of your password?]
+    in_sunet[Are you within the university networks?]
+    active_bianca_project[Is that Bianca project active?]
+    member_of_bianca_project[Are you a member of that Bianca project]
+
+    error --> correct_password
+    error --> in_sunet
+    
+    in_sunet --> active_bianca_project
+
+    correct_password --> added_2fa --> added_correct_2fa
+    active_bianca_project --> member_of_bianca_project
+```
+
+???- question "How do I know my password is correct?"
+
+    You don't. 
+
+    It could be a typo: you don't see your password when you type (this is a
+    security measure), so a typo is likely to occur. Also check if 'Caps Lock'
+    is off.
+
+    It could be that you've forgotten your password. That can happen to all of
+    us. You can then reset your password at <https://suprintegration.uppmax.uu.se/getpasswd>
+    
+???- question "What do you mean 'Have you added a 2FA number at the end of your password?'?"
+
+    When you type your password, this needs to be followed by a two-factor authentication
+    number.
+
+    For example, if your password is `verysecret` and `314159` is the 2FA number,
+    you should type `verysecret314159`
+
+???- question "What is the correct 2FA number?"
+
+    The UPPMAX one, titled `[username]@UPPMAX`, for example `sven@UPPMAX`.
+
+    When using UPPMAX, one needs to create other 2FAs too, such as for SUPR
+    or the Uppsala VPN. Don't use those numbers to login to Bianca. 
+
+???- question "How do I know if I am within the university networks?"
+
+    If you login via `eduroam` you are within the university networks.
+
+    When unsure, go to the Bianca remote desktop website at
+    [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se):
+    if this page does not load, you are outside of the university networks.
+
+    See [How to get inside of the university networks](../getting_started/get_inside_sunet.md)
+    if you outside of the university networks.
+
+???- question "How do I know if the Bianca project is active?"
+
+    A quick way to confirm your Bianca project is active:
+    go to <https://bianca.uppmax.uu.se>
+    and type your username. If the project is displayed, it is active.
+
+    To confirm your project is active or inactive, use the SUPR NAISS website. 
+    See [the UPPMAX documentation on projects](../getting_started/project.md)
+    how to see if your project is active?
+
+???- question "How do I know if I am a member of the Bianca project?"
+
+    A quick way to confirm you are a member of the Bianca project:
+    go to <https://bianca.uppmax.uu.se>
+    and type your username. If the project is displayed,
+    you are a member of the Bianca project.
+
+    To confirm your project is active or inactive, use the SUPR NAISS website. 
+    See [the UPPMAX documentation on projects](../getting_started/project.md)
+    how to see which projects you are a member of.
