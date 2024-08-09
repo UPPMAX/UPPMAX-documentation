@@ -8,7 +8,7 @@ tags:
 
 There are multiple ways to [transfer data to/from Rackham](../cluster_guides/transfer_rackham.md).
 
-Here, we show how to transfer files using a graphical tool called FileZilla.
+Here, we show how to transfer files using a graphical tool called [FileZilla](filezilla.md).
 
 ![FileZilla connected to Rackham](./img/filezilla_login_to_rackham_480_x_270.png)
 

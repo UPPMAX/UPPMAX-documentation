@@ -2,7 +2,7 @@
 
 There are multiple ways to [transfer files to/from Transit using a graphical tool](../cluster_guides/transit_file_transfer_using_gui.md)
 
-Here it is shown how to transfer files using a graphical tool called FileZilla.
+Here it is shown how to transfer files using a graphical tool called [FileZilla](filezilla.md).
 
 ???- question "What is Transit?"
 

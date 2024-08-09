@@ -10,18 +10,21 @@ tags:
 
 > FileZilla connected to Bianca
 
+There are multiple ways to [transfer data to/from Bianca](../cluster_guides/transfer_bianca.md).
+
+Here, we show how to transfer files using a graphical tool called [FileZilla](filezilla.md).
+
+## Procedure
+
 ???- question "Would you like a video?"
 
     If you like to see how to do file tranfer from/to Bianca
     using FileZilla, watch the video
     [here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
 
-FileZilla is a [graphical tool to do file transfer to/from Bianca](bianca_file_transfer_using_gui.md),
-that works under Linux, Mac and Windows.
-
 To transfer files to/from Bianca using FileZilla, do the following steps:
 
-## 1. Get inside SUNET
+### 1. Get inside SUNET
 
 Get inside SUNET.
 
@@ -29,11 +32,11 @@ Get inside SUNET.
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-## 2. Start FileZilla
+### 2. Start FileZilla
 
 Start FileZilla.
 
-## 3. Select 'File | Site manager'
+### 3. Select 'File | Site manager'
 
 In FileZilla, from the menu, select 'File | Site manager'
 
@@ -45,7 +48,7 @@ In FileZilla, from the menu, select 'File | Site manager'
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
-## 4. Click 'New site'
+### 4. Click 'New site'
 
 In the 'Site Manager' dialog, click 'New site'
 
@@ -57,11 +60,11 @@ In the 'Site Manager' dialog, click 'New site'
 
     > 'New site' can be found at the bottom-left
 
-## 5. Create a name for the site, e.g. `bianca-sens123456`
+### 5. Create a name for the site, e.g. `bianca-sens123456`
 
 In the 'New Site' dialog, create a name for the site, e.g. `bianca-sens123456`.
 
-## 6. Configure site
+### 6. Configure site
 
 In the 'New Site' dialog, use all standards, except:
 
@@ -84,7 +87,7 @@ In the 'New Site' dialog, use all standards, except:
     code every time you login.
     Due to this, storing a password is hence useless
 
-## 7. Click 'Connect'
+### 7. Click 'Connect'
 
 In FileZilla, click 'Connect'
 
