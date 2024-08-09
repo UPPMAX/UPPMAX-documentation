@@ -27,7 +27,7 @@ Go to [the Sylabs website](https://www.sylabs.io/)
 
     ![The Sylabs website](./img/sylabs_select_container_services.png)
 
-### 2. Got to the Syslabs Singularity Container Services website
+### 2. Got to the Sylabs Singularity Container Services website
 
 On [the Sylabs website](https://www.sylabs.io/),
 click 'Products | Singularity Container Services'
@@ -105,7 +105,7 @@ Click 'Submit Build'.
 
     ![Click 'Submit Build'](./img/sylabs_click_submit_build.png)
 
-The building wil start.
+The building will start.
 
 ???- question "How does that look like?"
 

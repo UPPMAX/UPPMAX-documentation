@@ -78,7 +78,7 @@ mkdir -p $APPTAINER_CACHEDIR $APPTAINER_TMPDIR
 ## Using the Sylabs cloud remote builder
 
 From a Singularity script on can create a Singularity container
-using a website, see [creating a Singularity container from a Singularity scrript using the Sylabs cloud remote builder](create_singularity_container_from_a_singularity_script_using_remote_builder.md).
+using a website, see [creating a Singularity container from a Singularity script using the Sylabs cloud remote builder](create_singularity_container_from_a_singularity_script_using_remote_builder.md).
 
 After having done so, we can also run the created image without pulling it
 explicitly, for example:
