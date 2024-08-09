@@ -11,9 +11,10 @@ tags:
 # Login to the Rackham console environment with a password
 
 There are multiple ways to [log in to Rackham](login_rackham.md).
+This page describes how to do so using a terminal and a password.
 
-This page describes how to [log in to Rackham](login_rackham.md)
-using a terminal and a password.
+If you want to get rid of using a password every time,
+see [login to the Rackham console environment with an SSH key](login_rackham_console_ssh_key.md).
 
 ## Procedure
 
