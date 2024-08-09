@@ -63,9 +63,9 @@ In FileZilla's site manager:
 
 - create a name for the site, e.g. `rackham`.
 - for that site, use all standards, except:
-  - Set protocol to 'SFTP - SSH File Transfer Protocol'
-  - Set host to `rackham.uppmax.uu.se`
-  - Set user to `[username]`, e.g. `richel`
+    - Set protocol to 'SFTP - SSH File Transfer Protocol'
+    - Set host to `rackham.uppmax.uu.se`
+    - Set user to `[username]`, e.g. `richel`
 
 ???- tip "How does that look like?"
 

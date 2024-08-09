@@ -226,9 +226,9 @@ RAM|Rackham|Snowy|Bianca
 ### GPUs
 
 - Bianca: Nodes with Nvidia A100 40 GB
-  - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
+    - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
 - Snowy: Nodes with Tesla T4 16 GB
-  - The GPU nodes have either 128 or 256 GB memory and one GPU per node
+    - The GPU nodes have either 128 or 256 GB memory and one GPU per node
 
 **Slurm options**:
 

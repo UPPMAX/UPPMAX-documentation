@@ -50,24 +50,24 @@ Adding this line to your ``~/.bashrc`` as well will activate the "spack commands
 The Spack oriented files are stored in two places:
 
 - Spack directory
-  - the cloned git repository
-  - directories (important in bold)
-    - bin        spack executables
-    - etc        configuration files
-    - lib         libraries
-    - share       documentation, scripts etc...
-    - var        other settings
-    - opt        produced after first installation, contains all packages (tools, dependencies and libraries)
-      - tools are found in a tree: .`..opt/spack/linux-<arch>/<compiler>/tool/`
+    - the cloned git repository
+    - directories (important in bold)
+        - bin        spack executables
+        - etc        configuration files
+        - lib         libraries
+        - share       documentation, scripts etc...
+        - var        other settings
+        - opt        produced after first installation, contains all packages (tools, dependencies and libraries)
+            - tools are found in a tree: .`..opt/spack/linux-<arch>/<compiler>/tool/`
 - .spack
-  - local config and packages files
-  - directories (important in bold)
-    - bootstrap
-    - cache
-    - reports
-    - linux
-      - ​compilers.yaml
-      - packages.yaml
+    - local config and packages files
+    - directories (important in bold)
+        - bootstrap
+        - cache
+        - reports
+        - linux
+            - ​compilers.yaml
+            - packages.yaml
 
 The .yaml files in the .spack/linux directory contains information which tolls you want to include from the UPPMAX system.
 

@@ -18,8 +18,8 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 - [Prerequisites](bianca_usage_prerequisites.md) describes what is needed before one can access Bianca
 - [The two Bianca environments](#the-two-bianca-environments) shows the two ways to access Bianca:
-  - For a remote desktop environment, go to [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md)
-  - For a console environment, go to [login to the Bianca console environment with a password](login_bianca_console_password.md).
+    - For a remote desktop environment, go to [access Bianca remote desktop environment via a website](login_bianca_remote_desktop_website.md)
+    - For a console environment, go to [login to the Bianca console environment with a password](login_bianca_console_password.md).
       If you want to get rid of using a password every time, see [login to the Bianca console environment with an SSH key](login_bianca_console_ssh_key.md)
 
 ## The two Bianca environments

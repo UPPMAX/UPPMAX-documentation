@@ -167,16 +167,16 @@ Once you have mitigated any warnings you got you are ready to generate the Slurm
 To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily available:
 
 - **ID of the UPPMAX project** that will run the transfer job, e.g. `naiss2099-23-99`
-  - If you don't remember if, find the name of the project you want to transfer by looking in [the list of active project in SUPR](https://supr.naiss.se/project/).
+    - If you don't remember if, find the name of the project you want to transfer by looking in [the list of active project in SUPR](https://supr.naiss.se/project/).
 - **Path to the folder you want to transfer**, .e.g. `/proj/naiss2099-23-999`
-  - Either transfer your whole project, or put the files and folder your want to transfer into a new folder in your project folder and transfer that folder.
-  - The project's folder on UPPMAX will be located in the `/proj/` folder, most likely a folder with the same name as the project's ID, `/proj/<project id>`, e.g. `/proj/naiss2024-23-999`. If your project has picked a custom *directory name* when it was created it will have that name instead of the project ID, e.g. `/proj/directory_name`. Check which directory name your project has by looking at the project's page in [SUPR](https://supr.naiss.se/project/) and look at the field called `Directory name:`
+    - Either transfer your whole project, or put the files and folder your want to transfer into a new folder in your project folder and transfer that folder.
+    - The project's folder on UPPMAX will be located in the `/proj/` folder, most likely a folder with the same name as the project's ID, `/proj/<project id>`, e.g. `/proj/naiss2024-23-999`. If your project has picked a custom *directory name* when it was created it will have that name instead of the project ID, e.g. `/proj/directory_name`. Check which directory name your project has by looking at the project's page in [SUPR](https://supr.naiss.se/project/) and look at the field called `Directory name:`
 - **Your Dardel username**.
-  - You can see your Dardel username in [SUPR](https://supr.naiss.se/account/)
+    - You can see your Dardel username in [SUPR](https://supr.naiss.se/account/)
 - **The path on Dardel** where you want to put your data, e.g. `/cfs/klemming/projects/snic/naiss2099-23-999`
-  - Check which project ID you have for your project on Dardel in [the list of active project in SUPR](https://supr.naiss.se/project/).
+    - Check which project ID you have for your project on Dardel in [the list of active project in SUPR](https://supr.naiss.se/project/).
 - The **path to the SSH key** you have prepared to be used to login from Rackham to Dardel, e.g. `~/.ssh/id_rsa`
-  - Check
+    - Check
 - The path to where you want to **save the generated transfer script**.
 
 To initiate the gen mode you run Darsync with the `gen` argument. If you run it without any other arguments it will ask you interactive questions to get the information it needs.

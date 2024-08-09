@@ -77,7 +77,7 @@ See [the UPPMAX documentation on the Transit server](transit.md).
 * Note that your home directory is mounted _read-only_, any changes you do to your "local" home directory (on transit) will be lost upon logging out.
 
 * You can use commands like ``rsync``, ``scp`` to fetch data and transfer it to your bianca wharf.
-  * You can use cp to copy from Rackham to the wharf
+    * You can use cp to copy from Rackham to the wharf
 * Remember that you cannot make lasting changes to anything except for mounted wharf directories. Therefore you have to use rsync and scp to transfer from the ``wharf`` to Rackham.
 * The mounted directory will be kept for later sessions.
 

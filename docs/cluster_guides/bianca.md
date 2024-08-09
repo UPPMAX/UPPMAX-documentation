@@ -11,16 +11,16 @@ suitable for working with sensitive data.
 - [Submitting jobs, using Slurm](slurm.md)
 - [Starting an interactive node](start_interactive_node_on_bianca.md)
 - [File transfer](transfer_bianca.md)
-  - [File transfer using rsync](../software/bianca_file_transfer_using_rsync.md) (recommended)
-  - [File transfer using FileZilla](../software/bianca_file_transfer_using_filezilla.md) (easiest)
+    - [File transfer using rsync](../software/bianca_file_transfer_using_rsync.md) (recommended)
+    - [File transfer using FileZilla](../software/bianca_file_transfer_using_filezilla.md) (easiest)
 - [The module system](bianca_modules.md)
 - [IDEs](../software/ides_on_bianca.md)
-  - [Jupyter](../software/jupyter_on_bianca.md)
-  - [RStudio](../software/rstudio_on_bianca.md)
-  - :no_entry: [VSCode](../software/vscode_on_bianca.md)
-  - [VSCodium](../software/vscodium_on_bianca.md)
+    - [Jupyter](../software/jupyter_on_bianca.md)
+    - [RStudio](../software/rstudio_on_bianca.md)
+    - :no_entry: [VSCode](../software/vscode_on_bianca.md)
+    - [VSCodium](../software/vscodium_on_bianca.md)
 - [Workshops and courses](../workshops_courses/workshops_courses.md)
 - NAISS-sens
 - Best practices
-  - [Git on Bianca](../software/git_on_bianca.md)
+    - [Git on Bianca](../software/git_on_bianca.md)
 - Bianca installation guides

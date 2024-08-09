@@ -53,7 +53,7 @@ Copy one of these, like:
 ## Step 4: On own computer
 
 - If you use ssh to connect to Rackham, you need to forward the port of the interactive node to your local computer.
-  - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
+    - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
 
 ```sh
    ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se

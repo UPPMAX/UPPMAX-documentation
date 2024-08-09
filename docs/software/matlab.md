@@ -32,8 +32,8 @@ A good and important suggestion is that you always specify a certain version. Th
 ## First time, since May 13 2024
 
 - If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
-  - only needs to be called once per version of MATLAB.
-  - Note, however, that on Bianca this has to be done separately.
+    - only needs to be called once per version of MATLAB.
+    - Note, however, that on Bianca this has to be done separately.
 
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
@@ -49,8 +49,8 @@ configCluster.sh <project-ID>    # Note: no '-A'
 ![matlab configCluster.sh](img/matlab_configCluster.PNG)
 
 - The session should exit automatically but if not you can end the session by
-  - ``exit``
-  - or ``<CTRL-C>``
+    - ``exit``
+    - or ``<CTRL-C>``
 - When done, start Matlab as you usually do with  ``matlab &``.
 
 !!! warning
@@ -73,17 +73,17 @@ configCluster.sh <project-ID>    # Note: no '-A'
 Using MATLAB on the cluster enables you to utilize high performance facilities like:
 
 - [Parallel computing](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav)
-  - Parallel for-loops
-  - Evaluate functions in the background
+    - Parallel for-loops
+    - Evaluate functions in the background
 - [Big data processing](https://se.mathworks.com/help/parallel-computing/big-data-processing.html?s_tid=CRUX_lftnav)
-  - Analyze big data sets in parallel
+    - Analyze big data sets in parallel
 - [Batch Processing](https://se.mathworks.com/help/parallel-computing/batch-processing.html?s_tid=CRUX_lftnav)
-  - Offload execution of functions to run in the background
+    - Offload execution of functions to run in the background
 - [GPU computing](https://se.mathworks.com/help/parallel-computing/gpu-computing.html?s_tid=CRUX_lftnav) (Available on Bianca and Snowy)
-  - Accelerate your code by running it on a GPU
+    - Accelerate your code by running it on a GPU
 - Machine & Deep learning
-  - [Statistics and Machine Learning](https://se.mathworks.com/help/stats/index.html)
-  - [Deep Learning](https://se.mathworks.com/help/deeplearning/index.html)
+    - [Statistics and Machine Learning](https://se.mathworks.com/help/stats/index.html)
+    - [Deep Learning](https://se.mathworks.com/help/deeplearning/index.html)
 
 [See MathWork's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
 
@@ -91,11 +91,11 @@ Some online tutorials and courses:
 
 - [Parallel computing](https://se.mathworks.com/solutions/parallel-computing.html)
 - Machine Learning
-  - [Machine learning article](https://se.mathworks.com/solutions/machine-learning.html)
-  - [Machine learning tutorial](https://matlabacademy.mathworks.com/details/machine-learning-onramp/machinelearning)
+    - [Machine learning article](https://se.mathworks.com/solutions/machine-learning.html)
+    - [Machine learning tutorial](https://matlabacademy.mathworks.com/details/machine-learning-onramp/machinelearning)
 - Deep Learning
-  - [Deep learning article](https://se.mathworks.com/solutions/deep-learning.html)
-  - [Deep learning tutorial](https://matlabacademy.mathworks.com/details/deep-learning-onramp/deeplearning)
+    - [Deep learning article](https://se.mathworks.com/solutions/deep-learning.html)
+    - [Deep learning tutorial](https://matlabacademy.mathworks.com/details/deep-learning-onramp/deeplearning)
 
 ## Running MATLAB
 
@@ -154,8 +154,8 @@ You may want to confer our UPPMAX [ThinLinc user guide](../software/thinlinc.md)
 ### How to run parallel jobs for the first time, since May 13 2024
 
 - If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
-  - only needs to be called once per version of MATLAB.
-  - Note, however, that on Bianca this has to be done separately.
+    - only needs to be called once per version of MATLAB.
+    - Note, however, that on Bianca this has to be done separately.
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console

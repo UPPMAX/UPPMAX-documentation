@@ -59,8 +59,8 @@ emacs
 Then:
 
 - also With GUI
-  - ``emacs –nw``
-    - keeps you in terminal window.
+    - ``emacs –nw``
+        - keeps you in terminal window.
 
 ## Simple graphical editors
 
@@ -84,8 +84,8 @@ See the [SSH X forwarding page](../software/ssh_x_forwarding.md) how to do so.
 - Also graphical editor within MobaXterm
 
 - When starting the graphical versions of an editor, add ``&`` to be able to use the command line while program is open.
-  - Ex: `gedit &`
-  - If not, you can `<Ctrl>+z` and type `bg` to send program to background.
+    - Ex: `gedit &`
+    - If not, you can `<Ctrl>+z` and type `bg` to send program to background.
 
 ## Advanced graphical editors
 

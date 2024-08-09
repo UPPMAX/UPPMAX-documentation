@@ -88,17 +88,17 @@ Until now, we have looked into the PRIORITY and USER columns. Let us talk about 
 - START_TIME: An estimation about when the job will start, if all jobs run until the end of their timelimit. You can make guesses about when nodes gets free also by looking at the TIME_LEFT column of running jobs. SLURM computes START_TIME only when it needs the information, i.e. you can not find that information for all jobs.
 - TIME_LEFT: The specified timelimit for the job. When getting near to a maintenance stop, long jobs can not start, because they may not finish before the maintenance stop starts.
 - REASON: There are a number of possible reasons for a job not to have started yet. Some are explained here:
-  - AssociationJobLimit: probably means that the job never will start, because it breaks some system limit, set by UPPMAX.
-  - BeginTime: says that the user has specified that the job must not start until some specified time in the future.
-  - Dependency: means that the job will not start until some special other job(s) has (have) finished.
-  - JobHeldAdmin: means that some systems administrator has told that the job must not start.
-  - JobHeldUser: means that the job owner has told that job must not start.
-  - None: might mean that SLURM has not yet had time to put a reason there.
-  - Priority, ReqNodeNotAvail, and Resources: are the normal reasons for waiting jobs, meaning that your job can not start     yet, because free nodes for your job are not found.
-  - QOSResourceLimit: means that the job has asked for a QOS and that some limit for that QOS has been reached. The job can not start as long as the limit still is reached.
-  - QOSJobLimit: probably means that the job can never start, because it breaks some system limit, set by UPPMAX.
+    - AssociationJobLimit: probably means that the job never will start, because it breaks some system limit, set by UPPMAX.
+    - BeginTime: says that the user has specified that the job must not start until some specified time in the future.
+    - Dependency: means that the job will not start until some special other job(s) has (have) finished.
+    - JobHeldAdmin: means that some systems administrator has told that the job must not start.
+    - JobHeldUser: means that the job owner has told that job must not start.
+    - None: might mean that SLURM has not yet had time to put a reason there.
+    - Priority, ReqNodeNotAvail, and Resources: are the normal reasons for waiting jobs, meaning that your job can not start     yet, because free nodes for your job are not found.
+    - QOSResourceLimit: means that the job has asked for a QOS and that some limit for that QOS has been reached. The job can not start as long as the limit still is reached.
+    - QOSJobLimit: probably means that the job can never start, because it breaks some system limit, set by UPPMAX.
 - FEATURES: There are quite a few of these and some are explained here:
-  - null: means that no special features have been asked for.
-  - fat: means that a fat node (a node with a more-than-standard -- for this cluster -- amount of memory) is needed.
-  - null: means that no special features have been asked for.
-  - thin: means that a standard (i.e. non-fat) node must be used, and this feature is automatically set for most jobs with no memory requirements and a high timelimit, so the job will not unnecessarily hog a fat node for a long time.
+    - null: means that no special features have been asked for.
+    - fat: means that a fat node (a node with a more-than-standard -- for this cluster -- amount of memory) is needed.
+    - null: means that no special features have been asked for.
+    - thin: means that a standard (i.e. non-fat) node must be used, and this feature is automatically set for most jobs with no memory requirements and a high timelimit, so the job will not unnecessarily hog a fat node for a long time.

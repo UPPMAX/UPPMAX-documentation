@@ -12,9 +12,9 @@ Here we describe how to log in to [Rackham](../cluster_guides/rackham.md).
 
 - [Prerequisites](rackham_usage_prerequisites.md) describes what is needed before one can access Rackham
 - [Which way to login?](#which-way-to-login)
-  - [Website](login_rackham_remote_desktop_website.md)
-  - [Terminal](login_rackham_console_password.md)
-  - [Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
+    - [Website](login_rackham_remote_desktop_website.md)
+    - [Terminal](login_rackham_console_password.md)
+    - [Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
 ## Which way to login?
 

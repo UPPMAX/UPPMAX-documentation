@@ -44,7 +44,7 @@ Jupyter can be slow when using remote desktop webpage
 - For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter. See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_ on how to install the ThinLinc client locally.
 
 - It is also possible to run Jupyter with a local browser to speed up the graphics but still use the benefits of many CPU:s and much RAM.
-  - [Run Jupyter in your local browser](jupyter_local.md)
+    - [Run Jupyter in your local browser](jupyter_local.md)
 
 ### Some links
 
@@ -110,7 +110,7 @@ jupyter-lab --ip 0.0.0.0 --no-browser
 - `<ctrl-z>`
 - `bg`
 - `firefox <URL> &`
-  - Example ``firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &``
+    - Example ``firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &``
 
 ## Jupyter in a virtual environment (venv)
 

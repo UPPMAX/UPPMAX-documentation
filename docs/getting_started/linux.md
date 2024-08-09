@@ -30,7 +30,7 @@
 ![Content](./img/images.jfif)
 
 - Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
-  - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
+    - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
 
 ![Content](./img/gnu.png)
 
@@ -82,7 +82,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 - The command-line interface: the bash prompt $
 - bash can be seen as a program that finds and runs other programs
 - bash is scripting language that is referred to as a shell
-  - (because it sits around the kernel making it easy to interact with)
+    - (because it sits around the kernel making it easy to interact with)
 
 ![Content](./img/unix_architecture.jpg)
 
@@ -94,15 +94,15 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 - [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
 
-  - Example:
+    - Example:
 
     ```bash
     [bjornc@rackham3 linux_tutorial]$
     ```
 
-  - For changing info (only for advanced users!): <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
-  - The program to run is the first word
-  - All words are separated by spaces
+    - For changing info (only for advanced users!): <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
+    - The program to run is the first word
+    - All words are separated by spaces
 
 ![folders](./img/folders.png)
 
