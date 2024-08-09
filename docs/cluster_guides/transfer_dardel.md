@@ -49,7 +49,7 @@ and you have created a SSH key pair.
 
 ???- question "How do I know this worked?"
 
-    On Rackham, in a terminal, type:
+    On Rackham, in a [terminal](../software/terminal.md), type:
 
     ```bash
     $ cat ~/.ssh/id_ed25519_pdc.pub
@@ -66,7 +66,7 @@ and you have created a SSH key pair.
 How to add the SSH public key is described
 in detail in [the PDC documentation on how to add SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#in-the-login-portal).
 
-You will need to get the public part of the key in order to complete this step.i On Rackham, in a terminal, type:
+You will need to get the public part of the key in order to complete this step.i On Rackham, in a [terminal](../software/terminal.md), type:
 
 ```bash
 cat ~/.ssh/id_ed25519_pdc.pub

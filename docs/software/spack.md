@@ -43,7 +43,7 @@ Next, add Spack to your path. Spack has some nice command-line integration tools
 source <root dir of spack>/spack/share/spack/setup-env.sh
 ```
 
-Adding this line to your ``~/.bashrc`` as well will activate the "spack commands" each time you start a new terminal session.
+Adding this line to your ``~/.bashrc`` as well will activate the "spack commands" each time you start a new [terminal](../software/terminal.md) session.
 
 ### Orientation of the SPACK files
 

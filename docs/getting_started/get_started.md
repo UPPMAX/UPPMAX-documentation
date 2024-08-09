@@ -33,7 +33,7 @@ Are you taking a university course that uses UPPMAX and need help? Ask your inst
 N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support,
 with the exception of the [ThinLinc](../software/thinlinc.md) web interface.
 
-In order to use the UPPMAX resources you must login to a dedicated login computer (or 'login node') using ssh ("secure shell"). On Linux/Unix computers this is done in the terminal with the 'ssh' command. On Windows you can download a small free program called [MobaXterm](https://mobaxterm.mobatek.net/) (or an alternative of your choice) to connect via ssh.
+In order to use the UPPMAX resources you must login to a dedicated login computer (or 'login node') using ssh ("secure shell"). On Linux/Unix computers this is done in the [terminal](../software/terminal.md) with the 'ssh' command. On Windows you can download a small free program called [MobaXterm](https://mobaxterm.mobatek.net/) (or an alternative of your choice) to connect via ssh.
 
 Another option is to use the ThinLinc client, either the web based one or one you download, to get access to a full graphical User Interface with a desktop, webbrowser, terminal etc. The ThinLinc client download is available for Linux, macOS and Windows. For more information and to see which of our systems support ThinLinc please refer to our [graphical connection guide](../software/thinlinc.md).
 

@@ -48,7 +48,7 @@ Below is a step-by-step procedure to start RStudio.
 
 ### 3. Start an interactive session
 
-Within the Bianca remote desktop environment, start a terminal.
+Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, start an interactive session with 2 cores.
 
 !!!- info "Why two cores?"

@@ -117,7 +117,7 @@ This example starts a session with 2 cores for a wall time of 1 hour.
 
 ### MATLAB in terminal
 
-For simple calculations it is possible to start just a command shell in your terminal:
+For simple calculations it is possible to start just a command shell in your [terminal](../software/terminal.md):
 
 ```console
 matlab -nodisplay

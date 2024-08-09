@@ -42,7 +42,7 @@ it must be run on an interactive node.
 
 ### 3. Start an interactive session
 
-Within the Rackham remote desktop environment, start a terminal.
+Within the Rackham remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, start an interactive session with 2 cores.
 
 !!!- info "Why two cores?"

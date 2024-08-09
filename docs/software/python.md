@@ -69,7 +69,7 @@ to run a Python script.
 
 ???- question "Which version of Python is `python`?"
 
-    To determine which version `python` is, in a terminal, type:
+    To determine which version `python` is, in a [terminal](../software/terminal.md), type:
 
     ```bash
     python --version

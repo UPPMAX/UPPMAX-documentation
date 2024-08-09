@@ -13,6 +13,8 @@ The process is:
 
 ## 2. Use the terminal to login to Rackham
 
+Use a [terminal](../software/terminal.md) to login to Rackham.
+
 ???- question "Forgot how to login to Rackham?"
 
     A step-by-step guide how to login to Rackham

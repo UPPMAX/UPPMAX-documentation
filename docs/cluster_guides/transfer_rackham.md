@@ -25,7 +25,7 @@ a graphical tool.
 ## Using SCP
 
 One can transfer files to/from Rackham
-using SCP in a terminal.
+using SCP in a [terminal](../software/terminal.md).
 This works similar to a regular copy of files,
 except that a remote address needs to be specified.
 The advantage of SCP is that is can be used in scripts.
@@ -35,7 +35,7 @@ for a step-by-step guide how to transfer files using SCP.
 
 ## Using SFTP
 
-One can transfer files to/from Rackham using SFTP in a terminal.
+One can transfer files to/from Rackham using SFTP in a [terminal](../software/terminal.md).
 One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.

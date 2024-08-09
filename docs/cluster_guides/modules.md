@@ -24,7 +24,7 @@ This allow users to independently use their favorite versions of their
 favorite software.
 
 Using a module system keeps installed software hidden by default,
-and users have to explicitly tell their terminal
+and users have to explicitly tell their [terminal](../software/terminal.md)
 which version of which software they need.
 
 To have new software installed on an UPPMAX cluster,

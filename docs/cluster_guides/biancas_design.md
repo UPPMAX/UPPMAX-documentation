@@ -65,7 +65,7 @@ basic Linux knowledge to use Bianca.
 
 ???- tip "Using Linux"
 
-    Using Linux (and especially the so-called command-line/terminal) is essential
+    Using Linux (and especially the so-called command-line/[terminal](../software/terminal.md)) is essential
     to use Bianca. Learning the essential Linux commands
     is described [here](../getting_started/linux.md).
 

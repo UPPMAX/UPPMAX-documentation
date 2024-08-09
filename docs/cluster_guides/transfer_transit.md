@@ -36,7 +36,7 @@ a graphical tool.
 
 ## Using SCP
 
-One **cannot upload** files to Transit using SCP in a terminal:
+One **cannot upload** files to Transit using SCP in a [terminal](../software/terminal.md):
 Transit only allows for sending files from A to B, not for storing them.
 
 One **can download** the files on Transit.
@@ -51,7 +51,7 @@ It show one cannot upload files to Transit.
 
 ## Using SFTP
 
-One can transfer files to/from Transit using SFTP in a terminal.
+One can transfer files to/from Transit using SFTP in a [terminal](../software/terminal.md).
 One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.

@@ -70,7 +70,7 @@ shell>pwd
 /current-folder-path
 ```
 
-This will allow you to use Linux commands. Notice that the availabilty of these commands depend on the OS, for instance, on Windows it will depend on the terminal that you have installed and if it is visible to the Julia installation.
+This will allow you to use Linux commands. Notice that the availabilty of these commands depend on the OS, for instance, on Windows it will depend on the [terminal](../software/terminal.md) that you have installed and if it is visible to the Julia installation.
 
 Another mode available in Julia is the package manager mode, it can be accessed by typing ] in the Julian mode:
 
@@ -254,7 +254,7 @@ If not, you may have to build IJulia the first time with Pkg.build(“IJulia”)
 > notebook(dir="</path/to/work/dir/>")
 ```
 
-This builds the package also locally before starting the notebook. If not done, Jupyter will not find the julia kernel of that version. With notebook(dir="</path/to/work/dir/>", detached=true) the notebook will not be killed when you exit your REPL julia session in the terminal.
+This builds the package also locally before starting the notebook. If not done, Jupyter will not find the julia kernel of that version. With notebook(dir="</path/to/work/dir/>", detached=true) the notebook will not be killed when you exit your REPL julia session in the [terminal](../software/terminal.md).
 
 ## How to run parallel jobs
 

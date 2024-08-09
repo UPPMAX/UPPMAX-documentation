@@ -10,7 +10,7 @@ on how to do so in general.
 
     See the video [Starting an interactive node on Bianca](https://youtu.be/hQkMKW41-u4)
 
-To use an interactive node, in a terminal, type:
+To use an interactive node, in a [terminal](../software/terminal.md), type:
 
 ```bash
 interactive -A [project name] -n [number_of_cores] -t [session_duration]

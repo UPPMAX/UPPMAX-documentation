@@ -7,7 +7,7 @@ This page describes the GNU nano text editor.
 
     You can find a video on using nano on Rackham [here](https://youtu.be/Ntg0sjBQA0E)
 
-GNU nano is a simple terminal editor that is easy to learn.
+GNU nano is a simple [terminal](../software/terminal.md) text editor that is easy to learn.
 
 Start nano on a terminal with:
 

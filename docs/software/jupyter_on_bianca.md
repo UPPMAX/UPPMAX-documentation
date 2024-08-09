@@ -37,7 +37,7 @@ or jupyter lab:
 jupyter-lab --ip 0.0.0.0 --no-browser
 ```
 
-- copy-paste one of the URL addresses from the jupyter output in the terminal into the address files in the open ``firefox`` session.
+- copy-paste one of the URL addresses from the jupyter output in the [terminal](../software/terminal.md) into the address files in the open ``firefox`` session.
 
 - Make Jupyter work in background, start Firefox with the copied URL address.
 - `<ctrl-z>`

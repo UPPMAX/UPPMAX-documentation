@@ -13,7 +13,7 @@ tags:
 There are multiple ways to [log in to Rackham](login_rackham.md).
 
 This page describes how to [log in to Rackham](login_rackham.md)
-using a terminal and an SSH key pair.
+using a [terminal](../software/terminal.md) and an SSH key pair.
 
 ## 1. Get inside SUNET
 
@@ -31,7 +31,7 @@ an easier setup is [log in to the Rackham console environment with a password](l
 
 ## 2. Use `ssh` to log in
 
-From a terminal, use [`ssh`](../software/ssh.md) to log in:
+From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
 ssh -AX [user]@rackham.uppmax.uu.se

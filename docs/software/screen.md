@@ -25,7 +25,7 @@ $ squeue -j 46964140
           46964140      core no-shell     user  R       0:44      1 r174
 ```
 
-You can start `xterm` terminal in this allocated session like this:
+You can start `xterm` [terminal](../software/terminal.md) in this allocated session like this:
 
 ```bash
 xterm -e ssh -AX r174 &

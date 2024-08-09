@@ -5,7 +5,7 @@
 This page describes how to start an interactive node on [Snowy](snowy.md),
 unlike the [general information on starting an interactive node](start_interactive_node.md).
 
-To use an interactive node, in a terminal, type:
+To use an interactive node, in a [terminal](../software/terminal.md), type:
 
 ```bash
 interactive -A [project name] -M snowy

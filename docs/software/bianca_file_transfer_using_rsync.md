@@ -33,7 +33,7 @@ Get inside SUNET.
 
 ## 2. Log in to Transit
 
-On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to login to Transit:
+On your local computer, start a [terminal](../software/terminal.md) and use [`ssh`](../software/ssh.md) to login to Transit:
 
 ```bash
 ssh [username]@transit.uppmax.uu.se

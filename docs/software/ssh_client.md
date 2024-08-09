@@ -13,8 +13,8 @@ An SSH client is a program that allows on to use SSH.
 
 Operating system|SSH Client               |Recommended?|Allows graphics? [1]|Description
 ----------------|-------------------------|------------|--------------------|---------------------------------
-Linux           |[`ssh`](ssh.md)          |Yes         |Yes                 |Start from a terminal
-MacOS           |[`ssh`](ssh.md)          |Yes         |Yes [2]             |Start from a terminal, needs install for graphics [2]
+Linux           |[`ssh`](ssh.md)          |Yes         |Yes                 |Start from a [terminal](../software/terminal.md)
+MacOS           |[`ssh`](ssh.md)          |Yes         |Yes [2]             |Start from a [terminal](../software/terminal.md), needs install for graphics [2]
 Windows         |[MobaXterm](mobaxterm.md)|Yes         |Yes                 |Easiest for Windows users [5]
 Windows         |PuTTY                    |Neutral     |Yes [3]             |Needs install for graphics [3]
 Windows         |[`ssh`](ssh.md)          |Neutral     |Unknown             |Start from `CMD`, later Windows versions [4]

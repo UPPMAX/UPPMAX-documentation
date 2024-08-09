@@ -189,7 +189,7 @@ cp newfile copyfile
 
 ### scp — secure copy (remote file copy program)
 
-- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
+- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the [terminal](../software/terminal.md) on your local machine**:
 
 #### Download from Rackham
 

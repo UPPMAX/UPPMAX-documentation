@@ -130,7 +130,7 @@
     export LC_ALL=en_US.UTF-8 
     ```
     
-    - ... then restart your terminal, or run, when located in your home folder:
+    - ... then restart your [terminal](../software/terminal.md), or run, when located in your home folder:
 
     ```bash
     source .bashrc

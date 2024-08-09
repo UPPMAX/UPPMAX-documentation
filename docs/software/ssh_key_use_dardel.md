@@ -16,7 +16,8 @@ if you want a more in-depth guide.
 !!! warning
 
     - To be able to transfer from Rackham you have to do the following steps on **Rackham**.
-    - You can _also_ do the steps for you local computer to be able to log in directly from your terminal and not via Rackham.
+    - You can _also_ do the steps for you local computer to be able to log in
+      directly from your [terminal](../software/terminal.md) and not via Rackham.
 
 ## 1. How to create SSH keys
 

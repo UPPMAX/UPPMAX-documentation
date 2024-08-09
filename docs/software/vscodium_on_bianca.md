@@ -47,7 +47,7 @@ This procedure is also demonstrated in [this YouTube video](https://youtu.be/i7s
 
 ### 3. Start an interactive session
 
-Within the Bianca remote desktop environment, start a terminal.
+Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, start an interactive session with 1 core.
 
 ???- tip "Forgot how to start an interactive node?"

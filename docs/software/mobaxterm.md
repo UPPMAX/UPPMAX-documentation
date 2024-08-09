@@ -4,7 +4,7 @@ There are multiple [SSH clients](ssh_client.md).
 This page describes the MobaXterm [SSH clients](ssh_client.md).
 
 MobaXterm is an SSH client that is easy to use and install for Windows.
-When MobaXterm is started, start a terminal to run `ssh`.
+When MobaXterm is started, start a [terminal](../software/terminal.md) to run `ssh`.
 The usage of `ssh` is described at the UPPMAX page on `ssh` [here](ssh.md).
 
 In MobaXterm you can use the internal `MobAgent` or/and the `Peagent`

@@ -16,7 +16,8 @@ Below is a step-by-step procedure to login to [Transit](../cluster_guides/transi
 
 ## 2. Use SSH to login
 
-On your local computer, start a terminal and use [`ssh`](../software/ssh.md) to login to Transit:
+On your local computer, start a [terminal](../software/terminal.md)
+and use [`ssh`](../software/ssh.md) to login to Transit:
 
 ```bash
 ssh [username]@transit.uppmax.uu.se

@@ -16,7 +16,7 @@ The process is described here:
 
 ## Step 1. Start a terminal on your local computer
 
-Start a terminal on your local computer.
+Start a [terminal](../software/terminal.md) on your local computer.
 
 ## Step 2. Run `sftp` to connect to Rackham
 

@@ -20,7 +20,7 @@ see [login to the Rackham console environment with an SSH key](login_rackham_con
 
 ### 1. Use `ssh` to log in
 
-From a terminal, use [`ssh`](../software/ssh.md) to log in:
+From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
 ssh -X [username]@rackham.uppmax.uu.se

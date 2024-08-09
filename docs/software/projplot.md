@@ -41,7 +41,7 @@ another 8 cores was used for a shorter period of time.
 
 Since the plots are made using ordinary text,
 there will sometimes be rounding errors
-because of the low resolution of the terminal window,
+because of the low resolution of the [terminal](../software/terminal.md) window,
 which is usually around 80x30 characters.
 The plot will adapt to your terminal window,
 so increase the size of your window to increase the resolution of the plot

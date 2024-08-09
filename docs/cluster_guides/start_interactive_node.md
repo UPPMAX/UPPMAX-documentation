@@ -34,7 +34,7 @@ The UPPMAX HPC clusters have three types of nodes:
 
 ???- tip "How can I find out on which node I am?"
 
-    In a terminal, type `hostname`:
+    In a [terminal](../software/terminal.md), type `hostname`:
 
     - the [login node](../cluster_guides/login_node.md) has name `rackham[number]`, where `[number]` is the number of the login node
     - an interactive node has name `r[number]`, where `[number]` is the compute node number

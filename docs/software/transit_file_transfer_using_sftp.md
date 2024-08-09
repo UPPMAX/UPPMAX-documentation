@@ -38,7 +38,7 @@ Get inside SUNET.
 
 ### 2. Start a terminal on your local computer
 
-Start a terminal on your local computer.
+Start a [terminal](../software/terminal.md) on your local computer.
 
 ### 3. Connect `sftp` to Transit
 

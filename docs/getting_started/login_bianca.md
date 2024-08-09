@@ -71,7 +71,7 @@ flowchart TD
 
     > The Bianca console environment
 
-- A console environment, also called 'terminal environment' or 'terminal'
+- A console environment, also called 'terminal environment' or '[terminal](../software/terminal.md)'
 
 The remote desktop environment is considered the easier place to start for most
 new users, as it has most similarities with what a new user is familiar with.

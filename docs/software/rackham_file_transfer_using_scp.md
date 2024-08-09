@@ -13,7 +13,7 @@ by coping them between your local computer and Rackham.
 
 ### 1. Start a terminal on your local computer
 
-Start a terminal on your local computer
+Start a [terminal](../software/terminal.md) on your local computer
 
 ### 2. Copy files using `scp`
 

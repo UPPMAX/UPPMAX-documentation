@@ -102,7 +102,7 @@ You will get a PDC account overnight.
 
 Create SSH key and add it to the PDC Login Portal.
 
-- Create the password less SSH key in a Linux terminal (e.g. from Rackham):
+- Create the password less SSH key in a Linux [terminal](../software/terminal.md) (e.g. from Rackham):
 
 ```bash
 module load darsync

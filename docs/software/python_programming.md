@@ -8,8 +8,8 @@ There are multiple ways to program in Python:
 Description               |Features
 --------------------------|------------------------------------------
 Use a text editor         |Non-interactive, no help
-Use the Python interpreter|Interactive, terminal-based, some help
-Use IPython               |Interactive, terminal-based, more help and features
+Use the Python interpreter|Interactive, [terminal](../software/terminal.md)-based, some help
+Use IPython               |Interactive, [terminal](../software/terminal.md)-based, more help and features
 Use Jupyter               |Interactive, web-based
 Use Visual Studio Code    |Interactive, install on local computer, use locally installed Python and Python packages
 

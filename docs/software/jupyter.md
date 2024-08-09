@@ -62,7 +62,8 @@ Login to a remote desktop:
 
 ### Step 2: start an interactive session
 
-Start a terminal. Within that terminal, start an interactive session from the login node (change to the correct NAISS project ID).
+Start a [terminal](../software/terminal.md).
+Within that terminal, start an interactive session from the login node (change to the correct NAISS project ID).
   
 #### For Rackham
 

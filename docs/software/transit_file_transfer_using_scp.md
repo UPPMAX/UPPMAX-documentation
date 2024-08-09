@@ -41,6 +41,9 @@ The process is:
 
 ### 2. Start a terminal on your local computer
 
+Start a [terminal](../software/terminal.md) on your local computer
+
+
 ### 3a. Using `scp` to download from Transit
 
 In the terminal, copy files using `scp` to download files from Transit:

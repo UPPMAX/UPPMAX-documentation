@@ -10,7 +10,7 @@ This possible for the Rackham and Snow clusters.
 
 ## Step 1: Login to an UPPMAX cluster
 
-- Using ThinLinc or a terminal does not matter.,
+- Using ThinLinc or a [terminal](../software/terminal.md) does not matter.
 
 ## Step 2: start an interactive session
 

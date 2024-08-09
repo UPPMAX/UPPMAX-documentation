@@ -32,11 +32,11 @@ There are multiple ways to transfer files to/from Bianca:
 Method                                                                            |Features
 ----------------------------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)                           |Graphical interface, intuitive, for small amounts of data only
-[Using `rsync`](#using-rsync)                                                     |Terminal, recommended
-[Using `sftp`](#using-sftp)                                                       |Terminal, easy to learn, can use terminal commands to select files
-[Using `lftp`](#using-lftp)                                                       |Terminal
-Transit server from/to Rackham, see below                                         |Terminal, can be used to transfer data between clusters in general
-[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer) |Both graphical and terminal, need a computer with `sshfs` installed
+[Using `rsync`](#using-rsync)                                                     |[Terminal](../software/terminal.md), recommended
+[Using `sftp`](#using-sftp)                                                       |[Terminal](../software/terminal.md), easy to learn, can use terminal commands to select files
+[Using `lftp`](#using-lftp)                                                       |[Terminal](../software/terminal.md)
+Transit server from/to Rackham, see below                                         |[Terminal](../software/terminal.md), can be used to transfer data between clusters in general
+[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer) |Both graphical and [terminal](../software/terminal.md), need a computer with `sshfs` installed
 
 ## Using a graphical program
 

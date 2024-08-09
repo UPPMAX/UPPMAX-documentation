@@ -13,7 +13,7 @@ tags:
 There are multiple ways to [log in to Bianca](login_bianca.md).
 
 This page describes how to [log in to Bianca](login_bianca.md)
-using a terminal and a password:
+using a [terminal](../software/terminal.md) and a password:
 
 - [Procedure](#procedure): describes the procedure
 - [Troubleshooting](#troubleshooting): describes how to fix errors
@@ -35,7 +35,7 @@ Get inside the university networks.
 
 ### 2. Use `ssh` to log in
 
-From a terminal, use [`ssh`](../software/ssh.md) to log in:
+From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
 ssh [user]-[project name]@bianca.uppmax.uu.se
