@@ -149,7 +149,7 @@ Here are some common errors and their solutions:
 Permission denied, please try again.
 ```
 
-Here are questions to solve that problem:
+Here are the questions we will ask to solve your problem:
 
 ```mermaid
 flowchart TD
@@ -160,14 +160,18 @@ flowchart TD
     in_sunet[Are you within the university networks?]
     active_bianca_project[Is that Bianca project active?]
     member_of_bianca_project[Are you a member of that Bianca project]
+    contact_support[Contact support]
 
     error --> correct_password
     error --> in_sunet
     
-    in_sunet --> active_bianca_project
+    in_sunet --> |yes| active_bianca_project
 
-    correct_password --> added_2fa --> added_correct_2fa
-    active_bianca_project --> member_of_bianca_project
+    correct_password --> |yes| added_2fa
+    added_2fa --> |yes| added_correct_2fa
+    active_bianca_project -->  |yes| member_of_bianca_project
+    member_of_bianca_project --> |yes| contact_support
+    added_correct_2fa --> |yes| contact_support
 ```
 
 ???- question "How do I know my password is correct?"
@@ -227,3 +231,6 @@ flowchart TD
     To confirm your project is active or inactive, use the SUPR NAISS website.
     See [the UPPMAX documentation on projects](../getting_started/project.md)
     how to see which projects you are a member of.
+
+See [the UPPMAX page on contacting support](../support.md)
+on how to contact us.
