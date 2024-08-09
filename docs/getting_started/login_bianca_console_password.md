@@ -180,7 +180,7 @@ flowchart TD
 
     It could be that you've forgotten your password. That can happen to all of
     us. You can then reset your password at <https://suprintegration.uppmax.uu.se/getpasswd>
-    
+
 ???- question "What do you mean 'Have you added a 2FA number at the end of your password?'?"
 
     When you type your password, this needs to be followed by a two-factor authentication
