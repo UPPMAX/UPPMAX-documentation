@@ -765,7 +765,7 @@ Run the script as such:
 sbatch /home/sven/darsync_my_script.slurm
 ```
 
-#### Second possible fix 
+#### Second possible fix
 
 Another possible fix comes from [StackOverflow](https://stackoverflow.com/questions/36300446/ssh-permission-denied-publickey-gssapi-with-mic):
 
