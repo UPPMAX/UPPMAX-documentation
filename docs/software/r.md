@@ -14,7 +14,6 @@ Here we discuss:
 - [How to install personal packages](#how-to-install-personal-packages)
 - [How to create a Singularity container for an R package](create_singularity_container_for_r_package.md)
 
-
 ```mermaid
 flowchart TD
 
@@ -321,4 +320,3 @@ Aalto Scientific Computing:
 - [Official R documentation](https://cran.r-project.org/manuals.html)
 - [CRAN homepage](https://cran.r-project.org)
 - [CRAN mirrors](https://cran.r-project.org/mirrors.html)
-

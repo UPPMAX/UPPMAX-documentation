@@ -45,7 +45,6 @@ module load gcc/13.2.0
     For sake of doing reproducible research,
     always load a module of a specific version.
 
-
 If you need the C11 or C17 standards, use these module versions or newer:
 
 Module version|Description

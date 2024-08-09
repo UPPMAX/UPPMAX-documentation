@@ -28,7 +28,6 @@
     this is the expected behavior from a virtual cluster:
     most physical nodes are not allocated to this project and hence unavailable.
 
-
 ???- question "How does that look like on Rackham?"
 
     ```bash
@@ -69,4 +68,3 @@
     devcore      up    1:00:00      1  drain r485
     devcore      up    1:00:00      1    mix r486
     ```
-

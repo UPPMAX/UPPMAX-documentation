@@ -9,7 +9,6 @@ There are multiple ways to transfer files to/from [Transit](../cluster_guides/tr
 
     See [the page about Transit](transit.md) for more detailed information.
 
-
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)       |Graphical interface, intuitive, for small amounts of data only
@@ -59,7 +58,6 @@ SFTP is considered a secure file transfer protocol.
 
 See [Transit file transfer using SFTP](../software/transit_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
-
 
 ### Overview
 
@@ -113,4 +111,3 @@ flowchart TD
 ```
 
 > Overview of file transfer on Transit
-

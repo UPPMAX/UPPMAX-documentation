@@ -49,7 +49,6 @@ Python 3.3 or any other version.
 
 ## Install packages in your selected python version
 
-
 1. Set python version with
 
     ```bash

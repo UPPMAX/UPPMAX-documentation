@@ -29,7 +29,6 @@ ssh -X [username]@rackham.uppmax.uu.se
 `[username]` is your UPPMAX username, for example, `sven`,
 resulting in:
 
-
 ```bash
 ssh -X sven@rackham.uppmax.uu.se
 ```

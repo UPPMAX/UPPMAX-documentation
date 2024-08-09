@@ -14,10 +14,10 @@ This will **not** work on **Bianca** for security reasons.
 - A subset of [.htaccess](https://httpd.apache.org/docs/current/howto/htaccess.html)/[.htpasswd](https://httpd.apache.org/docs/2.4/programs/htpasswd.html) functionality is available to control access.
 
 - Example:
-    - ``/crex/proj/naiss2024-1-123/webexport/Project_portal/.htaccess``
-    - ``/crex/proj/naiss2024-1-123/Nisse/.htpasswd``
+  - ``/crex/proj/naiss2024-1-123/webexport/Project_portal/.htaccess``
+  - ``/crex/proj/naiss2024-1-123/Nisse/.htpasswd``
 
-    - Note that you need the full physical ``/crex/proj...`` path. This full path is given from the command ``pwd -P``.
+  - Note that you need the full physical ``/crex/proj...`` path. This full path is given from the command ``pwd -P``.
 
 !!! admonition "see also"
 

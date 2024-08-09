@@ -69,7 +69,6 @@ basic Linux knowledge to use Bianca.
     to use Bianca. Learning the essential Linux commands
     is described [here](../getting_started/linux.md).
 
-
 ## Overview of all steps possible/needed to access Bianca
 
 ```mermaid

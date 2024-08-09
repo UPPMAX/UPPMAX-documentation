@@ -243,7 +243,6 @@ Of the module shown, also the different versions are reported.
     so that you can spend time on your research
     and we figure this out :-)
 
-
 To load a module, use `module load [module]`,
 for example `module load cowsay`.
 This will load the default version of that module,
@@ -414,7 +413,7 @@ though, especially when searching for a specific tool, or a bioinformatics tool.
 It only reports modules that are immediately available.
 
 ```bash
-$ module avail R
+module avail R
 ```
 
 outputs everything that has an `r` in the name... not useful.

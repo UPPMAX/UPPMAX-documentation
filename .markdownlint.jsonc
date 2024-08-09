@@ -51,11 +51,6 @@
   //MD014/commands-show-output: Show dollar before command : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md014.md
   "MD014": false,
 
-  "MD024": {
-    "no-duplicate-heading": false
-  }
-
-
   // Standard markdown does not allow for valid indent code like this:
   //
   // ???- question "A question"

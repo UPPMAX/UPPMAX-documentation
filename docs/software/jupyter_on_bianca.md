@@ -27,14 +27,14 @@ Jupyter is an [IDE](../software/ides.md) specialized for [the Python programming
 Start a notebook like this:
 
 ```bash
-$ module load python/<version>
-$ jupyter-notebook --ip 0.0.0.0 --no-browser
+module load python/<version>
+jupyter-notebook --ip 0.0.0.0 --no-browser
 ```
 
 or jupyter lab:
 
 ``` bash
-$ jupyter-lab --ip 0.0.0.0 --no-browser
+jupyter-lab --ip 0.0.0.0 --no-browser
 ```
 
 - copy-paste one of the URL addresses from the jupyter output in the terminal into the address files in the open ``firefox`` session.
@@ -43,5 +43,4 @@ $ jupyter-lab --ip 0.0.0.0 --no-browser
 - `<ctrl-z>`
 - `bg`
 - `firefox <URL> &`
-    - Example ``firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &``
-
+  - Example ``firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &``

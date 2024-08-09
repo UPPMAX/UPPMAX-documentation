@@ -60,4 +60,3 @@ gdb your-program
 Then you can use the gdb commands, like run, break, step, help, ...
 
 Exit with `Ctrl+D`.
-

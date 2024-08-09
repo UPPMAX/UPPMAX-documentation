@@ -9,7 +9,6 @@ Here we discuss how to contribute
 - [Where to put files](#where-to-put-files)
 - [Which branch](#which-branch)
 
-
 ## Spoken text
 
 Spoken text are ideas, feedback, messages, etc. and are written in English.
@@ -78,4 +77,3 @@ Examples on general software use:
 ## Which branch
 
 Submitting to the main branch is fine! Thanks!
-

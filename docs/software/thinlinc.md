@@ -40,8 +40,8 @@ The client can be downloaded from the [official download page](https://www.cendi
 
 - Windows/Mac: Right-click and choose, or
 - Windows:
-    - paste: `shift+insert`
-    - copy: `ctrl+insert`
+  - paste: `shift+insert`
+  - copy: `ctrl+insert`
 
 ### How do I copy/paste between ThinLinc and locally?
 
@@ -51,12 +51,12 @@ ThinLinc has a clipboard where one can shuttle text via copy-pasting
 inside/outside the ThinLinc remote desktop environment.
 
 - Copy in ThinLinc by the ThinLinc command (see above) and it ends up here in the ThinLinc clipboard
-    - Mark and copy with Windows/Mac command
-    - Paste locally with Windows/Mac command
+  - Mark and copy with Windows/Mac command
+  - Paste locally with Windows/Mac command
 
 - Copy from locally
-    - paste in the ThinLinc clipboard with Windows/Mac command
-    - paste to ThinLinc place by the ThinLinc command (see above)
+  - paste in the ThinLinc clipboard with Windows/Mac command
+  - paste to ThinLinc place by the ThinLinc command (see above)
 
 ### Settings
 

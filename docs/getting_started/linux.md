@@ -30,7 +30,7 @@
 ![Content](./img/images.jfif)
 
 - Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
-    - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
+  - [Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
 
 ![Content](./img/gnu.png)
 
@@ -82,10 +82,9 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 - The command-line interface: the bash prompt $
 - bash can be seen as a program that finds and runs other programs
 - bash is scripting language that is referred to as a shell
-    - (because it sits around the kernel making it easy to interact with)
+  - (because it sits around the kernel making it easy to interact with)
 
 ![Content](./img/unix_architecture.jpg)
-
 
 ### The prompt
 
@@ -95,15 +94,15 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 - [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
 
-    - Example:
+  - Example:
 
     ```bash
     [bjornc@rackham3 linux_tutorial]$
     ```
 
-    - For changing info (only for advanced users!): <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
-    - The program to run is the first word
-    - All words are separated by spaces
+  - For changing info (only for advanced users!): <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
+  - The program to run is the first word
+  - All words are separated by spaces
 
 ![folders](./img/folders.png)
 
@@ -117,9 +116,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ![Content](./img/screen.png){ : style="width:500px" }
 
-
 ### Tab Completion
-
 
 ![Content](./img/tab.png){ : style="width:200px" }
 
@@ -127,7 +124,6 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ask Bash to complete what you’re writing.
 
 - Get in the habit of this — it will save you many hours!
-
 
 ## Editing files
 
@@ -148,7 +144,6 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - Type `test text`
     - End and save with ``<ctrl>-X`` followed by `Y` and `<enter>`.
 
-
 ## Typical sources of error
 
 ![Content](./img/cross.png)
@@ -162,11 +157,9 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - Check that you are in the right place in the file system.
     - File permissions. Check that the right read, write and execute permission are set. See next session.
 
-
 ## Caution
 
 ![Content](./img/caution.png)
-
 
 !!! Warning
 
@@ -175,7 +168,6 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
         - move (`mv`), and
         - remove (`rm`).
     - **Beware of overwriting files and deleting the wrong ones.**
-
 
 !!! tip
 
@@ -194,7 +186,6 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 !!! Note
 
     - If you do destroy your data, email UPPMAX support, we may be able to help.
-
 
 !!! keypoints
 

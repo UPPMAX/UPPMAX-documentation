@@ -152,7 +152,6 @@ both Rackham and Bianca. These are updated every third day. See above for these 
    - This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
    - Check the text output as ``conda`` is loaded, especially the first time, see below
 
-
 1. Create the Conda environment
 
     - Example:
@@ -219,11 +218,11 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 - Create an environment based on dependencies given in an environment
   file:
 
-        $ conda env create --file environment.yml
+        conda env create --file environment.yml
 
 - Create file from present conda environment:
 
-        $ conda env export > environment.yml
+        conda env export > environment.yml
 
 `environments.yml` (for conda) is a yaml-file which looks like this:
 
@@ -255,7 +254,6 @@ dependencies:
 !!! admonition "More on dependencies"
 
     - Dependency management from course [Python for Scientific computing](https://aaltoscicomp.github.io/python-for-scicomp/dependencies/)
-
 
 !!! abstract "keypoints"
 
@@ -295,7 +293,7 @@ You may have to:
 in source directory:
 
 ```bash
-$ cp –a <package_dir> <wharf_mnt_path>
+cp –a <package_dir> <wharf_mnt_path>
 ```
 
 you may want to tar before copying to include all possible symbolic links:

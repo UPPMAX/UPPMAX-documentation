@@ -25,7 +25,7 @@ and accessible via the module system.
 - Before you can list available bioinformatics tools you need to issue the command:
 
 ```bash
-$ module load bioinfo-tools
+module load bioinfo-tools
 ```
 
 - When you list available modules with ``module avail`` after this, you will see that the bioinformatics tools are now also available in the listing.

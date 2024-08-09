@@ -11,7 +11,6 @@
 - writing batch script
 - view your CPU hours and disk usage
 
-
 ## Transferring some files
 
 ### Graphical file manager
@@ -52,7 +51,6 @@
     - [Cyberduck](https://cyberduck.io/)
 
     - [Filezilla](https://filezilla-project.org/download.php?type=client)
-
 
 !!! example "Type-along"
 

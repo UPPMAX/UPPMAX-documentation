@@ -41,4 +41,3 @@ squeue -u $USER
     [richel@rackham1 ~]$ squeue -u $USER
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
     ```
-

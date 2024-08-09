@@ -27,7 +27,6 @@ Jupyter is an [IDE](../software/ides.md) specialized for [the Python programming
 - [The Jupyter project](https://jupyter.org/) contains a lot of information and inspiration
 - [The Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/)  
 
-
 ## Introduction
 
 Jupyter is web application that allows literature programming for Python. That is, Jupyter allows to create documents where Python code is shown and run and its results shown, surrounded by written text (e.g. English).
@@ -45,7 +44,7 @@ Jupyter can be slow when using remote desktop webpage
 - For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter. See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_ on how to install the ThinLinc client locally.
 
 - It is also possible to run Jupyter with a local browser to speed up the graphics but still use the benefits of many CPU:s and much RAM.
-    - [Run Jupyter in your local browser](jupyter_local.md)
+  - [Run Jupyter in your local browser](jupyter_local.md)
 
 ### Some links
 
@@ -68,13 +67,13 @@ Start a terminal. Within that terminal, start an interactive session from the lo
 #### For Rackham
 
 ```sh
-$ interactive -A <naiss-project-id>  -t 4:00:00
+interactive -A <naiss-project-id>  -t 4:00:00
 ```
 
 #### For Snowy
 
 ```sh
-$ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
+interactive -M snowy -A <naiss-project-id>  -t 4:00:00
 ```
 
 ### Step 3: start Jupyter in the interactive session
@@ -95,14 +94,14 @@ Leave this terminal open.
 Start a notebook like this:
 
 ```bash
-$ module load python/<version>
-$ jupyter-notebook --ip 0.0.0.0 --no-browser
+module load python/<version>
+jupyter-notebook --ip 0.0.0.0 --no-browser
 ```
 
 or jupyter lab:
 
 ``` bash
-$ jupyter-lab --ip 0.0.0.0 --no-browser
+jupyter-lab --ip 0.0.0.0 --no-browser
 ```
 
 - copy-paste one of the URL addresses from the jupyter output in the terminal into the address files in the open ``firefox`` session.
@@ -111,7 +110,7 @@ $ jupyter-lab --ip 0.0.0.0 --no-browser
 - `<ctrl-z>`
 - `bg`
 - `firefox <URL> &`
-    - Example ``firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &``
+  - Example ``firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de33f &``
 
 ## Jupyter in a virtual environment (venv)
 
@@ -121,7 +120,7 @@ If you decide to use the ``--system-site-packages`` configuration you will get `
 However, you won't find your locally installed packages from that jupyter session. To solve this, reinstall jupyter within the virtual environment by force (option ``-I``):
 
 ```bash
-$ pip install -I jupyter
+pip install -I jupyter
 ```
 
 and run it as above.

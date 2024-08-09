@@ -71,7 +71,6 @@ Windows         |[`ssh`](ssh.md)          |Neutral     |Unknown             |Sta
 
     - [Git bash](https://gitforwindows.org/)
 
-
 ## Using `ssh` with different terminals that allow for graphics
 
 === "Mac"

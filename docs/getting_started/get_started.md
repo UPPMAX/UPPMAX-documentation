@@ -24,7 +24,6 @@ Have an account already? Then check out these basic user guides:
 - [Rackham first steps](login_rackham.md)
 - [Snowy first steps](login_snowy.md)
 
-
 ## Students
 
 Are you taking a university course that uses UPPMAX and need help? Ask your instructor! If they can't help, contact us through IT Support.
@@ -87,7 +86,6 @@ Now you are logged in! To log out again, type 'exit'.
 
 Note: The information displayed in the welcome screen contains very important information about the usage of UPPMAX, which might affect your jobs, such as scheduled downtime etc, so please read very carefully, and look out for any announcements!
 
-
 ## Changing your password
 
 You should regularly change your password. This is done in the standard Linux way. Type:
@@ -95,7 +93,6 @@ You should regularly change your password. This is done in the standard Linux wa
     passwd
 
 The system will prompt you for your current password, after which it will ask you for a new password and a confirmation of the new password. If you lose your password and need to reset it, follow this link (which you can also find on our homepage).
-
 
 ## Copying files from/to your UPPMAX account
 
@@ -261,4 +258,3 @@ Please check our homepage regularly for information, news and announcements. We 
 
 - <https://www.uu.se/en/centre/uppmax>
 - <https://www.uppmax.uu.se>
-

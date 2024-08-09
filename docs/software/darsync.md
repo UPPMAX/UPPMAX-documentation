@@ -162,22 +162,21 @@ tar -xzvf folder.tar.gz
 
 Once you have mitigated any warnings you got you are ready to generate the Slurm script that will preform the data transfer.
 
-
 ## Gen mode
 
 To generate a transfer script you will need to supply Darsync with some information. Make sure to have this readily available:
 
 - **ID of the UPPMAX project** that will run the transfer job, e.g. `naiss2099-23-99`
-    - If you don't remember if, find the name of the project you want to transfer by looking in [the list of active project in SUPR](https://supr.naiss.se/project/).
+  - If you don't remember if, find the name of the project you want to transfer by looking in [the list of active project in SUPR](https://supr.naiss.se/project/).
 - **Path to the folder you want to transfer**, .e.g. `/proj/naiss2099-23-999`
-    - Either transfer your whole project, or put the files and folder your want to transfer into a new folder in your project folder and transfer that folder.
-    - The project's folder on UPPMAX will be located in the `/proj/` folder, most likely a folder with the same name as the project's ID, `/proj/<project id>`, e.g. `/proj/naiss2024-23-999`. If your project has picked a custom *directory name* when it was created it will have that name instead of the project ID, e.g. `/proj/directory_name`. Check which directory name your project has by looking at the project's page in [SUPR](https://supr.naiss.se/project/) and look at the field called `Directory name:`
+  - Either transfer your whole project, or put the files and folder your want to transfer into a new folder in your project folder and transfer that folder.
+  - The project's folder on UPPMAX will be located in the `/proj/` folder, most likely a folder with the same name as the project's ID, `/proj/<project id>`, e.g. `/proj/naiss2024-23-999`. If your project has picked a custom *directory name* when it was created it will have that name instead of the project ID, e.g. `/proj/directory_name`. Check which directory name your project has by looking at the project's page in [SUPR](https://supr.naiss.se/project/) and look at the field called `Directory name:`
 - **Your Dardel username**.
-    - You can see your Dardel username in [SUPR](https://supr.naiss.se/account/)
+  - You can see your Dardel username in [SUPR](https://supr.naiss.se/account/)
 - **The path on Dardel** where you want to put your data, e.g. `/cfs/klemming/projects/snic/naiss2099-23-999`
-    - Check which project ID you have for your project on Dardel in [the list of active project in SUPR](https://supr.naiss.se/project/).
+  - Check which project ID you have for your project on Dardel in [the list of active project in SUPR](https://supr.naiss.se/project/).
 - The **path to the SSH key** you have prepared to be used to login from Rackham to Dardel, e.g. `~/.ssh/id_rsa`
-    - Check
+  - Check
 - The path to where you want to **save the generated transfer script**.
 
 To initiate the gen mode you run Darsync with the `gen` argument. If you run it without any other arguments it will ask you interactive questions to get the information it needs.
@@ -200,7 +199,6 @@ bash ~/dardel_transfer_script.sh
 ```
 
 If you start see progress reports from `rsync` you know it works and you can press `ctrl+c` to stop.
-
 
 Example of how it can look when it works:
 
@@ -233,11 +231,9 @@ rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
 ```
 
-
 ## Troubleshooting
 
 Apart from getting the username or paths wrong, we foresee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
-
 
 ## Links
 

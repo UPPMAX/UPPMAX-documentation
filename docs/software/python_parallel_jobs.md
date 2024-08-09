@@ -32,7 +32,6 @@ threads shares its memory.
 - Multi-threading documentation
 - Examples
 
-
 The designers of the Python language made the choice that only one thread in a process can run actual Python code by using the so-called global interpreter lock (GIL). This means that approaches that may work in other languages (C, C++, Fortran), may not work in Python without being a bit careful. At first glance, this is bad for parallelism. But it’s not all bad!:
 
 External libraries (NumPy, SciPy, Pandas, etc), written in C or other languages, can release the lock and run multi-threaded. Also, most input/output releases the GIL, and input/output is slow.
@@ -169,19 +168,19 @@ Presently you have to install your own mpi4py. You will need to activate paths t
 1. If you use python 3.10.8:
 
 ```bash
-$ module load gcc/12.2.0 openmpi/4.1.4
+module load gcc/12.2.0 openmpi/4.1.4
 ```
 
      Otherwise:
 
 ```bash
-$ module load gcc/9.3.0 openmpi/3.1.5
+module load gcc/9.3.0 openmpi/3.1.5
 ```
 
 1. pip install locally or in an virtual environment
 
 ```bash
-$ pip install --user mpi4py
+pip install --user mpi4py
 ```
 
 Remember that you will also have to load the the openmpi module before running mpi4py code, so that the MPI header files can be found (e.g. with the command "module load gcc/X.X.X openmpi/X.X.X"). Because of how MPI works, we need to explicitly write our code into a file,  pythonMPI.py:
@@ -229,7 +228,6 @@ if rank == 0:
 ```
 
 You can execute your code the normal way as
-
 
 ```bash
 mpirun -n 3 python pythonMPI.py

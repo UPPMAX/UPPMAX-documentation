@@ -52,7 +52,6 @@ module spider picard
 
 Then load your favorite version:
 
-
 ```bash
 module load picard/3.1.1
 ```
@@ -158,4 +157,3 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     Runtime.totalMemory()=2181038080
     To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
     ```
-

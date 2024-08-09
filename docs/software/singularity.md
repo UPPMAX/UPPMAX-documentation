@@ -180,7 +180,6 @@ has thousands of packages, sometimes you need a package from GitHub.
 See [create a Singularity container for an R package](create_singularity_container_for_r_package.md)
 how to do so.
 
-
 ### Building a container from DockerHub
 
 If there is a Docker script on DockerHub,

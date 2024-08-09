@@ -32,4 +32,3 @@ then do:
 ```bash
 gprof your-program gmon.out > output-file
 ```
-

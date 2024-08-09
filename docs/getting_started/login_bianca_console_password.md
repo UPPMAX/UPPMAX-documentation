@@ -80,7 +80,6 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     [X forwarding](../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
-
 ### 3. Type your UPPMAX password with 2FA
 
 Type your UPPMAX password,

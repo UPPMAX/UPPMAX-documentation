@@ -9,4 +9,3 @@ has a service called 'Dis' (the Swedish word for 'haze').
 
 See [here](https://www.uu.se/en/centre/uppmax/resources/clusters/cloud-service-dis)
 for more information.
-

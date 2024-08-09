@@ -36,7 +36,6 @@ Another cluster UPPMAX is involved in:
 - [Dardel](dardel.md): a general purpose HPC cluster in Stockholm.
   Consider moving your files to it already
 
-
 ```mermaid
 flowchart TD
     UPPMAX(Which UPPMAX cluster?)
@@ -202,7 +201,6 @@ Cluster name|Sensitive data yes/no?
 Bianca      |Yes
 Rackham     |No
 Snowy       |No
-
 
 On a sensitive data cluster,
 (sensitive) data must be protected to remain there,

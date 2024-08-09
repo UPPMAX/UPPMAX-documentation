@@ -12,11 +12,11 @@
 
 - WRF is installed as modules for version 4.1.3 and compiled with INTEL and parallelized for distributed memory (dmpar) or hybrid shared and distributed memory (sm+dm). These are available as:
 
-    - WRF/4.1.3-dmpar     default as WRF/4.1.3
-    - WRF/4.1.3-dm+sm
+  - WRF/4.1.3-dmpar     default as WRF/4.1.3
+  - WRF/4.1.3-dm+sm
 - WPS is installed as version 4.1 and available as:
 
-    - WPS/4.1
+  - WPS/4.1
 
 - There are WPS_GEOG data available.
 - Set the path in `namelist.wps` to:
@@ -30,10 +30,10 @@ geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG'
 - It may not work for a large domain. If so, either modify TBL file or use in inner domains only.
 
 - To analyse the WRF output on the cluster you can use Vapor, NCL (module called as NCL-graphics) or wrf-python (module called as wrf-python). For details on how, please confer the web pages below:
-    - [wrf-python](https://wrf-python.readthedocs.io/en/latest/),
-    - [Vapor](https://www.vapor.ucar.edu/) or
-    - [NCL](https://www.ncl.ucar.edu/Document/Pivot_to_Python/september_2019_update.shtml)
-        - is not updated anymore and the developers recommend [GeoCAT](https://geocat.ucar.edu/) which serves as an umbrella over wrf-python, among others.
+  - [wrf-python](https://wrf-python.readthedocs.io/en/latest/),
+  - [Vapor](https://www.vapor.ucar.edu/) or
+  - [NCL](https://www.ncl.ucar.edu/Document/Pivot_to_Python/september_2019_update.shtml)
+    - is not updated anymore and the developers recommend [GeoCAT](https://geocat.ucar.edu/) which serves as an umbrella over wrf-python, among others.
 
 ## Get started
 

@@ -3,7 +3,6 @@
 This page describes [how to create and use an SSH key](ssh_key_use.md)
 for the [Rackham](../cluster_guides/rackham.md) cluster.
 
-
 ## Procedure
 
 ???- question "Prefer a video?"

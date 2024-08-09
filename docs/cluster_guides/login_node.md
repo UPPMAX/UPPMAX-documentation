@@ -97,4 +97,3 @@ flowchart TD
     either use [the job scheduler](../cluster_guides/slurm.md) or
     use [an interactive node](../cluster_guides/start_interactive_node.md)
     with more nodes than the login node has.
-

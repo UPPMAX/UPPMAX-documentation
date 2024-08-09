@@ -19,13 +19,13 @@ Start a terminal. Within that terminal, start an interactive session from the lo
 ### For Rackham
 
 ```sh
-$ interactive -A <naiss-project-id>  -t 4:00:00
+interactive -A <naiss-project-id>  -t 4:00:00
 ```
 
 ### For Snowy
 
 ```sh
-$ interactive -M snowy -A <naiss-project-id>  -t 4:00:00
+interactive -M snowy -A <naiss-project-id>  -t 4:00:00
 ```
 
 ## Step 3: start Jupyter in the interactive session
@@ -53,10 +53,10 @@ Copy one of these, like:
 ## Step 4: On own computer
 
 - If you use ssh to connect to Rackham, you need to forward the port of the interactive node to your local computer.
-    - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
+  - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
 
 ```sh
-   $ ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
+   ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
 ```
 
 - Replace ``r486`` if you got another node

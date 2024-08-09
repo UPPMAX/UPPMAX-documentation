@@ -47,4 +47,3 @@ as [sbatch](../software/sbatch.md).
     It can take tens of minutes before an interactive node is allocated.
 
     Bianca has not frozen, go ahead and have a coffee break :-)
-

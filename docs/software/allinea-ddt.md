@@ -8,7 +8,6 @@ that allows you to debug programs running in parallel
 with up to 6 nodes on 16 cores or any other combination.
 The licenses are shared between all users that are in active debugging session.
 
-
 To use the graphical user interface
 use [ssh with forwarding](ssh_x_forwarding.md)
 or [ThinLinc](thinlinc.md).
@@ -19,7 +18,6 @@ from you command line:
 ```bash
 module load ddt
 ```
-
 
 To start the program run:
 
@@ -53,9 +51,9 @@ for Rackham and provide the job specific options:
 - 'System | MPI/UPC Implementation | check Auto-Detect'
 - 'System | MPI/UPC Implementation | tick Create Root and Workers group automatically'
 - Select a template file depending on the partition you want to use:
-    - `core`: 'Job Submission | Submission template file | Browse and select `/sw/comp/ddt/7.0/templates/rackham-core.qtf`
-    - `node`: 'Job Submission | Submission template file | Browse and select `/sw/comp/ddt/7.0/templates/rackham-node.qtf`
-    - `devcore`: 'Job Submission | Submission template file | Browse and select `/sw/comp/ddt/7.0/templates/rackham-node.qtf`
+  - `core`: 'Job Submission | Submission template file | Browse and select `/sw/comp/ddt/7.0/templates/rackham-core.qtf`
+  - `node`: 'Job Submission | Submission template file | Browse and select `/sw/comp/ddt/7.0/templates/rackham-node.qtf`
+  - `devcore`: 'Job Submission | Submission template file | Browse and select `/sw/comp/ddt/7.0/templates/rackham-node.qtf`
 - 'Job Submission | tick Quick Restart':
   allows you to restart your program without cancelling
   the allocated time and allocating it again.

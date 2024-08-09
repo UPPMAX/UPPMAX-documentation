@@ -108,4 +108,3 @@ flowchart TD
 > The purple nodes are about file transfer,
 > the blue nodes are about 'doing other things'.
 > The user can be either inside or outside SUNET.
-

@@ -61,7 +61,6 @@ and you have created a SSH key pair.
     ssh-ed25519 AAAA63Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
     ```
 
-
 ### 5. Add the public SSH key to PDC:s Login Portal
 
 How to add the SSH public key is described

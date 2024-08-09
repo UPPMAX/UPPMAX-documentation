@@ -12,7 +12,6 @@ as cannot `rsync` directly to [wharf](../cluster_guides/wharf.md).
 It can be made to work (by using [transit](../cluster_guides/transit.md)), as described in
 [the UPPMAX Bianca file transfer using rsync](../software/bianca_file_transfer_using_rsync.md).
 
-
 ???- question "How does it look like if I try to `rsync` directly to `wharf` anyways?"
 
     One cannot [`rsync`](../software/rsync.md) directly to [wharf](../cluster_guides/wharf.md).

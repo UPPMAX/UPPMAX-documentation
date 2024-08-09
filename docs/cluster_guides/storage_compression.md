@@ -42,7 +42,6 @@
         `-p` is to preserve permissions
         `-t` is to preserve times
 
-
 ## Compression
 
 ???- question "File compression guide"

@@ -91,7 +91,6 @@ A "**core**" job:
 - Must not demand to run on a fat node (see below, for an explanation of "fat"), a devel node.
 - Must not use more than 8 GB of RAM for each core it demands. If a job needs half of the RAM, i.e. 64 GB, you need to reserve also at least half of the cores on the node, i.e. 8 cores, with the "-n 8" flag.
 
-
 A "**core**" job is accounted on your project as one "core hour" (sometimes also named as a "CPU hour") per core you have been allocated, for each wallclock hour that it runs. On the other hand, a "**node**" job is accounted on your project as sixteen core hours for each wallclock hour that it runs, multiplied with the number of nodes that you have asked for.
 
 ### Node types

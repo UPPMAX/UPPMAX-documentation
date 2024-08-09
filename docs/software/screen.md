@@ -28,7 +28,7 @@ $ squeue -j 46964140
 You can start `xterm` terminal in this allocated session like this:
 
 ```bash
-$ xterm -e ssh -AX r174 &
+xterm -e ssh -AX r174 &
 ```
 
 `salloc` command gives you a job allocation of one node for 15 minutes (the "--no-shell" option is important here). Instead you can log in to any node of any of your running jobs, started with e.g. the `sbatch` command.
@@ -38,13 +38,13 @@ You get a job number and from that you can find out the node name, in this examp
 When you log in to the node with the `ssh` command, start the screen program:
 
 ```bash
-$ screen
+screen
 ```
 
 When you detach from the screen program, with e.g. the "d" command, you can later in the same ssh session or in another ssh session reattach to your screen session:
 
 ```bash
-$ screen -r
+screen -r
 ```
 
 When your job has terminated, you can neither reattach to your screen session nor log in to the node.

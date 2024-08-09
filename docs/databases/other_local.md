@@ -1,6 +1,5 @@
 # Other bioinformatics-oriented local data resources
 
-
 Haplotype Reference Consortium
 
 The Haplotype Reference Consortium VCF database is a large reference panel of human haplotypes produced by combining together sequencing data from multiple cohorts.  Version r1.1 is installed on all systems as data module HaplotypeReferenceConsortium/r1.1.

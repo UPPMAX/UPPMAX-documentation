@@ -52,7 +52,6 @@ We also compared against bzip2 and xz, which are general-use compressors. These 
 
 Neither of these improved general-use compressors did as well with FastQ as the specialty compressors. This makes sense given the specialty compressors can take advantages of the restrictions of the format.
 
-
 ### Which is the best method in this trial?
 
 From the results of this trial, the tool that provides the best compression ratio in a reasonable amount of time is fqz_comp in the fqzcomp/4.6 module. It is as fast as bzip2 which is also much better than gzip but does a much better job of compressing FastQ.  However, fqz_comp is experimental so we do not recommend using fqz_comp for everyday use.  We recommend using bzip2 or its parallel equivalent, pbzip2.
@@ -64,7 +63,6 @@ The fqz_comp executable could be used to decompress FastQ within a named pipe if
 ```
 
 Note that fqz_comp is designed to compress FastQ files alone, and neither method here provides the blocked compression format suitable for random access that bgzip does; see [which-compression-format-should-i-use-for-ngs-related-files](compress_format.md) for more on that subject.
-
 
 ### Why not LFQC?
 

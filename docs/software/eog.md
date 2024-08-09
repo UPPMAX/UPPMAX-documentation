@@ -10,7 +10,6 @@ or [login to a remote desktop](../getting_started/login.md)
 
 Usage:
 
-
 ```bash
 eog [filename]
 ```

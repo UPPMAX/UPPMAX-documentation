@@ -51,7 +51,6 @@ for either active use (i.e. in calculations) or to archive it (cold data).
 You are not supposed to do calculations on the cold data. This is stored on off-load storage where the file system is much slower.
 You need to transfer the data to an active storage first.
 
-
 The UPPMAX storage systems are:
 
 - Active: Cygnus for Bianca, Crex for Rackham
@@ -196,11 +195,9 @@ There are three types of nodes:
     This is done by requesting an interactive node
     from the SLURM scheduler.
 
-
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
 A user logs in to a [login node](../cluster_guides/login_node.md) via the Internet.
-
 
 ## Summary
 

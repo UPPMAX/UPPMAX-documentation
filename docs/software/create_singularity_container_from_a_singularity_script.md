@@ -12,4 +12,3 @@ Procedure                                                                       
 [using a computer with Linux where you have super-user right](create_singularity_container_from_a_singularity_script_on_linux.md) | Harder for Mac and Windows users
 
 Note that users have no super-user rights on our UPPMAX clusters.
-

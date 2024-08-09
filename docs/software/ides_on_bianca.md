@@ -37,4 +37,3 @@ IDE                                     |Languages       |Screenshot
 [RStudio](rstudio_on_bianca.md)         |R               |![RStudio on Bianca](../software/img/rstudio_in_action_480_x_270.png)
 :no_entry: [VSCode](vscode_on_bianca.md)|General-purpose |Impossible
 [VSCodium](vscodium_on_bianca.md)       |General-purpose |![VSCodium running on Bianca](../software/img/vscodium_on_bianca_480_x_270.png)
-

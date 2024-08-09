@@ -6,14 +6,12 @@ This guide provides instructions for loading and using OpenAI's Whisper, an
 automatic speech recognition system. Whisper is available on Rackham,
 Snowy and Bianca. It can either be used through a User Interface or loaded as a Module.
 
-
 ## User Interface (GUI)
 
 ### Step 1: Accessing your project  
 
 1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
 2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
-
 
 ### Step 2: Data transfer from local to project  
 
@@ -54,7 +52,6 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 ### Step 4: Monitoring jobs  
 
 1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
-
 
 ### Step 5: Data transfer from project to local
 
@@ -193,11 +190,9 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
 
 * **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
 
-
 ## Module Loading
 
 To load the Whisper module, run the following command:
-
 
 ```console
 [jayan@sens2024544-bianca jayan]$ module load Whisper/0.5.1
@@ -258,4 +253,3 @@ total 13457440
 -rw-rw-r-- 1 sw   75571315 Nov 10 14:22 tiny.en.pt
 -rw-rw-r-- 1 sw   75572083 Nov 10 14:22 tiny.pt
 ```
-

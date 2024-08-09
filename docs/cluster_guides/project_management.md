@@ -1,6 +1,5 @@
 # Manage you projects
 
-
 ## Check the CPU hours of your project(s)
 
 ### On an UPPMAX cluster
@@ -66,19 +65,18 @@ How do I specify that I do not need my large datasets to be backed up?
         - The directory was used for files needed by all job instances and could house files exceeding the quota of the home directory.
         - Job input and output files was (and can still be) stored here.
 
-
 ## Members
 
 Check the current project members with:
 
 ```bash
-$ projmembers <project-name>
+projmembers <project-name>
 ```
 
 If you want to check which members that presently belong to a certain (Linux) group you do:
 
 ```bash
-$ getent groups <project name>
+getent groups <project name>
 ```
 
 - You can also check in [SUPR - Swedish User and Project Repository](https://supr.naiss.se/)

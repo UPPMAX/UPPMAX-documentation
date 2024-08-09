@@ -14,7 +14,6 @@ In this example, we create a Singularity container
 for [https://github.com/lindenb/jvarkit](https://github.com/lindenb/jvarkit)
 with a DockerHub script at [https://hub.docker.com/r/lindenb/jvarkit](https://hub.docker.com/r/lindenb/jvarkit).
 
-
 ## 1. Create the Singularity container
 
 Here we build a Singularity container from a Docker file:

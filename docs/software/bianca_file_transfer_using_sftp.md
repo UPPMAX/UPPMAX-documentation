@@ -80,7 +80,6 @@ and the `sftp` prompt.
 
 The last line, `sftp>` is the `sftp` prompt.
 
-
 Once connected you will have to type the `sftp` commands to upload/download files.
 See [the UPPMAX page on `sftp`](../software/sftp.md) how to do so.
 

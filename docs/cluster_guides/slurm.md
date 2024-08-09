@@ -131,7 +131,6 @@ sbatch -A sens2017625 --partition core my_script.sh
 
 To specify multiple cores, use `--ntasks` (or `-n`) like this:
 
-
 ```bash
 sbatch -A [project_code] --partition core --ntasks [number_of_cores] [script_filename]
 ```
@@ -154,7 +153,6 @@ Here, two cores are used.
     sbatch -A [project_code] --partition core --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
     ```
 
-
 This is especially important if you might adjust core usage
 of the job to be something less than a full node.
 
@@ -170,7 +168,6 @@ to ensure that only 8 cores (less than a single node) are allocated for such a j
 ### The `devel` partition
 
 ### The `devcore` partition
-
 
 ### Specifying job parameters
 
@@ -229,9 +226,9 @@ RAM|Rackham|Snowy|Bianca
 ### GPUs
 
 - Bianca: Nodes with Nvidia A100 40 GB
-    - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
+  - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
 - Snowy: Nodes with Tesla T4 16 GB
-    - The GPU nodes have either 128 or 256 GB memory and one GPU per node
+  - The GPU nodes have either 128 or 256 GB memory and one GPU per node
 
 **Slurm options**:
 

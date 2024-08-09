@@ -40,7 +40,6 @@ From: rocker/tidyverse
 Rscript "$@"
 ```
 
-
 This example script installs the R package hosted on GitHub at
 [https://github.com/bmbolstad/preprocessCore](https://github.com/bmbolstad/preprocessCore).
 Replace the R package to suit your needs.

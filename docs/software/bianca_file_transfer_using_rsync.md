@@ -23,7 +23,6 @@ flowchart TD
   transit --> |3. mount| bianca
 ```
 
-
 ## 1. Get inside SUNET
 
 Get inside SUNET.
@@ -66,7 +65,6 @@ mount_wharf [project_id]
 where
 
 - `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-
 
 ???- question "What about the `[path]` argument?"
 
@@ -126,7 +124,6 @@ rsync my_local_file.txt richel@transit.uppmax.uu.se:sens2016001
 No need to specify the path to the mounted folder, if defaults are used.
 
 The files can now be found in [your wharf folder](../cluster_guides/wharf.md).
-
 
 ### 4b. Transfer all files in a folder to Bianca
 

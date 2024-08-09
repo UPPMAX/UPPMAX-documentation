@@ -57,4 +57,3 @@ scp sven@rackham.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
 
 If asked, give your UPPMAX password.
 You can get rid of this prompt if you have setup SSH keys
-

@@ -30,38 +30,38 @@ Before compiling a program for MPI we must choose, in addition to the compiler, 
 - For all versions of intel from 2021 there is not necessarily a mpi library with same version as the compiler.
 
 ```bash
-$ module load intel-oneapi
+module load intel-oneapi
 ```
 
 - Check availability and load desired version
 
 ```bash
-$ module avail mpi  # showing both compilers and mpi ;-)
+module avail mpi  # showing both compilers and mpi ;-)
 ```
 
 - Example:
 
 ```bash
-$ module load compiler/2023.1.0 mpi/2021.9.0    
+module load compiler/2023.1.0 mpi/2021.9.0    
 ```
 
 ### Suggestions for compatibility Rackham and Snowy
 
 - GCC
-    - v4: gcc/4.8.2 openmpi/1.7.4
-    - v5: gcc/5.3.0 openmpi/1.10.3
-    - v6: gcc/6.3.0 openmpi/2.1.0
-    - v7: gcc/7.4.0 openmpi/3.1.3
-    - v8: gcc/8.3.0 openmpi/3.1.3
-    - v9: gcc/9.3.0 openmpi/3.1.3 or openmpi/4.0.3
-    - v10: gcc/10.3.0 openmpi/**3.1.6*- #or openmpi/**4.1.1**
-    - v11: gcc/11.3.0 openmpi/4.1.2
-    - v12: gcc/12.2.0 openmpi/4.1.4
-    - v13: gcc/13.1.0 openmpi/4.1.5
+  - v4: gcc/4.8.2 openmpi/1.7.4
+  - v5: gcc/5.3.0 openmpi/1.10.3
+  - v6: gcc/6.3.0 openmpi/2.1.0
+  - v7: gcc/7.4.0 openmpi/3.1.3
+  - v8: gcc/8.3.0 openmpi/3.1.3
+  - v9: gcc/9.3.0 openmpi/3.1.3 or openmpi/4.0.3
+  - v10: gcc/10.3.0 openmpi/**3.1.6*- #or openmpi/**4.1.1**
+  - v11: gcc/11.3.0 openmpi/4.1.2
+  - v12: gcc/12.2.0 openmpi/4.1.4
+  - v13: gcc/13.1.0 openmpi/4.1.5
 
 - Intel
-    - v18: intel/18.3 openmpi/3.1.3
-    - v20: intel/20.4 openmpi/**3.1.6*- # or openmpi/**4.1.1**
+  - v18: intel/18.3 openmpi/3.1.3
+  - v20: intel/20.4 openmpi/**3.1.6*- # or openmpi/**4.1.1**
 
 ## Rackham
 

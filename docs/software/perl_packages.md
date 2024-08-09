@@ -37,4 +37,3 @@ After this is done we can always install local packages easily by using the comm
 ```bash
 cpanm [name-of-package-to-install]
 ```bash
-

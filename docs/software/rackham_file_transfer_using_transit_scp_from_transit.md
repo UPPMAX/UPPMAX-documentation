@@ -43,7 +43,6 @@ scp sven@rackham.uppmax.uu.se:/home/sven/my_rackham_file.txt .
 
 Where `.` means 'the directory where I am now on Transit'.
 
-
 ## 3b. :no_entry: Run `scp` to copy files from Rackham to Transit
 
 This is how you **would** copy a file from Rackham to Transit:
