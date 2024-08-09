@@ -2,9 +2,34 @@
 
 `sinfo` is a tool to view information about [Slurm](../cluster_guides/slurm.md) nodes and partitions.
 
-???- question "How does that look like?"
+???- question "How does that look like on Bianca?"
 
-    On Rackham:
+    ```bash
+    [richel@sens2016001-bianca ~]$ sinfo
+    PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+    all        down 10-00:00:0    204 drain* sens2016001-b[1-8,10-204,1178]
+    all        down 10-00:00:0     89   unk* sens2016001-b[205-210,301-312,1073-1084,1119-1177]
+    all        down 10-00:00:0      1   idle sens2016001-b9
+    node         up 10-00:00:0    204 drain* sens2016001-b[1-8,10-204,1178]
+    node         up 10-00:00:0     89   unk* sens2016001-b[205-210,301-312,1073-1084,1119-1177]
+    node         up 10-00:00:0      1   idle sens2016001-b9
+    core*        up 10-00:00:0    204 drain* sens2016001-b[1-8,10-204,1178]
+    core*        up 10-00:00:0     89   unk* sens2016001-b[205-210,301-312,1073-1084,1119-1177]
+    core*        up 10-00:00:0      1   idle sens2016001-b9
+    devel        up    1:00:00    192 drain* sens2016001-b[10-200,1178]
+    devel        up    1:00:00     71   unk* sens2016001-b[1073-1084,1119-1177]
+    devel        up    1:00:00      1   idle sens2016001-b9
+    devcore      up    1:00:00    192 drain* sens2016001-b[10-200,1178]
+    devcore      up    1:00:00     71   unk* sens2016001-b[1073-1084,1119-1177]
+    devcore      up    1:00:00      1   idle sens2016001-b9
+    ```
+
+    Although it may seem unexpected that only 1 node is idle,
+    this is the expected behavior from a virtual cluster:
+    most physical nodes are not allocated to this project and hence unavailable.
+
+
+???- question "How does that look like on Rackham?"
 
     ```bash
     [richel@rackham3 ~]$ sinfo
@@ -44,30 +69,4 @@
     devcore      up    1:00:00      1  drain r485
     devcore      up    1:00:00      1    mix r486
     ```
-
-    On Bianca:
-
-    ```bash
-    [richel@sens2016001-bianca ~]$ sinfo
-    PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-    all        down 10-00:00:0    204 drain* sens2016001-b[1-8,10-204,1178]
-    all        down 10-00:00:0     89   unk* sens2016001-b[205-210,301-312,1073-1084,1119-1177]
-    all        down 10-00:00:0      1   idle sens2016001-b9
-    node         up 10-00:00:0    204 drain* sens2016001-b[1-8,10-204,1178]
-    node         up 10-00:00:0     89   unk* sens2016001-b[205-210,301-312,1073-1084,1119-1177]
-    node         up 10-00:00:0      1   idle sens2016001-b9
-    core*        up 10-00:00:0    204 drain* sens2016001-b[1-8,10-204,1178]
-    core*        up 10-00:00:0     89   unk* sens2016001-b[205-210,301-312,1073-1084,1119-1177]
-    core*        up 10-00:00:0      1   idle sens2016001-b9
-    devel        up    1:00:00    192 drain* sens2016001-b[10-200,1178]
-    devel        up    1:00:00     71   unk* sens2016001-b[1073-1084,1119-1177]
-    devel        up    1:00:00      1   idle sens2016001-b9
-    devcore      up    1:00:00    192 drain* sens2016001-b[10-200,1178]
-    devcore      up    1:00:00     71   unk* sens2016001-b[1073-1084,1119-1177]
-    devcore      up    1:00:00      1   idle sens2016001-b9
-    ```
-
-    Although it may seem unexpected that only 1 node is idle,
-    this is the expected behavior from a virtual cluster:
-    most physical nodes are not allocated to this project and hence unavailable.
 
