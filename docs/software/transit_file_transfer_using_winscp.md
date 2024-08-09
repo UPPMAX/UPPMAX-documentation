@@ -6,11 +6,11 @@ Here it is shown how to transfer files using a graphical tool called WinSCP.
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](transit.md).
+    See [the page about the UPPMAX Transit server](../cluster_guides/transit.md).
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Transit are described [here](transfer_transit.md)
+    Other ways to transfer data to/from Transit are described [here](../cluster_guides/transfer_transit.md)
 
 ## Procedure
 

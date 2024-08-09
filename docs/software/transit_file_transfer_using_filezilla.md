@@ -6,7 +6,7 @@ Here it is shown how to transfer files using a graphical tool called [FileZilla]
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](transit.md).
+    See [the page about the UPPMAX Transit server](../cluster_guides/transit.md).
 
 ## Procedure
 
@@ -108,7 +108,7 @@ before closing FileZilla.
 For detailed instructions, see the guides at the respective cluster, among others:
 
 - Bianca file transfer using Transit
-- [Rackham file transfer using Transit](rackham_file_transfer_using_transit.md)
+- [Rackham file transfer using Transit](../cluster_guides/rackham_file_transfer_using_transit.md)
 
 ## Extra material
 
