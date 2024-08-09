@@ -683,12 +683,9 @@ you can delete the files on Rackham that you've just transferred to Dardel.
 
 ## T. Troubleshooting
 
-Here are some errors you may get, in chronological order of us writing
-the errors down.
+### `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
 
-### T1. `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
-
-### T1. Full error message
+Full error message:
 
 ```text
 [richel@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
@@ -697,11 +694,11 @@ rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
 ```
 
-### T1. Likely cause
+Likely cause:
 
 This probably means that Dardel is down, likely due to maintenance.
 
-### T1. Solution
+Solution:
 
 You can do nothing, except wait until Dardel is up again.
 
@@ -709,9 +706,9 @@ You may check the PDC news at
 [https://www.pdc.kth.se/about/pdc-news](https://www.pdc.kth.se/about/pdc-news)
 to confirm that there is indeed a problem with Dardel.
 
-### T2. `rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/naiss2024-23-352/.": Operation not permitted (1)`
+### `rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/naiss2024-23-352/.": Operation not permitted (1)`
 
-#### T2. Full error message
+#### Full error message
 
 ```bash
 $ bash darsync_my_folder.slurm
@@ -725,21 +722,21 @@ after which the script keeps running.
 
     An example can be found at [https://github.com/UPPMAX/ticket_296149](https://github.com/UPPMAX/ticket_296149).
 
-#### T2. Hypothesized cause
+#### Hypothesized cause
 
 This darsync script is running for the second (or more) time,
 hence it has already created the target folders on Dardel.
 This hypothesis is backed by [this Stack Overflow post](https://stackoverflow.com/a/54861420)
 where it is suggested to delete the folders; in this case: the target folders on Dardel.
 
-#### T2. Solution
+#### Solution
 
 On Dardel, delete the target folders that are already there
 and re-run the script.
 
-### T3. `Permission denied (publickey,gssapi-keyex,gssapi-with-mic)`
+### `Permission denied (publickey,gssapi-keyex,gssapi-with-mic)`
 
-#### T3. Full error message
+#### Full error message
 
 ```bash
 [sven@rackham1 .ssh]$ bash /home/sven/darsync_my_script.slurm
@@ -753,7 +750,7 @@ rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
 Note that our fictional user runs the Slurm script via `bash`, instead of
 via `squeue`.
 
-#### T3. First possible fix
+#### First possible fix
 
 Run the script as such:
 
@@ -761,7 +758,7 @@ Run the script as such:
 sbatch /home/sven/darsync_my_script.slurm
 ```
 
-#### T3. Second possible fix
+#### Second possible fix
 
 Another possible fix comes from [StackOverflow](https://stackoverflow.com/questions/36300446/ssh-permission-denied-publickey-gssapi-with-mic):
 
