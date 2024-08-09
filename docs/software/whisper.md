@@ -51,7 +51,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 ### Step 4: Monitoring jobs  
 
-1. Monitor your job by entering [jobinfo](../software/jobinfo) on [terminal](../software/terminal.md) or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
+1. Monitor your job by entering [jobinfo](../software/jobinfo.md) on [terminal](../software/terminal.md) or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
 
 ### Step 5: Data transfer from project to local
 
