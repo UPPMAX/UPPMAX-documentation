@@ -715,7 +715,7 @@ to confirm that there is indeed a problem with Dardel.
 
 ### `rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/naiss2024-23-352/.": Operation not permitted (1)`
 
-Full error message:
+#### Full error message
 
 ```bash
 $ bash darsync_my_folder.slurm
@@ -729,21 +729,21 @@ after which the script keeps running.
 
     An example can be found at [https://github.com/UPPMAX/ticket_296149](https://github.com/UPPMAX/ticket_296149).
 
-Hypothesized cause:
+#### Hypothesized cause
 
 This darsync script is running for the second (or more) time,
 hence it has already created the target folders on Dardel.
 This hypothesis is backed by [this Stack Overflow post](https://stackoverflow.com/a/54861420)
 where it is suggested to delete the folders; in this case: the target folders on Dardel.
 
-Solution:
+#### Solution
 
 On Dardel, delete the target folders that are already there
 and re-run the script.
 
 ### `Permission denied (publickey,gssapi-keyex,gssapi-with-mic)`
 
-Full error message:
+#### Full error message
 
 ```bash
 [sven@rackham1 .ssh]$ bash /home/sven/darsync_my_script.slurm
@@ -757,13 +757,15 @@ rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
 Note that our fictional user runs the Slurm script via `bash`, instead of
 via `squeue`.
 
-First possible fix:
+#### First possible fix
 
 Run the script as such:
 
 ```bash
 sbatch /home/sven/darsync_my_script.slurm
 ```
+
+#### Second possible fix 
 
 Another possible fix comes from [StackOverflow](https://stackoverflow.com/questions/36300446/ssh-permission-denied-publickey-gssapi-with-mic):
 
