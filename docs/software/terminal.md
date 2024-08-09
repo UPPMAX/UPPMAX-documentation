@@ -1,10 +1,10 @@
 # Terminal
 
-![](./img/xeyes_no_ssh_x_forwarding.png)
+![A terminal](./img/xeyes_no_ssh_x_forwarding.png)
 
 > A terminal
 
-A terminal is a program that allows you to run commands. 
+A terminal is a program that allows you to run commands.
 
 ## What does all the stuff on the line I can type on mean?
 
