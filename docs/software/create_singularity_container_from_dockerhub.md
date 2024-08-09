@@ -1,3 +1,12 @@
+---
+tags:
+  - Singularity
+  - Singularity script
+  - create
+  - build
+  - DockerHub
+---
+
 # Create a Singularity container from DockerHub
 
 There are multiple ways how to [create a Singularity container](singularity.md).

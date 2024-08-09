@@ -1,3 +1,10 @@
+---
+tags:
+  - SSH
+  - client
+  - clients
+---
+
 # SSH client
 
 An SSH client is a program that allows on to use SSH.

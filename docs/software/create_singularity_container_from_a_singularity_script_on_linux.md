@@ -1,3 +1,13 @@
+---
+tags:
+  - Singularity
+  - Singularity script
+  - create
+  - build
+  - Linux
+  - local computer
+---
+
 # Create a Singularity container from a Singularity script on a computer with Linux where you have super-user rights
 
 There are multiple ways how to [create a Singularity container from a Singularity script](create_singularity_container_from_a_singularity_script.md).

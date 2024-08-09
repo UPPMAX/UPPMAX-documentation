@@ -1,3 +1,10 @@
+---
+tags:
+  - transfer
+  - Transit
+  - WinSCP
+---
+
 # File transfer to/from Transit using WinSCP
 
 There are multiple ways to [transfer files to/from Transit using a graphical tool](../cluster_guides/transit_file_transfer_using_gui.md)

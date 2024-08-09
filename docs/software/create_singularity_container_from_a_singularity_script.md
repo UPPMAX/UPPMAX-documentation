@@ -1,3 +1,11 @@
+---
+tags:
+  - Singularity
+  - Singularity script
+  - create
+  - build
+---
+
 # Create a Singularity container from a Singularity script
 
 There are multiple ways how to [create a Singularity container](singularity.md).

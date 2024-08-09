@@ -1,3 +1,12 @@
+---
+tags:
+  - Singularity
+  - Singularity script
+  - create
+  - build
+  - conda
+---
+
 # Create a Singularity container from conda
 
 There are multiple ways how to [create a Singularity container](singularity.md).

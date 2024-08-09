@@ -1,3 +1,12 @@
+---
+tags:
+  - Bianca
+  - SSH
+  - SSH keys
+  - SSH key pair
+  - create
+---
+
 # Create an SSH key pair for use with Bianca
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)

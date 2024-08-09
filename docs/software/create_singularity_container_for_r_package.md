@@ -1,3 +1,13 @@
+---
+tags:
+  - Singularity
+  - Singularity script
+  - create
+  - build
+  - R package
+  - R
+---
+
 # Create a Singularity container for an R package
 
 There are multiple ways how to [create a Singularity container](singularity.md).

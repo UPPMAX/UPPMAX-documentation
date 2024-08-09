@@ -1,3 +1,14 @@
+---
+tags:
+  - Singularity
+  - Singularity script
+  - create
+  - build
+  - Docker
+  - docker pull
+  - pull
+---
+
 # Create a Singularity container from a Docker pull
 
 There are multiple ways how to [create a Singularity container](singularity.md).

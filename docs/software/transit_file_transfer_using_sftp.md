@@ -1,3 +1,11 @@
+---
+tags:
+  - transfer
+  - SFTP
+  - sftp
+  - Transit
+---
+
 # Data transfer to/from Transit using SFTP
 
 Data transfer to/from [Transit](../cluster_guides/transit.md) using SFTP
