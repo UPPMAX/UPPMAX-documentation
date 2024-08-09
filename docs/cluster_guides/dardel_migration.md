@@ -769,8 +769,10 @@ Another possible fix comes from [StackOverflow](https://stackoverflow.com/questi
 
 > Setting 700 to .ssh and 600 to authorized_keys solved the issue.
 >
+> ```bash
 > chmod 700 /root/.ssh
 > chmod 600 /root/.ssh/authorized_keys
+> ```
 
 Hence, try:
 
