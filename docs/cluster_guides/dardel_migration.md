@@ -740,3 +740,43 @@ Solution:
 
 On Dardel, delete the target folders that are already there
 and re-run the script.
+
+### `Permission denied (publickey,gssapi-keyex,gssapi-with-mic)`
+
+Full error message:
+
+```bash
+[sven@rackham1 .ssh]$ bash /home/sven/darsync_my_script.slurm
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+
+rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]
+```
+
+Note that our fictional user runs the Slurm script via `bash`, instead of
+via `squeue`.
+
+First possible fix:
+
+Run the script as such:
+
+```bash
+sbatch /home/sven/darsync_my_script.slurm
+```
+
+Another possible fix comes from [StackOverflow](https://stackoverflow.com/questions/36300446/ssh-permission-denied-publickey-gssapi-with-mic):
+
+> Setting 700 to .ssh and 600 to authorized_keys solved the issue.
+> 
+> chmod 700 /root/.ssh
+> chmod 600 /root/.ssh/authorized_keys
+
+Hence, try:
+
+```bash
+chmod 700 /root/.ssh
+chmod 600 /root/.ssh/authorized_keys
+```
+
+Still does not work? Contact [support](../support.md)
