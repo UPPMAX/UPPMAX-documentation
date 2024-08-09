@@ -13,16 +13,27 @@ tags:
 There are multiple ways to [log in to Bianca](login_bianca.md).
 
 This page describes how to [log in to Bianca](login_bianca.md)
-using a terminal and a password.
+using a terminal and a password:
 
-When inside SUNET, one can access a Bianca console environment
-using SSH with an SSH password.
+- [Procedure](#procedure): describes the procedure
+- [Troubleshooting](#troubleshooting): describes how to fix errors
 
-???- question "Forgot how to get within SUNET?"
+## Procedure
+
+???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
+
+    This video shows how to use a terminal and SSH to access
+    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c)
+
+### 1. Get inside the university networks
+
+Get inside the university networks.
+
+???- question "Forgot how to get within the university networks?"
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-## 1. Use `ssh` to log in
+### 2. Use `ssh` to log in
 
 From a terminal, use [`ssh`](../software/ssh.md) to log in:
 
@@ -70,7 +81,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     Hence, we do not teach it :-)
 
 
-## 2. Type your UPPMAX password with 2FA
+### 3. Type your UPPMAX password with 2FA
 
 Type your UPPMAX password,
 directly followed by the UPPMAX 2-factor authentication number,
@@ -108,12 +119,12 @@ It can be `up and running` or `down`.
 If it is `down`, the virtual cluster is started,
 which may take some minutes.
 
-## 3. Type your UPPMAX password
+### 4. Type your UPPMAX password
 
 Type your UPPMAX password,
 for example `verysecret`
 
-## 4. You are in
+### 5. You are in
 
 Enjoy! You are in! Or, to be precise,
 you are on the [login node](../cluster_guides/login_node.md) of your own virtual project cluster.
@@ -133,11 +144,6 @@ By default, this node has one core,
 hence if you need more memory or more CPU power,
 you submit a job (interactive or batch),
 and an idle node will be moved into your project cluster.
-
-???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
-
-    This video shows how to use a terminal and SSH to access
-    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c)
 
 ## Troubleshooting
 
