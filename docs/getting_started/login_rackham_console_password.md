@@ -6,6 +6,8 @@ tags:
   - console
   - terminal
   - password
+  - ssh
+  - SSH
 ---
 
 # Login to the Rackham console environment with a password
