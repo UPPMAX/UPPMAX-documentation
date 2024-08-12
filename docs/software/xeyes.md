@@ -1,6 +1,6 @@
 # `xeyes`
 
-![`xeyes` in action](./img/eyes.png)
+![`xeyes` in action](./img/xeyes.png)
 
 `xeyes` is a program that shows two eyes. The `x` in its name refers
 to the X11 display server, which is one of many ways to display

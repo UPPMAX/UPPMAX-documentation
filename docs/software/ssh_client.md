@@ -103,7 +103,7 @@ Windows         |[`ssh`](ssh.md)          |Neutral     |Unknown             |Sta
 
     ???- question "How do I know XQuartz has been installed?"
 
-        See [SSH X forwarding](../software/ssh_x_forwading.md).
+        See [SSH X forwarding](../software/ssh_x_forwarding.md).
 
         Spoiler: use [`xeyes`](../software/xeyes.md)
 
