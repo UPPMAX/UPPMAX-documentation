@@ -18,6 +18,8 @@ It is the `-X` that allows [ssh](ssh.md) to show graphics.
 
 ???- question "How can I verify I allow X forwarding?"
 
+    Using [`xyes`](xeyes.md).
+
     In a [terminal](../software/terminal.md), type:
 
     ```bash

@@ -247,7 +247,7 @@ beast -beagle_info
 
 This problem seems to be related to not having a proper X server installed.
 In this case, [SSH X forwarding](ssh_x_forwarding.md) works to the extent
-that SSH is able to show `xeyes`, yet fails to show BEAUti.
+that SSH is able to show [`xeyes`](../software/xeyes.md), yet fails to show BEAUti.
 Also, [using the remote desktop via a ThinLinc client](../getting_started/login_rackham.md#remote-desktop-via-a-ThinLinc client) fails.
 
 A solution may be to [use the remote desktop via the web](../getting_started/login_rackham.md#remote-desktop-via-the-web)

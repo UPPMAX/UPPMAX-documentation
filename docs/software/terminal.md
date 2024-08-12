@@ -2,7 +2,8 @@
 
 ![A terminal](./img/xeyes_no_ssh_x_forwarding.png)
 
-> A terminal
+> A terminal. 
+> The two eyes are caused by running the program [`xeyes`](../software/xeyes.md).
 
 A terminal is a program that allows you to run commands.
 

@@ -300,7 +300,7 @@ IPython can show graphics.
 
     Spoiler to login: `ssh -X sven@rackham.uppmax.uu.se`.
 
-    Spoiler to confirm: `xeyes`
+    Spoiler to confirm: run [`xeyes`](../software/xeyes.md).
 
 IPython can directly run scripts.
 
