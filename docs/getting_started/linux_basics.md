@@ -128,6 +128,7 @@ pwd
 
 
     ??? solution
+
         - `cd -` : goes back to your last directory
 
         - `cd ..` : goes a level up in the hierarchy
