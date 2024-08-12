@@ -22,9 +22,9 @@ where `gcc` is the name of the actual program.
     module spider gcc
     ```
 
-    This will look similar to this:    
+    This will look similar to this:
 
-    ```
+    ```bash
     [sven@rackham2 ~]$ module spider gcc
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
