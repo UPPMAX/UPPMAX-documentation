@@ -1,3 +1,12 @@
+---
+tags:
+  - ssh
+  - SSH
+  - console
+  - terminal
+  - x-forwarding
+---
+
 # SSH X forwarding
 
 SSH X forwarding (or simply 'X forwarding')
@@ -20,27 +29,6 @@ It is the `-X` that allows [ssh](ssh.md) to show graphics.
 
     Using [`xyes`](xeyes.md).
 
-    In a [terminal](../software/terminal.md), type:
-
-    ```bash
-    xeyes
-    ```
-
-    If you have X forwarding enabled, you will see:
-
-    ![SSH X forwarding is enabled, as there are eyes shown in the top-right of the screen](./img/xeyes_with_ssh_x_forwarding.png)
-
-    > SSH X forwarding is enabled, as there are eyes shown in the top-right of the screen
-
-    If you do not have X forwarding enabled, you will get the error:
-
-    ```console
-    Error: Can't open display:
-    ```
-
-    ![SSH X forwarding is not enabled, as this gives an error message](./img/xeyes_no_ssh_x_forwarding.png)
-
-    > SSH X forwarding is not enabled, as this gives an error message
 
 ## UPPMAX clusters that allow SSH with X forwarding
 

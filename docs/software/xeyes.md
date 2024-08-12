@@ -1,3 +1,12 @@
+---
+tags:
+  - xeyes
+  - eyes
+  - console
+  - terminal
+  - x-forwarding
+---
+
 # `xeyes`
 
 ![`xeyes` in action](./img/xeyes.png)
@@ -28,4 +37,10 @@ If you've logged in without [SSH with X-forwarding](ssh_x_forwarding.md)
 or the [SSH client](ssh_client.md) is not setup correctly, you will see:
 
 ![`xeyes` not working](./img/xeyes_no_ssh_x_forwarding.png)
+
+The line that indicates the error is:
+
+```console
+Error: Can't open display:
+```
 
