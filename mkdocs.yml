@@ -88,6 +88,7 @@ nav:
       - Compiling serial code: software/compiling_serial.md
       - Compiling parallel code: software/compiling_parallel.md
       - Debuggers: software/debuggers.md
+      - Nextflow & nf-core: software/nfcore.md   
       - Profilers: software/profilers.md
       - Singularity/Apptainer: software/singularity.md
       - Spack: software/spack.md
