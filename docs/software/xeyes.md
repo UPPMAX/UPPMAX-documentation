@@ -22,7 +22,7 @@ xeyes
 If you've logged in via [SSH with X-forwarding](ssh_x_forwarding.md)
 and it works correctly, you will see this:
 
-![`xeyes` in action](./img/xeyes.png)
+![`xeyes` in action](./img/xeyes_with_ssh_x_forwarding.png)
 
 If you've logged in without [SSH with X-forwarding](ssh_x_forwarding.md)
 or the [SSH client](ssh_client.md) is not setup correctly, you will see:
