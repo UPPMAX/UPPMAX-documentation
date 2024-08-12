@@ -29,4 +29,3 @@ or the [SSH client](ssh_client.md) is not setup correctly, you will see:
 
 ![`xeyes` not working](./img/xeyes_no_ssh_x_forwarding.png)
 
-
