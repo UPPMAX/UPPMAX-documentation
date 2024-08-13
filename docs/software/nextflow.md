@@ -49,7 +49,7 @@ module load nf-core   # this also load the nextflow and java as requirements
 
 ## `nf-core` pipelines on Bianca
 
-1. Login to `transit.uppmax.uu.se` - [documentation](../cluster_guides/transfer_bianca/#transit-server)  
+1. Login to `transit.uppmax.uu.se` - [documentation](../cluster_guides/transfer_bianca#transit-server)  
 2. Mount the `wharf` of your project.
 
     ```bash
