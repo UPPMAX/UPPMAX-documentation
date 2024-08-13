@@ -145,25 +145,26 @@ once you've done this, you can go on and build images almost as normal, using co
 singularity build --remote testcontainer.sif testdefinition.def
 ```
 
-which will build the container from testdefinition.def remotely and transfer it to your directory, storing it as testcontainer.sif
+which will build the container from `testdefinition.def` remotely and transfer it to your directory, storing it as `testcontainer.sif`.
 
-Running your container in jobs
-A sample job script for running a tool provided in a container may look like
+???- question "Could you give an example script?"
 
-```slurm
-#!/bin/bash -l
-#SBATCH -N 1
-#SBATCH -n 1
-#SBATCH -t 0:30:00
-#SBATCH -A your-project
-#SBATCH -p core
-cd /proj/something/containers
+    A sample job script for running a tool provided in a container may look like
 
-singularity exec ./ubuntu.img echo "Hey, I'm running ubuntu"
-singularity exec ./ubuntu.img lsb_release -a
-singularity run ./anotherimage some parameters here
-./yetanotherimage parameters
-```
+    ```slurm
+    #!/bin/bash -l
+    #SBATCH -N 1
+    #SBATCH -n 1
+    #SBATCH -t 0:30:00
+    #SBATCH -A your-project
+    #SBATCH -p core
+    cd /proj/something/containers
+
+    singularity exec ./ubuntu.img echo "Hey, I'm running ubuntu"
+    singularity exec ./ubuntu.img lsb_release -a
+    singularity run ./anotherimage some parameters here
+    ./yetanotherimage parameters
+    ```
 
 ## Examples
 
