@@ -145,12 +145,10 @@ both Rackham and Bianca. These are updated every third day. See above for these 
     - Since python or other packages are dependent on each-other expect solving the versions takes some time.
     - use an interactive session!
 
-1. ```bash
-   module load conda
-   ```
+1. Do `module load conda`
 
-   - This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
-   - Check the text output as ``conda`` is loaded, especially the first time, see below
+    - This grants you access to the latest version of Conda and all major repositories on all UPPMAX systems.
+    - Check the text output as ``conda`` is loaded, especially the first time, see below
 
 1. Create the Conda environment
 
@@ -176,34 +174,34 @@ both Rackham and Bianca. These are updated every third day. See above for these 
 
 1. Activate the conda environment by `source activate` if you have not enabled ``conda activate``, see above:
 
-   ```bash
-   source activate python36-env
-   ```
+    ```bash
+    source activate python36-env
+    ```
 
-   - You will see that your prompt is changing to start with `(python-36-env)` to show that you are within an environment.
+    - You will see that your prompt is changing to start with `(python-36-env)` to show that you are within an environment.
 
-   - You can also see the installed packages by:
+    - You can also see the installed packages by:
 
-   ```bash
-   conda list
-   pip list
-   ```
+    ```bash
+    conda list
+    pip list
+    ```
 
-   - you can also add more packages within the environment by exact version (use `=`) or latest (?) compatible version:
+    - you can also add more packages within the environment by exact version (use `=`) or latest (?) compatible version:
 
-   ```bash
-   conda install --prefix   $CONDA_ENVS_PATH/python36-env pandas
-   ```
+    ```bash
+    conda install --prefix   $CONDA_ENVS_PATH/python36-env pandas
+    ```
 
-   - that may have given you ``pandas=1.1.5`` which would be the newest version compatible with ``python3.6`` and ``numpy=1.13.1``
+    - that may have given you ``pandas=1.1.5`` which would be the newest version compatible with ``python3.6`` and ``numpy=1.13.1``
 
 1. Now do your work!
 
 1. Deactivate with ``conda deactivate`` (this will work in any case!)
 
-   ```bash
-   (python-36-env) $ conda deactivate
-   ```
+    ```bash
+    (python-36-env) $ conda deactivate
+    ```
 
 !!! warning
 

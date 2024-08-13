@@ -48,7 +48,9 @@ The terminal will display multiple URLs.
 
 Copy one of these, like:
 
-  ``http://r486:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
+```text
+http://r486:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
+```
 
 ## Step 4: On own computer
 
@@ -56,7 +58,7 @@ Copy one of these, like:
     - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
 
 ```sh
-   ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
+ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
 ```
 
 - Replace ``r486`` if you got another node
@@ -69,9 +71,15 @@ Copy one of these, like:
 
 On your computer open the address you got but replace ``r486`` with ``localhost`` or ``127.0.0.0`` i.e.
 
-``http://localhost:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
+```text
+http://localhost:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
+```
+
 or
-``http://127.0.0.0:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2``
+
+```text
+http://127.0.0.0:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
+```
 
 This should bring the jupyter interface on your computer and all calculations and files will be on Rackham compute node.
 

@@ -694,7 +694,7 @@ project=myproj
 finishedjobinfo -q -y ${project} > ${project}-year.txt
 grep 'jobstat=COMPLETED' ${project}-year.txt | jobstats - > ${project}-completed-jobs.txt
 for u in user1 user2 user3 ; do
-   grep "username=${u}" ${project}-year.txt | jobstats - --plot > ${u}-jobs.txt
-   tar czf ${u}-jobs.tar.gz ${u}-jobs.txt *-${project}-${u}-*.png
+    grep "username=${u}" ${project}-year.txt | jobstats - --plot > ${u}-jobs.txt
+    tar czf ${u}-jobs.tar.gz ${u}-jobs.txt *-${project}-${u}-*.png
 done
 ```

@@ -43,11 +43,12 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
 
 1. Select appropriate options, or use the following for the best results:  
-   device: gpu  
-   SLURM job name: [give any name without space]  
-   Total audio length in minutes : [give a rough average if transcribing files in bulk]  
-   Model: large-v2  
-   by word timestamps: by_sentence
+
+    - device: gpu  
+    - SLURM job name: [give any name without space]  
+    - Total audio length in minutes : [give a rough average if transcribing files in bulk]  
+    - Model: large-v2  
+    - by word timestamps: by_sentence
 
 ### Step 4: Monitoring jobs  
 

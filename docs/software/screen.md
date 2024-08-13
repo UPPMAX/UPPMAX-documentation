@@ -57,33 +57,33 @@ Please note that it is the job allocation that determines your core hour usage a
 
 - Start a new screen session with a command:
 
-   ```bash
-   screen -dm your_command
-   ```
+    ```bash
+    screen -dm your_command
+    ```
 
-   This will start a new screen session, run the command, and then detach from the session.
+    This will start a new screen session, run the command, and then detach from the session.
 
 - If you want to run multiple commands, you can do so like this:
 
-   ```bash
-   screen -dm bash -c "command1; command2"
-   ```
+    ```bash
+    screen -dm bash -c "command1; command2"
+    ```
 
-   This will run `command1` and `command2` in order.
+    This will run `command1` and `command2` in order.
 
 - To reattach to the screen session, use:
 
-   ```bash
-   screen -r
-   ```
+    ```bash
+    screen -r
+    ```
 
-   If you have multiple sessions, you'll need to specify the session ID.
+    If you have multiple sessions, you'll need to specify the session ID.
 
 - To list your current screen sessions, use:
 
-   ```bash
-   screen -ls
-   ```
+    ```bash
+    screen -ls
+    ```
 
 Please note that when a program terminates, `screen` (by default) kills the window that contained it. If you don't want your session to get killed after the script is finished, add `exec sh` at the end. For example:
 
