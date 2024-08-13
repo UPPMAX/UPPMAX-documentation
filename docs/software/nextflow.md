@@ -1,11 +1,14 @@
 # `nextflow` & `nf-core` on UPPMAX
+
 [https://www.nextflow.io](https://www.nextflow.io)  
+
 - Official documentation: [https://www.nextflow.io/docs/latest/index.html](https://www.nextflow.io/docs/latest/index.html)
 
 
 ## `nextflow` from the module system
 
 - latest `nextflow`
+
 ```bash
 module load bioinfo-tools
 module load Nextflow/latest  # this also loads java as reqirement
@@ -13,13 +16,16 @@ module load Nextflow/latest  # this also loads java as reqirement
 nextflow -v
 nextflow version 24.04.4.5917
 ```
+
 - alternative versions
+
 ```bash
 export NXF_VER=23.10.1
 
 nextflow -v
 nextflow version 23.10.1.5891
 ```
+
 ```bash
 # To check the available versions on Rackham and Bianca
 ls /sw/bioinfo/Nextflow/latest/rackham/nxf_home/framework/
@@ -29,7 +35,8 @@ ls /sw/bioinfo/Nextflow/latest/rackham/nxf_home/framework/
 
 ---
 
-## `nf-core` from the module system 
+## `nf-core` from the module system
+
 [https://nf-co.re](https://nf-co.re)
 > `nf-core` and and all other required modules are available on the `transit` server as well.
 
@@ -44,23 +51,30 @@ module load nf-core   # this also load the nextflow and java as requirements
 
 1. Login to `transit.uppmax.uu.se` - [documentation](../cluster_guides/transfer_bianca/#transit-server)  
 2. Mount the `wharf` of your project.
+
     ```bash
     user@transit:~$ mount_wharf sens2023531
     Mounting wharf (accessible for you only) to /home/<user>/sens2023531
     <user>-sens2023531@bianca-sftp.uppmax.uu.se's password: 
     ```
-4. Navigate to your `wharf` folder
-5. Disable Singularity cache
+
+3. Navigate to your `wharf` folder
+4. Disable Singularity cache
+
    ```bash
    export SINGULARITY_DISABLE_CACHE=true
    export APPTAINER_DISABLE_CACHE=true
    unset NXF_SINGULARITY_CACHEDIR
    ```
+
 5. Load nf-core software module
+
    ```bash
    module load uppmax bioinfo-tools nf-core
    ```
-7. Run `nf-core` to download the pipeline.
+
+6. Run `nf-core` to download the pipeline.
+
    ```bash
    nf-core download pixelator
                                           ,--./,-.
@@ -96,7 +110,9 @@ module load nf-core   # this also load the nextflow and java as requirements
     INFO     Processing workflow revision 1.0.2, found 4 container images in     total.
     Downloading singularity images ???????????????????????????????????????????????????????????????????????????????? 100% ? 4/4 completed
    ```
-8. Running on Bianca
+
+7. Running on Bianca
+
     ```bash
     module load bioinfo-tools Nextflow
     nextflow run ... -profile uppmax --project sens-XXXX-XX .... 
@@ -121,6 +137,7 @@ process {
     }
 }
 ```
+
 More: [https://www.nextflow.io/docs/latest/config.html#process-selectors](https://www.nextflow.io/docs/latest/config.html#process-selectors)
 
 ## **[Troubleshooting](https://nf-co.re/docs/usage/troubleshooting/overview)** - nf-core
