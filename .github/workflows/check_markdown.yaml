@@ -34,6 +34,11 @@ jobs:
 
       # There are many linters with the same name,
       # this is the linter whose documentation to look into :-)
-      - name: Linter is at https://github.com/igorshubovych/markdownlint-cli
-        run: echo "Linter is at https://github.com/igorshubovych/markdownlint-cli"
+      - name: CLI to the linter is at https://github.com/igorshubovych/markdownlint-cli
+        run: echo "CLI to the linter is at https://github.com/igorshubovych/markdownlint-cli"
+
+      # There are many linters with the same name,
+      # this is the linter whose documentation to look into :-)
+      - name: Linter is at https://github.com/DavidAnson/markdownlint
+        run: echo "Linter is at https://github.com/DavidAnson/markdownlint"
 
