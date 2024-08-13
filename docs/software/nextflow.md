@@ -49,6 +49,11 @@ module load nf-core   # this also load the nextflow and java as requirements
 
 ## `nf-core` pipelines on Bianca
 
+<!-- Due to the combination of indented code (that needs to be surrounded by -->
+<!-- empty lines and a numbered list (that needs no empty lines), there -->
+<!-- is no way to satisfy markdownlint -->
+<!-- markdownlint-disable MD029 -->
+
 1. Login to `transit.uppmax.uu.se` - [documentation](../cluster_guides/transfer_bianca#transit-server)  
 2. Mount the `wharf` of your project.
 
@@ -74,6 +79,8 @@ module load nf-core   # this also load the nextflow and java as requirements
    ```
 
 6. Run `nf-core` to download the pipeline.
+
+<!-- markdownlint-enable MD029 -->
 
     ```bash
     nf-core download pixelator
