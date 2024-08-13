@@ -1,3 +1,8 @@
+---
+tags:
+  - terminal
+---
+
 # Terminal
 
 ![A terminal](./img/xeyes_no_ssh_x_forwarding.png)

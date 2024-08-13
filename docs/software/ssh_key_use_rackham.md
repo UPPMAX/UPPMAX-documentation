@@ -1,3 +1,13 @@
+---
+tags:
+  - ssh
+  - SSH
+  - key
+  - ssh key
+  - SSH key
+  - Rackham
+---
+
 # Create and use an SSH key pair for Rackham
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)

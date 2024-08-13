@@ -1,3 +1,13 @@
+---
+tags:
+  - ssh
+  - SSH
+  - key
+  - ssh key
+  - SSH key
+  - Dardel
+---
+
 # Create and use an SSH key pair for Dardel
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)

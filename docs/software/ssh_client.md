@@ -1,8 +1,13 @@
 ---
 tags:
+  - ssh
   - SSH
   - client
   - clients
+  - ssh client
+  - SSH client
+  - ssh clients
+  - SSH clients
 ---
 
 # SSH client

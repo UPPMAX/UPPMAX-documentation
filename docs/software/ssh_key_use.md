@@ -1,3 +1,13 @@
+---
+tags:
+  - ssh key
+  - SSH key
+  - ssh keys
+  - SSH keys
+  - ssh key pair
+  - SSH key pair
+---
+
 # Create and use an SSH key pair
 
 Here we show how to create and use an [SSH](ssh.md) key pair for use with our clusters:

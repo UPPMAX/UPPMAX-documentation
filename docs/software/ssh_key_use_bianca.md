@@ -1,8 +1,13 @@
 ---
 tags:
   - Bianca
+  - ssh
   - SSH
+  - ssh key
+  - SSH key
+  - ssh keys
   - SSH keys
+  - ssh key pair
   - SSH key pair
   - create
 ---

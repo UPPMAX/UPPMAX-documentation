@@ -1,3 +1,9 @@
+---
+tags:
+  - ssh
+  - SSH
+---
+
 # ssh
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell):
