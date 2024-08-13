@@ -32,3 +32,8 @@ jobs:
           config: .markdownlint.jsonc
           ignore: .markdownlintignore
 
+      # There are many linters with the same name,
+      # this is the linter whose documentation to look into :-)
+      - name: Linter is at https://github.com/igorshubovych/markdownlint-cli
+        run: echo "Linter is at https://github.com/igorshubovych/markdownlint-cli"
+
