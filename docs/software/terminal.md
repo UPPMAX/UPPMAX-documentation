@@ -33,9 +33,9 @@ A terminal is a program that allows you to run commands.
     - `[` and `]`: indicates the beginning and end of information
     - `sven`: the username
     - `@`: at which cluster
-    - `rackham2`: the remote node's name, 
+    - `rackham2`: the remote node's name,
       in this case Rackham's second login node
-    - `my_folder`: (part of) the path of the user, 
+    - `my_folder`: (part of) the path of the user,
       in this case, a folder called `my_folder`.
       The indication `~` means that the user in the home folder
     - `$`: indicate to be ready for user input
@@ -49,5 +49,3 @@ A terminal is a program that allows you to run commands.
     `bianca`                |A Bianca login node
     `b1` and higher         |A Bianca compute node
 
-
-    
