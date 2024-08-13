@@ -1,3 +1,13 @@
+---
+tags:
+  - transfer
+  - data transfer
+  - file transfer
+  - scp
+  - SCP
+  - Rackham
+---
+
 # Data transfer to/from Rackham using SCP
 
 There are multiple ways to [transfer files to or from Rackham](../cluster_guides/transfer_rackham.md).

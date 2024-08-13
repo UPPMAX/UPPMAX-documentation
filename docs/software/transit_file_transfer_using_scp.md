@@ -1,9 +1,12 @@
 ---
 tags:
   - transfer
+  - data transfer
+  - file transfer
   - scp
   - SCP
   - Transit
+  - transit
 ---
 
 # Data transfer to/from Transit using SCP

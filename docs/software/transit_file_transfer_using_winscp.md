@@ -1,7 +1,10 @@
 ---
 tags:
   - transfer
+  - data transfer
+  - file transfer
   - Transit
+  - transit
   - WinSCP
 ---
 

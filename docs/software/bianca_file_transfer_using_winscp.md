@@ -1,3 +1,12 @@
+---
+tags:
+  - transfer
+  - data transfer
+  - file transfer
+  - Bianca
+  - WinSCP
+---
+
 # File transfer to/from Bianca using WinSCP
 
 ![WinSCP](../img/winscp-snaphot1.png)

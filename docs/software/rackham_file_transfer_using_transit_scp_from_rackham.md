@@ -1,3 +1,15 @@
+---
+tags:
+  - transfer
+  - data transfer
+  - file transfer
+  - SCP
+  - scp
+  - Transit
+  - transit
+  - Rackham
+---
+
 # Data transfer to/from Rackham using Transit using SCP from Rackham
 
 One can transfer files to/from Rackham using the UPPMAX Transit server, using SCP.
