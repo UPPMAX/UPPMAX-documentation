@@ -8,7 +8,6 @@ tags:
 ![A terminal](./img/xeyes_no_ssh_x_forwarding.png)
 
 > A terminal.
-> The two eyes are caused by running the program [`xeyes`](../software/xeyes.md).
 
 A terminal is a program that allows you to run commands.
 
@@ -34,6 +33,21 @@ A terminal is a program that allows you to run commands.
     - `[` and `]`: indicates the beginning and end of information
     - `sven`: the username
     - `@`: at which cluster
-    - `rackham2`: at Rackhams second login node
-    - `my_folder`: the user is in a folder called `my_folder`
+    - `rackham2`: the remote node's name, 
+      in this case Rackham's second login node
+    - `my_folder`: (part of) the path of the user, 
+      in this case, a folder called `my_folder`.
+      The indication `~` means that the user in the home folder
     - `$`: indicate to be ready for user input
+
+    The node's name is useful to find out where you are:
+
+    Name                    |Location
+    ------------------------|---------------------------
+    `rackham1` to `rackham4`|A Rackham login node
+    `r1` and higher         |A Rackham compute node node
+    `bianca`                |A Bianca login node
+    `b1` and higher         |A Bianca compute node
+
+
+    
