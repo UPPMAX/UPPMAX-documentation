@@ -80,8 +80,6 @@ module load nf-core   # this also load the nextflow and java as requirements
 
 6. Run `nf-core` to download the pipeline.
 
-<!-- markdownlint-enable MD029 -->
-
     ```bash
     nf-core download pixelator
                                           ,--./,-.
@@ -124,6 +122,8 @@ module load nf-core   # this also load the nextflow and java as requirements
     module load bioinfo-tools Nextflow
     nextflow run ... -profile uppmax --project sens-XXXX-XX .... 
     ```
+
+<!-- markdownlint-enable MD029 -->
 
 Note: you might need `-c configs/conf/uppmax.config`,  make sure you have the file (it is an option to download it during the pipeline download process).  
 [https://github.com/nf-core/configs/blob/master/conf/uppmax.config](https://github.com/nf-core/configs/blob/master/conf/uppmax.config)  
