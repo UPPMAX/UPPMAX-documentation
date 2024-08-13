@@ -66,17 +66,17 @@ module load nf-core   # this also load the nextflow and java as requirements
 3. Navigate to your `wharf` folder
 4. Disable Singularity cache
 
-   ```bash
-   export SINGULARITY_DISABLE_CACHE=true
-   export APPTAINER_DISABLE_CACHE=true
-   unset NXF_SINGULARITY_CACHEDIR
-   ```
+    ```bash
+    export SINGULARITY_DISABLE_CACHE=true
+    export APPTAINER_DISABLE_CACHE=true
+    unset NXF_SINGULARITY_CACHEDIR
+    ```
 
 5. Load nf-core software module
 
-   ```bash
-   module load uppmax bioinfo-tools nf-core
-   ```
+    ```bash
+    module load uppmax bioinfo-tools nf-core
+    ```
 
 6. Run `nf-core` to download the pipeline.
 
