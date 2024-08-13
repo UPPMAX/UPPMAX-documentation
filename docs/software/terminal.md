@@ -7,21 +7,28 @@
 
 A terminal is a program that allows you to run commands.
 
-## What does all the stuff on the line I can type on mean?
+???- question "How to copy-paste to/from a terminal?"
 
-The text at the start of the line you can type on,
-is called the command prompt. It indicates
-that the terminal is waiting for user input.
+    This depends on the terminal you use, however,
+    this is the most common options:
 
-Here is an example prompt:
+    Press `CTRL + SHIFT + C` for copt, `CTRL + SHIFT + V` for pasting.
 
-```bash
-[sven@rackham2 my_folder]$ 
-```
+???- question "What does all the stuff on the line I can type on mean?"
 
-- `[` and `]`: indicates the beginning and end of information
-- `sven`: the username
-- `@`: at which cluster
-- `rackham2`: at Rackhams second login node
-- `my_folder`: the user is in a folder called `my_folder`
-- `$`: indicate to be ready for user input
+    The text at the start of the line you can type on,
+    is called the command prompt. It indicates
+    that the terminal is waiting for user input.
+
+    Here is an example prompt:
+
+    ```bash
+    [sven@rackham2 my_folder]$ 
+    ```
+
+    - `[` and `]`: indicates the beginning and end of information
+    - `sven`: the username
+    - `@`: at which cluster
+    - `rackham2`: at Rackhams second login node
+    - `my_folder`: the user is in a folder called `my_folder`
+    - `$`: indicate to be ready for user input
