@@ -67,7 +67,7 @@ If asked, give your UPPMAX password.
 
 You can get rid of this prompt if you have setup SSH keys
 
-### :no_entry: 3b. Using `scp` to upload from Transit
+### :no_entry: 3b. Using `scp` to upload to Transit
 
 This is how you **would** copy a file from your local computer to Transit:
 
@@ -88,47 +88,3 @@ yet the file will not be found on Transit.
 
 If asked, give your UPPMAX password.
 You can get rid of this prompt if you have setup SSH keys
-
-## Overview
-
-```mermaid
-flowchart TD
-
-    %% Give a white background to all nodes, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
-    %% Graph nodes for files and calculations
-    classDef file_node fill:#fcf,color:#000,stroke:#f0f
-    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
-
-    user(User)
-      user_local_files(Files on user computer):::file_node
-
-    subgraph sub_inside[SUNET]
-      subgraph sub_transit_shared_env[Transit]
-          login_node(login/calculation/interactive node):::calculation_node
-          files_in_transit_home(Files in Transit home folder):::file_node
-      end
-    end
-
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_transit_shared_env fill:#ffc,color:#000,stroke:#ffc
-
-    user --> |logs in |login_node
-    user --> |uses| user_local_files
-
-    login_node --> |can use|files_in_transit_home
-    %% user_local_files <--> |graphical tool|files_in_transit_home
-    user_local_files <==> |SCP|files_in_transit_home
-    %% user_local_files <--> |SFTP|files_in_transit_home
-
-    %% Aligns nodes prettier
-    user_local_files ~~~ login_node
-```
-
-> Overview of file transfer on Transit
-> The purple nodes are about file transfer,
-> the blue nodes are about 'doing other things'.
-> The user can be either inside or outside SUNET.
