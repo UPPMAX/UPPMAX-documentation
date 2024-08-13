@@ -75,8 +75,8 @@ module load nf-core   # this also load the nextflow and java as requirements
 
 6. Run `nf-core` to download the pipeline.
 
-   ```bash
-   nf-core download pixelator
+    ```bash
+    nf-core download pixelator
                                           ,--./,-.
           ___     __   __   __   ___     /,-._.--~\
     |\ | |__  __ /  ` /  \ |__) |__         }  {
@@ -109,7 +109,7 @@ module load nf-core   # this also load the nextflow and java as requirements
     INFO     Downloading workflow files from GitHub                                                                                     
     INFO     Processing workflow revision 1.0.2, found 4 container images in     total.
     Downloading singularity images ???????????????????????????????????????????????????????????????????????????????? 100% ? 4/4 completed
-   ```
+    ```
 
 7. Running on Bianca
 
