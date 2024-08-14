@@ -2,6 +2,20 @@
 
 `chmod` is a Linux command to change the ownership of a folder
 
+## How to make a script executable?
+
+Use (when the script is called `my_script.sh`):
+
+```bash
+chmod +x my_script.sh
+```
+
+You can now run the script using:
+
+```bash
+./my_script.sh
+```
+
 ## How to create a folder in the shared project folder that only I can access?
 
 Your project folders at `/proj/[naiss_project]` are shared by members of that
