@@ -141,10 +141,19 @@ You will get a PDC account overnight.
 
 ### 3. Create SSH key pair
 
-First we will create SSH keys to be able to connect to Dardel. We have made a small tool to create the keys for Darsync for you, so just run these commands on UPPMAX:
+First we will create SSH keys to be able to connect to Dardel.
+We have made a small tool to create the keys for Darsync for you,
+so just run these commands on UPPMAX:
+
+Loading the needed [module](../cluster_guides/modules.md):
 
 ```bash
 module load darsync
+```
+
+Then creating the key:
+
+```
 darsync sshkey
 ```
 

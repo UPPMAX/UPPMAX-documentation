@@ -145,7 +145,7 @@
 ???- question "How do I use the modules in batch jobs?"
 
     - In order to make running installed programs easier you should use the module command.
-    - The different module that are installed sets the correct environments that are needed for the programs to run, like ``PATH``, ``LD_LIBRARY_PATH`` and ``MANPATH``.
+    - The different [modules](../cluster_guides/modules.md) that are installed sets the correct environments that are needed for the programs to run, like ``PATH``, ``LD_LIBRARY_PATH`` and ``MANPATH``.
     -To see what what modules that are available, type ``module avail``. To see what modules you have loaded, type ``module list``.
 
     - Note. For the batch system slurm to work with modules you must have

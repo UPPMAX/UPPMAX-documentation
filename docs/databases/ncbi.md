@@ -3,7 +3,7 @@
 Uppmax maintains local copies of the full set of NCBI Taxonomy databases. Note that:
 
 - The local copies are found at /sw/data/ncbi_taxonomy/latest
-- The data module ncbi_taxonomy/latest defines the environment variable NCBI_TAXONOMY_ROOT to this location. We recommend loading this module and using this environment variable to access these data.
+- The data [module](../cluster_guides/modules.md) ncbi_taxonomy/latest defines the environment variable NCBI_TAXONOMY_ROOT to this location. We recommend loading this module and using this environment variable to access these data.
 - This also contains the subdirectories new_taxdump, accession2taxid and biocollections containing those databases, see the tables below for their contents
 - latest is a symbolic link to a directory named from the date of the most recent update
 - There is also a subdirectory download containing the files as downloaded from NCBI

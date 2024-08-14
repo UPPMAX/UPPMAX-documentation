@@ -8,7 +8,7 @@ This page describes how to compile C code using `icc`.
 ### 1. Load an `intel` module
 
 For version of the Intel compiler to and including 2020,
-load an `intel` module with a version having two digits,
+load an `intel` [module](../cluster_guides/modules.md) with a version having two digits,
 from 15 to and including 20:
 
 ```bash

@@ -70,7 +70,8 @@ Within that terminal, start an interactive session with 2 cores.
 !!!- warning "Do not start RStudio from the menus"
 
     You can start a version of RStudio from the menus.
-    However, this will not have access to loaded modules.
+    However, this will not have access to loaded
+    [modules](../cluster_guides/modules.md).
 
     Instead, load RStudio from the module system instead.
 

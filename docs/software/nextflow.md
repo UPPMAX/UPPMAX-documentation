@@ -5,7 +5,7 @@
 - Official documentation: [https://www.nextflow.io/docs/latest/index.html](https://www.nextflow.io/docs/latest/index.html)
 
 
-## `nextflow` from the module system
+## `nextflow` from the [module](../cluster_guides/modules.md) system
 
 - latest `nextflow`
 

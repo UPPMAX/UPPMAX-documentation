@@ -11,7 +11,7 @@ except for mounted [wharf](../cluster_guides/wharf.md) directories.
 However, anything you have added to your [Rackham](../cluster_guides/rackham.md) home directory
 is available on [Transit](../cluster_guides/transit.md).
 
-In addition, some modules are available.
+In addition, some [modules](../cluster_guides/modules.md) are available.
 
 - SciLifeLab Data Delivery System - [https://delivery.scilifelab.se/](https://delivery.scilifelab.se/)
 

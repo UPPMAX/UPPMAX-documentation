@@ -12,7 +12,8 @@ The UPPMAX staff has already other ways to install most software applications. P
 
 This guide may change with time. Please come back and see updates.
 
-This version assumes no available SPACK module, which may come in the near future.
+This version assumes no available SPACK [module](../cluster_guides/modules.md),
+which may come in the near future.
 You have your own instance of Spack but can get a configuration file provided by UPPMAX.
 
 ## First steps: Installing your own instance of SPACK

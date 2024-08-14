@@ -10,7 +10,9 @@ tags:
 
 # How can I resolve problems with conflicting modules?
 
-Sometimes you may experience conflicting modules. An example would be that your program finds an incorrect library. This can be caused by two or more modules providing libraries with the same name.
+Sometimes you may experience conflicting [modules](../cluster_guides/modules.md).
+An example would be that your program finds an incorrect library.
+This can be caused by two or more modules providing libraries with the same name.
 
 Since there are a lot of different modules installed at UPPMAX, we have no possibility to test the compatibility of all the modules.
 

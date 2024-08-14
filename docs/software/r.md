@@ -74,7 +74,8 @@ The R interpreter is the program that reads R code and runs it.
 Commonly, 'the programming language R' and 'the R interpreter'
 are use as synonyms.
 
-To load the latest version of the R interpreter, do:
+To load the latest version of the R interpreter, 
+load the `R` [module](../cluster_guides/modules.md) version 4.3.1 like this:
 
 ```bash
 module load R/4.3.1

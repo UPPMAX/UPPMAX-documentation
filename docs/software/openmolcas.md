@@ -23,7 +23,8 @@ At UPPMAX the following versions are installed:
 
 ## Modules needed to run MOLCAS
 
-In order to run MOLCAS you must first load the MOLCAS module. You can see all available versions of MOLCAS installed at UPPMAX with:
+In order to run MOLCAS you must first load the `molcas`
+[module](../cluster_guides/modules.md). You can see all available versions of MOLCAS installed at UPPMAX with:
 
 ```bash
 module avail molcas

@@ -8,7 +8,8 @@ This page describes how to compile Java code using `javac`.
 
 ### 1. Load a GCC module
 
-Before compiling a java program, the module java has to be loaded.
+Before compiling a java program, the `java`
+[module](../cluster_guides/modules.md) has to be loaded.
 To load the java module, enter the command:
 
 ``` console

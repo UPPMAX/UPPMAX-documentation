@@ -4,7 +4,7 @@
 
 ### Build from source
 
-- To build from source use a **compiler module**
+- To build from source use a **compiler [module](../cluster_guides/modules.md)**
 - We have several compiler versions from GNU and INTEL
 - check with: ``$ ml avail gcc`` and ``$ ml avail intel``
 - [Guide for compiling **serial** programs](compiling_serial.md)

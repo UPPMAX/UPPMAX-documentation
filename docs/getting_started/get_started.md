@@ -230,7 +230,7 @@ The .bash_logout file is run when you log out.
 
 ## Modules
 
-In order to make running installed programs easier you should use the module command. The different modules that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH.
+In order to make running installed programs easier you should use the [module](../cluster_guides/modules.md) command. The different modules that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH.
 
 Example: checking what modules are available:
 

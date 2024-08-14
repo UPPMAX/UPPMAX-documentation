@@ -8,9 +8,12 @@ Gaussian 09 is available at UPPMAX. Uppsala University has an university license
 
 ## Running g09
 
-In order to run g09 you must first set up the correct environment. You do this with:
+In order to run g09 you must first set up the correct environment.
+You load this [module](../cluster_guides/modules.md) with:
 
-`module load gaussian/g09.d01`
+```bash
+module load gaussian/g09.d01
+```
 
 ### Running single core jobs in SLURM
 

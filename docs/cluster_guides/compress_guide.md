@@ -94,9 +94,16 @@ $ pigz -p 4 sample.fq   # using 4 threads
 
 ### sam files
 
+Loading the needed [modules](../cluster_guides/modules.md):
+
 ```bash
 # load samtools
 $ module load bioinfo-tools samtools
+```
+
+Then:
+
+```bash
 # compress sample.sam, but remember to delete
 # sample.sam when finished, since samtools
 # will not do that automatically

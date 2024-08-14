@@ -33,7 +33,7 @@ int main()
 
 ### 1. Load a GCC module
 
-Load a recent GCC module:
+Load a recent GCC [module](../cluster_guides/modules.md):
 
 ```bash
 module load gcc/13.2.0

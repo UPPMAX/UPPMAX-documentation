@@ -42,7 +42,7 @@ module load gcc/13.2.0
     No, as there is a system-installed GCC.
 
     For sake of doing reproducible research,
-    always load a module of a specific version.
+    always load a [module](../cluster_guides/modules.md) of a specific version.
 
 ### 2. Compile the source file
 

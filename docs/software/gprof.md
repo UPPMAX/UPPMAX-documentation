@@ -8,7 +8,8 @@ This page describes [gprof](gprof.md).
 
 In order to use `gprof` do the following:
 
-Load a recent `gcc` module and a recent `binutils` module:
+Load a recent `gcc` [module](../cluster_guides/modules.md)
+and a recent `binutils` module:
 
 ```bash
 module load gcc

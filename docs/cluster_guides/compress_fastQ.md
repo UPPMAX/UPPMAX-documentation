@@ -4,7 +4,16 @@
 
 ## Long answer
 
-We conducted an informal examination of two specialty FastQ compression tools by recompressing an existing fastq.gz file. The first tool fqzcomp (available in the module fqzcomp/4.6) uses a compiled executable (fqz_comp) that works similar to e.g., gzip, while the second tool (LFQC in the module lfqc/1.1) uses separate ruby-language scripts for compression (lfqc.rb) and decompression (lfqcd.rb). It does not appear the LFQC scripts accept piping but the documentation is limited.
+We conducted an informal examination of two specialty FastQ compression tools
+by recompressing an existing fastq.gz file.
+The first tool fqzcomp (available in the module fqzcomp/4.6)
+uses a compiled executable (fqz_comp) that works similar to e.g., gzip,
+while the second tool (LFQC in the module lfqc/1.1) uses separate
+ruby-language scripts for compression (lfqc.rb) and decompression (lfqcd.rb).
+It does not appear the LFQC scripts accept piping
+but the documentation is limited.
+
+Loading the needed [modules](../cluster_guides/modules.md):
 
 ```bash
 module load bioinfo-tools
