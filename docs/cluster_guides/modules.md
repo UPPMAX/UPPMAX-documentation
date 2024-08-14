@@ -85,7 +85,7 @@ for example `module spider cowsay`.
 
 ???- question "What is `cowsay`?"
 
-    See [the UPPMAX page on `cowsay`](../software/cowsay)
+    See [the UPPMAX page on `cowsay`](../software/cowsay.md)
 
 ???- question "What is `R`?"
 
