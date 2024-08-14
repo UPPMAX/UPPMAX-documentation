@@ -30,7 +30,7 @@ module spider cowsay
         This module can be loaded directly: module load cowsay/3.03
 
         Help:
-          	cowsay - use cowsay
+           cowsay - use cowsay
           
     ```
 
