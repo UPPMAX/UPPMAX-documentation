@@ -8,7 +8,7 @@ Singularity is installed and usable to run custom container images on the cluste
 
 ## Pulling an existing Singularity image
 
-It's possible to download and run pre-built images from the Singularity 
+It's possible to download and run pre-built images from the Singularity
 hub [https://singularity-hub.org](https://singularity-hub.org)
 and the Singularity library ([https://cloud.sylabs.io](https://cloud.sylabs.io))
 using the singularity pull sub command such as:
