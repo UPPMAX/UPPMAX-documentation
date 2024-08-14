@@ -85,32 +85,7 @@ for example `module spider cowsay`.
 
 ???- question "What is `cowsay`?"
 
-    `cowsay` is the module for the tool called `cowsay`.
-    `cowsay` (the tool) is commonly use as a toy example tool.
-
-    From a terminal, running:
-
-
-    ```bash
-    cowsay hello
-    ```
-
-    results in:
-
-    ```text
-     _______
-    < hello >
-     -------
-            \   ^__^
-             \  (oo)\_______
-                (__)\       )\/\
-                    ||----w |
-                    ||     ||
-    ```
-
-    Because `cowsay` is not part of the Linux kernel,
-    users commonly need to install it.
-    Or in our case: load a module to use it.
+    See [the UPPMAX page on `cowsay`](../software/cowsay)
 
 ???- question "What is `R`?"
 
