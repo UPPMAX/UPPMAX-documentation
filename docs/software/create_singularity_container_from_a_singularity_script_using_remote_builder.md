@@ -11,7 +11,7 @@ tags:
 
 # Create a Singularity container from a Singularity script using a website
 
-There are multiple ways how to [create a Singularity container from a Singularity script](create_singularity_container_from_a_singularity_script.md).
+There are multiple ways how to [create a Singularity container](create_singularity_container.md).
 
 This page shows how to do so using a website
 
