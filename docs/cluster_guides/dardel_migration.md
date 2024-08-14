@@ -153,7 +153,7 @@ module load darsync
 
 Then creating the key:
 
-```
+```bash
 darsync sshkey
 ```
 
