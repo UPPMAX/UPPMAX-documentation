@@ -1,3 +1,13 @@
+---
+tags:
+  - module
+  - conflict
+  - conflicts
+  - solve
+  - resolve
+  - fix
+---
+
 # How can I resolve problems with conflicting modules?
 
 Sometimes you may experience conflicting modules. An example would be that your program finds an incorrect library. This can be caused by two or more modules providing libraries with the same name.

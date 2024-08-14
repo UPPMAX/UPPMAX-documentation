@@ -1,3 +1,12 @@
+---
+tags:
+  - node
+  - disk
+  - disc
+  - SNIC_TMP
+  - scratch
+---
+
 # How to use the nodes' own disk
 
 ## Short version

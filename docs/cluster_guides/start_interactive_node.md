@@ -1,3 +1,10 @@
+---
+tags:
+  - start
+  - interactive
+  - node
+---
+
 # Starting an interactive node
 
 ![Logged in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)

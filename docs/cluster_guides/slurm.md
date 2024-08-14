@@ -1,3 +1,9 @@
+---
+tags:
+  - slurm
+  - Simple Linux Utility for Resource Management
+---
+
 # Slurm
 
 The UPPMAX clusters are a shared resource.

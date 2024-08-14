@@ -1,3 +1,8 @@
+---
+tags:
+  - Rackham
+---
+
 # Rackham
 
 ![Red Rackham, from https://tintin.fandom.com/wiki/Red_Rackham](./img/red_rackham_103_x_238.jpg)
