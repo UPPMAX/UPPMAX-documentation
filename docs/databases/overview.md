@@ -2,6 +2,8 @@
 tags:
   - database
   - databases
+  - overview
+  - list
 ---
 
 # Overview of databases
