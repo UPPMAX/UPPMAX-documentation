@@ -4,7 +4,7 @@
 
 ## How to create a folder in the shared project folder that only I can access?
 
-Your project folders at `/proj/[naiss_project]` are shared by members of that 
+Your project folders at `/proj/[naiss_project]` are shared by members of that
 NAISS project.
 
 If you need a folder that only you can access, assuming
