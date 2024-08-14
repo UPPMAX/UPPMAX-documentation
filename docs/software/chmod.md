@@ -31,7 +31,7 @@ chmod 700 my_private_folder
 
 Now, you can enter that folder:
 
-```
+```bash
 cd my_private_folder
 ```
 
