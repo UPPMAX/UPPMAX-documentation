@@ -1,4 +1,9 @@
-# squeue
+---
+tags:
+  - squeue
+---
+
+# `squeue`
 
 The [job scheduler](../cluster_guides/slurm.md) consists of many
 programs to manage jobs.

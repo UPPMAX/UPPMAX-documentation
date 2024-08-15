@@ -1,3 +1,8 @@
+---
+tags:
+  - sbatch
+---
+
 # `sbatch`
 
 The [job scheduler](../cluster_guides/slurm.md) consists of many
