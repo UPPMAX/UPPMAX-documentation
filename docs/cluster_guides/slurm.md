@@ -92,6 +92,25 @@ Minimal and complete examples of using `sbatch` is described at the respective c
 - [Rackham](../cluster_guides/slurm_on_rackham.md#sbatch-and-interactive-on-rackham)
 - [Snowy](../cluster_guides/slurm_on_snowy.md#sbatch-and-interactive-on-snowy)
 
+### Specify duration of the run
+
+To let Slurm schedule a job with a certain, one uses `sbatch`, like:
+
+```bash
+sbatch -A [project_code] --time [duration] [script_filename]
+```
+
+for example, for a job of 1 day, 23 hours, 59 minutes and 0 seconds:
+
+``` bash
+sbatch -A sens2017625 --time 1-23:59:00 my_script.sh
+```
+
+If the job takes too long, this will result in a timeout error
+and the job will be aborted.
+
+The maximum duration of the run depends on the cluster you use.
+
 ### Partitions
 
 Partitions are a way to tell what type of job you are submitting,
