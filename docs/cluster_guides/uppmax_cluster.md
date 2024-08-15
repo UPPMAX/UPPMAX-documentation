@@ -215,8 +215,7 @@ due to which there are these additional restrictions to users:
 
     - [Bianca](transfer_bianca.md).
 
-The goal is *not* to prevent the up/download of sensitive data,
-instead it is to prevent the *accidental* up/download of sensitive data.
+The goal is to prevent the *accidental* up/download of sensitive data.
 As these up/downloads are monitored, in case of an accident,
 the extent of the leak and the person (accidentally) causing it
 is known. Identifying a responsible person in case of such an
