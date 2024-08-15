@@ -4113,5 +4113,7 @@ configs
 NXF
 pixelator
 XXXX
+filezilla
+winscp
 
 
