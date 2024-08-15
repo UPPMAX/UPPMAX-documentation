@@ -1,6 +1,8 @@
 # squeue
 
-`squeue` is a tool to view information about [Slurm](../cluster_guides/slurm.md) job queues.
+The [job scheduler](../cluster_guides/slurm.md) consists of many
+programs to manage jobs.
+`squeue` is a tool to view information about the job queues.
 
 View all jobs in the queue:
 
