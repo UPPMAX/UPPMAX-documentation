@@ -40,7 +40,7 @@ Where:
 
 - `-A [project_code]`: the [project](../getting_started/project.md) to use,
   for example `sens2017625`
-- `[script_filename]`: the name of a file that is a bash script, 
+- `[script_filename]`: the name of a file that is a bash script,
   for example, `my_script.sh`
 
 Filling this all in:
