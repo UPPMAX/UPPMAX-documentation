@@ -18,7 +18,7 @@ interactive -A uppmax2023-2-25
 ```
 
 This starts an interactive session using project `uppmax2023-2-25`
-that has a default duration of 1 hours.
+that has a default duration of 1 hour.
 
 ???- tip "Forgot your Rackham project?"
 
@@ -56,3 +56,12 @@ that has a maximum duration of 8 hours.
     It can take tens of seconds before an interactive node is allocated.
 
     Rackham has not frozen, just be a bit more patient.
+
+
+To stop the session, do:
+
+```bash
+exit
+```
+
+This will take you back to the login node.
