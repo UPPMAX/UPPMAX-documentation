@@ -46,13 +46,9 @@ The Slurm system is accessed using the following commands:
 
 ```mermaid
 flowchart TD
-  subgraph sub_inside[IP inside SUNET]
-    subgraph sub_cluster_env[Cluster environment]
-      login_node(User on login node)
-      interactive_node(User on interactive node)
-      computation_node(Computation node):::calculation_node
-    end
-  end
+  login_node(User on login node)
+  interactive_node(User on interactive node)
+  computation_node(Computation node):::calculation_node
 
   login_node --> |move user, interactive|interactive_node
   login_node ==> |submit jobs, sbatch|computation_node
@@ -60,8 +56,6 @@ flowchart TD
 ```
 
 > The different types of nodes an UPPMAX cluster has.
-> White nodes: nodes a user can interact with.
-> Blue nodes: nodes a user cannot interact with.
 > The thick edge shows the topic of this page:
 > how to submit jobs to a computation node.
 
