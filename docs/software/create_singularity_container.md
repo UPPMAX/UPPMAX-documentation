@@ -8,7 +8,7 @@ tags:
 
 # Creating a Singularity container
 
-There are many ways to create a [Singualrity](singularity.md) container.
+There are many ways to create a [Singularity](singularity.md) container.
 
 ## How and where to build?
 

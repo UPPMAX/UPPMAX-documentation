@@ -1,6 +1,8 @@
 # squeue
 
-`squeue` is a tool to view information about [Slurm](../cluster_guides/slurm.md) job queues.
+The [job scheduler](../cluster_guides/slurm.md) consists of many
+programs to manage jobs.
+`squeue` is a tool to view information about the job queues.
 
 View all jobs in the queue:
 
@@ -13,7 +15,7 @@ squeue
     Your output will be similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ squeue | head -n 1; squeue | shuf | head
+    [sven@rackham1 ~]$ squeue | head -n 1; squeue | shuf | head
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
               49086999      core sbatch_l matca755 PD       0:00      1 (Priority)
               49086465      core sbatch_l matca755 PD       0:00      1 (Priority)
@@ -38,6 +40,6 @@ squeue -u $USER
     Your output will be similar to this, when you have no jobs in the queue:
 
     ```bash
-    [richel@rackham1 ~]$ squeue -u $USER
+    [sven@rackham1 ~]$ squeue -u $USER
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
     ```

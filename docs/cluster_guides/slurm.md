@@ -46,13 +46,9 @@ The Slurm system is accessed using the following commands:
 
 ```mermaid
 flowchart TD
-  subgraph sub_inside[IP inside SUNET]
-    subgraph sub_cluster_env[Cluster environment]
-      login_node(User on login node)
-      interactive_node(User on interactive node)
-      computation_node(Computation node):::calculation_node
-    end
-  end
+  login_node(User on login node)
+  interactive_node(User on interactive node)
+  computation_node(Computation node):::calculation_node
 
   login_node --> |move user, interactive|interactive_node
   login_node ==> |submit jobs, sbatch|computation_node
@@ -60,8 +56,6 @@ flowchart TD
 ```
 
 > The different types of nodes an UPPMAX cluster has.
-> White nodes: nodes a user can interact with.
-> Blue nodes: nodes a user cannot interact with.
 > The thick edge shows the topic of this page:
 > how to submit jobs to a computation node.
 
@@ -91,6 +85,25 @@ Minimal and complete examples of using `sbatch` is described at the respective c
 - [Bianca](../cluster_guides/slurm_on_bianca.md#sbatch-and-interactive-on-bianca)
 - [Rackham](../cluster_guides/slurm_on_rackham.md#sbatch-and-interactive-on-rackham)
 - [Snowy](../cluster_guides/slurm_on_snowy.md#sbatch-and-interactive-on-snowy)
+
+### Specify duration of the run
+
+To let Slurm schedule a job with a certain, one uses `sbatch`, like:
+
+```bash
+sbatch -A [project_code] --time [duration] [script_filename]
+```
+
+for example, for a job of 1 day, 23 hours, 59 minutes and 0 seconds:
+
+``` bash
+sbatch -A sens2017625 --time 1-23:59:00 my_script.sh
+```
+
+If the job takes too long, this will result in a timeout error
+and the job will be aborted.
+
+The maximum duration of the run depends on the cluster you use.
 
 ### Partitions
 
