@@ -36,11 +36,22 @@ To let Slurm schedule a job, one uses `sbatch`, like:
 sbatch -A [project_code] [script_filename]
 ```
 
-for example:
+Where:
+
+- `-A [project_code]`: the [project](../getting_started/project.md) to use,
+  for example `sens2017625`
+- `[script_filename]`: the name of a file that is a bash script, 
+  for example, `my_script.sh`
+
+Filling this all in:
 
 ``` bash
 sbatch -A sens2017625 my_script.sh
 ```
+
+???- question "What is my project?"
+
+    See [the UPPMAX documentation on projects](../getting_started/project.md).
 
 ???- question "What is in the script file?"
 
