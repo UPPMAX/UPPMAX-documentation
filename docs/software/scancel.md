@@ -21,7 +21,7 @@ and you can find it in the job queue (when doing [`squeue`](squeue.md)).
 
 For example:
 
-```
+```bash
 [sven@rackham3 ~]$ sbatch -A my_project my_script.sh 
 Submitted batch job 49311056
 [sven@rackham3 ~]$ scancel 49311056
