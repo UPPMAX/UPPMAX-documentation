@@ -4,6 +4,19 @@ The [job scheduler](../cluster_guides/slurm.md) consists of many
 programs to manage jobs.
 `sbatch` is the program to submit a job to the scheduler.
 
+```mermaid
+flowchart TD
+  sbatch[sbatch\nSubmit a job]
+  scancel[scancel\nCancel a running job]
+  squeue[squeue\nView the job queue]
+  sbatch --> |Oops| scancel
+  sbatch --> |Verify| squeue
+```
+
+After submitting a job, one can use [`squeue`](squeue.md) to
+verify the job is in the job queue. If there is an error in the `sbatch`
+command, one can cancel a job using [`scancel`](scancel.md).
+
 ## Minimal examples
 
 There are two ways to demonstrate minimal use of `sbatch`:
