@@ -4,7 +4,7 @@ This page describes the hardware architecture of the different compute clusters
 at UPPMAX as well as their storage systems.
 
 UPPMAX is part of the [National Academic Infrastructure for
-Supercomputing in Sweden (NAISS)](https://www.naiss.se/) and as such.
+Supercomputing in Sweden (NAISS)](https://www.naiss.se/).
 
 Parameter               |Rackham                |Snowy                                  |Bianca                             |UPPMAX Cloud
 ------------------------|-----------------------|---------------------------------------|-----------------------------------|-----------------------------
@@ -23,4 +23,4 @@ Parameter               |Rackham                |Snowy                          
 
 The storage systems we have provide a total volume of about 20 PB, the
 equivalent of nearly 15 billion 3.5-inch floppy disks or 40,000 years of
-128-bit encoded music. Read more on the
+128-bit encoded music.
