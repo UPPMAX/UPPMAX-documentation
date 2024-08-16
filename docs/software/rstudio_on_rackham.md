@@ -76,6 +76,33 @@ In the terminal of the interactive session, do:
 module load RStudio/2023.06.2-561
 ```
 
+???- question "What does 'Sandboxing is not enabled for RStudio at UPPMAX' mean?"
+
+    Nothing. 
+
+    Here is how it looks like:
+
+    ```
+    [sven@r482 richel]$ module load RStudio/2023.06.2-561
+    RStudio/2023.06.2-561: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.06.2-561' for more information
+    [sven@r482 richel]$ module help RStudio/2023.06.2-561
+
+    --------------------------------------------------- Module Specific Help for "RStudio/2023.06.2-561" ----------------------------------------------------
+	    RStudio - use RStudio 2023.06.2-561
+
+	    Version 2023.06.2-561
+
+    With the Linux distribution used on most UPPMAX clusters (CentOS 7), RStudio/2023.06.2-561
+    prefers to use a 'suid sandbox'. We do not enable this at UPPMAX. Instead, we disable sandboxing
+    during startup of RStudio by defining a shell alias for the 'rstudio' command. You may notice
+    additional errors in the terminal window from which you ran the 'rstudio' command. This is
+    expected and does not affect RStudio operation.
+
+    For performance reasons, UPPMAX disables checks for updates.
+
+    UPPMAX also disables the 'Packages' pane of RStudio if an R_packages module is loaded.
+    ```
+
 ???- question "Do I need to load `R` or `R_packages`?"
 
     No.
