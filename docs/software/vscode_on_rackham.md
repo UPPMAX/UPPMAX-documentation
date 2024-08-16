@@ -17,6 +17,16 @@ In this session, we show how to use VSCode on Rackham.
 
 ## Procedure to start VSCode
 
+!!! warning "This procedure fails!"
+
+    Due to a recent change in VSCode and/or the 'Remote Tunnels'
+    plugin, this approach does not work anymore.
+
+    This is reported at [Issue 121](https://github.com/UPPMAX/UPPMAX-documentation/issues/121).
+
+Below is a step-by-step procedure to start RStudio.
+This procedure is also demonstrated in [this YouTube video](https://youtu.be/RG2FWA8yoUs).
+
 ### 1. Install VSCode on your local computer
 
 ### 2. Start VSCode on your local computer
