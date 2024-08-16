@@ -21,7 +21,11 @@ A terminal is a program that allows you to run commands.
 ???- question "What does all the stuff on the line I can type on mean?"
 
     The text at the start of the line you can type on,
-    is called the command prompt. It indicates
+    is called the command prompt.
+
+???- question "What is the command prompt?"
+
+    The command prompt indicates
     that the terminal is waiting for user input.
 
     Here is an example prompt:
