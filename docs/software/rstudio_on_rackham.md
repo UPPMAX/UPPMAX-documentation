@@ -96,9 +96,9 @@ module load RStudio/2023.06.2-561
     [sven@r482 richel]$ module help RStudio/2023.06.2-561
 
     --------------------------------------------------- Module Specific Help for "RStudio/2023.06.2-561" ----------------------------------------------------
-	    RStudio - use RStudio 2023.06.2-561
+     RStudio - use RStudio 2023.06.2-561
 
-	    Version 2023.06.2-561
+     Version 2023.06.2-561
 
     With the Linux distribution used on most UPPMAX clusters (CentOS 7), RStudio/2023.06.2-561
     prefers to use a 'suid sandbox'. We do not enable this at UPPMAX. Instead, we disable sandboxing
