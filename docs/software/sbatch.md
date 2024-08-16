@@ -58,7 +58,7 @@ sbatch -A sens2017625 my_script.sh
 
     See [the UPPMAX documentation on projects](../getting_started/project.md).
 
-???- question "What is my project code?"
+???- question "How do I convert my project name to the project code I need to use here?"
 
     See [the UPPMAX documentation on projects](../getting_started/project.md).
 
