@@ -58,6 +58,10 @@ sbatch -A sens2017625 my_script.sh
 
     See [the UPPMAX documentation on projects](../getting_started/project.md).
 
+???- question "What is my project code?"
+
+    See [the UPPMAX documentation on projects](../getting_started/project.md).
+
 ???- question "What is in the script file?"
 
     The script file `my_script.sh` is a minimal example script.
