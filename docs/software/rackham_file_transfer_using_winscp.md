@@ -4,11 +4,10 @@ tags:
   - data transfer
   - file transfer
   - Rackham
-  - FileZilla
-  - filezilla
+  - WinSCP
 ---
 
-# File transfer to/from Rackham using FileZilla
+# File transfer to/from Rackham using WinSCP
 
 There are multiple ways to [transfer data to/from Rackham](../cluster_guides/transfer_rackham.md).
 
