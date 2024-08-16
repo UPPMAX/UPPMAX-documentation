@@ -86,11 +86,11 @@ module load RStudio/2023.06.2-561
 
 ???- question "What does 'Sandboxing is not enabled for RStudio at UPPMAX' mean?"
 
-    Nothing. 
+    Nothing.
 
     Here is how it looks like:
 
-    ```
+    ```bash
     [sven@r482 richel]$ module load RStudio/2023.06.2-561
     RStudio/2023.06.2-561: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.06.2-561' for more information
     [sven@r482 richel]$ module help RStudio/2023.06.2-561
