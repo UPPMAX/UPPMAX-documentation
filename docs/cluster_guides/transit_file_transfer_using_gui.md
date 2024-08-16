@@ -5,7 +5,7 @@ Here we describe how to do so using a graphical tool.
 
 There are multiple graphical tools to do so:
 
-Link to procedure                               |Tool     |Description
-------------------------------------------------|---------|-------------------------------------------------------
-[here](transit_file_transfer_using_filezilla.md)|FileZilla|Free, open source, works on all platforms (recommended)
-[here](transit_file_transfer_using_winscp.md)   |WinSCP   |Only works under Windows
+Link to procedure                                           |Tool                                 |Description
+------------------------------------------------------------|-------------------------------------|-------------------------------------------------------
+[here](../software/transit_file_transfer_using_filezilla.md)|[FileZilla](../software/filezilla.md)|Free, open source, works on all platforms (recommended)
+[here](../software/transit_file_transfer_using_winscp.md)   |[WinSCP](../software/winscp.md)      |Only works under Windows
