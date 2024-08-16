@@ -28,7 +28,7 @@ it must be run on an interactive node.
 
 ## Procedure to start RStudio
 
-Below is a step-by-step procedure to start RStudio.
+Below is a step-by-step procedure to start RStudio on Bianca.
 
 ??? question "Prefer a video?"
 

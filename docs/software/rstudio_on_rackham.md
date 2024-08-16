@@ -28,7 +28,15 @@ it must be run on an interactive node.
 
 ## Procedure to start RStudio
 
+Below is a step-by-step procedure to start RStudio on Rackham.
+
+??? question "Prefer a video?"
+
+    This procedure is also demonstrated in [this YouTube video](https://youtu.be/efSOFfBVBPQ).
+
 ### 1. Get within SUNET
+
+This step is only needed when outside of Sweden.
 
 ???- question "Forgot how to get within SUNET?"
 
