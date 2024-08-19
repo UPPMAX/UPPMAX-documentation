@@ -5,7 +5,7 @@ trained on large-scale multi-species genome that achieves the
 state-of-the-art performanan on 28 tasks of the GUE benchmark',
 according to [DNABERT 2](https://github.com/MAGICS-LAB/DNABERT_2)
 
-DNABERT 2 is not part of 
+DNABERT 2 is not part of
 [the UPPMAX module system](../cluster_guides/modules.md).
 
 For [Rackham](../cluster_guides/rackham.md), installing
