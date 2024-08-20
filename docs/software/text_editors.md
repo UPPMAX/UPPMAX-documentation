@@ -1,3 +1,12 @@
+---
+tags:
+  - text
+  - editor
+  - editors
+  - text editor
+  - text editors
+---
+
 # Text editors
 
 There are many editors that can be used on the UPPMAX clusters:
