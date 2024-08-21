@@ -103,3 +103,64 @@ Now you can transfer files between your local computer and [your `wharf` folder]
     ![FileZilla is ready to transfer files](./img/filezilla_login_to_bianca.png)
 
     > FileZilla is ready to transfer files
+
+## Troubleshooting
+
+### Access denied
+
+Full error, in the FileZilla terminal:
+
+```text
+Status: Connecting to bianca-sftp.uppmax.uu.se...
+
+Status: Using username "sven-sens2023613".
+
+Status: Access denied
+
+Error: Authentication failed.
+
+Error: Critical error: Could not connect to server
+```
+
+Hypotheses:
+
+- The user is not within SUNET
+
+???- question "How do I know if I am within the university networks?"
+
+    If you login via `eduroam` you are within the university networks.
+
+    When unsure, go to the Bianca remote desktop website at
+    [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se):
+    if this page does not load, you are outside of the university networks.
+
+    See [How to get inside of the university networks](../getting_started/get_inside_sunet.md)
+    if you outside of the university networks.
+
+- The account is not active
+
+???- question "How do I know if the Bianca project is active?"
+
+    A quick way to confirm your Bianca project is active:
+    go to <https://bianca.uppmax.uu.se>
+    and type your username. If the project is displayed, it is active.
+
+    To confirm your project is active or inactive, use the SUPR NAISS website.
+    See [the UPPMAX documentation on projects](../getting_started/project.md)
+    how to see if your project is active?
+
+- The user is not a member of the Bianca project
+
+???- question "How do I know if I am a member of the Bianca project?"
+
+    A quick way to confirm you are a member of the Bianca project:
+    go to <https://bianca.uppmax.uu.se>
+    and type your username. If the project is displayed,
+    you are a member of the Bianca project.
+
+    To confirm your project is active or inactive, use the SUPR NAISS website.
+    See [the UPPMAX documentation on projects](../getting_started/project.md)
+    how to see which projects you are a member of.
+
+See [the UPPMAX page on contacting support](../support.md)
+on how to contact us.
