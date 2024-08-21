@@ -43,6 +43,21 @@ As an external contributor, one can contribute by:
    merging to the `main` branch is fine :-)
 1. If the change is accepted after review it will be merged into the main branch
 
+## Where to put a new page: here or at <https://www.uu.se/en/staff/centre/uppmax>?
+
+- <https://www.uu.se/en/staff/centre/uppmax> is our 'landing page'.
+  It’s for 'nice' looking pages with general information about UPPMAX,
+  which don’t need to be updated very often.
+  The news function and a calendar of events can be here as well,
+  because it makes sense for this to be visible on our homepage.
+  There's supposed to be an automatically-generated list of staff as well.
+- this page: is for more detailed documentation for our users,
+  for pages that we want to automate, etc.
+  Guides, documentation, anything with code snippets.
+
+I’m sure there are things that fall in a grey zone,
+but we can discuss that a little and then decide what’s best.
+
 ## Where to put files
 
 All files are put in `docs` or `docs/[some_folder]`,
