@@ -208,3 +208,22 @@ flowchart TD
 
     bianca_shared_remote_desktop --> |UPPMAX password| bianca_private_remote_desktop
 ```
+
+
+## Troubleshooting
+
+### Access denied
+
+???- question "How does that look like?"
+
+    ![Log in to Bianca's remote desktop environment and getting an 'Access denied' error](./img/login_bianca_remote_desktop_website_access_denied.png)
+
+[Contact support](../support.md).
+
+### Authentication failed
+
+???- question "How does that look like?"
+
+    ![Log in to Bianca's remote desktop environment and getting an 'Authentication failed' error](./img/login_bianca_remote_desktop_website_authentication_failed.png)
+
+[Contact support](../support.md).
