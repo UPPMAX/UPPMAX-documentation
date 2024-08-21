@@ -64,8 +64,8 @@ with 2 cores:
 interactive -A [project_number] -n 2 -t 8:00:00
 ```
 
-Where `[project_number]` is your [UPPMAX project](../cluster_guides/project.md),
-for example:
+Where `[project_number]` is your
+[UPPMAX project](../getting_started/project.md), for example:
 
 ```bash
 interactive -A sens2016001 -n 2 -t 8:00:00
