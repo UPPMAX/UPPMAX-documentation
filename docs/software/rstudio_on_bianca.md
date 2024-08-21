@@ -49,7 +49,9 @@ Below is a step-by-step procedure to start RStudio on Bianca.
 ### 3. Start an interactive session
 
 Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
-Within that terminal, start an interactive session with 2 cores.
+Within that terminal,
+[start an interactive node](../cluster_guides/start_interactive_node_on_bianca.md)
+with 2 cores:
 
 !!!- info "Why two cores?"
 
@@ -57,14 +59,27 @@ Within that terminal, start an interactive session with 2 cores.
     Due to this, we recommend using at least two cores
     for a more pleasant user experience.
 
-???- tip "Forgot how to start an interactive node?"
 
-    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_bianca.md).
+```bash
+interactive -A [project_number] -n 2 -t 8:00:00
+```
 
-    Spoiler: use:
+Where `[project_number]` is your [UPPMAX project](../cluster_guides/project.md),
+for example:
+
+```bash
+interactive -A sens2016001 -n 2 -t 8:00:00
+```
+
+???- question "What is my UPPMAX project number?"
+
+    Easy answers that is probably true:
+
+    The one you used to login, which is part of your prompt.
+    For example, in the prompt below, the project is `sens2016001`.
 
     ```bash
-    interactive -A sens2023598 -n 2 -t 8:00:00
+    [sven@sens2016001-bianca sven]$
     ```
 
 !!!- warning "Do not start RStudio from the menus"
