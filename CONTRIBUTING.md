@@ -63,13 +63,14 @@ but we can discuss that a little and then decide what’s best.
 All files are put in `docs` or `docs/[some_folder]`,
 but not not deeper than that.
 
-Description                                | Where          | Typical name
--------------------------------------------|----------------|------------------------------------------
-Information about clusters                 |`cluster_guides`|`bianca.md`, `rackham.md`, `snowy.md`
-Information about Slurm                    |`cluster_guides`|`slurm.md`
-Information about general cluster processes|`cluster_guides`|`[general_process_name].md`
-Cluster-specific information for software  |`software`      |`[x]_on_bianca.md`, `rackham_do_something_with_[x].md`
-Software in general, except Slurm          |`software`      |`[name of program].md`
+Description                                             | Where          | Typical name
+--------------------------------------------------------|----------------|------------------------------------------
+Information about clusters                              |`cluster_guides`|`bianca.md`, `rackham.md`, `snowy.md`
+Information about Slurm                                 |`cluster_guides`|`slurm.md`
+Information about general cluster processes             |`cluster_guides`|`[general_process_name].md`
+Cluster-specific information about Slurm                |`cluster_guides`|`slurm_on_bianca.md`, `slurm_[something].md`
+Cluster-specific information for software, except Slurm |`software`      |`[x]_on_bianca.md`, `rackham_do_something_with_[x].md`
+Software in general, except Slurm                       |`software`      |`[name of program].md`
 
 Examples on file transfer:
 
