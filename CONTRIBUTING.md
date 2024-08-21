@@ -69,7 +69,7 @@ Information about clusters                 |`cluster_guides`|`bianca.md`, `rackh
 Information about Slurm                    |`cluster_guides`|`slurm.md`
 Information about general cluster processes|`cluster_guides`|`[general_process_name].md`
 Cluster-specific information for software  |`software`      |`[x]_on_bianca.md`, `rackham_do_something_with_[x].md`
-Software in general                        |`software`      |`[name of program].md`
+Software in general, except Slurm          |`software`      |`[name of program].md`
 
 Examples on file transfer:
 
