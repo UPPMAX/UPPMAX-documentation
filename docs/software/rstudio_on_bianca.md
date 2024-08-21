@@ -148,3 +148,39 @@ Additionally, at startup and if enabled, your saved RStudio workspace
     The RStudio debugger, at the program level:
 
     ![The RStudio debugger, at the program level](./img/rstudio_debugger_at_program_level.png)
+
+## Troubleshooting
+
+### RStudio freezes when I start it, where yesterday it still worked
+
+#### Hypothesis: Your home folder is full
+
+Your home folder is full. That explains why it still worked yesterday:
+at that day, your home folder was not full yet.
+
+RStudio uses your home folder
+to store the things it needs, so when it is full, it cannot do its
+things.
+
+To confirm, from a terminal do:
+
+```bash
+du -h -d 1 .
+```
+
+This will show how much space the folders in your home folder take:
+
+![Home folder of a user that had RStudio frozen](./img/rstudio_on_bianca_freeze_du.png)
+
+In this example, there is a folder called `wharf_backup` that is
+4.5 gigabyte. Moving it to a project folder solved the problem:
+
+```bash
+mv wharf_backup/ /proj/[your_project_folder] 
+```
+
+For example:
+
+```bash
+mv wharf_backup/ /proj/sens2016001 
+```
