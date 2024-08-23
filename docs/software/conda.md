@@ -9,13 +9,59 @@
 
 ### Python
 
-- Check python versions: ``ml avail python``
-- load a python version like: ``ml python/3.10.8``
+- Check python versions: `module spider python`
+
+???- question "How does that look like?"
+
+    It will look similar to this:
+
+    ```bash
+    [sven@rackham1 ~]$ module spider python
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      python:
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         Versions:
+            python/2.7.6
+            python/2.7.9
+            python/2.7.11
+            python/2.7.15
+            python/3.3
+            python/3.3.1
+            python/3.4.3
+            python/3.5.0
+            python/3.6.0
+            python/3.6.8
+            python/3.7.2
+            python/3.8.7
+            python/3.9.5
+            python/3.10.8
+            python/3.11.4
+            python/3.11.8
+            python/3.12.1
+         Other possible modules matches:
+            Biopython  Boost.Python  GitPython  IPython  Python  biopython  flatbuffers-python  netcdf4-python  protobuf-python  python-parasail  python3  python_GIS_packages  ...
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      To find other possible module matches execute:
+
+          $ module -r spider '.*python.*'
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      For detailed information about a specific "python" package (including how to load the modules) use the module's full name.
+      Note that names that have a trailing (E) are extensions provided by other modules.
+      For example:
+
+         $ module spider python/3.12.1
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ```
+
+
+- load a python version like: ``module load python/3.10.8``
 - from the Python shell with the ``import`` command
 - from BASH shell with the
-
-- `pip list` command
-- `module help python/3.9.5` (or other version) at UPPMAX
+    - `pip list` command
+    - `module help python/3.9.5` (or other version) at UPPMAX
 
 ### Is it not there, or is it a stand-alone tool? Then proceed!**
 
