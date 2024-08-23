@@ -13,7 +13,7 @@ tags:
 According to
 [the Cell Ranger GitHub repository](https://github.com/10XGenomics/cellranger):
 
-> Cell Ranger is a set of analysis pipelines that perform sample 
+> Cell Ranger is a set of analysis pipelines that perform sample
 > demultiplexing, barcode processing, single cell 3' and 5' gene counting,
 > V(D)J transcript sequence assembly and annotation,
 > and Feature Barcode analysis from 10x Genomics Chromium Single Cell data.
@@ -166,7 +166,7 @@ module spider cellranger
           bioinfo-tools
      
         Help:
-          	cellranger-DNA - use cellranger-DNA 1.1.0
+           cellranger-DNA - use cellranger-DNA 1.1.0
           
           
           The cellranger-DNA-data/1.0.0 module is loaded as a prerequisite.
@@ -181,7 +181,7 @@ module spider cellranger
         This module can be loaded directly: module load cellranger-DNA-data/1.0.0
 
         Help:
-          	cellranger-DNA-data - use cellranger-DNA-data 1.0.0
+           cellranger-DNA-data - use cellranger-DNA-data 1.0.0
           
           
           10X Genomics Chromium Cell Ranger DNA data
@@ -196,7 +196,7 @@ module spider cellranger
     LRANGER_DNA_DATA.
           To see the top-level directories:
           
-          	ls -l $CELLRANGER_DNA_DATA
+           ls -l $CELLRANGER_DNA_DATA
           
           Genome assembly    Subdirectory
           ---------------    ------------
@@ -255,7 +255,7 @@ module spider cellranger
          $ module spider cellranger-data/2024-A
     ----------------------------------------------------------------------------
     ```
- 
+
 
 Loading the latest version of the `cellranger` module:
 
