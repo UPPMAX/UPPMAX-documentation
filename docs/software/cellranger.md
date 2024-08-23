@@ -259,7 +259,7 @@ module spider cellranger
 
 Loading the latest version of the `cellranger` module:
 
-```
+```bash
 module load bioinfo-tools cellranger/8.0.1
 ```
 
