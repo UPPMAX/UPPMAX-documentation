@@ -80,6 +80,9 @@
       "pattern": "^https://www.pdc.kth.se/support/documents/getting_access/get_access.html$"
     },
     {
+      "pattern": "^https://sonc.swegrid.se/wiki/SUPR/API$"
+    },
+    {
       "pattern": "^https://www.sunet.se/$"
     },
     {
