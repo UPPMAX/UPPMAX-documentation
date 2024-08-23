@@ -324,7 +324,7 @@ cellranger
 
 ???- info "For staff"
 
-    Related to [ticket 297240](https://support.naiss.se/Ticket/Display.html?id=297240)
+    Related to [ticket 297240](https://github.com/UPPMAX/ticket_297240)
 
 ## Links
 
