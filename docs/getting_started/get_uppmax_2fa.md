@@ -13,6 +13,9 @@ tags:
 
 Follow the guide [Setting up two factor authentication for UPPMAX](https://www.uu.se/en/centre/uppmax/get-started/2-factor).
 
+After this procedure, it takes around 15 minutes before you can use
+the 2FA to log in.
+
 ![UPPMAX 2FA set up for a fictional UPPMAX user called `sven`](./img/uppmax_2fa.png)
 
 > UPPMAX 2FA set up for a fictional UPPMAX user called `sven`
