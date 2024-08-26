@@ -29,7 +29,7 @@ Open the email and click on the link that it suggests you to click.
 
     Your email will look similar to this:
 
-    ```
+    ```text
     Greetings,
 
     a new password has been generated for your account at UPPMAX.
@@ -63,7 +63,7 @@ Open the email and click on the link that it suggests you to click.
     CAUTION: Do not click on links or open attachments unless you recognise the sender and know the content is safe.
     ```
 
-    In this example, 
+    In this example,
     `https://content.uppmax.uu.se/get-password2.php?sum=hvs.CAESIGOczS0[more_letters]`
     is the link you should click
 
@@ -77,7 +77,7 @@ At the page with your new password, you use that password to log in.
 
 When being logged in to Rackham or Bianca, type:
 
-```
+```bash
 passwd
 ```
 
