@@ -35,5 +35,8 @@ IDE                                           |Languages
 ----------------------------------------------|----------------
 [Jupyter](../software/jupyter.md)             |Python
 [RStudio](rstudio_on_rackham.md)              |R
-[VSCode](vscode_on_rackham.md)                |General-purpose
+:no_entry: [VSCode](vscode_on_rackham.md)     |General-purpose
 :no_entry: [VSCodium](vscodium_on_rackham.md) |General-purpose
+
+> IDEs on Rackham. 
+> IDEs marked with :no_entry: cannot be run on Rackham.
