@@ -11,6 +11,7 @@ tags:
 
     Watch [the YouTube video 'Get your UPPMAX 2FA'](https://youtu.be/eSn0kLkU5Dc)
 
+Follow the guide [Setting up two factor authentication for UPPMAX](https://www.uu.se/en/centre/uppmax/get-started/2-factor).
 
 ![UPPMAX 2FA set up for a fictional UPPMAX user called `sven`](./img/uppmax_2fa.png)
 
