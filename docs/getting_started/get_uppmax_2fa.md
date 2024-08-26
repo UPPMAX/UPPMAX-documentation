@@ -12,7 +12,7 @@ tags:
     Watch [the YouTube video 'Get your UPPMAX 2FA'](https://youtu.be/eSn0kLkU5Dc)
 
 
-![UPPMAX 2FA set up for a fictional UPPMAX user called `sven`](uppmax_2fa.png)
+![UPPMAX 2FA set up for a fictional UPPMAX user called `sven`](./img/uppmax_2fa.png)
 
 > UPPMAX 2FA set up for a fictional UPPMAX user called `sven`
 
