@@ -84,7 +84,8 @@ is that you must have a personal [UPPMAX user account](../getting_started/user_a
 
 Another [prerequisite for using Rackham](#prerequisites-for-using-rackham)
 is that you need to know your UPPMAX password.
-If you change it, it may take up to an hour before changes are reflected in Rackham.
+See [how to reset and set your UPPMAX password](reset_uppmax_password.md)
+to do so.
 
 ## An UPPMAX 2FA
 
