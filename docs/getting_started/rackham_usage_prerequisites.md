@@ -6,6 +6,7 @@ one needs all of these:
 - [An active research project](#an-active-research-project)
 - [An UPPMAX account](#an-uppmax-user-account)
 - [An UPPMAX password](#an-uppmax-password)
+- (for the [Rackham remote desktop website](login_rackham_remote_desktop_website.md)) [An UPPMAX 2FA](#an-uppmax-2fa)
 
 These prerequisites are discussed in detail below.
 
@@ -84,3 +85,10 @@ is that you must have a personal [UPPMAX user account](../getting_started/user_a
 Another [prerequisite for using Rackham](#prerequisites-for-using-rackham)
 is that you need to know your UPPMAX password.
 If you change it, it may take up to an hour before changes are reflected in Rackham.
+
+## An UPPMAX 2FA
+
+Another [prerequisite for using Rackham](#prerequisites-for-using-rackham),
+but only for the [Rackham remote desktop website](login_rackham_remote_desktop_website.md))
+is to have an UPPMAX 2FA.
+See [how to get an UPPMAX 2FA](get_uppmax_2fa.md)
