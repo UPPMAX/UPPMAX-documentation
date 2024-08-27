@@ -20,7 +20,7 @@ template: home.html
 
 [:material-rocket-launch: Getting started](getting_started/get_started.md){: .md-button .md-button--primary }
 [:material-rocket-launch: Software](software/overview.md){: .md-button .md-button--primary }
-[:material-rocket-launch: Lost credentials for UPPMAX account](https://suprintegration.uppmax.uu.se/getpasswd){: .md-button .md-button--primary }
+[:material-rocket-launch: Reset your UPPMAX password](getting_started/reset_uppmax_password){: .md-button .md-button--primary }
 [:material-alert-box: Migration to Dardel](cluster_guides/dardel_migration.md){ .md-button .md-button--primary }
 
 [:material-rocket-launch: Back to UPPMAX home](https://www.uu.se/en/centre/uppmax){: .md-button .md-button--primary }

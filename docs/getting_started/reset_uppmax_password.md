@@ -73,13 +73,7 @@ This will take you to a page with your new password.
 
 At the page with your new password, you use that password to log in.
 
-### 4. (optional) Set your own password
+### 4. (optional) Change your password
 
-When being logged in to Rackham or Bianca, type:
-
-```bash
-passwd
-```
-
-Now you will be asked to repeat the old password and set a new one!
-
+If you want to change your password, see 
+[How to change your UPPMAX password](change_uppmax_password.md).
