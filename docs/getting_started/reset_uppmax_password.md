@@ -18,6 +18,7 @@ tags:
 ### 1. Go to <https://suprintegration.uppmax.uu.se/getpasswd>
 
 Go to <https://suprintegration.uppmax.uu.se/getpasswd>.
+After authenticating yourself, you're password is reset immediately.
 
 You will be sent an email in around 5 minutes.
 
