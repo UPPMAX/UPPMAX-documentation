@@ -75,5 +75,5 @@ At the page with your new password, you use that password to log in.
 
 ### 4. (optional) Change your password
 
-If you want to change your password, see 
+If you want to change your password, see
 [How to change your UPPMAX password](change_uppmax_password.md).
