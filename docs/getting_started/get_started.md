@@ -88,37 +88,11 @@ Note: The information displayed in the welcome screen contains very important in
 
 ## Changing your password
 
-You should regularly change your password. This is done in the standard Linux way. Type:
-
-    passwd
-
-The system will prompt you for your current password, after which it will ask you for a new password and a confirmation of the new password. If you lose your password and need to reset it, follow this link (which you can also find on our homepage).
+See [How to change your UPPMAX password](change_uppmax_password.md)
 
 ## Copying files from/to your UPPMAX account
 
-### From a Linux or Unix computer
-
-Copy a file from you computer to your home directory on UPPMAX:
-
-```bash
-scp some_local_file user@rackham.uppmax.uu.se:/home/username/some-file
-```
-
-Copy a file from your home directory on UPPMAX to your computer:
-
-```bash
-scp user@rackham.uppmax.uu.se:/home/username/some-file local_file_or_directory
-```
-
-To place the file in the directory you are currently standing in, use a dot ('.') as the local directory:
-
-```bash
-scp user@rackham.uppmax.uu.se:/home/username/some-file .
-```
-
-### From a Windows computer
-
-If you are running windows you could download or upload files using the file browser in MobaXterm, or the WinSCP software to upload and download files in a similar fashion to how FTP clients work. Alternatively if you are using WSL you can follow the instructions for Linux above.
+See [How to transfer files from/to your UPPMAX account](../cluster_guides/file_transfer.md)
 
 ## Where are my files? (Or, what are the different file systems?)
 
@@ -207,16 +181,7 @@ You can read a tutorial in emacs by doing:
 
 ### The Gedit text editor
 
-If you have logged in with [X forwarding](../software/ssh_x_forwarding.md)
-(i.e. with `ssh -X username@rackham.uppmax.uu.se`)
-or through ThinLinc, then you can run `gedit`,
-a program that feels very similar to the Windows program Wordpad.
-
-Example: how to run gedit from a terminal:
-
-    gedit &
-
-The ampersand (&) keeps gedit from taking over your terminal session. You can navigate files and exit the program with the mouse.
+See [gedit](../software/gedit.md)
 
 ## Bash, bourne-again shell
 
@@ -230,27 +195,13 @@ The .bash_logout file is run when you log out.
 
 ## Modules
 
-In order to make running installed programs easier you should use the [module](../cluster_guides/modules.md) command. The different modules that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH.
-
-Example: checking what modules are available:
-
-module avail
-
-Example: checking what modules you have loaded:
-
-module list
-
-Example: loading a compiler and an mpi module:
-
-module load intel/20.4 openmpi
-
-Example, if you want to unload a module
-
-module unload intel
+In order to run installed programs, 
+one uses the [module](../cluster_guides/modules.md)
+system.
 
 ## How to run jobs
 
-All jobs should be run using the batch queues. Read more for bianca and rackham, and the Slurm queue system.
+All jobs should be run using [the job scheduler](../cluster_guides/slurm.md).
 
 ## UPPMAX homepage
 
