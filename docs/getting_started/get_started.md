@@ -195,7 +195,7 @@ The .bash_logout file is run when you log out.
 
 ## Modules
 
-In order to run installed programs, 
+In order to run installed programs,
 one uses the [module](../cluster_guides/modules.md)
 system.
 
