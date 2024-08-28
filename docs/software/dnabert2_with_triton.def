@@ -6,11 +6,11 @@ From: condaforge/miniforge3
     echo 'export LANG=en_US.UTF-8 LANGUAGE=C LC_ALL=C LC_CTYPE=C LC_COLLATE=C  LC_TIME=C LC_MONETARY=C LC_PAPER=C LC_MEASUREMENT=C' >> $SINGULARITY_ENVIRONMENT
 
     # Must be done before a conda create
-    # conda init
+    conda init
 
     # create and activate virtual python environment
-    # conda create -n dna python=3.8
-    # conda activate dna
+    conda create -n dna python=3.8
+    conda activate dna
 
     # (optional if you would like to use flash attention)
     # install triton from source
