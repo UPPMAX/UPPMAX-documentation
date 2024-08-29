@@ -43,9 +43,9 @@ As an external contributor, one can contribute by:
    merging to the `main` branch is fine :-)
 1. If the change is accepted after review it will be merged into the main branch
 
-## Where to put a new page: here or at <https://www.uu.se/en/staff/centre/uppmax>?
+## Where to put a new page: here or at <https://www.uu.se/en/centre/uppmax>?
 
-- <https://www.uu.se/en/staff/centre/uppmax> is our 'landing page'.
+- <https://www.uu.se/en/centre/uppmax> is our 'landing page'.
   It’s for 'nice' looking pages with general information about UPPMAX,
   which don’t need to be updated very often.
   The news function and a calendar of events can be here as well,
