@@ -8,21 +8,18 @@
 
 - *x-axis: cores, one thread per core*
 - *y-axis: time*
-<br/><br/>
 
 - We see some holes where we may fit jobs already!
 - Let's see which type of jobs that can fit!
 
 ![Image](./img/queue2.png)
 
-<br>
 
 - 4 one-core jobs can run immediately (or a 4-core wide job).*
 
     - *The jobs are too long to fit at core number 9-13.*
 
 ![Image](./img/queue3.png)
-<br>
 
 - A 5-core job has to wait.*
 
