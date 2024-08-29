@@ -31,8 +31,8 @@ nav:
       - Managing your project: cluster_guides/project_management.md
     - Running jobs:
       - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
-      - Runtime tips: cluster_guides/running_jobs/runtime_tips.md
-      - Storage and compression: cluster_guides/running_jobs/storage_compression.md
+      - Runtime tips: cluster_guides/runtime_tips.md
+      - Storage and compression: cluster_guides/storage_compression.md
       - Screen: software/screen.md
     - Data transfer: 
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
