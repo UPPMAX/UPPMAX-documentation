@@ -15,6 +15,13 @@
 - Available at all SNIC centres
 - [UPPMAX Slurm user guide](../cluster_guides/slurm.md)
 
+## The queue
+
+!!! info "Do you want to see a graphical representation of the scheduler?
+
+    [Slurm scheduler](slurm_scheduler.md)
+
+
 ### More on sbatch
 
 Recap:
