@@ -22,7 +22,7 @@
     [Slurm scheduler](./slurm_scheduler.md)
 
 
-### More on sbatch
+## More on sbatch
 
 Recap:
 
@@ -30,7 +30,7 @@ sbatch | -A naiss20YY-XX-ZZ  |   -t 10:00 | -p core | -n 10 | my_job.sh
 -|-|-|-|-|-
 slurm batch| project name | max runtime | partition ("job type") | #cores | job script
 
-### More on time limits
+## More on time limits
 
 - Format ``-t dd-hh:mm:ss``
 - Examples and variants on syntax
@@ -40,7 +40,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
     - ``3-00:00:00 =                    3-0``
     - ``3-12:10:15``
 
-### Job walltime
+## Job walltime
 
 ???- question "When you have no idea how long a program will take to run, what should you book?"
 
@@ -50,7 +50,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 
     A: overbook by 50%
 
-### More on partitions
+## More on partitions
 
 - ``-p core``
     - “core” is the default partition
@@ -61,7 +61,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 - ``-p node``
     - if you wish to book full node(s)
 
-### Quick testing
+## Quick testing
 
 - The “devel” partition
     - max 2 nodes per job
@@ -81,7 +81,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
     - up to 15 minutes
     - ``--qos=short``
 
-### Debugging or complicated workflows
+## Debugging or complicated workflows
 
 - Interactive jobs
 
@@ -95,7 +95,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
 
     - asks for an interactive job that will start earliest tomorrow at 08:00
 
-### Parameters in the job script or the command line?
+## Parameters in the job script or the command line?
 
 - Command line parameters override script parameters
 - A typical script may be:
@@ -123,13 +123,13 @@ sbatch -A naiss20YY-XX-ZZ -p devcore -t 00:15:00 jobscript.sh
     - submit a new job to use the devel partition
     - write in the HackMD when you’re done
 
-### Memory in core or devcore jobs
+## Memory in core or devcore jobs
 
 - ``-n X``
 - Bianca: 8GB per core
 - Slurm reports the available memory in the prompt at the start of an interactive job
 
-### More flags
+## More flags
 
 - ``-J <jobname>``
 - email:
