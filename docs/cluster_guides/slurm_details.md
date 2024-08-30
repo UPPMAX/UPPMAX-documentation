@@ -19,7 +19,7 @@
 
 !!! info "Do you want to see a graphical representation of the scheduler?
 
-    [Slurm scheduler](slurm_scheduler.md)
+    [Slurm scheduler](./slurm_scheduler.md)
 
 
 ### More on sbatch
