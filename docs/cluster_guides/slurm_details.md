@@ -17,7 +17,7 @@
 
 ## The queue
 
-!!! info "Do you want to see a graphical representation of the scheduler?
+???- question "Do you want to see a graphical representation of the scheduler?"
 
     [Slurm scheduler](./slurm_scheduler.md)
 
