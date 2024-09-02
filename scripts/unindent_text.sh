@@ -9,7 +9,7 @@
 #
 for filename in $(find . | grep .md)
 do
-sed -i 's/^    //g' ${filename}
-sed -i 's/^    //g' ${filename}
-sed -i 's/^    //g' ${filename}
+sed -i 's/^    //g' "${filename}"
+sed -i 's/^    //g' "${filename}"
+sed -i 's/^    //g' "${filename}"
 done
