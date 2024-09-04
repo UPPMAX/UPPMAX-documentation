@@ -9,7 +9,7 @@ Selected setups for benchmarking on HPC2N as [examples](https://github.com/hpc2n
 ## Loading the gromac module
 
 ``` bash
-$ module load gromacs/2021.1.th
+module load gromacs/2021.1.th
 ```
 
 ## SBATCH script
@@ -56,8 +56,8 @@ using the MEM example from
 [this benchmark](https://www.mpibpc.mpg.de/grubmueller/bench):
 
 ```bash
-$ module load gromacs/2021.1.th
-$ mpirun -np XX gmx_mpi mdrun -ntomp YY -s MEM.tpr -nsteps 10000 -resethway
+module load gromacs/2021.1.th
+mpirun -np XX gmx_mpi mdrun -ntomp YY -s MEM.tpr -nsteps 10000 -resethway
 ```
 
 where XX * YY = 20
@@ -98,7 +98,6 @@ Notice how bad is the last run
 According to this short test, this particular setup runs best on single Rackham node with
 
 `$ mpirun -np 10 gmx_mpi mdrun -ntomp 2 -s MEM.tpr -nsteps 10000 -resethway` (lines 8-10)
-
 
 ## Running older versions of gromacs
 

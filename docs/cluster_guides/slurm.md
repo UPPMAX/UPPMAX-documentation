@@ -1,3 +1,9 @@
+---
+tags:
+  - slurm
+  - Simple Linux Utility for Resource Management
+---
+
 # Slurm
 
 The UPPMAX clusters are a shared resource.
@@ -31,29 +37,25 @@ The Slurm system is accessed using the following commands:
 - `interactive` - Start an interactive session. This is described
   in-depth for [Bianca](start_interactive_node_on_bianca.md)
   and [Rackham](start_interactive_node_on_rackham.md)
-- `sbatch` - Submit and run a batch job script
+- [`sbatch`](../software/sbatch.md) - Submit and run a batch job script
 - `srun` - Typically used inside batch job scripts for running parallel jobs
   (See examples further down)
-- `scancel` - Cancel one or more of your jobs.
+- [`scancel`](../software/scancel.md) - Cancel one or more of your jobs.
+- [`sinfo`](../software/sinfo.md): view information
+  about [Slurm](../cluster_guides/slurm.md) nodes and partitions
 
 ```mermaid
 flowchart TD
-  subgraph sub_inside[IP inside SUNET]
-    subgraph sub_cluster_env[Cluster environment]
-      login_node(User on login node)
-      interactive_node(User on interactive node)
-      computation_node(Computation node):::calculation_node
-    end
-  end
+  login_node(User on login node)
+  interactive_node(User on interactive node)
+  computation_node(Computation node):::calculation_node
 
-  login_node --> |move user, interative|interactive_node
+  login_node --> |move user, interactive|interactive_node
   login_node ==> |submit jobs, sbatch|computation_node
   computation_node -.-> |can become| interactive_node
 ```
 
 > The different types of nodes an UPPMAX cluster has.
-> White nodes: nodes a user can interact with.
-> Blue nodes: nodes a user cannot interact with.
 > The thick edge shows the topic of this page:
 > how to submit jobs to a computation node.
 
@@ -80,9 +82,28 @@ sbatch -A sens2017625 my_script.sh
 
 Minimal and complete examples of using `sbatch` is described at the respective cluster guides:
 
-- [Bianca](http://docs.uppmax.uu.se/cluster_guides/slurm_on_bianca/#sbatch-and-interactive-on-bianca)
-- [Rackham](http://docs.uppmax.uu.se/cluster_guides/slurm_on_rackham/#sbatch-and-interactive-on-rackham)
-- [Snowy](http://docs.uppmax.uu.se/cluster_guides/slurm_on_snowy/#sbatch-and-interactive-on-snowy)
+- [Bianca](../cluster_guides/slurm_on_bianca.md#sbatch-and-interactive-on-bianca)
+- [Rackham](../cluster_guides/slurm_on_rackham.md#sbatch-and-interactive-on-rackham)
+- [Snowy](../cluster_guides/slurm_on_snowy.md#sbatch-and-interactive-on-snowy)
+
+### Specify duration of the run
+
+To let Slurm schedule a job with a certain, one uses `sbatch`, like:
+
+```bash
+sbatch -A [project_code] --time [duration] [script_filename]
+```
+
+for example, for a job of 1 day, 23 hours, 59 minutes and 0 seconds:
+
+``` bash
+sbatch -A sens2017625 --time 1-23:59:00 my_script.sh
+```
+
+If the job takes too long, this will result in a timeout error
+and the job will be aborted.
+
+The maximum duration of the run depends on the cluster you use.
 
 ### Partitions
 
@@ -129,7 +150,6 @@ sbatch -A sens2017625 --partition core my_script.sh
 
 To specify multiple cores, use `--ntasks` (or `-n`) like this:
 
-
 ```bash
 sbatch -A [project_code] --partition core --ntasks [number_of_cores] [script_filename]
 ```
@@ -152,7 +172,6 @@ Here, two cores are used.
     sbatch -A [project_code] --partition core --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
     ```
 
-
 This is especially important if you might adjust core usage
 of the job to be something less than a full node.
 
@@ -168,7 +187,6 @@ to ensure that only 8 cores (less than a single node) are allocated for such a j
 ### The `devel` partition
 
 ### The `devcore` partition
-
 
 ### Specifying job parameters
 
@@ -207,3 +225,36 @@ sbatch job_script.sh
 ???- question "How to see how many resources my project has used?"
 
   Use [projplot](../software/projplot.md).
+
+## Need more resources or GPU?
+
+### More memory
+
+If you need extra memory (128 GB is available in common nodes) you can allocate larger nodes. The number and sizes differ among the clusters.
+
+Table below shows the configurations and flags to use.
+
+RAM|Rackham|Snowy|Bianca
+-|-|-|-
+256 GB| `-C mem256GB`| `-C mem256GB`| `-C mem256GB`
+512 GB| N/A| `-C mem512GB`| `-C mem512GB`
+1 TB| `-C mem1TB`| N/A| N/A
+2 TB| N/A| `-p veryfat -C mem2TB`| N/A
+4 TB| N/A | `-p veryfat -C mem4TB`| N/A
+
+### GPUs
+
+- Bianca: Nodes with Nvidia A100 40 GB
+    - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
+- Snowy: Nodes with Tesla T4 16 GB
+    - The GPU nodes have either 128 or 256 GB memory and one GPU per node
+
+**Slurm options**:
+
+- Snowy 128 GB: ``-M snowy -p node --gres=gpu:1``
+- Snowy 256 GB: ``-M snowy -p node -C mem256GB --gres=gpu:1``
+- Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00``
+
+- <https://slurm.schedmd.com/gres.html#Running_Jobs>
+
+## [More about Slurm on UPPMAX](slurm_details.md)

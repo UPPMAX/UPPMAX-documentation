@@ -1,6 +1,6 @@
 # Blast databases available locally
 
-Many pipelines involving annotation/assembly comparison involve Blast. Several Blast versions are available as modules, for example:
+Many pipelines involving annotation/assembly comparison involve Blast. Several Blast versions are available as [modules](../cluster_guides/modules.md), for example:
 
 - `blast/2.12.0+`, etc. : the Blast+ suites (blastp, tblastn, etc.), recommended
 - `diamond/2.0.14` : the DIAMOND protein aligner, recommended for protein databases. See UPPMAX's DIAMOND database webpage for more information.

@@ -3,6 +3,7 @@
 ![Caption](./img/terminal.png)
 
 !!! objectives
+
     - Let's dig into the most important BASH commands
     - We'll do a type-along session
 
@@ -41,51 +42,49 @@
 ### pwd — where are you now? “Print name of current/Working Directory`
 
 ```console
-$ pwd
+pwd
 
-$ pwd -P
+pwd -P
 ```
 
 - `-P` gives you the physical path,
     - ignores how you got there
-
 
 ### ls — list directory contents
 
 Type ``ls`` to display the contents of the current directory.
 
 ```console
-$ ls -a
+ls -a
 ```
 
 ``-a`` also shows hidden files and directories.
 
 ```console
-$ ls -l
+ls -l
 ```
 
 `-l` gives you listed and detailed information.
 
 ```console
-$ ls -lt
+ls -lt
 ```
 
 ``-lt`` sorts things by time modified.
 
 ```console
-$ ls -lrt
+ls -lrt
 ```
 
 ``-r`` gives reversed order, so in this case newest in last line.
 
 ```console
-$ man ls
+man ls
 ```
 
 - for complete information about a command.
 - TIP: `-$ man <command>` works for almost any command!
     - scroll with arrows and quit with ``q``.
-
 
 ### cd — Change the shell working Directory
 
@@ -97,21 +96,22 @@ $ man ls
     - These involve the `/proj/introtouppmax`` directory
 
 ```console
-$ cd /proj/introtouppmax
+cd /proj/introtouppmax
 
-$ pwd
+pwd
 
-$ ls
+ls
 
-$ cd labs
+cd labs
 
-$ pwd
+pwd
 ```
 
 !!! challenge Experiment with cd
-    - Experiment with ``cd``.
-    - Try adding ``<spaces>`` or extra ``/`` in various places.
-    - Use *tab completion* to avoid typos and typing ``ls`` a lot.
+
+    - Experiment with ``cd``
+    - Try adding ``<spaces>`` or extra ``/`` in various places
+    - Use *tab completion* to avoid typos and typing ``ls`` a lot
 
     - Figure out the use of the following:
 
@@ -128,6 +128,7 @@ $ pwd
 
 
     ??? solution
+
         - `cd -` : goes back to your last directory
 
         - `cd ..` : goes a level up in the hierarchy
@@ -136,26 +137,25 @@ $ pwd
 
         - `cd ~` : also goes to home directory
 
-
 ## Copy, Create, Move
 
 ### mkdir — make directories
 
 !!! warning
-    - Make sure you’re in your home directory by `cd ~`
 
+    - Make sure you’re in your home directory by `cd ~`
 
 - Create a new directory ``uppmax-intro``
 
 ```console
-$ cd ~
-$ mkdir uppmax-intro
+cd ~
+mkdir uppmax-intro
 ```
 
 - Go in there:
 
 ```console
-$ cd uppmax-intro/
+cd uppmax-intro/
 ```
 
 ### cp — copy files and directories
@@ -164,14 +164,14 @@ $ cd uppmax-intro/
 - Set target to ``.`` to keep name and to point at present directory.
 
 ```console
-$ cp /proj/introtouppmax/labs/linux_tutorial/ .
+cp /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 - Well, that didn’t work. What does the error say?
 - So... try
 
 ```console
-$ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
+cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 ```
 
 ``-r`` is for recursive, meaning including files and subdirectories!
@@ -179,18 +179,18 @@ $ cp -r /proj/introtouppmax/labs/linux_tutorial/ .
 - Move to your just created ``linux_tutorial/``
 
 ```console
-$ cd linux_tutorial
+cd linux_tutorial
 ```
 
 - Make a copy of the file `newfile` in the same directory:
 
 ```console
-$ cp newfile copyfile
+cp newfile copyfile
 ```
 
 ### scp — secure copy (remote file copy program)
 
-- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the terminal on your local machine**:
+- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` **from the [terminal](../software/terminal.md) on your local machine**:
 
 #### Download from Rackham
 
@@ -202,12 +202,11 @@ $ cp newfile copyfile
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
 
-
 !!! example
 
     **Download the file ``first.txt``**
 
-    -  In your local terminal:
+    - In your local terminal:
 
     ```console
     [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
@@ -239,8 +238,7 @@ $ cp newfile copyfile
 
 !!! seealso
 
-    - [Rackham file transfer using scp](http://docs.uppmax.uu.se/cluster_guides/rackham_file_transfer_using_scp/)
-
+    - [Rackham file transfer using scp](../software/rackham_file_transfer_using_scp.md)
 
 ### mv — move/rename file
 
@@ -249,13 +247,13 @@ $ cp newfile copyfile
 - Move the copy you just made to another place:
 
 ```console
-$ mv copyfile ../
+mv copyfile ../
 ```
 
 - Rename it.
 
 ```console
-$ mv ../copyfile ../renamedfile
+mv ../copyfile ../renamedfile
 ```
 
 ## Archiving
@@ -265,7 +263,7 @@ $ mv ../copyfile ../renamedfile
 - We’re going to need more files. Let's extract the tar.gz file (tared and gzipped file)
 
 ```console
-$ tar -vxzf files.tar.gz
+tar -vxzf files.tar.gz
 ```
 
 - The flags mean:
@@ -278,6 +276,7 @@ $ tar -vxzf files.tar.gz
 - You should see a list of files being extracted
 
 !!! tip
+
     - To compress use the flag `-c`instead of `-x`
 
     ```console
@@ -289,43 +288,44 @@ $ tar -vxzf files.tar.gz
 ### rm — delete files  or directories
 
 !!! Note
+
     - **Tip: make "rm" ask if you really want to erase:**
     - Within a session: Type in the command prompt
 
     ```console
     alias rm='rm -i'
     ```
+
     - Override asking with
 
     ```console
     rm -f <>
     ```
-    - Do you want this to be the case everytime you start a new session?
-       - Edit file `.bashrc` in /home directory by adding the above alias line on any but the first line.
-    - These steps will also work for ``mv`` and ``cp``.
 
+    - Do you want this to be the case everytime you start a new session?
+        - Edit file `.bashrc` in /home directory by adding the above alias line on any but the first line.
+    - These steps will also work for `mv` and `cp`.
 
 - Deleting files works just like copying or moving them: `rm <target>`
 
-- Try it out:
+    - Try it out:
 
 ```console
-$ rm ../renamedfile
+rm ../renamedfile
 
-$ rm this_is_empty
+rm this_is_empty
 ```
 
 - hmmmm...
-
 
 ### rmdir — delete an empty directory
 
 - We need another command to delete directories
 
 ```console
-$ rmdir this_is_empty
+rmdir this_is_empty
 
-$ rmdir this_has_a_file
+rmdir this_has_a_file
 ```
 
 - Problem again??
@@ -335,10 +335,10 @@ $ rmdir this_has_a_file
 !!! solution
 
     - Recursive commands `-r` are applied to directories and their contents
+
     ```console
     $ rm -r this_has_a_file
     ```
-
 
 ## Help
 
@@ -347,7 +347,7 @@ $ rmdir this_has_a_file
 - Nobody can remember whether it’s ``-R`` or `-r` for recursive, or if ``-f`` lets you choose a file or forces an action.
 
 ```console
-$ man ls
+man ls
 ```
 
 - shows you how to use ``ls`` and all its options
@@ -356,8 +356,8 @@ $ man ls
 - Type `q` to quit.
 
 !!! challenge
-    - Spend some time now to browse the man pages for the commands you’ve just learned!
 
+    - Spend some time now to browse the man pages for the commands you’ve just learned!
 
 <!---
 - Not only user commands!
@@ -383,7 +383,7 @@ MANUAL SECTIONS
 
        7      Miscellanea
 
-       8      System Administration tools and Deamons
+       8      System Administration tools and Daemons
 --->
 
 ## Let’s get wild with Wildcards
@@ -391,16 +391,17 @@ MANUAL SECTIONS
 ![Caption](./img/wildcards_bear.png)
 
 ```console
-$ ls many_files
+ls many_files
 
-$ ls many_files/*.txt
+ls many_files/*.txt
 
-$ ls many_files/file_1*1.docx
+ls many_files/file_1*1.docx
 ```
 
 - Want to clean out temporary files ending in .tmp in all the subdirectories?
 
 !!! warning
+
     - It could be wise to do `ls -a */*.tmp` first to see what will be deleted...
 
     ```console
@@ -408,21 +409,20 @@ $ ls many_files/file_1*1.docx
     ```
 
 !!! challenge Exercise
-    - Exercise:  Create a new directory and move all .txt files in many_files to it.
 
+    - Exercise:  Create a new directory and move all .txt files in many_files to it.
 
 ## Reading files
 
 - In Linux, you can (if you wish) also display files without being able to change them
 
 ```console
-$ cd old_project
+cd old_project
 
-$ ls
+ls
 ```
 
 - Hmm, which of these files are useful?
-
 
 ### cat - concatenate files and print on the standard output
 
@@ -431,13 +431,13 @@ $ ls
 - ``cat`` dumps the contents of files to the terminal as text
 
 ```console
-$ cat the_best
+cat the_best
 ```
 
 - Yummy!
 
 ```console
-$ cat a
+cat a
 ```
 
 - What's this????
@@ -445,7 +445,7 @@ $ cat a
 - **Concatenate** files with this wizardry:
 
 ```console
-$ cat a the_best > combinedfiles.txt
+cat a the_best > combinedfiles.txt
 ```
 
 - File ``a`` is written first and ``the_best`` is appended
@@ -455,36 +455,33 @@ $ cat a the_best > combinedfiles.txt
 ![head in action](./img/head.png)
 
 ```console
-$ head a
+head a
 ```
 
 - You can choose how many lines to display (default 10)
 
 ```console
-$ head -n 4 a
+head -n 4 a
 ```
 
-
 ### tail — display the end of a file
-
 
 ![tail in action](./img/tail.png)
 
 - Tail is the same as head, but for the other end.
 
 ```console
-$ tail -n 5 a
+tail -n 5 a
 ```
 
 - Handy to look at log files or to figure out the structure of a text file.
-
 
 ### less — read a whole file
 
 - cat doesn’t really work for long files
 
 ```console
- $ less a
+ less a
 ```
 
 - Search with `/<keyword>` and `n`/`N`
@@ -549,7 +546,6 @@ $ ls -l
     - Files: Run the file as a program
     - Directories: Traverse the directory (e.g. with “cd`)
 
-
 ## Changing permissions
 
 **chmod** — change file mode bits
@@ -609,7 +605,6 @@ If you own, i.e. created, the file or directory, you can modify the content.
 
     ??? solution
         6
-
 
 ???+ challenge "chmod — Hands-on"
 

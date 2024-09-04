@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Bianca
+  - remote desktop
+  - website
+  - URL
+---
+
 # Login to the Bianca remote desktop environment website
 
 There are multiple ways to [log in to Bianca](login_bianca.md).
@@ -17,23 +27,28 @@ one needs to be within SUNET to be able to access her.
 Bianca does not support any so-called
 [X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham),
 so instead UPPMAX maintains a website that uses
-ThinLinc to get a full [remote desktop environment](../cluster_guides/thinlinc.md).
-All you should need is a rather modern browser on any platform:
-we have tested on Chrome and Firefox :-)
+[ThinLinc](../software/thinlinc.md) to get a full remote desktop environment.
+All you should need is a rather modern browser on any platform.
 
 ???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
 
-    ![](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+    ![Nothing will appear in your browser](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
 
-When inside SUNET, one can access a [remote desktop environment](../cluster_guides/thinlinc.md)
-using a website:
+???- question "Will a local ThinLinc client work too?"
+
+    No.
+
+    One really can only access Bianca remote desktop environment via a website
+
+When inside SUNET, one can access a remote desktop environment using a website:
 
 ## 2. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
-In your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
+[When inside SUNET](../getting_started/get_inside_sunet.md),
+in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
 
 ???- question "How does it look like when outside of SUNET?"
 
@@ -56,7 +71,7 @@ Do use the `UPPMAX` [2-factor authentication](https://www.uu.se/en/centre/uppmax
     You really need to use the UPPMAX 2-factor authentication,
     i.e not the SUPR one, to login to Bianca.
 
-    ![](2fa_uppmax_and_supr.png)
+    ![Screenshot of a two-factor authentication app](./img/2fa_uppmax_and_supr.png)
 
     > Screenshot of a two-factor authentication app.
     > Use the 2-factor authentication called 'UPPMAX'
@@ -73,7 +88,7 @@ Simply do that :-)
 
 ???- question "How does that web page look like?"
 
-    ![](/img/login_uppmax_bianca_website_create_login_node.png)
+    ![No Thinlinc Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
 
     > No Thinlinc Web Access active
     > The login node for your project cluster is probably asleep. Boot initiated. The startup can take from 2 to 8 minutes.
@@ -93,7 +108,7 @@ Fill in the second dialog, using your regular password (i.e. no need for two-fac
     ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
 
     > The second Bianca remote desktop login dialog.
-    > Note that it uses ThinLinc to establish this connection
+    > Note that it uses [ThinLinc](../software/thinlinc.md) to establish this connection
 
 ## 5. Picking a remote desktop flavor, but not KDE
 
@@ -101,11 +116,11 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 ???- question "How does that look like?"
 
-    ![](./img/remote_desktop_thinlinc_profile_chooser.png)
+    ![Here you are told you will need to pick a remote desktop flavor](./img/remote_desktop_thinlinc_profile_chooser.png)
 
     > Here you are told you will need to pick a remote desktop flavor
 
-    ![](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
+    ![Pick a remote desktop flavor](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
 
     > Here you are asked to pick a remote desktop flavor,
     > with Xfce as the default.
@@ -119,7 +134,7 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 ## 6. You are in
 
-Enjoy! You are in! You are on a Bianca login node!
+Enjoy! You are in! You are on a Bianca [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -127,10 +142,10 @@ Enjoy! You are in! You are on a Bianca login node!
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
+    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
 
 ???- question "How does the remote desktop look like?"
 
@@ -143,8 +158,7 @@ Enjoy! You are in! You are on a Bianca login node!
     This video shows how to use an installed VPN,
     after which the UPPMAX Bianca login website is used to
     access the Bianca remote desktop environment:
-    [YouTube](https://youtu.be/Ni9nyCf7me8),
-    [download (.mp4)](https://richelbilderbeek.nl/login_bianca_vpn.mp4)
+    [YouTube](https://youtu.be/Ni9nyCf7me8)
 
 Under the hidden tab in the left edge of the screen,
 you can find a clipboard,
@@ -174,9 +188,6 @@ of "automatic log out from active graphical session".
 ```mermaid
 flowchart TD
 
-    %% Give a white background, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
-
     subgraph sub_inside[IP inside SUNET]
 
       user(User)
@@ -192,14 +203,27 @@ flowchart TD
       end
     end
 
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
-
     %% Inside SUNET
     user-->|Bianca website, UPPMAX password and 2FA|bianca_shared_remote_desktop
 
     bianca_shared_remote_desktop --> |UPPMAX password| bianca_private_remote_desktop
 ```
+
+
+## Troubleshooting
+
+### Access denied
+
+???- question "How does that look like?"
+
+    ![Log in to Bianca's remote desktop environment and getting an 'Access denied' error](./img/login_bianca_remote_desktop_website_access_denied.png)
+
+[Contact support](../support.md).
+
+### Authentication failed
+
+???- question "How does that look like?"
+
+    ![Log in to Bianca's remote desktop environment and getting an 'Authentication failed' error](./img/login_bianca_remote_desktop_website_authentication_failed.png)
+
+[Contact support](../support.md).

@@ -1,309 +1,72 @@
+---
+tags:
+  - login
+  - log in
+  - Rackham
+---
+
 # Log in to Rackham
 
-Here we describe how to log in to [Rackham](../cluster_guides/rackham.md)
+There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
+Here we describe how to log in to [Rackham](../cluster_guides/rackham.md).
 
-!!! info "Objectives"
-    - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
-    - See different clients
-    - Enable graphics
+- [Prerequisites](rackham_usage_prerequisites.md) describes what is needed before one can access Rackham
+- [Which way to login?](#which-way-to-login)
+    - [Website](login_rackham_remote_desktop_website.md)
+    - [Terminal](login_rackham_console_password.md)
+    - [Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
-!!! warning
+## Which way to login?
 
-    If you lack a user account, visit the [UPPMAX page on user accounts](user_account.md)
+There are multiple ways to log in to [Rackham](../cluster_guides/rackham.md):
 
-## General understanding
+Login                                                                         |Description                                   |Screenshot
+------------------------------------------------------------------------------|----------------------------------------------|---------------------------------
+[Website](login_rackham_remote_desktop_website.md)                            |Remote desktop, no installation needed, slow  |![The Rackham remote desktop via the website](./img/rackham_remote_desktop_via_website_480_x_270.png)
+[Terminal](login_rackham_console_password.md)                                 |Console environment, recommended              |![The Rackham console environment](./img/login_rackham_via_terminal_terminal_409_x_290.png)
+[Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)|Remote desktop, recommended, need installation|![The Rackham remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_rackham_zoom.png)
 
-- When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node of an UPPMAX cluster.
-- This means that only light analysis and and calculations should be made here.
-- You will see this in the prompt after "@" as the clustername and a low number. For instance:
+Here is a decision tree, to determine which way to log in:
 
-   ``` bash
-     [<user>@rackham3 ~]$
-   ```
+```mermaid
+flowchart TD
+  need_gui(Need to run a graphical program?)
+  use_terminal[Use a terminal]
+  use_website[Use the remote desktop website]
+  need_easy_or_speedy(Need easiest or fastest?)
+  use_local[Use a local ThinLinc client]
 
-- You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
+  need_gui --> |no| use_terminal
+  need_gui --> |yes| need_easy_or_speedy
+  need_easy_or_speedy --> |easiest| use_website
+  need_easy_or_speedy --> |fastest| use_local
 
-   ``` bash
-      [<user>@r484 ~]
-   ```
+  how_login(How to log in?)
 
-!!! info "Quick start log in!"
-    - Below you find how to log in
-    - Further down we present other procedures to reach Rackham, depending on your planned work.
+  use_password[Use password\nStart here]
+  use_ssh_keys[Use SSH keys\nNo more password needed]
 
+  use_terminal --> how_login
+  how_login --> use_password
+  how_login --> use_ssh_keys
+```
 
-## Log in with a terminal, omitting support for graphics
+The procedures can be found at:
 
-=== "Mac"
+- [Login to the Rackham remote desktop environment using the website](login_rackham_remote_desktop_website.md)
+- [Login to the Rackham console environment with a password](login_rackham_console_password.md).
+  If you want to get rid of using a password every time, see [login to the Rackham console environment with an SSH key](login_rackham_console_ssh_key.md)
+- [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
-    - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
-      to run [`ssh`](../software/ssh.md)
+After login, you will be on a [login node](../cluster_guides/login_node.md).
 
-    ``` bash
-    $ ssh <username>@rackham.uppmax.uu.se
-    ```
+!!! note "How to behave on a login node"
 
-    - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
 
-    <!-- ![Terminal](./img/Mac_terminal.png) -->
+    If you need to do more intense calculations,
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
-    - iTerm2 goodies:
-
-       - You can save hosts for later.
-       - Drag and drop scp
-
-=== "Windows"
-
-    - Start a terminal (see below) to run [`ssh`](../software/ssh.md):
-
-    ```bash
-    $ ssh <username>@rackham.uppmax.uu.se
-    ```
-
-    - "< >" prompts you to set the keyword specific for you or your needs. In the example above, this is basically your username.
-
-    ![Terminal](./img/putty.jpg)
-
-    - The ssh (secure shell) client [**putty**](https://www.putty.org/)
-
-        - You can save hosts for later.
-        - No graphics.
-
-    - Windows Powershell terminal can also work
-
-        - Cannot save hosts
-        - no graphics
-        - [PowerShell](https://learn.microsoft.com/en-us/powershell/)
-
-    - Windows command prompt can also work
-
-        - Cannot save hosts
-        - no graphics
-        - [Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
-
-    - [Git bash](https://gitforwindows.org/)
-
-
-!!! info "Working on Rackham"
-    - Now we present alternatives to work on Rackham
-
-
-## Alternative ways to log in and work
-
-!!! info "Login procedure"
-    **Which login procedure is best for You, depends on:**
-
-    - Your background
-    - Your OS environment,
-    - Your planned interaction with your local computer
-    - Your planned use of graphics on the cluster
-
-    **If you plan to:**
-
-    - do **day-to-day** work where *terminal shell is sufficient*
-
-        - Mac: *Terminal, iTerm2*
-        - Linux: *Terminal*
-        - Windows: *Putty*, *Windows Powershell* or even *command prompt (CMD)*
-
-    - **interact with you local computer**
-
-        - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
-
-            - (S)FTP browser: *Filezilla*, *Cyberduck*
-
-        - Windows
-
-            - (S)FTP browser: *WinSCP*
-            - *MobaXterm* has built-in SFTP browser
-            - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*
-
-    - **do day-to-day work** with **some graphical applications ([X forwarding](../software/ssh_x_forwarding.md))**
-
-        - Mac: *Terminal, iTerm2 + XQuartz*
-        - Linux: *Terminal*
-        - Windows: *MobaXterm*
-
-
-    - integrate you cluster work with **code development**
-
-        - All OS: Example [Visual Studio Code](../cluster_guides/vscodium_on_rackham.md)
-
-
-    - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
-
-        - *ThinLinc application*
-
-
-## Terminals (see above)
-
-## Terminal with X11 server and light graphics
-
-=== "Mac"
-
-    - Download XQuartz or other X11 server for Mac OS from [https://www.xquartz.org/](https://www.xquartz.org/)
-
-    ???- question "How do I know XQuartz has been installed?"
-
-        As far as we know: you cannot check this directly:
-        you will have to find out by running an application of
-        Rackham that uses this. See below :-)
-
-    - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
-      to run [`ssh`](../software/ssh.md):
-
-    ``` bash
-    $ ssh -X [username]@rackham.uppmax.uu.se
-    ```
-
-    where `[username]` is your UPPMAX username and `-X` enables [X forwarding](../software/ssh_x_forwarding.md).
-    For example, if your UPPMAX username is `sven`, this wold be
-    `ssh -X sven@rackham.uppmax.uu.se`
-
-    ???- question "How do I know XQuartz has been installed?"
-
-        See [SSH X forwarding](../software/ssh_x_forwading.md).
-
-        Spoiler: use `xeyes`
-
-=== "Windows"
-
-    - Download and install ONE of the X-servers below (to enable graphics)
-        - [GWSL](https://opticos.github.io/gwsl) (recommended because of hardware integration)
-        - [X-ming](https://sourceforge.net/projects/xming/)
-        - [VCXSRV](https://sourceforge.net/projects/vcxsrv/)
-
-
-    - or...
-
-    - Install a ssh (secure shell) program with built-in X11 and sftp file manager
-        - [**MobaXterm**](https://mobaxterm.mobatek.net/)
-        - sftp frame makes it easy to move, upload and download files.
-        - ... though downloading from remote host to local is usually easier.
-        - tabs for several sessions
-
-    <!-- ![Caption](./img/mobax.jpg ) -->
-
-    - Start local terminal and [an SSH session](../software/ssh.md) by:
-
-    ``` bash
-    $ ssh -X <username>@rackham.uppmax.uu.se
-    ```
-
-    - ``-X`` Enables [X forwarding](../software/ssh_x_forwarding.md).
-
-    ![Caption](./img/mobax_start1.jpg)
-
-    - Or even better, create and save a SSH session, as shown in image below.
-        - This allows you to use MobaXterm as a file manager and  to use the built-in graphical texteditor.
-        - You can rename the session in the Bookmark settings tab.
-
-    ![Caption](./img/mobax_start.jpg)
-
-
-!!! note "X-forwarding from the command line (generally)"
-
-    [X forwarding](../software/ssh_x_forwarding.md) allows
-    graphics to be sent through the [SSH client](../software/ssh_client.md)
-    connection you’re using to connect
-
-    - Use `ssh -X`
-
-    - The X servers that enables graphics are needed, as mentioned above!
-      - When starting a graphical program, a new window will open, but your terminal will be “locked”.
-      - Run using "`&`" at the end to run it as a background process e.g. "`xeyes &`" or “`gedit &`”
-
-    <!-- ![Caption](./img/xeyes.png) -->
-
-    - Alternatively, use `<ctrl>-z` to put e.g. gedit to sleep and type "`bg`" to make last process in background.
-
-
-???+ question "Test log in to **Rackham**, using your terminal"
-
-    - First try:
-
-    ``` bash
-    $ ssh -X <username>@rackham.uppmax.uu.se
-    ```
-
-    - If you receive errors or warnings, instead try:
-
-    ``` bash
-    $ ssh <username>@rackham.uppmax.uu.se
-    ```
-
-    - If you do have X11 installed:
-    ``` bash
-    $ xeyes &
-    ```
-
-## Remote desktop
-
-![Rackham's remote desktop environment](./img/rackham_via_remote_desktop_50.jpg)
-
-You can also login to Rackham's [remote desktop environment](../cluster_guides/thinlinc.md).
-This gives you a desktop environment, as if you were working on your own computer!
-
-You can do so:
-
-- [via the web](#remote-desktop-via-the-web)
-- [via a ThinLinc client](#remote-desktop-via-a-thinlinc-client)
-
-### Remote desktop via the web
-
-Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se).
-
-## Remote desktop via a ThinLinc client
-
-Use the ThinLinc client from [https://www.cendio.com/thinlinc/download](https://www.cendio.com/thinlinc/download)
-
-- Set the server name to ``rackham-gui.uppmax.uu.se``. NB: leave out the ``https://www.``!
-
-## Linux on your computer
-
-!!! abstract "Local Linux environment"
-    - You may sometimes benefit from having a local Linux environment.
-    - Examples:
-        - Mimic cluster environment to work with your local files and data as on the Cluster
-        - get used to Linux (!)
-    - Mac is UNIX and very Linux-like
-    - Windows requires WSL (Windows subsystem for Linux)
-
-
-??? question "For windows users who wants to get started with WSL (not covered here)"
-    - Install WSL (Windows Subsystem for Linux)
-        - [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Links to an external site.)
-        - Don’t forget to update to WSL2
-    - Install a distribution or a ssh (secure shell) program
-        - Distribution such as ubuntu or
-        - (recommended) a ssh program such as MobaXTerm
-        - [https://mobaxterm.mobatek.net/](https://mobaxterm.mobatek.net/) (Links to an external site.)
-            - `sftp` frame makes it easy to move, upload and download files.
-    - You may want to check this webpage as well!
-        - [https://hackmd.io/@pmitev/Linux4WinUsers](https://hackmd.io/@pmitev/Linux4WinUsers) (Links to an external site.)
-
-
-## Visual Studio Code (not covered here)
-
-???- question "How to use Visual Studio Code/Codium on Rackham in detail?"
-
-    See a detailed guide how to use Visual Studio Code/Codium on Rackham [here](../cluster_guides/vscodium_on_rackham.md)
-
-- Integrate you cluster work with *code development*
-- [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
-- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/)
-    - Similar to Rackham. Just change login details!
-
-
-!!! abstract "keypoints"
-    - When you log in from your local computer you will always arrive at a login node with limited resources.
-         - You reach the calculations nodes from within the login node (See  Submitting jobs section)
-    - You reach UPPMAX clusters either using a terminal client or Thinlinc
-    - Graphics are included in Thinlinc and from terminal if you have enabled X11.
-    - Which client to use?
-    - Graphics and easy to use
-        - ThinLinc
-    - Best integrated systems
-        - Visual Studio Code has several extensions (remote, SCP, programming IDE:s)
-        - Windows: MobaXterm is somewhat easier to use.
-
+    If you need to do more intense calculations interactively,
+    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).

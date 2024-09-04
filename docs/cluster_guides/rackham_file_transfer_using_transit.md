@@ -20,8 +20,8 @@ This page assumes your files are 'posted' to Transit.
 
 To transfer files between Rackham and Transit can be done in multiple ways too:
 
-- [Using SCP](rackham_file_transfer_using_transit_scp.md)
-- [Using SFTP](rackham_file_transfer_using_transit_sftp.md)
+- [Using SCP](../software/rackham_file_transfer_using_transit_scp.md)
+- [Using SFTP](../software/rackham_file_transfer_using_transit_sftp.md)
 
 ## Overview
 

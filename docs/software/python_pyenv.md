@@ -17,7 +17,7 @@ Confer the official pyenv documentation.
     git clone git://github.com/yyuu/pyenv.git ~/.pyenv
     ```
 
-2. Make pyenv start when you login each time
+1. Make pyenv start when you login each time
 
 ```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
@@ -48,7 +48,6 @@ them usuing 'pyenv global' as shown above, if you have a script that requires
 Python 3.3 or any other version.
 
 ## Install packages in your selected python version
-
 
 1. Set python version with
 

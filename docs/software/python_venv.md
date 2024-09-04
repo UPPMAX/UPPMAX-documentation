@@ -30,19 +30,19 @@ which has these steps:
 ### 1. Load a Python module or a modules with Python packages
 
 The first step is described at
-['Loading Python'](http://docs.uppmax.uu.se/software/python/#loading-python)
+['Loading Python'](../software/python.md#loading-python)
 and
-['Loading Python package modules'](http://docs.uppmax.uu.se/software/python/#loading-python-modules).
+['Loading Python package modules'](../software/python.md#loading-python-modules).
 
 ???- question "Just show me how to do this"
 
-    Sure, here is how to [load a Python module](http://docs.uppmax.uu.se/software/python/#loading-python):
+    Sure, here is how to [load a Python module](../software/python.md#loading-python):
 
     ```bash
     module load python/3.11.8
     ```
 
-    Here is how to [load a Python package module](http://docs.uppmax.uu.se/software/python/#loading-python-modules):
+    Here is how to [load a Python package module](../software/python.md#loading-python-modules):
 
     ```bash
     module load python_ML_packages/3.11.8-cpu
@@ -146,7 +146,6 @@ to work with it again.
 
 ## Export and import a virtual environment
 
-
 ### Export
 
 To export the Python packages used in your virtual environment, do:
@@ -178,7 +177,6 @@ using the conventional name for such a file.
 
     Note that `[more Python packages]` is a placeholder for many
     more Python packages.
-
 
 ### Import
 

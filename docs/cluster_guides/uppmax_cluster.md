@@ -36,7 +36,6 @@ Another cluster UPPMAX is involved in:
 - [Dardel](dardel.md): a general purpose HPC cluster in Stockholm.
   Consider moving your files to it already
 
-
 ```mermaid
 flowchart TD
     UPPMAX(Which UPPMAX cluster?)
@@ -68,7 +67,7 @@ Each computer of a cluster is called a **node**.
 
 There are three types of nodes:
 
-- **login nodes**: nodes where a user enters and interacts with the system
+- **[login nodes](../cluster_guides/login_node.md)**: nodes where a user enters and interacts with the system
 
 ???- tip "Logging in"
 
@@ -99,42 +98,21 @@ There are three types of nodes:
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
-A user logs in to a login node via the Internet.
+A user logs in to a [login node](../cluster_guides/login_node.md) via the Internet.
 
 ```mermaid
 flowchart TD
 
-    %% Give a white background to all nodes, instead of a transparent one
-    classDef node fill:#fff,color:#000,stroke:#000
+  login_node(User on login node)
+  interactive_node(User on interactive node)
+  computation_node(Computation node)
 
-    %% Graph nodes for files and calculations
-    classDef file_node fill:#fcf,color:#000,stroke:#f0f
-    classDef calculation_node fill:#ccf,color:#000,stroke:#00f
-
-    subgraph sub_inside[IP inside SUNET]
-      subgraph sub_bianca_shared_env[Bianca shared network]
-        subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          login_node(User on login node)
-          interactive_node(User on interactive node)
-          computation_node(Computation node):::calculation_node
-        end
-      end
-    end
-
-    %% Shared subgraph color scheme
-    %% style sub_outside fill:#ccc,color:#000,stroke:#ccc
-    style sub_inside fill:#fcc,color:#000,stroke:#fcc
-    style sub_bianca_shared_env fill:#ffc,color:#000,stroke:#ffc
-    style sub_bianca_private_env fill:#cfc,color:#000,stroke:#cfc
-
-    login_node --> |move user, interative|interactive_node
-    login_node --> |submit jobs, sbatch|computation_node
-    computation_node -.-> |can become| interactive_node
+  login_node --> |move user, interative|interactive_node
+  login_node --> |submit jobs, sbatch|computation_node
+  computation_node -.-> |can become| interactive_node
 ```
 
 > The different types of nodes an UPPMAX cluster has.
-> White nodes: nodes a user can interact with.
-> Blue nodes: nodes a user cannot interact with.
 
 ## Difference between a supercomputer and a (high-performing) computer cluster
 
@@ -205,10 +183,8 @@ are restricted in some ways:
 
 ???- tip "How to run custom software"
 
-    Techniques how to run custom software is *not* part of this course.
-    Instead, one technique is part of the intermediate Bianca course
-    and can be found described [here](extra/containers/),
-    which is about using containers
+    Using [a Singularity container](../software/singularity.md)
+    allows you to run most custom software on any HPC cluster
 
 These restrictions apply to most general-purpose clusters
 and all UPPMAX clusters.
@@ -226,7 +202,6 @@ Bianca      |Yes
 Rackham     |No
 Snowy       |No
 
-
 On a sensitive data cluster,
 (sensitive) data must be protected to remain there,
 due to which there are these additional restrictions to users:
@@ -240,8 +215,7 @@ due to which there are these additional restrictions to users:
 
     - [Bianca](transfer_bianca.md).
 
-The goal is *not* to prevent the up/download of sensitive data,
-instead it is to prevent the *accidental* up/download of sensitive data.
+The goal is to prevent the *accidental* up/download of sensitive data.
 As these up/downloads are monitored, in case of an accident,
 the extent of the leak and the person (accidentally) causing it
 is known. Identifying a responsible person in case of such an
@@ -251,7 +225,7 @@ accident is required by law.
 
 This is a technical summary of the UPPMAX clusters:
 
-                        |Rackham        |Snowy                     |Bianca                   
+.                       |Rackham        |Snowy                     |Bianca
 ------------------------|---------------|--------------------------|-------------------------
 **Purpose**             |General-purpose|General-purpose           |Sensitive
 **# Intel CPU Nodes**   |486+144        |228                       |288

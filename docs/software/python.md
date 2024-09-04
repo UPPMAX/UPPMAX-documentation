@@ -11,7 +11,6 @@ Then, we show how to [load Python](#loading-python)
 and to [load Python packages](#loading-python-packages)
 after which you can [run Python](#running-python).
 
-
 Finally, you can find [UPPMAX Python-related courses](#uppmax-python-related-courses)
 and these more advanced topics:
 
@@ -41,13 +40,13 @@ to run a Python script.
 
     Load Python 2.7.15:
 
-    ```
+    ```bash
     module load python/2.7.15
     ```
 
     Then
 
-    ```
+    ```bash
     python -c "print(1/2)"
     ```
 
@@ -55,13 +54,13 @@ to run a Python script.
 
     Load Python 3.11.4:
 
-    ```
+    ```bash
     module load python/3.11.4
     ```
 
     Then
 
-    ```
+    ```bash
     python -c "print(1/2)"
     ```
 
@@ -70,9 +69,9 @@ to run a Python script.
 
 ???- question "Which version of Python is `python`?"
 
-    To determine which version `python` is, in a terminal, type:
+    To determine which version `python` is, in a [terminal](../software/terminal.md), type:
 
-    ```
+    ```bash
     python --version
     ```
 
@@ -82,7 +81,7 @@ to run a Python script.
 
     To determine which version `python3` is, in a terminal, type:
 
-    ```
+    ```bash
     python3 --version
     ```
 
@@ -92,7 +91,8 @@ to run a Python script.
 
 ???- question "Prefer seeing a video?"
 
-    A video that shows how to load the Python module
+    A video that shows how to load the Python
+    [module](../cluster_guides/modules.md)
     can be found [here](https://youtu.be/wBebYj3XlNM).
 
 The different versions of Python are available via
@@ -208,7 +208,7 @@ there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
 
     Use:
 
-    ```
+    ```bash
     module spider packages
     ```
 
@@ -225,7 +225,6 @@ Many scientific tools are distributed as Python packages,
 which allows any user to run complex tools from a terminal or script.
 For example, the following Python code imports the functionality
 of the `pandas` library:
-
 
 ```python
 import pandas
@@ -353,13 +352,13 @@ python -c "import pandas"
 
     Here an absent package is loaded, with the nonsense name `absentpackage`:
 
-    ```
+    ```bash
     python -c "import absentpackage"
     ```
 
     This results in the following error:
 
-    ```
+    ```console
     Traceback (most recent call last):
       File "<string>", line 1, in <module>
     ModuleNotFoundError: No module named 'absentpackage'
@@ -477,13 +476,13 @@ Python programming [here](python_programming.md)
 You can run a Python script in the shell by:
 
 ```console
-$ python example_script.py
+python example_script.py
 ```
 
 or, if you loaded a `python3` module:
 
 ```console
-$ python3 example_script.py
+python3 example_script.py
 ```
 
 ### Use Python in an interactive session
@@ -491,13 +490,13 @@ $ python3 example_script.py
 You start a python session by typing:
 
 ```console
-$ python
+python
 ```
 
 or
 
 ```console
-$ python3
+python3
 ```
 
 The python prompt looks like this:
@@ -516,11 +515,8 @@ Python programming [here](python_programming.md)
 
 ## UPPMAX Python-related courses
 
-There are these UPPMAX courses related to Python:
-
-- [Introduction to Python](https://github.com/UPPMAX/uppmax_intro_python)
-- [1-day workshop 'Using Python in a HPC environment'](https://uppmax.github.io/HPC-python/)
-- [3-day course on Python, Julia and R](https://uppmax.github.io/R-python-julia-HPC/)
+See [the UPPMAX workshops and courses](../workshops_courses/workshops_courses.md)
+to find UPPMAX courses related to Python.
 
 ## Installing Python packages
 
@@ -548,4 +544,3 @@ is described [here](python_parallel_jobs.md).
 - [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
 - [UPPMAX TensorFlow guide](tensorflow.md)
 - [UPPMAX PyTorch guide](pytorch.md)
-

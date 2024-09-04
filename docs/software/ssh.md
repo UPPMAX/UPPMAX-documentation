@@ -1,3 +1,9 @@
+---
+tags:
+  - ssh
+  - SSH
+---
+
 # ssh
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell):
@@ -69,7 +75,6 @@ ForwardX11Trusted yes
 ServerAliveInterval 120
 #=======================================
 ```
-
 
 Now
 

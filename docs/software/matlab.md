@@ -1,13 +1,13 @@
 # MATLAB user guide
 
-The MATLAB module
+## The MATLAB [module](../cluster_guides/modules.md)
 
 MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023b``
 
 Doing:
 
 ```console
-$ module load matlab
+module load matlab
 ```
 
 will give you the latest version.
@@ -15,18 +15,17 @@ will give you the latest version.
 If you need a different version, check the availability by:
 
 ```console
-$ module avail matlab
+module avail matlab
 ```
 
 To get started with MATLAB do (for instance):
 
 ```console
-$ module load matlab/R2023a
-$ matlab &
+module load matlab/R2023a
+matlab &
 ```
 
-That will start a matlab session with the common GUI. Use "&" to have MATLAB in background making terminal still active for other work.
-
+That will start a matlab session with the common GUI. Use ``&`` to have MATLAB in background making terminal still active for other work.
 
 A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
 
@@ -39,13 +38,35 @@ A good and important suggestion is that you always specify a certain version. Th
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
-$ module load matlab
-$ configCluster.sh <project-ID>    # Note: no '-A'
+module load matlab/<version>
+configCluster.sh <project-ID>    # Note: no '-A'
 ```
 
-- This will run a short configuration job in an interactive session, closing itself when done.
+- This will run a short configuration job in an interactive session.
 - Jobs will now default to the cluster rather than submit to the local machine.
+- It should look like this (example for Bianca)
 
+![matlab configCluster.sh](img/matlab_configCluster.PNG)
+
+- The session should exit automatically but if not you can end the session by
+    - ``exit``
+    - or ``<CTRL-C>``
+- When done, start Matlab as you usually do with  ``matlab &``.
+
+!!! warning
+
+    - Do these steps for each matlab version you will use.
+    - On Bianca you need to do this for each sens project that will use MATLAB, as well.
+
+!!! tip
+
+    - Check the Matlab version for which you have set the slurm configuration by
+
+    ```bash
+    ls -l .matlab/*/parallel.mlsettings
+    ```
+    
+    - Look for dates from May 2024 and onwards.
 
 ## Introduction
 
@@ -83,23 +104,23 @@ Some online tutorials and courses:
 To start MATLAB with its usual graphical interface, start it with:
 
 ```console
-$ matlab
+matlab
 ```
 
 If you will use significant resources, like processor or RAM, you should start an interactive session on a calculation node. Use at least 2 cores (-n 2), when running interactive. Otherwise MATLAB may not start. You can use several cores if you will do some parallel calculations (see parallel section below). Example:
 
 ```console
-$ interactive -A <proj> -p core -n 2 -t 1:0:0
+interactive -A <proj> -p core -n 2 -t 1:0:0
 ```
 
 This example starts a session with 2 cores for a wall time of 1 hour.
 
 ### MATLAB in terminal
 
-For simple calculations it is possible to start just a command shell in your terminal:
+For simple calculations it is possible to start just a command shell in your [terminal](../software/terminal.md):
 
 ```console
-$ matlab -nodisplay
+matlab -nodisplay
 ```
 
 Exit with 'exit'.
@@ -109,13 +130,13 @@ Run script from terminal or bash script
 In order to run a script directly from terminal:
 
 ```console
-$ matlab -batch "run('<path/to/script.m>')" | tail -n +2
+matlab -batch "run('<path/to/script.m>')" | tail -n +2
 ```
 
 List all ways to run/start MATLAB:
 
 ```console
-$ matlab -h
+matlab -h
 ```
 
 ### Thinlinc
@@ -126,7 +147,7 @@ You may get the best of the MATLAB graphics by runing it the ThinLinc environmen
 
 - For Bianca (from web-browser): <https://bianca.uppmax.uu.se>
 
-You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se/getting_started/login_rackham/#thinlinc-all-platforms).
+You may want to confer our UPPMAX [ThinLinc user guide](../software/thinlinc.md).
 
 ## How to run parallel jobs
 
@@ -138,13 +159,12 @@ You may want to confer our UPPMAX [ThinLinc user guide](http://docs.uppmax.uu.se
 - After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
 ```console
-$ module load matlab
-$ configCluster.sh <project-ID>    # Note: no '-A'
+module load matlab
+configCluster.sh <project-ID>    # Note: no '-A'
 ```
 
 - This will run a short configuration job in an interactive session, closing itself when done.
 - Jobs will now default to the cluster rather than submit to the local machine.
-
 
 ### Two MATLAB commands
 
@@ -158,7 +178,7 @@ Two commands in MATLAB are important to make your code parallel:
 First, start an interactive session on a calculation node with, for instance 8 cores by:
 
 ```console
-$ interactive -A <project> -p core -n 8 -t 3:00:00
+interactive -A <project> -p core -n 8 -t 3:00:00
 ```
 
 In MATLAB open a parallel pool of 8 local workers:
@@ -173,7 +193,7 @@ What happens if you try to run the above command twice?  You can't run multiple 
 >> p.NumWorkers
 ```
 
-'gcp' will "get current pool" and return a handle to it.  If a pool has not already been started, it will create a new one first and then return the handle to it:
+``gcp`` will "get current pool" and return a handle to it.  If a pool has not already been started, it will create a new one first and then return the handle to it:
 
 ```matlab
 >> p = gcp
@@ -246,10 +266,10 @@ in Matlab Command Window to choose a cluster configuration. Matlab will set up a
     >> c.saveProfile
     >> job = c.batch(@parallel_example, 1, {90, 5}, 'pool', 19) %19 is for 20 cores. On Snowy and Bianca use 15.
     >> job.wait
-    >> job.fetchOutputs{:}"
+    >> job.fetchOutputs{:}
 ```
 
-Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line "c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)" can be understood as put the function "parallel_example" to the batch queue. The arguments to batch are:
+Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line ``c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)`` can be understood as put the function ``parallel_example`` to the batch queue. The arguments to batch are:
 
 ```matlab
     c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', no of additional workers to the master)
@@ -290,16 +310,16 @@ Running MATLAB with GPU is, as of now, only possible on the Snowy and Bianca clu
 Start an interactive session with at least 2 cores (otherwise MATLAB may not start). On Snowy, getting (for instance) 2 cpu:s (-n 2) and 1 gpu:
 
 ```console
-$ interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 3:00:00
+interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 3:00:00
 ```
 
 On Bianca, getting 3 cpu:s and 1 gpu:
 
 ```console
-$ interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00
+interactive -A <proj> -n 3 -C gpu --gres=gpu:1 -t 01:10:00
 ```
 
-Note that wall time "-t" should be set to more than one hour to not automatically put job in "devel" or "devcore" queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.
+Note that wall time ``-t`` should be set to more than one hour to not automatically put job in ``devel`` or ``devcore`` queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.
 
 Load MATLAB module and start matlab as usual (with &) in the new session. Then test if the gpu device is found by typing:
 
@@ -352,7 +372,7 @@ srun -N 2 -n 40  matlab -batch "run('<path/to/m-script>')"
 Run with
 
 ```console
-$ sbatch matlab_submit.sh
+sbatch matlab_submit.sh
 ```
 
 ## Common problems
@@ -362,13 +382,13 @@ Sometimes things do not work out.
 As a first step, try with removing local files:
 
 ```console
-$ rm -rf ~/.matlab
+rm -rf ~/.matlab
 ```
 
 If the graphics is slow, try:
 
 ```console
-$ vglrun matlab -nosoftwareopengl
+vglrun matlab -nosoftwareopengl
 ```
 
 Unfortunately this only works from login nodes.
@@ -376,5 +396,5 @@ Unfortunately this only works from login nodes.
 You may want to run MATLAB on a single thread. This makes it work:
 
 ```console
-$ matlab -singleCompThread
+matlab -singleCompThread
 ```

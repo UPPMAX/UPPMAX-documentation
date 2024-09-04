@@ -11,7 +11,6 @@
 - writing batch script
 - view your CPU hours and disk usage
 
-
 ## Transferring some files
 
 ### Graphical file manager
@@ -30,7 +29,7 @@
 
     One such graphical tool is FileZilla:
 
-    ![Filezilla](../cluster_guides/img/filezilla_login_to_rackham_480_x_270.png)
+    ![Filezilla](../software/img/filezilla_login_to_rackham_480_x_270.png)
 
 === "Mac"
 
@@ -45,14 +44,13 @@
 === "Windows"
 
     - For copying of files between your client computer (where you are) and the cluster **WinSCP** can also be the choice.
-         - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php)
+        - [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php)
 
-    - ![Caption](./img/WinSCP.png )
+    - ![WinSCP](../software/img/WinSCP.png)
 
     - [Cyberduck](https://cyberduck.io/)
 
     - [Filezilla](https://filezilla-project.org/download.php?type=client)
-
 
 !!! example "Type-along"
 

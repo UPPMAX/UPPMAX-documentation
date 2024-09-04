@@ -1,11 +1,21 @@
 # UPPMAX Documentation
 
-[![check-links](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_links.yaml)
+[![Check links](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_links.yaml)
 [![Check markdown](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_markdown.yaml)
 [![Check spelling](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_spelling.yaml)
+[![Create website](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/create_website.yaml)
 
 This repository contains the source code for the [UPPMAX
 documentation](https://uppmax.github.io/UPPMAX-documentation/)
+
+## Branch descriptions
+
+Branch name|Description
+-----------|-------------------------------------------------------------------------------
+`main`     |The main branch, runs all CI scripts
+`develop`  |A develop branch, does not spellcheck, does not deploy the website
+`issue_x`  |A branch named after an Issue, does not spellcheck, does not deploy the website
+`gh-pages` |The GitHub Pages branch, maintained by GitHub Actions
 
 ## [Contributing](CONTRIBUTING.md)
 

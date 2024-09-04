@@ -4,7 +4,7 @@ This guide will go through step by step how to start Integrative Genomics Viewer
 
 ## Step 1: Connect to UPPMAX with X-forwarding enabled. (Important step)
 
-In a terminal, use [SSH with X forwarding enabled](../software/ssh_x_forwarding.md):
+In a [terminal](../software/terminal.md), use [SSH with X forwarding enabled](../software/ssh_x_forwarding.md):
 
 ```bash
 ssh -X [user name]@rackham.uppmax.uu.se

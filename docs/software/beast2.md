@@ -9,7 +9,8 @@ BEAST2 is a tool for Bayesian phylogenetic analysis.
     Although BEAST and BEAST2 achieve a similar goal,
     BEAST and BEAST2 are developed independently.
 
-    Hence,
+    Hence:
+
     - there are things BEAST can do that BEAST2 cannot, and vice versa
     - one cannot create a BEAST XML file and expect BEAST2 to be able to run it, and vice versa
 
@@ -40,7 +41,7 @@ module load bioinfo-tools beast2/2.7.4
 
 ???- question "How does that look like?"
 
-    ```
+    ```bash
     $ module load bioinfo-tools beast2/2.7.4
     beast2/2.7.4: Also loaded beagle/4.0.0
     beast2/2.7.4: Many Beast packages are available, to see the list, 'packagemanager -list'
@@ -63,7 +64,7 @@ it needs [SSH with X forwarding enabled](../software/ssh_x_forwarding.md) enable
 
     Starting `BEAUti` results in the following pop-up window:
 
-    ![](./img/beauti.png)
+    ![BEAUti](./img/beauti.png)
 
 After using `BEAUti`, save the file with your BEAST2 model.
 
@@ -77,8 +78,7 @@ or use a script.
 ???- question "How to start an interactive node?"
 
     View the UPPMAX documentation
-    ['How to start an interactive node on Rackham'](../cluster_guides/start_interactive_node_on_rackham).
-
+    ['How to start an interactive node on Rackham'](../cluster_guides/start_interactive_node_on_rackham.md).
 
 On an interactive node, run BEAST2 on the saved BEAST2 model:
 
@@ -247,7 +247,7 @@ beast -beagle_info
 
 This problem seems to be related to not having a proper X server installed.
 In this case, [SSH X forwarding](ssh_x_forwarding.md) works to the extent
-that SSH is able to show `xeyes`, yet fails to show BEAUti.
+that SSH is able to show [`xeyes`](../software/xeyes.md), yet fails to show BEAUti.
 Also, [using the remote desktop via a ThinLinc client](../getting_started/login_rackham.md#remote-desktop-via-a-ThinLinc client) fails.
 
 A solution may be to [use the remote desktop via the web](../getting_started/login_rackham.md#remote-desktop-via-the-web)

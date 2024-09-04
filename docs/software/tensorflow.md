@@ -51,7 +51,6 @@ for example, `python_ML_packages/3.11.8-cpu`.
 
 TensorFlow as a Python package for GPU that works on [Bianca](../cluster_guides/bianca.md) and [Snowy](../cluster_guides/snowy.md).
 
-
 It is part of the `python_ML_packages/[version]-gpu`
 [modules](../cluster_guides/modules.md), where `[version]` is a version,
 for example, `python_ML_packages/3.9.5-gpu`
@@ -63,21 +62,20 @@ If you want to work interactively and test things, first allocate resources as s
 ### On Snowy
 
 ```console
-$ interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 1:00:01
+interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 1:00:01
 ```
 
 ### On Bianca
 
 ```console
-$ interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00
+interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00
 ```
-
 
 ???- question "How to test TensorFlow as a Python package for GPU?"
 
     Load the module to get access to the library:
 
-    ```
+    ```bash
     module load python_ML_packages/3.9.5-gpu
     ```
 

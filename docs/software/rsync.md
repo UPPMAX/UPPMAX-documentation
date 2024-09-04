@@ -9,8 +9,27 @@ such as is ideal for making a backup. At this page, we use the word 'copy',
 although `rsync` by default does a one-way synchronize: if the data is already
 there, it will do nothing.
 
-- [Using `rsync` on Bianca](../cluster_guides/rsync_on_bianca.md)
-- [Using `rsync` on Rackham](../cluster_guides/rsync_on_rackham.md)
+- [Using `rsync` on Bianca](../software/rsync_on_bianca.md)
+- [Using `rsync` on Rackham](../software/rsync_on_rackham.md)
+
+## Installing `rsync`
+
+To installing `rsync`, see [the official `rsync` download page](https://rsync.samba.org/download.html).
+
+???- question "Tip for Ubuntu users"
+
+    Use `apt` like usual:
+
+    ```bash
+    sudo apt install rsync
+    ```
+
+???- question "Tip for Windows users"
+
+    When looking to download an executable of `rsycn`,
+    look for the words 'binary' (all executables are binary)
+    and Cygwin (the environment in which the `rsync` executable
+    was built on Windows).
 
 ## Copy a folder from local to Rackham
 
@@ -62,6 +81,6 @@ Where `.` means 'the folder where I am now'.
 
     To preserve the files' timestamps, use the `--archive` flag, e.g.
 
-    ```
+    ```bash
     rsync --recursive --archive my_folder sven@rackham.uppmax.uu.se:/home/sven/
     ```

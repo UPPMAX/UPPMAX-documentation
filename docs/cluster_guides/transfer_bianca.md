@@ -32,38 +32,37 @@ There are multiple ways to transfer files to/from Bianca:
 Method                                                                            |Features
 ----------------------------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)                           |Graphical interface, intuitive, for small amounts of data only
-[Using `rsync`](#using-rsync)                                                     |Terminal, recommended
-[Using `sftp`](#using-sftp)                                                       |Terminal, easy to learn, can use terminal commands to select files
-[Using `lftp`](#using-lftp)                                                       |Terminal
-Transit server from/to Rackham, see below                                         |Terminal, can be used to transfer data between clusters in general
-[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer) |Both graphical and terminal, need a computer with `sshfs` installed
-
+[Using `rsync`](#using-rsync)                                                     |[Terminal](../software/terminal.md), recommended
+[Using `sftp`](#using-sftp)                                                       |[Terminal](../software/terminal.md), easy to learn, can use terminal commands to select files
+[Using `lftp`](#using-lftp)                                                       |[Terminal](../software/terminal.md)
+Transit server from/to Rackham, see below                                         |[Terminal](../software/terminal.md), can be used to transfer data between clusters in general
+[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer) |Both graphical and [terminal](../software/terminal.md), need a computer with `sshfs` installed
 
 ## Using a graphical program
 
-![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
+![FileZilla connected to Bianca](../software/img/filezilla_login_to_bianca_236_x_266.png)
 
 > FileZilla connected to Bianca
 
 To transfer files to/from [Bianca](bianca.md)
 one can use a graphical tool, such as FileZilla and WinSCP.
-See [File transfer using a graphical program](bianca_file_transfer_using_gui.md)
+See [Bianca file transfer using a graphical program](../software/bianca_file_transfer_using_gui.md)
 for details.
 
 ## Using `sftp`
 
 `sftp` is a terminal SFTP client to transfer files to/from Bianca.
-See [using `sftp` with Bianca](sftp_with_bianca.md).
+See [Bianca file transfer using sftp](../software/bianca_file_transfer_using_sftp.md).
 
 ## Using `lftp`
 
 `sftp` is a terminal SFTP client to transfer files to/from Bianca.
-See [using `lftp` with Bianca](lftp_with_bianca.md).
+See [Bianca file transfer using lftp](../software/bianca_file_transfer_using_lftp.md).
 
 ## Using `rsync`
 
 [rsync](../software/rsync.md) is a terminal program to transfer files to/from Bianca.
-See [Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md).
+See [Bianca file transfer using rsync](../software/bianca_file_transfer_using_rsync.md).
 
 ## Transit server
 
@@ -113,7 +112,7 @@ rsync -avh my_user@rackham.uppmax.uu.se:path/my_files ~/sens2023531/
 * You can use transit to transfer data between projects
   by mounting the wharfs for the different projects
   and transferring data with `rsync`.
-* Note that you may of course only do this if this is allowed
+* Note that you may only do this if this is allowed
   (agreements, permissions, etc.)
 
 ## Mounting `wharf` on your local computer
@@ -128,11 +127,10 @@ See [the UPPMAX documentation of `wharf`](wharf.md) on how to do so.
 
 !!! info "Summary"
 
-    - For simple transfers use SFTP to connect to `bianca-sftp.uppmax.uu.se` - use command line `sftp` or tools that support SFTP protocol.
-    - For `rsync` - sync files to pre-mounted wharf folder from Rackham or secure local computer.
-    - Keep in mind that project folders on Rackham are not available on transit.
+    * For simple transfers use SFTP to connect to `bianca-sftp.uppmax.uu.se` - use command line `sftp` or tools that support SFTP protocol.
+    * For `rsync` - sync files to pre-mounted wharf folder from Rackham or secure local computer.
+    * Keep in mind that project folders on Rackham are not available on transit.
 
 ## Bianca file transfer as image
 
 ![Bianca](../img/Bianca-transfer.png)
-

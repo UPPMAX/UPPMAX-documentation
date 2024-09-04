@@ -1,4 +1,12 @@
-# SFTP
+---
+tags:
+  - sftp
+  - SFTP
+---
+
+# `sftp`
+
+`sftp` is a tool to transfer data.
 
 ## 1. Getting Help
 

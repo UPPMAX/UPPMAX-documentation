@@ -42,6 +42,30 @@
 
 ![Content](./img/flavours.png)
 
+!!! abstract "Local Linux environment"
+
+    - You may sometimes benefit from having a local Linux environment.
+    - Examples:
+        - Mimic cluster environment to work with your local files and data as on the Cluster
+        - get used to Linux (!)
+    - Mac is UNIX and very Linux-like
+    - Windows requires WSL (Windows subsystem for Linux)
+
+??? question "For windows users who wants to get started with WSL (not covered here)"
+
+    - Install WSL (Windows Subsystem for Linux)
+
+        - [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (Links to an external site.)
+        - Don’t forget to update to WSL2
+
+    - Install a distribution or a ssh (secure shell) program
+        - Distribution such as ubuntu or
+        - (recommended) a ssh program such as MobaXTerm
+        - [https://mobaxterm.mobatek.net/](https://mobaxterm.mobatek.net/) (Links to an external site.)
+            - `sftp` frame makes it easy to move, upload and download files.
+    - You may want to check this webpage as well!
+        - [https://hackmd.io/@pmitev/Linux4WinUsers](https://hackmd.io/@pmitev/Linux4WinUsers) (Links to an external site.)
+
 ## Using the command line
 
 Below usage of the command line is discussed in text.
@@ -62,7 +86,6 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ![Content](./img/unix_architecture.jpg)
 
-
 ### The prompt
 
 ```bash
@@ -77,8 +100,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
     [bjornc@rackham3 linux_tutorial]$
     ```
 
-    - For changing info (only for advanced users!)  Does not matter for this course!:
-        - <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
+    - For changing info (only for advanced users!): <https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
     - The program to run is the first word
     - All words are separated by spaces
 
@@ -94,9 +116,7 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 
 ![Content](./img/screen.png){ : style="width:500px" }
 
-
 ### Tab Completion
-
 
 ![Content](./img/tab.png){ : style="width:200px" }
 
@@ -104,7 +124,6 @@ is how to use the command-line on the UPPMAX Bianca cluster.
 ask Bash to complete what you’re writing.
 
 - Get in the habit of this — it will save you many hours!
-
 
 ## Editing files
 
@@ -117,6 +136,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
 !!! example
 
     **Start nano and save a file called `first.txt`**
+
     ```console
     $ nano first.txt
     ```
@@ -124,52 +144,48 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
     - Type `test text`
     - End and save with ``<ctrl>-X`` followed by `Y` and `<enter>`.
 
-
 ## Typical sources of error
 
 ![Content](./img/cross.png)
 
 !!! Warning
+
     - Capitalization matters in file names and program names
     - Spaces matter.
-      - Always have a space after the program name.
-      - Don’t add spaces within file names.
+        - Always have a space after the program name.
+        - Don’t add spaces within file names.
     - Check that you are in the right place in the file system.
     - File permissions. Check that the right read, write and execute permission are set. See next session.
-
 
 ## Caution
 
 ![Content](./img/caution.png)
 
-
 !!! Warning
 
     - There is no undo for:
-      - copy (`cp`),
-      - move (`mv`), and
-      - remove (`rm`).
+        - copy (`cp`),
+        - move (`mv`), and
+        - remove (`rm`).
     - **Beware of overwriting files and deleting the wrong ones.**
-
 
 !!! tip
 
     - **Tip: make "`rm`" ask if you really want to erase:**
-      - Within a session: Type in the command prompt
+        - Within a session: Type in the command prompt
 
             alias rm='rm -i'
 
-      - Override asking with
+        - Override asking with
 
             rm –f <>
 
-      - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
+        - Edit file `.bashrc` in `home` directory by adding the alias line for this to start everytime.
     - This will also work for ``mv`` and ``cp``!
 
 !!! Note
 
     - If you do destroy your data, email UPPMAX support, we may be able to help.
-
 
 !!! keypoints
 
@@ -181,8 +197,7 @@ which are described at the UPPMAX 'Text editors' page [here](../software/text_ed
         - use Tab completion
         - capitalization and spaces matters
         - no undo:s for copying, moving and removing
-          - Solution: ``alias rm='rm -i' ``
-
+            - Solution: `alias rm='rm -i'`
 
 ## Links
 

@@ -12,7 +12,7 @@ Here we discuss:
 - [R packages](#r-packages)
 - [R software development](#r-software-development)
 - [How to install personal packages](#how-to-install-personal-packages)
-
+- [How to create a Singularity container for an R package](create_singularity_container_for_r_package.md)
 
 ```mermaid
 flowchart TD
@@ -74,7 +74,8 @@ The R interpreter is the program that reads R code and runs it.
 Commonly, 'the programming language R' and 'the R interpreter'
 are use as synonyms.
 
-To load the latest version of the R interpreter, do:
+To load the latest version of the R interpreter,
+load the `R` [module](../cluster_guides/modules.md) version 4.3.1 like this:
 
 ```bash
 module load R/4.3.1
@@ -98,7 +99,7 @@ module load R/4.3.1
     to see which versions of the R interpreter
     are installed on UPPMAX:
 
-    ```
+    ```bash
     module spider R
     ```
 
@@ -147,7 +148,7 @@ This will automatically load the corresponding version of the R interpreter.
 
 ## R software development
 
-![RStudio in action on Bianca using the remote desktop environment](../cluster_guides/img/rstudio_in_action_480_x_270.png)
+![RStudio in action on Bianca using the remote desktop environment](../software/img/rstudio_in_action_480_x_270.png)
 
 > RStudio in action on Bianca using the remote desktop environment
 
@@ -159,6 +160,11 @@ abbreviated 'IDE.
 See [the UPPMAX page about RStudio](rstudio.md) on how to use.
 
 ## How to install personal packages
+
+!!! tip "Installing R packages on Bianca"
+
+    If a package is unavailable on Bianca,
+    one can [create a Singularity container for R packages](../software/create_singularity_container_for_r_package.md)
 
 First load `R_packages` to make sure that the package is not already installed!
 
@@ -199,7 +205,7 @@ As of this writing, our most recent installations are
 
 - `R/4.3.1`
 - `R_packages/4.3.1`
-- `RStudio/2023.06.2-561`
+- `RStudio/2023.12.1-402`
 
 If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
 
@@ -307,7 +313,7 @@ Aalto Scientific Computing:
 - [LUNARC](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Rscript/)
 - [NSC](https://ipv4.www.nsc.liu.se/software/catalogue/tetralith/modules/r.html)
 - [PDC](https://www.pdc.kth.se/software/software/R/index_general.html)
-- [UPPMAX](http://docs.uppmax.uu.se/software/r/)
+- [UPPMAX](../software/r.md)
 
 ## Links
 
@@ -315,4 +321,3 @@ Aalto Scientific Computing:
 - [Official R documentation](https://cran.r-project.org/manuals.html)
 - [CRAN homepage](https://cran.r-project.org)
 - [CRAN mirrors](https://cran.r-project.org/mirrors.html)
-

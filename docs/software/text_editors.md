@@ -1,11 +1,20 @@
+---
+tags:
+  - text
+  - editor
+  - editors
+  - text editor
+  - text editors
+---
+
 # Text editors
 
 There are many editors that can be used on the UPPMAX clusters:
 
 Editor type                                                 |Features
 ------------------------------------------------------------|-----------------------------------------------------
-[Simple terminal editors](#simple-terminal-editors)         |Used in terminal, easy to learn, limited features
-[Advanced terminal editors](#advanced-terminal-editors)     |Used in terminal, harder to learn, powerful features
+[Simple terminal editors](#simple-terminal-editors)         |Used in [terminal](../software/terminal.md), easy to learn, limited features
+[Advanced terminal editors](#advanced-terminal-editors)     |Used in [terminal](../software/terminal.md), harder to learn, powerful features
 [Simple graphical editors](#simple-graphical-editors)       |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), easy to learn, limited features
 [Advanced graphical editors](#advanced-graphical-editors)   |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), harder to learn, powerful features
 
@@ -21,28 +30,7 @@ Try them out and pick one favorite editor!
 
 ## Simple terminal editors
 
-### GNU nano
-
-???- question "Want to see a video?"
-
-    You can find a video on using nano on Rackham [here](https://youtu.be/Ntg0sjBQA0E)
-
-GNU nano is a simple terminal editor that is easy to learn.
-
-Start nano on a terminal with:
-
-```bash
-nano
-```
-
-The keyboard shortcuts are shown on-screen,
-where `^` denotes `Ctrl` and `M` the meta key.
-
-- On Windows, `Alt` is the meta key
-- On Mac: in the `Terminal.app`, go to 'Preferences -> Settings -> Keyboard'
-  and turn on "Use option as meta key", after which `Alt` is the meta key
-
-See a nano cheat sheet [here](https://www.nano-editor.org/dist/latest/cheatsheet.html).
+- [nano](nano.md): used in terminal, easy to learn, limited features
 
 ## Advanced terminal editors
 
@@ -79,8 +67,6 @@ emacs
 
 Then:
 
-- Cheat sheet: [https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
-    - (C = `<Ctrl>`)
 - also With GUI
     - ``emacs –nw``
         - keeps you in terminal window.
@@ -101,14 +87,9 @@ See the [SSH X forwarding page](../software/ssh_x_forwarding.md) how to do so.
     See the 'How to login to Bianca' page [here](../getting_started/login_bianca.md)
     for more details.
 
-### gedit
+### [gedit](gedit.md)
 
-- graphical user interface — GUI, needs X-server
-- Also graphical editor within MobaXterm
-
-- When starting the graphical versions of an editor, add ``&`` to be able to use the command line while program is open.
-    - Ex: `gedit &`
-    - If not, you can `<Ctrl>+z` and type `bg` to send program to background.
+See [gedit](gedit.md)
 
 ## Advanced graphical editors
 

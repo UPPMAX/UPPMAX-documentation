@@ -24,99 +24,21 @@ Have an account already? Then check out these basic user guides:
 - [Rackham first steps](login_rackham.md)
 - [Snowy first steps](login_snowy.md)
 
-
 ## Students
 
 Are you taking a university course that uses UPPMAX and need help? Ask your instructor! If they can't help, contact us through IT Support.
 
 ## Getting started: First login to UPPMAX
 
-N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc web interface.
-
-In order to use the UPPMAX resources you must login to a dedicated login computer (or 'login node') using ssh ("secure shell"). On Linux/Unix computers this is done in the terminal with the 'ssh' command. On Windows you can download a small free program called [MobaXterm](https://mobaxterm.mobatek.net/) (or an alternative of your choice) to connect via ssh.
-
-Another option is to use the ThinLinc client, either the web based one or one you download, to get access to a full graphical User Interface with a desktop, webbrowser, terminal etc. The ThinLinc client download is available for Linux, macOS and Windows. For more information and to see which of our systems support ThinLinc please refer to our [graphical connection guide](../cluster_guides/thinlinc.md).
-
-If you are using Windows a more advanced option would be to install WSL (Windows Subsystem for Linux) which gives you a Linux-installation you can use on Windows. Please refer to [Microsoft's documentation on WSL](https://docs.microsoft.com/en-us/windows/wsl/) for more information.
-The hostname used to login via SSH is:
-
-```text
-rackham.uppmax.uu.se
-```
-
-Note: This is a "round robin" address which will direct you to one of the physical login nodes, rackham1.uppmax.uu.se or rackham2.uppmax.uu.se, etc. (If needed, you can also login directly to one of these, by using their respective hostnames.)
-
-## Specific for a Linux/Unix or a Mac computer
-
-On Unix/Linux and Mac OS, start a terminal and use the ssh command, like so (substitute 'username' with your own username):
-
-    ssh username@rackham.uppmax.uu.se
-
-- Note: change "rackham" to the name of the machine you want to connect to.
-- In order to run graphical programs through SSH, you need to enable [X forwarding](../software/ssh_x_forwarding.md),
-    i.e. use `ssh -X username@rackham.uppmax.uu.se`
-
-## Specific for a Windows computer
-
-If you are running windows you could download and install a terminal program like [MobaXterm](https://mobaxterm.mobatek.net/).
-
-After downloading and extracting the zip archive you will have 2 files; MobaXterm_Personal_X.X.exe and MobaXterm_Personal_Customizer_X.X.exe
-
-The Customizer file is only used if you have bought a license and can safely be deleted.
-
-Double click the MobaXterm_Personal_X.X.exe and you should see a terminal window. Use the ssh command, like so (substitute 'username' with your own username):
-
-    username@rackham.uppmax.uu.se
-
-## Common for all systems (Windows, Linux, OSX)
-
-If it is the first time you connect, you will also need to confirm the host key by pressing 'Yes' if you get pop-up question or by typing 'yes' if you get the question on the command line.
-
-After this, it will ask you for your password. When you type your password, it will look as if nothing is happening. This is to keep others from seeing how many characters your password has, so just keep typing and press enter when you think you have typed it correctly.
-
-A note for people using MobaXterm: It will ask you if you want to save your password. Press 'No' and check the box 'Do not show this message again'.
-
-If you log in from outside of Sweden, or from a network that does not support forward and reverse DNS lookups, you will be asked to set up and use two factor authentication. Read about setting up two factor authentication.
-
-Now you are logged in! To log out again, type 'exit'.
-
-Note: The information displayed in the welcome screen contains very important information about the usage of UPPMAX, which might affect your jobs, such as scheduled downtime etc, so please read very carefully, and look out for any announcements!
-
+See [Log in to an UPPMAX cluster](login.md).
 
 ## Changing your password
 
-You should regularly change your password. This is done in the standard Linux way. Type:
-
-    passwd
-
-The system will prompt you for your current password, after which it will ask you for a new password and a confirmation of the new password. If you lose your password and need to reset it, follow this link (which you can also find on our homepage).
-
+See [How to change your UPPMAX password](change_uppmax_password.md)
 
 ## Copying files from/to your UPPMAX account
 
-### From a Linux or Unix computer
-
-Copy a file from you computer to your home directory on UPPMAX:
-
-```bash
-scp some_local_file user@rackham.uppmax.uu.se:/home/username/some-file
-```
-
-Copy a file from your home directory on UPPMAX to your computer:
-
-```bash
-scp user@rackham.uppmax.uu.se:/home/username/some-file local_file_or_directory
-```
-
-To place the file in the directory you are currently standing in, use a dot ('.') as the local directory:
-
-```bash
-scp user@rackham.uppmax.uu.se:/home/username/some-file .
-```
-
-### From a Windows computer
-
-If you are running windows you could download or upload files using the file browser in MobaXterm, or the WinSCP software to upload and download files in a similar fashion to how FTP clients work. Alternatively if you are using WSL you can follow the instructions for Linux above.
+See [How to transfer files from/to your UPPMAX account](../cluster_guides/file_transfer.md)
 
 ## Where are my files? (Or, what are the different file systems?)
 
@@ -163,6 +85,7 @@ Also note the private sub-folder. Here you can put files that you want only you,
 
 ### The nano text editor
 
+
 There are several editors installed at UPPMAX. The one that is considered easiest to use for new users without graphics is nano.
 
 Example: how to use nano:
@@ -203,20 +126,9 @@ You can read a tutorial in emacs by doing:
 
     Control-h t
 
-For a tutorial on emacs: [http://www.gnu.org/software/emacs/tour/](http://www.gnu.org/software/emacs/tour/)
-
 ### The Gedit text editor
 
-If you have logged in with [X forwarding](../software/ssh_x_forwarding.md)
-(i.e. with `ssh -X username@rackham.uppmax.uu.se`)
-or through ThinLinc, then you can run `gedit`,
-a program that feels very similar to the Windows program Wordpad.
-
-Example: how to run gedit from a terminal:
-
-    gedit &
-
-The ampersand (&) keeps gedit from taking over your terminal session. You can navigate files and exit the program with the mouse.
+See [gedit](../software/gedit.md)
 
 ## Bash, bourne-again shell
 
@@ -230,32 +142,18 @@ The .bash_logout file is run when you log out.
 
 ## Modules
 
-In order to make running installed programs easier you should use the module command. The different modules that are installed sets the correct environments that are needed for the programs to run, like PATH, LD_LIBRARY_PATH and MANPATH.
-
-Example: checking what modules are available:
-
-module avail
-
-Example: checking what modules you have loaded:
-
-module list
-
-Example: loading a compiler and an mpi module:
-
-module load intel/20.4 openmpi
-
-Example, if you want to unload a module
-
-module unload intel
+In order to run installed programs,
+one uses the [module](../cluster_guides/modules.md)
+system.
 
 ## How to run jobs
 
-All jobs should be run using the batch queues. Read more for bianca and rackham, and the Slurm queue system.
+All jobs should be run using [the job scheduler](../cluster_guides/slurm.md).
 
 ## UPPMAX homepage
 
-Please check our homepage regularly for information, news and announcements. We will announce maintenance stops and down time there.
+Please check our homepage regularly for information, news and announcements.
+We will announce maintenance stops and down time there.
 
 - <https://www.uu.se/en/centre/uppmax>
 - <https://www.uppmax.uu.se>
-

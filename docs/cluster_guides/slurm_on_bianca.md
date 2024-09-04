@@ -19,7 +19,7 @@ how to fix Slurm errors.
 
 ???- question "Want to start an interactive job?"
 
-    See how to start an interactive job on Bianca [here](start_interactive_job_on_bianca.md)
+    See how to start an interactive job on Bianca [here](start_interactive_node_on_bianca.md)
 
 Here it is shown how to submit a job with:
 
@@ -47,9 +47,9 @@ sbatch -A sens2017625 my_script.sh
     webpage at [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se) is
     helpful in showing you your Bianca projects:
 
-    ![](./img/bianca_login_project_hints_cropped.png)
+    ![An example of the Bianca projects for this user](./img/bianca_login_project_hints_cropped.png)
 
-    > Example of the Bianca projects for this user
+    > An example of the Bianca projects for this user
 
 ???- question "What is in the script file?"
 
@@ -96,9 +96,9 @@ where `[project_code]` is the project code, for example:
     webpage at [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se) is
     helpful in showing you your Bianca projects:
 
-    ![](./img/bianca_login_project_hints_cropped.png)
+    ![An example of the Bianca projects for this user](./img/bianca_login_project_hints_cropped.png)
 
-    > Example of the Bianca projects for this user
+    > An example of the Bianca projects for this user
 
 A full example script would be:
 
@@ -109,4 +109,6 @@ echo "Hello"
 ```
 
 Again, what is shown here is a minimal use of `sbatch`.
-See the general page on Slurm [here](slurm.md).
+See the [general page on Slurm](slurm.md).
+
+## [More about slurm on Bianca](slurm_on_bianca_details.md)

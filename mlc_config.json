@@ -11,6 +11,84 @@
       "pattern": "^https://bianca.uppmax.uu.se/$"
     },
     {
+      "pattern": "^https://docs.swestore.se/using/rclone/$"
+    },
+    {
+      "pattern": "^https://docs.sylabs.io/guides/2.6/user-guide/container_recipes.html$"
+    },
+    {
+      "pattern": "^http://hostname:8888$"
+    },
+    {
+      "pattern": "^https://supr.naiss.se/$"
+    },
+    {
+      "pattern": "^https://supr.naiss.se/project/$"
+    },
+    {
+      "pattern": "^https://supr.naiss.se/account/$"
+    },
+    {
+      "pattern": "^https://supr.naiss.se/round/senssmall2024/create_proposal/\\?$"
+    },
+    {
+      "pattern": "^https://suprintegration.uppmax.uu.se/getpasswd$"
+    },
+    {
+      "pattern": "^https://www.c3se.chalmers.se/documentation/remote-vscode/$"
+    },
+    {
+      "pattern": "^https://www.hpc2n.umu.se/resources/software/r$"
+    },
+    {
+      "pattern": "^https://www.naiss.se/$"
+    },
+    {
+      "pattern": "^https://www.naiss.se/#application-rounds-for-compute-and-storage-resources$"
+    },
+    {
+      "pattern": "^https://www.naiss.se/event/online-training-snakemake-hackathon-2024-05/$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/hpc-services/computing-systems/dardel$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/login/ssh_keys.html$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/login/ssh_login.html$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/software/software/R/index_general.html$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/about/pdc-news$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/login/ssh_login.html#how-to-create-ssh-key-pairs$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/login/ssh_login.html#in-the-login-portal$"
+    },
+    {
+      "pattern": "^https://www.pdc.kth.se/support/documents/getting_access/get_access.html$"
+    },
+    {
+      "pattern": "^https://delivery.scilifelab.se/$"
+    },
+    {
+      "pattern": "^https://sonc.swegrid.se/wiki/SUPR/API$"
+    },
+    {
+      "pattern": "^https://www.sunet.se/$"
+    },
+    {
       "pattern": "^https://www.sylabs.io/$"
     },
     {
@@ -20,16 +98,10 @@
       "pattern": "^https://www.sylabs.io/guides/2.6/user-guide/container_recipes.html$"
     },
     {
-      "pattern": "^https://docs.sylabs.io/guides/2.6/user-guide/container_recipes.html$"
-    },
-    {
       "pattern": "swcarpentry.github.io/r-novice-inflammation/$"
     },
     {
-      "pattern": "^https://www.c3se.chalmers.se/documentation/remote-vscode/$"
-    },
-    {
-      "pattern": "^http://hostname:8888$"
+      "pattern": "^software-table.md"
     }
   ]
 }

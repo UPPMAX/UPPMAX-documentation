@@ -1,0 +1,34 @@
+# Check that all links are valid, i.e. not broken, using a newer tool
+#
+# Unsure if that newer tool is better, until there is a difference.
+# See details at https://github.com/UPPMAX/UPPMAX-documentation/issues/119
+#
+# Conclusion:
+#
+# The older link checker is both faster and detects more links
+# that are indeed broken. Due to this, this workflow is disabled.
+#
+name: Check links too
+
+# Check links on the 21st day of the month.
+# 21st as the first letter of this repo is the 21st letter in the alphabet.
+on:
+  push:
+  pull_request:
+  schedule:
+  - cron: "0 0 21 * *"
+
+jobs:
+  check-links:
+    name: runner / linkspector
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run linkspector
+        uses: umbrelladocs/action-linkspector@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review
+          fail_on_error: true
+
+          # config_file: 'mlc_config.json'

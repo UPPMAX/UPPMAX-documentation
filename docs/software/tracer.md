@@ -18,7 +18,9 @@ and download the Linux/UNIX version.
     Here is how the release page of [Tracer v1.7.2](https://github.com/beast-dev/tracer/releases/tag/v1.7.2)
     looks like:
 
-    ![](./img/tracer_release.png)
+    ![Tracer](./img/tracer_release.png)
+
+    > Tracer
 
     Download the file `Tracer_v1.7.2.tgz`.
 
@@ -26,7 +28,7 @@ and download the Linux/UNIX version.
 
     Use `wget` on the URL to download from, for example:
 
-    ```
+    ```bash
     wget https://github.com/beast-dev/tracer/releases/download/v1.7.2/Tracer_v1.7.2.tgz
     ```
 
@@ -38,13 +40,13 @@ Extract the downloaded file.
 
     Right-click the file and click 'Extract here'.
 
-    ![](../cluster_guides/img/rackham_remote_desktop_extract_file.png)
+    ![Click 'Extract here' in this pop-up menu](../cluster_guides/img/rackham_remote_desktop_extract_file.png)
 
 ???- question "How to do so, using the console environment?"
 
     Use `tar` on the file to extract:
 
-    ```
+    ```bash
     tar zxvf  Tracer_v1.7.2.tgz
     ```
 
@@ -60,7 +62,9 @@ java -jar lib/tracer.jar
 
     Here is how Tracer looks like in a console environment:
 
-    ![](./img/tracer_on_rackham_console.png)
+    ![Tracer in a console environment](./img/tracer_on_rackham_console.png)
+
+    > Tracer in a console environment
 
     For this to work, one needs to login using
     [SSH with X forwarding](../software/ssh_x_forwarding.md) enabled.

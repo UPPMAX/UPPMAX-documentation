@@ -6,31 +6,44 @@ This guide provides instructions for loading and using OpenAI's Whisper, an
 automatic speech recognition system. Whisper is available on Rackham,
 Snowy and Bianca. It can either be used through a User Interface or loaded as a Module.
 
-
 ## User Interface (GUI)
 
 ### Step 1: Accessing your project  
+
 1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
 2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
-
 ### Step 2: Data transfer from local to project  
 
+<<<<<<< HEAD
 1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (Windows only), [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux) or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/).
+=======
+1. Transfer your data from your local machine to Wharf using SFTP clients
+    like [WinSCP](../cluster_guides/transfer_bianca.md#winscp-windows)
+    client (Windows only),
+    [FileZilla](../cluster_guides/transfer_bianca.md#filezilla-linuxmacoswindows)
+    client (Mac, Windows or Linux)
+    or other ways via [terminal](../cluster_guides/transfer_bianca.md).
+>>>>>>> main
 
 ### Step 3: Transcribing/Translating  
 
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
-2. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
+1. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
+
     ```console
     [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
     ```
-    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder. 
-3. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
+
+    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder.
+
+1. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
+
     ```console
     [jayan@sens2024544-bianca proj]$ module load Whisper-gui
     [jayan@sens2024544-bianca proj]$ whisper-gui.sh
     ```
+<<<<<<< HEAD
     Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created. 
 4. Select appropriate options, or use the following for the best results:  
    device: gpu  
@@ -38,11 +51,22 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
    Total audio length in hours : [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
    Model: large-v2  
    by word timestamps: by_sentence
+=======
+
+    Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
+
+1. Select appropriate options, or use the following for the best results:  
+
+    - device: gpu  
+    - SLURM job name: [give any name without space]  
+    - Total audio length in minutes : [give a rough average if transcribing files in bulk]  
+    - Model: large-v2  
+    - by word timestamps: by_sentence
+>>>>>>> main
 
 ### Step 4: Monitoring jobs  
 
-1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
-
+1. Monitor your job by entering [jobinfo](../software/jobinfo.md) on [terminal](../software/terminal.md) or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
 
 ### Step 5: Data transfer from project to local
 
@@ -51,16 +75,17 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 ### Output files
 
-By default you receive 5 types of output files for each file you transcribe/translate:   
+By default you receive 5 types of output files for each file you transcribe/translate:
 With timestamps: `.srt`, `.vtt`, `.tsv`  
 Without timestamps: `.txt`  
-With detailed model metadata: `.json`. 
+With detailed model metadata: `.json`.
 
 On Mac, `.srt` and `.vtt` can be opened in Word by:  
 Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
 
 ### Advance settings
 
+<<<<<<< HEAD
 Use below features only if output is not satisfactory in Step 3.4 and for less spoken languages or languages that are not having good resources online for understanding :    
 1. When asked for Initial Prompt, provide a list of comma separated words or senteneces (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
 
@@ -68,7 +93,10 @@ Use below features only if output is not satisfactory in Step 3.4 and for less s
 3. Use combination of both 1 and 2.   
 4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
 
+=======
+>>>>>>> main
 ### Languages available
+
 Use the following 2 letter code to perform transcribing when asked in the GUI:  
 `en`: "english",
     `zh`: "chinese",
@@ -171,31 +199,25 @@ Use the following 2 letter code to perform transcribing when asked in the GUI:
     `su`: "sundanese",
     `yue`: "cantonese"
 
-### <a name="proposal_template"></a>Proposal template
+### Proposal template
 
 Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:  
-* **Project Title** : Whisper service for [Name of the project]   
 
-* **Abstract**: [What is the project about, give links, funding info, duration etc.]  
+- **Project Title** : Whisper service for [Name of the project]
 
-* **Resource Usage**:  [Explain where transcriptions/translations are needed like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or translation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.]  
+- **Abstract**: [What is the project about, give links, funding info, duration etc.]  
 
-* **Abridged Data Management Plan**:  [Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.]  
+- **Resource Usage**:  [Explain where transcriptions/translations are needed like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or translation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.]  
 
-* **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]  
+- **Abridged Data Management Plan**:  [Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.]  
 
-* **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]   
+- **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]  
 
-
-
-
-
-
+- **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
 
 ## Module Loading
 
 To load the Whisper module, run the following command:
-
 
 ```console
 [jayan@sens2024544-bianca jayan]$ module load Whisper/0.5.1
@@ -256,4 +278,3 @@ total 13457440
 -rw-rw-r-- 1 sw   75571315 Nov 10 14:22 tiny.en.pt
 -rw-rw-r-- 1 sw   75572083 Nov 10 14:22 tiny.pt
 ```
-

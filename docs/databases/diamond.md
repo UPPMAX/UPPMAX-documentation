@@ -1,6 +1,6 @@
 # DIAMOND protein alignment databases
 
-The DIAMOND protein aligner is a recent tool offering much faster (100× to 1000× faster than Blast) alignment of protein sequences against reference databases. On UPPMAX, DIAMOND is available by loading the diamond module, the most recent installed version of which which as of this writing is diamond/2.0.14.
+The DIAMOND protein aligner is a recent tool offering much faster (100× to 1000× faster than Blast) alignment of protein sequences against reference databases. On UPPMAX, DIAMOND is available by loading the `diamond` [module](../cluster_guides/modules.md), the most recent installed version of which which as of this writing is diamond/2.0.14.
 
 As for BLAST databases, UPPMAX provides several pre-built databases suitable for direct usage with the --db flag to diamond, as well as runs diamond prepdb on each of its downloaded BLAST protein databases whenever they are installed. The BLAST databases are updated according to the schedule given on their webpage. The diamond-format NCBI protein databases are updated once a month.
 

@@ -38,5 +38,4 @@ concat_rm contains most of the fasta files in "chromosome_rm" concatenated into 
 
 program_files contains index files and metadata for software packages used to work with reference genomes, e.g. SAMtools and aligners such as Bowtie, BWA.
 
-
 Requests for additional reference genomes or software data/index files should be directed to UPPMAX support.

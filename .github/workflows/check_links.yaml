@@ -1,3 +1,5 @@
+# Check that all links are valid, i.e. not broken
+name: Check links
 
 # Check links on the 21st day of the month.
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
@@ -7,7 +9,6 @@ on:
   schedule:
   - cron: "0 0 21 * *"
 
-name: check-links
 
 jobs:
   check-links:
@@ -15,7 +16,7 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       # The link checker will only work if mlc_config.json is a valid JSON
       - name: Validate JSON
@@ -33,6 +34,14 @@ jobs:
 
       - name: Internal links must checked, do not allow '400' in the 'aliveStatusCodes' of mlc_config.json
         run: if [[ $(grep --regexp "[^0-9]400[^0-9]" mlc_config.json | wc --lines) == "1" ]]; then echo "FOUND"; exit 42; fi
+
+
+      # For an indented block, a link to a broken image is ignored, as the link checker assumes it to be code.
+      # In our case, it is not: for us, it is usually an admonition (i.e. a 'question' or 'info' block)
+      # Here all indented text is unindented
+      # https://github.com/UPPMAX/UPPMAX-documentation/issues/114
+      - name: unindent text
+        run: ./scripts/unindent_text.sh
 
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:

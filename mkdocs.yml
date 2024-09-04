@@ -9,10 +9,10 @@ nav:
     - Applying for a Project: getting_started/project_apply.md
     - Accessing UPPMAX:
       - Get inside the university networks: getting_started/get_inside_sunet.md
-      - Log in to Bianca: getting_started/login_bianca.md
-      - Log in to Dardel: getting_started/login_dardel.md
       - Log in to Rackham: getting_started/login_rackham.md
+      - Log in to Bianca: getting_started/login_bianca.md
       - Log in to Snowy: getting_started/login_snowy.md
+      - Log in to Dardel (at PDC): getting_started/login_dardel.md
     - Linux tutorials:
       - Working in Linux: getting_started/linux.md
       - Basic Linux commands: getting_started/linux_basics.md
@@ -20,33 +20,25 @@ nav:
   - Cluster user guide:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
     - Clusters: 
-      - Bianca: cluster_guides/bianca.md
-      - Dardel: cluster_guides/dardel.md
       - Rackham: cluster_guides/rackham.md
+      - Bianca: cluster_guides/bianca.md
       - Snowy: cluster_guides/snowy.md
+      - Dardel (at PDC): cluster_guides/dardel.md
     - General cluster tools: 
       - Start an interactive node: cluster_guides/start_interactive_node.md
       - Modules: cluster_guides/modules.md
       - Slurm: cluster_guides/slurm.md
-    - Managing your project: cluster_guides/project_management.md
+      - Managing your project: cluster_guides/project_management.md
     - Running jobs:
       - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
-      - Runtime tips: cluster_guides/running_jobs/runtime_tips.md
-      - Storage and compression: cluster_guides/running_jobs/storage_compression.md
-      - Screen: cluster_guides/screen.md
+      - Runtime tips: cluster_guides/runtime_tips.md
+      - Storage and compression: cluster_guides/storage_compression.md
+      - Screen: software/screen.md
     - Data transfer: 
-      - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
-      - Migrate to Dardel: cluster_guides/dardel_migration.md
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
-    - Installing and development: 
-      - Installing: cluster_guides/install.md
-      - Installing with conda: cluster_guides/conda.md
-      - Compiling serial code: cluster_guides/compiling_serial.md
-      - Compiling parallel code: cluster_guides/compiling_parallel.md
-      - Debuggers: cluster_guides/debuggers.md
-      - Profilers: cluster_guides/profilers.md
-      - Singularity/Apptainer: cluster_guides/singularity.md
-      - Spack: software/spack.md
+      - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
+      - Migrate to Dardel (at PDC): cluster_guides/dardel_migration.md
+      - Webexport: cluster_guides/webexport.md
   - Software:
     - Overview: software/overview.md
     - Software table: software/software-table.md
@@ -81,12 +73,25 @@ nav:
         - Perl: software/perl.md
         - R: software/r.md
       - Misc tools:
-        - darsync: cluster_guides/darsync.md
+        - Allinea DDT: software/allinea-ddt.md
+        - darsync: software/darsync.md
         - jobstats: software/jobstats.md
         - projplot: software/projplot.md
         - Rclone: software/rclone.md      
         - SSH: software/ssh.md
         - SFTP: software/sftp.md
+        - ThinLinc: software/thinlinc.md
+    - Installing and development: 
+      - Installing: software/install.md
+      - Installing with conda: software/conda.md
+      - Compilers: software/compilers.md
+      - Compiling serial code: software/compiling_serial.md
+      - Compiling parallel code: software/compiling_parallel.md
+      - Debuggers: software/debuggers.md
+      - Nextflow & nf-core: software/nextflow.md   
+      - Profilers: software/profilers.md
+      - Singularity/Apptainer: software/singularity.md
+      - Spack: software/spack.md
       
   - Databases: 
      - Overview: databases/overview.md
@@ -100,6 +105,7 @@ nav:
      
 #  - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
+  - Back to Main page: https://www.uu.se/en/centre/uppmax
 
 theme:
   name: material
@@ -124,6 +130,9 @@ theme:
     - content.tabs.link
   custom_dir: mkdocs_uppmax/
     
+#extra:
+#  homepage: https://www.uu.se/en/centre/uppmax
+  
 extra_css:
   - stylesheets/extra.css
       

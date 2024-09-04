@@ -22,7 +22,7 @@ Virtual environment manager          |Description
 -------------------------------------|--------------------------------
 [`venv`](python_venv.md)             |Works on [Rackham](../cluster_guides/rackham.md)
 [`virtualenv`](python_virtualenv.md) |`venv` for older Python versions
-[`conda`](../cluster_guides/conda.md)|Works on [Rackham](../cluster_guides/rackham.md), recommended on [Bianca](../cluster_guides/bianca.md)
+[`conda`](../software/conda.md)|Works on [Rackham](../cluster_guides/rackham.md), recommended on [Bianca](../cluster_guides/bianca.md)
 [`pyenv`](python_pyenv.md)           |More advanced than `venv`
 
 ## General virtual environment manager workflow
@@ -53,4 +53,3 @@ for example, from scratch.
 However, there are more efficient ways,
 such as by re-using already installed Python packages.
 How to do so, can be found on the page about your specific virtual environment manager.
-

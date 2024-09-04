@@ -85,7 +85,7 @@ rclone rcd --rc-web-gui
 
     Here is some example output:
 
-    ```
+    ```console
     2024/04/02 08:31:59 ERROR : Error reading tag file at /home/richel/.cache/rclone/webgui/tag
     2024/04/02 08:31:59 NOTICE: A new release for gui (v2.0.5) is present at https://github.com/rclone/rclone-webui-react/releases/download/v2.0.5/currentbuild.zip
     2024/04/02 08:31:59 NOTICE: Downloading webgui binary. Please wait. [Size: 4763452, Path :  /home/richel/.cache/rclone/webgui/v2.0.5.zip]
@@ -106,16 +106,19 @@ Rclone is one of the recommended ways to connect to Swestore.
     When setting the URL to the correct `https://webdav.swestore.se`,
     Rclone will flag this as an error:
 
-    ![](./img/rclone_false_error.png)
+    ![Rclone flags an error](./img/rclone_false_error.png)
+
+    > Rclone flags an error, that may be a false error
 
     However, this may be a false error. To determine this:
     click on 'Explorer' and explore Swestore.
 
-    ![](./img/rclone_swestore_folder_structure.png)
+    ![An example Swestore folder structure](./img/rclone_swestore_folder_structure.png)
+
+    > An example Swestore folder structure
 
     If you see the Swestore
     folder structure above, Rclone works fine.
-
 
 ## Links
 

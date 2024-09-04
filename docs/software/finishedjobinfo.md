@@ -4,7 +4,7 @@
 
 ## Show the help
 
-To show the help of `finishedjobinfo`, in a terminal , do:
+To show the help of `finishedjobinfo`, in a [terminal](../software/terminal.md) , do:
 
 ```bash
 finishedjobinfo -h

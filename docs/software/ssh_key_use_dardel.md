@@ -1,3 +1,13 @@
+---
+tags:
+  - ssh
+  - SSH
+  - key
+  - ssh key
+  - SSH key
+  - Dardel
+---
+
 # Create and use an SSH key pair for Dardel
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)
@@ -13,6 +23,12 @@ This makes it possible for you to login to [Dardel](../cluster_guides/dardel.md)
 PDC has [a more comprehensive guide on how to do this on various operating systems](https://www.pdc.kth.se/support/documents/login/ssh_keys.html)
 if you want a more in-depth guide.
 
+!!! warning
+
+    - To be able to transfer from Rackham you have to do the following steps on **Rackham**.
+    - You can _also_ do the steps for you local computer to be able to log in
+      directly from your [terminal](../software/terminal.md) and not via Rackham.
+
 ## 1. How to create SSH keys
 
 To create an SSH key, one needs to
@@ -23,7 +39,7 @@ To create an SSH key, one needs to
 
 ### 1.1 Start generating the key
 
-- Add the content of your public key `id_ed25To create a SSH key, run the following command:
+- Add the content of your public key `id_ed25519.pub.` To create a SSH key, run the following command:
 
 ```bash
 ssh-keygen -t ed25519
@@ -88,7 +104,6 @@ The key will now be created and you can add it to the PDC Login Portal.
     | o +*X o         |
     +----[SHA256]-----+
     ```
-
 
 ## 2. How to add an SSH key to the PDC Login Portal
 

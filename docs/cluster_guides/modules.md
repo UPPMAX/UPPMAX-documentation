@@ -1,3 +1,12 @@
+---
+tags:
+  - module
+  - modules
+  - software module
+  - software modules
+  - lmod
+---
+
 # Software modules
 
 ![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
@@ -24,7 +33,7 @@ This allow users to independently use their favorite versions of their
 favorite software.
 
 Using a module system keeps installed software hidden by default,
-and users have to explicitly tell their terminal
+and users have to explicitly tell their [terminal](../software/terminal.md)
 which version of which software they need.
 
 To have new software installed on an UPPMAX cluster,
@@ -76,32 +85,7 @@ for example `module spider cowsay`.
 
 ???- question "What is `cowsay`?"
 
-    `cowsay` is the module for the tool called `cowsay`.
-    `cowsay` (the tool) is commonly use as a toy example tool.
-
-    From a terminal, running:
-
-
-    ```bash
-    cowsay hello
-    ```
-
-    results in:
-
-    ```text
-     _______
-    < hello >
-     -------
-            \   ^__^
-             \  (oo)\_______
-                (__)\       )\/\
-                    ||----w |
-                    ||     ||
-    ```
-
-    Because `cowsay` is not part of the Linux kernel,
-    users commonly need to install it.
-    Or in our case: load a module to use it.
+    See [the UPPMAX page on `cowsay`](../software/cowsay.md)
 
 ???- question "What is `R`?"
 
@@ -243,7 +227,6 @@ Of the module shown, also the different versions are reported.
     so that you can spend time on your research
     and we figure this out :-)
 
-
 To load a module, use `module load [module]`,
 for example `module load cowsay`.
 This will load the default version of that module,
@@ -384,6 +367,7 @@ Full command            |Shorthand syntax
 `module`                |-
 `module avail`          |`ml av`
 `module spider`         |`ml spider`
+`module load`           |`ml`
 `module list`           |`ml`
 `module unload [module]`|`ml -[module]`
 
@@ -413,7 +397,7 @@ though, especially when searching for a specific tool, or a bioinformatics tool.
 It only reports modules that are immediately available.
 
 ```bash
-$ module avail R
+module avail R
 ```
 
 outputs everything that has an `r` in the name... not useful.
@@ -424,3 +408,9 @@ No module(s) or extension(s) found!
 Use "module spider" to find all possible modules and extensions.
 Use "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".
 ```
+
+## Conflicting modules
+
+Sometimes some tools cannot be run together, that is working when another module is loaded. Read about this in the page:
+
+- [Conflicting modules](module_conflicts.md)

@@ -58,4 +58,4 @@ You must contact UPPMAX support and ask for help. Provide as much information as
 - Snapshots reside on the same storage system as the original data — when the storage system fails catastrophically then the snapshots are gone as well.
 - Snapshots are taken on regular basis and only available for home directories.
 
-- You can easily access snapshots in every directory by 'ls .snapshot' or 'cd .snapshot' in a terminal. The '.snapshot' is a hidden directory.
+- You can easily access snapshots in every directory by 'ls .snapshot' or 'cd .snapshot' in a [terminal](../software/terminal.md). The '.snapshot' is a hidden directory.

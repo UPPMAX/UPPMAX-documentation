@@ -49,25 +49,24 @@ and you have created a SSH key pair.
 
 ???- question "How do I know this worked?"
 
-    On Rackham, in a terminal, type:
+    On Rackham, in a [terminal](../software/terminal.md), type:
 
-    ```
+    ```bash
     $ cat ~/.ssh/id_ed25519_pdc.pub
     ```
 
     This will show a text similar to:
 
-    ```
+    ```text
     ssh-ed25519 AAAA63Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
     ```
-
 
 ### 5. Add the public SSH key to PDC:s Login Portal
 
 How to add the SSH public key is described
 in detail in [the PDC documentation on how to add SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#in-the-login-portal).
 
-You will need to get the public part of the key in order to complete this step.i On Rackham, in a terminal, type:
+You will need to get the public part of the key in order to complete this step.i On Rackham, in a [terminal](../software/terminal.md), type:
 
 ```bash
 cat ~/.ssh/id_ed25519_pdc.pub
@@ -92,15 +91,15 @@ In short,
 
 ???- question "How does the adding the key look like?"
 
-    ![](./img/pdc_prove_identity.png)
+    ![Click on 'Prove Indentity'](./img/pdc_prove_identity.png)
 
     > Click on 'Prove Indentity'
 
-    ![](./img/pdc_key_management_no_keys.png)
+    ![PDC key managements before any keys are added](./img/pdc_key_management_no_keys.png)
 
     > PDC key managements before any keys are added.
 
-    ![](./img/pdc_portal_addkey1.png)
+    ![How it looks when adding a new key](./img/pdc_portal_addkey1.png)
 
     > How it looks when adding a new key.
 
@@ -108,7 +107,7 @@ After having added your public SSH key, you will be able to see your registered 
 
 ???- question "How does that look like?"
 
-    ![](./img/pdc_key_management_rackham_key.png)
+    ![Here we see that there is an SSH key added](./img/pdc_key_management_rackham_key.png)
 
     > Here we see that there is an SSH key added.
 
@@ -116,9 +115,9 @@ The next thing you have to do is to add UPPMAX as a placer permitted to use your
 
 ???- question "How does that look like?"
 
-    ![](./img/pdc_add_uppmax_domain.png)
+    ![This is where you enter that UPPMAX is allowed to use this key.](./img/pdc_add_new_key_uppmax.png)
 
-    > This is where you enter UPPMAX as allowed to use this key.
+    > This is where you enter that UPPMAX is allowed to use this key.
 
 ???- question "For staff only"
 
@@ -142,7 +141,7 @@ a tool that can inspect your files and make suggestions
 to make the transfer easier,
 as well as generating a script file you can submit to [Slurm](slurm.md)
 to perform the actual file transfer.
-[Read more about how to use Darsync here](../cluster_guides/darsync.md).
+[Read more about how to use Darsync here](../software/darsync.md).
 
 Here is a summary of how to run it, using `/path/to/dir` as a placeholder for the actual path to the directory you want to copy to Dardel:
 

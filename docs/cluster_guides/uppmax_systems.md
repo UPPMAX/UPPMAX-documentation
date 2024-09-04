@@ -34,7 +34,6 @@ flowchart TD
     Rackham
     Snowy
     is_sensitive[Do you use sensitive data?]
-    is_scilifelab[Do you work at SciLifeLab?]
     is_long[Do you use long runs and/or GPUs?]
 
     UPPMAX --> is_sensitive
@@ -47,27 +46,28 @@ flowchart TD
 ## UPPMAX storage systems
 
 Storage systems allow a user to storage (big amounts of) data,
-for either active use (i.e. in calculations) or to archive it.
-Storage for active use is also called 'on-load' storage,
-where archived data is called 'off-load' storage.
+for either active use (i.e. in calculations) or to archive it (cold data).
+
+You are not supposed to do calculations on the cold data. This is stored on off-load storage where the file system is much slower.
+You need to transfer the data to an active storage first.
 
 The UPPMAX storage systems are:
 
-- On-load: Castor for Bianca, Crex for Rackham
+- Active: Cygnus for Bianca, Crex for Rackham
 - Off-load: Lutra for Rackham
 
 ```mermaid
 flowchart TD
     UPPMAX[Which UPPMAX storage system?]
     which_cluster[Which UPPMAX cluster?]
-    Castor
+    Cygnus
     Lutra
     usage_type{Type of use?}
 
     UPPMAX-->which_cluster
     which_cluster-->|Rackham|usage_type
-    which_cluster-->|Bianca|Castor
-    usage_type-->|on-load|Crex
+    which_cluster-->|Bianca|Cygnus
+    usage_type-->|active|Crex
     usage_type-->|off-load|Lutra
 ```
 
@@ -113,17 +113,16 @@ are restricted in some ways:
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation to run is part of this course
-    and is described [here](slurm-intro.md).
+    Requesting a calculation to run is described
+    [here](../cluster_guides/slurm.md).
     This is done by using the SLURM scheduler.
 
 ???- tip "Requesting an interactive node"
 
-    Requesting an interactive node is part of this course
-    and is described [here](login_bianca.md).
+    Requesting an interactive node is described
+    [here](../cluster_guides/start_interactive_node.md).
     This is done by requesting an interactive node
     from the SLURM scheduler.
-
 
 - Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
@@ -131,16 +130,13 @@ are restricted in some ways:
 
 ???- tip "Using pre-installed software"
 
-    Using pre-installed software is part of this course
-    and is described [here](modules1.md).
+    Using pre-installed software is described [here](modules.md).
     This is done by using the module system.
 
 ???- tip "How to run custom software"
 
-    Techniques how to run custom software is *not* part of this course.
-    Instead, one technique is part of the intermediate Bianca course
-    and can be found described [here](extra/containers/),
-    which is about using containers
+    One can use [Singularity containers](../software/containers.md)
+    to run software on an HPC cluster.
 
 These restrictions apply to most general-purpose clusters.
 However, Bianca is a **sensitive data** cluster, to which
@@ -158,11 +154,9 @@ due to which there are these additional restrictions to users:
 
 ???- tip "File transfer"
 
-    Transferring file is part of this course and is described [here](transfer_basic.md).
-    This is done using
+    Transferring file is described [here](file_transfer.md).
 
-The goal is *not* to prevent the up/download of sensitive data,
-instead it is to prevent the *accidental* up/download of sensitive data.
+The goal is to prevent the *accidental* up/download of sensitive data.
 As these up/downloads are monitored, in case of an accident,
 the extent of the leak and the person (accidentally) causing it
 is known. Identifying a responsible person in case of such an
@@ -177,18 +171,18 @@ Each computer of a cluster is called a **node**.
 
 There are three types of nodes:
 
-- **login nodes**: nodes where a user enters and interacts with the system
+- **[login nodes](../cluster_guides/login_node.md)**: nodes where a user enters and interacts with the system
 
 ???- tip "Logging in"
 
-    Logging in is part of this course and is described [here](login_bianca.md).
+    Logging in is described [here](../getting_started/login_bianca.md).
 
 - **calculation nodes**: nodes that do the calculations
 
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is part of this course
-    and is described [here](slurm-intro.md).
+    and is described [here](slurm.md).
     This is done by using the SLURM scheduler.
 
 - **interactive nodes**: a type of calculation node, where a user can do calculations directly
@@ -196,15 +190,13 @@ There are three types of nodes:
 ???- tip "Requesting an interactive node"
 
     Requesting an interactive node is part of this course
-    and is described [here](login_bianca.md).
+    and is described [here](../getting_started/login_bianca.md).
     This is done by requesting an interactive node
     from the SLURM scheduler.
 
-
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
-A user logs in to a login node via the Internet.
-
+A user logs in to a [login node](../cluster_guides/login_node.md) via the Internet.
 
 ## Summary
 

@@ -6,6 +6,7 @@ Snowy is one of the [UPPMAX clusters](uppmax_cluster.md).
 
 - [Snowy's name](snowys_name.md)
 - [Snowy's design](snowys_design.md)
+- [Snowy's hardware](../hardware/clusters/snowy.md)
 - [Log in](../getting_started/login_snowy.md)
 - [Submitting jobs, using Slurm](slurm.md)
 - [Workshops and courses](../workshops_courses/workshops_courses.md)
@@ -13,8 +14,9 @@ Snowy is one of the [UPPMAX clusters](uppmax_cluster.md).
 ## Accounts and log in
 
 Snowy is different from other clusters at UPPMAX in that
-there are no login nodes for Snowy.
-All access to this system is done via secure shell (a.k.a [SSH](../software/ssh.md)) interactive login to the login node,
+there are no [login nodes](../cluster_guides/login_node.md) for Snowy.
+All access to this system is done via secure shell
+(a.k.a [SSH](../software/ssh.md)) interactive login to the login node,
 using the domain name **rackham.uppmax.uu.se**
 
 ```bash
@@ -27,7 +29,8 @@ on how to get a user account.
 For questions concerning accounts and access to [Rackham](rackham.md) and [Snowy](snowy.md),
 please contact [UPPMAX support](../support.md).
 
-Note that the machine you arrive at when logged in is only a so called login node, where you can do various smaller tasks.
+Note that the machine you arrive at when logged in,
+is only a so called [login node](../cluster_guides/login_node.md), where you can do various smaller tasks.
 We have [some limits](../cluster_guides/login_node_restrictions.md) in place that restricts your usage.
 For larger tasks you should use our batch system that pushes your jobs onto other machines within the cluster.
 
@@ -39,16 +42,20 @@ To allow a fair and efficient usage of the system we use a resource manager to c
 On Snowy we use [the Slurm resource manager](../cluster_guides/slurm.md),
 as is discussed in more detail there.
 
-**Note:** When accessing snowy from Rackhams login nodes you must always use the flag -M for all Slurm commands.
+**Note:** When accessing snowy from Rackhams [login nodes](../cluster_guides/login_node.md) you must always use the flag -M for all Slurm commands.
 Examples:
 
-- squeue -M snowy
-- jobinfo -M snowy
-- sbatch -M snowy slurm\_script\_file
-- scancel -u username -M snowy
-- interactive -A projectname -M snowy -p node -n 32 -t 01:00:00
+- [`squeue`](../software/squeue.md) `-M snowy`
+- [`jobinfo`](../software/jobinfo.md) `-M snowy`
+- [`sbatch`](../software/sbatch.md) `-M snowy slurm_script_file`
+- `scancel -u username -M snowy`
+- [`interactive`](../software/interactive.md) `-A projectname -M snowy -p node -n 32 -t 01:00:00`
 
-**Note:** We always recommend loading all your modules in your job script file, This is even more important when running on Snowy since the module environment is not the same on the Rackham login nodes as on Snowy compute nodes.
+**Note:** We always recommend loading all your modules in your job script file.
+This is even more important when running on Snowy since the
+[module environment](../cluster_guides/modules.md)
+is not the same on the Rackham [login nodes](../cluster_guides/login_node.md)
+as on Snowy compute nodes.
 
 ### Some Limits
 
@@ -83,7 +90,6 @@ A "**core**" job:
 - Is recommended not to demand "--mem"
 - Must not demand to run on a fat node (see below, for an explanation of "fat"), a devel node.
 - Must not use more than 8 GB of RAM for each core it demands. If a job needs half of the RAM, i.e. 64 GB, you need to reserve also at least half of the cores on the node, i.e. 8 cores, with the "-n 8" flag.
-
 
 A "**core**" job is accounted on your project as one "core hour" (sometimes also named as a "CPU hour") per core you have been allocated, for each wallclock hour that it runs. On the other hand, a "**node**" job is accounted on your project as sixteen core hours for each wallclock hour that it runs, multiplied with the number of nodes that you have asked for.
 
@@ -127,11 +133,12 @@ basic Linux knowledge to use Snowy.
 
 Additionally, Snowy has GPUs and allows for jobs running for maximally 30 days.
 
-Snowy does not have a login node. Instead, it uses a login node on [Rackham](rackham.md).
+Snowy does not have a [login node](../cluster_guides/login_node.md).
+Instead, it uses a login node on [Rackham](rackham.md).
 
 ???- tip "Using Linux"
 
-    Using Linux (and especially the so-called command-line/terminal) is essential
+    Using Linux (and especially the so-called command-line/[terminal](../software/terminal.md)) is essential
     to use Snowy. Learning the essential Linux commands
     is described [here](../getting_started/linux.md).
 

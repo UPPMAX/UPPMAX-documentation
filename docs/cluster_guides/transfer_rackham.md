@@ -25,22 +25,22 @@ a graphical tool.
 ## Using SCP
 
 One can transfer files to/from Rackham
-using SCP in a terminal.
+using SCP in a [terminal](../software/terminal.md).
 This works similar to a regular copy of files,
 except that a remote address needs to be specified.
 The advantage of SCP is that is can be used in scripts.
 
-See [Rackham file transfer using SCP](rackham_file_transfer_using_scp.md)
+See [Rackham file transfer using SCP](../software/rackham_file_transfer_using_scp.md)
 for a step-by-step guide how to transfer files using SCP.
 
 ## Using SFTP
 
-One can transfer files to/from Rackham using SFTP in a terminal.
+One can transfer files to/from Rackham using SFTP in a [terminal](../software/terminal.md).
 One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.
 
-See [Rackham file transfer using SFTP](rackham_file_transfer_using_sftp.md)
+See [Rackham file transfer using SFTP](../software/rackham_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
 
 ## Using `transit`
@@ -108,4 +108,3 @@ flowchart TD
 > The purple nodes are about file transfer,
 > the blue nodes are about 'doing other things'.
 > The user can be either inside or outside SUNET.
-

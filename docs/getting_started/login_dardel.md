@@ -1,5 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - Dardel
+---
+
 # Log in to Dardel
 
+There are multiple clusters one can [log in to](../getting_started/login.md).
 Here it is described how to login to Dardel.
 
 ## How do I do this?
@@ -43,14 +51,14 @@ this can take some hours.
     If there is a PDC project,
     you may have access to a project with Dardel.
 
-    ![](./img/supr_naiss_dardel_project.png)
+    ![Example user that has access to a PDC project](../cluster_guides/img/supr_naiss_dardel_project.png)
 
     > Example user that has access to a PDC project
 
     If you may a PDC project that does not use Dardel,
     click on the project to go the the project overview.
 
-    ![](./img/supr_naiss_dardel_project_overview.png)
+    ![Example PDC project overview](../cluster_guides/img/supr_naiss_dardel_project_overview.png)
 
     > Example PDC project overview
 
@@ -58,7 +66,7 @@ this can take some hours.
     If you see 'Dardel' among the compute resources,
     you have confirmed you have access to a Dardel project.
 
-    ![](./img/naiss_project_dardel_resources.png)
+    ![Resources from an example PDC project](../cluster_guides/img/naiss_project_dardel_resources.png)
 
     > Resources from an example PDC project
 
@@ -76,21 +84,29 @@ You will get a PDC account overnight.
     If you see 'Dardel' among the resources, and status 'Enabled'
     in the same row, you have a PDC account!
 
-    ![](./img/supr_naiss_dardel_account.png)
+    ![Example of a user having an account at PDC's Dardel HPC cluster](../cluster_guides/img/supr_naiss_dardel_account.png)
 
     > Example of a user having an account at PDC's Dardel HPC cluster
+
+???- question "How do I find out my PDC username?"
+
+    In [the PDC login portal](https://loginportal.pdc.kth.se), after logging
+    in, you can see your Dardel username in the top-right corner:
+
+    ![PDC login portal with username and key](./img/pdc_login_portal_with_username_and_key.png)
+
+    > Example screenshot of the PDC login portal.
+    > The Dardel username of this user is `richelbi`
 
 ### 3. Create SSH key pair
 
 Create SSH key and add it to the PDC Login Portal.
 
-- Create the password less SSH key in a Linux terminal (e.g. from Rackham):
-
+- Create the password less SSH key in a Linux [terminal](../software/terminal.md) (e.g. from Rackham):
 
 ```bash
 module load darsync
 ```
-
 
 ```bash
 darsync sshkey
@@ -112,7 +128,7 @@ cat ~/id_ed25519_pdc.pub
 
     The text will look similar to this:
 
-    ```
+    ```console
     ssh-ed25519 AAAA69Nz1C1lZkI1NdE5ABAAIA7RHe4jVBRTEvHVbEYxV8lnOQl22N+4QcUK+rDv1gPS user@rackham2.uppmax.uu.se
     ```
 
@@ -137,4 +153,3 @@ where `[username]` is your PDC username, for example `ssh -X sven@dardel.pdc.kth
     The `-X` is for so-called [X forwarding](../software/ssh_x_forwarding.md).
     It allows you to view graphical things,
     such as viewing plots or running graphical programs
-

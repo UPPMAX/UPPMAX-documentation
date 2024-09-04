@@ -5,7 +5,7 @@
 This page describes how to start an interactive node on [Snowy](snowy.md),
 unlike the [general information on starting an interactive node](start_interactive_node.md).
 
-To use an interactive node, in a terminal, type:
+To use an interactive node, in a [terminal](../software/terminal.md), type:
 
 ```bash
 interactive -A [project name] -M snowy
@@ -24,7 +24,7 @@ that has a default duration of 1 hours.
 
     One can go to the SUPR NAISS pages to see one's projects,
 
-    ![](./img/naiss_supr_project_2023_2_25.png)
+    ![Example of the Snowy project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
 
     > Example of the Snowy project called 'UPPMAX 2023/2-25'
 
@@ -56,4 +56,3 @@ that has a maximum duration of 8 hours.
     It can take tens of seconds before an interactive node is allocated.
 
     Snowy has not frozen, just be a bit more patient.
-

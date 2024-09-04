@@ -1,9 +1,19 @@
+---
+tags:
+  - login
+  - log in
+  - Bianca
+  - console
+  - terminal
+  - SSH
+---
+
 # Login to the Bianca console environment using SSH keys
 
 There are multiple ways to [log in to Bianca](login_bianca.md).
 
 This page describes how to [log in to Bianca](login_bianca.md)
-using a terminal and an SSH key pair.
+using a [terminal](../software/terminal.md) and an SSH key pair.
 
 ## 1. Get inside SUNET
 
@@ -21,7 +31,7 @@ an easier setup is [log in to the Bianca console environment with a password](lo
 
 ## 2. Use `ssh` to log in
 
-From a terminal, use [`ssh`](../software/ssh.md) to log in:
+From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
 ssh -A [user]-[project name]@bianca.uppmax.uu.se
@@ -44,7 +54,7 @@ ssh -A sven-sens2023598@bianca.uppmax.uu.se
 
     On Rackham, one can use `-X`:
 
-    ```
+    ```bash
     ssh -X username@rackham.uppmax.uu.se
     ```
 
@@ -62,7 +72,8 @@ is the 2FA number.
 
 ## 4. You are in
 
-Enjoy! You are in! To be precise, you are on a Bianca login node.
+Enjoy! You are in! To be precise,
+you are on a Bianca [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -70,10 +81,18 @@ Enjoy! You are in! To be precise, you are on a Bianca login node.
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive node](../cluster_guides/start_interactive_node_on_bianca.md).
+    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
+
+In a Bianca console environment:
+
+- Text display is limited to 50kBit/s.
+  This means that if you create a lot of text output,
+  you will have to wait some time before you get your prompt back.
+- Cut, copy and paste work as usual.
+  Be careful to not copy-paste sensitive data!
 
 ???- question "Why does one need two passwords?"
 

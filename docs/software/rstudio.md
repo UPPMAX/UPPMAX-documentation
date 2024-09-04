@@ -8,5 +8,20 @@ RStudio is an IDE specialized for [the R programming language](r.md).
 
 Using RStudio differs per UPPMAX cluster:
 
-- [RStudio on Bianca](../cluster_guides/rstudio_on_bianca.md)
-- [RStudio on Rackham](../cluster_guides/rstudio_on_rackham.md)
+- [RStudio on Bianca](../software/rstudio_on_bianca.md)
+- [RStudio on Rackham](../software/rstudio_on_rackham.md)
+
+## Troubleshooting
+
+### R encountered a fatal error
+
+Full error message:
+
+```text
+R encountered a fatal error. The session was terminated.
+```
+
+![R encountered a fatal error. The session was terminated](./img/rstudio_error_r_encountered_a_fatal_error.png)
+
+Hypothesis: the home folder is full.
+Check this by using [uquota.md](uquota.md).

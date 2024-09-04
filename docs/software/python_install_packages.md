@@ -23,7 +23,7 @@ There are multiple ways to check if a Python package is installed:
 
 ### 1. pip list
 
-In the terminal, type:
+In the [terminal](../software/terminal.md), type:
 
 ```bash
 pip list
@@ -124,7 +124,7 @@ so it is loaded every time you login.
 
 ## `conda`
 
-See our [Conda user Guide](../cluster_guides/conda.md)
+See our [Conda user Guide](../software/conda.md)
 
 ## Using `setup.py`
 

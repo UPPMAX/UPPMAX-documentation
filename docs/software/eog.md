@@ -10,7 +10,6 @@ or [login to a remote desktop](../getting_started/login.md)
 
 Usage:
 
-
 ```bash
 eog [filename]
 ```
@@ -23,7 +22,7 @@ eog my.png
 
 ???- question "Need an example image to work with?"
 
-    In the terminal, do:
+    In the [terminal](../software/terminal.md), do:
 
     ```bash
     convert -size 32x32 xc:transparent my.png
