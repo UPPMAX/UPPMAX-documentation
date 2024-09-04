@@ -17,7 +17,7 @@ Using RStudio differs per UPPMAX cluster:
 
 Full error message:
 
-```
+```text
 R encountered a fatal error. The session was terminated.
 ```
 
