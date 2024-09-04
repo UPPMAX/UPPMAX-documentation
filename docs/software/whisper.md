@@ -66,6 +66,8 @@ Use below features only if output is not satisfactory in Step 3.4 and for less s
 
 2. Try switching to Model: large-v3.
 3. Use combination of both 1 and 2.   
+4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
+
 ### Languages available
 Use the following 2 letter code to perform transcribing when asked in the GUI:  
 `en`: "english",
