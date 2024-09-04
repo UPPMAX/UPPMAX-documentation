@@ -15,12 +15,16 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 ### Step 2: Data transfer from local to project  
 
+<<<<<<< HEAD
+1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (Windows only), [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux) or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/).
+=======
 1. Transfer your data from your local machine to Wharf using SFTP clients
     like [WinSCP](../cluster_guides/transfer_bianca.md#winscp-windows)
     client (Windows only),
     [FileZilla](../cluster_guides/transfer_bianca.md#filezilla-linuxmacoswindows)
     client (Mac, Windows or Linux)
     or other ways via [terminal](../cluster_guides/transfer_bianca.md).
+>>>>>>> main
 
 ### Step 3: Transcribing/Translating  
 
@@ -39,6 +43,15 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     [jayan@sens2024544-bianca proj]$ module load Whisper-gui
     [jayan@sens2024544-bianca proj]$ whisper-gui.sh
     ```
+<<<<<<< HEAD
+    Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created. 
+4. Select appropriate options, or use the following for the best results:  
+   device: gpu  
+   SLURM job name: [give any name without space]  
+   Total audio length in hours : [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
+   Model: large-v2  
+   by word timestamps: by_sentence
+=======
 
     Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
 
@@ -49,6 +62,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     - Total audio length in minutes : [give a rough average if transcribing files in bulk]  
     - Model: large-v2  
     - by word timestamps: by_sentence
+>>>>>>> main
 
 ### Step 4: Monitoring jobs  
 
@@ -71,6 +85,16 @@ Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file li
 
 ### Advance settings
 
+<<<<<<< HEAD
+Use below features only if output is not satisfactory in Step 3.4 and for less spoken languages or languages that are not having good resources online for understanding :    
+1. When asked for Initial Prompt, provide a list of comma separated words or senteneces (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
+
+2. Try switching to Model: large-v3.
+3. Use combination of both 1 and 2.   
+4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
+
+=======
+>>>>>>> main
 ### Languages available
 
 Use the following 2 letter code to perform transcribing when asked in the GUI:  
