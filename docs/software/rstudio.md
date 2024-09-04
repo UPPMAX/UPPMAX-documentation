@@ -24,8 +24,4 @@ R encountered a fatal error. The session was terminated.
 ![R encountered a fatal error. The session was terminated](./img/rstudio_error_r_encountered_a_fatal_error.png)
 
 Hypothesis: the home folder is full.
-Check this by doing this in the home folder:
-
-```bash
-du --max-depth 1 .
-```
+Check this by using [uquota.md](uquota.md).
