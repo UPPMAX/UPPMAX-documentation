@@ -36,7 +36,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     [jayan@sens2024544-bianca proj]$ whisper-gui.sh
     ```
 
-    Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
+    Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
 4. Select appropriate options, or use the following for the best results:  
    device: gpu  
    SLURM job name: [give any name without space]  
@@ -68,7 +68,7 @@ Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file li
 
 Use below features only if output is not satisfactory in Step 3.4 and for less spoken languages or languages that are not having good resources online for understanding :
 
-1. When asked for Initial Prompt, provide a list of comma separated words or senteneces (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
+1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
 
 2. Try switching to Model: large-v3.
 3. Use combination of both 1 and 2.
