@@ -11,6 +11,39 @@ Using RStudio differs per UPPMAX cluster:
 - [RStudio on Bianca](../software/rstudio_on_bianca.md)
 - [RStudio on Rackham](../software/rstudio_on_rackham.md)
 
+
+
+## RStudio versions
+
+
+```
+[richel@r210 richel]$ module spider Rstudio
+
+----------------------------------------------------------------------------
+  RStudio:
+----------------------------------------------------------------------------
+     Versions:
+        RStudio/1.0.136
+        RStudio/1.0.143
+        RStudio/1.0.153
+        RStudio/1.1.423
+        RStudio/1.1.463
+        RStudio/1.4.1106
+        RStudio/2022.02.0-443
+        RStudio/2022.02.3-492
+        RStudio/2022.07.1-554
+        RStudio/2023.06.0-421
+        RStudio/2023.06.2-561
+        RStudio/2023.12.1-402
+```
+
+Some links between version and official documentation:
+
+RStudio module         |RStudio Builds documentation
+-----------------------|-----------------------
+`RStudio/2023.12.1-402`|[here](https://dailies.rstudio.com/version/2023.12.1+402.pro1/)
+
+
 ## Troubleshooting
 
 ### R encountered a fatal error

@@ -81,8 +81,33 @@ Within that terminal, start an interactive session with 2 cores.
 In the terminal of the interactive session, do:
 
 ```bash
-module load RStudio/2023.06.2-561
+module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
 ```
+
+???- question "How does that look like?"
+
+    Your output will be similar to:
+
+    ```bash
+    [richel@r210 richel]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
+    R/4.3.1: Nearly all CRAN and BioConductor packages are installed and available by loading
+    the module R_packages/4.3.1 
+    R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might
+    R_packages/4.3.1: require you to load additional modules prior to use. monocle3 is such a package. See
+    R_packages/4.3.1: 'module help R_packages/4.3.1'
+
+    R_packages/4.3.1: The RStudio packages pane is disabled when loading this module, due to RStudio slowdowns
+    R_packages/4.3.1: because there are >20000 available packages. *All packages are still available.*  For 
+    R_packages/4.3.1: more information and instructions to re-enable the packages pane (not recommended) see
+    R_packages/4.3.1: 'module help R_packages/4.3.1'
+
+    RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
+    ```
+
+???- question "What happens if I do not load `R` or `R_packages`?"
+
+    Then you will have the sytem-wide R version 3.6.0
+    without any packages installed.
 
 ???- question "What does 'Sandboxing is not enabled for RStudio at UPPMAX' mean?"
 
@@ -111,15 +136,7 @@ module load RStudio/2023.06.2-561
     UPPMAX also disables the 'Packages' pane of RStudio if an R_packages module is loaded.
     ```
 
-???- question "Do I need to load `R` or `R_packages`?"
 
-    No.
-
-    Although RStudio needs R and some R packages,
-    these are loaded automatically via the module system.
-
-    Loading the module `RStudio`
-    will load the latest `R` and `R_packages` modules for you.
 
 ### 5. Start RStudio
 
@@ -143,6 +160,10 @@ Additionally, at startup and if enabled, your saved RStudio workspace
     RStudio when started up:
 
     ![RStudio when started up](./img/rstudio_started.png)
+
+    RStudio when ready:
+
+    ![RStudio when started up](./img/rstudio_with_r_v4_3_1.png)
 
     RStudio in action:
 
