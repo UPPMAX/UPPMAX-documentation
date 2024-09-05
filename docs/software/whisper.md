@@ -178,7 +178,7 @@ Use the following 2 letter code to perform transcribing when asked in the GUI:
     `su`: "sundanese",
     `yue`: "cantonese"
 
-### <a name="proposal_template"></a>Proposal template
+### Proposal template
 
 Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:  
 
