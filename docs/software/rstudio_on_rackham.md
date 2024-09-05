@@ -137,7 +137,6 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     ```
 
 
-
 ### 5. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the

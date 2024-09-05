@@ -12,7 +12,6 @@ Using RStudio differs per UPPMAX cluster:
 - [RStudio on Rackham](../software/rstudio_on_rackham.md)
 
 
-
 ## RStudio versions
 
 
