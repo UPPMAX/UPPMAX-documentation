@@ -94,21 +94,20 @@ interactive -A sens2016001 -n 2 -t 8:00:00
 
 In the terminal of the interactive session, do:
 
+In the terminal of the interactive session, do:
+
 ```bash
-module load RStudio/2023.12.1-402
+module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
 ```
 
-:warning: There have been issues using ``RStudio/2023.06.2-561`` together with ``R/4.3.1``
+???- question "What happens if I do not load `R` or `R_packages`?"
 
-???- question "Do I need to load `R` or `R_packages`?"
+    Then you will have the sytem-wide R version 3.6.0
+    without any packages installed.
 
-    No.
+???- question "For UPPMAX staff"
 
-    Although RStudio needs R and some R packages,
-    these are loaded automatically via the module system.
-
-    Loading the module `RStudio`
-    will load the latest `R` and `R_packages` modules for you.
+    There have been issues using `RStudio/2023.06.2-561` together with `R/4.3.1`
 
 ### 5. Start RStudio
 
