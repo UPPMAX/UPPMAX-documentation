@@ -7,7 +7,7 @@ name: Check spelling
 on:
   push:
     branches:
-      - main
+      - jayan-whisper
   pull_request:
   schedule:
   - cron: "0 0 21 * *"
