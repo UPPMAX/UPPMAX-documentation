@@ -29,7 +29,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
    ```console
    [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
    ```
-   
+
     This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2.  
 
 1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data to `proj` folder.  
