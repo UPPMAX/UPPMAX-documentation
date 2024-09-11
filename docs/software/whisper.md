@@ -12,6 +12,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 ### Step 1: Accessing your project  
 
 1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
+
 2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
 
@@ -22,33 +23,28 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 ### Step 3: Transcribing/Translating  
 
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
+
 2. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
 
     ```console
     [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
     ```
-<<<<<<< HEAD
 
-    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2 and transfer this to `proj` folder.
-3. Enter the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
-
-=======
     This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2.  
+
 3. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data to `proj` folder.  
+
 4. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
->>>>>>> jayan-whisper
+
     ```console
     [jayan@sens2024544-bianca proj]$ module load Whisper-gui
     [jayan@sens2024544-bianca proj]$ whisper-gui.sh
     ```
-<<<<<<< HEAD
 
-    Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.
-4. Select appropriate options, or use the following for the best results:  
-=======
     Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.  
+    
 5. Select appropriate options, or use the following for the best results:  
->>>>>>> jayan-whisper
+
    device: gpu  
    SLURM job name: [give any name without space]  
    Total audio length in hours : [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
@@ -62,12 +58,13 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 ### Step 5: Data transfer from project to local
 
-1. Transfer your output results from project folder (Bianca: `/cygnus/proj/`) to Wharf.
+1. Transfer your output results from project folder (Bianca: `/cygnus/proj/`) to Wharf.  
+
 2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 2.
 
 ### Output files
 
-By default you receive 5 types of output files for each file you transcribe/translate:
+By default you receive 5 types of output files for each file you transcribe/translate:  
 With timestamps: `.srt`, `.vtt`, `.tsv`  
 Without timestamps: `.txt`  
 With detailed model metadata: `.json`.
