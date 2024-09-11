@@ -26,9 +26,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 2. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
 
-        ```console
-        [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
-        ```
+        module load Whisper-gui        
 
     This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2.  
 
@@ -36,10 +34,8 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
 
 4. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
 
-        ```console
-        [jayan@sens2024544-bianca proj]$ module load Whisper-gui
-        [jayan@sens2024544-bianca proj]$ whisper-gui.sh
-        ```
+        module load Whisper-gui
+        whisper-gui.sh
 
     Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.  
     
