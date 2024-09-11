@@ -57,7 +57,7 @@ Without timestamps: `.txt`
 With detailed model metadata: `.json`. 
 
 On Mac, `.srt` and `.vtt` can be opened in Word by:  
-Tap with two fingers. Select Encoding as "UTF-8". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
+Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
 
 ### Advance settings
 
