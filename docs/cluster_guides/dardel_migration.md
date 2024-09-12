@@ -657,7 +657,7 @@ tail ~/dardel_naiss2024-23-9999.err
 
 ??? question "I have the warning `rsync: [generator] failed to set times on "...": Operation not permitted (1)`. Did something go wrong?"
 
-    No. 
+    No.
 
     Here is the full warning:
 
