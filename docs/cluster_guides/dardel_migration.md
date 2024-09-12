@@ -171,14 +171,14 @@ darsync sshkey
      \___ \___ \| |_| | ' /|  _|  \ V /
       ___) |__) |  _  | . \| |___  | |
      |____/____/|_| |_|_|\_\_____| |_|
-            
+           
     The sshkey module of this script will generate a SSH key pair that you can use to login to Dardel.
     It will create two files, one with the private key and one with the public key.
     The private key should be kept secret and the public key should be added to your authorized_keys file on Dardel.
 
 
 
-     
+    
     Created SSH key: /home/richel/id_ed25519_pdc and /home/richel/id_ed25519_pdc.pub
 
     Content of the public key:
@@ -190,7 +190,7 @@ darsync sshkey
 
     You will now have to add the public key above to the Dardel Login Portal, https://loginportal.pdc.kth.se
 
-    See the user guide for more info about this, 
+    See the user guide for more info about this,
     https://docs.uppmax.uu.se/software/ssh_key_use_dardel/#2-how-to-add-an-ssh-key-to-the-pdc-login-portal
     ```
 
@@ -232,22 +232,22 @@ darsync check
      | |___|  _  | |__| |___| . \
       \____|_| |_|_____\____|_|\_\
 
-    The check module of this script will recursively go through 
-    all the files in, and under, the folder you specify to see if there 
-    are any improvements you can to do save space and speed up the data transfer. 
+    The check module of this script will recursively go through
+    all the files in, and under, the folder you specify to see if there
+    are any improvements you can to do save space and speed up the data transfer.
 
-    It will look for file formats that are uncompressed, like .fasta and .vcf files 
-    (most uncompressed file formats have compressed variants of them that only 
+    It will look for file formats that are uncompressed, like .fasta and .vcf files
+    (most uncompressed file formats have compressed variants of them that only
     take up 25% of the space of the uncompressed file).
 
-    If you have many small files, e.g. folders with 100 000 or more files, 
-    it will slow down the data transfer since there is an overhead cost per file 
-    you want to transfer. Large folders like this can be archived/packed into 
+    If you have many small files, e.g. folders with 100 000 or more files,
+    it will slow down the data transfer since there is an overhead cost per file
+    you want to transfer. Large folders like this can be archived/packed into
     a single file to speed things up.
 
 
-    Specify which directory you want to copy. 
-    Make sure to use tab completion (press the tab key to complete directory names) 
+    Specify which directory you want to copy.
+    Make sure to use tab completion (press the tab key to complete directory names)
     to avoid spelling errors.
     Ex.
     /proj/naiss2099-22-999/
@@ -258,28 +258,28 @@ darsync check
     /domus/h1/sven/Documents/MATLAB
 
 
-      ____   ___  _   _ _____ 
+      ____   ___  _   _ _____
      |  _ \ / _ \| \ | | ____|
-     | | | | | | |  \| |  _|  
-     | |_| | |_| | |\  | |___ 
+     | | | | | | |  \| |  _| 
+     | |_| | |_| | |\  | |___
      |____/ \___/|_| \_|_____|
 
-    Checking completed. Unless you got any warning messages above you 
+    Checking completed. Unless you got any warning messages above you
     should be good to go.
 
-    Generate a SLURM script file to do the transfer by running this script again, 
-    but use the 'gen' option this time. See the help message for details, 
+    Generate a SLURM script file to do the transfer by running this script again,
+    but use the 'gen' option this time. See the help message for details,
     or continue reading the user guide for examples on how to run it.
 
     darsync gen -h
 
-    A file containing file ownership information, 
+    A file containing file ownership information,
     /domus/h1/sven/Documents/darsync_Documents.ownership.gz,
     has been created. This file can be used to make sure that the
-    file ownership (user/group) will look the same on Dardel as it does here. 
-    See ../cluster_guides/dardel_migration/#52-check-for-problems 
+    file ownership (user/group) will look the same on Dardel as it does here.
+    See ../cluster_guides/dardel_migration/#52-check-for-problems
     for more info about this.
-        
+       
     ```
 
 ???- question "Can I also give the arguments on the command line?"
@@ -402,24 +402,24 @@ darsync gen
     and generate a script that can be submitted to SLURM to preform the
     data transfer.
 
-    It will require you to know 
+    It will require you to know
 
         1) Which directory on UPPMAX you want to transfer (local directory).
-        2) Which UPPMAX project id the SLURM job should be run under. 
+        2) Which UPPMAX project id the SLURM job should be run under.
             ex. naiss2099-23-999
         3) Which cluster the SLURM job should be run on.
             ex. rackham, snowy
         4) Which username you have at Dardel.
-        5) Where on Dardel it should transfer your data to. 
+        5) Where on Dardel it should transfer your data to.
             ex. /cfs/klemming/projects/snic/naiss2099-23-999/from_uppmax
         6) Which SSH key should be used when connecting to Dardel.
             ex. /home/user/id_ed25519_pdc
-        7) Where you want to save the generated SLURM script. 
+        7) Where you want to save the generated SLURM script.
 
 
 
-    Specify which directory you want to copy. 
-    Make sure to use tab completion (press the tab key to complete directory names) 
+    Specify which directory you want to copy.
+    Make sure to use tab completion (press the tab key to complete directory names)
     to avoid spelling errors.
     Ex.
     /proj/naiss2099-22-999/
@@ -443,8 +443,8 @@ darsync gen
     Specify cluster: rackham
 
 
-    Specify the username that should be used to login at Dardel. 
-    It is the username you have created at PDC and it is 
+    Specify the username that should be used to login at Dardel.
+    It is the username you have created at PDC and it is
     probably not the same as your UPPMAX username.
 
     Specify Dardel username: svensv
@@ -457,24 +457,24 @@ darsync gen
     Specify Dardel path: /cfs/klemming/projects/snic/naiss2099-23-999
 
 
-    Specify which SSH key should be used to login to Dardel. 
-    Create one by running `dardel_ssh-keygen` if you have not done so yet. 
-    If no path is given it will use the default key created by `dardel_ssh-keygen`, 
+    Specify which SSH key should be used to login to Dardel.
+    Create one by running `dardel_ssh-keygen` if you have not done so yet.
+    If no path is given it will use the default key created by `dardel_ssh-keygen`,
     ~/id_ed25519_pdc
-                        
-    Specify SSH key: 
+                       
+    Specify SSH key:
 
 
-    Specify where the SLURM script file should be saved. 
+    Specify where the SLURM script file should be saved.
     If not given it will save it here: ~/darsync_Documents.slurm
-                        
-    Specify SLURM script path: 
+                       
+    Specify SLURM script path:
 
 
-      ____   ___  _   _ _____ 
+      ____   ___  _   _ _____
      |  _ \ / _ \| \ | | ____|
-     | | | | | | |  \| |  _|  
-     | |_| | |_| | |\  | |___ 
+     | | | | | | |  \| |  _| 
+     | |_| | |_| | |\  | |___
      |____/ \___/|_| \_|_____|
 
 
@@ -489,7 +489,7 @@ darsync gen
 
     bash /home/sven/darsync_Documents.slurm
 
-    If the transfer starts you know the script is working, and you can terminate 
+    If the transfer starts you know the script is working, and you can terminate
     it by pressing ctrl+c and submit the script as a SLURM job.
 
     Run this command to submit it as a job:
@@ -649,10 +649,10 @@ tail ~/dardel_naiss2024-23-9999.err
     If the job finished successfully, the output will look similar to this:
 
     ```bash
-    [sven@rackham1 ~]$ tail darsync_Documents.out 
+    [sven@rackham1 ~]$ tail darsync_Documents.out
     sending incremental file list
-    [sven@rackham1 ~]$ tail darsync_Documents.err 
-    [sven@rackham1 ~]$ 
+    [sven@rackham1 ~]$ tail darsync_Documents.err
+    [sven@rackham1 ~]$
     ```
 
 ??? question "I have the warning `rsync: [generator] failed to set times on "...": Operation not permitted (1)`. Did something go wrong?"
@@ -680,7 +680,7 @@ tail ~/dardel_naiss2024-23-9999.err
     rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
     ```
 
-    This is a warning, indicating that some file **attributes** were not 
+    This is a warning, indicating that some file **attributes** were not
     transferred. An easy example is the file attribute for who is the
     file creator: this will differ between UPPMAX and PDC (the organisation that
     takes care of Dardel) because you have
@@ -701,7 +701,7 @@ rm ~/id_ed25519_pdc*
 
     ```bash
     [sven@rackham1 ~]$ rm ~/id_ed25519_pdc*
-    [sven@rackham1 ~]$ 
+    [sven@rackham1 ~]$
     ```
 
 ### 9. Delete the files on Rackham
@@ -716,7 +716,7 @@ you can delete the files on Rackham that you've just transferred to Dardel.
 
     ```bash
     [sven@rackham1 ~]$ rm -rf Documents/
-    [sven@rackham1 ~]$ 
+    [sven@rackham1 ~]$
     ```
 
     The `rm` command (`rm` is short for 'remove') cannot be undone.
