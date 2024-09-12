@@ -655,6 +655,38 @@ tail ~/dardel_naiss2024-23-9999.err
     [sven@rackham1 ~]$ 
     ```
 
+??? question "I have the warning `rsync: [generator] failed to set times on "...": Operation not permitted (1)`. Did something go wrong?"
+
+    No. 
+
+    Here is the full warning:
+
+    ```text
+    rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/my_project/.": Operation not permitted (1)
+    ```
+
+
+    This is a warning, indicating that the target folder on Dardel already exists.
+    You can safely ignore it.
+
+
+??? question "I have the warning `rsync error: some files/attrs were not transferred`. Did something go wrong?"
+
+    No. 
+
+    Here is the full warning:
+
+    ```text
+    rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+    ```
+
+    This is a warning, indicating that some file **attributes** were not 
+    transferred. An easy example is the file attribute for who is the
+    file creator: this will differ between UPPMAX and PDC (the organisation that
+    takes care of Dardel) because you have
+    different usernames, for example `svesv` ('Sven Svensson') on UPPMAX
+    and `svensv` on PDC. Hence, the file creator will differ between files.
+
 ### 8. Delete the SSH key
 
 After the migration, these temporary SSH keys can and should be deleted:
