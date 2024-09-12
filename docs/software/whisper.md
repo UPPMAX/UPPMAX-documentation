@@ -42,7 +42,7 @@ Snowy and Bianca. It can either be used through a User Interface or loaded as a 
     ```
 
     Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.  
-    
+
 1. Select appropriate options, or use the following for the best results:  
 
    device: gpu  

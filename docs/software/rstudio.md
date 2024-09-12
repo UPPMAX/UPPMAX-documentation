@@ -134,5 +134,3 @@ rm .Rhistory
 
   Full report can be found at [RT ticket #298623](https://support.naiss.se/Ticket/Display.html?id=298623)
 
-
-

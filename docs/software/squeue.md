@@ -9,10 +9,10 @@ The [job scheduler](../cluster_guides/slurm.md) consists of many
 programs to manage jobs.
 `squeue` is a tool to view information about the job queues.
 
-## View all jobs 
+## View all jobs
 
 ### View all jobs in the Bianca or Rackham queue
- 
+
 View all jobs in the [Bianca](../cluster_guides/bianca.md) or [Rackham](../cluster_guides/rackham.md) queue:
 
 ```bash
