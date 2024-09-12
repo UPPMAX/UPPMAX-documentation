@@ -132,5 +132,5 @@ rm .Rhistory
 
 ???- note "For staff"
 
-  Full report can be found at [RT ticket #298623](https://support.naiss.se/Ticket/Display.html?id=298623)
+  Full report can be found at RT ticket 298623
 
