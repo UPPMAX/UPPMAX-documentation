@@ -672,7 +672,7 @@ tail ~/dardel_naiss2024-23-9999.err
 
 ??? question "I have the warning `rsync error: some files/attrs were not transferred`. Did something go wrong?"
 
-    No. 
+    No.
 
     Here is the full warning:
 
