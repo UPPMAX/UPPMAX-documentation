@@ -59,5 +59,80 @@ R encountered a fatal error. The session was terminated.
 
 ![R encountered a fatal error. The session was terminated](./img/rstudio_error_r_encountered_a_fatal_error.png)
 
-Hypothesis: the home folder is full.
+This is because the home folder is full.
+
 Check this by using [uquota.md](uquota.md).
+
+???- question "How does that look like?"
+
+    Your output will be similar to this:
+
+    ```bash
+    [richel@rackham3 ~]$ uquota
+    Your project     Your File Area       Unit        Usage  Quota Limit  Over Quota
+    ---------------  -------------------  -------  --------  -----------  ----------
+    home             /home/sven           GiB          24.7           32
+    home             /home/sven           files       79180       300000
+    naiss2024-22-49  /proj/worldpeace     GiB           5.1          128
+    naiss2024-22-49  /proj/worldpeace     files       20276       100000
+    ```
+
+Candidates for files that are too big, that are hidden files:
+
+- `.RData`
+- `.Renviron`
+- `.Rhistory`
+
+One can use `ls -all` to see all files, including hidden files:
+
+```bash
+ls --all
+```
+
+???- question "How does that look like?"
+
+    Your output will be similar to this:
+
+    ```bash
+    [sven@rackham2 ~]$ ls --all
+    .                      .gtkrc               .nextflow.log.8
+    ..                     .ICEauthority        .nextflow.log.9
+    .allinea               .ipython             .nv
+    .bash_history          .java                .oracle_jre_usage
+    .bash_logout           .jupyter             .pki
+    .bash_profile          .kde                 private
+    .bashrc                .keras               .profile
+    .bashrc.save           .lesshst             .python_history
+    .beast                 lib                  .r
+    bin                    .lmod.d              R
+    .cache                 .local               .RData
+    .conda                 .login               .Rhistory
+    .config                .MathWorks           .rstudio-desktop
+    .cshrc                 .matlab              .ssh
+    .dbus                  .mozilla             .subversion
+    DNABERT_2              my_little_turtle.py  ticket_297538
+    .emacs                 .nextflow            users
+    .esd_auth              .nextflow.log        .viminfo
+    .gitconfig             .nextflow.log.1      .vscode-oss
+    .git-credential-cache  .nextflow.log.2      .vscode-server
+    glob                   .nextflow.log.3      .wget-hsts
+    .gnupg                 .nextflow.log.4      .Xauthority
+    .gracetimefile         .nextflow.log.5      .xfce4-session.verbose-log
+    .gradle                .nextflow.log.6      .xfce4-session.verbose-log.last
+    .gstreamer-0.10        .nextflow.log.7      .zshrc
+    ```
+
+You can delete these hidden files, by:
+
+```bash
+rm .RData
+rm .Renviron
+rm .Rhistory
+```
+
+???- note "For staff"
+
+  Full report can be found at [RT ticket #298623](https://support.naiss.se/Ticket/Display.html?id=298623)
+
+
+
