@@ -8,31 +8,19 @@ according to [DNABERT 2](https://github.com/MAGICS-LAB/DNABERT_2)
 DNABERT 2 is not part of
 [the UPPMAX module system](../cluster_guides/modules.md).
 
-For [Rackham](../cluster_guides/rackham.md), installing
-seems to be find, as [conda](conda.md) will install it in a home folder.
+???- info "For UPPMAX staff"
 
-For [Bianca](../cluster_guides/bianca.md),
-maybe a [Singularity](../software/singularity.md) container
-is needed.
+    Notes on installing and running DNABERT2 on Rackham and Snowy
+    can be found [here](https://github.com/UPPMAX/ticket_297538)
 
-## Singularity container
+## Installing DNABERT 2
 
-This is untested to work.
+Run [dnabert2_install_on_rackham.sh](dnabert2_install_on_rackham.sh).
 
-Using [this Singularity definition file, called 'dnabert2.def'](dnabert2.def):
+## Running DNABERT 2
 
-Building a Singularity container:
-
-```bash
-sudo singularity build dnabert2.sif dnabert2.def 
-```
-
-Running the container, using
-[this example Python script, called 'dnabert2.py'](dnabert2.py):
-
-```bash
-singularity run dnabert2.sif dnabert2.py
-```
+Run [dnabert2_run_on_rackham.sh](dnabert2_run_on_rackham.sh)
+with the example Python script [dnabert2_example.py](dnabert2_example.py).
 
 ## Links
 
