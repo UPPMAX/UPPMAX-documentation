@@ -44,8 +44,9 @@ an active UPPMAX project for that UPPMAX cluster.
 
 ```text
 ````
-sbatch: error: Errors in job submission: 
-sbatch: error: ERROR 1: Invalid project. 
+
+sbatch: error: Errors in job submission:
+sbatch: error: ERROR 1: Invalid project.
 sbatch: error: Use the flag -A to specify an active project with allocation on this cluster.
 sbatch: error: Batch job submission failed: Unspecified error```
 
