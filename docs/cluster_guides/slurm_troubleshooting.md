@@ -36,3 +36,32 @@ an active UPPMAX project for that UPPMAX cluster.
   and see if the project you used is indeed an active UPPMAX project that can
   be used on the cluster you expect
 - Use these in your scripts
+
+
+## ERROR 1: Invalid project
+
+### Full error message
+
+```text
+````
+sbatch: error: Errors in job submission: 
+sbatch: error: ERROR 1: Invalid project. 
+sbatch: error: Use the flag -A to specify an active project with allocation on this cluster.
+sbatch: error: Batch job submission failed: Unspecified error```
+
+### To reproduce
+
+```bash
+sbatch my_script.sh -A my_project
+```
+
+### Problem
+
+The order of the arguments is incorrect.
+The script to be submitted must be the last argument.
+
+### Solution
+
+```bash
+sbatch -A my_project my_script.sh
+```
