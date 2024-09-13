@@ -722,6 +722,16 @@ you can delete the files on Rackham that you've just transferred to Dardel.
     The `rm` command (`rm` is short for 'remove') cannot be undone.
     Luckily, your files are on Dardel already :-)
 
+## Questions
+
+???- question "How long does the transfer take?"
+
+    Estimates range from 23 to 360 to gigabyte per hour.
+    This excludes the extremes of 7 and 3600 gigabyte per hour.
+
+    However, for large numbers of small files the metric files/seconds 
+    would be better, yet requires a benchmark.
+
 ## T. Troubleshooting
 
 ### T1. `ssh: connect to host dardel.pdc.kth.se port 22: No route to host`
