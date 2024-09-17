@@ -597,63 +597,32 @@ which is a regular [Slurm](slurm.md) script.
     > at the bottom.
     > In this case, the full folder name is `/cfs/klemming/projects/snic/naiss2023-22-10271`
 
-### 6. Submit the script created by Darsync
+### 6. Start the script created by Darsync
 
-You submit the transfer script the same way you submit any jobs at UPPMAX:
+You can then start the transfer script the same way you start any script:
 Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
 
 ```bash
-sbatch ~/dardel_naiss2024-23-9999.sh
+./dardel_naiss2024-23-9999.sh
 ```
 
-???- question "How does that look like?"
+???- question "Shouldn't I use sbatch?"
 
-    Similar to this:
+    No.
 
-    ```bash
-    [richel@rackham1 ~]$ sbatch /home/richel/darsync_Documents.slurm
-    Submitted batch job 49021945 on cluster rackham
-    ```
+    Indeed, usually (and until September 17th) we recommend to use `sbatch`. 
 
-???- question "I get an error 'sbatch: error: Batch job submission failed'. What do I do?"
+    However, in this case, the login node has a bigger
+    file transfer bandwidth compared to the compute nodes.
+    Hence, now the advice is to run the script on the login node.
 
-    It means that the script created for you has a mistake.
+???- question "My transfer job stopped. Is progress lost? Can I restart it?"
 
-    See [Slurm troubleshooting](slurm_troubleshooting.md) for guidance
-    on how to troubleshoot this.
+    No progress is lost. Yes, you can restart it: `rsync` will continue 
+    tranferring files that have not been transferred or have not been 
+    transferred completely.
 
-???- question "How do I know this job has finished?"
-
-    One way is to see if your job queue is empty:
-
-    ```bash
-    [sven@rackham1 ~]$ squeue -u $USER
-                 JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-    ```
-
-    Here, an empty job queue is shown.
-    If the job is still running, you can find it in this list.
-
-### 7. Check logs
-
-Once the submitted job has finished, have a look at the log file produced by the job and make sure it did not end in a error message.
-Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
-
-```bash
-tail ~/dardel_naiss2024-23-9999.out
-tail ~/dardel_naiss2024-23-9999.err
-```
-
-???- question "How does that look like?"
-
-    If the job finished successfully, the output will look similar to this:
-
-    ```bash
-    [sven@rackham1 ~]$ tail darsync_Documents.out
-    sending incremental file list
-    [sven@rackham1 ~]$ tail darsync_Documents.err
-    [sven@rackham1 ~]$
-    ```
+### 7. Check output
 
 ??? question "I have the warning `rsync: [generator] failed to set times on "...": Operation not permitted (1)`. Did something go wrong?"
 
