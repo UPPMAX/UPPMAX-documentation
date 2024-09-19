@@ -13,18 +13,12 @@ Here we describe how to run [Jupyter](../software/jupyter.md).
 Jupyter is an [IDE](../software/ides.md) specialized for
 [the Python programming language](../software/python.md).
 
-!!! info
-
-    - You can run Python in a **Jupyter-notebook**,
-      i.e. in a web interface with possibility of inline figures and debugging.
-    - **Jupyter-lab** is installed in the **python>=3.10.8 module**
+## Procedure
 
 ???- tip "Want to see a video?"
 
     If you want to see a video how to start Jupyter on Rackham,
     go [here](https://youtu.be/72rYjwGvWEc?si=Rn2F2ieO-kPufO9f)
-
-## Procedure
 
 ### 1. Get within SUNET
 
