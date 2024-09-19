@@ -148,7 +148,7 @@ For example:
 
 ```bash
 singularity pull library://sven/default/my_container
-````
+```
 
 ???- question "How does that look like?"
 
