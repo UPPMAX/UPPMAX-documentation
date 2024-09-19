@@ -17,7 +17,7 @@ To create your own remote repo that everyone will push and pull from, create an 
 
 ```console
 # go to project dir
-cd /proj/sens2023999/
+cd /proj/nobackup/sens2023999/
 
 # create dir
 mkdir my_repo.git
@@ -38,7 +38,7 @@ To start using this repo you will clone it just like you would clone a GitHub re
 cd ~/
 
 # clone it
-git clone /proj/sens2023999/my_repo.git
+git clone /proj/nobackup/sens2023999/my_repo.git
 
 # add a file and make the first commit
 echo "# my_repo" >> README.md

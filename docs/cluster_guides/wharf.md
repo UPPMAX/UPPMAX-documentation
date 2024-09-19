@@ -23,7 +23,8 @@ This "postbox" is reachable to transfer data from two internal servers -
 The path to this special folder is:
 
 ```text
-/proj/[project_id]/nobackup/wharf/[user_name]/[user_name]-[project_id]
+/proj/nobackup/[project_id]/wharf/[user_name]/[user_name]-[project_id]
+
 ```
 
 where
@@ -34,7 +35,7 @@ where
 For example:
 
 ```text
-/proj/sens2023598/nobackup/wharf/sven/sven-sens2023598
+/proj/nobackup/sens2023598/wharf/sven/sven-sens2023598
 ```
 
 ## `wharf` use
