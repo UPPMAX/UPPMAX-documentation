@@ -1,3 +1,9 @@
+---
+tags:
+  - RStudio
+  - Rackham
+---
+
 # RStudio on Rackham
 
 ![RStudio on Rackham](./img/rstudio_in_action_480_x_270.png)

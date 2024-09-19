@@ -1,3 +1,9 @@
+---
+tags:
+  - VSCodium
+  - Rackham
+---
+
 # Using VSCodium on Rackham
 
 ![VSCodium on another cluster, as VSCodium on Rackham fails](./img/vscodium_on_bianca_480_x_270.png)

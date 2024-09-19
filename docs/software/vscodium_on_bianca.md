@@ -1,3 +1,9 @@
+---
+tags:
+  - VSCodium
+  - Bianca
+---
+
 # Using VSCodium on Bianca
 
 ![VSCodium running on Bianca](./img/vscodium_on_bianca_480_x_270.png)

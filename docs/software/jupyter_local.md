@@ -1,8 +1,19 @@
+---
+tags:
+  - Jupyter
+  - local
+  - Rackham
+  - Snowy
+---
+
 # Jupyter in local browser
 
-To increase the speed of graphics it is possible to run Jupyter on a compute node, but using the graphics on your local computer. That will speed up the interaction with plotting figures and GUI management.
+To increase the speed of graphics it is possible to run Jupyter on a compute
+node, but using the graphics on your local computer. 
+That will speed up the interaction with plotting figures and GUI management.
 
-This possible for the Rackham and Snow clusters.
+This possible for the [Rackham[(../cluster_guides/rackham.md) and
+[Snowy](../cluster_guides/snowy.md) clusters.
 
 !!! warning
 

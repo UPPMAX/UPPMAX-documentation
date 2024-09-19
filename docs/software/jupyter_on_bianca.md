@@ -1,4 +1,10 @@
-# Jupyter
+---
+tags:
+  - Jupyter
+  - Bianca
+---
+
+# Jupyter on Bianca
 
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
 among other [Jupyter](../software/jupyter.md).

@@ -1,3 +1,8 @@
+---
+tags:
+  - RStudio
+---
+
 # RStudio
 
 RStudio is an IDE specialized for [the R programming language](r.md).

@@ -1,3 +1,9 @@
+---
+tags:
+  - RStudio
+  - Bianca
+---
+
 # RStudio on Bianca
 
 ![RStudio on Bianca](./img/rstudio_in_action_480_x_270.png)

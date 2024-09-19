@@ -1,3 +1,8 @@
+---
+tags:
+  - Jupyter
+---
+
 # Jupyter
 
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,

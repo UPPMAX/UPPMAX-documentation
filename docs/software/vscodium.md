@@ -1,3 +1,8 @@
+---
+tags:
+  - VSCodium
+---
+
 # VSCodium
 
 VSCodium is the community edition of [Visual Studio Code](vscode.md)
