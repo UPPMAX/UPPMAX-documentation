@@ -610,7 +610,7 @@ Replace `nais2024-23-9999` with the name of the folder you told Darsync to trans
 
     No.
 
-    Indeed, usually (and until September 17th) we recommend to use `sbatch`. 
+    Indeed, usually (and until September 17th) we recommend to use `sbatch`.
 
     However, in this case, the login node has a bigger
     file transfer bandwidth compared to the compute nodes.
@@ -618,8 +618,8 @@ Replace `nais2024-23-9999` with the name of the folder you told Darsync to trans
 
 ???- question "My transfer job stopped. Is progress lost? Can I restart it?"
 
-    No progress is lost. Yes, you can restart it: `rsync` will continue 
-    tranferring files that have not been transferred or have not been 
+    No progress is lost. Yes, you can restart it: `rsync` will continue
+    tranferring files that have not been transferred or have not been
     transferred completely.
 
 ### 7. Check output
@@ -698,7 +698,7 @@ you can delete the files on Rackham that you've just transferred to Dardel.
     Estimates range from 23 to 360 to gigabyte per hour.
     This excludes the extremes of 7 and 3600 gigabyte per hour.
 
-    However, for large numbers of small files the metric files/seconds 
+    However, for large numbers of small files the metric files/seconds
     would be better, yet requires a benchmark.
 
 ## T. Troubleshooting
