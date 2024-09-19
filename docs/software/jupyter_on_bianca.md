@@ -15,11 +15,6 @@ Jupyter is an [IDE](../software/ides.md) specialized for
 
 ## Procedure
 
-???- tip "Want to see a video?"
-
-    If you want to see a video how to start Jupyter on Rackham,
-    go [here](https://youtu.be/72rYjwGvWEc?si=Rn2F2ieO-kPufO9f)
-
 ### 1. Get within SUNET
 
 ???- question "Forgot how to get within SUNET?"
