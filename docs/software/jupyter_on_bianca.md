@@ -15,6 +15,10 @@ Jupyter is an [IDE](../software/ides.md) specialized for
 
 ## Procedure
 
+??? question "Prefer a video?"
+
+    This procedure is also demonstrated in [this YouTube video](https://youtu.be/G6e2NYCxT-I).
+
 ### 1. Get within SUNET
 
 ???- question "Forgot how to get within SUNET?"
