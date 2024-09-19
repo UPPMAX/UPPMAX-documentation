@@ -599,12 +599,43 @@ which is a regular [Slurm](slurm.md) script.
 
 ### 6. Submit the script created by Darsync
 
-You submit the transfer script the same way you submit any jobs at UPPMAX:
-Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
+You can then start the transfer script the same way you let `bash` run
+a script:
+
+```bash
+bash dardel_naiss2024-23-9999.sh
+```
+
+Replace `nais2024-23-9999` with the name of the folder you told Darsync to
+transfer. 
+
+You terminal does needs to be running during the whole process.
+If you do need to log out, use `sbatch` as show below.
+
+???- question "Shouldn't I use sbatch?"
+
+    No.
+
+    Indeed, usually (and until September 17th) we recommend to use `sbatch`.
+
+    However, in this case, the login node has a bigger
+    file transfer bandwidth compared to the compute nodes.
+    Hence, now the advice is to run the script on the login node.
+
+???- question "My transfer job stopped. Is progress lost? Can I restart it?"
+
+    No progress is lost. Yes, you can restart it: `rsync` will continue
+    tranferring files that have not been transferred or have not been
+    transferred completely.
+
+If you want to start the job by submitting it to the job queue,
+use the following command:
 
 ```bash
 sbatch ~/dardel_naiss2024-23-9999.sh
 ```
+
+Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
 
 ???- question "How does that look like?"
 
