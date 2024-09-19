@@ -607,7 +607,7 @@ bash dardel_naiss2024-23-9999.sh
 ```
 
 Replace `nais2024-23-9999` with the name of the folder you told Darsync to
-transfer. 
+transfer.
 
 You terminal does needs to be running during the whole process.
 If you do need to log out, use `sbatch` as show below.
