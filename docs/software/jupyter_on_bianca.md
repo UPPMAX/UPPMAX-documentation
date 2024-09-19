@@ -61,14 +61,6 @@ interactive -A sens2016001 -t 8:00:00
     [sven@sens2016001-bianca sven]$
     ```
 
-!!!- warning "Do not start RStudio from the menus"
-
-    You can start a version of RStudio from the menus.
-    However, this will not have access to loaded
-    [modules](../cluster_guides/modules.md).
-
-    Instead, load RStudio from the module system instead.
-
 ### 4. Load a Python module
 
 Within the terminal of the interactive session,
