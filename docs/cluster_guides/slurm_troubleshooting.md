@@ -3,15 +3,15 @@
 When using [Slurm](slurm.md), unexpected things may happen.
 This page describes Slurm errors.
 
-## Invalid account or account/partition combination specified
+## 1. Invalid account or account/partition combination specified
 
-### Full error message
+### 1.1. Full error message
 
 ```text
 sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified
 ```
 
-### To reproduce
+### 1.2. To reproduce
 
 ```bash
 touch do_something.sh
@@ -19,7 +19,7 @@ echo '#!/bin/bash' >> do_something.sh
 sbatch -A some_invalid_account do_something.sh 
 ```
 
-### Problem
+### 1.3. Problem
 
 As stated by the error message: you've used either:
 
@@ -30,7 +30,7 @@ As stated by the error message: you've used either:
 Or, in less formal terms, you are using a NAISS project that is not
 an active UPPMAX project for that UPPMAX cluster.
 
-### Solution
+### 1.4. Solution
 
 - [View your NAISS projects](https://docs.uppmax.uu.se/getting_started/project/#view-your-uppmax-projects)
   and see if the project you used is indeed an active UPPMAX project that can
@@ -38,9 +38,9 @@ an active UPPMAX project for that UPPMAX cluster.
 - Use these in your scripts
 
 
-## ERROR 1: Invalid project
+## 2. Invalid project
 
-### Full error message
+### 2.1. Full error message
 
 ```text
 ````
@@ -50,18 +50,18 @@ sbatch: error: ERROR 1: Invalid project.
 sbatch: error: Use the flag -A to specify an active project with allocation on this cluster.
 sbatch: error: Batch job submission failed: Unspecified error```
 
-### To reproduce
+### 2.2. To reproduce
 
 ```bash
 sbatch my_script.sh -A my_project
 ```
 
-### Problem
+### 2.3. Problem
 
 The order of the arguments is incorrect.
 The script to be submitted must be the last argument.
 
-### Solution
+### 2.4. Solution
 
 ```bash
 sbatch -A my_project my_script.sh
