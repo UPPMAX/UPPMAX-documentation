@@ -90,7 +90,7 @@ jupyter-lab --ip 0.0.0.0 --no-browser
 ```
 
 Jupyter will show some IP address in the terminal,
-which you will neeed in the next step.
+which you will need in the next step.
 
 ### 6. Browser to the Jupyter notebook
 
