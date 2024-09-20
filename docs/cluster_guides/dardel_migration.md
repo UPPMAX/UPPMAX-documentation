@@ -877,8 +877,8 @@ Another possible fix comes from [StackOverflow](https://stackoverflow.com/questi
 Hence, try:
 
 ```bash
-chmod 700 /root/.ssh
-chmod 600 /root/.ssh/authorized_keys
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
 ```
 
 Still does not work? Contact [support](../support.md)
