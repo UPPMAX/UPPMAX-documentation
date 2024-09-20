@@ -597,7 +597,7 @@ which is a regular [Slurm](slurm.md) script.
     > at the bottom.
     > In this case, the full folder name is `/cfs/klemming/projects/snic/naiss2023-22-10271`
 
-### 6. Submit the script created by Darsync
+### 6. Run/submit the script created by Darsync
 
 You can then start the transfer script the same way you let `bash` run
 a script:
@@ -621,6 +621,29 @@ If you do need to log out, use `sbatch` as show below.
     However, in this case, the login node has a bigger
     file transfer bandwidth compared to the compute nodes.
     Hence, now the advice is to run the script on the login node.
+
+???- question "Wouldn't I get complaints?"
+
+    No.
+
+    Normally, when you run CPU intensive tasks on a login node, we will
+    either contact you or make your program use less CPU power.
+
+    In this case, however, the login node is the superior node for
+    file transfer and we at UPPMAX agreed on allowing our users
+    to run the transfer from it.
+
+???- question "Will this run when I close the terminal?"
+
+    No.
+
+    Normally, when you run CPU intensive tasks on a login node, we will
+    either contact you or make your program use less CPU power.
+
+    In this case, however, the login node is the superior node for
+    file transfer and we at UPPMAX agreed on allowing our users
+    to run the transfer from it.
+
 
 ???- question "My transfer job stopped. Is progress lost? Can I restart it?"
 
