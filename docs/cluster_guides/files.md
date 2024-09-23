@@ -5,7 +5,7 @@
 You have access to the same home directory regardless of what
 cluster you have logged into. Here you store your private files.
 
-All projects also have a central storage area under the `/proj/[project id]/` 
+All projects also have a central storage area under the `/proj/[project id]/`
 directory path, i.e. when you first login to UPPMAX,
 you will see your home directory, so you will have to change to the project
 directory if you want to transfer project data files.
