@@ -257,4 +257,11 @@ RAM|Rackham|Snowy|Bianca
 
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
 
+## The queue
+
+???- question "Do you want to see a graphical representation of the scheduler?"
+
+    [Slurm scheduler](./slurm_scheduler.md)
+
+
 ## [More about Slurm on UPPMAX](slurm_details.md)
