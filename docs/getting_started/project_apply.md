@@ -14,21 +14,18 @@ I, Richel, commented out this text, as it:
 
 -->
 
-!!! note "Apply for a project here"
-
-    See [here](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects)
-    to apply for a project.
-
 To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
 
 - [an active research project](project.md)
 - [an UPPMAX user account](user_account.md)
 
-This page is about applying for an UPPMAX project.
+This page is about applying for an UPPMAX project:
 
 - [Apply for a Bianca project](project_apply_bianca.md), i.e. a project
   using sensitive data
 - [Other applications](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects)
+
+Alternatively, one can [join an existsing project](join_existing_project.md).
 
 ???- question "I just got an UPPMAX project, yet I cannot login to UPPMAX?"
 
