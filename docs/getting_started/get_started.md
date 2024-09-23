@@ -4,13 +4,14 @@ In order to use UPPMAX resources, you need to be a member of a project and a use
 
 ## PIs
 
-Do you or members in your research group need compute and storage resources on a HPC cluster or Infrastructure-as-a-Service cloud? Learn how to apply for a project by following the link below.
+Do you or members in your research group need compute and storage resources
+on a HPC cluster or Infrastructure-as-a-Service cloud?
+Learn how to apply for a project by following the link below:
 
 - [Project apply](project_apply.md)
 
 Are you interested in other services, e.g. large volume data storage?
-
-Let us know by contacting UPPMAX Support at `support@uppmax.uu.se`!
+Let us know by [contacting UPPMAX Support](../support.md)!
 
 ## Users
 
