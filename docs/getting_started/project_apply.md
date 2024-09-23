@@ -26,7 +26,9 @@ To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
 
 This page is about applying for an UPPMAX project.
 
-See [here](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects) to apply for a project.
+- [Apply for a Bianca project](project_apply_bianca.md), i.e. a project
+  using sensitive data
+- [Other applications](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects)
 
 ???- question "I just got an UPPMAX project, yet I cannot login to UPPMAX?"
 
