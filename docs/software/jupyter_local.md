@@ -89,7 +89,7 @@ http://localhost:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
 or
 
 ```text
-http://127.0.0.0:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
+http://127.0.0.1:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
 ```
 
 This should bring the jupyter interface on your computer and all calculations and files will be on Rackham compute node.
