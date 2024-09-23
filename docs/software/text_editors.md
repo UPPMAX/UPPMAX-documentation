@@ -57,19 +57,7 @@ Then:
 
 ### emacs
 
-`emacs` is an advanced terminal editor that is fast fast and powerful, once you learn it.
-
-Start `emacs` on a terminal with:
-
-```bash
-emacs
-```
-
-Then:
-
-- also With GUI
-    - ``emacs –nw``
-        - keeps you in terminal window.
+See [emacs](../software/emacs.md)
 
 ## Simple graphical editors
 
