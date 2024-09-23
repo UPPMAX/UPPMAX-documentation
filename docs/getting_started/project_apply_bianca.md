@@ -54,6 +54,6 @@ In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and 
 
 After this, the procedure is straightforward.
 
-![Resource available for a NAISS SENS Small project](supr_naiss_create_new_proposal_for_naiss_sens_small_resources.png)
+![Resource available for a NAISS SENS Small project](./img/supr_naiss_create_new_proposal_for_naiss_sens_small_resources.png)
 
 > Resource available for a NAISS SENS Small project

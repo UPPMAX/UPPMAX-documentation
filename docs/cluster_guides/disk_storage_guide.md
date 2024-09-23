@@ -21,7 +21,7 @@ and backup home directories and some project storages to tape.
 If more quota is needed, [contact support](../support.md) for advice.
 The [uquota](../software/uquota.md)
 command is used to check current disk usage and limits.
-This command is available in the `uppmax` [module](../modules.md),
+This command is available in the `uppmax` [module](../cluster_guides/modules.md),
 which is loaded by default.
 
 We do not extend quotas for home directories or SNIC project directories,
