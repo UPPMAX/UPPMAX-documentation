@@ -2,39 +2,66 @@
 
 ## Quota
 
-Users have access to shared network storage on various cluster file systems. This mean that whenever you are logged in to a login server or if you are running on a compute node you will have the same view of the storage.
+Users have access to shared network storage on various cluster file systems.
+This mean that whenever you are logged in to a login server
+or if you are running on a compute node you will have the same view of the storage.
 
 There are several different classes of disk storage available with different policies for usage, limits and backup:
 
-The user home file system
-Local scratch file systems
-The network project and nobackup file system
-Temporary virtual filesystem
-Users have access to shared network storage on various cluster file systems, and backup home directories and some project storages to tape.
+- The user home file system
+- Local scratch file systems
+- The network project and nobackup file system
+- Temporary virtual filesystem
+
+Users have access to shared network storage on various cluster file systems,
+and backup home directories and some project storages to tape.
 
 ### If you need more quota
 
-If more quota is needed, contact support (`support@uppmax.uu.se`) for advice. The uquota command is used to check current disk usage and limits. This command is available in the 'uppmax' module, which is loaded by default.
+If more quota is needed, [contact support](../support.md) for advice.
+The [uquota](../software/uquota.md)
+command is used to check current disk usage and limits.
+This command is available in the `uppmax` [module](../modulues.md),
+which is loaded by default.
 
-We do not extend quotas for home directories or SNIC project directories, but it's possible to apply for storage projects.
+We do not extend quotas for home directories or SNIC project directories,
+but it's possible to apply for storage projects.
 
-Before contacting support, clean out unnecessary data and make an inventory of the data in your project (what type of data, how big, why it's needed). Here are two commands. The first results in a list of subdirectories ordered by size and proportion of total size. The second produces a list of the files in the current directory that take up most space. These may take a long time to complete, use 'ctrl-c' to cancel execution if you change your mind:
+Before contacting support, clean out unnecessary data and make an inventory of
+the data in your project (what type of data, how big, why it's needed).
+Here are two commands:
 
+```bash
 du -b $PWD | sort -rn | awk 'NR==1 {ALL=$1} {print int($1*100/ALL) "% " $0}'
+```
+
+This first command results in a list of subdirectories ordered
+by size and proportion of total size. 
+
+
+```bash
 find $PWD -print0 -type f | xargs -0 stat -c "%s %n" | sort -rn
+```
+
+This second command produces a list of the files in the current directory
+that take up most space. These may take a long time to complete, use `CTRL + C`
+to cancel execution if you change your mind.
 
 ### If you need even more quota for archiving
 
-Please contact UPPMAX support at `support@uppmax.uu.se`.
-We have a previously been able to provide users with a low-cost moderate performant storage solution for a cost of 500SEK/TB/year, for a commitment of four years and 50TB.
+Please [contact support](../support.md).
+
+We have a previously been able to provide users with a low-cost
+moderate performant storage solution for a cost of 500SEK/TB/year,
+for a commitment of four years and 50TB.
 
 ### Environmental variables
 
 We have defines several environment variables to help our users. They are:
 
-$HOME (or $SNIC_BACKUP) is a traditional one, pointing to the users home directory.
-$TMPDIR or ($SNIC_TMP) points to node-local storage, suitable for temporary files that can be deleted when the job finishes
-$SNIC_NOBACKUP points to an UPPMAX-wide storage suitable for temporary files (not deleted when the job is finished)
+- `$HOME` (or `$SNIC_BACKUP`) is a traditional one, pointing to the users home directory.
+- `$TMPDIR` or (`$SNIC_TMP`) points to node-local storage, suitable for temporary files that can be deleted when the job finishes
+- `$SNIC_NOBACKUP` points to an UPPMAX-wide storage suitable for temporary files (not deleted when the job is finished)
 
 ## Types of storage
 
@@ -48,9 +75,9 @@ We recommend you do not use your home directory for running jobs. Our general re
 
 ### Local Scratch
 
-Paths: $TMPDIR or $SNIC_TMP
+Paths: `$TMPDIR` or `$SNIC_TMP`
 
-Each node has a /scratch volume for local access providing the most efficient disk storage for temporary files. Users have read/write access to this file system. SLURM defines the environment variable TMPDIR which you may use in job scripts. On clusters with SLURM you may use /scratch/$SLURM_JOB_ID. This area is for local access only, and is not directly reachable from other nodes or from the front node. There is no backup of the data and the lifetime of any file created is limited to the current user session or batch job. Files are automatically erased when space is needed by other users.
+Each node has a `/scratch` volume for local access providing the most efficient disk storage for temporary files. Users have read/write access to this file system. SLURM defines the environment variable TMPDIR which you may use in job scripts. On clusters with SLURM you may use /scratch/$SLURM_JOB_ID. This area is for local access only, and is not directly reachable from other nodes or from the front node. There is no backup of the data and the lifetime of any file created is limited to the current user session or batch job. Files are automatically erased when space is needed by other users.
 
 ### Projects global (network) storage
 
@@ -72,7 +99,7 @@ More information about backup at UPPMAX.
 
 ### Temporary virtual filesystem
 
-Paths: /dev/shm/[job-id]
+Paths: `/dev/shm/[job-id]`
 
 On all our clusters we have a temporary virtual filesystem implemented as a shared memory area. I.e. it uses primarily the RAM for storage (until it eventually might have to swap out to physical disk), and can be accessed via the path /dev/shm/[job-id].
 

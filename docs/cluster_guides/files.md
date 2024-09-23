@@ -1,5 +1,9 @@
 # Files on UPPMAX
 
+## Disk storage guide
+
+See [the UPPMAX disk storage guide](disk_storage_guide.md).
+
 ## Where are my files? (Or, what are the different file systems?)
 
 You have access to the same home directory regardless of what
