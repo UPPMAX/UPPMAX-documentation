@@ -7,9 +7,9 @@ This page describes how to apply to a Bianca project.
 
 ### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
 
-![Example https://supr.naiss.se/ main page](./img/supr_naiss_start_click_rounds.png)
+![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
 
-> Example <https://supr.naiss.se/> main page
+> Example SUPR NAISS main page
 
 ### 2. Click on 'Rounds'
 
