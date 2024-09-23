@@ -35,11 +35,11 @@ This is the 'Request Membership in Project' section:
 
 ### 4. Search for a project
 
-At 'Request Membership in Project' in the 'Projects' page, enter a seach term and click 'Search for project'
+At 'Request Membership in Project' in the 'Projects' page, enter a search term and click 'Search for project'
 
-![At 'Request Membership in Project' in the 'Projects' page, enter a seach term and click 'Search for project'](./img/supr_naiss_projects_active_projects_and_request_2.png)
+![At 'Request Membership in Project' in the 'Projects' page, enter a search term and click 'Search for project'](./img/supr_naiss_projects_active_projects_and_request_2.png)
 
-> At 'Request Membership in Project' in the 'Projects' page, enter a seach term and click 'Search for project'.
+> At 'Request Membership in Project' in the 'Projects' page, enter a search term and click 'Search for project'.
 > In this example, the search term is 'DNA'
 
 ### 5. Search for a project

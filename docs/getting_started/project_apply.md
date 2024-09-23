@@ -25,7 +25,7 @@ This page is about applying for an UPPMAX project:
   using sensitive data
 - [Other applications](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects)
 
-Alternatively, one can [join an existsing project](join_existing_project.md).
+Alternatively, one can [join an existing project](join_existing_project.md).
 
 ???- question "I just got an UPPMAX project, yet I cannot login to UPPMAX?"
 
