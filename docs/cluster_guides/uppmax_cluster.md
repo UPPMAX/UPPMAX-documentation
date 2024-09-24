@@ -27,8 +27,11 @@ i.e. they allow a user to do heavy computational calculations.
 All UPPMAX clusters are named after Tintin characters.
 UPPMAX has, among others, the following clusters:
 
-- [Bianca](bianca.md): for sensitive data, general use
-- [Rackham](rackham.md): regular data, general purpose
+- [Bianca](bianca.md): for sensitive data, general use.
+  In the near future, will be replaced by [Maja](maja.md)
+- [Rackham](rackham.md): regular data, general purpose.
+  Will be only for UU staff at 2025-01-01.
+  In the near future, will be replaced by [Pelle](pelle.md)
 - [Snowy](snowy.md): regular data, long runs and GPU:s
 
 Another cluster UPPMAX is involved in:
@@ -41,6 +44,8 @@ flowchart TD
     UPPMAX(Which UPPMAX cluster?)
     Bianca
     Dardel
+    Maja
+    Pelle
     Rackham
     Snowy
     is_sensitive[Do you use sensitive data?]
@@ -51,7 +56,10 @@ flowchart TD
     is_sensitive --> |no|is_long
     is_long --> |no|Rackham
     is_long --> |yes|Snowy
-    Rackham --> |consider migrating to| Dardel
+    Bianca --> |near future| Maja
+
+    Rackham --> |not UU, before 2025-01-01| Dardel
+    Rackham --> |UU, near future| Pelle
 ```
 
 All UPPMAX clusters follow the same [file system](uppmax_filesystem.md),
