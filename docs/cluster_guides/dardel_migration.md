@@ -61,8 +61,8 @@ and step 2 requires an overnight wait.
 
 ```mermaid
 flowchart TD
-  get_supr_project[1. Access to a SUPR project with Dardel]
-  get_pdc_account[2. Access to a PDC account]
+  get_supr_project[1\. Access to a SUPR project with Dardel]
+  get_pdc_account[2\. Access to a PDC account]
   create_ssh_key[3. Create temporary SSH keys]
   add_ssh_key[4. Add the SSH keys to the PDC Login Portal]
   run_darsync[5. Run Darsync]
