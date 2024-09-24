@@ -1,3 +1,3 @@
 # Miarka
 
-Miarka is a decommissioned cluster.
+Miarka is a SciLifeLab cluster.
