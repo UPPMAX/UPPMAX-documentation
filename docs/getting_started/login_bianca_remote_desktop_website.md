@@ -21,6 +21,12 @@ using a remote desktop that is accessible from a webbrowser.
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    See this page explained in
+    [a YouTube video here](https://youtu.be/UpNI5OUlIo8)
+
+
 ### 1. Get inside SUNET
 
 As Bianca is an HPC cluster for sensitive data,
