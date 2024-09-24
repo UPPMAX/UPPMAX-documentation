@@ -8,7 +8,7 @@ tags:
   - URL
 ---
 
-# Login to the Bianca remote desktop environment website
+# Log in to the Bianca remote desktop environment website
 
 There are multiple ways to [log in to Bianca](login_bianca.md).
 
@@ -37,6 +37,11 @@ All you should need is a rather modern browser on any platform.
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
 
+    You can see it in action [in this video](https://youtu.be/W-PMTyNcbYI?si=9oQP29a7OLo3mVrt&t=160) you can
+    see how this looks like when outside of SUNET.
+
+    It looks quite dull, as nothing happens until these is a timeout.
+
 ???- question "Will a local ThinLinc client work too?"
 
     No.
@@ -52,10 +57,15 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 
 ???- question "How does it look like when outside of SUNET?"
 
-    [Here](https://youtu.be/W-PMTyNcbYI?si=9oQP29a7OLo3mVrt&t=160) you can
+    ![Nothing will appear in your browser](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+
+    > When accessing the Bianca UPPMAX login website from outside of SUNET,
+    > nothing will appear in your browser.
+
+    You can see it in action [in this video](https://youtu.be/W-PMTyNcbYI?si=9oQP29a7OLo3mVrt&t=160) you can
     see how this looks like when outside of SUNET.
 
-    Spoiler: quite dull, as nothing happens until these is a timeout.
+    It looks quite dull, as nothing happens until these is a timeout.
 
 ## 3. Fill in the first dialog
 
