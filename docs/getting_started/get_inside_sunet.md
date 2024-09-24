@@ -1,3 +1,12 @@
+---
+tags:
+  - SUNET
+  - University network
+  - University networks
+  - Get inside
+  - edoroam
+---
+
 # Get inside the university networks
 
 One cannot connect to all UPPMAX clusters everywhere around the world.
