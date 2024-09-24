@@ -156,13 +156,15 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 ### 6. You are in
 
-Enjoy! You are in! 
+Enjoy! You are in: you are now on a Bianca [login node](../cluster_guides/login_node.md).
 
 ???- question "How do I copy-paste text?"
 
-  See [the UPPMAX page on ThinLinc usage](https://docs.uppmax.uu.se/software/thinlinc/#thinlinc-usage)
+    The Bianca remote desktop environment via a website
+    uses [ThinLinc](..se/software/thinlinc).
 
-You are on a Bianca [login node](../cluster_guides/login_node.md).
+    At [the ThinLinc page](..se/software/thinlinc) you can find
+    how to work with its interface.
 
 !!! note "How to behave on a login node"
 
