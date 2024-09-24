@@ -648,7 +648,7 @@ If you do need to log out, use `sbatch` as show below.
 ???- question "My transfer job stopped. Is progress lost? Can I restart it?"
 
     No progress is lost. Yes, you can restart it: `rsync` will continue
-    tranferring files that have not been transferred or have not been
+    transferring files that have not been transferred or have not been
     transferred completely.
 
 If you want to start the job by submitting it to the job queue,

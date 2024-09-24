@@ -18,5 +18,5 @@ we try to keep him similar to Rackham.
 ## Migration from Rackham to Pelle
 
 As both clusters are UPPMAX clusters,
-we are probably able to tranfer your data from Rackham
+we are probably able to transfer your data from Rackham
 to Pelle.

@@ -22,7 +22,7 @@ Here, we show how to transfer files using a graphical tool called [FileZilla](fi
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file tranfer from/to Rackham
+    If you like to see how to do file transfer from/to Rackham
     using FileZilla, watch the video
     [here](https://youtu.be/7wHRCMdnNZE)
 

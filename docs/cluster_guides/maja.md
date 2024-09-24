@@ -18,5 +18,5 @@ we try to keep her similar to Bianca.
 ## Migration from Bianca to Maja
 
 As both clusters are UPPMAX clusters,
-we are probably able to tranfer your data from Bianca
+we are probably able to transfer your data from Bianca
 to Maja.
