@@ -47,12 +47,21 @@ For example:
 ssh sven-sens2023598@bianca.uppmax.uu.se
 ```
 
+???- question "How does this look like (when inside of SUNET)?"
+
+    ```bash
+    ssh richel-sens2023598@bianca.uppmax.uu.se
+    ```
+
+    After which a password will be asked. Go to the next step.
+
 ???- question "How does it look like when outside of SUNET?"
 
-    [Here](https://youtu.be/W-PMTyNcbYI?si=iYxNToDb-EpTdnAO&t=79) you can
-    see how this looks like when outside of SUNET.
+    ```bash
+    $ ssh richel-sens2023598@bianca.uppmax.uu.se
+    ```
 
-    Spoiler: quite dull, as nothing happens until these is a timeout.
+    After which there is only waiting...
 
 ???- question "Why no `-A`?"
 
@@ -87,6 +96,16 @@ directly followed by the UPPMAX 2-factor authentication number,
 for example `verysecret678123`, then press enter.
 In this case, the password is `verysecret` and `678123`
 is the 2FA number.
+
+???- question "How does this look like?"
+
+    ```bash
+    richel@richel-N141CU:~/GitHubs/UPPMAX-documentation/docs/getting_started$ ssh richel-sens2023598@bianca.uppmax.uu.se
+    richel-sens2023598@bianca.uppmax.uu.se's password: 
+    ```
+
+   After which you'll asked for another password. Go to the next step.
+
 
 After authenticated using the UPPMAX password and 2FA,
 you are logged in on Bianca's shared network,
@@ -123,10 +142,45 @@ which may take some minutes.
 Type your UPPMAX password,
 for example `verysecret`
 
+???- question "How does this look like?"
+
+    ```bash
+    Last login: Thu Sep 19 08:54:12 2024 from vpnpool188-186.anst.uu.se
+    Notice(s) for upcoming maintenance on bianca:
+
+      Lost e-mail support tickets, working again
+      http://status.uppmax.uu.se/2024-09-19/lost-tickets/
+
+    ****************************************************************************
+    * Login node up and running. Redirecting now!                              *
+    * Notice! No second factor if you use password.                            *
+    * If you use ssh keys, you can get rid of this (second) prompt.            *
+    ****************************************************************************
+
+    richel@sens2023598-bianca.uppmax.uu.se's password: 
+    ```
+
 ### 5. You are in
 
 Enjoy! You are in! Or, to be precise,
 you are on the [login node](../cluster_guides/login_node.md) of your own virtual project cluster.
+
+???- question "How does this look like?"
+
+    ```bash
+     _   _ ____  ____  __  __    _    __  __
+    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    sens2023598-bianca
+    | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      richel
+    | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
+     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
+
+    ###############################################################################
+
+            User Guides: http://www.uppmax.uu.se/support/user-guides
+            FAQ: http://www.uppmax.uu.se/support/faq
+
+            Write to support@uppmax.uu.se, if you have questions or comments.
+    ````
 
 !!! note "How to behave on a login node"
 
