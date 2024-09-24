@@ -1,5 +1,8 @@
 # Lutra
 
+UPPMAX has many [storage systems](../../cluster_guides/uppmax_storage_system.md).
+This page describes the Lutra storage system.
+
 Lutra is a custom built storage system running GlusterFS. The system consist of
 6 Huawei 5288 V5 servers with a total of 6x38 10TB SATA-drives for a capacity
 of 2.2 PB. The usable disk space is 1.8PB. Lutra is meant for "offload" or

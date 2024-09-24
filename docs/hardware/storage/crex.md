@@ -1,5 +1,8 @@
 # Crex
 
+UPPMAX has many [storage systems](../../cluster_guides/uppmax_storage_system.md).
+This page describes the Crex storage system.
+
 Rackham and Snowy's storage system is a DDN (DataDirect Networks) EXAScaler
 filesystem based on the ES14KX platform. Crex uses 840 10TB NL-SAS drives and
 24 300GB SAS drives for metadata storage. The total volume is 6 PB, with 1 PB

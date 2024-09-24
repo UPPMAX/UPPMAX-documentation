@@ -1,5 +1,8 @@
 # Castor
 
+UPPMAX has many [storage systems](../../cluster_guides/uppmax_storage_system.md).
+This page describes the Castor storage system.
+
 Castor is a custom built storage system running GlusterFS dedicated to Bianca.
 The system consists of 54 Huawei 5288 V3 servers, each server is equipped with
 36 x 3TB SATA disks working as one logical volume (with redundancy) and
