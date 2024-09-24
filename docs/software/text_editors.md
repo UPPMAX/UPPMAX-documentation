@@ -39,25 +39,8 @@ Try them out and pick one favorite editor!
     - we suggest that you learn this tools before trying to work with them on UPPMAX
     - If you start one of these editors you may have difficulties to exit!
 
-### vim
-
-`vim` is an advanced terminal editor that is fast fast and powerful, once you learn it.
-
-Start `vim` on a terminal with:
-
-```bash
-vi
-```
-
-Then:
-
-- 1. Insert mode (type like normal text editor. Press ``i`` for insert mode)
-- 2. Command mode (give commands to the editor to get things done . Press `<ESC>` for command mode)
-- Cheat sheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
-
-### emacs
-
-See [emacs](../software/emacs.md)
+- [emacs](../software/emacs.md)
+- [vim](../software/vim.md)
 
 ## Simple graphical editors
 
@@ -83,4 +66,4 @@ See [gedit](gedit.md)
 
 ### gvim
 
-- ``vim`` with a GUI, lots of features, very fast
+- `vim` with a GUI, lots of features, very fast
