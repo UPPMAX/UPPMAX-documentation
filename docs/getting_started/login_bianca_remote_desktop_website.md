@@ -10,12 +10,18 @@ tags:
 
 # Log in to the Bianca remote desktop environment website
 
+![The Bianca remote desktop environment](./img/bianca_remote_desktop.png)
+
+> The Bianca remote desktop environment
+
 There are multiple ways to [log in to Bianca](login_bianca.md).
 
 This page describes how to [log in to Bianca](login_bianca.md)
 using a remote desktop that is accessible from a webbrowser.
 
-## 1. Get inside SUNET
+## Procedure
+
+### 1. Get inside SUNET
 
 As Bianca is an HPC cluster for sensitive data,
 one needs to be within SUNET to be able to access her.
@@ -50,7 +56,7 @@ All you should need is a rather modern browser on any platform.
 
 When inside SUNET, one can access a remote desktop environment using a website:
 
-## 2. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
+### 2. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
 [When inside SUNET](../getting_started/get_inside_sunet.md),
 in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
@@ -67,7 +73,7 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 
     It looks quite dull, as nothing happens until these is a timeout.
 
-## 3. Fill in the first dialog
+### 3. Fill in the first dialog
 
 Fill in the first dialog.
 
@@ -109,7 +115,7 @@ Simply do that :-)
 
     This is the webpage that is shown when a login node needs to be created.
 
-## 4. Fill in the second dialog, using your regular password
+### 4. Fill in the second dialog, using your regular password
 
 Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication).
 
@@ -120,7 +126,7 @@ Fill in the second dialog, using your regular password (i.e. no need for two-fac
     > The second Bianca remote desktop login dialog.
     > Note that it uses [ThinLinc](../software/thinlinc.md) to establish this connection
 
-## 5. Picking a remote desktop flavor, but not KDE
+### 5. Picking a remote desktop flavor, but not KDE
 
 When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
@@ -142,7 +148,7 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
     Instead, we recommend GNOME or XFCE.
 
-## 6. You are in
+### 6. You are in
 
 Enjoy! You are in! You are on a Bianca [login node](../cluster_guides/login_node.md).
 
