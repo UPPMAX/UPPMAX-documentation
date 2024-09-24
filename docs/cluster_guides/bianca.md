@@ -5,6 +5,8 @@
 [Bianca](bianca.md) is one of the [UPPMAX clusters](uppmax_cluster.md),
 suitable for working with sensitive data.
 
+In the near future, Bianca will be replaced by [Maja](maja.md).
+
 - [Bianca's name](biancas_name.md)
 - [Bianca's design](biancas_design.md)
 - [Log in](../getting_started/login_bianca.md)

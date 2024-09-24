@@ -17,6 +17,9 @@ Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
 
     See the page on file transfer to Dardel [here](transfer_dardel.md).
 
+In the near future, Rackham will be replaced by [Pelle](pelle.md)
+and will be only accessible to Uppsala researchers.
+
 - [Rackham's name](rackhams_name.md)
 - [Rackham's design](rackhams_design.md)
 - [Rackham's hardware](../hardware/clusters/rackham.md)
