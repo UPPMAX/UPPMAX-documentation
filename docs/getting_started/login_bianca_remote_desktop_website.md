@@ -156,7 +156,13 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 ### 6. You are in
 
-Enjoy! You are in! You are on a Bianca [login node](../cluster_guides/login_node.md).
+Enjoy! You are in! 
+
+???- question "How do I copy-paste text?"
+
+  See [the UPPMAX page on ThinLinc usage](https://docs.uppmax.uu.se/software/thinlinc/#thinlinc-usage)
+
+You are on a Bianca [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -169,28 +175,6 @@ Enjoy! You are in! You are on a Bianca [login node](../cluster_guides/login_node
     If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
 
-???- question "How does the remote desktop look like?"
-
-    ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
-
-    > The Bianca remote desktop
-
-???- tip "Video: using VPN and access the remote desktop"
-
-    This video shows how to use an installed VPN,
-    after which the UPPMAX Bianca login website is used to
-    access the Bianca remote desktop environment:
-    [YouTube](https://youtu.be/Ni9nyCf7me8)
-
-Under the hidden tab in the left edge of the screen,
-you can find a clipboard,
-icons of some special keys
-and the disconnect button:
-
-- the clipboard is needed to be able to copy-paste text to/from Bianca.
-- the icons of some special keys are needed for some users,
-  as not all keyboard keys reach Bianca as expected.
-- the disconnect button disconnects your session
 
 ???- question "What is the difference between 'disconnect session' and 'end session'?"
 
