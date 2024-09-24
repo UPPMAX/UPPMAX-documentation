@@ -1,5 +1,5 @@
 # Check that there is correct spelling in all files
-name: Check spelling
+name: Check spelling 2
 
 # Check spelling on the main branch only, as it takes quite long.
 # Check spelling on the 21st day of the month.
@@ -14,7 +14,7 @@ on:
 
 
 jobs:
-  check_spelling:
+  check_spelling_2:
 
     runs-on: ubuntu-latest
     env:
