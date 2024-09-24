@@ -1,13 +1,16 @@
 ---
 tags:
   - Rackham
+  - cluster
+  - general-purpose
 ---
 
 # Rackham
 
 ![Red Rackham, from https://tintin.fandom.com/wiki/Red_Rackham](./img/red_rackham_103_x_238.jpg)
 
-Rackham is one of the [UPPMAX clusters](uppmax_cluster.md).
+Rackham is one of the [UPPMAX clusters](uppmax_cluster.md)
+that is a general-purpose cluster.
 
 !!! info "Consider migrating to Dardel already"
 

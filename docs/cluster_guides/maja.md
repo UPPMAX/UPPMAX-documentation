@@ -1,3 +1,10 @@
+---
+tags:
+  - Maja
+  - cluster
+  - sensitive data
+---
+
 # Maja
 
 Maja is an upcoming UPPMAX cluster for sensitive data,

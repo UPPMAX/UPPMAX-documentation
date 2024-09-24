@@ -1,3 +1,10 @@
+---
+tags:
+  - Bianca
+  - cluster
+  - sensitive data
+---
+
 # Bianca
 
 ![Bianca Castafiore, from https://en.wikipedia.org/wiki/File:Bianca_Castafiore-Tintin_comics_series.png](./img/bianca_castafiore_192_x_226.png)

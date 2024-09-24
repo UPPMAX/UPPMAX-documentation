@@ -1,6 +1,13 @@
+---
+tags:
+  - Pelle
+  - cluster
+  - general-purpose
+---
+
 # Pelle
 
-Pelle is an upcoming UPPMAX cluster,
+Pelle is an upcoming general-purpose UPPMAX cluster,
 taking over from [Rackham](rackham.md).
 
 ## Features of Pelle, compared to Rackham
