@@ -9,6 +9,10 @@ of 2.2 PB. The usable disk space is 1.8PB. Lutra is meant for "offload" or
 archive storage and available for all users at a cost of (at this moment) 500
 SEK/TB/year, for a commitment of four years and a minimum 50TB. The design and
 filesystem choice makes Lutra very scalable, cost efficient while retaining
-moderate read/write performance. Lutra is connected to Rackham and Snowy for
-general availability. If you are interested in this type of storage please
-contact `support@uppmax.uu.se`.
+moderate read/write performance. Lutra is connected to
+[Rackham](../../cluster_guides/rackham.md) and
+[Snowy](../../cluster_guides/snowy.md) for
+general availability.
+
+If you are interested in this type of storage please
+[contact support](../../../support.md).
