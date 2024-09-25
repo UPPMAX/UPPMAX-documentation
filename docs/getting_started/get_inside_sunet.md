@@ -14,6 +14,20 @@ Instead, one needs to get inside the university networks first.
 This page described how to get inside the university networks,
 or, to use more precise language, to obtain a [SUNET](https://www.sunet.se/) Internet Protocol ('IP') address.
 
+???- question "How do I know if I am inside the university networks?"
+
+    Go to <http://bianca.uppmax.uu.se/>.
+
+    - If nothing happens, you are outside of the university networks
+
+    ![A user that is outside of the university network sees nothing](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+
+    - If you so a login screen, you are inside of the university networks
+
+    ![A user that is outside of the university network sees a login screen](./img/bianca_gui_login_1st.png)
+
+    > A user that is outside of the university network sees a login screen
+
 There are these ways to do this:
 
 - Physically move inside SUNET
