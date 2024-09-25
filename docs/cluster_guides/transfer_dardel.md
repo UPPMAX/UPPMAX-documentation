@@ -22,11 +22,11 @@ To transfer your files to Dardel, follow the steps below.
 
 ```mermaid
 flowchart TD
-  get_supr_project[1. Access to a SUPR project with Dardel]
-  get_pdc_account[2. Access to a PDC account]
-  create_ssh_key[3. Create SSH key pair on Rackham]
-  add_ssh_key[4. Add public SSH key to PDC Login Portal]
-  transfer_files[5. Transfer files to Dardel]
+  get_supr_project[1 Access to a SUPR project with Dardel]
+  get_pdc_account[2 Access to a PDC account]
+  create_ssh_key[3 Create SSH key pair on Rackham]
+  add_ssh_key[4 Add public SSH key to PDC Login Portal]
+  transfer_files[5 Transfer files to Dardel]
 
   get_supr_project --> |requires| get_pdc_account
   create_ssh_key --> |requires| add_ssh_key
