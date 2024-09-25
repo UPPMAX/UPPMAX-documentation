@@ -22,11 +22,13 @@ or, to use more precise language, to obtain a [SUNET](https://www.sunet.se/) Int
 
     ![A user that is outside of the university network sees nothing](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
+    > A user that is outside of the university network sees nothing.
+
     - If you so a login screen, you are inside of the university networks
 
     ![A user that is outside of the university network sees a login screen](./img/bianca_gui_login_1st.png)
 
-    > A user that is outside of the university network sees a login screen
+    > A user that is outside of the university network sees a login screen.
 
 There are these ways to do this:
 
