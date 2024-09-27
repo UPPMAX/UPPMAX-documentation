@@ -1,4 +1,15 @@
-# Get data from an expired project
+---
+tags:
+  - FAQ
+  - access
+  - data
+  - expired
+  - closed
+  - former
+  - project
+---
+
+# How to access data from an expired NAISS project?
 
 There are many [UPPMAX cluster frequenly asked questions](cluster_guide_faq).
 This page describes how to get access to the data from an expired project.
