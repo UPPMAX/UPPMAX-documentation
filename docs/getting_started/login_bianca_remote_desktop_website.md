@@ -110,9 +110,9 @@ Simply do that :-)
 
 ???- question "How does that web page look like?"
 
-    ![No Thinlinc Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
+    ![No c Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
 
-    > No Thinlinc Web Access active
+    > No c Web Access active
     > The login node for your project cluster is probably asleep. Boot initiated. The startup can take from 2 to 8 minutes.
     >
     > This page will attempt to automatically reload. If nothing happens even after multiple minutes, you can do so manually. It is a bit more controlled in text mode.
@@ -161,9 +161,9 @@ Enjoy! You are in: you are now on a Bianca [login node](../cluster_guides/login_
 ???- question "How do I copy-paste text?"
 
     The Bianca remote desktop environment via a website
-    uses [ThinLinc](..se/software/thinlinc).
+    uses [ThinLinc](../software/thinlinc.md).
 
-    At [the ThinLinc page](..se/software/thinlinc) you can find
+    At [the ThinLinc page](../software/thinlinc.md) you can find
     how to work with its interface.
 
 !!! note "How to behave on a login node"
