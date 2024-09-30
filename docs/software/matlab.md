@@ -403,20 +403,20 @@ matlab -singleCompThread
 
 The Rackham MATLAB support package can be found at [uppsala.Desktop.zip](https://github.com/UPPMAX/UPPMAX-documentation/raw/main/docs/software/files/matlab/uppsala.Desktop.zip).
 
-1. Download the ZIP file and start MATLAB.
-2. The ZIP file should be unzipped in the location returned by calling
+- Download the ZIP file and start MATLAB.
+- The ZIP file should be unzipped in the location returned by calling
 
-    - ```matlab
-      >> userpath
-      ```
+```matlab
+>> userpath
+```
 
-    - You can unzip from MATLAB's Command window.
+- You can unzip from MATLAB's Command window.
 
-3. Configure MATLAB to run parallel jobs on the cluster by calling configCluster. configCluster only needs to be called once per version of MATLAB.
+- Configure MATLAB to run parallel jobs on the cluster by calling ``configCluster``. ``configCluster`` only needs to be called once per version of MATLAB.
 
-    - ```matlab
-      >> configCluster
-      ```
+```matlab
+>> configCluster
+```
 
 Submission to the cluster requires SSH credentials.  You will be prompted for username and password or identity file (private key).  The username and location of the private key will be stored in MATLAB for future sessions.
 Jobs will now default to the cluster rather than submit to the local machine.
