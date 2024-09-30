@@ -97,7 +97,7 @@ Request allocation in either Rackham or Snowy compute node depending on your nee
 
 `venv` or `conda` environments are also visible on VSCode when you select interpreter/kernel for python or jupyter server. For jupyter, you need to start the server first, check Point 3.
 
-### 4. Working with jupyter server on Rackham and snowy
+### 3. Working with jupyter server on Rackham and snowy
 
 #### Rackham
 
