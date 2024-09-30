@@ -3,65 +3,60 @@
 ## Introduction
 
 This guide provides instructions for loading and using OpenAI's Whisper, an
-automatic speech recognition system. Whisper is available on Rackham,
-Snowy and Bianca. It can either be used through a User Interface or loaded as a Module.
+automatic speech recognition system. Whisper is available on Bianca. It can either be used through a User Interface or loaded as a Module.
 
-
-## User Interface (GUI)
-
-### Step 1: Accessing your project  
+## Accessing your project  
 
 1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
 
 2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
 
-### Step 2: Data transfer from local to project  
+## User Interface (GUI)
+
+### Step 1: Data transfer from local to project  
 
 1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (Windows only), [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux) or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/).
 
-### Step 3: Transcribing/Translating  
+### Step 2: Transcribing/Translating  
 
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
-1. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
+2. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 1.
 
-   ```console
-   [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
-   ```
+    ```console
+    [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
+    ```  
 
-    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2.  
+3. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data to `proj` folder.  
 
-1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data to `proj` folder.  
+4. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI (Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.):  
 
-1. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
+    ```console
+    [jayan@sens2024544-bianca proj]$ module load Whisper-gui
+    [jayan@sens2024544-bianca proj]$ whisper-gui.sh
+    ```  
+    
+5. Select appropriate options, or use the following for the best results:  
 
-   ```console
-   [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
-   [jayan@sens2024544-bianca jayan]$ whisper-gui.sh
-   ```
+   `device`: gpu  
+   `SLURM job name`: [give any name without space]  
+   `Total audio length in hours` : [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
+   `Model`: large-v2  
+   `by word timestamps`: by_sentence
 
-   Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.  
+### Step 3: Monitoring jobs  
 
+1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.  
 
-1. Select appropriate options, or use the following for the best results:  
-
-   device: gpu  
-   SLURM job name: [give any name without space]  
-   Total audio length in hours : [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
-   Model: large-v2  
-   by word timestamps: by_sentence
-
-### Step 4: Monitoring jobs  
-
-1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
+2. Check `slurm-xxx.out` file created in your `proj` folder. This contains a progress bar for each file that you sent for transcribing/translating.  
 
 
-### Step 5: Data transfer from project to local
+### Step 4: Data transfer from project to local
 
-1. Transfer your output results from project folder (Bianca: `/cygnus/proj/`) to Wharf.  
+1. Transfer your output results from `proj` folder (Bianca: `/cygnus/proj/`) to `wharf`.   
 
-2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 2.
+2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 1.
 
 ### Output files
 
