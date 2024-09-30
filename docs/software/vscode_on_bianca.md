@@ -1,3 +1,9 @@
+---
+tags:
+  - VSCode
+  - Bianca
+---
+
 # Using Visual Studio Code on Bianca
 
 !!! warning "VSCode fails, use VSCodium instead"
