@@ -1,3 +1,8 @@
+---
+tags:
+  - Whisper
+---
+
 # Whisper
 
 ## Introduction
@@ -22,22 +27,22 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
 
-2. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 1.
+1. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 1.  
 
     ```console
     [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
     ```  
 
-3. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data to `proj` folder.  
+1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data to `proj` folder.  
 
-4. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI (Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.):  
+1. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI (Next time you start trascribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.):  
 
     ```console
     [jayan@sens2024544-bianca proj]$ module load Whisper-gui
     [jayan@sens2024544-bianca proj]$ whisper-gui.sh
     ```  
     
-5. Select appropriate options, or use the following for the best results:  
+1. Select appropriate options, or use the following for the best results:  
 
    `device`: gpu  
    `SLURM job name`: [give any name without space]  
@@ -50,7 +55,6 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.  
 
 2. Check `slurm-xxx.out` file created in your `proj` folder. This contains a progress bar for each file that you sent for transcribing/translating.  
-
 
 ### Step 4: Data transfer from project to local
 
