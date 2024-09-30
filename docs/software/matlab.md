@@ -411,19 +411,26 @@ The Rackham MATLAB support package can be found at [uppsala.Desktop.zip](https:/
 ```
 
 You can unzip from MATLAB's Command window.
+
 3. Configure MATLAB to run parallel jobs on the cluster by calling configCluster.  configCluster only needs to be called once per version of MATLAB.
 
 ```matlab
 >> configCluster
 ```
+
 Submission to the cluster requires SSH credentials.  You will be prompted for username and password or identity file (private key).  The username and location of the private key will be stored in MATLAB for future sessions.
 Jobs will now default to the cluster rather than submit to the local machine.
 NOTE: To submit to the local machine instead of the cluster, run the following:
+
+```matlab
 >> % Get a handle to the local resources
 >> c = parcluster('local');
+```
 
 CONFIGURING JOBS
 Prior to submitting the job, various parameters can be assigned, such as queue, e-mail, walltime, etc.  The following is a partial list of parameters.  See AdditionalProperties for the complete list.  Only AccountName, Partition, MemUsage and WallTime.
+
+```matlab
 >> % Get a handle to the cluster
 >> c = parcluster;
 
@@ -461,17 +468,25 @@ Prior to submitting the job, various parameters can be assigned, such as queue, 
 
 >> % Use reservation 
 >> c.AdditionalProperties.Reservation = 'reservation-name';
+```
 
 Save changes after modifying AdditionalProperties for the above changes to persist between MATLAB sessions.
+
+```matlab
 >> c.saveProfile
+```
 
 To see the values of the current configuration options, display AdditionalProperties.
 
+```matlab
 >> % To view current properties
 >> c.AdditionalProperties
+```
 
 Unset a value when no longer needed.
+
+```matlab
 >> % Turn off email notifications 
 >> c.AdditionalProperties.EmailAddress = '';
 >> c.saveProfile
-
+```
