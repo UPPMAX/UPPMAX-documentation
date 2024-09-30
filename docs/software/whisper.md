@@ -58,7 +58,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 ### Step 4: Data transfer from project to local
 
-1. Transfer your output results from `proj` folder (Bianca: `/cygnus/proj/`) to `wharf`.   
+1. Transfer your output results from `proj` folder (Bianca: `/cygnus/proj/`) to `wharf`.  
 
 2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 1.
 
