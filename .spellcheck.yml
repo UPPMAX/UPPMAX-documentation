@@ -19,7 +19,7 @@ matrix:
       - 'pre'
       - 'blockquote'
   sources:
-  - ${{ github.event.head_commit.modified }}
+  - '**/*.md'
   default_encoding: utf-8
 - name: Quarto markdown
   dictionary:
@@ -41,5 +41,5 @@ matrix:
       - 'pre'
       - 'blockquote'
   sources:
-  - ${{ github.event.head_commit.modified }}
+  - '**/*.md'
   default_encoding: utf-8
