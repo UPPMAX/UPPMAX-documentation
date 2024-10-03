@@ -40,7 +40,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code.
 
-1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-to-project).  
+1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project).  
 
     ```bash
     module load Whisper-gui
@@ -66,7 +66,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
     **SLURM job name**: [give any name without space]  
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
-    **Language used in recordings (leave blank for autodetection)**: [enter language code from [this list](#languages-available)]  
+    **Language used in recordings (leave blank for autodetection)**: [enter language code from "Languages available" list]  
     **by word timestamps**: by_sentence
 
 ### Step 3: Monitoring jobs  
