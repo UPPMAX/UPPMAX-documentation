@@ -46,7 +46,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
     module load Whisper-gui
     ```  
 
-    ![Desktop view on Bianca after running `module load Whisper-gui`](../img/whisper_desktop.png){: style="height:60%;width:60%"}
+    ![Desktop view on Bianca after running `module load Whisper-gui`](../img/whisper_desktop.png)
 
 1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data insted of copy-paste.
 
@@ -62,12 +62,12 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 1. Select appropriate options, or use the following for the best results:  
 
-   **device**: gpu  
-   **SLURM job name**: [give any name without space]  
-   **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
-   **Model**: large-v2  
-   **Language used in recordings (leave blank for autodetection)**: [enter language code from [this list](#languages-available)]  
-   **by word timestamps**: by_sentence
+    **device**: gpu  
+    **SLURM job name**: [give any name without space]  
+    **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
+    **Model**: large-v2  
+    **Language used in recordings (leave blank for autodetection)**: [enter language code from [this list](#languages-available)]  
+    **by word timestamps**: by_sentence
 
 ### Step 3: Monitoring jobs  
 
@@ -106,7 +106,7 @@ Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of t
 ??? note "Languages available"
 
     Use the following 2 letter code to perform transcribing when asked in the GUI:  
-    
+
     `en`: "english",
     `zh`: "chinese",
     `de`: "german",
