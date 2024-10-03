@@ -32,7 +32,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 ## User Interface (GUI)
 
-### Step 1: Data transfer from local to project  
+### Step 1: Data transfer from local computer to project  
 
 1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux). Instruction on how to do it is in their respective links.
 
@@ -45,7 +45,8 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
     ```console
     module load Whisper-gui
     ```  
-    ![Desktop view on Bianca after running `module load Whisper-gui`](../img/whisper_desktop.png){: style="height:150px;width:150px"}
+
+    ![Desktop view on Bianca after running `module load Whisper-gui`](../img/whisper_desktop.png){: style="height:60%;width:60%"}
 
 1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data insted of copy-paste.
 
@@ -61,12 +62,12 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 1. Select appropriate options, or use the following for the best results:  
 
-   `device`: gpu  
-   `SLURM job name`: [give any name without space]  
-   `Total audio length in hours` : [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
-   `Model`: large-v2  
-   `Language used in recordings (leave blank for autodetection)`: [enter language code from [this list](#languages-available)]  
-   `by word timestamps`: by_sentence
+   **device**: gpu  
+   **SLURM job name**: [give any name without space]  
+   **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
+   **Model**: large-v2  
+   **Language used in recordings (leave blank for autodetection)**: [enter language code from [this list](#languages-available)]  
+   **by word timestamps**: by_sentence
 
 ### Step 3: Monitoring jobs  
 
@@ -74,11 +75,11 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 2. Check `slurm-xxx.out` file created in your `proj` folder. This contains a progress bar for each file that you sent for transcribing/translating.  
 
-### Step 4: Data transfer from project to local
+### Step 4: Data transfer from project to local computer
 
 1. Transfer your output results from `proj` folder to `wharf`.  
 
-2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 1.
+2. Use WinSCP/FileZilla like you did in [Step 1](#step-1-data-transfer-from-local-computer-to-project).
 
 ### Output files
 
@@ -90,19 +91,20 @@ With detailed model metadata: `.json`.
 On Mac, `.srt` and `.vtt` can be opened in Word by:  
 Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
 
-### Advance settings
+??? tip "Advance settings"
 
-Use below features only if output is not satisfactory in Step 3.4 and for less spoken languages or languages that are not having good resources online for understanding :
+    Use below features only if output is not satisfactory in Step 3.4 and for less spoken languages or languages that are not having good resources online for understanding :
 
-1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
+    1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
 
-2. Try switching to Model: large-v3.
-3. Use combination of both 1 and 2.
-4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
+    2. Try switching to Model: large-v3.
+    3. Use combination of both 1 and 2.
+    4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
 
 ### Languages available
 
 Use the following 2 letter code to perform transcribing when asked in the GUI:  
+
 `en`: "english",
     `zh`: "chinese",
     `de`: "german",
@@ -220,8 +222,8 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
 
 * **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
 
-!!! note "<h2>Module Loading</h2>"
-    <!-- ## Module Loading -->
+!!! note "Module Loading"
+    ## Module Loading
 
     To load the Whisper module, run the following command:
 
