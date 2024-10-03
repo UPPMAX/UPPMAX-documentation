@@ -38,11 +38,11 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 ### Step 2: Transcribing/Translating  
 
-1. Login to [Bianca](https://bianca.uppmax.uu.se/).
+1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code.
 
 1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-to-project).  
 
-    ```console
+    ```bash
     module load Whisper-gui
     ```  
 
@@ -52,7 +52,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 1. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following two commands to run the Whisper service GUI (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.):  
 
-    ```console
+    ```bash
     module load Whisper-gui
     whisper-gui.sh
     ```  
@@ -93,19 +93,21 @@ Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of t
 
 ??? tip "Advance settings"
 
-    Use below features only if output is not satisfactory in Step 3.4 and for less spoken languages or languages that are not having good resources online for understanding :
+    Use below features only if transcriptions/transl is not satisfactory and for less spoken languages or languages that are not having good resources online for understanding :
 
-    1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
+    1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording. It should be in written in same language as the language in spoken in the recordings.  
 
-    2. Try switching to Model: large-v3.
-    3. Use combination of both 1 and 2.
+    2. Try switching to Model: large-v3.  
+
+    3. Use combination of both 1 and 2.  
+
     4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
 
-### Languages available
+??? note "Languages available"
 
-Use the following 2 letter code to perform transcribing when asked in the GUI:  
-
-`en`: "english",
+    Use the following 2 letter code to perform transcribing when asked in the GUI:  
+    
+    `en`: "english",
     `zh`: "chinese",
     `de`: "german",
     `es`: "spanish",
@@ -206,7 +208,7 @@ Use the following 2 letter code to perform transcribing when asked in the GUI:
     `su`: "sundanese",
     `yue`: "cantonese"
 
-### Proposal template
+## Proposal template
 
 Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:  
 
@@ -222,8 +224,7 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
 
 * **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
 
-!!! note "Module Loading"
-    ## Module Loading
+??? note "Module Loading"
 
     To load the Whisper module, run the following command:
 
