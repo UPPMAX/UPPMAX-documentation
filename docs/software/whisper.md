@@ -17,17 +17,32 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 **GUI** : Graphical User Interface for taking transcription/translation inputs.  
 **WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
 **Terminal** : Black text-based environment that is used for performing jobs.  
-**wharf**: private folder in Bianca that is used to transfer data to and from your computer.  
-**proj**: project folder in Bianca that is shared among all project members.  
+**Wharf**: private folder in Bianca that is used to transfer data to and from your computer.  
+**Proj**: project folder in Bianca that is shared among all project members.  
 **Job**: A request for transcibing/tranlating one or many recordings.  
-**slurm**: "job" handler.  
+**Slurm**: "job" handler.  
 
 
 ## Accessing your project  
 
-1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
+Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account):  
 
-2. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).
+!!! info inline end "Checklist"
+    - [x] SUPR account  
+    - [x] UPPMAX username and password  
+    - [x] UPPMAX two factor authentication.
+
+1. Register an [account on SUPR](https://supr.naiss.se/person/register/).  
+
+2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal).  
+
+3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will recieve an UPPMAX username and password via email.
+
+4. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account.  
+
+5. Give adequate information while creating your proposal or follow [this template](#proposal-template).  
+
+6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).
 
 
 ## User Interface (GUI)
