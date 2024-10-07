@@ -108,6 +108,8 @@ to setup, yet more convenient.
     One really can only access the Bianca remote desktop environment
     via the website.
 
+Here are the ways to log in to Bianca:
+
 - [1.Use the Bianca remote desktop website](login_bianca_remote_desktop_website.md)
 - [2.Use a terminal and password to access Bianca directly](login_bianca_console_password.md)
 - [3.Use a terminal and SSH keys to access Bianca directly](login_bianca_console_ssh_key.md)
