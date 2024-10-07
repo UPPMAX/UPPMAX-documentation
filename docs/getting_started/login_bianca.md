@@ -38,8 +38,8 @@ flowchart TD
   use_terminal[Use a terminal]
   use_website[Use the remote desktop website]
 
-  use_password[Use password\nStart here]
-  use_ssh_keys[Use SSH keys\nNo more password needed]
+  use_password[Use password]
+  use_ssh_keys[Use SSH keys]
 
   need_gui --> |no| use_terminal
   need_gui --> |yes| use_website
