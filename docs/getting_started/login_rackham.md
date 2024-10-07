@@ -43,8 +43,8 @@ flowchart TD
 
   how_login(How to log in?)
 
-  use_password[Use password\nStart here]
-  use_ssh_keys[Use SSH keys\nNo more password needed]
+  use_password[Use password. Start here]
+  use_ssh_keys[Use SSH keys. No more password needed]
 
   use_terminal --> how_login
   how_login --> use_password

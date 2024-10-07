@@ -54,7 +54,7 @@ In that case, run `ssh -Y`.
 flowchart TD
   need_graphics[Need graphics?]
   ssh[Using 'ssh' works]
-  try_ssh_x[Try to use 'ssh -X'\n Does it work?]
+  try_ssh_x[Try to use 'ssh -X'. Does it work?]
   ssh_x[Use 'ssh -X']
   ssh_y[Use 'ssh -Y']
 

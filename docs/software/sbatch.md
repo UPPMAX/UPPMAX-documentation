@@ -11,9 +11,9 @@ programs to manage jobs.
 
 ```mermaid
 flowchart TD
-  sbatch[sbatch\nSubmit a job]
-  scancel[scancel\nCancel a running job]
-  squeue[squeue\nView the job queue]
+  sbatch[sbatch: submit a job]
+  scancel[scancel: cancel a running job]
+  squeue[squeue: view the job queue]
   sbatch --> |Oops| scancel
   sbatch --> |Verify| squeue
 ```

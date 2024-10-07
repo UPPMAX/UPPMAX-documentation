@@ -8,7 +8,7 @@ flowchart LR
     end
     transit[transit server]
     sftp_server[SFTP server]
-    user[User in SUNET\nUser on Rackham\nUser on other NAISSS clusters\n]
+    user[User in SUNET or user on Rackham or user on other NAISSS clusters]
     wharf <--> transit
     wharf <--> sftp_server
     transit <--> user
