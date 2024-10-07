@@ -161,9 +161,9 @@ Enjoy! You are in: you are now on a Bianca [login node](../cluster_guides/login_
 ???- question "How do I copy-paste text?"
 
     The Bianca remote desktop environment via a website
-    uses [ThinLinc](..se/software/thinlinc).
+    uses [ThinLinc](../software/thinlinc.md).
 
-    At [the ThinLinc page](..se/software/thinlinc) you can find
+    At [the ThinLinc page](../software/thinlinc.md) you can find
     how to work with its interface.
 
 !!! note "How to behave on a login node"
