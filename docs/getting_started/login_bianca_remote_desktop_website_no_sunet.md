@@ -28,7 +28,7 @@ using a remote desktop that is accessible from a webbrowser.
 ???- question "Prefer a video?"
 
     See this page explained in
-    [a YouTube video here](...)
+    [a YouTube video here](https://youtu.be/2xDLqzsswvo)
 
 
 ### 1. Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
