@@ -1,11 +1,15 @@
 # UPPMAX support
 
-- Want to help improve our documentation? Do a Pull Request to [the UPPMAX documentation GitHub repository](https://github.com/UPPMAX/UPPMAX-documentation)
+If you lost your UPPMAX password, see [how to reset your UPPMAX password](getting_started/reset_uppmax_password.md).
 
-- Lost your password? You can [request a new password to your UPPMAX account here](https://suprintegration.uppmax.uu.se/getpasswd).
+If you need other help on using UPPMAX,
+you preferably contact us through the [Support Form](https://supr.naiss.se/support/).
+If that does not work, use `support@uppmax.uu.se`.
 
-- Please contact UPPMAX support through the [Support Form](https://supr.naiss.se/support/).
-    - or by emailing `support@uppmax.uu.se`. We are available during normal office hours.
+If you want to contribute, see [how to contribute](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/CONTRIBUTING.md).
 
-- For Uppsala University Education, support is provided through the UU IT Servicedesk.
-  [What should I think about when planning a course using UPPMAX resources](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/course/planning-a-course)
+If you need general Uppsala University IT support,
+use the Uppsala University IT Servicedesk.
+
+If you plan a course using UPPMAX resources, see
+[What should I think about when planning a course using UPPMAX resources](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/course/planning-a-course)

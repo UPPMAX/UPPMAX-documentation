@@ -72,7 +72,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
     module load Whisper-gui
     whisper-gui.sh
     ```  
-    
+
     ![whisper gui](../img/whisper-gui.png){: style="height:60%;width:60%"}
 
 
