@@ -59,7 +59,7 @@ flowchart TD
 > Decision tree on how to log in to Bianca
 
 Question A, 'Can you get inside the university networks?' is commonly answered
-'yes' for anyone with an email address at a university in Sweden. 
+'yes' for anyone with an email address at a university in Sweden.
 The [UPPMAX documentation on how to get inside the university networks](get_inside_sunet.md)
 should allow anyone to do so.
 
