@@ -19,7 +19,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 **Terminal** : Black text-based environment that is used for performing jobs.  
 **Wharf**: private folder in Bianca that is used to transfer data to and from your computer.  
 **Proj**: project folder in Bianca that is shared among all project members.  
-**Job**: A request for transcibing/tranlating one or many recordings.  
+**Job**: A request for transcribing/translating one or many recordings.  
 **Slurm**: "job" handler.  
 
 
@@ -37,7 +37,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal).  
 
-3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will recieve an UPPMAX username and password via email.
+3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
 
 4. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account.  
 

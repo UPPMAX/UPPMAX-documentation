@@ -10,7 +10,7 @@ tags:
 
 # How to extend the duration of a job that is running?
 
-There are many [UPPMAX cluster frequenly asked questions](cluster_guide_faq.md).
+There are many [UPPMAX cluster frequently asked questions](cluster_guide_faq.md).
 This page describes how to extend a job that has been running for a long
 time and is near its duration limit.
 
