@@ -60,11 +60,22 @@ has [multiple big databases installed](../databases/overview.md).
     `module load bioinfo-tools`     |Load this module first, to find others
     `module spider`                 |Search for a module
     `module spider [module]`        |Get info about a module, e.g. `module spider cowsay`
+    `module avail`                  |Search for a module that is available
     `module list`                   |List all activated modules
     `module load [module]`          |Load a module, e.g. `module load cowsay`
     `module load [module]/[version]`|Load a module of a specific versions, e.g. `module load cowsay/3.03`
     `module help`                   |Show the help for a module
     `module unload [module]`        |Unload the module `[module]`, e.g. `module unload cowsay`
+
+???- question "What is the difference between `module spider` and `module avail`?"
+
+    - `module spider`: search for a module,
+      also those that are not available (yet)
+    - `module avail`: search for a module that is available
+
+    As an example, use the `samtools` module, which will always
+    be found by `module spider samtools`, but will only be found
+    by `module avail` after a `module load bioinfo-tools"
 
 Working with the module system means:
 
