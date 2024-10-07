@@ -34,8 +34,8 @@ flowchart TD
   question[Are you alone on the login node?]
   which_cluster[Which cluster?]
   alone_in_project[Are you alone in this project?]
-  no[No\nYou share the login node with others]
-  yes[Yes\nYou have the login node for yourself]
+  no[No: you share the login node with others]
+  yes[Yes: you have the login node for yourself]
   question --> which_cluster
   which_cluster --> |Rackham| no
   which_cluster --> |Bianca| alone_in_project

@@ -8,7 +8,7 @@ This page describes how to use [`rsync`](../software/rsync.md) on [Rackham](../c
 
 ```mermaid
 flowchart LR
-  local_computer[Your local computer\nRun rsync from here]
+  local_computer[Your local computer. Run rsync from here]
   rackham[Rackham]
 
   local_computer --> |rsync| rackham
@@ -35,7 +35,7 @@ copy a folder and all of its subfolders.
 
 ```mermaid
 flowchart LR
-  local_computer[Your local computer\nRun rsync from here]
+  local_computer[Your local computer. Run rsync from here]
   rackham[Rackham]
 
   rackham --> |rsync| local_computer

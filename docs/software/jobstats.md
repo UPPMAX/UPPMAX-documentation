@@ -109,7 +109,7 @@ Here is a strategy to effectively use your UPPMAX resources:
 flowchart TD
   lower_limit_based_on_memory(Pick the number of cores to have enough memory)
   limited_by_cpu(For that amount of cores, would runtime by limited by CPU?)
-  lower_limit_based_on_cpu(Increase the number of cores,\nso that on average,\nthe right amount of CPUs is booked)
+  lower_limit_based_on_cpu(Increase the number of cores, so that on average, the right amount of CPUs is booked)
 
   done(Use that amount of cores)
 
