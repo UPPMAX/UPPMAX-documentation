@@ -10,7 +10,7 @@ tags:
 
 # How to get data from an expired project?
 
-There are many [UPPMAX cluster frequenly asked questions](cluster_guide_faq).
+There are many [UPPMAX cluster frequenly asked questions](cluster_guide_faq.md).
 This page describes how to get the data from an expired project.
 
 ## Casus
