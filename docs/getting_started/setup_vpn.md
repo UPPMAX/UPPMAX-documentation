@@ -17,7 +17,6 @@ To be able to use a VPN to [get inside of SUNET](get_inside_sunet.md):
     This is yet unknown. Please [contact support](../support.md).
 
 
-
 ???- tip "Want a video to see how the UU VPN is used?"
 
     - [Use the UU VPN with 2FA](https://youtu.be/QEJTKvQoiVI)
