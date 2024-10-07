@@ -20,6 +20,16 @@ This page describes how to [log in to Bianca](login_bianca.md)
 using a [terminal](../software/terminal.md) and a password
 from outside of the Swedish university networks.
 
-## 1. Log in to Rackham
+## Procedure
 
-## 2. From Rackham, log in to Bianca
+### 1. Log in to Rackham's console environment
+
+See [the UPPMAX documentation on how to log in to Rackham](login_rackham.md)
+how to do so.
+
+### 2. From Rackham, log in to Bianca
+
+From Rackham (which is inside of the university networks),
+log in to Bianca.
+See [the UPPMAX documentation on how to log in to Bianca](login_bianca.md)
+how to do so.

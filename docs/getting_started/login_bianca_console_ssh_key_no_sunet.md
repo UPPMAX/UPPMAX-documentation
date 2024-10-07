@@ -22,6 +22,14 @@ from outside of the Swedish university networks.
 
 ## Procedure
 
-### 1. Log in to Rackham
+### 1. Log in to Rackham's console environment
+
+See [the UPPMAX documentation on how to log in to Rackham](login_rackham.md)
+how to do so.
 
 ### 2. From Rackham, log in to Bianca
+
+From Rackham (which is inside of the university networks),
+log in to Bianca.
+See [the UPPMAX documentation on how to log in to Bianca](login_bianca.md)
+how to do so.
