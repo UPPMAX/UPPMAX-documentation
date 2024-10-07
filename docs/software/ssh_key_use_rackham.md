@@ -25,9 +25,9 @@ This figure shows the procedure:
 ```mermaid
 flowchart TD
   subgraph ip_inside_sunet[IP inside SUNET]
-    create[1. Create an SSH key pair]
-    add[2. Add your keys to an SSH agent]
-    copy[3. Copy the public key to Rackham]
+    create[1.Create an SSH key pair]
+    add[2.Add your keys to an SSH agent]
+    copy[3.Copy the public key to Rackham]
   end
   create --> add
   add --> copy
@@ -42,7 +42,7 @@ This procedure will fail if:
 - You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
   where a password is still requested after doing this procedure
 
-## 1. Create an SSH key pair
+### 1. Create an SSH key pair
 
 Create an SSH key pair with the following command:
 
@@ -55,7 +55,7 @@ ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
 - `-f ~/.ssh/id_ed25519_uppmax_login`: specify filename, following the naming scheme as suggested [here](https://superuser.com/a/1261644)
 - `-C "My comment"`: a comment that will be stored in the key, so you can find out what it was for
 
-## 2. Add your keys to an SSH agent
+### 2. Add your keys to an SSH agent
 
 Add your newly generated `ed25519` key to an SSH agent:
 
@@ -63,7 +63,7 @@ Add your newly generated `ed25519` key to an SSH agent:
 ssh-add ~/.ssh/id_ed25519_uppmax_login
 ```
 
-## 3. Copy the public key to Rackham
+### 3. Copy the public key to Rackham
 
 Copy the public key to Rackham or other server.
 
