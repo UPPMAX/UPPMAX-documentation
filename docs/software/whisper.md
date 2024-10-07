@@ -64,7 +64,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     ![Desktop view on Bianca after running `module load Whisper-gui`](../img/whisper_desktop.png)
 
-1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data insted of copy-paste.
+1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste.
 
 1. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following two commands to run the Whisper service GUI (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.):  
 

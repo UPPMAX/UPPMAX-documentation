@@ -50,6 +50,6 @@ After login, you will be on the Rackham remote desktop environment.
 ### 2. [Log in to the Bianca remote desktop environment website](login_bianca_remote_desktop_website.md)
 
 In the web browser of the Rackham remote desktop environment
-(which is inside the univesity networks),
+(which is inside the university networks),
 follow the steps at [how to log in to the Bianca remote desktop environment website](login_bianca_remote_desktop_website.md).
 
