@@ -1,67 +1,101 @@
+---
+tags:
+  - Whisper
+---
+
 # Whisper
 
 ## Introduction
 
 This guide provides instructions for loading and using OpenAI's Whisper, an
-automatic speech recognition system. Whisper is available on Rackham,
-Snowy and Bianca. It can either be used through a User Interface or loaded as a Module.
+automatic speech recognition system. Whisper is available on Bianca. It can either be used through a User Interface or loaded as a Module.
+
+## Glossary  
+
+**SUPR account**  
+**UPPMAX account**  
+**GUI** : Graphical User Interface for taking transcription/translation inputs.  
+**WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.  
+**Terminal** : Black text-based environment that is used for performing jobs.  
+**Wharf**: private folder in Bianca that is used to transfer data to and from your computer.  
+**Proj**: project folder in Bianca that is shared among all project members.  
+**Job**: A request for transcibing/tranlating one or many recordings.  
+**Slurm**: "job" handler.  
+
+
+## Accessing your project  
+
+Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account):  
+
+!!! info inline end "Checklist"  
+
+    * [x] SUPR account  
+    * [x] UPPMAX username and password  
+    * [x] UPPMAX two factor authentication.  
+
+1. Register an [account on SUPR](https://supr.naiss.se/person/register/).  
+
+2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal).  
+
+3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will recieve an UPPMAX username and password via email.
+
+4. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account.  
+
+5. Give adequate information while creating your proposal or follow [this template](#proposal-template).  
+
+6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).
 
 
 ## User Interface (GUI)
 
-### Step 1: Accessing your project  
+### Step 1: Data transfer from local computer to project  
 
-1. Register an account on NAISS SUPR, apply for a project and apply for an account at UPPMAX by following steps mentioned in [UPPMAX (get started)](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account) webpage. A direct link for applying for a project for sensitive data (Bianca) is [here](https://supr.naiss.se/round/senssmall2024/create_proposal/?). Give adequate information while create your proposal or follow [this template](#proposal-template). Finally, setup a [two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for your newly created UPPMAX account.  
+1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux). Instruction on how to do it is in their respective links.
 
-2. Check access to your project on [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
+### Step 2: Transcribing/Translating  
 
+1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code.
 
-### Step 2: Data transfer from local to project  
+1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project).  
 
-1. Transfer your data from your local machine to Wharf using SFTP clients like [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (Windows only), [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux) or other ways via [terminal](http://docs.uppmax.uu.se/cluster_guides/transfer_bianca/).
+    ```bash
+    module load Whisper-gui
+    ```  
 
-### Step 3: Transcribing/Translating  
+    ![Desktop view on Bianca after running `module load Whisper-gui`](../img/whisper_desktop.png)
 
-1. Login to [Bianca via ThinLinc](https://bianca.uppmax.uu.se/).
+1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data insted of copy-paste.
 
-1. Right click on the Desktop and select "Open Terminal Here" and enter the following command to load Whisper-gui module:  
+1. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following two commands to run the Whisper service GUI (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.):  
 
-   ```console
-   [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
-   ```
-
-    This creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in Step 2.  
-
-1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data to `proj` folder.  
-
-1. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following command to run the Whisper service GUI:  
-
-   ```console
-   [jayan@sens2024544-bianca jayan]$ module load Whisper-gui
-   [jayan@sens2024544-bianca jayan]$ whisper-gui.sh
-   ```
-
-   Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.  
+    ```bash
+    module load Whisper-gui
+    whisper-gui.sh
+    ```  
+    
+    ![whisper gui](../img/whisper-gui.png){: style="height:60%;width:60%"}
 
 
 1. Select appropriate options, or use the following for the best results:  
 
-   device: gpu  
-   SLURM job name: [give any name without space]  
-   Total audio length in hours : [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
-   Model: large-v2  
-   by word timestamps: by_sentence
+    **device**: gpu  
+    **SLURM job name**: [give any name without space]  
+    **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
+    **Model**: large-v2  
+    **Language used in recordings (leave blank for autodetection)**: [enter language code from "Languages available" list]  
+    **by word timestamps**: by_sentence
 
-### Step 4: Monitoring jobs  
+### Step 3: Monitoring jobs  
 
-1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.
+1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.  
 
+2. Check `slurm-xxx.out` file created in your `proj` folder. This contains a progress bar for each file that you sent for transcribing/translating.  
 
-### Step 5: Data transfer from project to local
+### Step 4: Data transfer from project to local computer
 
-1. Transfer your output results from project folder (Bianca: `/cygnus/proj/`) to Wharf.  
+1. Transfer your output results from `proj` folder to `wharf`.  
 
-2. Use an SFTP client (WinSCP/FileZilla or through terminal) like you did in Step 2.
+2. Use WinSCP/FileZilla like you did in [Step 1](#step-1-data-transfer-from-local-computer-to-project).
 
 ### Output files
 
@@ -73,20 +107,23 @@ With detailed model metadata: `.json`.
 On Mac, `.srt` and `.vtt` can be opened in Word by:  
 Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
 
-### Advance settings
+??? tip "Advance settings"
 
-Use below features only if output is not satisfactory in Step 3.4 and for less spoken languages or languages that are not having good resources online for understanding :
+    Use below features only if transcriptions/transl is not satisfactory and for less spoken languages or languages that are not having good resources online for understanding :
 
-1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording.  
+    1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording. It should be in written in same language as the language in spoken in the recordings.  
 
-2. Try switching to Model: large-v3.
-3. Use combination of both 1 and 2.
-4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
+    2. Try switching to Model: large-v3.  
 
-### Languages available
+    3. Use combination of both 1 and 2.  
 
-Use the following 2 letter code to perform transcribing when asked in the GUI:  
-`en`: "english",
+    4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
+
+??? note "Languages available"
+
+    Use the following 2 letter code to perform transcribing when asked in the GUI:  
+
+    `en`: "english",
     `zh`: "chinese",
     `de`: "german",
     `es`: "spanish",
@@ -187,7 +224,7 @@ Use the following 2 letter code to perform transcribing when asked in the GUI:
     `su`: "sundanese",
     `yue`: "cantonese"
 
-### Proposal template
+## Proposal template
 
 Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:  
 
@@ -203,69 +240,67 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
 
 * **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
 
+??? note "Module Loading"
 
-## Module Loading
+    To load the Whisper module, run the following command:
 
-To load the Whisper module, run the following command:
+    ```console
+    [jayan@sens2024544-bianca jayan]$ module load Whisper/0.5.1
+    ```
 
+    This will also load the necessary dependencies, including `python`
+    and `ffmpeg`.
 
-```console
-[jayan@sens2024544-bianca jayan]$ module load Whisper/0.5.1
-```
+    ```console
+    [jayan@sens2024544-bianca jayan]$ module list
+    Currently Loaded Modules:
+      1) uppmax       3) mp-tools/latest   5) FFmpeg/5.1.2
+      2) git/2.34.1   4) python/3.11.4     6) Whisper/0.5.1
+    ```  
 
-This will also load the necessary dependencies, including `python`
-and `ffmpeg`.
+    ### Command-line
 
-```console
-[jayan@sens2024544-bianca jayan]$ module list
-Currently Loaded Modules:
-  1) uppmax       3) mp-tools/latest   5) FFmpeg/5.1.2
-  2) git/2.34.1   4) python/3.11.4     6) Whisper/0.5.1
-```  
+    The `whisper` command can be used to transcribe audio files. For example:
 
-### Command-line
+    ```console
+    [jayan@sens2024544-bianca jayan]$ whisper audio.flac audio.mp3 audio.wav --model medium
+    ```
 
-The `whisper` command can be used to transcribe audio files. For example:
+    ### Python
 
-```console
-[jayan@sens2024544-bianca jayan]$ whisper audio.flac audio.mp3 audio.wav --model medium
-```
+    ```python title="example.py"
+    import whisper
 
-### Python
+    # Load the model
+    model = whisper.load_model("base")
 
-```python title="example.py"
-import whisper
+    # Transcribe an audio file
+    result = model.transcribe("/path/to/audiofile.mp3")
 
-# Load the model
-model = whisper.load_model("base")
+    # Output the transcription
+    print(result["text"])
 
-# Transcribe an audio file
-result = model.transcribe("/path/to/audiofile.mp3")
+    ```
 
-# Output the transcription
-print(result["text"])
+    ### Available Models
 
-```
+    For making offline usage of Whisper more convenient, we provide
+    pre-trained models as part of the Whisper module. You can list
+    all the available models by:
 
-### Available Models
-
-For making offline usage of Whisper more convenient, we provide
-pre-trained models as part of the Whisper module. You can list
-all the available models by:
-
-```console
-[jayan@sens2024544-bianca jayan]$ ll /sw/apps/Whisper/0.5.1/rackham/models
-total 13457440
--rw-rw-r-- 1 sw  145261783 Nov 10 14:22 base.en.pt
--rw-rw-r-- 1 sw  145262807 Nov 10 14:23 base.pt
--rw-rw-r-- 1 sw 3086999982 Nov 10 14:39 large-v1.pt
--rw-rw-r-- 1 sw 3086999982 Nov 10 14:40 large-v2.pt
--rw-rw-r-- 1 sw 3087371615 Nov 10 14:27 large-v3.pt
--rw-rw-r-- 1 sw 1528006491 Nov 10 14:24 medium.en.pt
--rw-rw-r-- 1 sw 1528008539 Nov 10 14:25 medium.pt
--rw-rw-r-- 1 sw  483615683 Nov 10 14:23 small.en.pt
--rw-rw-r-- 1 sw  483617219 Nov 10 14:23 small.pt
--rw-rw-r-- 1 sw   75571315 Nov 10 14:22 tiny.en.pt
--rw-rw-r-- 1 sw   75572083 Nov 10 14:22 tiny.pt
-```
+    ```console
+    [jayan@sens2024544-bianca jayan]$ ll /sw/apps/Whisper/0.5.1/rackham/models
+    total 13457440
+    -rw-rw-r-- 1 sw  145261783 Nov 10 14:22 base.en.pt
+    -rw-rw-r-- 1 sw  145262807 Nov 10 14:23 base.pt
+    -rw-rw-r-- 1 sw 3086999982 Nov 10 14:39 large-v1.pt
+    -rw-rw-r-- 1 sw 3086999982 Nov 10 14:40 large-v2.pt
+    -rw-rw-r-- 1 sw 3087371615 Nov 10 14:27 large-v3.pt
+    -rw-rw-r-- 1 sw 1528006491 Nov 10 14:24 medium.en.pt
+    -rw-rw-r-- 1 sw 1528008539 Nov 10 14:25 medium.pt
+    -rw-rw-r-- 1 sw  483615683 Nov 10 14:23 small.en.pt
+    -rw-rw-r-- 1 sw  483617219 Nov 10 14:23 small.pt
+    -rw-rw-r-- 1 sw   75571315 Nov 10 14:22 tiny.en.pt
+    -rw-rw-r-- 1 sw   75572083 Nov 10 14:22 tiny.pt
+    ```
 
