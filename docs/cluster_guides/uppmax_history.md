@@ -45,7 +45,7 @@ Miarka                                 |.               |.                      
 [Snowy](../cluster_guides/snowy.md)    |.               |.                                                            |.    |.         |.         |.
 [Pelle](../cluster_guides/pelle.md)    |.               |.                                                            |.    |.         |.         |.
 [Maja](../cluster_guides/maja.md)      |.               |.                                                            |.    |.         |.         |.
-[Gorilla](../cluster_guides/gorila.md) |.               |.                                                            |.    |.         |.         |.
+[Gorilla](../cluster_guides/gorilla.md)|.               |.                                                            |.    |.         |.         |.
 
 - Price is in millions of Swedish kroner
 - 'Start': start of the guarantee
