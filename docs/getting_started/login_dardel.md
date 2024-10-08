@@ -10,7 +10,12 @@ tags:
 There are multiple clusters one can [log in to](../getting_started/login.md).
 Here it is described how to login to Dardel.
 
-## How do I do this?
+## Procedure
+
+???- question "Prefer a video?"
+
+    Go to [a YouTube video on how to log in to Dardel](https://youtu.be/I8cNqiYuA-4)
+    to view what to do from step 3 and onwards.
 
 First, we are here to help.
 Please [contact support](../support.md) if you run into problems
