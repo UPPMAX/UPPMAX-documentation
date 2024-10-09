@@ -2,7 +2,7 @@
 
 !!! info "SIMPLER is an abbreviation"
 
-  SIMPLER is an abbreviation of 
+  SIMPLER is an abbreviation of
   'Swedish Infrastructure for Medical Population-based Life-course
   and Environmental Research'.
   It does not meant to indicate that this is easier.
