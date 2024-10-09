@@ -2,10 +2,10 @@
 
 !!! info "SIMPLER is an abbreviation"
 
-  SIMPLER is an abbreviation of
-  'Swedish Infrastructure for Medical Population-based Life-course
-  and Environmental Research'.
-  It does not meant to indicate that this is easier.
+    SIMPLER is an abbreviation of
+    'Swedish Infrastructure for Medical Population-based Life-course
+    and Environmental Research'.
+    It does not meant to indicate that this is easier.
 
 To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).
 This page describes how to apply for a SIMPLER project.
@@ -42,7 +42,7 @@ In the 'Open for Proposals' screen, click 'Create New Proposal for SIMPLER' for 
 
 > In the 'Open for Proposals' screen, click 'Create New Proposal for SIMPLER' for the current year
 
-### 6. Add a project title and click 'Create new proposal'
+### 5. Add a project title and click 'Create new proposal'
 
 In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Create new proposal'
 
