@@ -10,7 +10,7 @@ Set                                    |2010-12-31       |10 nodes              
 Isis                                   |2010-12-31       |200 nodes                                                    |4.49 |2007-02-01|2010-01-31|SNIC/matvet
 Os                                     |2010-12-31       |10 nodes                                                     |0    |2007-02-01|2011-12-31|SNIC, IB
 Grad                                   |2013-01-31       |64 nodes                                                     |-    |2008-04-01|2012-03-31|SNIC/SweGrid
-Cell                                   |2012-01-31       |2 nodes                                                      |-    |2008-09-01|2009-08-31|2 nodes with cell-procs
+Cell                                   |2012-01-31       |2 nodes                                                      |-    |2008-09-01|2009-08-31|2 nodes with cell-processors
 Kalkyl                                 |2013-12-31       |348 nodes                                                    |8.6  |2009-12-12|2013-12-31|KAW/SNIC
 Bubo                                   |2013-12-09       |500TB                                                        |5.3  |2009-09-12|2013-12-01|KAW/SNIC
 Hökeborg                               |.                |ca 230 m2, 7 cooling aggregates, 90 kVA UPS, racks A-D       |-    |2011-09-01|-         |Computer hall, faculty means
@@ -30,15 +30,15 @@ Nestor                                 |2016-05-31       |48 nodes              
 Apus                                   |2016-05-31       |500 TB                                                       |-    |2014-01-13|2018-01-13|.
 Topolino                               |.                |24 nodes                                                     |-    |2014-04-08|2018-04-08|BILS
 Meles                                  |.                |279 TB                                                       |-    |2014-01-13|2018-01-13|.
-Das                                    |.                |48 TB                                                        |0.07 |2015-07-01|2020-06-30|New back mount, HP, dnr IT 2015/25
-Core network                           |.                |2 switches                                                   |0.22 |2015-07-01|2020-06-30|Dell, core network, dnr IT 2015/50
-Irma                                   |.                |250 nodes                                                    |15.8 |2015-10-01|2019-09-30|Supermicro, dnr IT2014/93
-Lupus                                  |.                |1 PB Lustre                                                  |2.1  |2016-03-03|2021-03-02|Dell, dnr IT214/92
-CEPH                                   |.                |252 TB                                                       |0.35 |2015-12-14|2019-12-13|Dell, 7 servers, dnr IT 2015/84
-[Bianca](../cluster_guides/bianca.md)  |.                |100 nodes                                                    |3.1  |2016-04-01|2020-03-31|SouthPole, Huawei dnr IT 2015/65
-Castor                                 |.                |1 PB, 18 servers                                             |1    |2016-04-01|2020-03-31|SouthPole, Huawei dnr IT 2015/65
-Castor, +1 PB                          |.                |1 PB, 18 servers                                             |2.3  |2016-07-01|2020-07-31|SouthPole, Huawei dnr IT 2015/65
-Grus                                   |.                |1.5 PB, 14 servers                                           |1.8? |2016-07-01|2020-07-31|SouthPole, Huawei dnr IT 2015/65
+Das                                    |.                |48 TB                                                        |0.07 |2015-07-01|2020-06-30|New back mount, HP, data network redesign IT 2015/25
+Core network                           |.                |2 switches                                                   |0.22 |2015-07-01|2020-06-30|Dell, core network, data network redesign IT 2015/50
+Irma                                   |.                |250 nodes                                                    |15.8 |2015-10-01|2019-09-30|Supermicro, data network redesign IT2014/93
+Lupus                                  |.                |1 PB Lustre                                                  |2.1  |2016-03-03|2021-03-02|Dell, data network redesign IT214/92
+CEPH                                   |.                |252 TB                                                       |0.35 |2015-12-14|2019-12-13|Dell, 7 servers, data network redesign IT 2015/84
+[Bianca](../cluster_guides/bianca.md)  |.                |100 nodes                                                    |3.1  |2016-04-01|2020-03-31|SouthPole, Huawei data network redesign IT 2015/65
+Castor                                 |.                |1 PB, 18 servers                                             |1    |2016-04-01|2020-03-31|SouthPole, Huawei data network redesign IT 2015/65
+Castor, +1 PB                          |.                |1 PB, 18 servers                                             |2.3  |2016-07-01|2020-07-31|SouthPole, Huawei data network redesign IT 2015/65
+Grus                                   |.                |1.5 PB, 14 servers                                           |1.8? |2016-07-01|2020-07-31|SouthPole, Huawei data network redesign IT 2015/65
 Irham                                  |.                |.                                                            |.    |2016-07-01|2024-01-12|Decommissioned Irma nodes added to Rackham, became `r[1001-1072,1179-1250]`
 Miarka                                 |.                |.                                                            |.    |2021      |.         |.
 [Rackham](../cluster_guides/rackham.md)|.                |.                                                            |.    |.         |.         |.
@@ -50,3 +50,5 @@ Miarka                                 |.                |.                     
 - Price is in millions of Swedish kroner
 - 'Start': start of the guarantee
 - 'End': end of the guarantee
+- 'data network redesign' is assumed to be the unabbreviated form of `dnr`
+- 'processors' is assumed to be the unabbreviated form of `procs`
