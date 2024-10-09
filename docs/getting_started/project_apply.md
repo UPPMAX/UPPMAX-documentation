@@ -23,6 +23,8 @@ This page is about applying for an UPPMAX project:
 
 - [Apply for a Bianca project](project_apply_bianca.md), i.e. a project
   using sensitive data
+- [Apply for a SIMPLER project](project_apply_simpler.md),
+  i.e. a project for the Swedish Infrastructure for Medical Population-based Life-course and Environmental Research
 - [Other applications](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects)
 
 Alternatively, one can [join an existing project](join_existing_project.md).
