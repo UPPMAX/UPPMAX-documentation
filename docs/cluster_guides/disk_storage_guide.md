@@ -55,26 +55,26 @@ du -b $PWD | sort -rn | awk 'NR==1 {ALL=$1} {print int($1*100/ALL) "% " $0}' | h
 
     ```bash
     [sven@rackham3 ~]$ du -b $PWD | sort -rn | awk 'NR==1 {ALL=$1} {print int($1*100/ALL) "% " $0}' | head -n 20
-    100% 17643266006	/home/sven
-    50% 8984271436	/home/sven/.cache
-    45% 8016778981	/home/sven/.cache/pip
-    39% 6988369390	/home/sven/.cache/pip/http
-    28% 4986824453	/home/sven/.local
-    28% 4986117855	/home/sven/.local/lib
-    27% 4816372185	/home/sven/.local/lib/python3.8
-    27% 4816368089	/home/sven/.local/lib/python3.8/site-packages
-    15% 2797022871	/home/sven/.local/lib/python3.8/site-packages/nvidia
-    10% 1876238645	/home/sven/.cache/pip/http/3
-    9% 1648194862	/home/sven/.local/lib/python3.8/site-packages/torch
-    9% 1589833684	/home/sven/users
-    8% 1569946463	/home/sven/users/fares
-    8% 1553069908	/home/sven/.local/lib/python3.8/site-packages/torch/lib
-    8% 1431151816	/home/sven/.cache/pip/http/0
-    7% 1411093224	/home/sven/.cache/pip/http/3/c
-    5% 1023338615	/home/sven/.local/lib/python3.8/site-packages/nvidia/cudnn
-    5% 1022966263	/home/sven/.local/lib/python3.8/site-packages/nvidia/cudnn/lib
-    5% 983932032	/home/sven/.cache/pip/http-v2
-    5% 983390581	/home/sven/.cache/pip/http/9
+    100% 17643266006 /home/sven
+    50% 8984271436 /home/sven/.cache
+    45% 8016778981 /home/sven/.cache/pip
+    39% 6988369390 /home/sven/.cache/pip/http
+    28% 4986824453 /home/sven/.local
+    28% 4986117855 /home/sven/.local/lib
+    27% 4816372185 /home/sven/.local/lib/python3.8
+    27% 4816368089 /home/sven/.local/lib/python3.8/site-packages
+    15% 2797022871 /home/sven/.local/lib/python3.8/site-packages/nvidia
+    10% 1876238645 /home/sven/.cache/pip/http/3
+    9% 1648194862 /home/sven/.local/lib/python3.8/site-packages/torch
+    9% 1589833684 /home/sven/users
+    8% 1569946463 /home/sven/users/fares
+    8% 1553069908 /home/sven/.local/lib/python3.8/site-packages/torch/lib
+    8% 1431151816 /home/sven/.cache/pip/http/0
+    7% 1411093224 /home/sven/.cache/pip/http/3/c
+    5% 1023338615 /home/sven/.local/lib/python3.8/site-packages/nvidia/cudnn
+    5% 1022966263 /home/sven/.local/lib/python3.8/site-packages/nvidia/cudnn/lib
+    5% 983932032 /home/sven/.cache/pip/http-v2
+    5% 983390581 /home/sven/.cache/pip/http/9
     ```
 
 
