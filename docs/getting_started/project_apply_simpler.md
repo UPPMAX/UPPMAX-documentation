@@ -12,6 +12,10 @@ This page describes how to apply for a SIMPLER project.
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    View [the YouTube video that shows this procedure](https://youtu.be/4mNs7XFuO0o)
+
 ### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
 
 ![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
