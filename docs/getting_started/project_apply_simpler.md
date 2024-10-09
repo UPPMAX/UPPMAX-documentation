@@ -2,7 +2,9 @@
 
 !!! info "SIMPLER is an abbreviation"
 
-  SIMPLER is an abbreviation.
+  SIMPLER is an abbreviation of 
+  'Swedish Infrastructure for Medical Population-based Life-course
+  and Environmental Research'.
   It does not meant to indicate that this is easier.
 
 To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).
