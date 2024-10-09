@@ -26,7 +26,15 @@ On the main page, click on 'Rounds'
 
 > On the main page, click on 'Rounds'
 
-### 3. Click on 'Go to SIMPLER' for the current year
+### 3. Click on 'Go to NAISS SENS'
+
+In the 'Rounds' menu, click on 'Go to NAISS SENS'
+
+![In the 'Rounds' menu, click on 'Go to NAISS SENS'](./img/supr_naiss_rounds_click_go_to_naiss_sens.png)
+
+> In the 'Rounds' menu, click on 'Go to NAISS SENS'
+
+### 4. Click on 'Go to SIMPLER' for the current year
 
 In the 'Rounds' menu, click on 'Go to SIMPLER' for the current year.
 
@@ -34,7 +42,7 @@ In the 'Rounds' menu, click on 'Go to SIMPLER' for the current year.
 
 > In the 'Rounds' menu, click on 'Go to SIMPLER' for the current year.
 
-### 4. Click 'Create New Proposal for SIMPLER' for the current year
+### 5. Click 'Create New Proposal for SIMPLER' for the current year
 
 In the 'Open for Proposals' screen, click 'Create New Proposal for SIMPLER' for the current year
 
@@ -42,7 +50,7 @@ In the 'Open for Proposals' screen, click 'Create New Proposal for SIMPLER' for 
 
 > In the 'Open for Proposals' screen, click 'Create New Proposal for SIMPLER' for the current year
 
-### 5. Add a project title and click 'Create new proposal'
+### 6. Add a project title and click 'Create new proposal'
 
 In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Create new proposal'
 
