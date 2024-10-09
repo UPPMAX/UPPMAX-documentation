@@ -54,7 +54,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 ### Step 2: Transcribing/Translating  
 
-1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code.
+1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.  
 
 1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project).  
 
