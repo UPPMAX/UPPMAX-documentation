@@ -16,11 +16,11 @@ flowchart TD
   local_computer[Local computer]
   transit[Transit]
   bianca[Bianca]
-  local_computer_ourside_sunet --> |1. Get inside SUNET|local_computer
-  local_computer --> |2. login| transit
-  local_computer --> |4. rsync| bianca
-  bianca --> |5. rsync| local_computer
-  transit --> |3. mount| bianca
+  local_computer_ourside_sunet --> |1.Get inside SUNET|local_computer
+  local_computer --> |2.login| transit
+  local_computer --> |4.rsync| bianca
+  bianca --> |5.rsync| local_computer
+  transit --> |3.mount| bianca
 ```
 
 ## 1. Get inside SUNET
