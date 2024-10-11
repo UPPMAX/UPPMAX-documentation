@@ -45,18 +45,34 @@ As an external contributor, one can contribute by:
 
 ## Where to put a new page: here or at <https://www.uu.se/en/centre/uppmax>?
 
-- <https://www.uu.se/en/centre/uppmax> is our 'landing page'.
-  It’s for 'nice' looking pages with general information about UPPMAX,
-  which don’t need to be updated very often.
-  The news function and a calendar of events can be here as well,
-  because it makes sense for this to be visible on our homepage.
-  There's supposed to be an automatically-generated list of staff as well.
-- this page: is for more detailed documentation for our users,
-  for pages that we want to automate, etc.
-  Guides, documentation, anything with code snippets.
+[It has been decided upon](https://github.com/UPPMAX/UPPMAX-documentation/issues/128)
+that, as a general rule,
+information should be on SiteVision until a user applies to a project.
+This means that information about applying for a project
+and using our clusters should be on this repository.
 
-I’m sure there are things that fall in a grey zone,
-but we can discuss that a little and then decide what’s best.
+[It has been decided upon too](https://github.com/UPPMAX/UPPMAX-documentation/issues/128)
+to try hard for minimal duplication.
+
+[Specific points that have been decided upon](https://github.com/UPPMAX/UPPMAX-documentation/issues/128):
+
+What                                  |Where
+--------------------------------------|-------------------------
+Applying for an account               |Here
+Applying for NAISS projects           |Here
+Applying for a local project          |Here
+PUBA                                  |Here
+Services offered through UIT [1]      |Here
+Log in to each cluster                |Here
+General description of hardware       |SiteVision
+Detailed Hardware (e.g. how to access)|Here
+System usage                          |Link from both
+List of UPPMAX courses                |SiteVision
+Course pages                          |Here
+Course registrationss                 |Investigate first
+Support                               |Keep things as they are
+
+* [1] If such a page is needed
 
 ## Where to put files
 
