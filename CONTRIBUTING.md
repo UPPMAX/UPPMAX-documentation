@@ -72,7 +72,7 @@ Course pages                          |Here
 Course registrationss                 |Investigate first
 Support                               |Keep things as they are
 
-* [1] If such a page is needed
+- [1] If such a page is needed
 
 ## Where to put files
 
