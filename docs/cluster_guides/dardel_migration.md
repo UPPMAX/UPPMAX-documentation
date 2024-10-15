@@ -584,9 +584,9 @@ which is a regular [Slurm](slurm.md) script.
 
 ???- question "How to find out where on Dardel I will transfer your data to?"
 
-    - Your home folder: `/cfs/klemming/home/r/[username]`,
-      where `[username]` is your PDC username,
-      for example `/cfs/klemming/home/r/sven`
+    - Your home folder: `/cfs/klemming/home/[first letter of username]/[username]`,
+      where `[first letter of username]` is the first letter of your PDC username, and `[username]` is your PDC username,
+      for example `/cfs/klemming/home/s/sven`
     - Your project folder: `/cfs/klemming/projects/[project_storage]`,
       where `[project_storage]` is your PDC project storage folder,
       for example `/cfs/klemming/projects/snic/naiss2023-22-1027`
