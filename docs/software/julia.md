@@ -102,7 +102,7 @@ A variable referring to the last computed value, automatically set at the intera
 ​
     Exit with `<Ctrl-D>` or `exit()`.
 
-!!! seealso
+!!! see also
 
     More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
 

@@ -56,13 +56,13 @@ to other users' `wharf` folders in that same project.
 Mounting `wharf` means that a `wharf` folder is added to the
 filesystem of your local computer, after which you can use
 it like any other folder. The data shown in the folder is on Bianca,
-not on your local harddisk.
+not on your local storage.
 
 One can mount `wharf` on your local computer using `sshfs`
 when [inside the university networks](../getting_started/get_inside_sunet.md).
 `sshfs` is available on most Linux distributions:
 
-Distro            |Package name
+Distribution      |Package name
 ------------------|-------------
 Ubuntu            | `sshfs`
 Fedora            | `fuse-sshfs`
