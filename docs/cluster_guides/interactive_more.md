@@ -39,4 +39,4 @@ interactive -A p2010099 -n 16 -C fat -t 15:00:00
 
 but no "priority lane" can be used, you get your normal queue priority, and you might have to wait for a very long time for your session to start. Please note that you need to keep watch over when the job starts, because you are accounted for all the time from job start even if you are sleeping, and because an allocated and unused node is a waste of expensive resources.
 
-NB. You can not launch an interactive job from an other cluster with the flag -M, which otherwise is a common flag to other SLURM commands. You must launch it from a login node to the cluster you want to use.
+NB. You can not launch an interactive job from an other cluster with the flag -M, which otherwise is a common flag to other Slurm commands. You must launch it from a login node to the cluster you want to use.

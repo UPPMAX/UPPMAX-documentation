@@ -62,9 +62,9 @@ Here is a detailed description on how jobs are picked for elevation:
 - The elevated jobs of a user must not together ask for more than 64 cores.
 - The elevated jobs of a user must not together ask for more than 2688 core hours, i.e. 112 core days.
 
-### How does SLURM decide what job to start next?
+### How does Slurm decide what job to start next?
 
-When there are free nodes, an approximate model of SLURM's behaviour is this:
+When there are free nodes, an approximate model of Slurm's behaviour is this:
 
 - Step 1: Can the job in position one start now?
 - Step 2: If it can, remove it from the queue, start it, and continue with step 1.
@@ -73,7 +73,7 @@ When there are free nodes, an approximate model of SLURM's behaviour is this:
 - Step 5: If it can, remove it from the queue, start it, recalculate what nodes are free, look at next job and continue with step 4.
 - Step 6: If it can not, look at next job, and continue with step 4.
 
-As soon as a new job is submitted and as soon as a job finishes, SLURM restarts with step 1, so most of the time only jobs at the top of the queue are tested for the possibility to start it. As a side effect of this restart behaviour, START_TIME approximations are normally NOT CALCULATED FOR ALL JOBS.
+As soon as a new job is submitted and as soon as a job finishes, Slurm restarts with step 1, so most of the time only jobs at the top of the queue are tested for the possibility to start it. As a side effect of this restart behaviour, START_TIME approximations are normally NOT CALCULATED FOR ALL JOBS.
 
 ### More about other jobinfo columns for waiting jobs
 
@@ -81,11 +81,11 @@ Until now, we have looked into the PRIORITY and USER columns. Let us talk about 
 
 - JOBID: This is the best way to identify a job in a unique way. If you succeed to submit a job, it gets a jobID. The jobID of your finished jobs can be found with the finishedjobinfo command.
 - POS: This is a numbering of the lines, by jobinfo, after sorting with PRIORITY as first key and JOBID as the second. This is an approximation of the queue position.
-- PARTITION: A SLURM partition is a set of compute nodes, together with some rules about how jobs must be handled, if they ask for this partition. An UPPMAX cluster normally sports the "devel", "core" and "node" partitions.
+- PARTITION: A Slurm partition is a set of compute nodes, together with some rules about how jobs must be handled, if they ask for this partition. An UPPMAX cluster normally sports the "devel", "core" and "node" partitions.
 - NAME: This is the job name, specificed at submission time with the "-J" or "--job-name" flag. This name can help you to keep track of what the job was meant to do.
 - ACCOUNT: The specified project name, to keep track of how many core hours each project has needed. The projinfo command sums up those core hours.
 - ST: Means status. Status "PD" means pending (waiting), status "R" means running, status "CG" means completing (the job has finished, but the clean-up after the job is not finished yet).
-- START_TIME: An estimation about when the job will start, if all jobs run until the end of their timelimit. You can make guesses about when nodes gets free also by looking at the TIME_LEFT column of running jobs. SLURM computes START_TIME only when it needs the information, i.e. you can not find that information for all jobs.
+- START_TIME: An estimation about when the job will start, if all jobs run until the end of their timelimit. You can make guesses about when nodes gets free also by looking at the TIME_LEFT column of running jobs. Slurm computes START_TIME only when it needs the information, i.e. you can not find that information for all jobs.
 - TIME_LEFT: The specified timelimit for the job. When getting near to a maintenance stop, long jobs can not start, because they may not finish before the maintenance stop starts.
 - REASON: There are a number of possible reasons for a job not to have started yet. Some are explained here:
     - AssociationJobLimit: probably means that the job never will start, because it breaks some system limit, set by UPPMAX.
@@ -93,7 +93,7 @@ Until now, we have looked into the PRIORITY and USER columns. Let us talk about 
     - Dependency: means that the job will not start until some special other job(s) has (have) finished.
     - JobHeldAdmin: means that some systems administrator has told that the job must not start.
     - JobHeldUser: means that the job owner has told that job must not start.
-    - None: might mean that SLURM has not yet had time to put a reason there.
+    - None: might mean that Slurm has not yet had time to put a reason there.
     - Priority, ReqNodeNotAvail, and Resources: are the normal reasons for waiting jobs, meaning that your job can not start     yet, because free nodes for your job are not found.
     - QOSResourceLimit: means that the job has asked for a QOS and that some limit for that QOS has been reached. The job can not start as long as the limit still is reached.
     - QOSJobLimit: probably means that the job can never start, because it breaks some system limit, set by UPPMAX.

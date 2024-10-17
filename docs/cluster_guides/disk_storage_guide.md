@@ -170,7 +170,7 @@ We recommend you do not use your home directory for running jobs. Our general re
 
 Paths: `$TMPDIR` or `$SNIC_TMP`
 
-Each node has a `/scratch` volume for local access providing the most efficient disk storage for temporary files. Users have read/write access to this file system. SLURM defines the environment variable TMPDIR which you may use in job scripts. On clusters with SLURM you may use /scratch/$SLURM_JOB_ID. This area is for local access only, and is not directly reachable from other nodes or from the front node. There is no backup of the data and the lifetime of any file created is limited to the current user session or batch job. Files are automatically erased when space is needed by other users.
+Each node has a `/scratch` volume for local access providing the most efficient disk storage for temporary files. Users have read/write access to this file system. Slurm defines the environment variable TMPDIR which you may use in job scripts. On clusters with Slurm you may use /scratch/$SLURM_JOB_ID. This area is for local access only, and is not directly reachable from other nodes or from the front node. There is no backup of the data and the lifetime of any file created is limited to the current user session or batch job. Files are automatically erased when space is needed by other users.
 
 ### Projects global (network) storage
 

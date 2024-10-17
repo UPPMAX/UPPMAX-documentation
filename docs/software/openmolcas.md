@@ -96,7 +96,7 @@ Ras2
  &CASPT2
 ```
 
-See the [SLURM user guide](../cluster_guides/slurm.md) for more information on the interactive command. Don't forget to exit your interactive job when you have finished your calculation. Exiting will free the resource for others to use.
+See the [Slurm user guide](../cluster_guides/slurm.md) for more information on the interactive command. Don't forget to exit your interactive job when you have finished your calculation. Exiting will free the resource for others to use.
 
 ## Batch scripts for Slurm
 

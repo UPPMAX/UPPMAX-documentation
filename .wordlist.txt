@@ -2062,10 +2062,9 @@ SizeAwareFileCache
 SizeAwareMemoryCache
 SizeAwareSharedMemoryCache
 SkipHeader
-SLURM
 Slurm
+Slurm's
 slurm
-slurm's
 Slurper
 SMTP
 smtp
@@ -3272,7 +3271,6 @@ rn
 runtime
 selenic
 SLLStore
-SLURM's
 smem
 sprio
 stdin
