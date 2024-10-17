@@ -109,7 +109,7 @@ see [Disk Storage User Guide](../cluster_guides/uppmax_systems.md) for more info
 ## Very Long jobs
 
 If you have very long jobs that require more than 10 days of CPU-time. We recommend using Snowy.
-But in order for our job to successfully run for severay weeks you should implement the following;
+But in order for our job to successfully run for several weeks you should implement the following;
 
 - Use only local disk for your job. Copy all input and data files needed to **$SNIC\_TMP** at the start of your job and at the end, copy all output back to your project directory.
 - Book a full node with the Slurm flags **\-p node** (you won't be able to submit these jobs in the core partition).

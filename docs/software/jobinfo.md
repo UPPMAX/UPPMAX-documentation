@@ -82,7 +82,7 @@ Until now, we have looked into the PRIORITY and USER columns. Let us talk about 
 - JOBID: This is the best way to identify a job in a unique way. If you succeed to submit a job, it gets a jobid. The jobid of your finished jobs can be found with the finishedjobinfo command.
 - POS: This is a numbering of the lines, by jobinfo, after sorting with PRIORITY as first key and JOBID as the second. This is an approximation of the queue position.
 - PARTITION: A Slurm partition is a set of compute nodes, together with some rules about how jobs must be handled, if they ask for this partition. An UPPMAX cluster normally sports the "devel", "core" and "node" partitions.
-- NAME: This is the job name, specificed at submission time with the "-J" or "--job-name" flag. This name can help you to keep track of what the job was meant to do.
+- NAME: This is the job name, specified at submission time with the "-J" or "--job-name" flag. This name can help you to keep track of what the job was meant to do.
 - ACCOUNT: The specified project name, to keep track of how many core hours each project has needed. The projinfo command sums up those core hours.
 - ST: Means status. Status "PD" means pending (waiting), status "R" means running, status "CG" means completing (the job has finished, but the clean-up after the job is not finished yet).
 - START_TIME: An estimation about when the job will start, if all jobs run until the end of their timelimit. You can make guesses about when nodes gets free also by looking at the TIME_LEFT column of running jobs. Slurm computes START_TIME only when it needs the information, i.e. you can not find that information for all jobs.

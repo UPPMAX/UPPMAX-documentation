@@ -186,7 +186,7 @@ julia> Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");
 julia> Pkg.status()
 ```
 
-You can load (using/import) ANY package from both lotcal and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
+You can load (using/import) ANY package from both local and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
 
 ### Start an installation locally
 

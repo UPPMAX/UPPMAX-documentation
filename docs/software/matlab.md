@@ -141,7 +141,7 @@ matlab -h
 
 ### ThinLinc
 
-You may get the best of the MATLAB graphics by runing it the ThinLinc environment.
+You may get the best of the MATLAB graphics by running it the ThinLinc environment.
 
 - For rackham (in [ThinLinc app](https://www.cendio.com/thinlinc/download/)): ``rackham-gui.uppmax.uu.se``
 

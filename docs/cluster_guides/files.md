@@ -18,7 +18,7 @@ Also note that UPPMAX uses different disk quotas on your home directory
 and other areas you have access to (like the project folder).
 Use [uquota](../software/uquota.md) to see who much disk space you use.
 
-<!-- We have a page with more information about different file storages and quotas that can be good to read. [RB: where is that page?] -->
+<!-- We have a page with more information about different file storage and quotas that can be good to read. [RB: where is that page?] -->
 
 ## Your private files
 

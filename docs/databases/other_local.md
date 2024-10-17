@@ -5,7 +5,7 @@ Haplotype Reference Consortium
 The Haplotype Reference Consortium VCF database is a large reference panel of human haplotypes produced by combining together sequencing data from multiple cohorts.  Version r1.1 is installed on all systems as data [module](../cluster_guides/modules.md) HaplotypeReferenceConsortium/r1.1.
 GnomAD: Genome Aggregation Database
 
-The Genome Aggregation Database (gnomAD) VCF database is downloaded and loacated in /sw/data/gnomad_data/vcf/{exomes, genomes}.
+The Genome Aggregation Database (gnomAD) VCF database is downloaded and located in /sw/data/gnomad_data/vcf/{exomes, genomes}.
 ExAC: Exome Aggregation Consortium
 
 The ExAC Exome Aggregation Consortium database releases 0.1, 0.2, 0.3 and 0.3.1 are downloaded in their entirety and are available at /sw/data/ExAC/release{0.1,0.2,0.3,0.3.1}.

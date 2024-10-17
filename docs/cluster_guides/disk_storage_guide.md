@@ -14,7 +14,7 @@ There are several different classes of disk storage available with different pol
 - Temporary virtual filesystem
 
 Users have access to shared network storage on various cluster file systems,
-and backup home directories and some project storages to tape.
+and backup home directories and some project storage to tape.
 
 ## How much of my quota do I use?
 
