@@ -58,7 +58,7 @@ In the examples we use Rackham to mount the wharf directory. This is not the onl
 
 ### Cloning and pulling only
 
-If you only want to run someone else’s software that they have stored in a GitHub repo, you only need to clone the repo to be able to use it. Since you are only a user of the software there is no need to be able to push to the repo. If there are any updates to the repo you only need to pull the repo to get them.
+If you only want to run someone else's software that they have stored in a GitHub repo, you only need to clone the repo to be able to use it. Since you are only a user of the software there is no need to be able to push to the repo. If there are any updates to the repo you only need to pull the repo to get them.
 
 The way to do this on Bianca is to simply clone the repo on a computer with internet access, move it to the Bianca wharf, and then copy it to its final destination on Bianca. If there are any updates to the repo you want to get you move the repo back to the wharf, pull the updates to the mounted wharf directory on Rackham, then move the directory back to its final destination on Bianca.
 

@@ -23,7 +23,7 @@ The dbCAN 4.0 database for automated carbohydrate-active enzyme annotation is no
 The local path to the script for post-processing hmmscan --domtblout output is /sw/data/dbCAN/4.0/hmmscan-parser.sh. The CAZyDB trees have also been unpacked and are available in /sw/data/dbCAN/4.0/CAZyDB-phylogeny.
 Variant Effect Predictor cache files
 
-A local cache for all database files available for Ensembl's Variant Effect Predictor 87, 89 and 91 are available in directories /sw/data/vep/{87,89,91}. When module version vep/89 or vep/91 is loaded, the environment variable VEP_CACHE is set to the directory for the appropriate version.  Local caches for versions 82, 84 and 86 exist only for homo_sapiens.  To use the cached databases, run the script using the --cache option to indicate the use of a locally-cached database, and the --dir option to specify where this is:
+A local cache for all database files available for Ensembl Variant Effect Predictor 87, 89 and 91 are available in directories /sw/data/vep/{87,89,91}. When module version vep/89 or vep/91 is loaded, the environment variable VEP_CACHE is set to the directory for the appropriate version.  Local caches for versions 82, 84 and 86 exist only for homo_sapiens.  To use the cached databases, run the script using the --cache option to indicate the use of a locally-cached database, and the --dir option to specify where this is:
 
     vep --cache --dir $VEP_CACHE  ...
 

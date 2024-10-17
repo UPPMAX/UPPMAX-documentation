@@ -54,7 +54,7 @@ can read and execute your files and other people can not do anything.
 
 Also note the `private` sub-folder: here you can put files that you want
 only you, and no one else, to be able to access.
-Each day we have a job that ensures that all users's private folders
+Each day we have a job that ensures that all users private folders
 still can't be accessed by anyone else,
 even if the permissions somehow accidentally would change.
 

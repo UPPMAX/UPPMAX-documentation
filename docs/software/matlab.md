@@ -85,7 +85,7 @@ Using MATLAB on the cluster enables you to utilize high performance facilities l
     - [Statistics and Machine Learning](https://se.mathworks.com/help/stats/index.html)
     - [Deep Learning](https://se.mathworks.com/help/deeplearning/index.html)
 
-[See MathWork's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
+[See MathWorks's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
 
 Some online tutorials and courses:
 
