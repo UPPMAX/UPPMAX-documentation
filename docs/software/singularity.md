@@ -28,7 +28,7 @@ See [creating a Singularity container](create_singularity_container.md) for the 
 
 - [Create a Singularity container from conda](create_singularity_container_from_conda.md)
 - [Create a Singularity container for an R package](create_singularity_container_for_r_package.md)
-- [Create a Singularity container from DockerHub](create_singularity_container_from_dockerhub.md)
+- [Create a Singularity container from Docker Hub](create_singularity_container_from_dockerhub.md)
 - [Create a Singularity container from a `docker pull`](create_singularity_container_from_docker_pull.md)
 
 ## Running an existing image
