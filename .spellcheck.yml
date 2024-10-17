@@ -19,7 +19,7 @@ matrix:
       - 'pre'
       - 'blockquote'
   sources:
-  - '**/*.md'
+    - '**/*.md|!docs/software/perl.md'
   default_encoding: utf-8
   aspell:
     lang: en
