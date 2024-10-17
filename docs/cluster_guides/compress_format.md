@@ -21,4 +21,4 @@ Most compression tools have options that allow you to trade off between speed of
 
 It makes little sense to compress an already-compressed file with a different format. It is much better to set up a pipe to uncompress the file and then recompress in the new format.
 
-Apart from compression dictated by file usage (see above), it is recommended that files that are being compressed for long-term storage (e.g., raw sequence data) are compressed using pbzip2. If the files are already compressed in long-term storage (e.g. SweStore) I don't think it is worthwhile to retrieve the files, decompress-recompress them, then reupload them.
+Apart from compression dictated by file usage (see above), it is recommended that files that are being compressed for long-term storage (e.g., raw sequence data) are compressed using pbzip2. If the files are already compressed in long-term storage (e.g. Swestore) I don't think it is worthwhile to retrieve the files, decompress-recompress them, then reupload them.

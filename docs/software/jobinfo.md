@@ -79,7 +79,7 @@ As soon as a new job is submitted and as soon as a job finishes, Slurm restarts 
 
 Until now, we have looked into the PRIORITY and USER columns. Let us talk about some of the others, for waiting jobs:
 
-- JOBID: This is the best way to identify a job in a unique way. If you succeed to submit a job, it gets a jobID. The jobID of your finished jobs can be found with the finishedjobinfo command.
+- JOBID: This is the best way to identify a job in a unique way. If you succeed to submit a job, it gets a jobid. The jobid of your finished jobs can be found with the finishedjobinfo command.
 - POS: This is a numbering of the lines, by jobinfo, after sorting with PRIORITY as first key and JOBID as the second. This is an approximation of the queue position.
 - PARTITION: A Slurm partition is a set of compute nodes, together with some rules about how jobs must be handled, if they ask for this partition. An UPPMAX cluster normally sports the "devel", "core" and "node" partitions.
 - NAME: This is the job name, specificed at submission time with the "-J" or "--job-name" flag. This name can help you to keep track of what the job was meant to do.

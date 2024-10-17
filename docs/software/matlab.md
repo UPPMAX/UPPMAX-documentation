@@ -139,7 +139,7 @@ List all ways to run/start MATLAB:
 matlab -h
 ```
 
-### Thinlinc
+### ThinLinc
 
 You may get the best of the MATLAB graphics by runing it the ThinLinc environment.
 

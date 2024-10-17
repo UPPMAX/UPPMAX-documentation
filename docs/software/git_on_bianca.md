@@ -117,10 +117,10 @@ The general approach to using git as a collaborator with GitHub on Bianca is:
 1. On Bianca: make a backup of your code directory.
 1. On Bianca: move the entire code directory to the wharf folder.
 1. On Rackham: mount the wharf directory.
-1. On Rackham: change the git remote url to GitHub’s URL.
+1. On Rackham: change the git remote URL to GitHub’s URL.
 1. On Rackham: pull and push from GitHub.
 1. On Bianca: move the directory from the wharf back to your project.
-1. On Bianca: change the git remote url back to your local Bianca repo.
+1. On Bianca: change the git remote URL back to your local Bianca repo.
 1. On Bianca: push any changes you got from GitHub to your local Bianca repo.
 
 Best way to show this is by an example:
@@ -148,7 +148,7 @@ UNAME=youruppmaxusername
 mkdir -p ~/wharf_mnt
 /proj/staff/dahlo/bin/sshfs $UNAME-$PROJ@bianca-sftp.uppmax.uu.se:$UNAME-$PROJ ~/wharf_mnt
 
-# update the remote repo's url to your GitHub url
+# update the remote repo's URL to your GitHub URL
 cd ~/wharf_mnt/code_dir
 git remote set-url origin git@github.com:example/example.git
 git pull
@@ -159,7 +159,7 @@ git push
 # move the directory back from the wharf
 mv /proj/$PROJ/nobackup/wharf/$UNAME/$USER-$PROJ/code_dir/ /proj/$PROJ/
 
-# change the remote repo's url back to your local repo on Bianca
+# change the remote repo's URL back to your local repo on Bianca
 git remote set-url origin /path/to/local/repo
 
 # push any changes you got from GitHub to your local repo
