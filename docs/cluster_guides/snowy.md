@@ -109,7 +109,7 @@ see [Disk Storage User Guide](../cluster_guides/uppmax_systems.md) for more info
 ## Very Long jobs
 
 If you have very long jobs that require more than 10 days of CPU-time. We recommend using Snowy.
-But in order for our job to successfully run for severay weeks you should implement the following;
+But in order for our job to successfully run for several weeks you should implement the following;
 
 - Use only local disk for your job. Copy all input and data files needed to **$SNIC\_TMP** at the start of your job and at the end, copy all output back to your project directory.
 - Book a full node with the Slurm flags **\-p node** (you won't be able to submit these jobs in the core partition).
@@ -149,7 +149,7 @@ consists of two 8-core Xeon E5-2660 processors running at 2.2 GHz.
 We provide 198 nodes with 128 GB memory (`s1-s120`, `s151-s228`),
 13 nodes with 256 GB (`s138-s150`) and 17 nodes with 512 GB (`s121-s137`).
 All nodes are interconnected with a 2:1
-oversubscribed FDR (40 GB/s) Infiniband fabric.
+oversubscribed FDR (40 GB/s) InfiniBand fabric.
 In total Snowy provides 3548 CPU cores in compute nodes.
 
 ## Compiling on Snowy

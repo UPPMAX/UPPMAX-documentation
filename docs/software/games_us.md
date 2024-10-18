@@ -32,7 +32,7 @@ If your job requires 16MW (mega-words) of replicated memory and 800MW of distrib
 
 ## Communication
 
-For intra-node communication shared memory is used. For inter-node communication MPI is used which uses the Infiniband interconnect.
+For intra-node communication shared memory is used. For inter-node communication MPI is used which uses the InfiniBand interconnect.
 
 ## Citing GAMESS papers
 

@@ -26,7 +26,7 @@ Backup is done on:
 - All of Bianca (projects named sensYYYYXXX), except in folders named "nobackup"
 - SciLifeLab Storage projects (named sllstoreYYYYXXX), except in folders named "nobackup"
 - UPPMAX Storage projects (uppstore20YYXXX) except in folders named "nobackup"
-- UPPMAX Offload Storager projects (uppoff20YYXXX)
+- UPPMAX Offload storage projects (uppoff20YYXXX)
 - SNIC projects (named snicYYYY-X-ZZZZ)
 
 ## What should I put in directories with backup?

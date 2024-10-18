@@ -69,7 +69,7 @@ Detailed Hardware (e.g. how to access)|Here
 System usage                          |Link from both
 List of UPPMAX courses                |SiteVision
 Course pages                          |Here
-Course registrationss                 |Investigate first
+Course registrations                  |Investigate first
 Support                               |Keep things as they are
 
 - [1] If such a page is needed

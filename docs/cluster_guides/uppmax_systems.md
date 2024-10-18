@@ -115,14 +115,14 @@ are restricted in some ways:
 
     Requesting a calculation to run is described
     [here](../cluster_guides/slurm.md).
-    This is done by using the SLURM scheduler.
+    This is done by using the Slurm scheduler.
 
 ???- tip "Requesting an interactive node"
 
     Requesting an interactive node is described
     [here](../cluster_guides/start_interactive_node.md).
     This is done by requesting an interactive node
-    from the SLURM scheduler.
+    from the Slurm scheduler.
 
 - Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
@@ -183,7 +183,7 @@ There are three types of nodes:
 
     Requesting a calculation to run is part of this course
     and is described [here](slurm.md).
-    This is done by using the SLURM scheduler.
+    This is done by using the Slurm scheduler.
 
 - **interactive nodes**: a type of calculation node, where a user can do calculations directly
 
@@ -192,7 +192,7 @@ There are three types of nodes:
     Requesting an interactive node is part of this course
     and is described [here](../getting_started/login_bianca.md).
     This is done by requesting an interactive node
-    from the SLURM scheduler.
+    from the Slurm scheduler.
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
 

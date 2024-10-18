@@ -8,7 +8,7 @@ It offers a simple spec syntax so that users can specify versions and configurat
 
 [Spack documentation](https://spack.readthedocs.io/en/latest/)
 
-The UPPMAX staff has already other ways to install most software applications. Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild (that the staff can manage centrally). One or the reasons is that SPACK produces very many small files and that having two parallel build systems centrally may make things a little complex.
+The UPPMAX staff has already other ways to install most software applications. Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. EasyBuild (that the staff can manage centrally). One or the reasons is that SPACK produces very many small files and that having two parallel build systems centrally may make things a little complex.
 
 This guide may change with time. Please come back and see updates.
 
