@@ -85,6 +85,7 @@ IJulia
 ilename
 InfiniBand
 instructons
+intel
 intelmpi
 io
 ipped
@@ -279,6 +280,7 @@ ncbi
 NCBI's
 KGP
 kgp
+dataset
 eg
 Haplotype
 HaplotypeReferenceConsortium
@@ -378,6 +380,7 @@ BWA
 Bowtie
 SAMtools
 Simons
+datasets
 sgdp
 werre
 GRCh
@@ -425,6 +428,7 @@ BioProject
 DDBJ
 EMBL
 EPO
+Eukaryotic
 GenBank
 GenPept
 JPO
@@ -439,6 +443,8 @@ USPTO
 Viroid
 cDNA
 euk
+eukaryote
+eukaryotic
 isoform
 metagenomes
 mito
@@ -447,6 +453,8 @@ pataa
 patnt
 pdbnt
 prok
+prokaryote
+prokaryotes
 rRNA
 ribosomal
 rna
@@ -512,6 +520,8 @@ mem
 mfma
 MKL
 overdrafted
+parallelized
+parallelization
 pgCC
 pgcc
 pgf
@@ -579,6 +589,7 @@ wrf
 WRF
 dm
 dmpar
+initio
 Preprocessing
 sm
 WPS
@@ -632,6 +643,7 @@ htpasswd
 multithreaded
 nobackup
 performant
+runtime
 SLLStore
 stdin
 testproj
@@ -642,6 +654,7 @@ webexport
 shm
 Sylabs
 sylabs
+onwards
 sudo
 lxc
 subcommands
