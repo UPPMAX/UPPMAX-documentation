@@ -56,7 +56,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.  
 
-1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project).  
+1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).  
 
     ```bash
     module load Whisper-gui
@@ -64,7 +64,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
-1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data insted of copy-paste. (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.)
+1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.)
 
 1. Click on Whisper application on Desktop. It would look like this:  
 ![whisper gui](./img/whisper-gui.png){: style="height:60%;width:60%"}
@@ -74,7 +74,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
-    **Language used in recordings (leave blank for autodetection)**: [if your language of choice is unavaile, check the "Languages available" list for its availability and contact us https://supr.naiss.se/support/]  
+    **Language used in recordings (leave blank for autodetection)**: [if your language of choice unavailable, check the "Languages available" list for its availability and contact us https://supr.naiss.se/support/]  
 
 ### Step 3: Monitoring jobs  
 
@@ -86,7 +86,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Transfer your output results from `proj` folder to `wharf`.  
 
-2. Use WinSCP/FileZilla like you did in [Step 1](#step-1-data-transfer-from-local-computer-to-project).
+2. Use WinSCP/FileZilla like you did in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).
 
 ### Output files
 
