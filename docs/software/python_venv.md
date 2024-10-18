@@ -32,7 +32,7 @@ which has these steps:
 The first step is described at
 ['Loading Python'](../software/python.md#loading-python)
 and
-['Loading Python package modules'](../software/python.md#loading-python-modules).
+['Loading Python package modules'](../software/python.md#loading-python-package-modules).
 
 ???- question "Just show me how to do this"
 
@@ -42,7 +42,7 @@ and
     module load python/3.11.8
     ```
 
-    Here is how to [load a Python package module](../software/python.md#loading-python-modules):
+    Here is how to [load a Python package module](../software/python.md#loading-python-package-modules):
 
     ```bash
     module load python_ML_packages/3.11.8-cpu

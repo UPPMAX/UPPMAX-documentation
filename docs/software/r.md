@@ -291,7 +291,7 @@ A large number of R packages are available as part of the R_packages/3.3.0 modul
 
 [The Carpentries](https://carpentries.org/) teaches basic lab skills for research computing, such as:
 
-- [Programming with R](swcarpentry.github.io/r-novice-inflammation/)
+- [Programming with R](https://swcarpentry.github.io/r-novice-inflammation/)
 - [R for reproducible scientific analysis](https://swcarpentry.github.io/r-novice-gapminder)
 
 ### Experienced R courses
