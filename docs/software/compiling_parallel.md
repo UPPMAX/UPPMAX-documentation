@@ -340,7 +340,7 @@ icc qfopenmp -o hello_omp hello_omp.c
 
 Also here you should add optimization flags such as -fast as appropriate.
 
-To run the openMP program hello using the batch system, enter the following shell script in the file hello.sh:
+To run the OpenMP program hello using the batch system, enter the following shell script in the file hello.sh:
 
 ```bash
 #!/bin/bash -l
@@ -439,7 +439,7 @@ A batch file would look similar to the C version, above.
 
 ## Pthreads
 
-Pthreads (Posix threads) are more low-level than openMP. That means that for a beginner it is easier to get rather expected gain only with a few lines with openMP. On the other hand it may be possible to gain more efficiency from your code with pthreads, though with quite some effort. Pthreads is native in c/c++. With additional installation of a POSIX library for Fortran it is possible to run it in there as well.
+Pthreads (Posix threads) are more low-level than OpenMP. That means that for a beginner it is easier to get rather expected gain only with a few lines with OpenMP. On the other hand it may be possible to gain more efficiency from your code with pthreads, though with quite some effort. Pthreads is native in c/c++. With additional installation of a POSIX library for Fortran it is possible to run it in there as well.
 
 Enter the following program in c and save in the file hello_pthreads.c
 

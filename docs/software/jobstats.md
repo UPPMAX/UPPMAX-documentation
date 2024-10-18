@@ -73,7 +73,7 @@ Text in plot                                        |Description
 `!!half_overbooked`                                 |No more than one-half of both cores and memory of a node was used; consider booking half a node instead.
 `!!severely_overbooked`                             |No more than one-quarter of both cores and memory of a node was used, examine your job requirements closely.
 `!!swap_used`                                       |Swap storage was used at any point within the job run
-`node_type_overbooked : type booked : type used:`   |A fat node was requested that was larger than was needed. This flag may be produced spuriously if SLURM ran the job on a fat node when a fat node was not requested by the user.
+`node_type_overbooked : type booked : type used:`   |A fat node was requested that was larger than was needed. This flag may be produced spuriously if Slurm ran the job on a fat node when a fat node was not requested by the user.
 `cores_overbooked : cores booked : cores used:`     |More cores were booked than used (if < 80%)
 `mem_overbooked : GB booked : GB used:`             |More memory was available than was used (if < 25% and more than one core).
 `core_mem_overbooked : GB in used cores : GB used:` |Less memory was used than was available in the cores that were used (if < 50%).
@@ -372,7 +372,7 @@ jobstats --help
 
     Mode 2:  jobstats -p -r jobid1 jobid2 jobid3
     -------
-    Job numbers of jobs currently running on the cluster.  The SLURM squeue tool is
+    Job numbers of jobs currently running on the cluster.  The Slurm squeue tool is
     used to determine further information for each running job.
 
     Mode 3:  jobstats -p -n m15,m16 jobid
@@ -414,7 +414,7 @@ jobstats --help
         -p | --plot        Produce CPU and memory usage plot for each jobid
 
         -r | --running     Jobids are for jobs currently running on the cluster. The
-                           SLURM squeue tool is used to discover further information
+                           Slurm squeue tool is used to discover further information
                            for the running jobs, and the rightmost extent of the plot
                            produced will reflect the scheduled end time of the job.
 
@@ -448,7 +448,7 @@ jobstats --help
         -q | --quiet       Do not produce table output
 
         -Q | --Quick       Run [finishedjobinfo](finishedjobinfo.md) with the -q option, which is slightly
-                           faster but does not include SLURM's record of maximum
+                           faster but does not include Slurm's record of maximum
                            memory used. With this option, memory usage analyses can
                            only rely upon what is reported at 5-minute intervals,
                            and the trace of maximum memory used (dotted black line)
@@ -511,7 +511,7 @@ jobstats --help
       runtime  : Runtime of the job (with -n/--node, this is '.')
       flags    : Flags indicating various types of resource underutilizations
       booked   : Number of booked cores (with -n/--node, this is '.')
-      maxmem   : Maximum memory used as reported by SLURM (if unavailable, this is '.')
+      maxmem   : Maximum memory used as reported by Slurm (if unavailable, this is '.')
       cores    : Number of cores represented in the discovered jobstats files.
       node     : Node(s) booked for the job, expanded into individual node names,
                  separated by commas; if no nodes were found, this is '.'.
@@ -535,7 +535,7 @@ jobstats --help
     In both plot and table output, flags are a comma-separated list of cautions
     regarding core and/or memory underutilisation.  The appearance of a flag does
     not necessarily mean that resources were used incorrectly.  It depends upon the
-    tools being used and the contents of the SLURM header, and also depends upon
+    tools being used and the contents of the Slurm header, and also depends upon
     the job profile.  Because usage information is gathered every 5 minutes, higher
     transient usage of cores or memory may not be captured in the log files.
 
@@ -566,7 +566,7 @@ jobstats --help
           Swap storage was used at any point within the job run
       node_type_overbooked : type booked : type used
           A fat node was requested that was larger than was needed.  This flag may be
-          produced spuriously if SLURM ran the job on a fat node when a fat node was not
+          produced spuriously if Slurm ran the job on a fat node when a fat node was not
           requested by the user.
       cores_overbooked : cores booked : cores used
           More cores were booked than used (if < 80%)

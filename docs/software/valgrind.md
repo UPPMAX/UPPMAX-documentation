@@ -10,7 +10,7 @@ Valgrind contains several tools:
 
 - `memcheck`, for detecting memory-management problems in your program
 - `cachegrind`, for cache profiling
-- `helgrind`, finds data races in multithreded programs
+- `helgrind`, finds data races in multithreaded programs
 - `callgrind`, a call graph profiler
 - `drd`, a thread error detector
 - `massif`, a heap profiler

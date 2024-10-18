@@ -184,7 +184,7 @@ DM_CC           =        mpiicc -DMPI2_SUPPORT
 #DM_CC           =       mpicc -cc=$(SCC)
 ```
 
-- Netcdf-fortran paths
+- NetCDF-fortran paths
 
 ```bash
 LIB_EXTERNAL    = add  flags "-$(NETCDFFPATH)/lib -lnetcdff -lnetcdf"  (let line end with "\")

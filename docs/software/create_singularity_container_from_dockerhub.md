@@ -4,14 +4,14 @@ tags:
   - Singularity script
   - create
   - build
-  - DockerHub
+  - Docker Hub
 ---
 
-# Create a Singularity container from DockerHub
+# Create a Singularity container from Docker Hub
 
 There are multiple ways how to [create a Singularity container](singularity.md).
 
-This page shows how to create a Singularity container from a Docker script on DockerHub.
+This page shows how to create a Singularity container from a Docker script on Docker Hub.
 
 ## Procedure
 
@@ -21,7 +21,7 @@ super-user rights.
 
 In this example, we create a Singularity container
 for [https://github.com/lindenb/jvarkit](https://github.com/lindenb/jvarkit)
-with a DockerHub script at [https://hub.docker.com/r/lindenb/jvarkit](https://hub.docker.com/r/lindenb/jvarkit).
+with a Docker Hub script at [https://hub.docker.com/r/lindenb/jvarkit](https://hub.docker.com/r/lindenb/jvarkit).
 
 ## 1. Create the Singularity container
 
@@ -65,9 +65,9 @@ INFO:    Fetching OCI image...
 FATAL:   While performing build: conveyor failed to get: GET https://index.docker.io/v2/lindenb/jvarkit/manifests/latest: MANIFEST_UNKNOWN: manifest unknown; unknown tag=latest
 ```
 
-This means that DockerHub cannot conclude with Docker script we want to use *exactly*.
+This means that Docker Hub cannot conclude with Docker script we want to use *exactly*.
 To solve this, we need to find a tag that allows us to find an exact script.
-On DockerHub, we can find the tags for our Docker script ar [https://hub.docker.com/r/lindenb/jvarkit/tags](https://hub.docker.com/r/lindenb/jvarkit/tags).
+On Docker Hub, we can find the tags for our Docker script ar [https://hub.docker.com/r/lindenb/jvarkit/tags](https://hub.docker.com/r/lindenb/jvarkit/tags).
 
 ???- question "How does that page look like?"
 

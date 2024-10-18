@@ -1,3 +1,4 @@
+<!-- This page is not spellchecked due to poor pyspelling performance -->
 # Perl_modules guide
 
 A number of modules/packages are available by default with all Perl versions.

@@ -55,7 +55,7 @@ LSU_eukaryote_rRNA  | nucleotide  | NCBI  | Large subunit ribosomal RNA sequence
 LSU_prokaryote_rRNA  | nucleotide  | NCBI  | Large subunit ribosomal RNA sequences for prokaryotic sequences
 mito  | nucleotide  | NCBI  | NCBI Genomic Mitochondrial Reference Sequences
 mouse_genome  | nucleotide  | NCBI  | Current RefSeq mouse genome assembly with various database masking
-nr  | protein  | NCBI  | Non-redundant protein sequences from GenPept, Swissprot, PIR, PDF, PDB, and NCBI RefSe
+nr  | protein  | NCBI  | Non-redundant protein sequences from GenPept, Swissprot, PIR, PDF, PDB, and NCBI RefSeq
 nt  | nucleotide  | NCBI  | Partially non-redundant nucleotide sequences from all traditional divisions of GenBank, EMBL, and DDBJ
 pataa  | protein  | NCBI  | Patent protein sequences
 patnt  | nucleotide  | NCBI  | Patent nucleotide sequences. Both patent databases are directly from the USPTO, or from the EPO/JPO via EMBL/DDBJ
