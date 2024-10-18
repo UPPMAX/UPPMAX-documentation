@@ -74,7 +74,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
-    **Language used in recordings (leave blank for autodetection)**: [if your language of choice unavailable, check the "Languages available" list for its availability and contact us https://supr.naiss.se/support/]  
+    **Language used in recordings (leave blank for autodetection)**: If your language of choice unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/)  
 
 ### Step 3: Monitoring jobs  
 
