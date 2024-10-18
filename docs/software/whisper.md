@@ -46,9 +46,9 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).
 
 
-## User Interface (GUI)
+## Application
 
-### Step 1: Data transfer from local computer to project  
+### Step 1: Data transfer from local computer to Bianca  
 
 1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux). Instruction on how to do it is in their respective links.
 
@@ -56,40 +56,31 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.  
 
-1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project).  
+1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project).  
 
     ```bash
     module load Whisper-gui
     ```  
 
-    ![Desktop view on Bianca after running `module load Whisper-gui`](../img/whisper_desktop.png)
+    ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
-1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste.
+1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data insted of copy-paste. (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.)
 
-1. While you are in the `proj` folder, right click and select "Open Terminal Here". Enter following two commands to run the Whisper service GUI (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.):  
-
-    ```bash
-    module load Whisper-gui
-    whisper-gui.sh
-    ```  
-
-    ![whisper gui](../img/whisper-gui.png){: style="height:60%;width:60%"}
+1. Click on Whisper application on Desktop. It would look like this:  
+![whisper gui](./img/whisper-gui.png){: style="height:60%;width:60%"}
 
 
 1. Select appropriate options, or use the following for the best results:  
 
-    **device**: gpu  
-    **SLURM job name**: [give any name without space]  
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
-    **Language used in recordings (leave blank for autodetection)**: [enter language code from "Languages available" list]  
-    **by word timestamps**: by_sentence
+    **Language used in recordings (leave blank for autodetection)**: [if your language of choice is unavaile, check the "Languages available" list for its availability and contact us https://supr.naiss.se/support/]  
 
 ### Step 3: Monitoring jobs  
 
-1. Monitor your job by entering `jobinfo` on terminal or on `[job_name].out` that gets created in your output folder. Where `[job_name]` is the SLURM job name that you gave earlier.  
+1. Monitor your job by entering `jobinfo` on terminal. It tells if your job named `Whisper_xxx` has been submitted and/or running, where `xxx` is the date and time of job submission.
 
-2. Check `slurm-xxx.out` file created in your `proj` folder. This contains a progress bar for each file that you sent for transcribing/translating.  
+2. `[Whisper_xxx].out` that gets created in `Whisper_logs` folder inside `proj` folder. This contains a progress bar for each file that you sent for transcribing/translating.  
 
 ### Step 4: Data transfer from project to local computer
 
