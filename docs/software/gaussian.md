@@ -15,9 +15,9 @@ You load this [module](../cluster_guides/modules.md) with:
 module load gaussian/g09.d01
 ```
 
-### Running single core jobs in SLURM
+### Running single core jobs in Slurm
 
-Here is an example of a submit script for SLURM:
+Here is an example of a submit script for Slurm:
 
 ```slurm
 #!/bin/bash -l

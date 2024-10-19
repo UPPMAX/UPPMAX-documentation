@@ -267,7 +267,7 @@ darsync check
     Checking completed. Unless you got any warning messages above you
     should be good to go.
 
-    Generate a SLURM script file to do the transfer by running this script again,
+    Generate a Slurm script file to do the transfer by running this script again,
     but use the 'gen' option this time. See the help message for details,
     or continue reading the user guide for examples on how to run it.
 
@@ -399,22 +399,22 @@ darsync gen
       \____|_____|_| \_|
 
     The gen module of this script will collect the information needed
-    and generate a script that can be submitted to SLURM to preform the
+    and generate a script that can be submitted to Slurm to preform the
     data transfer.
 
     It will require you to know
 
         1) Which directory on UPPMAX you want to transfer (local directory).
-        2) Which UPPMAX project id the SLURM job should be run under.
+        2) Which UPPMAX project id the Slurm job should be run under.
             ex. naiss2099-23-999
-        3) Which cluster the SLURM job should be run on.
+        3) Which cluster the Slurm job should be run on.
             ex. rackham, snowy
         4) Which username you have at Dardel.
         5) Where on Dardel it should transfer your data to.
             ex. /cfs/klemming/projects/snic/naiss2099-23-999/from_uppmax
         6) Which SSH key should be used when connecting to Dardel.
             ex. /home/user/id_ed25519_pdc
-        7) Where you want to save the generated SLURM script.
+        7) Where you want to save the generated Slurm script.
 
 
 
@@ -429,14 +429,14 @@ darsync gen
     Specify local directory: Documents
 
 
-    Specify which project id should be used to run the data transfer job in SLURM.
+    Specify which project id should be used to run the data transfer job in Slurm.
     Ex.
     naiss2099-23-999
 
     Specify project id: naiss2099-23-999
 
 
-    Specify which cluster the SLURM job should be run on.
+    Specify which cluster the Slurm job should be run on.
     Choose between rackham and snowy.
     Default is rackham
 
@@ -465,10 +465,10 @@ darsync gen
     Specify SSH key:
 
 
-    Specify where the SLURM script file should be saved.
+    Specify where the Slurm script file should be saved.
     If not given it will save it here: ~/darsync_Documents.slurm
                        
-    Specify SLURM script path:
+    Specify Slurm script path:
 
 
       ____   ___  _   _ _____
@@ -478,7 +478,7 @@ darsync gen
      |____/ \___/|_| \_|_____|
 
 
-    Created SLURM script: /home/sven/darsync_Documents.slurm
+    Created Slurm script: /home/sven/darsync_Documents.slurm
 
     containing the following command:
 
@@ -490,7 +490,7 @@ darsync gen
     bash /home/sven/darsync_Documents.slurm
 
     If the transfer starts you know the script is working, and you can terminate
-    it by pressing ctrl+c and submit the script as a SLURM job.
+    it by pressing ctrl+c and submit the script as a Slurm job.
 
     Run this command to submit it as a job:
 

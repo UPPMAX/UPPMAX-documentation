@@ -102,7 +102,7 @@ A variable referring to the last computed value, automatically set at the intera
 ​
     Exit with `<Ctrl-D>` or `exit()`.
 
-!!! seealso
+!!! see also
 
     More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
 
@@ -186,7 +186,7 @@ julia> Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");
 julia> Pkg.status()
 ```
 
-You can load (using/import) ANY package from both lotcal and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
+You can load (using/import) ANY package from both local and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
 
 ### Start an installation locally
 

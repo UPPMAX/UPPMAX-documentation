@@ -236,7 +236,7 @@ cp newfile copyfile
     [bob@macbook]$ scp first.txt <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
     ```
 
-!!! seealso
+!!! see also
 
     - [Rackham file transfer using scp](../software/rackham_file_transfer_using_scp.md)
 

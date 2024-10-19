@@ -85,7 +85,7 @@ Using MATLAB on the cluster enables you to utilize high performance facilities l
     - [Statistics and Machine Learning](https://se.mathworks.com/help/stats/index.html)
     - [Deep Learning](https://se.mathworks.com/help/deeplearning/index.html)
 
-[See MathWork's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
+[See MathWorks's complete user guide](https://se.mathworks.com/help/parallel-computing/index.html?s_tid=CRUX_lftnav)
 
 Some online tutorials and courses:
 
@@ -139,9 +139,9 @@ List all ways to run/start MATLAB:
 matlab -h
 ```
 
-### Thinlinc
+### ThinLinc
 
-You may get the best of the MATLAB graphics by runing it the ThinLinc environment.
+You may get the best of the MATLAB graphics by running it the ThinLinc environment.
 
 - For rackham (in [ThinLinc app](https://www.cendio.com/thinlinc/download/)): ``rackham-gui.uppmax.uu.se``
 

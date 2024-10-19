@@ -55,7 +55,7 @@ It is part of the `python_ML_packages/[version]-gpu`
 [modules](../cluster_guides/modules.md), where `[version]` is a version,
 for example, `python_ML_packages/3.9.5-gpu`
 
-:warning: You can load this package on nodes without GPU but python will not find Tensorflow!
+:warning: You can load this package on nodes without GPU but python will not find TensorFlow!
 
 If you want to work interactively and test things, first allocate resources as seen below:
 

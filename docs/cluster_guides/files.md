@@ -18,7 +18,7 @@ Also note that UPPMAX uses different disk quotas on your home directory
 and other areas you have access to (like the project folder).
 Use [uquota](../software/uquota.md) to see who much disk space you use.
 
-<!-- We have a page with more information about different file storages and quotas that can be good to read. [RB: where is that page?] -->
+<!-- We have a page with more information about different file storage and quotas that can be good to read. [RB: where is that page?] -->
 
 ## Your private files
 
@@ -54,7 +54,7 @@ can read and execute your files and other people can not do anything.
 
 Also note the `private` sub-folder: here you can put files that you want
 only you, and no one else, to be able to access.
-Each day we have a job that ensures that all users's private folders
+Each day we have a job that ensures that all users private folders
 still can't be accessed by anyone else,
 even if the permissions somehow accidentally would change.
 

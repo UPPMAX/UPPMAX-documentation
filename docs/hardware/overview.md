@@ -15,7 +15,7 @@ Parameter               |Rackham                |Snowy                          
 **Memory per node**     |128GB                  |128GB                                  |128GB                              |128/256GB
 **Fat nodes**           |256GB & 1TB            |256, 512 GB & 4TB                      | 256 & 512GB                       |N/A
 **Local disk (scratch)**|2/3TB                  |4TB                                    | 4TB                               |N/A
-**Network**             |Infiniband FDR 56Gbit/s|Infiniband FDR 40Gbit/ s               | Dual 10Gbit/s                     |10GbE
+**Network**             |InfiniBand FDR 56Gbit/s|InfiniBand FDR 40Gbit/ s               | Dual 10Gbit/s                     |10GbE
 **Operating System**    |CentOS 7               |CentOS 7                               | CentOS 7                          |[Linux cloud image](https://cloud.snic.se/instances/)
 **Login nodes**         |Yes                    |No (reached from Rackham)              |Yes (2 cores and 15 GB)            |N/A
 **"Home" storage**      |Domus                  |Domus                                  |Castor                             |N/A

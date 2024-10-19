@@ -16,7 +16,7 @@ To be able to use a VPN to [get inside of SUNET](get_inside_sunet.md):
     <!-- This is a question in RT ticket 299923 -->
     <!--- Reply: -->
     <!--- Rackham + 2FA -->
-    <!--- Racham+2FA= 5min grace priod. Thinlinc to racham, then browser to Bianca, against our best practices -->
+    <!--- Racham+2FA= 5min grace priod. ThinLinc to racham, then browser to Bianca, against our best practices -->
 
     In this case, one cannot use a VPN. Instead, log in to.
 
