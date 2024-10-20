@@ -18,7 +18,7 @@ and accessible via the module system.
 
 ## Conflicting modules
 
-- [Conflicting modules](modules_conflicts.md]
+- [Conflicting modules](../cluster_guides/module_conflicts.md)
 
 ## Reach the Bioinformatics tools
 
