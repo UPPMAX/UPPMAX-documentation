@@ -8,8 +8,8 @@
 for jobs submitted to the [Slurm](../cluster_guides/slurm.md) job queue.
 
 At this page, it is described:
-
-- [`jobstats --plot`](#jobstats---plot): How to use is `jobstats --plot` to see resource use in a graphical plot
+<!-- markdownlint-disable-next-line MD051 -->
+- [`jobstats --plot`](#jobstats-plot): How to use is `jobstats --plot` to see resource use in a graphical plot
 - [Efficient use](#efficient-use): How to use your resources efficiently
 - [Examples](#examples): Examples of ineffective resource use plots
 - Other `jobstats` functionality

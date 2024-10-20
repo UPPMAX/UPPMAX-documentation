@@ -5,7 +5,7 @@
 Welcome to the UPPMAX Python user guide.
 
 We describe [what Python is](#what-is-python)
-and that there are [multiple Python versions](Python versions).
+and that there are [multiple Python versions](#python-versions).
 
 Then, we show how to [load Python](#loading-python)
 and to [load Python packages](#loading-python-packages)

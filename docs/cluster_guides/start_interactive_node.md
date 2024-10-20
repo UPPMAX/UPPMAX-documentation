@@ -12,7 +12,7 @@ tags:
 Below we describe the general ideas of using an interactive node:
 
 - [the types of nodes](#types-of-nodes)
-- [When to use an interactive node](#when-to-use-an-interactive node)
+- [When to use an interactive node](#when-to-use-an-interactive-node)
 
 To start an interactive node on specific cluster:
 
