@@ -1,4 +1,8 @@
 # NAISS
 
-These pages are for use at the NAISS level and will be moved to
-better repositories in the future.
+!!! info
+
+    This page is here temporarily, until its content is moved
+    to a better place.
+
+NAISS does stuff.

@@ -1,5 +1,10 @@
 # Request Tracker
 
+!!! info
+
+    This page is here temporarily, until its content is moved
+    to a better place.
+
 Request Tracker, commonly abbreviated to 'RT' is the software
 used by the NAISS ticket system.
 
