@@ -1,6 +1,8 @@
 ---
 tags:
   - Jupyter
+  - Python
+  - IDE
 ---
 
 # Jupyter

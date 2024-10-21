@@ -1,3 +1,11 @@
+---
+tags:
+  - pip
+  - pip install
+  - Python
+  - package
+---
+
 # Installing Python packages
 
 This page described how to install [Python](python.md) packages.

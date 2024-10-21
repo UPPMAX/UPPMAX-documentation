@@ -1,3 +1,9 @@
+---
+tags:
+  - Python
+  - parallel
+---
+
 # How to run parallel jobs in Python
 
 This page describes how to run parallel jobs in Python.

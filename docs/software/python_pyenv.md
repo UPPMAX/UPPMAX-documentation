@@ -1,3 +1,9 @@
+---
+tags:
+  - Python
+  - pyenv
+---
+
 # Python `pyenv`
 
 `pyenv` is one of multiple
