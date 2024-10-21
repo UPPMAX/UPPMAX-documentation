@@ -193,10 +193,9 @@ for example, `module load python/3.11.4`
 
 !!! note "Terminology"
 
-    There exist many Python libraries.
-    Although these are formally called 'modules',
-    in this document, we call them 'packages',
-    to distinguish those from [the UPPMAX modules](../cluster_guides/modules.md).
+    A Python package consists out of one or more Python modules.
+    in this document, we avoid using this term,
+    to avoid confusion with [the UPPMAX modules](../cluster_guides/modules.md).
 
 For more complex complex Python packages,
 there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
@@ -216,10 +215,9 @@ there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
 
 !!! note "Terminology"
 
-    There exist many Python libraries.
-    Although these are formally called 'modules',
-    in this document, we call them 'packages',
-    to distinguish those from [the UPPMAX modules](../cluster_guides/modules.md).
+    A Python package consists out of one or more Python modules.
+    in this document, we avoid using this term,
+    to avoid confusion with [the UPPMAX modules](../cluster_guides/modules.md).
 
 Many scientific tools are distributed as Python packages,
 which allows any user to run complex tools from a terminal or script.
