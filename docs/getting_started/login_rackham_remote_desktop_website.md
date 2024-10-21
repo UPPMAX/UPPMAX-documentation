@@ -20,7 +20,12 @@ via a web browser.
 
 ## Procedure
 
-This is a simple procedure with one step.
+???- question "Prefer a video?"
+
+    This procedure is also shown by [this YouTube video](https://youtu.be/HQ2iuKRPabc).
+
+This is a procedure with one step.
+Most work will be to fulfill all [Rackham usage prerequisites](rackham_usage_prerequisites.md).
 
 ### 1. Go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.uppmax.uu.se)
 
