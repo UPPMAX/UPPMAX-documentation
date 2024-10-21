@@ -113,11 +113,11 @@ Here are the ways to log in to Bianca:
 - [1.Use the Bianca remote desktop website](login_bianca_remote_desktop_website.md)
 - [2.Use a terminal and password to access Bianca directly](login_bianca_console_password.md)
 - [3.Use a terminal and SSH keys to access Bianca directly](login_bianca_console_ssh_key.md)
-- [4.Use the Rackham remote desktop website](login_bianca_remote_desktop_website_no_sunet.md)
-  to log in to Bianca's remote desktop environment
-- [5.Use a terminal and password via Rackham](login_bianca_console_password_no_sunet.md)
+- (not recommended) [4.Use the Rackham remote desktop website](login_bianca_remote_desktop_website_no_sunet.md)
+  to log in to Bianca's remote desktop environment 
+- (not recommended) [5.Use a terminal and password via Rackham](login_bianca_console_password_no_sunet.md)
   to log in to Bianca's console environment
-- [6.Use a terminal and SSH keys via Rackham](login_bianca_console_ssh_key_no_sunet.md)
+- (not recommended) [6.Use a terminal and SSH keys via Rackham](login_bianca_console_ssh_key_no_sunet.md)
   to log in to Bianca's console environment
 
 After login, you will be on a [login node](../cluster_guides/login_node.md).
