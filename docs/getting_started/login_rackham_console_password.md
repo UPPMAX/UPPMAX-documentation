@@ -20,6 +20,10 @@ see [login to the Rackham console environment with an SSH key](login_rackham_con
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    This procedure is also shown by [this YouTube video](https://youtu.be/TSVGSKyt2bQ).
+
 ### 1. Use `ssh` to log in
 
 From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
