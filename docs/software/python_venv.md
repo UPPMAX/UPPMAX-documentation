@@ -4,7 +4,23 @@
 [Python virtual environment managers](python_virtual_environments.md).
 
 `venv` is a Python-only environment manager
-and is [an official Python library](https://docs.python.org/3/library/venv.html).
+and is [an official Python library](https://docs.python.org/3/library/venv.html),
+with its own [official Python tutorial](https://docs.python.org/3/tutorial/venv.html).
+
+```mermaid
+flowchart TD
+  create[Create]
+  activate[Activate]
+  use[Use]
+  deactivate[Deactivate]
+
+  create --> activate
+  activate --> use
+  use --> deactivate
+  deactivate --> activate
+```
+
+> The `venv` workflow
 
 First, the common workflow for using a `venv` is described:
 
