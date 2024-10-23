@@ -48,16 +48,33 @@ This step is only needed when outside of Sweden.
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-### 2. Start the Rackham remote desktop environment
+### 2. Start a Rackham remote desktop environment
 
-???- tip "Forgot how to start Rackham's remote desktop environment?"
+This can be either:
 
-    See [the 'Logging in to Rackham' page](../getting_started/login_rackham.md).
+- [Login to the Rackham remote desktop environment using the website](login_rackham_remote_desktop_website.md)
+- [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
 ### 3. Start an interactive session
 
 Within the Rackham remote desktop environment, start a [terminal](../software/terminal.md).
-Within that terminal, start an interactive session with 2 cores.
+Within that terminal, [start an interactive session](../cluster_guides/start_interactive_node_on_rackham.md)
+with 2 cores:
+
+```bash
+interactive -A [naiss_project_id] -n 2 -t [duration]
+```
+
+Where:
+
+- `[naiss_project_id]` is your [UPPMAX project code](../getting_started/project.md)
+- `[duration]` is the duration of the interactive session
+
+Resulting in, For example:
+
+```
+interactive -A naiss2024-22-310 -n 2 -t 8:00:00
+```
 
 !!!- info "Why two cores?"
 
@@ -65,15 +82,9 @@ Within that terminal, start an interactive session with 2 cores.
     Due to this, we recommend using at least two cores
     for a more pleasant user experience.
 
-???- tip "Forgot how to start an interactive node?"
+???- tip "What is an interactive node?"
 
-    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_rackham.md).
-
-    Spoiler: use:
-
-    ```bash
-    interactive -A sens2023598 -n 2 -t 8:00:00
-    ```
+    See [start an interactive session](../cluster_guides/start_interactive_node_on_rackham.md)
 
 !!!- warning "Do not start RStudio from the menus"
 
