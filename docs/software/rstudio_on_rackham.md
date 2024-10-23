@@ -52,8 +52,8 @@ This step is only needed when outside of Sweden.
 
 This can be either:
 
-- [Login to the Rackham remote desktop environment using the website](login_rackham_remote_desktop_website.md)
-- [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
+- [Login to the Rackham remote desktop environment using the website](../getting_started/login_rackham_remote_desktop_website.md)
+- [Login to the Rackham remote desktop environment using a local ThinLinc client](../getting_started/login_rackham_remote_desktop_local_thinlinc_client.md)
 
 ### 3. Start an interactive session
 

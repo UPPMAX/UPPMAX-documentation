@@ -26,8 +26,8 @@ Jupyter is an [IDE](../software/ides.md) specialized for
 
 This can be either:
 
-- [Login to the Rackham remote desktop environment using the website](login_rackham_remote_desktop_website.md)
-- [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
+- [Login to the Rackham remote desktop environment using the website](../getting_started/login_rackham_remote_desktop_website.md)
+- [Login to the Rackham remote desktop environment using a local ThinLinc client](../getting_started/login_rackham_remote_desktop_local_thinlinc_client.md)
 
 ### 2. Start an interactive session
 
@@ -48,7 +48,7 @@ interactive -A sens2016001 -t 8:00:00
 
 ???- question "What is my UPPMAX project number?"
 
-    See [the UPPMAX documentation on how to see your UPPMAX projects](../getting_started/project)
+    See [the UPPMAX documentation on how to see your UPPMAX projects](../getting_started/project.md)
 
 ### 3. Load a Python module
 
