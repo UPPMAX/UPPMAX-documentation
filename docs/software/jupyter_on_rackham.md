@@ -6,6 +6,8 @@ tags:
 
 # Jupyter on Rackham
 
+![Jupyter on Rackham](./img/jupyter_rackham_thinlinc.png)
+
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
 among other [Jupyter](../software/jupyter.md).
 Here we describe how to run [Jupyter](../software/jupyter.md)
