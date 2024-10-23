@@ -1,15 +1,15 @@
 ---
 tags:
   - Jupyter
-  - Bianca
+  - Rackham
 ---
 
-# Jupyter on Bianca
+# Jupyter on Rackham
 
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
 among other [Jupyter](../software/jupyter.md).
 Here we describe how to run [Jupyter](../software/jupyter.md)
-on Bianca.
+on Rackham.
 
 Jupyter is an [IDE](../software/ides.md) specialized for
 [the Python programming language](../software/python.md).
@@ -18,27 +18,20 @@ Jupyter is an [IDE](../software/ides.md) specialized for
 
 ??? question "Prefer a video?"
 
-    This procedure is also demonstrated in [this YouTube video](https://youtu.be/G6e2NYCxT-I).
-    go [here](https://youtu.be/72rYjwGvWEc?si=Rn2F2ieO-kPufO9f)
+    This procedure is also demonstrated in [this YouTube video](https://youtu.be/72rYjwGvWEc?si=Rn2F2ieO-kPufO9f)
 
-### 1. Get within SUNET
+### 1. Start a Rackham remote desktop environment
 
-???- question "Forgot how to get within SUNET?"
+This can be either:
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+- [Login to the Rackham remote desktop environment using the website](login_rackham_remote_desktop_website.md)
+- [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
-### 2. Start the Bianca remote desktop environment
+### 2. Start an interactive session
 
-???- tip "Forgot how to start Bianca's remote desktop environment?"
-
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
-
-### 3. Start an interactive session
-
-Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Rackham remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal,
-[start an interactive node](../cluster_guides/start_interactive_node_on_bianca.md):
-
+[start an interactive node](../cluster_guides/start_interactive_node_on_rackham.md):
 
 ```bash
 interactive -A [project_number] -t 8:00:00
@@ -53,16 +46,9 @@ interactive -A sens2016001 -t 8:00:00
 
 ???- question "What is my UPPMAX project number?"
 
-    Easy answers that is probably true:
+    See [the UPPMAX documentation on how to see your UPPMAX projects](../getting_started/project)
 
-    The one you used to login, which is part of your prompt.
-    For example, in the prompt below, the project is `sens2016001`.
-
-    ```bash
-    [sven@sens2016001-bianca sven]$
-    ```
-
-### 4. Load a Python module
+### 3. Load a Python module
 
 Within the terminal of the interactive session,
 load a Python module
@@ -80,7 +66,7 @@ module load python/3.11.4
     Yes, you can use any module later than (and including) the `python/3.10.8`
     module.
 
-### 5. Start the Jupyter notebook
+### 4. Start the Jupyter notebook
 
 Still within the terminal of the interactive session,
 start a notebook like this:
@@ -98,9 +84,9 @@ jupyter-lab --ip 0.0.0.0 --no-browser
 Jupyter will show some IP address in the terminal,
 which you will need in the next step.
 
-### 6. Browser to the Jupyter notebook
+### 5. Browser to the Jupyter notebook
 
-In the remote desktop environment on Bianca, start Firefox.
+In the remote desktop environment on Rackham, start Firefox.
 Set Firefox to the URL addresses from the Jupyter output.
 
 ???- question "Can I start Firefox from the terminal too?"
