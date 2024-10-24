@@ -72,7 +72,7 @@ Where:
 
 Resulting in, For example:
 
-```
+```bash
 interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 ```
 
