@@ -84,7 +84,7 @@ squeue -M snowy
 View your jobs in the in the [Bianca](../cluster_guides/bianca.md) or [Rackham](../cluster_guides/rackham.md) queue:
 
 ```bash
-squeue -u $USER
+squeue --me
 ```
 
 ???- question "How does that look like?"
@@ -96,10 +96,20 @@ squeue -u $USER
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
     ```
 
+Or alteratively:
+
+```bash
+squeue -u $USER
+```
 
 ### View your jobs in the Snowy queue
 
 View your jobs in the in the [Snowy](../cluster_guides/snowy.md) queue:
+
+```bash
+squeue -M snowy --me
+```
+
 
 ???- question "How does that look like?"
 
