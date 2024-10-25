@@ -64,7 +64,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     ![Terminal on Bianca Desktop](./img/whisper_terminal.png)  
 
-1. You shall now see `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project-bianca).  
+1. You shall now see `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).  
 
     ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
@@ -78,13 +78,15 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
-    **Language used in recordings (leave blank for autodetection)**: If your language of choice unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/)  
+    **Language used in recordings (leave blank for autodetection)**: If your language of choice unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
 
 ### Step 3: Monitoring jobs  
 
-1. Monitor your job by entering `jobinfo` on terminal. It tells if your job named `Whisper_xxx` has been submitted and/or running, where `xxx` is the date and time of job submission.
+1. Your job will first wait in a queue and then start executing. To first check if your job is waiting in the queue, type `squeue --me -o "%.30j"` on terminal. If you see your job name `Whisper_xxx` it means it is in the queue, where `xxx` is the date and time of job submission, example: Whisper_2024-10-25_11-10-30.  
 
-2. `[Whisper_xxx].out` that gets created in `Whisper_logs` folder inside `proj` folder. This contains a progress bar for each file that you sent for transcribing/translating.  
+2. To check if your job has started executing, locate a file named `[Whisper_xxx_yyy].out` that will get created in `Whisper_logs` folder inside `proj` folder, where `xxx` is date and time of job submission and `yyy` is your username followed by a "job id", example: Whisper_2024-10-25_11-10-30_jayan_234.out. This contains a progress bar for each recording that you sent for transcribing/translating.  
+
+3. If neither job name `Whisper_xxx` was found in queue, nor a `[Whisper_xxx_yyy].out` was created in `Whisper_logs`, [contact support](https://supr.naiss.se/support/).
 
 ### Step 4: Data transfer from project to local computer
 
@@ -98,6 +100,7 @@ By default you receive 5 types of output files for each file you transcribe/tran
 With timestamps: `.srt`, `.vtt`, `.tsv`  
 Without timestamps: `.txt`  
 With detailed model metadata: `.json`.
+The most popular ones are `.srt` and `.txt` formats.  
 
 On Mac, `.srt` and `.vtt` can be opened in Word by:  
 Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.  
