@@ -56,11 +56,15 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.  
 
-1. Right click on the Desktop and select "Open Terminal Here" and enter the following command on the terminal to load Whisper GUI, it creates `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).  
+1. Click on the Terminal icon on the bottom of the Desktop and enter the following command in it to load Whisper GUI.    
 
     ```bash
     module load Whisper-gui
     ```  
+
+    ![Terminal on Bianca Desktop](./img/whisper_terminal.png)  
+
+1. You shall now see `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-project-bianca).  
 
     ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
