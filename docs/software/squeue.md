@@ -96,7 +96,7 @@ squeue --me
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
     ```
 
-Or alteratively:
+Or alternatively:
 
 ```bash
 squeue -u $USER
