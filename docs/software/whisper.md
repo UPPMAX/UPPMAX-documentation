@@ -93,7 +93,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
-1. Select all the data that you transferred in `wharf`, right click and copy it. Enter the `proj` folder, right click and paste this data into `proj` folder. NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.)
+1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder. NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.)
 
 1. Click on Whisper application on Desktop. It would look like this:  
 ![whisper gui](./img/whisper-gui.png){: style="height:60%;width:60%"}
@@ -115,9 +115,9 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 ### Step 4: Data transfer from project to local computer
 
-1. Transfer your output results from `proj` folder to `wharf`.  
+1. Drag and drop your transcriptions/translations from `proj` folder to `wharf`.  
 
-2. Use WinSCP/FileZilla like you did in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).
+2. Use WinSCP/FileZilla like you did in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca) and transfer your data from `wharf` to your local computer.
 
 ### Output files
 
@@ -133,7 +133,7 @@ Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of t
 
 ??? tip "Advance settings"
 
-    Use below features only if transcriptions/transl is not satisfactory and for less spoken languages or languages that are not having good resources online for understanding :
+    Use below features only if transcriptions/translations are not satisfactory and for less spoken languages or languages that are not having good resources online for understanding :
 
     1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording. It should be in written in same language as the language in spoken in the recordings.  
 
@@ -141,7 +141,7 @@ Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of t
 
     3. Use combination of both 1 and 2.  
 
-    4. If you are sure about the language used in the recording, use the 2 letter code from the list below when asked for it in the gui.  
+    4. If you are sure about the language used in the recording, use the dropdown menu and select the appropriate language.  
 
 ??? note "Languages available"
 
