@@ -21,6 +21,8 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
     
     Translations:- Any to English: "DeepL" level performance. Slightly better than google translate.  
 
+    Supported file types: mp3, mp4, mpeg, mpga, m4a, wav, and webm.  
+
     Quality as a factor of duration of recordings:-  
     A few minutes: Excellent  
     A few minutes to an hour: Excellent at the beginning, then detoriates.
