@@ -17,7 +17,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 ??? info "Quality of transcriptions and translations"  
 
-    Transcriptions (error rate):-  Swedish: ~10% , English: ~5% , English with heavy accent: ~ 20%    
+    Transcriptions (error rate):-  Swedish: ~10% , English: ~5% , English with heavy accent: ~ 20%  
     
     Translations:- Any to English: "DeepL" level performance. Slightly better than google translate.  
 
@@ -28,14 +28,12 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
     Quality as a factor of noise and count of speakers:-  
     2 speakers: Excellent  
-    Background noise: Degraded    
+    Background noise: Degraded  
     2+ speakers: Degraded  
     Conversational overlap: Degraded  
     Long silences: Degraded  
 
     Whisper also tries to give separate sentences for different speakers. But it is not guaranteed.  
-
-
 
 ## Glossary  
 
