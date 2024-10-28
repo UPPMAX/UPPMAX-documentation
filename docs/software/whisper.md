@@ -32,8 +32,8 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
     2 speakers: Excellent  
     Background noise: Good  
     2+ speakers: Very Good  
-    Conversational overlap: Average  
-    Long silences: Good  
+    Conversational overlap: Average. Difficulty disambiguating speakers.  
+    Long silences: Good. Might repeat sentences and get stuck in loop.
 
     Whisper also tries to give separate sentences for different speakers. But it is not guaranteed.  
 
