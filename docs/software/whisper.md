@@ -12,7 +12,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 !!! warning "AI tool caution"
 
-    Like all other AI models, Whisper too hallucinates while transcribing or translating. ie, "make-up" words or even sentences.
+    Like all other AI models, Whisper too hallucinates while transcribing or translating. ie, "make-up" words or even sentences, resulting in misinterpretation or misrepresentation of the speaker.  
 
 
 ??? info "Quality of transcriptions and translations"  
@@ -28,10 +28,10 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
     Quality as a factor of noise and count of speakers:-  
     2 speakers: Excellent  
-    Background noise: Degraded  
-    2+ speakers: Degraded  
-    Conversational overlap: Degraded  
-    Long silences: Degraded  
+    Background noise: Good  
+    2+ speakers: Very Good  
+    Conversational overlap: Average  
+    Long silences: Good  
 
     Whisper also tries to give separate sentences for different speakers. But it is not guaranteed.  
 
