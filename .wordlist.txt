@@ -91,6 +91,7 @@ io
 ipped
 ipykernel
 javac
+jayan
 jl
 julia
 juliaCUDA
