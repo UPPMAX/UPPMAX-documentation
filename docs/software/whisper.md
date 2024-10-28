@@ -10,6 +10,33 @@ tags:
 This guide provides instructions for loading and using OpenAI's Whisper, an
 automatic speech recognition system. Whisper is available on Bianca. It can either be used through a User Interface or loaded as a Module.
 
+!!! warning "AI tool caution"
+
+    Like all other AI models, Whisper too hallucinates while transcribing or translating. ie, "make-up" words or even sentences.
+
+
+??? info "Quality of transcriptions and translations"  
+
+    Transcriptions (error rate):-  Swedish: ~10% , English: ~5% , English with heavy accent: ~ 20%    
+    
+    Translations:- Any to English: "DeepL" level performance. Slightly better than google translate.  
+
+    Quality as a factor of duration of recordings:-  
+    A few minutes: Excellent  
+    A few minutes to an hour: Excellent at the beginning, then detoriates.
+    An hour or more: Excellent at the beginning, then detoriates.  
+
+    Quality as a factor of noise and count of speakers:-  
+    2 speakers: Excellent  
+    Background noise: Degraded    
+    2+ speakers: Degraded  
+    Conversational overlap: Degraded  
+    Long silences: Degraded  
+
+    Whisper also tries to give separate sentences for different speakers. But it is not guaranteed.  
+
+
+
 ## Glossary  
 
 **SUPR account**  
@@ -56,7 +83,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.  
 
-1. Click on the Terminal icon on the bottom of the Desktop and enter the following command in it to load Whisper GUI.    
+1. Click on the Terminal icon on the bottom of the Desktop and enter the following command in it to load Whisper GUI.  
 
     ```bash
     module load Whisper-gui
