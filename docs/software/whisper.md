@@ -108,7 +108,7 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. I
 
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
-    **Language used in recordings (leave blank for autodetection)**: If your language of choice unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
+    **Language used in recordings (leave blank for autodetection)**: If your language of choice is unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
 
 ### Step 3: Monitoring jobs  
 
@@ -150,7 +150,7 @@ Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of t
 
 ??? note "Languages available"
 
-    Use the following 2 letter code to perform transcribing when asked in the GUI:  
+    Following languages are available for transcribing. If your language of choice does not appear in Whisper application but is listed here, [contact support](https://supr.naiss.se/support/):  
 
     `en`: "english",
     `zh`: "chinese",
