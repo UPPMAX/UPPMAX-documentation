@@ -92,10 +92,13 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
     ![Terminal on Bianca Desktop](./img/whisper_terminal.png)  
 
 1. You shall now see `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).  
+(Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `wharf` and `proj` folder are already created.)
 
     ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
-1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder. NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `proj` folder is already created.)
+1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder.  
+NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. It is unsafe to keep data in `wharf` folder and the data should be deleted from it after the transfer is done.  
+![whisper gui](./img/whisper_data_transfer.png){: style="height:60%;width:60%"}
 
 1. Click on Whisper application on Desktop. It would look like this:  
 ![whisper gui](./img/whisper-gui.png){: style="height:60%;width:60%"}
