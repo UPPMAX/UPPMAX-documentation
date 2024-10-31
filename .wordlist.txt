@@ -849,3 +849,13 @@ enterpasswd
 jobmonitor
 NODELIST
 bjornc
+ons
+Simulink
+Stateflow
+SimEvents
+Simscape
+searchforaddons
+mathworks
+seealso
+Kalman
+kalmanf
