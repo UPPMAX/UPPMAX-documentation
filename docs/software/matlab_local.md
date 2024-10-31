@@ -1,4 +1,4 @@
-## MATLAB client on the desktop
+# MATLAB client on the desktop
 
 The Rackham MATLAB support package can be found at [uppsala.Desktop.zip](https://github.com/UPPMAX/UPPMAX-documentation/raw/main/docs/software/files/matlab/uppsala.Desktop.zip).
 
