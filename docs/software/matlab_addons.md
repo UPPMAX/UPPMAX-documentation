@@ -1,8 +1,8 @@
 # Matlab Add-Ons
 
 
-.. admonition:: MATLAB Add-Ons
-   
+admonition:: MATLAB Add-Ons
+
    - Add-ons extend the capabilities of MATLAB® by providing additional functionality for specific tasks and applications, such as:
       - connecting to hardware devices
       - additional algorithms
