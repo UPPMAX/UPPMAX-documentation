@@ -836,3 +836,16 @@ linux
 namespace
 rsync
 sftp
+Ons
+idx
+nLoopIters
+parfor
+sleepTime
+toc
+CurrentFolder
+img
+usercred
+enterpasswd
+jobmonitor
+NODELIST
+bjornc
