@@ -97,7 +97,8 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
     ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
 1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder.  
-NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. It is unsafe to keep data in `wharf` folder and the data should be deleted from it after the transfer is done.  
+NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. It is unsafe to keep data in `wharf` folder and the data should be deleted from it after the transfer is done. This is because `wharf` is exposed to the internet through SFTP. `proj`, on the other hand, is safe to keep data in as it is cut-off from the internet.  
+
 ![whisper gui](./img/whisper_data_transfer.png){: style="height:60%;width:60%"}
 
 1. Click on Whisper application on Desktop. It would look like this:  
