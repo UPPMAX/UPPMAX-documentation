@@ -251,8 +251,8 @@ RAM|Rackham|Snowy|Bianca
 
 **Slurm options**:
 
-- Snowy 128 GB: ``-M snowy -p node --gres=gpu:1``
-- Snowy 256 GB: ``-M snowy -p node -C mem256GB --gres=gpu:1``
+- Snowy 128 GB: ``-M snowy -p node --gres=gpu:1 -t 1:0:1``   (Please note that -t has to be _more than_ 1 hr)
+- Snowy 256 GB: ``-M snowy -p node -C mem256GB --gres=gpu:1  -t 1:0:1``
 - Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00``
 
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
