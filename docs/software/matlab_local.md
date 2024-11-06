@@ -8,7 +8,8 @@
 
 !!! warning
 
-    - This solution is possible only if
+    - This solution is possible only if:
+    
         - you have an UPPMAX compute project
         - a working matlab on your computer with one of the version available on the cluster:
 
@@ -215,7 +216,7 @@ ans =
     
 !!! admonition "Keypoints"
 
-    - Steps to configure 
+    - Steps to configure
         - First time download and decompress UPPMAX configure file.
         - run configCluster on local MATLAB and set user name
     - Steps to run
