@@ -215,8 +215,8 @@ ans =
     
 !!! admonition "Keypoints"
 
-    - Steps to configure  first time 
-        - download and decompress UPPMAX configure file.
+    - Steps to configure 
+        - First time download and decompress UPPMAX configure file.
         - run configCluster on local MATLAB and set user name
     - Steps to run
         - set ``parcluster`` settings, like you do otherwise.
