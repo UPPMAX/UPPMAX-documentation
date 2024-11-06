@@ -22,48 +22,45 @@
             - R2023b
 
 
-## Let's get started together!
-
-
-.. demo::
-
-   - You can try to type-along
+## Let's get started!
 
 The Rackham MATLAB support package can be found at `uppsala.Desktop.zip <https://github.com/UPPMAX/UPPMAX-documentation/raw/main/docs/software/files/matlab/uppsala.Desktop.zip>`_.
 
-
-- Download the ZIP file and start MATLAB.
+- Download the ZIP file and start MATLAB locally.
 - The ZIP file should be unzipped in the location returned by calling
 
-.. code-block:: matlab
+```matlab
 
-   >> userpath
+>> userpath
+```
 
 - You can unzip from MATLAB's Command window.
 
 - Configure MATLAB to run parallel jobs on the cluster by calling ``configCluster``. ``configCluster`` only needs to be called once per version of MATLAB.
 
-.. code-block:: matlab
+```matlab
 
-   >> configCluster
-   Username on RACKHAM (e.g. jdoe):  
+>> configCluster
+Username on RACKHAM (e.g. jdoe):  
+```
 
 - Type your rackham user name.
 - As a result:
 
-.. code-block:: matlab 
+```matlab 
    
-   Complete.  Default cluster profile set to "Rackham R2022b".
+Complete.  Default cluster profile set to "Rackham R2022b".
+```
 
+!!! note
 
-.. note:: 
+    - To submit jobs to the local machine instead of the cluster, run the following:
 
-   - To submit jobs to the local machine instead of the cluster, run the following:
+    ```matlab
 
-   .. code-block:: matlab
-
-      >> % Get a handle to the local resources
-      >> c = parcluster('local');
+    >> % Get a handle to the local resources
+    >> c = parcluster('local');
+    ```
 
 
 ## Configuring Slurm details
