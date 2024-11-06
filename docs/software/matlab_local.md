@@ -9,7 +9,7 @@
 !!! warning
 
     - This solution is possible only if
-        - you have an UPPMAX compute project 
+        - you have an UPPMAX compute project
         - a working matlab on your computer with one of the version available on the cluster:
 
         - check with ``module avail matlab``
@@ -21,7 +21,7 @@
             - R2023a
             - R2023b
 
-## Let's get started!
+## Let's get started
 
 The Rackham MATLAB support package can be found at [uppsala.Desktop.zip](https://github.com/UPPMAX/UPPMAX-documentation/raw/main/docs/software/files/matlab/uppsala.Desktop.zip).
 
@@ -45,7 +45,7 @@ Username on RACKHAM (e.g. jdoe):
 - Type your rackham user name.
 - As a result:
 
-```matlab 
+```matlab
    
 Complete.  Default cluster profile set to "Rackham R2022b".
 ```
@@ -124,6 +124,7 @@ To see the values of the current configuration options, display AdditionalProper
 >> % To view current properties
 >> c.AdditionalProperties
 ```
+
 Unset a value when no longer needed.
 
 ```matlab
@@ -136,7 +137,7 @@ Unset a value when no longer needed.
 
 - Copy this script and paste in a new file ``parallel_example_local.m`` that you save in the working directory where you are (check with ``pwd`` in the Matlab Command Window).
 
-    - The script is supposed to loop over ``sleepTime`` seconds of work ``nLoopIters`` times. 
+    - The script is supposed to loop over ``sleepTime`` seconds of work ``nLoopIters`` times.
     - We will define the number of processes in the batch submit line.
 
 ```matlab
@@ -156,6 +157,7 @@ Unset a value when no longer needed.
 - Submission to the cluster requires SSH credentials. 
 - You will be prompted for username and password or identity file (private key). 
     - It will not ask again until you define a new cluster handle ``c`` or in next session.
+```
 
 ![matlab user credentials](./img/matlab_usercred.PNG)
 
@@ -171,7 +173,7 @@ ans =
     'running'
 ```
 
-- You can run this several times until it gives 
+- You can run this several times until it gives:
 
 ```matlab
 >> job.State
@@ -179,6 +181,7 @@ ans =
 ans =
 
     'finished'
+```
 
 - You can also watch queue
 
@@ -209,31 +212,12 @@ ans =
     >> c.AdditionalProperties.ClusterName='snowy'
     >> c.AdditionalProperties.ProcsPerNode = 16;
     ```
-
-Examples
----------
-
-.. challenge:: 1. Configure your local Matlab to talk to UPPMAX
-
-   - Use the instructions above to try to make it work!
-
-.. challenge:: 2. Run a script on snowy
-
-   - Try to run a script from the `MATLAB GUI and SLURM session <./jobsMatlab.html>`_
-   - Check in a rackham terminal: ``squeue -M snowy --me``
-
-!!! admonition "keypoints"
+    
+!!! admonition "Keypoints"
 
     - Steps to configure  first time 
         - download and decompress UPPMAX configure file.
         - run configCluster on local MATLAB and set user name
     - Steps to run
-       - set ``parcluster`` settings, like you do otherwise.
+        - set ``parcluster`` settings, like you do otherwise.
     - Note: only ``parcluster`` will work, not ``parpool``.
-
-!!! admonitions "If you get problems"
-
-    - Send a support ticket to UPPMAX via [supr.naiss.se/support](javascript:void(window.open('https://supr.naiss.se/support/?centre_resource=c4','_blank','toolbar=1,location=1,status=1,menubar=1,scrollbars=1,resizable=1'));)
-
-
-
