@@ -68,12 +68,12 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 4. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account.  
 
-5. Give adequate information while creating your proposal or follow [this template](#proposal-template).  
+5. Give adequate information while creating your proposal by following [this template](#proposal-template).  
 
 6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).
 
 
-## Application
+## Whisper App
 
 ### Step 1: Data transfer from local computer to Bianca  
 
