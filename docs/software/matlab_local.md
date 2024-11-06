@@ -9,11 +9,11 @@
 !!! warning
 
     - This solution is possible only if
-      - you have an UPPMAX compute project 
-      - a working matlab on your computer with one of the version available on the cluster:
+        - you have an UPPMAX compute project 
+        - a working matlab on your computer with one of the version available on the cluster:
 
-         - check with ``module avail matlab``
-         - Examples of the newest ones: 
+        - check with ``module avail matlab``
+        - Examples of the newest ones:
 
             - R2020b
             - R2022a
@@ -21,13 +21,12 @@
             - R2023a
             - R2023b
 
-
 ## Let's get started!
 
-The Rackham MATLAB support package can be found at `uppsala.Desktop.zip <https://github.com/UPPMAX/UPPMAX-documentation/raw/main/docs/software/files/matlab/uppsala.Desktop.zip>`_.
+The Rackham MATLAB support package can be found at [uppsala.Desktop.zip](https://github.com/UPPMAX/UPPMAX-documentation/raw/main/docs/software/files/matlab/uppsala.Desktop.zip).
 
 - Download the ZIP file and start MATLAB locally.
-- The ZIP file should be unzipped in the location returned by calling
+- The ZIP file should be unzipped in the location returned by calling.
 
 ```matlab
 
@@ -35,13 +34,12 @@ The Rackham MATLAB support package can be found at `uppsala.Desktop.zip <https:/
 ```
 
 - You can unzip from MATLAB's Command window.
-
 - Configure MATLAB to run parallel jobs on the cluster by calling ``configCluster``. ``configCluster`` only needs to be called once per version of MATLAB.
 
 ```matlab
 
 >> configCluster
-Username on RACKHAM (e.g. jdoe):  
+Username on RACKHAM (e.g. jdoe):
 ```
 
 - Type your rackham user name.
@@ -57,26 +55,24 @@ Complete.  Default cluster profile set to "Rackham R2022b".
     - To submit jobs to the local machine instead of the cluster, run the following:
 
     ```matlab
-
     >> % Get a handle to the local resources
     >> c = parcluster('local');
     ```
-
 
 ## Configuring Slurm details
 
 Prior to submitting the job, various parameters can be assigned, such as queue, e-mail, walltime, etc.  The following is a partial list of parameters.  See AdditionalProperties for the complete list.  Only AccountName, Partition, MemUsage and WallTime.
 
-.. code-block:: matlab
+```matlab
 
-   >> % Get a handle to the cluster
-   >> c = parcluster;
+>> % Get a handle to the cluster
+>> c = parcluster;
 
-   c = 
+c = 
 
-    Generic Cluster
+  Generic Cluster
 
-       Properties: 
+    Properties: 
 
                       Profile: Rackham R2022b
                      Modified: false
@@ -87,53 +83,54 @@ Prior to submitting the job, various parameters can be assigned, such as queue, 
         JobStorageLocation: <path to job outputs locally>
          ClusterMatlabRoot: /sw/apps/matlab/x86_64/R2022b
            OperatingSystem: unix
+```
 
-Set some additional parameters related to Slurm on Rackham
+- Set some additional parameters related to Slurm on Rackham
 
-.. code-block:: matlab
+```matlab
 
-   >> % Specify the account
-   >> c.AdditionalProperties.AccountName = 'naiss2024-22-1202';
+>> % Specify the account
+>> c.AdditionalProperties.AccountName = 'naiss2024-22-1202';
 
-   >> % Specify the wall time (e.g., 1 day, 5 hours, 30 minutes
-   >> c.AdditionalProperties.WallTime = '00:30:00';
+>> % Specify the wall time (e.g., 1 day, 5 hours, 30 minutes
+>> c.AdditionalProperties.WallTime = '00:30:00';
 
-   >> % Specify cores per node
-   >> c.AdditionalProperties.ProcsPerNode = 20;
+>> % Specify cores per node
+>> c.AdditionalProperties.ProcsPerNode = 20;
 
+[OPTIONAL]
 
-   [OPTIONAL]
+>> % Specify the partition
+>> c.AdditionalProperties.Partition = 'devcore';
 
-   >> % Specify the partition
-   >> c.AdditionalProperties.Partition = 'devcore';
+>> % Specify another cluster: 'snowy'
+>> c.AdditionalProperties.ClusterName='snowy'
+>> c.AdditionalProperties.ProcsPerNode = 16;
 
-   >> % Specify another cluster: 'snowy'
-   >> c.AdditionalProperties.ClusterName='snowy'
-   >> c.AdditionalProperties.ProcsPerNode = 16;
+>> % Specify number of GPUs
+>> c.AdditionalProperties.GPUsPerNode = 1;
+>> c.AdditionalProperties.GPUCard = 'gpu-card';
+```
 
-   >> % Specify number of GPUs
-   >> c.AdditionalProperties.GPUsPerNode = 1;
-   >> c.AdditionalProperties.GPUCard = 'gpu-card';
+- Save the profile
 
-.. code-block:: matlab
-
-   >> c.saveProfile
+```matlab
+>> c.saveProfile
+```
 
 To see the values of the current configuration options, display AdditionalProperties.
 
-.. code-block:: matlab
-
-   >> % To view current properties
-   >> c.AdditionalProperties
-
+```matlab
+>> % To view current properties
+>> c.AdditionalProperties
+```
 Unset a value when no longer needed.
 
-.. code-block:: matlab
-
-   >> % Example Turn off email notifications
-   >> c.AdditionalProperties.EmailAddress = '';
-   >> c.saveProfile
-
+```matlab
+>> % Example Turn off email notifications
+>> c.AdditionalProperties.EmailAddress = '';
+>> c.saveProfile
+```
 
 ## Start job
 
@@ -142,8 +139,7 @@ Unset a value when no longer needed.
     - The script is supposed to loop over ``sleepTime`` seconds of work ``nLoopIters`` times. 
     - We will define the number of processes in the batch submit line.
 
-.. code-block:: matlab
-
+```matlab
    function t = parallel_example_local(nLoopIters, sleepTime)
    t0 = tic;
    parfor idx = 1:nLoopIters
@@ -151,69 +147,68 @@ Unset a value when no longer needed.
       pause(sleepTime);
    end
    t = toc(t0);
+```
 
+```matlab
 
-.. code-block:: matlab
-
-   job = c.batch(@parallel_example_local, 1, {16,1}, 'Pool',8,'CurrentFolder','.');
+>> job = c.batch(@parallel_example_local, 1, {16,1}, 'Pool',8,'CurrentFolder','.');
 
 - Submission to the cluster requires SSH credentials. 
 - You will be prompted for username and password or identity file (private key). 
     - It will not ask again until you define a new cluster handle ``c`` or in next session.
 
-.. figure:: ./img/matlab_usercred.PNG
+![matlab user credentials](./img/matlab_usercred.PNG)
 
-.. figure:: ./img/matlab_enterpasswd.PNG
+![matlab enter password](./img/matlab_enterpasswd.PNG)
 
 - Jobs will now default to the cluster rather than submit to the local machine.
 
-.. code-block:: matlab
+```matlab
+>> job.State
 
-   >> job.State
+ans =
 
-   ans =
-
-       'running'
+    'running'
+```
 
 - You can run this several times until it gives 
 
-.. code-block:: matlab
+```matlab
+>> job.State
 
-   >> job.State
+ans =
 
-   ans =
-
-       'finished'
+    'finished'
 
 - You can also watch queue
 
-.. figure:: ./img/matlab_jobmonitor.PNG
+![matlab job monitor](./img/matlab_jobmonitor.PNG)
 
 - Or on Rackham (it really runs there!):
 
-.. code-block:: console
+```console
+[bjornc2@rackham2 ~]$ squeue -u bjornc2
+        JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+        50827312   devcore MATLAB_R  bjornc2  R       2:20      1 r483
+```
 
-   [bjornc2@rackham2 ~]$ squeue -u bjornc2
-             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-          50827312   devcore MATLAB_R  bjornc2  R       2:20      1 r483
+```matlab
+>> job.fetchOutputs{:}
 
-.. code-block:: matlab
+ans =
 
-   >> job.fetchOutputs{:}
-
-   ans =
-
-       2.4853
+    2.4853
+```
 
 - The script looped over 1 s work 16 times, but with 8 processes.
 - In an ideal world it would have taken ``16 / 8 = 2 s``. Now it took 2.5 s with some "overhead"
 
-.. admonition:: Run on Snowy
+!!! admonition "Run on Snowy"
 
-   .. code-block:: matlab
-
-      >> c.AdditionalProperties.ClusterName='snowy'
-      >> c.AdditionalProperties.ProcsPerNode = 16;
+    ```matlab
+    >> c.AdditionalProperties.ClusterName='snowy'
+    >> c.AdditionalProperties.ProcsPerNode = 16;
+    ```
 
 Examples
 ---------
@@ -227,18 +222,18 @@ Examples
    - Try to run a script from the `MATLAB GUI and SLURM session <./jobsMatlab.html>`_
    - Check in a rackham terminal: ``squeue -M snowy --me``
 
-.. keypoints:: 
+!!! admonition "keypoints"
 
-   - Steps to configure  first time 
-       - download and decompress UPPMAX configure file.
-       - run configCluster on local MATLAB and set user name
-   - Steps to run
+    - Steps to configure  first time 
+        - download and decompress UPPMAX configure file.
+        - run configCluster on local MATLAB and set user name
+    - Steps to run
        - set ``parcluster`` settings, like you do otherwise.
-   - Note: only ``parcluster`` will work, not ``parpool``.
+    - Note: only ``parcluster`` will work, not ``parpool``.
 
-.. admonitions:: Do you get problems
+!!! admonitions "If you get problems"
 
-   - Send a support ticket to UPPMAX via `supr.naiss.se/support <javascript:void(window.open('https://supr.naiss.se/support/?centre_resource=c4','_blank','toolbar=1,location=1,status=1,menubar=1,scrollbars=1,resizable=1'));>`_
+    - Send a support ticket to UPPMAX via [supr.naiss.se/support](javascript:void(window.open('https://supr.naiss.se/support/?centre_resource=c4','_blank','toolbar=1,location=1,status=1,menubar=1,scrollbars=1,resizable=1'));)
 
 
 
