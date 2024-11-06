@@ -14,26 +14,26 @@
         - apps
         - toolboxes
         - support packages
-    - [](https://se.mathworks.com/help/matlab/add-ons.html?s_tid=CRUX_lftnavZ)
-   
+    - [More information from Mathworks](https://se.mathworks.com/help/matlab/add-ons.html?s_tid=CRUX_lftnavZ)
+
 
 !!! admonition "Learners should be able to"
 
     - navigate to toolboxes and Add-Ons
     - view Add-Ons and toolboxes
-    - install and use Add-Ons    
-   
+    - install and use Add-Ons
+
 - Before going into installing Add-Ons let's have a background to the MATLAB environments and ecosystem!
 
 ## MATLAB Add-Ons manager
 
-![toolbat](./img/Toolbar_Add-Ons.PNG)
+![toolbar](./img/Toolbar_Add-Ons.PNG)
 
-In the GUI, the Add-Ons manager can be selected from the menu at the top. The drop-down menu options allow users to:
+- In the GUI, the Add-Ons manager can be selected from the menu at the top. The drop-down menu options allow users to:
 
    - **Browse a library of Add-Ons to download.** Note that some Add-Ons require a separate license.
 
-     ![addon explorer](./img/Add-On_explorer.PNG)
+   ![addon explorer](./img/Add-On_explorer.PNG)
 
    - **Manage Add-Ons already downloaded.**
 
@@ -43,7 +43,7 @@ In the GUI, the Add-Ons manager can be selected from the menu at the top. The dr
 
    - Get hardware-related support packages
 
-Here we will only focus on the first two options.
+- Here we will only focus on the first two options.
 
 !!! note
 
@@ -104,7 +104,7 @@ Here we will only focus on the first two options.
     - The add-on is not available for installation through the Add-On Explorer, for example, if you create a custom add-on yourself or receive one from someone else.
     - You downloaded the add-on from the Add-On Explorer without installing it.
     - You downloaded the add-on from the File Exchange at MATLAB Central™.
-    - `MathWorkds page on getting Add-Ons <https://se.mathworks.com/help/matlab/matlab_env/get-add-ons.html>`_ 
+    - [MathWorkds page on getting Add-Ons](https://se.mathworks.com/help/matlab/matlab_env/get-add-ons.html)
 
 !!! admonition "Demo"
 
@@ -123,7 +123,7 @@ Here we will only focus on the first two options.
     - Click "Add", and "Download and Add to path"
     - Type email address connected to your MathWorks account
     - Installation starts
-    - It will end up in: 
+    - It will end up in:
 
     ```console
 
@@ -165,7 +165,7 @@ Here we will only focus on the first two options.
 
     - OK. It is installed but may need some other things. Just an example!!
 
-!!! keypoints:: 
+!!! note "Keypoints"
 
     - Many Add-Ons, like toolboxes and packages are available at the Clusters
     - You can view Add-Ons and toolboxes
