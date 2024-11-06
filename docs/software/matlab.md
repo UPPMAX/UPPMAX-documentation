@@ -412,6 +412,10 @@ You may want to run MATLAB on a single thread. This makes it work:
 matlab -singleCompThread
 ```
 
+## Matlab Add-Ons
+
+[Matlab Add-ons](matlab_addons.md)
+
 ## MATLAB client on the desktop
 
 [Guideline here](matlab_local.md)
