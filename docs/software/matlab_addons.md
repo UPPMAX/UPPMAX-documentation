@@ -31,17 +31,17 @@
 
 - In the GUI, the Add-Ons manager can be selected from the menu at the top. The drop-down menu options allow users to:
 
-     - **Browse a library of Add-Ons to download.** Note that some Add-Ons require a separate license.
+    - **Browse a library of Add-Ons to download.** Note that some Add-Ons require a separate license.
 
-     ![addon explorer](./img/Add-On_explorer.PNG)
+    ![addon explorer](./img/Add-On_explorer.PNG)
 
-     - **Manage Add-Ons already downloaded.**
+    - **Manage Add-Ons already downloaded.**
 
-     ![addon manager](./img/Add-On_manager.PNG)
+    ![addon manager](./img/Add-On_manager.PNG)
 
-     - Package user-generated code as a Toolbox or App
+    - Package user-generated code as a Toolbox or App
 
-     - Get hardware-related support packages
+    - Get hardware-related support packages
 
 - Here we will only focus on the first two options.
 
