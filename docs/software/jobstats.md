@@ -138,7 +138,7 @@ flowchart TD
 
     > Pick the number of cores to have enough memory
 
-    The dotted black line hits the left-hand vertical axis at 1070%.
+    The dotted black line hits the right-hand vertical axis at 1070%.
     This means that 11 cores (i.e. 1100%) would be enough for this job.
 
     > For that amount of cores, would runtime by limited by CPU?
@@ -158,7 +158,7 @@ flowchart TD
 
     > Pick the number of cores to have enough memory
 
-    The dotted black line hits the left-hand vertical axis at 90%.
+    The dotted black line hits the right-hand vertical axis at 90%.
     This means that 1 core (i.e. 100%) would be enough for this job.
 
     > For that amount of cores, would runtime by limited by CPU?
@@ -199,7 +199,7 @@ Here booking 5 cores is considered okay.
 
 > Pick the number of cores to have enough memory
 
-The dotted black line hits the left-hand vertical axis at 390%.
+The dotted black line hits the right-hand vertical axis at 390%.
 This means that 4 cores (i.e. 400%) would be enough for this job.
 
 > For that amount of cores, would runtime by limited by CPU?
@@ -222,7 +222,7 @@ booking 2-9 cores is all considered reasonable.
 
 > Pick the number of cores to have enough memory
 
-The dotted black line hits the left-hand vertical axis at 90%.
+The dotted black line hits the right-hand vertical axis at 90%.
 This means that 1 core (i.e. 100%) would be enough for this job.
 
 > For that amount of cores, would runtime by limited by CPU?
@@ -251,7 +251,7 @@ Here booking 6 cores is considered okay.
 
 > Pick the number of cores to have enough memory
 
-The dotted black line hits the left-hand vertical axis at 40%.
+The dotted black line hits the right-hand vertical axis at 40%.
 This means that 1 core (i.e. 100%) would be enough for this job.
 
 > For that amount of cores, would runtime by limited by CPU?
