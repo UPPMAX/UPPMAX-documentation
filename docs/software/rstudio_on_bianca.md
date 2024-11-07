@@ -103,7 +103,7 @@ In the terminal of the interactive session, do:
 In the terminal of the interactive session, do:
 
 ```bash
-module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
+module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
 ```
 
 ???- question "What happens if I do not load `R` or `R_packages`?"

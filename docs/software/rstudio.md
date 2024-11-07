@@ -42,14 +42,14 @@ Using RStudio differs per UPPMAX cluster:
             RStudio/2022.07.1-554
             RStudio/2023.06.0-421
             RStudio/2023.06.2-561
-            RStudio/2023.12.1-402
+            RStudio/2023.12.1-402 (may not always work)
     ```
 
 Some links between version and official documentation:
 
 RStudio module         |RStudio Builds documentation
 -----------------------|-----------------------
-`RStudio/2023.12.1-402`|[here](https://dailies.rstudio.com/version/2023.12.1+402.pro1/)
+`RStudio/2023.06.2-561`|[here](https://dailies.rstudio.com/version/2023.06.2+561.pro1/)
 
 
 ## Troubleshooting
@@ -137,5 +137,5 @@ rm .Rhistory
 
 ???- note "For staff"
 
-  Full report can be found at RT ticket 298623
+    Full report can be found at RT ticket 298623
 

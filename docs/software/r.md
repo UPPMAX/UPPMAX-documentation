@@ -205,7 +205,7 @@ As of this writing, our most recent installations are
 
 - `R/4.3.1`
 - `R_packages/4.3.1`
-- `RStudio/2023.12.1-402`
+- `RStudio/2023.06.2-561`
 
 If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
 
