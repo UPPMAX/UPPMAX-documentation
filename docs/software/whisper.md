@@ -39,8 +39,8 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 ## Glossary  
 
-**SUPR account**  
-**UPPMAX account**  
+**SUPR account** : Gives access to project management account for submitting project proposals on SUPR.  
+**UPPMAX account** : Gives access to UPPMAX servers, like Bianca.  
 **GUI** : Graphical User Interface for taking transcription/translation inputs.  
 **WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.  
 **Terminal** : Black text-based environment that is used for performing jobs.  
@@ -64,14 +64,13 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal).  
 
-3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
+3. Give adequate information while creating your proposal by following [this template](#proposal-template).  
 
-4. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account.  
+4. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.  
 
-5. Give adequate information while creating your proposal by following [this template](#proposal-template).  
+5. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account.  
 
-6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).
-
+6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).  
 
 ## Whisper App
 
