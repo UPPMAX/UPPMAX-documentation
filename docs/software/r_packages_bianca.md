@@ -2,7 +2,7 @@
 
 ???+ question "Read through the content below"
 
-???+ question "Try to do the [exercise](rpackages.md#exercise-update-dowser)"
+???+ question "Try to do the [exercise](r_packages_bianca.md#example-update-dowser)"
 
 
 ## First check if package is already in R_packages/x.y.z
@@ -73,7 +73,7 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 
 
 
-## Exercise: Update dowser
+## Example: Update dowser
 
 [dowser on Readthedocs](https://dowser.readthedocs.io/en/latest/){:target="_blank"}
 
