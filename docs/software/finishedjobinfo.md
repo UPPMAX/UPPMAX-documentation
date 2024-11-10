@@ -87,6 +87,8 @@ for example `finishedjobinfo -j 44981366`.
 finishedjobinfo | grep "runtime.[0-9][1-9]"
 ```
 
+Press `CTRL-C` to stop the process: it will take very long to finish.
+
 ???- question "How does that look like?"
 
     Your output will look similar to this:
@@ -110,6 +112,8 @@ finishedjobinfo | grep "runtime.[0-9][1-9]"
 finishedjobinfo | grep -E "runtime.([0-9]-)?[0-9][1-9]"
 ```
 
+Press `CTRL-C` to stop the process: it will take very long to finish.
+
 ???- question "How does that look like?"
 
     Your output will look similar to this:
@@ -132,6 +136,8 @@ finishedjobinfo | grep -E "runtime.([0-9]-)?[0-9][1-9]"
 ```bash
 finishedjobinfo | grep "runtime.[0-9]-"
 ```
+
+Press `CTRL-C` to stop the process: it will take very long to finish.
 
 ???- question "How does that look like?"
 
