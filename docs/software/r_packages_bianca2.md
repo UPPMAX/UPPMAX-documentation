@@ -36,7 +36,7 @@ to this is to install your own packages.
 - sometimes from other places, like GitHub or R-Forge
 
 Here we will look at installing R packages with automatic download and with
-manual download. It is also possible to install from inside Rstudio. 
+manual download. It is also possible to install from inside RStudio. 
 
 ## Methods
 
@@ -84,9 +84,9 @@ version 4.0.4:
     mkdir -p $HOME/R-packages-4.0.4
 ```
 
-### Automatical download and install from CRAN
+### Automatic download and install from CRAN
 
-https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatical-download-and-install-from-cran
+https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-cran
 
 !!! note
 
@@ -115,7 +115,7 @@ In either case, the dependencies of the package will be downloaded and installed
 https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github
 
 If you want to install a package that is not on CRAN, but which do have a GitHub page, then there is an automatic way of installing, but you need to
-handle prerequsites yourself by installing those first. 
+handle prerequisites yourself by installing those first. 
 -  It can also be that the package is not in as finished a state as those on CRAN, so be careful. 
 
 !!! note
