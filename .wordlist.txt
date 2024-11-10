@@ -869,3 +869,5 @@ rpackages
 Tidycmprsk
 tidycmprsk
 authenticator
+ies
+ReadTheDocs
