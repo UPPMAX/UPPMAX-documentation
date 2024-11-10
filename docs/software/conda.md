@@ -84,7 +84,7 @@ See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/softwa
 
 ## Conda repositories
 
-We have mirrored all major Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
+We have mirrored all major non-proprietary Conda repositories (not ``main``, ``anaconda`` and ``r``) directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
 
 !!! info "Available Conda channels"
 
@@ -93,10 +93,10 @@ We have mirrored all major Conda repositories directly on UPPMAX, on both Rackha
     - conda-forge
     - dranew
     - free
-    - main
+    - ~~main~~
     - pro
     - qiime2
-    - r
+    - ~~r~~
     - r2018.11
     - scilifelab-lts
     - nvidia
