@@ -46,13 +46,13 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 #### Methods
 
 - automatic download and install from CRAN
-    - <https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatical-download-and-install-from-cran>
+    - <https://uppmax.github.io/bianca_workshop/extra/rpackages_copy/#automatic-download-and-install-from-cran>
 
 - automatic download and install from GitHub
-    - <https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github>
+    - <https://uppmax.github.io/bianca_workshop/extra/rpackages_copy/#automatic-download-and-install-from-github>
 
 - manual download and install
-    - <https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install>
+    - <https://uppmax.github.io/bianca_workshop/extra/rpackages_copy/#manual-download-and-install>
     - **NOTE** that if you install a package this way, you need to handle any dependencies yourself.
         - For instance you might get use of our modules  
 
@@ -75,7 +75,7 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 
 ## Example: Update dowser
 
-[dowser on Readthedocs](https://dowser.readthedocs.io/en/latest/){:target="_blank"}
+[dowser on ReadTheDocs](https://dowser.readthedocs.io/en/latest/){:target="_blank"}
 
 !!! info
    
