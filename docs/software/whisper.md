@@ -98,10 +98,10 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder.  
 NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. It is unsafe to keep data in `wharf` folder and the data should be deleted from it after the transfer is done. This is because `wharf` is exposed to the internet through SFTP. `proj`, on the other hand, is safe to keep data in as it is cut-off from the internet.  
 
-![whisper gui](./img/whisper_data_transfer.png){: style="height:60%;width:60%"}
+    ![whisper gui](./img/whisper_data_transfer.png){: style="height:60%;width:60%"}
 
 1. Click on Whisper application on Desktop. It would look like this:  
-![whisper gui](./img/whisper-gui.png){: style="height:60%;width:60%"}
+    ![whisper gui](./img/whisper-gui.png){: style="height:60%;width:60%"}
 
 
 1. Select appropriate options, or use the following for the best results:  
@@ -109,6 +109,7 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. I
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
     **Language used in recordings (leave blank for autodetection)**: If your language of choice is unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
+    **Inital Prompt**: [leave blank]  
 
 ### Step 3: Monitoring jobs  
 
@@ -129,7 +130,7 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. I
 By default you receive 5 types of output files for each file you transcribe/translate:  
 With timestamps: `.srt`, `.vtt`, `.tsv`  
 Without timestamps: `.txt`  
-With detailed model metadata: `.json`.
+With detailed model metadata: `.json`.  
 The most popular ones are `.srt` and `.txt` formats.  
 
 On Mac, `.srt` and `.vtt` can be opened in Word by:  
