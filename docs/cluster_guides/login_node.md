@@ -91,7 +91,7 @@ flowchart TD
 
     For example, when
     [using RStudio on Bianca](../software/rstudio_on_bianca.md)
-    it is recommended to use two nodes (but one node *does* work).
+    it is recommended to use at least two cores (and login node has 2 cores only).
 
     So, if you can, use the login node. If you need more resources,
     either use [the job scheduler](../cluster_guides/slurm.md) or
