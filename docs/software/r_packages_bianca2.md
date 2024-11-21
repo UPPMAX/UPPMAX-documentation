@@ -138,7 +138,7 @@ This is how you install a package from GitHub, inside R:
     devtools::install_github("DeveloperName/package")
 
 ```
- 
+
 ### Manual download and install
 
 [https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install](https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install)

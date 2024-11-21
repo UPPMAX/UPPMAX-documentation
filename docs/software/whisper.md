@@ -117,7 +117,7 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
     **Model**: large-v2  
     **Language used in recordings (leave blank for autodetection)**: If your language of choice is unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
-    **Inital Prompt**: [leave blank]  
+    **Initial Prompt**: [leave blank]  
 
 ### Step 3: Monitoring jobs  
 
