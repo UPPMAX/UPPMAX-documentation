@@ -66,7 +66,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
     * [x] SUPR account  
     * [ ] Submit project proposal  
     * [x] UPPMAX username and password  
-    * [x] UPPMAX two factor authentication. 
+    * [x] UPPMAX two factor authentication.
 
 1. Register an [account on SUPR](https://supr.naiss.se/person/register/).  
 

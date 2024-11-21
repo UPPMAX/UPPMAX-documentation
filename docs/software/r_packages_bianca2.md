@@ -33,7 +33,7 @@ package e.g. documentation(vignettes), licensing and configuration files.
 Sometimes you will need R packages that are not already installed. The solution
 to this is to install your own packages.  
 
-- These packages will usually come from CRAN (https://cran.r-project.org/) - the Comprehensive R Archive Network, or  
+- These packages will usually come from [CRAN](https://cran.r-project.org/) - the Comprehensive R Archive Network, or  
 
 - sometimes from other places, like GitHub or R-Forge
 
@@ -70,7 +70,7 @@ If it is **not** empty, you can edit ``$HOME/.Renviron`` with your favorite
 editor so that ``R_LIBS_USER`` contain the path to your chosen directory for
 own-installed R packages. It should look something like this when you are done:
 
-```sh 
+```sh
 
     R_LIBS_USER="/home/u/user/R-packages-%V"  
 
@@ -102,7 +102,7 @@ version 4.0.4:
 
 === "From command line"
 
-    ```sh 
+    ```sh
     R --quiet --no-save --no-restore -e "install.packages('<r-package>', repos='<repo>')"  
 
     ```
@@ -124,7 +124,7 @@ In either case, the dependencies of the package will be downloaded and installed
 If you want to install a package that is not on CRAN, but which do have a GitHub page, then there is an automatic way of installing, but you need to
 handle prerequisites yourself by installing those first.  
 
--  It can also be that the package is not in as finished a state as those on CRAN, so be careful.
+- It can also be that the package is not in as finished a state as those on CRAN, so be careful.
 
 !!! note
 
@@ -137,8 +137,8 @@ This is how you install a package from GitHub, inside R:
     install.packages("devtools")   # ONLY ONCE
     devtools::install_github("DeveloperName/package")
 
-```    
-    
+```
+ 
 ### Manual download and install
 
 [https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install](https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install)
@@ -149,14 +149,14 @@ If the package is not on CRAN or you want the development version, or you for ot
 
     R CMD INSTALL -l <path-to-R-package>/R-package.tar.gz
 
-```    
+```
 
 **NOTE** that if you install a package this way, you need to handle any dependencies yourself.
 
 !!! note
 
     Places to look for R packages
-   
+
     - [CRAN](https://cran.r-project.org/)
     - [R-Forge](https://r-forge.r-project.org/)
     - Project's own GitHub page
@@ -167,7 +167,7 @@ If the package is not on CRAN or you want the development version, or you for ot
 [tidycmprsk on GitHub](https://mskcc-epi-bio.github.io/tidycmprsk/)
 
 !!! info
-   
+
     The tidycmprsk package provides an intuitive interface for working with the competing risk endpoints. The package wraps the cmprsk package, and exports functions for univariate cumulative incidence estimates with cuminc() and competing risk regression with crr().
 
 
@@ -256,7 +256,7 @@ This will take a while to upload all the files. When it has completed, quit.
 sftp> quit
 ```
 
-- Now, **log into bianca** using the shell, or using the web interface and start a terminal. 
+- Now, **log into bianca** using the shell, or using the web interface and start a terminal.
 - Once you have a bianca shell, **change to your wharf directory** within your project.  Replace my user and project with yours.
 
 ``` bash

@@ -163,8 +163,6 @@ The downloaded source packages are in
 [1] '1.2.0'
 ```
 
-
-
 ### Transfer to the Wharf
 
 After installation, the next step is to copy the contents of this directory over to bianca so that it is the same directory within your bianca home directory.
@@ -210,7 +208,7 @@ This will take a while to upload all the files. When it has completed, quit.
 sftp> quit
 ```
 
-- Now, **log into bianca** using the shell, or using the web interface and start a terminal. 
+- Now, **log into bianca** using the shell, or using the web interface and start a terminal.
 - Once you have a bianca shell, **change to your wharf directory** within your project.  Replace my user and project with yours.
 
 ``` bash
