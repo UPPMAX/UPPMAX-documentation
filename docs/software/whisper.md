@@ -57,14 +57,14 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 !!! info inline end "Checklist for new project"  
 
     * [x] SUPR account  
-    * [x] Submit project proposal
+    * [x] Submit project proposal  
     * [x] UPPMAX username and password  
     * [x] UPPMAX two factor authentication.  
 
 !!! info inline end "Checklist for existing project"  
 
     * [x] SUPR account  
-    * [ ] Submit project proposal
+    * [ ] Submit project proposal  
     * [x] UPPMAX username and password  
     * [x] UPPMAX two factor authentication. 
 

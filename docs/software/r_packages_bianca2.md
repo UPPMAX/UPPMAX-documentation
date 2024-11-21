@@ -56,20 +56,22 @@ https://uppmax.github.io/bianca_workshop/extra/rpackages/#setup
 NOTE: In this example we are going to assume you have chosen to place the R packages in a directory under your home directory. As mentioned, you will need separate ones for each R version.
 
 If you have not yet installed any packages to R yourself, the environment file
-should be empty and you can update it like this: 
+should be empty and you can update it like this:
 
-``` sh 
+```sh
 
-    echo R_LIBS_USER=\"$HOME/R-packages-%V\" > ~/.Renviron
+    echo R_LIBS_USER=\"$HOME/R-packages-%V\" > ~/.Renviron  
+
 ```
 
 If it is **not** empty, you can edit ``$HOME/.Renviron`` with your favorite
 editor so that ``R_LIBS_USER`` contain the path to your chosen directory for
 own-installed R packages. It should look something like this when you are done:
 
-``` sh 
+```sh 
 
-    R_LIBS_USER="/home/u/user/R-packages-%V"
+    R_LIBS_USER="/home/u/user/R-packages-%V"  
+
 ```
 
 | NOTE: Replace ``/home/u/user`` with the value of ``$HOME``. Run ``echo $HOME`` to see its value.
@@ -79,9 +81,10 @@ For each version of R you are using, create a directory matching the pattern
 used in ``.Renviron`` to store your packages in. This example is shown for R
 version 4.0.4:
 
-``` sh 
+```sh
 
-    mkdir -p $HOME/R-packages-4.0.4
+    mkdir -p $HOME/R-packages-4.0.4  
+
 ```
 
 ### Automatic download and install from CRAN
@@ -90,24 +93,26 @@ https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and
 
 !!! note
 
-    You find a list of packages in CRAN (https://cran.r-project.org/) and a list of repos here: https://cran.r-project.org/mirrors.html 
+    You find a list of packages in CRAN (https://cran.r-project.org/) and a list of repos here: https://cran.r-project.org/mirrors.html
 
-    - Please choose a location close to you when picking a repo. 
+    - Please choose a location close to you when picking a repo.
 
 
 === "From command line"
 
-    ``` sh 
-    R --quiet --no-save --no-restore -e "install.packages('<r-package>', repos='<repo>')"
+    ```sh 
+    R --quiet --no-save --no-restore -e "install.packages('<r-package>', repos='<repo>')"  
+
     ```
     
 === "From inside R"
 
-     ``` R
-     install.packages('<r-package>', repos='<repo>')
+     ```R
+     install.packages('<r-package>', repos='<repo>')  
+
      ```  
 
-In either case, the dependencies of the package will be downloaded and installed as well. 
+In either case, the dependencies of the package will be downloaded and installed as well.
 
 
 ### Automatic download and install from GitHub
@@ -115,32 +120,35 @@ In either case, the dependencies of the package will be downloaded and installed
 https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github
 
 If you want to install a package that is not on CRAN, but which do have a GitHub page, then there is an automatic way of installing, but you need to
-handle prerequisites yourself by installing those first. 
--  It can also be that the package is not in as finished a state as those on CRAN, so be careful. 
+handle prerequisites yourself by installing those first.
+-  It can also be that the package is not in as finished a state as those on CRAN, so be careful.
 
 !!! note
 
-    To install packages from GitHub directly, from inside R, you first need to install the devtools package. Note that you only need to install this **once**. 
+    To install packages from GitHub directly, from inside R, you first need to install the devtools package. Note that you only need to install this **once**.
 
 This is how you install a package from GitHub, inside R:
 
-``` R
+```R
  
     install.packages("devtools")   # ONLY ONCE
     devtools::install_github("DeveloperName/package")
+
 ```    
     
 ### Manual download and install
 
 https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install
 
-If the package is not on CRAN or you want the development version, or you for other reason want to install a package you downloaded, then this is how to install from the command line: 
+If the package is not on CRAN or you want the development version, or you for other reason want to install a package you downloaded, then this is how to install from the command line:
 
-``` sh 
+```sh
+
     R CMD INSTALL -l <path-to-R-package>/R-package.tar.gz
+
 ```    
 
-**NOTE** that if you install a package this way, you need to handle any dependencies yourself. 
+**NOTE** that if you install a package this way, you need to handle any dependencies yourself.
 
 !!! note
 
@@ -164,29 +172,38 @@ If the package is not on CRAN or you want the development version, or you for ot
 
 You can install this for yourself by beginning on rackham. Do
 
-``` bash
+```bash
+
 module load R_packages/4.1.1
+
 ```
+
 and then, within R, do
 
-``` R
+```R
+
 install.packages('tidycmprsk')
+
 ```
 
 You will see two questions to answer yes to:
 
-``` R
+```R
+
 Warning in install.packages("tidycmprsk") :
       'lib = "/sw/apps/R_packages/4.1.1/rackham"' is not writable
     Would you like to use a personal library instead? (yes/No/cancel) yes
+
 ```
 
 and
 
-``` R
+```R
+
 Would you like to create a personal library
     '~/R/x86_64-pc-linux-gnu-library/4.1'
     to install packages into? (yes/No/cancel) yes
+
 ```
 
 This will then to an extended installation process that also does some updates.  This creates a directory ~/R that contains the installations and updates of R packages.
