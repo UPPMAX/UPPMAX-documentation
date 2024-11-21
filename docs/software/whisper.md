@@ -54,11 +54,19 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account):  
 
-!!! info inline end "Checklist"  
+!!! info inline end "Checklist for new project"  
 
     * [x] SUPR account  
+    * [x] Submit project proposal
     * [x] UPPMAX username and password  
     * [x] UPPMAX two factor authentication.  
+
+!!! info inline end "Checklist for existing project"  
+
+    * [x] SUPR account  
+    * [ ] Submit project proposal
+    * [x] UPPMAX username and password  
+    * [x] UPPMAX two factor authentication. 
 
 1. Register an [account on SUPR](https://supr.naiss.se/person/register/).  
 
