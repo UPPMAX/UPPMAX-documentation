@@ -6,9 +6,9 @@
 
 - An R package is essentially a contained folder and file structure containing R
 code (and possibly C/C++ or other code) and other files relevant for the
-package e.g. documentation(vignettes), licensing and configuration files. 
+package e.g. documentation(vignettes), licensing and configuration files.
 
-- Let us look at a very simple example 
+- Let us look at a very simple example
 
 ``` sh
 
@@ -27,16 +27,18 @@ package e.g. documentation(vignettes), licensing and configuration files.
    └── r_example.Rproj
    
 ```
-   
+
 ## Installing your own packages
 
 Sometimes you will need R packages that are not already installed. The solution
-to this is to install your own packages. 
-- These packages will usually come from CRAN (https://cran.r-project.org/) - the Comprehensive R Archive Network, or
+to this is to install your own packages.  
+
+- These packages will usually come from CRAN (https://cran.r-project.org/) - the Comprehensive R Archive Network, or  
+
 - sometimes from other places, like GitHub or R-Forge
 
 Here we will look at installing R packages with automatic download and with
-manual download. It is also possible to install from inside RStudio. 
+manual download. It is also possible to install from inside RStudio.
 
 ## Methods
 
@@ -47,7 +49,7 @@ manual download. It is also possible to install from inside RStudio.
 
 ### setup (first time)
 
-https://uppmax.github.io/bianca_workshop/extra/rpackages/#setup
+[https://uppmax.github.io/bianca_workshop/extra/rpackages/#setup](https://uppmax.github.io/bianca_workshop/extra/rpackages/#setup)
 
 - We need to create a place for the own-installed packages to be and to tell R where to find them. The initial setup only needs to be done once, but separate package directories need to be created for each R version used.
 
@@ -89,11 +91,11 @@ version 4.0.4:
 
 ### Automatic download and install from CRAN
 
-https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-cran
+[https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-cran](https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-cran)
 
 !!! note
 
-    You find a list of packages in CRAN (https://cran.r-project.org/) and a list of repos here: https://cran.r-project.org/mirrors.html
+    You find a list of packages in [CRAN](https://cran.r-project.org/) and a list of repos here: [https://cran.r-project.org/mirrors.html](https://cran.r-project.org/mirrors.html)
 
     - Please choose a location close to you when picking a repo.
 
@@ -117,10 +119,11 @@ In either case, the dependencies of the package will be downloaded and installed
 
 ### Automatic download and install from GitHub
 
-https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github
+[https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github](https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github)
 
 If you want to install a package that is not on CRAN, but which do have a GitHub page, then there is an automatic way of installing, but you need to
-handle prerequisites yourself by installing those first.
+handle prerequisites yourself by installing those first.  
+
 -  It can also be that the package is not in as finished a state as those on CRAN, so be careful.
 
 !!! note
@@ -138,7 +141,7 @@ This is how you install a package from GitHub, inside R:
     
 ### Manual download and install
 
-https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install
+[https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install](https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install)
 
 If the package is not on CRAN or you want the development version, or you for other reason want to install a package you downloaded, then this is how to install from the command line:
 
@@ -154,8 +157,8 @@ If the package is not on CRAN or you want the development version, or you for ot
 
     Places to look for R packages
    
-    - CRAN (https://cran.r-project.org/)
-    - R-Forge (https://r-forge.r-project.org/)
+    - [CRAN](https://cran.r-project.org/)
+    - [R-Forge](https://r-forge.r-project.org/)
     - Project's own GitHub page
     - etc.
 

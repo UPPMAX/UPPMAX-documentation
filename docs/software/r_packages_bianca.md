@@ -63,7 +63,7 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 - or select the directory(-ies) related to you new installation
     - **note** there may be more than one directory
 
-### Move package to local Bianca R package path 
+### Move package to local Bianca R package path
 
 - Sync or move the R directory or the specific folders to your ``~/R`` directory on bianca
 
@@ -71,27 +71,26 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 
 - Start an R session on bianca and load the new package
 
-
-
 ## Example: Update dowser
 
 [dowser on ReadTheDocs](https://dowser.readthedocs.io/en/latest/){:target="_blank"}
 
 !!! info
-   
-    - Dowser is part of the Immcantation analysis framework for Adaptive Immune Receptor Repertoire sequencing (AIRR-seq). 
-    - Dowser provides a set of tools for performing phylogenetic analysis on B cell receptor repertoires. 
+
+    - Dowser is part of the Immcantation analysis framework for Adaptive Immune Receptor Repertoire sequencing (AIRR-seq).
+    - Dowser provides a set of tools for performing phylogenetic analysis on B cell receptor repertoires.
     - It supports building and visualizing trees using multiple methods, and implements statistical tests for discrete trait analysis of B cell migration, differentiation, and isotype switching.
 
 The version of dowser in ``R_packages/4.2.1`` is 1.1.0. It was updated to version 1.2.0 on [2023-05-30](https://cran.rstudio.com/web/packages/dowser/){:target="_blank"}.
 
-### Install on Rackham
+### Install dowser Rackham
 
 You can update this for yourself by beginning on **rackham**. Do
 
 ``` bash
 module load R_packages/4.2.1
 ```
+
 and then, within R, do
 
 ``` R
