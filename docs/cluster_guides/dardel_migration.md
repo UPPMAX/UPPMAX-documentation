@@ -68,8 +68,9 @@ flowchart TD
   run_darsync[5 Run Darsync]
   slurm[6 Submit the script created by Darsync]
   check_logs[7 Check logs]
-  delete_ssh_keys[8 Delete the temporary SSH keys]
-  delete_rackham_files[9 Delete the files on Rackham]
+  double_check_transfer[8 double-check the transfer]
+  delete_ssh_keys[9 Delete the temporary SSH keys]
+  delete_rackham_files[10 Delete the files on Rackham]
 
   get_supr_project --> |needed for| get_pdc_account
 
@@ -78,6 +79,8 @@ flowchart TD
   add_ssh_key --> |needed for| run_darsync
   run_darsync --> |needed for| slurm
   slurm --> |needed for| check_logs
+  check_logs --> |optional| double_check_transfer
+  double_check_transfer --> delete_ssh_keys
   check_logs --> |needed for| delete_ssh_keys
   delete_ssh_keys --> |needed for| delete_rackham_files
 ```
@@ -741,7 +744,66 @@ tail ~/dardel_naiss2024-23-9999.err
     different usernames, for example `svesv` ('Sven Svensson') on UPPMAX
     and `svensv` on PDC. Hence, the file creator will differ between files.
 
-### 8. Delete the SSH key
+### 8. (optional) confirm all files are transferred
+
+If your Slurm log looks like below, all file transfers are finished.
+
+```bash
+[sven@rackham3 ~]$ bash darsync_cedi.slurm
+sending incremental file list
+rsync: [generator] failed to set times on "/cfs/klemming/projects/snic/cedi/.": Operation not permitted (1)
+```
+
+The tool that `darsync` uses (called `rsync`) inherently cares about file
+integrity: you can reasonably assume your files have been transferred.
+See the box below for details.
+
+???- question "How can I reasonably assume my files are transferred?"
+
+    `rsync` will only stop transferring data if all MD5 checksums
+    between Rackham and Dardel match. An MD5 checksum is a way to sum up
+    a file's content in one big number. If any bit in a file differs,
+    this results in a different MD5 checksum. Hence, if the MD5 checksums
+    match, you can reasonably assume the files are identical.
+
+One way to double-check, is to see if the total file sizes between
+Rackham and Dardel match.
+
+In [https://supr.naiss.se](https://supr.naiss.se), you can
+see the disk usage of your projects
+
+???- question "How does that look like?"
+
+    This looks like this, for an UPPMAX project:
+
+    ![Disk usage in SUPR NAISS](./img/disk_usage_in_supr_naiss.png)
+
+    A PDC project will look similar.
+
+You can also use a command line tool, [`uquota`](../software/uquota.md), 
+to see your project's disk usage on Rackham.
+
+???- question "How does that look like?"
+
+    This looks like this, for an UPPMAX project:
+
+    ```bash
+    [sven@rackham1 ~]$ uquota
+    Your project       Your File Area           Unit        Usage  Quota Limit  Over Quota
+    -----------------  -----------------------  -------  --------  -----------  ----------
+    home               /home/sven               GiB          17.6           32            
+    home               /home/sven               files      112808       300000            
+    naiss2024-22-1202  /proj/r-py-jl-m-rackham  GiB           6.1          128            
+    naiss2024-22-1202  /proj/r-py-jl-m-rackham  files       52030       100000            
+    naiss2024-22-1442  /proj/hpc-python-fall    GiB           0.0          128            
+    naiss2024-22-1442  /proj/hpc-python-fall    files           4       100000            
+    naiss2024-22-49    /proj/introtouppmax      GiB           5.1          128            
+    naiss2024-22-49    /proj/introtouppmax      files       20290       100000            
+    ```
+
+For PDC, read [their documentation here](https://www.kth.se/2.79567/support/documents/data_management/klemming.html#projects).
+
+### 9. Delete the SSH key
 
 After the migration, these temporary SSH keys can and should be deleted:
 
@@ -758,7 +820,7 @@ rm ~/id_ed25519_pdc*
     [sven@rackham1 ~]$
     ```
 
-### 9. Delete the files on Rackham
+### 10. Delete the files on Rackham
 
 Now that the files are transferred to Dardel,
 you can delete the files on Rackham that you've just transferred to Dardel.
