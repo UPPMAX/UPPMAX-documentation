@@ -780,7 +780,7 @@ see the disk usage of your projects
 
     A PDC project will look similar.
 
-You can also use a command line tool, [`uquota`](../software/uquota.md), 
+You can also use a command line tool, [`uquota`](../software/uquota.md),
 to see your project's disk usage on Rackham.
 
 ???- question "How does that look like?"
