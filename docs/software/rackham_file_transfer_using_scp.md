@@ -21,6 +21,10 @@ by coping them between your local computer and Rackham.
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    See this procedure as a video at [YouTube](https://youtu.be/tUr-gTXmpAA)
+
 ### 1. Start a terminal on your local computer
 
 Start a [terminal](../software/terminal.md) on your local computer
