@@ -15,7 +15,7 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
     Like all other AI models, Whisper too hallucinates while transcribing or translating. ie, "make-up" words or even sentences, resulting in misinterpretation or misrepresentation of the speaker.  
 
 
-??? info "Quality of transcriptions and translations"  
+??? info "Quality of transcriptions/ translations and audio formats"  
 
     Transcriptions (error rate):-  Swedish: ~10% , English: ~5% , English with heavy accent: ~ 20%  
     
