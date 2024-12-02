@@ -13,7 +13,7 @@ module spider qiime2
     You output will look similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ module spider qiime2
+    [sven@rackham3 ~]$ module spider qiime2
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       qiime2:
@@ -44,7 +44,7 @@ module spider qiime2/1.22.2
     Output will look similar to:
 
     ```bash
-    [richel@rackham3 ~]$ module spider qiime2/2024.2
+    [sven@rackham3 ~]$ module spider qiime2/2024.2
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -90,9 +90,9 @@ module load qiime2/2024.2
     Your output will look similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ module load bioinfo-tools 
-    [richel@rackham3 ~]$ module load qiime2/2024.2
-    [richel@rackham3 ~]$ 
+    [sven@rackham3 ~]$ module load bioinfo-tools 
+    [sven@rackham3 ~]$ module load qiime2/2024.2
+    [sven@rackham3 ~]$ 
     ```
 
 ## Singularity script

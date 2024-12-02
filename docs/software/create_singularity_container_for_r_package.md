@@ -69,7 +69,7 @@ Which will build a Singularity container called `my_container.sif`.
     You output will be similar to this:
 
     ```bash
-    richel@richel-N141CU:~/temp$ sudo singularity build my_container.sif Singularity 
+    sven@richel-N141CU:~/temp$ sudo singularity build my_container.sif Singularity 
     INFO:    Starting build...
     INFO:    Fetching OCI image...
     307.6MiB / 307.6MiB [================================================================================================================================================] 100 % 0.0 b/s 0s
@@ -265,7 +265,7 @@ Run the container on the R script:
     You output will be similar to this:
 
     ```bash
-    richel@richel-N141CU:~/temp$ ./my_container.sif my_r_script.R
+    sven@richel-N141CU:~/temp$ ./my_container.sif my_r_script.R
     function (y) 
     {
         if (!is.matrix(y)) 

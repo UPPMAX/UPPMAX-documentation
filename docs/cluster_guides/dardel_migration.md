@@ -165,8 +165,8 @@ darsync sshkey
     The screen output will look similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ module load darsync
-    [richel@rackham1 ~]$ darsync sshkey
+    [sven@rackham1 ~]$ module load darsync
+    [sven@rackham1 ~]$ darsync sshkey
 
 
       ____ ____  _   _ _  _________   __
@@ -186,7 +186,7 @@ darsync sshkey
 
     Content of the public key:
 
-    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAZkAoqlvm+YQrw26mCuH/4B/meG8O6aS8BB3kw1FDfl richel@rackham1.uppmax.uu.se
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAZkAoqlvm+YQrw26mCuH/4B/meG8O6aS8BB3kw1FDfl sven@rackham1.uppmax.uu.se
 
 
 
@@ -668,7 +668,7 @@ Replace `nais2024-23-9999` with the name of the folder you told Darsync to trans
     Similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ sbatch /home/richel/darsync_Documents.slurm
+    [sven@rackham1 ~]$ sbatch /home/richel/darsync_Documents.slurm
     Submitted batch job 49021945 on cluster rackham
     ```
 
@@ -855,7 +855,7 @@ you can delete the files on Rackham that you've just transferred to Dardel.
 #### T1. Full error message
 
 ```text
-[richel@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
+[sven@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
 ssh: connect to host dardel.pdc.kth.se port 22: No route to host
 rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]

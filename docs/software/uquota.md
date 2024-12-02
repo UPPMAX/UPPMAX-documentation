@@ -14,7 +14,7 @@ uquota --help
     Your output will be similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ uquota --help
+    [sven@rackham1 ~]$ uquota --help
     usage: uquota [-h] [-q] [-d] [-u USER] [-p PROJECTS_FILE] [--include-expired]
                   [--random-usage] [--only-expired] [--sort-by-col SORT_BY_COL]
                   [-s] [-f]
@@ -45,7 +45,7 @@ uquota
     Your output will be similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ uquota
+    [sven@rackham3 ~]$ uquota
     Your project     Your File Area       Unit        Usage  Quota Limit  Over Quota
     ---------------  -------------------  -------  --------  -----------  ----------
     home             /home/sven           GiB          24.7           32

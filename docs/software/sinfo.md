@@ -5,7 +5,7 @@
 ???- question "How does that look like on Bianca?"
 
     ```bash
-    [richel@sens2016001-bianca ~]$ sinfo
+    [sven@sens2016001-bianca ~]$ sinfo
     PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
     all        down 10-00:00:0    204 drain* sens2016001-b[1-8,10-204,1178]
     all        down 10-00:00:0     89   unk* sens2016001-b[205-210,301-312,1073-1084,1119-1177]
@@ -31,7 +31,7 @@
 ???- question "How does that look like on Rackham?"
 
     ```bash
-    [richel@rackham3 ~]$ sinfo
+    [sven@rackham3 ~]$ sinfo
     PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
     all        down 10-00:00:0     22   comp r[2,36,66,68,94,110,112,132,139,163,185,200,206,216,247,281,288,293,319,326,418,481]
     all        down 10-00:00:0     10   plnd r[49-50,58-60,63,283-285,287]

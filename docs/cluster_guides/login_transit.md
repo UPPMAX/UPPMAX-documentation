@@ -46,8 +46,8 @@ You are now logged in to Transit!
 ???- question "How does that look like?"
 
     ```console
-    richel@richel-N141CU:~/GitHubs/UPPMAX-documentation/docs/cluster_guides$ ssh richel@transit.uppmax.uu.se
-    richel@transit.uppmax.uu.se's password: 
+    sven@richel-N141CU:~/GitHubs/UPPMAX-documentation/docs/cluster_guides$ ssh sven@transit.uppmax.uu.se
+    sven@transit.uppmax.uu.se's password: 
     Last login: Tue May 14 07:32:22 2024 from vpnpool188-185.anst.uu.se
 
     Transit server

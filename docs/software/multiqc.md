@@ -13,7 +13,7 @@ module spider MultiQC
     You output will look similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ module spider MultiQC
+    [sven@rackham2 ~]$ module spider MultiQC
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       MultiQC:
@@ -57,7 +57,7 @@ module spider MultiQC/1.22.2
     Output will look similar to:
 
     ```bash
-    [richel@rackham2 ~]$ module spider MultiQC/1.22.2
+    [sven@rackham2 ~]$ module spider MultiQC/1.22.2
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       MultiQC: MultiQC/1.22.2
@@ -88,9 +88,9 @@ module load MultiQC/1.22.2
     Your output will look similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ module load bioinfo-tools 
-    [richel@rackham2 ~]$ module load MultiQC/1.22.2
-    [richel@rackham2 ~]$ 
+    [sven@rackham2 ~]$ module load bioinfo-tools 
+    [sven@rackham2 ~]$ module load MultiQC/1.22.2
+    [sven@rackham2 ~]$ 
     ```
 
 ## Singularity script

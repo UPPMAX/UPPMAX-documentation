@@ -43,7 +43,7 @@ ipython3
 The `ipython3` prompt looks like this:
 
 ```python
-[richel@rackham1 ~]$ ipython
+[sven@rackham1 ~]$ ipython
 Python 3.11.4 (main, Aug  7 2023, 16:05:58) [GCC 12.2.0]
 Type 'copyright', 'credits' or 'license' for more information
 IPython 8.14.0 -- An enhanced Interactive Python. Type '?' for help.

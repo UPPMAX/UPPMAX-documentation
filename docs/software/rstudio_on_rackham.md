@@ -106,7 +106,7 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     Your output will be similar to:
 
     ```bash
-    [richel@r210 richel]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
+    [sven@r210 richel]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
     R/4.3.1: Nearly all CRAN and BioConductor packages are installed and available by loading
     the module R_packages/4.3.1 
     R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might

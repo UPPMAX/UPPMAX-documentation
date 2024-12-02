@@ -71,7 +71,7 @@ for example `finishedjobinfo -j 44981366`.
     Here is an example output:
 
     ```bash
-    [richel@rackham3 ~]$ finishedjobinfo -j 44981366
+    [sven@rackham3 ~]$ finishedjobinfo -j 44981366
     2024-02-09 12:30:37 jobid=44981366 jobstate=TIMEOUT username=richel account=staff nodes=r35 procs=1 partition=core qos=normal jobname=run_beast2.sh maxmemory_in_GiB=0.1 maxmemory_node=r35 timelimit=00:01:00 submit_time=2024-02-09T12:27:29 start_time=2024-02-09T12:29:18 end_time=2024-02-09T12:30:37 runtime=00:01:19 margin=-00:00:19 queuetime=00:01:49
     ```
 

@@ -46,7 +46,7 @@ where
 For example:
 
 ```bash
-ssh richel@transit.uppmax.uu.se
+ssh sven@transit.uppmax.uu.se
 ```
 
 When asked for a password, use your UPPMAX password (without 2FA).
@@ -118,7 +118,7 @@ where
 for example:
 
 ```bash
-rsync my_local_file.txt richel@transit.uppmax.uu.se:sens2016001
+rsync my_local_file.txt sven@transit.uppmax.uu.se:sens2016001
 ```
 
 No need to specify the path to the mounted folder, if defaults are used.
@@ -141,7 +141,7 @@ where
 for example:
 
 ```bash
-rsync --recursive my_folder richel@transit.uppmax.uu.se:sens2016001
+rsync --recursive my_folder sven@transit.uppmax.uu.se:sens2016001
 ```
 
 No need to specify the path to the mounted folder, if defaults are used.
@@ -177,7 +177,7 @@ where
 for example:
 
 ```bash
-rsync richel@transit.uppmax.uu.se:sens2016001/my_file_in_wharf.txt .
+rsync sven@transit.uppmax.uu.se:sens2016001/my_file_in_wharf.txt .
 ```
 
 To copy the individual files in your wharf to your local computer.
@@ -209,7 +209,7 @@ where
 for example:
 
 ```bash
-rsync --recursive richel@transit.uppmax.uu.se:sens2016001 .
+rsync --recursive sven@transit.uppmax.uu.se:sens2016001 .
 ```
 
 To your wharf folder to your local computer.

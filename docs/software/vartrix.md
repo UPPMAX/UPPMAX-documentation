@@ -22,7 +22,7 @@ module spider vartrix
 
 
     ```bash
-    [richel@rackham3 vartrix]$ module spider vartrix
+    [sven@rackham3 vartrix]$ module spider vartrix
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       vartrix: vartrix/1.1.22

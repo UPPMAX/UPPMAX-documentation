@@ -22,7 +22,7 @@ module spider picard
     Your output will be similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ module spider picard
+    [sven@rackham2 ~]$ module spider picard
 
     ----------------------------------------------------------------------------
       picard:
@@ -61,7 +61,7 @@ module load picard/3.1.1
     Your output will be similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ module load picard/3.1.1
+    [sven@rackham2 ~]$ module load picard/3.1.1
     picard/3.1.1: java -jar $PICARD command ...
     ```
 
@@ -76,7 +76,7 @@ module help picard/3.1.1
     Your output will be similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ module help picard/3.1.1
+    [sven@rackham2 ~]$ module help picard/3.1.1
 
     ----------------------------------------------------------------------- Module Specific Help for "picard/3.1.1" -----------------------------------------------------------------------
      picard - use picard/3.1.1
@@ -106,7 +106,7 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     First, download an example BAM file from the Picard GitHub repository:
 
     ```bash
-    [richel@rackham2 ~]$ wget https://github.com/broadinstitute/picard/raw/master/testdata/picard/flow/reads/input/sample_mc.bam
+    [sven@rackham2 ~]$ wget https://github.com/broadinstitute/picard/raw/master/testdata/picard/flow/reads/input/sample_mc.bam
 
     --2024-08-05 09:16:40--  https://github.com/broadinstitute/picard/raw/master/testdata/picard/flow/reads/input/sample_mc.bam
     Resolving github.com (github.com)... 140.82.121.3
@@ -128,27 +128,27 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     Your output will be similar to this, when using that valid BAM file:
 
     ```bash
-    [richel@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT sample_mc.bam 
+    [sven@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT sample_mc.bam 
     Aug 05, 2024 9:16:47 AM com.intel.gkl.NativeLibraryLoader load
     INFO: Loading libgkl_compression.so from jar:file:/sw/bioinfo/picard/3.1.1/rackham/picard.jar!/com/intel/gkl/native/libgkl_compression.so
     [Mon Aug 05 09:16:47 CEST 2024] ValidateSamFile --INPUT sample_mc.bam --MODE VERBOSE --MAX_OUTPUT 100 --IGNORE_WARNINGS false --VALIDATE_INDEX true --INDEX_VALIDATION_STRINGENCY EXHAUSTIVE --IS_BISULFITE_SEQUENCED false --MAX_OPEN_TEMP_FILES 8000 --SKIP_MATE_VALIDATION false --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
-    [Mon Aug 05 09:16:47 CEST 2024] Executing as richel@rackham2.uppmax.uu.se on Linux 3.10.0-1160.119.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 17+35-2724; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.1.1
+    [Mon Aug 05 09:16:47 CEST 2024] Executing as sven@rackham2.uppmax.uu.se on Linux 3.10.0-1160.119.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 17+35-2724; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.1.1
     WARNING 2024-08-05 09:16:47 ValidateSamFile NM validation cannot be performed without the reference. All other validations will still occur.
     No errors found
     [Mon Aug 05 09:16:48 CEST 2024] picard.sam.ValidateSamFile done. Elapsed time: 0.01 minutes.
     Runtime.totalMemory()=2181038080
-    [richel@rackham2 ~]$ 
+    [sven@rackham2 ~]$ 
     ```
 
     Your output will be similar to this, when using an invalid file,
     such as an R script file:
 
     ```bash
-    [richel@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT app.R 
+    [sven@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT app.R 
     Aug 05, 2024 9:13:20 AM com.intel.gkl.NativeLibraryLoader load
     INFO: Loading libgkl_compression.so from jar:file:/sw/bioinfo/picard/3.1.1/rackham/picard.jar!/com/intel/gkl/native/libgkl_compression.so
     [Mon Aug 05 09:13:20 CEST 2024] ValidateSamFile --INPUT app.R --MODE VERBOSE --MAX_OUTPUT 100 --IGNORE_WARNINGS false --VALIDATE_INDEX true --INDEX_VALIDATION_STRINGENCY EXHAUSTIVE --IS_BISULFITE_SEQUENCED false --MAX_OPEN_TEMP_FILES 8000 --SKIP_MATE_VALIDATION false --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
-    [Mon Aug 05 09:13:21 CEST 2024] Executing as richel@rackham2.uppmax.uu.se on Linux 3.10.0-1160.119.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 17+35-2724; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.1.1
+    [Mon Aug 05 09:13:21 CEST 2024] Executing as sven@rackham2.uppmax.uu.se on Linux 3.10.0-1160.119.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 17+35-2724; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.1.1
     WARNING 2024-08-05 09:13:21 ValidateSamFile NM validation cannot be performed without the reference. All other validations will still occur.
     ERROR::MISSING_READ_GROUP:Read groups is empty
     SAMFormatException on record 01

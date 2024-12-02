@@ -25,7 +25,7 @@ Using RStudio differs per UPPMAX cluster:
 
 
     ```bash
-    [richel@r210 richel]$ module spider Rstudio
+    [sven@r210 richel]$ module spider Rstudio
 
     ----------------------------------------------------------------------------
       RStudio:
@@ -73,7 +73,7 @@ Check this by using [uquota.md](uquota.md).
     Your output will be similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ uquota
+    [sven@rackham3 ~]$ uquota
     Your project     Your File Area       Unit        Usage  Quota Limit  Over Quota
     ---------------  -------------------  -------  --------  -----------  ----------
     home             /home/sven           GiB          24.7           32

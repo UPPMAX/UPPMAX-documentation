@@ -100,7 +100,7 @@ is the 2FA number.
 ???- question "How does this look like?"
 
     ```bash
-    richel@richel-N141CU:~/GitHubs/UPPMAX-documentation/docs/getting_started$ ssh richel-sens2023598@bianca.uppmax.uu.se
+    sven@richel-N141CU:~/GitHubs/UPPMAX-documentation/docs/getting_started$ ssh richel-sens2023598@bianca.uppmax.uu.se
     richel-sens2023598@bianca.uppmax.uu.se's password: 
     ```
 
@@ -157,7 +157,7 @@ for example `verysecret`
     * If you use ssh keys, you can get rid of this (second) prompt.            *
     ****************************************************************************
 
-    richel@sens2023598-bianca.uppmax.uu.se's password: 
+    sven@sens2023598-bianca.uppmax.uu.se's password: 
     ```
 
 ### 5. You are in

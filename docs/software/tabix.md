@@ -15,7 +15,7 @@ module spider tabix
     The output may look like this:
 
     ```bash
-    [richel@rackham1 richel]$ module spider tabix
+    [sven@rackham1 richel]$ module spider tabix
 
     ----------------------------------------------------------------------------
       tabix: tabix/0.2.6

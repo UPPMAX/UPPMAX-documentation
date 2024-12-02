@@ -33,7 +33,7 @@ module spider cellranger
     Your output will look similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ module spider cellranger
+    [sven@rackham1 ~]$ module spider cellranger
 
     ----------------------------------------------------------------------------
       cellranger:
@@ -85,7 +85,7 @@ module spider cellranger
     Your output will look similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ module spider cellranger-
+    [sven@rackham1 ~]$ module spider cellranger-
 
     ----------------------------------------------------------------------------
       cellranger-ARC:
@@ -268,7 +268,7 @@ module load bioinfo-tools cellranger/8.0.1
     Your output will look similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ module load bioinfo-tools cellranger/8.0.1
+    [sven@rackham1 ~]$ module load bioinfo-tools cellranger/8.0.1
     Default data for several references are available at $CELLRANGER_DATA; see 'module help cellranger-data/2024-A' for more information
     Default data for GRCh38 and GRCm38 immune profiling references are available at $CELLRANGER_VDJ_DATA; see 'module help cellranger-VDJ-data/7.1.0' for more information
     ```
@@ -284,7 +284,7 @@ cellranger
     Your output will look similar to this:
 
     ```bash
-    [richel@rackham1 ~]$ cellranger
+    [sven@rackham1 ~]$ cellranger
     cellranger cellranger-8.0.1
 
     Process 10x Genomics Gene Expression, Feature Barcode, and Immune Profiling data

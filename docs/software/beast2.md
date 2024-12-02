@@ -148,7 +148,7 @@ beast -beagle_info
     ```
 
     ```console
-    [richel@s93 ~]$ beast -beagle_info
+    [sven@s93 ~]$ beast -beagle_info
 
                             BEAST v2.7.4, 2002-2023
                  Bayesian Evolutionary Analysis Sampling Trees
@@ -197,7 +197,7 @@ beast -beagle_info
     ```
 
     ```console
-    [richel@s106 ~]$ beast -beagle_info
+    [sven@s106 ~]$ beast -beagle_info
 
                             BEAST v2.7.4, 2002-2023
                  Bayesian Evolutionary Analysis Sampling Trees
