@@ -182,7 +182,7 @@ darsync sshkey
 
 
     
-    Created SSH key: /home/richel/id_ed25519_pdc and /home/richel/id_ed25519_pdc.pub
+    Created SSH key: /home/sven/id_ed25519_pdc and /home/sven/id_ed25519_pdc.pub
 
     Content of the public key:
 
@@ -583,7 +583,7 @@ which is a regular [Slurm](slurm.md) script.
     ![An example of a user having an account at PDC's Dardel HPC cluster](./img/supr_naiss_dardel_account.png)
 
     > An example of a user having an account at PDC's Dardel HPC cluster.
-    > In this case, the username is `richelbi`
+    > In this case, the username is `svenbi`
 
 ???- question "How to find out where on Dardel I will transfer your data to?"
 
@@ -668,7 +668,7 @@ Replace `nais2024-23-9999` with the name of the folder you told Darsync to trans
     Similar to this:
 
     ```bash
-    [sven@rackham1 ~]$ sbatch /home/richel/darsync_Documents.slurm
+    [sven@rackham1 ~]$ sbatch /home/sven/darsync_Documents.slurm
     Submitted batch job 49021945 on cluster rackham
     ```
 
@@ -855,7 +855,7 @@ you can delete the files on Rackham that you've just transferred to Dardel.
 #### T1. Full error message
 
 ```text
-[sven@rackham1 ~]$ bash /domus/h1/richel/dardel_transfer_script.sh
+[sven@rackham1 ~]$ bash /domus/h1/sven/dardel_transfer_script.sh
 ssh: connect to host dardel.pdc.kth.se port 22: No route to host
 rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.2]

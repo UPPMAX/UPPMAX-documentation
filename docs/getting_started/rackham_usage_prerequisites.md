@@ -66,8 +66,8 @@ Note that the 'Accounts' tab can be useful to verify your username.
     ![An example of a SUPR 'Accounts' tab](./img/supr_accounts.png)
 
     > An example of a SUPR 'Accounts' tab.
-    > The example user has username `richel-sens2023598`,
-    > which means his/her UPPMAX username is `richel`
+    > The example user has username `sven-sens2023598`,
+    > which means his/her UPPMAX username is `sven`
 
 You can become a member of an active SNIC SENS by:
 

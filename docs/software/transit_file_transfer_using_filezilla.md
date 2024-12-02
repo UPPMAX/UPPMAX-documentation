@@ -67,13 +67,13 @@ For that site, use all standards, except:
 
 - Set protocol to 'SFTP - SSH File Transfer Protocol'
 - Set host to `transit.uppmax.uu.se`
-- Set user to `[username]`, e.g. `richel`
+- Set user to `[username]`, e.g. `sven`
 
 ???- tip "How does that look like?"
 
     It looks similar to this:
 
-    ![Setup the site done](../software/img/filezilla_setup_transit_richel.png)
+    ![Setup the site done](../software/img/filezilla_setup_transit_sven.png)
 
 ### 7. Click 'Connect'
 
@@ -130,4 +130,4 @@ To transfer files to/from Transit using WinSCP, do:
 - For that site, use all standards, except:
     - Set file protocol to 'SFTP'
     - Set host name to `transit.uppmax.uu.se`
-    - Set user name to `[username]`, e.g. `richel`
+    - Set user name to `[username]`, e.g. `sven`

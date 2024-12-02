@@ -20,7 +20,7 @@ It can be made to work (by using [transit](../cluster_guides/transit.md)), as de
 
 
     ```console
-    sven@richel-N141CU:~$ rsync my_local_file.txt richel-sens2016001@bianca-sftp.uppmax.uu.se:/richel-sens2016001
+    sven@sven-N141CU:~$ rsync my_local_file.txt sven-sens2016001@bianca-sftp.uppmax.uu.se:/sven-sens2016001
 
     Hi!
 
@@ -41,7 +41,7 @@ It can be made to work (by using [transit](../cluster_guides/transit.md)), as de
     Best regards,
     UPPMAX
 
-    richel-sens2016001@bianca-sftp.uppmax.uu.se's password:
+    sven-sens2016001@bianca-sftp.uppmax.uu.se's password:
     protocol version mismatch -- is your shell clean?
     (see the rsync manpage for an explanation)
     rsync error: protocol incompatibility (code 2) at compat.c(622) [sender=3.2.7]

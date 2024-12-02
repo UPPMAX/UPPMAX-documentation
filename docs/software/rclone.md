@@ -67,7 +67,7 @@ rclone config file
 
     ```console
     Configuration file doesn't exist, but rclone will use this path:
-    /home/richel/.config/rclone/rclone.conf
+    /home/sven/.config/rclone/rclone.conf
     ```
 
 ## Using the Rclone web interface
@@ -86,9 +86,9 @@ rclone rcd --rc-web-gui
     Here is some example output:
 
     ```console
-    2024/04/02 08:31:59 ERROR : Error reading tag file at /home/richel/.cache/rclone/webgui/tag
+    2024/04/02 08:31:59 ERROR : Error reading tag file at /home/sven/.cache/rclone/webgui/tag
     2024/04/02 08:31:59 NOTICE: A new release for gui (v2.0.5) is present at https://github.com/rclone/rclone-webui-react/releases/download/v2.0.5/currentbuild.zip
-    2024/04/02 08:31:59 NOTICE: Downloading webgui binary. Please wait. [Size: 4763452, Path :  /home/richel/.cache/rclone/webgui/v2.0.5.zip]
+    2024/04/02 08:31:59 NOTICE: Downloading webgui binary. Please wait. [Size: 4763452, Path :  /home/sven/.cache/rclone/webgui/v2.0.5.zip]
     2024/04/02 08:32:00 NOTICE: Unzipping webgui binary
     2024/04/02 08:32:01 NOTICE: Serving Web GUI
     2024/04/02 08:32:01 NOTICE: Serving remote control on http://localhost:5572/

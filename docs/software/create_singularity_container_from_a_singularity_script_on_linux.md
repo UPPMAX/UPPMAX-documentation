@@ -57,7 +57,7 @@ Which will build a Singularity container called `my_container.sif`.
     You output will be similar to this:
 
     ```bash
-    sven@richel-N141CU:~/temp$ sudo singularity build my_container.sif Singularity 
+    sven@sven-N141CU:~/temp$ sudo singularity build my_container.sif Singularity 
     INFO:    Starting build...
     INFO:    Fetching OCI image...
     307.6MiB / 307.6MiB [================================================================================================================================================] 100 % 0.0 b/s 0s

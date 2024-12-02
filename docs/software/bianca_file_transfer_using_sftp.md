@@ -65,7 +65,7 @@ and the `sftp` prompt.
     Best regards,
     UPPMAX
 
-    richel-sens2016001@bianca-sftp.uppmax.uu.se's password:
+    sven-sens2016001@bianca-sftp.uppmax.uu.se's password:
     Connected to bianca-sftp.uppmax.uu.se.
     sftp>
     ```

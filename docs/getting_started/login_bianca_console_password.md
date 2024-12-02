@@ -50,7 +50,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 ???- question "How does this look like (when inside of SUNET)?"
 
     ```bash
-    ssh richel-sens2023598@bianca.uppmax.uu.se
+    ssh sven-sens2023598@bianca.uppmax.uu.se
     ```
 
     After which a password will be asked. Go to the next step.
@@ -58,7 +58,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 ???- question "How does it look like when outside of SUNET?"
 
     ```bash
-    $ ssh richel-sens2023598@bianca.uppmax.uu.se
+    $ ssh sven-sens2023598@bianca.uppmax.uu.se
     ```
 
     After which there is only waiting...
@@ -100,8 +100,8 @@ is the 2FA number.
 ???- question "How does this look like?"
 
     ```bash
-    sven@richel-N141CU:~/GitHubs/UPPMAX-documentation/docs/getting_started$ ssh richel-sens2023598@bianca.uppmax.uu.se
-    richel-sens2023598@bianca.uppmax.uu.se's password: 
+    sven@sven-N141CU:~/GitHubs/UPPMAX-documentation/docs/getting_started$ ssh sven-sens2023598@bianca.uppmax.uu.se
+    sven-sens2023598@bianca.uppmax.uu.se's password: 
     ```
 
    After which you'll asked for another password. Go to the next step.
@@ -170,7 +170,7 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
     ```bash
      _   _ ____  ____  __  __    _    __  __
     | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    sens2023598-bianca
-    | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      richel
+    | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      sven
     | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
      \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
 

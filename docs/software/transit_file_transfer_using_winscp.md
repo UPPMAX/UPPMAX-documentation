@@ -33,4 +33,4 @@ To transfer files to/from Transit using WinSCP, do:
 - For that site, use all standards, except:
     - Set file protocol to 'SFTP'
     - Set host name to `transit.uppmax.uu.se`
-    - Set user name to `[username]`, e.g. `richel`
+    - Set user name to `[username]`, e.g. `sven`

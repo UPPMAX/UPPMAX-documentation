@@ -101,7 +101,7 @@ You will get a PDC account overnight.
     ![PDC login portal with username and key](./img/pdc_login_portal_with_username_and_key.png)
 
     > Example screenshot of the PDC login portal.
-    > The Dardel username of this user is `richelbi`
+    > The Dardel username of this user is `svenbi`
 
 ### 3. Create SSH key pair
 

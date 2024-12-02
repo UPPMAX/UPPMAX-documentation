@@ -65,13 +65,13 @@ In FileZilla's site manager:
 - for that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `rackham.uppmax.uu.se`
-    - Set user to `[username]`, e.g. `richel`
+    - Set user to `[username]`, e.g. `sven`
 
 ???- tip "How does that look like?"
 
     It looks similar to this:
 
-    ![FileZilla configured for Rackham](./img/filezilla_setup_rackham_richel.png)
+    ![FileZilla configured for Rackham](./img/filezilla_setup_rackham_sven.png)
 
 ### 5. Connect to the site
 

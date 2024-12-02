@@ -106,7 +106,7 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     Your output will be similar to:
 
     ```bash
-    [sven@r210 richel]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
+    [sven@r210 sven]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
     R/4.3.1: Nearly all CRAN and BioConductor packages are installed and available by loading
     the module R_packages/4.3.1 
     R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might
@@ -133,9 +133,9 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     Here is how it looks like:
 
     ```bash
-    [sven@r482 richel]$ module load RStudio/2023.06.2-561
+    [sven@r482 sven]$ module load RStudio/2023.06.2-561
     RStudio/2023.06.2-561: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.06.2-561' for more information
-    [sven@r482 richel]$ module help RStudio/2023.06.2-561
+    [sven@r482 sven]$ module help RStudio/2023.06.2-561
 
     --------------------------------------------------- Module Specific Help for "RStudio/2023.06.2-561" ----------------------------------------------------
      RStudio - use RStudio 2023.06.2-561

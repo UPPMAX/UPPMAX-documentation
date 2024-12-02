@@ -25,7 +25,7 @@ Using RStudio differs per UPPMAX cluster:
 
 
     ```bash
-    [sven@r210 richel]$ module spider Rstudio
+    [sven@r210 sven]$ module spider Rstudio
 
     ----------------------------------------------------------------------------
       RStudio:

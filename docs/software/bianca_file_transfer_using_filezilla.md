@@ -70,7 +70,7 @@ In the 'New Site' dialog, use all standards, except:
 
 - Set protocol to 'SFTP - SSH File Transfer Protocol'
 - Set host to `bianca-sftp.uppmax.uu.se`
-- Set user to `[username]-[project]`, e.g. `richel-sens123456`
+- Set user to `[username]-[project]`, e.g. `sven-sens123456`
 
 ???- tip "How does that look like?"
 
@@ -78,7 +78,7 @@ In the 'New Site' dialog, use all standards, except:
 
     ![FileZilla settings for a user](./img/filezilla_setup_bianca_pavlin.png)
 
-    ![FileZilla settings for another user](./img/filezilla_setup_bianca_richel.png)
+    ![FileZilla settings for another user](./img/filezilla_setup_bianca_sven.png)
 
 !!! tip "Storing a password is useless"
 
