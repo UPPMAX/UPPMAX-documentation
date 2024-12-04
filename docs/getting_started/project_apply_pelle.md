@@ -1,7 +1,15 @@
+---
+tags:
+  - project
+  - apply
+  - application
+  - Pelle
+---
+
 # Project application for Pelle
 
 To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).
-This page describes how to apply to a Pelle project.
+This page describes how to apply to a [Pelle](../docs/cluster_guides/pelle.md) project.
 
 ## Procedure
 

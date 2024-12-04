@@ -1,3 +1,11 @@
+---
+tags:
+  - Rackham
+  - File transfer
+  - Graphical tool
+  - Visual tool
+---
+
 # File transfer to/from Rackham using a graphical tool
 
 Data transfer to/from Rackham using a graphical tool

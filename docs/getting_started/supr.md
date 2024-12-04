@@ -1,3 +1,8 @@
+---
+tags:
+  - SUPR
+---
+
 # SUPR
 
 ???- info "For staff only"

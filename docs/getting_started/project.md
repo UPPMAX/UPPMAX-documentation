@@ -1,3 +1,9 @@
+---
+tags:
+  - project
+  - UPPMAX
+---
+
 # UPPMAX project
 
 To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:

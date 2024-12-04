@@ -1,3 +1,11 @@
+---
+tags:
+  - project
+  - apply
+  - application
+  - SIMPLER
+---
+
 # SIMPLER project application
 
 !!! info "SIMPLER is an abbreviation"

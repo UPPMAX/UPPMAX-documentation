@@ -1,3 +1,11 @@
+---
+tags:
+  - project
+  - apply
+  - application
+  - Bianca
+---
+
 # Project application for Bianca
 
 To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).

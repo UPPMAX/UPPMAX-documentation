@@ -1,3 +1,11 @@
+---
+tags:
+  - Rackham
+  - file
+  - transfer
+  - data
+---
+
 # File transfer to/from Rackham
 
 There are multiple ways to transfer files to/from Rackham:
