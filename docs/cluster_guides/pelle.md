@@ -7,6 +7,12 @@ tags:
 
 # Pelle
 
+![Image of Pelle](./img/pelle.jpg)
+
+???- question "Why such a bad image?"
+
+    Copyright. This is the only image that has a Creative Commons license.
+
 Pelle is an upcoming general-purpose UPPMAX cluster,
 paid by Uppsala University.
 
