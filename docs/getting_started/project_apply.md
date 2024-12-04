@@ -1,19 +1,5 @@
 # Project application
 
-<!--
-
-I, Richel, commented out this text, as it:
-
-- 1. does not work, as reported in https://github.com/UPPMAX/UPPMAX-documentation/issues/117
-- 2. it breaks the Markdown lint check
-- 3. seems experimental
-
-??? t2s "Text to speech"
-
-    <audio src="project_apply.mp3" controls preload></audio>
-
--->
-
 To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
 
 - [an active research project](project.md)
