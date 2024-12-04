@@ -17,6 +17,7 @@ template: home.html
 <br/>
 
 [Get support](support.md){ .md-button .md-button--primary }
+[Give anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link){ .md-button .md-button--primary }
 
 [Apply for a project](getting_started/project_apply.md){ .md-button .md-button--primary }
 
