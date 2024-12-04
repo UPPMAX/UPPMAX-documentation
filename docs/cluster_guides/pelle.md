@@ -22,7 +22,7 @@ Uppsala users of [Rackham](rackham.md) will be moved to Pelle
 by UPPMAX after [applying to a Pelle project](../getting_started/project_apply_pelle.md).
 
 Non-Uppsala users of [Rackham](rackham.md) can move their data to
-Dardel, see [the Rackham to Dardel migration guide](../getting_started/dardel_migration.md).
+Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_migration.md).
 
 ## [How to apply to a Pelle project](../getting_started/project_apply_pelle.md)
 
