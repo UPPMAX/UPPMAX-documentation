@@ -13,6 +13,10 @@ This page describes how to apply to a [Pelle](../cluster_guides/pelle.md) projec
 
 ## Procedure
 
+???- question "Prefer a video?"
+
+    See [the YouTube video 'Apply for an UPPMAX Pelle project'](https://youtu.be/3VOAhPe0Rcg)
+
 ### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
 
 ![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
