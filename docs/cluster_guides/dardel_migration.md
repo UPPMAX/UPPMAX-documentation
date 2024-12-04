@@ -127,7 +127,8 @@ this can take some hours.
 ### 2. Get a PDC account via SUPR
 
 Get a PDC account via SUPR.
-This is described at [the PDC page on how to apply for a SUPR account](https://www.pdc.kth.se/support/documents/getting_access/get_access.html#apply-via-a-supr-account).
+This is described at 
+[the PDC page on how to apply for a SUPR account](https://support.pdc.kth.se/doc/support/?section=/doc/support-docs/getting_access/get_access#applying-for-an-account).
 You will get a PDC account overnight.
 
 ???- question "How do I know I have a PDC account?"
@@ -801,7 +802,8 @@ to see your project's disk usage on Rackham.
     naiss2024-22-49    /proj/introtouppmax      files       20290       100000            
     ```
 
-For PDC, read [their documentation here](https://www.kth.se/2.79567/support/documents/data_management/klemming.html#projects).
+For PDC, read [their documentation here](https://support.pdc.kth.se/doc/support/):
+you will need to search for 'Klemming data management'.
 
 ### 9. Delete the SSH key
 
