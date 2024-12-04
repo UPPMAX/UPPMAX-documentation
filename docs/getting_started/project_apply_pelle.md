@@ -43,7 +43,7 @@ In the 'Compute Rounds' menu, click on 'Go to Centre Local Compute'
 
 > In the 'Compute Rounds' menu, click on 'Go to Centre Local Compute'
 
-### 5. Click on 'Go to Centre Local Compute'
+### 5. Click on 'Go to UPPMAX Local'
 
 In the 'Centre Local Compute Rounds' menu, click on 'Go to UPPMAX Local'
 
