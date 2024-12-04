@@ -61,7 +61,7 @@ In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on
 
 You have just created an UPPMAX local compute project!
 
-![An UPPMAX local compute project](supr_uppmax_local_project_start.png)
+![An UPPMAX local compute project](./img/supr_uppmax_local_project_start.png)
 
 > An UPPMAX local compute project
 
