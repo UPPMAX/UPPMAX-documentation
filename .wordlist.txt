@@ -871,3 +871,6 @@ tidycmprsk
 authenticator
 ies
 ReadTheDocs
+Klemming
+Svanslös
+
