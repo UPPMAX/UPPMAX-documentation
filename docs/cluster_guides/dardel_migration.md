@@ -127,7 +127,7 @@ this can take some hours.
 ### 2. Get a PDC account via SUPR
 
 Get a PDC account via SUPR.
-This is described at 
+This is described at
 [the PDC page on how to apply for a SUPR account](https://support.pdc.kth.se/doc/support/?section=/doc/support-docs/getting_access/get_access#applying-for-an-account).
 You will get a PDC account overnight.
 
