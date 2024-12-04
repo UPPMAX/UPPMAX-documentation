@@ -7,7 +7,7 @@ It is not installed as a module.
 
 ???- tip "User tickets (for UPPMAX staff)"
 
-    [ticket_287014](https://github.com/svenbilderbeek/ticket_287014)
+    [ticket_287014](https://github.com/richelbilderbeek/ticket_287014)
 
 ## Links
 

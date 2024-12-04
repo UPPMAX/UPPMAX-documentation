@@ -33,7 +33,7 @@ geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG'
     - [wrf-python](https://wrf-python.readthedocs.io/en/latest/),
     - [Vapor](https://www.vapor.ucar.edu/) or
     - [NCL](https://www.ncl.ucar.edu/Document/Pivot_to_Python/september_2019_update.shtml)
-        - is not updated anymore and the developers recommend [GeoCAT](https://geocat.ucar.edu/) which serves as an umbrella over wrf-python, among others.
+        - is not updated anymore and the developers recommend [GeoCAT](https://github.com/NCAR/GeoCAT) which serves as an umbrella over wrf-python, among others.
 
 ## Get started
 

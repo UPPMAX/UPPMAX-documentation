@@ -24,7 +24,7 @@ import tkinter
 
 ## History
 
-In January 2024, there was a [Tkinter UPPMAX ticket](https://github.com/svenbilderbeek/ticket_286232).
+In January 2024, there was a [Tkinter UPPMAX ticket](https://github.com/richelbilderbeek/ticket_286232).
 and documentation how to load `tkinter`.
 
 At that time, doing:
