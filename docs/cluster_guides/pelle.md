@@ -7,11 +7,13 @@ tags:
 
 # Pelle
 
-![Image of Pelle](./img/pelle.jpg)
+![Image of Pelle Svanslös, from https://www.comics.org/issue/105368/cover/4](./img/pelle.jpg)
+
 
 ???- question "Why such a bad image?"
 
-    Copyright. This is the only image that has a Creative Commons license.
+    Copyright. This is one of the few images that shows Pelle Svanslös
+    with a Creative Commons license.
 
 Pelle is an upcoming general-purpose UPPMAX cluster,
 paid by Uppsala University.
