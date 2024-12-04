@@ -82,11 +82,11 @@ Click on 'Add resource to proposal' to add Pelle as a resource:
 
 ### 9. Click on 'Create new proposal'
 
-In the 'Add resource Pelle' menu, set the number of core hourse and click 'Add resource'.
+In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
 
-![In the 'Add resource Pelle' menu, set the number of core hourse and click 'Add resource'](./img/supr_add_resource_pelle_add.png)
+![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/supr_add_resource_pelle_add.png)
 
-> In the 'Add resource Pelle' menu, set the number of core hourse and click 'Add resource'
+> In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
 
 ### 10. Done
 
