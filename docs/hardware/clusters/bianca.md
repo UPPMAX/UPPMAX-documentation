@@ -1,3 +1,11 @@
+---
+tags:
+  - Bianca
+  - hardware
+  - specifications
+  - specs
+---
+
 # Bianca hardware
 
 ## CPU
