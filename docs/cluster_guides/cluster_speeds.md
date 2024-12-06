@@ -31,10 +31,19 @@ cluster is slower than expected.
       or a user that is running a lot of very short lived Perl jobs on Bianca,
       that are running too hard on Castor.
 
-## `time module load R_packages/4.3.1`
+## Loading the `R_packages/4.3.1` module
 
-Here are some expected timings for
-[a benchmark to solve a ticket](https://github.com/UPPMAX/ticket_304069/blob/master/module_load.md#answers):
+
+For [a benchmark to solve a ticket](https://github.com/UPPMAX/ticket_304069/blob/master/module_load.md#answers),
+the following command was run in multiple settings:
+
+```bash
+time module load R_packages/4.3.1
+```
+
+From the three resulting times, the 'Real' time is used.
+
+Here are some expected timings:
 
 Project    |Setting                     |Real loading time
 -----------|----------------------------|-----------------
@@ -49,5 +58,4 @@ sens2023598|Website                     |6m20.234s
 sens2017625|SSH                         |6m4.584s
 sens2017625|Website, interactive session|7m41.433s
 sens2017625|SSH, interactive session    |7m13.111s
-
 
