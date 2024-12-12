@@ -283,7 +283,7 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
     To load the Whisper module, run the following command:
 
     ```console
-    [jayan@sens2024544-bianca jayan]$ module load Whisper/0.5.1
+    [jayan@sens2024544-bianca jayan]$ module load Whisper
     ```
 
     This will also load the necessary dependencies, including `python`
@@ -292,8 +292,7 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
     ```console
     [jayan@sens2024544-bianca jayan]$ module list
     Currently Loaded Modules:
-      1) uppmax       3) mp-tools/latest   5) FFmpeg/5.1.2
-      2) git/2.34.1   4) python/3.11.4     6) Whisper/0.5.1
+    1) uppmax   2) python/3.11.4   3) FFmpeg/5.1.2   4) Whisper/20240930
     ```  
 
     ### Command-line
@@ -303,6 +302,9 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
     ```console
     [jayan@sens2024544-bianca jayan]$ whisper audio.flac audio.mp3 audio.wav --model medium
     ```
+
+    For more ways to run whisper, for example on cpu node or do translations, check the correct flags by doing : `whisper --help`
+    You can also check the source code with arguments [here on the official GitHub repository](https://github.com/openai/whisper/blob/90db0de1896c23cbfaf0c58bc2d30665f709f170/whisper/transcribe.py#L528).
 
     ### Python
 
