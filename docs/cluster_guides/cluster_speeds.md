@@ -48,6 +48,7 @@ Here are some expected timings:
 Project    |Setting                     |Real loading time
 -----------|----------------------------|-----------------
 Rackham    |SSH                         |0m0.758s
+Bianca     |SSH                         |0m8.984s
 
 Here are some unexpected timings:
 
