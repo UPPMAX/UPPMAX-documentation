@@ -40,8 +40,13 @@ cluster is slower than expected.
 
     Bianca used around 800 out of around 3200 cores.
 
-    ![Bianca sytem usage at 2024-12-18](bianca_system_usage_20241218.png)
+    ![Bianca sytem usage at 2024-12-18](./img/bianca_system_usage_20241218.png)
 
+???- question "What was the project CPU usage at the time of these measurements?"
+
+    CPU usage was close to zero:
+
+    ![CPU usage at 2024-12-18](./img/cpu_usage_sens2017625.png)
 
 Attempt|You waited for `x` seconds|Complete time (secs)
 -------|--------------------------|--------------------
@@ -57,7 +62,13 @@ Attempt|You waited for `x` seconds|Complete time (secs)
 
     Bianca used around 800 out of around 3200 cores.
 
-    ![Bianca sytem usage at 2024-12-18](bianca_system_usage_20241218.png)
+    ![Bianca sytem usage at 2024-12-18](./img/bianca_system_usage_20241218.png)
+
+???- question "What was the project CPU usage at the time of these measurements?"
+
+    CPU usage was close to zero:
+
+    ![CPU usage at 2024-12-18](./img/cpu_usage_sens2017625.png)
 
 Attempt|You waited for `x` seconds|Complete time (secs)
 -------|--------------------------|--------------------
@@ -66,6 +77,51 @@ Attempt|You waited for `x` seconds|Complete time (secs)
 3      |1                         |34
 4      |1                         |37
 5      |1                         |35
+
+
+### `interactive -A sens2023036 -n 2 -t 1:00:00`
+
+???- question "What was the system usage at the time of these measurements?"
+
+    Bianca used around 800 out of around 3200 cores.
+
+    ![Bianca sytem usage at 2024-12-18](./img/bianca_system_usage_20241218.png)
+
+???- question "What was the project CPU usage at the time of these measurements?"
+
+    CPU usage was close to zero:
+
+    ![CPU usage at 2024-12-18](./img/cpu_usage_sens2023036.png)
+
+Attempt|You waited for `x` seconds|Complete time (secs)
+-------|--------------------------|--------------------
+1      |More than 60*60*2 (i.e. 2 hours) |Interrupted
+2      |.                         |.
+3      |.                         |.
+4      |.                         |.
+5      |.                         |.
+
+### `interactive -A sens2023036 --partition devcore -n 2 -t 1:00:00`
+
+???- question "What was the system usage at the time of these measurements?"
+
+    Bianca used around 800 out of around 3200 cores.
+
+    ![Bianca sytem usage at 2024-12-18](./img/bianca_system_usage_20241218.png)
+
+???- question "What was the project CPU usage at the time of these measurements?"
+
+    CPU usage was close to zero:
+
+    ![CPU usage at 2024-12-18](./img/cpu_usage_sens2023036.png)
+
+Attempt|You waited for `x` seconds|Complete time (secs)
+-------|--------------------------|--------------------
+1      |More than 60*60*2 (i.e. 2 hours) |Interrupted
+2      |.                         |.
+3      |.                         |.
+4      |.                         |.
+5      |.                         |.
 
 ## Loading the `R_packages/4.3.1` module
 
