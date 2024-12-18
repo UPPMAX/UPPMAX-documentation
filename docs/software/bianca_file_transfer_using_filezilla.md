@@ -96,6 +96,9 @@ type `[your password][2FA code]`, e.g. `VerySecret123456`.
 
 Now you can transfer files between your local computer and [your `wharf` folder](../cluster_guides/wharf.md).
 
+NOTE: Filezilla will ask for your password and two-factor for each file you transfer. To avoid that, go to
+Site Manager > Transfer Settings > Limit number of simultaneous connections to 1.
+
 ???- tip "How does that look like?"
 
     It looks like this:
