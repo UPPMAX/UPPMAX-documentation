@@ -31,8 +31,30 @@ cluster is slower than expected.
       or a user that is running a lot of very short lived Perl jobs on Bianca,
       that are running too hard on Castor.
 
-## Loading the `R_packages/4.3.1` module
+## Starting an interactive node
 
+
+### `interactive -A sens2017625 -n 2 -t 1:00:00`
+
+Attempt|You waited for `x` seconds|Complete time (secs)
+-------|--------------------------|--------------------
+1      |1                         |37
+2      |2                         |35
+3      |1                         |37
+4      |1                         |34
+5      |1                         |36
+
+### `interactive -A sens2017625 --partition devcore -n 2 -t 1:00:00`
+
+Attempt|You waited for `x` seconds|Complete time (secs)
+-------|--------------------------|--------------------
+1      |1                         |37
+2      |1                         |34
+3      |1                         |34
+4      |1                         |37
+5      |1                         |35
+
+## Loading the `R_packages/4.3.1` module
 
 For [a benchmark to solve a ticket](https://github.com/UPPMAX/ticket_304069/blob/master/module_load.md#answers),
 the following command was run in multiple settings:
@@ -59,4 +81,12 @@ sens2023598|Website                     |6m20.234s
 sens2017625|SSH                         |6m4.584s
 sens2017625|Website, interactive session|7m41.433s
 sens2017625|SSH, interactive session    |7m13.111s
+
+
+## Loading the `RStudio/2023.12.1-402` module
+
+Project    |Setting                     |Real loading time
+-----------|----------------------------|-----------------
+Bianca     |Website                     |2m3.184s
+
 
