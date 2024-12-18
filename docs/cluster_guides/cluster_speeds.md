@@ -36,6 +36,13 @@ cluster is slower than expected.
 
 ### `interactive -A sens2017625 -n 2 -t 1:00:00`
 
+???- question "What was the system usage at the time of these measurements?"
+
+    Bianca used around 800 out of around 3200 cores.
+
+    ![Bianca sytem usage at 2024-12-18](bianca_system_usage_20241218.png)
+
+
 Attempt|You waited for `x` seconds|Complete time (secs)
 -------|--------------------------|--------------------
 1      |1                         |37
@@ -45,6 +52,12 @@ Attempt|You waited for `x` seconds|Complete time (secs)
 5      |1                         |36
 
 ### `interactive -A sens2017625 --partition devcore -n 2 -t 1:00:00`
+
+???- question "What was the system usage at the time of these measurements?"
+
+    Bianca used around 800 out of around 3200 cores.
+
+    ![Bianca sytem usage at 2024-12-18](bianca_system_usage_20241218.png)
 
 Attempt|You waited for `x` seconds|Complete time (secs)
 -------|--------------------------|--------------------
