@@ -33,6 +33,10 @@ cluster is slower than expected.
 
 ## Starting an interactive node
 
+In general:
+
+- It takes seconds if a free compute node is available
+- It takes minutes to start a new node
 
 ### `interactive -A sens2017625 -n 2 -t 1:00:00`
 
