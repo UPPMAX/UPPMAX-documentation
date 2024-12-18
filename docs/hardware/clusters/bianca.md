@@ -21,20 +21,20 @@ tags:
 
 ## Parameters
 
-Parameter               |Bianca                             
+Parameter               |Bianca
 ------------------------|-----------------------------------
-**Purpose**             |Sensitive data                     
-**Reserved for**        |NAISS-SENS projects                
-**Nodes (Intel)**       |272 + 4 nodes á 2 NVIDIA A100 GPUs 
-**Cores per node**      |16/64                              
-**Memory per node**     |128GB                              
-**Fat nodes**           |256 & 512GB                       
-**Local disk (scratch)**|4TB                               
-**Network**             |Dual 10Gbit/s                     
-**Operating System**    |CentOS 7                          
-**Login nodes**         |Yes (2 cores and 15 GB)            
-**"Home" storage**      |Castor                             
-**"Project" Storage**   |Castor                             
+**Purpose**             |Sensitive data
+**Reserved for**        |NAISS-SENS projects
+**Nodes (Intel)**       |272 + 4 nodes á 2 NVIDIA A100 GPUs
+**Cores per node**      |16/64
+**Memory per node**     |128GB
+**Fat nodes**           |256 & 512GB
+**Local disk (scratch)**|4TB
+**Network**             |Dual 10Gbit/s
+**Operating System**    |CentOS 7
+**Login nodes**         |Yes (2 cores and 15 GB)
+**"Home" storage**      |Castor
+**"Project" Storage**   |Castor
 
 ## CPU
 

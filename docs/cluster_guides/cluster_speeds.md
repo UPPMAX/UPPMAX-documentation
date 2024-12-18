@@ -89,4 +89,3 @@ Project    |Setting                     |Real loading time
 -----------|----------------------------|-----------------
 Bianca     |Website                     |2m3.184s
 
-

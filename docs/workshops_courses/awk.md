@@ -1,4 +1,5 @@
 # Awk workshop
+
 AWK is an interpreted programming language designed for text processing and typically used as a data extraction and reporting tool.
 
 This two-days workshop aims to promote and demonstrate the flexibility of the tool, where the overhead of more sophisticated approaches and programming languages is not worth the bother.
@@ -10,6 +11,7 @@ This two-days workshop aims to promote and demonstrate the flexibility of the to
 - handle and take advantage on data split over multiple file data sets.
 - use Awk as simple function or data generator
 - perform simple sanity checks on your results
+
 ## Awk for bioinformaticians
 
 Use what you learn and dive into the basic concepts of bioinformatics with simple exercises on typical scientific problems and tasks.
@@ -22,43 +24,50 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
 
 ## Schedule
+
 ---
+
 ### 1-st day 9:15 - 12:00
+
 [Seminar session](https://pmitev.github.io/to-awk-or-not/)
 
-  - Examples of typical problems suitable for Awk “treatment”
-  - Introduction to the basics of Awk scripting language
-  - Solving interactively simple problems
+- Examples of typical problems suitable for Awk “treatment”
+- Introduction to the basics of Awk scripting language
+- Solving interactively simple problems
 
 **Lunch break**  
 [Exercises](https://pmitev.github.io/to-awk-or-not/Exercises/Exercises/) 13:15 -16:00
 
-  - Solving interactively the exercise problems
+- Solving interactively the exercise problems
 
 ### 2-nd day 9:15 - 12:00
-  - Awk for bioinformaticians - seminar
-  - Case Study: [Manipulating the output from a genome analysis - vcf and gff](https://pmitev.github.io/to-awk-or-not/Case_studies/manipulating_vcf/)
-  - Filtering and formatting raw data
-  - Counting and piling features
-  - Indexing and hashing to compare variants and annotations
+
+- Awk for bioinformaticians - seminar
+- Case Study: [Manipulating the output from a genome analysis - vcf and gff](https://pmitev.github.io/to-awk-or-not/Case_studies/manipulating_vcf/)
+- Filtering and formatting raw data
+- Counting and piling features
+- Indexing and hashing to compare variants and annotations
 
 **Lunch break**
 
 Walk-through session on various topics:
 
-  - Awk parsing “simultaneously” multiple input files
-  - Multiple input files - second approach scenario will be discussed.
-  - How to trick awk to accept options on the command line like regular program i.e. `$ script.awk filename parameter1 parameter2` [link](https://pmitev.github.io/to-awk-or-not/More_awk/Command_params/)
-  - Declaring and calling functions in awk - [link](https://pmitev.github.io/to-awk-or-not/More_awk/User_defined_functions/)
-  - Input/output to/from an external programs
-  - Learn how to send input to an external program (might be based on your data) and read the result back - [link](https://pmitev.github.io/to-awk-or-not/More_awk/Input_output/)
-  - Handy tips: awk oneliners use with Vim, gnuplot…
+- Awk parsing “simultaneously” multiple input files
+- Multiple input files - second approach scenario will be discussed.
+- How to trick awk to accept options on the command line like regular program i.e. `$ script.awk filename parameter1 parameter2` [link](https://pmitev.github.io/to-awk-or-not/More_awk/Command_params/)
+- Declaring and calling functions in awk - [link](https://pmitev.github.io/to-awk-or-not/More_awk/User_defined_functions/)
+- Input/output to/from an external programs
+- Learn how to send input to an external program (might be based on your data) and read the result back - [link](https://pmitev.github.io/to-awk-or-not/More_awk/Input_output/)
+- Handy tips: awk oneliners use with Vim, gnuplot…
 
 Also: [Suggest topic](https://forms.gle/usYYkbWaZVkNceSK6) for discussion or see recently [suggested topics](https://docs.google.com/forms/d/1tQYWc504BQ-uYRA7MWgu1pNXM613r4Ua1wP_yBPlNDM/viewanalytics).
 
 ## Prerequisites
+
 ---
+
 ### MacOS
+
 The system provided awk version will work for most of the examples during the workshop with few exceptions, which are noted in the online material.
 
 _Tilda `~` sign on Mac with Swedish keyboard layout - Alt + ^_
@@ -102,7 +111,8 @@ Just follow some tutorial on how to setup and use the virtual Linux environment.
     - [2015.10](https://docs.google.com/forms/d/1KSab3x3IlXdgtTScXPfHbFR81FrEpZ8j__hOgV8P5wU/viewanalytics)
 
 
-## Contacts for the course:
+## Contacts for the course
+
 ---
 [Pavlin Mitev](https://katalog.uu.se/profile/?id=N3-1425)  
 [Jonas Söderberg](https://katalog.uu.se/empinfo/?id=N2-1277)  
