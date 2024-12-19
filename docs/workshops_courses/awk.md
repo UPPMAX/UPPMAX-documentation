@@ -20,7 +20,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
     **Date**: 16 and 17 January, 2025  
     **Time**: 9:15 - 12:00 and 13:15 -16:00  
-    **Location**: Zoom: link wil be sent to applicants  
+    **Location**: Zoom: link will be sent to applicants  
     **Application**: [form](https://forms.gle/Hz1mQJSiA6ewfLqz8).  
 
 
