@@ -14,6 +14,9 @@
       "pattern": "^https://docs.swestore.se/using/rclone/$"
     },
     {
+      "pattern": "^https://sylabs.io/$"
+    },
+    {
       "pattern": "^https://docs.sylabs.io/guides/2.6/user-guide/container_recipes.html$"
     },
     {
