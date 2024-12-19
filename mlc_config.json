@@ -23,6 +23,9 @@
       "pattern": "^http://hostname:8888$"
     },
     {
+      "pattern": "^https://www.putty.org/$"
+    },
+    {
       "pattern": "^https://supr.naiss.se/$"
     },
     {
