@@ -16,7 +16,6 @@ Using RStudio differs per UPPMAX cluster:
 - [RStudio on Bianca](../software/rstudio_on_bianca.md)
 - [RStudio on Rackham](../software/rstudio_on_rackham.md)
 
-
 ## RStudio versions
 
 ???- question "Which versions of RStudio are available?"
@@ -51,8 +50,23 @@ RStudio module         |RStudio Builds documentation
 -----------------------|-----------------------
 `RStudio/2023.06.2-561`|[here](https://dailies.rstudio.com/version/2023.06.2+561.pro1/)
 
-
 ## Troubleshooting
+
+### RStudio runs partially
+
+RStudio runs partially:
+
+- File content is displayed just fine
+- The R interpreter does not respond
+- The files pane at the bottom-right is loading forever
+
+![RStudio runs partially](./img/rstudio_inresponsive_interpreter_and_no_files_pane.png)
+
+In one case (see [ticket](https://github.com/UPPMAX/ticket_304069) for details),
+the problem was caused by a process called `-bash` (yes, the first character
+is a dash/minus). Killing it with `kill -s 1 [PID]` (for example,
+`kill -s 1 11723`) and then restarting RStudio solved the
+problem.
 
 ### R encountered a fatal error
 
