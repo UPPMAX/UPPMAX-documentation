@@ -36,7 +36,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 - Introduction to the basics of Awk scripting language
 - Solving interactively simple problems
 
-#### Lunch break
+#### 1-st day lunch break
 
 [Exercises](https://pmitev.github.io/to-awk-or-not/Exercises/Exercises/) 13:15 -16:00
 
@@ -50,7 +50,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 - Counting and piling features
 - Indexing and hashing to compare variants and annotations
 
-#### Lunch break
+#### 2-nd day lunch break
 
 Walk-through session on various topics:
 
