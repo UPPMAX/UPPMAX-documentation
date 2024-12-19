@@ -49,7 +49,7 @@ manual download. It is also possible to install from inside RStudio.
 
 ### setup (first time)
 
-[https://uppmax.github.io/bianca_workshop/extra/rpackages/#setup](https://uppmax.github.io/bianca_workshop/extra/rpackages/#setup)
+[https://uppmax.github.io/bianca_workshops/extra/rpackages/#setup](https://uppmax.github.io/bianca_workshops/extra/rpackages/#setup)
 
 - We need to create a place for the own-installed packages to be and to tell R where to find them. The initial setup only needs to be done once, but separate package directories need to be created for each R version used.
 
@@ -91,7 +91,7 @@ version 4.0.4:
 
 ### Automatic download and install from CRAN
 
-[https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-cran](https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-cran)
+[https://uppmax.github.io/bianca_workshops/extra/rpackages/#automatic-download-and-install-from-cran](https://uppmax.github.io/bianca_workshops/extra/rpackages/#automatic-download-and-install-from-cran)
 
 !!! note
 
@@ -119,7 +119,7 @@ In either case, the dependencies of the package will be downloaded and installed
 
 ### Automatic download and install from GitHub
 
-[https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github](https://uppmax.github.io/bianca_workshop/extra/rpackages/#automatic-download-and-install-from-github)
+[https://uppmax.github.io/bianca_workshops/extra/rpackages/#automatic-download-and-install-from-github](https://uppmax.github.io/bianca_workshops/extra/rpackages/#automatic-download-and-install-from-github)
 
 If you want to install a package that is not on CRAN, but which do have a GitHub page, then there is an automatic way of installing, but you need to
 handle prerequisites yourself by installing those first.  
@@ -141,7 +141,7 @@ This is how you install a package from GitHub, inside R:
 
 ### Manual download and install
 
-[https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install](https://uppmax.github.io/bianca_workshop/extra/rpackages/#manual-download-and-install)
+[https://uppmax.github.io/bianca_workshops/extra/rpackages/#manual-download-and-install](https://uppmax.github.io/bianca_workshops/extra/rpackages/#manual-download-and-install)
 
 If the package is not on CRAN or you want the development version, or you for other reason want to install a package you downloaded, then this is how to install from the command line:
 
