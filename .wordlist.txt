@@ -890,3 +890,8 @@ vCPU
 VirtualBox
 virtualized
 xNVIDIA
+DNS
+lookups
+misconfiguration
+bootstrapotp
+Authy
