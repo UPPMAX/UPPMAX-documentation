@@ -1,6 +1,7 @@
 site_name: UPPMAX Documentation
 
 repo_url: https://github.com/UPPMAX/UPPMAX-documentation
+edit_uri: blob/main/docs/
 
 nav:
   - Home: index.md
