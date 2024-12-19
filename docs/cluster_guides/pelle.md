@@ -34,11 +34,11 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
     New projects with Pelle and Gorilla resources will not be able to use Pelle or Gorilla until the systems are operational. The projects will have those resources represented in SUPR anyway.
 
-    Approved projects will receive a Rackham allocation, in addition to the resources you asked for, which will let you log in and submit jobs to Rackham. 
+    Approved projects will receive a Rackham allocation, in addition to the resources you asked for, which will let you log in and submit jobs to Rackham.
 
-    Access to storage directories on Crex belonging to UU-affiliated projects will not expire, so you will have continued access to data in UU-affiliated projects on Crex until Pelle is ready. Therefore, most approved projects will not receive a Crex allocation. If we can not identify existing storage allocations for you, then we will create a Crex allocation for your storage needs. 
+    Access to storage directories on Crex belonging to UU-affiliated projects will not expire, so you will have continued access to data in UU-affiliated projects on Crex until Pelle is ready. Therefore, most approved projects will not receive a Crex allocation. If we can not identify existing storage allocations for you, then we will create a Crex allocation for your storage needs.
 
-    When Pelle is operational, we will move data from the NAISS projects you’ve mentioned in the proposals to the UPPMAX Local projects for you. Then, we will switch off Rackham and Crex and let you use Pelle and Gorilla. 
+    When Pelle is operational, we will move data from the NAISS projects you’ve mentioned in the proposals to the UPPMAX Local projects for you. Then, we will switch off Rackham and Crex and let you use Pelle and Gorilla.
 
     The “UPPMAX for Education” service on Snowy will, for now, continue as normal. At some point, we will move the GPUs from Snowy to newer hardware. At the same time, we will add Rackham and/or Pelle allocations to projects and shut down Snowy. We will inform you before we do this.
 
