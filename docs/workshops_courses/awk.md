@@ -17,6 +17,7 @@ This two-days workshop aims to promote and demonstrate the flexibility of the to
 Use what you learn and dive into the basic concepts of bioinformatics with simple exercises on typical scientific problems and tasks.
 
 !!! note "Venue and registration:"
+
     **Date**: 16 and 17 January, 2025  
     **Time**: 9:15 - 12:00 and 13:15 -16:00  
     **Location**: Zoom: link wil be sent to applicants  
@@ -35,7 +36,8 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 - Introduction to the basics of Awk scripting language
 - Solving interactively simple problems
 
-**Lunch break**  
+#### Lunch break
+
 [Exercises](https://pmitev.github.io/to-awk-or-not/Exercises/Exercises/) 13:15 -16:00
 
 - Solving interactively the exercise problems
@@ -48,7 +50,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 - Counting and piling features
 - Indexing and hashing to compare variants and annotations
 
-**Lunch break**
+#### Lunch break
 
 Walk-through session on various topics:
 
@@ -99,6 +101,7 @@ Just follow some tutorial on how to setup and use the virtual Linux environment.
 - [Singularity](https://sylabs.io/) `singularity run shub://pmitev/Teoroo-singularity:gawk 'BEGIN{ for(i=1;i<=4;i++) print i}'`
 
 ??? "Feedback from previous workshops"
+
     - [2024.08](https://docs.google.com/forms/d/1GRELoVvXo975c4lQkx9a8k-93mxXe-WqQaZg_Zk5HeA/viewanalytics) | [2024.01](https://docs.google.com/forms/d/1eGzI8FxBlhP6SV8iPQPTfQn7CWJyBf4ZaCmvJ2srxDk/viewanalytics)
     - [2023.09](https://docs.google.com/forms/d/16xCpKhhHqhcQpN-tD7yiFxoIhN3_7fp5-IpsUUOAgxM/viewanalytics) | 2023.01 (not enough data to be anonymous)
     - [2022.09](https://docs.google.com/forms/d/1UUZP97qXq3rwxY7VGJsu1w-4QWfRCzEmO1xZWva-CVM/viewanalytics) | [2022.01](https://docs.google.com/forms/d/1mIboAG1nudj1yPN07-HZbQ6L9ghlZxrCLTFbAMJpARg/viewanalytics)
