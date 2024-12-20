@@ -118,7 +118,8 @@ theme:
   logo: assets/logo_color.png
 
   features:
-    - toc.integrate
+    # - toc.integrate
+    - toc.follow
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
