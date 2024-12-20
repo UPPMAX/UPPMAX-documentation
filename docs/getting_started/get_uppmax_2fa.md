@@ -62,7 +62,7 @@ At the 'Login to SUPR' page, log in, in any way that works for you.
 
 ???- question "How does this look like?"
 
-    ![Login to SUPR page when requesting a 2FA](.img/supr_login_for_2fa.png)
+    ![Login to SUPR page when requesting a 2FA](./img/supr_login_for_2fa.png)
 
 In case you are not logged in already, log in to SUPR.
 
@@ -136,8 +136,6 @@ the 2FA to log in.
 
 
 ## Troubleshooting
-
-Troubleshooting
 
 Some of the common problems we've seen include
 
