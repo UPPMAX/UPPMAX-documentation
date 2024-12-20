@@ -7,25 +7,21 @@ tags:
 
 # Setting up two factor authentication for UPPMAX
 
-## Why
+Two factor authentication (abbreviated to '2FA')
+increases the security of your UPPMAX account
+and is mandatory is multiple contexts.
 
-For security reasons you will have to use a two factor authentication system
-if you are a) connecting to UPPMAX from outside of Sweden, or b) connecting
-from a network within Sweden that does not support forward and reverse DNS
-lookups (due to a misconfiguration in your network, you can ask your
-internet service provider about this). More information about why can be
-found [here](why_2fa.md).
+???- question "Why is this important?"
+
+    See [Why is 2FA important?](why_2fa.md)
+
+This page describes how to set this up.
 
 ## Procedure
 
 ???- question "Prefer a video?"
 
     Watch [the YouTube video 'Get your UPPMAX 2FA'](https://youtu.be/eSn0kLkU5Dc)
-
-
-By requiring a second factor, typically a cell phone or other physical device, it becomes much harder for an attacker to gain access to your account if they somehow have gotten hold of your password (which in this case is the 1:st factor). Instructions to set this up follows below.
-
-Some of the points in the list below are link you can click on for more detailed instructions.
 
 ### 1. Select an app to use
 

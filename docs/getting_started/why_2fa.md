@@ -6,7 +6,19 @@ tags:
   - Why
 ---
 
-# Need two factor authentication from outside of Sweden or with incorrect DNS
+# Why is 2FA important?
+
+By requiring a second factor, typically a cell phone or other physical device,
+it becomes much harder for an attacker to gain access to your account
+if they somehow have gotten hold of your password
+(which in this case is the 1:st factor).
+
+For security reasons you will have to use a two factor authentication system
+if you are a) connecting to UPPMAX from outside of Sweden, or b) connecting
+from a network within Sweden that does not support forward and reverse DNS
+lookups (due to a misconfiguration in your network, you can ask your
+internet service provider about this). More information about why can be
+found below.
 
 ## From outside Sweden
 
