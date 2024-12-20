@@ -48,33 +48,43 @@ In your web browser, go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
 
     ![https://suprintegration.uppmax.uu.se/bootstrapotp](./img/suprintegration_uppmax_uu_se_bootstrapotp.png)
 
-Click on 'Continue'.
+This will take you to the UU 
+page to request a second factor for your UPPMAX account.
 
-### 3. You will be sent to SUPR
+### 3. Click on 'Continue'
 
-You should be sent to
-[SUPR](../getting_started/supr.md).
+At this page, click on 'Continue' to be sent to a 'Login to SUPR' page.
+
+Click on 'Continue' to be sent to a 'Login to SUPR' page.
+
+### 4. Log in to SUPR
+
+At the 'Login to SUPR' page, log in, in any way that works for you.
+
+???- question "How does this look like?"
+
+    ![Login to SUPR page when requesting a 2FA](supr_login_for_2fa.png)
 
 In case you are not logged in already, log in to SUPR.
 
-### 4. Press the button 'Prove My Identity to UPPMAX'
+### 5. Press the button 'Prove My Identity to UPPMAX'
 
 Acknowledge to SUPR that they may tell UPPMAX who you are,
 by pressing the button "Prove My Identity to UPPMAX" on the page.
 
-### 5. Scan the QR-code with your 2FA app
+### 6. Scan the QR-code with your 2FA app
 
 Scan the QR-code with your 2FA app.
 
 More details [here](get_uppmax_2fa_qr.md).
 
-### 6. Enter the code on the webpage
+### 7. Enter the code on the webpage
 
 Your application will show you a code, enter this code on the same webpage.
 
 More details [here](get_uppmax_2fa_qr_code.md).
 
-### 7. See acknowledgement that the new two factor has been registered
+### 8. See acknowledgement that the new two factor has been registered
 
 You should see an acknowledgement that the new two factor has been registered.
 
@@ -82,7 +92,7 @@ You should see an acknowledgement that the new two factor has been registered.
 
     ![The final page](./img/get_uppmax_2fa_qr_code.png)
 
-### 8. Wait for a confirmation email
+### 9. Wait for a confirmation email
 
 It will take some time before your second factor is imported to our systems.
 You should get a mail within a few minutes notifying you of the newly registered token.
