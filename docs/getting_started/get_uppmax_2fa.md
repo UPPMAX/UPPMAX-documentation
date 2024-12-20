@@ -25,7 +25,7 @@ This page describes how to set this up.
 
 ### 1. Install a 2FA app
 
-Install an app to use for 2FA. 
+Install an app to use for 2FA.
 
 ???- question "Which app do you recommend?"
 

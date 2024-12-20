@@ -1,6 +1,6 @@
-# Register at SUPR.
+# Register at SUPR
 
-- Go to https://supr.naiss.se/person/register/
+- Go to <https://supr.naiss.se/person/register/>
 - If you already have an account you must use that account, otherwise you can register with or without SWAMID by clicking on the appropriate button.
 
 ![register new person](./img/reg_new_person.PNG)
