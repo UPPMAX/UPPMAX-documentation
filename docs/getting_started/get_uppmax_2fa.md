@@ -23,14 +23,16 @@ This page describes how to set this up.
 
     Watch [the YouTube video 'Get your UPPMAX 2FA'](https://youtu.be/eSn0kLkU5Dc)
 
-### 1. Select an app to use
+### 1. Install a 2FA app
 
-Select an app to use for 2FA. Search for '2FA' or 'OTP' (short for
-'one time password').
+Install an app to use for 2FA. 
 
 ???- question "Which app do you recommend?"
 
     Any app that works for you.
+
+    Search for '2FA' or 'OTP' (short for
+    'one time password')..
 
     Wikipedia maintains a list of 2FA apps
     [here](https://en.wikipedia.org/wiki/Comparison_of_OTP_applications).
