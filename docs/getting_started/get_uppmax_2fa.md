@@ -48,8 +48,7 @@ In your web browser, go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
 
     ![https://suprintegration.uppmax.uu.se/bootstrapotp](./img/suprintegration_uppmax_uu_se_bootstrapotp.png)
 
-This will take you to the UU 
-page to request a second factor for your UPPMAX account.
+This will take you to the UU page to request a second factor for your UPPMAX account.
 
 ### 3. Click on 'Continue'
 
