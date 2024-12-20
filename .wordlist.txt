@@ -906,5 +906,3 @@ whatismyip
 ifconfig
 LastPass
 SWAMID
-everytime
-SWAMID
