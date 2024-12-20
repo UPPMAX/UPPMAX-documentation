@@ -5,6 +5,16 @@ tags:
 
 # SUPR
 
+SUPR ('Swedish User and Project Repository') is a website
+at [https://supr.naiss.se/](https://supr.naiss.se/) that
+manages HPC accounts and projects.
+
+## Apply for an UPPMAX project
+
+See [the UPPMAX page on how to apply for an UPPMAX project](project_apply.md).
+
+## Setting up an UPPMAX 2FA token
+
 Go to [https://suprintegration.uppmax.uu.se/bootstrapotp/](https://suprintegration.uppmax.uu.se/bootstrapotp/)
 to initiate the token
 creation. This should take you to a landing page with some initial
