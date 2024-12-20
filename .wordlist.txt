@@ -904,3 +904,7 @@ totp
 dns
 whatismyip
 ifconfig
+LastPass
+SWAMID
+everytime
+SWAMID
