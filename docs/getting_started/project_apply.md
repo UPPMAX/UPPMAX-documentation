@@ -21,7 +21,9 @@ The workflow is like this:
     - Become a member of a project
     - Apply for an account at UPPMAX (or other resources)
 
-Note that you can only get a user account on a resource if you belong to a project with allocations there!
+!!! warning 
+
+    Note that you can only get a user account on a resource if you belong to a project with allocations there!
 
 ## SUPR account
 
@@ -61,3 +63,10 @@ If you are not a PI: Apply for membership in a project you want to join in SUPR,
 
     If after one night you cannot login,
     please [contact support](../support.md).
+
+## Apply for an account at UPPMAX
+
+If you don't already have an account at UPPMAX you are ready by now!
+
+- [Apply for an UPPMAX user account](user_account.md)
+
