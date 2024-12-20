@@ -53,7 +53,7 @@ You can check forward and reverse name resolution on this webpage:
 
 To see what address the other side thinks you come from (which will likely be what our systems see), services like
 
-- [ifconfig.co](ifconfig.co)
+- [https://ifconfig.co/](https://ifconfig.co/)
 
 can be helpful.
 
