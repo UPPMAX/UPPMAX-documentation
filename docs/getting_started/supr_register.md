@@ -10,7 +10,7 @@
 ![Find institution](./img/find_inst.PNG)
 
 - Click on the University and then choose if you want to login via this SWAMID once
-- or if your browser should remember your choice and use everytime you visit SUPR
+- or if your browser should remember your choice and use every time you visit SUPR
 - Here again as an example is Uppsala University:
 
 ![SUPR login](./img/supr_login.PNG)
