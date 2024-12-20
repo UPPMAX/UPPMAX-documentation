@@ -37,6 +37,12 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
     Whisper also tries to give separate sentences for different speakers. But it is not guaranteed.  
 
+    !!! warning "Recordings from Dictaphone "
+
+        If you record using dictaphone such as Olympus DS-9000, it would by default record in `.DS` or `.DS2` file formats which are NOT supported by Whisper.  
+        Make sure to change the settings on the dictaphone to `.mp3` format before you start recording.  
+        Follow this [guide](https://audiosupport.omsystem.com/wp-content/uploads/2021/11/DictationModule.pdf) to convert your `DS` or `.DS2` recording to `.mp3` using the software that comes with your dictaphone. Else, you can also download the sofware from [here](https://audiosupport.omsystem.com/en/product/odms-r8/) and then follow the same guide.
+
 ## Glossary  
 
 **SUPR account** : Gives access to project management account for submitting project proposals on SUPR.  
@@ -49,24 +55,34 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 **Job**: A request for transcribing/translating one or many recordings.  
 **Slurm**: "job" handler.  
 
-
-## Accessing your project  
-
-Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account):  
-
-!!! info inline end "Checklist for new project"  
+!!! info inline begin "Checklist for new project"  
 
     * [x] SUPR account  
     * [x] Submit project proposal  
     * [x] UPPMAX username and password  
     * [x] UPPMAX two factor authentication.  
 
-!!! info inline end "Checklist for existing project"  
+!!! info inline begin "Checklist for existing project"  
 
     * [x] SUPR account  
     * [ ] Submit project proposal  
     * [x] UPPMAX username and password  
     * [x] UPPMAX two factor authentication.
+
+|  
+
+| 
+
+| 
+
+| 
+
+| 
+  
+
+## Accessing your project  
+
+Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account):  
 
 1. Register an [account on SUPR](https://supr.naiss.se/person/register/).  
 
