@@ -901,3 +901,6 @@ softwares
 SOMETEXT
 otpauth
 totp
+dns
+whatismyip
+ifconfig
