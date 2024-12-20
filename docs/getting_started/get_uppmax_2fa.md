@@ -43,7 +43,7 @@ Go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
     Here is how <https://suprintegration.uppmax.uu.se/bootstrapotp/>
     looks like:
 
-    ![https://suprintegration.uppmax.uu.se/bootstrapotp](suprintegration_uppmax_uu_se_bootstrapotp.png)
+    ![https://suprintegration.uppmax.uu.se/bootstrapotp](./img/suprintegration_uppmax_uu_se_bootstrapotp.png)
 
 Click on 'Continue'.
 
