@@ -69,15 +69,15 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
     * [x] UPPMAX username and password  
     * [x] UPPMAX two factor authentication.
 
-|  
+|
 
-| 
+|
 
-| 
+|
 
-| 
+|
 
-| 
+|
   
 
 ## Accessing your project  
