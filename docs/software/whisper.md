@@ -1,6 +1,8 @@
 ---
 tags:
   - Whisper
+  - transcriptions
+  - AI
 ---
 
 # Whisper
