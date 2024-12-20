@@ -14,8 +14,7 @@ if you are a) connecting to UPPMAX from outside of Sweden, or b) connecting
 from a network within Sweden that does not support forward and reverse DNS
 lookups (due to a misconfiguration in your network, you can ask your
 internet service provider about this). More information about why can be
-found
-[here](https://www.uu.se/en/centre/uppmax/get-started/2-factor/why-2-factor).
+found [here](why_2fa.md).
 
 ## Procedure
 
