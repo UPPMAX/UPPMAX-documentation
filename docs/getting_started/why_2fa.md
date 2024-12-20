@@ -6,7 +6,7 @@ tags:
   - Why
 ---
 
-# Need two factor authentication from outside of Sweden or with incorrect DNS 
+# Need two factor authentication from outside of Sweden or with incorrect DNS
 
 ## From outside Sweden
 
