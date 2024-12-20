@@ -27,14 +27,14 @@ Note that you can only get a user account on a resource if you belong to a proje
 
 ???- question "Get a SUPR account"
 
-    -You should visit the national project management platform [SUPR](https://supr.naiss.se/) and [register](https://supr.naiss.se/person/register/) there.
+    - You should visit the national project management platform [SUPR](https://supr.naiss.se/) and [register](https://supr.naiss.se/person/register/) there.
         - Make sure that you don't already have an account at SUPR. You must not have more than one account in SUPR.
-
-        
+    - All steps [here](supr_register.md).    
 
 ???- question "Accept SUPR user agreement"
 
     - You must accept the user agreement in SUPR, either online or in paper form.
+    - Details [here](supr_register.md#accept-the-user-agreement).
 
 ## Applying for an UPPMAX project (PI)
 
