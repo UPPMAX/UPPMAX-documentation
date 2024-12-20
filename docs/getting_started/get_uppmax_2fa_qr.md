@@ -6,7 +6,7 @@ tags:
   - QR
 ---
 
-# Setting up the QR code for two factor authentication for UPPMAX 
+# Setting up the QR code for two factor authentication for UPPMAX
 
 Part of [setting up two factor authentication for UPPMAX](get_uppmax_2fa.md)
 is to get a QR code.

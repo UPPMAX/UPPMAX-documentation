@@ -34,7 +34,7 @@ Select an app to use.
 See [here](../software/2fa_apps.md)
 for an overview.
 
-### 2. Go to https://suprintegration.uppmax.uu.se/bootstrapotp/
+### 2. Go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>
 
 Go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
 
@@ -73,7 +73,7 @@ Your application will show you a code, enter this code on the same webpage.
 
 More details [here](get_uppmax_2fa_qr_code.md).
 
-### 7. See acknowledgement that the new two factor has been registered.
+### 7. See acknowledgement that the new two factor has been registered
 
 You should see an acknowledgement that the new two factor has been registered.
 
@@ -121,7 +121,7 @@ Troubleshooting
 Some of the common problems we've seen include
 
 - Not having an account at UPPMAX. This is required to get the second factor for your account.
-- Using a device having it's time set differently from our systems. There are services on the internet (e.g. https://time.is/) you can visit from the device you try to manage the code on that will show you if your device settings are problematic.
+- Using a device having it's time set differently from our systems. There are services on the internet (e.g. <https://time.is/>) you can visit from the device you try to manage the code on that will show you if your device settings are problematic.
 - Noting the code given at first and trying to use it every time when asked for a code. The code to give will change every thirty second and you should give whatever code is shown at the time.
 - Expecting something else to be sent to you. You register the new second factor as part of the process. A confirmation mail is sent as well, but this is mostly to let you know in case your account details in SUPR have gone astray and someone else has registered a second factor for your account.
 - It takes a little while before your newly registered factor is usable, but this should be a matter of minutes, not days. There is no extra mail sent to let you know that the newly registered factor is usable, just the confirmation mail that mentions that it will be activated soon.

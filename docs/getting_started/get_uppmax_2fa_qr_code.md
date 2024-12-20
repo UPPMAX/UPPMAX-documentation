@@ -7,7 +7,7 @@ tags:
   - code
 ---
 
-# Setting up the QR code for two factor authentication for UPPMAX 
+# Setting up the QR code for two factor authentication for UPPMAX
 
 Once you have the new account, you should get one time codes for it when you
 have it selected.
