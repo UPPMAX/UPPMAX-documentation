@@ -34,9 +34,9 @@ in charge of the research project) must complete the following steps:
 
 - After applying it might take up to 2 working days before you receive 2 emails with information on how to login to UPPMAX.
 
-- If you have any questions please contact us at support@uppmax.uu.se
+- If you have any questions please contact us at support[at]uppmax.uu.se
 
-!!! note 
+!!! note
 
     After the 4 steps are completed your account will be created at UPPMAX within 2 working days and you will receive two emails with information
 on how to access the UPPMAX resources.
