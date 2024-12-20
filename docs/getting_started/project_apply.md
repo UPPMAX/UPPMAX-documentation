@@ -21,7 +21,7 @@ The workflow is like this:
     - Become a member of a project
     - Apply for an account at UPPMAX (or other resources)
 
-!!! warning 
+!!! warning
 
     Note that you can only get a user account on a resource if you belong to a project with allocations there!
 
@@ -31,7 +31,7 @@ The workflow is like this:
 
     - You should visit the national project management platform [SUPR](https://supr.naiss.se/) and [register](https://supr.naiss.se/person/register/) there.
         - Make sure that you don't already have an account at SUPR. You must not have more than one account in SUPR.
-    - All steps [here](supr_register.md).    
+    - All steps [here](supr_register.md).
 
 ???- question "Accept SUPR user agreement"
 
