@@ -25,13 +25,15 @@ This page describes how to set this up.
 
 ### 1. Select an app to use
 
-Select an app to use.
-See [here](../software/2fa_apps.md)
-for an overview.
+Select an app to use for 2FA.
+
+???- question "Which app do you recommend?"
+
+    There is an overview [here](../software/2fa_apps.md).
 
 ### 2. Go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>
 
-Go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
+In your web browser, go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
 
 ???- question "How does this look like?"
 
@@ -56,9 +58,7 @@ by pressing the button "Prove My Identity to UPPMAX" on the page.
 
 ### 5. Scan the QR-code with your 2FA app
 
-Scan the QR-code with a second factor authentication app of your choice
-in your smart phone. For example "Google Authenticator" by Google
-or "Authy" by Authy Inc.
+Scan the QR-code with your 2FA app.
 
 More details [here](get_uppmax_2fa_qr.md).
 
@@ -109,6 +109,24 @@ the 2FA to log in.
 
     ![Authentication failed](./img/get_uppmax_2fa_authentication_failed_directly_after_new_2fa.png)
 
+## FAQ
+
+???- question "How long does it take before my 2FA is active?"
+
+    This is a matter of minutes.
+
+    It takes a little while before your newly registered factor is usable,
+    but this should be a matter of minutes, not days.
+
+???- question "Will I get an email when my 2FA is active?"
+
+    No.
+
+    There is no extra mail sent to let you know that the newly registered
+    factor is usable, just the confirmation mail that mentions
+    that it will be activated soon.
+
+
 ## Troubleshooting
 
 Troubleshooting
@@ -119,4 +137,3 @@ Some of the common problems we've seen include
 - Using a device having it's time set differently from our systems. There are services on the internet (e.g. <https://time.is/>) you can visit from the device you try to manage the code on that will show you if your device settings are problematic.
 - Noting the code given at first and trying to use it every time when asked for a code. The code to give will change every thirty second and you should give whatever code is shown at the time.
 - Expecting something else to be sent to you. You register the new second factor as part of the process. A confirmation mail is sent as well, but this is mostly to let you know in case your account details in SUPR have gone astray and someone else has registered a second factor for your account.
-- It takes a little while before your newly registered factor is usable, but this should be a matter of minutes, not days. There is no extra mail sent to let you know that the newly registered factor is usable, just the confirmation mail that mentions that it will be activated soon.
