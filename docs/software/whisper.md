@@ -3,6 +3,8 @@ tags:
   - Whisper
   - transcriptions
   - AI
+date:
+    updated: 2024-12-20
 ---
 
 # Whisper
