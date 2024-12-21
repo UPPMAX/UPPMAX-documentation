@@ -1,15 +1,15 @@
 ---
 tags:
-  - SweStore
+  - Swestore
   - dCache
   - HPC
   - center
   - centre
 ---
 
-# SweStore
+# Swestore
 
-SweStore is a NAISS HPC center hosting the storage system called 'dCache'.
+Swestore is a NAISS HPC center hosting the storage system called 'dCache'.
 
 The following information will appear for dCache at Swestore in the 2025
 application rounds and in decision mails from first of January 2025:

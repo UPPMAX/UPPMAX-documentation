@@ -205,7 +205,6 @@ SUNET
 Supercomputing
 supr
 sw
-Swestore
 swestore
 tcsh
 Tetralith
