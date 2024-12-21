@@ -5,16 +5,16 @@
   --md-primary-fg-color: #E6E6E6;
   --md-primary-bg-color: #1d1d20;
 
-  --md-default-fg-color: #1d1d20;
-  --md-default-bg-color: #ffffff;
+  /* --md-default-fg-color: #1d1d20; */
+  /* --md-default-bg-color: #ffffff; */
 
-  --md-code-fg-color: #1d1d20;
+  /* --md-code-fg-color: #1d1d20; */
 
   --md-accent-fg-color: #999;
 
-  --md-admonition-fg-color: #1d1d20;
+  /* --md-admonition-fg-color: #1d1d20; */
 
-  --md-typeset-color: #1d1d20;
+  /* --md-typeset-color: #1d1d20; */
   --md-typeset-a-color: #0645AD;
 
   --md-footer-bg-color: #E6E6E6;
@@ -22,6 +22,10 @@
 
 }
 
+/* Maximum space for text block */
+.md-grid {
+  max-width: 70%; /* or 100%, if you want to stretch to full-width */
+}
 
 /* https://github.com/squidfunk/mkdocs-material/issues/4832#issuecomment-1374891676 */
 .md-nav__link[for] {

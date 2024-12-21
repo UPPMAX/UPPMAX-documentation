@@ -104,7 +104,7 @@ We have mirrored all major non-proprietary Conda repositories (not ``main``, ``a
 
 !!! info "More info"
 
-    - [Installing Conda packages on Bianca](https://uppmax.github.io/bianca_workshop/extra/conda/)
+    - [Installing Conda packages on Bianca](https://uppmax.github.io/bianca_workshops/extra/conda/)
 
 ## Using Conda
 

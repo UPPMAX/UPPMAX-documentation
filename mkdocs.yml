@@ -1,6 +1,7 @@
 site_name: UPPMAX Documentation
 
 repo_url: https://github.com/UPPMAX/UPPMAX-documentation
+edit_uri: blob/main/docs/
 
 nav:
   - Home: index.md
@@ -115,9 +116,23 @@ theme:
     code: JetBrains Mono
 
   logo: assets/logo_color.png
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
   features:
-    - toc.integrate
+    # - toc.integrate
+    - toc.follow
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections

@@ -67,3 +67,12 @@ Typically, users prefer to turn off full screen mode.
 Normally you don't have to change anything else here,
 and we have also disabled all "local devices" (USB-sticks, sound and printers)
 on server side. So no point to fiddle with these specific options.
+
+
+## ThinLinc error: no agent server available
+
+![ThinLinc error: no agent server available](./img/thinlinc_error_no_agent_server_available.png)
+
+> ThinLinc error: no agent server available
+
+Try again :-)

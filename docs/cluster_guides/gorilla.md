@@ -1,3 +1,4 @@
 # Gorilla
 
-Gorilla will be ceph
+Gorilla is a future storage system,
+using the ceph file system.
