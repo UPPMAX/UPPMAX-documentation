@@ -1,5 +1,7 @@
 ar
 availabilty
+Linköping
+Umeå
 awk
 BEAUti
 belo
