@@ -1,4 +1,13 @@
-# LUNARC
+---
+tags:
+  - HPC2n
+  - Umeå
+  - HPC
+  - center
+  - centre
+---
+
+# HPC2N
 
 !!! info
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - RT
+  - Request Tracker
+---
+
 # Request Tracker
 
 !!! info
