@@ -1,3 +1,9 @@
+---
+tags:
+  - Slurm
+  - Bianca
+---
+
 # Using Slurm on Bianca
 
 This page describes how to use Slurm on Bianca.

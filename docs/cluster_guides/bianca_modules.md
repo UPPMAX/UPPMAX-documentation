@@ -1,3 +1,9 @@
+---
+tags:
+  - modules
+  - Bianca
+---
+
 # Working with environment modules on Bianca
 
 ![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
