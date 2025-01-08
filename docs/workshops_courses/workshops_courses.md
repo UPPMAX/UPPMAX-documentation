@@ -4,14 +4,18 @@
 
 - Intro to UPPMAX day 1
     - [MkDocs style](https://uppmax.github.io/uppmax_intro_day_1/)
-    - [Sphinx style](https://uppmax.github.io/uppmax_intro/)
+
+
+## NAISS-Sens
 
 - [Introduction to Bianca](https://uppmax.github.io/bianca_workshops)
 
 
-## NAISS centre
-
 ## NAISS centre agnostic
+
+### Getting started
+
+- [Connecting and file transfer](naiss_connect_transfer.md)
 
 ### Programming
 #### Python
