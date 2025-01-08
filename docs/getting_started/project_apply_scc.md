@@ -62,7 +62,7 @@ In the 'Small Compute Rounds' menu, click on 'Create new proposal for NAISS Smal
 
 ???- question "How does that look like?"
 
-    ![In the 'Small Compute Rounds' menu, click on 'Create new proposal for NAISS Small Compute'](./img/5_supr_naiss_rounds_click_small_compute.png)
+    ![In the 'Small Compute Rounds' menu, click on 'Create new proposal for NAISS Small Compute'](./img/supr_naiss_rounds_click_small_compute.png)
 
     > In the 'Small Compute Rounds' menu, click on 'Create new proposal for NAISS Small Compute'
 
@@ -72,7 +72,7 @@ In the 'Create new proposal' menu, add a project title and click on 'Create new 
 
 ???- question "How does that look like?"
 
-    ![In the 'Create new proposal' menu, add a project title and click on 'Create new proposal'](./img/6_supr_naiss_create_new_proposal_click_create.png)
+    ![In the 'Create new proposal' menu, add a project title and click on 'Create new proposal'](./img/supr_naiss_create_new_proposal_click_create.png)
 
     > In the 'Create new proposal' menu, add a project title and click on 'Create new proposal'
 
@@ -82,7 +82,7 @@ In this NAISS project proposal page, scroll down to 'Resources'.
 
 ???- question "How does that look like?"
 
-    ![In this NAISS project proposal page, scroll down to 'Resources'](./img/7_supr_naiss_no_resources.png)
+    ![In this NAISS project proposal page, scroll down to 'Resources'](./img/supr_naiss_no_resources.png)
 
     > In this NAISS project proposal page, scroll down to 'Resources'
 
@@ -92,7 +92,7 @@ In the 'Resources' dropbox, Select 'Cloud @ SCC'.
 
 ???- question "How does that look like?"
 
-    ![In the 'Resources' dropbox, Select 'Cloud @ SCC'](./img/8_supr_naiss_add_resource_click_cloud.png)
+    ![In the 'Resources' dropbox, Select 'Cloud @ SCC'](./img/supr_naiss_add_resource_click_cloud.png)
 
     > In the 'Resources' dropbox, Select 'Cloud @ SCC'
 
@@ -103,7 +103,7 @@ At the 'Add resource Cloud' page, set the amount of coins and click 'Add Resourc
 
 ???- question "How does that look like?"
 
-    ![At the 'Add resource Cloud' page, set the amount of coins and click 'Add Resource'.](./img/9_supr_naiss_add_resource_cloud.png)
+    ![At the 'Add resource Cloud' page, set the amount of coins and click 'Add Resource'.](./img/supr_naiss_add_resource_cloud.png)
 
     > At the 'Add resource Cloud' page, set the amount of coins and click 'Add Resource'.
 
@@ -111,7 +111,7 @@ The resource is now added to your project.
 
 ???- question "How does that look like?"
 
-    !['Resource Cloud added to proposal'](./img/10_supr_naiss_added_resource_cloud.png)
+    !['Resource Cloud added to proposal'](./img/supr_naiss_added_resource_cloud.png)
 
     > 'Resource Cloud added to proposal'
 
@@ -123,6 +123,6 @@ scroll down and click on 'Submit proposal'
 
 ???- question "How does that look like?"
 
-    ![In this NAISS project proposal page, scroll down and click on 'Submit proposal'](./img/11_supr_naiss_click_submit.png)
+    ![In this NAISS project proposal page, scroll down and click on 'Submit proposal'](./img/supr_naiss_click_submit.png)
 
     > In this NAISS project proposal page, scroll down and click on 'Submit proposal'
