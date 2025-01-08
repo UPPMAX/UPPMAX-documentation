@@ -2,7 +2,9 @@
 
 ## UPPMAX Local
 
-- [Intro to UPPMAX day 1](https://uppmax.github.io/uppmax_intro_day_1/)
+- [Introduction to UPPMAX and Linux](uppmax_intro_course.md)
+
+  - [Content of day 1](https://uppmax.github.io/uppmax_intro_day_1/)
 
 
 ## NAISS-Sens
