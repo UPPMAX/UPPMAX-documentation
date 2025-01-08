@@ -34,11 +34,9 @@ This procedure is also demonstrated in [this YouTube video](https://youtu.be/RG2
 
 ![Start VSCode on your local computer](./img/start_vscode_ubuntu.png)
 
-### 3. In VSCode, install the VSCode 'Remote Tunnels' plugin
+### 3. In VSCode, install the VSCode 'Remote-SSH' plugin
 
-![Install the VSCode 'Remote Tunnels' plugin](./img/vscode_remote_tunnels_before_install.png)
-
-![Installed the VSCode 'Remote Tunnels' plugin](./img/vscode_remote_tunnels_after_install.png)
+![Install the VSCode 'Remote-SSH' plugin](./img/vscode_install_remote_ssh.png)
 
 ### 4. In VSCode, connect to Rackham
 
