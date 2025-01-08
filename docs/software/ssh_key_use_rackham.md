@@ -75,3 +75,26 @@ ssh-copy-id -i .ssh/id_ed25519_uppmax_login.pub [username]@rackham.uppmax.uu.se
 - `[username]@rackham.uppmax.uu.se`: your UPPMAX username, for example `sven@rackham.uppmax.uu.se`
 
 After this, you can login to Rackham without specifying a password.
+
+## Troubleshooting
+
+### On Linux, it still asks for a password
+
+From [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorized-keys)
+and [its answer](https://unix.stackexchange.com/a/664213):
+
+On Rackham, do:
+
+```bash
+chmod 700 .ssh/authorized_keys 
+chmod 700 .ssh
+chmod 700 ~
+```
+
+On your local computer, do:
+
+```bash
+chmod 700 .ssh/authorized_keys 
+chmod 700 .ssh
+chmod 700 ~
+```
