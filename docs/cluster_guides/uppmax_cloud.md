@@ -3,28 +3,25 @@
 Cloud services allow a user to have something active (typically a website)
 that can be accessed by the internet.
 
-For this, the UPPMAX cloud
-has a service called 'Dis' (the Swedish word for 'haze').
-'Dis' is part of the `EAST-1` region of the SNIC science cloud.
+The [NAISS 'Swedish Science Cloud (SSC)'](https://www.naiss.se/resource/swedish-science-cloud-ssc/),
+consists out of multiple regions.
+The eastern region (called `EAST-1`) of SCC is named
+'Dis' (the Swedish word for 'haze')
+and is hosted by Uppsala
+university (the service is called 'UPPMAX cloud')
+and Umeå University (north, HPC2N).
 
-
-## Dis
+## History of Dis
 
 The UPPMAX cloud 'Dis' (Swedish word for 'haze')
 and successor of 'Smog' (Swedish for 'smog')
 was introduced in October 2017 and upgraded during 2020.
 
-The [NAISS 'Swedish Science Cloud (SSC)'](https://www.naiss.se/resource/swedish-science-cloud-ssc/),
-consists out of multiple regions.
-Dis is the eastern region of the NAISS SSC
-and is hosted together with Umeå University (north, HPC2N).
+## [Apply for an SCC project](../getting_started/project_apply_scc.md)
 
-## Apply
+See [the UPPMAX pages on 'Apply for an SCC project'](../getting_started/project_apply_scc.md)
 
-Researchers interested in applying for a Swedish Science Cloud project should
-[request a project in NAISS SUPR](https://supr.naiss.se/resource/cloud-ssc/)
-
-## Technical data
+## Technical specifications
 
 - 40 compute nodes, 24 dedicated for NAISS and 16 for local projects.
   Each compute node is equipped with 128-256GB memory
