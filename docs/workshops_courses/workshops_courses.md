@@ -28,7 +28,8 @@
     - [Course material](https://uppmax.github.io/HPC-python/index.html)
 #### Other
 
-- [Introduction to running R, MATLAB, and Julia in HPC](https://uppmax.github.io/R-python-julia-matlab-HPC/)
+- [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
+    -  [Course material](https://uppmax.github.io/HPC-python/index.html)
 - [Programming formalisms](https://uppmax.github.io/programming_formalisms_intro/index.html)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
 - [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
