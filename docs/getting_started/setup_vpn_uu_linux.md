@@ -16,10 +16,7 @@ This page describes how to set up a VPN from Uppsala University for Linux.
 
 ## Procedure
 
-There are multiple procedures:
-
-- The procedure suggested by UIT, see below
-- The procedure [at this page](https://its.gmu.edu/knowledge-base/how-to-install-cisco-secure-client-on-linux/)
+Here is the procedure, as suggested by UIT:
 
 ![Setup a VPN from Uppsala University for Linux 1](./img/setup_vpn_uu_linux_1.png)
 
