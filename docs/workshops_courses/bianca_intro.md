@@ -10,8 +10,10 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 
 **Prerequisites**: none.
 
-**When:** Wednesday, March 19, 2024.
+**When:** Wednesday, March 19, 2025.
+
 **Time:** 09:00 - 12:00, and 13:00 - 16:00.
+
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
 **Login help session:** TBD.
