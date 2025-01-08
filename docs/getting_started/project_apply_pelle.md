@@ -41,7 +41,7 @@ In the 'Rounds' menu, click on 'Go to Compute Rounds'
 
 ???- question "How does that look like?"
 
-    ![In the 'Rounds' menu, click on 'Go to Compute Rounds'](./img/supr_naiss_rounds_click_go_to_naiss_sens.png)
+    ![In the 'Rounds' menu, click on 'Go to Compute Rounds'](./img/supr_naiss_rounds_click_go_to_compute_rounds.png)
 
     > In the 'Rounds' menu, click on 'Go to Compute Rounds'
 
