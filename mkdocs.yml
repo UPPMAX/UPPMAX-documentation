@@ -104,8 +104,8 @@ nav:
      - Simons Genome Diversity Project datasets: databases/simons_genome.md
      - Other bioinformatics-oriented local data resources: databases/other_local.md
      
-#  - Workshops and courses: workshops_courses/workshops_courses.md
   - Support: support.md
+  - Workshops and courses: workshops_courses/workshops_courses.md
   - Back to UPPMAX main page: https://www.uu.se/en/centre/uppmax
 
 theme:

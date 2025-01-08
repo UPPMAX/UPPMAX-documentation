@@ -1,13 +1,25 @@
 # Workshops and courses
 
-## UPPMAX
+## UPPMAX Local
 
 - Intro to UPPMAX day 1
     - [MkDocs style](https://uppmax.github.io/uppmax_intro_day_1/)
     - [Sphinx style](https://uppmax.github.io/uppmax_intro/)
-- [Intro to Python](https://uppmax.github.io/uppmax_intro_python/)
+
 - [Introduction to Bianca](https://uppmax.github.io/bianca_workshops)
+
+
+## NAISS centre
+
+## NAISS centre agnostic
+
+### Programming
+#### Python
+- [Intro to Python](https://uppmax.github.io/uppmax_intro_python/)
+
 - [HPC-Python](https://uppmax.github.io/HPC-python/index.html)
+
+#### Other
 - [Introduction to running R, Python, and Julia in HPC](https://uppmax.github.io/R-python-julia-matlab-HPC/)
 
 - [Programming formalisms](https://uppmax.github.io/programming_formalisms_intro/index.html)
