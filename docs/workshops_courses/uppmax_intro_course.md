@@ -8,7 +8,7 @@ When: February 10-12, 2025.
 
 Where: online via Zoom.
 
-[Registration form](https://forms.gle/efFd6VkexiBad1Y87)
+[Registration form](https://forms.gle/T4B2JkXqJq8V4pHw9)
 
 
 ### Schedule
