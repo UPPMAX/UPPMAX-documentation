@@ -26,7 +26,8 @@ to work with your files on Rackham.
 ## Procedure to start VSCode
 
 Below is a step-by-step procedure to start VSCode.
-This procedure is also demonstrated in [this YouTube video](https://youtu.be/RG2FWA8yoUs).
+This procedure is also demonstrated in [this YouTube video]([https://youtu.be/RG2FWA8yoUs](https://youtu.be/MkrKi5oU_po)).
+An older version of this procedure is demonstrated in [this YouTube video](https://youtu.be/RG2FWA8yoUs).
 
 ### 1. Install VSCode on your local computer
 
