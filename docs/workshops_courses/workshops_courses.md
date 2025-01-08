@@ -4,7 +4,7 @@
 
 - [Introduction to UPPMAX and Linux](uppmax_intro_course.md)
 
-  - [Content of day 1](https://uppmax.github.io/uppmax_intro_day_1/)
+    - [Content of day 1](https://uppmax.github.io/uppmax_intro_day_1/)
 
 ## NAISS-Sens
 
@@ -26,10 +26,11 @@
 
 - [HPC-Python](https://www.uu.se/centrum/uppmax/utbildning/kurser-och-workshops/hpc-python)
     - [Course material](https://uppmax.github.io/HPC-python/index.html)
+
 #### Other
 
 - [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
-    -  [Course material](https://uppmax.github.io/HPC-python/index.html)
+    - [Course material](https://uppmax.github.io/HPC-python/index.html)
 - [Programming formalisms](https://uppmax.github.io/programming_formalisms_intro/index.html)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
 - [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
