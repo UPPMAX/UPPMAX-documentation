@@ -23,47 +23,83 @@ that can be used for software development in many languages.
 In this session, we show how to connect VSCode on your local computer
 to work with your files on Rackham.
 
-## Procedure to start VSCode
+## Procedure
 
 Below is a step-by-step procedure to start VSCode.
-This procedure is also demonstrated in [this YouTube video]([https://youtu.be/RG2FWA8yoUs](https://youtu.be/MkrKi5oU_po)).
-An older version of this procedure is demonstrated in [this YouTube video](https://youtu.be/RG2FWA8yoUs).
+
+???- question "Prefer a video?"
+
+    See [this YouTube video]([https://youtu.be/RG2FWA8yoUs](https://youtu.be/MkrKi5oU_po)).
+
+    An older version of this procedure, where the 'Remote Tunnel'
+    extension is used, can be seen in [this YouTube video](https://youtu.be/RG2FWA8yoUs).
 
 ### 1. Install VSCode on your local computer
 
+Install VSCode on your local computer.
+
 ### 2. Start VSCode on your local computer
 
-![Start VSCode on your local computer](./img/start_vscode_ubuntu.png)
+???- question "How does that look like?"
+
+    ![Start VSCode on your local computer](./img/start_vscode_ubuntu.png)
 
 ### 3. In VSCode, install the VSCode 'Remote-SSH' plugin
 
-![Install the VSCode 'Remote-SSH' plugin](./img/vscode_install_remote_ssh.png)
+In VSCode, install the VSCode 'Remote-SSH' plugin.
 
-### 4. In VSCode, connect to Rackham
+???- question "How does that look like?"
 
-In VSCode, at the 'Remote Explorer' tab, click on '[SSH](../software/ssh.md)',
-then on 'New Remote'.
+    ![Install the VSCode 'Remote-SSH' plugin](./img/vscode_install_remote_ssh.png)
 
-![VSCode: add New Remote](./img/vscode_add_new_remote.png)
+### 4. In the 'Remote Explorer' tab, at SSH, click the plus
 
-Type `ssh [username]@rackham.uppmax.uu.se`
-where `[username]` is your UPPMAX username,
-for example, `ssh sven@rackham.uppmax.uu.se`.
+In VSCode, go to the 'Remote Explorer' tab.
+At the SSH section, click on the '+' (with tooltip 'New remote').
 
-![VSCode: SSH to Rackham](./img/vscode_ssh_to_rackham.png)
+???- question "How does that look like?"
 
-Use the `~/.ssh/config` file:
+    ![Click on the plus](./img/vscode_on_rackham_add_new_remote.png)
 
-![VSCode: setup config](./img/vscode_remote_tunnels_use_ssh_config_in_home.png)
+### 5. Give the SSH command to connect to Rackham
 
-Click on 'Connect':
+In the main edit bar, give the SSH command to connect to Rackham,
+e.g. `ssh sven@rackham.uppmax.uu.se`
 
-![VSCode: connect](./img/vscode_connect_to_rackham.png)
+???- question "How does that look like?"
 
-Now, you can work directly on your Rackham files!
+    ![Type the SSH command](./img/vscode_on_rackham_new_remote_ssh_command.png)
 
-![VSCode connected to Rackham](./img/vscode_connected_to_rackham.png)
+### 6. Pick the a location for the SSH config file
 
+In the dropdown menu, pick the a location for the SSH config file,
+e.g. the first, which is similar to `/home/sven/.ssh/config`.
+
+???- question "How does that look like?"
+
+    ![](./img/vscode_on_rackham_new_remote_ssh_config.png)
+
+### 7. Click 'Connect'
+
+In the bottom left of VSCode, click on the popup window 'Connect'.
+
+???- question "How does that look like?"
+
+![](./img/vscode_on_rackham_new_remote_click_connect.png)
+
+### 8. Done
+
+You are now connected: there is a new window with VSCode connected to Rackham.
+
+???- question "How does that look like?"
+
+    The window that is connected to a Rackham home folder:
+
+    ![](./img/vscode_on_rackham_connected.png)
+
+    Going to `/proj/staff`:
+
+    ![](./img/vscode_on_rackham_show_proj_folder.png)
 
 ## Setting up VSCode for Rackham and Snowy
 
