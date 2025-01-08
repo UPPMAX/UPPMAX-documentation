@@ -2,9 +2,10 @@
 tags:
   - VSCode
   - Rackham
+  - connect
 ---
 
-# Using Visual Studio Code on Rackham
+# Connecting Visual Studio Code to Rackham
 
 ![VSCode from a local computer working on Rackham.](./img/vscode_connected_to_rackham.png)
 
@@ -19,7 +20,8 @@ that can be used for software development in many languages.
 
     See [the page on IDEs](../software/ides.md).
 
-In this session, we show how to use VSCode on Rackham.
+In this session, we show how to connect VSCode on your local computer
+to work with your files on Rackham.
 
 ## Procedure to start VSCode
 
