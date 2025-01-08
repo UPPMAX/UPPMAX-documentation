@@ -7,7 +7,7 @@
 
 ## NAISS-Sens
 
-- [Introduction to Bianca](https://uppmax.github.io/bianca_workshops)
+- [Introduction to Bianca](bianca_intro.md)
 
 ## NAISS centre agnostic
 
