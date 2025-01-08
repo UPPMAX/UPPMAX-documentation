@@ -1,6 +1,7 @@
 # Introduction to Bianca: Handling Sensitive Research Data
 
 ## Overview and schedule
+
 Are you just beginning to work with sensitive data in your research? If yes, welcome to a 1-day introduction to handling sensitive data on the UPPMAX cluster, Bianca. We will tell you about NAISS-SENS, how to login to Bianca, transfer files via wharf, basics of the SLURM workload manager and the module system.
 
 This is a workshop is intended for beginner users of Bianca.
