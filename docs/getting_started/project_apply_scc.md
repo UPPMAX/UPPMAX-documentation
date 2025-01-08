@@ -117,7 +117,7 @@ The resource is now added to your project.
 
 ### 10. Click 'Submit proposal'
 
-In this NAISS project proposal page, 
+In this NAISS project proposal page,
 after all other details are filled in,
 scroll down and click on 'Submit proposal'
 

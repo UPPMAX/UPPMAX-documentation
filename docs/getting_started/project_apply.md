@@ -46,6 +46,8 @@ If you are a PI: apply for a project in SUPR.
   using sensitive data
 - [Apply for a Pelle project](project_apply_pelle.md), i.e. a project
   for the new Uppsala-local general-purpose cluster
+- [Apply for a Swedish Science Cloud project](project_apply_scc.md),
+  i.e. a project that provides an online service, e.g. a website
 - [Apply for a SIMPLER project](project_apply_simpler.md),
   i.e. a project for the Swedish Infrastructure for Medical Population-based Life-course and Environmental Research
 - [Other applications](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects)
