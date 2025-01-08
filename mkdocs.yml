@@ -106,7 +106,6 @@ nav:
      
   - Support: support.md
   - Workshops and courses: workshops_courses/workshops_courses.md
-    - Introduction to UPPMAX and Linux: workshops_courses/uppmax_intro_course.md
   - Back to UPPMAX main page: https://www.uu.se/en/centre/uppmax
 
 theme:
