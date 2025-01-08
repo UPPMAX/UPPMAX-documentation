@@ -2,8 +2,7 @@
 
 ## UPPMAX Local
 
-- Intro to UPPMAX day 1
-    - [MkDocs style](https://uppmax.github.io/uppmax_intro_day_1/)
+- [Intro to UPPMAX day 1](https://uppmax.github.io/uppmax_intro_day_1/)
 
 
 ## NAISS-Sens
