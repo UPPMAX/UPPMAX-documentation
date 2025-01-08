@@ -54,7 +54,7 @@ Here is a description of the flags:
 
 ### 2. Add the content of your public key to Bianca's authorized keys
 
-Add the content of the public key `id_ed25519_uppmax_login.pub` 
+Add the content of the public key `id_ed25519_uppmax_login.pub`
 on your local computer to the Bianca's `$HOME/.ssh/authorized_keys`.
 
 There are multiple ways to do so.
@@ -79,7 +79,7 @@ Then copy that line to your clipboard.
     $ cat $HOME/.ssh/id_ed25519_uppmax_login.pub
     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFGXV8fRK+cazt8qHX+fGS+w6WPOuE82Q19A12345678 Sven's key to UPPMAX
     ```
- 
+
 On Bianca, to edit the authorized keys file, do:
 
 ```bash
@@ -166,7 +166,7 @@ chmod 700 ~
     -rwx------ 1 sven sven 104 Jan  8 10:26 authorized_keys
     ```
 
-### 4. [Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md) 
+### 4. [Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md)
 
 [Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md),
 using `ssh -A`:
