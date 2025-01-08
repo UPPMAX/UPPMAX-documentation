@@ -105,9 +105,12 @@
     },
     {
       "pattern": "^software-table.md"
-    }
+    },
     {
       "pattern": "gitlab.uppmax.uu.se"
+    },
+    {
+      "pattern": "https://www.codecademy.com/"
     }
   ]
 }
