@@ -10,8 +10,8 @@ tags:
 
 # Setup a VPN from Uppsala University for Linux
 
-How to [set up a VPN]((setup_vpn.md) differs between universities
-and operating systems.
+How to [set up a VPN](setup_vpn.md) differs between universities
+and differs between operating systems.
 This page describes how to set up a VPN from Uppsala University for Linux.
 
 ## Procedure
