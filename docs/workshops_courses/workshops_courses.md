@@ -6,10 +6,10 @@
 
   - [Content of day 1](https://uppmax.github.io/uppmax_intro_day_1/)
 
-
 ## NAISS-Sens
 
 - [Introduction to Bianca](bianca_intro.md)
+    - [Course material](https://uppmax.github.io/bianca_workshops/intro/)
 
 ## NAISS centre agnostic
 
@@ -22,12 +22,13 @@
 #### Python
 
 - [Intro to Python](https://uppmax.github.io/uppmax_intro_python/)
+    - [Course material](https://uppmax.github.io/uppmax_intro_python/)
 
-- [HPC-Python](https://uppmax.github.io/HPC-python/index.html)
-
+- [HPC-Python](https://www.uu.se/centrum/uppmax/utbildning/kurser-och-workshops/hpc-python)
+    - [Course material](https://uppmax.github.io/HPC-python/index.html)
 #### Other
 
-- [Introduction to running R, Python, and Julia in HPC](https://uppmax.github.io/R-python-julia-matlab-HPC/)
+- [Introduction to running R, MATLAB, and Julia in HPC](https://uppmax.github.io/R-python-julia-matlab-HPC/)
 - [Programming formalisms](https://uppmax.github.io/programming_formalisms_intro/index.html)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
 - [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
