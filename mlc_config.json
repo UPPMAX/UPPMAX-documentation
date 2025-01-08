@@ -106,5 +106,8 @@
     {
       "pattern": "^software-table.md"
     }
+    {
+      "pattern": "gitlab.uppmax.uu.se"
+    }
   ]
 }

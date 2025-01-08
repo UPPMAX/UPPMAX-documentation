@@ -19,10 +19,10 @@ Registration form (soon open)
 
 - Introduction
 - Intro to NAISS-Sens
-- Login: Thinlinc
+- Login: ThinLinc
 - Command line intro specific to Bianca
 - Module system
-- Intro to transfering files to and from Bianca
+- Intro to transferring files to and from Bianca
 - Compute nodes and slurm
 - Summary
 - Q/A
