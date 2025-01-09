@@ -16,9 +16,9 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
-**Login help session:** TBD.
+**Login help session:** TBD
 
-Registration form (soon open)
+[Registration form](https://forms.gle/SxtyoXYdn541Z3Lr7)
 
 - Introduction
 - Intro to NAISS-Sens
