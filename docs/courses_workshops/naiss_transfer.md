@@ -9,8 +9,14 @@ The workshop is intended for beginner users but with some Linux experience, see 
 - Be able to log in in one way (instructions when you get an account)
 - Be able to navigate the filesystem under Linux
     - example linux material: https://uppmax.github.io/uppmax_intro_day_1/sessions/use_terminal/ and exercise 1-3
+ 
+## Preliminary schedule overview
 
-## Next course instance
+- FileZilla
+- Log in with terminal and file transfer using rsync
+- File transfer using scp and sftp
+
+## Coming course instance
 
 When: 7 March, 2025, 9.00-12.00
 Where: Online via Zoom
