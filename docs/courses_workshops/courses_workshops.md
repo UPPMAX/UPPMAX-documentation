@@ -1,4 +1,4 @@
-# Workshops and courses
+# Courses and workshops
 
 At UPPMAX, we teach, by providing workshops and courses.
 This page gives an overview of these.
