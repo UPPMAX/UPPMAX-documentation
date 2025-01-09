@@ -1,6 +1,12 @@
 # Workshops and courses
 
+At UPPMAX, we teach, by providing workshops and courses.
+This page gives an overview of these.
+
 ## UPPMAX Local
+
+The courses on how to use our local clusters,
+such as Rackham and Snowy.
 
 - [Introduction to UPPMAX and Linux](uppmax_intro_course.md)
 
@@ -8,10 +14,16 @@
 
 ## NAISS-Sens
 
+The courses on how to use Bianca,
+a NAISS HPC cluster for sensitive data.
+
 - [Introduction to Bianca](bianca_intro.md)
     - [Course material](https://uppmax.github.io/bianca_workshops/intro/)
 
 ## NAISS centre agnostic
+
+UPPMAX is part of NAISS and we do teach things that apply
+to all NAISS HPC clusters.
 
 ### Getting started
 
