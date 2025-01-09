@@ -29,7 +29,7 @@ Below is a step-by-step procedure to start VSCode.
 
 ???- question "Prefer a video?"
 
-    See [this YouTube video]([https://youtu.be/RG2FWA8yoUs](https://youtu.be/MkrKi5oU_po)).
+    See [this YouTube video](https://youtu.be/MkrKi5oU_po).
 
     An older version of this procedure, where the 'Remote Tunnel'
     extension is used, can be seen in [this YouTube video](https://youtu.be/RG2FWA8yoUs).
