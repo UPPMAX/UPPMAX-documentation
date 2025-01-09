@@ -28,7 +28,7 @@ to all NAISS HPC clusters.
 
 ### Getting started
 
-- [Connecting and file transfer](naiss_connect_transfer.md)
+- [Connecting and file transfer](naiss_transfer.md)
 
 ### Programming
 
