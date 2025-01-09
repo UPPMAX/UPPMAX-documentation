@@ -28,7 +28,7 @@
     Intro to Python 2025-03-07
 
     This is the registration form for the UPPMAX course 'Intro to Python',
-    https://docs.uppmax.uu.se/workshops_courses/intro_to_python/ 
+    [https://docs.uppmax.uu.se/workshops_courses/intro_to_python/](https://docs.uppmax.uu.se/workshops_courses/intro_to_python/)
 
     What is your email address?
 
@@ -137,7 +137,7 @@ Before the course, you must have done these *four* things:
     answer or to say 'I do not know'. This is what a former
     learner had to say on this:
 
-    > As a learner, you do not want to be berated when giving an answer. 
+    > As a learner, you do not want to be berated when giving an answer.
     > Richel tries to gently deal with a wrong answer and he does this great
     >
     > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/2024_01/))
