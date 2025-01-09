@@ -3,6 +3,8 @@
 At UPPMAX, we teach, by providing workshops and courses.
 This page gives an overview of these.
 
+Course dates are (or should be) provided at each course's website.
+
 ## UPPMAX Local
 
 The courses on how to use our local clusters,
