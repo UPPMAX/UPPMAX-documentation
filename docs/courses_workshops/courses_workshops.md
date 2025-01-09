@@ -12,7 +12,6 @@ such as Rackham and Snowy.
 
 - [Introduction to UPPMAX and Linux](uppmax_intro_course.md)
 
-    - [Content of day 1](https://uppmax.github.io/uppmax_intro_day_1/)
 
 ## NAISS-Sens
 
