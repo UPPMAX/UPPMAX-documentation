@@ -6,10 +6,11 @@
     >
     > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240830/))
 
-    This course helps you get started with Python,
+    This 1-day course helps you get started with Python,
     by working through an online and free book.
     We make use of the UPPMAX HPC cluster
-    to write and run Python code.
+    to write and run Python code,
+    but you may use a different machine if you prefer.
     The pace of this highly interactive course
     is set by the majority of learners,
     ensuring that any complete beginner
@@ -19,7 +20,7 @@
 
     - Course information and registration: [https://docs.uppmax.uu.se/workshops_courses/intro_to_python/](https://docs.uppmax.uu.se/workshops_courses/intro_to_python/)
     - When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
-    - Where: Online via Zoom at [https://bit.ly/tlc_room_with_passcode_42](https://bit.ly/tlc_room_with_passcode_42) (the passcode is in the link)
+    - Where: Online via Zoom
     - Course material: [https://uppmax.github.io/uppmax_intro_python/](https://uppmax.github.io/uppmax_intro_python/)
     - Earlier evaluations of the course: [https://uppmax.github.io/uppmax_intro_python/evaluations/](https://uppmax.github.io/uppmax_intro_python/evaluations/)
 
@@ -36,10 +37,11 @@
 >
 > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240830/))
 
-This course helps you get started with Python,
+This 1-day course helps you get started with Python,
 by working through an online and free book.
 We make use of the UPPMAX HPC cluster
-to write and run Python code.
+to write and run Python code,
+but you may use a different machine if you prefer.
 The pace of this highly interactive course
 is set by the majority of learners,
 ensuring that any complete beginner
