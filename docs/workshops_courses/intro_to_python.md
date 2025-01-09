@@ -22,9 +22,16 @@ You will:
 - Write Python code on an HPC cluster
 - Run Python scripts on an HPC cluster
 
-Before the course, you must have:
+Practical matters:
 
-- A user account on a Swedish academic HPC cluster
+- When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
+- Where: Online via Zoom at [https://bit.ly/tlc_room_with_passcode_42](https://bit.ly/tlc_room_with_passcode_42) (the passcode is in the link)
+- [Course material](https://uppmax.github.io/uppmax_intro_python/)
+- [Earlier evaluations of the course](https://uppmax.github.io/uppmax_intro_python/evaluations/)
+
+Before the course, you must have these *three* things:
+
+- Prerequisite 1/3: A user account on a Swedish academic HPC cluster
 
 ???- question "How can I check if I have this?"
 
@@ -42,7 +49,7 @@ Before the course, you must have:
 
     Contact `richel.bilderbeek@uppmax.uu.se`
 
-- Be able to login to an HPC cluster using SSH
+- Prerequisite 2/3: Be able to login to an HPC cluster using SSH
 
 ???- question "How can I check if I have this?"
 
@@ -67,19 +74,44 @@ Before the course, you must have:
 
     Contact `richel.bilderbeek@uppmax.uu.se`
 
-When: 7 March, 2025, 9.00-12.00 Where: Online via Zoom
+- Prerequisite 3/3: have a good Zoom setup
 
-- When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
-- Where: Online via Zoom
+???- question "How can I check if I have this?"
 
-Registration: forms
+    - You are in a room where you can talk
+    - You talk into a (standalone or headset) microphone
+    - Others can clearly hear you when you talk
+    - Others can see you
+    - You can hear others clearly when they talk
 
-- [Course material](https://uppmax.github.io/uppmax_intro_python/)
+???- question "How to get this?"
 
-More information:
+    - Find/schedule/book a room where you can talk
+    - Buy a simple headset
 
-- [Evaluations of the course](https://uppmax.github.io/uppmax_intro_python/evaluations/)
- 
+???- question "What if I don't have this? Is that OK?"
+
+    No.
+
+    You will feel left out, as the course in highly interactive.
+    It would be weird to the other learners.
+
+???- question "What if I have social anxiety?"
+
+    Sorry to hear that. In this course, it is OK to give a wrong
+    answer or to say 'I do not know'. This is what a former
+    learner had to say on this:
+
+    > As a learner, you do not want to be berated when giving an answer. 
+    > Richel tries to gently deal with a wrong answer and he does this great
+    >
+    > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/2024_01/))
+
+    You are welcome to try and leave anytime you want.
+    The course material is made for self-study too, with videos
+    for all exercises.
+    Do fill in the evaluation when you leave early :-)
+
 ## Coordinators
 
-- 
+- ?
