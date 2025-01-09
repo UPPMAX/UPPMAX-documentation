@@ -113,7 +113,7 @@ Save the file and close `nano`.
 
 On Bianca, do:
 
-```
+```bash
 chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~

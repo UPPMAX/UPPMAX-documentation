@@ -85,7 +85,7 @@ In the bottom left of VSCode, click on the popup window 'Connect'.
 
 ???- question "How does that look like?"
 
-![](./img/vscode_on_rackham_new_remote_click_connect.png)
+![Click on 'Connect'](./img/vscode_on_rackham_new_remote_click_connect.png)
 
 ### 8. Done
 
@@ -110,7 +110,7 @@ You are now connected: there is a new window with VSCode connected to Rackham.
 
 ### 1. Connect your local VSCode to VSCode server running on Rackham
 
-Perform steps mentioned under the section [Procedure to start VSCode](#procedure-to-start-vscode).  
+Perform steps mentioned under the section [Procedure to start VSCode](#procedure).
 
 When you first establish the ssh connection to Rackham, your VSCode server directory `.vscode-server` will be created in your home folder `/home/[username]`.  
 
