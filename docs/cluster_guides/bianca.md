@@ -28,7 +28,7 @@ In the near future, Bianca will be replaced by [Maja](maja.md).
     - [RStudio](../software/rstudio_on_bianca.md)
     - :no_entry: [VSCode](../software/vscode_on_bianca.md)
     - [VSCodium](../software/vscodium_on_bianca.md)
-- [Workshops and courses](../workshops_courses/workshops_courses.md)
+- [Courses and workshops](../courses_workshops/courses_workshops.md)
 - NAISS-sens
 - Best practices
     - [Git on Bianca](../software/git_on_bianca.md)
