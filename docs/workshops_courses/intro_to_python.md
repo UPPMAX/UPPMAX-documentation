@@ -1,5 +1,28 @@
 # Introduction to Python
 
+???- info "Announcement text"
+
+    > Great course. Now, Python is not scary anymore.
+    >
+    > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240830/))
+
+    This course helps you get started with Python,
+    by working through an online and free book.
+    We make use of the UPPMAX HPC cluster
+    to write and run Python code.
+    The pace of this highly interactive course
+    is set by the majority of learners,
+    ensuring that any complete beginner
+    has enough time for exercises.
+    At the end of the day, you should feel comfortable with the basics
+    of Python and feel familiar to a book on Python to help you on your next steps.
+
+    - Course information and registration: [https://docs.uppmax.uu.se/workshops_courses/intro_to_python/](https://docs.uppmax.uu.se/workshops_courses/intro_to_python/)
+    - When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
+    - Where: Online via Zoom at [https://bit.ly/tlc_room_with_passcode_42](https://bit.ly/tlc_room_with_passcode_42) (the passcode is in the link)
+    - Course material: [https://uppmax.github.io/uppmax_intro_python/](https://uppmax.github.io/uppmax_intro_python/)
+    - Earlier evaluations of the course: [https://uppmax.github.io/uppmax_intro_python/evaluations/](https://uppmax.github.io/uppmax_intro_python/evaluations/)
+
 > Great course. Now, Python is not scary anymore.
 >
 > A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240830/))
@@ -24,14 +47,17 @@ You will:
 
 Practical matters:
 
+- Registration form: [here](...)
 - When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
 - Where: Online via Zoom at [https://bit.ly/tlc_room_with_passcode_42](https://bit.ly/tlc_room_with_passcode_42) (the passcode is in the link)
 - [Course material](https://uppmax.github.io/uppmax_intro_python/)
 - [Earlier evaluations of the course](https://uppmax.github.io/uppmax_intro_python/evaluations/)
 
-Before the course, you must have these *three* things:
+Before the course, you must have done these *four* things:
 
-- Prerequisite 1/3: A user account on a Swedish academic HPC cluster
+- Prerequisite 1/4: You have registered at our registration form at [here](...)
+
+- Prerequisite 2/4: A user account on a Swedish academic HPC cluster
 
 ???- question "How can I check if I have this?"
 
@@ -49,7 +75,7 @@ Before the course, you must have these *three* things:
 
     Contact `richel.bilderbeek@uppmax.uu.se`
 
-- Prerequisite 2/3: Be able to login to an HPC cluster using SSH
+- Prerequisite 3/4: Be able to login to an HPC cluster using SSH
 
 ???- question "How can I check if I have this?"
 
@@ -74,7 +100,7 @@ Before the course, you must have these *three* things:
 
     Contact `richel.bilderbeek@uppmax.uu.se`
 
-- Prerequisite 3/3: have a good Zoom setup
+- Prerequisite 4/4: have a good Zoom setup
 
 ???- question "How can I check if I have this?"
 
@@ -111,6 +137,7 @@ Before the course, you must have these *three* things:
     The course material is made for self-study too, with videos
     for all exercises.
     Do fill in the evaluation when you leave early :-)
+
 
 ## Coordinators
 
