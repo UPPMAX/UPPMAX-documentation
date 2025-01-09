@@ -23,9 +23,9 @@
 }
 
 /* Maximum space for text block */
-.md-grid {
+/* .md-grid {
   max-width: 70%; /* or 100%, if you want to stretch to full-width */
-}
+} */
 
 /* https://github.com/squidfunk/mkdocs-material/issues/4832#issuecomment-1374891676 */
 .md-nav__link[for] {
