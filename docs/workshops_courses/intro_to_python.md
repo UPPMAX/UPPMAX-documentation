@@ -47,7 +47,7 @@ You will:
 
 Practical matters:
 
-- Registration form: [here](...)
+- Registration form: [here](https://forms.gle/kzazFVBBo6HPHfub9)
 - When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
 - Where: Online via Zoom at [https://bit.ly/tlc_room_with_passcode_42](https://bit.ly/tlc_room_with_passcode_42) (the passcode is in the link)
 - [Course material](https://uppmax.github.io/uppmax_intro_python/)
@@ -55,7 +55,7 @@ Practical matters:
 
 Before the course, you must have done these *four* things:
 
-- Prerequisite 1/4: You have registered at our registration form at [here](...)
+- Prerequisite 1/4: You have registered at our registration form at [here](https://forms.gle/kzazFVBBo6HPHfub9)
 
 - Prerequisite 2/4: A user account on a Swedish academic HPC cluster
 
