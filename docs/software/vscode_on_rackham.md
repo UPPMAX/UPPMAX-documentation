@@ -50,7 +50,7 @@ In VSCode, install the VSCode 'Remote-SSH' plugin.
 
 ???- question "How does that look like?"
 
-    ![Install the VSCode 'Remote-SSH' plugin](./img/vscode_install_remote_ssh.png)
+    ![Install the VSCode 'Remote-SSH' plugin](./img/vscode_on_rackham_install_remote_ssh.png)
 
 ### 4. In the 'Remote Explorer' tab, at SSH, click the plus
 
