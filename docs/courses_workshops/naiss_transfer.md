@@ -1,4 +1,4 @@
-# Connecting to HPC systems & File transfer course
+# Transferring files workshop
 
 Welcome to a 3-hour workshop where you learn to connect and transfer files in Swedish academic HPC clusters.
 
