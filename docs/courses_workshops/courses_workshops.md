@@ -10,7 +10,7 @@ Course dates are (or should be) provided at each course's website.
 The courses on how to use our local clusters,
 such as Rackham and Snowy.
 
-- [Introduction to UPPMAX and Linux](uppmax_intro_course.md)
+- [Introduction to Linux and UPPMAX](uppmax_intro_course.md)
 
 
 ## NAISS-Sens
@@ -18,7 +18,7 @@ such as Rackham and Snowy.
 The courses on how to use Bianca,
 a NAISS HPC cluster for sensitive data.
 
-- [Introduction to Bianca](bianca_intro.md)
+- [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
     - [Course material](https://uppmax.github.io/bianca_workshops/intro/)
 
 ## NAISS centre agnostic
