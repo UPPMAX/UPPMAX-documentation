@@ -21,5 +21,6 @@ Prereqs:
 When: 7 March, 2025, 9.00-12.00
 Where: Online via Zoom
 
-Registration: forms
+[Registration](https://forms.gle/LuQBE3u2NbpqnThVA)
 
+Course material: TBA
