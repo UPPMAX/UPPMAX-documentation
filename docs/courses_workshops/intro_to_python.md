@@ -93,7 +93,7 @@ Before the course, you must have done these *four* things:
     This depends on the HPC cluster you are using.
     For UPPMAX's Rackham, it look similar to this:
 
-    ![Logged into Rackham](rackham_logged_in.png)
+    ![Logged into Rackham](./img/rackham_logged_in.png)
 
 ???- question "Is it OK if I can login using other methods?"
 
