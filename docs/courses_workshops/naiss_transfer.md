@@ -18,12 +18,12 @@ The workshop is intended for beginner users but with some Linux experience, see 
 
 ## Coming course instance
 
-When: 7 March, 2025, 9.00-12.00
-Where: Online via Zoom
+- **When: Fri 7 March, 2025, 9.00-12.00**
+- Where: Online via Zoom
 
-[Registration](https://forms.gle/LuQBE3u2NbpqnThVA)
+- [Registration](https://forms.gle/LuQBE3u2NbpqnThVA)
 
-Course material: TBA
+- Course material: TBA
 
 ## Coming course instances
 
