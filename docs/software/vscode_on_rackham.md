@@ -77,7 +77,7 @@ e.g. the first, which is similar to `/home/sven/.ssh/config`.
 
 ???- question "How does that look like?"
 
-    ![](./img/vscode_on_rackham_new_remote_ssh_config.png)
+    ![Type a location for an SSH config file](./img/vscode_on_rackham_new_remote_ssh_config.png)
 
 ### 7. Click 'Connect'
 
@@ -95,11 +95,11 @@ You are now connected: there is a new window with VSCode connected to Rackham.
 
     The window that is connected to a Rackham home folder:
 
-    ![](./img/vscode_on_rackham_connected.png)
+    ![Connected to Rackham in subwindow](./img/vscode_on_rackham_connected.png)
 
     Going to `/proj/staff`:
 
-    ![](./img/vscode_on_rackham_show_proj_folder.png)
+    ![Connected to Rackham's project folder](./img/vscode_on_rackham_show_proj_folder.png)
 
 ## Setting up VSCode for Rackham and Snowy
 
