@@ -35,8 +35,7 @@ to all NAISS HPC clusters.
 
 #### Python
 
-- [Intro to Python](https://uppmax.github.io/uppmax_intro_python/)
-    - [Course material](https://uppmax.github.io/uppmax_intro_python/)
+- [Intro to Python](intro_to_python.md)
 
 - [HPC-Python](https://www.uu.se/centrum/uppmax/utbildning/kurser-och-workshops/hpc-python)
     - [Course material](https://uppmax.github.io/HPC-python/index.html)
