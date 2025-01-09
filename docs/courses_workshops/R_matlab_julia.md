@@ -5,10 +5,6 @@ The course will consist of lectures interspersed with hands-on sessions where yo
 
 We will mainly use Tetralith at NSC for the examples for the course, but there is little difference in how you use the various HPC centres in Sweden and you should have no problems applying the knowledge to the other systems.
 
-This course will consist of three days (**9:00-16:00**), one for each language. It is a cooperation between HPC2N, LUNARC, and UPPMAX. 
-
-**Dates: 24-26 March 2025**
-
 **NOTE:** the course will **NOT** cover the topic of improving your programming skills in R, Matlab, and Julia. Likewise, we will not cover advanced techniques for code optimization.
 
 **NOTE** if you are interested in running Python at Swedish HPC centres, then we recommend the course "Introduction to Python and Using Python in an HPC environment" which will run 24-25 April + 28-29 April. The first day is the introduction to Python and it is possible to just participate that day.
@@ -19,19 +15,18 @@ This course will consist of three days (**9:00-16:00**), one for each language. 
 
 ## Schedule
 
+This course will consist of three days (**9:00-16:00**), one for each language. It is a cooperation between HPC2N, LUNARC, and UPPMAX.
+
 Full schedule can be found on the rendered presentations for each course day: <https://uppmax.github.io/R-python-julia-matlab-HPC/>
 
-**Day 1, Mon. 24. March**
-
-- 9:00 - 16:00 R
+- **Day 1, Mon. 24. March**
+    - 9:00 - 16:00 R
  
-**Day 2, Tue. 25. March**
-
-- 9:00 - 16:00 Matlab
+- **Day 2, Tue. 25. March**
+    - 9:00 - 16:00 Matlab
  
-**Day 3, Wed. 26. March**
-
-- 9:00 - 16:00 Julia
+- **Day 3, Wed. 26. March**
+    - 9:00 - 16:00 Julia
 
 ## Materials
 
@@ -40,7 +35,7 @@ Full schedule can be found on the rendered presentations for each course day: <h
     Recordings are here: TBA
     Q/A document for each day, as PDF: TBA
 
-## Links to refresher material:
+## Links to refresher material
 
 This is NOT in any way mandatory for participation or part of the course. It is a list of links to useful refresher material for those who would like to read up on Julia/R/Matlab/Linux/etc. before the course.
 
@@ -90,5 +85,3 @@ NOTE:
     You will likely also be given access to a storage area connected to the compute project. Any data you store there should be course-related and if you wish to save it you should copy it to somewhere else soon after the course as it will be deleted about a month later.
 
 The course uses compute resources provided by the National Academic Infrastructure for Supercomputing in Sweden (NAISS) at NSC partially funded by the Swedish Research Council through grant agreement no. 2022-06725.
-
-
