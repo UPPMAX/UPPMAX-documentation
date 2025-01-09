@@ -19,7 +19,7 @@ The courses on how to use Bianca,
 a NAISS HPC cluster for sensitive data.
 
 - [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
-    - [Course material](https://uppmax.github.io/bianca_workshops/intro/)
+
 
 ## NAISS centre agnostic
 

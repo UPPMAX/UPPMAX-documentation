@@ -30,4 +30,4 @@ Registration form (soon open)
 - Summary
 - Q/A
 
-<https://uppmax.github.io/bianca_workshops/intro/>
+[Course material](https://uppmax.github.io/bianca_workshops/intro/)
