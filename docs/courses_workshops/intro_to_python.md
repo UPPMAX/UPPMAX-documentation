@@ -60,7 +60,7 @@ Practical matters:
 
 - Registration form: [here](https://forms.gle/kzazFVBBo6HPHfub9)
 - When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
-- Where: Online via Zoom at [https://bit.ly/tlc_room_with_passcode_42](https://bit.ly/tlc_room_with_passcode_42) (the passcode is in the link)
+- Where: Online via Zoom. Zoom room and password will be mailed :+1:
 - [Course material](https://uppmax.github.io/uppmax_intro_python/)
 - [Earlier evaluations of the course](https://uppmax.github.io/uppmax_intro_python/evaluations/)
 
