@@ -6,7 +6,8 @@ The workshop is intended for beginner users but with some Linux experience, see 
 
 ## Prerequisites
 
-- Be able to log in in one way (instructions when you get an account)
+- Be able to login to your cluster's remote desktop environment, using either a website or a local ThinLinc client
+- Be able to login using an SSH client
 - Be able to navigate the filesystem under Linux
     - example linux material: <https://uppmax.github.io/uppmax_intro_day_1/sessions/use_terminal/> and exercise 1-3
 
