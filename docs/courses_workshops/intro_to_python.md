@@ -8,9 +8,8 @@
 
     This 1-day course helps you get started with Python,
     by working through an online and free book.
-    We make use of the UPPMAX HPC cluster
-    to write and run Python code,
-    but you may use a different machine if you prefer.
+    We make use of HPC clusters
+    to write and run Python code.
     The pace of this highly interactive course
     is set by the majority of learners,
     ensuring that any complete beginner
