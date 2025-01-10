@@ -1,3 +1,9 @@
+---
+tags:
+  - ThinLinc
+  - Rackham
+---
+
 # ThinLinc on Rackham
 
 ![Rackham's remote desktop environment via webbrowser](../getting_started/img/rackham_via_remote_desktop_50.jpg)

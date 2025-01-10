@@ -1,3 +1,9 @@
+---
+tags:
+  - ThinLinc
+  - Bianca
+---
+
 # ThinLinc on Bianca
 
 ![Bianca remote desktop](./img/filezilla_file_on_bianca.png)

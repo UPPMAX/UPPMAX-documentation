@@ -1,3 +1,8 @@
+---
+tags:
+  - ThinLinc
+---
+
 # ThinLinc
 
 ![Rackham remote desktop](../cluster_guides/img/rackham_remote_desktop_extract_file.png)
@@ -69,10 +74,6 @@ and we have also disabled all "local devices" (USB-sticks, sound and printers)
 on server side. So no point to fiddle with these specific options.
 
 
-## ThinLinc error: no agent server available
+## Troubleshooting
 
-![ThinLinc error: no agent server available](./img/thinlinc_error_no_agent_server_available.png)
-
-> ThinLinc error: no agent server available
-
-Try again :-)
+- [ThinLinc error: no agent server was available](thinlinc_error_no_server_agent_was_available.md)
