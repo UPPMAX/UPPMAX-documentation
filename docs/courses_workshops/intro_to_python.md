@@ -8,9 +8,8 @@
 
     This 1-day course helps you get started with Python,
     by working through an online and free book.
-    We make use of the UPPMAX HPC cluster
-    to write and run Python code,
-    but you may use a different machine if you prefer.
+    We make use of HPC clusters
+    to write and run Python code.
     The pace of this highly interactive course
     is set by the majority of learners,
     ensuring that any complete beginner
@@ -60,7 +59,7 @@ Practical matters:
 
 - Registration form: [here](https://forms.gle/kzazFVBBo6HPHfub9)
 - When: Tuesday March 4th 2025, 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/overviews/schedule/))
-- Where: Online via Zoom at [https://bit.ly/tlc_room_with_passcode_42](https://bit.ly/tlc_room_with_passcode_42) (the passcode is in the link)
+- Where: Online via Zoom. Zoom room and password will be mailed :+1:
 - [Course material](https://uppmax.github.io/uppmax_intro_python/)
 - [Earlier evaluations of the course](https://uppmax.github.io/uppmax_intro_python/evaluations/)
 
@@ -93,7 +92,7 @@ Before the course, you must have done these *four* things:
     This depends on the HPC cluster you are using.
     For UPPMAX's Rackham, it look similar to this:
 
-    ![Logged into Rackham](rackham_logged_in.png)
+    ![Logged into Rackham](./img/rackham_logged_in.png)
 
 ???- question "Is it OK if I can login using other methods?"
 

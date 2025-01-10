@@ -513,7 +513,7 @@ Python programming [here](python_programming.md)
 
 ## UPPMAX Python-related courses
 
-See [the UPPMAX workshops and courses](../workshops_courses/workshops_courses.md)
+See [the UPPMAX courses and workshops](../courses_workshops/courses_workshops.md)
 to find UPPMAX courses related to Python.
 
 ## Installing Python packages

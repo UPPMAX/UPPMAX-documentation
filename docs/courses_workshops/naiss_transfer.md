@@ -4,12 +4,13 @@ In this 3-hour workshop you learn to transfer files to or from Swedish academic 
 
 The workshop is intended for beginner users but with some Linux experience, see the course link below. You do not need to be a member of a NAISS project in order to join the workshop. A course project on one of the NAISS clusters will be available to those.
 
-## Prerequisites:
+## Prerequisites
 
-- Be able to log in in one way (instructions when you get an account)
+- Be able to login to your cluster's remote desktop environment, using either a website or a local ThinLinc client
+- Be able to login using an SSH client
 - Be able to navigate the filesystem under Linux
-    - example linux material: https://uppmax.github.io/uppmax_intro_day_1/sessions/use_terminal/ and exercise 1-3
- 
+    - example linux material: <https://uppmax.github.io/uppmax_intro_day_1/sessions/use_terminal/> and exercise 1-3
+
 ## Preliminary schedule overview
 
 - FileZilla
@@ -18,12 +19,12 @@ The workshop is intended for beginner users but with some Linux experience, see 
 
 ## Coming course instance
 
-When: 7 March, 2025, 9.00-12.00
-Where: Online via Zoom
+- **When: Fri 7 March, 2025, 9.00-12.00**
+- Where: Online via Zoom
 
-[Registration](https://forms.gle/LuQBE3u2NbpqnThVA)
+- [Registration](https://forms.gle/LuQBE3u2NbpqnThVA)
 
-Course material: TBA
+- Course material: TBA
 
 ## Coming course instances
 
