@@ -16,6 +16,15 @@ A [ThinLinc error](thinlinc.md)
 
 This sometimes happens.
 
+???- question "Need a more detailed answer?"
+
+    When one has reached this point, it tends to be a matter of the login node of the individual project.
+    We from UPPMAX might be able to verify.
+    The action to take by UPPMAX might be to reboot the node,
+    but it's naturally possible that something else has happened
+    to our setup (of this UPPMAX node) somehow.
+
 All you can do, is try again.
 
 If this fails multiple times, [contact support](../support.md).
+
