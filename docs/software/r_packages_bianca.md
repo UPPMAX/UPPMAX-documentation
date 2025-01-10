@@ -39,7 +39,7 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 
 ### Install on Rackham
 
-- [R on UPPMAX course](https://uppmax.github.io/R-python-julia-matlab-HPC/r/packagesR.html){:target="_blank"}
+- [R on UPPMAX course](https://uppmax.github.io/R-matlab-julia-HPC/r/packagesR.html){:target="_blank"}
 - **note** First decide on which R version it should be based on and load that R_packages module.
 - If not stated otherwise, your installation will end up in the ``~/R`` directory within your home directory
 
