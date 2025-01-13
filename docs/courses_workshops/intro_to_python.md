@@ -9,7 +9,7 @@ tags:
 
 # Introduction to Python
 
-!!! tip 
+!!! tip
 
     > Great course. Now, Python is not scary anymore.
 
