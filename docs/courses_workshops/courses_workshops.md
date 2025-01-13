@@ -1,3 +1,12 @@
+---
+tags:
+  - courses
+  - workshops
+  - teaching
+  - classes
+  - sessions
+---
+
 # Courses and workshops
 
 At UPPMAX, we teach, by providing workshops and courses.

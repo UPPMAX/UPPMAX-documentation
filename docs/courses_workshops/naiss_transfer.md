@@ -1,3 +1,11 @@
+---
+tags:
+  - course
+  - workshop
+  - file transfer
+  - transfer
+---
+
 # Transferring Files to/from HPC Clusters
 
 In this 3-hour workshop you learn to transfer files to or from Swedish academic HPC clusters. We will cover graphical as well as terminal tools and you will work highly interactively. At the end of the day, you should be comfortable in transferring files between local computer and a cluster and cross-clusters, and choosing the right tool for your use cases.

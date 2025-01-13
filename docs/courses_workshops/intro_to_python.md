@@ -1,3 +1,12 @@
+---
+tags:
+  - course
+  - workshop
+  - Python
+  - intro
+  - introduction
+---
+
 # Introduction to Python
 
 ???- info "Announcement text"

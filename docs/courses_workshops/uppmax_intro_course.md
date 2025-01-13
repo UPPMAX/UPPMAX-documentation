@@ -1,3 +1,13 @@
+---
+tags:
+  - course
+  - workshop
+  - UPPMAX
+  - Linux
+  - intro
+  - introduction
+---
+
 # Introduction to Linux and UPPMAX
 
 ## Overview and Schedule

@@ -1,3 +1,10 @@
+---
+tags:
+  - course
+  - workshop
+  - AWK
+---
+
 # Awk workshop
 
 AWK is an interpreted programming language designed for text processing and typically used as a data extraction and reporting tool.
