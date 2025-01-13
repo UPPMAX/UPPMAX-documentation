@@ -185,4 +185,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.tilde      
+  - pymdownx.tilde     
+
+plugins:
+  - search
+  - open-in-new-tab 
