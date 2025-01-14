@@ -29,24 +29,18 @@ a NAISS HPC cluster for sensitive data.
 
 - [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
 
-
 ## NAISS centre agnostic
 
 UPPMAX is part of NAISS and we do teach things that apply
 to all NAISS HPC clusters.
 
-### Getting started
-
 - [Connecting and file transfer](naiss_transfer.md)
-
-### Programming
-
-#### Python
-
 - [Intro to Python](intro_to_python.md)
-
 - [HPC-Python](https://www.uu.se/centrum/uppmax/utbildning/kurser-och-workshops/hpc-python)
     - [Course material](https://uppmax.github.io/HPC-python/index.html)
+
+[The NAISS calander](https://nextcloud.liu.se/apps/calendar/p/pRNamCPggrz4x4Dg/dayGridMonth/now)
+shows all NAISS courses.
 
 #### Other
 
