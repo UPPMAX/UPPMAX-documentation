@@ -18,23 +18,23 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 
 The workshop will consist of short lectures and longer Q&A sessions.
 
-**Tentative schedule**
+## Tentative schedule
 
 - Introduction
 - NAISS-SENS summary
 - IDE:s on Bianca (selection of below)
-  - VSCode
-  - Jupyter
-  - RStudio
+    - VSCode
+    - Jupyter
+    - RStudio
 - Transferring files to and from Bianca
-  - several methods
+    - several methods
 - Slurm jobs
-  - jobstats
-  - GPU:s
+    - jobstats
+    - GPU:s
 - Software and packages installation on Bianca
-  - packages/libraries
-  - tools
-  - containers
+    - packages/libraries
+    - tools
+    - containers
 - Summary
 - Q/A and extra material
 
