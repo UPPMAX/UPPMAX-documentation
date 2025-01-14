@@ -1,8 +1,6 @@
 # Basic Singularity
 
-## Running and building Singularity containers.
-
-_Online training workshop_
+## Running and building Singularity containers
 
 The online workshop is an introduction to the basic concepts of containerized software environment solution within the Singularity framework <https://sylabs.io/singularity/>.
 
