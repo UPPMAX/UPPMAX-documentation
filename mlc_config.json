@@ -114,6 +114,10 @@
     },
     {
       "pattern": "https://www.youtu.be"
+    },
+    {
+      "pattern": "https://sylabs.io/singularity/"
     }
+    
   ]
 }
