@@ -11,7 +11,7 @@ We will cover:
 
 We will cover theory with bridging practical examples and applications to enhance the theoretical understanding of the principles.
 
-**Prerequisites:** We recmomend basic knowledge in the following topics.
+**Prerequisites:** We recommend basic knowledge in the following topics.
 
 - Git, of either
     - [NBIS/ELIXIR-SE Tools for Reproducible research](https://nbis-reproducible-research.readthedocs.io/en/course_2104/)
