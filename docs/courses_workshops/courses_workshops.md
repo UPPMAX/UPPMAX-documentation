@@ -39,8 +39,7 @@ to all NAISS HPC clusters.
 - [HPC-Python](https://www.uu.se/centrum/uppmax/utbildning/kurser-och-workshops/hpc-python)
     - [Course material](https://uppmax.github.io/HPC-python/index.html)
 
-[The NAISS calander](https://nextcloud.liu.se/apps/calendar/p/pRNamCPggrz4x4Dg/dayGridMonth/now)
-shows all NAISS courses.
+[The NAISS calendar](https://www.naiss.se/events/) shows all NAISS courses ans also Zoom-ins (virtual open house)
 
 #### Other
 
