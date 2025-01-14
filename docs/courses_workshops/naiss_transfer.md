@@ -25,4 +25,4 @@ The workshop is intended for beginner users but with some Linux experience, see 
 
 - [Course website](https://uppmax.github.io/naiss_file_transfer_course/)
 - [Future  course dates](https://uppmax.github.io/naiss_file_transfer_course/course_dates/)
-- [Course schedule](https://uppmax.github.io/naiss_file_transfer_course/schedule/) 
+- [Course schedule](https://uppmax.github.io/naiss_file_transfer_course/schedule/)
