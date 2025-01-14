@@ -11,12 +11,16 @@ We will cover:
 
 We will cover theory with bridging practical examples and applications to enhance the theoretical understanding of the principles.
 
-**Prerequisites:** We reccomend basic knowledge in the following topics.
+**Prerequisites:** We recmomend basic knowledge in the following topics.
 
 - Git, of either
     - [NBIS/ELIXIR-SE Tools for Reproducible research](https://nbis-reproducible-research.readthedocs.io/en/course_2104/)
     - or the CodeRefinery courses [Introduction to version control with Git](https://coderefinery.github.io/git-intro/) and [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/).
 - We assume familiarity with python at least equivalent of the [Intro to Python course](https://uppmax.github.io/uppmax_intro_python/) or [Python programming with applications to bioinformatics](https://uppsala.instructure.com/courses/85913).
+
+[Course material](https://uppmax.github.io/programming_formalisms/).
+
+## Coming course instance
 
 - **When:** May 5-9, 9:00-16:00
 - **Where:** Online (Zoom). The link will be sent to registered participants prior to the course.
@@ -24,4 +28,3 @@ We will cover theory with bridging practical examples and applications to enhanc
 
 - **Registration form:** Not open yet
 
-- The course material may be found [here](https://uppmax.github.io/programming_formalisms/).
