@@ -41,7 +41,7 @@ to all NAISS HPC clusters.
 
 [The NAISS calendar](https://www.naiss.se/events/) shows all NAISS courses ans also Zoom-ins (virtual open house)
 
-#### Other
+### Other
 
 - [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
     - [Course material](https://uppmax.github.io/HPC-python/index.html)
