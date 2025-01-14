@@ -39,4 +39,4 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 - Summary
 - Q/A
 
-[Workshop material](https://uppmax.github.io/bianca_workshops/intro/)
+[Workshop material](https://uppmax.github.io/bianca_workshops/beginner/intro/)
