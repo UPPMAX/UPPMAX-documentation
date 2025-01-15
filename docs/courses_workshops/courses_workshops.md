@@ -48,6 +48,7 @@ to all NAISS HPC clusters.
 - [Programming formalisms](https://uppmax.github.io/programming_formalisms_intro/index.html)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
 - [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
+- [Whisper for transcriptions](https://docs.uppmax.uu.se/software/whisper) 
 
 ## Other centers
 
