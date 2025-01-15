@@ -20,7 +20,7 @@ The courses on how to use our local clusters,
 such as Rackham and Snowy.
 
 - [Introduction to Linux and UPPMAX](uppmax_intro_course.md)
-- [Whisper for transcriptions](https://docs.uppmax.uu.se/software/whisper) 
+- [Whisper for transcriptions](https://docs.uppmax.uu.se/software/whisper)
 
 
 ## NAISS-Sens
