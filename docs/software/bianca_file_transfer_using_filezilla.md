@@ -2,9 +2,16 @@
 tags:
   - FileZilla
   - Bianca
+  - data transfer
+  - file transfer
+  - transfer
 ---
 
 # File transfer to/from Bianca using FileZilla
+
+Download and install from [UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows).
+
+You can also download the software from FileZilla website for [Windows](https://filezilla-project.org/download.php?platform=win64), [MacOS (intel)](https://filezilla-project.org/download.php?platform=osx) or [MacOS (Apple Silicon)](https://filezilla-project.org/download.php?platform=macos-arm64).
 
 ![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
 

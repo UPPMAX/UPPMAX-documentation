@@ -9,7 +9,9 @@ tags:
 
 # File transfer to/from Bianca using WinSCP
 
-Download and install [WinSCP](https://winscp.net/eng/docs/guide_install)
+Download and install from [UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows).
+
+You can also download the software from [WinSCP](https://winscp.net/eng/docs/guide_install) website.
 
 ![WinSCP](../img/winscp-snaphot1.png)
 
@@ -17,7 +19,17 @@ WinSCP is a secure file transfer tool that works under Windows.
 
 To transfer files to/from [Bianca](../cluster_guides/bianca.md) using WinSCP, do the following steps:
 
-## 1. Get inside SUNET
+## Procedure
+
+???- question "Would you like a video?"
+
+    If you like to see how to do file transfer from/to Bianca
+    using FileZilla, watch the video
+    [here](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
+
+To transfer files to/from Bianca using FileZilla, do the following steps:
+
+### 1. Get inside SUNET
 
 Get inside SUNET.
 
@@ -25,11 +37,11 @@ Get inside SUNET.
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
 
-## 2. Start WinSCP
+### 2. Start WinSCP
 
 Start WinSCP.
 
-## 3. Create a new site
+### 3. Create a new site
 
 In WinSCP, click on 'Create new site'.
 
@@ -46,6 +58,11 @@ For that site, use all standards, except:
 
     ![WinSCP](./img/winscp-snaphot1.png)
 
-## 4. Transfer files
+### 4. Click 'Connect'
+
+In WinSCP, click 'Connect'
+
+You will be asked for your password with two-factor identification, hence
+type `[your password][2FA code]`, e.g. `VerySecret123456`.
 
 Now you can transfer files between your local computer and [your `wharf` folder](../cluster_guides/wharf.md).
