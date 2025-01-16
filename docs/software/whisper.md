@@ -59,30 +59,13 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 **Job**: A request for transcribing/translating one or many recordings.  
 **Slurm**: "job" handler.  
 
-!!! info inline begin "Checklist for new project"  
+!!! info inline end "Checklist for new project"  
 
     * [x] SUPR account  
     * [x] Submit project proposal  
     * [x] UPPMAX username and password  
     * [x] UPPMAX two factor authentication.  
 
-!!! info inline begin "Checklist for existing project"  
-
-    * [x] SUPR account  
-    * [ ] Submit project proposal  
-    * [x] UPPMAX username and password  
-    * [x] UPPMAX two factor authentication.
-
-|
-
-|
-
-|
-
-|
-
-|
-  
 
 ## Accessing your project  
 
@@ -90,21 +73,19 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Register an [account on SUPR](https://supr.naiss.se/person/register/).  
 
-2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal).  
-
-3. Give adequate information while creating your proposal by following [this template](#proposal-template).  
+2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal). Give adequate information while creating your proposal by following [this template](#proposal-template).  
 
 4. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.  
 
-5. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account.  
+5. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))  
 
-6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/).  
+6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/). ([Video](https://youtube.com/clip/UgkxKxnaebkokAuFGEXqafoIQo-RjTPEZbeJ?si=VFFfDSY2DhAYMvDO)) 
 
 ## Whisper App
 
 ### Step 1: Data transfer from local computer to Bianca  
 
-1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) client (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) client (Mac, Windows or Linux). Instruction on how to do it is in their respective links.
+1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) app (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) app (Mac, Windows or Linux). Instruction on how to do it is in their respective links or watch FileZilla [Video](https://www.youtube.com/watch?v=V-iPQLjvByc&t=136s&ab_channel=Rich%C3%A8lJ.C.Bilderbeek).
 
 ### Step 2: Transcribing/Translating  
 
@@ -126,17 +107,22 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder.  
 NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. Do not keep files in `wharf` for a long period, as this folder is connected to the outside world and hence is a security risk. `proj`, on the other hand, is safe to keep data in as it is cut-off from the internet, so move your data there.  
 
-    ![whisper gui](./img/whisper_data_transfer.png){: style="height:60%;width:60%"}
+    ![whisper gui](./img/whisper_data_transfer.png){: style="height:90%;width:90%"}
 
 1. Click on Whisper application on Desktop. It would look like this:  
-    ![whisper gui](./img/whisper-gui.png){: style="height:60%;width:60%"}
+    ![whisper gui](./img/whisper-gui.png){: style="height:90%;width:90%"}
 
 
 1. Select appropriate options, or use the following for the best results:  
 
     **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
-    **Model**: large-v2  
+
     **Language used in recordings (leave blank for autodetection)**: If your language of choice is unavailable, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
+
+    **Select whether to transcribe or translate (english only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].  
+
+    **Model**: large-v2  
+
     **Initial Prompt**: [leave blank]  
 
 ### Step 3: Monitoring jobs  
@@ -161,9 +147,9 @@ Without timestamps: `.txt`
 With detailed model metadata: `.json`.  
 The most popular ones are `.srt` and `.txt` formats.  
 
-On Mac, `.srt` and `.vtt` can be opened in Word by:  
+On Mac, `.txt`, `.srt` and `.vtt` can be opened in Word by:  
 Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.  
-![Mac setting for UTF-8 export](../img/mac_utf8.png){: style="height:60%;width:60%"}  
+![Mac setting for UTF-8 export](../img/mac_utf8.png){: style="height:90%;width:90%"}  
 
 ??? tip "Advance settings"
 
