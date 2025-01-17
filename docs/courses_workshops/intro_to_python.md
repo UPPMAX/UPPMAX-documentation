@@ -36,7 +36,7 @@ You will:
 
 Practical matters:
 
-- Registration form: [here](https://uppmax.github.io/uppmax_intro_python/prereqs/)
+- Registration form: [here](https://forms.gle/6UVfCmjTeu1JUKms9)
 - Course prerequisites: [here](https://uppmax.github.io/uppmax_intro_python/prereqs/)
 - Date: Tuesday March 4th 2025 ([course dates](https://uppmax.github.io/uppmax_intro_python/course_dates/))
 - When: 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/schedule/))
