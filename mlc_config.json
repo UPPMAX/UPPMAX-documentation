@@ -47,6 +47,9 @@
       "pattern": "^https://www.naiss.se/$"
     },
     {
+      "pattern": "^https://www.naiss.se/events/$"
+    },
+    {
       "pattern": "^https://www.naiss.se/#application-rounds-for-compute-and-storage-resources$"
     },
     {
