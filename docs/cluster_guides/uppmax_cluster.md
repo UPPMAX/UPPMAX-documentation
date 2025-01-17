@@ -34,6 +34,8 @@ UPPMAX has, among others, the following clusters:
   In the near future, will be replaced by [Pelle](pelle.md)
 - [Snowy](snowy.md): regular data, long runs and GPU:s
 
+- [System usage](system_usage/system_usage.md) 
+
 Another cluster UPPMAX is involved in:
 
 - [Dardel](dardel.md): a general purpose HPC cluster in Stockholm.
