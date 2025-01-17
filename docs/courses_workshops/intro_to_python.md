@@ -44,6 +44,14 @@ Practical matters:
 - [Course material](https://uppmax.github.io/uppmax_intro_python/)
 - [Earlier evaluations of the course](https://uppmax.github.io/uppmax_intro_python/evaluations/)
 
+Questions?
+
+- About the course content: contact the main teacher, Richèl Bilderbeek,
+  at `richel.bilderbeek@uppmax.uu.se`
+- About higher-level things: contact the coordinator, Diana Iusan
+
 ## Coordinators
 
-- ?
+- Diana Iusan
+
+
