@@ -75,11 +75,11 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal). Give adequate information while creating your proposal by following [this template](#proposal-template).
 
-4. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
+3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
 
-5. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))
+4. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))
 
-6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/). ([Video](https://youtube.com/clip/UgkxKxnaebkokAuFGEXqafoIQo-RjTPEZbeJ?si=VFFfDSY2DhAYMvDO))
+5. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/). ([Video](https://youtube.com/clip/UgkxKxnaebkokAuFGEXqafoIQo-RjTPEZbeJ?si=VFFfDSY2DhAYMvDO))
 
 ## Whisper App
 
