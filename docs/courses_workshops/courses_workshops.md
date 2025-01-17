@@ -18,8 +18,9 @@ Course dates are (or should be) provided at each course's website.
 
 ### February
 
-Feb 10-12 [Introduction to Linux and UPPMAX](uppmax_intro_course.md){ .md-button .md-button--primary }
-Feb 13 [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
+[Feb 10-12 f0ed Introduction to Linux and UPPMAX](uppmax_intro_course.md){ .md-button .md-button--primary }
+
+[Feb 13 f0ed Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
 
 ### March
 
