@@ -79,7 +79,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 5. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))  
 
-6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/). ([Video](https://youtube.com/clip/UgkxKxnaebkokAuFGEXqafoIQo-RjTPEZbeJ?si=VFFfDSY2DhAYMvDO)) 
+6. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/). ([Video](https://youtube.com/clip/UgkxKxnaebkokAuFGEXqafoIQo-RjTPEZbeJ?si=VFFfDSY2DhAYMvDO))
 
 ## Whisper App
 
@@ -119,7 +119,7 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
 
     **Language used in recordings (leave blank for autodetection)**: If you have multiple languages in the selected recordings or you are unsure about the spoken language, leave it blank. If your language of choice is unavailable in the drop down, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
 
-    **Select whether to transcribe or translate (english only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].  
+    **Select whether to transcribe or translate (English only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].  
 
     **Model**: large-v2  
 
