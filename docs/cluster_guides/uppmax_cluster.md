@@ -34,7 +34,9 @@ UPPMAX has, among others, the following clusters:
   In the near future, will be replaced by [Pelle](pelle.md)
 - [Snowy](snowy.md): regular data, long runs and GPU:s
 
+<div align="center">
 [System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html){ .md-button .md-button--primary }
+</div>
 
 Another cluster UPPMAX is involved in:
 
