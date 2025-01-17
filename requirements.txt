@@ -1,3 +1,4 @@
 mkdocs-material>=8.5.9
 mkdocs>=1.4.2
 mkdocs-open-in-new-tab
+mkdocs-video

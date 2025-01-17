@@ -191,3 +191,8 @@ markdown_extensions:
 plugins:
   - search
   - open-in-new-tab 
+  - mkdocs-video:
+      video_muted: True
+      video_autoplay: True
+      video_loop: True
+      video_controls: False

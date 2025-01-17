@@ -87,6 +87,8 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) app (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) app (Mac, Windows or Linux). Instruction on how to do it is in their respective links or watch FileZilla [Video](https://www.youtube.com/watch?v=V-iPQLjvByc&t=136s&ab_channel=Rich%C3%A8lJ.C.Bilderbeek).
 
+    ![whisper gui](./img/whisper_data_transfer.png){: style="height:90%;width:90%"}
+
 ### Step 2: Transcribing/Translating
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.
@@ -95,35 +97,41 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
     ```bash
     module load Whisper-gui
-    ```
+    ```  
+ 
+    ![Terminal on Bianca Desktop](./img/whisper_terminal.png)  
+    
+    ??? tip "Video Demo"
 
-    ![Terminal on Bianca Desktop](./img/whisper_terminal.png)
+        ![type:video](./videos/whisper-module-load.webm)
 
 1. You shall now see `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).
 (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `wharf` and `proj` folder are already created.)
 
     ![Desktop view on Bianca after running `module load Whisper-gui`](./img/whisper_desktop.png)
 
-1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder.
-NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. Do not keep files in `wharf` for a long period, as this folder is connected to the outside world and hence is a security risk. `proj`, on the other hand, is safe to keep data in as it is cut-off from the internet, so move your data there.
+1. Open `wharf` and `proj` folder.  Select all the data that you transferred in `wharf`, drag and drop it into the  `proj` folder.  
+NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. Do not keep files in `wharf` for a long period, as this folder is connected to the outside world and hence is a security risk. `proj`, on the other hand, is safe to keep data in as it is cut-off from the internet, so move your data there.  
 
-    ![whisper gui](./img/whisper_data_transfer.png){: style="height:90%;width:90%"}
+1. Click on Whisper application on Desktop. It would look like this:  
 
-1. Click on Whisper application on Desktop. It would look like this:
     ![whisper gui](./img/whisper-gui.png){: style="height:90%;width:90%"}
 
+    Select appropriate options, or use the following for the best results:  
 
-1. Select appropriate options, or use the following for the best results:
+    * **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]  
 
-    **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]
+    * **Language used in recordings (leave blank for autodetection)**: If you have multiple languages in the selected recordings or you are unsure about the spoken language, leave it blank. If your language of choice is unavailable in the drop down, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).  
 
-    **Language used in recordings (leave blank for autodetection)**: If you have multiple languages in the selected recordings or you are unsure about the spoken language, leave it blank. If your language of choice is unavailable in the drop down, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).
+    * **Select whether to transcribe or translate (english only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].  
 
-    **Select whether to transcribe or translate (English only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].
+    * **Model**: large-v2  
 
-    **Model**: large-v2
+    * **Initial Prompt**: [leave blank]  
 
-    **Initial Prompt**: [leave blank]
+    ??? tip "Video Demo"
+
+        ![type:video](./videos/whisper-app-demo.webm)
 
 ### Step 3: Monitoring jobs
 
