@@ -116,6 +116,10 @@
       "pattern": "https://www.youtu.be"
     },
     {
+      "pattern": "https://supr.naiss.se/round/senssmall2024/create_proposal"
+    },
+
+    {
       "pattern": "https://sylabs.io/singularity/"
     }
     
