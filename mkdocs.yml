@@ -20,6 +20,7 @@ nav:
 #    - Running your first job: getting_started/first_job.md
   - Cluster user guide:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
+    - System usage: https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html
     - Clusters: 
       - Rackham: cluster_guides/rackham.md
       - Bianca: cluster_guides/bianca.md
