@@ -18,3 +18,14 @@
 - This will cause some of our earlier installed software to break. 
 - We hope that we has identidied most of them and that you will not notice any changes.
 
+## Modules
+
+- We have added many modules built by the tool Easybuild.
+- Presently they are found in a seperate tree.
+- [FIX]
+
+## SLURM
+
+- As of today you need to allocate compute nodes wth Rocky9 installed with the flag ``--res=rocky9``.
+- Running interactive sessions only work with the ``salloc`` command.
+- [FIX]
