@@ -28,7 +28,7 @@ Course dates are (or should be) provided at each course's website.
 
 [Transferring files to/from HPC Clusters <br> _Mar 7_](naiss_transfer.md){ .md-button .md-button--primary }
 
-[Introduction to Bianca: Handling Sensitive Research Data <br> _Mar 19_](bianca_intro.md){ .md-button .md-button--primary }
+[Introduction to Bianca: <br> Handling Sensitive Research Data <br> _Mar 19_](bianca_intro.md){ .md-button .md-button--primary }
 
 [Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26_](R_matlab_julia.md){ .md-button .md-button--primary }
 
@@ -42,7 +42,7 @@ Course dates are (or should be) provided at each course's website.
 
 [Transferring files to/from HPC Clusters <br> _May 16_](naiss_transfer.md){ .md-button .md-button--primary }
 
-[Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data <br> _May 23_](bianca_intermediate.md){ .md-button .md-button--primary }
+[Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _May 23_](bianca_intermediate.md){ .md-button .md-button--primary }
 
 
 ## About the courses
