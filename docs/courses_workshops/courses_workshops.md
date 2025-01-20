@@ -18,20 +18,23 @@ Course dates are (or should be) provided at each course's website.
 
 ### February
 
-[Introduction to Linux and UPPMAX <br> _Feb 10-12_](uppmax_intro_course.md){ .md-button .md-button--primary }
+[Introduction to Linux and UPPMAX <br> _Feb 10-12](uppmax_intro_course.md){ .md-button .md-button--primary }
 
-[Basic Singularity <br> _Feb 13_](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
+[Basic Singularity <br> _Feb 13](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
 
 ### March
 
-- March 4 [Intro to Python](intro_to_python.md)
-- March 7 [File transfer](naiss_transfer.md)
-- March 19 [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
-- March 24-26 [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
+[Introduction to Python <br> _Mar 4](intro_to_python.md){ .md-button .md-button--primary }
+
+[Transferring files to/from HPC Clusters <br> _Mar 7](naiss_transfer.md){ .md-button .md-button--primary }
+
+[Introduction to Bianca: Handling Sensitive Research Data <br> _Mar 19](bianca_intro.md){ .md-button .md-button--primary }
+
+[Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26](R_matlab_julia.md){ .md-button .md-button--primary }
 
 ### April
 
-- April 24-29 [HPC-Python](https://docs.uppmax.uu.se/courses_workshops/hpc_python/)
+[Using Python in an HPC environment <br> _Apr 24-29](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
 
 ### May
 
