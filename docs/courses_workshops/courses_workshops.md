@@ -47,7 +47,7 @@ Course dates are (or should be) provided at each course's website.
 
 ## About the courses
 
-### UPPMAX Local
+### Learn UPPMAX systems
 
 The courses on how to use our local clusters,
 such as Rackham and Snowy.
@@ -64,25 +64,30 @@ a NAISS HPC cluster for sensitive data.
 - [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
 - [Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data](bianca_intermediate.md)
 
-### NAISS centre agnostic
+### Learn Linux and tools
+
+- [File transfer](naiss_transfer.md)
+- [To awk or not](https://pmitev.github.io/to-awk-or-not/)
+- [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
+
+### General Programming
+
+- [Intro to Python](intro_to_python.md)
+- [Programming formalisms](programming_formalisms.md)
+
+
+### Programming in HPC environments
 
 UPPMAX is part of NAISS and we do teach things that apply
 to all NAISS HPC clusters.
 
-- [File transfer](naiss_transfer.md)
-- [Intro to Python](intro_to_python.md)
 - [HPC-Python](https://docs.uppmax.uu.se/courses_workshops/hpc_python/)
 - [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
 
+### Other centers and organizations
+
 [The NAISS calendar](https://www.naiss.se/events/) shows all NAISS courses ans also Zoom-ins (virtual open house)
 
-### Other, not necessary related to HPC clusters
-
-- [Programming formalisms](programming_formalisms.md)
-- [To awk or not](https://pmitev.github.io/to-awk-or-not/)
-- [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
-
-### Other centers and organizations
 
 - [HPC2N courses](https://www.hpc2n.umu.se/events/courses)
 - [CodeRefinery workshops](https://coderefinery.org/workshops/upcoming/)
