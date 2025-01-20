@@ -18,25 +18,29 @@ Course dates are (or should be) provided at each course's website.
 
 ### February
 
-[Introduction to Linux and UPPMAX <br> _Feb 10-12](uppmax_intro_course.md){ .md-button .md-button--primary }
+[Introduction to Linux and UPPMAX <br> _Feb 10-12_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
-[Basic Singularity <br> _Feb 13](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
+[Basic Singularity <br> _Feb 13_](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
 
 ### March
 
-[Introduction to Python <br> _Mar 4](intro_to_python.md){ .md-button .md-button--primary }
+[Introduction to Python <br> _Mar 4_](intro_to_python.md){ .md-button .md-button--primary }
 
-[Transferring files to/from HPC Clusters <br> _Mar 7](naiss_transfer.md){ .md-button .md-button--primary }
+[Transferring files to/from HPC Clusters <br> _Mar 7_](naiss_transfer.md){ .md-button .md-button--primary }
 
-[Introduction to Bianca: Handling Sensitive Research Data <br> _Mar 19](bianca_intro.md){ .md-button .md-button--primary }
+[Introduction to Bianca: Handling Sensitive Research Data <br> _Mar 19_](bianca_intro.md){ .md-button .md-button--primary }
 
-[Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26](R_matlab_julia.md){ .md-button .md-button--primary }
+[Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26_](R_matlab_julia.md){ .md-button .md-button--primary }
 
 ### April
 
-[Using Python in an HPC environment <br> _Apr 24-29](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
+[Using Python in an HPC environment <br> _Apr 24-29_](hpc_python.md){ .md-button .md-button--primary }
 
 ### May
+
+[Programming formalisms <br> _May 5-9_]programming_formalisms.md){ .md-button .md-button--primary }
+[Transferring files to/from HPC Clusters <br> _May 16_](naiss_transfer.md){ .md-button .md-button--primary }
+[Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data <br> _May 23_](bianca_intermediate.md){ .md-button .md-button--primary }
 
 
 ## About the courses
@@ -56,6 +60,7 @@ The courses on how to use Bianca,
 a NAISS HPC cluster for sensitive data.
 
 - [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
+- [Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data](bianca_intermediate.md)
 
 ### NAISS centre agnostic
 
@@ -71,7 +76,7 @@ to all NAISS HPC clusters.
 
 ### Other, not necessary related to HPC clusters
 
-- [Programming formalisms](https://uppmax.github.io/programming_formalisms_intro/index.html)
+- [Programming formalisms](programming_formalisms.md)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
 - [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
 
