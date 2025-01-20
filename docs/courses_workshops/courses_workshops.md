@@ -38,8 +38,10 @@ Course dates are (or should be) provided at each course's website.
 
 ### May
 
-[Programming formalisms <br> _May 5-9_]programming_formalisms.md){ .md-button .md-button--primary }
+[Programming formalisms <br> _May 5-9_](programming_formalisms.md){ .md-button .md-button--primary }
+
 [Transferring files to/from HPC Clusters <br> _May 16_](naiss_transfer.md){ .md-button .md-button--primary }
+
 [Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data <br> _May 23_](bianca_intermediate.md){ .md-button .md-button--primary }
 
 
