@@ -73,7 +73,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 1. Register an [account on SUPR](https://supr.naiss.se/person/register/).
 
-2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2024/create_proposal). Give adequate information while creating your proposal by following [this template](#proposal-template).
+2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2025/create_proposal). Give adequate information while creating your proposal by following [this template](#proposal-template).
 
 3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
 
