@@ -1,4 +1,4 @@
-# Login Tetralith
+# Tetralith
 
 Tetralith is an HPC cluster maintained by NSC.
 
@@ -9,5 +9,6 @@ Tetralith is an HPC cluster maintained by NSC.
 
 - [NSC documentation about setting up 2FA](https://www.nsc.liu.se/support/2fa/)
 - [NSC documentation about connecting to its clusters](https://www.nsc.liu.se/support/2fa/clients/)
+- [Video: apply for a Tetralith 'Small Compute' project](https://youtu.be/vjAzURI2ymM)
 - [Video: Using SSH and a password](https://youtu.be/wtGIzSBiulY)
 - [Video: Using a local ThinLinc client to access the remote desktop environment](https://youtu.be/JsHzQSFNGxY)
