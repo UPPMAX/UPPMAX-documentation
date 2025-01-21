@@ -96,17 +96,21 @@ nav:
       - Spack: software/spack.md
       
   - Databases: 
-     - Overview: databases/overview.md
-     - BLAST databases available locally: databases/blast.md
-     - NCBI taxonomy databases: databases/ncbi.md
-     - DIAMOND protein alignment databases: databases/diamond.md
-     - Reference genomes: databases/reference_genomes.md
-     - 1000-genome project: databases/1000-genome_project.md
-     - Simons Genome Diversity Project datasets: databases/simons_genome.md
-     - Other bioinformatics-oriented local data resources: databases/other_local.md
+      - Overview: databases/overview.md
+      - BLAST databases available locally: databases/blast.md
+      - NCBI taxonomy databases: databases/ncbi.md
+      - DIAMOND protein alignment databases: databases/diamond.md
+      - Reference genomes: databases/reference_genomes.md
+      - 1000-genome project: databases/1000-genome_project.md
+      - Simons Genome Diversity Project datasets: databases/simons_genome.md
+      - Other bioinformatics-oriented local data resources: databases/other_local.md
      
   - Support: support.md
-  - Courses and workshops: courses_workshops/courses_workshops.md
+  - Courses and workshops: 
+      - Overview: courses_workshops/courses_workshops.md
+      - Intro to UPPMAX: courses_workshops/uppmax_intro_course.md
+      - Intro to Bianca: courses_workshops/bianca_intro.md
+      - Bianca in-depth: courses_workshops/bianca_intermediate.md
   - Back to UPPMAX main page: https://www.uu.se/en/centre/uppmax
 
 theme:

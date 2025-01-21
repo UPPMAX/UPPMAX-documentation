@@ -18,27 +18,36 @@ Course dates are (or should be) provided at each course's website.
 
 ### February
 
-[Feb 10-12 f0ed Introduction to Linux and UPPMAX](uppmax_intro_course.md){ .md-button .md-button--primary }
+[Introduction to Linux and UPPMAX <br> _Feb 10-12_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
-[Feb 13 f0ed Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
+[Basic Singularity <br> _Feb 13_](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
 
 ### March
 
-- March 4 [Intro to Python](intro_to_python.md)
-- March 7 [File transfer](naiss_transfer.md)
-- March 19 [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
-- March 24-26 [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
+[Introduction to Python <br> _Mar 4_](intro_to_python.md){ .md-button .md-button--primary }
+
+[Transferring files to/from HPC Clusters <br> _Mar 7_](naiss_transfer.md){ .md-button .md-button--primary }
+
+[Introduction to Bianca: <br> Handling Sensitive Research Data <br> _Mar 19_](bianca_intro.md){ .md-button .md-button--primary }
+
+[Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26_](R_matlab_julia.md){ .md-button .md-button--primary }
 
 ### April
 
-- April 24-29 [HPC-Python](https://docs.uppmax.uu.se/courses_workshops/hpc_python/)
+[Using Python in an HPC environment <br> _Apr 24-29_](hpc_python.md){ .md-button .md-button--primary }
 
 ### May
+
+[Programming formalisms <br> _May 5-9_](programming_formalisms.md){ .md-button .md-button--primary }
+
+[Transferring files to/from HPC Clusters <br> _May 16_](naiss_transfer.md){ .md-button .md-button--primary }
+
+[Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _May 23_](bianca_intermediate.md){ .md-button .md-button--primary }
 
 
 ## About the courses
 
-### UPPMAX Local
+### Learn UPPMAX systems
 
 The courses on how to use our local clusters,
 such as Rackham and Snowy.
@@ -53,26 +62,32 @@ The courses on how to use Bianca,
 a NAISS HPC cluster for sensitive data.
 
 - [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
+- [Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data](bianca_intermediate.md)
 
-### NAISS centre agnostic
+### Learn Linux and tools
+
+- [File transfer](naiss_transfer.md)
+- [To awk or not](https://pmitev.github.io/to-awk-or-not/)
+- [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
+
+### General Programming
+
+- [Intro to Python](intro_to_python.md)
+- [Programming formalisms](programming_formalisms.md)
+
+
+### Programming in HPC environments
 
 UPPMAX is part of NAISS and we do teach things that apply
 to all NAISS HPC clusters.
 
-- [File transfer](naiss_transfer.md)
-- [Intro to Python](intro_to_python.md)
 - [HPC-Python](https://docs.uppmax.uu.se/courses_workshops/hpc_python/)
 - [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
 
+### Other centers and organizations
+
 [The NAISS calendar](https://www.naiss.se/events/) shows all NAISS courses ans also Zoom-ins (virtual open house)
 
-### Other, not necessary related to HPC clusters
-
-- [Programming formalisms](https://uppmax.github.io/programming_formalisms_intro/index.html)
-- [To awk or not](https://pmitev.github.io/to-awk-or-not/)
-- [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
-
-### Other centers and organizations
 
 - [HPC2N courses](https://www.hpc2n.umu.se/events/courses)
 - [CodeRefinery workshops](https://coderefinery.org/workshops/upcoming/)
