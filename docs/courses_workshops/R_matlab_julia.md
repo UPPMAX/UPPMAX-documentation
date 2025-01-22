@@ -41,8 +41,8 @@ Full schedule can be found on the rendered presentations for each course day: <h
 
 ## Materials
 
-    Exercises and .rst files can be downloaded from the course's GitHub page: <https://github.com/UPPMAX/R-python-julia-matlab-HPC>
-    Rendered presentations can be found here: <https://uppmax.github.io/R-python-julia-matlab-HPC/>
+    Exercises and .rst files can be downloaded from the course's GitHub page: <https://github.com/UPPMAX/R-matlab-julia-HPC>
+    Rendered presentations can be found here: <https://uppmax.github.io/R-matlab-julia-HPC/>
     Recordings are here: TBA
     Q/A document for each day, as PDF: TBA
 
