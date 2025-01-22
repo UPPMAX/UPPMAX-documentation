@@ -16,16 +16,16 @@
 
 - The **Rocky9** OS works somewhat differently than **CentOS** and the same "system files" that we had before will not automatically be available directly under Rocky9.
 - This will cause some of our earlier installed software to break.
-- We hope that we has identidied most of them and that you will not notice any changes.
+- We hope that we have identified most of them and that you will not notice any changes.
 
 ## Modules
 
-- We have added many modules built by the tool Easybuild.
-- Presently they are found in a seperate tree.
+- We have added many modules built by the tool EasyBuild.
+- Presently they are found in a separate tree.
 - [FIX]
 
 ## SLURM
 
-- As of today you need to allocate compute nodes wth Rocky9 installed with the flag ``--res=rocky9``.
+- As of today you need to allocate compute nodes with Rocky9 installed with the flag ``--res=rocky9``.
 - Running interactive sessions only work with the ``salloc`` command.
 - [FIX]
