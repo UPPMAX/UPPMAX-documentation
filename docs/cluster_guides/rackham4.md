@@ -14,8 +14,8 @@
 
 ## About
 
-- The **Rocky9** OS works somewhat differently than **CentOS** and the same "system files" that we had before will not automatically be available directly under Rocky9. 
-- This will cause some of our earlier installed software to break. 
+- The **Rocky9** OS works somewhat differently than **CentOS** and the same "system files" that we had before will not automatically be available directly under Rocky9.
+- This will cause some of our earlier installed software to break.
 - We hope that we has identidied most of them and that you will not notice any changes.
 
 ## Modules

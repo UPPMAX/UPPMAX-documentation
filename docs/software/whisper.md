@@ -98,9 +98,9 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
     ```bash
     module load Whisper-gui
     ```  
- 
+
     ![Terminal on Bianca Desktop](./img/whisper_terminal.png)  
-    
+
     ??? tip "Video Demo"
 
         ![type:video](./videos/whisper-module-load.webm)
