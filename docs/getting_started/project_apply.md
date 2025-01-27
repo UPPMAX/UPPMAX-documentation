@@ -16,10 +16,10 @@ Your user account is a personal log-in to our systems. Computer resources like C
 
 The workflow is like this:
 
-    - Register in SUPR
-    - Accept SUPR user agreement
-    - Become a member of a project
-    - Apply for an account at UPPMAX (or other resources)
+- Register in SUPR
+- Accept SUPR user agreement
+- Become a member of a project
+- Apply for an account at UPPMAX (or other resources)
 
 !!! warning
 
