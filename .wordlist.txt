@@ -943,4 +943,9 @@ Yadav
 english
 OSDI
 USENIX
-
+AaltoRSE
+carpentries
+gapminder
+hpc
+menzzana
+swcarpentry
