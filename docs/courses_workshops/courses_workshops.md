@@ -18,6 +18,8 @@ Course dates are (or should be) provided at each course's website.
 
 ### February
 
+[Monthly Workshop Series: Whisper Transcription demonstration <br> _Feb 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
+
 [Introduction to Linux and UPPMAX <br> _Feb 10-12_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
 [Basic Singularity <br> _Feb 13_](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/basic-singularity ){ .md-button .md-button--primary }
@@ -25,6 +27,8 @@ Course dates are (or should be) provided at each course's website.
 ### March
 
 [Introduction to Python <br> _Mar 4_](intro_to_python.md){ .md-button .md-button--primary }
+
+[Monthly Workshop Series: Whisper Transcription demonstration <br> _Mar 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
 
 [Transferring files to/from HPC Clusters <br> _Mar 7_](naiss_transfer.md){ .md-button .md-button--primary }
 
@@ -34,9 +38,13 @@ Course dates are (or should be) provided at each course's website.
 
 ### April
 
+[Monthly Workshop Series: Whisper Transcription demonstration <br> _Apr 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
+
 [Using Python in an HPC environment <br> _Apr 24-29_](hpc_python.md){ .md-button .md-button--primary }
 
 ### May
+
+[Monthly Workshop Series: Whisper Transcription demonstration <br> _Mar 5_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
 
 [Programming formalisms <br> _May 5-9_](programming_formalisms.md){ .md-button .md-button--primary }
 
