@@ -20,7 +20,7 @@ Course dates are (or should be) provided at each course's website.
 
 [Introduction to Linux and UPPMAX <br> _Feb 10-12_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
-[Basic Singularity <br> _Feb 13_](https://pmitev.github.io/UPPMAX-Singularity-workshop/){ .md-button .md-button--primary }
+[Basic Singularity <br> _Feb 13_](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/basic-singularity ){ .md-button .md-button--primary }
 
 ### March
 
@@ -68,7 +68,7 @@ a NAISS HPC cluster for sensitive data.
 
 - [File transfer](naiss_transfer.md)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
-- [Basic Singularity](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
+- [Basic Singularity](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/basic-singularity )
 
 ### General Programming
 
