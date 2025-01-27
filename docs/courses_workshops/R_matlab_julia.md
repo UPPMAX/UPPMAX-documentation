@@ -50,22 +50,22 @@ Full schedule can be found on the rendered presentations for each course day: <h
 
 This is NOT in any way mandatory for participation or part of the course. It is a list of links to useful refresher material for those who would like to read up on Julia/R/MATLAB/Linux/etc. before the course.
 
-    Julia
-        Aalto Univ.: <https://github.com/AaltoRSE/julia-introduction>
-        Software Carpentry: <https://carpentries-incubator.github.io/julia-novice/>
-    R
-        Software Carpentry: <https://swcarpentry.github.io/r-novice-gapminder/index.html>
-        Parallel R: <https://github.com/menzzana/parallel_R_course>
-    MATLAB
-        Software Carpentry: <https://swcarpentry.github.io/matlab-novice-inflammation/>
-        MATLAB documentation at MathWorks: <https://se.mathworks.com/help/matlab/index.html>
-    Linux intro
-        Linux intro from "Introduction to Kebnekaise": <https://hpc2n.github.io/intro-linux/>  (Recordings)
-        Material contained in the UPPMAX introduction course: <https://www.uu.se/centrum/uppmax/utbildning/kurser-och-workshops/introduktion-till-uppmax>
-    Slurm
-        Contained in the "Introduction to Kebnekaise" course: <https://hpc2n.github.io/intro-course/batch/> (Recordings)
-        UPPMAX SLURM guide: <https://docs.uppmax.uu.se/cluster_guides/slurm/>
-        Material contained in the UPPAX intro course: <https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/introduction-to-uppmax>
+- Julia
+    - Aalto Univ.: <https://github.com/AaltoRSE/julia-introduction>
+    - Software Carpentry: <https://carpentries-incubator.github.io/julia-novice/>
+- R
+    - Software Carpentry: <https://swcarpentry.github.io/r-novice-gapminder/index.html>
+    - Parallel R: <https://github.com/menzzana/parallel_R_course>
+- MATLAB
+    - Software Carpentry: <https://swcarpentry.github.io/matlab-novice-inflammation/>
+    - MATLAB documentation at MathWorks: <https://se.mathworks.com/help/matlab/index.html>
+- Linux intro
+    - Linux intro from "Introduction to Kebnekaise": <https://hpc2n.github.io/intro-linux/>  (Recordings)
+    - [Material in the UPPMAX introduction course](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/)
+- Slurm
+    - Contained in the "Introduction to Kebnekaise" course: <https://hpc2n.github.io/intro-course/batch/> (Recordings)
+    - [UPPMAX SLURM guide](https://docs.uppmax.uu.se/cluster_guides/slurm/)
+    - [Material in the UPPMAX introduction course](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/)
 
 **Time and Dates:** 24-26 March 2025, three days, one for each language. 9:00 - 16:00 each day. The last hour each day will be used for extra time for exercises.
 
