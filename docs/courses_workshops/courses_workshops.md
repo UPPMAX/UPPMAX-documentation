@@ -56,7 +56,7 @@ Course dates are (or should be) provided at each course's website.
 
     > It is difficult to make predictions, especially about the future.
     >
-    >  Karl Kristian Steincke, 1948
+    > Karl Kristian Steincke, 1948
 
 ### August
 
