@@ -68,7 +68,6 @@ Course dates are (or should be) provided at each course's website.
 [Programming formalisms <br> Oct 20-24](programming_formalisms.md){ .md-button .md-button--primary }
 
 
-
 ## About the courses
 
 ### Learn UPPMAX systems
