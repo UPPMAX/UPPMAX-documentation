@@ -52,7 +52,7 @@ Course dates are (or should be) provided at each course's website.
 
 [Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _May 23_](bianca_intermediate.md){ .md-button .md-button--primary }
 
-!!! warning "Below here, the dates get more incertain"
+!!! warning "Below here, the dates get more uncertain..."
 
     > It is difficult to make predictions, especially about the future.
     >
