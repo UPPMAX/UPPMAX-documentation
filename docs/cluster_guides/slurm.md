@@ -20,12 +20,9 @@ The software used is called Slurm.
 
 ???- question "I thought Slurm was a drink?"
 
-    Ah, yes, you may have found this image:
+    Ah, yes, it is a drink in the tv-show Futurama too.
 
-    ![Slurm drink](./img/slurm_cola.png)
-
-    Unsure if this is a real drink,
-    but here we discuss the software called Slurm.
+    Here we discuss the software called Slurm.
 
 This page describes how to use Slurm in general.
 See [optimizing jobs](optimizing_jobs.md)
