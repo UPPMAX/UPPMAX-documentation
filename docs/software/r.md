@@ -313,7 +313,7 @@ Aalto Scientific Computing:
 - [HPC2N](https://www.hpc2n.umu.se/resources/software/r)
 - [LUNARC](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Rscript/)
 - [NSC](https://ipv4.www.nsc.liu.se/software/catalogue/tetralith/modules/r.html)
-- [PDC](https://www.pdc.kth.se/software/software/R/index_general.html)
+- [PDC](https://support.pdc.kth.se/doc/support/)
 - [UPPMAX](../software/r.md)
 
 ## Links

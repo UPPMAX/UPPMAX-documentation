@@ -2,7 +2,7 @@
 
 [Darsync](https://github.com/UPPMAX/darsync) is a tool used to prepare
 your project for transfer to
-[Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel).
+[Dardel](https://support.pdc.kth.se/doc/support/).
 It has two modes; **check mode** where it goes through your files
 and looks for uncompressed file formats and counts the number of files,
 and **gen mode** where it generates a script file you can submit
@@ -233,7 +233,7 @@ rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
 
 ## Troubleshooting
 
-Apart from getting the username or paths wrong, we foresee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://www.pdc.kth.se/support/documents/login/ssh_login.html#ssh-login). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
+Apart from getting the username or paths wrong, we foresee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://support.pdc.kth.se/doc/support/). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
 
 ## Links
 

@@ -46,7 +46,7 @@ flowchart TD
 ### 1. Get access to a SUPR project with Dardel
 
 First step is to get get access to a SUPR project with Dardel.
-This is described at [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html).
+This is described at [PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/support/).
 You will get an email when you are added to a project,
 this can take some hours.
 
