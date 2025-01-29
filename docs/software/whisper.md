@@ -49,14 +49,14 @@ automatic speech recognition system. Whisper is available on Bianca. It can eith
 
 ## Glossary
 
-**SUPR account** : Gives access to project management account for submitting project proposals on SUPR.
-**UPPMAX account** : Gives access to UPPMAX servers, like Bianca.
-**GUI** : Graphical User Interface for taking transcription/translation inputs.
-**WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
-**Terminal** : Black text-based environment that is used for performing jobs.
-**Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
-**Proj**: project folder in Bianca that is shared among all project members.
-**Job**: A request for transcribing/translating one or many recordings.
+**SUPR account** : Gives access to project management account for submitting project proposals on SUPR.  
+**UPPMAX account** : Gives access to UPPMAX servers, like Bianca.  
+**GUI** : Graphical User Interface for taking transcription/translation inputs.  
+**WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.  
+**Terminal** : Black text-based environment that is used for performing jobs.  
+**Wharf**: private folder in Bianca that is used to transfer data to and from your computer.  
+**Proj**: project folder in Bianca that is shared among all project members.  
+**Job**: A request for transcribing/translating one or many recordings.  
 **Slurm**: "job" handler.
 
 !!! info inline end "Checklist for new project"
