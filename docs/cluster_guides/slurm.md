@@ -18,6 +18,15 @@ The software used is called Slurm.
     the [Slurm homepage](https://slurm.schedmd.com/) uses 'Slurm'
     to describe the tool, hence we use Slurm too.
 
+???- question "I thought Slurm was a drink?"
+
+    Ah, yes, you may have found this image:
+
+    ![Slurm drink](./img/slurm_cola.png)
+
+    Unsure if this is a real drink,
+    but here we discuss the software called Slurm.
+
 This page describes how to use Slurm in general.
 See [optimizing jobs](optimizing_jobs.md)
 how to optimize Slurm jobs.
