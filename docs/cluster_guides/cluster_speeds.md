@@ -42,6 +42,28 @@ Date and time  |Cluster|Command                                     |You waited 
 ---------------|-------|--------------------------------------------|--------------------------|--------------------
 2024-12-19 8:00|Bianca |`interactive -A sens2023036 -n 2 -t 1:00:00`|518 (8:38)                |548 (9:08)
 
+You can expect longer times if:
+
+- [The Bianca system usage](https://status.uppmax.uu.se/usage/) is at maximum
+  capacity (which it nearly never is)
+- Your [project](../getting_started/project.md) has used up all of its
+  computational resources
+
+???- question "How can I check that my project has used all of its resources?"
+
+    Go to [https://supr.naiss.se](https://supr.naiss.se), click
+    on your project and scroll down to 'Resources'.
+
+    There you can see how much of the computational resources you've used.
+
+    For example, below is an example project showing its resource usage:
+
+    ![An example project showing its resource usage](./img/supr_naiss_resource_compute_usage.png)
+
+    We can see that it uses zero percent of the computation resources
+    of the Dardel HPC cluster, yet 116.4% of Rackham's. Starting an
+    interactive job on Rackham may hence take longer.
+
 ## Loading the `R_packages/4.3.1` module
 
 For [a benchmark to solve a ticket](https://github.com/UPPMAX/ticket_304069/blob/master/module_load.md#answers),
