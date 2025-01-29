@@ -2,7 +2,7 @@
   "aliveStatusCodes": [0, 200, 403, 418, 500, 503],
   "ignorePatterns": [
     {
-      "pattern": "github/workspace/docs/software/overview$"
+      "pattern": "software-table.md"
     }
   ]
 }

@@ -95,7 +95,9 @@ as shown in [the YouTube video that shows this procedure](https://youtu.be/rivtg
 ### 1. Get access to a SUPR project with Dardel
 
 First step is to get get access to a SUPR project with Dardel.
-This is described at [PDC's page on getting access to Dardel](https://www.pdc.kth.se/support/documents/getting_access/get_access.html).
+This is described at [PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/support/)
+(note that it is impossible to give more precise links, as the PDC
+documentation does not allow for it).
 You will get an email when you are added to a project,
 this can take some hours.
 

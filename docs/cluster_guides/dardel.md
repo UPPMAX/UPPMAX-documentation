@@ -13,4 +13,4 @@ consider moving to Dardel.
 
 ## Links
 
-- [PDC page about Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel)
+- [PDC page about Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel-hpc-system)
