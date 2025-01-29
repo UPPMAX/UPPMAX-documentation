@@ -64,7 +64,7 @@ This is NOT in any way mandatory for participation or part of the course. It is 
     - [Material in the UPPMAX introduction course](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/)
 - Slurm
     - Contained in the "Introduction to Kebnekaise" course: <https://hpc2n.github.io/intro-course/batch/> (Recordings)
-    - [UPPMAX SLURM guide](https://docs.uppmax.uu.se/cluster_guides/slurm/)
+    - [UPPMAX Slurm guide](https://docs.uppmax.uu.se/cluster_guides/slurm/)
     - [Material in the UPPMAX introduction course](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/)
 
 **Time and Dates:** 24-26 March 2025, three days, one for each language. 9:00 - 16:00 each day. The last hour each day will be used for extra time for exercises.
