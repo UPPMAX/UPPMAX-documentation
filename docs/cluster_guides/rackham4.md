@@ -27,6 +27,6 @@
 ## Slurm
 
 - As of today you need to allocate compute nodes with Rocky9 installed with the flag ``--res=rocky9``.
-    - Not necessary any longer     
+    - Not necessary any longer
 - Running interactive sessions only work with the ``salloc`` command.
 - [FIX]
