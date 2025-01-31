@@ -32,4 +32,4 @@ Time and date: Thursday 24-Friday 25 April and Monday 28-Tuesday 29 April, 09:00
 
 **Location:** ONLINE. Zoom link will be sent to participants a few days before the course.
 
-**Instructors:** Rebeccas Pitts, Pedro Ojeda-May, Jayant Yadav, Björn Claremar, Birgitte Brydsö
+**Instructors:** Birgitte Brydsö, Björn Claremar, Jayant Yadav, Pedro Ojeda-May, Rebeccas Pitts, Richèl Bilderbeek
