@@ -22,9 +22,12 @@ This course will consist of lectures interspersed with hands-on sessions where y
 
 **Prerequisites:** familiarity with the LINUX command line, basic Python
 
-**Materials:** [Lectures and notes](https://uppmax.github.io/HPC-python/) | Exercises | Recorded lectures and demos
+**Materials:** 
 
-For more info see the [HPC2N course page](https://www.hpc2n.umu.se/events/courses/2024/fall/hpc-python).
+Day|Course materials                                    |More info
+---|----------------------------------------------------|---------------------------------------------------------
+1  |[here](https://uppmax.github.io/uppmax_intro_python)|[here](https://uppmax.github.io/uppmax_intro_python/faq/)
+2-4|[here](https://uppmax.github.io/HPC-python/)        |[here](https://www.hpc2n.umu.se/events/courses/2024/fall/hpc-python)
 
 Time and date: Thursday 24-Friday 25 April and Monday 28-Tuesday 29 April, 09:00-17:00 each day
 
