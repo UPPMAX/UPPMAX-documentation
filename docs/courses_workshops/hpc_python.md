@@ -22,7 +22,7 @@ This course will consist of lectures interspersed with hands-on sessions where y
 
 **Prerequisites:** familiarity with the LINUX command line, basic Python
 
-**Materials:** 
+**Materials:**
 
 Day|Course materials                                    |More info
 ---|----------------------------------------------------|---------------------------------------------------------
