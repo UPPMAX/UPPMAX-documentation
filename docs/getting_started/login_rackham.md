@@ -70,3 +70,11 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
 
     If you need to do more intense calculations interactively,
     [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
+
+!!! note "About Rackham hostname"
+
+    The hostname used to login via SSH is:
+
+    rackham.uppmax.uu.se
+
+    Note: This is a "round robin" address which will direct you to one of the physical login nodes, rackham1.uppmax.uu.se or rackham2.uppmax.uu.se, etc. (If needed, you can also login directly to one of these, by using their respective hostnames.)
