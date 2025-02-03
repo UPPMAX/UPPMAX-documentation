@@ -14,7 +14,7 @@ The backup service tries to backup all changes as often as they occur, but rapid
 
 Backups are sent off-site to either KTH or LiU, depending on the storage system.
 
-To ensure timely backups, it is very important to reduce the workload of the backup system as much as possible. Create directories with "nobackup" in their name or use the pre-existing nobackup directory in /proj/XYZ to store data that does not need backup.
+To ensure timely backups, it is very important to reduce the workload of the backup system as much as possible. Create directories with `nobackup` in their name or use the pre-existing nobackup directory in /proj/XYZ to store data that does not need backup.
 
 - It is especially important that temporary files and files that are changed often are placed in nobackup directories.
 
@@ -23,27 +23,44 @@ To ensure timely backups, it is very important to reduce the workload of the bac
 Backup is done on:
 
 - Home directories (on Rackham these also have snapshots)
-- All of Bianca (projects named sensYYYYXXX), except in folders named "nobackup"
-- SciLifeLab Storage projects (named sllstoreYYYYXXX), except in folders named "nobackup"
-- UPPMAX Storage projects (uppstore20YYXXX) except in folders named "nobackup"
-- UPPMAX Offload storage projects (uppoff20YYXXX)
-- SNIC projects (named snicYYYY-X-ZZZZ)
+- All of Bianca (projects named `sensYYYYXXX`), except in folders named `nobackup`
+- SciLifeLab Storage projects (named `sllstoreYYYYXXX`), except in folders named `nobackup`
+- UPPMAX Storage projects (`uppstore20YYXXX`) except in folders named `nobackup`
+- UPPMAX Offload storage projects (`uppoff20YYXXX`)
+- SNIC projects (named `snicYYYY-X-ZZZZ`)
 
 ## What should I put in directories with backup?
 
-- In short, irreplaceable data should be placed there. This includes especially raw sequencing data and any other data that cannot be recreated by any effort. Scripts and other files that are needed to reproduce or repeat the analyses should also be placed on backup.
+Irreplaceable data that you are not actively working on.
 
-## What should I not put in directories with backup?
+???- question "What are examples of irreplacable data?"
 
-- Directories where you are actively working, especially if you are creating or modifying many files.
-  The backup mechanisms cannot keep up with large amounts of files changing on a rapid basis.
+    Examples of irreplaceable data are:
 
-## How robust is uppmax storage?
+    - Raw/unprocessed measurements, which cannot be reproduced from
+      a script
+    - Scripts for your analysis
 
-- All UPPMAX storage systems use RAID technology to make storage more robust through redundancy.
-- This means that two or more disks must fail in the same "RAID volume" before there is a risk of data loss.
+???- question "Why should I not work actively on my data in a regular folder?"
 
-- However, this technology does not protect against user error (e.g. "rm -rf * in your project directory) or in case of a significant disaster (e.g. fire in computer hall).
+    The backup mechanisms cannot keep up with large amounts
+    of files changing on a rapid basis.
+
+## What should I put in directories without backup?
+
+Reproducible/intermediate data that you are actively working on.
+
+The backup mechanisms cannot keep up with large amounts of files changing on a rapid basis.
+
+## How robust is UPPMAX storage?
+
+All UPPMAX storage systems use RAID technology to make storage more robust through redundancy.
+
+This means that two or more disks must fail in the same "RAID volume" before there is a risk of data loss.
+
+- However, this technology does not protect against user error
+  (e.g. `rm -rf *` in your project directory)
+  or in case of a significant disaster (e.g. fire in computer hall).
 - Off-site backup is crucial.
 
 ## How can I access my backups?
