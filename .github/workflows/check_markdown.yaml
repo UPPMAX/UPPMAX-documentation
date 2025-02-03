@@ -5,7 +5,17 @@ name: Check markdown
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
 on:
   push:
+    paths:
+      - .github/workflows/check_markdown.yaml
+      - 'docs/**'
+      - .markdownlintignore
+      - .markdownlint.jsonc
   pull_request:
+    paths:
+      - .github/workflows/check_markdown.yaml
+      - 'docs/**'
+      - .markdownlintignore
+      - .markdownlint.jsonc
   schedule:
   - cron: "0 0 21 * *"
 
