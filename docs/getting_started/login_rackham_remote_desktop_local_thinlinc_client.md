@@ -7,6 +7,8 @@ tags:
   - local
   - ThinLinc
   - ThinLinc client
+  - program
+  - tool
 ---
 
 # Log in to Rackham's remote desktop environment using a local ThinLinc client
