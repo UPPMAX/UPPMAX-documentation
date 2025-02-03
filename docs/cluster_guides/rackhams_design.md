@@ -16,3 +16,14 @@ basic Linux knowledge to use Rackham.
     Using Linux (and especially the so-called command-line/[terminal](../software/terminal.md)) is essential
     to use Rackham. Learning the essential Linux commands
     is described [here](../getting_started/linux.md).
+
+## Folder structure
+
+These are the most important folders on Rackham:
+
+General name                   |Example name                     |Description                                  |Purpose
+-------------------------------|---------------------------------|---------------------------------------------|---------------------------------------
+`/home/[username]`             |`/home/sven`                     |Your home folder                             |Small/general/personal things
+`/proj/[project_name]`         |`/proj/uppmax2025-2-262`         |Your project folder                          |Work on your project here
+`/proj/[project_name]/nobackup`|`/proj/uppmax2025-2-262/nobackup`|The folder of your project thas has no backup|Folder for intermediate/temporary files
+
