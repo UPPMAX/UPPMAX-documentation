@@ -50,7 +50,6 @@ nav:
         - GAMESS_US: software/games_us.md
         - Gaussian: software/gaussian.md
         - GROMACS: software/gromacs.md
-        - Molcas: software/openmolcas.md
         - WRF: software/wrf.md
       - Integrated development environments (IDE):
         - Jupyter: software/jupyter.md
