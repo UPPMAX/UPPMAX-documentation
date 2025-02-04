@@ -75,7 +75,7 @@ Folder                 |Example                |Description           |Exception
 
 Additionally, your home folder has snapshots taken,
 which take place more often and can be recovered yourself.
-See [the UPPMAX documentation on snapshots](snapshots.md).
+See [the UPPMAX documentation on snapshots](snapshot.md).
 
 ## What should I put in directories with backup?
 
