@@ -1,10 +1,31 @@
-# How does backup at UPPMAX work?
+---
+tags:
+  - backup
+  - back-up
+  - back up
+---
 
-**Backup of data is especially important to data-driven science. This page provides the ins and outs of how backup works on UPPMAX storage systems.**
+# Backup
 
-As PI, you and your academic institution are ultimately responsible for your data. We recommend you maintain a primary copy of your data on a system you control, when possible. At the very least, double-check that your collaborators are taking care of your data in a responsible way.
+A backup allows one to restore his/her data
+after it has been (accidentally) lost.
 
-While UPPMAX systems may have backup, these are not designed to act as the sole repository of primary data, e.g. raw data or originals.
+This page describes how UPPMAX does backups.
+
+While UPPMAX systems may have backup,
+these are not designed to act as the sole repository of primary data,
+e.g. raw data or originals.
+
+
+!!! warning "The PI is the main responsible person"
+
+    A PI and his/her academic institution are ultimately responsible
+    for his/her data.
+
+    We recommend you maintain a primary copy of your data on a system you
+    control, when possible. At the very least, double-check that your
+    collaborators are taking care of your data in a responsible way.
+
 
 ## What does "backup" mean for my data?
 
@@ -22,12 +43,13 @@ To ensure timely backups, it is very important to reduce the workload of the bac
 
 Backup is done on:
 
-- Home directories (on Rackham these also have snapshots)
-- All of Bianca (projects named `sensYYYYXXX`), except in folders named `nobackup`
-- SciLifeLab Storage projects (named `sllstoreYYYYXXX`), except in folders named `nobackup`
-- UPPMAX Storage projects (`uppstore20YYXXX`) except in folders named `nobackup`
-- UPPMAX Offload storage projects (`uppoff20YYXXX`)
-- SNIC projects (named `snicYYYY-X-ZZZZ`)
+Folder                 |Example                |Description           |Exceptions?
+-----------------------|-----------------------|----------------------|------------------------
+`/home/[username]`     |`/home/sven`           |Your home folder      |No
+`/proj/sensYYYYXXX`    |`/proj/sens2016001`    |Sensitive data project|Folders named `nobackup`
+`/proj/sllstoreYYYYXXX`|`/proj/sllstore2017096`|SciLifeLab Storage    |Folders named `nobackup`
+`/proj/uppoff20YYXXX`  |`/proj/uppoff2021003`  |UPPMAX offload storage|Folders named `nobackup`
+`/proj/snicYYYY-X-ZZZZ`|`/proj/snic2022-6-85`  |SNIC projects         |Folders named `nobackup`
 
 ## What should I put in directories with backup?
 
