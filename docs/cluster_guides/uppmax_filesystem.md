@@ -30,10 +30,9 @@ See [the UPPMAX documentation on 'backup'](backup.md) for details.
     Yes, ask the UPPMAX staff :-)
 
 1. Keep an inventory of important data and make a plan
-   for how it should be treated. Inform collaborators of this plan.
-1. Make sure you keep a separate copy of the most important data.
-1. Put important data in a backed up directory
-   (and nothing else, so that the backup system does
-   not get bogged down with junk).
+   for how it should be treated. Inform collaborators of this plan
+1. Make sure you keep a separate copy of the most important data
+1. Put important data in folders that have a backup
+1. Put intermediate/temporary data in a `nobackup` directory
 1. Run `chmod -R -w .` on directories containing critical
    data that should be preserved.

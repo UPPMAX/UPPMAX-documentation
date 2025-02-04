@@ -28,41 +28,47 @@ e.g. raw data or originals.
     collaborators can only use the data in a responsible way.
     See [the best practices on an UPPMAX filesystem](uppmax_filesystem.md#best-practices)
 
-## What does "backup" mean for my data?
+## How can I access my backups?
 
-The type of backup that is generally available for project storage at UPPMAX
-is incremental backup with 30 day retention.
-This means that any file that was deleted
-more than 30 days ago is irretrievably gone.
-Changes in a file are kept for 30 days,
-so we can potentially retrieve an old version up to a month after you edited it.
+[Contact UPPMAX support](../support.md) and ask for help.
+Provide as much information as possible, especially directory and file names.
 
-The backup service tries to backup all changes as often as they occur,
-but rapid changes will not register.
-Due to the large amounts of files in the file systems,
-a single backup session may take upwards of a week or more.
-This means that if you create a file and delete it the next day,
-it will probably not be backed up.
+## What is the UPPMAX backup procedure?
 
-To ensure timely backups, it is important to reduce the workload
-of the backup system as much as possible.
-Create directories with `nobackup` in their name
-or use the pre-existing `nobackup` directory in project folders
-to store data that does not need backup.
-It is especially important that temporary files and files that are changed
-often are placed in `nobackup` directories.
+UPPMAX performs an incremental backup with **30** day retention.
 
-## Which directories are backed up?
+This means:
 
-Backup is done on:
+- After 30 days: your data is irretrievably gone
+- Until 30 days: you can get your data back. If you've edited data,
+  there is change you may be able to retrieve the newest version
 
-Folder                 |Example                |Description           |Exceptions?
+???- question "What determines if a newly-edited file gets a backup?"
+
+    - The change persevered. For example, a file that is created and deleted
+      within a day is unlikely to get a backup
+    - The workload of the backup service is low.
+
+The backup service works best when it can keep up with the changes
+on files that have a backup.
+
+One important way to help work the backup service,
+is to put intermediate/temporary data in a directory with `nobackup`
+in its name.
+
+These folders have such a backup:
+
+Folder                 |Example                |Description           |Exceptions
 -----------------------|-----------------------|----------------------|------------------------
 `/home/[username]`     |`/home/sven`           |Your home folder      |Folders named `nobackup`
 `/proj/sensYYYYXXX`    |`/proj/sens2016001`    |Sensitive data project|Folders named `nobackup`
 `/proj/sllstoreYYYYXXX`|`/proj/sllstore2017096`|SciLifeLab Storage    |Folders named `nobackup`
 `/proj/uppoff20YYXXX`  |`/proj/uppoff2021003`  |UPPMAX offload storage|Folders named `nobackup`
 `/proj/snicYYYY-X-ZZZZ`|`/proj/snic2022-6-85`  |SNIC projects         |Folders named `nobackup`
+
+Additionally, your home folder has snapshots taken,
+which take place more often and can be recoved yourself.
+See [the UPPMAX documentation on snapshots](snapshots.md).
 
 ## What should I put in directories with backup?
 
@@ -109,18 +115,3 @@ and unlikely to be the cause of lost data.
 
 This setup, however, does not protect against user error
 (e.g. removing all files in your project directory).
-
-## How can I access my backups?
-
-You must contact UPPMAX support and ask for help.
-Provide as much information as possible, especially directory and file names.
-
-## What about "snapshots"?
-
-- In addition to the regular backup service, the home directories on Rackham have a feature called "snapshots".
-- Snapshot makes a frozen "picture" of some file structure as it looks at the time the snapshot was taken.
-- This allows you to restore a particular file as it was at some time point.
-- Snapshots reside on the same storage system as the original data — when the storage system fails catastrophically then the snapshots are gone as well.
-- Snapshots are taken on regular basis and only available for home directories.
-
-- You can easily access snapshots in every directory by 'ls .snapshot' or 'cd .snapshot' in a [terminal](../software/terminal.md). The '.snapshot' is a hidden directory.
