@@ -22,9 +22,9 @@ e.g. raw data or originals.
     for his/her data.
 
     We recommend PIs to maintain a primary copy of their data on a system
-    they control, when possible. 
+    they control, when possible.
 
-    If not, ensure that 
+    If not, ensure that
     collaborators can only use the data in a responsible way.
     See [the best practices on an UPPMAX filesystem](uppmax_filesystem.md#best-practices)
 
