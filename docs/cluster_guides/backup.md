@@ -45,9 +45,16 @@ This means:
 
 ???- question "What determines if a newly-edited file gets a backup?"
 
-    - The change persevered. For example, a file that is created and deleted
-      within a day is unlikely to get a backup
+    - The duration of the change persisting.
+      For example, a file that is created and deleted
+      within a day is unlikely to get a backup.
+      The longer the change persisted,
+      the likelier it is to have
+      its latest version in the backup
     - The workload of the backup service is low.
+      The lower the workload of the backup service,
+      the likelier it is you have more recent versions of your files
+      in a backup
 
 The backup service works best when it can keep up with the changes
 on files that have a backup.
