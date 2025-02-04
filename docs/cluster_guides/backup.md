@@ -74,14 +74,14 @@ Folder                 |Example                |Description           |Exception
 `/proj/snicYYYY-X-ZZZZ`|`/proj/snic2022-6-85`  |SNIC projects         |Folders named `nobackup`
 
 Additionally, your home folder has snapshots taken,
-which take place more often and can be recoved yourself.
+which take place more often and can be recovered yourself.
 See [the UPPMAX documentation on snapshots](snapshots.md).
 
 ## What should I put in directories with backup?
 
 Irreplaceable data that you are not actively working on.
 
-???- question "What are examples of irreplacable data?"
+???- question "What are examples of irreplaceable data?"
 
     Examples of irreplaceable data are:
 
