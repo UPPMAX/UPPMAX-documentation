@@ -27,3 +27,5 @@ General name                   |Example name                     |Description   
 `/proj/[project_name]`         |`/proj/uppmax2025-2-262`         |Your project folder                          |Work on your project here
 `/proj/[project_name]/nobackup`|`/proj/uppmax2025-2-262/nobackup`|The folder of your project thas has no backup|Folder for intermediate/temporary files
 
+To be able to retrieve (accidentally) lost files, 
+Rackham has [backups](backup.md) and [snapshots](snapshot.md).
