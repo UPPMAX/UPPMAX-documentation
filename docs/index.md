@@ -6,7 +6,8 @@ template: home.html
 
 <br/><br/>
 
-<img src="assets/UU_logo_color.svg" alt="drawing" width="200"/>
+<img id="logo_light_mode" src="assets/UU_logo_color.svg" alt="drawing" width="200" >
+<img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="drawing" width="200" >
 
 <br/>
 
@@ -29,6 +30,5 @@ template: home.html
 [:material-rocket-launch: Go to the UPPMAX main page](https://www.uu.se/en/centre/uppmax){: .md-button .md-button--primary }
 
 <br/><br/>
-
 
 </center>

@@ -120,6 +120,8 @@ theme:
     code: JetBrains Mono
 
   logo: assets/logo_color.png
+  # logo_dark_mode: assets/UU_logo_vit.svg
+  # logo_light_mode: assets/logo_color.png
   palette: 
 
     # Palette toggle for light mode

@@ -27,6 +27,27 @@
   max-width: 70%; /* or 100%, if you want to stretch to full-width */
 /* } */
 
+
+/* Swtiching UU logo in dark and light modes */
+#logo_light_mode {
+  display: var(--logo-light-mode);
+}
+
+#logo_dark_mode {
+  display: var(--logo-dark-mode);
+}
+
+[data-md-color-scheme="default"] {
+  --logo-dark-mode: none;
+  --logo-light-mode:  block;
+}
+
+[data-md-color-scheme="slate"] {
+  --logo-dark-mode: block;
+  --logo-light-mode:  none;
+}
+
+
 /* https://github.com/squidfunk/mkdocs-material/issues/4832#issuecomment-1374891676 */
 .md-nav__link[for] {
   color: var(--md-default-fg-color) !important;
