@@ -16,28 +16,41 @@ While UPPMAX systems may have backup,
 these are not designed to act as the sole repository of primary data,
 e.g. raw data or originals.
 
-
 !!! warning "The PI is the main responsible person"
 
     A PI and his/her academic institution are ultimately responsible
     for his/her data.
 
-    We recommend you maintain a primary copy of your data on a system you
-    control, when possible. At the very least, double-check that your
-    collaborators are taking care of your data in a responsible way.
+    We recommend PIs to maintain a primary copy of their data on a system
+    they control, when possible. 
 
+    If not, ensure that 
+    collaborators can only use the data in a responsible way.
+    See [the best practices on an UPPMAX filesystem](uppmax_filesystem.md#best-practices)
 
 ## What does "backup" mean for my data?
 
-The type of backup that is generally available for project storage at UPPMAX is incremental backup with 30 day retention. This means that any file that was deleted more than 30 days ago is irretrievably gone. Changes in a file are kept for 30 days, so we can potentially retrieve an old version up to a month after you edited it.
+The type of backup that is generally available for project storage at UPPMAX
+is incremental backup with 30 day retention.
+This means that any file that was deleted
+more than 30 days ago is irretrievably gone.
+Changes in a file are kept for 30 days,
+so we can potentially retrieve an old version up to a month after you edited it.
 
-The backup service tries to backup all changes as often as they occur, but rapid changes will not register. Due to the large amounts of files in the file systems, a single backup session may take upwards of a week or more. This means that if you create a file and delete it the next day, it will probably not be backed up.
+The backup service tries to backup all changes as often as they occur,
+but rapid changes will not register.
+Due to the large amounts of files in the file systems,
+a single backup session may take upwards of a week or more.
+This means that if you create a file and delete it the next day,
+it will probably not be backed up.
 
-Backups are sent off-site to either KTH or LiU, depending on the storage system.
-
-To ensure timely backups, it is very important to reduce the workload of the backup system as much as possible. Create directories with `nobackup` in their name or use the pre-existing nobackup directory in /proj/XYZ to store data that does not need backup.
-
-- It is especially important that temporary files and files that are changed often are placed in nobackup directories.
+To ensure timely backups, it is important to reduce the workload
+of the backup system as much as possible.
+Create directories with `nobackup` in their name
+or use the pre-existing `nobackup` directory in project folders
+to store data that does not need backup.
+It is especially important that temporary files and files that are changed
+often are placed in `nobackup` directories.
 
 ## Which directories are backed up?
 
@@ -45,7 +58,7 @@ Backup is done on:
 
 Folder                 |Example                |Description           |Exceptions?
 -----------------------|-----------------------|----------------------|------------------------
-`/home/[username]`     |`/home/sven`           |Your home folder      |No
+`/home/[username]`     |`/home/sven`           |Your home folder      |Folders named `nobackup`
 `/proj/sensYYYYXXX`    |`/proj/sens2016001`    |Sensitive data project|Folders named `nobackup`
 `/proj/sllstoreYYYYXXX`|`/proj/sllstore2017096`|SciLifeLab Storage    |Folders named `nobackup`
 `/proj/uppoff20YYXXX`  |`/proj/uppoff2021003`  |UPPMAX offload storage|Folders named `nobackup`
@@ -72,22 +85,35 @@ Irreplaceable data that you are not actively working on.
 
 Reproducible/intermediate data that you are actively working on.
 
-The backup mechanisms cannot keep up with large amounts of files changing on a rapid basis.
+The backup mechanisms cannot keep up
+with large amounts of files changing on a rapid basis.
 
 ## How robust is UPPMAX storage?
 
-All UPPMAX storage systems use RAID technology to make storage more robust through redundancy.
+The hardware setup of UPPMAX storage is robust
+and unlikely to be the cause of lost data.
 
-This means that two or more disks must fail in the same "RAID volume" before there is a risk of data loss.
+???- question "How is the hardware set up?"
 
-- However, this technology does not protect against user error
-  (e.g. `rm -rf *` in your project directory)
-  or in case of a significant disaster (e.g. fire in computer hall).
-- Off-site backup is crucial.
+    All UPPMAX storage systems use RAID technology
+    to make storage more robust through redundancy.
+
+    This means that two or more disks must fail in the same 'RAID volume'
+    before there is a risk of data loss, which has a rather low chance.
+
+    Still, this does not protect against disasters, e.g.
+    a fire in the computer hall.
+
+    To take this into account, backups are sent off-site
+    to either KTH or LiU, depending on the storage system.
+
+This setup, however, does not protect against user error
+(e.g. removing all files in your project directory).
 
 ## How can I access my backups?
 
-You must contact UPPMAX support and ask for help. Provide as much information as possible, especially directory and file names.
+You must contact UPPMAX support and ask for help.
+Provide as much information as possible, especially directory and file names.
 
 ## What about "snapshots"?
 

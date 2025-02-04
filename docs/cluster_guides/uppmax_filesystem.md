@@ -1,3 +1,10 @@
+---
+tags:
+  - filesystem
+  - file system
+  - UPPMAX
+---
+
 # UPPMAX filesystem
 
 One can store files on the UPPMAX clusters.
@@ -13,6 +20,9 @@ Home folder   |Your home folder, `/home/[username]`, e.g. `/home/sven`
 Project folder|Your project folder, `/proj/[project_name]`, e.g. `/proj/snic2021-22-780`
 Wharf         |A Bianca-only folder for file transfer
 
+Some folders do and some do not have a [backup](backup.md).
+See [the UPPMAX documentation on 'backup'](backup.md) for details.
+
 ## Best practices
 
 ???- question "Are there any horror story on this?"
@@ -26,4 +36,4 @@ Wharf         |A Bianca-only folder for file transfer
    (and nothing else, so that the backup system does
    not get bogged down with junk).
 1. Run `chmod -R -w .` on directories containing critical
-   data that should normally be preserved.
+   data that should be preserved.
