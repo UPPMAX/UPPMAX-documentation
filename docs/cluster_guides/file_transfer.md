@@ -1,3 +1,9 @@
+---
+tags:
+  - file
+  - transfer
+---
+
 # File transfer
 
 [File transfer](file_transfer.md) is the process of getting files from one place to the other.

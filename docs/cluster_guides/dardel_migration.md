@@ -1,4 +1,12 @@
-# Dardel migration
+---
+tags:
+  - Dardel
+  - migration
+  - Rackham
+  - recovery
+---
+
+# Dardel migration and/or Rackham recovery
 
 ![Dardel server racks](./img/dardel_racks.png)
 

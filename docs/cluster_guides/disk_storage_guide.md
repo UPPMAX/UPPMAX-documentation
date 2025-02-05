@@ -1,3 +1,10 @@
+---
+tags:
+  - disk
+  - storage
+  - guide
+---
+
 # Disk storage guide
 
 ## Quota
