@@ -105,11 +105,20 @@ nav:
       - Other bioinformatics-oriented local data resources: databases/other_local.md
      
   - Support: support.md
+
   - Courses and workshops: 
       - Overview: courses_workshops/courses_workshops.md
-      - Intro to UPPMAX: courses_workshops/uppmax_intro_course.md
-      - Intro to Bianca: courses_workshops/bianca_intro.md
-      - Bianca in-depth: courses_workshops/bianca_intermediate.md
+      - AWK: courses_workshops/awk.md
+      - Bianca intro: courses_workshops/bianca_intro.md
+      - Bianca intermediate: courses_workshops/bianca_intermediate.md
+      - File transfer: courses_workshops/naiss_transfer.md
+      - HPC Python: courses_workshops/hpc_python.md
+      - Intro to Python: courses_workshops/intro_to_python.md
+      - Programming formalisms: courses_workshops/programming_formalisms.md
+      - R-MATLAB-Julia: courses_workshops/R_matlab_julia.md
+      - Singularity: courses_workshops/singularity.md
+      - UPPMAX intro: courses_workshops/uppmax_intro_course.md
+
   - Back to UPPMAX main page: https://www.uu.se/en/centre/uppmax
 
 theme:
