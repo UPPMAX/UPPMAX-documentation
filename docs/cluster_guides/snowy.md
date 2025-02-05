@@ -34,7 +34,8 @@ is only a so called [login node](../cluster_guides/login_node.md), where you can
 We have [some limits](../cluster_guides/login_node_restrictions.md) in place that restricts your usage.
 For larger tasks you should use our batch system that pushes your jobs onto other machines within the cluster.
 
-All access to [Snowy](snowy.md) is done using the batch system Slurm, either as an interactive job or non-interactive batch jobs.
+All access to [Snowy](snowy.md) is done using the batch system Slurm,
+either as an interactive session or non-interactive batch jobs.
 
 ## Using the batch system
 

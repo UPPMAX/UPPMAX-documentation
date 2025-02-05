@@ -1,16 +1,16 @@
-# Starting an interactive node on Bianca
+# Starting an interactive session on Bianca
 
 ![Log in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
-This page describes how to start an interactive node on [Bianca](bianca.md).
-See the [general information on starting an interactive node](start_interactive_node.md)
+This page describes how to start an interactive session on [Bianca](bianca.md).
+See the [general information on starting an interactive session](start_interactive_node.md)
 on how to do so in general.
 
 ???- question "Prefer a video?"
 
-    See the video [Starting an interactive node on Bianca](https://youtu.be/hQkMKW41-u4)
+    See the video [Starting an interactive session on Bianca](https://youtu.be/hQkMKW41-u4)
 
-To use an interactive node, in a [terminal](../software/terminal.md), type:
+To use an interactive session, in a [terminal](../software/terminal.md), type:
 
 ```bash
 interactive -A [project name] -n [number_of_cores] -t [session_duration]
@@ -44,7 +44,7 @@ as [sbatch](../software/sbatch.md).
 
 !!! note "Has Bianca frozen?"
 
-    It can take tens of minutes before an interactive node is allocated.
+    It can take tens of minutes before an interactive session is allocated.
     
     Bianca has not frozen, go ahead and have a coffee break :-)
 

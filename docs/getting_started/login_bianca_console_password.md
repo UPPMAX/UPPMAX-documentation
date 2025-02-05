@@ -191,7 +191,7 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
     [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive node](../cluster_guides/start_interactive_node_on_rackham.md).
+    [use an interactive session](../cluster_guides/start_interactive_node_on_rackham.md).
 
 By default, this node has one core,
 hence if you need more memory or more CPU power,

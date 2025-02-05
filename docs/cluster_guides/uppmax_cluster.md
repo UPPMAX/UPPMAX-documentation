@@ -96,7 +96,7 @@ There are three types of nodes:
     Requesting a calculation to run is described [here](slurm.md).
     This is done by using the Slurm scheduler.
 
-- **interactive nodes**: a type of calculation node, where a user can do calculations directly
+- **interactive sessions**: a user on a calculation node
 
 ???- tip "Requesting an interactive node"
 

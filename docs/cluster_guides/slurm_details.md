@@ -93,7 +93,7 @@ slurm batch| project name | max runtime | partition ("job type") | #cores | job 
     - useful together with the ``--begin=<time> flag``
     - ``salloc -A naiss20YY-XX-ZZ --begin=2022-02-17T08:00:00``
 
-    - asks for an interactive job that will start earliest tomorrow at 08:00
+    - asks for an interactive session that will start earliest tomorrow at 08:00
 
 ## Parameters in the job script or the command line?
 
@@ -127,7 +127,8 @@ sbatch -A naiss20YY-XX-ZZ -p devcore -t 00:15:00 jobscript.sh
 
 - ``-n X``
 - Bianca: 8GB per core
-- Slurm reports the available memory in the prompt at the start of an interactive job
+- Slurm reports the available memory in the prompt
+  at the start of an interactive session
 
 ## More flags
 

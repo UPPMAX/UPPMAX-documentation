@@ -62,7 +62,7 @@ Examples of heavy things are:
 - Running code with big calculations,
   use [the job scheduler](../cluster_guides/slurm.md) instead
 - Develop code with big calculations line-by-line,
-  use [an interactive node](../cluster_guides/start_interactive_node.md) instead
+  use [an interactive session](../cluster_guides/start_interactive_node.md) instead
 
 ```mermaid
 flowchart TD
@@ -70,7 +70,7 @@ flowchart TD
     operation_type[What type of operation/calculation?]
     interaction_type[What type of interaction?]
     login_node(Work on login node)
-    interactive_node(Work on interactive node)
+    interactive_node(Uses on calculation node, in an interactive session)
     calculation_node(Schedule for calculation node)
 
     UPPMAX-->operation_type

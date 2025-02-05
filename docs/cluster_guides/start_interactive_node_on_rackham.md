@@ -1,11 +1,11 @@
-# Starting an interactive node on Rackham
+# Starting an interactive session on Rackham
 
 ![Log in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
-This page describes how to start an interactive node on [Rackham](rackham.md),
-unlike the [general information on starting an interactive node](start_interactive_node.md).
+This page describes how to start an interactive session on [Rackham](rackham.md),
+unlike the [general information on starting an interactive session](start_interactive_node.md).
 
-To use an interactive node, in a [terminal](../software/terminal.md), type:
+To use an interactive session, in a [terminal](../software/terminal.md), type:
 
 ```bash
 interactive -A [project name]

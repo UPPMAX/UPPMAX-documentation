@@ -119,7 +119,8 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 
 - ``-n X``
 - Bianca: 8GB per core
-- Slurm reports the available memory in the prompt at the start of an interactive job
+- Slurm reports the available memory
+  in the prompt at the start of an interactive job
 
 ### More flags
 

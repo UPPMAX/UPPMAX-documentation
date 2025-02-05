@@ -109,7 +109,7 @@ are restricted in some ways:
 
 - Users cannot run calculations directly.
   Instead, users need to request either (1) a calculation to be run,
-  or (2) an interactive node
+  or (2) an interactive session
 
 ???- tip "Requesting a calculation to run"
 
@@ -117,12 +117,10 @@ are restricted in some ways:
     [here](../cluster_guides/slurm.md).
     This is done by using the Slurm scheduler.
 
-???- tip "Requesting an interactive node"
+???- tip "Requesting an interactive session"
 
-    Requesting an interactive node is described
+    Requesting an interactive session is described
     [here](../cluster_guides/start_interactive_node.md).
-    This is done by requesting an interactive node
-    from the Slurm scheduler.
 
 - Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
@@ -185,7 +183,8 @@ There are three types of nodes:
     and is described [here](slurm.md).
     This is done by using the Slurm scheduler.
 
-- **interactive nodes**: a type of calculation node, where a user can do calculations directly
+- **interactive sessions**: a user on a calculation node,
+  where he/she can do calculations directly
 
 ???- tip "Requesting an interactive node"
 

@@ -1,11 +1,11 @@
-# Starting an interactive node on Snowy
+# Starting an interactive session on Snowy
 
 ![Log in to Rackham4 via a terminal](./img/login_rackham4_via_terminal_terminal_395_x_204.png)
 
-This page describes how to start an interactive node on [Snowy](snowy.md),
-unlike the [general information on starting an interactive node](start_interactive_node.md).
+This page describes how to start an interactive session on [Snowy](snowy.md),
+unlike the [general information on starting an interactive session](start_interactive_node.md).
 
-To use an interactive node, in a [terminal](../software/terminal.md), type:
+To start an interactive session, in a [terminal](../software/terminal.md), type:
 
 ```bash
 interactive -A [project name] -M snowy
@@ -53,6 +53,7 @@ that has a maximum duration of 8 hours.
 
 !!! note "Has Snowy frozen?"
 
-    It can take tens of seconds before an interactive node is allocated.
+    It can take tens of seconds before the computer
+    core(s)/node(s) are allocated.
 
     Snowy has not frozen, just be a bit more patient.

@@ -27,7 +27,7 @@ and will be only accessible to Uppsala researchers.
 - [Rackham's design](rackhams_design.md)
 - [Rackham's hardware](../hardware/clusters/rackham.md)
 - [Log in](../getting_started/login_rackham.md)
-- [Starting an interactive node](start_interactive_node_on_rackham.md)
+- [Starting an interactive session](start_interactive_node_on_rackham.md)
 - [File transfer](transfer_rackham.md)
     - [using a graphical program](rackham_file_transfer_using_gui.md)
     - [using SCP](../software/rackham_file_transfer_using_scp.md)

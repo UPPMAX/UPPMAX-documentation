@@ -19,9 +19,9 @@ how to fix Slurm errors.
 the only difference is that one need specify one want to use
 the Snowy computer nodes.
 
-???- question "Want to start an interactive job?"
+???- question "Want to start an interactive session?"
 
-    See how to start an interactive job on Snowy [here](start_interactive_node_on_snowy.md)
+    See how to start an interactive session on Snowy [here](start_interactive_node_on_snowy.md)
 
 Here it is shown how to submit a job with:
 

@@ -53,7 +53,7 @@ The Slurm system is accessed using the following commands:
 ```mermaid
 flowchart TD
   login_node(User on login node)
-  interactive_node(User on interactive node)
+  interactive_node(User in interactive session)
   computation_node(Computation node):::calculation_node
 
   login_node --> |move user, interactive|interactive_node

@@ -19,9 +19,9 @@ how to fix Slurm errors.
 the only difference is that one need specify one want to use
 the Rackham computer nodes.
 
-???- question "Want to start an interactive job?"
+???- question "Want to start an interactive session?"
 
-    See how to start an interactive job on Rackham [here](start_interactive_node_on_rackham.md)
+    See how to start an interactive session on Rackham [here](start_interactive_node_on_rackham.md)
 
 Here it is shown how to submit a job with:
 

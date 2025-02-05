@@ -23,9 +23,9 @@ how to fix Slurm errors.
 
 `sbatch` (and `interactive`) work the same as on [Rackham](rackham.md).
 
-???- question "Want to start an interactive job?"
+???- question "Want to start an interactive session?"
 
-    See how to start an interactive job on Bianca [here](start_interactive_node_on_bianca.md)
+    See how to start an interactive session on Bianca [here](start_interactive_node_on_bianca.md)
 
 Here it is shown how to submit a job with:
 

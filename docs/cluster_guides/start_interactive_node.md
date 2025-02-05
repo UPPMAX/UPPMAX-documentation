@@ -2,14 +2,14 @@
 tags:
   - start
   - interactive
-  - node
+  - session
 ---
 
-# Starting an interactive node
+# Starting an interactive session
 
 ![Logged in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
-Below we describe the general ideas of using an interactive node:
+Below we describe the general ideas of using an interactive session:
 
 - [the types of nodes](#types-of-nodes)
 - [When to use an interactive node](#when-to-use-an-interactive-node)
@@ -36,7 +36,7 @@ The UPPMAX HPC clusters have three types of nodes:
     Requesting a calculation is described [here](slurm.md).
     This is done by using the Slurm scheduler.
 
-- **interactive nodes**: a type of calculation node,
+- **interactive session**: a use on a calculation node,
   where a user can do calculations directly
 
 ???- tip "How can I find out on which node I am?"
