@@ -45,5 +45,7 @@ as [sbatch](../software/sbatch.md).
 !!! note "Has Bianca frozen?"
 
     It can take tens of minutes before an interactive node is allocated.
-
+    
     Bianca has not frozen, go ahead and have a coffee break :-)
+
+    You can see the regular timings at [cluster speeds](cluster_speeds.md).
