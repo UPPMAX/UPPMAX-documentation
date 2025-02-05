@@ -31,7 +31,7 @@ To transfer files to/from Bianca using FileZilla, do the following steps:
 
 ### 1. Get inside SUNET
 
-Get inside SUNET.
+[Get inside of SUNET](../getting_started/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
@@ -42,6 +42,14 @@ Get inside SUNET.
 Start WinSCP.
 
 ### 3. Create a new site
+
+!!! warning "This may have changed as of 2025-02-05"
+
+    If the step below does not work anymore,
+    [start the grace period](../cluster_guides/grace_period.md)
+    and try again.
+
+    If it still fails, please [contact UPPMAX support](../support.md).
 
 In WinSCP, click on 'Create new site'.
 

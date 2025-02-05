@@ -12,9 +12,15 @@ as well as some troubleshooting.
 
 [Get inside of SUNET](../getting_started/get_inside_sunet.md).
 
-If needed, [start the grace period](../cluster_guides/grace_period.md).
-
 ### 2. Start `lftp`
+
+!!! warning "This may have changed as of 2025-02-05"
+
+    If the step below does not work anymore,
+    [start the grace period](../cluster_guides/grace_period.md)
+    and try again.
+
+    If it still fails, please [contact UPPMAX support](../support.md).
 
 ```bash
 lftp sftp://[user_name]-[project_id]@bianca-sftp.uppmax.uu.se/[user_name]-[project_id]/

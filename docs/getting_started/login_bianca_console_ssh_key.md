@@ -31,6 +31,12 @@ an easier setup is [log in to the Bianca console environment with a password](lo
 
 ## 2. Use `ssh` to log in
 
+!!! warning "This may have changed as of 2025-02-05"
+
+    If the procedure below does not work
+    after 2025-02-07, please [contact UPPMAX support](../support.md):
+    the documentation will be updated then :-)
+
 From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash

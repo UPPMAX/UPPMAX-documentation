@@ -25,11 +25,14 @@ This procedure will fail if:
   see [how to get inside the university networks](../getting_started/get_inside_sunet.md).
   [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being
   outside of the university networks
-- You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
-  where a password is still requested after doing this procedure
-  on Rackham
 
-Here is the procedure:
+!!! warning "This may have changed as of 2025-02-05"
+
+    If the procedure below does not work
+    after 2025-02-07, please [contact UPPMAX support](../support.md):
+    the documentation will be updated then :-)
+
+Here is the procedure.
 
 ### 1. Create an SSH key pair
 
