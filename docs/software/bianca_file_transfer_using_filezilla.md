@@ -45,14 +45,6 @@ Start FileZilla.
 
 ### 3. Select 'File | Site manager'
 
-!!! warning "This may have changed as of 2025-02-05"
-
-    If the step below does not work anymore,
-    [start the grace period](../cluster_guides/grace_period.md)
-    and try again.
-
-    If it still fails, please [contact UPPMAX support](../support.md).
-
 In FileZilla, from the menu, select 'File | Site manager'
 
 ???- tip "Where is that?"
