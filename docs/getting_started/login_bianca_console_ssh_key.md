@@ -162,8 +162,6 @@ In a Bianca console environment:
     ```
 
 
-
-
 ```
 richel@richel-N141CU:~$ ssh -A richel@bianca.uppmax.uu.se
 
