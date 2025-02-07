@@ -30,7 +30,7 @@ sudo apt-get install openconnect network-manager-openconnect network-manager-ope
 
  ```bash
  sven@svens_computer:~$ sudo apt-get install openconnect network-manager-openconnect network-manager-openconnect-gnome
- [sudo] password for sven: 
+ [sudo] password for sven:
  Reading package lists... Done
  Building dependency tree... Done
  Reading state information... Done
@@ -51,7 +51,7 @@ sudo apt-get install openconnect network-manager-openconnect network-manager-ope
  0 upgraded, 11 newly installed, 0 to remove and 22 not upgraded.
  Need to get 2 187 kB of archives.
  After this operation, 10,1 MB of additional disk space will be used.
- Do you want to continue? [Y/n] 
+ Do you want to continue? [Y/n]
  Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 libxmlsec1t64-openssl amd64 1.2.39-5build2 [84,1 kB]
  Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpskc0t64 amd64 2.6.11-2.1ubuntu0.1 [27,9 kB]
  Get:3 http://archive.ubuntu.com/ubuntu noble/universe amd64 libtomcrypt1 amd64 1.18.2+dfsg-7build1 [384 kB]
@@ -63,7 +63,7 @@ sudo apt-get install openconnect network-manager-openconnect network-manager-ope
  Get:9 http://archive.ubuntu.com/ubuntu noble/universe amd64 network-manager-openconnect-gnome amd64 1.2.10-3build2 [33,6 kB]
  Get:10 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-asn1crypto all 1.5.1-3 [79,7 kB]
  Get:11 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-mechanize all 1:0.4.9+ds-2 [93,9 kB]
- Fetched 2 187 kB in 1s (2 434 kB/s)           
+ Fetched 2 187 kB in 1s (2 434 kB/s)
  Selecting previously unselected package libxmlsec1t64-openssl:amd64.
  (Reading database ... 481882 files and directories currently installed.)
  Preparing to unpack .../00-libxmlsec1t64-openssl_1.2.39-5build2_amd64.deb ...
@@ -114,7 +114,7 @@ sudo apt-get install openconnect network-manager-openconnect network-manager-ope
  Setting up network-manager-openconnect (1.2.10-3build2) ...
  Setting up network-manager-openconnect-gnome (1.2.10-3build2) ...
  Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
- sven@svens_computer:~$ 
+ sven@svens_computer:~$
  ```
 
 ## 2. Add the VPN
@@ -127,7 +127,7 @@ Go to the 'Settings'
     (the one between `CTRL` and `ALT` that is not called `FN`).
 
     When typing `settings`, it will pop up. Click it.
-    Or move there with the arrow keys and press enter. 
+    Or move there with the arrow keys and press enter.
 
     ![Ubuntu after pressing the meta key and typing setting](./img/ubuntu_meta_type_settings.png)
 
