@@ -32,7 +32,7 @@ For example:
 sftp sven-sens2016001@bianca-sftp.uppmax.uu.se:/sven-sens2016001
 ```
 
-### 3. Supply password.
+### 3. Supply password
 
 !!! warning "This may have changed as of 2025-02-05"
 
