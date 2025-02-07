@@ -34,14 +34,6 @@ sftp sven-sens2016001@bianca-sftp.uppmax.uu.se:/sven-sens2016001
 
 ### 3. Supply password
 
-!!! warning "This may have changed as of 2025-02-05"
-
-    If the step below does not work anymore,
-    [start the grace period](../cluster_guides/grace_period.md)
-    and try again.
-
-    If it still fails, please [contact UPPMAX support](../support.md).
-
 `sftp` will ask for a password:
 
 ```bash
