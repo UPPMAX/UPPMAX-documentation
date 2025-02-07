@@ -23,7 +23,7 @@ using a [terminal](../software/terminal.md) and a password:
 ???- tip "Video: how to use a terminal and SSH to access the Bianca console environment"
 
     This video shows how to use a terminal and SSH to access
-    the Bianca console environment: [YouTube](https://youtu.be/upBozh2BI5c)
+    the Bianca console environment: [YouTube](https://youtu.be/7mKDxnXqi_M)
 
 ### 1. Get inside the university networks
 
