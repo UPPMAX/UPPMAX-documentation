@@ -126,7 +126,7 @@ you are now asked to pick a Bianca project.
 
 ### 5. Type your Bianca project
 
-You will be asked for your UPPMAX project's name. 
+You will be asked for your UPPMAX project's name.
 Type it and press enter.
 
 ???- question "How does this look like?"

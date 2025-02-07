@@ -155,17 +155,17 @@ In the 'Add VPN' dialog, click on the 'Identity' tab.
 
     ![In the 'Add VPN' dialog, click on the 'Identity' tab](./img/ubuntu_network_settings_add_vpn_dialog_click_identity.png)
 
-In the 'Indentity' tab, set up the following values:
+In the 'Identity' tab, set up the following values:
 
 Field     |Value
 ----------|--------------------------------------------
 Name      |Any name, e.g. `My Uppasala University VPN`
-Gateay    |`vpn.uu.se`
+Gateway   |`vpn.uu.se`
 User Agent|`AnyConnect Linux_64 4.7.00136`
 
 ??? question "How does that look like?"
 
-    ![The 'Indentity' tab, with the values filled in](./img/ubuntu_network_settings_add_vpn_identity_settings.png)
+    ![The 'Identity' tab, with the values filled in](./img/ubuntu_network_settings_add_vpn_identity_settings.png)
 
 Now you have added the VPN.
 
