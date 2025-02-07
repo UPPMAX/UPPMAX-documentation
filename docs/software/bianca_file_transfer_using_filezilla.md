@@ -9,10 +9,6 @@ tags:
 
 # File transfer to/from Bianca using FileZilla
 
-Download and install from [UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows).
-
-You can also download the software from FileZilla website for [Windows](https://filezilla-project.org/download.php?platform=win64), [MacOS (intel)](https://filezilla-project.org/download.php?platform=osx) or [MacOS (Apple Silicon)](https://filezilla-project.org/download.php?platform=macos-arm64).
-
 ![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
 
 > FileZilla connected to Bianca
@@ -20,6 +16,7 @@ You can also download the software from FileZilla website for [Windows](https://
 There are multiple ways to [transfer data to/from Bianca](../cluster_guides/transfer_bianca.md).
 
 Here, we show how to transfer files using a graphical tool called [FileZilla](filezilla.md).
+See [the UPPMAX page on 'FileZilla'](filezilla.md) on how to install FileZilla.
 
 ## Procedure
 
