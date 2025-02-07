@@ -129,31 +129,31 @@ Go to the 'Settings'
     When typing `settings`, it will pop up. Click it.
     Or move there with the arrow keys and press enter. 
 
-    ![Ubuntu after pressing the meta key and typing setting](ubuntu_meta_type_settings.png)
+    ![Ubuntu after pressing the meta key and typing setting](./img/ubuntu_meta_type_settings.png)
 
 Go to 'Network'.
 
 ??? question "How does that look like?"
 
-    ![In the Ubuntu settings, click Network](ubuntu_settings_click_network.png)
+    ![In the Ubuntu settings, click Network](./img/ubuntu_settings_click_network.png)
 
 In the VPN section, click on the plus to add a VPN.
 
 ??? question "How does that look like?"
 
-    ![In the VPN section, click on the plus to add a VPN](ubuntu_network_settings_click_add_vpn.png)
+    ![In the VPN section, click on the plus to add a VPN](./img/ubuntu_network_settings_click_add_vpn.png)
 
 In the 'Add VPN' dialog, click on 'Multi-protocol VPN client (openconnect)'.
 
 ??? question "How does that look like?"
 
-    ![In the 'Add VPN' dialog, click on 'Multi-protocol VPN client'](ubuntu_network_settings_add_vpn_click_multi_protocol.png)
+    ![In the 'Add VPN' dialog, click on 'Multi-protocol VPN client'](./img/ubuntu_network_settings_add_vpn_click_multi_protocol.png)
 
 In the 'Add VPN' dialog, click on the 'Identity' tab.
 
 ??? question "How does that look like?"
 
-    ![In the 'Add VPN' dialog, click on the 'Identity' tab](ubuntu_network_settings_add_vpn_dialog_click_identity.png)
+    ![In the 'Add VPN' dialog, click on the 'Identity' tab](./img/ubuntu_network_settings_add_vpn_dialog_click_identity.png)
 
 In the 'Indentity' tab, set up the following values:
 
@@ -165,7 +165,7 @@ User Agent|`AnyConnect Linux_64 4.7.00136`
 
 ??? question "How does that look like?"
 
-    ![The 'Indentity' tab, with the values filled in](ubuntu_network_settings_add_vpn_identity_settings.png)
+    ![The 'Indentity' tab, with the values filled in](./img/ubuntu_network_settings_add_vpn_identity_settings.png)
  
 Now you have added the VPN.
 
@@ -177,19 +177,25 @@ Click on the slider right of our UU VPN.
 
 ??? question "How does that look like?"
 
-    ![Click on the slider right of our UU VPN](ubuntu_network_settings_vpn_present_click_slider.png)
+    ![Click on the slider right of our UU VPN](./img/ubuntu_network_settings_vpn_present_click_slider.png)
 
-In the popup, click login
+In the popup, click login.
 
-ubuntu_connect_to_vpn_popup.png
+??? question "How does that look like?"
+
+    ![In the popup, click login](./img/ubuntu_connect_to_vpn_popup.png)
 
 You are now asked for you UU Login:
 
-ubuntu_connect_to_vpn_popup_click_login.png
+??? question "How does that look like?"
 
-Fill in your details
+    ![Fill in your UU login name and password](./img/ubuntu_connect_to_vpn_popup_click_login.png)
 
-ubuntu_connect_to_vpn_popup_login_filled_in.png
+Fill in your UU login name and password.
+
+??? question "How does that look like?"
+
+    ![Filled in UU login name and password](./img/ubuntu_connect_to_vpn_popup_login_filled_in.png)
 
 Fill in your 2FA. The 2FA should be called `[akka_id]`, e.g. `svesv314`
 (and not `sven.svensson@icm.uu.se`).
@@ -201,20 +207,22 @@ Fill in your 2FA. The 2FA should be called `[akka_id]`, e.g. `svesv314`
 
     Pick the options for 'user account' (i.e. not for SharePoint).
 
+??? question "How does that look like?"
 
-ubuntu_connect_to_vpn_popup_login_2fa_filled_in
+    ![2FA filled in](./img/ubuntu_connect_to_vpn_popup_login_2fa_filled_in.png)
 
-You are now connected
+You are now connected!
 
-According to settings
+??? question "How can I see that?"
 
-ubuntu_network_connected_to_vpn.png
+    You are connected to the UU VPN according to network settings:
 
-Accoridng to the main menu
+    ![You are connected to the UU VPN according to network settings](./img/ubuntu_network_connected_to_vpn.png)
 
-ubuntu_network_connected_to_vpn_main_menu.png
+    You are connected to the UU VPN according to the main menu:
+    ![You are connected to the UU VPN according to the main menu](./img/ubuntu_network_connected_to_vpn_main_menu.png)
 
-??? question "For staff"
+??? question "For staff: UIT documentation"
 
     This page is based on this procedure suggested by UIT:
 
