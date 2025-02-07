@@ -38,19 +38,23 @@ Get inside the university networks.
 From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
-ssh [user]-[project name]@bianca.uppmax.uu.se
+ssh [username]@bianca.uppmax.uu.se
 ```
 
 For example:
 
 ```bash
-ssh sven-sens2023598@bianca.uppmax.uu.se
+ssh sven@bianca.uppmax.uu.se
 ```
 
 ???- question "How does this look like (when inside of SUNET)?"
 
     ```bash
-    ssh sven-sens2023598@bianca.uppmax.uu.se
+    sven@svens_computer:~$ ssh sven@bianca.uppmax.uu.se
+
+    Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
+
+    (sven@bianca.uppmax.uu.se) Password: 
     ```
 
     After which a password will be asked. Go to the next step.
@@ -58,7 +62,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
 ???- question "How does it look like when outside of SUNET?"
 
     ```bash
-    $ ssh sven-sens2023598@bianca.uppmax.uu.se
+    sven@svens_computer:~$ ssh sven@bianca.uppmax.uu.se
     ```
 
     After which there is only waiting...
@@ -68,7 +72,7 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     On Bianca, one can use `-A`:
 
     ```bash
-    ssh -A username@bianca.uppmax.uu.se
+    ssh -A [username]@bianca.uppmax.uu.se
     ```
 
     this option is only useful when you want to
@@ -82,39 +86,59 @@ ssh sven-sens2023598@bianca.uppmax.uu.se
     On Rackham, one can use `-X`:
 
     ```bash
-    ssh -X username@rackham.uppmax.uu.se
+    ssh -X [username]@rackham.uppmax.uu.se
     ```
 
     However, on Bianca, this so-called
     [X forwarding](../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
-### 3. Type your UPPMAX password with 2FA
+### 3. Type your UPPMAX password
 
-Type your UPPMAX password,
-directly followed by the UPPMAX 2-factor authentication number,
-for example `verysecret678123`, then press enter.
-In this case, the password is `verysecret` and `678123`
-is the 2FA number.
+Type your UPPMAX password.
 
 ???- question "How does this look like?"
 
     ```bash
-    sven@sven-N141CU:~/GitHubs/UPPMAX-documentation/docs/getting_started$ ssh sven-sens2023598@bianca.uppmax.uu.se
-    sven-sens2023598@bianca.uppmax.uu.se's password: 
+    Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
+
+    (sven@bianca.uppmax.uu.se) Password: 
+    (sven@bianca.uppmax.uu.se) 
     ```
 
-   After which you'll asked for another password. Go to the next step.
+   After which you'll asked for your TOTP. Go to the next step.
 
+### 4. Type your TOTP
 
-After authenticated using the UPPMAX password and 2FA,
-you are logged in on Bianca's shared network,
-on a so-called 'jumphost'.
+Type the TOTP from the UPPMAX 2-factor authentication service,
+for example `123456`, then press enter.
 
-However, you will still need to login to your own
+???- question "How does this look like?"
+
+    ```bash
+    Second factor (TOTP UPPMAX): 
+    ```
+
+   After which you'll asked for your Bianca project. Go to the next step.
+
+After authenticated using the UPPMAX password and UPPMAX TOTP,
+you are now asked to pick a Bianca project.
+
+### 5. Type your Bianca project
+
+You will be asked for your UPPMAX project's name. 
+Type it and press enter.
+
+???- question "How does this look like?"
+
+    ```bash
+    Project name (pick from sens2016001 sens2017625 sens2023598): sens2017625
+    ```
+
+The next step is to login to your own
 private virtual project cluster.
 As you are already properly authenticated (i.e. using an UPPMAX password
-and UPPMAX 2FA), you don't need 2FA anymore.
+and UPPMAX TOTP), you don't need to use your 2FA anymore.
 
 ???- question "What is a virtual project cluster?"
 
@@ -137,7 +161,17 @@ It can be `up and running` or `down`.
 If it is `down`, the virtual cluster is started,
 which may take some minutes.
 
-### 4. Type your UPPMAX password
+???- question "How does this look like?"
+
+    Here is how it looks like when the node is already running:
+
+    ```text
+    ****************************************************************************
+    * Login node up and running. Redirecting now!                              *
+    ****************************************************************************
+    ```
+
+### 6. Type your UPPMAX password
 
 Type your UPPMAX password,
 for example `verysecret`
@@ -145,22 +179,10 @@ for example `verysecret`
 ???- question "How does this look like?"
 
     ```bash
-    Last login: Thu Sep 19 08:54:12 2024 from vpnpool188-186.anst.uu.se
-    Notice(s) for upcoming maintenance on bianca:
-
-      Lost e-mail support tickets, working again
-      http://status.uppmax.uu.se/2024-09-19/lost-tickets/
-
-    ****************************************************************************
-    * Login node up and running. Redirecting now!                              *
-    * Notice! No second factor if you use password.                            *
-    * If you use ssh keys, you can get rid of this (second) prompt.            *
-    ****************************************************************************
-
-    sven@sens2023598-bianca.uppmax.uu.se's password: 
+    sven@sens2017625-bianca.uppmax.uu.se's password: 
     ```
 
-### 5. You are in
+### 7. You are in
 
 Enjoy! You are in! Or, to be precise,
 you are on the [login node](../cluster_guides/login_node.md) of your own virtual project cluster.
@@ -168,8 +190,9 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
 ???- question "How does this look like?"
 
     ```bash
+    Last login: Fri Feb  7 12:09:32 2025 from 172.18.144.254
      _   _ ____  ____  __  __    _    __  __
-    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    sens2023598-bianca
+    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    sens2017625-bianca
     | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      sven
     | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
      \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
@@ -180,6 +203,9 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
             FAQ: http://www.uppmax.uu.se/support/faq
 
             Write to support@uppmax.uu.se, if you have questions or comments.
+
+
+    [sven@sens2017625-bianca ~]$ 
     ````
 
 !!! note "How to behave on a login node"
@@ -244,15 +270,7 @@ flowchart TD
     It could be that you've forgotten your password. That can happen to all of
     us. You can then reset your password at <https://suprintegration.uppmax.uu.se/getpasswd>
 
-???- question "What do you mean 'Have you added a 2FA number at the end of your password?'?"
-
-    When you type your password, this needs to be followed by a two-factor authentication
-    number.
-
-    For example, if your password is `verysecret` and `314159` is the 2FA number,
-    you should type `verysecret314159`
-
-???- question "What is the correct 2FA number?"
+???- question "What is the correct 2FA service?"
 
     The UPPMAX one, titled `[username]@UPPMAX`, for example `sven@UPPMAX`.
 
@@ -279,17 +297,6 @@ flowchart TD
     To confirm your project is active or inactive, use the SUPR NAISS website.
     See [the UPPMAX documentation on projects](../getting_started/project.md)
     how to see if your project is active?
-
-???- question "How do I know if I am a member of the Bianca project?"
-
-    A quick way to confirm you are a member of the Bianca project:
-    go to <https://bianca.uppmax.uu.se>
-    and type your username. If the project is displayed,
-    you are a member of the Bianca project.
-
-    To confirm your project is active or inactive, use the SUPR NAISS website.
-    See [the UPPMAX documentation on projects](../getting_started/project.md)
-    how to see which projects you are a member of.
 
 See [the UPPMAX page on contacting support](../support.md)
 on how to contact us.
