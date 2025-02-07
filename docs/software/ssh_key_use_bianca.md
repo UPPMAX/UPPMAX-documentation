@@ -26,12 +26,6 @@ This procedure will fail if:
   [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being
   outside of the university networks
 
-!!! warning "This may have changed as of 2025-02-05"
-
-    If the procedure below does not work
-    after 2025-02-07, please [contact UPPMAX support](../support.md):
-    the documentation will be updated then :-)
-
 Here is the procedure.
 
 ### 1. Create an SSH key pair
@@ -175,17 +169,17 @@ chmod 700 ~
 using `ssh -A`:
 
 ```bash
-ssh -A [username]-[project]@bianca.uppmax.uu.se
+ssh -A [username]@bianca.uppmax.uu.se
 ```
 
 For example:
 
 ```bash
-ssh -A sven-sens12345@bianca.uppmax.uu.se
+ssh -A sven@bianca.uppmax.uu.se
 ```
 
-You will still get one login, which is the one that asks your UPPMAX
-password and 2FA.
+You will still get a login, asking for (1) your UPPMAX password,
+(2) your UPPMAX 2FA, and (3) your UPPMAX project.
 
 If all worked, there will be no need anymore to again type the UPPMAX
 password.
@@ -241,4 +235,3 @@ chmod 700 ~
 ## Links
 
 - [Notes from Pavlin Mitev](https://hackmd.io/@pmitev/SSH_tips)
-
