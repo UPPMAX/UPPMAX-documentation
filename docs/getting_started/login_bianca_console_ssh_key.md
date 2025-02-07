@@ -160,35 +160,3 @@ In a Bianca console environment:
         bianca_private_console---|is a|bianca_private_terminal
         bianca_private_remote_desktop-->|must also use|bianca_private_terminal
     ```
-
-
-```
-richel@richel-N141CU:~$ ssh -A richel@bianca.uppmax.uu.se
-
-Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
-
-(richel@bianca.uppmax.uu.se) Password: 
-(richel@bianca.uppmax.uu.se) 
-Second factor (TOTP UPPMAX): 
-Project name (pick from sens2016001 sens2017625 sens2023598): sens2017625
-****************************************************************************
-* Login node up and running. Redirecting now!                              *
-****************************************************************************
-
-Last login: Fri Feb  7 13:08:54 2025 from 172.18.144.254
- _   _ ____  ____  __  __    _    __  __
-| | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    sens2017625-bianca
-| | | | |_) | |_) | |\/| | / _ \   \  /    | User:      richel
-| |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
- \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
-
-###############################################################################
-
-        User Guides: http://www.uppmax.uu.se/support/user-guides
-        FAQ: http://www.uppmax.uu.se/support/faq
-
-        Write to support@uppmax.uu.se, if you have questions or comments.
-
-
-[richel@sens2017625-bianca ~]$ exit
-```
