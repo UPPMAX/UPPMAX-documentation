@@ -12,6 +12,8 @@ after it has been (accidentally) lost.
 
 This page describes how UPPMAX does backups.
 
+All folders have a backup, except those in a folder called `nobackup`.
+
 While UPPMAX systems may have backup,
 these are not designed to act as the sole repository of primary data,
 e.g. raw data or originals.
@@ -63,7 +65,8 @@ One important way to help work the backup service,
 is to put intermediate/temporary data in a directory with `nobackup`
 in its name.
 
-These folders have such a backup:
+All folders have a backup, except those in a folder called `nobackup`,
+such as:
 
 Folder                 |Example                |Description           |Exceptions
 -----------------------|-----------------------|----------------------|------------------------
