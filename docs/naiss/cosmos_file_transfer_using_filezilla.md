@@ -8,7 +8,7 @@ tags:
 
 ???- question "Why is this page at UPPMAX?"
 
-    It is the intention that this guide is moved to the PDC documentation.
+    It is the intention that this guide is moved to the LUNARC documentation.
     However, it has not been suggested to be added to their documentaton
     yet.
 
