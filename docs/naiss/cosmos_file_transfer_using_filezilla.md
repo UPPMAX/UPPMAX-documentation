@@ -12,8 +12,6 @@ tags:
     However, it has not been suggested to be added to their documentaton
     yet.
 
-Prefer a vide? https://youtu.be/T4qqN_ljsS8
-
 There are multiple ways to transfer data to/from COSMOS.
 
 Here, we show how to transfer files using a graphical tool called FileZilla.
@@ -27,7 +25,7 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 ???- question "Would you like a video?"
 
     If you like to see how to do file transfer from/to COSMOS
-    using FileZilla, watch the video [here](https://youtu.be/_3EmkN619Xo)
+    using FileZilla, watch the video [here](https://youtu.be/T4qqN_ljsS8)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
