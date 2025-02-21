@@ -40,12 +40,11 @@ sudo apt install putty-tools
 
 ### 2. Create the needed files in the `.ssh` folder
 
-???- question "How do I navigate into the `.ssh` folder?
+Navigate into the `.ssh` folder.
 
-    ```bash
-    cd .ssh
-    ```
-
+```bash
+cd .ssh
+```
 
 #### 2.1 Create the `.ppk` file
 
