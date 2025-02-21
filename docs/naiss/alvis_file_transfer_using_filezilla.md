@@ -25,7 +25,7 @@ Here, we show how to transfer files using a graphical tool called FileZilla.
 ???- question "Would you like a video?"
 
     If you like to see how to do file transfer from/to Alvis
-    using FileZilla, watch the video [here](https://youtu.be/T4qqN_ljsS8)
+    using FileZilla, watch the video [here](...)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
@@ -137,7 +137,7 @@ In FileZilla's site manager:
 - create a name for the site, e.g. `Alvis`.
 - for that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
-    - Set host to `alvis.c3se.chalmers.se`
+    - Set host to `alvis1.c3se.chalmers.se` or `alvis2.c3se.chalmers.se`
     - Set user to `[username]`, e.g. `svens`
     - Set logon type: Key file
     - Upload the key file at `/.ssh/alvis_filezilla.ppk`
