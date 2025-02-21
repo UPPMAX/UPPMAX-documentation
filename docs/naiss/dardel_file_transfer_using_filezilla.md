@@ -130,7 +130,7 @@ In FileZilla's site manager:
     - Set user to `[username]`, e.g. `svensv`
     - Set logon type: Key file
     - Upload the key file at `/.ssh/dardel_filezilla.ppk`
-      from you local's computer 
+      from you local's computer
 
 ???- tip "How does that look like?"
 
