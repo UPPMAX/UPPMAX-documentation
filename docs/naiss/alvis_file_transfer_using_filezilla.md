@@ -90,17 +90,19 @@ puttygen -O public-openssh alvis_filezilla.ppk -o alvis_filezilla.pub
 
 ### 3. Add the public SSH key to `~/.ssh/authorized_keys`
 
-```
+Copy the public SSH key (in the `.pub` file)
+to the `~/.ssh/authorized_keys` file on Alvis.
+
+If that file does not exist yet, create it and set the right
+permissions as such:
+
+```bash
 mkdir .ssh
 touch .ssh/authorized_keys
 chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
-
-Copy the public SSH key (in the `.pub` file) to the 
-`~/.ssh/authorized_keys` file on Alvis.
-
 
 ### 4. Start FileZilla
 
