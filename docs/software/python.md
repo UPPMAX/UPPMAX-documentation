@@ -189,6 +189,23 @@ for example, `module load python/3.11.4`
     one of the modules is `python/2.X.Y` and the other module is `python3/3.X.Y`
     (i.e. not `python/3.X.Y`).
 
+After loading a Python module,
+one can start the Python interpreter:
+
+```bash
+python
+```
+
+???- question "How does this look like?"
+
+    The Python interpreter looks like this:
+
+    ```bash
+    Python 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> 
+    ```
+
 ## Loading Python package modules
 
 !!! note "Terminology"
