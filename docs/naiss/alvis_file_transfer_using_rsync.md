@@ -6,7 +6,7 @@ tags:
 
 # File transfer to/from Alvis using rsync
 
-???- question "Why is this page at C3SE?"
+???- question "Why is this page at UPPMAX?"
 
     It is the intention that this guide is moved to the C3SE documentation.
     However, it has not been suggested to be added to their documentaton
