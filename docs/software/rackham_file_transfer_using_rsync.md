@@ -55,6 +55,10 @@ for example:
 rsync my_local_file.txt sven@rackham.uppmax.uu.se:/home/sven/
 ```
 
+If asked, give your UPPMAX password.
+You can get rid of this prompt if you are
+[using an SSH key pair](ssh_key_use_rackham.md).
+
 ### 2b. Transfer all files in a folder to Rackham
 
 On local computer, do:
@@ -74,7 +78,11 @@ for example:
 rsync --recursive my_folder sven@rackham.uppmax.uu.se:/home/sven/
 ```
 
-Note that `rsync` is very precise with slashes (`/`):
+If asked, give your UPPMAX password.
+You can get rid of this prompt if you are
+[using an SSH key pair](ssh_key_use_rackham.md).
+
+Note that in `rsync`, a slash (`/`) matters:
 
 Command                                                            |Effect
 -------------------------------------------------------------------|------------------------------------------------------------
@@ -108,6 +116,10 @@ for example:
 rsync sven@rackham.uppmax.uu.se:/home/sven/my_file.txt .
 ```
 
+If asked, give your UPPMAX password.
+You can get rid of this prompt if you are
+[using an SSH key pair](ssh_key_use_rackham.md).
+
 ## 3b. Transfer all folders from Rackham to you local computer
 
 On your local computer, do:
@@ -128,7 +140,6 @@ for example:
 rsync --recursive sven@rackham.uppmax.uu.se:/home/sven/my_folder .
 ```
 
-### 4. If asked, give your UPPMAX password
-
 If asked, give your UPPMAX password.
-You can get rid of this prompt if you have setup SSH keys
+You can get rid of this prompt if you are
+[using an SSH key pair](ssh_key_use_rackham.md).
