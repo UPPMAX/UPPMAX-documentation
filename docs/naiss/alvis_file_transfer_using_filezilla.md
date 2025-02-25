@@ -26,7 +26,7 @@ This page shows how to do so for Alvis.
 ???- question "Would you like a video?"
 
     If you like to see how to do file transfer from/to Alvis
-    using FileZilla, watch the video [here](...)
+    using FileZilla, watch the video [here](https://youtu.be/A8zfd0o0uzI)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
@@ -125,7 +125,7 @@ From the menu, select 'File | Site manager'
 
     It is here:
 
-    ![The FileZilla 'File' menu contains the item 'Site manager'](filezilla_file_site_manager.png)
+    ![The FileZilla 'File' menu contains the item 'Site manager'](filezilla_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
