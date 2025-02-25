@@ -12,9 +12,10 @@ tags:
     However, it has not been suggested to be added to their documentaton
     yet.
 
-There are multiple ways to transfer data to/from COSMOS.
+HPC clusters have different ways to do
+[file transfer using FileZilla](file_transfer_using_filezilla.md).
 
-Here, we show how to transfer files using a graphical tool called FileZilla.
+This page shows how to do so for COSMOS.
 
 ![FileZilla connected to COSMOS](filezilla_login_to_cosmos.png)
 
