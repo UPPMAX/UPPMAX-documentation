@@ -22,7 +22,7 @@ changed. This is ideal for backups.
 
 ???- question "Prefer a video?"
 
-    See this procedure as a video at [YouTube](...)
+    See this procedure as a video at [YouTube](https://youtu.be/p-27aIh2acA).
 
 ### 1. Start a terminal on your local computer
 
