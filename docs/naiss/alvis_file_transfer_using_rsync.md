@@ -15,6 +15,8 @@ tags:
 HPC clusters have different ways to do
 [file transfer using rsync](file_transfer_using_rsync.md).
 
+This page shows how to do so for Alvis.
+
 ## Procedure
 
 ???- question "Would you like a video?"
