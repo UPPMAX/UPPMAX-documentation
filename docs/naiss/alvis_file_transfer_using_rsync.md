@@ -20,11 +20,11 @@ HPC clusters have different ways to do
 ???- question "Would you like a video?"
 
     If you like to see how to do file transfer from/to Alvis
-    using rsync, watch the video `TODO`
+    using rsync, watch the video [here](https://youtu.be/dzqQ-HBjIfo)
 
-rsync is a secure file transfer tool that works under Linux, Mac and Windows.
+`rsync` is a secure file transfer tool that works under Linux, Mac and Windows.
 
-To transfer files to/from Alvis using rsync, do
+To transfer files to/from Alvis using `rsync`, do
 the following steps:
 
 ### 1. Get inside SUNET
