@@ -1,5 +1,7 @@
 # Data transfer to/from Rackham using Transit and SFTP
 
+There are multiple ways to [transfer data to/from Rackham](../cluster_guides/transfer_rackham.md).
+
 Data transfer to/from Rackham using [Transit](../cluster_guides/transit.md)
 is one of the ways ways to transfer files to/from Rackham
 

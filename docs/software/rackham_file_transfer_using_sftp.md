@@ -1,5 +1,7 @@
 # Data transfer to/from Rackham using SFTP
 
+There are multiple ways to [transfer data to/from Rackham](../cluster_guides/transfer_rackham.md).
+
 Data transfer to/from Rackham using SFTP
 is one of the ways ways to transfer files to/from Rackham
 
