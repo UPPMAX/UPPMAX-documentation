@@ -71,8 +71,15 @@ where
 for example:
 
 ```bash
-rsync --recursive my_folder sven@rackham.uppmax.uu.se:/home/sven
+rsync --recursive my_folder sven@rackham.uppmax.uu.se:/home/sven/
 ```
+
+Note that `rsync` is very precise with slashes (`/`):
+
+Command                                                            |Effect
+-------------------------------------------------------------------|------------------------------------------------------------
+`rsync --recursive my_folder sven@rackham.uppmax.uu.se:/home/sven` |Will put the files in `my_folder` in the Rackham home folder
+`rsync --recursive my_folder sven@rackham.uppmax.uu.se:/home/sven/`|Will put the folder `my_folder` in the Rackham home folder
 
 ## 3. Transfer files from Rackham to you local computer
 
