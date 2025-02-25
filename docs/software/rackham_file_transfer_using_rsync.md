@@ -15,7 +15,7 @@ Here it is described how to do file transfer to/from Rackham
 using [rsync](../software/rsync.md).
 `rsync` can be used in scripts for regular file transfer.
 However, `rsync` shines by providing a so-called 'delta' file transfer:
-when you transfer files twice, `rsync` will only tranfer the files that have
+when you transfer files twice, `rsync` will only transfer the files that have
 changed. This is ideal for backups.
 
 ## Procedure

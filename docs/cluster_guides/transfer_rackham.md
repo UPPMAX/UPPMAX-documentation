@@ -40,7 +40,7 @@ This works similar to a regular copy of files,
 except that a remote (instead of a local) address needs to be specified.
 `rsync` can be used in scripts for regular file transfer.
 However, `rsync` shines by providing a so-called 'delta' file transfer:
-when you transfer files twice, `rsync` will only tranfer the files that have
+when you transfer files twice, `rsync` will only transfer the files that have
 changed. This is ideal for backups.
 
 See [Rackham file transfer using rsync](../software/rackham_file_transfer_using_rsync.md)
