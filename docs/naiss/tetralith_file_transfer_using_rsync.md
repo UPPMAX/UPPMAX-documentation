@@ -22,7 +22,7 @@ This page shows how to do so for Tetralith.
 ???- question "Would you like a video?"
 
     If you like to see how to do file transfer from/to Tetralith
-    using rsync, watch the video `TODO`
+    using rsync, watch the video [here](https://youtu.be/3-OF8nkCdtM)
 
 `rsync` is a secure file transfer tool that works under Linux, Mac and Windows.
 
