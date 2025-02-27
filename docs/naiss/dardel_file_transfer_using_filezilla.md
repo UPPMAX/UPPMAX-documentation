@@ -28,12 +28,20 @@ This page shows how to do so for Dardel.
     If you like to see how to do file transfer from/to Dardel
     using FileZilla, watch the video [here](https://youtu.be/_3EmkN619Xo)
 
-FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
+FileZilla is a secure file transfer tool that works under Linux,
+Mac and Windows.
 
 To transfer files to/from Dardel using FileZilla, do
 the following steps:
 
 ### 1. Install `putty-tools`
+
+???- question "What if I don't use Linux?"
+
+    Instead of following steps 2 and 3, follow the procedure at 
+    ['Create SSH key files using puttygen'](create_ssh_key_files_using_puttygen.md).
+
+On Linux, do:
 
 ```bash
 sudo apt install putty-tools
