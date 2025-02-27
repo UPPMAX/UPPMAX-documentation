@@ -953,3 +953,6 @@ openconnect
 Alvis
 dardel
 filezilla
+OpenSSH
+ppk
+puttygen
