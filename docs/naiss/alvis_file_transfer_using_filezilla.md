@@ -45,9 +45,9 @@ the following steps:
 
 ???- question "What if I don't use Linux?"
 
-    Instead of following steps 2 and 3, follow the procedure at 
+    Instead of following steps 2 and 3, follow the procedure at
     [the puttygen page, section 'Create SSH key files'](../software/puttygen.md#create-ssh-key-files).
-    
+
 
 ```bash
 sudo apt install putty-tools
