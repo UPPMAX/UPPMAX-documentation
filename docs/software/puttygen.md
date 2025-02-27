@@ -27,7 +27,8 @@ website at [https://www.puttygen.com](https://www.puttygen.com).
 
 ???- question "Would you like a video?"
 
-    This procedure is demonstrated in a video `TODO`
+    This procedure is demonstrated in
+    [this YouTube video called 'Create SSH key files in puttygen'](https://youtu.be/vMP1cER7rSs).
 
 This procedure shows how to generate the following SSH key files:
 
