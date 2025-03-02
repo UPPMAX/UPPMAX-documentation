@@ -1,3 +1,13 @@
+---
+tags:
+  - support
+  - help
+  - contact
+  - email
+  - ask
+  - talk
+---
+
 # UPPMAX support
 
 If you lost your UPPMAX password, see [how to reset your UPPMAX password](getting_started/reset_uppmax_password.md).
