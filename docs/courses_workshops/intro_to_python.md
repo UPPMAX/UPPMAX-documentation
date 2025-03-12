@@ -13,7 +13,7 @@ tags:
 
     > Great course. Now, Python is not scary anymore.
 
-    A learner from this course ([source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240830/))
+    A learner from this course ([source](https://uppmax.github.io/naiss_intro_python/evaluations/20240830/))
 
 This 1-day course helps you get started with Python,
 by working through an online and free book.
@@ -37,12 +37,12 @@ You will:
 Practical matters:
 
 - Registration form: [here](https://forms.gle/6UVfCmjTeu1JUKms9)
-- Course prerequisites: [here](https://uppmax.github.io/uppmax_intro_python/prereqs/)
-- Date: Tuesday March 4th 2025 ([course dates](https://uppmax.github.io/uppmax_intro_python/course_dates/))
-- When: 9:00-16:00 ([course schedule](https://uppmax.github.io/uppmax_intro_python/schedule/))
+- Course prerequisites: [here](https://uppmax.github.io/naiss_intro_python/prereqs/)
+- Date: Tuesday March 4th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
+- When: 9:00-16:00 ([course schedule](https://uppmax.github.io/naiss_intro_python/schedule/))
 - Where: Online via Zoom. Zoom room and password will be mailed :+1:
-- [Course material](https://uppmax.github.io/uppmax_intro_python/)
-- [Earlier evaluations of the course](https://uppmax.github.io/uppmax_intro_python/evaluations/)
+- [Course material](https://uppmax.github.io/naiss_intro_python/)
+- [Earlier evaluations of the course](https://uppmax.github.io/naiss_intro_python/evaluations/)
 
 Questions?
 
