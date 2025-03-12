@@ -38,13 +38,13 @@ Course dates are (or should be) provided at each course's website.
 
 ### April
 
-[Monthly Workshop Series: Whisper Transcription demonstration <br> _Apr 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
+[Monthly Workshop Series: Whisper Transcription demonstration <br> _Apr 10_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-04-10-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
 
 [Using Python in an HPC environment <br> _Apr 24-29_](hpc_python.md){ .md-button .md-button--primary }
 
 ### May
 
-[Monthly Workshop Series: Whisper Transcription demonstration <br> _Mar 5_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
+[Monthly Workshop Series: Whisper Transcription demonstration <br> _May 5_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-05-05-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
 
 [Programming formalisms <br> _May 5-9_](programming_formalisms.md){ .md-button .md-button--primary }
 
