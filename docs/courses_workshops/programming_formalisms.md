@@ -18,7 +18,7 @@ We will cover theory with bridging practical examples and applications to enhanc
 - Git, of either
     - [NBIS/ELIXIR-SE Tools for Reproducible research](https://nbis-reproducible-research.readthedocs.io/en/course_2104/)
     - or the CodeRefinery courses [Introduction to version control with Git](https://coderefinery.github.io/git-intro/) and [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/).
-- We assume familiarity with python at least equivalent of the [Intro to Python course](https://uppmax.github.io/uppmax_intro_python/) or [Python programming with applications to bioinformatics](https://uppsala.instructure.com/courses/85913).
+- We assume familiarity with python at least equivalent of the [Intro to Python course](https://uppmax.github.io/naiss_intro_python/) or [Python programming with applications to bioinformatics](https://uppsala.instructure.com/courses/85913).
 
 - [Setups](https://uppmax.github.io/programming_formalisms/prereqs/)
 
