@@ -16,21 +16,13 @@ Course dates are (or should be) provided at each course's website.
 
 ## Upcoming courses administrated by UPPMAX
 
-### February
-
-[Monthly Workshop Series: Whisper Transcription demonstration <br> _Feb 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
-
-[Introduction to Linux and UPPMAX <br> _Feb 10-12_](uppmax_intro_course.md){ .md-button .md-button--primary }
-
-[Basic Singularity <br> _Feb 13_](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/basic-singularity ){ .md-button .md-button--primary }
-
 ### March
 
-[Introduction to Python <br> _Mar 4_](intro_to_python.md){ .md-button .md-button--primary }
+[DONE Introduction to Python <br> _Mar 4_](intro_to_python.md){ .md-button .md-button--primary }
 
-[Monthly Workshop Series: Whisper Transcription demonstration <br> _Mar 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
+[DONE Monthly Workshop Series: Whisper Transcription demonstration <br> _Mar 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
 
-[Transferring files to/from HPC Clusters <br> _Mar 7_](naiss_transfer.md){ .md-button .md-button--primary }
+[DONE Transferring files to/from HPC Clusters <br> _Mar 7_](naiss_transfer.md){ .md-button .md-button--primary }
 
 [Introduction to Bianca: <br> Handling Sensitive Research Data <br> _Mar 19_](bianca_intro.md){ .md-button .md-button--primary }
 
