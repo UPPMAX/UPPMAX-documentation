@@ -59,6 +59,20 @@ ssh sven@bianca.uppmax.uu.se
 
     After which a password will be asked. Go to the next step.
 
+???- question "How does this look like the first time?"
+
+    ```bash
+    sven@svens_computer:~$ ssh sven@bianca.uppmax.uu.se
+    The authenticity of host 'bianca.uppmax.uu.se (89.44.250.74)' can't be established.
+    ECDSA key fingerprint is SHA256:Z9FeKcfgw9PicHfotfkCVZTzWTY0xPjy0qa9Ap/7Aws.
+    This key is not known by any other names.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
+
+    - Type `yes`!
+
+    - Other valid fingerprint is: ``SHA256:ZUsJUznqix7DjFbwV90nhfKq5u/x3+GUSX7F6C9s3rA``
+
 ???- question "How does it look like when outside of SUNET?"
 
     ```bash
