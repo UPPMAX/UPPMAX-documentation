@@ -27,14 +27,21 @@ Here is the decision tree, with more detailed explanation below it:
 
 ```mermaid
 flowchart TD
+
+  %% Give a white background to all nodes, instead of a transparent one
+  classDef node fill:#fff,color:#000,stroke:#000
+  %% Graph nodes for files and calculations
+  classDef important_node stroke-width:4px
+
+
   in_sunet(A.Can you get inside the university networks?)
   need_remote_desktop(B.Need/prefer a remote desktop?)
   how_login(C.How to log in?)
   need_remote_desktop_no_sunet(B.Need/prefer a remote desktop?)
   how_login_no_sunet(C.How to log in?)
 
-  use_website[1.Use the Bianca remote desktop website]
-  use_password[2.Use a terminal and password to access Bianca directly]
+  use_website[1.Use the Bianca remote desktop website]:::important_node
+  use_password[2.Use a terminal and password to access Bianca directly]:::important_node
   use_ssh_keys[3.Use a terminal and SSH keys to access Bianca directly]
   
   use_website_no_sunet[4.Use the Rackham remote desktop website]
@@ -58,7 +65,8 @@ flowchart TD
   how_login_no_sunet --> |Using SSH keys| use_ssh_keys_no_sunet
 ```
 
-> Decision tree on how to log in to Bianca
+> Decision tree on how to log in to Bianca.
+> The nodes with a thicker outline are the ones used in courses.
 
 Question A, 'Can you get inside the university networks?' is commonly answered
 'yes' for anyone with an email address at a university in Sweden.
