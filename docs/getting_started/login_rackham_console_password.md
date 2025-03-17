@@ -55,7 +55,9 @@ such as [eog](../software/eog.md) to display an image.
 
     - Type `yes`!
 
-    - Other valid fingerprint is: ``SHA256:y241gg8SExSktACnpD+OvROrMPTJcXYYdT/zYReef+k``
+    - Other valid fingerprints are: 
+        - ``SHA256:y241gg8SExSktACnpD+OvROrMPTJcXYYdT/zYReef+k``
+        - ``SHA256:hkhuV+0mUDL7N4Jpr8/OWInrORSAL5ZRpvAqfjyg7Jg``
 
 ???- question "Can I log in without `-X`?"
 
