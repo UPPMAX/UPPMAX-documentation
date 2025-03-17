@@ -73,10 +73,6 @@ ssh sven@bianca.uppmax.uu.se
 
     - Other valid fingerprint is: ``SHA256:ZUsJUznqix7DjFbwV90nhfKq5u/x3+GUSX7F6C9s3rA``
 
-    
-
-    
-
 ???- question "How does it look like when outside of SUNET?"
 
     ```bash
