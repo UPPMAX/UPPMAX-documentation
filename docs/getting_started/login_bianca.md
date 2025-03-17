@@ -62,7 +62,7 @@ flowchart TD
   need_remote_desktop_no_sunet --> |yes| use_website_no_sunet
 
   how_login_no_sunet --> |Using a password| use_password_no_sunet
-  how_login_no_sunet --> |Using SSH keys| use_ssh_keys_no_sunet
+  how_login_no_sunet ---> |Using SSH keys| use_ssh_keys_no_sunet
 ```
 
 > Decision tree on how to log in to Bianca.
