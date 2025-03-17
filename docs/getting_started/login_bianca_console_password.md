@@ -71,7 +71,9 @@ ssh sven@bianca.uppmax.uu.se
 
     - Type `yes`!
 
-    - Other valid fingerprint is: ``SHA256:ZUsJUznqix7DjFbwV90nhfKq5u/x3+GUSX7F6C9s3rA``
+    - Other valid fingerprints are:
+        - ``SHA256:ZUsJUznqix7DjFbwV90nhfKq5u/x3+GUSX7F6C9s3rA``
+        - ``SHA256:WDimSDqd6+b9bgbcNP+zCMCUp3Cen6Js7lAXPVFscBw``
 
 ???- question "How does it look like when outside of SUNET?"
 
