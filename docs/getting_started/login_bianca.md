@@ -21,6 +21,8 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 After you've fulfilled all [prerequisites for using Bianca](bianca_usage_prerequisites.md),
 there are many ways to log in to Bianca.
 
+
+
 Here is the decision tree, with more detailed explanation below it:
 
 ```mermaid
@@ -41,15 +43,15 @@ flowchart TD
 
   in_sunet --> |yes| need_remote_desktop
 
-  need_remote_desktop --> |no| how_login
+  need_remote_desktop ---> |no| how_login
   need_remote_desktop --> |yes| use_website
 
   how_login --> |Using a password| use_password
   how_login --> |Using SSH keys| use_ssh_keys
 
-  in_sunet --> |no| need_remote_desktop_no_sunet
+  in_sunet ---> |no| need_remote_desktop_no_sunet
 
-  need_remote_desktop_no_sunet --> |no| how_login_no_sunet
+  need_remote_desktop_no_sunet ---> |no| how_login_no_sunet
   need_remote_desktop_no_sunet --> |yes| use_website_no_sunet
 
   how_login_no_sunet --> |Using a password| use_password_no_sunet
