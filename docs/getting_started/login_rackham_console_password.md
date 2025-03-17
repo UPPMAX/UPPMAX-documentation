@@ -43,6 +43,20 @@ ssh -X sven@rackham.uppmax.uu.se
 which allows you to run programs that require light graphics,
 such as [eog](../software/eog.md) to display an image.
 
+???- question "How does this look like the first time?"
+
+    ```bash
+    sven@svens_computer:~$ ssh -X sven@rackham.uppmax.uu.se
+    The authenticity of host 'rackham.uppmax.uu.se (89.44.250.8<X>)' can't be established.
+    ECDSA key fingerprint is SHA256:W/MazH3WrH0wKrHBOJpPbDaU4qeYGqiv3FRPsdXIsb4.
+    This key is not known by any other names.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
+
+    - Type `yes`!
+
+    - Other valid fingerprint is: ``SHA256:y241gg8SExSktACnpD+OvROrMPTJcXYYdT/zYReef+k``
+
 ???- question "Can I log in without `-X`?"
 
     Yes!
