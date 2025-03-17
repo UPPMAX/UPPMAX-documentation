@@ -32,7 +32,7 @@ using a remote desktop that is accessible from a webbrowser.
     [a YouTube video here](https://youtu.be/UpNI5OUlIo8)
 
 
-### 1. Get inside SUNET
+### 1. [Get inside SUNET](../getting_started/get_inside_sunet.md)
 
 As Bianca is an HPC cluster for sensitive data,
 one needs to be within SUNET to be able to access her.
@@ -40,12 +40,6 @@ one needs to be within SUNET to be able to access her.
 ???- question "Forgot how to get within SUNET?"
 
     See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
-
-Bianca does not support any so-called
-[X forwarding](../software/ssh_x_forwarding.md) (unlike Rackham),
-so instead UPPMAX maintains a website that uses
-[ThinLinc](../software/thinlinc.md) to get a full remote desktop environment.
-All you should need is a rather modern browser on any platform.
 
 ???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
 
