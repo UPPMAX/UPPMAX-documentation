@@ -27,6 +27,8 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 
 [Registration form](https://forms.gle/SxtyoXYdn541Z3Lr7) closing Friday at 16.00
 
+- Coordinator: Björn Claremar
+
 ## Content
 
 - Introduction
