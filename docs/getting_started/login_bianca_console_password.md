@@ -256,8 +256,7 @@ Here are the questions we will ask to solve your problem:
 flowchart TD
     error[Permission denied, please try again.]
     correct_password[Is your password correct?]
-    added_2fa[Have you added a 2FA number at the end of your password?]
-    added_correct_2fa[Have you added the correct 2FA number at the end of your password?]
+    correct_totp[Is your TOTP correct?]
     in_sunet[Are you within the university networks?]
     active_bianca_project[Is that Bianca project active?]
     member_of_bianca_project[Are you a member of that Bianca project]
@@ -268,11 +267,10 @@ flowchart TD
     
     in_sunet --> |yes| active_bianca_project
 
-    correct_password --> |yes| added_2fa
-    added_2fa --> |yes| added_correct_2fa
+    correct_password --> |yes| correct_totp
     active_bianca_project -->  |yes| member_of_bianca_project
     member_of_bianca_project --> |yes| contact_support
-    added_correct_2fa --> |yes| contact_support
+    correct_totp --> |yes| contact_support
 ```
 
 ???- question "How do I know my password is correct?"
@@ -286,11 +284,17 @@ flowchart TD
     It could be that you've forgotten your password. That can happen to all of
     us. You can then reset your password at <https://suprintegration.uppmax.uu.se/getpasswd>
 
-???- question "What is the correct 2FA service?"
+???- question "How do I know my TOTP is correct?"
+
+    You don't.
+
+    Most likely, you are using the incorrect TOTP generator.
+
+???- question "What is the correct TOTP generator?"
 
     The UPPMAX one, titled `[username]@UPPMAX`, for example `sven@UPPMAX`.
 
-    When using UPPMAX, one needs to create other 2FAs too, such as for SUPR
+    When using UPPMAX, one needs to create other TOTPs too, such as for SUPR
     or the Uppsala VPN. Don't use those numbers to login to Bianca.
 
 ???- question "How do I know if I am within the university networks?"
