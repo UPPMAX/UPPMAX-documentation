@@ -1,3 +1,12 @@
+---
+tags:
+  - R
+  - software
+  - language
+  - interpreter
+  - programming language
+---
+
 # R
 
 ![The R logo, from https://www.r-project.org/logo/](./img/r_logo_50.png)
