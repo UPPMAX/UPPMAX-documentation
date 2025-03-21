@@ -4,14 +4,17 @@ tags:
   - log in
   - NAISS
   - local
+  - cluster
+  - HPC
 ---
 
-# Login
+# Login to NAISS or local HPC cluster
 
 !!! info
 
     This page is here temporarily, until its content is moved
-    to a better place.
+    to a better place, for example, a NAISS-wide documentation
+    website.
 
 Here is an overview of how to login to multiple NAISS
 and local clusters. The videos contain a link to the documentation
