@@ -33,4 +33,4 @@ Rackham     | SSH                    | [here](https://docs.uppmax.uu.se/getting_
 Rackham     | Local ThinLinc client  | [here](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)                         | [here](https://youtu.be/PqEpsn74l0g)
 Rackham     | Remote desktop website | [here](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)                   | [here](https://youtu.be/HQ2iuKRPabc)
 Tetralith   | SSH                    | [here](https://www.nsc.liu.se/support/getting-started/)                                                   | [here](https://youtu.be/wtGIzSBiulY)
-Tetralith   | Local ThinLinc client  | [here](https://www.nsc.liu.se/support/graphics/). Scroll down to ThinLinc                                 | [here](https://youtu.be/JsHzQSFNGxY)
+Tetralith   | Local ThinLinc client  | [here](https://www.nsc.liu.se/support/graphics/), at 'Running graphical applications using ThinLinc'      | [here](https://youtu.be/JsHzQSFNGxY)
