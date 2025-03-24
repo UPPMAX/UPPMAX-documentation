@@ -20,7 +20,7 @@ Here is an overview of how to login to multiple NAISS
 and local clusters. The videos contain a link to the documentation
 of that HPC center.
 
-HPC cluster | Login method           | Documentation                                                                                             | Video                               
+HPC cluster | Login method           | Documentation                                                                                             | Video
 ------------|------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------
 Alvis       | SSH                    | [here](https://www.c3se.chalmers.se/documentation/for_users/getting_started/how_to_login_to_alvis/)       | [here](https://youtu.be/PJZ3W907qCU)
 Bianca      | SSH                    | [here](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)                          | [here](https://youtu.be/7mKDxnXqi_M)
