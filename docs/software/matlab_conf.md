@@ -26,8 +26,10 @@ configCluster.sh <project-ID>    # Note: no '-A'
 
 !!! warning
 
-    - Do these steps for each matlab version you will use.
     - On Bianca you need to do this for each sens project that will use MATLAB, as well.
+
+<!--
+    - Do these steps for each matlab version you will use.
 
 !!! tip
 
@@ -39,3 +41,4 @@ configCluster.sh <project-ID>    # Note: no '-A'
     
     - Look for dates from May 2024 and onwards.
 
+-->
