@@ -214,7 +214,7 @@ ans =
     >> c.AdditionalProperties.ProcsPerNode = 16;
     ```
 
-# Helper functions
+## Helper functions
 
 Function| Description | Applies Only to Desktop
 --------|---------------|------------------------
