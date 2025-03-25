@@ -29,45 +29,6 @@ That will start a matlab session with the common GUI. Use ``&`` to have MATLAB i
 
 A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
 
-## First time, since May 13 2024
-
-- If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
-    - only needs to be called once per version of MATLAB.
-    - Note, however, that on Bianca this has to be done separately.
-
-- After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
-
-```console
-module load matlab/<version>
-configCluster.sh <project-ID>    # Note: no '-A'
-```
-
-- This will run a short configuration job in an interactive session.
-- Jobs will now default to the cluster rather than submit to the local machine.
-- It should look like this (example for Bianca)
-
-![matlab configCluster.sh](img/matlab_configCluster.PNG)
-
-- The session should exit automatically but if not you can end the session by
-    - ``exit``
-    - or ``<CTRL-C>``
-- When done, start Matlab as you usually do with  ``matlab &``.
-
-!!! warning
-
-    - Do these steps for each matlab version you will use.
-    - On Bianca you need to do this for each sens project that will use MATLAB, as well.
-
-!!! tip
-
-    - Check the Matlab version for which you have set the slurm configuration by
-
-    ```bash
-    ls -l .matlab/*/parallel.mlsettings
-    ```
-    
-    - Look for dates from May 2024 and onwards.
-
 ## Introduction
 
 Using MATLAB on the cluster enables you to utilize high performance facilities like:
@@ -167,17 +128,8 @@ You may want to confer our UPPMAX [ThinLinc user guide](../software/thinlinc.md)
 ### How to run parallel jobs for the first time, since May 13 2024
 
 - If you use MATLAB after May 13 2024, of any version, you have to do the following step to be able to use the full features of running parallel jobs.
-    - only needs to be called once per version of MATLAB.
-    - Note, however, that on Bianca this has to be done separately.
-- After logging into the cluster, configure MATLAB to run parallel jobs on the cluster by calling the shell script configCluster.sh.
 
-```console
-module load matlab
-configCluster.sh <project-ID>    # Note: no '-A'
-```
-
-- This will run a short configuration job in an interactive session, closing itself when done.
-- Jobs will now default to the cluster rather than submit to the local machine.
+- [Instruction here](matlab_conf.md)
 
 ### Two MATLAB commands
 
@@ -388,6 +340,18 @@ Run with
 sbatch matlab_submit.sh
 ```
 
+## To learn more about the MATLAB Parallel Computing Toolbox
+
+Check out these resources:
+
+- [Parallel Computing Coding Examples](https://www.mathworks.com/help/parallel-computing/examples.html)
+- [Parallel Computing Documentation](http://www.mathworks.com/help/distcomp/index.html)
+- [Parallel Computing Overview](http://www.mathworks.com/products/parallel-computing/index.html)
+- [Parallel Computing Tutorials](http://www.mathworks.com/products/parallel-computing/tutorials.html)
+- [Parallel Computing Videos](http://www.mathworks.com/products/parallel-computing/videos.html)
+- [Parallel Computing Webinars](http://www.mathworks.com/products/parallel-computing/webinars.html)
+
+
 ## Common problems
 
 Sometimes things do not work out.
@@ -419,3 +383,4 @@ matlab -singleCompThread
 ## MATLAB client on the desktop
 
 [Guideline here](matlab_local.md)
+
