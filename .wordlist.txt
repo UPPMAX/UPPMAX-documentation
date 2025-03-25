@@ -957,3 +957,13 @@ OpenSSH
 ppk
 puttygen
 mlsettings
+getTaskSchedulerIDs
+schedID
+getDebugLog
+clusterFeatures
+clusterGpuCards
+clusterPartitionNames
+disableArchiving
+fixConnection
+reconnection
+willRun
