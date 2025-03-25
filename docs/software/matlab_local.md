@@ -213,6 +213,17 @@ ans =
     >> c.AdditionalProperties.ClusterName='snowy'
     >> c.AdditionalProperties.ProcsPerNode = 16;
     ```
+
+# Helper functions
+
+Function|	Description	| Applies Only to Desktop
+--------|---------------|------------------------
+clusterFeatures |	List of cluster features/constraint |
+clusterGpuCards |	List of cluster GPU cards	|
+clusterPartitionNames |	List of cluster partition	|
+disableArchiving |	Modify file archiving to resolve file mirroring issue |	true
+fixConnection |	Reestablish cluster connection (e.g., after reconnection of VPN) |	true
+willRun	| Explain why job is queued	|
     
 ## Debugging
 
