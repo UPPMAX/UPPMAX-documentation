@@ -214,6 +214,28 @@ ans =
     >> c.AdditionalProperties.ProcsPerNode = 16;
     ```
     
+## Debugging
+
+If a serial job produces an error, call the getDebugLog method to view the error log file.  When submitting an independent job, specify the task.
+
+```matlab
+>> c.getDebugLog(job.Tasks)
+```
+
+For Pool jobs, only specify the job object.
+
+```matlab
+>> c.getDebugLog(job)
+```
+
+When troubleshooting a job, the cluster admin may request the scheduler ID of the job.  This can be derived by calling getTaskSchedulerIDs (call schedID(job) before R2019b).
+
+```matlab
+>> job.getTaskSchedulerIDs()
+   ans = 
+    25539
+```
+
 !!! admonition "Keypoints"
 
     - Steps to configure
