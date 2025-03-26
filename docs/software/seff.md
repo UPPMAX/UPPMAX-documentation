@@ -10,9 +10,14 @@ tags:
 # `seff`
 
 `seff` is [software](software.md) to determine the efficiency
-of Slurm jobs.
+of Slurm jobs. On UPPMAX, use [jobstats](jobstats.md) instead.
 
-???- question "How does its output look like?
+???- question "Why is this on the UPPMAX pages?"
+
+    As there may be plans to have it on UPPMAX too.
+
+
+???- question "How does its output look like?"
 
     Output will be similar to this, as run on Dardel:
 
@@ -32,7 +37,7 @@ of Slurm jobs.
     ```
 
 HPC cluster|Has `seff` installed?
------------|---------------------
+-----------|---------------------------------------
 Dardel     |Yes
-Rackham    |No
+Rackham    |No, use [jobstats](jobstats.md) instead
 
