@@ -1,6 +1,10 @@
 ---
 tags:
+  - Slurm
+  - scheduler
+  - submit
   - sbatch
+  - software
 ---
 
 # `sbatch`
