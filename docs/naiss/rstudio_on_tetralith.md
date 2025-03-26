@@ -41,8 +41,7 @@ Below is a step-by-step procedure to start RStudio on Tetralith.
 ### 2. Start an interactive session
 
 Within the Tetralith remote desktop environment, start a [terminal](../software/terminal.md).
-Within that terminal, [start an interactive session](../cluster_guides/start_interactive_node_on_tetralith.md)
-with 2 cores:
+Within that terminal, start an interactive session with 2 cores:
 
 ```bash
 interactive -A [naiss_project_id] -n 2 -t [duration]

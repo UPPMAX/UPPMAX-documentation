@@ -9,7 +9,7 @@ tags:
 
 # `seff`
 
-`seff` is [software](software.md) to determine the efficiency
+`seff` is a tool to determine the efficiency
 of Slurm jobs. On UPPMAX, use [jobstats](jobstats.md) instead.
 
 ???- question "Why is this on the UPPMAX pages?"
