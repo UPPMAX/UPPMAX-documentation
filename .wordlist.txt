@@ -968,3 +968,6 @@ fixConnection
 reconnection
 willRun
 Tetralith's
+RADOS
+RGW
+FAIRstorage
