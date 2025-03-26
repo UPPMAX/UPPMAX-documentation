@@ -123,7 +123,7 @@ In the 'Add resource Pelle' menu, set the number of core hours and click 'Add re
 
 ### 10. Done
 
-Now, Pelle is added to your UPPMAX local compute project. Well done!
+Now, Pelle is added to your proposal. Well done!
 
 ???- question "How does that look like?"
 
