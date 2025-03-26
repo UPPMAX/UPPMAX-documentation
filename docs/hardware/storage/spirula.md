@@ -7,7 +7,7 @@ Gateway, also known as RADOS Gateway (RGW).
 - Spirula is not in production.
 - There is no backup of any data stored on Spirula.
 - You should not store any primary data on Spirula.
-- Spirula does not expose any public endpoints. 
+- Spirula does not expose any public endpoints.
 
 See [storage systems](../../cluster_guides/uppmax_storage_system.md) for other
 storage systems at UPPMAX.
@@ -19,18 +19,18 @@ The responsibility for Spirula is shared between UPPMAX and SciLifeLab.
 Spirula is accessible from within UPPMAX and from certain whitelisted
 SciLifeLab addresses. Access to Rackham/Pelle is not granted for projects with
 Spirula allocations, in cases where you don't have access to Rackham/Pelle
-through some other means please refer to FAIRstorage@scilifelab.se for more
+through some other means please refer to <FAIRstorage@scilifelab.se> for more
 information.
 
 In general follow these guidelines when requesting support.
 
-Contact SciLifeLab DC at FAIRstorage@scilifelab.se for issues regarding:
+Contact SciLifeLab DC at <FAIRstorage@scilifelab.se> for issues regarding:
 
 - Project grants, allocations and quota in SUPR.
 - Access to Spirula through SciLifeLab addresses.
 - FAIR Storage and the intended use-cases for Spirula.
 
-Contact UPPMAX Support at support@uppmax.uu.se for issues regarding:
+Contact UPPMAX Support at <support@uppmax.uu.se> for issues regarding:
 
 - Retrieving access tokens and/or quota from the SSH service.
 - Technical implementation and/or limitations of the system.

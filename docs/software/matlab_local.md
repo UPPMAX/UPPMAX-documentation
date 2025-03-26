@@ -224,7 +224,7 @@ clusterPartitionNames | List of cluster partition |-
 disableArchiving | Modify file archiving to resolve file mirroring issue | true
 fixConnection | Reestablish cluster connection (e.g., after reconnection of VPN) | true
 willRun | Explain why job is queued | -
-    
+
 ## Debugging
 
 If a serial job produces an error, call the getDebugLog method to view the error log file.  When submitting an independent job, specify the task.
