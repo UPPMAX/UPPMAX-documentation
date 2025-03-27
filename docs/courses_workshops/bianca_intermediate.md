@@ -14,7 +14,7 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 **Time:** 09:00 - 12:00, and 13:00 - 16:00.
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
-**Registration form**, not yet open
+**Registration form**: [Register here before 19 May](https://forms.gle/9jXrpCwfDFNL25CP7)
 
 The workshop will consist of short lectures and longer Q&A sessions.
 
