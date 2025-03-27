@@ -49,6 +49,7 @@ Jupyter can be slow when using remote desktop webpage
 
 - [Run Jupyter on Bianca](jupyter_on_rackham.md)
 - [Run Jupyter on Rackham](jupyter_on_rackham.md)
+- [Run Jupyter in the UPPMAX lab](https://lab.uppmax.uu.se)
 - [Run Jupyter in your local browser](jupyter_local.md)
 - Run Jupyter in a virtual environment (see below)
 
