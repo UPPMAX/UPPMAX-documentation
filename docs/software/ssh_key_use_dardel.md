@@ -20,7 +20,7 @@ This guide will show you:
 
 This makes it possible for you to login to [Dardel](../cluster_guides/dardel.md).
 
-PDC has [a more comprehensive guide on how to do this on various operating systems](https://support.pdc.kth.se/doc/support/)
+PDC has [a more comprehensive guide on how to do this on various operating systems](https://support.pdc.kth.se/doc/contact/contact_support/)
 if you want a more in-depth guide.
 
 !!! warning

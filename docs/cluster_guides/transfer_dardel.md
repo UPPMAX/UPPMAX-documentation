@@ -36,7 +36,7 @@ flowchart TD
 
 ### 3. Create an SSH key pair
 
-How to create an SSH key pair is described in detail at [the PDC page on how to create an SSH key pair](https://support.pdc.kth.se/doc/support/).
+How to create an SSH key pair is described in detail at [the PDC page on how to create an SSH key pair](https://support.pdc.kth.se/doc/contact/contact_support/).
 
 On Rackham, do:
 
@@ -64,7 +64,7 @@ and you have created a SSH key pair.
 ### 5. Add the public SSH key to PDC:s Login Portal
 
 How to add the SSH public key is described
-in detail in [the PDC documentation on how to add SSH keys](https://support.pdc.kth.se/doc/support/).
+in detail in [the PDC documentation on how to add SSH keys](https://support.pdc.kth.se/doc/contact/contact_support/).
 
 You will need to get the public part of the key in order to complete this step.i On Rackham, in a [terminal](../software/terminal.md), type:
 
@@ -200,4 +200,4 @@ Once you are sure your data has been transferred, we recommend that you switch o
 
 ## Link
 
-- [PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/support/)
+- [PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/contact/contact_support/)

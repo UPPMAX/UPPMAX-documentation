@@ -103,7 +103,7 @@ as shown in [the YouTube video that shows this procedure](https://youtu.be/rivtg
 ### 1. Get access to a SUPR project with Dardel
 
 First step is to get get access to a SUPR project with Dardel.
-This is described at [PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/support/)
+This is described at [PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/contact/contact_support/)
 (note that it is impossible to give more precise links, as the PDC
 documentation does not allow for it).
 You will get an email when you are added to a project,
@@ -138,7 +138,7 @@ this can take some hours.
 
 Get a PDC account via SUPR.
 This is described at
-[the PDC page on how to apply for a SUPR account](https://support.pdc.kth.se/doc/support/?section=/doc/support-docs/getting_access/get_access#applying-for-an-account).
+[the PDC page on how to apply for a SUPR account](https://support.pdc.kth.se/doc/contact/contact_support/?section=/doc/support-docs/getting_access/get_access#applying-for-an-account).
 You will get a PDC account overnight.
 
 ???- question "How do I know I have a PDC account?"
@@ -812,7 +812,7 @@ to see your project's disk usage on Rackham.
     naiss2024-22-49    /proj/introtouppmax      files       20290       100000            
     ```
 
-For PDC, read [their documentation here](https://support.pdc.kth.se/doc/support/):
+For PDC, read [their documentation here](https://support.pdc.kth.se/doc/contact/contact_support/):
 you will need to search for 'Klemming data management'.
 
 ### 9. Delete the SSH key
