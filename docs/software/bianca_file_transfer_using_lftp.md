@@ -48,7 +48,7 @@ For example:
 lftp sftp://sven-sens2025560@bianca-sftp.uppmax.uu.se/sven-sens2025560/
 ```
 
-### 3. Enter passwrd with TOTP
+### 3. Enter password with TOTP
 
 When asked for a password,
 type the password followed with a one-time password from your UPPMAX
