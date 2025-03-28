@@ -86,7 +86,7 @@ For setting up AWS command line interface `aws cli` to use Spirula you can
 create or update the `~/.aws/config` configuration file with the following
 options:
 
-```
+```bash
 # ~/.aws/config
 [default]
 region = None
