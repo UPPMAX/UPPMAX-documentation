@@ -1,3 +1,14 @@
+---
+tags:
+  - lftp
+  - Bianca
+  - data transfer
+  - file transfer
+  - transfer
+  - terminal
+  - command-line
+---
+
 # Using `lftp` with Bianca
 
 `lftp` is a command-line program

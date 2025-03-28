@@ -5,6 +5,9 @@ tags:
   - data transfer
   - file transfer
   - transfer
+  - visual
+  - graphical
+  - GUI
 ---
 
 # File transfer to/from Bianca using FileZilla
