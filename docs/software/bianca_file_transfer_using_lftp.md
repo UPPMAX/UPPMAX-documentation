@@ -34,8 +34,18 @@ where
 For example:
 
 ```bash
-lftp sftp://sven-sens2016001@bianca-sftp.uppmax.uu.se/sven-sens2016001/
+lftp sftp://sven-sens2025560@bianca-sftp.uppmax.uu.se/sven-sens2025560/
 ```
+
+### 3. Enter passwrd with TOTP
+
+When asked for a password,
+type the password followed with a one-time password from your UPPMAX
+two-factor authenticator.
+
+For example, if your password is `VerySecret` and the 2FA app gives
+you `123456`, then type `VerySecret123456`.
+
 
 ## Troubleshooting
 
