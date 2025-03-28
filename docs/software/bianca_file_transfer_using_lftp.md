@@ -48,7 +48,7 @@ When asked for a password,
 type the password followed with a one-time password from your UPPMAX
 two-factor authenticator.
 
-???- question "I don't see asterisks apprear when I type"
+???- question "I don't see asterisks appear when I type"
 
     Well spotted!
 
