@@ -34,7 +34,7 @@ resulting in:
 ssh -X sven@rackham5.uppmax.uu.se
 ```
 
-### 2. Use `ssh` to log in to Pell1
+### 2. Use `ssh` to log in to Pelle1
 
 From the [terminal](../software/terminal.md) at Rackham5,
 use [`ssh`](../software/ssh.md) to log in:
@@ -50,6 +50,6 @@ resulting in:
 ssh -X sven@pelle1.uppmax.uu.se
 ```
 
-### 3. You are in!
+### 3. You are in
 
 You are in :-)
