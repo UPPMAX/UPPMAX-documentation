@@ -123,21 +123,23 @@ Julia is according to <https://julialang.org/>:
 
 ## Packages
 
-Some packages are pre-installed. That means that they are available also on **Bianca**. These include:
+Some packages are pre-installed. That means that they are available also on **Bianca**. 
 
-- "BenchmarkTools"
-- "CSV"
-- "CUDA"
-- DataFrames"
-- "Distributed"
-- "DistributedArrays"
-- "Gadfly"
-- "IJulia"
-- "MPI"
-- "Plots"
-- "PlotlyJS"
-- "PyPlot"
-- all "standard" libraries.
+??? question "Which are these"
+
+    - "BenchmarkTools"
+    - "CSV"
+    - "CUDA"
+    - DataFrames"
+    - "Distributed"
+    - "DistributedArrays"
+    - "Gadfly"
+    - "IJulia"
+    - "MPI"
+    - "Plots"
+    - "PlotlyJS"
+    - "PyPlot"
+    - all "standard" libraries.
 
 This list will be extended while you, as users, may wish more packages.
 
@@ -544,6 +546,5 @@ interactive -A <proj> -n 2 -C gpu --gres=gpu:1 -t 01:10:00
 - wait until session is started
 
 ```console
-julia/1.7.2
-julia/1.8.5 (Default)
+modul load julia/1.8.5
 ```
