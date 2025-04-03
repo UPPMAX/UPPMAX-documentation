@@ -23,7 +23,7 @@ Julia is according to <https://julialang.org/>:
 
 As the time of writing we have the following modules:
 
-```console
+``` console
 [user@rackham1 ~]$ module avail julia
 ------------------------------------------------------
 julia:
@@ -45,13 +45,13 @@ Versions:
 
 To load a specific version of Julia into your environment,  type e.g.
 
-```console
+``` console
 module load julia/1.6.7_LTS
 ```
 
 ​Doing:
 
-```console
+``` console
 module load julia
 ```
 
@@ -61,20 +61,20 @@ A good and important suggestion is that you always specify a certain version. Th
 
 You can run a julia script in the shell by:
 
-```console
+``` console
 julia example_script.jl
 ```
 
 After loading the appropriate modules for Julia, you will have access to the read-eval-print-loop (REPL) command line by typing julia.
 
-```console
+``` console
 julia
 ```
 
 You will get a prompt like this:
 
 ``` julia-repl
-julia>
+julia> 
 ```
 
 Julia has different modes, the one mentioned above is the so-called Julian mode where one can execute commands. The description for accessing these modes will be given in the following paragraphs. Once you are done with your work in any of the modes, you can return to the Julian mode by pressing the backspace key.
@@ -148,10 +148,10 @@ This list will be extended while you, as users, may wish more packages.
 You may control the present "central library" by typing in julia shell :
 
 ``` julia-repl
-using Pkg
-Pkg.activate(DEPOT_PATH[2]*"/environments/v1.8");     #change version accordingly
-Pkg.status()
-Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");     #to return to user library
+julia> using Pkg
+julia> Pkg.activate(DEPOT_PATH[2]*"/environments/v1.8");     #change version accordingly
+julia> Pkg.status()
+julia> Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");     #to return to user library
 ```
 
 Packages are imported or loaded by the commands ``import`` and ``using``, respectively. The difference is shown here. Or briefly:
