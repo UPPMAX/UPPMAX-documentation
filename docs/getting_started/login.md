@@ -7,6 +7,10 @@ tags:
 
 # Log in
 
+!!! warning
+
+    N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc webinterface.
+
 One needs to log in into an UPPMAX cluster to use it.
 
 There are two environments one can login to:
