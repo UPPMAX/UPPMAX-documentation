@@ -126,9 +126,9 @@ julia>
 
 ## Packages
 
-Some packages are pre-installed. That means that they are available also on **Bianca**. 
+Some packages are pre-installed. That means that they are available also on **Bianca**.
 
-??? question "Which are these"
+??? question "Which are these?"
 
     - "BenchmarkTools"
     - "CSV"
