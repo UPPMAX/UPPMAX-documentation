@@ -15,6 +15,14 @@ Let us know by [contacting UPPMAX Support](../support.md)!
 
 ## Users
 
+The workflow is like this:
+
+1. [Register in SUPR](project_apply.md#supr-account)
+2. Accept a user agreement
+3. Become a member of a project
+4. Apply for an account at UPPMAX (or other resources)
+
+
 Once you or someone in your group or collaboration has a project, you must apply for a user account by following the link below.
 
 - [User account](user_account.md)
