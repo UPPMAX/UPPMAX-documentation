@@ -35,10 +35,17 @@ This course will consist of lectures and type-alongs interspersed with hands-on 
 Remote/online participation: We will use Zoom. More information about connecting and about accounts and course projects and such will be sent to the participants close to the course. Tetralith at NSC will mainly be used for demos, but written material should guide users within academic Sweden on the resources they already are using.
 
 Prerequisites: familiarity with the LINUX command line. Basic Python is NOT required, but recommended. Attend the first day for an introduction!
-
+    - [Pre-requirements](https://uppmax.github.io/HPC-python/prereqs.html)
+    - [Prepare the environment](https://uppmax.github.io/HPC-python/preparations.html)
+    
 ??? question "I'm used to Python but haven't used an HPC cluster. What to do?"
 
-    Please attend the Login session 9-10 Day 1 (Thursday 24 April)
+    - You need to:
+        - be able to login to your HPC cluster
+        - be able to start Python interpreter or run scripts.
+    - How to get these skills?
+        - Please attend the [Login session 9-10 Day 1 (Thursday 24 April)](https://uppmax.github.io/naiss_intro_python/sessions/using_the_python_interpreter/)
+        - Or be sure you can do the steps yourself
 
 
 Preliminary Schedule: https://uppmax.github.io/HPC-python/schedule.html
