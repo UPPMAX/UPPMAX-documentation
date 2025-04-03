@@ -47,5 +47,5 @@ passwd
 
 Now you will be asked to repeat the old password and set a new one!
 
-Your new password will work immediately!
-
+- On Rackham your new password will work immediately!
+- On Bianca the new password needs some time to sync.
