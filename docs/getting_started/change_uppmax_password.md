@@ -26,11 +26,11 @@ here is how to change it.
 
 ### 1. Log in to Rackham
 
-See [How to login to an UPPMAX cluster](login.md).
+See [How to login to Rackham](login_rackham_console_password.md).
 
 ??? question "I have have a SENS project only and just have Bianca"
 
-    - [Log in to Transit instead](cluster_guides/login_transit.md)
+    - [Log in to Transit instead](../cluster_guides/login_transit.md)
 
 ### 2. Open a terminal
 
