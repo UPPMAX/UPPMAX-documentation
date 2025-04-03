@@ -22,13 +22,13 @@ of that HPC center.
 
 HPC cluster | Login method           | Documentation                                                                                             | Video
 ------------|------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------
-Alvis       | SSH                    | [here](https://www.c3se.chalmers.se/documentation/for_users/getting_started/how_to_login_to_alvis/)       | [here](https://youtu.be/PJZ3W907qCU)
+Alvis       | SSH                    | [here](https://www.c3se.chalmers.se/documentation/connecting/)                                            | [here](https://youtu.be/PJZ3W907qCU)
 Bianca      | SSH                    | [here](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)                          | [here](https://youtu.be/7mKDxnXqi_M)
 Bianca      | Website                | [here](https://uppmax.github.io/UPPMAX-documentation/getting_started/login_bianca_remote_desktop_website/)| [here](https://youtu.be/UpNI5OUlIo8)
 COSMOS      | SSH                    | [here](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)                | [here](https://youtu.be/sMsenzWERTg)
 COSMOS      | Local ThinLinc client  | [here](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/using_hpc_desktop/)          | [here](https://youtu.be/wn7TgElj_Ng)
-Dardel      | SSH                    | [here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/ssh_login/)                                      | [here](https://youtu.be/I8cNqiYuA-4)
-Dardel      | Local ThinLinc client  | [here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/interactive_hpc/)                                | [here](https://youtu.be/0Rm-HmyzDfs)
+Dardel      | SSH                    | [here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/ssh_login/)                      | [here](https://youtu.be/I8cNqiYuA-4)
+Dardel      | Local ThinLinc client  | [here](https://support.pdc.kth.se/doc/contact/contact_support/?sub=login/interactive_hpc/)                | [here](https://youtu.be/0Rm-HmyzDfs)
 Kebnekaise  | SSH                    | [here](https://docs.hpc2n.umu.se/documentation/access/)                                                   | [here](https://youtu.be/pIiKOKBHIeY)
 Kebnekaise  | Local ThinLinc client  | [here](https://docs.hpc2n.umu.se/documentation/access/)                                                   | [here](https://youtu.be/_jpj0GW9ASc)
 Kebnekaise  | Remote desktop website | [here](https://docs.hpc2n.umu.se/documentation/access/)                                                   | [here](https://youtu.be/_O4dQn8zPaw)
