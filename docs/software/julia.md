@@ -82,17 +82,20 @@ Julia has different modes, the one mentioned above is the so-called Julian mode 
 While being on the Julian mode you can enter the shell mode by typing ;:
 
 ``` julia-repl
-julia>;
-shell>pwd
+julia> ;
+shell> pwd
 /current-folder-path
 ```
 
 This will allow you to use Linux commands. Notice that the availabilty of these commands depend on the OS, for instance, on Windows it will depend on the [terminal](../software/terminal.md) that you have installed and if it is visible to the Julia installation.
 
+!!! info
+
+    Backspace will get you back to julian mode
 Another mode available in Julia is the package manager mode, it can be accessed by typing ] in the Julian mode:
 
 ``` julia-repl
-julia>]
+julia> ]
 (v1.8) pkg>
 ```
 
@@ -101,25 +104,23 @@ This will make your interaction with the package manager Pkg easier, for instanc
 The last mode is the help mode, you can enter this mode from the Julian one by typing ?, then you may type some string from which you need more information:
 
 ``` julia-repl
+julia> ?
 help?> ans
-```
-
-``` julia-repl
-julia>?
 search: ans transpose transcode contains expanduser instances MathConstants readlines LinearIndices leading_ones leading_zeros
-ans
-A variable referring to the last computed value, automatically set at the interactive promp
+
+  ans
+  A variable referring to the last computed value, automatically set at the interactive promp
+
+julia> 
 ```
 
-!!! info
-
-    Backspace will get you back to julian mode
+- Note that you get back directly to Julian mode!
 
 !!! info
 ​
     Exit with `<Ctrl-D>` or `exit()`.
 
-!!! see also
+!!! info "See also"
 
     More detailed information about the modes in Julia can be found here: <https://docs.julialang.org/en/v1/stdlib/REPL/>
 
