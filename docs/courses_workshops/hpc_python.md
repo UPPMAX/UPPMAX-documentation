@@ -36,6 +36,11 @@ Remote/online participation: We will use Zoom. More information about connecting
 
 Prerequisites: familiarity with the LINUX command line. Basic Python is NOT required, but recommended. Attend the first day for an introduction!
 
+??? question "I'm used to Python but haven't used an HPC cluster. What to do?"
+
+    Please attend the Login session 9-10 Day 1 (Thursday 24 April)
+
+
 Preliminary Schedule: https://uppmax.github.io/HPC-python/schedule.html
 
 **Materials:**
@@ -45,9 +50,8 @@ Day|Course materials                                    |More info
 1  |[here](https://uppmax.github.io/naiss_intro_python)|[here](https://uppmax.github.io/naiss_intro_python/faq/)
 2-4|[here](https://uppmax.github.io/HPC-python/)        |[here](https://www.hpc2n.umu.se/events/courses/2024/fall/hpc-python)
 
-Time and date: Thursday 24-Friday 25 April and Monday 28-Tuesday 29 April, 09:00-17:00 each day
+Time and date: Thursday 24–Friday 25 April and Monday 28-Tuesday 29 April, 09:00-17:00 each day
 
-**On-boarding:** TBD
 
 **Location:** ONLINE. Zoom link will be sent to participants a few days before the course.
 
