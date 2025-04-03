@@ -36,8 +36,8 @@ Remote/online participation: We will use Zoom. More information about connecting
 
 **Prerequisites:** familiarity with the LINUX command line. Basic Python is NOT required, but recommended. Attend the first day for an introduction!
 
-    - [Pre-requirements](https://uppmax.github.io/HPC-python/prereqs.html)
-    - [Prepare the environment](https://uppmax.github.io/HPC-python/preparations.html)
+- [Pre-requirements](https://uppmax.github.io/HPC-python/prereqs.html)
+- [Prepare the environment](https://uppmax.github.io/HPC-python/preparations.html)
     
 ??? question "I'm used to Python but haven't used an HPC cluster. What to do?"
 
