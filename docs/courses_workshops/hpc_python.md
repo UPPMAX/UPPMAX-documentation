@@ -1,26 +1,42 @@
 # Using Python in an HPC environment
 
-This course aims to give a brief, but comprehensive introduction to using Python in an HPC environment. You will learn how to use modules to load Python, how to find site installed Python packages, as well as how to install packages yourself. In addition, you will learn how to use virtual environments, write a batch script for running Python, use Python in parallel, and how to use Python for ML and on GPUs.
+The course is given under NAISS and is a collaboration between UPPMAX, HPC2N, LUNARC, and InfraVis
 
-The course is a cooperation between UPPMAX, HPC2N, LUNARC and InfraVis. The instructors will use UPPMAX, HPC2N, LUNARC and NSC systems for demos and there will be hands-on exercises for the participants.
+This online 4-day workshop aims to give a brief, but comprehensive introduction to using Python in a Swedish academic High-Performance Computing (HPC) environment. It covers a wide range of levels in using Python and you can decide which days to follow.
 
-This course will consist of lectures interspersed with hands-on sessions where you get to try out what you have just learned.
+If you are a complete beginner, perhaps the first day(s) is sufficient for you, but you may follow the other days as well for inspiration. If you already are a Python programmer you could still benefit from attending the login session the first day.
 
-**Remote/online participation:** The course will be completely online and we will use Zoom. More information about connecting and such will be sent to the participants close to the course.
+The goals of the different days are
 
-**The goal** for the course is that you will be able to
+Day 1:
 
-- Load Python modules and site-installed Python packages
-- Create a virtual environment
-- Install Python packages with pip and/or conda
-- Write a batch script for running Python
-- Use Python in parallel
-- Use Python for ML and dimensionality reduction
-- Use GPUs with Python
-- Use Pandas
-- Python and big data
+    Log in to a cluster
+    Load the Python module
+    Use variables, expressions and statements in Python
 
-**Prerequisites:** familiarity with the LINUX command line, basic Python
+Day 2
+
+    Load modules for site-installed Python packages
+    Use and install python packages (pip and/or conda)
+    Use virtual environments
+    Ask for compute resources, write batch scripts for running Python
+    Do basic analysis with Matplotlib in Jupyter
+
+Day 3-4
+
+    More about compute resources, including parallelism and GPUs
+    Use Pandas and Seaborn,
+    Big data and Python
+    Use Python for ML/DL
+    Guest lecture by Anders Hast and InfraVis introduction
+
+This course will consist of lectures and type-alongs interspersed with hands-on sessions where you get to try out what you have just learned.
+
+Remote/online participation: We will use Zoom. More information about connecting and about accounts and course projects and such will be sent to the participants close to the course. Tetralith at NSC will mainly be used for demos, but written material should guide users within academic Sweden on the resources they already are using.
+
+Prerequisites: familiarity with the LINUX command line. Basic Python is NOT required, but recommended. Attend the first day for an introduction!
+
+Preliminary Schedule: https://uppmax.github.io/HPC-python/schedule.html
 
 **Materials:**
 
@@ -36,3 +52,7 @@ Time and date: Thursday 24-Friday 25 April and Monday 28-Tuesday 29 April, 09:00
 **Location:** ONLINE. Zoom link will be sent to participants a few days before the course.
 
 **Instructors:** Birgitte Brydsö, Björn Claremar, Jayant Yadav, Pedro Ojeda-May, Rebeccas Pitts, Richèl Bilderbeek, Anders Hast(InfraVis)
+
+Deadline for registration: 2025-04-14
+
+Please register by filling in the form at https://www.hpc2n.umu.se/events/courses/2025/spring/hpc-python
