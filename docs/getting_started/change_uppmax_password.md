@@ -24,9 +24,13 @@ here is how to change it.
 
 ## Procedure
 
-### 1. Log in to your favorite UPPMAX cluster
+### 1. Log in to Rackham
 
 See [How to login to an UPPMAX cluster](login.md).
+
+??? question "I have have a SENS project only and just have Bianca"
+
+    - [Log in to Transit instead](cluster_guides/login_transit.md)
 
 ### 2. Open a terminal
 
