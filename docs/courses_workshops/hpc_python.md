@@ -35,6 +35,7 @@ This course will consist of lectures and type-alongs interspersed with hands-on 
 Remote/online participation: We will use Zoom. More information about connecting and about accounts and course projects and such will be sent to the participants close to the course. Tetralith at NSC will mainly be used for demos, but written material should guide users within academic Sweden on the resources they already are using.
 
 **Prerequisites:** familiarity with the LINUX command line. Basic Python is NOT required, but recommended. Attend the first day for an introduction!
+
     - [Pre-requirements](https://uppmax.github.io/HPC-python/prereqs.html)
     - [Prepare the environment](https://uppmax.github.io/HPC-python/preparations.html)
     
@@ -63,6 +64,6 @@ Day|Course materials                                    |More info
 
 **Instructors:** Birgitte Brydsö, Björn Claremar, Jayant Yadav, Pedro Ojeda-May, Rebeccas Pitts, Richèl Bilderbeek, Anders Hast(InfraVis)
 
-**Deadline for registration: 2025-04-14**
+**Deadline for registration:** 2025-04-14
 
 **Please register** by filling in the form [at this page](https://www.hpc2n.umu.se/events/courses/2025/spring/hpc-python)
