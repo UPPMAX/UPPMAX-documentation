@@ -1,6 +1,8 @@
 # Get started here
 
-In order to use UPPMAX resources, you need to be a member of a project and a user account.
+- In order to use UPPMAX resources, you need to be a member of a project and a user account.
+- Your user account is a personal log-in to our systems.
+- Computer resources like CPU-hours and disk storage are allocated to projects.
 
 ## PIs
 
