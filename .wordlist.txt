@@ -1,5 +1,4 @@
 ar
-availabilty
 Linköping
 Umeå
 awk
