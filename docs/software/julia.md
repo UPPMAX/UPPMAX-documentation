@@ -87,7 +87,7 @@ shell> pwd
 /current-folder-path
 ```
 
-This will allow you to use Linux commands. Notice that the availabilty of these commands depend on the OS, for instance, on Windows it will depend on the [terminal](../software/terminal.md) that you have installed and if it is visible to the Julia installation.
+This will allow you to use Linux commands. Notice that the availability of these commands depend on the OS, for instance, on Windows it will depend on the [terminal](../software/terminal.md) that you have installed and if it is visible to the Julia installation.
 
 !!! info
 
