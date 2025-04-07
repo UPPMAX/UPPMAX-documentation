@@ -12,3 +12,7 @@ AMD EPYC 9454P (Zen4) 2.75 GHz
 ## Network
 
 ## Storage
+
+## OS
+
+Rocky 9
