@@ -10,21 +10,25 @@ No of nodes     | CPUs            |           Cores |  Memory         | Scratch 
 
 ## CPUs
 
-AMD EPYC 9454P (Zen4) 2.75 GHz
+- AMD EPYC 9454P (Zen4) 2.75 GHz
 
 ## GPUs
 
-[H100](https://www.nvidia.com/en-us/data-center/h100/) tensor core
+- [H100](https://www.nvidia.com/en-us/data-center/h100/) tensor core
 
-- Extraordinary performance, scalability, and security for every data center.
+    - Extraordinary performance, scalability, and security for every data center.
+    - GPU memory 94 GB
+    - GPU Memory Bandwidth 3.9 TB/s
 
-[L40](https://www.nvidia.com/en-us/data-center/l40/)
+- [L40](https://www.nvidia.com/en-us/data-center/l40/)
 
-- Unprecedented visual computing performance for the data center.
-- Third-generation RT Cores and industry-leading 48 GB of GDDR6 memory 
-- GPU Memory Bandwidth 	864GB/s
-- 
+    - Unprecedented visual computing performance for the data center.
+    - GPU memory 48 GB
+    - GPU Memory Bandwidth 864GB/s
+
 ## Network
+
+100 Gbit
 
 ## Storage
 
