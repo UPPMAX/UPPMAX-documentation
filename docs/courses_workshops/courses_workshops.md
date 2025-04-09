@@ -14,25 +14,21 @@ This page gives an overview of these.
 
 Course dates are (or should be) provided at each course's website.
 
-## Upcoming courses administrated by UPPMAX
+- [Intro UPPMAX]((uppmax_intro_course.md)
+
+## Upcoming courses administered by UPPMAX
 
 ### March
 
-[DONE Introduction to Python <br> _Mar 4_](intro_to_python.md){ .md-button .md-button--primary }
-
-[DONE Monthly Workshop Series: Whisper Transcription demonstration <br> _Mar 4_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-02-04-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
-
-[DONE Transferring files to/from HPC Clusters <br> _Mar 7_](naiss_transfer.md){ .md-button .md-button--primary }
-
-[Introduction to Bianca: <br> Handling Sensitive Research Data <br> _Mar 19_](bianca_intro.md){ .md-button .md-button--primary }
-
-[Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26_](R_matlab_julia.md){ .md-button .md-button--primary }
+[DONE Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26_](R_matlab_julia.md){ .md-button .md-button--primary }
 
 ### April
 
 [Monthly Workshop Series: Whisper Transcription demonstration <br> _Apr 10_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-04-10-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
 
-[Using Python in an HPC environment <br> _Apr 24-29_](hpc_python.md){ .md-button .md-button--primary }
+[Introduction to Python <br> _April 24_](intro_to_python.md){ .md-button .md-button--primary }
+
+[Using Python in an HPC environment <br> _Apr (24)/25-29_](hpc_python.md){ .md-button .md-button--primary }
 
 ### May
 
@@ -74,7 +70,9 @@ a NAISS HPC cluster for sensitive data.
 
 ### Learn Linux and tools
 
-- [File transfer](naiss_transfer.md)
+- [NAISS Introduction to LINUX to Linux](https://www.hpc2n.umu.se/events/courses/2025/spring/2/linux-intro)
+- [NAISS Intermediate Bash and Linux](https://www.hpc2n.umu.se/events/courses/2025/spring/intermediate-linux)
+- [NAISS File transfer](naiss_transfer.md)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
 - [Basic Singularity](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/basic-singularity )
 
