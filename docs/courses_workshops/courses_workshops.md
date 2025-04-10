@@ -14,7 +14,7 @@ This page gives an overview of these.
 
 Course dates are (or should be) provided at each course's website.
 
-- [Intro UPPMAX]((uppmax_intro_course.md)
+- [Intro UPPMAX](uppmax_intro_course.md)
 
 ## Upcoming courses administered by UPPMAX
 
