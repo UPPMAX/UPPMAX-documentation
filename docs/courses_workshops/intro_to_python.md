@@ -34,11 +34,11 @@ You will:
 - Write Python code on an HPC cluster
 - Run Python scripts on an HPC cluster
 
-Practical matters:
+## Practical matters
 
 - **Registration form**:
-   - This instance together with the ["Using Python in an HPC environment" course](https://docs.uppmax.uu.se/courses_workshops/hpc_python/).
-   - You can mention that you only attend one of the days [in this form](https://www.hpc2n.umu.se/events/courses/2025/spring/hpc-python)
+    - This instance together with the ["Using Python in an HPC environment" course](https://docs.uppmax.uu.se/courses_workshops/hpc_python/).
+    - You can mention that you only attend one of the days [in this form](https://www.hpc2n.umu.se/events/courses/2025/spring/hpc-python)
 - **Course prerequisites**: [here](https://uppmax.github.io/naiss_intro_python/prereqs/)
 - **Date**: Thursday May 24th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
 - When: 9:00-16:00 ([course schedule](https://uppmax.github.io/naiss_intro_python/schedule/))
@@ -46,7 +46,7 @@ Practical matters:
 - [Course material](https://uppmax.github.io/naiss_intro_python/)
 - [Earlier evaluations of the course](https://uppmax.github.io/naiss_intro_python/evaluations/)
 
-Questions?
+## Questions
 
 - About the course content: contact the main teacher, Richèl Bilderbeek,
   at `richel.bilderbeek@uppmax.uu.se`
