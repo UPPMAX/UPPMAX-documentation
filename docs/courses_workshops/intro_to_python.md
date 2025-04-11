@@ -36,7 +36,7 @@ You will:
 
 Practical matters:
 
-- Registration form: [here](https://forms.gle/6UVfCmjTeu1JUKms9)
+- Registration form: This instance together with the "Using Python in an HPC environment" course. You can menton that you only attend one of the days [here](https://www.hpc2n.umu.se/events/courses/2025/spring/hpc-python)
 - Course prerequisites: [here](https://uppmax.github.io/naiss_intro_python/prereqs/)
 - Date: Thursday May 24th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
 - When: 9:00-16:00 ([course schedule](https://uppmax.github.io/naiss_intro_python/schedule/))
