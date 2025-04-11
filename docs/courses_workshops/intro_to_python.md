@@ -38,7 +38,7 @@ Practical matters:
 
 - Registration form: [here](https://forms.gle/6UVfCmjTeu1JUKms9)
 - Course prerequisites: [here](https://uppmax.github.io/naiss_intro_python/prereqs/)
-- Date: Tuesday March 4th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
+- Date: Thursday May 24th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
 - When: 9:00-16:00 ([course schedule](https://uppmax.github.io/naiss_intro_python/schedule/))
 - Where: Online via Zoom. Zoom room and password will be mailed :+1:
 - [Course material](https://uppmax.github.io/naiss_intro_python/)
