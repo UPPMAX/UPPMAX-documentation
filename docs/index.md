@@ -7,7 +7,6 @@ template: home.html
 
 <p align="center" width="100%">
     <img id="logo_light_mode" src="assets/UU_logo_color.svg" alt="drawing" width="200" >
-
     <img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="drawing" width="200" >
 </p>
 
@@ -24,4 +23,4 @@ template: home.html
 
 [:material-rocket-launch: Go to the UPPMAX main page](https://www.uu.se/en/centre/uppmax){: .md-button .md-button--primary }
 
-
+</p>
