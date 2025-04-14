@@ -4,7 +4,7 @@ template: home.html
 
 # Welcome to the UPPMAX documentation
 
-<center>
+<text-align>
 
 <img id="logo_light_mode" src="assets/UU_logo_color.svg" alt="drawing" width="200" >
 
@@ -22,4 +22,4 @@ template: home.html
 
 [:material-rocket-launch: Go to the UPPMAX main page](https://www.uu.se/en/centre/uppmax){: .md-button .md-button--primary }
 
-</center>
+
