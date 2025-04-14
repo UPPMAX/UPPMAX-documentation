@@ -10,7 +10,7 @@ template: home.html
     <img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="drawing" width="200" >
 </p>
 
-<div style="text-align: center;">
+<div style="align: center;">
     [Get support](support.md){ .md-button .md-button--primary }
 </div>
 
