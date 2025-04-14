@@ -200,7 +200,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.tilde     
+  - pymdownx.tilde 
+  - md_in_html
 
 plugins:
   - search
