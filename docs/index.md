@@ -4,11 +4,13 @@ template: home.html
 
 # Welcome to the UPPMAX documentation
 
-<text-align>
 
-<img id="logo_light_mode" src="assets/UU_logo_color.svg" alt="drawing" width="200" >
+<p align="center" width="100%">
+    <img id="logo_light_mode" src="assets/UU_logo_color.svg" alt="drawing" width="200" >
 
-<img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="drawing" width="200" >
+    <img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="drawing" width="200" >
+</p>
+
 
 [Get support](support.md){ .md-button .md-button--primary }
 [Give anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link){ .md-button .md-button--primary }
