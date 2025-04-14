@@ -10,7 +10,8 @@ template: home.html
     <img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="drawing" width="200" >
 </p>
 
-<p align="center">
+<p style="text-align: center;">A piece of centered text</p>
+
 
 [Get support](support.md){ .md-button .md-button--primary }
 [Give anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link){ .md-button .md-button--primary }
@@ -24,4 +25,4 @@ template: home.html
 
 [:material-rocket-launch: Go to the UPPMAX main page](https://www.uu.se/en/centre/uppmax){: .md-button .md-button--primary }
 
-</p>
+
