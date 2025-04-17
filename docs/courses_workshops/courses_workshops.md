@@ -70,7 +70,7 @@ a NAISS HPC cluster for sensitive data.
 
 ### Learn Linux and tools
 
-- [NAISS Introduction to LINUX to Linux](https://www.hpc2n.umu.se/events/courses/2025/spring/2/linux-intro)
+- [NAISS Introduction to LINUX](https://www.hpc2n.umu.se/events/courses/2025/spring/2/linux-intro)
 - [NAISS Intermediate Bash and Linux](https://www.hpc2n.umu.se/events/courses/2025/spring/intermediate-linux)
 - [NAISS File transfer](naiss_transfer.md)
 - [To awk or not](https://pmitev.github.io/to-awk-or-not/)
