@@ -8,7 +8,7 @@ tags:
 
 # Installing Python packages
 
-This page described how to install [Python](python.md) packages.
+This page describes how to install [Python](python.md) packages.
 
 There are many ways to install a [Python](python.md) package:
 
@@ -48,7 +48,7 @@ import [package]
 ```
 
 where `[package]` is the name of the Python package,
-for example `import mkhcnuggets`.
+for example `import mhcnuggets`.
 
 Does it work? Then it is there!
 
@@ -109,7 +109,7 @@ pip install --prefix=[root_folder] [package name]
 
 where `[root_folder]` is the root folder of the package installation,
 for example `--prefix=~/.local`.
-Using this root folder, this option is the same to using `--user`,
+Using this root folder, this option is the same as using `--user`,
 as described above.
 
 When using a custom root folder, Python cannot find it without help.
@@ -128,7 +128,7 @@ export PYTHONPATH=~/my_python_packages/lib/python3.11/site-packages/:$PYTHONPATH
 ```
 
 Consider adding this line to your `.bashrc` file,
-so it is loaded every time you login.
+so that it is loaded every time you login.
 
 ## `conda`
 
