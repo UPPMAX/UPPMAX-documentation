@@ -32,6 +32,7 @@ Dardel      | Local ThinLinc client  | [here](https://support.pdc.kth.se/doc/con
 Kebnekaise  | SSH                    | [here](https://docs.hpc2n.umu.se/documentation/access/)                                                   | [here](https://youtu.be/pIiKOKBHIeY)
 Kebnekaise  | Local ThinLinc client  | [here](https://docs.hpc2n.umu.se/documentation/access/)                                                   | [here](https://youtu.be/_jpj0GW9ASc)
 Kebnekaise  | Remote desktop website | [here](https://docs.hpc2n.umu.se/documentation/access/)                                                   | [here](https://youtu.be/_O4dQn8zPaw)
+LUMI        | SSH                    | [here](https://docs.lumi-supercomputer.eu/firststeps/loggingin/)                                          | [here](https://youtu.be/bPdvn2gajgU)
 Rackham     | SSH                    | [here](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client)      | [here](https://youtu.be/TSVGSKyt2bQ)
 Rackham     | Local ThinLinc client  | [here](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)                         | [here](https://youtu.be/PqEpsn74l0g)
 Rackham     | Remote desktop website | [here](https://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)                   | [here](https://youtu.be/HQ2iuKRPabc)
