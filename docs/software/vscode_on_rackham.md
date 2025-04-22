@@ -7,6 +7,14 @@ tags:
 
 # Connecting Visual Studio Code to Rackham
 
+!!! warning "Latest VSCode does not work"
+
+    VSCode versions 1.99 and newer no longer support the operating system used on Rackham.
+
+    Downgrade VSCode to version 1.98 or earlier to use with Rackham.
+
+    This will not be needed with the upcoming Rackham replacement cluster [Pelle](../cluster_guides/pelle.md).
+
 ![VSCode from a local computer working on Rackham.](./img/vscode_connected_to_rackham.png)
 
 > VSCode from a local computer working on Rackham.
