@@ -15,7 +15,7 @@ tags:
 > Rackham's remote desktop environment via a webbrowser
 
 There are multiple ways to [log in to Rackham](login_rackham.md).
-This page described how to log in to its remote desktop environment
+This page describes how to log in to its remote desktop environment
 via a web browser.
 
 ## Procedure
