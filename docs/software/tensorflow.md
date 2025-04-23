@@ -5,7 +5,7 @@ TensorFlow is a library for machine learning and artificial intelligence.
 TensorFlow is available in multiple variants:
 
 - [TensorFlow as a Python package for CPU](#tensorflow-as-a-python-package-for-cpu):
-  works on [Rackham](../cluster_guides/rackham.md)
+  works on [Bianca](../cluster_guides/bianca.md) and [Rackham](../cluster_guides/rackham.md)
 - [TensorFlow as a Python package for GPU](#tensorflow-as-a-python-package-for-gpu)
   works on [Bianca](../cluster_guides/bianca.md) and [Snowy](../cluster_guides/snowy.md)
 
