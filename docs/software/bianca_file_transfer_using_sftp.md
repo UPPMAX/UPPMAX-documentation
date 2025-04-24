@@ -1,3 +1,16 @@
+---
+tags:
+  - sftp
+  - SFTP
+  - Bianca
+  - data transfer
+  - file transfer
+  - transfer
+  - terminal
+  - command-line
+  - console
+---
+
 # Using `sftp` with Bianca
 
 [`sftp`](../software/sftp.md) is a command-line program
