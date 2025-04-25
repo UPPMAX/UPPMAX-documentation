@@ -499,7 +499,6 @@ tail -n 5 a
     - ``!990`` will run the command of line 990 of last `history` output.
 - Search for earlier commands you just remember parts of:
     - history | grep 'jobstats'
-- [More info](https://www.redswitches.com/blog/linux-history-command/)
 
 ## File permissions
 
