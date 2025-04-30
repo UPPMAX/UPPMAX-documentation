@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     script.setAttribute("runllm-assistant-id", "733");
     script.setAttribute("runllm-disable-ask-a-person", "true");
     script.setAttribute("runllm-per-user-usage-limit", "3");
-    script.setAttribute("runllm-disclaimer", "This is AI assistant is in development and may not always provide accurate information.");
+    script.setAttribute("runllm-disclaimer", "This is AI assistant is in development and may not always provide accurate information. For that reason, 3 queries per day is set as a limit.");
     script.setAttribute("runllm-usage-limit-effective-days", "1");
     script.setAttribute("runllm-usage-limit-message", "There is a usage limit set at 3 queries per day, since this Assisstant is in development. This limit resets in 1 day, please try again tomorrow.");
   
