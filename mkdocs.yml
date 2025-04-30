@@ -169,8 +169,8 @@ extra_css:
   - stylesheets/extra.css
       
 extra_javascript:
-    - "js/runllm-widget.js"
-    
+  - js/runllm-widget.js
+
 markdown_extensions:
   - toc:
       toc_depth: 2
