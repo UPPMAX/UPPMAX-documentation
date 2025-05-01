@@ -2,8 +2,8 @@
 template: home.html
 ---
 
-<div style="text-align: center;">
-    # Welcome to the UPPMAX documentation
+<div style="text-align: center; font-size: 2.5em; font-weight: bold; margin-top: 20px;">
+    Welcome to the UPPMAX documentation
 </div>
 
 <p align="center" width="100%">
