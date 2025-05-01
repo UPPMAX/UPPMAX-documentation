@@ -10,19 +10,34 @@ template: home.html
     <img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="drawing" width="200" >
 </p>
 
-<div style="text-align: center;">
+<!---
 [Get support](support.md){: .md-button .md-button--primary}
 [Give anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link){: .md-button .md-button--primary }
 [Apply for a project](getting_started/project_apply.md){: .md-button .md-button--primary }
-</div>
 
-<div style="text-align: center;">
+
 [:material-rocket-launch: Getting started](getting_started/get_started.md){: .md-button .md-button--primary }
 [:material-rocket-launch: Software](software/overview.md){: .md-button .md-button--primary }
 [:material-rocket-launch: Reset your UPPMAX password](getting_started/reset_uppmax_password.md){: .md-button .md-button--primary }
 [:material-alert-box: Migration to Dardel](cluster_guides/dardel_migration.md){ .md-button .md-button--primary }
+
+[:material-rocket-launch: Go to the UPPMAX main page](https://www.uu.se/en/centre/uppmax){: .md-button .md-button--primary }
+--->
+
+
+<div style="text-align: center; margin-top: 20px;">
+    <a href="support.md" class="md-button md-button--primary">Get support</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link" class="md-button md-button--primary">Give anonymous feedback</a>
+    <a href="getting_started/project_apply.md" class="md-button md-button--primary">Apply for a project</a>
 </div>
 
-<div style="text-align: center;">
-[:material-rocket-launch: Go to the UPPMAX main page](https://www.uu.se/en/centre/uppmax){: .md-button .md-button--primary }
+<div style="text-align: center; margin-top: 20px;">
+    <a href="getting_started/get_started.md" class="md-button md-button--primary">🚀 Getting started</a>
+    <a href="software/overview.md" class="md-button md-button--primary">🚀 Software</a>
+    <a href="getting_started/reset_uppmax_password.md" class="md-button md-button--primary">🚀 Reset your UPPMAX password</a>
+    <a href="cluster_guides/dardel_migration.md" class="md-button md-button--primary">⚠️ Migration to Dardel</a>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+    <a href="https://www.uu.se/en/centre/uppmax" class="md-button md-button--primary">🚀 Go to the UPPMAX main page</a>
 </div>
