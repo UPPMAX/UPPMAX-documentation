@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     script.setAttribute("runllm-keyboard-shortcut", "Mod+j");
     script.setAttribute("runllm-name", "UPPMAX AI Assistant");
     script.setAttribute("runllm-position", "BOTTOM_RIGHT");
-    script.setAttribute("runllm-assistant-id", "733");
+    script.setAttribute("runllm-assistant-id", "730");
     script.setAttribute("runllm-disable-ask-a-person", "true");
     script.setAttribute("runllm-per-user-usage-limit", "3");
     script.setAttribute("runllm-disclaimer", "This is AI assistant is in development and may not always provide accurate information. For that reason, 3 queries per day is set as a limit.");
