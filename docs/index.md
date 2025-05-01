@@ -2,8 +2,9 @@
 template: home.html
 ---
 
-# Welcome to the UPPMAX documentation
-
+<div style="text-align: center;">
+    # Welcome to the UPPMAX documentation
+</div>
 
 <p align="center" width="100%">
     <img id="logo_light_mode" src="assets/UU_logo_color.svg" alt="drawing" width="200" >
