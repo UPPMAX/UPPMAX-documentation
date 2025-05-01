@@ -26,16 +26,16 @@ template: home.html
 
 
 <div style="text-align: center; margin-top: 20px;">
-    <a href="support.md" class="md-button md-button--primary">Get support</a>
+    <a href="https://docs.uppmax.uu.se/support/" class="md-button md-button--primary">Get support</a>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link" class="md-button md-button--primary">Give anonymous feedback</a>
-    <a href="getting_started/project_apply.md" class="md-button md-button--primary">Apply for a project</a>
+    <a href="https://docs.uppmax.uu.se/getting_started/project_apply/" class="md-button md-button--primary">Apply for a project</a>
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-    <a href="getting_started/get_started.md" class="md-button md-button--primary">🚀 Getting started</a>
-    <a href="software/overview.md" class="md-button md-button--primary">🚀 Software</a>
-    <a href="getting_started/reset_uppmax_password.md" class="md-button md-button--primary">🚀 Reset your UPPMAX password</a>
-    <a href="cluster_guides/dardel_migration.md" class="md-button md-button--primary">⚠️ Migration to Dardel</a>
+    <a href="https://docs.uppmax.uu.se/getting_started/get_started/" class="md-button md-button--primary">🚀 Getting started</a>
+    <a href="https://docs.uppmax.uu.se/software/overview/" class="md-button md-button--primary">🚀 Software</a>
+    <a href="https://docs.uppmax.uu.se/getting_started/reset_uppmax_password/" class="md-button md-button--primary">🚀 Reset your UPPMAX password</a>
+    <a href="https://docs.uppmax.uu.se/cluster_guides/dardel_migration/" class="md-button md-button--primary">⚠️ Migration to Dardel</a>
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
