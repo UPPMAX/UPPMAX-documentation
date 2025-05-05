@@ -12,7 +12,7 @@ date:
 ## Introduction
 
 This guide provides instructions for loading and using OpenAI's Whisper, an
-automatic speech recognition system. Whisper is available on Bianca. It can either be used through a User Interface or loaded as a Module.
+automatic speech recognition system. Whisper app is available on Bianca or can also be loaded as a module.
 
 !!! warning "AI tool caution"
 
