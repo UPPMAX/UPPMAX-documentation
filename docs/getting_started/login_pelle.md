@@ -24,14 +24,14 @@ Here we describe how to log in to [Pelle](../cluster_guides/pelle.md).
 From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
-ssh -X [username]@rackham5.uppmax.uu.se
+ssh [username]@rackham5.uppmax.uu.se
 ```
 
 `[username]` is your UPPMAX username, for example, `sven`,
 resulting in:
 
 ```bash
-ssh -X sven@rackham5.uppmax.uu.se
+ssh sven@rackham5.uppmax.uu.se
 ```
 
 ### 2. Use `ssh` to log in to Pelle1

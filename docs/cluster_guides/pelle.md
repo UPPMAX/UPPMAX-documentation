@@ -31,6 +31,10 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
 See [how to apply to a Pelle project](../getting_started/project_apply_pelle.md).
 
+## [How to log in to a Pelle](../getting_started/login_pelle.md)
+
+See [how to log in to a Pelle](../getting_started/login_pelle.md).
+
 ## Features of Pelle, compared to Rackham
 
 Although we from UPPMAX cannot say exactly how Pelle will look,
