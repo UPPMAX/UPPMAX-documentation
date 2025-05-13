@@ -9,11 +9,13 @@ on:
       - .github/workflows/check_spelling.yaml
       - 'docs/**'
       - .wordlist.txt
+      - .spellcheck.yml
   pull_request:
     paths:
       - .github/workflows/check_spelling.yaml
       - 'docs/**'
       - .wordlist.txt
+      - .spellcheck.yml
   schedule:
   - cron: "0 0 21 * *"
 
