@@ -41,7 +41,7 @@ ssh sven@rackham5.uppmax.uu.se
 ???- question "Want to use graphical programs?"
 
     If you want to use graphical programs,
-    you need to use [SSH X forwarding](../software/ssh_x_forwarding).
+    you need to use [SSH X forwarding](../software/ssh_x_forwarding.md).
 
     In short: add the `-X` flag when running `ssh`, e.g.:
 

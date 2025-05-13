@@ -5,7 +5,7 @@
     [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
     that is in the process of being deployed.
 
-    File transfer to/from Pelle using FileZilla does not work yet.
+    The procedure as described on this page does not work yet or is untested.
 
     This page will be updated when this works.
 

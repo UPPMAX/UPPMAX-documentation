@@ -13,7 +13,7 @@ tags:
     [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
     that is in the process of being deployed.
 
-    File transfer to/from Pelle using FileZilla does not work yet.
+    The procedure as described on this page does not work yet or is untested.
 
     This page will be updated when this works.
 
@@ -28,4 +28,4 @@ There are many graphical tools that can do this:
 
 - [File transfer to/from Pelle using FileZilla](../software/pelle_file_transfer_using_filezilla.md)
 
-![FileZilla connected to Pelle](../software/img/filezilla_login_to_pelle_480_x_270.png)
+`TODO ![FileZilla connected to Pelle](../software/img/filezilla_login_to_pelle_480_x_270.png)`
