@@ -20,9 +20,6 @@ matrix:
       - 'pre'
       - 'blockquote'
   sources:
-    - '**/*.md|!docs/software/perl.md'
-  exclude:
-      - 'docs/software/perl.md'
-      - 'docs/index.md'
+    - '**/*.md|!docs/software/perl.md|!docs/index.md'
   aspell:
     lang: en
