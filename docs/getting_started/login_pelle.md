@@ -50,7 +50,7 @@ ssh sven@rackham5.uppmax.uu.se
     ```
 
     For more details, see
-    [the SSH X forwarding page](../software/ssh_x_forwarding).
+    [the SSH X forwarding page](../software/ssh_x_forwarding.md).
 
 ### 2. Use `ssh` to log in to Pelle1
 
