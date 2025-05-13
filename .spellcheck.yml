@@ -21,6 +21,8 @@ matrix:
       - 'blockquote'
   sources:
     - '**/*.md|!docs/software/perl.md'
-  default_encoding: utf-8
+  exclude:
+      - 'docs/software/perl.md'
+      - 'docs/index.md'
   aspell:
     lang: en
