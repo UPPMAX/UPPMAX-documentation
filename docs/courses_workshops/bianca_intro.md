@@ -37,7 +37,8 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 - Command line intro specific to Bianca
 - Module system
 - Intro to transferring files to and from Bianca
-- Compute nodes and slurm
+- Compute nodes and Slurm
+- Using RStudio on Bianca
 - Summary
 - Q/A
 

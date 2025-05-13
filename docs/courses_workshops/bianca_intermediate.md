@@ -24,10 +24,6 @@ The workshop will consist of short lectures and longer Q&A sessions.
 
 - Introduction
 - NAISS-SENS summary
-- IDE:s on Bianca (selection of below)
-    - VSCode
-    - Jupyter
-    - RStudio
 - Transferring files to and from Bianca
     - several methods
 - Slurm jobs
