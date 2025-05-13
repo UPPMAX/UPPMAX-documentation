@@ -38,7 +38,7 @@ Remote/online participation: We will use Zoom. More information about connecting
 
 - [Pre-requirements](https://uppmax.github.io/HPC-python/prereqs.html)
 - [Prepare the environment](https://uppmax.github.io/HPC-python/preparations.html)
-    
+
 ??? question "I'm used to Python but haven't used an HPC cluster. What to do?"
 
     - You need to:
