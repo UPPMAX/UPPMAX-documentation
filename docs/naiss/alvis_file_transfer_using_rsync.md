@@ -66,6 +66,9 @@ for example:
 
 ```bash
 rsync my_file.txt svens@alvis1.c3se.chalmers.se:/cephyr/users/svens/Alvis/
+                                                              ^
+                                                              |
+                                                              +--- username
 ```
 
 If asked, give your C3SE password.
