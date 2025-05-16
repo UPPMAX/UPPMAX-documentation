@@ -1,3 +1,12 @@
+---
+tags:
+  - transfer
+  - data transfer
+  - file transfer
+  - rsync
+  - Bianca
+---
+
 # File transfer to/from Bianca using rsync
 
 [rsync](../software/rsync.md) is a tool [to do file transfer to/from Bianca](../cluster_guides/transfer_bianca.md),
