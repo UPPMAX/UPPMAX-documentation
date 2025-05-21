@@ -168,8 +168,8 @@ theme:
 extra_css:
   - stylesheets/extra.css
       
-extra_javascript:
-  - js/runllm-widget.js
+#extra_javascript:
+#  - js/runllm-widget.js
 
 markdown_extensions:
   - toc:
