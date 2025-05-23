@@ -1,3 +1,9 @@
+---
+tags:
+  - storage
+  - compression
+---
+
 # Storage and compression
 
 ## Storage

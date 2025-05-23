@@ -1,3 +1,11 @@
+---
+tags:
+  - start
+  - interactive
+  - session
+  - Rackham
+---
+
 # Starting an interactive session on Rackham
 
 ![Log in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)

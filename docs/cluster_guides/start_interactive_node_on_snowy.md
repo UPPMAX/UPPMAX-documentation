@@ -1,3 +1,11 @@
+---
+tags:
+  - start
+  - interactive
+  - session
+  - Snowy
+---
+
 # Starting an interactive session on Snowy
 
 ![Log in to Rackham4 via a terminal](./img/login_rackham4_via_terminal_terminal_395_x_204.png)
