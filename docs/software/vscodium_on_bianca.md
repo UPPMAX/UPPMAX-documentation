@@ -73,7 +73,7 @@ VSCodium needs the `VSCodium/latest` module.
 In the terminal of the interactive session, do:
 
 ```bash
-module load VSCodium/latest`
+module load VSCodium/latest
 ```
 
 ### 5. Start VSCodium
