@@ -1,6 +1,15 @@
 ---
 template: home.html
 ---
+<script
+  async
+  src="https://widget.kapa.ai/kapa-widget.bundle.js"
+  data-website-id="88ce68c1-ce0d-452a-bb55-e05e3beaa240"
+  data-project-name="UPPMAX AI chatbot"
+  data-project-color="#6306B6"
+  data-project-logo="./assets/UU_logo_vit.svg"
+  data-modal-disclaimer="This is AI assistant is in development and may not always provide accurate information. Please submit your queries on https://supr.naiss.se/support.for the support team to look at."
+></script>
 
 <div style="text-align: center; font-size: 2.5em; font-weight: bold; margin-top: 20px;">
     Welcome to the UPPMAX documentation
