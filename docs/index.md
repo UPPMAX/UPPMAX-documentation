@@ -5,10 +5,12 @@ template: home.html
   async
   src="https://widget.kapa.ai/kapa-widget.bundle.js"
   data-website-id="88ce68c1-ce0d-452a-bb55-e05e3beaa240"
-  data-project-name="UPPMAX AI chatbot"
-  data-project-color="#6306B6"
+  data-project-name="UPPMAX"
+  data-project-color="#D22B2B"
   data-project-logo="./assets/UU_logo_vit.svg"
-  data-modal-disclaimer="This is AI assistant is in development and may not always provide accurate information. Please submit your queries on https://supr.naiss.se/support.for the support team to look at."
+  data-modal-image="./assets/UU_logo_color.svg"
+  data-button-image="./assets/UU_logo_vit.svg"
+  data-modal-disclaimer="This AI assistant is in development and may not always provide accurate information. Please submit your queries to the support team at https://supr.naiss.se/support"
 ></script>
 
 <div style="text-align: center; font-size: 2.5em; font-weight: bold; margin-top: 20px;">
