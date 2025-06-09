@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     var script = document.createElement("script");
-    script.id = "kapa-widget-script"
   
     script.src = "https://widget.kapa.ai/kapa-widget.bundle.js";
   
