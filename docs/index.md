@@ -1,17 +1,6 @@
 ---
 template: home.html
 ---
-<script
-  async
-  src="https://widget.kapa.ai/kapa-widget.bundle.js"
-  data-website-id="88ce68c1-ce0d-452a-bb55-e05e3beaa240"
-  data-project-name="UPPMAX"
-  data-project-color="#D22B2B"
-  data-project-logo="./assets/UU_logo_vit.svg"
-  data-modal-image="./assets/UU_logo_color.svg"
-  data-button-image="./assets/UU_logo_vit.svg"
-  data-modal-disclaimer="This AI assistant is in development and may not always provide accurate information. Please submit your queries to the support team at https://supr.naiss.se/support"
-></script>
 
 <div style="text-align: center; font-size: 2.5em; font-weight: bold; margin-top: 20px;">
     Welcome to the UPPMAX documentation
