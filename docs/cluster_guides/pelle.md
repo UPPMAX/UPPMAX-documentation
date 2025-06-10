@@ -45,3 +45,10 @@ we try to have Pelle be as similar to [Rackham](rackham.md) as possible.
 As both clusters are UPPMAX clusters,
 we will transfer your data from [Rackham](rackham.md)
 to Pelle. Users will have to [apply to a Pelle project](../getting_started/project_apply_pelle.md).
+
+## Pelle hardware
+[Pelle/Maja hardware](../hardware/clusters/pelle.md)
+
+## Information for test pilots
+
+We have a separate page with [information for Pelle test pilot users](./pelle_test.md)
