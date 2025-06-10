@@ -1,16 +1,16 @@
 # Pelle/Maja hardware
 
-No of nodes     | CPUs            |           Cores |  Memory         | Scratch        | GPUs           | Name           | Comment
---------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |---------------
-116              |  AMD EPYC 9454P (Zen4)  2.75 GHz    | 48    | 512GB | 6? TB          | N/A            | XX-XX          |.
-2              |  AMD EPYC 9454P (Zen4)  2.75 GHz    | 48    | FAT   | 6? TB          | N/A            | XX-XX          |.
-2             |  AMD EPYC 9454P (Zen4)  2.75 GHz     | 48    | 512GB | 6? TB          | 2 H100           | XX-XX          |.
-4             |  AMD EPYC 9454P (Zen4)  2.75 GHz     | 48    | 512GB | 6? TB          | 4 L40           | XX-XX          |.
-
+No of nodes     | CPUs                              | Cores  | Threads |  Memory   | Scratch | GPUs           | Name           | Comment
+--------------- | --------------------------------- | ------ | ------- | --------- |-------- |--------------- |--------------- |---------------
+116             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 768 GiB   | 6? TB   | N/A            | p[1-115]       |.
+2               |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 2 / 3 TiB | 6? TB   | N/A            | p[251-252]     |.
+4               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 2 x H100       | p[205-206]     |.
+2               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 10 x L40       | p[201-204]     |.
 
 ## CPUs
 
-- AMD EPYC 9454P (Zen4) 2.75 GHz
+- [AMD EPYC 9454P (Zen4) 48-Core Processor 2.75 GHz](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9454p.html)
+- [AMD EPYC 9124 (Zen4) 16-Core Processor 3 GHz](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9124.html)
 
 ## GPUs
 
