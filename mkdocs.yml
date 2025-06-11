@@ -21,10 +21,11 @@ nav:
   - Cluster user guide:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
     - System usage: https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html
-    - Clusters: 
+    - Clusters:
       - Rackham: cluster_guides/rackham.md
       - Bianca: cluster_guides/bianca.md
       - Snowy: cluster_guides/snowy.md
+      - Pelle: cluster_guides/pelle.md
       - Dardel (at PDC): cluster_guides/dardel.md
     - General cluster tools: 
       - Start an interactive node: cluster_guides/start_interactive_node.md
