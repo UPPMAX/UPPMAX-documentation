@@ -143,7 +143,7 @@ To use the 3 TiB node: `sbatch --partition=fat --constraints=3TB`
 
 The script `interactive` used to submit interactive jobs still works,
 but does not provide as much information as on Rackham. It is now a
-very thin wrapper around the `sacct` command.
+very thin wrapper around the `salloc` command.
 
 ### SMT
 
