@@ -46,7 +46,8 @@ flowchart TD
 ### 1. Get access to a SUPR project with Dardel
 
 First step is to get get access to a SUPR project with Dardel.
-This is described at [PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/contact/contact_support/).
+This is described at
+[PDC's page on getting access to Dardel](https://support.pdc.kth.se/doc/getting_access/get_access/).
 You will get an email when you are added to a project,
 this can take some hours.
 
@@ -78,7 +79,8 @@ this can take some hours.
 ### 2. Get a PDC account via SUPR
 
 Get a PDC account via SUPR.
-This is described at [the PDC page on getting an account](https://support.pdc.kth.se/doc/contact/contact_support/?section=/doc/support-docs/getting_access/get_access#applying-for-an-account).
+This is described at
+[the PDC page on getting an account](https://support.pdc.kth.se/doc/getting_access/get_access/#applying-for-an-account).
 You will get a PDC account overnight.
 
 ???- question "How do I know I have a PDC account?"
@@ -143,18 +145,12 @@ Follow our [step-by-step instructions on how to add SSH keys](../software/ssh_ke
 
 ### 5. Login
 
-- the [PDC documentation on 'SSH login'](https://support.pdc.kth.se/doc/contact/contact_support/)
+- the [PDC documentation on 'SSH login'](https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in)
 
 On a terminal, do:
 
 ```bash
-ssh -X [username]@dardel.pdc.kth.se
+ssh [username]@dardel.pdc.kth.se
 ```
 
-where `[username]` is your PDC username, for example `ssh -X sven@dardel.pdc.kth.se`.
-
-???- question "Why the `-X`?"
-
-    The `-X` is for so-called [X forwarding](../software/ssh_x_forwarding.md).
-    It allows you to view graphical things,
-    such as viewing plots or running graphical programs
+where `[username]` is your PDC username, for example `ssh sven@dardel.pdc.kth.se`.
