@@ -30,7 +30,7 @@ flowchart TD
   get_pdc_account[2.Access to a PDC account]
   create_ssh_key[3.Create temporary SSH keys]
   add_ssh_key[4.Add the SSH keys to the PDC Login Portal]
-  login[5. Login]
+  login[5.Login]
 
   get_supr_project --> |needed for| get_pdc_account
 
