@@ -12,13 +12,13 @@ tags:
 Below we describe the general ideas of using an interactive session:
 
 - [the types of nodes](#types-of-nodes)
-- [When to use an interactive node](#when-to-use-an-interactive-node)
+- [When to use an interactive session](#when-to-use-an-interactive-node)
 
-To start an interactive node on specific cluster:
+To start an interactive session on specific cluster:
 
-- [Start an interactive node on Bianca](start_interactive_node_on_bianca.md)
-- [Start an interactive node on Rackham](start_interactive_node_on_rackham.md)
-- [Start an interactive node on Snowy](start_interactive_node_on_snowy.md)
+- [Start an interactive session on Bianca](start_interactive_node_on_bianca.md)
+- [Start an interactive session on Rackham](start_interactive_node_on_rackham.md)
+- [Start an interactive session on Snowy](start_interactive_node_on_snowy.md)
 
 ## Types of nodes
 
@@ -44,7 +44,7 @@ The UPPMAX HPC clusters have three types of nodes:
     In a [terminal](../software/terminal.md), type `hostname`:
 
     - the [login node](../cluster_guides/login_node.md) has name `rackham[number]`, where `[number]` is the number of the login node
-    - an interactive node has name `r[number]`, where `[number]` is the compute node number
+    - an interactive session has name `r[number]`, where `[number]` is the compute node number
 
 As a login is shared with all users,
 there is a simple rule to use it fairly:
@@ -65,9 +65,9 @@ Examples of heavy things are:
 
 ???- tip "Develop code with big calculations line-by-line "
 
-    This usage is typically done an interactive node
+    This usage is typically done an interactive session
 
-### When to use an interactive node
+### When to use an interactive session
 
 Some users develop computer code on an HPC cluster
 in a line-by-line fashion.
@@ -78,9 +78,9 @@ if the code works.
 However, scheduling each new line is too slow, as it
 can take minutes before the new code is run.
 Instead, there is a way to directly work
-with such code: use an interactive node.
+with such code: use an interactive session.
 
-An interactive node is a type of calculation node,
+An interactive session is a type of calculation node,
 where one can run heavy calculations directly.
 
 ```mermaid
@@ -89,7 +89,7 @@ flowchart TD
     operation_type[What type of operation/calculation?]
     interaction_type[What type of interaction?]
     login_node(Work on login node)
-    interactive_node(Work on interactive node)
+    interactive_node(Work on interactive session)
     calculation_node(Schedule for calculation node)
 
     UPPMAX-->operation_type

@@ -102,7 +102,7 @@ flowchart TD
 
     subgraph sub_inside[SUNET]
       subgraph sub_transit_shared_env[Transit]
-          login_node(login/calculation/interactive node):::calculation_node
+          login_node(login/calculation/interactive session):::calculation_node
           files_in_transit_home(Files in Transit home folder):::file_node
       end
     end

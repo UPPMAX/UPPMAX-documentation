@@ -68,7 +68,7 @@ flowchart TD
 
     subgraph sub_inside[SUNET]
       subgraph sub_pelle_shared_env[Pelle]
-          login_node(login/calculation/interactive node):::calculation_node
+          login_node(login/calculation/interactive session):::calculation_node
           files_in_pelle_home(Files in Pelle home folder):::file_node
       end
     end

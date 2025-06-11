@@ -58,7 +58,7 @@ flowchart TD
 
     subgraph sub_inside[SUNET]
       subgraph sub_rackham_shared_env[Rackham]
-          login_node(login/calculation/interactive node):::calculation_node
+          login_node(login/calculation/interactive session):::calculation_node
           files_in_rackham_home(Files in Rackham home folder):::file_node
       end
     end

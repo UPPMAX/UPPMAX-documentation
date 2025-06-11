@@ -49,7 +49,7 @@ flowchart TD
     subgraph sub_inside[IP inside SUNET]
       subgraph sub_bianca_shared_env[Bianca shared network]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          login_node(login/calculation/interactive node):::calculation_node
+          login_node(login/calculation/interactive session):::calculation_node
           files_in_wharf(Files in wharf):::file_node
           files_in_bianca_project(Files in Bianca project folder):::file_node
         end
@@ -143,7 +143,7 @@ flowchart TD
     subgraph sub_inside[IP inside SUNET]
       subgraph sub_bianca_shared_env[Bianca shared network]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
-          login_node(login/calculation/interactive node):::calculation_node
+          login_node(login/calculation/interactive session):::calculation_node
           files_in_wharf(Files in wharf):::file_node
           files_in_bianca_project(Files in Bianca project folder):::file_node
         end

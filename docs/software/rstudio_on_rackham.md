@@ -26,11 +26,11 @@ using Rackham's remote desktop environment.
     Spoiler: go to [https://rackham.uppmax.uu.se/](https://rackham.uppmax.uu.se/)
 
 As RStudio is a resource-heavy program,
-it must be run on an interactive node.
+it must be run on an interactive session.
 
-???- tip "Forgot how to start an interactive node?"
+???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_rackham.md).
+    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_node_on_rackham.md).
 
 ## Procedure to start RStudio
 
@@ -82,7 +82,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
     Due to this, we recommend using at least two cores
     for a more pleasant user experience.
 
-???- tip "What is an interactive node?"
+???- tip "What is an interactive session?"
 
     See [start an interactive session](../cluster_guides/start_interactive_node_on_rackham.md)
 
@@ -157,7 +157,7 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
 ### 5. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the
-interactive node):
+interactive session):
 
 ```bash
 rstudio

@@ -97,14 +97,14 @@ There are three types of nodes:
 
 - **interactive sessions**: a user on a calculation node
 
-???- tip "Requesting an interactive node"
+???- tip "Requesting an interactive session"
 
-    Requesting an interactive node is described per cluster:
+    Requesting an interactive session is described per cluster:
 
     - [Bianca](start_interactive_node_on_bianca.md)
     - [Rackham](start_interactive_node_on_rackham.md)
 
-    This is done by requesting an interactive node
+    This is done by requesting an interactive session
     from the Slurm scheduler.
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
@@ -115,7 +115,7 @@ A user logs in to a [login node](../cluster_guides/login_node.md) via the Intern
 flowchart TD
 
   login_node(User on login node)
-  interactive_node(User on interactive node)
+  interactive_node(User on interactive session)
   computation_node(Computation node)
 
   login_node --> |move user, interative|interactive_node
@@ -166,21 +166,21 @@ are restricted in some ways:
 
 - Users cannot run calculations directly.
   Instead, users need to request either (1) a calculation to be run,
-  or (2) an interactive node
+  or (2) an interactive session
 
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is described
     [at the UPPMAX page about the job scheduler](slurm.md).
 
-???- tip "Requesting an interactive node"
+???- tip "Requesting an interactive session"
 
-    Requesting an interactive node is described per cluster:
+    Requesting an interactive session is described per cluster:
 
     - [Bianca](start_interactive_node_on_bianca.md)
     - [Rackham](start_interactive_node_on_rackham.md)
 
-    This is done by requesting an interactive node
+    This is done by requesting an interactive session
     from the Slurm scheduler.
 
 - Users cannot install software directly.

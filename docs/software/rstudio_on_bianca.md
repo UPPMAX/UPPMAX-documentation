@@ -26,11 +26,11 @@ using Bianca's remote desktop environment.
     Spoiler: go to [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
 
 As RStudio is a resource-heavy program,
-it must be run on an interactive node.
+it must be run on an interactive session.
 
-???- tip "Forgot how to start an interactive node?"
+???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_bianca.md).
+    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_node_on_bianca.md).
 
 ## Procedure to start RStudio
 
@@ -56,7 +56,7 @@ Below is a step-by-step procedure to start RStudio on Bianca.
 
 Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal,
-[start an interactive node](../cluster_guides/start_interactive_node_on_bianca.md)
+[start an interactive session](../cluster_guides/start_interactive_node_on_bianca.md)
 with 2 cores:
 
 !!!- info "Why two cores?"
@@ -128,7 +128,7 @@ module load R_packages/4.3.1 RStudio/2023.12.1-402
 ### 5. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the
-interactive node):
+interactive session):
 
 ```bash
 rstudio

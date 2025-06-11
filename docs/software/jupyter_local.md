@@ -65,7 +65,7 @@ http://r486:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
 
 ## Step 4: On own computer
 
-- If you use ssh to connect to Rackham, you need to forward the port of the interactive node to your local computer.
+- If you use ssh to connect to Rackham, you need to forward the port of the interactive session to your local computer.
     - On Linux or Mac this is done by running in another terminal. Make sure you have the ports changed if they are not at the default ``8888``.
 
 ```sh

@@ -34,7 +34,7 @@ Additionally, Jupyter allows to share files and hence includes a file manager.
 
 Jupyter is:
 
-- started and running on a server, for example, an interactive node
+- started and running on a server, for example, an interactive session
 - displayed in a **web browser**, such as ``firefox``.
 
 Jupyter can be slow when using remote desktop webpage

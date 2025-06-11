@@ -32,7 +32,7 @@ using Bianca's remote desktop environment.
     See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
 
 As VSCodium is a resource-heavy program,
-it must be run on an interactive node.
+it must be run on an interactive session.
 
 ## Procedure to start VSCodium
 
@@ -56,9 +56,9 @@ This procedure is also demonstrated in [this YouTube video](https://youtu.be/i7s
 Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, start an interactive session with 1 core.
 
-???- tip "Forgot how to start an interactive node?"
+???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive node' page](../cluster_guides/start_interactive_node_on_bianca.md).
+    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_node_on_bianca.md).
 
     Spoiler: use:
 

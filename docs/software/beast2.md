@@ -72,15 +72,15 @@ After using `BEAUti`, save the file with your BEAST2 model.
 
 A BEAST2 run takes a lot of computing power,
 hence do not run it on a login node.
-Instead, run it on an interactive node
+Instead, run it on an interactive session
 or use a script.
 
-???- question "How to start an interactive node?"
+???- question "How to start an interactive session?"
 
     View the UPPMAX documentation
-    ['How to start an interactive node on Rackham'](../cluster_guides/start_interactive_node_on_rackham.md).
+    ['How to start an interactive session on Rackham'](../cluster_guides/start_interactive_node_on_rackham.md).
 
-On an interactive node, run BEAST2 on the saved BEAST2 model:
+On an interactive session, run BEAST2 on the saved BEAST2 model:
 
 ```bash
 beast beast2_setup.xml

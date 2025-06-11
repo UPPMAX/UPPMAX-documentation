@@ -33,7 +33,7 @@ This can be either:
 
 Within the Rackham remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal,
-[start an interactive node](../cluster_guides/start_interactive_node_on_rackham.md):
+[start an interactive session](../cluster_guides/start_interactive_node_on_rackham.md):
 
 ```bash
 interactive -A [project_number] -t 8:00:00

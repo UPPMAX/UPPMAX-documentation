@@ -24,7 +24,7 @@ In this session, we show how to use RStudio on Tetralith,
 using Tetralith's remote desktop environment.
 
 As RStudio is a resource-heavy program,
-it must be run on an interactive node.
+it must be run on an interactive session.
 
 ## Procedure to start RStudio
 
@@ -96,7 +96,7 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
 ### 4. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the
-interactive node):
+interactive session):
 
 ```bash
 rstudio

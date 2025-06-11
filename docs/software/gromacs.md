@@ -51,7 +51,7 @@ $MPIRUN $GMX mdrun $ntmpi -ntomp $ntomp -s MEM.tpr -nsteps 10000 -resethway
 
 ## How important is to select appropriate options
 
-Here is a simple benchmark ran on single interactive node with 20CPUs
+Here is a simple benchmark ran on single interactive session with 20CPUs
 using the MEM example from
 [this benchmark](https://www.mpibpc.mpg.de/grubmueller/bench):
 

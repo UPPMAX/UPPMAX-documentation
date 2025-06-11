@@ -95,5 +95,5 @@ flowchart TD
 
     So, if you can, use the login node. If you need more resources,
     either use [the job scheduler](../cluster_guides/slurm.md) or
-    use [an interactive node](../cluster_guides/start_interactive_node.md)
+    use [an interactive session](../cluster_guides/start_interactive_node.md)
     with more nodes than the login node has.

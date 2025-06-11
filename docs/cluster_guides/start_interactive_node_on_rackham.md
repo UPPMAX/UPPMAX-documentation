@@ -61,7 +61,7 @@ that has a maximum duration of 8 hours.
 
 !!! note "Has Rackham frozen?"
 
-    It can take tens of seconds before an interactive node is allocated.
+    It can take tens of seconds before an interactive session is allocated.
 
     Rackham has not frozen, just be a bit more patient.
 
