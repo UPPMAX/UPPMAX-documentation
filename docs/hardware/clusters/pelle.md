@@ -1,11 +1,11 @@
 # Pelle/Maja hardware
 
-No of nodes     | CPUs                              | Cores  | Threads |  Memory   | Scratch | GPUs           | Name
---------------- | --------------------------------- | ------ | ------- | --------- |-------- |--------------- |------------
-116             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 768 GiB   | 6? TB   | N/A            | p[1-115]
-2               |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 2 / 3 TiB | 6? TB   | N/A            | p[251-252]
-4               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 10 x L40       | p[201-204]
-2               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 2 x H100       | p[205-206]
+No of nodes     | CPUs                              | Cores<br/>Threads |  Memory   | Scratch | GPUs           | Name
+--------------- | --------------------------------- | ----------------- | --------- |-------- |--------------- |------------
+116             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48<br/>96         | 768 GiB   | 6? TB   | N/A            | p[1-115]
+2               |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48<br/>96         | 2 / 3 TiB | 6? TB   | N/A            | p[251-252]
+4               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16<br/>2 x 32 | 384 GiB   | 6? TB   | 10 x L40       | p[201-204]
+2               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16<br/>2 x 32 | 384 GiB   | 6? TB   | 2 x H100       | p[205-206]
 
 ## CPUs
 
