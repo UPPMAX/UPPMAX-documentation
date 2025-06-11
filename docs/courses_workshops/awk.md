@@ -63,10 +63,15 @@ Walk-through session on various topics:
 
 - Awk parsing “simultaneously” multiple input files
 - Multiple input files - second approach scenario will be discussed.
-- How to trick awk to accept options on the command line like regular program i.e. `$ script.awk filename parameter1 parameter2` [link](https://pmitev.github.io/to-awk-or-not/More_awk/Command_params/)
-- Declaring and calling functions in awk - [link](https://pmitev.github.io/to-awk-or-not/More_awk/User_defined_functions/)
+- How to trick `awk` to accept options on the command line
+  like regular program,
+  i.e. `$ script.awk filename parameter1 parameter2`
+  [from Pavlin's notes](https://pmitev.github.io/to-awk-or-not/More_awk/Command_params/)
+- [Declaring and calling functions in awk](https://pmitev.github.io/to-awk-or-not/More_awk/User_defined_functions/)
 - Input/output to/from an external programs
-- Learn how to send input to an external program (might be based on your data) and read the result back - [link](https://pmitev.github.io/to-awk-or-not/More_awk/Input_output/)
+- Learn how to send input to an external program (might be based on your data)
+  and read the result back,
+  [from Pavlin's notes](https://pmitev.github.io/to-awk-or-not/More_awk/Input_output/)
 - Handy tips: awk oneliners use with Vim, gnuplot…
 
 Also: [Suggest topic](https://forms.gle/usYYkbWaZVkNceSK6) for discussion or see recently [suggested topics](https://docs.google.com/forms/d/1tQYWc504BQ-uYRA7MWgu1pNXM613r4Ua1wP_yBPlNDM/viewanalytics).
