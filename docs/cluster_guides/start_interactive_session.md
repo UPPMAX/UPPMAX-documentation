@@ -12,7 +12,7 @@ tags:
 Below we describe the general ideas of using an interactive session:
 
 - [the types of nodes](#types-of-nodes)
-- [When to use an interactive session](#when-to-use-an-interactive-node)
+- [When to use an interactive session](#when-to-use-an-interactive-session)
 
 To start an interactive session on specific cluster:
 
