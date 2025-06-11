@@ -123,4 +123,4 @@ A full example script would be:
 echo "Hello"
 ```
 
-Again, what is shown here is a minimal use of [`sbatch`](sbatch.md).
+Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).

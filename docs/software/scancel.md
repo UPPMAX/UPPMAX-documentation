@@ -16,7 +16,7 @@ scancel [job_number]
 ```
 
 Where the `[job_number]` is the number of the job.
-You can see the job number when submitting a job using [`sbatch`](sbatch.md)
+You can see the job number when submitting a job using [`sbatch`](../software/sbatch.md)
 and you can find it in the job queue (when doing [`squeue`](squeue.md)).
 
 For example:

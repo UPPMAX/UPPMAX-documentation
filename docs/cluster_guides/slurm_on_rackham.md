@@ -68,7 +68,7 @@ sbatch -A uppmax2023-2-25 my_script.sh
     echo "Hello"
     ```
 
-Again, what is shown here is a minimal use of [`sbatch`](sbatch.md).
+Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).
 
 ## `sbatch` a script with Slurm parameters in script
 
@@ -119,4 +119,4 @@ A full example script would be:
 echo "Hello"
 ```
 
-Again, what is shown here is a minimal use of [`sbatch`](sbatch.md).
+Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).
