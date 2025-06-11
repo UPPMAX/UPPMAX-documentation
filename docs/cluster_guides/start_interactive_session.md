@@ -28,7 +28,8 @@ The UPPMAX HPC clusters have three types of nodes:
 
     See [the UPPMAX page about nodes](uppmax_cluster.md).
 
-- **[login nodes](../cluster_guides/login_node.md)**: nodes where a user enters and interacts with the system
+- **[login nodes](../cluster_guides/login_node.md)**:
+  nodes where a user enters and interacts with the system
 - **calculation nodes**: nodes that do the calculations
 
 ???- tip "Requesting a calculation to run"
@@ -36,15 +37,15 @@ The UPPMAX HPC clusters have three types of nodes:
     Requesting a calculation is described
     [at the UPPMAX page about our job scheduler](slurm.md).
 
-- **interactive session**: a use on a calculation node,
-  where a user can do calculations directly
-
 ???- tip "How can I find out on which node I am?"
 
     In a [terminal](../software/terminal.md), type `hostname`:
 
-    - the [login node](../cluster_guides/login_node.md) has name `rackham[number]`, where `[number]` is the number of the login node
-    - an interactive session has name `r[number]`, where `[number]` is the compute node number
+    - the [login node](../cluster_guides/login_node.md)
+      has name `rackham[number]`,
+      where `[number]` is the number of the login node
+    - an interactive session has name `r[number]`,
+      where `[number]` is the compute node number
 
 As a login is shared with all users,
 there is a simple rule to use it fairly:
