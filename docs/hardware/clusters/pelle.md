@@ -1,6 +1,6 @@
 # Pelle/Maja hardware
 
-No of nodes     | CPUs                              | Cores  | Threads |  Memory   | Scratch | GPUs           | Name           | Partition 
+No of nodes     | CPUs                              | Cores  | Threads |  Memory   | Scratch | GPUs           | Name           | Partition
 --------------- | --------------------------------- | ------ | ------- | --------- |-------- |--------------- |--------------- |------------
 116             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 768 GiB   | 6? TB   | N/A            | p[1-115]       | default
 2               |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 2 / 3 TiB | 6? TB   | N/A            | p[251-252]     | ``-p fat``
