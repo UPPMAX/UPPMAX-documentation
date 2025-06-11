@@ -11,7 +11,7 @@ tags:
 ![Log in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
 This page describes how to start an interactive session on [Rackham](rackham.md),
-unlike the [general information on starting an interactive session](start_interactive_node.md).
+unlike the [general information on starting an interactive session](start_interactive_session.md).
 
 To use an interactive session, in a [terminal](../software/terminal.md), type:
 

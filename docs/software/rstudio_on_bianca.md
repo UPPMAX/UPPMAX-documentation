@@ -30,7 +30,7 @@ it must be run on an interactive session.
 
 ???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_node_on_bianca.md).
+    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_session_on_bianca.md).
 
 ## Procedure to start RStudio
 
@@ -56,7 +56,7 @@ Below is a step-by-step procedure to start RStudio on Bianca.
 
 Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal,
-[start an interactive session](../cluster_guides/start_interactive_node_on_bianca.md)
+[start an interactive session](../cluster_guides/start_interactive_session_on_bianca.md)
 with 2 cores:
 
 !!!- info "Why two cores?"

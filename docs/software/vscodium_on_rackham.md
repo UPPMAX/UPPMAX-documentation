@@ -51,7 +51,7 @@ Within that terminal, start an interactive session with 1 core.
 
 ???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_node_on_rackham.md).
+    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_session_on_rackham.md).
 
     Spoiler: use:
 

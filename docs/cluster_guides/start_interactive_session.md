@@ -16,9 +16,9 @@ Below we describe the general ideas of using an interactive session:
 
 To start an interactive session on specific cluster:
 
-- [Start an interactive session on Bianca](start_interactive_node_on_bianca.md)
-- [Start an interactive session on Rackham](start_interactive_node_on_rackham.md)
-- [Start an interactive session on Snowy](start_interactive_node_on_snowy.md)
+- [Start an interactive session on Bianca](start_interactive_session_on_bianca.md)
+- [Start an interactive session on Rackham](start_interactive_session_on_rackham.md)
+- [Start an interactive session on Snowy](start_interactive_session_on_snowy.md)
 
 ## Types of nodes
 
@@ -89,12 +89,12 @@ flowchart TD
     operation_type[What type of operation/calculation?]
     interaction_type[What type of interaction?]
     login_node(Work on login node)
-    interactive_node(Work on interactive session)
+    interactive_session(Work on interactive session)
     calculation_node(Schedule for calculation node)
 
     UPPMAX-->operation_type
     operation_type-->|light,short|login_node
     operation_type-->|heavy,long|interaction_type
-    interaction_type-->|Direct|interactive_node
+    interaction_type-->|Direct|interactive_session
     interaction_type-->|Indirect|calculation_node
 ```

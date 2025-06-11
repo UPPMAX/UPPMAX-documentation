@@ -105,4 +105,4 @@ you are in your home folder on a Rackham [login node](../cluster_guides/login_no
     [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_node_on_rackham.md).
+    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).

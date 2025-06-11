@@ -60,7 +60,7 @@ Enjoy! You are in! To be precise, you are on a Rackham [login node](../cluster_g
     [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_node_on_rackham.md).
+    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
 
 In a Rackham console environment:
 

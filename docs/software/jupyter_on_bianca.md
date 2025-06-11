@@ -38,7 +38,7 @@ Jupyter is an [IDE](../software/ides.md) specialized for
 
 Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal,
-[start an interactive session](../cluster_guides/start_interactive_node_on_bianca.md):
+[start an interactive session](../cluster_guides/start_interactive_session_on_bianca.md):
 
 
 ```bash

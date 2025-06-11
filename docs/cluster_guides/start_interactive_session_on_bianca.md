@@ -11,7 +11,7 @@ tags:
 ![Log in to Bianca via a terminal](./img/login_bianca_via_terminal_terminal_462_x_202.png)
 
 This page describes how to start an interactive session on [Bianca](bianca.md).
-See the [general information on starting an interactive session](start_interactive_node.md)
+See the [general information on starting an interactive session](start_interactive_session.md)
 on how to do so in general.
 
 ???- question "Prefer a video?"

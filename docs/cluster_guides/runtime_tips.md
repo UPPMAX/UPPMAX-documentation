@@ -118,7 +118,7 @@
 
 ???- question "How to run interactively on a compute node?"
 
-    - [Start an interactive session](../cluster_guides/start_interactive_node.md)
+    - [Start an interactive session](../cluster_guides/start_interactive_session.md)
     - [More about interactive](interactive_more.md)
 
 ???- question "I got problems running Perl on UPPMAX with messages about 'locale'"

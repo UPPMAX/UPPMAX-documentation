@@ -18,7 +18,7 @@ In the near future, Bianca will be replaced by [Maja](maja.md).
 - [Bianca's design](biancas_design.md)
 - [Log in](../getting_started/login_bianca.md)
 - [Submitting jobs, using Slurm](slurm.md)
-- [Starting an interactive session](start_interactive_node_on_bianca.md)
+- [Starting an interactive session](start_interactive_session_on_bianca.md)
 - [File transfer](transfer_bianca.md)
     - [File transfer using rsync](../software/bianca_file_transfer_using_rsync.md) (recommended)
     - [File transfer using FileZilla](../software/bianca_file_transfer_using_filezilla.md) (easiest)

@@ -41,8 +41,8 @@ For information specific to clusters, see:
 The Slurm system is accessed using the following commands:
 
 - `interactive` - Start an interactive session. This is described
-  in-depth for [Bianca](start_interactive_node_on_bianca.md)
-  and [Rackham](start_interactive_node_on_rackham.md)
+  in-depth for [Bianca](start_interactive_session_on_bianca.md)
+  and [Rackham](start_interactive_session_on_rackham.md)
 - [`sbatch`](../software/sbatch.md) - Submit and run a batch job script
 - `srun` - Typically used inside batch job scripts for running parallel jobs
   (See examples further down)
@@ -53,12 +53,12 @@ The Slurm system is accessed using the following commands:
 ```mermaid
 flowchart TD
   login_node(User on login node)
-  interactive_node(User in interactive session)
+  interactive_session(User in interactive session)
   computation_node(Computation node):::calculation_node
 
-  login_node --> |move user, interactive|interactive_node
+  login_node --> |move user, interactive|interactive_session
   login_node ==> |submit jobs, sbatch|computation_node
-  computation_node -.-> |can become| interactive_node
+  computation_node -.-> |can become| interactive_session
 ```
 
 > The different types of nodes an UPPMAX cluster has.

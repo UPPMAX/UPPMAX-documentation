@@ -27,12 +27,12 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
     [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_node_on_rackham.md).
+    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
 
 After logging in, one can
 
 - [Start a batch job using Snowy resources](../cluster_guides/slurm.md)
-- [Start an interactive job](../cluster_guides/start_interactive_node_on_snowy.md)
+- [Start an interactive job](../cluster_guides/start_interactive_session_on_snowy.md)
 
 ```mermaid
 graph LR

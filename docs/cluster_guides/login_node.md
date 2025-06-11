@@ -62,7 +62,7 @@ Examples of heavy things are:
 - Running code with big calculations,
   use [the job scheduler](../cluster_guides/slurm.md) instead
 - Develop code with big calculations line-by-line,
-  use [an interactive session](../cluster_guides/start_interactive_node.md) instead
+  use [an interactive session](../cluster_guides/start_interactive_session.md) instead
 
 ```mermaid
 flowchart TD
@@ -70,13 +70,13 @@ flowchart TD
     operation_type[What type of operation/calculation?]
     interaction_type[What type of interaction?]
     login_node(Work on login node)
-    interactive_node(Uses on calculation node, in an interactive session)
+    interactive_session(Uses on calculation node, in an interactive session)
     calculation_node(Schedule for calculation node)
 
     UPPMAX-->operation_type
     operation_type-->|light,short|login_node
     operation_type-->|heavy,long|interaction_type
-    interaction_type-->|Direct|interactive_node
+    interaction_type-->|Direct|interactive_session
     interaction_type-->|Indirect|calculation_node
 ```
 
@@ -95,5 +95,5 @@ flowchart TD
 
     So, if you can, use the login node. If you need more resources,
     either use [the job scheduler](../cluster_guides/slurm.md) or
-    use [an interactive session](../cluster_guides/start_interactive_node.md)
+    use [an interactive session](../cluster_guides/start_interactive_session.md)
     with more nodes than the login node has.

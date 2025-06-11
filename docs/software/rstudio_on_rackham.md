@@ -30,7 +30,7 @@ it must be run on an interactive session.
 
 ???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_node_on_rackham.md).
+    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_session_on_rackham.md).
 
 ## Procedure to start RStudio
 
@@ -58,7 +58,7 @@ This can be either:
 ### 3. Start an interactive session
 
 Within the Rackham remote desktop environment, start a [terminal](../software/terminal.md).
-Within that terminal, [start an interactive session](../cluster_guides/start_interactive_node_on_rackham.md)
+Within that terminal, [start an interactive session](../cluster_guides/start_interactive_session_on_rackham.md)
 with 2 cores:
 
 ```bash
@@ -84,7 +84,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 
 ???- tip "What is an interactive session?"
 
-    See [start an interactive session](../cluster_guides/start_interactive_node_on_rackham.md)
+    See [start an interactive session](../cluster_guides/start_interactive_session_on_rackham.md)
 
 !!!- warning "Do not start RStudio from the menus"
 

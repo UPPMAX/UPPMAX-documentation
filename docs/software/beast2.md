@@ -78,7 +78,7 @@ or use a script.
 ???- question "How to start an interactive session?"
 
     View the UPPMAX documentation
-    ['How to start an interactive session on Rackham'](../cluster_guides/start_interactive_node_on_rackham.md).
+    ['How to start an interactive session on Rackham'](../cluster_guides/start_interactive_session_on_rackham.md).
 
 On an interactive session, run BEAST2 on the saved BEAST2 model:
 

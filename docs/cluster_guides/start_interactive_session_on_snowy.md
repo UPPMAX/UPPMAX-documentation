@@ -11,7 +11,7 @@ tags:
 ![Log in to Rackham4 via a terminal](./img/login_rackham4_via_terminal_terminal_395_x_204.png)
 
 This page describes how to start an interactive session on [Snowy](snowy.md),
-unlike the [general information on starting an interactive session](start_interactive_node.md).
+unlike the [general information on starting an interactive session](start_interactive_session.md).
 
 To start an interactive session, in a [terminal](../software/terminal.md), type:
 

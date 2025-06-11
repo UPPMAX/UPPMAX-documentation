@@ -25,7 +25,7 @@ how to fix Slurm errors.
 
 ???- question "Want to start an interactive session?"
 
-    See [how to start an interactive session on Bianca](start_interactive_node_on_bianca.md)
+    See [how to start an interactive session on Bianca](start_interactive_session_on_bianca.md)
 
 Here it is shown how to submit a job with:
 

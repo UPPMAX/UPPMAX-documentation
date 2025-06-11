@@ -175,7 +175,7 @@ Enjoy! You are in: you are now on a Bianca [login node](../cluster_guides/login_
     [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_node_on_rackham.md).
+    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
 
 
 ???- question "What is the difference between 'disconnect session' and 'end session'?"

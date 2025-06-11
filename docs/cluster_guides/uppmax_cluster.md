@@ -101,8 +101,8 @@ There are three types of nodes:
 
     Requesting an interactive session is described per cluster:
 
-    - [Bianca](start_interactive_node_on_bianca.md)
-    - [Rackham](start_interactive_node_on_rackham.md)
+    - [Bianca](start_interactive_session_on_bianca.md)
+    - [Rackham](start_interactive_session_on_rackham.md)
 
     This is done by requesting an interactive session
     from the Slurm scheduler.
@@ -115,12 +115,12 @@ A user logs in to a [login node](../cluster_guides/login_node.md) via the Intern
 flowchart TD
 
   login_node(User on login node)
-  interactive_node(User on interactive session)
+  interactive_session(User on interactive session)
   computation_node(Computation node)
 
-  login_node --> |move user, interative|interactive_node
+  login_node --> |move user, interative|interactive_session
   login_node --> |submit jobs, sbatch|computation_node
-  computation_node -.-> |can become| interactive_node
+  computation_node -.-> |can become| interactive_session
 ```
 
 > The different types of nodes an UPPMAX cluster has.
@@ -177,8 +177,8 @@ are restricted in some ways:
 
     Requesting an interactive session is described per cluster:
 
-    - [Bianca](start_interactive_node_on_bianca.md)
-    - [Rackham](start_interactive_node_on_rackham.md)
+    - [Bianca](start_interactive_session_on_bianca.md)
+    - [Rackham](start_interactive_session_on_rackham.md)
 
     This is done by requesting an interactive session
     from the Slurm scheduler.

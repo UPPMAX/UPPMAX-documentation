@@ -120,7 +120,7 @@ are restricted in some ways:
 ???- tip "Requesting an interactive session"
 
     See
-    [the UPPMAX page about requesting an interactive session](../cluster_guides/start_interactive_node.md).
+    [the UPPMAX page about requesting an interactive session](../cluster_guides/start_interactive_session.md).
 
 - Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
@@ -187,7 +187,7 @@ There are three types of nodes:
 
 ???- tip "Requesting an interactive session"
 
-    See [the UPPMAX page on how to start an interactive session on Bianca](../cluster_guides/start_interactive_node_on_bianca.md).
+    See [the UPPMAX page on how to start an interactive session on Bianca](../cluster_guides/start_interactive_session_on_bianca.md).
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
