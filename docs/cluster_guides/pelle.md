@@ -47,6 +47,7 @@ we will transfer your data from [Rackham](rackham.md)
 to Pelle. Users will have to [apply to a Pelle project](../getting_started/project_apply_pelle.md).
 
 ## Pelle hardware
+
 [Pelle/Maja hardware](../hardware/clusters/pelle.md)
 
 ## Information for test pilots
