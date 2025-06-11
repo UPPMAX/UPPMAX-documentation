@@ -121,7 +121,7 @@ Two tasks, using one thread each: `--ntasks=2 --cpus-per-task=2`
 
 A way to get high priority for short devel jobs will be added later.
 
-### Job memory specification ###
+### Job memory specification
 
 Currently you do not have to request additional CPUs to get additional
 memory. You can use all Slurm options `--mem`, `--mem-per-cpu`,
@@ -129,7 +129,7 @@ memory. You can use all Slurm options `--mem`, `--mem-per-cpu`,
 
 This might be changed later, the configuration is not final.
 
-#### 2/3 TiB memory ####
+#### 2/3 TiB memory
 
 Pelle have two fat nodes. One with 2 TiB of memory and one with 3 TiB.
 
