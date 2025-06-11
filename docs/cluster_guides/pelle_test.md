@@ -156,9 +156,9 @@ possible job always gets one Core with two Threads (CPUs).
 
 Jobs requesting multiple tasks or cpus gets threads by default.
 
-Some examples:
-`--ntasks=2` - one core, two threads
-`--ntasks=1 --cpus-per-task=4` - two cores, four threads
+Some examples:  
+`--ntasks=2` - one core, two threads  
+`--ntasks=1 --cpus-per-task=4` - two cores, four threads  
 `--ntasks=2 --cpus-per-task=3` - three cores, six threads.
 
 #### One thread per core to avoid SMT
@@ -166,9 +166,9 @@ Some examples:
 If you suspect SMT degrades the performance of your jobs, you can you
 can specify `--threads-per-core=1` in your job.
 
-Same examples as before but with `--threads-per-core=1`:
-`--ntasks=2 --threads-per-core=1` - two cores, (4 threads, 2 used)
-`--ntasks=1 --cpus-per-task=4 --threads-per-core=1` - 4 cores (8 threads, 4 unused)
+Same examples as before but with `--threads-per-core=1`:  
+`--ntasks=2 --threads-per-core=1` - two cores, (4 threads, 2 used)  
+`--ntasks=1 --cpus-per-task=4 --threads-per-core=1` - 4 cores (8 threads, 4 unused)  
 `--ntasks=2 --cpus-per-task=3 --threads-per-core=1` - 6 cores (12 threads, 6 unused)
 
 When doing this you should launch your tasks using `srun` to ensure
@@ -197,7 +197,7 @@ Use the test pilot project for your test pilot jobs.
 ### Core jobs can get allocated resources across several compute nodes
 
 A job requesting multiple tasks can get resources allocated
-on multiple nodes. For example 3 tasks `sbatch -n3` might get
+on multiple nodes. For example 3 tasks `sbatch --ntasks=3` might get
 allocated three CPUs on three different compute nodes.
 
 We will update the configuration to avoid this. For not the problem
