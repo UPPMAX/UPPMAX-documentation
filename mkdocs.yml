@@ -28,7 +28,7 @@ nav:
       - Pelle: cluster_guides/pelle.md
       - Dardel (at PDC): cluster_guides/dardel.md
     - General cluster tools: 
-      - Start an interactive session: cluster_guides/start_interactive_node.md
+      - Start an interactive session: cluster_guides/start_interactive_session.md
       - Modules: cluster_guides/modules.md
       - Slurm: cluster_guides/slurm.md
       - Managing your project: cluster_guides/project_management.md
