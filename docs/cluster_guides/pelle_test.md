@@ -201,4 +201,4 @@ on multiple nodes. For example 3 tasks `sbatch --ntasks=3` might get
 allocated three CPUs on three different compute nodes.
 
 We will update the configuration to avoid this. For not the problem
-can be avoided by specifying `--nodes=1-1` when submitting jobs.
+can be avoided by specifying `--nodes=1` when submitting jobs.
