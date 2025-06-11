@@ -58,16 +58,17 @@ networks, as described at [get within the university networks](../getting_starte
 Another such constraint, is that data can be
 transferred to or from a virtual project cluster through the so-called 'wharf',
 which is a special file area that is visible from the Internet.
-File transfer is described in more detail [here](../cluster_guides/transfer_bianca.md).
+See [the UPPMAX page about file transfer on Bianca](../cluster_guides/transfer_bianca.md).
 
 Bianca runs the Linux operating system and all users need some
 basic Linux knowledge to use Bianca.
 
 ???- tip "Using Linux"
 
-    Using Linux (and especially the so-called command-line/[terminal](../software/terminal.md)) is essential
-    to use Bianca. Learning the essential Linux commands
-    is described [here](../getting_started/linux.md).
+    Using Linux (and especially the so-called
+    command-line/[terminal](../software/terminal.md)) is essential
+    to use Bianca.
+    See [the UPPMAX page about Linux](../getting_started/linux.md).
 
 ## Overview of all steps possible/needed to access Bianca
 

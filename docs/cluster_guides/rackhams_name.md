@@ -8,4 +8,4 @@ in this case after Red Rackham.
 
 ???- question "What are the UPPMAX clusters?"
 
-    All UPPMAX clusters can be found [here](uppmax_cluster.md).
+    See [the UPPMAX page listing all its HPC clusters](uppmax_cluster.md).

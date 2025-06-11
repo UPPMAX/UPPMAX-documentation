@@ -4,11 +4,11 @@ UPPMAX is an organization that provides HPC clusters.
 
 ???- question "Where can I find an overview of UPPMAX?"
 
-    One can find an overview of UPPMAX [here](uppmax.md)
+    See [the UPPMAX page about itself](uppmax.md)
 
 ???- question "Where can I find an overview of UPPMAX's systems?"
 
-    One can find an overview of UPPMAX's systems [here](uppmax_systems.md)
+    See [the UPPMAX page about its systems](uppmax_systems.md)
 
 After giving [an overview of the different UPPMAX clusters](#overview-of-uppmax-clusters),
 it is discussed [what a computer cluster is](#what-is-a-computer-cluster-technically),
@@ -92,8 +92,8 @@ There are three types of nodes:
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation to run is described [here](slurm.md).
-    This is done by using the Slurm scheduler.
+    Requesting a calculation to run is described
+    [on the UPPMAX page about the job scheduler](slurm.md).
 
 - **interactive sessions**: a user on a calculation node
 
@@ -170,8 +170,8 @@ are restricted in some ways:
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation to run is described [here](slurm.md).
-    This is done by using the Slurm scheduler.
+    Requesting a calculation to run is described
+    [at the UPPMAX page about the job scheduler](slurm.md).
 
 ???- tip "Requesting an interactive node"
 
@@ -189,8 +189,8 @@ are restricted in some ways:
 
 ???- tip "Using pre-installed software"
 
-    Using pre-installed software is described [here](modules.md).
-    This is done by using the module system.
+    Using pre-installed software is described
+    [at the UPPMAX page about the software module system](modules.md).
 
 ???- tip "How to run custom software"
 

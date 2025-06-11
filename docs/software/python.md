@@ -538,13 +538,11 @@ See [the UPPMAX page on how to install Python packages](python_install_packages.
 
 ## Virtual environments in Python
 
-How to use virtual environments in Python
-is described [here](python_virtual_environments.md).
+See [the UPPMAX page on how to use virtual environments in Python](python_virtual_environments.md).
 
 ## How to run parallel jobs in Python
 
-How to run parallel jobs in Python
-is described [here](python_parallel_jobs.md).
+See [the UPPMAX page on how to run parallel jobs in Python](python_parallel_jobs.md).
 
 ## References
 

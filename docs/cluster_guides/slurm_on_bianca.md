@@ -67,8 +67,7 @@ sbatch -A sens2017625 my_script.sh
     echo "Hello"
     ```
 
-Again, what is shown here is a minimal use of `sbatch`.
-See the general page on Slurm [here](slurm.md).
+Again, what is shown here is a minimal use of [`sbatch`](sbatch.md).
 
 ## `sbatch` a script with Slurm parameters in script
 

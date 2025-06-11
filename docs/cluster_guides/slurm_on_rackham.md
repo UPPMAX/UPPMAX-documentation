@@ -4,11 +4,11 @@ This page describes how to use Slurm on Rackham.
 
 ???- question "What is Slurm?"
 
-    See the general page on Slurm [here](slurm.md)
+    See [the general page about Slurm](slurm.md)
 
 ???- question "What is Rackham?"
 
-    See the general page on Rackham [here](rackham.md)
+    See [the general page about Rackham](rackham.md)
 
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
@@ -21,7 +21,7 @@ the Rackham computer nodes.
 
 ???- question "Want to start an interactive session?"
 
-    See how to start an interactive session on Rackham [here](start_interactive_node_on_rackham.md)
+    See [how to start an interactive session on Rackham](start_interactive_node_on_rackham.md)
 
 Here it is shown how to submit a job with:
 
@@ -68,8 +68,7 @@ sbatch -A uppmax2023-2-25 my_script.sh
     echo "Hello"
     ```
 
-Again, what is shown here is a minimal use of `sbatch`.
-See the general page on Slurm [here](slurm.md).
+Again, what is shown here is a minimal use of [`sbatch`](sbatch.md).
 
 ## `sbatch` a script with Slurm parameters in script
 
@@ -120,5 +119,4 @@ A full example script would be:
 echo "Hello"
 ```
 
-Again, what is shown here is a minimal use of `sbatch`.
-See the general page on Slurm [here](slurm.md).
+Again, what is shown here is a minimal use of [`sbatch`](sbatch.md).

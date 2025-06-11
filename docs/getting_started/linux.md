@@ -16,8 +16,8 @@
 
 ???- question "Want a video?"
 
-    [Here](https://youtu.be/oxCF4qr6EZo?si=ho7ry6hkFtkLwaxO) is video
-    that gives an introduction to Linux
+    See [this YouTube video](https://youtu.be/oxCF4qr6EZo?si=ho7ry6hkFtkLwaxO)
+    for an introduction to Linux
 
 ## What is Linux?
 

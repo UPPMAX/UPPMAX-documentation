@@ -8,4 +8,4 @@ in this case after Bianca Castafiore.
 
 ???- question "What are the UPPMAX clusters?"
 
-    All UPPMAX clusters can be found [here](uppmax_cluster.md).
+    See [the UPPMAX page about HPC clusters](uppmax_cluster.md).

@@ -125,7 +125,7 @@ with GPUs and suitable for longer jobs.
 
 ???- question "What is an HPC cluster?"
 
-    What an HPC cluster is, is described [here](uppmax_cluster.md).
+    See [the UPPMAX page about HPC clusters](uppmax_cluster.md).
 
 Or: Snowy is a group of computers that can effectively run many calculations,
 as requested by multiple people, at the same time.
@@ -140,8 +140,8 @@ Instead, it uses a login node on [Rackham](rackham.md).
 ???- tip "Using Linux"
 
     Using Linux (and especially the so-called command-line/[terminal](../software/terminal.md)) is essential
-    to use Snowy. Learning the essential Linux commands
-    is described [here](../getting_started/linux.md).
+    to use Snowy. 
+    See [the UPPMAX page about Linux](../getting_started/linux.md).
 
 ## Snowy's system configuration
 

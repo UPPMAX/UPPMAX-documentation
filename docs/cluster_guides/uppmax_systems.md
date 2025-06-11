@@ -119,8 +119,8 @@ are restricted in some ways:
 
 ???- tip "Requesting an interactive session"
 
-    Requesting an interactive session is described
-    [here](../cluster_guides/start_interactive_node.md).
+    See
+    [the UPPMAX page about requesting an interactive session](../cluster_guides/start_interactive_node.md).
 
 - Users cannot install software directly.
   Instead, users need to use pre-installed software or learn
@@ -128,8 +128,8 @@ are restricted in some ways:
 
 ???- tip "Using pre-installed software"
 
-    Using pre-installed software is described [here](modules.md).
-    This is done by using the module system.
+    Using pre-installed software is described
+    [on the UPPMAX page about the software module system](modules.md).
 
 ???- tip "How to run custom software"
 
@@ -152,7 +152,7 @@ due to which there are these additional restrictions to users:
 
 ???- tip "File transfer"
 
-    Transferring file is described [here](file_transfer.md).
+    See [the UPPMAX pages about file transfer](file_transfer.md).
 
 The goal is to prevent the *accidental* up/download of sensitive data.
 As these up/downloads are monitored, in case of an accident,
@@ -173,25 +173,21 @@ There are three types of nodes:
 
 ???- tip "Logging in"
 
-    Logging in is described [here](../getting_started/login_bianca.md).
+    See [the UPPMAX page about logging in to Bianca](../getting_started/login_bianca.md).
 
 - **calculation nodes**: nodes that do the calculations
 
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is part of this course
-    and is described [here](slurm.md).
-    This is done by using the Slurm scheduler.
+    and is described [at the UPPMAX page about the job scheduler](slurm.md).
 
 - **interactive sessions**: a user on a calculation node,
   where he/she can do calculations directly
 
-???- tip "Requesting an interactive node"
+???- tip "Requesting an interactive session"
 
-    Requesting an interactive node is part of this course
-    and is described [here](../getting_started/login_bianca.md).
-    This is done by requesting an interactive node
-    from the Slurm scheduler.
+    See [the UPPMAX page on how to start an interactive session on Bianca](../cluster_guides/start_interactive_node_on_bianca.md).
 
 Each node contains several CPU/GPU cores, RAM and local storage space.
 
