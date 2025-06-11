@@ -13,7 +13,7 @@ is one of the ways to transfer files to/from Rackham
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Rackham are described [here](transfer_rackham.md)
+    See [the other ways to transfer data to/from Rackham](transfer_rackham.md)
 
 There are many graphical tools that can do this:
 

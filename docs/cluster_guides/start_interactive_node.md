@@ -33,8 +33,8 @@ The UPPMAX HPC clusters have three types of nodes:
 
 ???- tip "Requesting a calculation to run"
 
-    Requesting a calculation is described [here](slurm.md).
-    This is done by using the Slurm scheduler.
+    Requesting a calculation is described
+    [at the UPPMAX page about our job scheduler](slurm.md).
 
 - **interactive session**: a use on a calculation node,
   where a user can do calculations directly

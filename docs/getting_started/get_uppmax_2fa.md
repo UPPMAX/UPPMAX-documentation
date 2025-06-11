@@ -71,19 +71,16 @@ by pressing the button "Prove My Identity to UPPMAX" on the page.
 
 ### 6. Scan the QR-code with your 2FA app
 
-Scan the QR-code with your 2FA app.
+[Scan the QR-code with your 2FA app](get_uppmax_2fa_qr.md).
 
 ???- question "How does that look like?"
 
     ![Getting an UPPMAX 2FA QR code](./img/get_uppmax_2fa_qr.png)
 
-More details [here](get_uppmax_2fa_qr.md).
-
 ### 7. Enter the code on the webpage
 
-Your application will show you a code, enter this code on the same webpage.
-
-More details [here](get_uppmax_2fa_qr_code.md).
+Your application will show you a code, enter this code on the same webpage
+(as shown in [scan the QR-code with your 2FA app](get_uppmax_2fa_qr.md)).
 
 ### 8. See acknowledgement that the new two factor has been registered
 

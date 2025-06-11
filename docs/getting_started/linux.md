@@ -132,7 +132,7 @@ ask Bash to complete what you’re writing.
 
 To edit files, you will use a text editor.
 The UPPMAX HPC clusters have multiple text editors installed,
-which are described at the UPPMAX 'Text editors' page [here](../software/text_editors.md).
+which are described at [the UPPMAX 'Text editors' page](../software/text_editors.md).
 
 !!! example
 

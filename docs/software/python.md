@@ -524,8 +524,8 @@ Exit with `<Ctrl-D>`, `quit()` or `exit()`.
 ## Programming in Python
 
 To program in Python, there are more ways,
-which are discussed at the UPPMAX page on
-Python programming [here](python_programming.md)
+which are discussed at
+[the UPPMAX page on Python programming](python_programming.md)
 
 ## UPPMAX Python-related courses
 
@@ -534,8 +534,7 @@ to find UPPMAX courses related to Python.
 
 ## Installing Python packages
 
-How to install Python packages
-is described [here](python_install_packages.md).
+See [the UPPMAX page on how to install Python packages](python_install_packages.md).
 
 ## Virtual environments in Python
 

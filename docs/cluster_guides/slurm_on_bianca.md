@@ -10,11 +10,11 @@ This page describes how to use Slurm on Bianca.
 
 ???- question "What is Slurm?"
 
-    See the general page on Slurm [here](slurm.md)
+    See [the general page on Slurm](slurm.md)
 
 ???- question "What is Bianca?"
 
-    See the general page on Bianca [here](bianca.md)
+    See [the general page on Bianca](bianca.md)
 
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
@@ -25,7 +25,7 @@ how to fix Slurm errors.
 
 ???- question "Want to start an interactive session?"
 
-    See how to start an interactive session on Bianca [here](start_interactive_node_on_bianca.md)
+    See [how to start an interactive session on Bianca](start_interactive_node_on_bianca.md)
 
 Here it is shown how to submit a job with:
 

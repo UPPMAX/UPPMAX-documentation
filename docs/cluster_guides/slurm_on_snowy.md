@@ -21,7 +21,7 @@ the Snowy computer nodes.
 
 ???- question "Want to start an interactive session?"
 
-    See how to start an interactive session on Snowy [here](start_interactive_node_on_snowy.md)
+    See [how to start an interactive session on Snowy](start_interactive_node_on_snowy.md)
 
 Here it is shown how to submit a job with:
 
@@ -69,7 +69,7 @@ sbatch -A uppmax2023-2-25 -M snowy my_script.sh
     ```
 
 Again, what is shown here is a minimal use of `sbatch`.
-See the general page on Slurm [here](slurm.md).
+See [the general page on Slurm](slurm.md).
 
 ## `sbatch` a script with Slurm parameters in script
 

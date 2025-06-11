@@ -25,7 +25,7 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
 !!! warning "What is the status of Pelle?"
 
-    See [here](https://status.uppmax.uu.se/2025-04-09/pelle/)
+    See [the Pelle status page](https://status.uppmax.uu.se/2025-04-09/pelle/)
 
 ## [How to apply to a Pelle project](../getting_started/project_apply_pelle.md)
 

@@ -19,9 +19,10 @@ Instead, it uses a login node on [Rackham](rackham.md).
 
 ???- tip "Using Linux"
 
-    Using Linux (and especially the so-called command-line/[terminal](../software/terminal.md)) is essential
-    to use Snowy. Learning the essential Linux commands
-    is described [here](../getting_started/linux.md).
+    Using Linux (and especially the so-called
+    command-line/[terminal](../software/terminal.md)) is essential
+    to use Snowy.
+    See [the UPPMAX page with the most important Linux commands](../getting_started/linux.md).
 
 ## Snowy's system configuration
 

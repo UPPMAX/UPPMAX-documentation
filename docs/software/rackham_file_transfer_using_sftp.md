@@ -41,9 +41,7 @@ You can get rid of this prompt if you have setup SSH keys
 
 ### Step 4. Upload/download files to/from Rackham
 
-In `sftp`, upload/download files to/from Rackham.
-
-Basic `sftp` command can be found [here](../software/sftp.md).
+In [`sftp`](../software/sftp.md), upload/download files to/from Rackham.
 
 ```mermaid
 flowchart TD

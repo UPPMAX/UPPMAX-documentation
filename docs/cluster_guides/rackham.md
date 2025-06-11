@@ -18,7 +18,7 @@ that is a general-purpose cluster.
     projects have to migrate their data and calculations to other resources.
     The plan from NAISS is that all Rackham users will move to the Dardel cluster at PDC.
 
-    See the page on file transfer to Dardel [here](transfer_dardel.md).
+    See [the page on file transfer to Dardel](transfer_dardel.md).
 
 In the near future, Rackham will be replaced by [Pelle](pelle.md)
 and will be only accessible to Uppsala researchers.

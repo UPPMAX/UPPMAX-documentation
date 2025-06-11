@@ -9,14 +9,14 @@ is one of the ways ways to transfer files to/from Rackham
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Rackham are described [here](transfer_rackham.md)
+    See [the other ways to transfer data to/from Rackham](transfer_rackham.md)
 
 This page assumes your files are 'posted' to Transit.
 [Transit is a service, not a file server](transit.md).
 
 ???- question "How to transfer files to/from Transit?"
 
-    See [here](transfer_transit.md)
+    See [how to transfer files to/from Transit](transfer_transit.md)
 
 To transfer files between Rackham and Transit can be done in multiple ways too:
 

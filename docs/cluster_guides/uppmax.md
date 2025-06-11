@@ -19,8 +19,7 @@ There are three types of UPPMAX systems:
 ### UPPMAX computing systems
 
 Computing systems allow a user to do heavier computational calculations.
-At UPPMAX, we use multiple HPC clusters,
-that are discussed [here](uppmax_cluster.md)
+At UPPMAX, we use [multiple HPC clusters](uppmax_cluster.md)
 
 ### UPPMAX storage systems
 

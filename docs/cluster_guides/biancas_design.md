@@ -4,7 +4,7 @@
 
 ???- question "What is an HPC cluster for sensitive data?"
 
-    What an HPC cluster for sensitive data is, is described [here](uppmax_cluster.md).
+    See [the UPPMAX page about HPC clusters](uppmax_cluster.md).
 
 Or: Bianca is a group of computers that can effectively run many calculations,
 as requested by multiple people, at the same time.
@@ -40,8 +40,8 @@ which is a special file area that is visible from the Internet.
 
     - You *can* log in, but with extra steps
     - You *can* transfer files, but with extra steps
-    - We recommend using the remote desktop login,
-      see [here](../getting_started/login_bianca.md)
+    - We recommend using the remote desktop login, see
+      [the UPPMAX page on how to login to Bianca](../getting_started/login_bianca.md)
 
 As Bianca is an HPC cluster that should be as easy to
 use as possible, there are two ways to interact with Bianca:

@@ -71,7 +71,8 @@ flowchart TD
     usage_type-->|off-load|Lutra
 ```
 
-See [here](https://www.uu.se/en/centre/uppmax/resources/storage)
+See
+[the UU page on UPPMAX storage](https://www.uu.se/en/centre/uppmax/resources/storage)
 for more information.
 
 ## UPPMAX Cloud services
@@ -114,8 +115,7 @@ are restricted in some ways:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is described
-    [here](../cluster_guides/slurm.md).
-    This is done by using the Slurm scheduler.
+    [on the UPPMAX page about the job scheduler](../cluster_guides/slurm.md).
 
 ???- tip "Requesting an interactive session"
 

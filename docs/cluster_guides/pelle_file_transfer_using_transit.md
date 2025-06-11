@@ -18,14 +18,14 @@ is one of the ways ways to transfer files to/from Pelle
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Pelle are described [here](transfer_pelle.md)
+    See [the other ways to transfer data to/from Pelle](transfer_pelle.md)
 
 This page assumes your files are 'posted' to Transit.
 [Transit is a service, not a file server](transit.md).
 
 ???- question "How to transfer files to/from Transit?"
 
-    See [here](transfer_transit.md)
+    See [how to transfer files to/from Transit](transfer_transit.md)
 
 To transfer files between Pelle and Transit can be done in multiple ways too:
 

@@ -64,7 +64,9 @@ ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
   as is recommended by
   [this StackExchange post](https://security.stackexchange.com/a/144044)
 - `-t ed25519`: type of encryption scheme
-- `-f ~/.ssh/id_ed25519_uppmax_login`: specify filename, following the naming scheme as suggested [here](https://superuser.com/a/1261644)
+- `-f ~/.ssh/id_ed25519_uppmax_login`: specify filename,
+  following the naming scheme as suggested
+  [in this Superuser post](https://superuser.com/a/1261644)
 - `-C "My comment"`: a comment that will be stored in the key, so you can find out what it was for
 
 ### 2. Add your keys to an SSH agent
