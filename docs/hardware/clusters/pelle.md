@@ -1,11 +1,11 @@
 # Pelle/Maja hardware
 
-No of nodes     | CPUs                              | Cores  | Threads |  Memory   | Scratch | GPUs           | Name           | Comment
---------------- | --------------------------------- | ------ | ------- | --------- |-------- |--------------- |--------------- |---------------
-116             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 768 GiB   | 6? TB   | N/A            | p[1-115]       |.
-2               |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 2 / 3 TiB | 6? TB   | N/A            | p[251-252]     |.
-4               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 2 x H100       | p[205-206]     |.
-2               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 10 x L40       | p[201-204]     |.
+No of nodes     | CPUs                              | Cores  | Threads |  Memory   | Scratch | GPUs           | Name           | Partition 
+--------------- | --------------------------------- | ------ | ------- | --------- |-------- |--------------- |--------------- |------------
+116             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 768 GiB   | 6? TB   | N/A            | p[1-115]       | default
+2               |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48     | 96      | 2 / 3 TiB | 6? TB   | N/A            | p[251-252]     | ``-p fat``
+4               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 10 x L40       | p[201-204]     | ``-p gpu --gres gpu:l40s:1``
+2               |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16 | 2 x 32  | 384 GiB   | 6? TB   | 2 x H100       | p[205-206]     | ``-p gpu --gres gpu:h100s:1``
 
 ## CPUs
 
