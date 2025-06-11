@@ -23,9 +23,8 @@ Here it is shown how to transfer files using a graphical tool called [FileZilla]
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file transfer from/to Transit
-    using FileZilla, watch the video
-    [here](https://youtu.be/ShZPFkZ3reg)
+    See the YouTube video
+    [file transfer from/to Transit using FileZilla](https://youtu.be/ShZPFkZ3reg)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 

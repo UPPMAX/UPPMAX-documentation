@@ -8,7 +8,7 @@ Here we show how to use some [IDEs](../software/ides.md) on Bianca.
 
 ???- question "Forgot what an IDE is?"
 
-    See at the general page on IDEs [here](../software/ides.md).
+    See [the general page about IDEs](../software/ides.md).
 
 ???- question "Do you really want to use an IDE on Bianca?"
 

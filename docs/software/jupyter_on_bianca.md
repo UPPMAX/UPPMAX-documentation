@@ -20,8 +20,7 @@ Jupyter is an [IDE](../software/ides.md) specialized for
 
 ??? question "Prefer a video?"
 
-    This procedure is also demonstrated in [this YouTube video](https://youtu.be/G6e2NYCxT-I).
-    go [here](https://youtu.be/72rYjwGvWEc?si=Rn2F2ieO-kPufO9f)
+    See the YouTube video [Jupyter on Bianca](https://youtu.be/72rYjwGvWEc)
 
 ### 1. Get within SUNET
 

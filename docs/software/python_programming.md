@@ -70,7 +70,7 @@ Some features of this approach are:
     pdb3 example_script.py
     ```
 
-    See the official Python documentation of `pdb` [here](https://docs.python.org/3/library/pdb.html).
+    See [the official Python documentation of `pdb`](https://docs.python.org/3/library/pdb.html).
 
 ## Use the Python interpreter
 

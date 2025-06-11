@@ -61,7 +61,7 @@ module load python/3.11.4
 
 ???- question "Forgot what the module system is?"
 
-    See the UPPMAX pages on the module system [here](../cluster_guides/modules.md).
+    See [the UPPMAX pages on the module system](../cluster_guides/modules.md).
 
 ???- question "Can I use other Python modules?"
 

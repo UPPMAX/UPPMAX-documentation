@@ -91,9 +91,8 @@ to run a Python script.
 
 ???- question "Prefer seeing a video?"
 
-    A video that shows how to load the Python
-    [module](../cluster_guides/modules.md)
-    can be found [here](https://youtu.be/wBebYj3XlNM).
+    See the YouTube video
+    [how to load the Python modules](https://youtu.be/wBebYj3XlNM).
 
 The different versions of Python are available via
 the module system on all UPPMAX clusters.

@@ -18,11 +18,8 @@ Here, we show how to transfer files using a graphical tool called [FileZilla](fi
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file transfer from/to Rackham
-    using FileZilla, watch the video
-    [here](https://youtu.be/7wHRCMdnNZE)
-    or [here](https://youtu.be/-j4S3iC4jiY)
-
+    See the YouTube video
+    [file transfer from/to Rackham using FileZilla](https://youtu.be/-j4S3iC4jiY)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 

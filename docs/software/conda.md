@@ -2,8 +2,8 @@
 
 ???- question "Want to see the video 'How to use Conda on Rackham'?"
 
-    If you want to see a video how to use Conda on Rackham,
-    go [here](https://youtu.be/SMhawXQhtls?si=_2t6T2Vn2B10M6LW)
+    See the YouTube video
+    [how to use Conda on Rackham](https://youtu.be/SMhawXQhtls)
 
 ## Install packages or not? Check it
 

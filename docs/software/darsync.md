@@ -103,9 +103,8 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc
 
     ???- tip "NBIS staff test project code"
 
-        Follow the project application procedure as
-        described [here](../getting_started/project_apply.md).
-        Request permission to join project `NAISS 2023/22-1027`
+        Follow [the UPPMAX project application procedure](../getting_started/project_apply.md),
+        then request permission to join project `NAISS 2023/22-1027`
 
 ## Check mode
 

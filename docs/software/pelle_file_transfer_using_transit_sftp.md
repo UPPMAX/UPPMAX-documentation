@@ -14,15 +14,13 @@ There are multiple ways to [transfer data to/from Pelle](../cluster_guides/trans
 Data transfer to/from Pelle using [Transit](../cluster_guides/transit.md)
 is one of the ways ways to transfer files to/from Pelle
 
-One can use SFTP to copy files between Pelle and Transit,
+One can use [SFTP](../software/sftp.md) to copy files between Pelle and Transit,
 from either Pelle or Transit.
 
 Both ways are shown step-by-step below.
 
 - [Using SFTP from Pelle](pelle_file_transfer_using_transit_sftp_from_pelle.md)
 - [Using SFTP from transit](pelle_file_transfer_using_transit_sftp_from_transit.md)
-
-Basic `sftp` command can be found [here](../software/sftp.md).
 
 ## Overview
 

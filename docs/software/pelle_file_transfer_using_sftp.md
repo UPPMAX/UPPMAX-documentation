@@ -16,7 +16,7 @@ is one of the ways ways to transfer files to/from Pelle
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Pelle are described [here](../cluster_guides/transfer_pelle.md)
+    See [the other ways to transfer data to/from Pelle](../cluster_guides/transfer_pelle.md)
 
 One can transfer files to/from Pelle using SFTP.
 SFTP is an abbreviation of 'SSH File Transfer Protocol',

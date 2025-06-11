@@ -20,7 +20,7 @@ to [transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
 
 ???- question "Would you enjoy a video?"
 
-    A video showing how to `sftp` with Bianca can be found [here](https://youtu.be/URWIubTVSZQ).
+    See [a video showing how to `sftp` with Bianca](https://youtu.be/URWIubTVSZQ).
 
 ### 1. [Get inside of SUNET](../getting_started/get_inside_sunet.md)
 

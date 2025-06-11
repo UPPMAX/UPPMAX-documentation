@@ -47,8 +47,8 @@ Using RStudio differs per UPPMAX cluster:
 Some links between version and official documentation:
 
 RStudio module         |RStudio Builds documentation
------------------------|-----------------------
-`RStudio/2023.06.2-561`|[here](https://dailies.rstudio.com/version/2023.06.2+561.pro5/)
+-----------------------|----------------------------
+`RStudio/2023.06.2-561`|[Documentation](https://dailies.rstudio.com/version/2023.06.2+561.pro5/)
 
 ## Troubleshooting
 

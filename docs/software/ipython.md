@@ -15,7 +15,7 @@ After loading a Python module, you also have the IPython Python command shell av
 
 ???- question "Forgot how to load a Python module?"
 
-    See the UPPMAX page about Python [here](python.md).
+    See [the UPPMAX page about Python](python.md).
 
 ???- question "What is a Python command shell?"
 
