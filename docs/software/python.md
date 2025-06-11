@@ -482,8 +482,8 @@ You can run Python in multiple ways:
 - use Python in an interactive session
 
 To *program* in Python, there are more ways,
-which are discussed at the UPPMAX page on
-Python programming [here](python_programming.md)
+which are discussed at
+[the UPPMAX page on Python programming](python_programming.md)
 
 ### Use Python to run a Python script
 

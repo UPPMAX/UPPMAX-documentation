@@ -5,7 +5,7 @@ that is physically located in Uppsala.
 
 ???- question "Where can I find an overview of UPPMAX?"
 
-    One can find an overview of UPPMAX [here](uppmax.md)
+    See [our overview of UPPMAX](uppmax.md).
 
 Here we place UPPMAX within the bigger, national, picture,
 starting from the biggest source of money for research in Sweden.

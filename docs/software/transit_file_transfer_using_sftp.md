@@ -59,15 +59,14 @@ You can get rid of this prompt if you have setup SSH keys.
 
 ### 5. In `sftp`, upload/download files to/from Transit
 
-In `sftp`, upload/download files to/from Transit.
+In [`sftp`](../software/sftp.md),
+upload/download files to/from Transit.
 
 For example, to upload a file to Transit:
 
 ```bash
 put my_file.txt
 ```
-
-Basic `sftp` command can be found [here](../software/sftp.md).
 
 ## Where do my files end up?
 

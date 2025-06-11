@@ -17,8 +17,8 @@
 
 ???- question "Want more detailed information of file transfer to/from Rackham using a graphical tool?"
 
-    More detailed information of file transfer to/from Rackham using a graphical tool
-    can be found [here](../cluster_guides/rackham_file_transfer_using_gui.md)
+    See
+    [file transfer to/from Rackham using a graphical tool](../cluster_guides/rackham_file_transfer_using_gui.md).
 
 - This is good if you want to move many files between host and local and cannot use wildcards.
 

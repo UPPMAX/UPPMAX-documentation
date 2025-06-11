@@ -55,7 +55,7 @@ See the [SSH X forwarding page](../software/ssh_x_forwarding.md) how to do so.
 
     Bianca is an UPPMAX cluster that does not allow [X forwarding](../software/ssh_x_forwarding.md).
 
-    See the 'How to login to Bianca' page [here](../getting_started/login_bianca.md)
+    See [the 'How to login to Bianca' page](../getting_started/login_bianca.md)
     for more details.
 
 ### [gedit](gedit.md)

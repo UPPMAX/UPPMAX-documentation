@@ -26,7 +26,7 @@ The UPPMAX HPC clusters have three types of nodes:
 
 ???- tip "What are nodes?"
 
-    What nodes are, is described in general terms [here](uppmax_cluster.md).
+    See [the UPPMAX page about nodes](uppmax_cluster.md).
 
 - **[login nodes](../cluster_guides/login_node.md)**: nodes where a user enters and interacts with the system
 - **calculation nodes**: nodes that do the calculations

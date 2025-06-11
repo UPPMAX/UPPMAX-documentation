@@ -114,4 +114,4 @@ The name of that folder is the name of your account.
 
 ## Apply to an UPPMAX project
 
-See the UPPMAX page on a 'Project application' [here](project_apply.md).
+See [the UPPMAX page 'Apply to an UPPMAX project'](project_apply.md).

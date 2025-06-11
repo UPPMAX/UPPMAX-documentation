@@ -25,8 +25,8 @@ This page shows how to do so for COSMOS.
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file transfer from/to COSMOS
-    using FileZilla, watch the video [here](https://youtu.be/T4qqN_ljsS8)
+    See the YouTube video 
+    [file transfer from/to COSMOS using FileZilla](https://youtu.be/T4qqN_ljsS8)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 

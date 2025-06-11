@@ -21,8 +21,8 @@ This page shows how to do so for Dardel.
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file transfer from/to Dardel
-    using rsync, watch the video [here](https://youtu.be/IustC5zai68)
+    See the YouTube video
+    [file transfer from/to Dardel using `rsync`](https://youtu.be/IustC5zai68).
 
 `rsync` is a secure file transfer tool that works under Linux, Mac and Windows.
 

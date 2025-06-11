@@ -9,7 +9,7 @@ This page describes the GNU nano text editor.
 
 ???- question "Want to see a video?"
 
-    You can find a video on using nano on Rackham [here](https://youtu.be/Ntg0sjBQA0E)
+    See the YouTube video [using `nano` on Rackham](https://youtu.be/Ntg0sjBQA0E)
 
 GNU nano is a simple [terminal](../software/terminal.md) text editor
 that is easy to learn.

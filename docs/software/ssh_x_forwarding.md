@@ -69,6 +69,6 @@ flowchart TD
 ???- question "Using `ssh -Y`? Let us know!"
 
     If you -a user- use `ssh -Y` when `ssh -X` does not work,
-    let us know (see the UPPMAX support page [here](../support.md)).
+    let us know (see [the UPPMAX support page](../support.md)).
     It helps us choose which option to show at these
     documentation websites.

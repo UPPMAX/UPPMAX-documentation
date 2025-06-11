@@ -10,8 +10,10 @@ DNABERT 2 is not part of
 
 ???- info "For UPPMAX staff"
 
-    Notes on installing and running DNABERT2 on Rackham and Snowy
-    can be found [here](https://github.com/UPPMAX/ticket_297538)
+    See
+    [this ticket](https://github.com/UPPMAX/ticket_297538).
+    with our notes on installing and running DNABERT2
+    on Rackham and Snowy.
 
 ## Installing DNABERT 2
 

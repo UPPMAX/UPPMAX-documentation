@@ -14,7 +14,7 @@ tags:
 There are multiple ways how to [create a Singularity container](singularity.md).
 
 This page shows how to create a Singularity container from a Docker pull,
-such as this one (from [here](https://github.com/lycheeverse/lychee?tab=readme-ov-file#docker))
+such as [the 'lycheeverse/lychee' Docker container](https://github.com/lycheeverse/lychee?tab=readme-ov-file#docker))
 
 ```bash
 docker pull lycheeverse/lychee

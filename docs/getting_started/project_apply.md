@@ -27,16 +27,8 @@ The workflow is like this:
 
 ## SUPR account
 
-???- question "Get a SUPR account"
-
-    - You should visit the national project management platform [SUPR](https://supr.naiss.se/) and [register](https://supr.naiss.se/person/register/) there.
-        - Make sure that you don't already have an account at SUPR. You must not have more than one account in SUPR.
-    - All steps [here](supr_register.md).
-
-???- question "Accept SUPR user agreement"
-
-    - You must accept the user agreement in SUPR, either online or in paper form.
-    - Details [here](supr_register.md#accept-the-user-agreement).
+- [Register at SUPR](supr_register.md)
+- [Accept the user agreement in SUPR](supr_register.md#accept-the-user-agreement)
 
 ## Applying for an UPPMAX project (PI)
 

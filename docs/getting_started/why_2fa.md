@@ -39,10 +39,6 @@ and are connecting from a computer in Sweden, this is typically caused by
 your computer not having a proper DNS name, or the forward and reverse name
 resolution do not match.
 
-???- question "Why is that important?"
-
-    See [here](http://en.wikipedia.org/wiki/Forward_Confirmed_reverse_DNS)
-
 If this is the case, please contact your ISP and ask them to correct this.
 
 ## Note

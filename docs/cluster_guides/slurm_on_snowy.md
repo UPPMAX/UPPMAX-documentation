@@ -4,11 +4,11 @@ This page describes how to use Slurm on Snowy.
 
 ???- question "What is Slurm?"
 
-    See the general page on Slurm [here](slurm.md)
+    See [the UPPMAX general page on Slurm](slurm.md)
 
 ???- question "What is Snowy?"
 
-    See the general page on Snowy [here](snowy.md)
+    See [the UPPMAX general page on Snowy](snowy.md)
 
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.

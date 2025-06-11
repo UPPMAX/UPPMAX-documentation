@@ -7,4 +7,4 @@ on which all users should be able to
 do their work independently and undisturbed.
 
 Because this is the same for nearly all UPPMAX clusters,
-there is a general page on modules [here](modules.md)
+see [the UPPMAX general page on modules](modules.md).

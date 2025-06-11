@@ -68,9 +68,10 @@
 
 ## Using the command line
 
-Below usage of the command line is discussed in text.
-If you prefer video, [here](https://youtu.be/kjqLAx2bgJI)
-is how to use the command-line on the UPPMAX Bianca cluster.
+???- question "Prefer a video?"
+
+    See the YouTube video
+    [how to use the command-line on the UPPMAX Bianca cluster](https://youtu.be/kjqLAx2bgJI).
 
 ### Command line with bash (Bourne Again Shell)
 

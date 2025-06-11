@@ -39,7 +39,7 @@ You will:
 - **Registration form**:
     - This instance together with the ["Using Python in an HPC environment" course](https://docs.uppmax.uu.se/courses_workshops/hpc_python/).
     - You can mention that you only attend one of the days [in this form](https://www.hpc2n.umu.se/events/courses/2025/spring/hpc-python)
-- **Course prerequisites**: [here](https://uppmax.github.io/naiss_intro_python/prereqs/)
+- **[Course prerequisites](https://uppmax.github.io/naiss_intro_python/prereqs/)**
 - **Date**: Thursday May 24th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
 - When: 9:00-16:00 ([course schedule](https://uppmax.github.io/naiss_intro_python/schedule/))
 - Where: Online via Zoom. Zoom room and password will be mailed :+1:

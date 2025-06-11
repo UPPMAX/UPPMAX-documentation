@@ -1,17 +1,16 @@
 # Basic toolkit
 
-![Caption](./img/terminal.png)
+![Terminal](./img/terminal.png)
 
 !!! objectives
 
-    - Let's dig into the most important BASH commands
+    - Let's dig into the most important Bash commands
     - We'll do a type-along session
 
 ???- question "Like videos?"
 
-    Below usage of the command line is discussed in text.
-    If you prefer video, [here](https://youtu.be/kjqLAx2bgJI)
-    is how to use the command-line on the UPPMAX Bianca cluster.
+    See the YouTube video
+    [how to use the command-line on the UPPMAX Bianca cluster](https://youtu.be/kjqLAx2bgJI).
 
 ## We will cover these commands
 

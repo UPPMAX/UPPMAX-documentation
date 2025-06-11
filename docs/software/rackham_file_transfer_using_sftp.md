@@ -7,7 +7,7 @@ is one of the ways ways to transfer files to/from Rackham
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Rackham are described [here](../cluster_guides/transfer_rackham.md)
+    See [the other ways to transfer data to/from Rackham](../cluster_guides/transfer_rackham.md)
 
 One can transfer files to/from Rackham using SFTP.
 SFTP is an abbreviation of 'SSH File Transfer Protocol',

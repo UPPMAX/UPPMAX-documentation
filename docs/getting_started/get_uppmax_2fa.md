@@ -32,10 +32,8 @@ Install an app to use for 2FA.
     Any app that works for you.
 
     Search for '2FA' or 'OTP' (short for
-    'one time password')..
-
-    Wikipedia maintains a list of 2FA apps
-    [here](https://en.wikipedia.org/wiki/Comparison_of_OTP_applications).
+    'one time password') or see
+    [the Wikipedia list of 2FA apps](https://en.wikipedia.org/wiki/Comparison_of_OTP_applications).
 
 ### 2. Go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>
 

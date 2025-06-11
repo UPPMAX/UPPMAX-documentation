@@ -5,7 +5,7 @@ with GPUs and suitable for longer jobs.
 
 ???- question "What is an HPC cluster?"
 
-    What an HPC cluster is, is described [here](uppmax_cluster.md).
+    See [the UPPMAX page about our HPC clusters](uppmax_cluster.md).
 
 Or: Snowy is a group of computers that can effectively run many calculations,
 as requested by multiple people, at the same time.

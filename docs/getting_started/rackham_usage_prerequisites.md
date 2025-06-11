@@ -72,8 +72,7 @@ Note that the 'Accounts' tab can be useful to verify your username.
 You can become a member of an active SNIC SENS by:
 
 - request membership to an existing project in SUPR
-- create a project. See the UPPMAX page on
-  how to submit a project application [here](project_apply.md)
+- [Apply for an UPPMAX project](project_apply.md)
 
 ## An UPPMAX user account
 

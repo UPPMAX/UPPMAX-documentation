@@ -14,15 +14,15 @@ Here is an overview of how to transfer files to/from the multiple NAISS
 and local clusters. The videos contain a link to the documentation
 of that HPC center.
 
-HPC Cluster|Link to documentation
+HPC Cluster|Videos
 -----------|------------
 Alvis      |.
 Berzelius  |.
-Bianca     |[here](https://youtu.be/QlGhgPm_h7I)
+Bianca     |[Video](https://youtu.be/QlGhgPm_h7I)
 COSMOS     |.
 Dardel     |.
 Kebnekaise |.
 LUMI       |.
-Rackham    |[here](https://youtu.be/p-27aIh2acA)
+Rackham    |[Video](https://youtu.be/p-27aIh2acA)
 Tetralith  |.
 Vera       |.

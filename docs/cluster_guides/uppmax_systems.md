@@ -5,7 +5,7 @@ HPC infrastructure that is physically located in Uppsala.
 
 ???- question "Where can I find an overview of UPPMAX?"
 
-    One can find an overview of UPPMAX [here](uppmax.md)
+    See [our overview of UPPMAX](uppmax.md)
 
 This HPC infrastructure consists out of:
 

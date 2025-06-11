@@ -8,4 +8,4 @@ in this case after Snowy, Tintin's dog:
 
 ???- question "What are the UPPMAX clusters?"
 
-    All UPPMAX clusters can be found [here](uppmax_cluster.md).
+    See [our UPPMAX clusters](uppmax_cluster.md).

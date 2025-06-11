@@ -22,7 +22,7 @@ is one of the ways to transfer files to/from Pelle
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Pelle are described [here](transfer_pelle.md)
+    See [other ways to transfer data to/from Pelle](transfer_pelle.md)
 
 There are many graphical tools that can do this:
 

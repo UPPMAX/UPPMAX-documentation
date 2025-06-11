@@ -92,7 +92,8 @@ for example `module spider cowsay`.
 
 ???- question "Would you like to see a video instead?"
 
-    Watch the video that shows the use of modules on Bianca [here](https://youtu.be/lNlq2Eb-qgc)
+    See the YouTube video
+    [the use of modules on Bianca](https://youtu.be/lNlq2Eb-qgc)
 
 ???- question "What is `cowsay`?"
 

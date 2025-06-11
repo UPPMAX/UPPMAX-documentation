@@ -14,8 +14,7 @@ There are three types of UPPMAX systems:
 - Storage systems
 - Cloud services
 
-One can apply for these resources,
-as is described [here](../getting_started/project_apply.md).
+[Apply for these resources](../getting_started/project_apply.md).
 
 ### UPPMAX computing systems
 

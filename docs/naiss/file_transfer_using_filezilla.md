@@ -14,13 +14,12 @@ Here is an overview of how to transfer file to/home the multiple NAISS
 and local clusters. The videos contain a link to the documentation
 of that HPC center.
 
-HPC Cluster|Link to video
+HPC Cluster|Videos
 -----------|-------------------------------------------------
-Alvis      |[here](https://youtu.be/A8zfd0o0uzI)
-Bianca     |[here](https://youtu.be/V-iPQLjvByc)
-COSMOS     |[here](https://youtu.be/T4qqN_ljsS8)
-Dardel     |[here](https://youtu.be/_3EmkN619Xo)
+Alvis      |[Video](https://youtu.be/A8zfd0o0uzI)
+Bianca     |[Video](https://youtu.be/V-iPQLjvByc)
+COSMOS     |[Video](https://youtu.be/T4qqN_ljsS8)
+Dardel     |[Video](https://youtu.be/_3EmkN619Xo)
 Kebnekaise |Cannot: is not a NAISS cluster
-Rackham    |[here](https://youtu.be/CyJbWHZbvJU)
+Rackham    |[Video](https://youtu.be/CyJbWHZbvJU)
 Tetralith  |Does not work, created support ticket :-/
-

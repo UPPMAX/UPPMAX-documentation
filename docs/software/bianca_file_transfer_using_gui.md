@@ -8,8 +8,8 @@
 
 As a user, we need to transfer files
 between our local computer and Bianca.
-The many ways to transfer files to/from Bianca
-are discussed [here](../cluster_guides/transfer_bianca.md).
+There are
+[many ways to transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
 On this page, we learn how to transfer files
 to Bianca using a graphical tool/program.
 

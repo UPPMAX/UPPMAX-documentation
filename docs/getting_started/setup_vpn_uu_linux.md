@@ -202,8 +202,7 @@ Fill in your 2FA. The 2FA should be called `[akka_id]`, e.g. `svesv314`
 
 ???- question "Forgot how to set up 2FA for your UU user account?"
 
-    UU describes how to setup 2FA for your user
-    account [here](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/log-in-securely).
+    See [the UU page on how to setup 2FA for your user account](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/log-in-securely).
 
     Pick the options for 'user account' (i.e. not for SharePoint).
 

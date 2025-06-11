@@ -31,8 +31,7 @@ Use a [terminal](../software/terminal.md) to login to Rackham.
 
 ???- question "Forgot how to login to Rackham?"
 
-    A step-by-step guide how to login to Rackham
-    can be found [here](../getting_started/login_rackham.md).
+    See [our step-by-step guide how to login to Rackham](../getting_started/login_rackham.md).
 
     Spoiler: `ssh [username]@rackham.uppmax.uu.se`
 

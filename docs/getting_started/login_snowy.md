@@ -13,8 +13,8 @@ Here we describe how to log in to [Snowy](../cluster_guides/snowy.md)
 One needs to be allowed to use Snowy.
 [These prerequisites](rackham_usage_prerequisites.md) describes what is needed before one can use Snowy.
 
-To make Snowy do a calculation, one needs to log in to a Rackham login node,
-which is described [here](../getting_started/login_rackham.md).
+To make Snowy do a calculation,
+[log in to a Rackham login node](../getting_started/login_rackham.md).
 
 After login, you will be on a [login node](../cluster_guides/login_node.md).
 

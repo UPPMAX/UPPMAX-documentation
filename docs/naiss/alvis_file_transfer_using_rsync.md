@@ -21,8 +21,8 @@ This page shows how to do so for Alvis.
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file transfer from/to Alvis
-    using rsync, watch the video [here](https://youtu.be/dzqQ-HBjIfo)
+    See the YouTube video
+    [file transfer from/to Alvis using rsync](https://youtu.be/dzqQ-HBjIfo).
 
 `rsync` is a secure file transfer tool that works under Linux, Mac and Windows.
 

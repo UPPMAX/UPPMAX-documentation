@@ -1,8 +1,7 @@
 # Optimizing jobs
 
-The UPPMAX clusters use the Slurm job scheduler.
-The UPPMAX pages about Slurm [here](slurm.md)
-describe how to start a job.
+The UPPMAX clusters use the [Slurm](slurm.md)
+job scheduler.
 However, a job may not have run optimally, i.e. reserving CPU power
 and/or memory that is not used.
 
