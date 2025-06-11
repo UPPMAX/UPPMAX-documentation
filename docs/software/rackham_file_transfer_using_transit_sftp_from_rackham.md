@@ -16,7 +16,7 @@ The process is:
 
 ???- question "Forgot how to get within SUNET?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ## 2. Use the terminal to login to Rackham
 
@@ -24,8 +24,7 @@ Use a [terminal](../software/terminal.md) to login to Rackham.
 
 ???- question "Forgot how to login to Rackham?"
 
-    A step-by-step guide how to login to Transit
-    can be found [here](../getting_started/login_rackham.md).
+    See [this step-by-step guide how to login to Rackham](../getting_started/login_rackham.md).
 
     Spoiler: `ssh [username]@rackham.uppmax.uu.se`
 

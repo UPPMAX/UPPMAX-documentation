@@ -76,9 +76,8 @@
 
 ???- question "Want to see the video 'Load and use Python packages on UPPMAX'?"
 
-    If you want to see a video how to load and use Python packages
-    on the UPPMAX (and HPC2N) HPC clusters,
-    go [here](https://youtu.be/novRJfAa2QA?si=IQM3g37TsimemDl6)
+    See the YouTube video 
+    [how to load and use Python packages](https://youtu.be/novRJfAa2QA?si=IQM3g37TsimemDl6)
 
 See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
 

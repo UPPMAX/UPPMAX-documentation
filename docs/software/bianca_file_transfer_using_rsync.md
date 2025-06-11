@@ -38,7 +38,7 @@ Get inside SUNET.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ## 2. Log in to Transit
 

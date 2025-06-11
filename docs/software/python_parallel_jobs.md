@@ -6,8 +6,7 @@ tags:
 
 # How to run parallel jobs in Python
 
-This page describes how to run parallel jobs in Python.
-For the general pages on Python, go [here](python.md).
+This page describes how to run parallel jobs in [Python](python.md).
 
 Material here is taken partly from the parallel part of the online course
 [Python for Scientific

@@ -43,9 +43,16 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
 
     !!! warning "Recordings from Dictaphone "
 
-        If you record using dictaphone such as Olympus DS-9000, it would by default record in `.DS` or `.DS2` file formats which are NOT supported by Whisper.
-        Make sure to change the settings on the dictaphone to `.mp3` format before you start recording.
-        Follow this [guide](https://audiosupport.omsystem.com/wp-content/uploads/2021/11/DictationModule.pdf) to convert your `DS` or `.DS2` recording to `.mp3` using the software that comes with your dictaphone. Else, you can also download the sofware from [here](https://audiosupport.omsystem.com/en/product/odms-r8/) and then follow the same guide.
+        If you record using dictaphone such as Olympus DS-9000,
+        it would by default record in `.DS` or `.DS2` file formats
+        which are NOT supported by Whisper.
+        Make sure to change the settings on the dictaphone
+        to `.mp3` format before you start recording.
+        Follow [this guide](https://audiosupport.omsystem.com/wp-content/uploads/2021/11/DictationModule.pdf)
+        to convert your `DS` or `.DS2` recording to `.mp3`
+        using the software that comes with your dictaphone.
+        Else, you can also [download the sofware](https://audiosupport.omsystem.com/en/product/odms-r8/)
+        and then follow the same guide.
 
 ## Glossary
 

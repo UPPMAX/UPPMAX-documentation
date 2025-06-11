@@ -17,7 +17,7 @@ is one of the ways ways to [transfer files to/from Transit](../cluster_guides/tr
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Transit are described [here](../cluster_guides/transfer_transit.md)
+    See [the other ways to transfer data to/from Transit](../cluster_guides/transfer_transit.md)
 
 One can transfer files to/from Transit using SFTP.
 SFTP is an abbreviation of 'SSH File Transfer Protocol',
@@ -34,7 +34,7 @@ Get inside SUNET.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ### 2. Start a terminal on your local computer
 

@@ -50,9 +50,8 @@ You can get rid of this prompt if you have setup SSH keys
 
 ### Step 4. Upload/download files to/from Pelle
 
-In `sftp`, upload/download files to/from Pelle.
+In [`sftp`](../software/sftp.md), upload/download files to/from Pelle.
 
-Basic `sftp` command can be found [here](../software/sftp.md).
 
 ```mermaid
 flowchart TD

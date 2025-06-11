@@ -29,7 +29,7 @@ one needs [to be inside of SUNET](../getting_started/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 When a tool is setup, one can only transfer files
 between you local computer and [your Bianca `wharf` folder](../cluster_guides/wharf.md).

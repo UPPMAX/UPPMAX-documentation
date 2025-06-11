@@ -26,7 +26,7 @@ Jupyter is an [IDE](../software/ides.md) specialized for
 
 ???- question "Forgot how to get within SUNET?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ### 2. Start the Bianca remote desktop environment
 
@@ -74,7 +74,7 @@ module load python/3.11.4
 
 ???- question "Forgot what the module system is?"
 
-    See the UPPMAX pages on the module system [here](../cluster_guides/modules.md).
+    See [the UPPMAX pages on the module system](../cluster_guides/modules.md).
 
 ???- question "Can I use other Python modules?"
 

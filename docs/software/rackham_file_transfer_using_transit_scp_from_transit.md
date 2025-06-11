@@ -27,7 +27,7 @@ The process is:
 
 ???- question "Forgot how to get within SUNET?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ## 2. Use the terminal to login to Transit
 
@@ -36,7 +36,7 @@ Use a [terminal](../software/terminal.md) to login to Transit.
 ???- question "Forgot how to login to Transit?"
 
     A step-by-step guide how to login to Transit
-    can be found [here](../cluster_guides/login_transit.md).
+    See [our step-by-step guide how to login to Transit](../cluster_guides/login_transit.md).
 
     Spoiler: `ssh [username]@transit.uppmax.uu.se`
 

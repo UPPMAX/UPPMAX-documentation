@@ -20,7 +20,7 @@ Here it is shown how to transfer files using a graphical tool called WinSCP.
 
 ???- question "What are the other ways?"
 
-    Other ways to transfer data to/from Transit are described [here](../cluster_guides/transfer_transit.md)
+    See [the other ways to transfer data to/from Transit](../cluster_guides/transfer_transit.md)
 
 ## Procedure
 

@@ -100,7 +100,7 @@ Loading a Python module also makes some Python packages available.
 
 ???- question "Forgot what the module system is?"
 
-    See the UPPMAX pages on the module system [here](../cluster_guides/modules.md).
+    See [the UPPMAX pages on the module system](../cluster_guides/modules.md).
 
 ???- question "UPPMAX modules or Python modules?"
 
@@ -472,7 +472,7 @@ is case-insensitive, hence `YourTool` and `yourtool` give similar results.
 
 ???- question "What are UPPMAX modules?"
 
-    See the page about the UPPMAX module system [here](../cluster_guides/modules.md)
+    See [the page about the UPPMAX module system](../cluster_guides/modules.md)
 
 ## Running Python
 

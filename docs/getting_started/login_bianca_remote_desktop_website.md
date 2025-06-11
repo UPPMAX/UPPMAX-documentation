@@ -39,7 +39,7 @@ one needs to be within SUNET to be able to access her.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
 

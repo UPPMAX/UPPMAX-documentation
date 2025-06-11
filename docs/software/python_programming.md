@@ -78,7 +78,7 @@ After loading a Python module, you have the Python interpreter available.
 
 ???- question "Forgot how to load a Python module?"
 
-    See the UPPMAX page about Python [here](python.md).
+    See [the UPPMAX page about Python](python.md).
 
 ???- question "What is a Python interpreter?"
 

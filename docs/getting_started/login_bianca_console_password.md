@@ -31,7 +31,7 @@ Get inside the university networks.
 
 ???- question "Forgot how to get within the university networks?"
 
-    See the 'get inside the university networks' page [here](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ### 2. Use `ssh` to log in
 
