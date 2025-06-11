@@ -74,7 +74,7 @@ julia
 You will get a prompt like this:
 
 ``` julia-repl
-julia> 
+julia>
 ```
 
 Julia has different modes, the one mentioned above is the so-called Julian mode where one can execute commands. The description for accessing these modes will be given in the following paragraphs. Once you are done with your work in any of the modes, you can return to the Julian mode by pressing the backspace key.
@@ -111,7 +111,7 @@ search: ans transpose transcode contains expanduser instances MathConstants read
   ans
   A variable referring to the last computed value, automatically set at the interactive promp
 
-julia> 
+julia>
 ```
 
 - Note that you get back directly to Julian mode!

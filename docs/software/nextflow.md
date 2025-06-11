@@ -1,6 +1,6 @@
 # `nextflow` & `nf-core` on UPPMAX
 
-[https://www.nextflow.io](https://www.nextflow.io)  
+[https://www.nextflow.io](https://www.nextflow.io)
 
 - Official documentation: [https://www.nextflow.io/docs/latest/index.html](https://www.nextflow.io/docs/latest/index.html)
 
@@ -54,13 +54,13 @@ module load nf-core   # this also load the nextflow and java as requirements
 <!-- is no way to satisfy markdownlint -->
 <!-- markdownlint-disable MD029 -->
 
-1. Login to `transit.uppmax.uu.se` - [documentation](../cluster_guides/transfer_bianca.md#transit-server)  
+1. Login to `transit.uppmax.uu.se` - [documentation](../cluster_guides/transfer_bianca.md#transit-server)
 2. Mount the `wharf` of your project.
 
     ```bash
     user@transit:~$ mount_wharf sens2023531
     Mounting wharf (accessible for you only) to /home/<user>/sens2023531
-    <user>-sens2023531@bianca-sftp.uppmax.uu.se's password: 
+    <user>-sens2023531@bianca-sftp.uppmax.uu.se's password:
     ```
 
 3. Navigate to your `wharf` folder
@@ -90,28 +90,28 @@ module load nf-core   # this also load the nextflow and java as requirements
 
     nf-core/tools version 2.11.1 - https://nf-co.re
 
-    WARNING  Could not find GitHub authentication token. Some API requests may fail.                                                    
+    WARNING  Could not find GitHub authentication token. Some API requests may fail.
     ? Select release / branch: 1.0.2  [release]
     ? Include the nf-core's default institutional configuration files into the download? Yes
 
     In addition to the pipeline code, this tool can download software containers.
     ? Download software container images: singularity
 
-    Nextflow and nf-core can use an environment variable called $NXF_SINGULARITY_CACHEDIR that is a path to a directory where remote 
+    Nextflow and nf-core can use an environment variable called $NXF_SINGULARITY_CACHEDIR that is a path to a directory where remote
     Singularity images are stored. This allows downloaded images to be cached in a central location.
     ? Define $NXF_SINGULARITY_CACHEDIR for a shared Singularity image download folder? [y/n]: n
 
     If transferring the downloaded files to another system, it can be convenient to have everything compressed in a single file.
     This is not recommended when downloading Singularity images, as it can take a long time and saves very little space.
     ? Choose compression type: none
-    INFO     Saving 'nf-core/pixelator'                                                                                                 
-              Pipeline revision: '1.0.2'                                                                                                
-              Use containers: 'singularity'                                                                                             
-              Container library: 'quay.io'                                                                                              
-              Output directory: 'nf-core-pixelator_1.0.2'                                                                               
-              Include default institutional configuration: 'True'                                                                       
-    INFO     Downloading centralised configs from GitHub                                                                                
-    INFO     Downloading workflow files from GitHub                                                                                     
+    INFO     Saving 'nf-core/pixelator'
+              Pipeline revision: '1.0.2'
+              Use containers: 'singularity'
+              Container library: 'quay.io'
+              Output directory: 'nf-core-pixelator_1.0.2'
+              Include default institutional configuration: 'True'
+    INFO     Downloading centralised configs from GitHub
+    INFO     Downloading workflow files from GitHub
     INFO     Processing workflow revision 1.0.2, found 4 container images in     total.
     Downloading singularity images ???????????????????????????????????????????????????????????????????????????????? 100% ? 4/4 completed
     ```
@@ -120,13 +120,13 @@ module load nf-core   # this also load the nextflow and java as requirements
 
     ```bash
     module load bioinfo-tools Nextflow
-    nextflow run ... -profile uppmax --project sens-XXXX-XX .... 
+    nextflow run ... -profile uppmax --project sens-XXXX-XX ....
     ```
 
 <!-- markdownlint-enable MD029 -->
 
-Note: you might need `-c configs/conf/uppmax.config`,  make sure you have the file (it is an option to download it during the pipeline download process).  
-[https://github.com/nf-core/configs/blob/master/conf/uppmax.config](https://github.com/nf-core/configs/blob/master/conf/uppmax.config)  
+Note: you might need `-c configs/conf/uppmax.config`,  make sure you have the file (it is an option to download it during the pipeline download process).
+[https://github.com/nf-core/configs/blob/master/conf/uppmax.config](https://github.com/nf-core/configs/blob/master/conf/uppmax.config)
 [https://nf-co.re/configs/uppmax](https://nf-co.re/configs/uppmax)
 
 ## Common problems

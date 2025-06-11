@@ -62,7 +62,7 @@ module spider cellranger
           $ module -r spider '.*cellranger.*'
 
     ----------------------------------------------------------------------------
-      For detailed information about a specific "cellranger" package (including how 
+      For detailed information about a specific "cellranger" package (including how
     to load the modules) use the module's full name.
       Note that names that have a trailing (E) are extensions provided by other modu
     les.
@@ -95,7 +95,7 @@ module spider cellranger
             cellranger-ARC/2.0.2
 
     ----------------------------------------------------------------------------
-      For detailed information about a specific "cellranger-ARC" package (including 
+      For detailed information about a specific "cellranger-ARC" package (including
     how to load the modules) use the module's full name.
       Note that names that have a trailing (E) are extensions provided by other modu
     les.
@@ -164,14 +164,14 @@ module spider cellranger
      "cellranger-DNA/1.1.0" module is available to load.
 
           bioinfo-tools
-     
+
         Help:
            cellranger-DNA - use cellranger-DNA 1.1.0
-          
-          
+
+
           The cellranger-DNA-data/1.0.0 module is loaded as a prerequisite.
-          
-          
+
+
 
 
     ----------------------------------------------------------------------------
@@ -182,38 +182,38 @@ module spider cellranger
 
         Help:
            cellranger-DNA-data - use cellranger-DNA-data 1.0.0
-          
-          
+
+
           10X Genomics Chromium Cell Ranger DNA data
           Version 1.0.0
           https://support.10xgenomics.com/single-cell-dna/software/downloads/latest
-          
+
           NOTE: This is a data module. The software that uses this data is the cellr
     anger-DNA module, which loads this.
-          
-          
+
+
           Default data for GRCh38, GRCh38 and GRCm38 references can be found in $CEL
     LRANGER_DNA_DATA.
           To see the top-level directories:
-          
+
            ls -l $CELLRANGER_DNA_DATA
-          
+
           Genome assembly    Subdirectory
           ---------------    ------------
           GRCh38             refdata-GRCh38-1.0.0
           GRCh37             refdata-GRCh37-1.0.0
           GRCm38             refdata-GRCm38-1.0.0
-          
+
           Sample Index Set Sequences (both CSV and JSON formats)
           ------------------------------------------------------
           Chromium DNA     chromium-shared-sample-indexes-plate.csv
                            chromium-shared-sample-indexes-plate.json
-          
+
           For information on how each dataset was produced, see the References secti
     on of
           https://support.10xgenomics.com/single-cell-dna/software/downloads/latest
-          
-          
+
+
 
 
     ----------------------------------------------------------------------------

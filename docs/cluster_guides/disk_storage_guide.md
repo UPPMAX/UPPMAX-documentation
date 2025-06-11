@@ -35,13 +35,13 @@ Use [uquota](../software/uquota.md)to check current disk usage and limits.
     [sven@rackham3 ~]$ uquota
     Your project       Your File Area           Unit        Usage  Quota Limit  Over Quota
     -----------------  -----------------------  -------  --------  -----------  ----------
-    home               /home/sven             GiB          16.6           32            
-    home               /home/sven             files      104165       300000            
-    naiss2024-22-1202  /proj/r-py-jl-m-rackham  GiB           0.0          128            
-    naiss2024-22-1202  /proj/r-py-jl-m-rackham  files           4       100000            
-    naiss2024-22-49    /proj/introtouppmax      GiB           5.1          128            
-    naiss2024-22-49    /proj/introtouppmax      files       20290       100000            
-    staff              /proj/staff              GiB       66064.8       102400            
+    home               /home/sven             GiB          16.6           32
+    home               /home/sven             files      104165       300000
+    naiss2024-22-1202  /proj/r-py-jl-m-rackham  GiB           0.0          128
+    naiss2024-22-1202  /proj/r-py-jl-m-rackham  files           4       100000
+    naiss2024-22-49    /proj/introtouppmax      GiB           5.1          128
+    naiss2024-22-49    /proj/introtouppmax      files       20290       100000
+    staff              /proj/staff              GiB       66064.8       102400
     staff              /proj/staff              files    21325500     15000000           *
     ```
 

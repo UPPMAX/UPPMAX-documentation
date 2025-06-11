@@ -72,7 +72,7 @@ rsync --recursive my_folder [username]@dardel.pdc.kth.se:[target_folder]
 
 where
 
-- `[target_folder]` is the target folder  
+- `[target_folder]` is the target folder
 - `[username]` is your PDC username
 
 for example:

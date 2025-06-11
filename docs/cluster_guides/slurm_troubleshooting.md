@@ -15,8 +15,8 @@ sbatch: error: Batch job submission failed: Invalid account or account/partition
 
 ```bash
 touch do_something.sh
-echo '#!/bin/bash' >> do_something.sh 
-sbatch -A some_invalid_account do_something.sh 
+echo '#!/bin/bash' >> do_something.sh
+sbatch -A some_invalid_account do_something.sh
 ```
 
 ### 1.3. Problem

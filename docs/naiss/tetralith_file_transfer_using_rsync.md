@@ -72,7 +72,7 @@ rsync --recursive my_folder [username]@tetralith.nsc.liu.se:[target_folder]
 
 where
 
-- `[target_folder]` is the target folder  
+- `[target_folder]` is the target folder
 - `[username]` is your NSC username
 
 for example:

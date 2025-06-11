@@ -27,8 +27,8 @@ wget -O- http://cpanmin.us | perl - -l $MY_PERL App::cpanminus local::lib
 Now we should be ready to set up the correct environment variables and load them for this session:
 
 ```bash
-echo "eval `perl -I $MY_PERL/lib/perl5 -Mlocal::lib=$MY_PERL`" >> ~/.bash_profile 
-echo "export PATH=$MY_PERL/bin/:$PATH" >> ~/.bash_profile 
+echo "eval `perl -I $MY_PERL/lib/perl5 -Mlocal::lib=$MY_PERL`" >> ~/.bash_profile
+echo "export PATH=$MY_PERL/bin/:$PATH" >> ~/.bash_profile
 source ~/.bash_profile
 ```
 

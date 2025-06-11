@@ -120,7 +120,7 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     Length: 117715 (115K) [application/octet-stream]
     Saving to: ‘sample_mc.bam’
 
-    100%[=============================================================================================================================================>] 117,715     --.-K/s   in 0.001s  
+    100%[=============================================================================================================================================>] 117,715     --.-K/s   in 0.001s
 
     2024-08-05 09:16:41 (171 MB/s) - ‘sample_mc.bam’ saved [117715/117715]
     ```
@@ -128,7 +128,7 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     Your output will be similar to this, when using that valid BAM file:
 
     ```bash
-    [sven@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT sample_mc.bam 
+    [sven@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT sample_mc.bam
     Aug 05, 2024 9:16:47 AM com.intel.gkl.NativeLibraryLoader load
     INFO: Loading libgkl_compression.so from jar:file:/sw/bioinfo/picard/3.1.1/rackham/picard.jar!/com/intel/gkl/native/libgkl_compression.so
     [Mon Aug 05 09:16:47 CEST 2024] ValidateSamFile --INPUT sample_mc.bam --MODE VERBOSE --MAX_OUTPUT 100 --IGNORE_WARNINGS false --VALIDATE_INDEX true --INDEX_VALIDATION_STRINGENCY EXHAUSTIVE --IS_BISULFITE_SEQUENCED false --MAX_OPEN_TEMP_FILES 8000 --SKIP_MATE_VALIDATION false --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
@@ -137,14 +137,14 @@ java -jar $PICARD ValidateSamFile --INPUT my_file.bam
     No errors found
     [Mon Aug 05 09:16:48 CEST 2024] picard.sam.ValidateSamFile done. Elapsed time: 0.01 minutes.
     Runtime.totalMemory()=2181038080
-    [sven@rackham2 ~]$ 
+    [sven@rackham2 ~]$
     ```
 
     Your output will be similar to this, when using an invalid file,
     such as an R script file:
 
     ```bash
-    [sven@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT app.R 
+    [sven@rackham2 ~]$ java -jar $PICARD ValidateSamFile --INPUT app.R
     Aug 05, 2024 9:13:20 AM com.intel.gkl.NativeLibraryLoader load
     INFO: Loading libgkl_compression.so from jar:file:/sw/bioinfo/picard/3.1.1/rackham/picard.jar!/com/intel/gkl/native/libgkl_compression.so
     [Mon Aug 05 09:13:20 CEST 2024] ValidateSamFile --INPUT app.R --MODE VERBOSE --MAX_OUTPUT 100 --IGNORE_WARNINGS false --VALIDATE_INDEX true --INDEX_VALIDATION_STRINGENCY EXHAUSTIVE --IS_BISULFITE_SEQUENCED false --MAX_OPEN_TEMP_FILES 8000 --SKIP_MATE_VALIDATION false --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false

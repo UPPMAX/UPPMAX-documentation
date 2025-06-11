@@ -87,7 +87,7 @@ where
 
     However, the `[path]` argument is optional: if not
     given, a default will be used.
-    
+
     To simplify matters, here we use the default.
 
 for example:

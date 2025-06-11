@@ -9,7 +9,7 @@
 !!! warning
 
     - This solution is possible only if:
-    
+
         - you have an UPPMAX compute project
         - a working matlab on your computer with one of the version available on the cluster:
 
@@ -47,7 +47,7 @@ Username on RACKHAM (e.g. jdoe):
 - As a result:
 
 ```matlab
-   
+
 Complete.  Default cluster profile set to "Rackham R2022b".
 ```
 
@@ -69,11 +69,11 @@ Prior to submitting the job, various parameters can be assigned, such as queue, 
 >> % Get a handle to the cluster
 >> c = parcluster;
 
-c = 
+c =
 
   Generic Cluster
 
-    Properties: 
+    Properties:
 
                       Profile: Rackham R2022b
                      Modified: false
@@ -155,8 +155,8 @@ Unset a value when no longer needed.
 
 >> job = c.batch(@parallel_example_local, 1, {16,1}, 'Pool',8,'CurrentFolder','.');
 
-- Submission to the cluster requires SSH credentials. 
-- You will be prompted for username and password or identity file (private key). 
+- Submission to the cluster requires SSH credentials.
+- You will be prompted for username and password or identity file (private key).
     - It will not ask again until you define a new cluster handle ``c`` or in next session.
 ```
 
@@ -243,7 +243,7 @@ When troubleshooting a job, the cluster admin may request the scheduler ID of th
 
 ```matlab
 >> job.getTaskSchedulerIDs()
-   ans = 
+   ans =
     25539
 ```
 

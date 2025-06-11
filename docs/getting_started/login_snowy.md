@@ -45,6 +45,6 @@ graph LR
   subgraph "Rackham"
     login_node[Login node]
   end
-    
+
   login_node --> |interactive or sbatch| snowy_calculation_node
 ```

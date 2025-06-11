@@ -66,20 +66,20 @@ module spider MultiQC/1.22.2
         You will need to load all module(s) on any one of the lines below before the "MultiQC/1.22.2" module is available to load.
 
           bioinfo-tools
-     
+
         Help:
            MultiQC - use MultiQC 1.22.2
-          
+
            Version 1.22.2
-          
-          
+
+
           Version 1.22.2 is installed using python/3.8.7
     ```
 
 After reading that documentation, we know how to load it:
 
 ```bash
-module load bioinfo-tools 
+module load bioinfo-tools
 module load MultiQC/1.22.2
 ```
 
@@ -88,9 +88,9 @@ module load MultiQC/1.22.2
     Your output will look similar to this:
 
     ```bash
-    [sven@rackham2 ~]$ module load bioinfo-tools 
+    [sven@rackham2 ~]$ module load bioinfo-tools
     [sven@rackham2 ~]$ module load MultiQC/1.22.2
-    [sven@rackham2 ~]$ 
+    [sven@rackham2 ~]$
     ```
 
 ## Singularity script

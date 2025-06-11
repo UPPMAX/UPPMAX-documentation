@@ -191,12 +191,12 @@ In this example, there is a folder called `wharf_backup` that is
 4.5 gigabyte. Moving it to a project folder solved the problem:
 
 ```bash
-mv wharf_backup/ /proj/nobackup/[your_project_folder] 
+mv wharf_backup/ /proj/nobackup/[your_project_folder]
 ```
 
 For example:
 
 ```bash
-mv wharf_backup/ /proj/nobackup/sens2016001 
+mv wharf_backup/ /proj/nobackup/sens2016001
 
 ```

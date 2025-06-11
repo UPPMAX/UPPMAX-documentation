@@ -95,7 +95,7 @@ and [its answer](https://unix.stackexchange.com/a/664213):
 On Pelle, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys 
+chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -103,7 +103,7 @@ chmod 700 ~
 On your local computer, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys 
+chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```

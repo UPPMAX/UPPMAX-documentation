@@ -42,7 +42,7 @@ module avail mpi  # showing both compilers and mpi ;-)
 - Example:
 
 ```bash
-module load compiler/2023.1.0 mpi/2021.9.0    
+module load compiler/2023.1.0 mpi/2021.9.0
 ```
 
 ### Suggestions for compatibility Rackham and Snowy

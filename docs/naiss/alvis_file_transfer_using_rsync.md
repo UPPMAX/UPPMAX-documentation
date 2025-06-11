@@ -83,7 +83,7 @@ rsync --recursive my_folder [username]@alvis1.c3se.chalmers.se:[target_folder]
 
 where
 
-- `[target_folder]` is the target folder  
+- `[target_folder]` is the target folder
 - `[username]` is your C3SE username
 
 for example:

@@ -25,10 +25,10 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
 !!! note "Venue and registration:"
 
-    **Date**: 16 and 17 January, 2025  
-    **Time**: 9:15 - 12:00 and 13:15 -16:00  
-    **Location**: Zoom: link will be sent to applicants  
-    **Application**: [form](https://forms.gle/Hz1mQJSiA6ewfLqz8).  
+    **Date**: 16 and 17 January, 2025
+    **Time**: 9:15 - 12:00 and 13:15 -16:00
+    **Location**: Zoom: link will be sent to applicants
+    **Application**: [form](https://forms.gle/Hz1mQJSiA6ewfLqz8).
 
 
 ## Schedule
@@ -124,9 +124,9 @@ Just follow some tutorial on how to setup and use the virtual Linux environment.
 ## Contacts for the course
 
 ---
-[Pavlin Mitev](https://katalog.uu.se/profile/?id=N3-1425)  
-[Jonas Söderberg](https://katalog.uu.se/empinfo/?id=N2-1277)  
-[Lars Eklund](https://katalog.uu.se/empinfo/?id=N5-89)  
-[Richel Bilderbeek](https://www.katalog.uu.se/empinfo/?id=N21-617)  
-[UPPMAX](https://www.uu.se/en/centre/uppmax)  
+[Pavlin Mitev](https://katalog.uu.se/profile/?id=N3-1425)
+[Jonas Söderberg](https://katalog.uu.se/empinfo/?id=N2-1277)
+[Lars Eklund](https://katalog.uu.se/empinfo/?id=N5-89)
+[Richel Bilderbeek](https://www.katalog.uu.se/empinfo/?id=N21-617)
+[UPPMAX](https://www.uu.se/en/centre/uppmax)
 

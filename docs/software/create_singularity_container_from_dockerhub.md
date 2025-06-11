@@ -59,7 +59,7 @@ In some case, the Singularity container is now created.
 In our case, however, we get the `MANIFEST_UNKNOWN` error:
 
 ```bash
-[sudo] password for sven: 
+[sudo] password for sven:
 INFO:    Starting build...
 INFO:    Fetching OCI image...
 FATAL:   While performing build: conveyor failed to get: GET https://index.docker.io/v2/lindenb/jvarkit/manifests/latest: MANIFEST_UNKNOWN: manifest unknown; unknown tag=latest

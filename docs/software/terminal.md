@@ -31,7 +31,7 @@ A terminal is a program that allows you to run commands.
     Here is an example prompt:
 
     ```bash
-    [sven@rackham2 my_folder]$ 
+    [sven@rackham2 my_folder]$
     ```
 
     - `[` and `]`: indicates the beginning and end of information

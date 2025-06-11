@@ -41,7 +41,7 @@ flowchart TD
   use_website[1.Use the Bianca remote desktop website]:::important_node
   use_password[2.Use a terminal and password to access Bianca directly]:::important_node
   use_ssh_keys[3.Use a terminal and SSH keys to access Bianca directly]
-  
+
   use_website_no_sunet[4.Use the Rackham remote desktop website]
   use_password_no_sunet[5.Use a terminal and password via Rackham]
   use_ssh_keys_no_sunet[Use a terminal and SSH keys via Rackham]

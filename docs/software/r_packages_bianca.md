@@ -54,11 +54,11 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 - manual download and install
     - <https://uppmax.github.io/bianca_workshops/extra/rpackages>
     - **NOTE** that if you install a package this way, you need to handle any dependencies yourself.
-        - For instance you might get use of our modules  
+        - For instance you might get use of our modules
 
 ### Transfer to wharf
 
-- You may transfer the whole R library (in you home folder)  
+- You may transfer the whole R library (in you home folder)
     - this is usually the easiest way
 - or select the directory(-ies) related to you new installation
     - **note** there may be more than one directory

@@ -64,7 +64,7 @@ Some online tutorials and courses:
 
     - It is possible to start Matlab on the Login node.
     - This can be a way to work if you
-    
+
         - work with just light analysis
         - just use Matlab to start batch jobs from the graphical user interface.
     - Then you should start matlab with just ONE thread

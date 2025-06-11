@@ -74,7 +74,7 @@ g++ -O3 -o hello_world hello_world.cpp
 Run the program:
 
 ```bash
-./a.out 
+./a.out
 ```
 
 Output:

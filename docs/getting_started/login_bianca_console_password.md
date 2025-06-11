@@ -54,7 +54,7 @@ ssh sven@bianca.uppmax.uu.se
 
     Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
 
-    (sven@bianca.uppmax.uu.se) Password: 
+    (sven@bianca.uppmax.uu.se) Password:
     ```
 
     After which a password will be asked. Go to the next step.
@@ -118,8 +118,8 @@ Type your UPPMAX password.
     ```bash
     Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
 
-    (sven@bianca.uppmax.uu.se) Password: 
-    (sven@bianca.uppmax.uu.se) 
+    (sven@bianca.uppmax.uu.se) Password:
+    (sven@bianca.uppmax.uu.se)
     ```
 
    After which you'll asked for your TOTP. Go to the next step.
@@ -132,7 +132,7 @@ for example `123456`, then press enter.
 ???- question "How does this look like?"
 
     ```bash
-    Second factor (TOTP UPPMAX): 
+    Second factor (TOTP UPPMAX):
     ```
 
    After which you'll asked for your Bianca project. Go to the next step.
@@ -195,7 +195,7 @@ for example `verysecret`
 ???- question "How does this look like?"
 
     ```bash
-    sven@sens2017625-bianca.uppmax.uu.se's password: 
+    sven@sens2017625-bianca.uppmax.uu.se's password:
     ```
 
 ### 7. You are in
@@ -210,8 +210,8 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
      _   _ ____  ____  __  __    _    __  __
     | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    sens2017625-bianca
     | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      sven
-    | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
-     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
+    | |_| |  __/|  __/| |  | |/ ___ \  /  \    |
+     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   |
 
     ###############################################################################
 
@@ -221,7 +221,7 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
             Write to support@uppmax.uu.se, if you have questions or comments.
 
 
-    [sven@sens2017625-bianca ~]$ 
+    [sven@sens2017625-bianca ~]$
     ````
 
 !!! note "How to behave on a login node"
@@ -264,7 +264,7 @@ flowchart TD
 
     error --> correct_password
     error --> in_sunet
-    
+
     in_sunet --> |yes| active_bianca_project
 
     correct_password --> |yes| correct_totp

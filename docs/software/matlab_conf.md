@@ -38,7 +38,7 @@ configCluster.sh <project-ID>    # Note: no '-A'
     ```bash
     ls -l .matlab/*/parallel.mlsettings
     ```
-    
+
     - Look for dates from May 2024 and onwards.
 
 -->

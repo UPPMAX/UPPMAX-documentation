@@ -31,22 +31,22 @@ module spider vartrix
         You will need to load all module(s) on any one of the lines below before the "vartrix/1.1.22" module is available to load.
 
           bioinfo-tools
-     
+
         Help:
-          vartrix - use vartrix 
-          
+          vartrix - use vartrix
+
           Description
-          
+
           Single-Cell Genotyping Tool
-          
+
           Version 1.1.22
-          
+
           https://github.com/10XGenomics/vartrix
-          
+
           Usage:
-              
+
               Example:
-          
+
               vartrix --bam $VARTRIX_TEST/test_dna.bam \
                       --cell-barcodes $VARTRIX_TEST/dna_barcodes.tsv \
                       --fasta $VARTRIX_TEST/test_dna.fa  \

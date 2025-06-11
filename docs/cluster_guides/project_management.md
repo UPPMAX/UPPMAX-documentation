@@ -49,7 +49,7 @@ How do I specify that I do not need my large datasets to be backed up?
 ???- question "How do I specify that I do not need my large datasets to be backed up?"
 
     If you create a folder named ``nobackup``, inside _any_ folder, then all data stored inside this folder will not be backed-up.
-    
+
     Simply move (``mv`` or ``rsync``) your data into a folder with the proper name.
 
     Also note that all projects  have a separate nobackup folder under the ``/proj/xyz/`` hierarchy (and also under the ``/proj/xyz/private/`` hierarchy) with a separate quota limit than the ordinary backed up project folder. You can read more about this in our [disk storage guide](disk_storage_guide.md).

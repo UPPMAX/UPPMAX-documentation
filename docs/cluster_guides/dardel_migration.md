@@ -185,14 +185,14 @@ darsync sshkey
      \___ \___ \| |_| | ' /|  _|  \ V /
       ___) |__) |  _  | . \| |___  | |
      |____/____/|_| |_|_|\_\_____| |_|
-           
+
     The sshkey module of this script will generate a SSH key pair that you can use to login to Dardel.
     It will create two files, one with the private key and one with the public key.
     The private key should be kept secret and the public key should be added to your authorized_keys file on Dardel.
 
 
 
-    
+
     Created SSH key: /home/sven/id_ed25519_pdc and /home/sven/id_ed25519_pdc.pub
 
     Content of the public key:
@@ -274,7 +274,7 @@ darsync check
 
       ____   ___  _   _ _____
      |  _ \ / _ \| \ | | ____|
-     | | | | | | |  \| |  _| 
+     | | | | | | |  \| |  _|
      | |_| | |_| | |\  | |___
      |____/ \___/|_| \_|_____|
 
@@ -293,7 +293,7 @@ darsync check
     file ownership (user/group) will look the same on Dardel as it does here.
     See ../cluster_guides/dardel_migration/#52-check-for-problems
     for more info about this.
-       
+
     ```
 
 ???- question "Can I also give the arguments on the command line?"
@@ -475,19 +475,19 @@ darsync gen
     Create one by running `dardel_ssh-keygen` if you have not done so yet.
     If no path is given it will use the default key created by `dardel_ssh-keygen`,
     ~/id_ed25519_pdc
-                       
+
     Specify SSH key:
 
 
     Specify where the Slurm script file should be saved.
     If not given it will save it here: ~/darsync_Documents.slurm
-                       
+
     Specify Slurm script path:
 
 
       ____   ___  _   _ _____
      |  _ \ / _ \| \ | | ____|
-     | | | | | | |  \| |  _| 
+     | | | | | | |  \| |  _|
      | |_| | |_| | |\  | |___
      |____/ \___/|_| \_|_____|
 
@@ -802,14 +802,14 @@ to see your project's disk usage on Rackham.
     [sven@rackham1 ~]$ uquota
     Your project       Your File Area           Unit        Usage  Quota Limit  Over Quota
     -----------------  -----------------------  -------  --------  -----------  ----------
-    home               /home/sven               GiB          17.6           32            
-    home               /home/sven               files      112808       300000            
-    naiss2024-22-1202  /proj/r-py-jl-m-rackham  GiB           6.1          128            
-    naiss2024-22-1202  /proj/r-py-jl-m-rackham  files       52030       100000            
-    naiss2024-22-1442  /proj/hpc-python-fall    GiB           0.0          128            
-    naiss2024-22-1442  /proj/hpc-python-fall    files           4       100000            
-    naiss2024-22-49    /proj/introtouppmax      GiB           5.1          128            
-    naiss2024-22-49    /proj/introtouppmax      files       20290       100000            
+    home               /home/sven               GiB          17.6           32
+    home               /home/sven               files      112808       300000
+    naiss2024-22-1202  /proj/r-py-jl-m-rackham  GiB           6.1          128
+    naiss2024-22-1202  /proj/r-py-jl-m-rackham  files       52030       100000
+    naiss2024-22-1442  /proj/hpc-python-fall    GiB           0.0          128
+    naiss2024-22-1442  /proj/hpc-python-fall    files           4       100000
+    naiss2024-22-49    /proj/introtouppmax      GiB           5.1          128
+    naiss2024-22-49    /proj/introtouppmax      files       20290       100000
     ```
 
 For PDC, read [their documentation here](https://support.pdc.kth.se/doc/contact/contact_support/):

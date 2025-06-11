@@ -3,7 +3,7 @@ tags:
   - puttygen
   - PuTTY Key Generator
   - software
-  - SSH 
+  - SSH
   - key
   - files
   - ppk

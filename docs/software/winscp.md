@@ -8,7 +8,7 @@ tags:
 
 # WinSCP
 
-WinSCP is a secure file transfer tool that works under Windows.  
+WinSCP is a secure file transfer tool that works under Windows.
 
 
 - [Transfer file to/from Bianca using WinSCP](bianca_file_transfer_using_winscp.md)

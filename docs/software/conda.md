@@ -76,7 +76,7 @@
 
 ???- question "Want to see the video 'Load and use Python packages on UPPMAX'?"
 
-    See the YouTube video 
+    See the YouTube video
     [how to load and use Python packages](https://youtu.be/novRJfAa2QA?si=IQM3g37TsimemDl6)
 
 See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)

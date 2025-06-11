@@ -202,7 +202,7 @@ python
     ```bash
     Python 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0] on linux
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> 
+    >>>
     ```
 
 ## Loading Python package modules

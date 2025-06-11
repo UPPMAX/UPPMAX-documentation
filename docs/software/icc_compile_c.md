@@ -44,7 +44,7 @@ icc hello_world.c
 Run the program:
 
 ```bash
-./a.out 
+./a.out
 ```
 
 Output:

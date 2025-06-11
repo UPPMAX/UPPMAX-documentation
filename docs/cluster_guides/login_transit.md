@@ -47,7 +47,7 @@ You are now logged in to Transit!
 
     ```console
     sven@sven-N141CU:~/GitHubs/UPPMAX-documentation/docs/cluster_guides$ ssh sven@transit.uppmax.uu.se
-    sven@transit.uppmax.uu.se's password: 
+    sven@transit.uppmax.uu.se's password:
     Last login: Tue May 14 07:32:22 2024 from vpnpool188-185.anst.uu.se
 
     Transit server

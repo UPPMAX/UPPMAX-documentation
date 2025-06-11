@@ -43,7 +43,7 @@ ifort hello_world.f
 Run the program:
 
 ```bash
-./a.out 
+./a.out
 ```
 
 Output:

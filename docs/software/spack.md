@@ -28,7 +28,7 @@ cd <good place>
 
 ``` console
 module load git
-git clone -c feature.manyFiles=true https://github.com/spack/spack.git 
+git clone -c feature.manyFiles=true https://github.com/spack/spack.git
 cd spack
 ```
 
@@ -184,7 +184,7 @@ Command |Option
 ## Use your tool
 
 ``` console
-$ spack load <tool>  
+$ spack load <tool>
 # module load of the install dependencies will not be needed here, since their paths are integrated in spack
 $ <tool> [<arguments>]
 ```

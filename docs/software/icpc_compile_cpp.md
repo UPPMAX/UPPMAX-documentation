@@ -26,7 +26,7 @@ In [nano](nano.md), write the C++ program as such:
 ```c++
 #include <iostream>
 
-int main() 
+int main()
 {
   std::cout << "hello, world\n";
 }
@@ -38,7 +38,7 @@ int main()
 After saving and closing nano, compile as such:
 
 ```bash
-icpc hello_world.cpp 
+icpc hello_world.cpp
 ```
 
 ### 4. Run the executable
@@ -46,7 +46,7 @@ icpc hello_world.cpp
 Run the program:
 
 ```bash
-./a.out 
+./a.out
 ```
 
 Output:

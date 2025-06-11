@@ -96,13 +96,13 @@ Save the file and close `nano`.
     On Bianca, do:
 
     ```bash
-    cat .ssh/authorized_keys 
+    cat .ssh/authorized_keys
     ```
 
     You should find your public key there. It looks similar to this:
 
     ```bash
-    [sven@sens2017625-bianca ~]$ cat .ssh/authorized_keys 
+    [sven@sens2017625-bianca ~]$ cat .ssh/authorized_keys
     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFGXV8fRK+cazt8qHX+fGS+w6WPOuE82Q19A12345678 Sven's key to UPPMAX
     ```
 
@@ -134,7 +134,7 @@ chmod 700 ~
     Second checkL
 
     ```bash
-    [richel@sens2017625-bianca ~]$ ls -ld .ssh/authorized_keys 
+    [richel@sens2017625-bianca ~]$ ls -ld .ssh/authorized_keys
     ```
 
     Output should be similar to:
@@ -219,7 +219,7 @@ and [its answer](https://unix.stackexchange.com/a/664213):
 On Bianca, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys 
+chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -227,7 +227,7 @@ chmod 700 ~
 On your local computer, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys 
+chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```

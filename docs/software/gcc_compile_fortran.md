@@ -72,7 +72,7 @@ gfortran -Ofast -o hello_world hello_world.f
 Run the program:
 
 ```bash
-./a.out 
+./a.out
 ```
 
 Output:

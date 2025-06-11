@@ -31,7 +31,7 @@ module spider cowsay
 
         Help:
            cowsay - use cowsay
-          
+
     ```
 
 Loading the latest version of the `cowsay` module:

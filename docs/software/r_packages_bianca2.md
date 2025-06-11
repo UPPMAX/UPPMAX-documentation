@@ -25,15 +25,15 @@ package e.g. documentation(vignettes), licensing and configuration files.
    ├── man
    │   └── hello.Rd
    └── r_example.Rproj
-   
+
 ```
 
 ## Installing your own packages
 
 Sometimes you will need R packages that are not already installed. The solution
-to this is to install your own packages.  
+to this is to install your own packages.
 
-- These packages will usually come from [CRAN](https://cran.r-project.org/) - the Comprehensive R Archive Network, or  
+- These packages will usually come from [CRAN](https://cran.r-project.org/) - the Comprehensive R Archive Network, or
 
 - sometimes from other places, like GitHub or R-Forge
 
@@ -62,7 +62,7 @@ should be empty and you can update it like this:
 
 ```sh
 
-    echo R_LIBS_USER=\"$HOME/R-packages-%V\" > ~/.Renviron  
+    echo R_LIBS_USER=\"$HOME/R-packages-%V\" > ~/.Renviron
 
 ```
 
@@ -72,7 +72,7 @@ own-installed R packages. It should look something like this when you are done:
 
 ```sh
 
-    R_LIBS_USER="/home/u/user/R-packages-%V"  
+    R_LIBS_USER="/home/u/user/R-packages-%V"
 
 ```
 
@@ -85,7 +85,7 @@ version 4.0.4:
 
 ```sh
 
-    mkdir -p $HOME/R-packages-4.0.4  
+    mkdir -p $HOME/R-packages-4.0.4
 
 ```
 
@@ -103,16 +103,16 @@ version 4.0.4:
 === "From command line"
 
     ```sh
-    R --quiet --no-save --no-restore -e "install.packages('<r-package>', repos='<repo>')"  
+    R --quiet --no-save --no-restore -e "install.packages('<r-package>', repos='<repo>')"
 
     ```
-    
+
 === "From inside R"
 
      ```R
-     install.packages('<r-package>', repos='<repo>')  
+     install.packages('<r-package>', repos='<repo>')
 
-     ```  
+     ```
 
 In either case, the dependencies of the package will be downloaded and installed as well.
 
@@ -122,7 +122,7 @@ In either case, the dependencies of the package will be downloaded and installed
 [https://uppmax.github.io/bianca_workshops/extra/rpackages/#automatic-download-and-install-from-github](https://uppmax.github.io/bianca_workshops/extra/rpackages/#automatic-download-and-install-from-github)
 
 If you want to install a package that is not on CRAN, but which do have a GitHub page, then there is an automatic way of installing, but you need to
-handle prerequisites yourself by installing those first.  
+handle prerequisites yourself by installing those first.
 
 - It can also be that the package is not in as finished a state as those on CRAN, so be careful.
 
@@ -133,7 +133,7 @@ handle prerequisites yourself by installing those first.
 This is how you install a package from GitHub, inside R:
 
 ```R
- 
+
     install.packages("devtools")   # ONLY ONCE
     devtools::install_github("DeveloperName/package")
 

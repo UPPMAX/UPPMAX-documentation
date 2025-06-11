@@ -71,4 +71,4 @@ Be sure to start the kernel with the virtual environment name, like "project A",
 ## Links
 
 - [The Jupyter project](https://jupyter.org/) contains a lot of information and inspiration
-- [The Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/)  
+- [The Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/)

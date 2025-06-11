@@ -69,7 +69,7 @@ Which will build a Singularity container called `my_container.sif`.
     You output will be similar to this:
 
     ```bash
-    sven@sven-N141CU:~/temp$ sudo singularity build my_container.sif Singularity 
+    sven@sven-N141CU:~/temp$ sudo singularity build my_container.sif Singularity
     INFO:    Starting build...
     INFO:    Fetching OCI image...
     307.6MiB / 307.6MiB [================================================================================================================================================] 100 % 0.0 b/s 0s
@@ -114,7 +114,7 @@ Which will build a Singularity container called `my_container.sif`.
     ─  checking for LF line-endings in source and make files and shell scripts
     ─  checking for empty or unneeded directories
     ─  building ‘preprocessCore_1.61.0.tar.gz’
-       
+
     Installing package into ‘/usr/local/lib/R/site-library’
     (as ‘lib’ is unspecified)
     * installing *source* package ‘preprocessCore’ ...
@@ -123,7 +123,7 @@ Which will build a Singularity container called `my_container.sif`.
     checking for gcc... gcc
     checking whether the C compiler works... yes
     checking for C compiler default output file name... a.out
-    checking for suffix of executables... 
+    checking for suffix of executables...
     checking whether we are cross compiling... no
     checking for suffix of object files... o
     checking whether we are using the GNU C compiler... yes
@@ -180,7 +180,7 @@ Which will build a Singularity container called `my_container.sif`.
           |                                                               int
           |                                                              %ld
       596 |                i, returnCode, *((int *) status));
-          |                ~                                               
+          |                ~
           |                |
           |                size_t {aka long unsigned int}
     qnorm.c:616:63: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
@@ -190,7 +190,7 @@ Which will build a Singularity container called `my_container.sif`.
           |                                                               int
           |                                                              %ld
       617 |                i, returnCode, *((int *) status));
-          |                ~                                               
+          |                ~
           |                |
           |                size_t {aka long unsigned int}
     qnorm.c: In function ‘qnorm_c_determine_target_l’:
@@ -201,7 +201,7 @@ Which will build a Singularity container called `my_container.sif`.
           |                                                               int
           |                                                              %ld
      2005 |                i, returnCode, *((int *) status));
-          |                ~                                               
+          |                ~
           |                |
           |                size_t {aka long unsigned int}
     qnorm.c: In function ‘qnorm_c_determine_target_via_subset_l’:
@@ -212,7 +212,7 @@ Which will build a Singularity container called `my_container.sif`.
           |                                                               int
           |                                                              %ld
      2605 |                i, returnCode, *((int *) status));
-          |                ~                                               
+          |                ~
           |                |
           |                size_t {aka long unsigned int}
     gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_STDLIB_H=1 -DUSE_PTHREADS=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rlm.c -o rlm.o
@@ -266,13 +266,13 @@ Run the container on the R script:
 
     ```bash
     sven@sven-N141CU:~/temp$ ./my_container.sif my_r_script.R
-    function (y) 
+    function (y)
     {
-        if (!is.matrix(y)) 
+        if (!is.matrix(y))
             stop("argument should be matrix")
-        if (!is.double(y) & is.numeric(y)) 
+        if (!is.double(y) & is.numeric(y))
             y <- matrix(as.double(y), dim(y)[1], dim(y)[2])
-        else if (!is.numeric(y)) 
+        else if (!is.numeric(y))
             stop("argument should be numeric matrix")
         .Call("R_colSummarize_avg_log", y, PACKAGE = "preprocessCore")
     }

@@ -73,8 +73,8 @@ Type your UPPMAX password.
 
     Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
 
-    (sven@bianca.uppmax.uu.se) Password: 
-    (sven@bianca.uppmax.uu.se) 
+    (sven@bianca.uppmax.uu.se) Password:
+    (sven@bianca.uppmax.uu.se)
     ```
 
 ## 4. Type your TOTP
@@ -84,7 +84,7 @@ Type your UPPMAX TOTP.
 ???- question "How does this look like?"
 
     ```bash
-    Second factor (TOTP UPPMAX): 
+    Second factor (TOTP UPPMAX):
     ```
 
 ## 5. Type your Bianca project's name

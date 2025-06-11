@@ -28,14 +28,14 @@ module spider tabix
      "tabix/0.2.6" module is available to load.
 
           bioinfo-tools
-     
+
         Help:
            tabix - use tabix 0.2.6
-          
+
            Version 0.2.6
-          
-          
-          
+
+
+
 
     ----------------------------------------------------------------------------
       To find other possible module matches execute:

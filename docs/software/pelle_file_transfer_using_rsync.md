@@ -78,7 +78,7 @@ rsync --recursive my_folder [username]@pelle.uppmax.uu.se:[target_folder]
 
 where
 
-- `[target_folder]` is the target folder  
+- `[target_folder]` is the target folder
 - `[username]` is your UPPMAX username
 
 for example:

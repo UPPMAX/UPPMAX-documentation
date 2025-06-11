@@ -10,7 +10,7 @@ This page describes how to compile Fortran code using `ifx`.
 Load a recent `intel` module:
 
 ```bash
-module load intel-oneapi 
+module load intel-oneapi
 module load compiler/2023.1.0
 ```
 
@@ -44,7 +44,7 @@ ifx hello_world.f
 Run the program:
 
 ```bash
-./a.out 
+./a.out
 ```
 
 Output:

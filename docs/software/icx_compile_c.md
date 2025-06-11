@@ -10,7 +10,7 @@ This page describes how to compile C code using `icx`.
 load an these modules:
 
 ``` console
-module load intel-oneapi 
+module load intel-oneapi
 module load compiler/2023.1.0
 ```
 
@@ -45,7 +45,7 @@ icx hello_world.c
 Run the program:
 
 ```bash
-./a.out 
+./a.out
 ```
 
 Output:

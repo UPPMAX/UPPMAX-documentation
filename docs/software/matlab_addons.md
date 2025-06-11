@@ -117,7 +117,7 @@
 
       >> kalmanf
       Unrecognized function or variable 'kalmanf'.
-    ```  
+    ```
 
     - OK, it is not there
     - Click "Add", and "Download and Add to path"
