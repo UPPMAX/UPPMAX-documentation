@@ -129,9 +129,10 @@ Just follow some tutorial on how to setup and use the virtual Linux environment.
 ## Contacts for the course
 
 ---
-[Pavlin Mitev](https://katalog.uu.se/profile/?id=N3-1425)
-[Jonas Söderberg](https://katalog.uu.se/empinfo/?id=N2-1277)
-[Lars Eklund](https://katalog.uu.se/empinfo/?id=N5-89)
-[Richel Bilderbeek](https://www.katalog.uu.se/empinfo/?id=N21-617)
-[UPPMAX](https://www.uu.se/en/centre/uppmax)
+
+- [Pavlin Mitev](https://katalog.uu.se/profile/?id=N3-1425)
+- [Jonas Söderberg](https://katalog.uu.se/empinfo/?id=N2-1277)
+- [Lars Eklund](https://katalog.uu.se/empinfo/?id=N5-89)
+- [Richel Bilderbeek](https://www.katalog.uu.se/empinfo/?id=N21-617)
+- [UPPMAX](https://www.uu.se/en/centre/uppmax)
 
