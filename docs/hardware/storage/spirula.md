@@ -94,5 +94,28 @@ endpoint_url = https://s3.spirula.uppmax.uu.se:8443
 ```
 
 Full usage instructions and configuration options for `aws cli`  are available
-through AWS
-[documentation](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html).
+through [AWS
+documentation](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html).
+
+### Example of using AWS CLI
+
+After retrieving your credentials using the _SSH to S3 credential service_, you can store them e.g. in a credentials file in your AWS CLI configuration directory, as per the following [instructions in the AWS documentation](https://docs.aws.amazon.com/cli/v1/userguide/cli-authentication-short-term.html). 
+
+With that done, you can access your storage area on Spirula using the AWS CLI. To see which areas you have access to, run `aws s3 ls` and you should see something like:
+
+```sh
+aws s3 ls
+2023-11-29 13:07:57 testuser-nobackup-insecure
+2025-03-06 10:44:15 sll2021001-testuser-nobackup
+```
+
+To view the contents of an area, run e.g. `aws s3 ls sll2021001-testuser-nobackup`. 
+
+Suppose you have a file called `testfile` in your current working directory. To upload it, run:
+
+```sh
+aws s3 cp ./testfile s3://sll2021001-testuser-nobackup/
+upload: ./testfile to s3://sll2021001-testuser-nobackup/testfile 
+```
+
+For more information about basic `aws s3` commands, see the [AWS documentation](https://docs.aws.amazon.com/cli/v1/userguide/cli-services-s3-commands.html).
