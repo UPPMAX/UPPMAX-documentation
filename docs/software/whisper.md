@@ -75,10 +75,10 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
 
 !!! info inline end "Checklist for new project"
 
-    * [x] SUPR account
-    * [x] Submit project proposal
-    * [x] UPPMAX username and password
-    * [x] UPPMAX two factor authentication.
+    - [x] SUPR account
+    - [x] Submit project proposal
+    - [x] UPPMAX username and password
+    - [x] UPPMAX two factor authentication.
 
 
 ## Accessing your project
@@ -133,15 +133,15 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
 
     Select appropriate options, or use the following for the best results:
 
-    * **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]
+    - **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]
 
-    * **Language used in recordings (leave blank for autodetection)**: If you have multiple languages in the selected recordings or you are unsure about the spoken language, leave it blank. If your language of choice is unavailable in the drop down, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).
+    - **Language used in recordings (leave blank for autodetection)**: If you have multiple languages in the selected recordings or you are unsure about the spoken language, leave it blank. If your language of choice is unavailable in the drop down, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).
 
-    * **Select whether to transcribe or translate (english only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].
+    - **Select whether to transcribe or translate (english only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].
 
-    * **Model**: large-v2
+    - **Model**: large-v2
 
-    * **Initial Prompt**: [leave blank]
+    - **Initial Prompt**: [leave blank]
 
     ??? tip "Video Demo"
 
@@ -195,122 +195,122 @@ On Mac, `.txt`, `.srt` and `.vtt` can be opened in Word by:
 
     Following languages are available for transcribing. If your language of choice does not appear in Whisper application but is listed here, [contact support](https://supr.naiss.se/support/):
 
-    `en`: "english",
-    `zh`: "chinese",
-    `de`: "german",
-    `es`: "spanish",
-    `ru`: "russian",
-    `ko`: "korean",
-    `fr`: "french",
-    `ja`: "japanese",
-    `pt`: "portuguese",
-    `tr`: "turkish",
-    `pl`: "polish",
-    `ca`: "catalan",
-    `nl`: "dutch",
-    `ar`: "arabic",
-    `sv`: "swedish",
-    `it`: "italian",
-    `id`: "indonesian",
-    `hi`: "hindi",
-    `fi`: "finnish",
-    `vi`: "vietnamese",
-    `he`: "hebrew",
-    `uk`: "ukrainian",
-    `el`: "greek",
-    `ms`: "malay",
-    `cs`: "czech",
-    `ro`: "romanian",
-    `da`: "danish",
-    `hu`: "hungarian",
-    `ta`: "tamil",
-    `no`: "norwegian",
-    `th`: "thai",
-    `ur`: "urdu",
-    `hr`: "croatian",
-    `bg`: "bulgarian",
-    `lt`: "lithuanian",
-    `la`: "latin",
-    `mi`: "maori",
-    `ml`: "malayalam",
-    `cy`: "welsh",
-    `sk`: "slovak",
-    `te`: "telugu",
-    `fa`: "persian",
-    `lv`: "latvian",
-    `bn`: "bengali",
-    `sr`: "serbian",
-    `az`: "azerbaijani",
-    `sl`: "slovenian",
-    `kn`: "kannada",
-    `et`: "estonian",
-    `mk`: "macedonian",
-    `br`: "breton",
-    `eu`: "basque",
-    `is`: "icelandic",
-    `hy`: "armenian",
-    `ne`: "nepali",
-    `mn`: "mongolian",
-    `bs`: "bosnian",
-    `kk`: "kazakh",
-    `sq`: "albanian",
-    `sw`: "swahili",
-    `gl`: "galician",
-    `mr`: "marathi",
-    `pa`: "punjabi",
-    `si`: "sinhala",
-    `km`: "khmer",
-    `sn`: "shona",
-    `yo`: "yoruba",
-    `so`: "somali",
-    `af`: "afrikaans",
-    `oc`: "occitan",
-    `ka`: "georgian",
-    `be`: "belarusian",
-    `tg`: "tajik",
-    `sd`: "sindhi",
-    `gu`: "gujarati",
-    `am`: "amharic",
-    `yi`: "yiddish",
-    `lo`: "lao",
-    `uz`: "uzbek",
-    `fo`: "faroese",
-    `ht`: "haitian creole",
-    `ps`: "pashto",
-    `tk`: "turkmen",
-    `nn`: "nynorsk",
-    `mt`: "maltese",
-    `sa`: "sanskrit",
-    `lb`: "luxembourgish",
-    `my`: "myanmar",
-    `bo`: "tibetan",
-    `tl`: "tagalog",
-    `mg`: "malagasy",
-    `as`: "assamese",
-    `tt`: "tatar",
-    `haw`: "hawaiian",
-    `ln`: "lingala",
-    `ha`: "hausa",
-    `ba`: "bashkir",
-    `jw`: "javanese",
-    `su`: "sundanese",
-    `yue`: "cantonese"
+    - `en`: "english",
+    - `zh`: "chinese",
+    - `de`: "german",
+    - `es`: "spanish",
+    - `ru`: "russian",
+    - `ko`: "korean",
+    - `fr`: "french",
+    - `ja`: "japanese",
+    - `pt`: "portuguese",
+    - `tr`: "turkish",
+    - `pl`: "polish",
+    - `ca`: "catalan",
+    - `nl`: "dutch",
+    - `ar`: "arabic",
+    - `sv`: "swedish",
+    - `it`: "italian",
+    - `id`: "indonesian",
+    - `hi`: "hindi",
+    - `fi`: "finnish",
+    - `vi`: "vietnamese",
+    - `he`: "hebrew",
+    - `uk`: "ukrainian",
+    - `el`: "greek",
+    - `ms`: "malay",
+    - `cs`: "czech",
+    - `ro`: "romanian",
+    - `da`: "danish",
+    - `hu`: "hungarian",
+    - `ta`: "tamil",
+    - `no`: "norwegian",
+    - `th`: "thai",
+    - `ur`: "urdu",
+    - `hr`: "croatian",
+    - `bg`: "bulgarian",
+    - `lt`: "lithuanian",
+    - `la`: "latin",
+    - `mi`: "maori",
+    - `ml`: "malayalam",
+    - `cy`: "welsh",
+    - `sk`: "slovak",
+    - `te`: "telugu",
+    - `fa`: "persian",
+    - `lv`: "latvian",
+    - `bn`: "bengali",
+    - `sr`: "serbian",
+    - `az`: "azerbaijani",
+    - `sl`: "slovenian",
+    - `kn`: "kannada",
+    - `et`: "estonian",
+    - `mk`: "macedonian",
+    - `br`: "breton",
+    - `eu`: "basque",
+    - `is`: "icelandic",
+    - `hy`: "armenian",
+    - `ne`: "nepali",
+    - `mn`: "mongolian",
+    - `bs`: "bosnian",
+    - `kk`: "kazakh",
+    - `sq`: "albanian",
+    - `sw`: "swahili",
+    - `gl`: "galician",
+    - `mr`: "marathi",
+    - `pa`: "punjabi",
+    - `si`: "sinhala",
+    - `km`: "khmer",
+    - `sn`: "shona",
+    - `yo`: "yoruba",
+    - `so`: "somali",
+    - `af`: "afrikaans",
+    - `oc`: "occitan",
+    - `ka`: "georgian",
+    - `be`: "belarusian",
+    - `tg`: "tajik",
+    - `sd`: "sindhi",
+    - `gu`: "gujarati",
+    - `am`: "amharic",
+    - `yi`: "yiddish",
+    - `lo`: "lao",
+    - `uz`: "uzbek",
+    - `fo`: "faroese",
+    - `ht`: "haitian creole",
+    - `ps`: "pashto",
+    - `tk`: "turkmen",
+    - `nn`: "nynorsk",
+    - `mt`: "maltese",
+    - `sa`: "sanskrit",
+    - `lb`: "luxembourgish",
+    - `my`: "myanmar",
+    - `bo`: "tibetan",
+    - `tl`: "tagalog",
+    - `mg`: "malagasy",
+    - `as`: "assamese",
+    - `tt`: "tatar",
+    - `haw`: "hawaiian",
+    - `ln`: "lingala",
+    - `ha`: "hausa",
+    - `ba`: "bashkir",
+    - `jw`: "javanese",
+    - `su`: "sundanese",
+    - `yue`: "cantonese"
 
 ## Proposal template
 
 Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:
 
-* **Project Title** : Whisper service for [Name of the project]
+- **Project Title** : Whisper service for [Name of the project]
 
-* **Abstract**: [What is the project about, give links, funding info, duration etc.]
+- **Abstract**: [What is the project about, give links, funding info, duration etc.]
 
-* **Resource Usage**:  [Explain where the recordings are derived from, like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or translation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.]
+- **Resource Usage**:  [Explain where the recordings are derived from, like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or translation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.]
 
-* **Abridged Data Management Plan**:  [Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.]
+- **Abridged Data Management Plan**:  [Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.]
 
-* **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]
+- **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]
 
-* **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
+- **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
 
 ??? note "Module Loading"
 
