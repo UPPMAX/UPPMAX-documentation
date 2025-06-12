@@ -173,6 +173,7 @@ Same examples as before but with `--threads-per-core=1`:
 - `--ntasks=1 --cpus-per-task=4 --threads-per-core=1` - 4 cores (8 threads, 4 unused)
 - `--ntasks=2 --cpus-per-task=3 --threads-per-core=1` - 6 cores (12 threads, 6 unused)
 
+
 When doing this you should launch your tasks using `srun` to ensure
 your processes gets pinned to the correct CPUs (threads), one per
 core.
