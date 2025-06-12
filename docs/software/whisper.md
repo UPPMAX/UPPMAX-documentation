@@ -18,26 +18,33 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
 
     Like all other AI models, Whisper too hallucinates while transcribing or translating. ie, "make-up" words or even sentences, resulting in misinterpretation or misrepresentation of the speaker.
 
-
 ??? info "Quality of transcriptions/ translations and audio formats"
 
-    Transcriptions (error rate):-  Swedish: ~10% , English: ~5% , English with heavy accent: ~ 20%
+    Transcriptions (error rate):
 
-    Translations:- Any to English: "DeepL" level performance. Slightly better than google translate.
+    - Swedish: ~10%
+    - English: ~5%
+    - English with heavy accent: ~ 20%
+
+    Translations:
+
+    - Any to English: "DeepL" level performance. Slightly better than google translate.
 
     Supported file types: mp3, mp4, mpeg, mpga, m4a, wav, webm and wma.
 
-    Quality as a factor of duration of recordings:-
-    A few minutes: Excellent
-    A few minutes to an hour: Excellent at the beginning, then detoriates.
-    An hour or more: Excellent at the beginning, then detoriates.
+    Quality as a factor of duration of recordings:
 
-    Quality as a factor of noise and count of speakers:-
-    2 speakers: Excellent
-    Background noise: Good
-    2+ speakers: Very Good
-    Conversational overlap: Average. Difficulty disambiguating speakers.
-    Long silences: Good. Might repeat sentences and get stuck in loop.
+    - A few minutes: Excellent
+    - A few minutes to an hour: Excellent at the beginning, then detoriates.
+    - An hour or more: Excellent at the beginning, then detoriates.
+
+    Quality as a factor of noise and count of speakers:
+
+    - 2 speakers: Excellent
+    - Background noise: Good
+    - 2+ speakers: Very Good
+    - Conversational overlap: Average. Difficulty disambiguating speakers.
+    - Long silences: Good. Might repeat sentences and get stuck in loop.
 
     Whisper also tries to give separate sentences for different speakers. But it is not guaranteed.
 
@@ -56,15 +63,15 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
 
 ## Glossary
 
-**SUPR account** : Gives access to project management account for submitting project proposals on SUPR.
-**UPPMAX account** : Gives access to UPPMAX servers, like Bianca.
-**GUI** : Graphical User Interface for taking transcription/translation inputs.
-**WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
-**Terminal** : Black text-based environment that is used for performing jobs.
-**Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
-**Proj**: project folder in Bianca that is shared among all project members.
-**Job**: A request for transcribing/translating one or many recordings.
-**Slurm**: "job" handler.
+- **SUPR account** : Gives access to project management account for submitting project proposals on SUPR.
+- **UPPMAX account** : Gives access to UPPMAX servers, like Bianca.
+- **GUI** : Graphical User Interface for taking transcription/translation inputs.
+- **WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
+- **Terminal** : Black text-based environment that is used for performing jobs.
+- **Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
+- **Proj**: project folder in Bianca that is shared among all project members.
+- **Job**: A request for transcribing/translating one or many recordings.
+- **Slurm**: "job" handler.
 
 !!! info inline end "Checklist for new project"
 
@@ -157,13 +164,19 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
 ### Output files
 
 By default you receive 5 types of output files for each file you transcribe/translate:
-With timestamps: `.srt`, `.vtt`, `.tsv`
-Without timestamps: `.txt`
-With detailed model metadata: `.json`.
-The most popular ones are `.srt` and `.txt` formats.
+
+- With timestamps: `.srt`, `.vtt`, `.tsv`
+- Without timestamps: `.txt`
+- With detailed model metadata: `.json`.
+- The most popular ones are `.srt` and `.txt` formats.
 
 On Mac, `.txt`, `.srt` and `.vtt` can be opened in Word by:
-Tap with two fingers. Select Encoding as "Unicode (UTF-8)". Change the name of the file like `some_name.docx` and change type of file to `.docx`. Open the file and then Save As a new file.
+
+- Tap with two fingers
+- Select Encoding as "Unicode (UTF-8)"
+- Change the name of the file like `some_name.docx` and change type of file to `.docx`
+- Open the file and then Save As a new file.
+
 ![Mac setting for UTF-8 export](../img/mac_utf8.png){: style="height:90%;width:90%"}
 
 ??? tip "Advance settings"

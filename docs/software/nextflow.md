@@ -125,7 +125,9 @@ module load nf-core   # this also load the nextflow and java as requirements
 
 <!-- markdownlint-enable MD029 -->
 
-Note: you might need `-c configs/conf/uppmax.config`,  make sure you have the file (it is an option to download it during the pipeline download process).
+Note: you might need `-c configs/conf/uppmax.config`,
+make sure you have the file
+(it is an option to download it during the pipeline download process).
 [https://github.com/nf-core/configs/blob/master/conf/uppmax.config](https://github.com/nf-core/configs/blob/master/conf/uppmax.config)
 [https://nf-co.re/configs/uppmax](https://nf-co.re/configs/uppmax)
 
