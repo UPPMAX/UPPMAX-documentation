@@ -76,7 +76,7 @@ We are working on installing more software packages.
 
 ## Slurm
 
-Slurm on Pelle have been upgraded to version 24.11.
+Slurm on Pelle have been upgraded to version 25.05.
 
 Several UPPMAX-specific Slurm changes from previous
 clusters have been removed, to make the config use more Slurm
