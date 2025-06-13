@@ -11,12 +11,11 @@ TensorFlow is available in multiple variants:
 
 ## TensorFlow as a Python package for CPU
 
-TensorFlow as a Python package for CPU
-that works on [Rackham](../cluster_guides/rackham.md).
-
 It is part of the `python_ML_packages/[version]-cpu`
 [modules](../cluster_guides/modules.md), where `[version]` is a version,
 for example, `python_ML_packages/3.11.8-cpu`.
+
+Only `3.9.5-cpu` and `3.9.5-gpu` are available on Bianca.
 
 ???- question "How to test TensorFlow as a Python package for CPU?"
 
@@ -48,8 +47,6 @@ for example, `python_ML_packages/3.11.8-cpu`.
     The output is correct: this is the CPU version.
 
 ## TensorFlow as a Python package for GPU
-
-TensorFlow as a Python package for GPU that works on [Bianca](../cluster_guides/bianca.md) and [Snowy](../cluster_guides/snowy.md).
 
 It is part of the `python_ML_packages/[version]-gpu`
 [modules](../cluster_guides/modules.md), where `[version]` is a version,
