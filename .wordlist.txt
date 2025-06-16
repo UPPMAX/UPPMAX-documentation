@@ -987,3 +987,5 @@ scalability
 SMT
 GiB
 MazeMap
+EBC
+apptainer
