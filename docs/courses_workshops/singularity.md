@@ -15,15 +15,17 @@ To fully benefit from the workshop, basic Linux system administration experience
 
 📚 [Workshop tutorial material](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
 
-Please follow the [instructions](https://pmitev.github.io/UPPMAX-Singularity-workshop/installation/) to install Singularity on your computer.
+Please follow the [instructions](https://pmitev.github.io/UPPMAX-Singularity-workshop/installation/) 
+to install Singularity on your computer or, alterntively, use apptainer provided by your computer center. 
+Please, follow the center provided [instructions](https://uppmax.github.io/Basic_Singularity_Apptainer/fakeroot/).
 
 ## WORKSHOP INFORMATION
 
 🌍 Place: Zoom: link will be sent to applicants
 
-📅 Date and time: 13 February, 2025: 9:15-12:00; 13:15-16:00
+📅 Date and time: 13 October, 2025: 9:15-12:00; 13:15-16:00
 
-📝 [Registration form](https://forms.gle/2mgKujuzwKxQskhX6)
+📝 [Registration form](https://forms.gle/6oA4AKBaF6JmVQ2L6)
 
 ## Contacts for the workshop
 
