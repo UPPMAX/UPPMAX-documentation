@@ -50,12 +50,6 @@ Course dates are (or should be) provided at each course's website.
 
 [Using Python in an HPC environment part 1 <br> Dec 1-2_](hpc_python.md){ .md-button .md-button--primary }
 
-
-### Every month
-
-[Monthly Workshop Series: Whisper Transcription demonstration <br> _XXX_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-04-10-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
-
-
 ## About the courses
 
 ### Learn UPPMAX systems
