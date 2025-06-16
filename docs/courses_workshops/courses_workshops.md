@@ -26,7 +26,7 @@ Course dates are (or should be) provided at each course's website.
 
 ### September
 
-[Transferring files to/from HPC Clusters <br> _Sep 5_](naiss_transfer.md){ .md-button .md-button--primary }
+[Log in and transfer files to/from HPC Clusters <br> _Sep 5_](naiss_transfer.md){ .md-button .md-button--primary }
 
 [Introduction to Bianca: Handling Sensitive Research Data <br> _Sep 15_](bianca_intro.md){ .md-button .md-button--primary }
 
