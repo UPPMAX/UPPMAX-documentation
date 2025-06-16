@@ -22,7 +22,7 @@ Course dates are (or should be) provided at each course's website.
 
 [Introduction to Linux and UPPMAX <br> _Aug 25-27_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
-[To awk or not <br> _Aug 28-29_](https://pmitev.github.io/to-awk-or-not/){ .md-button .md-button--primary }
+[Awk workshop <br> _Aug 28-29_](https://docs.uppmax.uu.se/courses_workshops/awk/){ .md-button .md-button--primary }
 
 ### September
 
@@ -30,16 +30,17 @@ Course dates are (or should be) provided at each course's website.
 
 [Introduction to Bianca: Handling Sensitive Research Data <br> _Sep 15_](bianca_intro.md){ .md-button .md-button--primary }
 
-
 ### October
 
 [Introduction to running R, MATLAB, and Julia in HPC <br> _Oct 6+8-10_](R_matlab_julia.md){ .md-button .md-button--primary }
 
+[Basic Singularity: Running and building Singularity containers <br> _Oct 13_](https://docs.uppmax.uu.se/courses_workshops/singularity/){ .md-button .md-button--primary }
+
 [Introduction to Python <br> _Oct 14_](intro_to_python.md){ .md-button .md-button--primary }
 
-### November
+[Programming formalisms <br> _Oct 23-24 + 27-29_](programming_formalisms.md){ .md-button .md-button--primary }
 
-[Programming formalisms <br> _XXX_](programming_formalisms.md){ .md-button .md-button--primary }
+### November
 
 [Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _XXX_](bianca_intermediate.md){ .md-button .md-button--primary }
 
@@ -79,8 +80,8 @@ a NAISS HPC cluster for sensitive data.
 - [NAISS Introduction to LINUX](https://www.hpc2n.umu.se/events/courses/2025/spring/2/linux-intro)
 - [NAISS Intermediate Bash and Linux](https://www.hpc2n.umu.se/events/courses/2025/spring/intermediate-linux)
 - [NAISS File transfer](naiss_transfer.md)
-- [To awk or not](https://pmitev.github.io/to-awk-or-not/)
-- [Basic Singularity](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/basic-singularity )
+- [Awk workshop](https://docs.uppmax.uu.se/courses_workshops/awk/)
+- [Basic Singularity](https://docs.uppmax.uu.se/courses_workshops/singularity/)
 
 ### General Programming
 
