@@ -16,7 +16,7 @@ To fully benefit from the workshop, basic Linux system administration experience
 📚 [Workshop tutorial material](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
 
 Please follow the [instructions](https://pmitev.github.io/UPPMAX-Singularity-workshop/installation/) 
-to install Singularity on your computer or, alterntively, use apptainer provided by your computer center. 
+to install Singularity on your computer or, alternatively, use apptainer provided by your computer center. 
 Please, follow the center provided [instructions](https://uppmax.github.io/Basic_Singularity_Apptainer/fakeroot/).
 
 ## WORKSHOP INFORMATION
