@@ -28,20 +28,20 @@ issues and to prioritise our work. Please send feedback to
 
 Some ideas of things we would like to know about:
 
-* You find something that is not working. But please check if it
+- You find something that is not working. But please check if it
   already mentioned as a known issue on this page first.
 
-* You find something confusing or weird
+- You find something confusing or weird
 
-* Performance issues
+- Performance issues
 
-* Software not working
+- Software not working
 
-* Missing software
+- Missing software
 
-* Something that can be improved
+- Something that can be improved
 
-* Things that are working great
+- Things that are working great
 
 ## Log in
 
@@ -184,11 +184,11 @@ core.
 
 Some UPPMAX specific tools are not yet working on Pelle.
 
-* `uquota` - works.
-* `projinfo` - not implemented yet.
-* `finishedjobinfo` - use `sacct` instead
-* `jobinfo` - use tools like `squeue` and `sprio` instead
-* `jobstats` - not working on Pelle. Might be replaced by an alternative solution.
+- `uquota` - works.
+- `projinfo` - not implemented yet.
+- `finishedjobinfo` - use `sacct` instead
+- `jobinfo` - use tools like `squeue` and `sprio` instead
+- `jobstats` - not working on Pelle. Might be replaced by an alternative solution.
 
 ### Missing projects
 
