@@ -22,13 +22,13 @@ Course dates are (or should be) provided at each course's website.
 
 [Introduction to Linux and UPPMAX <br> _Aug 25-27_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
-[To awk or not <br> _Aug 28-29_](https://pmitev.github.io/to-awk-or-not/)
+[To awk or not <br> _Aug 28-29_](https://pmitev.github.io/to-awk-or-not/){ .md-button .md-button--primary }
 
 ### September
 
 [Transferring files to/from HPC Clusters <br> _Sep 5_](naiss_transfer.md){ .md-button .md-button--primary }
 
-[Introduction to Bianca: Handling Sensitive Research Data <br> _Sep 15_](bianca_intro.md)
+[Introduction to Bianca: Handling Sensitive Research Data <br> _Sep 15_](bianca_intro.md){ .md-button .md-button--primary }
 
 
 ### October
