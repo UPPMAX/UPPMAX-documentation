@@ -18,35 +18,41 @@ Course dates are (or should be) provided at each course's website.
 
 ## Upcoming courses administered by UPPMAX
 
-### March
-
-[DONE Introduction to running R, MATLAB, and Julia in HPC <br> _Mar 24-26_](R_matlab_julia.md){ .md-button .md-button--primary }
-
-### April
-
-[Monthly Workshop Series: Whisper Transcription demonstration <br> _Apr 10_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-04-10-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
-
-[Introduction to Python <br> _April 24_](intro_to_python.md){ .md-button .md-button--primary }
-
-[Using Python in an HPC environment <br> _Apr (24)/25-29_](hpc_python.md){ .md-button .md-button--primary }
-
-### May
-
-[Monthly Workshop Series: Whisper Transcription demonstration <br> _May 5_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-05-05-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
-
-[Programming formalisms <br> _May 5-9_](programming_formalisms.md){ .md-button .md-button--primary }
-
-[Transferring files to/from HPC Clusters <br> _May 16_](naiss_transfer.md){ .md-button .md-button--primary }
-
-[Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _May 23_](bianca_intermediate.md){ .md-button .md-button--primary }
-
 ### August
 
-[Introduction to Linux and UPPMAX <br> August 25-27](uppmax_intro_course.md){ .md-button .md-button--primary }
+[Introduction to Linux and UPPMAX <br> _Aug 25-27_](uppmax_intro_course.md){ .md-button .md-button--primary }
+
+[To awk or not <br> _Aug 28-29_](https://pmitev.github.io/to-awk-or-not/)
+
+### September
+
+[Transferring files to/from HPC Clusters <br> _Sep 5_](naiss_transfer.md){ .md-button .md-button--primary }
+
+[Introduction to Bianca: Handling Sensitive Research Data <br> _Sep 15_](bianca_intro.md)
+
 
 ### October
 
-[Programming formalisms <br> Oct 20-24](programming_formalisms.md){ .md-button .md-button--primary }
+[Introduction to running R, MATLAB, and Julia in HPC <br> _Oct 6+8-10_](R_matlab_julia.md){ .md-button .md-button--primary }
+
+[Introduction to Python <br> _Oct 14_](intro_to_python.md){ .md-button .md-button--primary }
+
+### November
+
+[Programming formalisms <br> _XXX_](programming_formalisms.md){ .md-button .md-button--primary }
+
+[Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _XXX_](bianca_intermediate.md){ .md-button .md-button--primary }
+
+[Using Python in an HPC environment part 2 <br> _Nov 27-28](hpc_python.md){ .md-button .md-button--primary }
+
+### December
+
+[Using Python in an HPC environment part 1 <br> Dec 1-2_](hpc_python.md){ .md-button .md-button--primary }
+
+
+### Every month
+
+[Monthly Workshop Series: Whisper Transcription demonstration <br> _XXX_](https://www.uu.se/en/centre/digital-humanities-and-social-sciences/events/archive/2025-04-10-monthly-workshop-series-whisper-transcription-demonstration){ .md-button .md-button--primary }
 
 
 ## About the courses
