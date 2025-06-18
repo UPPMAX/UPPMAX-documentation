@@ -15,6 +15,10 @@ Learn how to apply for a project by following the link below:
 Are you interested in other services, e.g. large volume data storage?
 Let us know by [contacting UPPMAX Support](../support.md)!
 
+You may want to see what other NAISS centers can offer, as well. 
+
+- [NAISS resouces](https://www.naiss.se/resources/)
+
 ## Users
 
 The workflow is like this:
@@ -23,7 +27,6 @@ The workflow is like this:
 2. Accept a user agreement
 3. Become a member of a project
 4. Apply for an account at UPPMAX (or other resources)
-
 
 Once you or someone in your group or collaboration has a project, you must apply for a user account by following the link below.
 
