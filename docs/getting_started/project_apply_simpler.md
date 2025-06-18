@@ -22,7 +22,7 @@ This page describes how to apply for a SIMPLER project.
 
 The SIMPLER infrastructure offers resources on the SNIC NAISS platform, Bianca, for users who have been granted access to SIMPLER data. This page contains instructions to approved SIMPLER users for gaining access to their data on the analysis platform.
 
-Some background: This page is only for SIMPLER users (for more information see http://www.simpler4health.se/). To gain access to your SIMPLER data, simply follow the instructions on this page.
+Some background: This page is only for SIMPLER users (for more information see [SIMPLER4Health](http://www.simpler4health.se/)). To gain access to your SIMPLER data, simply follow the instructions on this page.
 
 These instructions will help you:
 
