@@ -74,11 +74,11 @@ rackham2.uppmax.uu.se has address 89.44.250.83
   for example:
 
 ```bash
-host 89.44.250.83t
+host 89.44.250.83
 ```
 
 which should give something similar to:
 
 ```bash
-89.44.250.83.in-addr.arpa domain name pointer tintin1.uppmax.uu.se
+89.44.250.83.in-addr.arpa domain name pointer rackham2.uppmax.uu.se
 ```
