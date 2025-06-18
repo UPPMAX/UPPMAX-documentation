@@ -42,13 +42,13 @@ If you are a PI: apply for a project in SUPR.
   i.e. a project that provides an online service, e.g. a website
 - [Apply for a SIMPLER project](project_apply_simpler.md),
   i.e. a project for the Swedish Infrastructure for Medical Population-based Life-course and Environmental Research
-- [Other applications](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects)
+- [Undergraduate course project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/course)
 
 ## Become a member of a project
 
 If you are not a PI: Apply for membership in a project you want to join in SUPR, Wait for the PI to accept your application. Alternatively, the PI can add you directly.
 
-- [join an existing project](join_existing_project.md).
+- [Join an existing project](join_existing_project.md).
 
 ???- question "I just got an UPPMAX project, yet I cannot login to UPPMAX?"
 
