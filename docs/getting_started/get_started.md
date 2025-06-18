@@ -17,7 +17,7 @@ Let us know by [contacting UPPMAX Support](../support.md)!
 
 You may want to see what other NAISS centers can offer, as well. 
 
-- [NAISS resouces](https://www.naiss.se/resources/)
+- [NAISS resources](https://www.naiss.se/resources/)
 
 ## Users
 
