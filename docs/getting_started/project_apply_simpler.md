@@ -18,6 +18,10 @@ tags:
 To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).
 This page describes how to apply for a SIMPLER project.
 
+## Read this first
+
+[Applying for a SIMPLER project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/simpler)
+
 ## Procedure
 
 ???- question "Prefer a video?"
