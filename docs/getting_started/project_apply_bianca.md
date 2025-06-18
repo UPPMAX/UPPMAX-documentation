@@ -17,10 +17,9 @@ This page describes how to apply to a Bianca/Sens project.
 
     [Should I use Bianca or another cluster?](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/apply-for-projects/should-i-use-bianca-or-rackham)
 
-## Pre-preparations, read this first!
+## Pre-preparations, read this first
     
-- [Applying for NAISS SENS project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/apply-for-projects/applying-for-naiss-sens-project) 
-
+- [Applying for NAISS SENS project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/apply-for-projects/applying-for-naiss-sens-project)
 
 ## Procedure for project application
 
