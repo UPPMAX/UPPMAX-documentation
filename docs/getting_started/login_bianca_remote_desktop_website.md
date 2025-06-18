@@ -82,11 +82,11 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 
 Fill in the first dialog.
 
-Do use the `UPPMAX` [2-factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) (i.e. not SUPR!)
+Do use the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!)
 
 ???- question "How do I setup 2-factor authentication?"
 
-    See the guide at [2-factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor)
+    See the guide at [2-factor authentication](get_uppmax_2fa.md)
     to setup an UPPMAX 2-factor authentication method.
 
     You really need to use the UPPMAX 2-factor authentication,
