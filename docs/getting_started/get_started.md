@@ -15,7 +15,7 @@ Learn how to apply for a project by following the link below:
 Are you interested in other services, e.g. large volume data storage?
 Let us know by [contacting UPPMAX Support](../support.md)!
 
-You may want to see what other NAISS centers can offer, as well. 
+You may want to see what other NAISS centers can offer, as well.
 
 - [NAISS resources](https://www.naiss.se/resources/)
 
