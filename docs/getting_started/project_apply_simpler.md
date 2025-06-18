@@ -20,7 +20,18 @@ This page describes how to apply for a SIMPLER project.
 
 ## Read this first
 
-[Applying for a SIMPLER project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/simpler)
+The SIMPLER infrastructure offers resources on the SNIC NAISS platform, Bianca, for users who have been granted access to SIMPLER data. This page contains instructions to approved SIMPLER users for gaining access to their data on the analysis platform.
+
+Some background: This page is only for SIMPLER users (for more information see http://www.simpler4health.se/). To gain access to your SIMPLER data, simply follow the instructions on this page.
+
+These instructions will help you:
+
+- Create an account on SUPR, the user and project management portal for the Swedish National Infrastructure for Computing.
+- Create a project for your SIMPLER data.
+- Create a user account for the Bianca system, where your data will be accessible.
+- Log in to your project on Bianca.
+
+[Old page: Applying for a SIMPLER project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/simpler)
 
 ## Procedure
 
