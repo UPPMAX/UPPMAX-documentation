@@ -19,11 +19,15 @@ The workflow is like this:
 - Register in SUPR
 - Accept SUPR user agreement
 - Become a member of a project
-- Apply for an account at UPPMAX (or other resources)
+- Apply for a user account at UPPMAX (or other resources)
 
 !!! warning
 
     Note that you can only get a user account on a resource if you belong to a project with allocations there!
+
+!!! tip
+
+    [UPPMAX rules](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/uppmax-rules)
 
 ## SUPR account
 
