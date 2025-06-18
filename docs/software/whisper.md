@@ -83,7 +83,7 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
 
 ## Accessing your project
 
-Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/centre/uppmax/get-started/create-account-and-apply-for-project/user-account):
+Following steps are derived from [Project application for Bianca](../getting_started/project_apply_bianca.md):
 
 1. Register an [account on SUPR](https://supr.naiss.se/person/register/).
 
@@ -91,7 +91,7 @@ Following steps are derived from [UPPMAX User Accounts](https://www.uu.se/en/cen
 
 3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
 
-4. [Setup two factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))
+4. [Setup two factor authentication](../getting_started/get_uppmax_2fa.md) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))
 
 5. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/). ([Video](https://youtube.com/clip/UgkxKxnaebkokAuFGEXqafoIQo-RjTPEZbeJ?si=VFFfDSY2DhAYMvDO))
 
