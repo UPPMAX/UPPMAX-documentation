@@ -54,7 +54,7 @@ sven-sens2016001@bianca-sftp.uppmax.uu.se's password:
 ```
 
 The password is your normal UPPMAX password directly followed by
-the six digits from the [the `UPPMAX` 2-factor authentication](https://www.uu.se/en/centre/uppmax/get-started/2-factor).
+the six digits from the [the `UPPMAX` 2-factor authentication](../getting_started/get_uppmax_2fa.md).
 For example, if your password is `VerySecret` and the second factor code is `123456`
 you would type `VerySecret123456` as the password in this step.
 
