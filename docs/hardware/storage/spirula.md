@@ -109,7 +109,7 @@ aws s3 ls
 2025-03-06 10:44:15 sll2021001-testuser-nobackup
 ```
 
-To view the contents of an area, run e.g. `aws s3 ls sll2021001-testuser-nobackup`. 
+To view the contents of an area, run e.g. `aws s3 ls sll2021001-testuser-nobackup`.
 
 Suppose you have a file called `testfile` in your current working directory. To upload it, run:
 
