@@ -24,3 +24,6 @@ To transfer files to/from Rackham using WinSCP, do:
     - Set file protocol to 'SFTP'
     - Set host name to `rackham.uppmax.uu.se`
     - Set user name to `[username]`, e.g. `sven`
+    - Save
+  - Double-click on the saved session to the left OR Presse the "Login" button
+  - Enter password
