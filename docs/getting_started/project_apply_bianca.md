@@ -12,11 +12,6 @@ To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).
 
 This page describes how to apply to a Bianca/Sens project.
 
-
-???- question "Should I use Bianca or another cluster?"
-
-    [Should I use Bianca or another cluster?](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/should-i-use-bianca-or-rackham)
-
 ## Pre-preparations, read this first
     
 - [Applying for NAISS SENS project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/Applying-for-NAISS-SENS-project)
