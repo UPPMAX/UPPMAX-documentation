@@ -82,6 +82,4 @@ CentOS8 [3]       | `fuse-sshfs`
 * [2] Enable `codeready-builder` repository
 * [3] Enable `powertools` repository
 
-
-
 UPPMAX does not have `sshfs` installed for security reasons.
