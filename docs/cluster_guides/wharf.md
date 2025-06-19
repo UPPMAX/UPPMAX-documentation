@@ -54,9 +54,17 @@ to other users' `wharf` folders in that same project.
 ## Mounting `wharf`
 
 Mounting `wharf` means that a `wharf` folder is added to the
-filesystem of your local computer, after which you can use
+filesystem of your local computer or other place outside BIanca, after which you can use
 it like any other folder. The data shown in the folder is on Bianca,
 not on your local storage.
+
+### On transit
+
+One can mount `wharf` on on Transit using the command `mount_wharf [project_id]`
+
+More details at [Mount a Bianca project on Transit](../software/bianca_file_transfer_using_rsync.md#3-mount-a-bianca-project)
+
+### Local computer
 
 One can mount `wharf` on your local computer using `sshfs`
 when [inside the university networks](../getting_started/get_inside_sunet.md).
@@ -73,5 +81,7 @@ CentOS8 [3]       | `fuse-sshfs`
 * [1] Enable EPEL repository
 * [2] Enable `codeready-builder` repository
 * [3] Enable `powertools` repository
+
+
 
 UPPMAX does not have `sshfs` installed for security reasons.
