@@ -22,4 +22,4 @@ If you need general Uppsala University IT support,
 use the Uppsala University IT Servicedesk.
 
 If you plan a course using UPPMAX resources, see
-[What should I think about when planning a course using UPPMAX resources](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/course/planning-a-course)
+[Education and training projects](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/course)
