@@ -99,7 +99,7 @@ documentation](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.
 
 ### Example of using AWS CLI
 
-After retrieving your credentials using the _SSH to S3 credential service_, you can store them e.g. in a credentials file in your AWS CLI configuration directory, as per the following [instructions in the AWS documentation](https://docs.aws.amazon.com/cli/v1/userguide/cli-authentication-short-term.html). 
+After retrieving your credentials using the _SSH to S3 credential service_, you can store them e.g. in a credentials file in your AWS CLI configuration directory, as per the following [instructions in the AWS documentation](https://docs.aws.amazon.com/cli/v1/userguide/cli-authentication-short-term.html).
 
 With that done, you can access your storage area on Spirula using the AWS CLI. To see which areas you have access to, run `aws s3 ls` and you should see something like:
 
