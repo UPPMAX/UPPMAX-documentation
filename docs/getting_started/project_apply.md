@@ -46,7 +46,7 @@ If you are a PI: apply for a project in SUPR.
   i.e. a project that provides an online service, e.g. a website
 - [Apply for a SIMPLER project](project_apply_simpler.md),
   i.e. a project for the Swedish Infrastructure for Medical Population-based Life-course and Environmental Research
-- [Undergraduate course project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/course)
+- [Undergraduate course project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/course)
 
 ## Become a member of a project
 
