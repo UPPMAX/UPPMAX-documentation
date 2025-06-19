@@ -83,12 +83,13 @@ In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Cr
 
 ![In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Create new proposal'](./img/supr_naiss_create_new_proposal_for_simpler.png)
 
-> In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Create new proposal'
+> In the 'Create New Proposal for SIMPLER 2025', add a project title and click 'Create new proposal'
 
 ## 7. Create an UPPMAX user account
+
 Once you have a SUPR-account and an approved project, then you can apply for an Uppmax account. This is described in [Applying for a user account](./user_account.md).
 
-## 8 Use Bianca
+## 8. Use Bianca
 
 In order to log in to Bianca, you will need to activate two factor authentication according to the [instructions](./get_uppmax_2fa.md).
 
