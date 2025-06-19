@@ -152,8 +152,12 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
     - `jobinfo -u username --state=pending`
 
 - You may also use the ``squeue`` command.
+    - This will give you a list of jobs in the present project (possibly other users within the project)
 
-- `bianca_combined_jobinfo` (queued jobs of all projects)
+!!! tip "Get a view of the whole queue, including all projects"
+
+    - Use the command `bianca_combined_jobinfo` (queued jobs of all projects)
+    - That makes it easier to see how the resources are used and what the odds are that you can start your job soon!
 
 ### Monitoring and modifying jobs
 
