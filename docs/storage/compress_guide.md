@@ -1,7 +1,5 @@
 # Compress guide
 
-
-
 Modality | Format Examples | Compression Methods | Linux Tools / Libraries
 -- | -- | -- | --
 Text | .txt, .csv, .json, .xml | Gzip, Bzip2, Zstandard, Parquet | gzip, bzip2, zstd, pigz, xz, parquet-tools, jq
