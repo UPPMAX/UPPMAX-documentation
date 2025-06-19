@@ -16,6 +16,9 @@ Here, we show how to transfer files using a graphical tool called [WinSCP](../so
 To transfer files to/from Rackham using WinSCP, do:
 
 - Start WinSCP
+
+![WinSCP Rackham](./img/winscp_rackham_login.png)
+
 - Create a new site
 - For that site, use all standards, except:
     - Set file protocol to 'SFTP'
