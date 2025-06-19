@@ -58,7 +58,7 @@ filesystem of your local computer or other place outside BIanca, after which you
 it like any other folder. The data shown in the folder is on Bianca,
 not on your local storage.
 
-### On transit
+### On Transit
 
 One can mount `wharf` on on Transit using the command `mount_wharf [project_id]`
 
