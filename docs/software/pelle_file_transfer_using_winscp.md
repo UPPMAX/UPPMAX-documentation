@@ -25,6 +25,6 @@ To transfer files to/from Rackham using WinSCP, do:
     - Set host name to `pelle.uppmax.uu.se` (``pelle1`` or ``pelle2`` will work as well)
     - Set user name to `[username]`, e.g. `sven`
     - Save
-    - Double-click on the saved session to the left OR Presse the "Login" button
-    - Enter password
-    - Enter 2nd-factor (TOTP)
+- Double-click on the saved session to the left OR Presse the "Login" button
+- Enter password
+- Enter 2nd-factor (TOTP)
