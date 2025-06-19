@@ -31,7 +31,7 @@ These instructions will help you:
 - Create a user account for the Bianca system, where your data will be accessible.
 - Log in to your project on Bianca.
 
-[Old page: Applying for a SIMPLER project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/information-about-projects/simpler)
+[Old page: Applying for a SIMPLER project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/simpler)
 
 ## Procedure
 
