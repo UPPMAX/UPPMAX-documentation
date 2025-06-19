@@ -172,7 +172,7 @@ julia> Pkg.build(<package_name>)
 
 ## How to install personal packages
 
-You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the
+You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the this section.
 
 ### Check if packages are installed centrally
 
