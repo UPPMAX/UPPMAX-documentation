@@ -88,7 +88,9 @@ In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Cr
 ## 7. Create an UPPMAX user account 
 Once you have a SUPR-account and an approved project, then you can apply for an Uppmax account. This is described in [Applying for a user account](./user_account.md).
 
-In order to log in to Bianca, you will need to activate two factor authentication according to the instructions found here.
+## 8 Use Bianca
+
+In order to log in to Bianca, you will need to activate two factor authentication according to the [instructions](./get_uppmax_2fa.md).
 
 Before you try logging in to Bianca, we recommend that you change temporary password you received by email. This is done on the server Rackham. You reach Rackham e.g. via the software Mobaxterm which you must download and install. Instructions are here.
 
