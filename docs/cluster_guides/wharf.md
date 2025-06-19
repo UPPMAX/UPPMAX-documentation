@@ -54,7 +54,7 @@ to other users' `wharf` folders in that same project.
 ## Mounting `wharf`
 
 Mounting `wharf` means that a `wharf` folder is added to the
-filesystem of your local computer or other place outside BIanca, after which you can use
+filesystem of your local computer or other place outside Bianca, after which you can use
 it like any other folder. The data shown in the folder is on Bianca,
 not on your local storage.
 
