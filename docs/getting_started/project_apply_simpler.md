@@ -85,7 +85,7 @@ In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Cr
 
 > In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Create new proposal'
 
-## 7. Create an UPPMAX user account 
+## 7. Create an UPPMAX user account
 Once you have a SUPR-account and an approved project, then you can apply for an Uppmax account. This is described in [Applying for a user account](./user_account.md).
 
 ## 8 Use Bianca
@@ -101,5 +101,3 @@ The data you have requested for SIMPLER will be placed by SIMPLER staff in the s
 ## Where to turn for support
 
 Problems with the Bianca system should be sent to UPPMAX via the [SUPR support form](https://supr.naiss.se/support), and issues with the data itself should be sent to ``simpler@surgsci.uu.se``.
-
-
