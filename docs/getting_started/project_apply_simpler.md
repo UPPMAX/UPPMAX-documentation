@@ -95,7 +95,7 @@ In order to log in to Bianca, you will need to activate two factor authenticatio
 
 Before you try logging in to Bianca, we recommend that you change temporary password you received by email. This is done on the server Rackham. You reach Rackham e.g. via the software Mobaxterm which you must download and install. Instructions are here.
 
-The [Bianca User Guide](../cluster_guides/bianca_portal.md) has more information about how the system is used.
+The [Bianca User Guide](../cluster_guides/bianca.md) has more information about how the system is used.
 
 The data you have requested for SIMPLER will be placed by SIMPLER staff in the special directory "dataset-simpler" which is located in, and unique to, your project.
 
