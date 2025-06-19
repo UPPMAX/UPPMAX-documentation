@@ -85,4 +85,19 @@ In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Cr
 
 > In the 'Create New Proposal for SIMPLER 2024', add a project title and click 'Create new proposal'
 
-After this, the procedure is straightforward.
+## 7. Create an UPPMAX user account 
+Once you have a SUPR-account and an approved project, then you can apply for an Uppmax account. This is described in [Applying for a user account](./user_account.md).
+
+In order to log in to Bianca, you will need to activate two factor authentication according to the instructions found here.
+
+Before you try logging in to Bianca, we recommend that you change temporary password you received by email. This is done on the server Rackham. You reach Rackham e.g. via the software Mobaxterm which you must download and install. Instructions are here.
+
+The [Bianca User Guide](../cluster_guides/bianca_portal.md) has more information about how the system is used.
+
+The data you have requested for SIMPLER will be placed by SIMPLER staff in the special directory "dataset-simpler" which is located in, and unique to, your project.
+
+## Where to turn for support
+
+Problems with the Bianca system should be sent to UPPMAX via the [SUPR support form](https://supr.naiss.se/support), and issues with the data itself should be sent to ``simpler@surgsci.uu.se``.
+
+
