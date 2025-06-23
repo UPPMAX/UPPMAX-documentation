@@ -13,7 +13,7 @@ To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).
 This page describes how to apply to a Bianca/Sens project.
 
 ## Pre-preparations, read this first
-    
+
 - [Applying for NAISS SENS project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/Applying-for-NAISS-SENS-project)
 
 ## Procedure for project application
