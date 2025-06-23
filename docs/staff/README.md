@@ -14,3 +14,5 @@ There are some things that are staff-only.
 ## Links
 
 - [UPPMAX Jira](https://jira.uppmax.uu.se)
+- [NAISS Nextcloud](https://nextcloud.naiss.se)
+    - [NAISS templates](https://nextcloud.naiss.se/apps/files/files/1425?dir=/NAISS%20Templates)
