@@ -17,7 +17,7 @@ HPC clusters have different ways to do
 
 This page shows how to do so for LUMI.
 
-![FileZilla connected to LUMI](filezilla_login_to_lumi.png)
+`![FileZilla connected to LUMI](filezilla_login_to_lumi.png)`
 
 > FileZilla connected to LUMI
 
@@ -162,7 +162,7 @@ In FileZilla's site manager:
 
     It looks similar to this:
 
-    ![FileZilla configured for LUMI](filezilla_login_to_lumi_site_manager.png)
+    `![FileZilla configured for LUMI](filezilla_login_to_lumi_site_manager.png)`
 
 ### 9. Connect to the site
 
