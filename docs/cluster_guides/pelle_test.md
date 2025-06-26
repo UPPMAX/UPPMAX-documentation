@@ -205,3 +205,9 @@ allocated three CPUs on three different compute nodes.
 
 We will update the configuration to avoid this. For not the problem
 can be avoided by specifying `--nodes=1` when submitting jobs.
+
+### /dev/shm size
+
+The size of /dev/shm on compute nodes is 50% of the nodes memory. This
+is the Linux default. We plan to increase the size to closer to 100%
+as some applications needs to store larger files there.
