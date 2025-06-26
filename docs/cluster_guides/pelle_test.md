@@ -178,6 +178,16 @@ When doing this you should launch your tasks using `srun` to ensure
 your processes gets pinned to the correct CPUs (threads), one per
 core.
 
+## Other changes
+
+### per-user temporary directories on login nodes
+
+Each user have their own temporary directories (`/tmp`, `/var/tmp`,
+`/scratch`, `/dev/shm`) on the login nodes. These directories are only
+intended for short term storage of files during interactive work and
+will be purged regularily. You cannot use these directories to share
+files with other users, please use the project directories instead.
+
 ## Known issues
 
 ### Missing tools
