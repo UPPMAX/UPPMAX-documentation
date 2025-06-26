@@ -188,6 +188,15 @@ intended for short term storage of files during interactive work and
 will be purged regularily. You cannot use these directories to share
 files with other users, please use the project directories instead.
 
+### Memory-limits on login nodes
+
+Each user can use no more than 128 GiB memory on the login nodes. This
+is 25% of the available 512 GiB and we typically have more than four
+logged in users so the memory can still run out.
+
+If possible please run applications that use large amounts of memory
+in an interactive session on compute nodes.
+
 ## Known issues
 
 ### Missing tools
