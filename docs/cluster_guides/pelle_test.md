@@ -211,3 +211,10 @@ can be avoided by specifying `--nodes=1` when submitting jobs.
 The size of /dev/shm on compute nodes is 50% of the nodes memory. This
 is the Linux default. We plan to increase the size to closer to 100%
 as some applications needs to store larger files there.
+
+### Apptainer missing bind mounts
+
+Apptainer on Pelle is missing configuration to bind file systems like
+project directories, and node local scratch into the running
+container. We will fix the configuration, but until then you can use
+the `--bind` option manually.
