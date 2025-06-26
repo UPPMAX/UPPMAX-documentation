@@ -135,9 +135,9 @@ Pelle have two fat nodes. One with 2 TiB of memory and one with 3 TiB.
 
 Jobs on these nodes always allocate the entire node with all cores.
 
-To use the 2 TiB node: `sbatch --partition=fat --constraints=2TB`
+To use the 2 TiB node: `sbatch --partition=fat --constraint=2TB`
 
-To use the 3 TiB node: `sbatch --partition=fat --constraints=3TB`
+To use the 3 TiB node: `sbatch --partition=fat --constraint=3TB`
 
 ### interactive
 
