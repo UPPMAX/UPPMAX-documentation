@@ -88,11 +88,6 @@ Rackham/Snowy.
 Our [Slurm documentation](./slurm.md) have not yet been updated with
 the changes on Pelle.
 
-### Project for test pilot jobs
-
-Please use the `uppmax2025-2-325` project when submitting test pilot
-jobs. `sbatch --account=uppmax2025-2-325`
-
 ### Job priority
 
 Slurm's default fair-share priority are used for the job queue.
@@ -209,13 +204,6 @@ Some UPPMAX specific tools are not yet working on Pelle.
 - `jobinfo` - use tools like `squeue` and `sprio` instead
 - `jobstats` - not working on Pelle. Might be replaced by an alternative solution.
 
-### Missing projects
-
-Only the test pilot project (uppmax2025-2-325) have been enabled on
-the cluster. Other uppmax2025-projects cannot be used to run jobs yet.
-
-Use the test pilot project for your test pilot jobs.
-
 ### Core jobs can get allocated resources across several compute nodes
 
 A job requesting multiple tasks can get resources allocated
@@ -237,3 +225,13 @@ Apptainer on Pelle is missing configuration to bind file systems like
 project directories, and node local scratch into the running
 container. We will fix the configuration, but until then you can use
 the `--bind` option manually.
+
+### Missing projects [FIXED]
+
+**FIXED** - All uppmax2025 projects with a Pelle allocation is now
+available for use.
+
+~~Only the test pilot project (uppmax2025-2-325) have been enabled on
+the cluster. Other uppmax2025-projects cannot be used to run jobs yet.~~
+
+~~Use the test pilot project for your test pilot jobs.~~
