@@ -42,7 +42,7 @@ Course dates are (or should be) provided at each course's website.
 
 ### November
 
-[Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _XXX_](bianca_intermediate.md){ .md-button .md-button--primary }
+[Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _Nov 18_](bianca_intermediate.md){ .md-button .md-button--primary }
 
 [Using Python in an HPC environment part 2 <br> _Nov 27-28_](hpc_python.md){ .md-button .md-button--primary }
 
