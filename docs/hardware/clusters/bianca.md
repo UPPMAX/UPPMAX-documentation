@@ -33,8 +33,8 @@ Parameter               |Bianca
 **Network**             |Dual 10Gbit/s
 **Operating System**    |CentOS 7
 **Login nodes**         |Yes (2 cores and 15 GB)
-**"Home" storage**      |Cygnus
-**"Project" Storage**   |Cygnus
+**"Home" storage**      |Castor/Cygnus
+**"Project" Storage**   |Castor/Cygnus
 
 ## CPU
 
