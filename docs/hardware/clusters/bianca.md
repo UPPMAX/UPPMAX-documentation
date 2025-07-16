@@ -11,7 +11,7 @@ tags:
 ## Technical Summary
 
 - 204 compute nodes with single or dual CPUs and one 4TB mechanical drive or 1TB SSD
-- Each CPU has 8 cores
+- Each CPU has 16 cores
 - 75 compute nodes, 256 GB memory each.
 - 15 compute nodes, 512 GB memory each
 - 10 compute nodes each equipped with 2xNVIDIA A100 (40GB) GPUs
@@ -25,7 +25,7 @@ Parameter               |Bianca
 ------------------------|-----------------------------------
 **Purpose**             |Sensitive data
 **Reserved for**        |NAISS-SENS projects
-**Nodes (Intel)**       |272 + 4 nodes á 2 NVIDIA A100 GPUs
+**Nodes (Intel)**       |272 + 4 nodes of 2 NVIDIA A100 GPUs
 **Cores per node**      |16/64
 **Memory per node**     |128GB
 **Fat nodes**           |256 & 512GB
@@ -33,8 +33,8 @@ Parameter               |Bianca
 **Network**             |Dual 10Gbit/s
 **Operating System**    |CentOS 7
 **Login nodes**         |Yes (2 cores and 15 GB)
-**"Home" storage**      |Castor
-**"Project" Storage**   |Castor
+**"Home" storage**      |Cygnus
+**"Project" Storage**   |Cygnus
 
 ## CPU
 
