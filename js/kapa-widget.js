@@ -1,0 +1,28 @@
+document.addEventListener("DOMContentLoaded", function () {
+    var script = document.createElement("script");
+    script.src = "https://widget.kapa.ai/kapa-widget.bundle.js";
+    script.setAttribute("data-website-id","88ce68c1-ce0d-452a-bb55-e05e3beaa240");
+    script.setAttribute("data-project-name","UPPMAX");
+    script.setAttribute("data-project-color","#E6E6E6");
+    script.setAttribute("data-project-logo","https://www.uu.se/images/18.17dda5f1791cdbd287d9b55/1622452923523/uu-logo-red.svg");
+    script.setAttribute("data-modal-image","https://www.uu.se/images/18.17dda5f1791cdbd287d9b55/1622452923523/uu-logo-red.svg");
+    script.setAttribute("data-button-image","https://www.uu.se/images/18.17dda5f1791cdbd287d9b55/1622452923523/uu-logo-red.svg");
+    script.setAttribute("data-button-image-height","48");
+    script.setAttribute("data-button-image-width","48");
+    script.setAttribute("data-modal-image-height","52");
+    script.setAttribute("data-modal-image-width","52");
+    script.setAttribute("data-button-text-font-size","1rem");
+    script.setAttribute("data-button-bg-color","#E6E6E6");
+    script.setAttribute("data-button-text-color","#1d1d20");
+    script.setAttribute("data-button-text-shadow","0px 0px 0px rgba(0, 0, 0, 0.2)");
+    script.setAttribute("data-button-box-shadow","0px 0px 10px rgba(245, 39, 39, 0.5)");
+    //script.setAttribute("data-button-border","1px 1px 1px rgba(245, 39, 39, 1.0)");
+    script.setAttribute("data-button-animation-enabled","false");
+    script.setAttribute("data-modal-disclaimer", "This AI assistant is in development and may not always provide accurate information. Please submit your queries to the support team at [https://supr.naiss.se/support](https://supr.naiss.se/support)");
+    script.setAttribute("data-search-mode-enabled", "true");
+    script.setAttribute("data-answer-cta-button-enabled", "true");
+    script.setAttribute("data-answer-cta-button-link", "https://supr.naiss.se/support");
+    script.setAttribute("data-answer-cta-button-text", "Support Form");
+    script.async = true;
+    document.head.appendChild(script);
+  });
