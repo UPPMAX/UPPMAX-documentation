@@ -20,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
     script.setAttribute("data-button-animation-enabled","false");
     script.setAttribute("data-modal-disclaimer", "This AI assistant is in development and may not always provide accurate information. Please submit your queries to the support team at [https://supr.naiss.se/support](https://supr.naiss.se/support)");
     script.setAttribute("data-search-mode-enabled", "true");
+    script.setAttribute("data-answer-cta-button-enabled", "true");
+    script.setAttribute("data-answer-cta-button-link", "https://supr.naiss.se/support");
+    script.setAttribute("data-answer-cta-button-text", "Support Form");
     script.async = true;
     document.head.appendChild(script);
   });
