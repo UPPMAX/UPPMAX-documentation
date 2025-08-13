@@ -24,7 +24,7 @@ as well as [links](#links) to almost all installed software and databases on UPP
 
 ## Background
 
-Pelle is, like the other clusters Rackham and Bianca, a shared Linux computer with all the standard Linux tools installed, 
+Pelle is, like the other clusters Rackham and Bianca, a shared Linux computer with all the standard Linux tools installed,
 on which all users should be able to do their work independently and undisturbed.
 
 To ensure this, users cannot modify, upgrade or uninstall research software themselves
@@ -45,7 +45,7 @@ available on all UPPMAX clusters.
 Using explicit versions of software is easy to do
 and improves the reproducibility of the scripts written.
 
-!!! info 
+!!! info
 
     - Pelle is set up with completely new research software installations compared to Rackham (and Bianca).
     - The Module tree therefore looks differently.
@@ -209,7 +209,7 @@ for example `module spider cowsay`.
 
     ```
 
-???- question "How does the output of `module spider samtools/1.17` look like?"
+???- question "How does the output of `module spider samtools/1.22` look like?"
 
     ```bash
     $ module spider samtools/1.22
@@ -226,9 +226,15 @@ for example `module spider cowsay`.
     
     ...
     ```
+    
 
 If there is an exact match, that module is reported first.
 Of the module shown, also the different versions are reported.
+
+!!! note
+
+    - Many module names are slightly different on Pelle compared to the other clusters.
+    - Many tools are in **CAPITAL** letters or at least start with a **Capital**.
 
 !!! tip "You are not supposed to load a `module load bioinfo-tools` first"
 
@@ -256,16 +262,20 @@ it is *not* general help for using the tool itself.
 
 ???- question "How does the output of `module list` look like?"
 
+    This is an example of how is looks lik when SAMtols is loaded
+    
     ```bash
     $ module list
 
     Currently Loaded Modules:
-      1) uppmax   2) bioinfo-tools   3) samtools/1.17
+      1) GCCcore/13.3.0                 5) bzip2/1.0.8-GCCcore-13.3.0       9) Java/17 -> Java/17.0.15  
+      2) zlib/1.3.1-GCCcore-13.3.0      6) ncurses/6.5-GCCcore-13.3.0      10) OpenSSL/3
+      3) binutils/2.42-GCCcore-13.3.0   7) XZ/5.4.5-GCCcore-13.3.0         11) cURL/8.7.1-GCCcore-13.3.0
+      4) GCC/13.3.0                     8) libdeflate/1.20-GCCcore-13.3.0  12) SAMtools/1.22-GCC-13.3.0
     ```
 
-    In this example case, we can see that the modules `bioinfo-tools`
-    and `samtools` version 1.17 are loaded.
-
+    In this example case, we can see that the many more modules than SAMtools are loaded. This is the effect of using the installation method that is prevailent in most NAISS clusters.
+    
 !!!- tip "Getting help on a module"
 
     Run `module help [module]`, e.g. `module help cowsay`
@@ -274,8 +284,8 @@ it is *not* general help for using the tool itself.
 For reproducible research, however, it is good practice
 to load a specific version. The information given by
 `module spider` contains the versions of the module.
-For example, to load the `samtools/1.17` module,
-do `module load samtools/1.17`.
+For example, to load the `SAMtools/1.22` module,
+do `module load samtools/1.22<TAB>`.
 
 ???- question "How does the output of `module load GATK/4.3.0.0` look like?"
 
