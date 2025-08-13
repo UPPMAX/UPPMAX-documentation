@@ -91,22 +91,16 @@ The `module` command is the basic interface to the module system.
 To search for a module, use `module spider [module]`,
 for example `module spider cowsay`.
 
----
 
-NEEDS FIX
 ???- question "Would you like to see a video instead?"
 
-    See the YouTube video
-    [the use of modules on Bianca](https://youtu.be/lNlq2Eb-qgc)
----
+    Will come
+
 
 ???- question "What is `cowsay`?"
 
     See [the UPPMAX page on `cowsay`](../software/cowsay.md)
 
----
-Start here
----
 
 ???- question "What is `R`?"
 
@@ -117,40 +111,49 @@ Start here
 ???- question "How does the output of `module spider R` look like?"
 
     ```bash
-    $ module spider R
+    ml spider R
 
-    -------------------------------------------
-      R:
-    -------------------------------------------
-         Versions:
-            R/3.0.2
-            R/3.2.3
-            R/3.3.2
-            R/3.4.0
-            R/3.4.3
-            R/3.5.0
-            R/3.5.2
-            R/3.6.0
-            R/3.6.1
-            R/4.0.0
-            R/4.0.4
-            R/4.1.1
-            R/4.2.1
+    -------------------------------------------------------------------------------------------------------------------------
+      R: R/4.4.2-gfbf-2024a
+    -------------------------------------------------------------------------------------------------------------------------
+        Description:
+          R is a free software environment for statistical computing and graphics.
+    
+    
          Other possible modules matches:
-            454-dataprocessing  ADMIXTURE  ANTLR  ARCS  ARC_assembler  ARPACK-NG  ART  AdapterRemoval  AlienTrimmer  Amber  AnchorWave  Arlequin  Armadillo  ArrowGrid  Bamsurgeon  BclConverter  BioBakery  BioBakery_data  ...
+            ADMIXTURE, AdapterRemoval, Armadillo, Arrow, BioPerl, Brotli, Brunsli, CellRanger, Cereal, Exonerate, ...
+    
+        This module can be loaded directly: module load R/4.4.2-gfbf-2024a
+    
+        This module provides the following extensions:
+    
+           askpass/1.2.1 (E), base (E), base64enc/0.1-3 (E), brew/1.0-10 (E), brio/1.1.
+    5 (E), bslib/0.8.0 (E), cachem/1.1.0 (E), callr/3.7.6 (E), cli/3.6.3 (E), clipr/
+    0.8.0 (E), commonmark/1.9.2 (E), compiler (E), cpp11/0.5.0 (E), crayon/1.5.3 (E),
+    credentials/2.0.2 (E), curl/6.0.1 (E), datasets (E), desc/1.4.3 (E), devtools/2.4.5
+    (E), diffobj/0.3.5 (E), digest/0.6.37 (E), downlit/0.4.4 (E), ellipsis/0.3.2 (E), e
 
+    ...
+
+    Help:
+
+      Description
+      ===========
+      R is a free software environment for statistical computing
+       and graphics.
+
+
+      More information
+      ================
+       - Homepage: https://www.r-project.org/
+            
+      ...
+               
     -------------------------------------------
       To find other possible module matches execute:
 
           $ module -r spider '.*R.*'
 
-    -------------------------------------------
-      For detailed information about a specific "R" package (including how to load the modules) use the module's full name.
-      Note that names that have a trailing (E) are extensions provided by other modules.
-      For example:
-
-         $ module spider R/4.2.1
-    -------------------------------------------
     ```
 
 ???- question "What is `samtools`?"
@@ -167,78 +170,69 @@ Start here
     ```bash
     $ module spider samtools
 
-    -------------------------------------------
-      samtools:
-    -------------------------------------------
-         Versions:
-            samtools/0.1.12-10
-            samtools/0.1.19
-            samtools/1.1
-            samtools/1.2
-            samtools/1.3
-            samtools/1.4
-            samtools/1.5_debug
-            samtools/1.5
-            samtools/1.6
-            samtools/1.8
-            samtools/1.9
-            samtools/1.10
-            samtools/1.12
-            samtools/1.14
-            samtools/1.16
-            samtools/1.17
-         Other possible modules matches:
-            SAMtools
+   -------------------------------------------------------------------------------------------------------------------------
+     Rsamtools: Rsamtools/2.22.0 (E)
+   -------------------------------------------------------------------------------------------------------------------------
+       This extension is provided by the following modules. To access the extension you must load one of the following modules.
+   Note that any module names in parentheses show the module location in the software hierarchy.
 
-    -------------------------------------------
-      To find other possible module matches execute:
 
-          $ module -r spider '.*samtools.*'
+          R-bundle-Bioconductor/3.20-foss-2024a-R-4.4.2
 
-    -------------------------------------------
-      For detailed information about a specific "samtools" package (including how to load the modules) use the module's full name.
-      Note that names that have a trailing (E) are extensions provided by other modules.
-      For example:
 
-         $ module spider samtools/1.17
-    -------------------------------------------
+   Names marked by a trailing (E) are extensions provided by another module.
+
+   -------------------------------------------------------------------------------------------------------------------------
+     SAMtools:
+   -------------------------------------------------------------------------------------------------------------------------
+       Description:
+         SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging,
+         indexing and generating alignments in a per-position format.
+
+        Versions:
+           SAMtools/0.1.20-GCC-13.3.0
+           SAMtools/1.3.1-GCC-13.3.0
+           SAMtools/1.13-GCC-13.3.0
+           SAMtools/1.19.2-GCC-13.3.0
+           SAMtools/1.21-GCC-13.3.0
+           SAMtools/1.22-GCC-13.3.0
+
+   -------------------------------------------------------------------------------------------------------------------------
+     For detailed information about a specific "SAMtools" package (including how to load the modules) use the module's full name
+   .
+     Note that names that have a trailing (E) are extensions provided by other modules.
+     For example:
+
+        $ module spider SAMtools/1.22-GCC-13.3.0
+   -------------------------------------------------------------------------------------------------------------------------
+
+
     ```
 
 ???- question "How does the output of `module spider samtools/1.17` look like?"
 
     ```bash
-    $ module spider samtools/1.17
+    $ module spider samtools/1.22
 
-    -------------------------------------------
-      samtools: samtools/1.17
-    -------------------------------------------
-
-        You will need to load all module(s) on any one of the lines below before the "samtools/1.17" module is available to load.
-
-          bioinfo-tools
-
-        Help:
-            samtools - use samtools 1.17
-
-            Version 1.17
+    -------------------------------------------------------------------------------------------------------------------------
+      SAMtools: SAMtools/1.22-GCC-13.3.0
+    -------------------------------------------------------------------------------------------------------------------------
+        Description:
+          SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging,
+          indexing and generating alignments in a per-position format.
+    
+    
+        This module can be loaded directly: module load SAMtools/1.22-GCC-13.3.0
+    
+    ...
     ```
-
-    This reminds us that we need to load the `bioinfo-tools`
-    module to be able to load `samtools/1.17`.
-    Again, this is required (just once) before loading bioinformatics software.
 
 If there is an exact match, that module is reported first.
 Of the module shown, also the different versions are reported.
 
-!!! tip "Do `module load bioinfo-tools` first"
+!!! tip "You are not supposed to load a `module load bioinfo-tools` first"
 
-    When working with modules, do `module load bioinfo-tools` first
-
-???- tip "What to do when you cannot find a module"
-
-    Run `module load bioinfo-tools`.
-
-    This will allow other modules to be found.
+    ``bioinfo-tools`` module is not required on Pelle. It is not even there so remove that line in you old scripts
 
 ???- tip "What to do when `module load` gives an 'Lmod has detected the following error:  These module(s) or extension(s) exist but cannot be loaded as requested' error?"
 
