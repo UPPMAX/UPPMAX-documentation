@@ -1,4 +1,4 @@
-# Working with environment modules on Rackham
+# Working with environment modules on Pelle
 
 ![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
 
@@ -11,14 +11,12 @@ see [the UPPMAX general page on modules](modules.md).
 
 ---
 tags:
-  - module
-  - modules
-  - software module
-  - software modules
-  - lmod
+- module
+- modules
+- software module
+- software modules
+- lmod
 ---
-
-# Software modules
 
 ![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
 
