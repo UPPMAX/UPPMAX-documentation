@@ -1,14 +1,5 @@
 # Working with environment modules on Pelle
 
-![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
-
-Rackham is shared Linux computer with all the standard Linux tools installed,
-on which all users should be able to
-do their work independently and undisturbed.
-
-Because this is the same for nearly all UPPMAX clusters,
-see [the UPPMAX general page on modules](modules.md).
-
 ---
 tags:
 
@@ -22,7 +13,9 @@ tags:
 
 ![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
 
-Here we show how to use the environment module system.
+![Back to top module page](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
+
+Here we show how to use the environment module system on Pelle
 
 After describing [the background](#background)/reasoning
 why such a system is needed,
@@ -33,11 +26,10 @@ as well as [links](#links) to almost all installed software and databases on UPP
 
 ## Background
 
-The UPPPMAX clusters are shared Linux computers with all the standard Linux tools installed,
-on which all users should be able to
-do their work independently and undisturbed.
+Pelle is, like the other clusters Rackham and Bianca, a shared Linux computer with all the standard Linux tools installed, 
+on which all users should be able to do their work independently and undisturbed.
 
-To ensure this, users cannot modify, upgrade or uninstall software themselves
+To ensure this, users cannot modify, upgrade or uninstall research software themselves
 and instead an [environment module system](https://lmod.readthedocs.io/en/latest/)
 (from now on: 'module system') is used.
 This allow users to independently use their favorite versions of their
@@ -55,12 +47,17 @@ available on all UPPMAX clusters.
 Using explicit versions of software is easy to do
 and improves the reproducibility of the scripts written.
 
-To preserve hard disk space, Bianca also
-has [multiple big databases installed](../databases/overview.md).
+!!! info 
 
+    - Pelle is set up with completely new research software installations compared to Rackham (and Bianca).
+    - The Module tree therefore looks differently.
+    - The installation directories also have another structure compared to Rackham
+    - There are fewer software and versions of them comapred to Rackham/Bianca
+    - Ask support and we installe specific software and version on demand
+    
 !!! warning
 
-    To access bioinformatics tools, load the **bioinfo-tools** module first.
+    There is no **bioinfo-tools** module to load. Instead all software is findable directly.
 
 ## Working with the module system
 
@@ -68,25 +65,20 @@ has [multiple big databases installed](../databases/overview.md).
 
     Command                         |Description
     --------------------------------|--------------------------------------
-    `module load bioinfo-tools`     |Load this module first, to find others
+    `module avail`                  |Search for a module that is available
     `module spider`                 |Search for a module
     `module spider [module]`        |Get info about a module, e.g. `module spider cowsay`
-    `module avail`                  |Search for a module that is available
-    `module list`                   |List all activated modules
     `module load [module]`          |Load a module, e.g. `module load cowsay`
     `module load [module]/[version]`|Load a module of a specific versions, e.g. `module load cowsay/3.03`
+    `module list`                   |List all activated modules
     `module help`                   |Show the help for a module
     `module unload [module]`        |Unload the module `[module]`, e.g. `module unload cowsay`
 
 ???- question "What is the difference between `module spider` and `module avail`?"
 
-    - `module spider`: search for a module,
-      also those that are not available (yet)
-    - `module avail`: search for a module that is available
-
-    As an example, use the `samtools` module, which will always
-    be found by `module spider samtools`, but will only be found
-    by `module avail` after a `module load bioinfo-tools"
+    - `module spider`: search for an installed module,
+      also those that are hidden
+    - `module avail`: search for a module that is available to load
 
 Working with the module system means:
 
@@ -101,14 +93,22 @@ The `module` command is the basic interface to the module system.
 To search for a module, use `module spider [module]`,
 for example `module spider cowsay`.
 
+---
+
+NEEDS FIX
 ???- question "Would you like to see a video instead?"
 
     See the YouTube video
     [the use of modules on Bianca](https://youtu.be/lNlq2Eb-qgc)
+---
 
 ???- question "What is `cowsay`?"
 
     See [the UPPMAX page on `cowsay`](../software/cowsay.md)
+
+---
+Start here
+---
 
 ???- question "What is `R`?"
 
