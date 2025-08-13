@@ -180,7 +180,7 @@ core.
 Each user have their own temporary directories (`/tmp`, `/var/tmp`,
 `/scratch`, `/dev/shm`) on the login nodes. These directories are only
 intended for short term storage of files during interactive work and
-will be purged regularily. You cannot use these directories to share
+will be purged regularly. You cannot use these directories to share
 files with other users, please use the project directories instead.
 
 ### Memory-limits on login nodes
