@@ -1057,3 +1057,16 @@ vips
 webdataset
 webp
 zlib
+Ansvarsforbindelse
+Jira
+Nextcloud
+decomissioned
+Decomissioned
+Fysast
+Dahlö
+GigaScience
+al
+giy
+NFS
+PanFS
+PiB
