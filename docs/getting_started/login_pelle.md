@@ -21,50 +21,67 @@ Here we describe how to log in to [Pelle](../cluster_guides/pelle.md).
 !!! info "Test users are testing the Pelle environment"
 
     - We have pilot test users testing Pelle right now.
-    - Soon all Rackham users will be let in.
+    - Soon all Pelle users will be let in.
     - In addition to SSH also ThinLinc will be available
 
-## Log in to Pelle via SSH
 
-### 1. Use `ssh` to log in to Pelle
+- [Prerequisites](pelle_usage_prerequisites.md) describes what is needed before one can access Pelle
+- [Which way to login?](#which-way-to-login)
+    - [Website](login_pelle_remote_desktop_website.md)
+    - [Terminal](login_pelle_console_password.md)
+    - [Local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)
 
-From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
+## Which way to login?
 
-```bash
-ssh [username]@pelle.uppmax.uu.se
+There are multiple ways to log in to [Pelle](../cluster_guides/pelle.md):
+
+Login                                                                         |Description                                   |Screenshot
+------------------------------------------------------------------------------|----------------------------------------------|---------------------------------
+:construction: [Website](login_pelle_remote_desktop_website.md)               |:construction: Does not work yet. Remote desktop, no installation needed, slow  |:construction: Under construction
+[Terminal](login_pelle_console_password.md)                                   |Console environment, recommended              |![The Pelle console environment](./img/login_pelle_via_terminal_terminal_414_x_247.png)
+[Local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)  |Remote desktop, recommended, need installation|![The Pelle remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_pelle.png)
+
+Here is a decision tree, to determine which way to log in:
+
+```mermaid
+flowchart TD
+  need_gui(Need to run a graphical program?)
+  use_terminal[Use a terminal]
+  use_website[Use the remote desktop website]
+  need_easy_or_speedy(Need easiest or fastest?)
+  use_local[Use a local ThinLinc client]
+
+  need_gui --> |no| use_terminal
+  need_gui --> |yes| need_easy_or_speedy
+  need_easy_or_speedy --> |easiest| use_website
+  need_easy_or_speedy --> |fastest| use_local
+
+  how_login(How to log in?)
+
+  use_password[Use password. Start here]
+  use_ssh_keys[Use SSH keys. No more password needed]
+
+  use_terminal --> how_login
+  how_login --> use_password
+  how_login --> use_ssh_keys
 ```
 
-`[username]` is your UPPMAX username, for example, `sven`,
-resulting in:
+The procedures can be found at:
 
-```bash
-ssh sven@pelle.uppmax.uu.se
-```
+- [Login to the Pelle remote desktop environment using the website](login_pelle_remote_desktop_website.md)
+- [Login to the Pelle console environment with a password](login_pelle_console_password.md).
+  If you want to get rid of using a password every time, see [login to the Pelle console environment with an SSH key](login_pelle_console_ssh_key.md)
+- [Login to the Pelle remote desktop environment using a local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)
 
-???- question "Want to use graphical programs?"
+After login, you will be on a [login node](../cluster_guides/login_node.md).
 
-    If you want to use graphical programs,
-    you need to use [SSH X forwarding](../software/ssh_x_forwarding.md).
+!!! note "How to behave on a login node"
 
-    In short: add the `-X` flag when running `ssh`, e.g.:
+    On a login node, one can and should do simple things only:
+    it is a resource shared with all other users on that node.
 
-    ```bash
-    ssh -X sven@pelle.uppmax.uu.se
-    ```
+    If you need to do more intense calculations,
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_pelle.md).
 
-    For more details, see
-    [the SSH X forwarding page](../software/ssh_x_forwarding.md).
-
-
-### 2. You are in
-
-You are in :-)
-
-## Log in via ThinLinc
-
-Follow the [instructions for Rackham](./login_rackham_remote_desktop_local_thinlinc_client.md),
-but use the address:
-
-```bash
-pelle-gui.uppmax.uu.se
-```
+    If you need to do more intense calculations interactively,
+    [use an interactive session](../cluster_guides/start_interactive_session_on_pelle.md).
