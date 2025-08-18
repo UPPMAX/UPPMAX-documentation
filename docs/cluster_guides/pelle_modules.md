@@ -11,8 +11,6 @@ tags:
 
 ![Working with a computer cluster module system](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
 
-![Back to top module page](./img/627409_working_with_a_computer_cluster_module_system_256_x_256.png)
-
 Here we show how to use the environment module system on Pelle
 
 After describing [the background](#background)/reasoning
@@ -303,65 +301,33 @@ do `module load samtools/1.22<TAB>`.
 
     This message references the command `module help GATK/4.3.0.0` for additional help with this module.
 
-???- tip "Huh, `module load samtools/1.17` gives an error?"
-
-    If you do `module load samtools/1.17` without
-    doing `module load bioinfo-tools` first, you'll get the error:
-
-    ```bash
-    $ module load samtools/1.17
-    Lmod has detected the following error:  These module(s) or
-    extension(s) exist but cannot be loaded as requested: "samtools/1.17"
-       Try: "module spider samtools/1.17" to see how to load the module(s).
-    ```
-
-    The solution is to do `module load bioinfo-tools` first.
-
-To see which modules are loaded, use `module list`.
-
-???- question "How does the output of `module list` look like?"
-
-    ```text
-    $ module list
-
-    Currently Loaded Modules:
-      1) uppmax   2) bioinfo-tools   3) samtools/1.17   4) java/sun_jdk1.8.0_151   5) GATK/4.3.0.0
-    ```
-
-    Modules can also be unloaded, which also unloads their prerequisites.
 
 To see a module-specific help, use `module help [module]` (e.g. `module help cowsay`).
 
 ???- question "How does the output of `module help GATK/4.3.0.0` look like?"
 
     ```bash
-    $ module help GATK/4.3.0.0
+    $ module help GATK/4.6.1.0-GCCcore-13.3.0-Java-17
 
-    -------------- Module Specific Help for "GATK/4.3.0.0" ---------------
-    GATK - use GATK 4.3.0.0
-    Version 4.3.0.0
+    ------------------------------ Module Specific Help for "GATK/4.6.1.0-GCCcore-13.3.0-Java-17" ------------------------------
 
-    **GATK 4.3.0.0**
-
-    Usage:
-
-        gatk --help     for general options, including how to pass java options
-
-        gatk --list     to list available tools
-
-        gatk ToolName -OPTION1 value1 -OPTION2 value2 ...
-                      to run a specific tool, e.g., HaplotypeCaller, GenotypeGVCFs, ...
-
-    For more help getting started, see
-
-        https://software.broadinstitute.org/gatk/documentation/article.php?id=9881
-
-    ...
+    Description
+    ===========
+    The Genome Analysis Toolkit or GATK is a software package developed at the Broad Institute
+     to analyse next-generation resequencing data. The toolkit offers a wide variety of tools,
+     with a primary focus on variant discovery and genotyping as well as strong emphasis on
+     data quality assurance. Its robust architecture, powerful processing engine and
+     high-performance computing features make it capable of taking on projects of any size.
+    
+    
+    More information
+    ================
+     - Homepage: https://www.broadinstitute.org/gatk/
     ```
 
 To unload a module, do `module unload [module]` (e.g. `module unload cowsay`).
 This will also unload module that depend on the unloaded one.
-For example, `module unload bioinfo-tools` will unload all bioinformatics tool.
+For example, `module unload GATK` will unload GCCcore, Java, Python etcetera.
 
 ## Using modules in an executable script
 
@@ -372,17 +338,8 @@ For example, this is a valid bash script:
 
 ```text
 #!/bin/bash
-module load cowsay/3.03
+module load cowsay/3.04
 cowsay hello
-```
-
-When using a bioinformatics tool such as `samtools` version 1.17,
-one needs to first load `bioinfo-tools`:
-
-```text
-#!/bin/bash
-module load bioinfo-tools
-module load samtools/1.17
 ```
 
 ## Common shorthand syntaxes
@@ -392,7 +349,7 @@ Full command            |Shorthand syntax
 `module`                |-
 `module avail`          |`ml av`
 `module spider`         |`ml spider`
-`module load`           |`ml`
+`module load [module]`  |`ml [module]`
 `module list`           |`ml`
 `module unload [module]`|`ml -[module]`
 
@@ -402,37 +359,6 @@ Full command            |Shorthand syntax
 - [Almost all installed databases on UPPMAX](../databases/overview.md)
 - [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
 - [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
-
-## Extra materials
-
-### About `module avail`
-
-!!! info "Why here?"
-
-    As far as I can see, there is no use case for `module avail`.
-
-`module avail` list all modules immediately available,
-or search for a specific available module:
-
-- `module avail`
-- `module avail *tool*`
-
-This command is not so smart,
-though, especially when searching for a specific tool, or a bioinformatics tool.
-It only reports modules that are immediately available.
-
-```bash
-module avail R
-```
-
-outputs everything that has an `r` in the name... not useful.
-
-```bash
-$ module avail samtools
-No module(s) or extension(s) found!
-Use "module spider" to find all possible modules and extensions.
-Use "module keyword key1 key2 ..." to search for all possible modules matching any of the "keys".
-```
 
 ## Conflicting modules
 
