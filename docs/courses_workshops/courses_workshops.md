@@ -93,13 +93,10 @@ to all NAISS HPC clusters.
 
 ### Other centers and organizations
 
-[The NAISS calendar](https://www.naiss.se/events/) shows all NAISS courses ans also Zoom-ins (virtual open house)
+- [The SCoRe user documentation's overview of courses](https://nbisweden.github.io/SCoRe_user_doc/courses/)
+  shows all NAISS, SciLifeLab, ENCSS and more courses
+- [The NAISS calendar](https://www.naiss.se/events/)
+  shows all NAISS courses and also Zoom-ins (virtual open house)
 
 
-- [HPC2N courses](https://www.hpc2n.umu.se/events/courses)
-- [CodeRefinery workshops](https://coderefinery.org/workshops/upcoming/)
-- [ENCCS training events](https://enccs.se/events)
-- [ENCCS Lessons](https://enccs.se/lessons/)
-- [Codecademy](https://www.codecademy.com/)
-- [Learn X in Y minutes lessons](https://learnxinyminutes.com)
-- [Swedish Science Cloud training](https://github.com/SNICScienceCloud/technical-training)
+
