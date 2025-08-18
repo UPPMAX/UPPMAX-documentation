@@ -68,7 +68,7 @@ flowchart TD
 
 The procedures can be found at:
 
-- [Login to the Pelle remote desktop environment using the website](login_pelle_remote_desktop_website.md)
+- :construction: Does not work yet. [Login to the Pelle remote desktop environment using the website](login_pelle_remote_desktop_website.md)
 - [Login to the Pelle console environment with a password](login_pelle_console_password.md).
   If you want to get rid of using a password every time, see [login to the Pelle console environment with an SSH key](login_pelle_console_ssh_key.md)
 - [Login to the Pelle remote desktop environment using a local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)
