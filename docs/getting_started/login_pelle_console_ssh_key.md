@@ -2,22 +2,22 @@
 tags:
   - login
   - log in
-  - Rackham
+  - Pelle
   - console
   - terminal
   - SSH
 ---
 
-# Login to the Rackham console environment using SSH keys
+# Login to the Pelle console environment using SSH keys
 
-There are multiple ways to [log in to Rackham](login_rackham.md).
+There are multiple ways to [log in to Pelle](login_pelle.md).
 
-This page describes how to [log in to Rackham](login_rackham.md)
+This page describes how to [log in to Pelle](login_pelle.md)
 using a [terminal](../software/terminal.md) and an SSH key pair.
 
 ## 1. Get inside SUNET
 
-When inside SUNET, one can access a Rackham console environment
+When inside SUNET, one can access a Pelle console environment
 using SSH and SSH keys.
 
 ???- question "Forgot how to get within SUNET?"
@@ -25,22 +25,22 @@ using SSH and SSH keys.
     See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 This is considered a bit harder to setup,
-but one only needs to type one password to login to Rackham.
+but one only needs to type one password to login to Pelle.
 If you don't mind typing your UPPMAX password twice,
-an easier setup is [log in to the Rackham console environment with a password](login_rackham_console_password.md).
+an easier setup is [log in to the Pelle console environment with a password](login_pelle_console_password.md).
 
 ## 2. Use `ssh` to log in
 
 From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
-ssh -A [user]@rackham.uppmax.uu.se
+ssh -A [user]@pelle.uppmax.uu.se
 ```
 
 For example:
 
 ```bash
-ssh -A sven@rackham.uppmax.uu.se
+ssh -A sven@pelle.uppmax.uu.se
 ```
 
 ## 3. Type your UPPMAX password
@@ -49,7 +49,7 @@ Type your UPPMAX password.
 
 ## 4. You are in
 
-Enjoy! You are in! To be precise, you are on a Rackham [login node](../cluster_guides/login_node.md).
+Enjoy! You are in! To be precise, you are on a Pelle [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -57,12 +57,12 @@ Enjoy! You are in! To be precise, you are on a Rackham [login node](../cluster_g
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_pelle.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
+    [use an interactive session](../cluster_guides/start_interactive_session_on_pelle.md).
 
-In a Rackham console environment:
+In a Pelle console environment:
 
 - Text display is limited to 50kBit/s.
   This means that if you create a lot of text output,
