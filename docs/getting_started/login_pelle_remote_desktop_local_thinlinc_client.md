@@ -31,7 +31,7 @@ Install ThinLinc. For help, see [the UPPMAX page on ThinLinc](../software/thinli
 
 ### 2. Start ThinLinc
 
-In the ThinLinc login dialog, 
+In the ThinLinc login dialog,
 
 - set the 'Server' name to `pelle-gui.uppmax.uu.se`
 - set the 'Username' to your UPPMAX username, e.g. `sven`
