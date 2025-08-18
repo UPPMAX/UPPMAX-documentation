@@ -17,10 +17,6 @@ HPC clusters have different ways to do
 
 This page shows how to do so for LUMI.
 
-`![FileZilla connected to LUMI](filezilla_login_to_lumi.png)`
-
-> FileZilla connected to LUMI
-
 ## Procedure
 
 ???- question "Would you like a video?"
