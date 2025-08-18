@@ -98,5 +98,3 @@ to all NAISS HPC clusters.
 - [The NAISS calendar](https://www.naiss.se/events/)
   shows all NAISS courses and also Zoom-ins (virtual open house)
 
-
-
