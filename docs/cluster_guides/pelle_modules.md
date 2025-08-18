@@ -168,21 +168,21 @@ for example `module spider cowsay`.
     ```bash
     $ module spider samtools
 
-   -------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------
      Rsamtools: Rsamtools/2.22.0 (E)
-   -------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------
        This extension is provided by the following modules. To access the extension you must load one of the following modules.
-   Note that any module names in parentheses show the module location in the software hierarchy.
+    Note that any module names in parentheses show the module location in the software hierarchy.
 
 
           R-bundle-Bioconductor/3.20-foss-2024a-R-4.4.2
 
 
-   Names marked by a trailing (E) are extensions provided by another module.
+    Names marked by a trailing (E) are extensions provided by another module.
 
-   -------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------
      SAMtools:
-   -------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------
        Description:
          SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging,
          indexing and generating alignments in a per-position format.
@@ -195,14 +195,13 @@ for example `module spider cowsay`.
            SAMtools/1.21-GCC-13.3.0
            SAMtools/1.22-GCC-13.3.0
 
-   -------------------------------------------------------------------------------------------------------------------------
-     For detailed information about a specific "SAMtools" package (including how to load the modules) use the module's full name
-   .
+    -------------------------------------------------------------------------------------------------------------------------
+     For detailed information about a specific "SAMtools" package (including how to load the modules) use the module's full name.
      Note that names that have a trailing (E) are extensions provided by other modules.
      For example:
 
         $ module spider SAMtools/1.22-GCC-13.3.0
-   -------------------------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------- 
 
 
     ```
