@@ -15,6 +15,11 @@ There are multiple ways to [log in to Pelle](login_pelle.md).
 This page describes how to [log in to Pelle](login_pelle.md)
 using a [terminal](../software/terminal.md) and an SSH key pair.
 
+??? question "How do I create an SSH key pair?"
+
+    See the UPPMAX guide
+    [Create and use an SSH key pair for Pelle](https://docs.uppmax.uu.se/software/ssh_key_use_pelle/)
+
 ## 1. Get inside SUNET
 
 When inside SUNET, one can access a Pelle console environment
