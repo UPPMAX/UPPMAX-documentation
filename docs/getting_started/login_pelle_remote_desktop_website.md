@@ -29,6 +29,10 @@ Most work will be to fulfill all [Pelle usage prerequisites](pelle_usage_prerequ
 
 ### 1. Go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se)
 
+!!! warning "This does not work yet"
+
+    This does not work yet.
+
 In a webbrowser, go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se).
 
 - In the first field, fill in your UPPMAX username, e.g. `sven`
