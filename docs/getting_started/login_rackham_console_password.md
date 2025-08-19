@@ -39,10 +39,10 @@ resulting in:
 ssh sven@rackham.uppmax.uu.se
 ```
 
-???- question "How does this look like the first time?"
+???- question "What does this look like the first time?"
 
     ```bash
-    sven@svens_computer:~$ ssh -X sven@rackham.uppmax.uu.se
+    sven@svens_computer:~$ ssh sven@rackham.uppmax.uu.se
     The authenticity of host 'rackham.uppmax.uu.se (89.44.250.8<X>)' can't be established.
     ECDSA key fingerprint is SHA256:W/MazH3WrH0wKrHBOJpPbDaU4qeYGqiv3FRPsdXIsb4.
     This key is not known by any other names.
@@ -56,7 +56,7 @@ ssh sven@rackham.uppmax.uu.se
         - ``SHA256:hkhuV+0mUDL7N4Jpr8/OWInrORSAL5ZRpvAqfjyg7Jg``
 
 
-???- question "Who no `-X`?"
+???- question "Why no `-X`?"
 
     On Rackham, one can use `-X`:
 
