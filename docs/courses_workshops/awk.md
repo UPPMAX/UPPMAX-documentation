@@ -27,7 +27,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
     - **Date**: 28 and 29 August, 2025
     - **Time**: 9:15 - 12:00 and 13:15 -16:00
-    - **Location**: Uppsala, EBC, House 7, room 1003, [MazeMap](https://link.mazemap.com/0jgt9Zan).
+    - **Location**: Uppsala, EBC, House 7, room 1003, [MazeMap](https://link.mazemap.com/MhrN7gPh).
 
     - **Application**: [form](https://forms.gle/UMYGX9VVwfaCUrPv9).
 
