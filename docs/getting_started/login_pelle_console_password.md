@@ -39,6 +39,8 @@ resulting in:
 ssh sven@pelle.uppmax.uu.se
 ```
 
+Using this login, graphics (i.e. images) on Pelle cannot be displayed.
+
 ???- question "How does this look like the first time?"
 
     ```bash
@@ -56,16 +58,16 @@ ssh sven@pelle.uppmax.uu.se
         - ``SHA256:hkhuV+0mUDL7N4Jpr8/OWInrORSAL5ZRpvAqfjyg7Jg``
 
 
-???- question "Who no `-X`?"
+???- question "How can I display graphics on Pelle?"
 
-    On Pelle, one can use `-X`:
+    To display graphics (i.e. images) on Pelle, use `-X`:
 
     ```bash
     ssh -X username@pelle.uppmax.uu.se
     ```
 
-    This option is only useful when you want to
-    enable so-called [X forwarding](../software/ssh_x_forwarding.md):
+    This option enable so-called
+    [X forwarding](../software/ssh_x_forwarding.md),
     which allows you to run programs that require light graphics,
     such as [eog](../software/eog.md) to display an image.
 
