@@ -167,9 +167,3 @@ Click 'Connect'.
 ### 10. Ready to transfer files
 
 Now you can transfer files between your local computer and LUMI.
-
-???- tip "How does that look like?"
-
-    It looks like this:
-
-    ![FileZilla is connected to LUMI](filezilla_login_to_lumi.png)

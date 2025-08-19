@@ -40,10 +40,6 @@ In a webbrowser, go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax
   and your [UPPMAX 2FA](../getting_started/get_uppmax_2fa.md) (e.g. `123456`)
   together, without a space (e.g. `password123456)
 
-??? question "How does that page look like?"
-
-    ![The page looks like this](./img/pelle_gui_uppmax_uu_se_empty.png)
-
 After login, you will be on a [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
