@@ -23,6 +23,10 @@ Where: Uppsala, EBC, House 7, room 1003, [MazeMap](https://link.mazemap.com/0jgt
 
 ### Schedule
 
+!!! warning "August 2025 is cancelled"
+
+    The August 2025 course has been cancelled.
+
 |                | Monday, August 25          | Tuesday, August 26  | Wednesday, August 27  |
 |:---------------|:-----------------------------|:----------------------|:------------------------|
 | **Morning**    | [Intro to UPPMAX and Linux 1/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek    | [Linux II](https://www.uu.se/download/18.57591c9d18f3ec99a0521715/1715115920644/c_560271-l_1-k_uppmax-linux-ii.pptx.pdf)<br />Douglas Scofield              | [Bash Scripting](https://www.uu.se/download/18.57591c9d18f3ec99a052171f/1715115979757/c_560271-l_1-k_uppmax-bash-scripts.pptx.pdf)<br />Douglas Scofield          |
