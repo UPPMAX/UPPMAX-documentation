@@ -94,7 +94,7 @@ to all NAISS HPC clusters.
 ### Other centers and organizations
 
 - [The SCoRe user documentation's overview of courses](https://nbisweden.github.io/SCoRe_user_doc/courses/)
-  shows all NAISS, SciLifeLab, ENCSS and more courses
+  shows all NAISS, SciLifeLab, ENCCS and more courses
 - [The NAISS calendar](https://www.naiss.se/events/)
   shows all NAISS courses and also Zoom-ins (virtual open house)
 

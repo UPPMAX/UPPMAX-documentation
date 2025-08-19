@@ -1070,5 +1070,8 @@ giy
 NFS
 PanFS
 PiB
-ENCSS
+ENCCS
 SCoRe
+etcetera
+GCCcore
+pelle
