@@ -37,7 +37,7 @@ In the ThinLinc login dialog,
 - set the 'Username' to your UPPMAX username, e.g. `sven`
 - set the 'Password' to your UPPMAX password
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![ThinLinc login](../software/img/thinlinc_local_login_pelle.png)
 
@@ -59,9 +59,9 @@ if the key matches the one in the dialog below:
 When asked for a TOTP ('Time-based one-time password'),
 get it from the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
-    ![Pelle asking for a TOTP](login_pelle_remote_desktop_local_thinlinc_client_2fa.png)
+    ![Pelle asking for a TOTP](./img/login_pelle_remote_desktop_local_thinlinc_client_2fa.png)
 
     > Pelle asking for a TOTP
 
@@ -84,7 +84,7 @@ get it from the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not 
 
 On the ThinLinc 'Welcome' dialog, click 'Forward'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The ThinLinc 'Welcome' dialog](../software/img/thinlinc_local_welcome.png)
 
@@ -97,7 +97,7 @@ Profile|Description
 MATE   |Fancier
 XFCE   |Simpler
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The ThinLinc 'Select profile' dialog](../software/img/thinlinc_local_select_profile_pelle.png)
 
@@ -122,7 +122,7 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
     If you need to do more intense calculations interactively,
     [use an interactive session](../cluster_guides/start_interactive_session_on_pelle.md).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The Pelle remote desktop environment via a local ThinLinc client](../software/img/thinlinc_local_pelle.png)
 
