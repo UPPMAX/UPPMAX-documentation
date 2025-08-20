@@ -1,14 +1,17 @@
 ---
 tags:
+  - create
   - ssh
   - SSH
   - key
   - ssh key
   - SSH key
+  - ssh key pair
+  - SSH key pair
   - Pelle
 ---
 
-# Create and use an SSH key pair for Pelle
+# Create an SSH key pair for Pelle
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)
 so that you can
