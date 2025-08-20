@@ -33,6 +33,7 @@ how to fix Slurm errors.
 For information specific to clusters, see:
 
 - [Slurm on Bianca](slurm_on_bianca.md)
+- [Slurm on Pelle](slurm_on_pelle.md)
 - [Slurm on Rackham](slurm_on_rackham.md)
 - [Slurm on Snowy](slurm_on_snowy.md)
 
