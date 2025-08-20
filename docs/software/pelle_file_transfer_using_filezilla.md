@@ -22,8 +22,6 @@ that works under Linux, Mac and Windows.
     using FileZilla, watch the video
     `TODO`
 
-
-
 To transfer files to/from Pelle using FileZilla, do
 the following steps:
 
@@ -62,30 +60,19 @@ In FileZilla's site manager:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `pelle.uppmax.uu.se`
     - Set user to `[username]`, e.g. `sven`
+    - Set password to your UPPMAX password, e.g. `VerySecret`
 
 ???- tip "How does that look like?"
 
     It looks similar to this:
 
-    `TODO ![FileZilla configured for Pelle](./img/filezilla_setup_pelle_sven.png)`
+    ![FileZilla configured for Pelle](./img/filezilla_setup_pelle_sven.png)`
 
 ## 5. Connect to the site
 
 Click 'Connect'.
 
-## 6. Fill in your password
-
-You will be asked for your password, hence
-type `[your password]`, e.g. `VerySecret`.
-You can save the password.
-
-???- tip "How does that look like?"
-
-    It looks similar to this:
-
-    `TODO ![FilleZilla asks for a password](./img/filezilla_enter_password_pelle.png)`
-
-## 7. Ready to transfer files
+## 6. Ready to transfer files
 
 Now you can transfer files between your local computer and Pelle.
 
@@ -93,4 +80,4 @@ Now you can transfer files between your local computer and Pelle.
 
     It looks like this:
 
-    `TODO ![FileZilla is connected to Pelle](./img/filezilla_login_to_pelle.png)`
+    ![FileZilla is connected to Pelle](./img/filezilla_login_to_pelle.png)
