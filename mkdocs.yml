@@ -161,6 +161,9 @@ theme:
     - content.tabs.link
     - content.action.edit
     - content.action.view
+    - content.code.copy
+
+
   custom_dir: mkdocs_uppmax/
     
 #extra:
