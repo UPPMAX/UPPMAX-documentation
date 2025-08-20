@@ -6,22 +6,13 @@ tags:
 
 # File transfer to/from Pelle using FileZilla
 
-!!! warning "Does not work yet"
+There are multiple ways to
+[transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
 
-    [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
-    that is in the process of being deployed.
-
-    The procedure as described on this page does not work yet or is untested.
-
-    This page will be updated when this works.
-
-There are multiple ways to [transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
-
-Here, we show how to transfer files using a graphical tool called [FileZilla](filezilla.md).
-
-`TODO ![FileZilla connected to Pelle](./img/filezilla_login_to_pelle_480_x_270.png)`
-
-> FileZilla connected to Pelle
+Here, we show how to transfer files using a graphical tool
+called [FileZilla](filezilla.md),
+which is a secure file transfer tool
+that works under Linux, Mac and Windows.
 
 ## Procedure
 
@@ -32,16 +23,15 @@ Here, we show how to transfer files using a graphical tool called [FileZilla](fi
     `TODO`
 
 
-FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
 To transfer files to/from Pelle using FileZilla, do
 the following steps:
 
-### 1. Start FileZilla
+## 1. Start FileZilla
 
 Start FileZilla.
 
-### 2. Start FileZilla's site manager
+## 2. Start FileZilla's site manager
 
 From the menu, select 'File | Site manager'
 
@@ -53,7 +43,7 @@ From the menu, select 'File | Site manager'
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
-### 3. Add a new site in FileZilla's site manager
+## 3. Add a new site in FileZilla's site manager
 
 In FileZilla's site manager, click 'New site'
 
@@ -63,7 +53,7 @@ In FileZilla's site manager, click 'New site'
 
     ![The FileZilla Site Manager](./img/filezilla_site_manager.png)
 
-### 4. Setup the site
+## 4. Setup the site
 
 In FileZilla's site manager:
 
@@ -79,11 +69,11 @@ In FileZilla's site manager:
 
     `TODO ![FileZilla configured for Pelle](./img/filezilla_setup_pelle_sven.png)`
 
-### 5. Connect to the site
+## 5. Connect to the site
 
 Click 'Connect'.
 
-### 6. Fill in your password
+## 6. Fill in your password
 
 You will be asked for your password, hence
 type `[your password]`, e.g. `VerySecret`.
@@ -95,7 +85,7 @@ You can save the password.
 
     `TODO ![FilleZilla asks for a password](./img/filezilla_enter_password_pelle.png)`
 
-### 7. Ready to transfer files
+## 7. Ready to transfer files
 
 Now you can transfer files between your local computer and Pelle.
 
