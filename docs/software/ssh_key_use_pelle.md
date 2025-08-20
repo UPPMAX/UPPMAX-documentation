@@ -20,9 +20,9 @@ so that you can
 ## Procedure
 
 ???- question "Prefer a video?"
-
-    - [Create and use an SSH key pair for Pelle when outside of SUNET (fails!)](https://youtu.be/-f0C66zIrwI)
-    - [Create and use an SSH key pair for Pelle on Ubuntu 24.04 Noble (fails!)](https://youtu.be/j6F8sJu2NFs)
+    
+    Watch the YouTube video
+    [Create an SSH key pair for Pelle](https://youtu.be/U2LxIpx7SD8)
 
 This figure shows the procedure:
 
@@ -37,18 +37,11 @@ flowchart TD
   add --> copy
 ```
 
-<!--
+This procedure fails if:
 
-This procedure will fail if:
-
-- You are outside of the university networks,
-  see [how to get inside the university networks](../getting_started/get_inside_sunet.md).
-  [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being
-  outside of the university networks
-- You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
-  where a password is still requested after doing this procedure
-
--->
+- You use Ubuntu 24.04 Noble, even when
+  [inside the university networks](../getting_started/get_inside_sunet.md).
+  as demonstrated by [this video](),
 
 ### 1. Create an SSH key pair
 
