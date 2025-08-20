@@ -26,11 +26,11 @@ via a local [ThinLinc](../software/thinlinc.md) client.
     Watch the YouTube video
     [Log in to Pelle's remote desktop environment using a local ThinLinc client](https://youtu.be/0rVy83X89Go)
 
-### 1. Install ThinLinc
+## 1. Install ThinLinc
 
 Install ThinLinc. For help, see [the UPPMAX page on ThinLinc](../software/thinlinc.md).
 
-### 2. Start ThinLinc
+## 2. Start ThinLinc
 
 In the ThinLinc login dialog,
 
@@ -48,14 +48,14 @@ In the ThinLinc login dialog,
 
     Because that does not work :-)
 
-### 3. (first time only) Connect to Pelle
+## 3. (first time only) Connect to Pelle
 
 If you are warned about a key, click on 'Continue'
 if the key matches the one in the dialog below:
 
 ![Pelle ThinLinc fingerprint](./img/login_pelle_remote_desktop_local_thinlinc_client_fingerprint.png)
 
-### 4. Fill in your 2FA TOTP
+## 4. Fill in your 2FA TOTP
 
 When asked for a TOTP ('Time-based one-time password'),
 get it from the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!)
@@ -81,7 +81,7 @@ get it from the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not 
     > to access Pelle
 
 
-### 5. Forward the ThinLinc Welcome dialog
+## 5. Forward the ThinLinc Welcome dialog
 
 On the ThinLinc 'Welcome' dialog, click 'Forward'
 
@@ -89,7 +89,7 @@ On the ThinLinc 'Welcome' dialog, click 'Forward'
 
     ![The ThinLinc 'Welcome' dialog](../software/img/thinlinc_local_welcome.png)
 
-### 6. Select a ThinLinc profile
+## 6. Select a ThinLinc profile
 
 On the ThinLinc 'Select profile' dialog, select a profile:
 
@@ -106,9 +106,12 @@ XFCE   |Simpler
     > with MATE as the default.
     > Pick any.
 
-### 7. You are in
+## 7. You are in
 
 You are in! Well done!
+
+For tips on how to work with this environment,
+see [the UPPMAX ThinLinc page](../software/thinlinc.md).
 
 After login, you will be on a [login node](../cluster_guides/login_node.md).
 
@@ -127,7 +130,3 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
 
     ![The Pelle remote desktop environment via a local ThinLinc client](../software/img/thinlinc_local_pelle.png)
 
-## Usage
-
-For tips on how to work with this environment,
-see [the UPPMAX ThinLinc page](../software/thinlinc.md).

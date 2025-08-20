@@ -27,7 +27,7 @@ via a web browser.
 This is a procedure with one step.
 Most work will be to fulfill all [Pelle usage prerequisites](pelle_usage_prerequisites.md).
 
-### 1. Go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se)
+## 1. Go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se)
 
 !!! warning "This does not work yet"
 
