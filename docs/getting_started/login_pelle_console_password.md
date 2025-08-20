@@ -22,7 +22,9 @@ see [login to the Pelle console environment with an SSH key](login_pelle_console
 
 ???- question "Prefer a video?"
 
-    TODO
+    Watch the YouTube video
+    [Login to the Pelle console environment with a password](https://youtu.be/zsw3QD_NinU)
+
 
 ### 1. Use `ssh` to log in
 
