@@ -34,6 +34,8 @@ flowchart TD
   add --> copy
 ```
 
+<!--
+
 This procedure will fail if:
 
 - You are outside of the university networks,
@@ -42,6 +44,8 @@ This procedure will fail if:
   outside of the university networks
 - You use Ubuntu 24.04 Noble, as demonstrated by [this video](https://youtu.be/j6F8sJu2NFs),
   where a password is still requested after doing this procedure
+
+-->
 
 ### 1. Create an SSH key pair
 
