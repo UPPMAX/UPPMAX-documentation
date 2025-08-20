@@ -23,7 +23,8 @@ via a local [ThinLinc](../software/thinlinc.md) client.
 
 ???- question "Prefer a video?"
 
-    TODO
+    Wathch the YouTube video
+    [Log in to Pelle's remote desktop environment using a local ThinLinc client](https://youtu.be/0rVy83X89Go)
 
 ### 1. Install ThinLinc
 

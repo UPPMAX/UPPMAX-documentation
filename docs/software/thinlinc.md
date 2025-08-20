@@ -1,6 +1,10 @@
 ---
 tags:
   - ThinLinc
+  - local client
+  - install
+  - usage
+  - copy-paste
 ---
 
 # ThinLinc
@@ -11,6 +15,8 @@ tags:
 
 ThinLinc provides for a remote desktop environment for the UPPMAX clusters.
 
+## Local ThinLinc client versus web browser
+
 There are two ways of connecting to the clusters using ThinLinc,
 using a local ThinLinc client or login using a webbrowser.
 Here are the differences:
@@ -19,6 +25,7 @@ Parameter                                   |Local ThinLinc client|Web browser l
 --------------------------------------------|---------------------|-----------------
 [Bianca](../cluster_guides/bianca.md) use   |Impossible           |Possible
 [Rackham](../cluster_guides/rackham.md) use |Recommended          |Possible
+[Pelle](../cluster_guides/pelle.md) use     |Recommended          |:construction: Not yet possible
 Install                                     |ThinLinc client      |Nothing [1]
 Simplicity                                  |Easy                 |Trivial
 Performance                                 |Higher               |Lower
@@ -38,6 +45,11 @@ The client can be downloaded from the [official download page](https://www.cendi
 - [ThinLinc on Bianca](../software/thinlinc_on_bianca.md)
 - [ThinLinc on Rackham](../software/thinlinc_on_rackham.md)
 - ThinLinc on Snowy: same as [ThinLinc on Rackham](../software/thinlinc_on_rackham.md)
+
+## Installing ThinLinc
+
+The ThinLinc client can be downloaded from the
+[official Cendio download page](https://www.cendio.com/thinlinc/download/).
 
 ## ThinLinc usage
 
