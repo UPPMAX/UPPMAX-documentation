@@ -18,9 +18,8 @@ that works under Linux, Mac and Windows.
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file transfer from/to Pelle
-    using FileZilla, watch the video
-    `TODO`
+    Watch the YouTube video
+    [File transfer to/from Pelle using FileZilla](https://youtu.be/NOHYNj1vW28)
 
 To transfer files to/from Pelle using FileZilla, do
 the following steps:
