@@ -55,11 +55,11 @@ In FileZilla's site manager, click 'New site'
 
 In FileZilla's site manager:
 
-- create a name for the site, e.g. `pelle`.
+- create a name for the site, e.g. `Pelle`.
 - for that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `pelle.uppmax.uu.se`
-    - Set user to `[username]`, e.g. `sven`
+    - Set user to your UPPMAX username, e.g. `sven`
     - Set password to your UPPMAX password, e.g. `VerySecret`
 
 ???- tip "How does that look like?"
