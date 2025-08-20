@@ -49,7 +49,8 @@ This procedure will fail if:
 
 ### 1. Create an SSH key pair
 
-Create an SSH key pair with the following command:
+On your local computer, in a terminal,
+create an SSH key pair with the following command:
 
 ```bash
 ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
@@ -67,7 +68,8 @@ ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
 
 ### 2. Add your keys to an SSH agent
 
-Add your newly generated `ed25519` key to an SSH agent:
+On your local computer, in a terminal,
+add your newly generated `ed25519` key to an SSH agent:
 
 ```bash
 ssh-add ~/.ssh/id_ed25519_uppmax_login
@@ -75,7 +77,8 @@ ssh-add ~/.ssh/id_ed25519_uppmax_login
 
 ### 3. Copy the public key to Pelle
 
-Copy the public key to Pelle or other server.
+On your local computer, in a terminal,
+copy the public key to Pelle:
 
 ```bash
 ssh-copy-id -i .ssh/id_ed25519_uppmax_login.pub [username]@pelle.uppmax.uu.se
