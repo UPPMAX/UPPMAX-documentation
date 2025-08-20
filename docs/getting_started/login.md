@@ -9,7 +9,9 @@ tags:
 
 !!! warning
 
-    N.B. You are NOT supposed to log in to any webpage with the password and username you get via UPPMAX support, with the exception of the ThinLinc webinterface.
+    N.B. You are NOT supposed to log in to any webpage with the password
+    and username you get via UPPMAX support,
+    with the exception of the ThinLinc webinterface.
 
 One needs to log in into an UPPMAX cluster to use it.
 
@@ -30,6 +32,7 @@ Because logging in differs between clusters, each cluster
 has its own login page:
 
 - [Login to Bianca](login_bianca.md)
+- [Login to Pelle](login_pelle.md)
 - [Login to Rackham](login_rackham.md)
 - [Login to Snowy](login_snowy.md)
 

@@ -10,17 +10,9 @@ tags:
 
 # Create and use an SSH key pair for Pelle
 
-!!! warning "Does not work yet"
-
-    [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
-    that is in the process of being deployed.
-
-    The procedure as described on this page does not work yet or is untested.
-
-    This page will be updated when this works.
-
 This page describes [how to create and use an SSH key](ssh_key_use.md)
-for the [Pelle](../cluster_guides/pelle.md) cluster.
+so that you can
+[login to the Pelle console environment with an SSH key](../getting_started/login_pelle_console_ssh_key.md)
 
 ## Procedure
 
