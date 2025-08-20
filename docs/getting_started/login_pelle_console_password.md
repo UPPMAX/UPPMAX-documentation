@@ -85,7 +85,7 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
     to access Pelle, `-A` is unused
     and hence we simplify this documentation by omitting it.
 
-## 2. Type your UPPMAX password
+### 2. Type your UPPMAX password
 
 Type your UPPMAX password and press enter.
 You will see no asterisks to indicate how many
@@ -95,7 +95,7 @@ If you are outside
 [the university networks](../getting_started/get_inside_sunet.md)
 you will be asked for your UPPMAX 2-factor authentication number.
 
-## 3. You are in
+### 3. You are in
 
 Enjoy! You are in! Or, to be precise,
 you are in your home folder on a Pelle [login node](../cluster_guides/login_node.md).
