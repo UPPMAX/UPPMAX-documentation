@@ -47,9 +47,9 @@ Here is a decision tree, to determine which way to log in:
 flowchart TD
   need_gui(Need to run a graphical program?)
   use_terminal[Use a terminal]
-  use_website[Use the remote desktop website]
+  use_website[1.Use the remote desktop website]
   need_easy_or_speedy(Need easiest or fastest?)
-  use_local[Use a local ThinLinc client]
+  use_local[2.Use a local ThinLinc client]
 
   need_gui --> |no| use_terminal
   need_gui --> |yes| need_easy_or_speedy
@@ -58,20 +58,20 @@ flowchart TD
 
   how_login(How to log in?)
 
-  use_password[Use password. Start here]
-  use_ssh_keys[Use SSH keys. No more password needed]
+  use_password[3.Use password]
+  use_ssh_keys[4.Use SSH keys]
 
   use_terminal --> how_login
-  how_login --> use_password
-  how_login --> use_ssh_keys
+  how_login --> |easiest| use_password
+  how_login --> |most convenient| use_ssh_keys
 ```
 
 The procedures can be found at:
 
-- :construction: Does not work yet. [Login to the Pelle remote desktop environment using the website](login_pelle_remote_desktop_website.md)
-- [Login to the Pelle console environment with a password](login_pelle_console_password.md).
-  If you want to get rid of using a password every time, see [login to the Pelle console environment with an SSH key](login_pelle_console_ssh_key.md)
-- [Login to the Pelle remote desktop environment using a local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)
+- :construction: Does not work yet. [1.Login to the Pelle remote desktop environment using the website](login_pelle_remote_desktop_website.md)
+- [2.Login to the Pelle remote desktop environment using a local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)
+- [3.Login to the Pelle console environment with a password](login_pelle_console_password.md).
+- [4.Login to the Pelle console environment with an SSH key](login_pelle_console_ssh_key.md)
 
 After login, you will be on a [login node](../cluster_guides/login_node.md).
 
