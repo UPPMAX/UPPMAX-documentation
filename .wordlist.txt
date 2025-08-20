@@ -1075,3 +1075,4 @@ SCoRe
 etcetera
 GCCcore
 pelle
+Cendio
