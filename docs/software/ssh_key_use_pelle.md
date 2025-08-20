@@ -20,7 +20,7 @@ so that you can
 ## Procedure
 
 ???- question "Prefer a video?"
-    
+
     Watch the YouTube video
     [Create an SSH key pair for Pelle](https://youtu.be/U2LxIpx7SD8)
 
@@ -41,7 +41,8 @@ This procedure fails if:
 
 - You use Ubuntu 24.04 Noble, even when
   [inside the university networks](../getting_started/get_inside_sunet.md).
-  as demonstrated by [this video](),
+  as demonstrated in the end of the YouTube video
+  [Create an SSH key pair for Pelle](https://youtu.be/U2LxIpx7SD8)
 
 ### 1. Create an SSH key pair
 
