@@ -35,6 +35,7 @@ It is the `-X` that allows [ssh](ssh.md) to show graphics.
 Cluster|Allows SSH with X forwarding
 -------|----------------------------
 Bianca |No
+Pelle  |Yes
 Rackham|Yes
 Snowy  |Yes
 
