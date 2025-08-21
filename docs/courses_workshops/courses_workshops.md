@@ -38,6 +38,8 @@ Course dates are (or should be) provided at each course's website.
 
 [Introduction to Python <br> _Oct 14_](intro_to_python.md){ .md-button .md-button--primary }
 
+[Introduction to Linux and UPPMAX <br> _Oct 15-17_](uppmax_intro_course.md){ .md-button .md-button--primary }
+
 [Programming formalisms <br> _Oct 23-24 + 27-29_](programming_formalisms.md){ .md-button .md-button--primary }
 
 ### November
