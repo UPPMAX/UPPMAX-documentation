@@ -20,16 +20,12 @@ UPPMAX application experts want to share their skills in a 3-day series of lectu
 
 When: October 15-17, 2025.
 
-Where: Uppsala, EBC, House 7, room 1003, [MazeMap](https://link.mazemap.com/0jgt9Zan).
+Where: online via Zoom.
 
-[Registration form](https://forms.gle/wYGeYYyuZuJvzFvt8)
+[Registration form](https://forms.gle/PtkBn57BmNLAtFyt9)
 
 
 ### Schedule
-
-!!! warning "August 2025 is cancelled"
-
-    The August 2025 course has been cancelled.
 
 |                | Wednesday, October 15        | Thursday, October 16  | Friday, August 17  |
 |:---------------|:-----------------------------|:----------------------|:------------------------|
