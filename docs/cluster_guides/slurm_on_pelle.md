@@ -18,7 +18,7 @@ how to fix Slurm errors.
 
     Work in progress. Updating Racckham instructions to Pelle ones.
 
-## `sbatch` (and `interactive`) on Rackham
+## `sbatch` (and `interactive`) on Pelle
 
 `sbatch` (and `interactive`) work the same as on other clusters,
 the only difference is that one need specify one want to use
