@@ -47,23 +47,18 @@ and improves the reproducibility of the scripts written.
 To preserve hard disk space, Bianca also
 has [multiple big databases installed](../databases/overview.md).
 
-!!! warning
-
-    To access bioinformatics tools, load the **bioinfo-tools** module first.
-
 ## Working with the module system
 
 !!! info Overview of module commands
 
     Command                         |Description
     --------------------------------|--------------------------------------
-    `module load bioinfo-tools`     |Load this module first, to find others
     `module spider`                 |Search for a module
     `module spider [module]`        |Get info about a module, e.g. `module spider cowsay`
     `module avail`                  |Search for a module that is available
     `module list`                   |List all activated modules
     `module load [module]`          |Load a module, e.g. `module load cowsay`
-    `module load [module]/[version]`|Load a module of a specific versions, e.g. `module load cowsay/3.03`
+    `module load [module]/[version]`|Load a module of a specific versions, e.g. `module load cowsay/3.04`
     `module help`                   |Show the help for a module
     `module unload [module]`        |Unload the module `[module]`, e.g. `module unload cowsay`
 
@@ -221,10 +216,6 @@ for example `module spider cowsay`.
 If there is an exact match, that module is reported first.
 Of the module shown, also the different versions are reported.
 
-!!! tip "Do `module load bioinfo-tools` first"
-
-    When working with modules, do `module load bioinfo-tools` first
-
 ???- tip "What to do when you cannot find a module"
 
     Run `module load bioinfo-tools`.
@@ -359,7 +350,7 @@ For example, this is a valid bash script:
 
 ```text
 #!/bin/bash
-module load cowsay/3.03
+module load cowsay/3.04
 cowsay hello
 ```
 
@@ -423,6 +414,8 @@ Use "module keyword key1 key2 ..." to search for all possible modules matching a
 
 ## Conflicting modules
 
-Sometimes some tools cannot be run together, that is working when another module is loaded. Read about this in the page:
+Sometimes some tools cannot be run together,
+that is working when another module is loaded.
+Read about this in the page:
 
 - [Conflicting modules](module_conflicts.md)
