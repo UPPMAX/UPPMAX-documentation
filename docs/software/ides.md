@@ -18,6 +18,9 @@ language (e.g. RStudio) and some allow multiple programming languages.
 How to use an IDE depends on the UPPMAX cluster you want to use:
 
 - [IDEs on Bianca](../software/ides_on_bianca.md)
+- [IDEs on Pelle](../software/ides_on_pelle.md)
 - [IDEs on Rackham](../software/ides_on_rackham.md)
 
-In general, using an IDE is easiest on Rackham and hardest on Bianca.
+In general, using an IDE is easiest on the general-purpose HPC clusters
+(i.e. Pelle and Rackham) and hardest on the sensitive data HPC clusters
+(i.e. Bianca).
