@@ -1,6 +1,7 @@
 # Snowy's name
 
-[Snowy](snowy.md), like all [UPPMAX clusters](uppmax_cluster.md),
+[Snowy](snowy.md),
+like most [UPPMAX clusters](uppmax_cluster.md) between 2013 and 2025,
 is named after a Tintin character,
 in this case after Snowy, Tintin's dog:
 

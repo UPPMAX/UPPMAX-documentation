@@ -41,11 +41,11 @@ Castor, +1 PB                          |.                |1 PB, 18 servers      
 Grus                                   |.                |1.5 PB, 14 servers                                           |1.8? |2016-07-01|2020-07-31|SouthPole, Huawei data network redesign IT 2015/65
 Irham                                  |.                |.                                                            |.    |2016-07-01|2024-01-12|Decommissioned Irma nodes added to Rackham, became `r[1001-1072,1179-1250]`
 Miarka                                 |.                |.                                                            |.    |2021      |.         |.
-[Rackham](../cluster_guides/rackham.md)|.                |.                                                            |.    |.         |.         |.
+[Rackham](../cluster_guides/rackham.md)|-2025            |.                                                            |.    |.         |.         |.
 [Snowy](../cluster_guides/snowy.md)    |.                |.                                                            |.    |.         |.         |.
-[Pelle](../cluster_guides/pelle.md)    |.                |.                                                            |.    |.         |.         |.
+[Pelle](../cluster_guides/pelle.md)    |2025-            |.                                                            |.    |.         |.         |.
 [Maja](../cluster_guides/maja.md)      |.                |.                                                            |.    |.         |.         |.
-[Gorilla](../cluster_guides/gorilla.md)|.                |.                                                            |.    |.         |.         |.
+[Gorilla](../cluster_guides/gorilla.md)|2025-            |.                                                            |.    |.         |.         |.
 
 - Price is in millions of Swedish kroner
 - 'Start': start of the guarantee

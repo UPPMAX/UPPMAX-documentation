@@ -1,6 +1,7 @@
 # Bianca's name
 
-[Bianca](bianca.md), like all [UPPMAX clusters](uppmax_cluster.md),
+[Bianca](bianca.md),
+like most [UPPMAX clusters](uppmax_cluster.md) between 2013 and 2025,
 is named after a Tintin character,
 in this case after Bianca Castafiore.
 
