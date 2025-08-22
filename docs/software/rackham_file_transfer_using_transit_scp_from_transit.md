@@ -14,12 +14,8 @@ tags:
 
 There are multiple ways to [transfer data to/from Rackham](../cluster_guides/transfer_rackham.md).
 
-One can use SCP to copy files between Rackham and Transit,
-from either Rackham or Transit.
-
 One can transfer files to/from Rackham using the UPPMAX Transit server,
-using SCP.
-The program `scp` allows you to copy file between Rackham and Transit.
+using [`scp`](scp.md).
 
 The process is:
 

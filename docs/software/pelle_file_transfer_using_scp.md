@@ -21,12 +21,7 @@ tags:
 
 There are multiple ways to [transfer files to or from Pelle](../cluster_guides/transfer_pelle.md).
 
-Here it is described how to do file transfer to/from Pelle using SCP.
-SCP is an abbreviation of 'Secure copy protocol',
-however, it is not considered 'secure' anymore:
-instead it is considered an outdated protocol.
-The program `scp` allows you to transfer files to/from Pelle using SCP,
-by coping them between your local computer and Pelle.
+This page shows you how to do so using [`scp`](scp.md).
 
 ## Procedure
 
@@ -40,7 +35,7 @@ Start a [terminal](../software/terminal.md) on your local computer
 
 ### 2. Copy files using `scp`
 
-In the terminal, copy files using `scp` to connect to Pelle:
+In the terminal, copy files using [`scp`](scp.md) to connect to Pelle:
 
 ```bash
 scp [from] [to]
@@ -62,7 +57,8 @@ and `[username]` is your UPPMAX username, for example:
 scp my_file.txt sven@pelle.uppmax.uu.se:/home/sven
 ```
 
-To copy a file from Pelle to your local computer, do the command above in reverse order:
+To copy a file from Pelle to your local computer,
+do the command above in reverse order:
 
 ```bash
 scp [username]@pelle.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]

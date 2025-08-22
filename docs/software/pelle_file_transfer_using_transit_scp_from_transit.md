@@ -27,8 +27,7 @@ One can use SCP to copy files between Pelle and Transit,
 from either Pelle or Transit.
 
 One can transfer files to/from Pelle using the UPPMAX Transit server,
-using SCP.
-The program `scp` allows you to copy file between Pelle and Transit.
+using [`scp`](scp.md).
 
 The process is:
 

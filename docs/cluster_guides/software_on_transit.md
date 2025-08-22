@@ -37,6 +37,7 @@ and run `./gdc-client`.
     If you connect from abroad and
     you are asked for the **2FA** (_two factor authentication_),
     there is a grace period (_about 5 minutes_) in which you can
-    `ssh`/`scp`/`rsync`/`sftp` to **transit** without the need for **2FA**.
+    `ssh`/[`scp`](../software/scp.md)/[`rsync`](../software/rsync.md)/`sftp`
+    to **transit** without the need for **2FA**.
     This allows you to use these and other tools
     that might experience problems with the **2FA**.

@@ -12,12 +12,7 @@ tags:
 
 There are multiple ways to [transfer files to or from Rackham](../cluster_guides/transfer_rackham.md).
 
-Here it is described how to do file transfer to/from Rackham using SCP.
-SCP is an abbreviation of 'Secure copy protocol',
-however, it is not considered 'secure' anymore:
-instead it is considered an outdated protocol.
-The program `scp` allows you to transfer files to/from Rackham using SCP,
-by coping them between your local computer and Rackham.
+Here it is described how to do so using [`scp`](scp.md).
 
 ## Procedure
 

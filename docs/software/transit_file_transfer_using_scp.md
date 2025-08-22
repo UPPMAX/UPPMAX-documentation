@@ -11,7 +11,7 @@ tags:
 
 # Data transfer to/from Transit using SCP
 
-Data transfer to/from [Transit](../cluster_guides/transit.md) using SCP
+Data transfer to/from [Transit](../cluster_guides/transit.md) using [`scp`](scp.md)
 is one of the ways ways to [transfer files to/from Transit](../cluster_guides/transfer_transit.md).
 
 ???- question "What is Transit?"
@@ -25,11 +25,11 @@ is one of the ways ways to [transfer files to/from Transit](../cluster_guides/tr
 
     See [the other ways to transfer data to/from Transit](../cluster_guides/transfer_transit.md)
 
-One **cannot** transfer files to/from Transit using SCP.
-SCP is an abbreviation of 'Secure copy protocol',
-however, it is not considered 'secure' anymore:
+One **cannot** transfer files to/from Transit using [`scp`](scp.md):
+[`scp`](scp.md) is not considered 'secure' anymore:
 instead it is considered an outdated protocol.
-The program `scp` allows you to transfer files to/from Transit using SCP,
+
+The program [`scp`](scp.md) allows you to transfer files to/from Transit using SCP,
 by coping them between your local computer and Transit.
 
 ## How to transfer files between a local computer and Transit
