@@ -24,18 +24,15 @@ and a [detailed overview of the clusters](#detailed-overview-of-the-uppmax-syste
 UPPMAX clusters are computing systems,
 i.e. they allow a user to do heavy computational calculations.
 
-All UPPMAX clusters are named after Tintin characters.
-UPPMAX has, among others, the following clusters:
-
-- [Bianca](bianca.md): for sensitive data, general use.
-  In the near future, will be replaced by [Maja](maja.md)
-- [Rackham](rackham.md): regular data, general purpose.
-  Will be only for UU staff at 2025-01-01.
-  In the near future, will be replaced by [Pelle](pelle.md)
-- [Snowy](snowy.md): regular data, long runs and GPU:s
+Name                 |Purpose                      |Description
+---------------------|-----------------------------|-------------------------------------
+[Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
+[Pelle](pelle.md)    |Regular data, general purpose|Is replacing [Rackham](rackham.md)
+[Rackham](rackham.md)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
+[Snowy](snowy.md)    |Regular data, long runs, GPUs|.
 
 <center>
-[System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html){ .md-button .md-button--primary }
+[System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html) { .md-button .md-button--primary }
 </center>
 
 Another cluster UPPMAX is involved in:
