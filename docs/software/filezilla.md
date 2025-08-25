@@ -22,12 +22,15 @@ from one or more locations:
 
 Operating system     |Location(s)
 ---------------------|------------------------------------------------------------------------------------------
-Linux                |[The FileZilla website](https://filezilla-project.org/download.php), the Ubuntu App Center
-MacOS (intel)        |[The FileZilla website](https://filezilla-project.org/download.php?platform=osx)
-MacOS (Apple Silicon)|[The FileZilla website](https://filezilla-project.org/download.php?platform=macos-arm64)
-Windows              |[the UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows), [The FileZilla website](https://filezilla-project.org/download.php?platform=win64)
+Linux                |[FileZilla website](https://filezilla-project.org/download.php), Ubuntu App Center
+MacOS (intel)        |[FileZilla website](https://filezilla-project.org/download.php?platform=osx)
+MacOS (Apple Silicon)|[FileZilla website](https://filezilla-project.org/download.php?platform=macos-arm64)
+Windows              |[UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows) (Suggested!), [FileZilla website](https://filezilla-project.org/download.php?platform=win64)
 
 <!-- markdownlint-enable MD013 -->
+!!! warning "AI tool caution"
+
+    If you have a UU registered Windows or MacOS laptop, we suggest downloading from the UU Software Center, if FileZilla is available there.
 
 ## Transfer files
 
