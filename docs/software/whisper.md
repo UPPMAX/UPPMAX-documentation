@@ -108,7 +108,7 @@ Following steps are derived from [Project application for Bianca](../getting_sta
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.
 
-1. Click on the Terminal icon on the bottom of the Desktop and enter the following command in it to load Whisper GUI.
+1. Click on the Terminal icon on the bottom of the Desktop and enter the following command in it to load Whisper app. If you cannot find the Terminal icon, you can alternatively right-click on the Desktop and select 'Open Terminal'.
 
     ```bash
     module load Whisper-gui
