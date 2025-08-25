@@ -4,7 +4,7 @@ tags:
   - transcriptions
   - AI
 date:
-    updated: 2024-12-20
+    updated: 2025-08-25
 ---
 
 # Whisper
@@ -61,17 +61,18 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
         Else, you can also [download the sofware](https://audiosupport.omsystem.com/en/product/odms-r8/)
         and then follow the same guide.
 
-## Glossary
-
-- **SUPR account** : Gives access to project management account for submitting project proposals on SUPR.
-- **UPPMAX account** : Gives access to UPPMAX servers, like Bianca.
-- **GUI** : Graphical User Interface for taking transcription/translation inputs.
-- **WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
-- **Terminal** : Black text-based environment that is used for performing jobs.
-- **Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
-- **Proj**: project folder in Bianca that is shared among all project members.
-- **Job**: A request for transcribing/translating one or many recordings.
-- **Slurm**: "job" handler.
+??? info "Glossary"
+  
+    - **SUPR account** : Gives access to project management account for submitting project proposals on SUPR.
+    - **UPPMAX account** : Gives access to UPPMAX servers, like Bianca.
+    - **GUI** : Graphical User Interface for taking transcription/translation inputs.
+    - **WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
+    - **SUNET**: Swedish university network
+    - **Terminal** : Black text-based environment that is used for performing jobs.
+    - **Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
+    - **Proj**: project folder in Bianca that is shared among all project members.
+    - **Job**: A request for transcribing/translating one or many recordings.
+    - **Slurm**: "job" handler. 
 
 !!! info inline end "Checklist for new project"
 
