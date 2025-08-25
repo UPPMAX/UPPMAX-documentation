@@ -92,7 +92,7 @@ In FileZilla, click 'Connect'
 You will be asked for your password. Enter your UPPMAX password and two-factor authentication code together. Hence
 type `[your password][2FA code]`, e.g. `MyPassword123456`, where `MyPassword` is your UPPMAX password and `123456` is your 6 digit UPPMAX two-factor authentication code.
 
-Uncheck "Remember" password until FileZilla is closed.
+Uncheck "Remember password until FileZilla is closed".
 
 !!! tip "Remembering/storing a password is useless"
 
