@@ -1,5 +1,5 @@
-# Check that there is correct markdown in all files
-name: Check markdown
+# Check that there is correct Markdown in all files
+name: Check Markdown
 
 # Check spelling on the 21st day of the month.
 # 21st as the first letter of this repo is the 21st letter in the alphabet.
