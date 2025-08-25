@@ -144,6 +144,8 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
 
     - **Initial Prompt**: [leave blank]
 
+    Select your files that need to be transcribed/translated. Then, click 'Okay'. Select your folder where you would like to save your transcriptions/translations. Then, click 'Okay'. After this, your job will be submitted, and you will have to wait for the files to be processed.
+
     ??? tip "Video Demo"
 
         ![type:video](./videos/whisper-app-demo.webm)
