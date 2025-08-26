@@ -8,9 +8,11 @@ tags:
 
 ???- question "Why is this page at UPPMAX?"
 
-    It is the intention that this guide is moved to the CSC documentation.
-    However, it has not been suggested to be added to their documentaton
-    yet.
+    It was the intention that this guide
+    would be moved to the CSC documentation.
+    However, contacting CSC regarding this,
+    made it clear that
+    [CSS does not (yet) intend to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34#issuecomment-2889764104).
 
 HPC clusters have different ways to do
 [file transfer using FileZilla](file_transfer_using_filezilla.md).
