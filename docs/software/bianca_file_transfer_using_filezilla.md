@@ -18,8 +18,8 @@ tags:
 
 There are multiple ways to [transfer data to/from Bianca](../cluster_guides/transfer_bianca.md).
 
-Here, we show how to transfer files using a graphical tool called [FileZilla](filezilla.md).
-See [the UPPMAX page on 'FileZilla'](filezilla.md) on how to install FileZilla.
+Here, we show how to transfer files using a graphical tool called "FileZilla".
+See [the UPPMAX page on 'FileZilla'](filezilla.md) on how to download and install it.
 
 ## Procedure
 
@@ -32,21 +32,18 @@ To transfer files to/from Bianca using FileZilla, do the following steps:
 
 ### 1. Get inside SUNET
 
-[Get inside of SUNET](../getting_started/get_inside_sunet.md).
-
-???- question "Forgot how to get within SUNET?"
-
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+Check how to get inside university networks : [Get inside of SUNET](../getting_started/get_inside_sunet.md). 
+If you are part of a Swedish university, you can use the VPN provided by your university.
 
 ### 2. Start FileZilla
 
-Start FileZilla.
+Open FileZilla application.
 
 ### 3. Select 'File | Site manager'
 
-In FileZilla, from the menu, select 'File | Site manager'
+In FileZilla, from the menu, select 'File | Site manager'.
 
-???- tip "Where is that?"
+???- question "Where is that?"
 
     It is here:
 
@@ -58,7 +55,7 @@ In FileZilla, from the menu, select 'File | Site manager'
 
 In the 'Site Manager' dialog, click 'New site'
 
-???- tip "Where is that?"
+???- question "Where is that?"
 
     It is here:
 
@@ -66,19 +63,21 @@ In the 'Site Manager' dialog, click 'New site'
 
     > 'New site' can be found at the bottom-left
 
-### 5. Create a name for the site, e.g. `bianca-sens123456`
+### 5. Create a name for the site
 
-In the 'New Site' dialog, create a name for the site, e.g. `bianca-sens123456`.
+In the 'New Site' dialog, create a name for the site, e.g. `bianca-sens2023613`.
 
 ### 6. Configure site
 
-In the 'New Site' dialog, use all standards, except:
+In the 'New Site' dialog, make the following changes:
 
 - Set protocol to 'SFTP - SSH File Transfer Protocol'
 - Set host to `bianca-sftp.uppmax.uu.se`
-- Set user to `[username]-[project]`, e.g. `sven-sens123456`
+- Set Logon Type to `Ask for password`
+- Set user to `[username]-[project]`, e.g. `sven-sens2023613`
 
-???- tip "How does that look like?"
+
+???- question "How does that look like?"
 
     It looks similar to these:
 
@@ -86,32 +85,34 @@ In the 'New Site' dialog, use all standards, except:
 
     ![FileZilla settings for another user](./img/filezilla_setup_bianca_sven.png)
 
-!!! tip "Storing a password is useless"
-
-    Because Bianca holds sensitive data,
-    there is need to use the UPPMAX two-factor authentication
-    code every time you login.
-    Due to this, storing a password is hence useless
-
 ### 7. Click 'Connect'
 
 In FileZilla, click 'Connect'
 
-You will be asked for your password with two-factor identification, hence
-type `[your password][2FA code]`, e.g. `VerySecret123456`.
+You will be asked for your password. Enter your UPPMAX password and two-factor authentication code together. Hence
+type `[your password][2FA code]`, e.g. `MyPassword123456`, where `MyPassword` is your UPPMAX password and `123456` is your 6 digit UPPMAX two-factor authentication code.
 
-Now you can transfer files between your local computer and [your `wharf` folder](../cluster_guides/wharf.md).
+Uncheck "Remember password until FileZilla is closed".
 
-NOTE: Filezilla will ask for your password and two-factor for each file you transfer. To avoid that, go to
-Site Manager > Transfer Settings > Limit number of simultaneous connections to 1.
+!!! tip "Remembering/storing a password is useless"
 
-???- tip "How does that look like?"
+    Because Bianca holds sensitive data,
+    there is need to use the UPPMAX two-factor authentication
+    code that changes every 30 seconds, every time you login.
+    Due to this, storing a password is useless.
+
+Now you can transfer files between your local computer and your [`wharf` folder](../cluster_guides/wharf.md).
+
+???- question "How does that look like?"
 
     It looks like this:
 
     ![FileZilla is ready to transfer files](./img/filezilla_login_to_bianca.png)
 
     > FileZilla is ready to transfer files
+
+NOTE: Filezilla will ask for your password and two-factor for each file you transfer. To avoid that, go to
+Site Manager > Transfer Settings > Limit number of simultaneous connections to 1.
 
 ## Troubleshooting
 

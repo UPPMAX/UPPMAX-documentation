@@ -4,7 +4,7 @@ tags:
   - transcriptions
   - AI
 date:
-    updated: 2024-12-20
+    updated: 2025-08-25
 ---
 
 # Whisper
@@ -61,17 +61,18 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
         Else, you can also [download the sofware](https://audiosupport.omsystem.com/en/product/odms-r8/)
         and then follow the same guide.
 
-## Glossary
-
-- **SUPR account** : Gives access to project management account for submitting project proposals on SUPR.
-- **UPPMAX account** : Gives access to UPPMAX servers, like Bianca.
-- **GUI** : Graphical User Interface for taking transcription/translation inputs.
-- **WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
-- **Terminal** : Black text-based environment that is used for performing jobs.
-- **Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
-- **Proj**: project folder in Bianca that is shared among all project members.
-- **Job**: A request for transcribing/translating one or many recordings.
-- **Slurm**: "job" handler.
+??? info "Glossary"
+  
+    - **SUPR account** : Gives access to project management account for submitting project proposals on SUPR.
+    - **UPPMAX account** : Gives access to UPPMAX servers, like Bianca.
+    - **GUI** : Graphical User Interface for taking transcription/translation inputs.
+    - **WinSCP / FileZilla**: user interface to send data from your computer to Bianca and vice-versa.
+    - **SUNET**: Swedish university network
+    - **Terminal** : Black text-based environment that is used for performing jobs.
+    - **Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
+    - **Proj**: project folder in Bianca that is shared among all project members.
+    - **Job**: A request for transcribing/translating one or many recordings.
+    - **Slurm**: "job" handler. 
 
 !!! info inline end "Checklist for new project"
 
@@ -107,7 +108,7 @@ Following steps are derived from [Project application for Bianca](../getting_sta
 
 1. Login to [Bianca](https://bianca.uppmax.uu.se/). It requires your UPPMAX username (visible in SUPR), project name and two factor authentication code. Make sure you are inside SUNET for the link to work.
 
-1. Click on the Terminal icon on the bottom of the Desktop and enter the following command in it to load Whisper GUI.
+1. Click on the Terminal icon on the bottom of the Desktop and enter the following command in it to load Whisper app. If you cannot find the Terminal icon, you can alternatively right-click on the Desktop and select 'Open Terminal'.
 
     ```bash
     module load Whisper-gui
@@ -142,6 +143,8 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
     - **Model**: large-v2
 
     - **Initial Prompt**: [leave blank]
+
+    Select your files that need to be transcribed/translated. Then, click 'Okay'. Select your folder where you would like to save your transcriptions/translations. Then, click 'Okay'. After this, your job will be submitted, and you will have to wait for the files to be processed.
 
     ??? tip "Video Demo"
 
