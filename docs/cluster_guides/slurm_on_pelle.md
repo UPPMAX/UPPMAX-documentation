@@ -58,7 +58,7 @@ sbatch -A [project_code] --partition core [script_filename]
 For example:
 
 ```bash
-sbatch -A sens2017625 my_script.sh
+sbatch -A staff my_script.sh
 ```
 
 To specify multiple cores, use `--ntasks` (or `-n`) like this:
@@ -70,7 +70,7 @@ sbatch -A [project_code] --ntasks [number_of_cores] [script_filename]
 For example:
 
 ```bash
-sbatch -A sens2017625 --ntasks 2 my_script.sh
+sbatch -A staff --ntasks 2 my_script.sh
 ```
 
 Here, two cores are used.
@@ -90,11 +90,37 @@ of the job to be something less than a full node.
 
 ### The `fat` partition
 
+With the ``fat`` partition you reach compute nodes with more memory.
+There are at the moment just one 2 TB node and one 3 TB node.
+
+- To allocate 2 TB: ``-p fat -C 2TB``
+
+    - Example: ``interactive -A staff -t 1:0:0 -p fat -C 2TB``
+
+- To allocate 3 TB: ``-p fat -C 3TB``
+
+    - Example: ``interactive -A staff -t 1:0:0 -p fat -C 3TB``
+
 ### The `gpu` partition
 
+With the ``gpu`` partition you reach the nodes with GPUs.
 
+There are two kinds of GPUs at the moment. 
 
+- 4 of the lighter type ``L40s``, enough for most problems. Each node has 10 (!) GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
+- 2 of the large type ``H100``, which can be suitable for large training runs. Each node has 2 GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
 
+Therefore, at first hand, allocate the default ``L40s`` and one of them
+
+- To allocate L40s: ``-p gpu --gres=gpu:<number of gpus>`` or ``-p gpu --gpus:l40s:number of gpus>``
+
+    - Example with 1 gpu: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:1``
+    - Example with 11 gpus: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:11`` will fail because there are just 10 gpus on one node!
+
+- To allocate H100: ``-p gpu --gpus:h100:number of gpus>``
+
+    - Example with 1 gpu: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1`
+    - Example with 3 gpu: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3` will fail because there are just 2 gpus on one node!
 
 ## `sbatch` a script with command-line Slurm parameters
 
