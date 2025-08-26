@@ -55,7 +55,7 @@ Tetralith at NSC will mainly be used for demos,
 but written material should guide users within
 academic Sweden on the resources they already are using.
 
-- **Prerequisites:** 
+- **Prerequisites:**
     - Day 1: none
     - Days 2-4: familiarity with the LINUX command line. Basic Python knowledge (as taught on day 1) is recommended
 
