@@ -38,6 +38,7 @@ You will:
 ## Practical matters
 
 - **Registration form**:
+  - [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfWKowS0EIBUBkTPXiWld717QfRH8iBN6J2hg5DMqRkMpY7Fg/viewform?usp=dialog)
   - Registration closes at 2025-10-09
 - **[Course prerequisites](https://uppmax.github.io/naiss_intro_python/prereqs/)**
 - **Date**: Tuesday October 14th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
