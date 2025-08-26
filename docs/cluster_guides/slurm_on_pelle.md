@@ -104,7 +104,7 @@ There are at the moment just one 2 TB node and one 3 TB node.
 
 With the ``gpu`` partition you reach the nodes with GPUs.
 
-There are two kinds of GPUs at the moment. 
+There are two kinds of GPUs at the moment.
 
 - 4 of the lighter type ``L40s``, enough for most problems. Each node has 10 (!) GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
 - 2 of the large type ``H100``, which can be suitable for large training runs. Each node has 2 GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
@@ -213,6 +213,3 @@ echo "Hello"
 ```
 
 Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).
-
-## 
-
