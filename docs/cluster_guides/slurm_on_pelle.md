@@ -20,17 +20,16 @@ how to fix Slurm errors.
 
 ## `sbatch` (and `interactive`) on Pelle
 
-`sbatch` (and `interactive`) work the same as on other clusters,
-the only difference is that one need specify one want to use
-the Rackham computer nodes.
+`sbatch` (and `interactive`) work the same as on the other clusters,
+the only difference is that some glags/options may be different, like partition name, see below.
 
 ???- question "Want to start an interactive session?"
 
-    See [how to start an interactive session on Pelle](start_interactive_session_on_rackham.md)
+    See [how to start an interactive session on Pelle](start_interactive_session_on_pelle.md)
 
 Here it is shown how to submit a job with:
 
-- command-line Slurm parameters
+- Command-line Slurm parameters
 - Slurm parameters in the script
 
 ## Partitions on Pelle
