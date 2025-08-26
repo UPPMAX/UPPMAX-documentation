@@ -20,8 +20,6 @@ Course dates are (or should be) provided at each course's website.
 
 ### August
 
-[CANCELLED: Introduction to Linux and UPPMAX <br> _Aug 25-27_](uppmax_intro_course.md){ .md-button .md-button--primary }
-
 [Awk workshop <br> _Aug 28-29_](https://docs.uppmax.uu.se/courses_workshops/awk/){ .md-button .md-button--primary }
 
 ### September
