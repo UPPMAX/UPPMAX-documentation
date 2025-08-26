@@ -43,7 +43,7 @@ Partition name|Description
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
 `gpu`         | GPU node, 2 types see below
 
-#### The `pelle` partition
+### The `pelle` partition
 
 The `pelle` partition is default so you can omitt specifying ``-p`` or ``--partition``
 
