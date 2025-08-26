@@ -1,3 +1,10 @@
+---
+tags:
+  - course
+  - workshop
+  - Python
+---
+
 # Using Python in an HPC environment
 
 The course is given under NAISS and is a collaboration
@@ -49,8 +56,8 @@ but written material should guide users within
 academic Sweden on the resources they already are using.
 
 - **Prerequisites:** 
-  - Day 1: none
-  - Days 2-4: familiarity with the LINUX command line. Basic Python knowledge (as taught on day 1) is recommended
+    - Day 1: none
+    - Days 2-4: familiarity with the LINUX command line. Basic Python knowledge (as taught on day 1) is recommended
 
 - [Pre-requirements](https://uppmax.github.io/HPC-python/prereqs.html)
 - [Prepare the environment](https://uppmax.github.io/HPC-python/preparations.html)
