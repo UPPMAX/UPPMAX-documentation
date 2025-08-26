@@ -29,6 +29,6 @@ UPPMAX guides can be found here:
 
 Between          |UPPMAX guide
 -----------------|---------------------------------------------------------------------------
-Local and Bianca |Does not work, see [Bianca file transfer](bianca_file_transfer.md)
+Local and Bianca |Does not work, see [Bianca file transfer](../cluster/transfer_bianca.md.md)
 Local and Pelle  |[File transfer to/from Pelle using `scp`](pelle_file_transfer_using_scp.md)
 Local and Rackham|[File transfer to/from Rackham using `scp`](rackham_file_transfer_using_scp.md)
