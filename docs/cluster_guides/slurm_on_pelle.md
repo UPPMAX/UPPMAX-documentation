@@ -21,7 +21,7 @@ how to fix Slurm errors.
 ## `sbatch` (and `interactive`) on Pelle
 
 `sbatch` (and `interactive`) work the same as on the other clusters,
-the only difference is that some glags/options may be different, like partition name, see below.
+the only difference is that some flags/options may be different, like partition name, see below.
 
 ???- question "Want to start an interactive session?"
 
@@ -40,11 +40,11 @@ Partition name|Description
 --------------|----------------------------------
 `pelle`       | (Default) Use one or more CPU cores
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
-`gpu`         | GPU node, 2 types see below
+``         | GPU node, 2 types see below
 
 ### The `pelle` partition
 
-The `pelle` partition is default so you can omitt specifying ``-p`` or ``--partition``
+The `pelle` partition is default so you can omit specifying ``-p`` or ``--partition``
 
 Its allocates an ordinary CPU node (allows one to use one or more cores, up to 96 cores).
 
@@ -100,7 +100,7 @@ There are at the moment just one 2 TB node and one 3 TB node.
 
     - Example: ``interactive -A staff -t 1:0:0 -p fat -C 3TB``
 
-### The `gpu` partition
+### The ``gpu`` partition
 
 With the ``gpu`` partition you reach the nodes with GPUs.
 
@@ -111,15 +111,15 @@ There are two kinds of GPUs at the moment.
 
 Therefore, at first hand, allocate the default ``L40s`` and one of them
 
-- To allocate L40s: ``-p gpu --gres=gpu:<number of gpus>`` or ``-p gpu --gpus:l40s:number of gpus>``
+- To allocate L40s: ``-p gpu --gres=gpu:<number of GPUs>`` or ``-p gpu --gpus:l40s:<number of GPUs>``
 
-    - Example with 1 gpu: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:1``
-    - Example with 11 gpus: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:11`` will fail because there are just 10 gpus on one node!
+    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:1``
+    - Example with 11 GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:11`` will fail because there are just 10 GPUs on one node!
 
-- To allocate H100: ``-p gpu --gpus:h100:number of gpus>``
+- To allocate H100: ``-p gpu --gpus=h100:<number of GPUs>``
 
-    - Example with 1 gpu: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1`
-    - Example with 3 gpu: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3` will fail because there are just 2 gpus on one node!
+    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1`
+    - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3` will fail because there are just 2 GPUs on one node!
 
 ## `sbatch` a script with command-line Slurm parameters
 
