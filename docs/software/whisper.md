@@ -72,7 +72,7 @@ automatic speech recognition system. Whisper app is available on Bianca or can a
     - **Wharf**: private folder in Bianca that is used to transfer data to and from your computer.
     - **Proj**: project folder in Bianca that is shared among all project members.
     - **Job**: A request for transcribing/translating one or many recordings.
-    - **Slurm**: "job" handler. 
+    - **Slurm**: "job" handler.
 
 !!! info inline end "Checklist for new project"
 
