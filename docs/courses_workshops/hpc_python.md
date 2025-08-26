@@ -82,4 +82,4 @@ Day|Course materials                                                |More inform
 
 **Deadline for registration:** TBA
 
-**Please register** by filling in the form [at this page](https://www.hpc2n.umu.se/events/courses/2025/spring/hpc-python)
+**Please register** by filling in the form at TBA
