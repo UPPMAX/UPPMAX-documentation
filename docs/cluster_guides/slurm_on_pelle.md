@@ -26,12 +26,75 @@ the Rackham computer nodes.
 
 ???- question "Want to start an interactive session?"
 
-    See [how to start an interactive session on Rackham](start_interactive_session_on_rackham.md)
+    See [how to start an interactive session on Pelle](start_interactive_session_on_rackham.md)
 
 Here it is shown how to submit a job with:
 
 - command-line Slurm parameters
 - Slurm parameters in the script
+
+## Partitions on Pelle
+
+Partition flag is either ``--partition`` or ``-p``
+
+Partition name|Description
+--------------|----------------------------------
+`pelle`       | (Default) Use one or more CPU cores
+`fat`         | Use a fat node with 2 or 3 TB memory, see below
+`gpu`         | GPU node, 2 types see below
+
+#### The `pelle` partition
+
+The `pelle` partition is default so you can omitt specifying ``-p`` or ``--partition``
+
+Its allocates an ordinary CPU node (allows one to use one or more cores, up to 96 cores).
+
+Here is the minimal use for one core:
+
+```bash
+sbatch -A [project_code] --partition core [script_filename]
+```
+
+For example:
+
+```bash
+sbatch -A sens2017625 my_script.sh
+```
+
+To specify multiple cores, use `--ntasks` (or `-n`) like this:
+
+```bash
+sbatch -A [project_code] --ntasks [number_of_cores] [script_filename]
+```
+
+For example:
+
+```bash
+sbatch -A sens2017625 --ntasks 2 my_script.sh
+```
+
+Here, two cores are used.
+
+???- question "What is the relation between `ntasks` and number of cores?"
+
+    Agreed, the flag `ntasks` only indicates the number of tasks.
+    However, by default, the number of tasks per core is set to one.
+    One can make this link explicit by using:
+
+    ```bash
+    sbatch -A [project_code] --partition core --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
+    ```
+
+This is especially important if you might adjust core usage
+of the job to be something less than a full node.
+
+### The `fat` partition
+
+### The `gpu` partition
+
+
+
+
 
 ## `sbatch` a script with command-line Slurm parameters
 
@@ -125,3 +188,6 @@ echo "Hello"
 ```
 
 Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).
+
+## 
+
