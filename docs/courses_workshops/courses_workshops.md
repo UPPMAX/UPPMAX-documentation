@@ -30,7 +30,7 @@ Course dates are (or should be) provided at each course's website.
 
 ### October
 
-[Introduction to running R, MATLAB, and Julia in HPC <br> _Oct 6--8 + 10_](R_matlab_julia.md){ .md-button .md-button--primary }
+[Introduction to running R, MATLAB, and Julia in HPC <br> _Oct 6-8 + 10_](R_matlab_julia.md){ .md-button .md-button--primary }
 
 [Basic Singularity: Running and building Singularity containers <br> _Oct 13_](https://docs.uppmax.uu.se/courses_workshops/singularity/){ .md-button .md-button--primary }
 
