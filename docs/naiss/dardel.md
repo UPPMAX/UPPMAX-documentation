@@ -2,6 +2,8 @@
 tags:
   - Dardel
   - PDC
+  - HPC
+  - cluster
 ---
 
 # Dardel
