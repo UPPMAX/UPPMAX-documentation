@@ -16,7 +16,7 @@ how to fix Slurm errors.
 
 !!! warning
 
-    Work in progress. Updating Racckham instructions to Pelle ones.
+    Work in progress. Updating Rackham instructions to Pelle ones.
 
 ## `sbatch` (and `interactive`) on Pelle
 
