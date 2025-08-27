@@ -23,8 +23,8 @@ from outside of the Swedish university networks.
 !!! danger
 
     - Do not log in to Rackham and from there log in to Bianca.
-    - This will let all sensitive data land on Rackham uncypted as a an intermediate step.
-    - Rackham is not a secure system and can be spied on.
+    - This will let all sensitive data land on Rackham uncrypted as a an intermediate step.
+    - Rackham is not a secure system and could be spied on.
 
 ## Procedure with using Rackham as a "jump host"
 
