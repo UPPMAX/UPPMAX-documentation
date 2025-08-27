@@ -1077,5 +1077,9 @@ GCCcore
 pelle
 Cendio
 SHA
-
-
+Uncheck
+Seaborn
+DL
+Superchips
+HPL
+Linpack

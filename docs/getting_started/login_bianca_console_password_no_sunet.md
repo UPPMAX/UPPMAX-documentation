@@ -20,16 +20,24 @@ This page describes how to [log in to Bianca](login_bianca.md)
 using a [terminal](../software/terminal.md) and a password
 from outside of the Swedish university networks.
 
-## Procedure
+!!! danger
 
-### 1. Log in to Rackham's console environment
+    - Do not log in to Rackham and from there log in to Bianca.
+    - This will let all sensitive data land on Rackham uncrypted as a an intermediate step.
+    - Rackham is not a secure system and could be spied on.
 
-See [the UPPMAX documentation on how to log in to Rackham](login_rackham.md)
-how to do so.
+## Procedure with using Rackham as a "jump host"
 
-### 2. From Rackham, log in to Bianca
+- Log in to Bianca via Rackham in one line
 
-From Rackham (which is inside of the university networks),
-log in to Bianca.
-See [the UPPMAX documentation on how to log in to Bianca](login_bianca.md)
-how to do so.
+```console
+ssh bjornc@bianca.uppmax.uu.se -J bjornc@rackham.uppmax.uu.se
+bjornc@rackham.uppmax.uu.se's password:
+
+Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
+
+(bjornc@bianca.uppmax.uu.se) Password:
+(bjornc@bianca.uppmax.uu.se) Second factor (TOTP UPPMAX):
+```
+
+- You are now inside the Bianca session and sensitive data is not seen by Rackham at all.

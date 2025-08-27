@@ -13,24 +13,18 @@ This page describes how to use Slurm on Pelle.
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
 
-
-!!! warning
-
-    Work in progress. Updating Racckham instructions to Pelle ones.
-
 ## `sbatch` (and `interactive`) on Pelle
 
-`sbatch` (and `interactive`) work the same as on other clusters,
-the only difference is that one need specify one want to use
-the Rackham computer nodes.
+`sbatch` (and `interactive`) work the same as on the other clusters,
+the only difference is that some flags/options may be different, like partition name, see below.
 
 ???- question "Want to start an interactive session?"
 
-    See [how to start an interactive session on Pelle](start_interactive_session_on_rackham.md)
+    See [how to start an interactive session on Pelle](start_interactive_session_on_pelle.md)
 
 Here it is shown how to submit a job with:
 
-- command-line Slurm parameters
+- Command-line Slurm parameters
 - Slurm parameters in the script
 
 ## Partitions on Pelle
@@ -43,22 +37,22 @@ Partition name|Description
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
 `gpu`         | GPU node, 2 types see below
 
-#### The `pelle` partition
+### The `pelle` partition
 
-The `pelle` partition is default so you can omitt specifying ``-p`` or ``--partition``
+The `pelle` partition is default so you can omit specifying ``-p`` or ``--partition``
 
 Its allocates an ordinary CPU node (allows one to use one or more cores, up to 96 cores).
 
 Here is the minimal use for one core:
 
 ```bash
-sbatch -A [project_code] --partition core [script_filename]
+sbatch -A [project_code] [script_filename]
 ```
 
 For example:
 
 ```bash
-sbatch -A sens2017625 my_script.sh
+sbatch -A staff my_script.sh
 ```
 
 To specify multiple cores, use `--ntasks` (or `-n`) like this:
@@ -70,7 +64,7 @@ sbatch -A [project_code] --ntasks [number_of_cores] [script_filename]
 For example:
 
 ```bash
-sbatch -A sens2017625 --ntasks 2 my_script.sh
+sbatch -A staff --ntasks 2 my_script.sh
 ```
 
 Here, two cores are used.
@@ -90,11 +84,37 @@ of the job to be something less than a full node.
 
 ### The `fat` partition
 
-### The `gpu` partition
+With the ``fat`` partition you reach compute nodes with more memory.
+There are at the moment just one 2 TB node and one 3 TB node.
 
+- To allocate 2 TB: ``-p fat -C 2TB``
 
+    - Example: ``interactive -A staff -t 1:0:0 -p fat -C 2TB``
 
+- To allocate 3 TB: ``-p fat -C 3TB``
 
+    - Example: ``interactive -A staff -t 1:0:0 -p fat -C 3TB``
+
+### The ``gpu`` partition
+
+With the ``gpu`` partition you reach the nodes with GPUs.
+
+There are two kinds of GPUs at the moment.
+
+- 4 of the lighter type ``L40s``, enough for most problems. Each node has 10 (!) GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
+- 2 of the large type ``H100``, which can be suitable for large training runs. Each node has 2 GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
+
+Therefore, at first hand, allocate the default ``L40s`` and one of them
+
+- To allocate L40s: ``-p gpu --gres=gpu:<number of GPUs>`` or ``-p gpu --gpus:l40s:<number of GPUs>``
+
+    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:1``
+    - Example with 11 GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:11`` will fail because there are just 10 GPUs on one node!
+
+- To allocate H100: ``-p gpu --gpus=h100:<number of GPUs>``
+
+    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1`
+    - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3` will fail because there are just 2 GPUs on one node!
 
 ## `sbatch` a script with command-line Slurm parameters
 
@@ -188,6 +208,3 @@ echo "Hello"
 ```
 
 Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).
-
-## 
-
