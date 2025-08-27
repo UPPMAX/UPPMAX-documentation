@@ -59,7 +59,7 @@ that has a maximum duration of 8 hours.
 
 !!! tip "To reach high-memory or GPU nodes"
 
-    See [Partitions on Pelle](slurm_on_pelle.md##partitions-on-pelle)
+    See [Partitions on Pelle](slurm_on_pelle.md#partitions-on-pelle)
 
 ???- note "Has Pelle frozen?"
 
