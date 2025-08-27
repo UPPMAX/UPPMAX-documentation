@@ -57,7 +57,11 @@ interactive -A uppmax2023-2-25 -t 8:00:00
 This starts an interactive session using project `uppmax2023-2-25`
 that has a maximum duration of 8 hours.
 
-!!! note "Has Pelle frozen?"
+!!! tip "To reach high-memory or GPU nodes"
+
+    See [Partitions on Pelle](slurm_on_pelle.md##partitions-on-pelle)
+
+???- note "Has Pelle frozen?"
 
     It can take tens of seconds before an interactive session is allocated.
 
