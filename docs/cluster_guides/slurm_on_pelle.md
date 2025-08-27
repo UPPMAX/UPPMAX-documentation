@@ -13,11 +13,6 @@ This page describes how to use Slurm on Pelle.
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
 
-
-!!! warning
-
-    Work in progress. Updating Rackham instructions to Pelle ones.
-
 ## `sbatch` (and `interactive`) on Pelle
 
 `sbatch` (and `interactive`) work the same as on the other clusters,
@@ -40,7 +35,7 @@ Partition name|Description
 --------------|----------------------------------
 `pelle`       | (Default) Use one or more CPU cores
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
-``         | GPU node, 2 types see below
+`gpu`         | GPU node, 2 types see below
 
 ### The `pelle` partition
 
@@ -51,7 +46,7 @@ Its allocates an ordinary CPU node (allows one to use one or more cores, up to 9
 Here is the minimal use for one core:
 
 ```bash
-sbatch -A [project_code] --partition core [script_filename]
+sbatch -A [project_code] [script_filename]
 ```
 
 For example:
