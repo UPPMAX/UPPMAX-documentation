@@ -2,6 +2,10 @@
 tags:
   - FileZilla
   - LUMI
+  - file transfer
+  - data transfer
+  - upload
+  - download
 ---
 
 # File transfer to/from LUMI using FileZilla
@@ -19,12 +23,14 @@ HPC clusters have different ways to do
 
 This page shows how to do so for LUMI.
 
+![Ready to transfer files](lumi_file_transfer_using_filezilla_done.png)
+
 ## Procedure
 
 ???- question "Would you like a video?"
 
-    If you like to see how to do file transfer from/to LUMI
-    using FileZilla, watch the video `TODO`
+    Watch the YouTube video
+    [File transfer to/from LUMI using FileZilla](https://youtu.be/PjzMuMIyj40)
 
 FileZilla is a secure file transfer tool that works under Linux, Mac and Windows.
 
@@ -121,7 +127,7 @@ From the menu, select 'File | Site manager'
 
     It is here:
 
-    ![The FileZilla 'File' menu contains the item 'Site manager'](filezilla_site_manager.png)
+    ![The FileZilla 'File' menu contains the item 'Site manager'](lumi_file_transfer_using_filezilla_select_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -133,7 +139,7 @@ In FileZilla's site manager, click 'New site'
 
     It is here:
 
-    ![The FileZilla Site Manager](filezilla_site_manager.png)
+    ![The FileZilla Site Manager](lumi_file_transfer_using_filezilla_click_new_site_annotated.png)
 
 ## 10. Setup the site
 
@@ -152,7 +158,7 @@ In FileZilla's site manager:
 
     It looks similar to this:
 
-    `![FileZilla configured for LUMI](filezilla_login_to_lumi_site_manager.png)`
+    ![FileZilla configured for LUMI](lumi_file_transfer_using_filezilla_site_manager_setup_done.png)
 
 ## 11. Connect to the site
 
@@ -161,3 +167,6 @@ Click 'Connect'.
 ## 12. Ready to transfer files
 
 Now you can transfer files between your local computer and LUMI.
+
+![Ready to transfer files](lumi_file_transfer_using_filezilla_done.png)
+
