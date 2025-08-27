@@ -16,6 +16,7 @@ In the near future, Bianca will be replaced by [Maja](maja.md).
 
 - [Bianca's name](biancas_name.md)
 - [Bianca's design](biancas_design.md)
+- [Bianca's hardware](../hardware/clusters/bianca.md)
 - [Log in](../getting_started/login_bianca.md)
 - [Submitting jobs, using Slurm](slurm.md)
 - [Starting an interactive session](start_interactive_session_on_bianca.md)
