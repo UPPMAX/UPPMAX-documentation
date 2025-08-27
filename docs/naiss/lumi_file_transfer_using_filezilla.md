@@ -64,13 +64,13 @@ cd .ssh
 In the `.ssh` folder, from a terminal do:
 
 ```bash
-puttygen -t rsa -b 2048 -C "[lumi_username]@lumi.csc.fi" -o [filename].ppk
+puttygen -t rsa -b 4096 -C "[lumi_username]@lumi.csc.fi" -o [filename].ppk
 ```
 
 For example:
 
 ```bash
-puttygen -t rsa -b 2048 -C "svens@lumi.csc.fi" -o lumi_filezilla.ppk
+puttygen -t rsa -b 4096 -C "svens@lumi.csc.fi" -o lumi_filezilla.ppk
 ```
 
 #### 3.2 Extract the private SSH key from the `.ppk` file
