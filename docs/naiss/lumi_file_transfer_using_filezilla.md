@@ -31,15 +31,7 @@ FileZilla is a secure file transfer tool that works under Linux, Mac and Windows
 To transfer files to/from LUMI using FileZilla, do
 the following steps:
 
-### 1. Get inside SUNET
-
-[Get inside of SUNET](../getting_started/get_inside_sunet.md).
-
-???- question "Forgot how to get within SUNET?"
-
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
-
-### 2. Install `putty-tools`
+## 1. Install `putty-tools`
 
 ???- question "What if I don't use Linux?"
 
@@ -51,7 +43,7 @@ the following steps:
 sudo apt install putty-tools
 ```
 
-### 3. Create the needed files in the `.ssh` folder
+## 2. Create the needed files in the `.ssh` folder
 
 Navigate into the `.ssh` folder.
 
@@ -59,7 +51,7 @@ Navigate into the `.ssh` folder.
 cd .ssh
 ```
 
-#### 3.1 Create the `.ppk` file
+## 3. Create the `.ppk` file
 
 In the `.ssh` folder, from a terminal do:
 
@@ -73,7 +65,7 @@ For example:
 puttygen -t rsa -b 4096 -C "svens@lumi.csc.fi" -o lumi_filezilla.ppk
 ```
 
-#### 3.2 Extract the private SSH key from the `.ppk` file
+## 4. Extract the private SSH key from the `.ppk` file
 
 In the `.ssh` folder, from a terminal do:
 
@@ -87,7 +79,7 @@ For example:
 puttygen -O private-openssh-new lumi_filezilla.ppk -o lumi_filezilla
 ```
 
-#### 3.3 Extract the public SSH key from the `.ppk` file
+## 5. Extract the public SSH key from the `.ppk` file
 
 In the `.ssh` folder, from a terminal do:
 
@@ -101,7 +93,7 @@ For example:
 puttygen -O public-openssh lumi_filezilla.ppk -o lumi_filezilla.pub
 ```
 
-### 4. Add the public SSH key to `~/.ssh/authorized_keys`
+## 6. Add the public SSH key to `~/.ssh/authorized_keys`
 
 Copy the public SSH key (in the `.pub` file)
 to the `~/.ssh/authorized_keys` file on LUMI.
@@ -117,11 +109,11 @@ chmod 700 .ssh
 chmod 700 ~
 ```
 
-### 5. Start FileZilla
+## 7. Start FileZilla
 
 Start FileZilla.
 
-### 6. Start FileZilla's site manager
+## 8. Start FileZilla's site manager
 
 From the menu, select 'File | Site manager'
 
@@ -133,7 +125,7 @@ From the menu, select 'File | Site manager'
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
-### 7. Add a new site in FileZilla's site manager
+## 9. Add a new site in FileZilla's site manager
 
 In FileZilla's site manager, click 'New site'
 
@@ -143,7 +135,7 @@ In FileZilla's site manager, click 'New site'
 
     ![The FileZilla Site Manager](filezilla_site_manager.png)
 
-### 8. Setup the site
+## 10. Setup the site
 
 In FileZilla's site manager:
 
@@ -162,10 +154,10 @@ In FileZilla's site manager:
 
     `![FileZilla configured for LUMI](filezilla_login_to_lumi_site_manager.png)`
 
-### 9. Connect to the site
+## 11. Connect to the site
 
 Click 'Connect'.
 
-### 10. Ready to transfer files
+## 12. Ready to transfer files
 
 Now you can transfer files between your local computer and LUMI.
