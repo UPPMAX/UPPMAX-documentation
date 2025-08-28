@@ -42,7 +42,7 @@ You can transfer files to COSMOS by:
 On local computer, do:
 
 ```bash
-rsync [my_local_file] [username]@cosmos.uppmax.uu.se:[target_folder]
+rsync [my_local_file] [username]@cosmos.lunarc.lu.se:[target_folder]
 ```
 
 where
@@ -54,7 +54,7 @@ where
 for example:
 
 ```bash
-rsync my_local_file.txt sven@cosmos.uppmax.uu.se:/home/sven/
+rsync my_local_file.txt sven@cosmos.lunarc.lu.se:/home/sven/
 ```
 
 If asked, give your LUNARC password.
@@ -64,7 +64,7 @@ If asked, give your LUNARC password.
 On local computer, do:
 
 ```bash
-rsync --recursive my_folder [username]@cosmos.uppmax.uu.se:[target_folder]
+rsync --recursive my_folder [username]@cosmos.lunarc.lu.se:[target_folder]
 ```
 
 where
@@ -75,7 +75,7 @@ where
 for example:
 
 ```bash
-rsync --recursive my_folder sven@cosmos.uppmax.uu.se:/home/sven/
+rsync --recursive my_folder sven@cosmos.lunarc.lu.se:/home/sven/
 ```
 
 If asked, give your LUNARC password.
@@ -84,8 +84,8 @@ Note that in `rsync`, a slash (`/`) matters:
 
 Command                                                            |Effect
 -------------------------------------------------------------------|------------------------------------------------------------
-`rsync --recursive my_folder sven@cosmos.uppmax.uu.se:/home/sven` |Will put the files in `my_folder` in the COSMOS home folder
-`rsync --recursive my_folder sven@cosmos.uppmax.uu.se:/home/sven/`|Will put the folder `my_folder` in the COSMOS home folder
+`rsync --recursive my_folder sven@cosmos.lunarc.lu.se:/home/sven` |Will put the files in `my_folder` in the COSMOS home folder
+`rsync --recursive my_folder sven@cosmos.lunarc.lu.se:/home/sven/`|Will put the folder `my_folder` in the COSMOS home folder
 
 ## 3. Transfer files from COSMOS to you local computer
 
@@ -99,7 +99,7 @@ You can transfer files from COSMOS to your local computer by:
 On your local computer, do:
 
 ```bash
-rsync [username]@cosmos.uppmax.uu.se:[path_to_file] .
+rsync [username]@cosmos.lunarc.lu.se:[path_to_file] .
 ```
 
 where
@@ -111,7 +111,7 @@ where
 for example:
 
 ```bash
-rsync sven@cosmos.uppmax.uu.se:/home/sven/my_file.txt .
+rsync sven@cosmos.lunarc.lu.se:/home/sven/my_file.txt .
 ```
 
 If asked, give your LUNARC password.
@@ -121,7 +121,7 @@ If asked, give your LUNARC password.
 On your local computer, do:
 
 ```bash
-rsync --recursive [username]@cosmos.uppmax.uu.se:/[source_folder] .
+rsync --recursive [username]@cosmos.lunarc.lu.se:/[source_folder] .
 ```
 
 where
@@ -133,7 +133,7 @@ where
 for example:
 
 ```bash
-rsync --recursive sven@cosmos.uppmax.uu.se:/home/sven/my_folder .
+rsync --recursive sven@cosmos.lunarc.lu.se:/home/sven/my_folder .
 ```
 
 If asked, give your LUNARC password.
