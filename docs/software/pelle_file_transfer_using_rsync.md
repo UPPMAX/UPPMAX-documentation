@@ -17,7 +17,8 @@ using [rsync](../software/rsync.md).
 
 ???- question "Prefer a video?"
 
-    See this procedure as a video at [YouTube](https://youtu.be/p-27aIh2acA).
+    Watch the YouTube video
+    [Data transfer to/from Pelle using rsync](https://youtu.be/mEo4mfSmpp0).
 
 ## 1. Start a terminal on your local computer
 
