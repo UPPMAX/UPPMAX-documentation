@@ -9,23 +9,9 @@ tags:
 
 # Data transfer to/from Pelle using rsync
 
-!!! warning "Does not work yet"
-
-    [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
-    that is in the process of being deployed.
-
-    The procedure as described on this page does not work yet or is untested.
-
-    This page will be updated when this works.
-
 There are multiple ways to [transfer files to or from Pelle](../cluster_guides/transfer_pelle.md).
-
 Here it is described how to do file transfer to/from Pelle
 using [rsync](../software/rsync.md).
-`rsync` can be used in scripts for regular file transfer.
-However, `rsync` shines by providing a so-called 'delta' file transfer:
-when you transfer files twice, `rsync` will only transfer the files that have
-changed. This is ideal for backups.
 
 ## Procedure
 
@@ -33,7 +19,7 @@ changed. This is ideal for backups.
 
     See this procedure as a video at [YouTube](https://youtu.be/p-27aIh2acA).
 
-### 1. Start a terminal on your local computer
+## 1. Start a terminal on your local computer
 
 Start a [terminal](../software/terminal.md) on your local computer
 
@@ -44,7 +30,7 @@ You can transfer files to Pelle by:
 - [2a. Transfer individual files to Pelle](#2a-transfer-individual-files-to-pelle)
 - [2b. Transfer all files in a folder to Pelle](#2b-transfer-all-files-in-a-folder-to-pelle)
 
-### 2a. Transfer individual files to Pelle
+## 2a. Transfer individual files to Pelle
 
 On local computer, do:
 
@@ -68,7 +54,7 @@ If asked, give your UPPMAX password.
 You can get rid of this prompt if you are
 [using an SSH key pair](ssh_key_use_pelle.md).
 
-### 2b. Transfer all files in a folder to Pelle
+## 2b. Transfer all files in a folder to Pelle
 
 On local computer, do:
 
