@@ -12,9 +12,12 @@ tags:
 
 ???- question "Why is this page at UPPMAX?"
 
-    It is the intention that this guide is moved to the CSC documentation.
-    However, it has not been suggested to be added to their documentaton
-    yet.
+    It was the intention that this guide
+    would be moved to the CSC documentation,
+    or that the CSC documentation would be improved.
+
+    However, [CSC refuses to update the documentation](https://github.com/UPPMAX/naiss_file_transfer_course/issues/40#issuecomment-3233169329),
+    hence this page is the only place where this is documented.
 
 There are multiple ways to transfer files to or from LUMI.
 Here it is described how to do file transfer to/from LUMI
@@ -43,11 +46,12 @@ You can transfer files to LUMI by:
 On local computer, do:
 
 ```bash
-rsync [my_local_file] [username]@lumi.csc.fi:[target_folder]
+rsync -e "ssh -i [private_ssh_key_path]" [my_local_file] [username]@lumi.csc.fi:[target_folder]/.
 ```
 
 where
 
+- `[private_ssh_key_path]` is the path to a LUMI SSH key
 - `[my_local_file]` is the path to your local file
 - `[target_folder]` is the path of the folder you want to copy your file to
 - `[username]` is your CSC username
@@ -55,28 +59,28 @@ where
 for example:
 
 ```bash
-rsync my_local_file.txt sven@lumi.csc.fi:/users/sven/
+rsync -e "ssh -i ~/.ssh/id_rsa_lumi" local_file.txt sven@lumi.csc.fi:/users/sven/.
 ```
-
-If asked, give your CSC password.
 
 ## 2b. Transfer all files in a folder to LUMI
 
 On local computer, do:
 
 ```bash
-rsync --recursive my_folder [username]@lumi.csc.fi:[target_folder]
+rsync -e "ssh -i [private_ssh_key_path]" --recursive [my_local_folder] [username]@lumi.csc.fi:[target_folder]/.
 ```
 
 where
 
-- `[target_folder]` is the target folder
+- `[private_ssh_key_path]` is the path to a LUMI SSH key
+- `[my_local_folder]` is the path to your local folder
+- `[target_folder]` is the path of the folder you want to copy your folder into
 - `[username]` is your CSC username
 
 for example:
 
 ```bash
-rsync --recursive my_folder sven@lumi.csc.fi:/users/sven/
+rsync --recursive my_local_folder/ sven@lumi.csc.fi:/users/sven/.
 ```
 
 If asked, give your CSC password.
