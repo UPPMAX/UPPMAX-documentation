@@ -16,7 +16,7 @@ tags:
     would be moved to the CSC documentation.
     However, contacting CSC regarding this,
     made it clear that
-    [CSS does not (yet) intend to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34#issuecomment-2889764104).
+    [CSC does not (yet) intend to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34#issuecomment-2889764104).
 
 HPC clusters have different ways to do
 [file transfer using FileZilla](file_transfer_using_filezilla.md).
