@@ -24,7 +24,7 @@ using [rsync](../software/rsync.md).
 ???- question "Prefer a video?"
 
     Watch the YouTube video
-    [Data transfer to/from COSMOS using rsync](https://youtu.be/mEo4mfSmpp0).
+    [Data transfer to/from COSMOS using rsync](https://youtu.be/hpug-nhLZ6Y).
 
 ## 1. Start a terminal on your local computer
 
