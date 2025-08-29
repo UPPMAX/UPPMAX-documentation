@@ -28,7 +28,7 @@ using [rsync](../software/rsync.md).
 ???- question "Prefer a video?"
 
     Watch the YouTube video
-    [Data transfer to/from LUMI using rsync](https://youtu.be/hpug-nhLZ6Y).
+    [Data transfer to/from LUMI using rsync](https://youtu.be/-UONn-4CJWs).
 
 ## 1. Start a terminal on your local computer
 
