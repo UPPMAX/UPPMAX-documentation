@@ -80,7 +80,7 @@ where
 for example:
 
 ```bash
-rsync --recursive my_local_folder/ sven@lumi.csc.fi:/users/sven/.
+rsync --recursive -e "ssh -i ~/.ssh/id_rsa_lumi" my_local_folder/ sven@lumi.csc.fi:/users/sven/.
 ```
 
 If asked, give your CSC password.
@@ -104,11 +104,12 @@ You can transfer files from LUMI to your local computer by:
 On your local computer, do:
 
 ```bash
-rsync [username]@lumi.csc.fi:[path_to_file] .
+rsync -e "ssh -i [private_ssh_key_path]" [username]@lumi.csc.fi:[path_to_file] .
 ```
 
 where
 
+- `[private_ssh_key_path]` is the path to a LUMI SSH key
 - `[path_to_file]` is the path to the file you want to download
 - `[username]` is your CSC username
 - `.` means 'in the current folder of my local computer' or 'here'
@@ -116,7 +117,7 @@ where
 for example:
 
 ```bash
-rsync sven@lumi.csc.fi:/users/sven/my_file.txt .
+rsync -e "ssh -i ~/.ssh/id_rsa_lumi" sven@lumi.csc.fi:/users/sven/my_file.txt .
 ```
 
 If asked, give your CSC password.
@@ -126,11 +127,12 @@ If asked, give your CSC password.
 On your local computer, do:
 
 ```bash
-rsync --recursive [username]@lumi.csc.fi:/[source_folder] .
+rsync --recursive -e "ssh -i [private_ssh_key_path]" [username]@lumi.csc.fi:/[source_folder] .
 ```
 
 where
 
+- `[private_ssh_key_path]` is the path to a LUMI SSH key
 - `[source_folder]` is the path to the folder you want to download
 - `[username]` is your CSC username
 - `.` means 'in the current folder of my local computer' or 'here'
@@ -138,7 +140,7 @@ where
 for example:
 
 ```bash
-rsync --recursive sven@lumi.csc.fi:/users/sven/my_folder .
+rsync --recursive -e "ssh -i ~/.ssh/id_rsa_lumi" sven@lumi.csc.fi:/users/sven/my_folder .
 ```
 
 If asked, give your CSC password.
