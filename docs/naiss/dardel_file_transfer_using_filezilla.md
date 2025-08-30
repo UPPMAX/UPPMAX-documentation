@@ -113,7 +113,7 @@ From the menu, select 'File | Site manager'
 
     It is here:
 
-    ![The FileZilla 'File' menu contains the item 'Site manager'](filezilla_site_manager.png)
+    ![The FileZilla 'File' menu contains the item 'Site manager'](dardel_file_transfer_using_filezilla_select_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
