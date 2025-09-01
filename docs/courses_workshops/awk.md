@@ -38,7 +38,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
 ### 1-st day 9:15 - 12:00
 
-[Seminar session](https://pmitev.github.io/to-awk-or-not/)
+[Seminar session](https://uppmax.github.io/to-awk-or-not/)
 
 - Examples of typical problems suitable for Awk “treatment”
 - Introduction to the basics of Awk scripting language
@@ -46,14 +46,14 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
 #### 1-st day lunch break
 
-[Exercises](https://pmitev.github.io/to-awk-or-not/Exercises/Exercises/) 13:15 -16:00
+[Exercises](https://uppmax.github.io/to-awk-or-not/Exercises/Exercises/) 13:15 -16:00
 
 - Solving interactively the exercise problems
 
 ### 2-nd day 9:15 - 12:00
 
 - Awk for bioinformaticians - seminar
-- Case Study: [Manipulating the output from a genome analysis - vcf and gff](https://pmitev.github.io/to-awk-or-not/Case_studies/manipulating_vcf/)
+- Case Study: [Manipulating the output from a genome analysis - vcf and gff](https://uppmax.github.io/to-awk-or-not/Case_studies/manipulating_vcf/)
 - Filtering and formatting raw data
 - Counting and piling features
 - Indexing and hashing to compare variants and annotations
@@ -67,12 +67,12 @@ Walk-through session on various topics:
 - How to trick `awk` to accept options on the command line
   like regular program,
   i.e. `$ script.awk filename parameter1 parameter2`
-  [from Pavlin's notes](https://pmitev.github.io/to-awk-or-not/More_awk/Command_params/)
-- [Declaring and calling functions in awk](https://pmitev.github.io/to-awk-or-not/More_awk/User_defined_functions/)
+  [from Pavlin's notes](https://uppmax.github.io/to-awk-or-not/More_awk/Command_params/)
+- [Declaring and calling functions in awk](https://uppmax.github.io/to-awk-or-not/More_awk/User_defined_functions/)
 - Input/output to/from an external programs
 - Learn how to send input to an external program (might be based on your data)
   and read the result back,
-  [from Pavlin's notes](https://pmitev.github.io/to-awk-or-not/More_awk/Input_output/)
+  [from Pavlin's notes](https://uppmax.github.io/to-awk-or-not/More_awk/Input_output/)
 - Handy tips: awk oneliners use with Vim, gnuplot…
 
 Also: [Suggest topic](https://forms.gle/usYYkbWaZVkNceSK6) for discussion or see recently [suggested topics](https://docs.google.com/forms/d/1tQYWc504BQ-uYRA7MWgu1pNXM613r4Ua1wP_yBPlNDM/viewanalytics).
@@ -110,7 +110,7 @@ Just follow some tutorial on how to setup and use the virtual Linux environment.
 
 - [VirtualBox](https://www.virtualbox.org/)
 - [Ubuntu on Public Clouds](https://ubuntu.com/public-cloud)
-- [GitHub & Binder](https://pmitev.github.io/to-awk-or-not/Other/Binder/) (you need only a browser)
+- [GitHub & Binder](https://uppmax.github.io/to-awk-or-not/Other/Binder/) (you need only a browser)
 - [Singularity](https://sylabs.io/) `singularity run shub://pmitev/Teoroo-singularity:gawk 'BEGIN{ for(i=1;i<=4;i++) print i}'`
 
 ??? "Feedback from previous workshops"
