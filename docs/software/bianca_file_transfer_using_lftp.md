@@ -26,27 +26,21 @@ as well as some troubleshooting.
 ### 2. Start `lftp`
 
 ```bash
-lftp sftp://[user_name]-[project_id]@bianca-sftp.uppmax.uu.se/[user_name]-[project_id]/
-```
-
-where
-
-- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-- `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+lftp sftp://[user_name]@bianca-sftp.uppmax.uu.se
+``
+where `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
 For example:
 
 ```bash
-lftp sftp://sven-sens2025560@bianca-sftp.uppmax.uu.se/sven-sens2025560/
+lftp sftp://sven@bianca-sftp.uppmax.uu.se/
 ```
 
 You'll be asked to type a password.
 
 ### 3. Enter password with TOTP
 
-When asked for a password,
-type the password followed with a one-time password from your UPPMAX
-two-factor authenticator.
+When asked for a password, type the UPPMAX password.
 
 ???- question "I don't see asterisks appear when I type"
 
@@ -55,11 +49,12 @@ two-factor authenticator.
     Indeed, you will not see the characters you type,
     which is common for Linux systems.
 
-    Just type the password and TOTP and press enter :-)
+    Just type the password and press enter :-)
 
+### 4. Enter the second factor
 
-For example, if your password is `VerySecret` and the 2FA app gives
-you `123456`, then type `VerySecret123456`.
+When asked for the second factor, type the six digit one-time password from your UPPMAX
+two-factor authenticator.
 
 
 ## Troubleshooting
