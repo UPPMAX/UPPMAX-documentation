@@ -74,7 +74,9 @@ For example:
 ```bash
 puttygen -t rsa -b 2048 -C "svens@alvis.c3se.chalmers.se" -o alvis_filezilla.ppk
 ```
+
 alvis_file_transfer_using_filezilla_select_file_site_manager
+
 #### 3.2 Extract the private SSH key from the `.ppk` file
 
 In the `.ssh` folder, from a terminal do:
