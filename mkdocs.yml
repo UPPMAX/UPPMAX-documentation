@@ -28,7 +28,7 @@ nav:
       - Snowy: cluster_guides/snowy.md
       - Dardel (at PDC): cluster_guides/dardel.md
     - Storage systems:
-      - [UPPMAX storage systems](docs/cluster_guides/uppmax_storage_system.md)
+      - UPPMAX storage systems: docs/cluster_guides/uppmax_storage_system.md
       - Object-storage Spirula: cluster_guides/spirula.md
     - General cluster tools: 
       - Start an interactive session: cluster_guides/start_interactive_session.md
