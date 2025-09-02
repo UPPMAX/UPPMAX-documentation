@@ -31,9 +31,6 @@ Name                 |Purpose                      |Description
 [Rackham](rackham.md)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
 [Snowy](snowy.md)    |Regular data, long runs, GPUs|.
 
-<center>
-[System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html) { .md-button .md-button--primary }
-</center>
 
 Another cluster UPPMAX is involved in:
 
