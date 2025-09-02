@@ -9,7 +9,7 @@ Gateway, also known as RADOS Gateway (RGW).
 - You should not store any primary data on Spirula.
 - Spirula does not expose any public endpoints.
 
-See [storage systems](../../cluster_guides/uppmax_storage_system.md) for other
+See [storage systems](uppmax_storage_system.md) for other
 storage systems at UPPMAX.
 
 ## Support
