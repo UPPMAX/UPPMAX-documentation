@@ -22,11 +22,12 @@ nav:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
     - System usage: https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html
     - Clusters:
+      - Pelle: cluster_guides/pelle.md
       - Rackham: cluster_guides/rackham.md
       - Bianca: cluster_guides/bianca.md
       - Snowy: cluster_guides/snowy.md
-      - Pelle: cluster_guides/pelle.md
       - Dardel (at PDC): cluster_guides/dardel.md
+    - Object-storage Spirula: hardware/storage/spirula/
     - General cluster tools: 
       - Start an interactive session: cluster_guides/start_interactive_session.md
       - Modules: cluster_guides/modules.md
