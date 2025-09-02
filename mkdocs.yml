@@ -26,7 +26,7 @@ nav:
       - Rackham: cluster_guides/rackham.md
       - Bianca: cluster_guides/bianca.md
       - Snowy: cluster_guides/snowy.md
-      - Object-storage Spirula: cluster_guide/storage/spirula/
+      - Object-storage Spirula: cluster_guides/spirula.md
       - Dardel (at PDC): cluster_guides/dardel.md
     - General cluster tools: 
       - Start an interactive session: cluster_guides/start_interactive_session.md
