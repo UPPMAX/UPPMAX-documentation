@@ -26,9 +26,10 @@ If you cannot use VPN this may be the solution for you.
 
 Info is coming!
 
+<!---
 ???- info "Info to elaborate"
 
     Exemplet här med -W i thinlincs ssh-konf uppnår samma effekt.
 
-    https://community.thinlinc.com/t/jumphost-support/275
-
+    <https://community.thinlinc.com/t/jumphost-support/275>
+-->
