@@ -38,8 +38,8 @@ Start a [terminal](../software/terminal.md) on your local computer
 
 You can transfer files to LUMI by:
 
-- [2a. Transfer individual files to LUMI](#2a-transfer-individual-files-to-cosmos)
-- [2b. Transfer all files in a folder to LUMI](#2b-transfer-all-files-in-a-folder-to-cosmos)
+- [2a. Transfer individual files to LUMI](#2a-transfer-individual-files-to-lumi)
+- [2b. Transfer all files in a folder to LUMI](#2b-transfer-all-files-in-a-folder-to-lumi)
 
 ## 2a. Transfer individual files to LUMI
 
@@ -96,8 +96,8 @@ Command                                                            |Effect
 
 You can transfer files from LUMI to your local computer by:
 
-- [3a. Transfer individual files from LUMI to your local computer](#3a-transfer-individual-files-from-cosmos-to-your-local-computer)
-- [3b. Transfer all folders from LUMI to you local computer](#3b-transfer-all-folders-from-cosmos-to-you-local-computer)
+- [3a. Transfer individual files from LUMI to your local computer](#3a-transfer-individual-files-from-lumi-to-your-local-computer)
+- [3b. Transfer all folders from LUMI to you local computer](#3b-transfer-all-folders-from-lumi-to-you-local-computer)
 
 ## 3a. Transfer individual files from LUMI to your local computer
 
