@@ -4,7 +4,7 @@ Spirula is a DDLS-funded SciLifeLab FAIR Data Storage system which exposes 10
 PB of raw S3 compatible object storage (or blob storage) through Ceph Object
 Gateway, also known as RADOS Gateway (RGW).
 
-- Spirula is in production, but 
+- Spirula is in production, but
     - There is no backup of any data stored on Spirula.
     - You should not store any primary data on Spirula.
 - Spirula does not expose any public endpoints.
