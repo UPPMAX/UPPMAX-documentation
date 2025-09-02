@@ -3,3 +3,4 @@ venv/
 wordlist.dic
 *.sw*
 docs/software/software-table.md
+site/
