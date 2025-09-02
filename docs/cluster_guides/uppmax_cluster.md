@@ -10,14 +10,14 @@ UPPMAX is an organization that provides HPC clusters.
 
     See [the UPPMAX page about its systems](uppmax_systems.md)
 
-After giving [an overview of the different UPPMAX clusters](#overview-of-uppmax-clusters),
-it is discussed [what a computer cluster is](#what-is-a-computer-cluster-technically),
-how [it differs from a supercomputer](#difference-between-a-supercomputer-and-a-high-performing-computer-cluster),
-what [the restrictions of a computer cluster are](#restrictions-on-a-computer-cluster),
-as well as some added [restrictions on a sensitive data computer cluster](#restrictions-on-a-sensitive-data-computer-cluster).
+After giving an overview of the different [UPPMAX clusters](#overview-of-uppmax-clusters),
+it is discussed what a [computer cluster](#what-is-a-computer-cluster-technically) is,
+how it differs from a [supercomputer](#difference-between-a-supercomputer-and-a-high-performing-computer-cluster),
+what the [restrictions](#restrictions-on-a-computer-cluster) of a computer cluster are,
+as well as some added [restrictions](#restrictions-on-a-sensitive-data-computer-cluster) on a sensitive data computer cluster.
 
-This is followed by a [detailed technical summary of the clusters](#uppmax-clusters-technical-summary)
-and a [detailed overview of the clusters](#detailed-overview-of-the-uppmax-systems).
+This is followed by a detailed [technical summary](#uppmax-clusters-technical-summary) of the clusters
+and a detailed [overview](#detailed-overview-of-the-uppmax-systems) of the clusters.
 
 ## Overview of UPPMAX clusters
 
