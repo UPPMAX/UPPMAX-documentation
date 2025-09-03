@@ -57,7 +57,7 @@ In FileZilla's site manager, click 'New site'
 
     It is here:
 
-    ![The FileZilla Site Manager](filezilla_site_manager.png)
+    ![The FileZilla Site Manager](cosmos_file_transfer_using_filezilla_select_file_site_manager.png)
 
 ### 4. Setup the site
 
