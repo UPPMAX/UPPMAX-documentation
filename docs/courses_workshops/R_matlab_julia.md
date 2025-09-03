@@ -30,14 +30,17 @@ This course will consist of three days (**9:00-16:00**), one for each language. 
 
 Full schedule can be found on the rendered presentations for each course day: <https://uppmax.github.io/R-matlab-julia-HPC/>
 
-- **Day 1, Mon. 24. March**
+- **Day 1, Mon. 6 October**
     - 9:00 - 16:00 R
 
-- **Day 2, Tue. 25. March**
+- **Day 2, Tue. 7 October**
     - 9:00 - 16:00 MATLAB
 
-- **Day 3, Wed. 26. March**
+- **Day 3, Wed. 8 October**
     - 9:00 - 16:00 Julia
+
+- **Day 4, Fri. 10 October**
+    - 9:00 - 16:00 Advanced
 
 ## Materials
 
