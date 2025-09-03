@@ -8,5 +8,5 @@ A system to store data on.
 - [Domus](../hardware/storage/domus.md)
 - [Lutra](../hardware/storage/lutra.md)
 - [Spirula](../hardware/storage/spirula.md)
-    - [User guide](spirula.md) 
+    - [User guide](spirula.md)
 - [Vulpes](../hardware/storage/vulpes.md)

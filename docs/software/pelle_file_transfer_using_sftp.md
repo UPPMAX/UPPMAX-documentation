@@ -1,14 +1,5 @@
 # Data transfer to/from Pelle using SFTP
 
-!!! warning "Does not work yet"
-
-    [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
-    that is in the process of being deployed.
-
-    The procedure as described on this page does not work yet or is untested.
-
-    This page will be updated when this works.
-
 There are multiple ways to [transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
 
 Data transfer to/from Pelle using SFTP
