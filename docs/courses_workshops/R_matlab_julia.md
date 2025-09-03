@@ -67,15 +67,13 @@ This is NOT in any way mandatory for participation or part of the course. It is 
     - [UPPMAX Slurm guide](https://docs.uppmax.uu.se/cluster_guides/slurm/)
     - [Material in the UPPMAX introduction course](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/)
 
-**Time and Dates:** 24-26 March 2025, three days, one for each language. 9:00 - 16:00 each day. The last hour each day will be used for extra time for exercises.
-
-**Onboarding:** Friday, 21. March (1 hour - time to be decided)
+**Time and Dates:** 6-8 and 10 Oct 2025, three days, one for each language, and a concluding day with more advanced stuff. 9:00 - 16:00 each day. 
 
 **Location:** ONLINE. Zoom link will be sent to participants a few days before the course.
 
-**Deadline for registration:** 17. March 2025
+**Deadline for registration:** 29 September 2025
 
-[Registration from HPC2N page](https://www.hpc2n.umu.se/events/courses/2025/spring/r-matlab-julia)
+[Registration from HPC2N page](https://www.hpc2n.umu.se/events/courses/2025/fall/r-matlab-julia)
 
 Participation in the course is free.
 
