@@ -65,7 +65,7 @@ In the 'Site Manager' dialog, click 'New site'
 
 ### 5. Create a name for the site
 
-In the 'New Site' dialog, create a name for the site, e.g. `bianca-sens2023613`.
+In the 'New Site' dialog, create a name for the site, e.g. `bianca`.
 
 ### 6. Configure site
 
@@ -73,26 +73,16 @@ In the 'New Site' dialog, make the following changes:
 
 - Set protocol to 'SFTP - SSH File Transfer Protocol'
 - Set host to `bianca-sftp.uppmax.uu.se`
-- Set Logon Type to `Ask for password`
-- Set user to `[username]-[project]`, e.g. `sven-sens2023613`
+- Set Logon Type to `Interactive` (NOTE: until September 2025, this was to be set to `Ask for Password`)
+- Set user to `[username]`, e.g. `sven`
 
-
-???- question "How does that look like?"
-
-    It looks similar to these:
-
-    ![FileZilla settings for a user](./img/filezilla_setup_bianca_pavlin.png)
-
-    ![FileZilla settings for another user](./img/filezilla_setup_bianca_sven.png)
 
 ### 7. Click 'Connect'
 
 In FileZilla, click 'Connect'
 
-You will be asked for your password. Enter your UPPMAX password and two-factor authentication code together. Hence
-type `[your password][2FA code]`, e.g. `MyPassword123456`, where `MyPassword` is your UPPMAX password and `123456` is your 6 digit UPPMAX two-factor authentication code.
-
-Uncheck "Remember password until FileZilla is closed".
+You will be asked for your password first. Enter your UPPMAX password. `
+Then you will be asked for your second factor. Enter your 6 digit UPPMAX TOTP 2FA code.
 
 !!! tip "Remembering/storing a password is useless"
 

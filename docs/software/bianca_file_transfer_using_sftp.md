@@ -31,18 +31,16 @@ If needed, [start the grace period](../cluster_guides/grace_period.md).
 ### 2. Start `sftp`
 
 ```bash
-sftp [user_name]-[project_id]@bianca-sftp.uppmax.uu.se:/[user_name]-[project_id]
+sftp [user_name]@bianca-sftp.uppmax.uu.se
 ```
 
-where
+where `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
-- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-- `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
 For example:
 
 ```bash
-sftp sven-sens2016001@bianca-sftp.uppmax.uu.se:/sven-sens2016001
+sftp sven@bianca-sftp.uppmax.uu.se
 ```
 
 ### 3. Supply password
@@ -50,55 +48,37 @@ sftp sven-sens2016001@bianca-sftp.uppmax.uu.se:/sven-sens2016001
 `sftp` will ask for a password:
 
 ```bash
-sven-sens2016001@bianca-sftp.uppmax.uu.se's password:
+(sven@bianca-sftp.uppmax.uu.se) Password:
 ```
 
-The password is your normal UPPMAX password directly followed by
-the six digits from the [the `UPPMAX` 2-factor authentication](../getting_started/get_uppmax_2fa.md).
-For example, if your password is `VerySecret` and the second factor code is `123456`
-you would type `VerySecret123456` as the password in this step.
+The password is your normal UPPMAX password. The typing will be invisible. Use the `enter` key to submit.
 
-After typing in the password and 2FA one sees a welcome message
-and the `sftp` prompt.
+### 4. Supply second factor
 
-???- question "How does that look like?"
+`sftp` will ask for a second factor:
 
-    This is the welcome message:
+```bash
+(sven@bianca-sftp.uppmax.uu.se) Password:
+(sven@bianca-sftp.uppmax.uu.se) Second factor (TOTP):
+```
 
-    ```text
-    Hi!
+This is the six digit code from the [the `UPPMAX` 2-factor authentication](../getting_started/get_uppmax_2fa.md).
 
-    You are connected to the bianca wharf (sftp service) at
-    bianca-sftp.uppmax.uu.se.
+After typing in the password and 2FA one sees the `sftp` prompt.
 
-    Note that we only support SFTP, which is not exactly the
-    same as SSH (rsync and scp will not work).
+### 5. Navigating the wharf
 
-    Please see our homepage and the Bianca User Guide
-    for more information:
+While logged in to the wharf, type `ls` to list your available projects.
 
-    https://www.uppmax.uu.se/support/user-guides/bianca-user-guide/
+```bash
+sftp> ls
+sens2016001 sens2017625 sens2025123
+```
 
-    If you have any questions not covered by the User Guide, you are
-    welcome to contact us at support@uppmax.uu.se.
+Type `cd [project-id]/[user-name]` to enter the wharf of a given project.
 
-    Best regards,
-    UPPMAX
+See [the UPPMAX page on `sftp`](../software/sftp.md) how to use `sftp` to download and upload files.
 
-    sven-sens2016001@bianca-sftp.uppmax.uu.se's password:
-    Connected to bianca-sftp.uppmax.uu.se.
-    sftp>
-    ```
-
-???- question "How do I get rid of the welcome message?"
-
-    Use `sftp`'s `-q` (which is short for 'quiet') flag:
-
-    ```bash
-    sftp -q sven-sens2016001@bianca-sftp.uppmax.uu.se
-    ```
-
-The last line, `sftp>` is the `sftp` prompt.
 
 Once connected you will have to type the `sftp` commands to upload/download files.
 See [the UPPMAX page on `sftp`](../software/sftp.md) how to do so.
