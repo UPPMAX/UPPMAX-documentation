@@ -9,11 +9,6 @@ tags:
 
 ![Image of Pelle Svanslös, from https://www.comics.org/issue/105368/cover/4](./img/pelle.jpg)
 
-???- question "Why such a bad image?"
-
-    Copyright. This is one of the few images that shows Pelle Svanslös
-    with a Creative Commons license.
-
 - [Pelle's name](pelles_name.md)
 
 Pelle is an upcoming general-purpose UPPMAX cluster,
