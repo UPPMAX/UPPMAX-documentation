@@ -14,8 +14,11 @@ tags:
     Copyright. This is one of the few images that shows Pelle Svanslös
     with a Creative Commons license.
 
+- [Pelle's name](pelles_name.md)
+
 Pelle is an upcoming general-purpose UPPMAX cluster,
 paid by Uppsala University.
+
 
 Uppsala users of [Rackham](rackham.md) will be moved to Pelle
 by UPPMAX after [applying to a Pelle project](../getting_started/project_apply_pelle.md).
