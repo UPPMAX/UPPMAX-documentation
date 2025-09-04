@@ -21,5 +21,6 @@ There are many graphical tools that can do this:
 
 ![FileZilla connected to Rackham](../software/img/filezilla_login_to_rackham_480_x_270.png)
 
-- [File transfer to/from Rackham using WindSCP](../software/rackham_file_transfer_using_winscp.md)
+- [File transfer to/from Rackham using WinSCP](../software/rackham_file_transfer_using_winscp.md)
 
+![FileZilla connected to Rackham](../software/img/winscp_rackham_login.png)
