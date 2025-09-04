@@ -4,12 +4,13 @@ tags:
   - data transfer
   - file transfer
   - scp
+  - SCP
   - COSMOS
 ---
 
 # Data transfer to/from COSMOS using scp
 
-???- question "Why is this page at UPPMAX?"
+???- question "Why is this page at LUNARC?"
 
     It is the intention that this guide is moved to the LUNARC documentation.
     However, it has not been suggested to be added to their documentaton
@@ -17,118 +18,56 @@ tags:
 
 There are multiple ways to transfer files to or from COSMOS.
 Here it is described how to do file transfer to/from COSMOS
-using [rsync](../software/scp.md).
+using [scp](../software/scp.md).
 
 ## Procedure
 
-## 1. Start a terminal on your local computer
+### 1. Start a terminal on your local computer
 
 Start a [terminal](../software/terminal.md) on your local computer
 
-## 2. Transfer files to COSMOS
+### 2. Copy files using `scp`
 
-You can transfer files to COSMOS by:
-
-- [2a. Transfer individual files to COSMOS](#2a-transfer-individual-files-to-cosmos)
-- [2b. Transfer all files in a folder to COSMOS](#2b-transfer-all-files-in-a-folder-to-cosmos)
-
-## 2a. Transfer individual files to COSMOS
-
-On local computer, do:
+In the terminal, copy files using [`scp`](scp.md) to connect to Cosmos:
 
 ```bash
-rsync [my_local_file] [username]@cosmos.lunarc.lu.se:[target_folder]
+scp [from] [to]
 ```
 
-where
+Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
+This is quite a shorthand notation!
 
-- `[my_local_file]` is the path to your local file
-- `[target_folder]` is the path of the folder you want to copy your file to
-- `[username]` is your LUNARC username
-
-for example:
+This is how you copy a file from your local computer to Cosmos:
 
 ```bash
-rsync my_local_file.txt sven@cosmos.lunarc.lu.se:/home/sven/
+scp [local_filename] [username]@cosmos.lunarc.lu.se:/home/[username]
 ```
 
-If asked, give your LUNARC password.
-
-## 2b. Transfer all files in a folder to COSMOS
-
-On local computer, do:
+where `[local_filename]` is the path to a local filename,
+and `[username]` is your LUNARC username, for example:
 
 ```bash
-rsync --recursive my_folder [username]@cosmos.lunarc.lu.se:[target_folder]
+scp my_file.txt sven@cosmos.lunarc.lu.se:/home/sven
 ```
 
-where
-
-- `[target_folder]` is the target folder
-- `[username]` is your LUNARC username
-
-for example:
+To copy a file from Cosmos to your local computer,
+do the command above in reverse order:
 
 ```bash
-rsync --recursive my_folder sven@cosmos.lunarc.lu.se:/home/sven/
+scp [username]@cosmos.lunarc.lu.se:/home/[username]/[remote_filename] [local_folder]
 ```
 
-If asked, give your LUNARC password.
-
-Note that in `rsync`, a slash (`/`) matters:
-
-Command                                                            |Effect
--------------------------------------------------------------------|------------------------------------------------------------
-`rsync --recursive my_folder sven@cosmos.lunarc.lu.se:/home/sven` |Will put the files in `my_folder` in the COSMOS home folder
-`rsync --recursive my_folder sven@cosmos.lunarc.lu.se:/home/sven/`|Will put the folder `my_folder` in the COSMOS home folder
-
-## 3. Transfer files from COSMOS to you local computer
-
-You can transfer files from COSMOS to your local computer by:
-
-- [3a. Transfer individual files from COSMOS to your local computer](#3a-transfer-individual-files-from-cosmos-to-your-local-computer)
-- [3b. Transfer all folders from COSMOS to you local computer](#3b-transfer-all-folders-from-cosmos-to-you-local-computer)
-
-## 3a. Transfer individual files from COSMOS to your local computer
-
-On your local computer, do:
+where `[remote_filename]` is the path to a remote filename,
+`[username]` is your LUNARC username,
+and `[local_folder]` is your local folder, for example:
 
 ```bash
-rsync [username]@cosmos.lunarc.lu.se:[path_to_file] .
+scp sven@cosmos.lunarc.lu.se:/home/sven/my_remote_file.txt /home/sven
 ```
 
-where
+### 3. If asked, give your LUNARC password
 
-- `[path_to_file]` is the path to the file you want to download
-- `[username]` is your LUNARC username
-- `.` means 'in the current folder of my local computer' or 'here'
+If asked, give your LUNARC password and TOTP code from your ["Pocket pass" application](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/authenticator_howto/).
 
-for example:
+You may get rid of this prompt if you have setup SSH keys
 
-```bash
-rsync sven@cosmos.lunarc.lu.se:/home/sven/my_file.txt .
-```
-
-If asked, give your LUNARC password.
-
-## 3b. Transfer all folders from COSMOS to you local computer
-
-On your local computer, do:
-
-```bash
-rsync --recursive [username]@cosmos.lunarc.lu.se:/[source_folder] .
-```
-
-where
-
-- `[source_folder]` is the path to the folder you want to download
-- `[username]` is your LUNARC username
-- `.` means 'in the current folder of my local computer' or 'here'
-
-for example:
-
-```bash
-rsync --recursive sven@cosmos.lunarc.lu.se:/home/sven/my_folder .
-```
-
-If asked, give your LUNARC password.
