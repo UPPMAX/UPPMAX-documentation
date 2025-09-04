@@ -13,7 +13,7 @@ Download and install from [UU Software Center](https://www.uu.se/en/staff/servic
 
 You can also download the software from [WinSCP](https://winscp.net/eng/docs/guide_install) website.
 
-![WinSCP](../img/winscp_newsite_bianca.png)
+![WinSCP](img/winscp_newsite_bianca.png)
 
 WinSCP is a secure file transfer tool that works under Windows.
 
