@@ -43,7 +43,7 @@ See [how to log in to a Pelle](../getting_started/login_pelle.md).
 
 ## Features of Pelle, compared to Rackham
 
-Pelle is quite similar to [Rackham](rackham.md) but we have prepared som Pelle specific pages for some topics.
+Pelle is quite similar to [Rackham](rackham.md) but we have prepared Pelle specific pages for some topics.
 
 
 - [File transfer](transfer_pelle.md)
