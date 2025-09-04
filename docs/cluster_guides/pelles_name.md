@@ -4,7 +4,7 @@
 in the children's book [Pelle Svanslös](https://en.wikipedia.org/wiki/Pelle_Svansl%C3%B6s)
 in this case after Pelle Svanslös himself. 
 
-The upcoming Maja cluster for sensitive data is also named after a character from here.
+The upcoming [Maja](maja.md) cluster for sensitive data is also named after a character from here.
 
 ![Image of Pelle Svanslös, from https://www.comics.org/issue/105368/cover/4](./img/pelle.jpg)
 
