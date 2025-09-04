@@ -90,10 +90,23 @@ After this, you can login to Pelle without specifying a password.
 
 ### On Linux, it still asks for a password
 
-From [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorized-keys)
-and [its answer](https://unix.stackexchange.com/a/664213):
+This may be for multiple reasons.
 
-On Pelle, do:
+Possible reason 1 is that the SSH key needs to be specified explicitly, e.g.
+
+```bash
+ssh -i [path_to_SSH_key] [UPPMAX_username]@pelle.uppmax.uu.se
+```
+
+For example:
+
+```bash
+ssh -i ~/.ssh/id_ed25519_uppmax_login sven@pelle.uppmax.uu.se
+```
+
+Possible reason 2 is that the folders used by SSH do not have proper rights (from [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorized-keys) and [its answer](https://unix.stackexchange.com/a/664213):
+
+To give the folders needed by SSH the proper rights, on Pelle, do:
 
 ```bash
 chmod 700 .ssh/authorized_keys
