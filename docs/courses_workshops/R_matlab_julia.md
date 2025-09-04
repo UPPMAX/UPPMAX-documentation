@@ -70,7 +70,7 @@ This is NOT in any way mandatory for participation or part of the course. It is 
     - [UPPMAX Slurm guide](https://docs.uppmax.uu.se/cluster_guides/slurm/)
     - [Material in the UPPMAX introduction course](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/)
 
-**Time and Dates:** 6-8 and 10 Oct 2025, three days, one for each language, and a concluding day with more advanced stuff. 9:00 - 16:00 each day. 
+**Time and Dates:** 6-8 and 10 Oct 2025, three days, one for each language, and a concluding day with more advanced stuff. 9:00 - 16:00 each day.
 
 **Location:** ONLINE. Zoom link will be sent to participants a few days before the course.
 
