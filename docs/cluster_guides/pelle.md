@@ -43,7 +43,7 @@ Pelle is quite similar to [Rackham](rackham.md).
 
 - [File transfer](transfer_pelle.md)
 - [The module system](pelle_modules.md)
-- [Slurm opn Pelle](slurm_on_pelle.md)
+- [Slurm on Pelle](slurm_on_pelle.md)
 - [Starting an interactive session](start_interactive_session_on_pelle.md)
 
 
