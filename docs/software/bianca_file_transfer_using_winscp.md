@@ -24,7 +24,7 @@ To transfer files to/from [Bianca](../cluster_guides/bianca.md) using WinSCP, do
 ???- question "Would you like a video?"
 
     See the YouTube video (needs update because of not needed project name as username, see below)
-    [how to do file transfer from/to Bianca using FileZilla](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9)
+    [how to do file transfer from/to Bianca using FileZilla](https://youtu.be/DYPWawyK5UE)
 
 To transfer files to/from Bianca using WinSCP, do the following steps:
 

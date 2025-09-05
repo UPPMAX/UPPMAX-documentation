@@ -17,7 +17,7 @@ of that HPC center.
 HPC Cluster|Videos
 -----------|-------------------------------------------------
 Alvis      |[Video](https://youtu.be/A8zfd0o0uzI)
-Bianca     |[Video](https://youtu.be/V-iPQLjvByc)
+Bianca     |[Video](https://youtu.be/DYPWawyK5UE)
 COSMOS     |[Video](https://youtu.be/T4qqN_ljsS8)
 Dardel     |[Video](https://youtu.be/_3EmkN619Xo)
 Kebnekaise |Cannot: is not a NAISS cluster

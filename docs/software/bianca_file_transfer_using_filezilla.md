@@ -26,7 +26,8 @@ See [the UPPMAX page on 'FileZilla'](filezilla.md) on how to download and instal
 ???- question "Would you like a video?"
 
     See the YouTube video
-    [file transfer from/to Bianca using FileZilla](https://youtu.be/V-iPQLjvByc?si=OMyH3REu-SoFQeI9).
+    [file transfer from/to Bianca using FileZilla](https://youtu.be/DYPWawyK5UE).
+
 
 To transfer files to/from Bianca using FileZilla, do the following steps:
 

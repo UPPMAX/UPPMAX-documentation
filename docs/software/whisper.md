@@ -100,7 +100,7 @@ Following steps are derived from [Project application for Bianca](../getting_sta
 
 ### Step 1: Data transfer from local computer to Bianca
 
-1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) app (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) app (Mac, Windows or Linux). Instruction on how to do it is in their respective links or watch FileZilla [Video](https://www.youtube.com/watch?v=V-iPQLjvByc&t=136s&ab_channel=Rich%C3%A8lJ.C.Bilderbeek).
+1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) app (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) app (Mac, Windows or Linux). Instruction on how to do it is in their respective links or watch FileZilla [Video](https://youtu.be/DYPWawyK5UE).
 
     ![whisper gui](./img/whisper_data_transfer.png){: style="height:90%;width:90%"}
 
