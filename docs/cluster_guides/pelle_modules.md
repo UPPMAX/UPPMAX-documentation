@@ -39,7 +39,7 @@ To have new software installed on an UPPMAX cluster,
 users must explicitly request a version of a piece of software.
 As of today, there are nearly
 [800+ programs and packages, with multiple versions](../software/overview.md)
-available on all UPPMAX clusters.
+available on the older UPPMAX clusters. So far on Pelle there are about 100.
 Using explicit versions of software is easy to do
 and improves the reproducibility of the scripts written.
 
@@ -99,12 +99,51 @@ for example `module spider cowsay`.
 
     See [the UPPMAX page on `cowsay`](../software/cowsay.md)
 
+  
+!!!- tip "Getting help on a module"
 
-???- question "What is `R`?"
+    Run `module help [module]`, e.g. `module help cowsay`
+    to get the general help on a module
 
-    `R` is the module for the R programming language.
-    R is a free and open-source programming language,
-    commonly used in data analysis and visualization.
+To unload a module, do `module unload [module]` (e.g. `module unload cowsay`).
+This will also unload module that depend on the unloaded one.
+For example, `module unload GATK` will unload GCCcore, Java, Python etcetera.
+
+
+
+## Using modules in an executable script
+
+Using modules in an executable script is straightforward:
+just load the module needed before using the software in that module.
+
+For example, this is a valid bash script:
+
+```text
+#!/bin/bash
+module load cowsay/3.04
+cowsay hello
+```
+
+## Conflicting modules
+
+Sometimes some tools cannot be run together, that is working when another module is loaded. Read about this in the page:
+
+- [Conflicting modules](module_conflicts.md)
+
+
+## Common shorthand syntaxes
+
+Full command            |Shorthand syntax
+------------------------|----------------
+`module`                |-
+`module avail`          |`ml av`
+`module spider`         |`ml spider`
+`module load [module]`  |`ml [module]`
+`module list`           |`ml`
+`module unload [module]`|`ml -[module]`
+
+
+## Examples
 
 ???- question "How does the output of `module spider R` look like?"
 
@@ -154,14 +193,12 @@ for example `module spider cowsay`.
 
     ```
 
-???- question "What is `samtools`?"
+???- question "What is `R`?"
 
-    `samtools` is the module for SAMtools. From [wikipedia](https://en.wikipedia.org/wiki/SAMtools):
+    `R` is the module for the R programming language.
+    R is a free and open-source programming language,
+    commonly used in data analysis and visualization.
 
-    > SAMtools is a set of utilities for interacting with
-    > and post-processing short DNA sequence read alignments
-    > in the SAM (Sequence Alignment/Map), BAM (Binary Alignment/Map)
-    > and CRAM formats
 
 ???- question "How does the output of `module spider samtools` look like?"
 
@@ -223,7 +260,16 @@ for example `module spider cowsay`.
     
     ...
     ```
-    
+
+???- question "What is `samtools`?"
+
+    `samtools` is the module for SAMtools. From [wikipedia](https://en.wikipedia.org/wiki/SAMtools):
+
+    > SAMtools is a set of utilities for interacting with
+    > and post-processing short DNA sequence read alignments
+    > in the SAM (Sequence Alignment/Map), BAM (Binary Alignment/Map)
+    > and CRAM formats
+
 
 If there is an exact match, that module is reported first.
 Of the module shown, also the different versions are reported.
@@ -272,11 +318,6 @@ it is *not* general help for using the tool itself.
     ```
 
     In this example case, we can see that the many more modules than SAMtools are loaded. This is the effect of using the installation method that is prevailent in most NAISS clusters.
-    
-!!!- tip "Getting help on a module"
-
-    Run `module help [module]`, e.g. `module help cowsay`
-    to get the general help on a module
 
 For reproducible research, however, it is good practice
 to load a specific version. The information given by
@@ -324,33 +365,6 @@ To see a module-specific help, use `module help [module]` (e.g. `module help cow
      - Homepage: https://www.broadinstitute.org/gatk/
     ```
 
-To unload a module, do `module unload [module]` (e.g. `module unload cowsay`).
-This will also unload module that depend on the unloaded one.
-For example, `module unload GATK` will unload GCCcore, Java, Python etcetera.
-
-## Using modules in an executable script
-
-Using modules in an executable script is straightforward:
-just load the module needed before using the software in that module.
-
-For example, this is a valid bash script:
-
-```text
-#!/bin/bash
-module load cowsay/3.04
-cowsay hello
-```
-
-## Common shorthand syntaxes
-
-Full command            |Shorthand syntax
-------------------------|----------------
-`module`                |-
-`module avail`          |`ml av`
-`module spider`         |`ml spider`
-`module load [module]`  |`ml [module]`
-`module list`           |`ml`
-`module unload [module]`|`ml -[module]`
 
 ## Links
 
@@ -358,9 +372,3 @@ Full command            |Shorthand syntax
 - [Almost all installed databases on UPPMAX](../databases/overview.md)
 - [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
 - [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
-
-## Conflicting modules
-
-Sometimes some tools cannot be run together, that is working when another module is loaded. Read about this in the page:
-
-- [Conflicting modules](module_conflicts.md)
