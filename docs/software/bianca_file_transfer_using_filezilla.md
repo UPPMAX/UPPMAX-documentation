@@ -38,16 +38,16 @@ See [the UPPMAX page on 'FileZilla'](filezilla.md) on how to download and instal
 
 To transfer files to/from Bianca using FileZilla, do the following steps:
 
-### 1. Get inside SUNET
+## 1. Get inside SUNET
 
 Check how to get inside university networks : [Get inside of SUNET](../getting_started/get_inside_sunet.md).
 If you are part of a Swedish university, you can use the VPN provided by your university.
 
-### 2. Start FileZilla
+## 2. Start FileZilla
 
 Open FileZilla application.
 
-### 3. Select 'File | Site manager'
+## 3. Select 'File | Site manager'
 
 In FileZilla, from the menu, select 'File | Site manager'.
 
@@ -59,7 +59,7 @@ In FileZilla, from the menu, select 'File | Site manager'.
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
-### 4. Click 'New site'
+## 4. Click 'New site'
 
 In the 'Site Manager' dialog, click 'New site'
 
@@ -71,21 +71,22 @@ In the 'Site Manager' dialog, click 'New site'
 
     > 'New site' can be found at the bottom-left
 
-### 5. Create a name for the site
+## 5. Create a name for the site
 
 In the 'New Site' dialog, create a name for the site, e.g. `bianca`.
 
-### 6. Configure site
+## 6. Configure site
 
 In the 'New Site' dialog, make the following changes:
 
 - Set protocol to 'SFTP - SSH File Transfer Protocol'
 - Set host to `bianca-sftp.uppmax.uu.se`
-- Set Logon Type to `Interactive` (NOTE: until September 2025, this was to be set to `Ask for Password`)
+- Set Logon Type to `Interactive`
+  <!-- until September 2025, this was to be set to `Ask for Password` -->
 - Set user to `[username]`, e.g. `sven`
 
 
-### 7. Click 'Connect'
+## 7. Click 'Connect'
 
 In FileZilla, click 'Connect'
 
@@ -114,7 +115,7 @@ Site Manager > Transfer Settings > Limit number of simultaneous connections to 1
 
 ## Troubleshooting
 
-### Access denied
+## Access denied
 
 Full error, in the FileZilla terminal:
 
