@@ -109,8 +109,6 @@ To unload a module, do `module unload [module]` (e.g. `module unload cowsay`).
 This will also unload module that depend on the unloaded one.
 For example, `module unload GATK` will unload GCCcore, Java, Python etcetera.
 
-
-
 ## Using modules in an executable script
 
 Using modules in an executable script is straightforward:
