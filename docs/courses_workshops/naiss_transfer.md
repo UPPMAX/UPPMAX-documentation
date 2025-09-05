@@ -16,9 +16,9 @@ The workshop is intended for beginner users but with some Linux experience, see 
 
 ## Coming course instance
 
-- **When: Fri 5 Sep, 2025, 9.00-12.00**
+- **When: Fri 14 Nov, 2025, 9.00-12.00**
 - Where: Online via Zoom
-- [Registration](https://forms.gle/xGsuD3hiYqPRG55R8)
+- Registration: Coming
 - [Prerequisites](https://uppmax.github.io/naiss_file_transfer_course/prereqs/)
 
 ## More information
