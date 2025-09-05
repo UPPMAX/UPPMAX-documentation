@@ -12,6 +12,14 @@ tags:
 
 # File transfer to/from Bianca using FileZilla
 
+!!! error "This procedure fails"
+
+    Following this procedure fails.
+    
+    You can see me fumble at [this timepoint in a video](https://youtu.be/FQm6mIWYOPU?si=cysCrmfikEEy6_1d&t=213).
+
+    The UPPMAX people are made aware of this.
+
 ![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
 
 > FileZilla connected to Bianca
