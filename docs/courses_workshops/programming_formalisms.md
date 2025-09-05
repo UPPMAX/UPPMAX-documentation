@@ -26,9 +26,9 @@ We will cover theory with bridging practical examples and applications to enhanc
 
 ## Coming course instance
 
-- **When:** May 5-9, 9:00-16:00
+- **When:** Thu-Fri 23-24, Mon-Wed 27-29 October, 9:00-16:00
 - **Where:** Online (Zoom). The link will be sent to registered participants prior to the course.
 - **Online on-boarding:** TBD. Get help with [setups](https://uppmax.github.io/programming_formalisms/prereqs/).
 
-- **[Registration form](https://forms.gle/QS4yse2g4zSmDZoR8)**
+- Registration form**: coming
 
