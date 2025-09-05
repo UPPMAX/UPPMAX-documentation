@@ -24,12 +24,5 @@ If you cannot use VPN this may be the solution for you.
 
 ## Procedure
 
-Info is coming!
+Info may come soon!
 
-<!---
-???- info "Info to elaborate"
-
-    Exemplet här med -W i thinlincs ssh-konf uppnår samma effekt.
-
-    <https://community.thinlinc.com/t/jumphost-support/275>
--->
