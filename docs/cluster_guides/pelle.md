@@ -37,14 +37,13 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
 See [how to apply to a Pelle project](../getting_started/project_apply_pelle.md).
 
-## [How to log in to a Pelle](../getting_started/login_pelle.md)
+## [How to log in to Pelle](../getting_started/login_pelle.md)
 
-See [how to log in to a Pelle](../getting_started/login_pelle.md).
+See [how to log in to Pelle](../getting_started/login_pelle.md).
 
 ## Features of Pelle, compared to Rackham
 
 Pelle is quite similar to [Rackham](rackham.md) but we have prepared Pelle specific pages for some topics.
-
 
 - [File transfer](transfer_pelle.md)
 - [The module system](pelle_modules.md)
