@@ -72,12 +72,11 @@ In the 'New Site' dialog, create a name for the site, e.g. `bianca`.
 
 In the 'New Site' dialog, make the following changes:
 
-- Set protocol to 'SFTP - SSH File Transfer Protocol'
-- Set host to `bianca-sftp.uppmax.uu.se`
-- Set Logon Type to `Interactive`
+- Set 'protocol' to 'SFTP - SSH File Transfer Protocol'
+- Set 'host' to `bianca-sftp.uppmax.uu.se`
+- Set 'Logon type' to `Interactive`
   <!-- until September 2025, this was to be set to `Ask for Password` -->
-- Set user to `[username]`, e.g. `sven`
-
+- Set 'user' to your UPPMAX username, e.g. `sven`
 
 ## 7. Click 'Connect'
 
