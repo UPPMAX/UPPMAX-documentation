@@ -114,7 +114,7 @@ Full error, in the FileZilla terminal:
 ```text
 Status: Connecting to bianca-sftp.uppmax.uu.se...
 
-Status: Using username "sven-sens2023613".
+Status: Using username "sven".
 
 Status: Access denied
 
