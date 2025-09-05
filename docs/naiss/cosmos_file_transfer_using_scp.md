@@ -28,7 +28,7 @@ Start a [terminal](../software/terminal.md) on your local computer
 
 ### 2. Copy files using `scp`
 
-In the terminal, copy files using [`scp`](scp.md) to connect to Cosmos:
+In the terminal, copy files using [`scp`](../software/scp.md) to connect to Cosmos:
 
 ```bash
 scp [from] [to]
