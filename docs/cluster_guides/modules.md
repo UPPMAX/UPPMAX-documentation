@@ -24,7 +24,7 @@ as well as [links](#links) to almost all installed software and databases on UPP
 
 ## Background
 
-The UPPPMAX clusters are shared Linux computers with all the standard Linux tools installed,
+The UPPMAX clusters are shared Linux computers with all the standard Linux tools installed,
 on which all users should be able to
 do their work independently and undisturbed.
 
