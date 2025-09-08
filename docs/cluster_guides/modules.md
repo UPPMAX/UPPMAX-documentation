@@ -17,6 +17,8 @@ After describing [the background](#background)/reasoning
 why such a system is needed,
 we show [how to work with the module system](#working-with-the-module-system).
 
+[Pelle](pelle.md) module system is a bit different and is covered in [Working with environment modules on Pelle](pelle_modules.md)
+
 There is a table of [commonly used shorthand syntaxes](#common-shorthand-syntaxes),
 as well as [links](#links) to almost all installed software and databases on UPPMAX.
 
