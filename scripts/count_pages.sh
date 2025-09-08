@@ -18,4 +18,4 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-find . | grep "\\.md$" | wc --lines
+find . | grep -c "\\.md$"

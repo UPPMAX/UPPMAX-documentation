@@ -42,3 +42,10 @@ echo "Number of YouTube videos"
 
 echo "Number of pages"
 ./scripts/count_pages.sh
+
+echo "Number of commit"
+./scripts/count_n_commits.sh
+
+echo "Number of versions"
+./scripts/count_n_versions.sh
+

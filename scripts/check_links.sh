@@ -18,4 +18,4 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-markdown-link-check --config mlc_config.json --quiet docs/**/*.md
+markdown-link-check --config mlc_config.json --quiet "docs/**/*.md"
