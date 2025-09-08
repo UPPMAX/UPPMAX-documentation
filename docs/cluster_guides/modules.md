@@ -78,7 +78,11 @@ Working with the module system means:
 - activating ('loading') a module
 - deactivate ('unloading') a module
 
-This section describes these steps in more details.
+## Examples
+
+This section describes these steps in more details for [Rackham](rackham.md) and [Bianca](bianca.md).
+
+[Pelle](pelle.md) module system is a bit different and is covered in [Working with environment modules on Pelle](pelle_modules.md)
 
 The `module` command is the basic interface to the module system.
 
