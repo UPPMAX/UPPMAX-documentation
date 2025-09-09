@@ -18,5 +18,5 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-egrep -R "youtu\\.be" --include=*.md | wc --lines
+grep -ER "youtu\\.be" --include=*.md | wc --lines
 

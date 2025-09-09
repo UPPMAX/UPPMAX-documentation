@@ -19,4 +19,4 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-egrep -R "mermaid$" --include=*.md | wc --lines
+grep -ER "mermaid$" --include=*.md | wc --lines

@@ -19,4 +19,4 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
-egrep -R "^tags:$" --include=*.md | wc --lines
+grep -ER "^tags:$" --include=*.md | wc --lines
