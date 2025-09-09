@@ -17,15 +17,16 @@ Thanks for considering to contribute and reading this!
 
 Here we discuss how to contribute.
 
-What do you want to do                                   |How to do it
----------------------------------------------------------|------------------------------------
-Sharing your wisdom in general terms                     |[Create an issue](#create-an-issue)
-Sharing your wisdom by adding content to an existing page|[Modifying content](#modify-content)
-Sharing your wisdom by adding content to a new page      |[Add new page](#modify-content)
-Sharing your wisdom by modifying content                 |[Modifying content](#modify-content)
-Report mistakes                                          |[Create an issue](#create-an-issue)
-Suggest improvements in general terms                    |[Create an issue](#create-an-issue)
-Suggest improvements by modifying content                |[Modifying content](#modify-content)
+What do you want to do                                    |How to do it
+----------------------------------------------------------|------------------------------------
+Share your knowledge in general terms                     |[Create an issue](#create-an-issue)
+Share your knowledge by adding content to an existing page|[Modifying content](#modify-content)
+Share your knowledge by adding content to a new page      |[Add new page](#modify-content)
+Share your knowledge by modifying content                 |[Modifying content](#modify-content)
+Report mistakes                                           |[Create an issue](#create-an-issue)
+Suggest improvements in general terms                     |[Create an issue](#create-an-issue)
+Suggest improvements by modifying content                 |[Modifying content](#modify-content)
+Give anonymous feedback                                   |[Go to this form](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform)
 
 See [the contribution questions](#contribution-questions) if you still have
 a question about contributing.
