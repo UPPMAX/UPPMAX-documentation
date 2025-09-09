@@ -13,7 +13,7 @@ Download and install from [UU Software Center](https://www.uu.se/en/staff/servic
 
 You can also download the software from [WinSCP](https://winscp.net/eng/docs/guide_install) website.
 
-![WinSCP](img/winscp_newsite_bianca.png)
+![WinSCP](img/WinSCP_logged_in_proj_bianca.png)
 
 WinSCP is a secure file transfer tool that works under Windows.
 
@@ -75,5 +75,12 @@ First enter [your password], and in next window [2FA code]
     - Now you shall just log in with user name, like ``nisse`` and NOT with project name, like ``nisse-sens2025999``
     - All your project folders will all show up on the remote!
 
+![WinSCP](img/WinSCP_logged_in_proj_bianca.png)
+
 Now you can transfer files between your local computer and [your `wharf` folder](../cluster_guides/wharf.md).
+
+![WinSCP](img/WinSCP_logged_in_bianca.png)
+
+
+
 
