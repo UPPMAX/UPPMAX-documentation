@@ -47,14 +47,14 @@ Anyone with a GitHub account can create an [issue](https://github.com/UPPMAX/UPP
     - Go to [the issues](https://github.com/UPPMAX/UPPMAX-documentation/issues)
     - Click on the green button 'Create issue'
     
-    ![Click on 'Create issue'](img/create_issue.png)
+    ![Click on 'Create issue'](img/create_issue_with_border.png)
 
     > Click on 'Create issue'
 
     - Write a title and description
     - At the bottom of the page, click the green button 'Create'
 
-    ![Click on 'Create'](img/create_issue_click_create.png)
+    ![Click on 'Create'](img/create_issue_click_create_with_border.png)
 
     > Click on 'Create'
 
@@ -82,13 +82,13 @@ button, whihc is present on each document page.
 
     - On any documentation page, click 'Edit'
 
-    ![Click 'Edit'](img/on_page_click_edit.png)
+    ![Click 'Edit'](img/on_page_click_edit_with_border.png)
 
     > Click 'Edit'
 
     - In the next page, click 'Edit this file'
 
-    ![Click 'Edit this file'](img/edit_this_file.png)
+    ![Click 'Edit this file'](img/edit_this_file_with_border.png)
 
     > Click 'Edit this file'
 
@@ -96,7 +96,7 @@ button, whihc is present on each document page.
 
     - Click on the green 'Commit changes' button
 
-    ![Click on the green 'Commit changes' button](img/click_commit_changes.png)
+    ![Click on the green 'Commit changes' button](img/click_commit_changes_with_border.png)
 
     What follows depends on who you are:
 
