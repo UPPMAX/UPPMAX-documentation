@@ -186,10 +186,10 @@ Applying for a local project          |Here
 PUBA                                  |Here
 Services offered through UIT [1]      |Here
 Log in to each cluster                |Here
-General description of hardware       |SiteVision
+General description of hardware       |SiteVision ([Under discussion](https://github.com/UPPMAX/UPPMAX-documentation/issues/213))
 Detailed Hardware (e.g. how to access)|Here
 System usage                          |Link from both
-List of UPPMAX courses                |SiteVision
+List of UPPMAX courses                |SiteVision ([Under discussion](https://github.com/UPPMAX/UPPMAX-documentation/issues/214))
 Course pages                          |Here
 Course registrations                  |Investigate first
 Support                               |Keep things as they are
