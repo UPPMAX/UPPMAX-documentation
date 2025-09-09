@@ -76,7 +76,7 @@ Ideally, such a contribution also ..
   (e.g. use 4 spaces for indentation).
 
 Anyone with a GitHub account can suggest changes by clicking the 'Edit'
-button, whihc is present on each document page.
+button, which is present on each document page.
 
 ???- question "How to create an issue?"
 
