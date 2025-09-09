@@ -1,49 +1,96 @@
+---
+tags:
+  - contribute
+  - contributing
+  - help
+  - helping
+  - how to help
+  - how to contribute
+  - how to modify content
+  - how to add content
+  - how to suggest content
+---
+
 # Contributing
 
 Thanks for considering to contribute and reading this!
 
-Here we discuss how to contribute
+Here we discuss how to contribute.
 
-- [Spoken text](#spoken-text), e.g. ideas, feedback, messages, etc. and are written in English.
-- [Code](#code), e.g. textual changes where the text is formatted in Markdown
-- [Where to put files](#where-to-put-files)
-- [Which branch](#which-branch)
+What do you want to do                                   |How to do it
+---------------------------------------------------------|------------------------------------
+Sharing your wisdom in general terms                     |[Create an issue](#create-an-issue)
+Sharing your wisdom by adding content to an existing page|[Modifying content](#modify-content)
+Sharing your wisdom by adding content to a new page      |[Add new page](#modify-content)
+Sharing your wisdom by modifying content                 |[Modifying content](#modify-content)
+Report mistakes                                          |[Create an issue](#create-an-issue)
+Suggest improvements in general terms                    |[Create an issue](#create-an-issue)
+Suggest improvements by modifying content                |[Modifying content](#modify-content)
 
-## Spoken text
+See [the contribution questions](#contribution-questions) if you still have
+a question about contributing.
 
-Spoken text are ideas, feedback, messages, etc. and are written in English.
+## Create an issue
 
-For ideas or feedback, create an [Issue](https://github.com/UPPMAX/UPPMAX-documentation/issues).
-These Issues will be discussed in a meeting and/or below that Issue.
+Issues are 'things that need to be done', for example:
 
-Ideas that improve the experience of UPPMAX users trying to use our resources will likely be accepted.
+- ideas, e.g [Suggest: Improve WinSCP documentation](https://github.com/UPPMAX/UPPMAX-documentation/issues/129)
+- feedback, e.g [Log in: one page too many](https://github.com/UPPMAX/UPPMAX-documentation/issues/174)
+- messages, e.g [Chromium renders mermaid graphs incorrectly](https://github.com/UPPMAX/UPPMAX-documentation/issues/176)
 
-## Code
+Anyone with a GitHub account can create an [issue](https://github.com/UPPMAX/UPPMAX-documentation/issues).
 
-We welcome any contribution that:
+???- "How to create an issue?"
 
-- improves the experience of UPPMAX users trying to use our resources
-- follow all standards set by the continuous integration tools (e.g. use 4 spaces for indentation)
-- puts the files in reasonable folders (see [Where to put files?](#where-to-put-files) below)
+    - Log in to your GitHub account
+    - Go to [the issues](https://github.com/UPPMAX/UPPMAX-documentation/issues)
+    - Click on the green button 'Create issue'
+    
+    ![Click on 'Create issue'](img/create_issue.png)
 
-As an UPPMAX contributor, one can contribute by:
+    > Click on 'Create issue'
 
-1. Clone this repository
-1. Add a branch
-1. Work on your branch
-1. When done, create a Pull Request from your branch to `main`
-1. If the change is accepted after review it will be merged into the main branch
-1. Your branch will be deleted after merging
+    - Write a title and description
+    - At the bottom of the page, click the green button 'Create'
 
-As an external contributor, one can contribute by:
+    ![Click on 'Create'](create_issue_click_create.png)
 
-1. Fork this repository
-1. Modify your Fork
-1. When done, creating a Pull Request from your Fork to this repository,
-   merging to the `main` branch is fine :-)
-1. If the change is accepted after review it will be merged into the main branch
+    > Click on 'Create'
 
-## Where to put a new page: here or at <https://www.uu.se/en/centre/uppmax>?
+    Thanks!
+
+These issues will be discussed in a meeting and/or in the issue itself.
+
+Ideas that improve the experience of UPPMAX users trying to use our resources
+are likely to be accepted.
+
+## Modify content
+
+The goal of the UPPMAX documentation is to document how to use our resources.
+We welcome any contribution that helps us achieve this goal.
+
+Ideally, such a contribution also ..
+
+- follows all standards set by the continuous integration tools
+  (e.g. use 4 spaces for indentation).
+
+## Add new page
+
+The goal of the UPPMAX documentation is to document how to use our resources.
+We welcome any contribution that helps us achieve this goal.
+
+Ideally, such a contribution also ..
+
+- follows all standards set by the continuous integration tools
+  (e.g. use 4 spaces for indentation).
+- puts the files in reasonable folders
+  (see [Where to put files?](#where-to-put-files) below)
+
+If it does not, we'll fix it for you :+1:
+
+## Contribution questions
+
+### Where to put a new page: here or at <https://www.uu.se/en/centre/uppmax>?
 
 [It has been decided upon](https://github.com/UPPMAX/UPPMAX-documentation/issues/128)
 that, as a general rule,
@@ -74,7 +121,7 @@ Support                               |Keep things as they are
 
 - [1] If such a page is needed
 
-## Where to put files
+## Where to put files?
 
 All files are put in `docs` or `docs/[some_folder]`,
 but not not deeper than that.
@@ -106,6 +153,6 @@ Examples on general software use:
 - `software/gcc.md` (a collection of programs is software)
 - `software/gcc_compile_c.md` (same for all clusters)
 
-## Which branch
+## Which `git` branch should I use?
 
 Submitting to the main branch is fine! Thanks!
