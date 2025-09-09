@@ -13,6 +13,11 @@ tags:
 
 # Contributing
 
+???- question "Prefer a video?"
+
+    Watch the YouTube video
+    [How to contribute to the UPPMAX documentation](https://youtu.be/GTzWTFTgGCs)
+
 ???- question "Why contribute?"
 
     [This YouTube video](https://youtu.be/phwA28wESuM)
@@ -21,6 +26,7 @@ tags:
     - To (help show) we care about our **users**
     - To (help show) we care about **quality**
     - To (help show) yourself a good **team player**
+
 
 Thanks for considering to contribute and reading this!
 
