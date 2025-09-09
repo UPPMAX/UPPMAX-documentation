@@ -240,4 +240,4 @@ Examples on general software use:
 
 ## Which `git` branch should I use?
 
-Submitting to the main branch is fine! Thanks!
+Submitting to the main branch is fine. Thanks!
