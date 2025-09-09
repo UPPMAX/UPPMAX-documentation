@@ -13,6 +13,15 @@ tags:
 
 # Contributing
 
+???- question "Why contribute?"
+
+    [This YouTube video](https://youtu.be/phwA28wESuM)
+    gives some reason why you want to contribute:
+
+    - To (help show) we care about our **users**
+    - To (help show) we care about **quality**
+    - To (help show) yourself a good **team player**
+
 Thanks for considering to contribute and reading this!
 
 Here we discuss how to contribute.
