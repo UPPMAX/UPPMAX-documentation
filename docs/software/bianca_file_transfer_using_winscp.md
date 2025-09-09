@@ -17,7 +17,12 @@ You can also download the software from [WinSCP](https://winscp.net/eng/docs/gui
 
 WinSCP is a secure file transfer tool that works under Windows.
 
-To transfer files to/from [Bianca](../cluster_guides/bianca.md) using WinSCP, do the following steps:
+!!! note
+
+    - Now you shall just log in with user name, like ``sven`` and NOT with project name, like ``sven-sens2025999``
+    - All your project folders will all show up on the remote!
+
+To transfer files to/from [Bianca](../cluster_guides/bianca.md) using WinSCP, do the following steps
 
 ## Procedure
 
@@ -49,7 +54,7 @@ For that site, use all standards, except:
 - Set file protocol to 'SFTP'
 - Set host name to `bianca-sftp.uppmax.uu.se`
 - Set user name to `[username]`, e.g. `sven`
-- **Do not set password! Provide your UPPMAX password followed immediately by the UPPMAX 2FA  when asked by the interactive login.**
+- **Do not set password!
 
 ???- tip "How does that look like?"
 
@@ -61,7 +66,14 @@ For that site, use all standards, except:
 
 In WinSCP, click 'Connect'
 
-You will be asked for your password with two-factor identification, hence
-type `[your password][2FA code]`, e.g. `VerySecret123456`.
+You will be asked for your password with two-factor identification in two steps.
+
+First enter [your password], and in next window [2FA code]
+
+!!! note
+
+    - Now you shall just log in with user name, like ``nisse`` and NOT with project name, like ``nisse-sens2025999``
+    - All your project folders will all show up on the remote!
 
 Now you can transfer files between your local computer and [your `wharf` folder](../cluster_guides/wharf.md).
+
