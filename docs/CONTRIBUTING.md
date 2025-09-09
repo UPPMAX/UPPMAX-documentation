@@ -116,7 +116,7 @@ Ideally, such a contribution also ..
 - follows all standards set by the continuous integration tools
   (e.g. use 4 spaces for indentation).
 - puts the files in reasonable folders
-  (see [Where to put files?](#where-to-put-files) below)
+  (see [Where to put files?](#where-to-put-files-in-this-repository) below)
 
 If it does not, we'll fix it for you :+1:
 
