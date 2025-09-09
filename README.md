@@ -21,9 +21,9 @@ Branch name|Description
 `issue_x`  |A branch named after an Issue, does not spellcheck, does not deploy the website
 `gh-pages` |The GitHub Pages branch, maintained by GitHub Actions
 
-## [Contributing](CONTRIBUTING.md)
+## [Contributing](docs/CONTRIBUTING.md)
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
 ## Working on the documentation locally
 
