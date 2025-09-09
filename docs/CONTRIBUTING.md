@@ -95,6 +95,7 @@ button, which is present on each document page.
 
     > Click 'Edit'
 
+    - Log in to your GitHub account
     - In the next page, click 'Edit this file'
 
     ![Click 'Edit this file'](img/edit_this_file_with_border.png)
