@@ -151,7 +151,21 @@ If it does not, we'll fix it for you :+1:
 
 ## Contribution questions
 
-### Where to put a new page: here or at <https://www.uu.se/en/centre/uppmax>?
+## How long does it take until I see my changes on the website?
+
+When your changes are committed to our main branch,
+it takes several minutes until these are live.
+
+One can see the process at
+[the Actions page of this repository](https://github.com/UPPMAX/UPPMAX-documentation/actions).
+
+## What if I make a mistake?
+
+This repository has version control. Hence, if needed, we can undo any mistake.
+
+It is more typical that mistakes are fixed.
+
+## Where to put a new page: here or at <https://www.uu.se/en/centre/uppmax>?
 
 [It has been decided upon](https://github.com/UPPMAX/UPPMAX-documentation/issues/128)
 that, as a general rule,
@@ -182,7 +196,7 @@ Support                               |Keep things as they are
 
 - [1] If such a page is needed
 
-## Where to put files?
+## Where to put files in this repository?
 
 All files are put in `docs` or `docs/[some_folder]`,
 but not not deeper than that.
