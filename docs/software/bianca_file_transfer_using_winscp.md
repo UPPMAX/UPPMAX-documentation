@@ -54,7 +54,7 @@ For that site, use all standards, except:
 - Set file protocol to 'SFTP'
 - Set host name to `bianca-sftp.uppmax.uu.se`
 - Set user name to `[username]`, e.g. `sven`
-- **Do not set password!
+- **Do not set password here!**
 
 ???- tip "How does that look like?"
 
