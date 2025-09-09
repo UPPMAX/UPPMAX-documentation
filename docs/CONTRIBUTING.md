@@ -120,6 +120,35 @@ Ideally, such a contribution also ..
 
 If it does not, we'll fix it for you :+1:
 
+???- question "How to add a new page?"
+
+    - Go to the GitHub repository behind the UPPMAX documentation webpage,
+      by clicking on the word 'GitHub'
+
+    ![Click on the word 'GitHub'](img/click_on_github_with_border.png)
+
+    > Click on the word 'GitHub'
+
+    - In GitHub repository, navigate to the folder you want to add a file,
+      by clicking on the folders' names
+
+    - On any documentation page, click 'Add new file'
+
+    ![Click 'Edit'](img/add_new_file_with_border.png)
+
+    - Specify a name for the file and write is content in Markdown
+    - Click on the green 'Commit changes' button
+
+    ![Click on the green 'Commit changes' button](img/click_commit_changes_with_border.png)
+
+    What follows depends on who you are:
+
+    - If you are not UPPMAX staff, you will be asked to create a fork
+      and create a pull request. Whatever this is, yes, do that :+1: .
+      After that, the UPPMAX staff will take a look at your suggestion
+    - If you are UPPMAX staff, your changes are directly added.
+      It takes several minutes until this is visible on the website.
+
 ## Contribution questions
 
 ### Where to put a new page: here or at <https://www.uu.se/en/centre/uppmax>?
