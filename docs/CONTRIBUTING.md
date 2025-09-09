@@ -41,7 +41,7 @@ Issues are 'things that need to be done', for example:
 
 Anyone with a GitHub account can create an [issue](https://github.com/UPPMAX/UPPMAX-documentation/issues).
 
-???- "How to create an issue?"
+???- question "How to create an issue?"
 
     - Log in to your GitHub account
     - Go to [the issues](https://github.com/UPPMAX/UPPMAX-documentation/issues)
@@ -54,7 +54,7 @@ Anyone with a GitHub account can create an [issue](https://github.com/UPPMAX/UPP
     - Write a title and description
     - At the bottom of the page, click the green button 'Create'
 
-    ![Click on 'Create'](create_issue_click_create.png)
+    ![Click on 'Create'](img/create_issue_click_create.png)
 
     > Click on 'Create'
 
@@ -74,6 +74,37 @@ Ideally, such a contribution also ..
 
 - follows all standards set by the continuous integration tools
   (e.g. use 4 spaces for indentation).
+
+Anyone with a GitHub account can suggest changes by clicking the 'Edit'
+button, whihc is present on each document page.
+
+???- question "How to create an issue?"
+
+    - On any documentation page, click 'Edit'
+
+    ![Click 'Edit'](img/on_page_click_edit.png)
+
+    > Click 'Edit'
+
+    - In the next page, click 'Edit this file'
+
+    ![Click 'Edit this file'](img/edit_this_file.png)
+
+    > Click 'Edit this file'
+
+    - Modify the Markdown file
+
+    - Click on the green 'Commit changes' button
+
+    ![Click on the green 'Commit changes' button](img/click_commit_changes.png)
+
+    What follows depends on who you are:
+
+    - If you are not UPPMAX staff, you will be asked to create a fork
+      and create a pull request. Whatever this is, yes, do that :+1: .
+      After that, the UPPMAX staff will take a look at your suggestion
+    - If you are UPPMAX staff, your changes are directly added.
+      It takes several minutes until this is visible on the website.
 
 ## Add new page
 
