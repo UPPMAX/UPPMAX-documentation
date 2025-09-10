@@ -20,7 +20,17 @@ by UPPMAX after [applying to a Pelle project](../getting_started/project_apply_p
 Non-Uppsala users of [Rackham](rackham.md) can move their data to
 Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_migration.md).
 
-!!! warning "What is the status of Pelle?"
+???- question "Why use Pelle over another NAISS system?"
+
+    Here is a table of why you want to use Pelle over another NAISS
+    HPC cluster.
+
+    Parameter|Tetralith|Pelle
+    Max job time|10 days|Longer
+
+
+
+???- question "What is the status of Pelle?"
 
     See [the Pelle status page](https://status.uppmax.uu.se/2025-04-09/pelle/)
 
