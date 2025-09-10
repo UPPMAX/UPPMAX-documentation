@@ -31,7 +31,7 @@ IDE                                           |Languages
 ----------------------------------------------|----------------
 [Jupyter](../software/jupyter.md)             |Python
 :construction: RStudio                        |R
-:no_entry: VSCode                             |General-purpose
+VSCode                                        |General-purpose
 :no_entry: VSCodium                           |General-purpose
 
 > IDEs on Pelle.
