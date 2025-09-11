@@ -25,7 +25,7 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 
 **Login help session:** No
 
-[Registration form](https://forms.gle/MFeu7ogos1goYL7w6) closing Wednesday 10 Sep at 16.00
+[Registration form](https://forms.gle/MFeu7ogos1goYL7w6) Registration still possible only if you already have a Bianca account.
 
 - Coordinator: Björn Claremar
 
