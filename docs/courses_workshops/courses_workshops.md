@@ -18,10 +18,6 @@ Course dates are (or should be) provided at each course's website.
 
 ## Upcoming courses administered by UPPMAX
 
-### August
-
-[Awk workshop <br> _Aug 28-29_](https://docs.uppmax.uu.se/courses_workshops/awk/){ .md-button .md-button--primary }
-
 ### September
 
 [Log in and transfer files to/from HPC Clusters <br> _Sep 5_](naiss_transfer.md){ .md-button .md-button--primary }
