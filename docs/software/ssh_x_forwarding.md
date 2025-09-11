@@ -27,8 +27,14 @@ It is the `-X` that allows [ssh](ssh.md) to show graphics.
 
 ???- question "How can I verify I allow X forwarding?"
 
-    Using [`xyes`](xeyes.md).
+    By running a simple program:
 
+    Cluster|Program name         |UPPMAX documentation
+    -------|---------------------|---------------------
+    Bianca |[`xeyes`](xeyes.md)  |[`xeyes`](xeyes.md)
+    Pelle  |[`xclock`](xclock.md)|[`xclock`](xclock.md)
+    Rackham|[`xeyes`](xeyes.md)  |[`xeyes`](xeyes.md)
+    Snowy  |[`xeyes`](xeyes.md)  |[`xeyes`](xeyes.md)
 
 ## UPPMAX clusters that allow SSH with X forwarding
 
