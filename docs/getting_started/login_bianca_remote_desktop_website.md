@@ -28,8 +28,8 @@ using a remote desktop that is accessible from a webbrowser.
 
 ???- question "Prefer a video?"
 
-    See this page explained in
-    [a YouTube video here](https://youtu.be/UpNI5OUlIo8)
+    This page is explained in the YouTube video
+    [Log in to the Bianca remote desktop environment website](https://youtu.be/UpNI5OUlIo8)
 
 
 ### 1. [Get inside SUNET](../getting_started/get_inside_sunet.md)
@@ -109,12 +109,15 @@ Simply do that :-)
 
 ???- question "How does that web page look like?"
 
-    ![No c Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
+    ![No ThinLinc Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
 
-    > No c Web Access active
-    > The login node for your project cluster is probably asleep. Boot initiated. The startup can take from 2 to 8 minutes.
+    > No ThinLinc Web Access active
+    > The login node for your project cluster is probably asleep.
+    > Boot initiated. The startup can take from 2 to 8 minutes.
     >
-    > This page will attempt to automatically reload. If nothing happens even after multiple minutes, you can do so manually. It is a bit more controlled in text mode.
+    > This page will attempt to automatically reload.
+    > If nothing happens even after multiple minutes, you can do so manually.
+    > It is a bit more controlled in text mode.
     >
     > When this takes long, your original second factor code might expire. In that scenario, you'll be redirected to the first login page again.
 
@@ -204,9 +207,6 @@ flowchart TD
         bianca_shared_remote_desktop[Bianca remote desktop login]
         subgraph sub_bianca_private_env[The project's private virtual project cluster]
           bianca_private_remote_desktop[Bianca remote desktop]
-
-          %% Ensure the innermost square gets big enough
-          END:::hidden
         end
       end
     end
