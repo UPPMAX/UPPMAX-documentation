@@ -29,7 +29,6 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
     Max job time|10 days|Longer
 
 
-
 ???- question "What is the status of Pelle?"
 
     See [the Pelle status page](https://status.uppmax.uu.se/2025-04-09/pelle/)
