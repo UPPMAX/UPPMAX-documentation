@@ -36,8 +36,6 @@ Please join us if you need assistance logging in to Dardel or migrating your dat
     To facilitate this move,
     we have created a tool that makes the transfer easier.
 
-    [More details of Rackham end of life here](https://www.uu.se/centrum/uppmax/nyheter/nyheter/2024-02-16-rackham-end-of-life).
-
 ## Short version
 
 The really short description is:
