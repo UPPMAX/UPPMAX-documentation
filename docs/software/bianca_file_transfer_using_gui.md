@@ -119,8 +119,7 @@ that supports SFTP.
 
 Whatever tool one picks, additionally, the tool must **not** store a password.
 Due to security reasons, one needs to connect to Bianca using a password
-**and** a two-factor authentication number (e.g. `VerySecret123456`).
-If a tool stores a password, that password will be valid for only one session.
+**and** a two-factor authentication number.
 
 One tool that can be used for file transfer to Bianca
 is FileZilla, which is described in detail below.
