@@ -82,7 +82,9 @@ ssh-copy-id -i .ssh/id_ed25519_nsc_login.pub [username]@tetralith.nsc.liu.se
 - `-i .ssh/id_ed25519_nsc_login.pub`: the identity file, the public key's filename
 - `[username]@tetralith.nsc.liu.se`: your UPPMAX username, for example `x_svesv@tetralith.nsc.liu.se`
 
-After this, you can login to Tetralith without specifying a password
+After this, you can login to Tetralith without specifying a password.
+
+You will still be asked a TOTP ('Verification code'). Use the 2FA for NSC Tetralith for this :+1:
 
 ## Troubleshooting
 
