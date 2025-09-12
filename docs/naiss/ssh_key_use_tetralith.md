@@ -22,6 +22,7 @@ tags:
 This page describes [how to create and use an SSH key](../software/ssh_key_use.md)
 so that you can
 login to the Tetralith console environment with an SSH key.
+
 ## Procedure
 
 ???- question "Prefer a video?"
