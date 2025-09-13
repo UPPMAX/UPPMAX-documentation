@@ -31,7 +31,7 @@ The workflow is like this:
 
 ## SUPR account
 
-- [Register at SUPR](supr_register.md)
+- [Register in SUPR](supr_register.md)
 - [Accept the user agreement in SUPR](supr_register.md#accept-the-user-agreement)
 
 ## Applying for an UPPMAX project (PI)
