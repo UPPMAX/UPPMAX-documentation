@@ -23,6 +23,7 @@ Tool                                                |Description
 ----------------------------------------------------|---------------------
 [FileZilla](bianca_file_transfer_using_filezilla.md)|All operating systems
 [WinSCP](bianca_file_transfer_using_winscp.md)      |Windows-only
+Cyberduck                                           |Mac-only
 
 When using such a graphical tool,
 one needs [to be inside of SUNET](../getting_started/get_inside_sunet.md).
