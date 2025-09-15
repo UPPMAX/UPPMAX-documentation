@@ -124,9 +124,6 @@ Now you can transfer files between your local computer and your [`wharf` folder]
 
     > FileZilla is ready to transfer files
 
-NOTE: Filezilla will ask for your password and two-factor for each file you transfer. To avoid that, go to
-Site Manager > Transfer Settings > Limit number of simultaneous connections to 1.
-
 ## Troubleshooting
 
 ## Access denied
