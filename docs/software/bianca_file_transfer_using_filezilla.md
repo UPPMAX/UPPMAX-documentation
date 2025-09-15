@@ -78,7 +78,29 @@ In the 'New Site' dialog, make the following changes:
   <!-- until September 2025, this was to be set to `Ask for Password` -->
 - Set 'user' to your UPPMAX username, e.g. `sven`
 
-## 7. Click 'Connect'
+## 7. Limit the number of simultaneous connections
+
+In the dialog of the Bianca site, click on 'Transfer Settings'
+and check 'Limit the number of simultaneous connections' to one.
+
+???- question "Where is that?"
+
+    It is here:
+
+    ![Limit the number of simultaneous connections' to one](img/filezilla_transfer_settings.png)
+
+    > click on 'Transfer Settings' and check 'Limit the number of simultaneous
+    > connections' to one.
+
+???- question "Why is this important?"
+
+    If you transfer multiple files and allow multiple simultaneous connections,
+    FileZilla will ask you for a password per connection.
+
+    Maybe you prefer to only type your password only once :-)
+
+
+## 8. Click 'Connect'
 
 In FileZilla, click 'Connect'
 
