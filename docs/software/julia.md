@@ -15,7 +15,7 @@ Julia is according to <https://julialang.org/>:
 
 [Julia discussions](https://discourse.julialang.org/)
 
-[NAISS Julia workshop](https://uppmax.github.io/R-matlab-julia-HPC/julia/introJulia.html)
+[NAISS Julia workshop](https://uppmax.github.io/R-matlab-julia-HPC/julia/intro/)
 
 ## Julia installations
 

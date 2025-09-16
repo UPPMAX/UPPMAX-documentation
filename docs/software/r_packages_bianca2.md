@@ -1,6 +1,6 @@
 # Installing R packages on Bianca
 
-[R in NAISS course](https://uppmax.github.io/R-matlab-julia-HPC/r/packagesR.html)
+[R in NAISS course](https://uppmax.github.io/R-matlab-julia-HPC/r/packages/)
 
 ## What is a package, really?
 

@@ -320,7 +320,7 @@ Aalto Scientific Computing:
 
 ## Overview of NAISS centers and their documentation about R
 
-- [C3SE](https://www.c3se.chalmers.se/documentation/software/frequently_used/r/)
+- [C3SE](https://www.c3se.chalmers.se/documentation/software/development/r/)
 - [HPC2N](https://www.hpc2n.umu.se/resources/software/r)
 - [LUNARC](https://lunarc-documentation.readthedocs.io/en/latest/guides/applications/Rscript/)
 - [NSC](https://ipv4.www.nsc.liu.se/software/catalogue/tetralith/modules/r.html)
