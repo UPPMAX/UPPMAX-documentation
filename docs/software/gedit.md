@@ -1,3 +1,10 @@
+---
+tags:
+  - text
+  - editor
+  - gedit
+---
+
 # gedit
 
 There are many [text editors](text_editors.md)

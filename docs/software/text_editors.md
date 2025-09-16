@@ -62,6 +62,10 @@ See the [SSH X forwarding page](../software/ssh_x_forwarding.md) how to do so.
 
 See [gedit](gedit.md)
 
+### [nedit](nedit.md)
+
+See [nedit](nedit.md)
+
 ## Advanced graphical editors
 
 ### gvim
