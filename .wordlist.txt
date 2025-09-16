@@ -206,6 +206,8 @@ slurm
 SNIC
 Snowy's
 stdout
+Cyberduck
+nedit
 subdirectories
 SUNET
 Supercomputing
