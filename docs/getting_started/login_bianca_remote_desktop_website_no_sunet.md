@@ -24,18 +24,14 @@ If you cannot use VPN this may be the solution for you.
 
 ## Procedure
 
-From the terminal, connect to Rackham with ssh and forward local connection from you computer to Bianca web interface.
+From the terminal, connect to Pelle with ``ssh`` and forward local connection from you computer to Bianca web interface.
 
 ```bash
-ssh -L 8443:bianca:443 sven@rackham.uppmax.uu.se
+ssh -L 8443:bianca:443 sven@pelle.uppmax.uu.se
 ```
 
-In your browser, enter the following web address [https://localhost:8443](https://localhost:8443)
 
-The first time you connect to the address you will get "__Privacy error__" warning. The browser cannot match the server certificate to the address and considers it as a dangerous web site.
+In your browser, enter the following web address [https://bianca-localhost.uppmax.uu.se](https://bianca-localhost.uppmax.uu.se)
+Do not forget ``https://``
 
-![Privacy error](./img/bianca-local-1.png)
-
-You have to ignore the warning, select advanced (Chrome browsers) and continue further. Done.
-
-![Bianca with local port forward](./img/bianca-local-2.png)
+![Bianca with local port forward](./img/thinlinc_jump_bianca.png)
