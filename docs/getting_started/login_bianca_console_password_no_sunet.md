@@ -61,5 +61,3 @@ Provide your normal UPPMAX password. You will supply the TOTP code separately, i
 ```
 
 - You are now inside the Bianca session and sensitive data is not seen by Tetralith (or the server you use) at all.
-
-
