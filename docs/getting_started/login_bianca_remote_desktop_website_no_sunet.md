@@ -30,8 +30,8 @@ From the terminal, connect to Pelle with ``ssh`` and forward local connection fr
 ssh -L 8443:bianca:443 sven@pelle.uppmax.uu.se
 ```
 
-
-In your browser, enter the following web address [https://bianca-localhost.uppmax.uu.se](https://bianca-localhost.uppmax.uu.se)
-Do not forget ``https://``
+- In your browser, enter the following web address [https://bianca-localhost.uppmax.uu.se](https://bianca-localhost.uppmax.uu.se)
+    - Do not forget ``https://``
+- You may need to add ``:8443`` so: [https://bianca-localhost.uppmax.uu.se:8443](https://bianca-localhost.uppmax.uu.se:8443)
 
 ![Bianca with local port forward](./img/thinlinc_jump_bianca.png)
