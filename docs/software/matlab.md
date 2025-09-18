@@ -2,7 +2,7 @@
 
 ## The MATLAB [module](../cluster_guides/modules.md)
 
-MATLAB can be started only if you load the MATLAB module first. Most of available official toolboxes are also available. 
+MATLAB can be started only if you load the MATLAB module first. Most of available official toolboxes are also available.
 
 - To load a matlab module differs a bit between the clusters.
 
