@@ -2,32 +2,67 @@
 
 ## The MATLAB [module](../cluster_guides/modules.md)
 
-MATLAB can be started only if you load the matlab module first. Most of available official toolboxes are also available. At the time of this writing, our most recent installation is: ``matlab/R2023b``
+MATLAB can be started only if you load the MATLAB module first. Most of available official toolboxes are also available. 
 
-Doing:
+- To load a matlab module differs a bit between the clusters.
 
-```console
-module load matlab
-```
+=== "Pelle"
 
-will give you the latest version.
+    At the time of this writing, our most recent installation is: `MATLAB/R2024a``
 
-If you need a different version, check the availability by:
+    Doing:
 
-```console
-module avail matlab
-```
+    ```console
+    module load MATLAB
+    ```
 
-To get started with MATLAB do (for instance):
+    will give you the latest version.
 
-```console
-module load matlab/R2023a
-matlab &
-```
+    If you need a different version, check the availability by:
 
-That will start a matlab session with the common GUI. Use ``&`` to have MATLAB in background making terminal still active for other work.
+    ```console
+    module avail matlab
+    ```
 
-A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
+    To get started with MATLAB do (for instance):
+
+    ```console
+    module load MATLAB/2023b-update4
+    matlab &
+    ```
+    
+    That will start a matlab session with the common GUI. Use ``&`` to have MATLAB in background making terminal still active for other work.
+
+    A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
+
+=== "Bianca/Rackham"
+
+    At the time of this writing, our most recent installation is: ``matlab/R2023b``
+
+    Doing:
+
+    ```console
+    module load matlab
+    ```
+
+    will give you the latest version.
+
+    If you need a different version, check the availability by:
+
+    ```console
+    module avail matlab
+    ```
+
+    To get started with MATLAB do (for instance):
+
+    ```console
+    module load matlab/R2023a
+    matlab &
+    ```
+    
+    That will start a matlab session with the common GUI. Use ``&`` to have MATLAB in background making terminal still active for other work.
+
+    A good and important suggestion is that you always specify a certain version. This is to be able to reproduce your work, a very important key in research!
 
 ## Introduction
 
