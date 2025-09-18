@@ -10,10 +10,6 @@ tags:
 
 # Log in to Pelle's remote desktop via a webbrowser
 
-!!! warning "This does not work yet"
-
-    This does not work yet.
-
 There are multiple ways to [log in to Pelle](login_pelle.md).
 This page describes how to log in to its remote desktop environment
 via a web browser.
