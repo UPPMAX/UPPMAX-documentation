@@ -152,9 +152,15 @@ matlab -h
 
 You may get the best of the MATLAB graphics by running it the ThinLinc environment.
 
-- For rackham (in [ThinLinc app](https://www.cendio.com/thinlinc/download/)): ``rackham-gui.uppmax.uu.se``
+- For Pelle (in [ThinLinc app](https://www.cendio.com/thinlinc/download/)): ``pelle-gui.uppmax.uu.se``
+
+- For Pelle (from web-browser): <https://pelle-gui.uppmax.uu.se>
 
 - For Bianca (from web-browser): <https://bianca.uppmax.uu.se>
+
+- For Rackham (in [ThinLinc app](https://www.cendio.com/thinlinc/download/)): ``rackham-gui.uppmax.uu.se``
+
+- For Rackham (from web-browser): <https://rackham-gui.uppmax.uu.se>
 
 You may want to confer our UPPMAX [ThinLinc user guide](../software/thinlinc.md).
 
