@@ -147,7 +147,7 @@ Pelle has two fat nodes. One with 2 TiB of memory and one with 3 TiB.
 - To allocate 3 TB: ``-p fat -C 3TB``
 
     - Example: ``interactive -A staff -t 1:0:0 -p fat -C 3TB``
- 
+
 ### The ``gpu`` partition
 
 With the ``gpu`` partition you reach the nodes with GPUs.
