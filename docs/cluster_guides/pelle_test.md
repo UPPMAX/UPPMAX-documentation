@@ -173,6 +173,20 @@ When doing this you should launch your tasks using `srun` to ensure
 your processes gets pinned to the correct CPUs (threads), one per
 core.
 
+### per-job scratch directories
+Each job get job-specific private temporary directories on the compute
+nodes. This means that directories like `/tmp`, `/scratch`, `/dev/shm`
+start empty for each job. This is implemented using Slurm's
+`job_container/tmpfs` plugin.
+
+To get the path for node local scratch in job scripts you should still
+use the variable `$TMPDIR` or the equivalent `$SNIC_PATH`.
+
+### /dev/shm size
+The size of /dev/shm have been increased so all allocated memory can
+be used, up to max 99% of a compute nodes total memory. On previous
+clusters the limit was 50% of total memory.
+
 ## Other changes
 
 ### per-user temporary directories on login nodes
