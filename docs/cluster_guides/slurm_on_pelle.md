@@ -13,6 +13,17 @@ This page describes how to use Slurm on Pelle.
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
 
+???- note "Newer Slurm"
+
+    - Slurm on Pelle have been upgraded to version 25.05.
+
+    - Several UPPMAX-specific Slurm changes from previous clusters have been removed, to make the config use more Slurm defaults. This makes the system easier to maintain and will behave more similar to clusters at other sites. Unfortunately this means that some extra changes to job scripts can be needed when moving from Rackham/Snowy.
+
+!!! warning
+
+    - To prevent jobs occupying nodes for too long during the test period we have reduced the max timelimit for jobs to 48 hours.
+    - This is only during the pilot test period, after this the allowed time limit will be increased.
+
 ## `sbatch` (and `interactive`) on Pelle
 
 `sbatch` (and `interactive`) work the same as on the other clusters,
@@ -42,6 +53,25 @@ Partition name|Description
 The `pelle` partition is default so you can omit specifying ``-p`` or ``--partition``
 
 Its allocates an ordinary CPU node (allows one to use one or more cores, up to 96 cores).
+
+!!! info
+
+    The compute node CPUs have Simultaneous multithreading (SMT) enabled. Each CPU core runs two Threads. In Slurm the Threads are
+referred to as CPUs. Learn more here about SMT](slurm_on_pelle.md#SMT)
+
+#### Architecture
+
+No of nodes     | CPUs                              | Cores<br/>Threads |  Memory     | Scratch | GPUs           | Name
+--------------- | --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
+115             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48<br/>96         | **768 GiB** | 1.7 TB  | N/A            | p[1-115]
+
+!!! note "Much more cores per node compared to Rackham"
+
+    - You can now have 96 parallel processes per node!
+    - :warning: Even more important that you not by mistake allocate a full node when needing just a part of it.
+    - A full node is 768 GB, compared to 128 GB on Rackham. That means less need for a "fat" partition allocation.
+
+#### Examples with core jobs
 
 Here is the minimal use for one core:
 
@@ -82,10 +112,33 @@ Here, two cores are used.
 This is especially important if you might adjust core usage
 of the job to be something less than a full node.
 
+- One task, using two threads: ``--ntasks=1 --cpus-per-task=2``
+- Two tasks, using one thread each: ``--ntasks=2 --cpus-per-task=1``
+
+
+#### Examples with node jobs
+
+- On Rackham you have used ``-p node`` or ``-p core`` to specify node/core jobs.
+- This is not used on Pelle. Instead Slurm's standard options is used to specify the job requirements.
+
+- Example to request 2 full nodes: ``--nodes=2 --exclusive``
+
+#### Job memory specification
+
+- Currently you do not have to request additional CPUs to get additional memory.
+- You can use all Slurm options
+    - ``--mem``
+    - ``--mem-per-cpu``
+
 ### The `fat` partition
 
 With the ``fat`` partition you reach compute nodes with more memory.
-There are at the moment just one 2 TB node and one 3 TB node.
+
+Pelle has two fat nodes. One with 2 TiB of memory and one with 3 TiB.
+
+!!! note
+
+    Jobs on these nodes always allocate the entire node with all cores.
 
 - To allocate 2 TB: ``-p fat -C 2TB``
 
@@ -94,7 +147,7 @@ There are at the moment just one 2 TB node and one 3 TB node.
 - To allocate 3 TB: ``-p fat -C 3TB``
 
     - Example: ``interactive -A staff -t 1:0:0 -p fat -C 3TB``
-
+ 
 ### The ``gpu`` partition
 
 With the ``gpu`` partition you reach the nodes with GPUs.
@@ -115,6 +168,12 @@ Therefore, at first hand, allocate the default ``L40s`` and one of them
 
     - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1`
     - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3` will fail because there are just 2 GPUs on one node!
+
+- Currently you do not have to request additional CPUs to get additional memory.
+- You can use all Slurm options
+    - ``--mem``
+    - ``--mem-per-cpu``
+    - ``--mem-per-gpu`` to specify memory requirements.
 
 ## `sbatch` a script with command-line Slurm parameters
 
@@ -206,5 +265,38 @@ A full example script would be:
 #SBATCH -A uppmax2023-2-25
 echo "Hello"
 ```
+
+### SMT
+
+The compute node CPUs have Simultaneous multithreading (SMT)
+enabled. Each CPU core runs two Threads. In Slurm the Threads are
+referred to as CPUs.
+
+Different jobs are never allocated to the same CPU core. The smallest
+possible job always gets one Core with two Threads (CPUs).
+
+Jobs requesting multiple tasks or cpus gets threads by default.
+
+Some examples:
+
+- `--ntasks=2` - one core, two threads
+- `--ntasks=1 --cpus-per-task=4` - two cores, four threads
+- `--ntasks=2 --cpus-per-task=3` - three cores, six threads.
+
+#### One thread per core to avoid SMT
+
+If you suspect SMT degrades the performance of your jobs, you can you
+can specify `--threads-per-core=1` in your job.
+
+Same examples as before but with `--threads-per-core=1`:
+
+- `--ntasks=2 --threads-per-core=1` - two cores, (4 threads, 2 used)
+- `--ntasks=1 --cpus-per-task=4 --threads-per-core=1` - 4 cores (8 threads, 4 unused)
+- `--ntasks=2 --cpus-per-task=3 --threads-per-core=1` - 6 cores (12 threads, 6 unused)
+
+When doing this you should launch your tasks using `srun` to ensure
+your processes gets pinned to the correct CPUs (threads), one per
+core.
+
 
 Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).
