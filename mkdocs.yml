@@ -10,8 +10,9 @@ nav:
     - Applying for a Project: getting_started/project_apply.md
     - Accessing UPPMAX:
       - Get inside the university networks: getting_started/get_inside_sunet.md
-      - Log in to Rackham: getting_started/login_rackham.md
+      - Log in to Pelle: getting_started/login_pelle.md
       - Log in to Bianca: getting_started/login_bianca.md
+      - Log in to Rackham: getting_started/login_rackham.md
       - Log in to Snowy: getting_started/login_snowy.md
       - Log in to Dardel (at PDC): getting_started/login_dardel.md
     - Linux tutorials:
