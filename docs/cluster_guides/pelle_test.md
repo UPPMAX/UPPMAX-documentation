@@ -225,13 +225,3 @@ Apptainer on Pelle is missing configuration to bind file systems like
 project directories, and node local scratch into the running
 container. We will fix the configuration, but until then you can use
 the `--bind` option manually.
-
-### Missing projects [FIXED]
-
-**FIXED** - All uppmax2025 projects with a Pelle allocation is now
-available for use.
-
-~~Only the test pilot project (uppmax2025-2-325) have been enabled on
-the cluster. Other uppmax2025-projects cannot be used to run jobs yet.~~
-
-~~Use the test pilot project for your test pilot jobs.~~
