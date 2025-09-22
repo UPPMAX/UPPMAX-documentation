@@ -14,14 +14,10 @@ tags:
 
 ## Introduction
 
-RStudio is an IDE specialized for the R programming language.
+[RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
+specialized for the [R](../software/r.md) programming language.
 
-???- tip "What is an IDE?"
-
-    See [the page on IDEs](../software/ides.md).
-
-In this session, we show how to use RStudio on Tetralith,
-using Tetralith's remote desktop environment.
+In this session, we show how to use RStudio on Tetralith.
 
 As RStudio is a resource-heavy program,
 it must be run on an interactive session.
@@ -34,11 +30,11 @@ Below is a step-by-step procedure to start RStudio on Tetralith.
 
     This procedure is also demonstrated in `TODO`.
 
-### 1. Start a Tetralith remote desktop environment
+## 1. Start a Tetralith remote desktop environment
 
 ...
 
-### 2. Start an interactive session
+## 2. Start an interactive session
 
 Within the Tetralith remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, start an interactive session with 2 cores:
@@ -64,7 +60,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
     Due to this, we recommend using at least two cores
     for a more pleasant user experience.
 
-### 3. Load the modules needed
+## 3. Load the modules needed
 
 In the terminal of the interactive session, do:
 
@@ -93,7 +89,7 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
     ```
 
-### 4. Start RStudio
+## 4. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the
 interactive session):

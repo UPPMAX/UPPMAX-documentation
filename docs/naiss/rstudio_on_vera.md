@@ -1,14 +1,14 @@
 ---
 tags:
   - RStudio
-  - Kebnekaise
+  - Vera
 ---
 
-# RStudio on Kebnekaise
+# RStudio on Vera
 
 ???- question "Why is this page at UPPMAX?"
 
-    It is the intention that this guide is moved to the HPC2N documentation.
+    It is the intention that this guide is moved to the C3SE documentation.
     However, it has not been suggested to be added to their documentaton
     yet.
 
@@ -17,26 +17,26 @@ tags:
 [RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
 specialized for the [R](../software/r.md) programming language.
 
-In this session, we show how to use RStudio on Kebnekaise.
+In this session, we show how to use RStudio on Vera.
 
 As RStudio is a resource-heavy program,
 it must be run on an interactive session.
 
 ## Procedure to start RStudio
 
-Below is a step-by-step procedure to start RStudio on Kebnekaise.
+Below is a step-by-step procedure to start RStudio on Vera.
 
 ??? question "Prefer a video?"
 
     This procedure is also demonstrated in `TODO`.
 
-## 1. Start a Kebnekaise remote desktop environment
+## 1. Start a Vera remote desktop environment
 
 ...
 
 ## 2. Start an interactive session
 
-Within the Kebnekaise remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Vera remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, start an interactive session with 2 cores:
 
 ```bash
