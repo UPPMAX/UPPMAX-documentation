@@ -39,9 +39,11 @@ On the remote desktop, go to the top-left menu
 and click 'Applications - R | RStudio 2024.04.2'
 to start the job launcher.
 
-![Click 'Applications - R | RStudio 2024.04.2'](rstudio_on_cosmos_1.png)
+???- tip "How does that look like?"
 
-> Click 'Applications - R | RStudio 2024.04.2'
+    ![Click 'Applications - R | RStudio 2024.04.2'](rstudio_on_cosmos_1.png)
+
+    > Click 'Applications - R | RStudio 2024.04.2'
 
 ???- tip "What are the other RStudio versions?"
 
@@ -56,9 +58,11 @@ to start the job launcher.
 
 In the job launcher, click 'Start'
 
-![Click 'Start'](rstudio_on_cosmos_2.png)
+???- tip "How does that look like?"
 
-> Click 'Start'
+    ![Click 'Start'](rstudio_on_cosmos_2.png)
+
+    > Click 'Start'
 
 ???- tip "What are all those other options?"
 
@@ -68,9 +72,11 @@ In the job launcher, click 'Start'
 
 In RStudio, when asked to update, click 'Ignore update'.
 
-![Click 'Ignore update'](rstudio_on_cosmos_3.png)
+???- tip "How does that look like?"
 
-> Click 'Ignore update'
+    ![Click 'Ignore update'](rstudio_on_cosmos_3.png)
+
+    > Click 'Ignore update'
 
 ## 5. Done
 
