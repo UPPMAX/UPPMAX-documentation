@@ -12,6 +12,8 @@ tags:
     However, it has not been suggested to be added to their documentaton
     yet.
 
+![RStudio on Tetralith](rstudio_on_tetralith_8.png)
+
 ## Introduction
 
 [RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
@@ -32,11 +34,13 @@ Below is a step-by-step procedure to start RStudio on Tetralith.
 
 ## 1. Start a Tetralith remote desktop environment
 
-...
+Follow [the NSC documentation](https://www.nsc.liu.se/support/graphics/)
+to login to the Tetralith remote desktop environment.
 
 ## 2. Start an interactive session
 
 Within the Tetralith remote desktop environment, start a [terminal](../software/terminal.md).
+
 Within that terminal, start an interactive session with 2 cores:
 
 ```bash
@@ -48,46 +52,51 @@ Where:
 - `[naiss_project_id]` is your [UPPMAX project code](../getting_started/project.md)
 - `[duration]` is the duration of the interactive session
 
-Resulting in, For example:
+Resulting in, for example:
 
 ```bash
 interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 ```
 
-!!!- info "Why two cores?"
+???- question "How does that look like?"
+
+    ![Click on 'Terminal Emulator'](rstudio_on_tetralith_1.png)
+
+    > Click on 'Terminal Emulator' to start a terminal
+
+    ![Paste the command into the terminal](rstudio_on_tetralith_2.png)
+
+    > Paste the command into the terminal
+
+???- question "Why two cores?"
 
     RStudio is a resource-heavy program.
     Due to this, we recommend using at least two cores
     for a more pleasant user experience.
+
+You will now be on a compute node,
+as indicated by the terminal prompt.
+
+???- question "How does that look like?"
+
+    ![The prompt shows n132](rstudio_on_tetralith_3.png)
+  
+    The prompt indicates being on `n132`,
+    which is a Tetralith compute node.
 
 ## 3. Load the modules needed
 
 In the terminal of the interactive session, do:
 
 ```bash
-# Something like this
-module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
+module load R/4.4.0-hpc1-gcc-11.3.0-bare RStudio/2023.09.1+494
 ```
 
 ???- question "How does that look like?"
 
-    Your output will be similar to:
+    ![The terminal after loading the RStudio module](rstudio_on_tetralith_3.png)
 
-    ```bash
-    [sven@r210 sven]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
-    R/4.3.1: Nearly all CRAN and BioConductor packages are installed and available by loading
-    the module R_packages/4.3.1
-    R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might
-    R_packages/4.3.1: require you to load additional modules prior to use. monocle3 is such a package. See
-    R_packages/4.3.1: 'module help R_packages/4.3.1'
-
-    R_packages/4.3.1: The RStudio packages pane is disabled when loading this module, due to RStudio slowdowns
-    R_packages/4.3.1: because there are >20000 available packages. *All packages are still available.*  For
-    R_packages/4.3.1: more information and instructions to re-enable the packages pane (not recommended) see
-    R_packages/4.3.1: 'module help R_packages/4.3.1'
-
-    RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
-    ```
+    > The terminal after loading the RStudio module
 
 ## 4. Start RStudio
 
@@ -98,6 +107,36 @@ interactive session):
 rstudio
 ```
 
-RStudio can be slow to startup, as R has thousands (!) of packages.
-Additionally, at startup and if enabled, your saved RStudio workspace
-(with potentially a lot of data!) is read.
+???- question "How does that look like?"
+
+    ![Type `rstudio` and press enter](rstudio_on_tetralith_5.png)
+
+    > Type `rstudio` and press enter
+
+## 5. Ignore update
+
+In RStudio, when asked, click 'Ignore Update'.
+
+???- question "How does that look like?"
+
+    ![Click 'Ignore Update'](rstudio_on_tetralith_6.png)
+
+    > Click 'Ignore Update'
+
+## 6. Allow automatic crash reporting
+
+In RStudio, when asked whether to automatically
+upload crash repors, click your preferred option.
+
+???- question "How does that look like?"
+
+    ![Click your favorite option](rstudio_on_tetralith_7.png)
+
+    > Click your favorite option
+
+## 7. Done
+
+You are now in RStudio!
+
+![RStudio on Tetralith](rstudio_on_tetralith_8.png)
+
