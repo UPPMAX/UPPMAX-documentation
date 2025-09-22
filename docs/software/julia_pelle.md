@@ -21,11 +21,11 @@ Julia is according to <https://julialang.org/>:
 
  There is no system-installed Julia on the clusters. Therefore you need to load Julia with the module system.
 
- ## Start Julia
+## Start Julia
 
- ## Packages
+## Packages
 
- ### How to install personal packages
+### How to install personal packages
 
 You may ignore the pre-installed packages. They are there mainly for Bianca users, but may help you to relieving some disk space! If you ignore you can jump over the this section.
 
@@ -58,13 +58,4 @@ julia hello_world_distributed.jl
 ### GPU
 
 #### Interactive session with GPU
-
-
-
-
-
-
-
-
-
 
