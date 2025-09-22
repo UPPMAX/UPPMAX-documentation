@@ -138,6 +138,10 @@ MPI
 mpi
 mpicc
 mpif
+submenu
+combobox
+OnDemand
+OpenOnDemand
 multiuser
 mv
 NAISS
