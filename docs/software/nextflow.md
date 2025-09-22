@@ -14,7 +14,7 @@ module load bioinfo-tools
 module load Nextflow/latest  # this also loads java as reqirement
 
 nextflow -v
-nextflow version 24.04.4.5917
+nextflow version 25.04.7.5955
 ```
 
 - alternative versions
@@ -29,8 +29,9 @@ nextflow version 23.10.1.5891
 ```bash
 # To check the available versions on Rackham and Bianca
 ls /sw/bioinfo/Nextflow/latest/rackham/nxf_home/framework/
-20.04.1  20.10.0  21.10.6  22.10.1  22.10.3  22.10.8  23.04.2  23.04.4  23.10.1  24.04.2  24.04.4
-20.07.1  21.04.3  22.10.0  22.10.2  22.10.4  23.04.1  23.04.3  23.10.0  24.04.1  24.04.3
+20.04.1  21.04.3  22.10.1  22.10.4  23.04.2  23.10.0  24.04.2  24.04.5  24.10.2  24.10.5  25.04.1  25.04.4  25.04.7
+20.07.1  21.10.6  22.10.2  22.10.8  23.04.3  23.10.1  24.04.3  24.10.0  24.10.3  24.10.6  25.04.2  25.04.5
+20.10.0  22.10.0  22.10.3  23.04.1  23.04.4  24.04.1  24.04.4  24.10.1  24.10.4  25.04.0  25.04.3  25.04.6
 ```
 
 ---
@@ -60,7 +61,9 @@ module load nf-core   # this also load the nextflow and java as requirements
     ```bash
     user@transit:~$ mount_wharf sens2023531
     Mounting wharf (accessible for you only) to /home/<user>/sens2023531
-    <user>-sens2023531@bianca-sftp.uppmax.uu.se's password:
+    Password: 
+    Second factor (TOTP UPPMAX): 
+    done.
     ```
 
 3. Navigate to your `wharf` folder
@@ -81,39 +84,40 @@ module load nf-core   # this also load the nextflow and java as requirements
 6. Run `nf-core` to download the pipeline.
 
     ```bash
-    nf-core download pixelator
-                                          ,--./,-.
-          ___     __   __   __   ___     /,-._.--~\
+     nf-core pipelines download -c yes ampliseq
+
+                                        ,--./,-.
+        ___     __   __   __   ___     /,-._.--~\ 
     |\ | |__  __ /  ` /  \ |__) |__         }  {
     | \| |       \__, \__/ |  \ |___     \`-._,-`-,
-                                          `._,._,'
+                                        `._,._,'
 
-    nf-core/tools version 2.11.1 - https://nf-co.re
+    nf-core/tools version 3.0.2 - https://nf-co.re
 
     WARNING  Could not find GitHub authentication token. Some API requests may fail.
-    ? Select release / branch: 1.0.2  [release]
-    ? Include the nf-core's default institutional configuration files into the download? Yes
+    ? Select release / branch: 2.11.0  [release]
 
     In addition to the pipeline code, this tool can download software containers.
     ? Download software container images: singularity
 
-    Nextflow and nf-core can use an environment variable called $NXF_SINGULARITY_CACHEDIR that is a path to a directory where remote
+    Nextflow and nf-core can use an environment variable called $NXF_SINGULARITY_CACHEDIR that is a path to a directory where remote 
     Singularity images are stored. This allows downloaded images to be cached in a central location.
+    
     ? Define $NXF_SINGULARITY_CACHEDIR for a shared Singularity image download folder? [y/n]: n
 
     If transferring the downloaded files to another system, it can be convenient to have everything compressed in a single file.
     This is not recommended when downloading Singularity images, as it can take a long time and saves very little space.
     ? Choose compression type: none
-    INFO     Saving 'nf-core/pixelator'
-              Pipeline revision: '1.0.2'
-              Use containers: 'singularity'
-              Container library: 'quay.io'
-              Output directory: 'nf-core-pixelator_1.0.2'
-              Include default institutional configuration: 'True'
+    INFO     Saving 'nf-core/ampliseq'
+            Pipeline revision: '2.11.0'
+            Use containers: 'singularity'
+            Container library: 'quay.io'
+            Output directory: 'nf-core-ampliseq_2.11.0'
+            Include default institutional configuration: 'True'
     INFO     Downloading centralised configs from GitHub
     INFO     Downloading workflow files from GitHub
-    INFO     Processing workflow revision 1.0.2, found 4 container images in     total.
-    Downloading singularity images ???????????????????????????????????????????????????????????????????????????????? 100% ? 4/4 completed
+    INFO     Processing workflow revision 2.11.0, found 30 container images in total.
+    ...
     ```
 
 7. Running on Bianca
