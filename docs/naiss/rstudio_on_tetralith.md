@@ -126,7 +126,7 @@ In RStudio, when asked, click 'Ignore Update'.
 ## 6. Allow automatic crash reporting
 
 In RStudio, when asked whether to automatically
-upload crash repors, click your preferred option.
+upload crash reports, click your preferred option.
 
 ???- question "How does that look like?"
 
