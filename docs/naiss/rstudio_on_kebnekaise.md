@@ -34,20 +34,24 @@ Below is a step-by-step procedure to start RStudio on Kebnekaise.
 
 ## 1. Go to [the HPC2N OpenOnDemand portal](https://portal.hpc2n.umu.se/)
 
+Go to [the HPC2N OpenOnDemand portal](https://portal.hpc2n.umu.se/)
+and click 'Login to HPC2N OnDemand'.
 
-Go to [the HPC2N OpenOnDemand portal](https://portal.hpc2n.umu.se/).
+???- hint "How does that look like?"
 
-![Click 'Login to HPC2N OnDemand'](rstudio_on_kebnekaise_1.png)
+    ![Click 'Login to HPC2N OnDemand'](rstudio_on_kebnekaise_1.png)
+
+    > Click 'Login to HPC2N OnDemand'
 
 ## 2. Sign in to your account
 
 Click 'Sign in' to arrive at the portal.
 
-???- hint "How does that look like?
+???- hint "How does that look like?"
 
     [Click 'Sign in'](rstudio_on_kebnekaise_2.png)
 
-???- hint "How does the HPC2N OpenOnDemand portal look like?
+???- hint "How does the HPC2N OpenOnDemand portal look like?"
 
     [The HPC2N OpenOnDemand portal](rstudio_on_kebnekaise_3.png)
 
@@ -55,13 +59,13 @@ Click 'Sign in' to arrive at the portal.
 
 Click 'Interactive Apps | RStudio Server' to arrive at the launch settings.
 
-???- hint "How does that look like?
+???- hint "How does that look like?"
 
     ![Click 'Interactive Apps | RStudio Server'](rstudio_on_kebnekaise_4.png)
 
     > Click 'Interactive Apps | RStudio Server'
 
-???- hint "How do the launch settings look like?
+???- hint "How do the launch settings look like?"
 
     [The launch settings](rstudio_on_kebnekaise_5.png)
 
@@ -70,13 +74,13 @@ Click 'Interactive Apps | RStudio Server' to arrive at the launch settings.
 In the launch settings, scroll down and click 'Launch'
 to start the launch.
 
-???- hint "How does that look like?
+???- hint "How does that look like?"
 
     ![Click 'Launch'](rstudio_on_kebnekaise_6.png)
 
     > Click 'Launch'
 
-???- hint "How does launching looks like?
+???- hint "How does launching looks like?"
 
     At the top you will see this:
 
@@ -90,7 +94,7 @@ to start the launch.
 
 When the launching is done, click 'Connect to RStudio Server'.
 
-???- hint "How does that look like?
+???- hint "How does that look like?"
 
     ![Click 'Connect to RStudio Server'](rstudio_on_kebnekaise_9.png)
 
