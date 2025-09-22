@@ -96,7 +96,7 @@ When the launching is done, click 'Connect to RStudio Server'.
 
     > Click 'Connect to RStudio Server'
 
-## 6. Done!
+## 6. Done
 
 Now, you have started RStudio:
 
