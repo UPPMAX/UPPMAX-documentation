@@ -27,7 +27,7 @@ Below is a step-by-step procedure to start RStudio on COSMOS.
 
 ??? question "Prefer a video?"
 
-    This procedure is also demonstrated in `TODO`.
+    Watch [the YouTube video 'RStudio on COSMOS'](https://youtu.be/eT4D_K5JODA).
 
 ## 1. Start a COSMOS remote desktop environment
 
