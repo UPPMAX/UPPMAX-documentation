@@ -37,19 +37,32 @@ See [the LUNARC documentation 'Accessing the LUNARC HPC Desktop'](https://lunarc
 
 On the remote desktop, go to the top-left menu
 and click 'Applications - R | RStudio 2024.04.2'
-to start `gfxLauncher`:
+to start the job launcher.
 
 ![Click 'Applications - R | RStudio 2024.04.2'](rstudio_on_cosmos_1.png)
 
 > Click 'Applications - R | RStudio 2024.04.2'
 
+???- tip "What are the other RStudio versions?"
+
+    These are RStudio version that can also use the COSMOS GPUs.
+
+???- tip "Why run this RStudio version?"
+
+    Because this is the most modern version that is run on only CPUs.
+    Due to not using GPUs, RStudio will start up quicker.
+
 ## 3. Setup the run
 
-In `gfxLauncher`, click 'Start'
+In the job launcher, click 'Start'
 
 ![Click 'Start'](rstudio_on_cosmos_2.png)
 
 > Click 'Start'
+
+???- tip "What are all those other options?"
+
+    See [the LUNARC 'Job launcher' documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/gfxlauncher/#job-launcher)
 
 ## 4. Ignore the RStudio update
 
