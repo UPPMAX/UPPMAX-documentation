@@ -12,7 +12,7 @@ tags:
     However, it has not been suggested to be added to their documentaton
     yet.
 
-![RStudio on Dardel](rstudio_on_kebnekaise_4.png)
+![RStudio on Dardel](rstudio_on_dardel_4.png)
 
 ## Introduction
 
@@ -72,4 +72,4 @@ In RStudio, click 'Ignore update'.
 
 Now, you have started RStudio:
 
-![RStudio on Dardel](rstudio_on_kebnekaise_4.png)
+![RStudio on Dardel](rstudio_on_dardel_4.png)
