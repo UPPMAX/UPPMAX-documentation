@@ -30,7 +30,7 @@ Below is a step-by-step procedure to start RStudio on Kebnekaise.
 
 ??? question "Prefer a video?"
 
-    This procedure is also demonstrated in `TODO`.
+    Watch [the 'RStudio on Kebnekaise' YouTube video](https://youtu.be/Hy37qVd_Q20)
 
 ## 1. Go to [the HPC2N OpenOnDemand portal](https://portal.hpc2n.umu.se/)
 
@@ -49,11 +49,11 @@ Click 'Sign in' to arrive at the portal.
 
 ???- hint "How does that look like?"
 
-    [Click 'Sign in'](rstudio_on_kebnekaise_2.png)
+    ![Click 'Sign in'](rstudio_on_kebnekaise_2.png)
 
 ???- hint "How does the HPC2N OpenOnDemand portal look like?"
 
-    [The HPC2N OpenOnDemand portal](rstudio_on_kebnekaise_3.png)
+    ![The HPC2N OpenOnDemand portal](rstudio_on_kebnekaise_3.png)
 
 ## 3. Click on 'RStudio Server'
 
@@ -67,7 +67,7 @@ Click 'Interactive Apps | RStudio Server' to arrive at the launch settings.
 
 ???- hint "How do the launch settings look like?"
 
-    [The launch settings](rstudio_on_kebnekaise_5.png)
+    ![The launch settings](rstudio_on_kebnekaise_5.png)
 
 ## 4. Click on 'Launch'
 
