@@ -12,6 +12,8 @@ tags:
     However, it has not been suggested to be added to their documentaton
     yet.
 
+![RStudio on Kebnekaise](rstudio_on_kebnekaise_10.png)
+
 ## Introduction
 
 [RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
@@ -30,74 +32,72 @@ Below is a step-by-step procedure to start RStudio on Kebnekaise.
 
     This procedure is also demonstrated in `TODO`.
 
-## 1. Start a Kebnekaise remote desktop environment
+## 1. Go to [the HPC2N OpenOnDemand portal](https://portal.hpc2n.umu.se/)
 
-...
 
-## 2. Start an interactive session
+Go to [the HPC2N OpenOnDemand portal](https://portal.hpc2n.umu.se/).
 
-Within the Kebnekaise remote desktop environment, start a [terminal](../software/terminal.md).
-Within that terminal, start an interactive session with 2 cores:
+![Click 'Login to HPC2N OnDemand'](rstudio_on_kebnekaise_1.png)
 
-```bash
-interactive -A [naiss_project_id] -n 2 -t [duration]
-```
+## 2. Sign in to your account
 
-Where:
+Click 'Sign in' to arrive at the portal.
 
-- `[naiss_project_id]` is your [UPPMAX project code](../getting_started/project.md)
-- `[duration]` is the duration of the interactive session
+???- hint "How does that look like?
 
-Resulting in, For example:
+    [Click 'Sign in'](rstudio_on_kebnekaise_2.png)
 
-```bash
-interactive -A naiss2024-22-310 -n 2 -t 8:00:00
-```
+???- hint "How does the HPC2N OpenOnDemand portal look like?
 
-!!!- info "Why two cores?"
+    [The HPC2N OpenOnDemand portal](rstudio_on_kebnekaise_3.png)
 
-    RStudio is a resource-heavy program.
-    Due to this, we recommend using at least two cores
-    for a more pleasant user experience.
+## 3. Click on 'RStudio Server'
 
-## 3. Load the modules needed
+Click 'Interactive Apps | RStudio Server' to arrive at the launch settings.
 
-In the terminal of the interactive session, do:
+???- hint "How does that look like?
 
-```bash
-# Something like this
-module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
-```
+    ![Click 'Interactive Apps | RStudio Server'](rstudio_on_kebnekaise_4.png)
 
-???- question "How does that look like?"
+    > Click 'Interactive Apps | RStudio Server'
 
-    Your output will be similar to:
+???- hint "How do the launch settings look like?
 
-    ```bash
-    [sven@r210 sven]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
-    R/4.3.1: Nearly all CRAN and BioConductor packages are installed and available by loading
-    the module R_packages/4.3.1
-    R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might
-    R_packages/4.3.1: require you to load additional modules prior to use. monocle3 is such a package. See
-    R_packages/4.3.1: 'module help R_packages/4.3.1'
+    [The launch settings](rstudio_on_kebnekaise_5.png)
 
-    R_packages/4.3.1: The RStudio packages pane is disabled when loading this module, due to RStudio slowdowns
-    R_packages/4.3.1: because there are >20000 available packages. *All packages are still available.*  For
-    R_packages/4.3.1: more information and instructions to re-enable the packages pane (not recommended) see
-    R_packages/4.3.1: 'module help R_packages/4.3.1'
+## 4. Click on 'Launch'
 
-    RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
-    ```
+In the launch settings, scroll down and click 'Launch'
+to start the launch.
 
-## 4. Start RStudio
+???- hint "How does that look like?
 
-With the modules loaded, start RStudio from the terminal (on the
-interactive session):
+    ![Click 'Launch'](rstudio_on_kebnekaise_6.png)
 
-```bash
-rstudio
-```
+    > Click 'Launch'
 
-RStudio can be slow to startup, as R has thousands (!) of packages.
-Additionally, at startup and if enabled, your saved RStudio workspace
-(with potentially a lot of data!) is read.
+???- hint "How does launching looks like?
+
+    At the top you will see this:
+
+    ![Click 'Launch'](rstudio_on_kebnekaise_7.png)
+
+    At the bottom you will see this:
+
+    ![Click 'Launch'](rstudio_on_kebnekaise_8.png)
+
+## 5. Click 'Connect to RStudio Server'
+
+When the launching is done, click 'Connect to RStudio Server'.
+
+???- hint "How does that look like?
+
+    ![Click 'Connect to RStudio Server'](rstudio_on_kebnekaise_9.png)
+
+    > Click 'Connect to RStudio Server'
+
+## 6. Done!
+
+Now, you have started RStudio:
+
+![RStudio on Kebnekaise](rstudio_on_kebnekaise_10.png)

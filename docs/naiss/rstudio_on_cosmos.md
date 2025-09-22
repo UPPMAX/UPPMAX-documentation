@@ -78,7 +78,7 @@ In RStudio, when asked to update, click 'Ignore update'.
 
     > Click 'Ignore update'
 
-## 5. Done
+## 5. Done!
 
 Now, you have started RStudio:
 
