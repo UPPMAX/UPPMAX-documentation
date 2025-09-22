@@ -36,14 +36,14 @@ See [the LUNARC documentation 'Accessing the LUNARC HPC Desktop'](https://lunarc
 ## 2. Click on 'RStudio 2024.04.2'
 
 On the remote desktop, go to the top-left menu
-and click 'Applications - R | RStudio 2024.04.2'
+and click 'Applications - R | RStudio 2024.04.2 (CPU)'
 to start the job launcher.
 
 ???- tip "How does that look like?"
 
     ![Click 'Applications - R | RStudio 2024.04.2'](rstudio_on_cosmos_1.png)
 
-    > Click 'Applications - R | RStudio 2024.04.2'
+    > Click 'Applications - R | RStudio 2024.04.2 (CPU)'
 
 ???- tip "What are the other RStudio versions?"
 
