@@ -33,7 +33,7 @@ Below is a step-by-step procedure to start RStudio on COSMOS.
 
 See [the LUNARC documentation 'Accessing the LUNARC HPC Desktop'](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/using_hpc_desktop/).
 
-## 2. Click on 'RStudio 2024.04.2'
+## 2. Click on 'RStudio 2024.04.2 (CPU)'
 
 On the remote desktop, go to the top-left menu
 and click 'Applications - R | RStudio 2024.04.2 (CPU)'
