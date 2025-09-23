@@ -1091,3 +1091,4 @@ DL
 Superchips
 HPL
 Linpack
+ampliseq
