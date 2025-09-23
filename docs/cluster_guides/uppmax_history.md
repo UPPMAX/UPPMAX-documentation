@@ -36,8 +36,8 @@ Irma                                   |.                |250 nodes             
 Lupus                                  |.                |1 PB Lustre                                                  |2.1  |2016-03-03|2021-03-02|Dell, data network redesign IT214/92
 CEPH                                   |.                |252 TB                                                       |0.35 |2015-12-14|2019-12-13|Dell, 7 servers, data network redesign IT 2015/84
 [Bianca](../cluster_guides/bianca.md)  |.                |100 nodes                                                    |3.1  |2016-04-01|2020-03-31|SouthPole, Huawei data network redesign IT 2015/65
-Castor                                 |.                |1 PB, 18 servers                                             |1    |2016-04-01|2020-03-31|SouthPole, Huawei data network redesign IT 2015/65
-Castor, +1 PB                          |.                |1 PB, 18 servers                                             |2.3  |2016-07-01|2020-07-31|SouthPole, Huawei data network redesign IT 2015/65
+[Castor](../hardware/storage/castor.md)                                 |.                |1 PB, 18 servers                                             |1    |2016-04-01|2020-03-31|SouthPole, Huawei data network redesign IT 2015/65
+[Castor](../hardware/storage/castor.md), +1 PB                          |.                |1 PB, 18 servers                                             |2.3  |2016-07-01|2020-07-31|SouthPole, Huawei data network redesign IT 2015/65
 Grus                                   |.                |1.5 PB, 14 servers                                           |1.8? |2016-07-01|2020-07-31|SouthPole, Huawei data network redesign IT 2015/65
 Irham                                  |.                |.                                                            |.    |2016-07-01|2024-01-12|Decommissioned Irma nodes added to Rackham, became `r[1001-1072,1179-1250]`
 Miarka                                 |.                |.                                                            |.    |2021      |.         |.
@@ -45,7 +45,7 @@ Miarka                                 |.                |.                     
 [Snowy](../cluster_guides/snowy.md)    |.                |.                                                            |.    |.         |.         |.
 [Pelle](../cluster_guides/pelle.md)    |2025-            |.                                                            |.    |.         |.         |.
 [Maja](../cluster_guides/maja.md)      |.                |.                                                            |.    |.         |.         |.
-[Gorilla](../cluster_guides/gorilla.md)|2025-            |.                                                            |.    |.         |.         |.
+[Gorilla](../hardware/storage/gorilla.md)|2025-            |.                                                            |.    |.         |.         |.
 
 - Price is in millions of Swedish kroner
 - 'Start': start of the guarantee
