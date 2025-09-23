@@ -17,7 +17,7 @@ nextflow -v
 nextflow version 25.04.7.5955
 ```
 
-- alternative versions
+- other `nextflow` versions
 
 ```bash
 export NXF_VER=23.10.1
@@ -86,11 +86,11 @@ module load nf-core   # this also load the nextflow and java as requirements
     ```bash
      nf-core pipelines download -c yes ampliseq
 
-                                        ,--./,-.
-        ___     __   __   __   ___     /,-._.--~\ 
+                                          ,--./,-.
+          ___     __   __   __   ___     /,-._.--~\ 
     |\ | |__  __ /  ` /  \ |__) |__         }  {
     | \| |       \__, \__/ |  \ |___     \`-._,-`-,
-                                        `._,._,'
+                                          `._,._,'
 
     nf-core/tools version 3.0.2 - https://nf-co.re
 
@@ -135,6 +135,34 @@ make sure you have the file
 [https://github.com/nf-core/configs/blob/master/conf/uppmax.config](https://github.com/nf-core/configs/blob/master/conf/uppmax.config)
 [https://nf-co.re/configs/uppmax](https://nf-co.re/configs/uppmax)
 
+
+## `nf-core` pipelines available offline on Bianca/Maya
+
+UPPMAX does not maintain complete mirror anymore.
+Only most requested pipelines are mirrored offline.
+To check the available pipelines, run
+
+```bash
+tree -L 2 /sw/bioinfo/nf-core-pipelines/latest/rackham
+
+...
+├── rnaseq
+│   ├── 1.0
+│   ├── 1.1
+│   ├── 1.2
+│   ├── 1.3
+...
+```
+To run a pipeline from the UPPMAX mirror, run
+
+```bash
+module load bioinfo-tools
+module load nf-core-pipelines # this also loads Nextflow
+
+nextflow run $NF_CORE_PIPELINES/pipeline_name/revision/workflow ...
+```
+
+
 ## Common problems
 
 - **Task is running out of resources (memory or time)**
@@ -153,4 +181,4 @@ process {
 
 More: [https://www.nextflow.io/docs/latest/config.html#process-selectors](https://www.nextflow.io/docs/latest/config.html#process-selectors)
 
-## **[Troubleshooting](https://nf-co.re/docs/usage/troubleshooting/overview)** - nf-core
+## **[Troubleshooting nf-core](https://nf-co.re/docs/usage/troubleshooting/overview)**
