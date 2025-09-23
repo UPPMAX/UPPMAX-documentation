@@ -26,16 +26,15 @@ i.e. they allow a user to do heavy computational calculations.
 
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
-[Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
 [Pelle](pelle.md)    |Regular data, general purpose|Is replacing [Rackham](rackham.md)
+[Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
 [Rackham](rackham.md)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
 [Snowy](snowy.md)    |Regular data, long runs, GPUs|.
 
 
 Another cluster UPPMAX is involved in:
 
-- [Dardel](dardel.md): a general purpose HPC cluster in Stockholm.
-  Consider moving your files to it already
+- [Dardel](dardel.md): a general purpose HPC cluster in Stockholm. Earlier Rackham users with no affiliation to UPPMAX moved here in late 2024.
 
 ```mermaid
 flowchart TD
