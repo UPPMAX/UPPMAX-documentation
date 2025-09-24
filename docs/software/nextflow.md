@@ -153,6 +153,7 @@ tree -L 2 /sw/bioinfo/nf-core-pipelines/latest/rackham
 │   ├── 1.3
 ...
 ```
+
 To run a pipeline from the UPPMAX mirror, run
 
 ```bash
