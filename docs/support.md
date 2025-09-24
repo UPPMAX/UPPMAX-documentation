@@ -8,18 +8,26 @@ tags:
   - talk
 ---
 
-# UPPMAX support
+# UPPMAX Support
 
-If you lost your UPPMAX password, see [how to reset your UPPMAX password](getting_started/reset_uppmax_password.md).
+## Lost Your UPPMAX Password?
 
-If you need other help on using UPPMAX,
-you preferably contact us through the [Support Form](https://supr.naiss.se/support/).
-If that does not work, use `support@uppmax.uu.se`.
+If you have lost your UPPMAX password, follow the instructions on [how to reset your UPPMAX password](getting_started/reset_uppmax_password.md).
 
-If you want to contribute, see [how to contribute](CONTRIBUTING.md).
+## Need Help with UPPMAX?
 
-If you need general Uppsala University IT support,
-use the Uppsala University IT Servicedesk.
+For assistance with using UPPMAX, you can contact us through the following methods:
+- **Preferred Method**: Use the [Support Form](https://supr.naiss.se/support/).
+- **Alternative Method**: Email us at `support@uppmax.uu.se`.
 
-If you plan a course using UPPMAX resources, see
-[Education and training projects](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/course)
+## Want to Contribute?
+
+If you are interested in contributing, refer to our guide on [how to contribute](CONTRIBUTING.md).
+
+## General IT Support at Uppsala University
+
+For general IT support at Uppsala University, please contact the **Uppsala University IT Servicedesk**.
+
+## Planning a Course Using UPPMAX Resources?
+
+If you are planning a course that requires UPPMAX resources, refer to the guidelines on [Education and Training Projects](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/course).
