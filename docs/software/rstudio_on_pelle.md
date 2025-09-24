@@ -141,7 +141,7 @@ module load R/4.5.1-gfbf-2024a RStudio/2025.09.0-387
     ```
 
 
-## 5. Start RStudio
+## 4. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the
 interactive session):
