@@ -14,7 +14,7 @@ and accessible via the module system.
 
 ## Software table
 
-[Automatically updated software table](software-table.md)
+- [Latest list of softwares](software-table.md)
 
 ## Conflicting modules
 
