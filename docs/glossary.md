@@ -15,6 +15,9 @@ A computational task that is submitted to the job scheduler (Slurm) to run non-i
 ### Command Prompt
 The text at the start of the line in a terminal where you can type commands. It indicates that the terminal is waiting for user input. For example: `[sven@rackham2 my_folder]$`.
 
+### Cluster
+A collection of connected computers that work together as a single system to provide high-performance computing capabilities. UPPMAX operates several clusters including Bianca, Rackham, Snowy, and Pelle.
+
 ### Compute Node
 A computer in an HPC cluster that performs the actual computational work. Users run their jobs on compute nodes, as opposed to login nodes which are used for system access and light tasks.
 
@@ -27,6 +30,11 @@ A user interface application to send data from your computer to UPPMAX clusters 
 
 ### GUI
 Graphical User Interface - a visual interface for taking user inputs, as opposed to command-line interfaces.
+
+## H
+
+### HPC
+High-Performance Computing - a type of computing that uses powerful computers and parallel processing to solve complex computational problems quickly and efficiently.
 
 ## I
 
@@ -53,7 +61,13 @@ Software modules are a way to manage different versions of software on UPPMAX cl
 ### NAISS
 National Academic Infrastructure for Supercomputing in Sweden. The organization that coordinates high-performance computing resources across Swedish universities.
 
+### Node
+An individual computer within a cluster. Nodes can be login nodes (for system access) or compute nodes (for running computational tasks).
+
 ## P
+
+### Partition
+A division of cluster resources in Slurm that groups compute nodes by their characteristics or intended use. Examples include `core`, `node`, `devel`, and `devcore` partitions.
 
 ### Pelle
 [Pelle](cluster_guides/pelle.md) is an upcoming general-purpose UPPMAX cluster, paid by Uppsala University. Uppsala users of Rackham will be moved to Pelle.
@@ -67,12 +81,20 @@ A computational allocation on UPPMAX resources. Projects have associated compute
 ### Proj
 The project folder in UPPMAX clusters that is shared among all project members. This folder is secure and isolated from the internet.
 
+## Q
+
+### Queue
+A waiting line for jobs in the Slurm scheduler. Jobs are placed in queues and executed when resources become available, following scheduling policies and priorities.
+
 ## R
 
 ### Rackham
 [Rackham](cluster_guides/rackham.md) is one of the UPPMAX clusters that serves as a general-purpose cluster. Rackham will be replaced by Pelle in the future.
 
 ## S
+
+### Scheduler
+A system component (Slurm) that manages the allocation of computational resources and determines when and where jobs are executed on the cluster.
 
 ### Slurm
 Simple Linux Utility for Resource Management - the job scheduler used on UPPMAX clusters. Slurm manages the allocation of computational resources and schedules when jobs are executed.
@@ -96,6 +118,9 @@ An account that gives access to project management functionality for submitting 
 
 ### Terminal
 A program that allows you to run commands through a text-based interface. Also called a command-line interface or console.
+
+### Transit
+An UPPMAX service used to securely transfer files between online locations, such as local computers, Bianca, Rackham, and other clusters. Transit is not a file server and does not store files permanently.
 
 ### Two-Factor Authentication (2FA)
 A security method that requires two forms of identification to access an account. UPPMAX requires 2FA for enhanced security, typically using a password and a code from a mobile device.
