@@ -95,7 +95,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 In the terminal of the interactive session, do:
 
 ```bash
-module load R/4.5.1-gfbf-2024a RStudio/2025.09.0-387
+module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
 ```
 
 ???- question "How does that look like?"
@@ -118,7 +118,7 @@ module load R/4.5.1-gfbf-2024a RStudio/2025.09.0-387
     RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
     ```
 
-???- question "What happens if I do not load `R`?"
+???- question "What happens if I do not load `R` or `R_packages`?"
 
     Then you will have the sytem-wide R version 3.6.0
     without any packages installed.

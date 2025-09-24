@@ -6,12 +6,6 @@ tags:
 
 # RStudio on Pelle
 
-!!! warning "May not work yet"
-
-    We from UPPMAX are in the process of making RStudio work on Pelle.
-
-    The current documentation is just a copy from the Rackham documentation...
-
 ## Introduction
 
 [RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
@@ -99,7 +93,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 In the terminal of the interactive session, do:
 
 ```bash
-module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
+module load R/4.5.1-gfbf-2024a RStudio/2025.09.0-387
 ```
 
 ???- question "How does that look like?"
@@ -122,9 +116,9 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
     ```
 
-???- question "What happens if I do not load `R` or `R_packages`?"
+???- question "What happens if I do not load `R`?"
 
-    Then you will have the sytem-wide R version 3.6.0
+    Then you will have the sytem-wide R version
     without any packages installed.
 
 ???- question "What does 'Sandboxing is not enabled for RStudio at UPPMAX' mean?"
