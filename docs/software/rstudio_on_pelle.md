@@ -35,14 +35,14 @@ Below is a step-by-step procedure to start RStudio on Pelle.
 
     None yet :-/
 
-### 1. Start a Pelle remote desktop environment
+## 1. Start a Pelle remote desktop environment
 
 This can be either:
 
 - [Login to the Pelle remote desktop environment using the website](../getting_started/login_pelle_remote_desktop_website.md)
 - [Login to the Pelle remote desktop environment using a local ThinLinc client](../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md)
 
-### 2. Start an interactive session
+## 2. Start an interactive session
 
 Within the Pelle remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, [start an interactive session](../cluster_guides/start_interactive_session_on_pelle.md)
@@ -80,7 +80,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 
     Instead, load RStudio from the module system instead.
 
-### 3. Load the modules needed
+## 3. Load the modules needed
 
 In the terminal of the interactive session, do:
 
@@ -141,7 +141,7 @@ module load R/4.5.1-gfbf-2024a RStudio/2025.09.0-387
     ```
 
 
-### 5. Start RStudio
+## 5. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the
 interactive session):
