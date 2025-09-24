@@ -37,7 +37,7 @@ Below is a step-by-step procedure to start RStudio on Rackham.
 
     This procedure is also demonstrated in [this YouTube video](https://youtu.be/efSOFfBVBPQ).
 
-### 1. Get within SUNET
+## 1. Get within SUNET
 
 This step is only needed when outside of Sweden.
 
@@ -45,14 +45,14 @@ This step is only needed when outside of Sweden.
 
     See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
-### 2. Start a Rackham remote desktop environment
+## 2. Start a Rackham remote desktop environment
 
 This can be either:
 
 - [Login to the Rackham remote desktop environment using the website](../getting_started/login_rackham_remote_desktop_website.md)
 - [Login to the Rackham remote desktop environment using a local ThinLinc client](../getting_started/login_rackham_remote_desktop_local_thinlinc_client.md)
 
-### 3. Start an interactive session
+## 3. Start an interactive session
 
 Within the Rackham remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal, [start an interactive session](../cluster_guides/start_interactive_session_on_rackham.md)
@@ -90,7 +90,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 
     Instead, load RStudio from the module system instead.
 
-### 4. Load the modules needed
+## 4. Load the modules needed
 
 In the terminal of the interactive session, do:
 
@@ -151,7 +151,7 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     ```
 
 
-### 5. Start RStudio
+## 5. Start RStudio
 
 With the modules loaded, start RStudio from the terminal (on the
 interactive session):
