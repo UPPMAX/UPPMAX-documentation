@@ -57,12 +57,6 @@ template: home.html
     <a href="https://docs.uppmax.uu.se/getting_started/reset_uppmax_password/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">🔑 Reset Password</a>
 </div>
 
-<!-- Important Notices Section -->
-<div style="text-align: center; margin-top: 40px;">
-    <h2>Important Notices</h2>
-    <a href="https://docs.uppmax.uu.se/cluster_guides/dardel_migration/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">⚠️ Migration to Dardel</a>
-</div>
-
 <!-- External Links Section -->
 <div style="text-align: center; margin-top: 40px;">
     <h2>External Resources</h2>
