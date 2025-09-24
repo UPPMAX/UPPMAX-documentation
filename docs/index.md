@@ -19,11 +19,12 @@ template: home.html
 
 <div style="text-align: center; margin-top: 20px;">
     <a href="https://docs.uppmax.uu.se/getting_started/get_started/" class="md-button md-button--primary" style="text-decoration:none;">🚀 Getting started</a>
+    <a href="https://docs.uppmax.uu.se/glossary/" class="md-button md-button--primary" style="text-decoration:none;">🚀 Glossary</a>
     <a href="https://docs.uppmax.uu.se/software/overview/" class="md-button md-button--primary" style="text-decoration:none;">🚀 Software</a>
     <a href="https://docs.uppmax.uu.se/getting_started/reset_uppmax_password/" class="md-button md-button--primary" style="text-decoration:none;">🚀 Reset your UPPMAX password</a>
     <a href="https://docs.uppmax.uu.se/cluster_guides/dardel_migration/" class="md-button md-button--primary" style="text-decoration:none;">⚠️ Migration to Dardel</a>
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-    <a href="https://www.uu.se/en/centre/uppmax" class="md-button md-button--primary" style="text-decoration:none;">🚀 Go to the UPPMAX main page</a>
+    <a href="https://www.uu.se/en/centre/uppmax" class="md-button md-button--primary" style="text-decoration:none;">🚀 UPPMAX main page</a>
 </div>
