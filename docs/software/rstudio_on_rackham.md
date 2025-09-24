@@ -10,11 +10,8 @@ tags:
 
 ## Introduction
 
-RStudio is an IDE specialized for the R programming language.
-
-???- tip "What is an IDE?"
-
-    See [the page on IDEs](../software/ides.md).
+[RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
+specialized for the [R](../software/r.md) programming language
 
 In this session, we show how to use RStudio on Rackham,
 using Rackham's remote desktop environment.
