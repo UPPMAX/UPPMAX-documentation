@@ -33,7 +33,8 @@ Below is a step-by-step procedure to start RStudio on Pelle.
 
 ??? question "Prefer a video?"
 
-    None yet :-/
+    Watch
+    [the YouTube Video 'RStudio on Pelle'](https://youtu.be/90sfHzE_k1k)
 
 ## 1. Start a Pelle remote desktop environment
 
