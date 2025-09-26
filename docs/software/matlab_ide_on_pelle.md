@@ -2,6 +2,7 @@
 tags:
   - MATLAB
   - IDE
+  - GUI
   - Pelle
 ---
 
@@ -59,7 +60,7 @@ interactive -A [naiss_project_id] -t [duration]
 Where:
 
 - `[naiss_project_id]` is an [UPPMAX project code](../getting_started/project.md).
-  Use [`projinfo`](projinfo.md) to see which 
+  Use [`projinfo`](projinfo.md) to see which
   [UPPMAX projects](../getting_started/project.md) you have access to
   on Pelle.
 - `[duration]` is the duration of the interactive session

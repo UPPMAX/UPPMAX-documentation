@@ -17,6 +17,7 @@ If you have lost your UPPMAX password, follow the instructions on [how to reset 
 ## Need Help with UPPMAX?
 
 For assistance with using UPPMAX, you can contact us through the following methods:
+
 - **Preferred Method**: Use the [Support Form](https://supr.naiss.se/support/).
 - **Alternative Method**: Email us at `support@uppmax.uu.se`.
 
