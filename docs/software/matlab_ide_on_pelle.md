@@ -37,7 +37,7 @@ Below is a step-by-step procedure to start MATLAB on Pelle.
 ??? question "Prefer a video?"
 
     Watch
-    [the YouTube Video 'MATLAB on Pelle'](https://youtu.be/90sfHzE_k1k)
+    [the YouTube Video 'Using the MATLAB IDE on Pelle'](https://youtu.be/3wPynWzI9DQ)
 
 ## 1. Start a Pelle remote desktop environment
 
@@ -53,7 +53,7 @@ Within that terminal, [start an interactive session](../cluster_guides/start_int
 with 2 cores:
 
 ```bash
-interactive -A [naiss_project_id] -n 2 -t [duration]
+interactive -A [naiss_project_id] -t [duration]
 ```
 
 Where:
@@ -67,14 +67,8 @@ Where:
 Resulting in, For example:
 
 ```bash
-interactive -A naiss2024-22-310 -n 2 -t 8:00:00
+interactive -A naiss2024-22-310 -t 8:00:00
 ```
-
-!!!- info "Why two cores?"
-
-    MATLAB is a resource-heavy program.
-    Due to this, we recommend using at least two cores
-    for a more pleasant user experience.
 
 ???- tip "What is an interactive session?"
 
