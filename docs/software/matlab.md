@@ -8,7 +8,7 @@ MATLAB can be started only if you load the MATLAB module first. Most of availabl
 
 === "Pelle"
 
-    At the time of this writing, our most recent installation is: `MATLAB/R2024a``
+    At the time of this writing, our most recent installation is: `MATLAB/R2024a`
 
     Doing:
 
