@@ -1,17 +1,18 @@
 ---
 tags:
   - MATLAB
+  - IDE
   - Pelle
 ---
 
-# MATLAB on Pelle
+# Using the MATLAB IDE on Pelle
 
- ![MATLAB on Pelle](./img/matlab_on_pelle_via_website.png)
+ ![MATLAB IDE on Pelle](./img/matlab_on_pelle_via_website.png)
 
 ## Introduction
 
 [MATLAB](../software/matlab.md) is an [IDE](../software/ides.md)
-specialized for the [R](../software/r.md) programming language
+specialized for the [MATLAB](../software/matlab.md) programming language
 
 In this session, we show how to use MATLAB on Pelle,
 using Pelle's remote desktop environment.
@@ -57,7 +58,10 @@ interactive -A [naiss_project_id] -n 2 -t [duration]
 
 Where:
 
-- `[naiss_project_id]` is an [UPPMAX project code](../getting_started/project.md)
+- `[naiss_project_id]` is an [UPPMAX project code](../getting_started/project.md).
+  Use [`projinfo`](projinfo.md) to see which 
+  [UPPMAX projects](../getting_started/project.md) you have access to
+  on Pelle.
 - `[duration]` is the duration of the interactive session
 
 Resulting in, For example:
