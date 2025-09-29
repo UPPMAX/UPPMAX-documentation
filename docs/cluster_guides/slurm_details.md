@@ -217,8 +217,8 @@ sbatch -A naiss20YY-XX-ZZ -p devcore -t 00:15:00 jobscript.sh
 
     - it works only for jobs longer than 5-15 minutes
     - `-r jobid` - check running jobs
-    - `A project` - check all recent jobs of a given project
-    - `p jobid` - produce a CPU and memory usage plot
+    - `-A project` - check all recent jobs of a given project
+    - `-p jobid` - produce a CPU and memory usage plot
 
 - [Jobstats user guide](../software/jobstats.md)
 
