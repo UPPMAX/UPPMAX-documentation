@@ -363,7 +363,6 @@ end
 #SBATCH --time=00:01:00          # total run time limit (HH:MM:SS)
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
-#SBATCH --mail-user=<email>
 module load julia/1.8.5
 julia hello_world_distributed.jl
 ```
@@ -476,7 +475,6 @@ A batch script, job_MPI.slurm, should include a "module load gcc/XXX openmpi/XXX
 #SBATCH --time=00:05:00          # total run time limit (HH:MM:SS)
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
-#SBATCH --mail-user=<email>
 module load julia/1.8.5
 module load gcc/11.3.0 openmpi/4.1.3
 export PATH=~/.julia/bin:$PATH
@@ -520,7 +518,6 @@ Batch script juliaGPU.slurm, note settings for Bianca vs. Snowy:
 #SBATCH --qos=short              # if test run t<15 min
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
-#SBATCH --mail-user=<email>
 module purge
 module load julia/1.8.5          # system CUDA works as of today
 julia juliaCUDA.jl

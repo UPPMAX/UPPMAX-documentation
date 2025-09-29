@@ -136,9 +136,6 @@ sbatch -A naiss20YY-XX-ZZ -p devcore -t 00:15:00 jobscript.sh
 - email:
 
     - ``--mail-type=BEGIN,END,FAIL,TIME_LIMIT_80``
-    - ``--mail-user``
-
-        - Don’t use. Set your email correctly in SUPR instead.
 
 - out/err redirection:
 
