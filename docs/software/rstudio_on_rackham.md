@@ -95,8 +95,13 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 In the terminal of the interactive session, do:
 
 ```bash
-module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
+module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
 ```
+
+!!! warning
+
+    RStudio/2023.12.1-402 may not always work
+
 
 ???- question "How does that look like?"
 
