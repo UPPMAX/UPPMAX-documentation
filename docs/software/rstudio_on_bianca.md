@@ -99,8 +99,13 @@ In the terminal of the interactive session, do:
 
 
 ```bash
-module load R_packages/4.3.1 RStudio/2023.12.1-402
+module load R_packages/4.3.1 RStudio/2023.06.2-561
 ```
+
+!!! warning
+
+    RStudio/2023.12.1-402 may not always work
+ 
 
 ???- questions "Do all combinations of `R_packages` and `RStudio` work?"
 
