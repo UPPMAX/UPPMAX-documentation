@@ -148,7 +148,6 @@ Batch script job_distributed.slurm:
 #SBATCH --time=00:01:00          # total run time limit (HH:MM:SS)
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
-#SBATCH --mail-user=<email>
 module load python/3.9.5
 python distributed.py
 ```
@@ -251,7 +250,6 @@ A batch script, job_MPI.slurm, should include a "module load gcc/9.3.0 openmpi/3
 #SBATCH --time=00:05:00          # total run time limit (HH:MM:SS)
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
-#SBATCH --mail-user=<email>
 module load python/3.9.5
 module load gcc/9.3.0 openmpi/3.1.5
 mpirun -n 20 python pythonMPI.py
@@ -306,7 +304,7 @@ if __name__ == "__main__":
 Run in an interactive session with GPU:s on Snowy
 
 ```bash
-[bjornc@rackham3 ~]$ interactive -A staff -n 1 -M snowy --gres=gpu:1  -t 1:00:01 --mail-type=BEGIN --mail-user=bjorn.claremar@uppmax.uu.se
+[bjornc@rackham3 ~]$ interactive -A staff -n 1 -M snowy --gres=gpu:1 -t 1:00:01 --mail-type=BEGIN
 You receive the high interactive priority.
 Please, use no more than 8 GB of RAM.
 Waiting for job 6907137 to start...

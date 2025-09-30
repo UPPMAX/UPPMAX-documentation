@@ -65,7 +65,6 @@ geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG'
 ```bash
 #!/bin/bash
 #SBATCH -J
-#SBATCH --mail-user
 #SBATCH --mail-type=ALL
 #SBATCH -t 0-01:00:0
 #set wall time c. 50% higher than expected
@@ -95,7 +94,6 @@ The submit script can look like this:
 ```bash
 #!/bin/bash -l
 #SBATCH -J <jobname>
-#SBATCH --mail-user <email address>
 #SBATCH --mail-type=ALL
 #SBATCH -t 0-01:00:0    #set wall time c. 50% higher than expected
 #SBATCH -A <project name>
