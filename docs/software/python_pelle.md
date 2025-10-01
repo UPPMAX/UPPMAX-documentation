@@ -140,6 +140,10 @@ python
      >>>
      ```
 
+!!! warning
+
+    The sections below needs updates
+
 ## Loading Python package modules
 
 !!! note "Terminology"
@@ -390,6 +394,7 @@ Do not hesitate to [contact support](../support.md)
 so that you can spend time on your research
 and we figure this out :-)
 
+
 ### Stand-alone tools
 
 Some Python packages are working as stand-alone tools, for instance in
@@ -407,78 +412,14 @@ is case-insensitive, hence `YourTool` and `yourtool` give similar results.
 
     See [the page about the UPPMAX module system](../cluster_guides/modules.md)
 
-## Running Python
+## General things
 
-You can run Python in multiple ways:
+General things can be found on the [general Python page](pelle.md).
 
-- use Python to run a Python script
-- use Python in an interactive session
+- Running Python
+- Use Python to run a Python script
+- Use Python in an interactive session
+- Programming in Python
+- UPPMAX Python-related courses
+- Installing Python packages
 
-To *program* in Python, there are more ways,
-which are discussed at
-[the UPPMAX page on Python programming](python_programming.md)
-
-### Use Python to run a Python script
-
-You can run a Python script in the shell by:
-
-```console
-python example_script.py
-```
-
-or, if you loaded a `python3` module:
-
-```console
-python3 example_script.py
-```
-
-### Use Python in an interactive session
-
-You start a python session by typing:
-
-```console
-python
-```
-
-or
-
-```console
-python3
-```
-
-The python prompt looks like this:
-
-```python
->>>
-```
-
-Exit with `<Ctrl-D>`, `quit()` or `exit()`.
-
-## Programming in Python
-
-To program in Python, there are more ways,
-which are discussed at
-[the UPPMAX page on Python programming](python_programming.md)
-
-## UPPMAX Python-related courses
-
-See [the UPPMAX courses and workshops](../courses_workshops/courses_workshops.md)
-to find UPPMAX courses related to Python.
-
-## Installing Python packages
-
-See [the UPPMAX page on how to install Python packages](python_install_packages.md).
-
-
-
-## References
-
-- [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
-
-## Links
-
-- [Official Python documentation](https://docs.python.org/3/)
-- [Python forum](https://www.python.org/community/forums/)
-- [Free online book: 'How to Think Like a Computer Scientist'](https://openbookproject.net/thinkcs/python/english3e/index.html)
-- [UPPMAX TensorFlow guide](tensorflow.md)
-- [UPPMAX PyTorch guide](pytorch.md)
