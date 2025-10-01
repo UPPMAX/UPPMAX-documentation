@@ -12,8 +12,7 @@ tags:
 Rackham is one of the [UPPMAX clusters](uppmax_cluster.md)
 that is a general-purpose cluster.
 
-In the near future, Rackham will be replaced by [Pelle](pelle.md)
-and will be only accessible to Uppsala researchers.
+Rackham is replaced by [Pelle](pelle.md) at around 2025-10-01.
 
 - [Rackham's name](rackhams_name.md)
 - [Rackham's design](rackhams_design.md)
