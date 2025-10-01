@@ -248,7 +248,7 @@ module help Python/3.13.1-GCCcore-14.2.0
 
 ???- question "What is the output of `module help Python/3.13.1-GCCcore-14.2.0`?"
 
-    ```
+    ```console
     --------------------------------- Module Specific Help for "Python/3.13.1-GCCcore-14.2.0" ----------------------------------
     
     Description
@@ -415,7 +415,7 @@ is case-insensitive, hence `YourTool` and `yourtool` give similar results.
 
 ## General things
 
-General things can be found on the [general Python page](pelle.md).
+General things can be found on the [general Python page](python.md).
 
 - Running Python
 - Use Python to run a Python script
