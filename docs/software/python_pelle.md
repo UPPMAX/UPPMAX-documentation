@@ -2,15 +2,14 @@
 
 ![The Python logo](img/python_logo.png)
 
-Welcome to the UPPMAX Python user guide for Pelle cluster. 
+Welcome to the UPPMAX Python user guide for [Pelle cluster](../cluster_guides/pelle.md).
 
 Here we, as a start, present Pelle specific topics that are different from Bianca and Rackham
 
 We describe that there are [multiple Python versions](#python-versions).
 
 Then, we show how to [load Python](#loading-python)
-and to [load Python packages](#loading-python-packages)
-after which you can [run Python](#running-python).
+and to [load Python packages](#loading-python-packages).
 
 ## Python versions
 
@@ -249,6 +248,7 @@ module help Python/3.13.1-GCCcore-14.2.0
 
 ???- question "What is the output of `module help Python/3.13.1-GCCcore-14.2.0`?"
 
+    ```
     --------------------------------- Module Specific Help for "Python/3.13.1-GCCcore-14.2.0" ----------------------------------
     
     Description
@@ -266,6 +266,7 @@ module help Python/3.13.1-GCCcore-14.2.0
     ===================
     flit_core-3.10.1, packaging-24.2, pip-24.3.1, setuptools-75.6.0,
     setuptools_scm-8.1.0, tomli-2.2.1, typing_extensions-4.12.2, wheel-0.45.1
+    ```
 
 !!! warning
 
