@@ -13,6 +13,7 @@ RStudio is an IDE specialized for [the R programming language](r.md).
 
 Using RStudio differs per UPPMAX cluster:
 
+- [RStudio on Pelle](../software/rstudio_on_pelle.md)
 - [RStudio on Bianca](../software/rstudio_on_bianca.md)
 - [RStudio on Rackham](../software/rstudio_on_rackham.md)
 
@@ -51,6 +52,11 @@ RStudio module         |RStudio Builds documentation
 `RStudio/2023.06.2-561`|[Documentation](https://dailies.rstudio.com/version/2023.06.2+561.pro5/)
 
 ## Troubleshooting
+
+!!! warning
+
+    RStudio/2023.12.1-402 may not always work
+    
 
 ### RStudio runs partially
 
@@ -92,7 +98,7 @@ Check this by using [uquota.md](uquota.md).
     ---------------  -------------------  -------  --------  -----------  ----------
     home             /home/sven           GiB          24.7           32
     home             /home/sven           files       79180       300000
-    naiss2024-22-49  /proj/worldpeace     GiB           5.1          128
+    naiss2024-22-49  /proj/worldpeace     GiB           5.1          8
     naiss2024-22-49  /proj/worldpeace     files       20276       100000
     ```
 

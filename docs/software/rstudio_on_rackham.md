@@ -95,8 +95,13 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 In the terminal of the interactive session, do:
 
 ```bash
-module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
+module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
 ```
+
+!!! warning
+
+    RStudio/2023.12.1-402 may not always work
+
 
 ???- question "How does that look like?"
 
@@ -115,12 +120,12 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
     R_packages/4.3.1: more information and instructions to re-enable the packages pane (not recommended) see
     R_packages/4.3.1: 'module help R_packages/4.3.1'
 
-    RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
+    RStudio/2023.06.2-561: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.06.2-561' for more information
     ```
 
 ???- question "What happens if I do not load `R` or `R_packages`?"
 
-    Then you will have the sytem-wide R version 3.6.0
+    Then you will have the system-wide R version 3.6.0
     without any packages installed.
 
 ???- question "What does 'Sandboxing is not enabled for RStudio at UPPMAX' mean?"
