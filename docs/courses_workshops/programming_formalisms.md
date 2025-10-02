@@ -30,5 +30,5 @@ We will cover theory with bridging practical examples and applications to enhanc
 - **Where:** Online (Zoom). The link will be sent to registered participants prior to the course.
 - **Online on-boarding:** TBD. Get help with [setups](https://uppmax.github.io/programming_formalisms/prereqs/).
 
-- Registration form**: coming
+- [**Registration form**](https://forms.gle/dgZ25UJDmJWsufTP8)
 
