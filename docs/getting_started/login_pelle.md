@@ -10,20 +10,6 @@ tags:
 There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
 Here we describe how to log in to [Pelle](../cluster_guides/pelle.md).
 
-!!! warning "Pelle is not ready yet"
-
-    - Pelle is not completely ready yet,
-    hence the content of this page will change.
-    - Also, the content will be shorter and sloppier, until procedures
-    solidify.
-    - The instructions below will not work as of today.
-
-!!! info "Test users are testing the Pelle environment"
-
-    - We have pilot test users testing Pelle right now.
-    - Soon all Pelle users will be let in.
-    - In addition to SSH also ThinLinc will be available
-
 
 - [Prerequisites](pelle_usage_prerequisites.md) describes what is needed before one can access Pelle
 - [Which way to login?](#which-way-to-login)
@@ -37,7 +23,7 @@ There are multiple ways to log in to [Pelle](../cluster_guides/pelle.md):
 
 Login                                                                         |Description                                   |Screenshot
 ------------------------------------------------------------------------------|----------------------------------------------|---------------------------------
-:construction: [Website](login_pelle_remote_desktop_website.md)               |:construction: Does not work yet. Remote desktop, no installation needed, slow  |:construction: Under construction
+[Website](login_pelle_remote_desktop_website.md)                              |Does not work yet. Remote desktop, no installation needed, slow  |Under construction
 [Terminal](login_pelle_console_password.md)                                   |Console environment, recommended              |![The Pelle console environment](./img/login_pelle_via_terminal_terminal_414_x_247.png)
 [Local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)  |Remote desktop, recommended, need installation|![The Pelle remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_pelle.png)
 
@@ -68,7 +54,7 @@ flowchart TD
 
 The procedures can be found at:
 
-- :construction: Does not work yet. [1.Login to the Pelle remote desktop environment using the website](login_pelle_remote_desktop_website.md)
+- [1.Login to the Pelle remote desktop environment using the website](login_pelle_remote_desktop_website.md)
 - [2.Login to the Pelle remote desktop environment using a local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)
 - [3.Login to the Pelle console environment with a password](login_pelle_console_password.md).
 - [4.Login to the Pelle console environment with an SSH key](login_pelle_console_ssh_key.md)
