@@ -45,7 +45,6 @@ nav:
       - Transfer to/from Pelle: cluster_guides/transfer_pelle.md
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
-      - Migrate to Dardel (at PDC): cluster_guides/dardel_migration.md
       - Webexport: cluster_guides/webexport.md
   - Software:
     - Overview: software/overview.md
