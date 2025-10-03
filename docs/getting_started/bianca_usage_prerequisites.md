@@ -84,3 +84,7 @@ is that you need to know your UPPMAX password.
 If you change it, it may take up to an hour before changes are reflected in Bianca.
 
 For advice on handling sensitive personal data correctly on Bianca, see our FAQ page.
+
+## Second-factor identification or TOTP
+
+[UPPMAX 2FA](get_uppmax_2fa.md)
