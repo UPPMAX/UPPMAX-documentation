@@ -32,7 +32,7 @@ In a webbrowser, go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax
 - Press "Log in" button
 - Next page will ask for "Second factor (TOTP UPPMAX):"
 - Type your [UPPMAX 2FA](../getting_started/get_uppmax_2fa.md) (e.g. `123456`)
- 
+
 After login, you will be on a [login node](../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
