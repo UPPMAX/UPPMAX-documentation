@@ -3,6 +3,7 @@ tags:
   - 2FA
   - MFA
   - UPPMAX
+  - TOTP
 ---
 
 # Setting up two factor authentication for UPPMAX

@@ -4,6 +4,7 @@ tags:
   - MFA
   - UPPMAX
   - QR
+  - TOTP
 ---
 
 # Setting up the QR code for two factor authentication for UPPMAX
