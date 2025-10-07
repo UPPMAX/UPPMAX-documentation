@@ -113,7 +113,7 @@ Some online tutorials and courses:
 To start MATLAB with its usual graphical interface (GUI), start it with:
 
 ```console
-matlab
+matlab %
 ```
 
 If you will use significant resources, like processor or RAM, you should start an interactive session on a calculation node. Use at least 2 cores (-n 2), when running interactive. Otherwise MATLAB may not start. You can use several cores if you will do some parallel calculations (see parallel section below). Example:
@@ -179,18 +179,26 @@ Two commands in MATLAB are important to make your code parallel:
 - **``parfor``** will distribute your "for loop" among several workers (cores)
 - **``parfeval``** runs a section or a function on workers in the background
 
-### Use interactive matlab
+### Use interactive MATLAB
 
 First, start an interactive session on a calculation node with, for instance 8 cores by:
 
-```console
-interactive -A <project> -p core -n 8 -t 3:00:00
-```
+=== Bianca/Rackham
+
+    ```console
+    interactive -A <project> -p core -n 8 -t 3:00:00
+    ```
+
+=== Pelle
+
+    ```console
+    interactive -A <project> -n 8 -t 3:00:00
+    ```
 
 In MATLAB open a parallel pool of 8 local workers:
 
 ```matlab
->> p = parpool(8)
+>> p = parpool("local")
 ```
 
 What happens if you try to run the above command twice?  You can't run multiple parallel pools at the same time. Query the number of workers in the parallel pool:
@@ -255,57 +263,138 @@ and the second, little longer, saved in ``parallel_example_hvy.m``:
 Begin by running the command
 
 ```matlab
->> configCluster %(on Bianca it will look a little different)
+>> c=parcluster 
 ```
 
-in Matlab Command Window to choose a cluster configuration. Matlab will set up a configuration and will then print out some instructions, seen below. You can also set environments that is read if you don't specify it. Go to HOME > ENVIRONMENT > Parallel > Parallel preferences.
+Output:
 
 ```matlab
-       [1] rackham
-       [2] snowy
-    Select a cluster [1-2]: 1
-    >>
-    >> c = parcluster('rackham'); %on Bianca 'bianca Rxxxxx'
-    >> c.AdditionalProperties.AccountName = 'snic2021-X-YYY';
-    >> c.AdditionalProperties.QueueName = 'node';
-    >> c.AdditionalProperties.WallTime = '00:10:00';
-    >> c.saveProfile
-    >> job = c.batch(@parallel_example, 1, {90, 5}, 'pool', 19) %19 is for 20 cores. On Snowy and Bianca use 15.
-    >> job.wait
-    >> job.fetchOutputs{:}
+c =
+
+ Generic Cluster
+
+    Properties:
+
+                   Profile: UPPMAX
+                  Modified: false
+                      Host: sens2017625-b4.uppmax.uu.se
+                NumWorkers: 100000
+                NumThreads: 1
+
+        JobStorageLocation: /home/bjornc/.matlab/generic_cluster_jobs/uppmax
+         ClusterMatlabRoot: /sw/apps/matlab/x86_64/R2023b
+           OperatingSystem: unix
+
+   RequiresOnlineLicensing: false
+   PreferredPoolNumWorkers: 32
+     PluginScriptsLocation: /sw/apps/matlab/x86_64/support_packages/matlab_parallel_server/scripts/Integrat...
+      AdditionalProperties: List properties
+
+    Associated Jobs:
+
+            Number Pending: 0
+             Number Queued: 0
+            Number Running: 0
+           Number Finished: 4
 ```
 
-Follow them. These inform you what is needed in your script or in command line to run in parallel on the cluster. The line ``c.batch(@parallel_example, 1, {90, 5}, 'pool', 19)`` can be understood as put the function ``parallel_example`` to the batch queue. The arguments to batch are:
+- Set some additional parameters related to Slurm.
+
+=== "Bianca"
+
+    ```matlab
+    
+    >> % Specify the account
+    >> c.AdditionalProperties.AccountName = '<sens project>';
+
+    >> % Specify the wall time (e.g., 30 minutes
+    >> c.AdditionalProperties.WallTime = '00:30:00';
+    
+    >> % Specify cores per node
+    >> c.AdditionalProperties.ProcsPerNode = 16;
+
+    [OPTIONAL]
+    
+    >> % Specify the partition
+    >> c.AdditionalProperties.Partition = 'devcore';
+    
+    
+    >> % Specify number of GPUs
+    >> c.AdditionalProperties.GPUsPerNode = 1;
+    >> c.AdditionalProperties.GPUCard = 'gpu-card';
+    ```
+
+=== "Pelle"
+
+    ```matlab
+    
+    >> % Specify the account
+    >> c.AdditionalProperties.AccountName = '<uppmax project>';
+
+    >> % Specify the wall time (e.g., 1 day, 5 hours, 30 minutes
+    >> c.AdditionalProperties.WallTime = '00:30:00';
+    
+    >> % Specify cores per node
+    >> c.AdditionalProperties.ProcsPerNode = 96;
+
+    [OPTIONAL]
+
+    >> % Specify the partition "fat"
+    >> c.AdditionalProperties.Partition = 'fat';
+    
+    
+    >> % Ask for GPUs 
+    >> % Specify the partition "gpu"
+    >> c.AdditionalProperties.Partition = 'gpu';
+    >> c.AdditionalProperties.GPUsPerNode = 1;
+    >> c.AdditionalProperties.GPUCard = 'gpu-card';
+    ```
+
+- Save the profile
 
 ```matlab
-    c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', no of additional workers to the master)
-
-    c.batch(@parallel_example, 1 (t=toc(t0)), {nLoopIters=90, sleepTime=5}, 'pool', 19)
+>> c.saveProfile
 ```
+
+- Start the batch job with the size of a node
+
+```matlab
+    c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', number of  of **additional** workers to the master)
+```
+
+Example:
+
+=== "Bianca"
+
+    c.batch(@parallel_example, 1, {90, 5}, 'pool', 15)
+
+=== "Pelle"
+
+    c.batch(@parallel_example, 1, {90, 5}, 'pool', 95)
 
 To see the output to screen from jobs, use job.Tasks.Diary. Output from the submitted function is fetched with 'fetchOutputs()'.
 
+ <!--- Does not work
+
+#### Several nodes 
+
 For jobs using several nodes (in this case 2) you may modify the call to:
 
-```matlab
-    >> configCluster
-       [1] rackham
-       [2] snowy
-    Select a cluster [1-2]: 1
-    >>
-    >> c = parcluster('rackham'); %on Bianca 'bianca R<version>'
-    >> c.AdditionalProperties.AccountName = 'snic2021-X-YYY';
-    >> c.AdditionalProperties.QueueName = 'node';
-    >> c.AdditionalProperties.WallTime = '00:10:00';
-    >> c.saveProfile
-    >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 39)% 31 on Bianca or Snowy
-    >> job.wait
-    >> job.fetchOutputs{:}
-```
+=== "Bianca"
+
+    >> c.AdditionalProperties.Partition = 'devel';
+    >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 31)% 31 on Bianca or Snowy
+
+=== "Pelle"
+
+    No changes of ``AdditionProperties``
+    >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 191)
 
 where parallel_example-hvy.m was the script presented above.
 
 For the moment jobs are hard coded to be node jobs. This means that if you request 21 tasks instead (20 + 1) you will get a 2 node job, but only 1 core will be used on the second node. In this case you'd obviously request 40 tasks (39 + 1) instead.
+
+--->
 
 For more information about Matlab's Distributed Computing features please see [Matlab's HPC Portal](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav).
 
