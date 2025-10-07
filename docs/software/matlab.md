@@ -374,7 +374,6 @@ Example:
 
 To see the output to screen from jobs, use job.Tasks.Diary. Output from the submitted function is fetched with 'fetchOutputs()'.
 
- <!--- Does not work
 
 #### Several nodes 
 
@@ -382,19 +381,27 @@ For jobs using several nodes (in this case 2) you may modify the call to:
 
 === "Bianca"
 
-    >> c.AdditionalProperties.Partition = 'devel';
+    ```matlab
+    >> c.AdditionalProperties.Partition = 'node';
     >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 31)% 31 on Bianca or Snowy
+    ```
+
+    For the moment jobs are hard coded to be node jobs. This means that if you request 17 tasks instead (16 + 1) you will get a 2 node job, but only 1 core will be used on the second node. In this case you'd obviously request 32 tasks (31 + 1) instead.
+
 
 === "Pelle"
 
+    ```
     No changes of ``AdditionProperties``
     >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 191)
+    ```
+
+    For the moment jobs are hard coded to be node jobs. This means that if you request 97 tasks instead (96 + 1) you will get a 2 node job, but only 1 core will be used on the second node. In this case you'd obviously request 192 tasks (191 + 1) instead.
 
 where parallel_example-hvy.m was the script presented above.
 
 For the moment jobs are hard coded to be node jobs. This means that if you request 21 tasks instead (20 + 1) you will get a 2 node job, but only 1 core will be used on the second node. In this case you'd obviously request 40 tasks (39 + 1) instead.
 
---->
 
 For more information about Matlab's Distributed Computing features please see [Matlab's HPC Portal](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav).
 
