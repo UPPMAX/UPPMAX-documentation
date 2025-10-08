@@ -14,10 +14,6 @@ tags:
 
 UPPMAX application experts want to share their skills in a 3-day series of lectures. We will help you move from being a Linux novice to an UPPMAX expert. If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. The lectures covering Linux and bash scripting are cluster-agnostic and may be attended by non-UPPMAX users as well. It is possible to sign up only for the lectures that are interesting to you.
 
-!!! warning "August 2025 is cancelled"
-
-    The August 2025 course has been cancelled.
-
 When: October 15-17, 2025.
 
 Where: online via Zoom.
