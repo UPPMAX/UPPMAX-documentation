@@ -89,15 +89,31 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
 
 ## 2. Type your UPPMAX password
 
-Type your UPPMAX password and press enter.
-You will see no asterisks to indicate how many
-characters you've typed in.
+Type your UPPMAX password.
 
-If you are outside
-[the university networks](../getting_started/get_inside_sunet.md)
-you will be asked for your UPPMAX 2-factor authentication number.
+???- question "How does this look like?"
 
-## 3. You are in
+    ```bash
+    Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
+
+    (sven@pelle.uppmax.uu.se) Password:
+    (sven@pelle.uppmax.uu.se)
+    ```
+
+   After which you'll asked for your TOTP. Go to the next step.
+
+## 3. Type your TOTP
+
+Type the TOTP from the UPPMAX 2-factor authentication service,
+for example `123456`, then press enter.
+
+???- question "How does this look like?"
+
+    ```bash
+    Second factor (TOTP UPPMAX):
+    ```
+
+## 4. You are in
 
 Enjoy! You are in! Or, to be precise,
 you are in your home folder on a Pelle [login node](../cluster_guides/login_node.md).
