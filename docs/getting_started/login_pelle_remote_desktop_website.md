@@ -30,7 +30,7 @@ In a webbrowser, go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax
 
 ???- question "How does that look like?"
 
-    ![Pelle website login screen](login_pelle_remote_desktop_website_1.png)
+    ![Pelle website login screen](img/login_pelle_remote_desktop_website_1.png)
 
 ## 2. Fill in your name and password
 
@@ -43,7 +43,7 @@ fill in your details:
 
 ???- question "How does that look like?"
 
-    ![Pelle website login screen with details](login_pelle_remote_desktop_website_2.png)
+    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_2.png)
 
 ## 3. Fill in your time-based one-time password
 
@@ -55,7 +55,7 @@ e.g. `123456`.
 
 ???- question "How does that look like?"
 
-    ![Pelle website login screen with details](login_pelle_remote_desktop_website_4.png)
+    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_4.png)
 
 ## 4. (sometimes) pick a profile
 
@@ -65,7 +65,7 @@ At the first dialog, click 'Forward'.
 
 ???- question "How does that look like?"
 
-    ![Pelle website login screen with details](login_pelle_remote_desktop_website_5.png)
+    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_5.png)
 
 
 At the second dialog, pick your favorite desktop environment. Both are
@@ -73,7 +73,7 @@ equally fine.
 
 ???- question "How does that look like?"
 
-    ![Pelle website login screen with details](login_pelle_remote_desktop_website_6.png)
+    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_6.png)
 
 ## 5. Welcome on Pelle's login node
 
@@ -81,7 +81,7 @@ Welcome on a Pelle [login node](../cluster_guides/login_node.md)!
 
 ???- question "How does that look like?"
 
-    ![Pelle website login screen with details](login_pelle_remote_desktop_website_7.png)
+    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_7.png)
 
 !!! note "How to behave on a login node"
 
