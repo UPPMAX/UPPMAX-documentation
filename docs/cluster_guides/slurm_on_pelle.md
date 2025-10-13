@@ -57,7 +57,7 @@ Its allocates an ordinary CPU node (allows one to use one or more cores, up to 9
 !!! info
 
     The compute node CPUs have Simultaneous multithreading (SMT) enabled. Each CPU core runs two Threads. In Slurm the Threads are
-referred to as CPUs. [Learn more here about SMT](slurm_on_pelle.md#SMT)
+referred to as CPUs. [Learn more here about SMT](slurm_on_pelle.md#smt)
 
 #### Architecture
 
