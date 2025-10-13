@@ -18,7 +18,8 @@ This page shows you how to do so using [`scp`](scp.md).
 
 ???- question "Prefer a video?"
 
-    See this procedure as a video at [YouTube](https://youtu.be/tUr-gTXmpAA)
+    Watch the YouTube video
+    [Data transfer to/from Pelle using SCP](https://youtu.be/QKz7CTIJ2Ok)
 
 ### 1. Start a terminal on your local computer
 
