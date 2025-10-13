@@ -18,7 +18,8 @@ via a web browser.
 
 ???- question "Prefer a video?"
 
-    TODO
+    Watch the YouTube video
+    [Log in to Pelle's remote desktop via a webbrowser](https://youtu.be/XjLMA0cAu1o)
 
 This is a procedure with one step.
 Most work will be to fulfill all [Pelle usage prerequisites](pelle_usage_prerequisites.md).
