@@ -18,15 +18,7 @@ Course dates are (or should be) provided at each course's website.
 
 ## Upcoming courses administered by UPPMAX
 
-### September
-
-[Log in and transfer files to/from HPC Clusters <br> _Sep 5_](naiss_transfer.md){ .md-button .md-button--primary }
-
-[Introduction to Bianca: Handling Sensitive Research Data <br> _Sep 15_](bianca_intro.md){ .md-button .md-button--primary }
-
 ### October
-
-[Introduction to running R, MATLAB, and Julia in HPC <br> _Oct 6-8 + 10_](R_matlab_julia.md){ .md-button .md-button--primary }
 
 [Basic Singularity: Running and building Singularity containers <br> _Oct 13_](https://docs.uppmax.uu.se/courses_workshops/singularity/){ .md-button .md-button--primary }
 
