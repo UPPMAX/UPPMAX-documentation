@@ -375,7 +375,7 @@ Example:
 To see the output to screen from jobs, use job.Tasks.Diary. Output from the submitted function is fetched with 'fetchOutputs()'.
 
 
-#### Several nodes 
+#### Several nodes
 
 For jobs using several nodes (in this case 2) you may modify the call to:
 
