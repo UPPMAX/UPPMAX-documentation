@@ -8,7 +8,7 @@ tags:
 
 # File transfer to/from Pelle
 
-There are multiple ways to transfer files to/from Pelle:
+There are multiple ways to transfer files to/from [Pelle](pelle.md):
 
 Method                                                        |Features
 --------------------------------------------------------------|---------------------------------------------
