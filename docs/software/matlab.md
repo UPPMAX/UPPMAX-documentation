@@ -391,7 +391,7 @@ For jobs using several nodes (in this case 2) you may modify the call to:
 
 === "Pelle"
 
-    ```
+    ```matlab
     No changes of ``AdditionProperties``
     >> job = c.batch(@parallel_example_hvy, 1, {1000, 1000000}, 'pool', 191)
     ```
