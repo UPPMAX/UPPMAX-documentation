@@ -30,7 +30,7 @@ Here are step-by-step guides to start these IDEs on Pelle:
 IDE                                           |Languages
 ----------------------------------------------|----------------
 [Jupyter](../software/jupyter.md)             |Python
-[RStudio](../software/rstudio_on_pelle)       |R
+[RStudio](../software/rstudio_on_pelle.md)    |R
 VSCode                                        |General-purpose
 :no_entry: VSCodium                           |General-purpose
 
