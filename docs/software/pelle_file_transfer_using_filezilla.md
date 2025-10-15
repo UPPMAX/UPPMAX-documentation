@@ -58,14 +58,13 @@ In FileZilla's site manager:
 - for that site, use all standards, except:
     - Set protocol to 'SFTP - SSH File Transfer Protocol'
     - Set host to `pelle.uppmax.uu.se`
-    - Set user to your UPPMAX username, e.g. `sven`
-    - Set password to your UPPMAX password, e.g. `VerySecret`
+    - Login type: Interactive
 
 ???- tip "How does that look like?"
 
     It looks similar to this:
 
-    ![FileZilla configured for Pelle](./img/filezilla_setup_pelle_sven.png)`
+    ![FileZilla configured for Pelle](./img/filezilla_setup_pelle_sven_interactive.png)
 
 ## 5. Connect to the site
 
