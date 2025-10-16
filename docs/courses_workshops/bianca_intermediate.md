@@ -16,9 +16,9 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
-**Registration form**: Closing Nov 14 (link on its way)
+[**Registration form**](https://forms.gle/f1czQGLyEcGrAQWs9): Closing Fri Nov 14
 
-The workshop will consist of short lectures and Q&A sessions.
+The workshop will consist of short lectures, exercises and Q&A sessions.
 
 ## Tentative schedule
 
