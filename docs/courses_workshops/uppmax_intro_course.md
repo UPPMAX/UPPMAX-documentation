@@ -26,7 +26,7 @@ Where: online via Zoom.
 |                | Wednesday, October 15        | Thursday, October 16  | Friday, October 17  |
 |:---------------|:-----------------------------|:----------------------|:------------------------|
 | **Morning**    | [Intro to UPPMAX and Linux 1/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek | [Linux II](https://www.uu.se/download/18.57591c9d18f3ec99a0521715/1715115920644/c_560271-l_1-k_uppmax-linux-ii.pptx.pdf)<br />Douglas Scofield        | [Bash Scripting](https://www.uu.se/download/18.57591c9d18f3ec99a052171f/1715115979757/c_560271-l_1-k_uppmax-bash-scripts.pptx.pdf)<br />Douglas Scofield          |
-| **Afternoon**  | [Intro to UPPMAX and Linux 2/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek | [Linux III](https://www.uu.se/download/18.57591c9d18f3ec99a0521716/1715115950709/c_560271-l_1-k_uppmax-linux-iii.pptx.pdf)<br />Douglas Scofield      | [Slurm at UPPMAX](https://www.uu.se/download/18.57591c9d18f3ec99a0521784/1715116006615/c_560271-l_1-k_uppmax-slurm-2024-01.pdf)<br />Diana Iusan         |
+| **Afternoon**  | [Intro to UPPMAX and Linux 2/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek | [Linux III](https://www.uu.se/download/18.57591c9d18f3ec99a0521716/1715115950709/c_560271-l_1-k_uppmax-linux-iii.pptx.pdf)<br />Douglas Scofield      | [Slurm at UPPMAX](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/courses_workshops/UPPMAX-Slurm-2025-10.pdf)<br />Diana Iusan         |
 
 The lectures are scheduled 09:00 to 12:00 and 13:00 to 16:00 daily.
 
