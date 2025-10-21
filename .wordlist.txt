@@ -405,6 +405,8 @@ SRA
 sratools
 nt
 BLASTDB
+dropin
+servicedesk
 blastp
 DIAMOND's
 illumina's
