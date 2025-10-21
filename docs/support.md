@@ -20,5 +20,6 @@ I need UPPMAX help and I have no NAISS account|Email us at `support@uppmax.uu.se
 I need UPPMAX help from a human               |[Visit the UPPMAX dropin](dropin.md)
 I need UPPMAX resources for a course          |[Follow the UPPMAX guide on education and training projects](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/course)
 I need general IT help                        |[Request for help at the Uppsala University IT servicedesk](http://support.uu.se/)
+I want to contribute                          |[Follow the UPPMAX contributing guide](CONTRIBUTING.md)
 
 <!-- markdownlint-enable MD013 -->
