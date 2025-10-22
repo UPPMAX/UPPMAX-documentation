@@ -15,6 +15,17 @@ There are multiple ways to [log in to Bianca](login_bianca.md).
 This page describes how to [log in to Bianca](login_bianca.md)
 using a [terminal](../software/terminal.md) and an SSH key pair.
 
+!!! warning "Unsure on which platforms this works"
+
+    It is unsure on which operating systems this works.
+
+    Operating system|Status
+    ----------------|---------------------
+    Linux, Ubuntu   |Confirmed not to work
+    MacOS           |Rumored not to work
+    Windows         |Rumored to work
+
+
 ## 1. Get inside SUNET
 
 When inside SUNET, one can access a Bianca console environment
