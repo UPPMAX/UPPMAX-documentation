@@ -21,7 +21,7 @@ how to fix Slurm errors.
 
 !!! warning
 
-    - To prevent jobs occupying nodes for too long during the test period we have reduced the max timelimit for jobs to 48 hours.
+    - The max timelimit for jobs is 10 days
     - This is only during the pilot test period, after this the allowed time limit will be increased.
 
 ## `sbatch` (and `interactive`) on Pelle
