@@ -54,6 +54,11 @@ The `pelle` partition is default so you can omit specifying ``-p`` or ``--partit
 
 Its allocates an ordinary CPU node (allows one to use one or more cores, up to 96 cores).
 
+!!! warning
+
+    - Time limit is 10 days on the CPU nodes. 
+    - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
+
 !!! info
 
     The compute node CPUs have Simultaneous multithreading (SMT) enabled. Each CPU core runs two Threads. In Slurm the Threads are
@@ -133,6 +138,12 @@ of the job to be something less than a full node.
 ### The `fat` partition
 
 With the ``fat`` partition you reach compute nodes with more memory.
+
+!!! warning
+
+    - Time limit is 10 days on the fat nodes. 
+    - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
+
 
 Pelle has two fat nodes. One with 2 TiB of memory and one with 3 TiB.
 
