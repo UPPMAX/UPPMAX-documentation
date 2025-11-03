@@ -21,8 +21,8 @@ how to fix Slurm errors.
 
 !!! warning
 
-    - The max timelimit for jobs is 10 days
-    - This is only during the pilot test period, after this the allowed time limit will be increased.
+    - The max time limit for jobs is 10 days.
+       - GPU jobs has a time limit of 2 days.
 
 ## `sbatch` (and `interactive`) on Pelle
 
@@ -151,6 +151,11 @@ Pelle has two fat nodes. One with 2 TiB of memory and one with 3 TiB.
 ### The ``gpu`` partition
 
 With the ``gpu`` partition you reach the nodes with GPUs.
+
+!!! warning
+
+    - Time limit is 2 days. 
+    - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
 
 There are two kinds of GPUs at the moment.
 
@@ -297,6 +302,5 @@ Same examples as before but with `--threads-per-core=1`:
 When doing this you should launch your tasks using `srun` to ensure
 your processes gets pinned to the correct CPUs (threads), one per
 core.
-
 
 Again, what is shown here is a minimal use of [`sbatch`](../software/sbatch.md).
