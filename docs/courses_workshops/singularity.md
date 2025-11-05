@@ -23,9 +23,9 @@ Please, follow the center provided [instructions](https://uppmax.github.io/Basic
 
 🌍 Place: Zoom: link will be sent to applicants
 
-📅 Date and time: 13 October, 2025: 9:15-12:00; 13:15-16:00
+📅 Date and time: 13 February, 2026: 9:15-12:00; 13:15-16:00
 
-📝 [Registration form](https://forms.gle/6oA4AKBaF6JmVQ2L6)
+📝 [Registration form](https://forms.gle/3XJ5xstF3rbuZyaz6)
 
 ## Contacts for the workshop
 
