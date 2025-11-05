@@ -18,16 +18,6 @@ Course dates are (or should be) provided at each course's website.
 
 ## Upcoming courses administered by UPPMAX
 
-### October
-
-[Basic Singularity: Running and building Singularity containers <br> _Oct 13_](https://docs.uppmax.uu.se/courses_workshops/singularity/){ .md-button .md-button--primary }
-
-[Introduction to Python <br> _Oct 14_](intro_to_python.md){ .md-button .md-button--primary }
-
-[Introduction to Linux and UPPMAX <br> _Oct 15-17_](uppmax_intro_course.md){ .md-button .md-button--primary }
-
-[Programming formalisms <br> _Oct 23-24 + 27-29_](programming_formalisms.md){ .md-button .md-button--primary }
-
 ### November
 
 [Log in and transfer files to/from HPC Clusters <br> _Nov 14_](naiss_transfer.md){ .md-button .md-button--primary }
@@ -50,7 +40,6 @@ such as Rackham and Snowy.
 - [Introduction to Linux and UPPMAX](uppmax_intro_course.md)
 - [Whisper for transcriptions](https://docs.uppmax.uu.se/software/whisper)
 
-
 ### NAISS-Sens
 
 The courses on how to use Bianca,
@@ -71,7 +60,6 @@ a NAISS HPC cluster for sensitive data.
 
 - [Intro to Python](intro_to_python.md)
 - [Programming formalisms](programming_formalisms.md)
-
 
 ### Programming in HPC environments
 
