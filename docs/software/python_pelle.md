@@ -9,7 +9,19 @@ Here we, as a start, present Pelle specific topics that are different from Bianc
 We describe that there are [multiple Python versions](#python-versions).
 
 Then, we show how to [load Python](#loading-python)
-and to [load Python packages](#loading-python-packages).
+and to [deal with Python packages](#python-packages) 
+and how to include more Python packgaes through [loading Python bundles](#load-python-bundle-modules) .
+
+!!! info 
+
+    General things can be found on the [general Python page](python.md).
+
+    - Running Python
+    - Use Python to run a Python script
+    - Use Python in an interactive session
+    - Programming in Python
+    - UPPMAX Python-related courses
+    - Installing Python packages
 
 ## Python versions
 
