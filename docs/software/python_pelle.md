@@ -331,7 +331,7 @@ is case-insensitive, hence `YourTool` and `yourtool` give similar results.
 ## Load Python bundle modules
 
 - We have so-called Bundle modules containing python packages.
-- To get a python package that is not available in the base insitallation, try to load a Python bundle.
+- To get a python package that is not available in the base installation, try to load a Python bundle.
 - If you for instance need ``numpy``, ``pandas`` and matplotlib, do:
 
 ```console
