@@ -22,7 +22,7 @@ how to fix Slurm errors.
 !!! warning
 
     - The max time limit for jobs is 10 days.
-       - GPU jobs has a time limit of 2 days.
+        - GPU jobs has a time limit of 2 days.
 
 ## `sbatch` (and `interactive`) on Pelle
 
@@ -56,7 +56,7 @@ Its allocates an ordinary CPU node (allows one to use one or more cores, up to 9
 
 !!! warning
 
-    - Time limit is 10 days on the CPU nodes. 
+    - Time limit is 10 days on the CPU nodes.
     - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
 
 !!! info
@@ -141,7 +141,7 @@ With the ``fat`` partition you reach compute nodes with more memory.
 
 !!! warning
 
-    - Time limit is 10 days on the fat nodes. 
+    - Time limit is 10 days on the fat nodes.
     - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
 
 
@@ -165,7 +165,7 @@ With the ``gpu`` partition you reach the nodes with GPUs.
 
 !!! warning
 
-    - Time limit is 2 days. 
+    - Time limit is 2 days.
     - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
 
 There are two kinds of GPUs at the moment.
