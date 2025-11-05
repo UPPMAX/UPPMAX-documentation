@@ -38,7 +38,6 @@ The courses on how to use our local clusters,
 such as Rackham and Snowy.
 
 - [Introduction to Linux and UPPMAX](uppmax_intro_course.md)
-- [Whisper for transcriptions](https://docs.uppmax.uu.se/software/whisper)
 
 ### NAISS-Sens
 
@@ -50,6 +49,7 @@ a NAISS HPC cluster for sensitive data.
 
 ### Learn Linux and tools
 
+- [Whisper for transcriptions](https://docs.uppmax.uu.se/software/whisper)
 - [NAISS Introduction to LINUX](https://www.hpc2n.umu.se/events/courses/2025/spring/2/linux-intro)
 - [NAISS Intermediate Bash and Linux](https://www.hpc2n.umu.se/events/courses/2025/spring/intermediate-linux)
 - [NAISS File transfer](naiss_transfer.md)
