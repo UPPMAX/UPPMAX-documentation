@@ -1094,3 +1094,11 @@ Superchips
 HPL
 Linpack
 ampliseq
+Biopython
+biopython
+foss
+gfbf
+JupyterLab
+gompi
+foss
+sympy
