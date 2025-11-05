@@ -143,34 +143,12 @@ python
 
     The sections below needs updates
 
-## Loading Python package modules
+## Python packages
 
 !!! note "Terminology"
 
     A Python package consists out of one or more Python modules.
-    in this document, we avoid using this term,
-    to avoid confusion with [the UPPMAX modules](../cluster_guides/modules.md).
-
-For more complex complex Python packages,
-there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
-
-- `python_GIS_packages`: for geographic information system packages
-- `python_ML_packages`: for machine learning Python packages
-
-???- question "How could I find these modules myself?"
-
-    Use:
-
-    ```bash
-    module spider packages
-    ```
-
-## Loading Python packages
-
-!!! note "Terminology"
-
-    A Python package consists out of one or more Python modules.
-    in this document, we avoid using this term,
+    In this document, we avoid using this term,
     to avoid confusion with [the UPPMAX modules](../cluster_guides/modules.md).
 
 Many scientific tools are distributed as Python packages,
@@ -328,67 +306,7 @@ for example [the TensorFlow Python libraries](tensorflow.md),
 which are part of the `python_ML_packages/[version]-{cpu,gpu}`,
 for example `python_ML_packages/3.11.8-cpu`.
 
-???- question "Want to see a list of Python packages in `python_ML_packages/3.11.8-cpu` that are not in `python/3.11.8`?"
 
-    Here you go:
-
-    - absl-py
-    - array-record
-    - astunparse
-    - cachetools
-    - cons
-    - dill
-    - dm-tree
-    - ducc0
-    - etils
-    - etuples
-    - flatbuffers
-    - gast
-    - google-auth
-    - google-auth-oauthlib
-    - google-pasta
-    - googleapis-common-protos
-    - grpcio
-    - imbalanced-learn
-    - importlib_resources
-    - keras
-    - libclang
-    - llvmlite
-    - logical-unification
-    - miniKanren
-    - ml-dtypes
-    - multipledispatch
-    - nlp
-    - numba
-    - oauthlib
-    - opt-einsum
-    - patsy
-    - promise
-    - protobuf
-    - pyasn1
-    - pyasn1-modules
-    - pytensor
-    - requests-oauthlib
-    - rsa
-    - scikit-learn
-    - seaborn
-    - statsmodels
-    - tensorboard
-    - tensorboard-data-server
-    - tensorflow-cpu
-    - tensorflow-datasets
-    - tensorflow-estimator
-    - tensorflow-io-gcs-filesyst
-    - tensorflow-metadata
-    - tensorflow-probability
-    - termcolor
-    - threadpoolctl
-    - toml
-    - torch
-    - torchaudio
-    - torchvision
-    - wrapt
-    - xxhash
 
 It may not always be easy to find your Python package within the many modules.
 Do not hesitate to [contact support](../support.md)
@@ -412,6 +330,85 @@ is case-insensitive, hence `YourTool` and `yourtool` give similar results.
 ???- question "What are UPPMAX modules?"
 
     See [the page about the UPPMAX module system](../cluster_guides/modules.md)
+
+## Loading Python bundle modules
+
+For more complex complex Python packages,
+there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
+
+###  Biopython
+
+Biopython is a set of freely available tools for biological
+ computation written in Python by an international team of developers. It is
+ a distributed collaborative effort to develop Python libraries and
+ applications which address the needs of current and future work in
+ bioinformatics.
+ - Homepage: https://www.biopython.org
+
+#### Main packages
+
+- biopython
+  
+#### Installed versions
+
+##### 1.84-foss-2024a
+
+Some dependencies
+
+- Python/3.12.3-GCCcore-13.3.0
+- SciPy-bundle/2024.05-gfbf-2024a
+- Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+
+
+###  IPython
+
+#### Installed versions
+
+##### 8.28.0-GCCcore-13.3.0
+
+
+###  JupyterLab
+
+#### Installed versions
+
+##### /4.2.5-GCCcore-13.3.0
+
+###  mpi4py
+
+#### Installed versions
+
+##### 3.1.5-gompi-2023b
+##### 4.0.1-gompi-2024a 
+    
+###  Python-bundle-PyPI
+
+#### Installed versions
+
+##### 2023.06-GCCcore-12.3.0
+##### 2023.10-GCCcore-13.2.0
+##### 2023.10-GCCcore-13.3.0
+##### 2024.06-GCCcore-13.3.0     (D)
+    
+###  PyTorch
+
+#### Installed versions
+
+##### 2.6.0-foss-2024a
+
+###  SciPy-bundle
+
+#### Installed versions
+
+##### 2023.07-gfbf-2023a
+##### 2023.11-gfbf-2023b
+##### 2024.05-gfbf-2024a               (D)
+    
+###  sympy
+
+#### Installed versions
+
+##### 1.13.3-gfbf-2024a
+
 
 ## General things
 
