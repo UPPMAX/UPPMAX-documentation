@@ -9,10 +9,10 @@ Here we, as a start, present Pelle specific topics that are different from Bianc
 We describe that there are [multiple Python versions](#python-versions).
 
 Then, we show how to [load Python](#loading-python)
-and to [deal with Python packages](#python-packages) 
-and how to include more Python packages by [loading Python bundles](#load-python-bundle-modules) .
+and to [deal with Python packages](#python-packages)
+and how to include more Python packages by [loading Python bundles](#load-python-bundle-modules).
 
-!!! info 
+!!! info
 
     General things can be found on the [general Python page](python.md).
 
