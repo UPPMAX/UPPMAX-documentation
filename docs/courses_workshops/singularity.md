@@ -13,9 +13,9 @@ During the workshop you will have the opportunity to follow the interactive guid
 
 To fully benefit from the workshop, basic Linux system administration experience is highly desirable i.e. knowledge of package management and common tools for building and managing of software: git, pip, conda, wget, curl …
 
-📚 [Workshop tutorial material](https://pmitev.github.io/UPPMAX-Singularity-workshop/)
+📚 [Workshop tutorial material](https://uppmax.github.io/Basic_Singularity_Apptainer/)
 
-Please follow the [instructions](https://pmitev.github.io/UPPMAX-Singularity-workshop/installation/)
+Please follow the [instructions](https://uppmax.github.io/Basic_Singularity_Apptainer/quick_start/)
 to install Singularity on your computer or, alternatively, use apptainer provided by your computer center.
 Please, follow the center provided [instructions](https://uppmax.github.io/Basic_Singularity_Apptainer/fakeroot/).
 
