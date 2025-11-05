@@ -294,26 +294,6 @@ python -c "import pandas"
     ModuleNotFoundError: No module named 'absentpackage'
     ```
 
-#### Determine if a Python package comes with a module
-
-If the Python package is not pre-installed with your version of Python,
-use [the UPPMAX module system](../cluster_guides/modules.md)
-to search for it.
-
-Not all packages are easy to find,
-as some are part of super-packages,
-for example [the TensorFlow Python libraries](tensorflow.md),
-which are part of the `python_ML_packages/[version]-{cpu,gpu}`,
-for example `python_ML_packages/3.11.8-cpu`.
-
-
-
-It may not always be easy to find your Python package within the many modules.
-Do not hesitate to [contact support](../support.md)
-so that you can spend time on your research
-and we figure this out :-)
-
-
 ### Stand-alone tools
 
 Some Python packages are working as stand-alone tools, for instance in
