@@ -27,6 +27,10 @@ with the use of significant indentation [Kuhlman, 2009].
 
 ## Python versions
 
+!!! attention "Using Pelle?"
+
+    Go to [Python on Pelle](python_pelle.md)
+
 Python (or to be precise: the Python interpreter) has different versions.
 The current major version of Python is Python 3.
 Python 3 is not backwards compatible with Python 2.
