@@ -234,6 +234,35 @@ PyTorch is a deep learning framework that puts Python first.
         - Python/3.12.3-GCCcore-13.3.0
         - OpenMPI/5.0.3-GCC-13.3.0
         
+## scikit-learn
+
+Scikit-learn integrates machine learning algorithms in the tightly-knit scientific Python world,
+building upon numpy, scipy, and matplotlib. As a machine-learning module,
+it provides versatile tools for data mining and analysis in any field of science and engineering.
+It strives to be simple and efficient, accessible to everybody, and reusable in various contexts.
+
+- Homepage: <https://scikit-learn.org/stable/index.html>
+
+!!! info "Main package(s)"
+
+    - scikit-learn (sklearn as alias)
+
+!!! info "Installed versions"
+
+    Versions and dependencies
+    
+    ??? note "1.6.1-gfbf-2024a"
+
+        Packages
+        
+        - scikit-learn-1.6.1
+
+        Dependencies
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
+        
 ## SciPy-bundle
 
 Bundle of Python packages for scientific software
@@ -296,7 +325,7 @@ SymPy is a Python library for symbolic mathematics. It aims to
  become a full-featured computer algebra system (CAS) while keeping the code as
  simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python and does not require any external libraries.
 
-- Homepage: https://sympy.org/
+- Homepage: <https://sympy.org/>
 
 !!! info "Main package(s)"
 
