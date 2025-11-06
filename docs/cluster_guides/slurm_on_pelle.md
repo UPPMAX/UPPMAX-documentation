@@ -175,10 +175,14 @@ There are two kinds of GPUs at the moment.
 
 Therefore, at first hand, allocate the default ``L40s`` and one of them
 
-- To allocate L40s: ``-p gpu --gres=gpu:<number of GPUs>`` or ``-p gpu --gpus:l40s:<number of GPUs>``
+<!--
+- To allocate GPUs without specifying which type (will default to L40s in the future): ``-p gpu --gres=gpu:<number of GPUs>``
+-->
 
-    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:1``
-    - Example with 11 GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gres=gpu:11`` will fail because there are just 10 GPUs on one node!
+- To allocate L40s: ``-p gpu --gpus=l40s:<number of GPUs>``
+
+    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
+    - Example with 11 GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:11`` will fail because there are just 10 GPUs on one node!
 
 - To allocate H100: ``-p gpu --gpus=h100:<number of GPUs>``
 
