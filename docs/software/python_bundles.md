@@ -17,7 +17,7 @@ Biopython is a set of freely available tools for biological
 
     - biopython
   
-!!! info "Installed versions"
+??? info "Installed versions"
 
     - 1.84-foss-2024a
 
@@ -29,9 +29,27 @@ Biopython is a set of freely available tools for biological
 
 ## IPython
 
+IPython provides a rich architecture for interactive computing with:
+ Powerful interactive shells (terminal and Qt-based).
+ A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.
+ Support for interactive data visualization and use of GUI toolkits.
+ Flexible, embeddable interpreters to load into your own projects.
+ Easy to use, high performance tools for parallel computing.
+
+!!! info "Main package(s)"
+
+    - ipython
+    - matplotlib-inline
+
 !!! info "Installed versions"
 
     - 8.28.0-GCCcore-13.3.0
+
+    Some dependencies
+
+    - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+
+    
 
 
 ## JupyterLab
