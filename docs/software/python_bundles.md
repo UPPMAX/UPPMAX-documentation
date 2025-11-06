@@ -5,9 +5,8 @@
 - The bundle names reflect the content, like Python packages, but also which Python version, compilers and libraries that are compatible with it.
 
 - The module endings may contain GCCcore-X.Y.Z and/or [YEAR-a/b].
-    - GCCcore reflects the GCC compiler version that is compatible when using C/C++ backend code.
+    - GCCcore reflects the GCC compiler version that is compatible when using C/C++ "back end" code.
     - The year reflects an EasyBuild toolchain, see [FOSS toolchains](https://docs.easybuild.io/common-toolchains/#common_toolchains_overview_foss).
- 
 
 !!! info "FOSS tool chains and Python version using them"
 
@@ -50,7 +49,7 @@ Biopython is a set of freely available tools for biological
 ## IPython
 
 IPython provides a rich architecture for interactive computing with:
- 
+
 - Powerful interactive shells (terminal and Qt-based).
 - A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.
 - Support for interactive data visualization and use of GUI toolkits.
@@ -72,7 +71,6 @@ IPython provides a rich architecture for interactive computing with:
 
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
-
 
 ## JupyterLab
 
@@ -126,7 +124,7 @@ MPI for Python (mpi4py) provides bindings of the Message Passing Interface (MPI)
 
 Bundle of Python packages from PyPI
 
-- Homepage: https://python.org/
+- Homepage: <https://python.org/>
 
 !!! info "Main package(s)"
 
@@ -172,7 +170,14 @@ Bundle of Python packages from PyPI
 
 ## PyTorch
 
+Tensors and Dynamic neural networks in Python with strong GPU acceleration.
+PyTorch is a deep learning framework that puts Python first.
+
+- Homepage: <https://pytorch.org/>
+
 !!! info "Main package(s)"
+
+    - torch
 
 !!! info "Installed versions"
 
@@ -180,6 +185,9 @@ Bundle of Python packages from PyPI
     
     ??? note "2.6.0-foss-2024a"
 
+        - Python/3.12.3-GCCcore-13.3.0
+        - OpenMPI/5.0.3-GCC-13.3.0
+        
 ## SciPy-bundle
 
 !!! info "Main package(s)"
