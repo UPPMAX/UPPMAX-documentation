@@ -1111,3 +1111,9 @@ hardcopy
 ipython
 CAS
 SymPy
+LLVM
+pydata
+scikit
+Scikit
+numpy
+scipy
