@@ -10,7 +10,7 @@ Biopython is a set of freely available tools for biological
  a distributed collaborative effort to develop Python libraries and
  applications which address the needs of current and future work in
  bioinformatics.
- 
+
 - Homepage: <https://www.biopython.org>
 
 !!! info "Main package(s)"
@@ -19,13 +19,15 @@ Biopython is a set of freely available tools for biological
   
 ??? info "Installed versions"
 
-    - 1.84-foss-2024a
+    Versions and dependencies
+    
+    ??? note "1.84-foss-2024a"
 
-    Some dependencies
+        Some dependencies
 
-    - Python/3.12.3-GCCcore-13.3.0
-    - SciPy-bundle/2024.05-gfbf-2024a
-    - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - Python/3.12.3-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
 ## IPython
 
@@ -43,13 +45,14 @@ IPython provides a rich architecture for interactive computing with:
 
 !!! info "Installed versions"
 
-    - 8.28.0-GCCcore-13.3.0
-
-    Some dependencies
-
-    - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
-
+    Versions and dependencies
     
+    ??? note "8.28.0-GCCcore-13.3.0"
+
+        Dependencies
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
 
 ## JupyterLab
