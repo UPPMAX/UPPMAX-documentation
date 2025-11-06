@@ -63,8 +63,13 @@
   text-align: initial;
 }
 
-  .md-typeset a {
+/* underline links */
+.md-typeset a {
   text-decoration: underline;
+}
+/* Don't underline links on buttons */
+.md-typeset a:is(.md-button) {
+  text-decoration: none;
 }
 
 
