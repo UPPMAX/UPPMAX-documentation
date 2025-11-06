@@ -27,7 +27,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
     - **Date**: 15 and 16 January, 2026
     - **Time**: 9:15 - 12:00 and 13:15 -16:00
-    - **Location**: On-line via Zoom 
+    - **Location**: On-line via Zoom
 
     - **Application**: [form](https://forms.gle/AM5YpGRPJDjbVkLa9).
 
