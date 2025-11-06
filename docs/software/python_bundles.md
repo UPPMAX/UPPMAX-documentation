@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- The bundle names reflect the content, like Python packages, but also which Python version, compilers and libraries that are compatible with it.
+- The bundle names reflect the content, like Python packages, and its version, but also which Python version, compilers and libraries that are compatible with it.
 
 - The module endings may contain GCCcore-X.Y.Z and/or [YEAR-a/b].
     - GCCcore reflects the GCC compiler version that is compatible when using C/C++ "back end" code.
@@ -98,8 +98,8 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
 ## matplotlib
 
 matplotlib is a python 2D plotting library which produces publication quality figures in a variety of
- hardcopy formats and interactive environments across platforms. 
- 
+ hardcopy formats and interactive environments across platforms.
+
 matplotlib can be used in python scripts, the
 python
  and ipython shell, web application servers, and six graphical user interface toolkits.
@@ -292,7 +292,15 @@ Bundle of Python packages for scientific software
     
 ## sympy
 
+SymPy is a Python library for symbolic mathematics. It aims to
+ become a full-featured computer algebra system (CAS) while keeping the code as
+ simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python and does not require any external libraries.
+
+- Homepage: https://sympy.org/
+
 !!! info "Main package(s)"
+
+    - sympy
 
 !!! info "Installed versions"
 
@@ -300,3 +308,6 @@ Bundle of Python packages for scientific software
     
     ??? note "1.13.3-gfbf-2024a"
 
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
