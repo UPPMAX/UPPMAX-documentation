@@ -10,7 +10,8 @@ Biopython is a set of freely available tools for biological
  a distributed collaborative effort to develop Python libraries and
  applications which address the needs of current and future work in
  bioinformatics.
- - Homepage: <https://www.biopython.org>
+ 
+- Homepage: <https://www.biopython.org>
 
 !!! info "Main package(s)"
 
@@ -44,7 +45,7 @@ Biopython is a set of freely available tools for biological
 !!! info "Installed versions"
 
     - 3.1.5-gompi-2023b
-    - 4.0.1-gompi-2024a 
+    - 4.0.1-gompi-2024a
     
 ## Python-bundle-PyPI
 
