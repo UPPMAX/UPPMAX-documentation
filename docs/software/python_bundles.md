@@ -17,7 +17,7 @@ Biopython is a set of freely available tools for biological
 
     - biopython
   
-??? info "Installed versions"
+!!! info "Installed versions"
 
     Versions and dependencies
     
@@ -57,43 +57,70 @@ IPython provides a rich architecture for interactive computing with:
 
 ## JupyterLab
 
+JupyterLab is the next-generation user interface for Project Jupyter offering all the familiar
+ building blocks of the classic Jupyter Notebook (notebook, terminal, text editor, file browser, rich outputs,
+ etc.) in a flexible and powerful user interface. JupyterLab will eventually replace the classic Jupyter
+ Notebook.
+
+- Homepage: https://jupyter.org/
+
 !!! info "Installed versions"
 
-    - 4.2.5-GCCcore-13.3.0
+    Versions and dependencies
+    
+    ??? note "4.2.5-GCCcore-13.3.0"
 
 ## mpi4py
 
 !!! info "Installed versions"
 
-    - 3.1.5-gompi-2023b
-    - 4.0.1-gompi-2024a
+    Versions and dependencies
+    
+    ??? note "3.1.5-gompi-2023b"
+
+   
+    ??? note "4.0.1-gompi-2024a"
     
 ## Python-bundle-PyPI
 
 !!! info "Installed versions"
 
-    - 2023.06-GCCcore-12.3.0
-    - 2023.10-GCCcore-13.2.0
-    - 2023.10-GCCcore-13.3.0
-    - 2024.06-GCCcore-13.3.0     (D)
+    Versions and dependencies
     
+    ??? note "2023.06-GCCcore-12.3.0"
+    
+    ??? note "2023.10-GCCcore-13.2.0"
+
+    ??? note "2023.10-GCCcore-13.3.0"
+   
+    ??? note "2024.06-GCCcore-13.3.0"
+
+   
 ## PyTorch
 
 !!! info "Installed versions"
 
-    - 2.6.0-foss-2024a
+    Versions and dependencies
+    
+    ??? note "2.6.0-foss-2024a"
 
 ## SciPy-bundle
 
 !!! info "Installed versions"
 
-    - 2023.07-gfbf-2023a
-    - 2023.11-gfbf-2023b
-    - 2024.05-gfbf-2024a               (D)
+    Versions and dependencies
+    
+    ??? note "2023.07-gfbf-2023a"
+
+    ??? note "2023.11-gfbf-2023b"
+
+    ??? note "2024.05-gfbf-2024a"
     
 ## sympy
 
 !!! info "Installed versions"
 
-    - 1.13.3-gfbf-2024a
+    Versions and dependencies
+    
+    ??? note "1.13.3-gfbf-2024a"
 
