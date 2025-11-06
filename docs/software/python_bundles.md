@@ -83,7 +83,7 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
 
 !!! info "Main package(s)"
 
-    -  jupyterlab
+    - jupyterlab
 
 !!! info "Installed versions"
 
@@ -95,6 +95,50 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - IPython/8.28.0-GCCcore-13.3.0
 
+## matplotlib
+
+matplotlib is a python 2D plotting library which produces publication quality figures in a variety of
+ hardcopy formats and interactive environments across platforms. matplotlib can be used in python scripts, the
+python
+ and ipython shell, web application servers, and six graphical user interface toolkits.
+
+- Homepage: <https://matplotlib.org>
+
+!!! info "Main package(s)"
+
+    - contourpy
+    - Cycler
+    - fonttools
+    - kiwisolver
+    - matplotlib
+
+!!! tip "Load this version and get many other bundles on the fly!"
+
+    Included are
+
+    - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+    - SciPy-bundle/2024.05-gfbf-2024a
+
+!!! info "Installed versions"
+
+    Versions and dependencies
+    
+    ??? note "3.9.2-gfbf-2024a"
+
+        Packages
+        
+        - contourpy-1.3.0
+        - Cycler-0.12.1
+        - fonttools-4.53.1
+        - kiwisolver-1.4.5
+        - matplotlib-3.9.2
+
+        Dependencies
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
+       
 ## mpi4py
 
 MPI for Python (mpi4py) provides bindings of the Message Passing Interface (MPI) standard for
@@ -190,7 +234,15 @@ PyTorch is a deep learning framework that puts Python first.
         
 ## SciPy-bundle
 
+Bundle of Python packages for scientific software
+
+- Homepage: <https://python.org/>
+
 !!! info "Main package(s)"
+
+    - numpy
+    - pandas
+    - scipy
 
 !!! info "Installed versions"
 
@@ -198,9 +250,43 @@ PyTorch is a deep learning framework that puts Python first.
     
     ??? note "2023.07-gfbf-2023a"
 
+        Packages
+        
+        - numpy-1.25.1
+        - pandas-2.0.3
+        - scipy-1.11.1
+
+        Dependencies
+
+        - Python/3.11.3-GCCcore-12.3.0
+        - Python-bundle-PyPI/2023.06-GCCcore-12.3.0
+        
     ??? note "2023.11-gfbf-2023b"
 
+        Packages
+        
+        - numpy-1.26.2
+        - pandas-2.1.3
+        - scipy-1.11.4
+
+        Dependencies
+
+        - Python/3.11.5-GCCcore-13.2.0
+        - Python-bundle-PyPI/2023.10-GCCcore-13.2.0
+        
     ??? note "2024.05-gfbf-2024a"
+
+        Packages
+        
+        - numpy-1.26.4
+        - pandas-2.2.2
+        - scipy-1.13.1
+
+        Dependencies
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+
     
 ## sympy
 
