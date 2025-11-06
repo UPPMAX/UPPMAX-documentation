@@ -1117,3 +1117,4 @@ scikit
 Scikit
 numpy
 scipy
+Analytics
