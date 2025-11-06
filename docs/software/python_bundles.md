@@ -3,14 +3,14 @@
 For more complex complex Python packages,
 there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
 
-###  Biopython
+## Biopython
 
 Biopython is a set of freely available tools for biological
  computation written in Python by an international team of developers. It is
  a distributed collaborative effort to develop Python libraries and
  applications which address the needs of current and future work in
  bioinformatics.
- - Homepage: https://www.biopython.org
+ - Homepage: <https://www.biopython.org>
 
 !!! info "Main package(s)"
 
@@ -26,27 +26,27 @@ Biopython is a set of freely available tools for biological
     - SciPy-bundle/2024.05-gfbf-2024a
     - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
-###  IPython
+## IPython
 
 !!! info "Installed versions"
 
     - 8.28.0-GCCcore-13.3.0
 
 
-###  JupyterLab
+## JupyterLab
 
 !!! info "Installed versions"
 
     - 4.2.5-GCCcore-13.3.0
 
-###  mpi4py
+## mpi4py
 
 !!! info "Installed versions"
 
     - 3.1.5-gompi-2023b
     - 4.0.1-gompi-2024a 
     
-###  Python-bundle-PyPI
+## Python-bundle-PyPI
 
 !!! info "Installed versions"
 
@@ -55,13 +55,13 @@ Biopython is a set of freely available tools for biological
     - 2023.10-GCCcore-13.3.0
     - 2024.06-GCCcore-13.3.0     (D)
     
-###  PyTorch
+## PyTorch
 
 !!! info "Installed versions"
 
-##### 2.6.0-foss-2024a
+    - 2.6.0-foss-2024a
 
-###  SciPy-bundle
+## SciPy-bundle
 
 !!! info "Installed versions"
 
@@ -69,7 +69,7 @@ Biopython is a set of freely available tools for biological
     - 2023.11-gfbf-2023b
     - 2024.05-gfbf-2024a               (D)
     
-###  sympy
+## sympy
 
 !!! info "Installed versions"
 
