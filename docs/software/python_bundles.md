@@ -194,7 +194,7 @@ compiler infrastructure to compile Python syntax to machine code.
         - llvmlite-0.43.0
 
         Dependencies
-   
+
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - SciPy-bundle/2024.05-gfbf-2024a
