@@ -1103,4 +1103,4 @@ gompi
 foss
 sympy
 embeddable
-kits
+toolkits
