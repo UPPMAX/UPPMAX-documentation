@@ -12,66 +12,66 @@ Biopython is a set of freely available tools for biological
  bioinformatics.
  - Homepage: https://www.biopython.org
 
-#### Main package(s)
+!!! info "Main package(s)"
 
-- biopython
+    - biopython
   
-#### Installed versions
+!!! info "Installed versions"
 
-##### 1.84-foss-2024a
+    - 1.84-foss-2024a
 
-Some dependencies
+    Some dependencies
 
-- Python/3.12.3-GCCcore-13.3.0
-- SciPy-bundle/2024.05-gfbf-2024a
-- Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+    - Python/3.12.3-GCCcore-13.3.0
+    - SciPy-bundle/2024.05-gfbf-2024a
+    - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
 ###  IPython
 
-#### Installed versions
+!!! info "Installed versions"
 
-##### 8.28.0-GCCcore-13.3.0
+    - 8.28.0-GCCcore-13.3.0
 
 
 ###  JupyterLab
 
-#### Installed versions
+!!! info "Installed versions"
 
-##### /4.2.5-GCCcore-13.3.0
+    - 4.2.5-GCCcore-13.3.0
 
 ###  mpi4py
 
-#### Installed versions
+!!! info "Installed versions"
 
-##### 3.1.5-gompi-2023b
-##### 4.0.1-gompi-2024a 
+    - 3.1.5-gompi-2023b
+    - 4.0.1-gompi-2024a 
     
 ###  Python-bundle-PyPI
 
-#### Installed versions
+!!! info "Installed versions"
 
-##### 2023.06-GCCcore-12.3.0
-##### 2023.10-GCCcore-13.2.0
-##### 2023.10-GCCcore-13.3.0
-##### 2024.06-GCCcore-13.3.0     (D)
+    - 2023.06-GCCcore-12.3.0
+    - 2023.10-GCCcore-13.2.0
+    - 2023.10-GCCcore-13.3.0
+    - 2024.06-GCCcore-13.3.0     (D)
     
 ###  PyTorch
 
-#### Installed versions
+!!! info "Installed versions"
 
 ##### 2.6.0-foss-2024a
 
 ###  SciPy-bundle
 
-#### Installed versions
+!!! info "Installed versions"
 
-##### 2023.07-gfbf-2023a
-##### 2023.11-gfbf-2023b
-##### 2024.05-gfbf-2024a               (D)
+    - 2023.07-gfbf-2023a
+    - 2023.11-gfbf-2023b
+    - 2024.05-gfbf-2024a               (D)
     
 ###  sympy
 
-#### Installed versions
+!!! info "Installed versions"
 
-##### 1.13.3-gfbf-2024a
+    - 1.13.3-gfbf-2024a
 
