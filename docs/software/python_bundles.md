@@ -166,6 +166,33 @@ MPI for Python (mpi4py) provides bindings of the Message Passing Interface (MPI)
         - Python/3.12.3-GCCcore-13.3.0
         - OpenMPI/5.0.3-GCC-13.3.0
 
+## numba
+
+Numba is an Open Source NumPy-aware optimizing compiler for
+Python sponsored by Continuum Analytics, Inc. It uses the remarkable LLVM
+compiler infrastructure to compile Python syntax to machine code.
+
+- Homepage: https://numba.pydata.org/
+
+!!! info "Main package(s)"
+
+    - numba
+    - llvmlite
+    
+!!! tip " Are you on a GPU node?"
+
+    - Load a CUDA module and numba will use the GPU!
+
+!!! info "Installed versions"
+
+    Versions and dependencies
+    
+    ??? note "numba/0.60.0-foss-2024a"
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
+        
 ## Python-bundle-PyPI
 
 Bundle of Python packages from PyPI
