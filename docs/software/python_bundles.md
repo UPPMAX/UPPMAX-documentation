@@ -62,7 +62,11 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
  etc.) in a flexible and powerful user interface. JupyterLab will eventually replace the classic Jupyter
  Notebook.
 
-- Homepage: https://jupyter.org/
+- Homepage: <https://jupyter.org/>
+
+!!! info "Main package(s)"
+
+    -  jupyterlab
 
 !!! info "Installed versions"
 
@@ -70,7 +74,20 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
     
     ??? note "4.2.5-GCCcore-13.3.0"
 
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - IPython/8.28.0-GCCcore-13.3.0
+
 ## mpi4py
+
+MPI for Python (mpi4py) provides bindings of the Message Passing Interface (MPI) standard for
+ the Python programming language, allowing any Python program to exploit multiple processors.
+
+- Homepage: <https://github.com/mpi4py/mpi4py>
+
+!!! info "Main package(s)"
+
+    - mpi4py
 
 !!! info "Installed versions"
 
@@ -78,25 +95,65 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
     
     ??? note "3.1.5-gompi-2023b"
 
-   
+        - Python/3.11.5-GCCcore-13.2.0
+        - OpenMPI/4.1.6-GCC-13.2.0
+
     ??? note "4.0.1-gompi-2024a"
     
+        - Python/3.12.3-GCCcore-13.3.0
+        - OpenMPI/5.0.3-GCC-13.3.0
+
 ## Python-bundle-PyPI
 
+Bundle of Python packages from PyPI
+
+- Homepage: https://python.org/
+
+!!! info "Main package(s)"
+
+    - Type ``ml help Python-bundle-PyPI/[version]`` on Pelle to see an output.
+
+    Among others:
+
+    - chardet
+    - future
+    - Jinja
+    - pkginfo
+    - psutil
+    - Pygments
+    - pydevtool
+    - pytest
+    - pytz
+    - regex
+    - Sphinx
+    - threadpoolctl
+    - toml
+    - urllib
+    
 !!! info "Installed versions"
 
     Versions and dependencies
     
     ??? note "2023.06-GCCcore-12.3.0"
+
+        - Python/3.11.5-GCCcore-13.2.0
     
     ??? note "2023.10-GCCcore-13.2.0"
 
+        - Python/3.11.5-GCCcore-13.2.0
+
     ??? note "2023.10-GCCcore-13.3.0"
-   
+
+        - Python/3.11.5-GCCcore-13.3.0
+        
     ??? note "2024.06-GCCcore-13.3.0"
 
-   
+        - Python/3.12.3-GCCcore-13.3.0
+
+
 ## PyTorch
+
+!!! info "Main package(s)"
 
 !!! info "Installed versions"
 
@@ -105,6 +162,8 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
     ??? note "2.6.0-foss-2024a"
 
 ## SciPy-bundle
+
+!!! info "Main package(s)"
 
 !!! info "Installed versions"
 
@@ -117,6 +176,8 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
     ??? note "2024.05-gfbf-2024a"
     
 ## sympy
+
+!!! info "Main package(s)"
 
 !!! info "Installed versions"
 
