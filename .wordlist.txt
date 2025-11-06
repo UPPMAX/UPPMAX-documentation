@@ -1109,3 +1109,5 @@ toolchains
 pytorch
 hardcopy
 ipython
+CAS
+SymPy
