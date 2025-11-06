@@ -1,7 +1,25 @@
 # Python bundles
 
-For more complex complex Python packages,
-there exist [UPPMAX modules](../cluster_guides/modules.md) to load these:
+## Introduction
+
+- The bundle names reflect the content, like Python packages, but also which Python version, compilers and libraries that are compatible with it.
+
+- The module endings may contain GCCcore-X.Y.Z and/or [YEAR-a/b].
+    - GCCcore reflects the GCC compiler version that is compatible when using C/C++ backend code.
+    - The year reflects an EasyBuild toolchain, see [FOSS toolchains](https://docs.easybuild.io/common-toolchains/#common_toolchains_overview_foss).
+ 
+
+!!! info "FOSS tool chains and Python version using them"
+
+    FOSS | Python version
+    -----| --------------
+    2023b| 3.11.5
+    2024a| 3.12.3
+
+!!! warning
+
+    - Make sure to use bundles that are compatible with each-other and with needed Python version.
+    - Otherwise it is better to create isolated environments with Conda or virtual environments, see [Virtual environments in Python](python_virtual_environments.md).
 
 ## Biopython
 
@@ -32,11 +50,12 @@ Biopython is a set of freely available tools for biological
 ## IPython
 
 IPython provides a rich architecture for interactive computing with:
- Powerful interactive shells (terminal and Qt-based).
- A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.
- Support for interactive data visualization and use of GUI toolkits.
- Flexible, embeddable interpreters to load into your own projects.
- Easy to use, high performance tools for parallel computing.
+ 
+- Powerful interactive shells (terminal and Qt-based).
+- A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.
+- Support for interactive data visualization and use of GUI toolkits.
+- Flexible, embeddable interpreters to load into your own projects.
+- Easy to use, high performance tools for parallel computing.
 
 !!! info "Main package(s)"
 
