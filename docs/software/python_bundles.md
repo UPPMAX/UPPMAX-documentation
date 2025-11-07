@@ -16,6 +16,12 @@
     2024a| 3.12.3
     2025a| 3.13.1
 
+    - ``foss`` is the full level toolchain.
+    - ``gfbf`` means that the libraries FlexiBLAS (incl. LAPACK) + FFTW are included.
+    - ``gompi`` means that the MPI library OpenMPI is included.
+
+    - See [Toolchain diagram](https://docs.easybuild.io/common-toolchains/#toolchains_diagram)
+
 !!! warning
 
     - Make sure to use bundles that are compatible with each-other and with needed Python version.
