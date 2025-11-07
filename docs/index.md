@@ -5,35 +5,25 @@ hide:
   - toc
 ---
 
-<div style="text-align: center; font-size: 2.5em; font-weight: bold; margin-top: 20px;">
-    Welcome to the UPPMAX Documentation
+<div align="center" style="margin-top: 20px;" markdown="1">
+# **Welcome to the UPPMAX Documentation**
+<!-- Logo -->
+![Uppsala University Logo](assets/UU_logo_color.svg){width="200" id="logo_light_mode"}
+![Uppsala University Logo](assets/UU_logo_vit.svg){width="200" id="logo_dark_mode"}
 </div>
 
-<!-- Logo Section -->
-<p align="center" width="100%" style="margin-top: 20px;">
-    <img id="logo_light_mode" src="assets/UU_logo_color.svg" alt="Uppsala University Logo" width="200">
-    <img id="logo_dark_mode" src="assets/UU_logo_vit.svg" alt="Uppsala University Logo (Dark Mode)" width="200">
-</p>
+<div style="text-align: center; margin-top: 45px;" markdown="1">
+## Support and Feedback
+[📩 Get Support](https://docs.uppmax.uu.se/support/){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
+[📝 Give Feedback](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link){.md-button .md-button--primary .button-frontpage}
+[📂 Apply for a Project](https://docs.uppmax.uu.se/getting_started/project_apply/){.md-button .md-button--primary .button-frontpage}
 
-<!-- Support and Feedback Section -->
-<div style="text-align: center; margin-top: 40px;">
-    <h2>Support and Feedback</h2>
-    <a href="https://docs.uppmax.uu.se/support/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">📩 Get Support</a>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">📝 Give Feedback</a>
-    <a href="https://docs.uppmax.uu.se/getting_started/project_apply/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">📂 Apply for a Project</a>
-</div>
+## Quick Links
+[✨ Getting Started](https://docs.uppmax.uu.se/getting_started/get_started/){.md-button .md-button--primary .button-frontpage}
+[📖 Glossary](https://docs.uppmax.uu.se/glossary/){.md-button .md-button--primary .button-frontpage}
+[💻 Software](https://docs.uppmax.uu.se/software/overview/){.md-button .md-button--primary .button-frontpage}
+[🔑 Reset Password](https://docs.uppmax.uu.se/getting_started/reset_uppmax_password/){.md-button .md-button--primary .button-frontpage}
 
-<!-- Quick Links Section -->
-<div style="text-align: center; margin-top: 40px;">
-    <h2>Quick Links</h2>
-    <a href="https://docs.uppmax.uu.se/getting_started/get_started/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">✨ Getting Started</a>
-    <a href="https://docs.uppmax.uu.se/glossary/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">📖 Glossary</a>
-    <a href="https://docs.uppmax.uu.se/software/overview/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">💻 Software</a>
-    <a href="https://docs.uppmax.uu.se/getting_started/reset_uppmax_password/" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">🔑 Reset Password</a>
-</div>
-
-<!-- External Links Section -->
-<div style="text-align: center; margin-top: 40px;">
-    <h2>External Resources</h2>
-    <a href="https://www.uu.se/en/centre/uppmax" class="md-button md-button--primary" style="text-decoration:none; margin: 10px;">🌐 UPPMAX Main Page</a>
+## External Resources
+[🌐 UPPMAX Main Page](https://www.uu.se/en/centre/uppmax){.md-button .md-button--primary .button-frontpage}
 </div>
