@@ -29,42 +29,20 @@ For all file transfer on Bianca:
 
 There are multiple ways to transfer files to/from Bianca:
 
-Method                                                                            |Features
-----------------------------------------------------------------------------------|---------------------------------------------
-[Using a graphical program](#using-a-graphical-program)                           |Graphical interface, intuitive, for small amounts of data only
-[Using FileZilla](../software/bianca_file_transfer_using_filezilla.md)            |All operating systems
-[Using WinSCP](../software/bianca_file_transfer_using_winscp.md)      |Windows-only
-[Using `rsync`](#using-rsync)                                                     |[Terminal](../software/terminal.md), recommended
-[Using `sftp`](#using-sftp)                                                       |[Terminal](../software/terminal.md), easy to learn, can use terminal commands to select files
-[Using `lftp`](#using-lftp)                                                       |[Terminal](../software/terminal.md)
-Transit server from/to Rackham, see below                                         |[Terminal](../software/terminal.md), can be used to transfer data between clusters in general
-[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer) |Both graphical and [terminal](../software/terminal.md), need a computer with `sshfs` installed
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-## Using a graphical program
+UPPMAX guide                                                                                           |Features
+-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------
+[File transfer to/from Bianca using a graphical program](../software/bianca_file_transfer_using_gui.md)|A general page for tools with a graphical user interface
+[File transfer to/from Bianca using FileZilla](../software/bianca_file_transfer_using_filezilla.md)    |Graphical interface, intuitive, for small amounts of data only, all operating systems
+[File transfer to/from Bianca using WinSCP](../software/bianca_file_transfer_using_winscp.md)          |Graphical interface, intuitive, for small amounts of data only, Windows-only
+[File transfer to/from Bianca using `rsync`](../software/bianca_file_transfer_using_rsync.md)          |[Terminal](../software/terminal.md), recommended
+[File transfer to/from Bianca using `sftp`](../software/bianca_file_transfer_using_sftp.md)            |[Terminal](../software/terminal.md), easy to learn, can use terminal commands to select files
+[File transfer to/from Bianca using `lftp`](../software/bianca_file_transfer_using_lftp.md)            |[Terminal](../software/terminal.md)
+Transit server from/to Rackham, see below                                                              |[Terminal](../software/terminal.md), can be used to transfer data between clusters in general
+[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer)                      |Both graphical and [terminal](../software/terminal.md), need a computer with `sshfs` installed
 
-![FileZilla connected to Bianca](../software/img/filezilla_login_to_bianca_236_x_266.png)
-
-> FileZilla connected to Bianca
-
-To transfer files to/from [Bianca](bianca.md)
-one can use a graphical tool, such as FileZilla and WinSCP.
-See [Bianca file transfer using a graphical program](../software/bianca_file_transfer_using_gui.md)
-for details.
-
-## Using `sftp`
-
-`sftp` is a terminal SFTP client to transfer files to/from Bianca.
-See [Bianca file transfer using sftp](../software/bianca_file_transfer_using_sftp.md).
-
-## Using `lftp`
-
-`sftp` is a terminal SFTP client to transfer files to/from Bianca.
-See [Bianca file transfer using lftp](../software/bianca_file_transfer_using_lftp.md).
-
-## Using `rsync`
-
-[rsync](../software/rsync.md) is a terminal program to transfer files to/from Bianca.
-See [Bianca file transfer using rsync](../software/bianca_file_transfer_using_rsync.md).
+<!-- markdownlint-enable MD013 -->
 
 ## Transit server
 
