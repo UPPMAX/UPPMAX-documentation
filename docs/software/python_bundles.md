@@ -14,6 +14,7 @@
     -----| --------------
     2023b| 3.11.5
     2024a| 3.12.3
+    2025a| 3.13.1
 
 !!! warning
 
@@ -225,6 +226,10 @@ Bundle of Python packages from PyPI
     - threadpoolctl
     - toml
     - urllib
+
+    Also loads the package module 
+
+    - virtualenv
     
 !!! info "Installed versions"
 
@@ -245,6 +250,10 @@ Bundle of Python packages from PyPI
     ??? note "2024.06-GCCcore-13.3.0"
 
         - Python/3.12.3-GCCcore-13.3.0
+
+    ??? note "2025.04-GCCcore-14.2.0"
+
+        - Python/3.13.1-GCCcore-14.2.0
 
 
 ## PyTorch
@@ -373,3 +382,27 @@ SymPy is a Python library for symbolic mathematics. It aims to
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - SciPy-bundle/2024.05-gfbf-2024a
+
+## xarray
+
+xarray (formerly xray) is an open source project and Python package that aims to bring
+ the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the
+ core pandas data structures.
+
+- Homepage: https://github.com/pydata/xarray
+
+
+!!! info "Main package(s)"
+
+    - xarray
+
+!!! info "Installed versions"
+
+    Versions and dependencies
+    
+    ??? note "2024.11.0-gfbf-2024a"
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
+
