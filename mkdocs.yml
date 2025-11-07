@@ -5,6 +5,7 @@ edit_uri: blob/main/docs/
 
 nav:
   - Home: index.md
+
   - Getting Started:
     - Get started: getting_started/get_started.md
     - Applying for a Project: getting_started/project_apply.md
@@ -19,6 +20,7 @@ nav:
       - Working in Linux: getting_started/linux.md
       - Basic Linux commands: getting_started/linux_basics.md
 #    - Running your first job: getting_started/first_job.md
+
   - Cluster user guide:
     - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
     - System usage: cluster_guides/system_usage/system_usage.html
@@ -46,6 +48,7 @@ nav:
       - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Webexport: cluster_guides/webexport.md
+
   - Software:
     - Overview: software/overview.md
     - Software table: software/software-table.md
@@ -98,7 +101,7 @@ nav:
       - Profilers: software/profilers.md
       - Singularity/Apptainer: software/singularity.md
       - Spack: software/spack.md
-      
+
   - Databases: 
       - Overview: databases/overview.md
       - BLAST databases available locally: databases/blast.md
@@ -108,7 +111,7 @@ nav:
       - 1000-genome project: databases/1000-genome_project.md
       - Simons Genome Diversity Project datasets: databases/simons_genome.md
       - Other bioinformatics-oriented local data resources: databases/other_local.md
-     
+
   - Support: support.md
 
   - Courses and workshops: 
@@ -507,13 +510,13 @@ theme:
 
 
   custom_dir: mkdocs_uppmax/
-    
+
 #extra:
 #  homepage: https://www.uu.se/en/centre/uppmax
-  
+
 extra_css:
   - stylesheets/extra.css
-      
+
 extra_javascript:
   - js/kapa-widget.js
 
