@@ -1,21 +1,5 @@
 # File transfer to/from Bianca
 
-```mermaid
-flowchart LR
-  subgraph sunet[SUNET]
-    subgraph bianca[Bianca]
-      wharf
-    end
-    transit[transit server]
-    sftp_server[SFTP server]
-    user[User in SUNET or user on Rackham or user on other NAISSS clusters]
-    wharf <--> transit
-    wharf <--> sftp_server
-    transit <--> user
-    sftp_server <--> user
-  end
-```
-
 [File transfer](file_transfer.md) is the process of getting files
 from one place to the other. This page shows how to do [file transfer](file_transfer.md) to/from
 the [Bianca](bianca.md) UPPMAX cluster.
@@ -45,6 +29,22 @@ Transit server from/to Rackham, see below                                       
 <!-- markdownlint-enable MD013 -->
 
 ## Transit server
+
+```mermaid
+flowchart LR
+  subgraph sunet[SUNET]
+    subgraph bianca[Bianca]
+      wharf
+    end
+    transit[transit server]
+    sftp_server[SFTP server]
+    user[User in SUNET or user on Rackham or user on other NAISSS clusters]
+    wharf <--> transit
+    wharf <--> sftp_server
+    transit <--> user
+    sftp_server <--> user
+  end
+```
 
 To facilitate secure data transfers to, from,
 and within the system for computing on sensitive data a special service is available
