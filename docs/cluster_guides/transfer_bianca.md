@@ -32,6 +32,8 @@ There are multiple ways to transfer files to/from Bianca:
 Method                                                                            |Features
 ----------------------------------------------------------------------------------|---------------------------------------------
 [Using a graphical program](#using-a-graphical-program)                           |Graphical interface, intuitive, for small amounts of data only
+[Using FileZilla](../software/bianca_file_transfer_using_filezilla.md)            |All operating systems
+[Using WinSCP](../software/bianca_file_transfer_using_winscp.md)      |Windows-only
 [Using `rsync`](#using-rsync)                                                     |[Terminal](../software/terminal.md), recommended
 [Using `sftp`](#using-sftp)                                                       |[Terminal](../software/terminal.md), easy to learn, can use terminal commands to select files
 [Using `lftp`](#using-lftp)                                                       |[Terminal](../software/terminal.md)
