@@ -227,7 +227,7 @@ Bundle of Python packages from PyPI
     - toml
     - urllib
 
-    Also loads the package module 
+    Also loads the package module
 
     - virtualenv
     
@@ -389,8 +389,7 @@ xarray (formerly xray) is an open source project and Python package that aims to
  the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the
  core pandas data structures.
 
-- Homepage: https://github.com/pydata/xarray
-
+- Homepage: <https://github.com/pydata/xarray>
 
 !!! info "Main package(s)"
 
