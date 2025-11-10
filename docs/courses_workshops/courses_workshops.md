@@ -22,13 +22,13 @@ Course dates are (or should be) provided at each course's website.
 
 [Log in and transfer files to/from HPC Clusters <br> _Nov 14_](naiss_transfer.md){ .md-button .md-button--primary }
 
-[Bianca In-Depth Workshop/Hackathon: <br> Improve Your Handling of Sensitive Research Data <br> _Nov 18_](bianca_intermediate.md){ .md-button .md-button--primary }
+[Bianca In-Depth Workshop: <br> Improve Your Handling of Sensitive Research Data <br> _Nov 18_](bianca_intermediate.md){ .md-button .md-button--primary }
 
-[Using Python in an HPC environment part 2 <br> _Nov 27-28_](hpc_python.md){ .md-button .md-button--primary }
+[Using Python in an HPC environment part 1 <br> _Nov 27-28_](hpc_python.md){ .md-button .md-button--primary }
 
 ### December
 
-[Using Python in an HPC environment part 1 <br> _Dec 1-2_](hpc_python.md){ .md-button .md-button--primary }
+[Using Python in an HPC environment part 2 <br> _Dec 1-2_](hpc_python.md){ .md-button .md-button--primary }
 
 ## About the courses
 
