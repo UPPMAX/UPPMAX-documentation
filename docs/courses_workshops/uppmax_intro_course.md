@@ -14,16 +14,16 @@ tags:
 
 UPPMAX application experts want to share their skills in a 3-day series of lectures. We will help you move from being a Linux novice to an UPPMAX expert. If you already have the fundamentals down, you are still sure to enjoy the tips and tricks in the later parts of the course. The lectures covering Linux and bash scripting are cluster-agnostic and may be attended by non-UPPMAX users as well. It is possible to sign up only for the lectures that are interesting to you.
 
-When: October 15-17, 2025.
+When: January 19-21, 2026.
 
 Where: online via Zoom.
 
-[Registration form](https://forms.gle/PtkBn57BmNLAtFyt9)
+Registration form coming soon
 
 
 ### Schedule
 
-|                | Wednesday, October 15        | Thursday, October 16  | Friday, October 17  |
+|                | Monday, January 19        | Tuesday, January 20  | Wednesday, January 21  |
 |:---------------|:-----------------------------|:----------------------|:------------------------|
 | **Morning**    | [Intro to UPPMAX and Linux 1/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek | [Linux II](https://www.uu.se/download/18.57591c9d18f3ec99a0521715/1715115920644/c_560271-l_1-k_uppmax-linux-ii.pptx.pdf)<br />Douglas Scofield        | [Bash Scripting](https://www.uu.se/download/18.57591c9d18f3ec99a052171f/1715115979757/c_560271-l_1-k_uppmax-bash-scripts.pptx.pdf)<br />Douglas Scofield          |
 | **Afternoon**  | [Intro to UPPMAX and Linux 2/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek | [Linux III](https://www.uu.se/download/18.57591c9d18f3ec99a0521716/1715115950709/c_560271-l_1-k_uppmax-linux-iii.pptx.pdf)<br />Douglas Scofield      | [Slurm at UPPMAX](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/courses_workshops/UPPMAX-Slurm-2025-10.pdf)<br />Diana Iusan         |
