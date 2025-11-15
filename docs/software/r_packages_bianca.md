@@ -35,21 +35,66 @@ drwxrwsr-x  8 douglas sw  4096 May 25 04:04 glmnetcr
 drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 ```
 
-## Install steps
+## Principles
 
-### Install on Rackham
+1. Download/install
+2. Transfer to the wharf
+3. Install On Bianca/Move package to right folder
 
-- [R on UPPMAX course](https://uppmax.github.io/R-matlab-julia-HPC/r/packages/)
+## User without access to Rackham/Pelle
+
+
+Use [transit](../cluster_guides/login_transit.md)!
+
+1. [Log in to transit](https://docs.uppmax.uu.se/cluster_guides/login_transit/)
+2. [Go to the mounted project folder](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/#3-mount-a-bianca-project)r
+3. Download source files with ``wget``
+4. Load R_packages of desired version
+5. Start R session, either
+   - from the wharf folder where the source files are
+   - from other place and note the path to the source files
+6. Install from source in R session
+
+### Download part
+
+- Use your webbrowser to find the package in
+    - [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html)
+    - GitHub page
+- Find the version of the package
+    - CRAN: go to "old sources/Dowser archive"
+    - GitHub: Go to Releases/tags
+
+- Copy link for the package with name similar to ``<package>_<version>.tar.gz``.
+- Use the ``wget <copied link>`` command in Transit and correct project folder.
+
+```console
+wget <package>_<version>.tar.gz
+```
+
+!!! example "Example with Dowser 2.0.0"
+
+    - <https://cran.r-project.org/web/packages/dowser/index.html>
+    - just 2.4.0 is listed here
+    - go to old sources/Dowser archive
+    - choose 2.0.0.tar.gz
+    - copy link
+
+    ```console 
+    wget https://cran.r-project.org/src/contrib/Archive/dowser/dowser_2.0.0.tar.gz
+    ````
+
+
+## UU affiliated projects can also install on Rackham
+
 - **note** First decide on which R version it should be based on and load that R_packages module.
 - If not stated otherwise, your installation will end up in the ``~/R`` directory within your home directory
 
-#### Methods
+### Download and install on Rackham
 
 - automatic download and install from CRAN
-    - <https://uppmax.github.io/bianca_workshops/extra/rpackages>
 
 - automatic download and install from GitHub
-    - <https://uppmax.github.io/bianca_workshops/extra/rpackages>
+
 
 - manual download and install
     - <https://uppmax.github.io/bianca_workshops/extra/rpackages>
