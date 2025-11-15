@@ -33,11 +33,12 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 ## Principles
 
 Works for all | Special solution for Rackham users
+--------------|-----------------------------------
 Find source files | Install in side a R session on Rackham
 Download to Transit/wharf| Transfer to the wharf via any method
 Install On Bianca | Move package to right folder
 
-## User without access to Rackham/Pelle
+## Users without access to Rackham/Pelle
 
 - **NOTE** that if you install a package this way, you need to handle any dependencies yourself.
     - For instance you might get use of our modules from R_packages
@@ -47,9 +48,9 @@ Use [transit](../cluster_guides/login_transit.md)!
 1. [Log in to transit](https://docs.uppmax.uu.se/cluster_guides/login_transit/)
 2. [Go to the mounted project folder](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/#3-mount-a-bianca-project)r
 3. [Download](#download-part) source files with ``wget``
-4. Load R_packages of desired version
-5. Start R session, either
-7. Install from source in R session
+4. Load R_packages of desired version (R is loaded on the fly)
+5. Start R session
+6. Install from source in R session
 
 ### Download part
 
@@ -74,18 +75,18 @@ wget <package>_<version>.tar.gz
 - Load R_packages of desired version
 - Start R session, either
 
-   - from the wharf folder where the source files are
-   - from other place and note the path to the source files
+    - from the wharf folder where the source files are
+    - from other place and note the path to the source files
 
-- Install from source in R session, 
+- Install from source in R session,
 
-from wharf folder
+- from wharf folder
 
 ```R
 > install.packages("<filename>", repos = NULL, type="source")
 ```
 
-from other folder folder
+- from other folder
 
 ```R
 > install.packages("<path-to/filename>", repos = NULL, type="source")
@@ -98,13 +99,13 @@ from other folder folder
     - go to old sources/Dowser archive
     - choose 2.0.0.tar.gz
     - copy link
-    - In project folder in Transit
+    - In project folder in **Transit**
     
-    ```console 
+    ```console
     wget https://cran.r-project.org/src/contrib/Archive/dowser/dowser_2.0.0.tar.gz
     ```
 
-    - In Bianca session (right project!) and in wharf folder load ``R_packages`` and start R session
+    - In **Bianca session** (right project!) and in wharf folder load ``R_packages`` and start R session
         
     - Ex: ``cd /proj/nobackup/sens2025560/wharf/bjornc/bjornc-sens2025560``
 
@@ -113,8 +114,7 @@ from other folder folder
     R
     ```
 
-    In R session:
-
+    In **R session**:
 
     ```R
     > install.packages("dowser_2.0.0.tar.gz", repos = NULL, type="source")
