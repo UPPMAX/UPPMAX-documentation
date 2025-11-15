@@ -1,10 +1,5 @@
 # Installing R packages on Bianca
 
-???+ question "Read through the content below"
-
-???+ question "Try to do the [exercise](r_packages_bianca.md#example-update-dowser)"
-
-
 ## First check if package is already in R_packages/x.y.z
 
 
@@ -37,27 +32,28 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 
 ## Principles
 
-1. Download/install
-2. Transfer to the wharf
-3. Install On Bianca/Move package to right folder
+Works for all | Special solution for Rackham users
+Find source files | Install in side a R session on Racham
+Download to Transit/wharf| Transfer to the wharf via any method
+Install On Bianca | Move package to right folder
 
 ## User without access to Rackham/Pelle
 
+- **NOTE** that if you install a package this way, you need to handle any dependencies yourself.
+    - For instance you might get use of our modules from R_packages
 
 Use [transit](../cluster_guides/login_transit.md)!
 
 1. [Log in to transit](https://docs.uppmax.uu.se/cluster_guides/login_transit/)
 2. [Go to the mounted project folder](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/#3-mount-a-bianca-project)r
-3. Download source files with ``wget``
+3. [Download](#download-part) source files with ``wget``
 4. Load R_packages of desired version
 5. Start R session, either
-   - from the wharf folder where the source files are
-   - from other place and note the path to the source files
-6. Install from source in R session
+7. Install from source in R session
 
 ### Download part
 
-- Use your webbrowser to find the package in
+- Use your **webbrowser** to find the package in
     - [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html)
     - GitHub page
 - Find the version of the package
@@ -65,10 +61,34 @@ Use [transit](../cluster_guides/login_transit.md)!
     - GitHub: Go to Releases/tags
 
 - Copy link for the package with name similar to ``<package>_<version>.tar.gz``.
+- Go to the **terminal** and and be sure you are in the wharf folder, i.e. the mounted project folder in Transit
 - Use the ``wget <copied link>`` command in Transit and correct project folder.
 
 ```console
 wget <package>_<version>.tar.gz
+```
+
+### Installation part
+
+- Log in to Bianca and the relevant project
+- Load R_packages of desired version
+- Start R session, either
+
+   - from the wharf folder where the source files are
+   - from other place and note the path to the source files
+
+- Install from source in R session, 
+
+from wharf folder
+
+```R
+> install.packages("<filename>", repos = NULL, type="source")
+```
+
+from other folder folder
+
+```R
+> install.packages("<path-to/filename>", repos = NULL, type="source")
 ```
 
 !!! example "Example with Dowser 2.0.0"
@@ -83,6 +103,57 @@ wget <package>_<version>.tar.gz
     wget https://cran.r-project.org/src/contrib/Archive/dowser/dowser_2.0.0.tar.gz
     ````
 
+    > install.packages("dowser_2.0.0.tar.gz", repos = NULL, type="source")
+
+    - Type ``yes`` when asked about using a personal library.
+
+    ??? question "Output"
+
+        Warning in install.packages("1.2.0.tar.gz", repos = NULL, type = "source") :
+          'lib = "/sw/apps/R/4.3.1/rackham/lib64/R/library"' is not writable
+        Would you like to use a personal library instead? (yes/No/cancel) yes
+        Would you like to create a personal library
+        ‘/castor/project/home/bjornc/R/x86_64-pc-linux-gnu-library/4.3’
+        to install packages into? (yes/No/cancel) yes
+        Installing package into ‘/castor/project/home/bjornc/R/x86_64-pc-linux-gnu-library/4.3’
+        (as ‘lib’ is unspecified)
+        Warning in untar2(tarfile, files, list, exdir, restore_times) :
+          skipping pax global extended headers
+        * installing *source* package ‘dowser’ ...
+        ** using staged installation
+        ** R
+        ** data
+        *** moving datasets to lazyload DB
+        ** inst
+        ** byte-compile and prepare package for lazy loading
+        ** help
+        *** installing help indices
+        ** building package indices
+        ** installing vignettes
+        ** testing if installed package can be loaded from temporary location
+        ** testing if installed package can be loaded from final location
+        ** testing if installed package keeps a record of temporary installation path
+        * DONE (dowser)
+        >
+
+        - Test it!
+
+        ```R
+        > library(dowser)
+        Loading required package: ggplot2
+        Registered S3 methods overwritten by 'treeio':
+          method              from
+          MRCA.phylo          tidytree
+          MRCA.treedata       tidytree
+          Nnode.treedata      tidytree
+        ...
+        
+        ```  
+
+
+
+
+
 
 ## UU affiliated projects can also install on Rackham
 
@@ -92,7 +163,6 @@ wget <package>_<version>.tar.gz
 ### Download and install on Rackham
 
 - automatic download and install from CRAN
-
 - automatic download and install from GitHub
 
 
