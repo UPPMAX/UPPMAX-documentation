@@ -33,7 +33,7 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 ## Principles
 
 Works for all | Special solution for Rackham users
-Find source files | Install in side a R session on Racham
+Find source files | Install in side a R session on Rackham
 Download to Transit/wharf| Transfer to the wharf via any method
 Install On Bianca | Move package to right folder
 
@@ -98,18 +98,34 @@ from other folder folder
     - go to old sources/Dowser archive
     - choose 2.0.0.tar.gz
     - copy link
-
+    - In project folder in Transit
+    
     ```console 
     wget https://cran.r-project.org/src/contrib/Archive/dowser/dowser_2.0.0.tar.gz
-    ````
+    ```
 
+    - In Bianca session (right project!) and in wharf folder load ``R_packages`` and start R session
+        
+    - Ex: ``cd /proj/nobackup/sens2025560/wharf/bjornc/bjornc-sens2025560``
+
+    ```console
+    ml R_packages/4.3.1
+    R
+    ```
+
+    In R session:
+
+
+    ```R
     > install.packages("dowser_2.0.0.tar.gz", repos = NULL, type="source")
-
+    ```
+    
     - Type ``yes`` when asked about using a personal library.
 
     ??? question "Output"
 
-        Warning in install.packages("1.2.0.tar.gz", repos = NULL, type = "source") :
+        ```R
+        Warning in install.packages("dowser_2.0.0.tar.gz", repos = NULL, type = "source") :
           'lib = "/sw/apps/R/4.3.1/rackham/lib64/R/library"' is not writable
         Would you like to use a personal library instead? (yes/No/cancel) yes
         Would you like to create a personal library
@@ -135,25 +151,21 @@ from other folder folder
         ** testing if installed package keeps a record of temporary installation path
         * DONE (dowser)
         >
+        ```
 
-        - Test it!
+    - Test it!
 
-        ```R
-        > library(dowser)
-        Loading required package: ggplot2
-        Registered S3 methods overwritten by 'treeio':
-          method              from
-          MRCA.phylo          tidytree
-          MRCA.treedata       tidytree
-          Nnode.treedata      tidytree
-        ...
+    ```R
+    > library(dowser)
+    Loading required package: ggplot2
+    Registered S3 methods overwritten by 'treeio':
+      method              from
+      MRCA.phylo          tidytree
+      MRCA.treedata       tidytree
+      Nnode.treedata      tidytree
+    ...
         
-        ```  
-
-
-
-
-
+    ```  
 
 ## UU affiliated projects can also install on Rackham
 
