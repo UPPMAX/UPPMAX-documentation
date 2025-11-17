@@ -94,7 +94,17 @@ wget <package>_<version>.tar.gz
 
 !!! example "Example with Dowser 2.0.0"
 
-    - <https://cran.r-project.org/web/packages/dowser/index.html>
+    [dowser on Readthedocs](https://dowser.readthedocs.io/en/latest/){:target="_blank"}
+
+    !!! info
+
+        - Dowser is part of the Immcantation analysis framework for Adaptive Immune Receptor Repertoire sequencing (AIRR-seq).
+        - Dowser provides a set of tools for performing phylogenetic analysis on B cell receptor repertoires.
+        - It supports building and visualizing trees using multiple methods, and implements statistical tests for discrete trait analysis of         B cell migration, differentiation, and isotype switching.
+
+        The version of dowser in ``R_packages/4.2.1`` is 1.1.0. It was updated to version 1.2.0 on [2023-05-30](https://cran.rstudio.com/web/packages/dowser/){:target="_blank"}.
+
+    - Web page: <https://cran.r-project.org/web/packages/dowser/index.html>
     - just 2.4.0 is listed here
     - go to old sources/Dowser archive
     - choose 2.0.0.tar.gz
