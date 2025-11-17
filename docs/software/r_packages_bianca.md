@@ -208,7 +208,7 @@ wget <package>_<version>.tar.gz
 
 - Start an R session on bianca and load the new package
 
-## Example: Update dowser
+### Example: Update dowser
 
 [dowser on ReadTheDocs](https://dowser.readthedocs.io/en/latest/){:target="_blank"}
 
@@ -220,7 +220,7 @@ wget <package>_<version>.tar.gz
 
 The version of dowser in ``R_packages/4.2.1`` is 1.1.0. It was updated to version 1.2.0 on [2023-05-30](https://cran.rstudio.com/web/packages/dowser/){:target="_blank"}.
 
-### Install dowser Rackham
+#### Install dowser Rackham
 
 You can update this for yourself by beginning on **rackham**. Do
 
@@ -300,7 +300,7 @@ The downloaded source packages are in
 [1] '1.2.0'
 ```
 
-### Transfer to the Wharf
+#### Transfer to the Wharf
 
 After installation, the next step is to copy the contents of this directory over to bianca so that it is the same directory within your bianca home directory.
 
@@ -360,7 +360,7 @@ total 1892
 drwxrwxr-x  3 douglas douglas    4096 Mar  2 14:27 R
 ```
 
-### Sync from Wharf to Home directory
+#### Sync from Wharf to Home directory
 
 - Now sync this to your home directory:
 
@@ -368,7 +368,7 @@ drwxrwxr-x  3 douglas douglas    4096 Mar  2 14:27 R
 [douglas@sens2017625-bianca douglas-sens2017625]$ rsync -Pa R ~/
 ```
 
-### Start an R session and load the new package
+#### Start an R session and load the new package
 
 Because R_packages/4.2.1 was loaded when you installed/updated the packages in your personal R library, you need to have it loaded when you use these packages as well.
 
