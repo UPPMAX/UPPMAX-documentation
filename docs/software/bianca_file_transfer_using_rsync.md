@@ -96,7 +96,7 @@ for example:
 mount_wharf sens2016001
 ```
 
-The password is your normal UPPMAX password and the "Second factor" is your [UPPMXX 2FA](https://docs.uppmax.uu.se/getting_started/get_uppmax_2fa/)
+The password is your normal UPPMAX password and the "Second factor" is your [UPPMAX 2FA](https://docs.uppmax.uu.se/getting_started/get_uppmax_2fa/)
 
 Now a folder called `sens2016001` is created in your $HOME folder.
 
