@@ -46,18 +46,17 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
     Hardware
 
-    - Pelle's compute nodes have much more CPU cores and memory compared to previous UPPMAX cluster.
+    - Pelle's compute nodes have much more CPU cores and memory compared
+    to previous UPPMAX cluster.
     - All compute nodes have AMD Zen4 processors.
-    - Details about the hardware is on the [Pelle/Maja
-hardware](../hardware/clusters/pelle.md) page.
+    - Details about the hardware is on the [Pelle/Maja hardware](../hardware/clusters/pelle.md) page.
 
     Software installations
 
     - Software available on Pelle is not included in the Software list on
-this web page yet.
-    - Please use the [module system](modules.md) to list
-available software, for example by running `module avail` or `module
-spider`.
+    this web page yet.
+    - Please use the [module system](modules.md) to list available
+    software, for example by running `module avail` or `module spider`.
 
     Compute nodes
 
