@@ -27,7 +27,7 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
     Parameter|Tetralith|Pelle
     Max job time|10 days|Longer
-
+    Storage per compute|Decent|High
 
 ???- question "What is the status of Pelle?"
 
@@ -36,6 +36,36 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
     **Pelle is now open for all users for testing. Welcome!**
 
     Let us know if you are missing your favorite tools. We'll install those on demand.
+
+???- question "What is different on Pelle in comparison to Rackham?"
+
+    New operating system
+
+    - Pelle is running [Rocky Linux 9](https://rockylinux.org/). 
+    - Most system software, including the Linux kernel, have newer versions compared to Rackham and other UPPMAX clusters.
+
+    Hardware
+
+    - Pelle's compute nodes have much more CPU cores and memory compared to
+previous UPPMAX cluster. All compute nodes have AMD Zen4 processors.
+    - Details about the hardware is on the [Pelle/Maja
+hardware](../hardware/clusters/pelle.md) page.
+
+    Software installations
+
+    - Software available on Pelle is not included in the Software list on
+this web page yet. 
+    - Please use the [module system](modules.md) to list
+available software, for example by running `module avail` or `module
+spider`.
+
+    Compute nodes
+
+    - 48 physial cores (96 logical cores) per node, instead of 20.
+    - No node/core partitions
+    - No devel partition
+    - Job memory specification
+    - SMT
 
 !!! info
 
