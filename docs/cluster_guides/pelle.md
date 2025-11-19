@@ -44,11 +44,7 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
     
 ## [How to apply to a Pelle project](../getting_started/project_apply_pelle.md)
 
-See [how to apply to a Pelle project](../getting_started/project_apply_pelle.md).
-
 ## [How to log in to Pelle](../getting_started/login_pelle.md)
-
-See [how to log in to Pelle](../getting_started/login_pelle.md).
 
 ## Features of Pelle, compared to Rackham
 
@@ -60,7 +56,6 @@ Pelle is quite similar to [Rackham](rackham.md) but we have prepared Pelle speci
 - [Starting an interactive session](start_interactive_session_on_pelle.md)
 - [IDEs](../software/ides_on_pelle.md)
 
-
 ???- warning "We are still preparing documentation of these subjects"
 
     - [IDEs](../software/ides_on_pelle.md)
@@ -71,7 +66,6 @@ Pelle is quite similar to [Rackham](rackham.md) but we have prepared Pelle speci
         - venv
     - Run webexport
 
-
 ## Migration from Rackham to Pelle
 
 As both clusters are UPPMAX clusters,
@@ -81,7 +75,3 @@ to Pelle. Users will have to [apply to a Pelle project](../getting_started/proje
 ## Pelle hardware
 
 [Pelle/Maja hardware](../hardware/clusters/pelle.md)
-
-## Information for test pilots
-
-We have a separate page with [information for Pelle test pilot users](./pelle_test.md)
