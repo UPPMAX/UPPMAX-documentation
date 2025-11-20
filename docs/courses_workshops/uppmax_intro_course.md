@@ -18,7 +18,7 @@ When: January 19-21, 2026.
 
 Where: online via Zoom.
 
-Registration form coming soon
+[Registration form](https://forms.gle/ndLgay2B1RBGfQCA6)
 
 
 ### Schedule

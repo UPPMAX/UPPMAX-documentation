@@ -65,5 +65,7 @@
   "MD046": false,
   // MD033/no-inline-html Inline HTML 
   "MD033": false,
+  // MD060/table-column-style Table column style [Table pipe has space to the left for style "tight"]
+  "MD060": false,
 
 }
