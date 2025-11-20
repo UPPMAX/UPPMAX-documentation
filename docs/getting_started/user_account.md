@@ -18,5 +18,5 @@ To apply for an UPPMAX user account, complete the following steps:
   You must not have more than one account in SUPR.
 - [Accept the user agreement in SUPR](supr_register.md#accept-the-user-agreement).
 
-With your UPPMAX user acount, you can now
+With your UPPMAX user account, you can now
 [apply to an UPPMAX project](project_apply.md) to use the UPPMAX resources.
