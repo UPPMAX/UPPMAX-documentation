@@ -1,73 +1,31 @@
-# Get started here
+---
+tags:
+  - get started
+---
 
-- In order to use UPPMAX resources, you need to be a member of a project and a user account.
-- Your user account is a personal log-in to our systems.
-- Computer resources like CPU-hours and disk storage are allocated to projects.
+# Get started
 
-## PIs
+This page describes how to get started with UPPMAX.
 
-Do you or members in your research group need compute and storage resources
-on a HPC cluster or Infrastructure-as-a-Service cloud?
-Learn how to apply for a project by following the link below:
+## Step 1: get an UPPMAX user account
 
-- [Project apply](project_apply.md)
+First, one needs an an UPPMAX user account.
+See how to get one at [the UPPMAX guide 'Apply to a user account'](user_account.md#apply-to-an-uppmax-user-account).
 
-Are you interested in other services, e.g. large volume data storage?
-Let us know by [contacting UPPMAX Support](../support.md)!
+## Step 2: get an UPPMAX project
 
-You may want to see what other NAISS centers can offer, as well.
+Second, one needs to have an active research project.
+See how to get one at [the UPPMAX guide 'Apply for a project'](project_apply.md).
 
-- [NAISS resources](https://www.naiss.se/resources/)
+## Step 3: use UPPMAX
 
-## Users
+Now you can use the UPPMAX resources!
 
-The workflow is like this:
+- [Login to our clusters](login.md)
+- [Transfer files from/to your UPPMAX account](../cluster_guides/file_transfer.md)
+- [Schedule jobs](../cluster_guides/slurm.md).
 
-1. [Register in SUPR](project_apply.md#supr-account)
-2. Accept a user agreement
-3. Become a member of a project
-4. Apply for an account at UPPMAX (or other resources)
+To make this step easier,
+UPPMAX provides for [courses and workshops](courses_workshops/courses_workshops.md).
 
-Once you or someone in your group or collaboration has a project, you must apply for a user account by following the link below.
-
-- [User account](user_account.md)
-
-Have an account already? Then scroll down just a little to to "Getting started: First login to UPPMAX".
-
-## Students
-
-Are you taking a university course that uses UPPMAX and need help? Ask your instructor! If they can't help, contact us through IT Support.
-
-## Getting started: First login to UPPMAX
-
-See [Log in to an UPPMAX cluster](login.md).
-
-## Changing your password
-
-See [How to change your UPPMAX password](change_uppmax_password.md)
-
-## Copying files from/to your UPPMAX account
-
-See [How to transfer files from/to your UPPMAX account](../cluster_guides/file_transfer.md)
-
-## Where are my files? Or, what are the different file systems?
-
-See [files on UPPMAX](../cluster_guides/files.md)
-
-## Modules
-
-In order to run installed programs,
-one uses the [module](../cluster_guides/modules.md)
-system.
-
-## How to run jobs
-
-All jobs should be run using [the job scheduler](../cluster_guides/slurm.md).
-
-## UPPMAX homepage
-
-Please check our homepage regularly for information, news and announcements.
-We will announce maintenance stops and down time there.
-
-- <https://www.uu.se/en/centre/uppmax>
-- <https://www.uppmax.uu.se>
+If you are struck, never hesitate to [contact support](support.md).

@@ -8,14 +8,16 @@ tags:
 
 To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
 
-- [an active research project](project.md)
-- [an UPPMAX user account](user_account.md)
+- [an UPPMAX user account](user_account.md):
+  you need one for an UPPMAX project
+- [an active research project](project.md):
+  this page :-)
 
 This page is about UPPMAX projects:
 
+- [Apply to an UPPMAX project](project_apply.md)
 - [View your existing UPPMAX projects](#view-your-uppmax-projects)
-- [Type of UPPMAX projects](#type-of-uppmax-projects)
-- [Apply to an UPPMAX project](#apply-to-an-uppmax-project)
+- [Read about the types of UPPMAX projects](#type-of-uppmax-projects)
 
 ## View your UPPMAX projects
 
@@ -107,11 +109,9 @@ The name of that folder is the name of your account.
 
 ## Type of UPPMAX projects
 
+These are the type of UPPMAX projects that exist:
+
 - NAISS projects
 - UPPMAX projects
 - NGI Delivery projects
 - Course projects
-
-## Apply to an UPPMAX project
-
-See [the UPPMAX page 'Apply to an UPPMAX project'](project_apply.md).

@@ -34,7 +34,7 @@ The workflow is like this:
 - [Register in SUPR](supr_register.md)
 - [Accept the user agreement in SUPR](supr_register.md#accept-the-user-agreement)
 
-## Applying for an UPPMAX project (PI)
+## Applying for an UPPMAX project as a PI
 
 If you are a PI: apply for a project in SUPR.
 
@@ -46,12 +46,19 @@ If you are a PI: apply for a project in SUPR.
   i.e. a project that provides an online service, e.g. a website
 - [Apply for a SIMPLER project](project_apply_simpler.md),
   i.e. a project for the Swedish Infrastructure for Medical Population-based Life-course and Environmental Research
-- [Undergraduate course project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/course)
+
+## Applying for an UPPMAX project as a student
+
+As a student, you can either
+
+- [Become a member of a project](#become-a-member-of-a-project)
+- [Request an undergraduate course project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/course)
 
 ## Become a member of a project
 
-If you are not a PI: Apply for membership in a project you want to join in SUPR, Wait for the PI to accept your application. Alternatively, the PI can add you directly.
+To become a member of a project:
 
+- Ask the PI of the project to add you in [SUPR](supr.md) by e.g. email
 - [Join an existing project](join_existing_project.md).
 
 ???- question "I just got an UPPMAX project, yet I cannot login to UPPMAX?"
@@ -61,10 +68,3 @@ If you are not a PI: Apply for membership in a project you want to join in SUPR,
 
     If after one night you cannot login,
     please [contact support](../support.md).
-
-## Apply for an account at UPPMAX
-
-If you don't already have an account at UPPMAX you are ready by now!
-
-- [Apply for an UPPMAX user account](user_account.md)
-
