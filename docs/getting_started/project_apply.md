@@ -38,14 +38,20 @@ The workflow is like this:
 
 If you are a PI: apply for a project in SUPR.
 
-- [Apply for a Bianca project](project_apply_bianca.md), i.e. a project
-  using sensitive data
-- [Apply for a Pelle project](project_apply_pelle.md), i.e. a project
-  for the new Uppsala-local general-purpose cluster
-- [Apply for a Swedish Science Cloud project](project_apply_scc.md),
-  i.e. a project that provides an online service, e.g. a website
-- [Apply for a SIMPLER project](project_apply_simpler.md),
-  i.e. a project for the Swedish Infrastructure for Medical Population-based Life-course and Environmental Research
+When applying for a project, you will need to specify
+[an UPPMAX HPC cluster](../cluster_guides/uppmax_cluster.md).
+The decision tree on which HPC cluster to pick is as follows:
+
+- Do you want to run calcuations on data that needs privacy protection?
+  Then [apply for a Bianca project](project_apply_bianca.md)
+- Do you want to run calcuations on data that does not need privacy protection?
+  [Apply for a Pelle project](project_apply_pelle.md)
+- Do you want to provides an online service, e.g. a website?
+  [Apply for a Swedish Science Cloud project](project_apply_scc.md)
+- Do you want to join the SIMPLER project,
+  i.e. a project for the Swedish Infrastructure for Medical Population-based
+  Life-course and Environmental Research?
+  [Apply for a SIMPLER project](project_apply_simpler.md),
 
 ## Applying for an UPPMAX project as a student
 
