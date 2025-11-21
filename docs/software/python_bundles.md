@@ -58,7 +58,7 @@ Biopython is a set of freely available tools for biological
 Dask natively scales Python. Dask provides advanced parallelism for analytics,
 enabling performance at scale for the tools you love.
 
-- Homepage: https://dask.org/
+- Homepage: <https://dask.org/>
 
 !!! info "Main package(s)"
 
@@ -397,7 +397,7 @@ Bundle of Python packages for scientific software
 Seaborn is a Python visualization library based on matplotlib.
  It provides a high-level interface for drawing attractive statistical graphics.
 
-- Homepage: https://seaborn.pydata.org/
+- Homepage: <https://seaborn.pydata.org/>
     
 !!! info "Main package(s)"
 
