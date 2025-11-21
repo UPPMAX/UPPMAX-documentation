@@ -42,9 +42,9 @@ When applying for a project, you will need to specify
 [an UPPMAX HPC cluster](../cluster_guides/uppmax_cluster.md).
 The decision tree on which HPC cluster to pick is as follows:
 
-- Do you want to run calcuations on data that needs privacy protection?
+- Do you want to run calculations on data that needs privacy protection?
   Then [apply for a Bianca project](project_apply_bianca.md)
-- Do you want to run calcuations on data that does not need privacy protection?
+- Do you want to run calculations on data that does not need privacy protection?
   [Apply for a Pelle project](project_apply_pelle.md)
 - Do you want to provides an online service, e.g. a website?
   [Apply for a Swedish Science Cloud project](project_apply_scc.md)

@@ -53,6 +53,32 @@ Biopython is a set of freely available tools for biological
         - SciPy-bundle/2024.05-gfbf-2024a
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
+## dask
+
+Dask natively scales Python. Dask provides advanced parallelism for analytics,
+enabling performance at scale for the tools you love.
+
+- Homepage: https://dask.org/
+
+!!! info "Main package(s)"
+
+    - dask
+    - dask-jobqueue
+    - distributed
+
+!!! info "Installed versions"
+
+    Versions and dependencies
+    
+    ??? note "2024.9.1-gfbf-2024a"
+
+        Dependencies
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
+        - matplotlib/3.9.2-gfbf-2024a
+
 ## IPython
 
 IPython provides a rich architecture for interactive computing with:
@@ -366,7 +392,34 @@ Bundle of Python packages for scientific software
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
+## Seaborn
+
+Seaborn is a Python visualization library based on matplotlib.
+ It provides a high-level interface for drawing attractive statistical graphics.
+
+- Homepage: https://seaborn.pydata.org/
     
+!!! info "Main package(s)"
+
+    - seaborn
+
+!!! info "Installed versions"
+
+    Versions and dependencies
+    
+    ??? note "0.13.2-gfbf-2024a"
+
+        Packages
+        
+        - seaborn-0.13.2
+
+        Dependencies
+
+        - Python/3.12.3-GCCcore-13.3.0
+        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
+        - SciPy-bundle/2024.05-gfbf-2024a
+        - matplotlib/3.9.2-gfbf-2024a
+        
 ## sympy
 
 SymPy is a Python library for symbolic mathematics. It aims to
