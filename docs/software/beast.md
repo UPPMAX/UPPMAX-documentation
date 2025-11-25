@@ -1,3 +1,10 @@
+---
+tags:
+  - BEAST
+  - software
+  - Bayesian phylogenetic analysis
+---
+
 # BEAST
 
 BEAST is a tool for Bayesian phylogenetic analysis.

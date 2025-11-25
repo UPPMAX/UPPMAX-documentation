@@ -1,3 +1,10 @@
+---
+tags:
+  - BEAST2
+  - software
+  - Bayesian phylogenetic analysis
+---
+
 # BEAST2
 
 BEAST2 is a tool for Bayesian phylogenetic analysis.

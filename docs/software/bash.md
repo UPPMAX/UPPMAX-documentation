@@ -1,4 +1,10 @@
-# bash
+---
+tags:
+  - bash
+  - Bourne again shell
+---
+
+# Bash
 
 Bash is the default Unix shell,
 a command-line interpreter and script host that provides
@@ -7,7 +13,7 @@ Users direct the operation of the computer by entering command input as text
 for a command line interpreter to execute or by creating
 text scripts of one or more such commands.
 
-## Special bash files
+## Special Bash files
 
 - `.bash_profile`: is run whenever you login or when you start a login
   shell (as in starting a job in the queue).

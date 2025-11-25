@@ -1,3 +1,14 @@
+---
+tags:
+  - eog
+  - display image
+  - display plot
+  - show image
+  - show plot
+  - command line
+  - terminal
+---
+
 # `eog`
 
 ![Example use of eog](./img/eog.png)

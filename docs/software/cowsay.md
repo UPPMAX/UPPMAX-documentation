@@ -1,3 +1,12 @@
+---
+tags:
+  - cowsay
+  - tool
+  - toy example
+  - cow that talks
+  - terminal
+---
+
 # cowsay
 
 `cowsay` is a tool that commonly use as a toy example.

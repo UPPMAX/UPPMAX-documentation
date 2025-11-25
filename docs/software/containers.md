@@ -1,3 +1,8 @@
+---
+tags:
+  - containers
+---
+
 # Containers
 
 Containers allow one to bundle installed software into a file,

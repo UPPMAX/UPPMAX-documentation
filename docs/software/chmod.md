@@ -1,3 +1,12 @@
+---
+tags:
+  - chmod
+  - change ownership
+  - Linux
+  - command
+  - Bash
+---
+
 # `chmod`
 
 `chmod` is a Linux command to change the ownership of a folder

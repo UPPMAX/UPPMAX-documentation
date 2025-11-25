@@ -1,3 +1,12 @@
+---
+tags:
+  - jobstats
+  - tool
+  - job statistics
+  - resource usa
+  - view resource use
+---
+
 # `jobstats`
 
 ![jobstats plot](./img/jobstats_c_555912-l_1-k_bad_job_01_with_border.png)

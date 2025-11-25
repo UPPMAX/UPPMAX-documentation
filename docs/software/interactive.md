@@ -1,6 +1,7 @@
 ---
 tags:
   - interactive
+  - session
 ---
 
 # `interactive`
