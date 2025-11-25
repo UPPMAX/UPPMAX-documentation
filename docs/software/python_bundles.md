@@ -128,24 +128,43 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - IPython/8.28.0-GCCcore-13.3.0
 
-## matplotlib
+## Matplotlib
 
-matplotlib is a python 2D plotting library which produces publication quality figures in a variety of
- hardcopy formats and interactive environments across platforms.
+Matplotlib ([Matplotlib homepage](https://matplotlib.org))
+is a Python 2D plotting library,
+which produces publication-quality
+figures in a variety of hardcopy formats and
+interactive environments across platforms.
 
-matplotlib can be used in python scripts, the
-python
- and ipython shell, web application servers, and six graphical user interface toolkits.
+Matplotlib can be used in Python scripts, the Python and IPython shell,
+web application servers, and six graphical user interface toolkits.
 
-- Homepage: <https://matplotlib.org>
+### Loading the Matplotlib module
 
-!!! info "Main package(s)"
+Here is how to load the default Matplotlib module:
 
-    - contourpy
-    - Cycler
-    - fonttools
-    - kiwisolver
-    - matplotlib
+```bash
+module load matplotlib
+```
+
+### Example
+
+Here is the minimal Python code to create a Matplotlib plot:
+
+```python
+import matplotlib.pyplot as plt
+
+plt.plot([0, 1, 4, 9, 16])
+plt.savefig('my_plot.png')
+```
+
+### Matplotlib main package(s)"
+
+- `contourpy`
+- `Cycler`
+- `fonttools`
+- `kiwisolver`
+- `matplotlib`
 
 !!! tip "Load this version and get many other bundles on the fly!"
 
@@ -154,25 +173,25 @@ python
     - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
     - SciPy-bundle/2024.05-gfbf-2024a
 
-!!! info "Installed versions"
+### Matplotlib installed versions
 
-    Versions and dependencies
+Thes are the Matplotlib installed versions and their dependencies.
     
-    ??? note "3.9.2-gfbf-2024a"
+#### Matplotlib 3.9.2-gfbf-2024a
 
-        Packages
-        
-        - contourpy-1.3.0
-        - Cycler-0.12.1
-        - fonttools-4.53.1
-        - kiwisolver-1.4.5
-        - matplotlib-3.9.2
+Packages:
 
-        Dependencies
+- `contourpy-1.3.0`
+- `Cycler-0.12.1`
+- `fonttools-4.53.1`
+- `kiwisolver-1.4.5`
+- `matplotlib-3.9.2`
 
-        - Python/3.12.3-GCCcore-13.3.0
-        - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
-        - SciPy-bundle/2024.05-gfbf-2024a
+Dependencies:
+
+- `Python/3.12.3-GCCcore-13.3.0`
+- `Python-bundle-PyPI/2024.06-GCCcore-13.3.0`
+- `SciPy-bundle/2024.05-gfbf-2024a`
 
 ## mpi4py
 
