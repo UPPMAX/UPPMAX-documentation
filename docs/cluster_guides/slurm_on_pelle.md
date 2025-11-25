@@ -286,7 +286,7 @@ A full example script would be:
 echo "Hello"
 ```
 
-### SMT
+## SMT
 
 The compute node CPUs have Simultaneous multithreading (SMT)
 enabled. Each CPU core runs two Threads. In Slurm the Threads are
@@ -303,7 +303,7 @@ Some examples:
 - `--ntasks=1 --cpus-per-task=4` - two cores, four threads
 - `--ntasks=2 --cpus-per-task=3` - three cores, six threads.
 
-#### One thread per core to avoid SMT
+### One thread per core to avoid SMT
 
 If you suspect SMT degrades the performance of your jobs, you can you
 can specify `--threads-per-core=1` in your job.
