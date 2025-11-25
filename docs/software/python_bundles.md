@@ -175,7 +175,7 @@ plt.savefig('my_plot.png')
 
 ### Matplotlib installed versions
 
-Thes are the Matplotlib installed versions and their dependencies.
+These are the Matplotlib installed versions and their dependencies.
     
 #### Matplotlib 3.9.2-gfbf-2024a
 

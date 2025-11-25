@@ -3,7 +3,7 @@ tags:
   - jobstats
   - tool
   - job statistics
-  - resource usa
+  - resource use
   - view resource use
 ---
 
