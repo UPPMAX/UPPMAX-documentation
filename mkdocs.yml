@@ -85,6 +85,7 @@ nav:
         - Allinea DDT: software/allinea-ddt.md
         - darsync: software/darsync.md
         - jobstats: software/jobstats.md
+        - MariaDB: software/mariadb.md  
         - projplot: software/projplot.md
         - Rclone: software/rclone.md      
         - SSH: software/ssh.md
