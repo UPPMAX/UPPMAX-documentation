@@ -1,3 +1,10 @@
+---
+tags:
+  - Python
+  - user guide
+  - main page
+---
+
 # Python user guide
 
 ![The Python logo](img/python_logo.png)
