@@ -2,7 +2,13 @@
 
 TensorFlow is a library for machine learning and artificial intelligence.
 
-TensorFlow is available in multiple variants:
+HPC Cluster|Available?
+-----------|--------------
+Bianca     |Yes, see below
+Pelle      |No. [Post a support ticket to request TensorFlow](../support.md)
+Rackham    |Yes, see below
+
+For Bianca and Rackham, TensorFlow is available in multiple variants:
 
 - [TensorFlow as a Python package for CPU](#tensorflow-as-a-python-package-for-cpu):
   works on [Bianca](../cluster_guides/bianca.md) and [Rackham](../cluster_guides/rackham.md)
@@ -97,3 +103,5 @@ interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00
     ```
 
     The output is correct: this is the GPU version.
+
+-->
