@@ -2,7 +2,7 @@
 > Note: default configuration allows only connections from localhost.
 
 ## Initializing the MariaDB server-database
-### Load MariadDB module
+### Load MariaDB module
 ```bash
 module load MariaDB/11.7.0-GCC-13.3.0
 ```
@@ -88,7 +88,7 @@ Enter password:
 #SBATCH -t 00:15:00
 ...
 
-# Load MariadDB module
+# Load MariaDB module
 module load MariaDB/11.7.0-GCC-13.3.0
 
 export MARIADB_DATA=/proj/uppmax-XXX-xx/mariadb_data
