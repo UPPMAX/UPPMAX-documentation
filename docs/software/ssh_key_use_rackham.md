@@ -80,6 +80,14 @@ ssh-copy-id -i .ssh/id_ed25519_uppmax_login.pub [username]@rackham.uppmax.uu.se
 
 After this, you can login to Rackham without specifying a password.
 
+### 4. Perform ssh again
+
+In a new terminal, try to login again without using password
+
+```bash
+ssh [username]@rackham.uppmax.uu.se
+```
+
 ## Troubleshooting
 
 ### On Linux, it still asks for a password
