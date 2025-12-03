@@ -31,9 +31,7 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
 ???- question "What is the status of Pelle?"
 
-    See [the Pelle status page](https://status.uppmax.uu.se/2025-04-09/pelle/)
-
-    **Pelle is now open for all users for testing. Welcome!**
+    See [the Pelle status page](https://status.uppmax.uu.se)
 
     Let us know if you are missing your favorite tools. We'll install those on demand.
 
