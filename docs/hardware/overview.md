@@ -26,7 +26,7 @@ Parameter               |Pelle                  |Rackham                |Snowy  
 **Network**             |coming                |InfiniBand FDR 56Gbit/s|InfiniBand FDR 40Gbit/ s               |See [Bianca](clusters/bianca.md)   |10GbE
 **Operating System**    |coming               |CentOS 7               |CentOS 7                               |See [Bianca](clusters/bianca.md)   |[Linux cloud image](https://cloud.snic.se/instances/)
 **Login nodes**         |coming                |Yes                    |No (reached from Rackham)              |See [Bianca](clusters/bianca.md)   |N/A
-**"Home" storage**      |coming                |Domus                  |Domus                                  |See [Bianca](clusters/bianca.md)   |N/A
+**"Home" storage**      |Gorilla                |Gorilla                  |Gorilla                                  |See [Bianca](clusters/bianca.md)   |N/A
 **"Project" Storage**   |coming                |Crex, Lutra            |Crex, Lutra                            |See [Bianca](clusters/bianca.md)   |N/A
 
 The storage systems we have provide a total volume of about 20 PB, the
