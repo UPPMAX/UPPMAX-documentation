@@ -27,7 +27,7 @@ Parameter               |Pelle                  |Rackham                |Snowy  
 **Operating System**    |coming               |CentOS 7               |CentOS 7                               |See [Bianca](clusters/bianca.md)   |[Linux cloud image](https://cloud.snic.se/instances/)
 **Login nodes**         |coming                |Yes                    |No (reached from Rackham)              |See [Bianca](clusters/bianca.md)   |N/A
 **"Home" storage**      |Gorilla                |Gorilla                  |Gorilla                                  |See [Bianca](clusters/bianca.md)   |N/A
-**"Project" Storage**   |coming                |Crex, Lutra            |Crex, Lutra                            |See [Bianca](clusters/bianca.md)   |N/A
+**"Project" Storage**   |Crex (soon Gorilla)    |Crex (soon Gorilla) , Lutra  |Crex (soon Gorilla) , Lutra                            |See [Bianca](clusters/bianca.md)   |N/A
 
 The storage systems we have provide a total volume of about 20 PB, the
 equivalent of nearly 15 billion 3.5-inch floppy disks or 40,000 years of
