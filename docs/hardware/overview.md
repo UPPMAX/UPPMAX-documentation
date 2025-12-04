@@ -21,7 +21,7 @@ Parameter               |Pelle                  |Rackham                |Snowy  
 **Nodes (Intel)**       |coming                |486+144                |228 + 50 N vidia T4 GPUs               |See [Bianca](clusters/bianca.md)   |40 + 20 A2 and 4 T4 Nvidia GPUs
 **Cores per node**      |coming                |20/16                  |16                                     |See [Bianca](clusters/bianca.md)   |16
 **Memory per node**     |coming               |128GB                  |128GB                                  |See [Bianca](clusters/bianca.md)   |128/256GB
-**Fat nodes**           |coming            |256, 512 GB & 4TB                      |See [Bianca](clusters/bianca.md)   |N/A
+**Fat nodes**           |coming               | 256 GB & 1 TB        |256, 512 GB & 4TB                      |See [Bianca](clusters/bianca.md)   |N/A
 **Local disk (scratch)**|coming               |2/3TB                  |4TB                                    |See [Bianca](clusters/bianca.md)   |N/A
 **Network**             |coming                |InfiniBand FDR 56Gbit/s|InfiniBand FDR 40Gbit/ s               |See [Bianca](clusters/bianca.md)   |10GbE
 **Operating System**    |coming               |CentOS 7               |CentOS 7                               |See [Bianca](clusters/bianca.md)   |[Linux cloud image](https://cloud.snic.se/instances/)
