@@ -36,16 +36,12 @@ A technical summary can be found below.
 flowchart TD
     UPPMAX(Which UPPMAX cluster?)
     Bianca
-    Rackham
-    Snowy
+    Pelle
     is_sensitive[Do you use sensitive data?]
-    is_long[Do you use long runs and/or GPUs?]
 
     UPPMAX --> is_sensitive
     is_sensitive --> |yes|Bianca
-    is_sensitive --> |no|is_long
-    is_long --> |no|Rackham
-    is_long --> |yes|Snowy
+    is_sensitive --> |no|Pelle
 ```
 
 ## UPPMAX storage systems
@@ -58,7 +54,7 @@ You need to transfer the data to an active storage first.
 
 The UPPMAX storage systems are:
 
-- Active: Cygnus for Bianca, Crex for Rackham
+- Active: Cygnus for Bianca, Gorilla (home folder) for Pelle (projects still on Crex)
 - Off-load: Lutra for Rackham
 
 ```mermaid
@@ -70,9 +66,9 @@ flowchart TD
     usage_type{Type of use?}
 
     UPPMAX-->which_cluster
-    which_cluster-->|Rackham|usage_type
+    which_cluster-->|Pelle|usage_type
     which_cluster-->|Bianca|Cygnus
-    usage_type-->|active|Crex
+    usage_type-->|active|Gorilla/Crex
     usage_type-->|off-load|Lutra
 ```
 
