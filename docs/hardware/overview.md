@@ -17,7 +17,7 @@ Supercomputing in Sweden (NAISS)](https://www.naiss.se/).
 Parameter               |Pelle                  |Rackham                |Snowy                                  |[Bianca](clusters/bianca.md)       |UPPMAX Cloud
 ------------------------|-----------------------|-----------------------|---------------------------------------|-----------------------------------|-----------------------------
 **Purpose**             |General-purpose        |General-purpose        |General-purpose                        |Sensitive data                     |IaaS
-**Reserved for**        |Uppsala researchers and course projects|Uppsala researchers and course projects|        |Uppsala researchers and course projects|See [Bianca](clusters/bianca.md)   |NAISS and local projects
+**Reserved for**        |Uppsala researchers and course projects|Uppsala researchers and course projects |Uppsala researchers and course projects|See [Bianca](clusters/bianca.md)   |NAISS and local projects
 **Nodes (Intel)**       |coming                |486+144                |228 + 50 N vidia T4 GPUs               |See [Bianca](clusters/bianca.md)   |40 + 20 A2 and 4 T4 Nvidia GPUs
 **Cores per node**      |coming                |20/16                  |16                                     |See [Bianca](clusters/bianca.md)   |16
 **Memory per node**     |coming               |128GB                  |128GB                                  |See [Bianca](clusters/bianca.md)   |128/256GB
