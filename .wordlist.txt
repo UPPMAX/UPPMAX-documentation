@@ -1125,3 +1125,5 @@ Dask
 analytics
 natively
 seaborn
+domus
+mariadb
