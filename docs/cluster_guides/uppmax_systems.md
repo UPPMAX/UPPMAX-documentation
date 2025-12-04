@@ -21,9 +21,14 @@ Computing systems allow a user to do heavier computational calculations.
 
 UPPMAX has, among others, the following clusters:
 
+- Bianca: for sensitive data (NAISS resource)
+- Pelle: regular data, general purpose (UU affiliated projects)
+
+Phasing out (resources for UU affiliated projects)
+
 - Rackham: regular data, general purpose
 - Snowy: regular data, long runs and GPU:s
-- Bianca: for sensitive data, general use
+
 
 A technical summary can be found below.
 
