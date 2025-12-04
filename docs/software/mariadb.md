@@ -19,7 +19,7 @@ mkdir -p $MARIADB_DATA
 
 ### Initialize the database
 
-```bash    
+```bash
 mariadb-install-db --datadir=$MARIADB_DATA
 
 Installing MariaDB/MySQL system tables in '/proj/uppmax-XXX-xx/mariadb_data' ...
@@ -47,7 +47,7 @@ mysqld_safe Logging to '/proj/uppmax-XXX-xx/mariadb_data/pelle1.uppmax.uu.se.err
 +--------+-----------+-----------------------+----------+-----------------------+
 ```
 
-### Stop the server 
+### Stop the server
 
 ```bash
 mariadb-admin shutdown
