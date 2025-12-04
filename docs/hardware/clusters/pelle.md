@@ -33,7 +33,7 @@ Nodes  | CPUs                              | Cores<br/>Threads | Memory    | Scr
 ## Storage
 
 - Gorilla
-    - Home folder is mounted     
+    - Home folder is mounted
 - Domus/Crex in an transition period
     - Projects are still on crex/
     - Software is still on domus/
