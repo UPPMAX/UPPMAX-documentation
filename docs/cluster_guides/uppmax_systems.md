@@ -58,7 +58,7 @@ The UPPMAX storage systems are:
 - Off-load: Lutra for Rackham
 
 ```mermaid
-flowchart TD
+graph TD
     UPPMAX[Which UPPMAX storage system?]
     which_cluster[Which UPPMAX cluster?]
     Cygnus
