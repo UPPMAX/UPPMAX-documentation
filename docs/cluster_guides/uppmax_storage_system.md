@@ -6,6 +6,7 @@ A system to store data on.
 - [Crex](../hardware/storage/crex.md)
 - [Cygnus](../hardware/storage/cygnus.md)
 - [Domus](../hardware/storage/domus.md)
+- [Gorilla](../hardware/storage/gorilla.md)
 - [Lutra](../hardware/storage/lutra.md)
 - [Spirula](../hardware/storage/spirula.md)
     - [User guide](spirula.md)
