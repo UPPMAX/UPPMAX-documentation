@@ -33,7 +33,7 @@ Phasing out (resources for UU affiliated projects)
 A technical summary can be found below.
 
 ```mermaid
-flowchart TD
+graph TD
     UPPMAX(Which UPPMAX cluster?)
     Bianca
     Pelle
@@ -206,22 +206,9 @@ A user logs in to a [login node](../cluster_guides/login_node.md) via the Intern
 
 ## Extra material
 
-### UPPMAX clusters technical summary
+### [UPPMAX clusters technical summary](../hardware/overview.md)
 
-|                        |Rackham        |Snowy                     |Bianca                                      |
-|------------------------|---------------|--------------------------|--------------------------------------------|
-|**Purpose**             |General-purpose|General-purpose           |Sensitive                                   |
-|**# Intel CPU Nodes**   |486+144        |228                       |288                                         |
-|**# GPU Nodes**         |-              |50, Nvidia T4             |10, 2x Nvidia A100 each                     |
-|**Cores per node**      |20/16          |16                        |16/64                                       |
-|**Memory per node**     |128 GB         |128 GB                    |128 GB                                      |
-|**Fat nodes**           |256 GB & 1 TB  |256, 512 GB & 4 TB        |256 & 512 GB                                |
-|**Local disk (scratch)**|2/3 TB         |4 TB                      |4 TB                                        |
-|**Login nodes**         |Yes            |No (reached from Rackham) |Yes (2 cores and 15 GB)                     |
-|**"Home" storage**      |Domus          |Domus                     |Castor                                      |
-|**"Project" Storage**   |Crex, Lutra    |Crex, Lutra               |Castor                                      |
-
-## Detailed overview of the UPPMAX systems
+### Detailed overview of the old UPPMAX systems - to be updated
 
 ```mermaid
 
