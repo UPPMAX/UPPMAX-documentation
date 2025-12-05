@@ -27,7 +27,7 @@ UPPMAX has, among others, the following clusters:
 Phasing out (resources for UU affiliated projects)
 
 - Rackham: regular data, general purpose
-- Snowy: regular data, long runs and GPU:s
+- Snowy: regular data, long runs and GPUs
 
 
 A technical summary can be found below.
