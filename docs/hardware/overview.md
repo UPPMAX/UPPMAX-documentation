@@ -18,7 +18,7 @@ Parameter               |Pelle                  |Rackham                |Snowy  
 ------------------------|-----------------------|-----------------------|---------------------------------------|-----------------------------------|-----------------------------
 **Purpose**             |General-purpose        |General-purpose        |General-purpose                        |Sensitive data                     |IaaS
 **Reserved for**        |Uppsala researchers and course projects|Uppsala researchers and course projects |Uppsala researchers and course projects|See [Bianca](clusters/bianca.md)   |NAISS and local projects
-**Nodes (Intel)**       |AMD                  |486+144                |228 + 50 N vidia T4 GPUs               |See [Bianca](clusters/bianca.md)   |40 + 20 A2 and 4 T4 Nvidia GPUs
+**Nodes (Intel)**       |115 AMD + GPUs (see [Pelle](clusters/pelle.md))             |486+144                |228 + 50 Nvidia T4 GPUs               |See [Bianca](clusters/bianca.md)   |40 + 20 A2 and 4 T4 Nvidia GPUs
 **Cores per node**      |48 (96 logical)      |20/16                  |16                                     |See [Bianca](clusters/bianca.md)   |16
 **Memory per node**     |768 GB               |128GB                  |128GB                                  |See [Bianca](clusters/bianca.md)   |128/256GB
 **Fat nodes**           |2/3 TB               | 256 GB & 1 TB        |256, 512 GB & 4TB                      |See [Bianca](clusters/bianca.md)   |N/A
