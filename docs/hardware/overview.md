@@ -22,8 +22,8 @@ Parameter               |Pelle                  |Rackham                |Snowy  
 **Cores per node**      |48 (96 logical)      |20/16                  |16                                     |See [Bianca](clusters/bianca.md)   |16
 **Memory per node**     |768 GB               |128GB                  |128GB                                  |See [Bianca](clusters/bianca.md)   |128/256GB
 **Fat nodes**           |2/3 TB               | 256 GB & 1 TB        |256, 512 GB & 4TB                      |See [Bianca](clusters/bianca.md)   |N/A
-**Local disk (scratch)**|coming               |2/3TB                  |4TB                                    |See [Bianca](clusters/bianca.md)   |N/A
-**Network**             |coming                |InfiniBand FDR 56Gbit/s|InfiniBand FDR 40Gbit/ s               |See [Bianca](clusters/bianca.md)   |10GbE
+**Local disk (scratch)**|1.7/6,9 TB               |2/3TB                  |4TB                                    |See [Bianca](clusters/bianca.md)   |N/A
+**Network**             |100 Gbit/s           |InfiniBand FDR 56Gbit/s|InfiniBand FDR 40Gbit/ s               |See [Bianca](clusters/bianca.md)   |10GbE
 **Operating System**    |Rocky9               |CentOS 7               |CentOS 7                               |See [Bianca](clusters/bianca.md)   |[Linux cloud image](https://cloud.snic.se/instances/)
 **Login nodes**         |Yes, 2                |Yes                    |No (reached from Rackham)              |See [Bianca](clusters/bianca.md)   |N/A
 **"Home" storage**      |Gorilla                |Gorilla                  |Gorilla                                  |See [Bianca](clusters/bianca.md)   |N/A
