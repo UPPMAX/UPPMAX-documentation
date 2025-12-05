@@ -4,7 +4,7 @@ Nodes  | CPUs                              | Cores<br/>Threads | Memory    | Scr
 -------| --------------------------------- | ----------------- | --------- |-------- |----------
 115    |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48<br/>96         | 768 GiB   | 1.7 TiB | N/A
 2      |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48<br/>96         | 2 / 3 TiB | 6.9 TiB | N/A
-4      |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16<br/>2 x 32 | 384 GiB   | 6.9 TiB | 10 x L40
+4      |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16<br/>2 x 32 | 384 GiB   | 6.9 TiB | 10 x L40s
 2      |  2 x AMD EPYC 9124 (Zen4)  3 GHz  | 2 x 16<br/>2 x 32 | 384 GiB   | 6.9 TiB | 2 x H100
 
 ## CPUs
@@ -14,7 +14,7 @@ Nodes  | CPUs                              | Cores<br/>Threads | Memory    | Scr
 
 ## GPUs
 
-- [L40](https://www.nvidia.com/en-us/data-center/l40/)
+- [L40s](https://www.nvidia.com/en-us/data-center/l40s/)
 
     - Unprecedented visual computing performance for the data center.
     - GPU memory 48 GB
