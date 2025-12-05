@@ -111,7 +111,7 @@ flowchart TD
   interactive_session(User on interactive session)
   computation_node(Computation node)
 
-  login_node --> |move user, interative|interactive_session
+  login_node --> |move user, interactive|interactive_session
   login_node --> |submit jobs, sbatch|computation_node
   computation_node -.-> |can become| interactive_session
 ```
