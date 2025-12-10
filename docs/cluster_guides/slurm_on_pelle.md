@@ -29,7 +29,7 @@ how to fix Slurm errors.
     - We recommend to replace the Slurm option ``-n`` (recommended in our documentation before), when allocating several cores, with ``-c`` (CPUs-per-task)
     - This prevents the allocation to be spread among multiple nodes.
     - If you, however, are using  MPI, you should define the number of *tasks* with ``-n`` (number of tasks (in total)).
-    - The reason why ``-c`` often can/could be used interchangeably with ``-n`` is the default value of one core per task. It worked more often on Rackham and Bianca, since the nodes had fewer cores (20/16 vs 96).
+    - The reason why ``-c`` often can/could be used interchangeably with ``-n`` is the default value of one core per task.
     
 ## `sbatch` (and `interactive`) on Pelle
 
