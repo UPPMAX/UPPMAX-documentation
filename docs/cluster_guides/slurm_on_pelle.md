@@ -2,7 +2,7 @@
 
 This page describes how to use Slurm on Pelle.
 
-???- question "What is Slurm?"
+???+ question "What is Slurm?"
 
     See [the general page about Slurm](slurm.md)
 
@@ -24,6 +24,13 @@ how to fix Slurm errors.
     - The max time limit for jobs is 10 days.
         - GPU jobs has a time limit of 2 days.
 
+!!! info
+
+    - We recommend to replace the Slurm option ``-n`` (recommended in our documentation before), when allocating several cores, with ``-c`` (CPUs-per-task)
+    - This prevents the allocation to be spread among multiple nodes.
+    - If you, however, are using  MPI, you should define the number of tasks with ``-n`` (number of tasks (in total)).
+    - The reason why ``-c`` often can be used interchangeably with ``-c`` is the default value ``c=1``.
+    
 ## `sbatch` (and `interactive`) on Pelle
 
 `sbatch` (and `interactive`) work the same as on the other clusters,
@@ -90,16 +97,16 @@ For example:
 sbatch -A staff my_script.sh
 ```
 
-To specify multiple cores, use `--ntasks` (or `-n`) like this:
+To specify multiple cores, use `--cpu-per-tasks` (or `-c`) like this:
 
 ```bash
-sbatch -A [project_code] --ntasks [number_of_cores] [script_filename]
+sbatch -A [project_code] -c [number_of_cores] [script_filename]
 ```
 
 For example:
 
 ```bash
-sbatch -A staff --ntasks 2 my_script.sh
+sbatch -A staff -c 2 my_script.sh
 ```
 
 Here, two cores are used.
@@ -111,7 +118,7 @@ Here, two cores are used.
     One can make this link explicit by using:
 
     ```bash
-    sbatch -A [project_code] --partition core --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
+    sbatch -A [project_code] --partition --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
     ```
 
 This is especially important if you might adjust core usage
