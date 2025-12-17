@@ -188,7 +188,7 @@ plt.savefig('my_plot.png')
 ### Matplotlib installed versions
 
 These are the Matplotlib installed versions and their dependencies.
-    
+
 #### Matplotlib 3.9.2-gfbf-2024a
 
 Packages:
@@ -429,7 +429,7 @@ Seaborn is a Python visualization library based on matplotlib.
  It provides a high-level interface for drawing attractive statistical graphics.
 
 - Homepage: <https://seaborn.pydata.org/>
-    
+
 !!! info "Main package(s)"
 
     - seaborn

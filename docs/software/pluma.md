@@ -19,7 +19,7 @@ Here is how Pluma looks like:
 
 In Pelle's remote desktop environment, you can start Pluma by clicking here:
 
-![](img/pluma_click_from_main_menu.png)
+![How to start Pluma](img/pluma_click_from_main_menu.png)
 
 Here is how Pluma looks like when actually showing some text:
 

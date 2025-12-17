@@ -8,6 +8,7 @@
 ## Available versions from the [module](../cluster_guides/modules.md) system
 
 Check which versions are available
+
 ```bash
 # On Pelle/Maya
 module avail nextflow
@@ -24,6 +25,7 @@ module avail nextflow
    Nextflow/0.22.2        Nextflow/18.10.1    Nextflow/20.04.0-edge    Nextflow/21.02.0-edge    Nextflow/22.10.0
    ...
 ```
+
 Nextflow provided by the module system on Pelle and Maya do not allow users to alter the version as regular Nextflow installations.
 
 ## `nextflow` from the [module](../cluster_guides/modules.md) system on Rackham/Bianca
