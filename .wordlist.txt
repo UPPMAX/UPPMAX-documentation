@@ -1128,3 +1128,7 @@ natively
 seaborn
 domus
 mariadb
+Pluma
+Pluma's
+
+
