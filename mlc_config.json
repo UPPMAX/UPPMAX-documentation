@@ -1,5 +1,5 @@
 {
-  "aliveStatusCodes": [0, 200, 202, 401, 402, 403, 418, 429, 500, 503],
+  "aliveStatusCodes": [0, 200, 202, 401, 402, 403, 418, 429, 500, 502, 503],
   "ignorePatterns": [
     {
       "pattern": "software-table.md"
