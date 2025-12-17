@@ -18,7 +18,7 @@ The workshop is intended for beginner users but with some Linux experience, see 
 
 - **When: Mon 2 Feb, 2026, 13:00-16:00**
 - Where: Online via Zoom
-- Registrer at [the NAISS Intro Week registration](https://naiss-training.github.io/NAISS-intro-week/#registration)
+- Register at [the NAISS Intro Week registration](https://naiss-training.github.io/NAISS-intro-week/#registration)
 - [Prerequisites](https://uppmax.github.io/naiss_file_transfer_course/prereqs/)
 
 ## More information
