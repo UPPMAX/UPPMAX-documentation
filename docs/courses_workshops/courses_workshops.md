@@ -16,16 +16,6 @@ Course dates are (or should be) provided also at each course's website.
 
 ## Upcoming courses administered by UPPMAX
 
-### November
-
-[Intro to Python (part of and registration <br> in next event) <br> _Nov 27_](intro_to_python.md){ .md-button .md-button--primary }
-
-[Using Python in an HPC environment part 1 <br> _Nov 27-28_](hpc_python.md){ .md-button .md-button--primary }
-
-### December
-
-[Using Python in an HPC environment part 2 <br> _Dec 1-2_](hpc_python.md){ .md-button .md-button--primary }
-
 ### January 2026
 
 [Introduction to Linux and UPPMAX <br> _Jan 19-21_](uppmax_intro_course.md){ .md-button .md-button--primary }
