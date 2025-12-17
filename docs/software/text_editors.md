@@ -44,27 +44,13 @@ Try them out and pick one favorite editor!
 
 ## Simple graphical editors
 
-To use a graphical editors you will need to:
+These are simple graphical editors provided by UPPMAX:
 
-- work on an UPPMAX cluster that allows [SSH X forwarding](../software/ssh_x_forwarding.md)
-- login with [SSH X forwarding](../software/ssh_x_forwarding.md) enabled
-
-See the [SSH X forwarding page](../software/ssh_x_forwarding.md) how to do so.
-
-???- question "And what about Bianca?"
-
-    Bianca is an UPPMAX cluster that does not allow [X forwarding](../software/ssh_x_forwarding.md).
-
-    See [the 'How to login to Bianca' page](../getting_started/login_bianca.md)
-    for more details.
-
-### [gedit](gedit.md)
-
-See [gedit](gedit.md)
-
-### [nedit](nedit.md)
-
-See [nedit](nedit.md)
+Simple graphical editor|Description
+-----------------------|------------------
+[Pluma](pluma.md)      |Default on Pelle
+[gedit](gedit.md)      |Default on Bianca
+[nedit](nedit.md)      |Another one :-)
 
 ## Advanced graphical editors
 
