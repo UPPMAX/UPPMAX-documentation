@@ -18,8 +18,12 @@ Course dates are (or should be) provided also at each course's website.
 
 ### January 2026
 
+
 [Introduction to Linux and UPPMAX <br> _Jan 19-21_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
+### February 2026
+
+[Connect and File Transfer <br> _Feb 02_](naiss_transfer.md){ .md-button .md-button--primary }
 
 ## About the courses
 
