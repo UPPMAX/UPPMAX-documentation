@@ -13,7 +13,7 @@ The purpose of the transit server is to give users access to their wharf folders
     ```
 - **X11 and any port forwarding is disabled** i.e. graphical tools do not work.
 - Currently, **the software module system is not available** on transit.
-- **Apptainer is available** but users needs to redirect TM and CACHE to their wharf folders. This solution leads to EXTREMELY slow builds. Pulling containers is not affected - it as fast as saving to wharf.
+- **Apptainer is available** but users needs to redirect TMP and CACHE to their wharf folders. This solution leads to EXTREMELY slow builds. Pulling containers is not affected - it as fast as saving to wharf.
    ```bash
    export APPTAINER_CACHEDIR=$HOME/sens2023531/APPTAINER_CACHE
    export APPTAINER_TMPDIR=$HOME/sens2023531/APPTAINER_TMP
