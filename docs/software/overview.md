@@ -3,6 +3,7 @@
 At the UPPMAX clusters,
 a lot of software is pre-installed
 and accessible via the module system.
+This page is about software at UPPMAX.
 
 ???- question "What are the UPPMAX clusters?"
 
