@@ -5,19 +5,40 @@
 - Official documentation: [https://www.nextflow.io/docs/latest/index.html](https://www.nextflow.io/docs/latest/index.html)
 
 
-## `nextflow` from the [module](../cluster_guides/modules.md) system
+## Available versions from the [module](../cluster_guides/modules.md) system
 
-- latest `nextflow`
+Check which versions are available
+```bash
+# On Pelle/Maya
+module avail nextflow
+-------------------------------------------------------- /sw/arch/eb/modules/all ---------------------------------------------------------
+   Nextflow/24.10.2    Nextflow/25.10.2 (D)
+...
+
+# On Rackham/Bianca
+module load bioinfo-tools 
+module avail nextflow
+------------------------------------------------- /sw/mf/rackham/bioinfo-tools/pipelines --------------------------------------------------
+   Nextflow/latest (D)    Nextflow/0.26.0     Nextflow/19.01.0         Nextflow/20.10.0         Nextflow/21.04.1    Nextflow/22.10.1
+   Nextflow/0.17.3        Nextflow/0.31.1     Nextflow/20.02.0-edge    Nextflow/21.01.0-edge    Nextflow/21.10.6
+   Nextflow/0.22.2        Nextflow/18.10.1    Nextflow/20.04.0-edge    Nextflow/21.02.0-edge    Nextflow/22.10.0
+   ...
+```
+Nextflow provided by the module system on Pelle and Maya do not allow users to alter the version as regular Nextflow installations.
+
+## `nextflow` from the [module](../cluster_guides/modules.md) system on Rackham/Bianca
+
+- latest `nextflow` - Bianca/Rackham
 
 ```bash
 module load bioinfo-tools
-module load Nextflow/latest  # this also loads java as reqirement
+module load Nextflow/latest  # this also loads java as requirement
 
 nextflow -v
 nextflow version 25.04.7.5955
 ```
 
-- other `nextflow` versions
+- other `nextflow` versions on Rackham/Bianca
 
 ```bash
 export NXF_VER=23.10.1
@@ -27,7 +48,7 @@ nextflow version 23.10.1.5891
 ```
 
 ```bash
-# To check the available versions on Rackham and Bianca
+# To check the available versions on Rackham/Bianca
 ls /sw/bioinfo/Nextflow/latest/rackham/nxf_home/framework/
 20.04.1  21.04.3  22.10.1  22.10.4  23.04.2  23.10.0  24.04.2  24.04.5  24.10.2  24.10.5  25.04.1  25.04.4  25.04.7
 20.07.1  21.10.6  22.10.2  22.10.8  23.04.3  23.10.1  24.04.3  24.10.0  24.10.3  24.10.6  25.04.2  25.04.5
@@ -39,9 +60,19 @@ ls /sw/bioinfo/Nextflow/latest/rackham/nxf_home/framework/
 ## `nf-core` from the module system
 
 [https://nf-co.re](https://nf-co.re)
-> `nf-core` and and all other required modules are available on the `transit` server as well.
+!!! warning
+
+    On transit use module system is not available. Instead use the full path to the corresponding tools  
+    - `nextflow` - `/sw/generic/pixi-tools/bin/nextflow`  
+    - `nf-core` - `/sw/generic/pixi-tools/bin/nf-core`  
+    - `dds-cli` - `/sw/generic/uv-tools/tool_bin/dds`  
+    - `pyega3` - `/sw/generic/uv-tools/tool_bin/pyega3`  
 
 ```bash
+# On Pelle/Maya
+module load nf-core
+
+# On Rackham/Bianca
 module load bioinfo-tools
 module load nf-core   # this also load the nextflow and java as requirements
 ```
@@ -75,16 +106,10 @@ module load nf-core   # this also load the nextflow and java as requirements
     unset NXF_SINGULARITY_CACHEDIR
     ```
 
-5. Load nf-core software module
+5. Run `/sw/generic/pixi-tools/bin/nf-core` to download the pipeline.
 
     ```bash
-    module load uppmax bioinfo-tools nf-core
-    ```
-
-6. Run `nf-core` to download the pipeline.
-
-    ```bash
-     nf-core pipelines download -c yes ampliseq
+     /sw/generic/pixi-tools/bin/nf-core pipelines download -c yes ampliseq
 
                                           ,--./,-.
           ___     __   __   __   ___     /,-._.--~\ 

@@ -1,43 +1,35 @@
 # Software on Transit
 
-[Transit](../cluster_guides/transit.md)
-is an UPPMAX service that can be used to securely transfer files.
+>Update: 15.12.2025
 
-This page describes the software on [Transit](../cluster_guides/transit.md).
+[Transit](../cluster_guides/transit.md) is an UPPMAX service that can be used to securely transfer files.
 
-After [logging in to Transit](../cluster_guides/login_transit.md),
-you cannot make lasting changes to anything,
-except for mounted [wharf](../cluster_guides/wharf.md) directories.
-However, anything you have added to your [Rackham](../cluster_guides/rackham.md) home directory
-is available on [Transit](../cluster_guides/transit.md).
+The purpose of the transit server is to give users access to their wharf folders on Bianca/Maya on Linux running machine with certain limitations.
 
-In addition, some [modules](../cluster_guides/modules.md) are available.
+- **Users home folders are ephemeral**, i.e. any changes will be lost 5 minutes after last interactive login session. The writable portion of the home folder is **limited to 2.9GB** which could lead to unexpected results when tools need to cache in their usual location (pip, conda, etc).
+    ```bash
+    df -h | grep $USER
+    overlay             2.9G  2.4G  580M  81% /gorilla/home/XXXXX
+    ```
+- **X11 and any port forwarding is disabled** i.e. graphical tools do not work.
+- Currently, **the software module system is not available** on transit.
+- **Apptainer is available** but users needs to redirect TM and CACHE to their wharf folders. This solution leads to EXTREMELY slow builds. Pulling containers is not affected - it as fast as saving to wharf.
+   ```bash
+   export APPTAINER_CACHEDIR=$HOME/sens2023531/APPTAINER_CACHE
+   export APPTAINER_TMPDIR=$HOME/sens2023531/APPTAINER_TMP
+   mkdir -p $APPTAINER_CACHEDIR $APPTAINER_TMPDIR
+   ```
 
-- SciLifeLab Data Delivery System - [https://delivery.scilifelab.se/](https://delivery.scilifelab.se/)
+Below are some temporary solutions for commonly used tools.
+Please, use the full path to run the tools.
 
-  ```bash
-  # Load the tool from the software module tree
-  module load bioinfo-tools dds-cli
+- `nextflow` - `/sw/generic/pixi-tools/bin/nextflow`
+- `nf-core` - `/sw/generic/pixi-tools/bin/nf-core`
+- `dds-cli` - `/sw/generic/uv-tools/tool_bin/dds`
+- `pyega3` - `/sw/generic/uv-tools/tool_bin/pyega3`
+- `globus-cli` - `/sw/generic/pixi-tools/bin/globus`
+- `google-cloud-sdk` - `/sw/generic/pixi-tools/bin/gcloud`,`gsutil`...
+- `ena-webin-cli` - `/sw/generic/pixi-tools/bin/ena-webin-cli`
+- `aspera-cli` - `/sw/generic/pixi-tools/bin/ascli`
+- `awscli` - `/sw/generic/pixi-tools/bin/aws`
 
-  # Run the tool
-  dds
-  ```
-
-  ![dds-cli](../img/dds-cli.png)
-
-To download data from TCGA,
-[log in to Rackham](../getting_started/login_rackham.md)
-and install the GDC client to your home directory.
-Then [log in to Transit](../cluster_guides/login_transit.md),
-mount the [wharf](../cluster_guides/wharf.md),
-and run `./gdc-client`.
-
-!!! warning "2FA on transit"
-
-    If you connect from abroad and
-    you are asked for the **2FA** (_two factor authentication_),
-    there is a grace period (_about 5 minutes_) in which you can
-    `ssh`/[`scp`](../software/scp.md)/[`rsync`](../software/rsync.md)/`sftp`
-    to **transit** without the need for **2FA**.
-    This allows you to use these and other tools
-    that might experience problems with the **2FA**.
