@@ -23,7 +23,9 @@ Course dates are (or should be) provided also at each course's website.
 
 ### February 2026
 
-[Connect and File Transfer <br> _Feb 02_](naiss_transfer.md){ .md-button .md-button--primary }
+[Connect and File Transfer <br> _Feb 2_](naiss_transfer.md){ .md-button .md-button--primary }
+
+[Introduction to Bianca <br> _Feb 6_](bianca_intro.md){ .md-button .md-button--primary }
 
 ### May 2026
 
