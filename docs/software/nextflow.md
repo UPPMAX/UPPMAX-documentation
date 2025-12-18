@@ -17,7 +17,7 @@ module avail nextflow
 ...
 
 # On Rackham/Bianca
-module load bioinfo-tools 
+module load bioinfo-tools
 module avail nextflow
 ------------------------------------------------- /sw/mf/rackham/bioinfo-tools/pipelines --------------------------------------------------
    Nextflow/latest (D)    Nextflow/0.26.0     Nextflow/19.01.0         Nextflow/20.10.0         Nextflow/21.04.1    Nextflow/22.10.1
@@ -64,11 +64,12 @@ ls /sw/bioinfo/Nextflow/latest/rackham/nxf_home/framework/
 [https://nf-co.re](https://nf-co.re)
 !!! warning
 
-    On transit use module system is not available. Instead use the full path to the corresponding tools  
-    - `nextflow` - `/sw/generic/pixi-tools/bin/nextflow`  
-    - `nf-core` - `/sw/generic/pixi-tools/bin/nf-core`  
-    - `dds-cli` - `/sw/generic/uv-tools/tool_bin/dds`  
-    - `pyega3` - `/sw/generic/uv-tools/tool_bin/pyega3`  
+    On transit use module system is not available. Instead use the full path to the corresponding tools
+
+    - `nextflow` - `/sw/generic/pixi-tools/bin/nextflow`
+    - `nf-core` - `/sw/generic/pixi-tools/bin/nf-core`
+    - `dds-cli` - `/sw/generic/uv-tools/tool_bin/dds`
+    - `pyega3` - `/sw/generic/uv-tools/tool_bin/pyega3`
 
 ```bash
 # On Pelle/Maya
@@ -94,8 +95,8 @@ module load nf-core   # this also load the nextflow and java as requirements
     ```bash
     user@transit:~$ mount_wharf sens2023531
     Mounting wharf (accessible for you only) to /home/<user>/sens2023531
-    Password: 
-    Second factor (TOTP UPPMAX): 
+    Password:
+    Second factor (TOTP UPPMAX):
     done.
     ```
 
@@ -114,7 +115,7 @@ module load nf-core   # this also load the nextflow and java as requirements
      /sw/generic/pixi-tools/bin/nf-core pipelines download -c yes ampliseq
 
                                           ,--./,-.
-          ___     __   __   __   ___     /,-._.--~\ 
+          ___     __   __   __   ___     /,-._.--~\
     |\ | |__  __ /  ` /  \ |__) |__         }  {
     | \| |       \__, \__/ |  \ |___     \`-._,-`-,
                                           `._,._,'
@@ -127,9 +128,9 @@ module load nf-core   # this also load the nextflow and java as requirements
     In addition to the pipeline code, this tool can download software containers.
     ? Download software container images: singularity
 
-    Nextflow and nf-core can use an environment variable called $NXF_SINGULARITY_CACHEDIR that is a path to a directory where remote 
+    Nextflow and nf-core can use an environment variable called $NXF_SINGULARITY_CACHEDIR that is a path to a directory where remote
     Singularity images are stored. This allows downloaded images to be cached in a central location.
-    
+
     ? Define $NXF_SINGULARITY_CACHEDIR for a shared Singularity image download folder? [y/n]: n
 
     If transferring the downloaded files to another system, it can be convenient to have everything compressed in a single file.
