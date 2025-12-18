@@ -25,6 +25,10 @@ Course dates are (or should be) provided also at each course's website.
 
 [Connect and File Transfer <br> _Feb 02_](naiss_transfer.md){ .md-button .md-button--primary }
 
+### May 2026
+
+[Programming Formalisms <br> May 4-8_](programming_formalisms.md){ .md-button .md-button--primary }
+
 ## About the courses
 
 ### Learn UPPMAX systems
