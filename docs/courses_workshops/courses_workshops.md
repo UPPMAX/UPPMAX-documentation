@@ -27,7 +27,7 @@ Course dates are (or should be) provided also at each course's website.
 
 ### May 2026
 
-[Programming Formalisms <br> May 4-8_](programming_formalisms.md){ .md-button .md-button--primary }
+[Programming Formalisms <br> _May 4-8_](programming_formalisms.md){ .md-button .md-button--primary }
 
 ## About the courses
 
