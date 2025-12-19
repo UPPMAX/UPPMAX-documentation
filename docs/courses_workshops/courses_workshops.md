@@ -19,17 +19,17 @@ Course dates are (or should be) provided also at each course's website.
 ### January 2026
 
 
-[Introduction to Linux and UPPMAX <br> _Jan 19-21_](uppmax_intro_course.md){ .md-button .md-button--primary }
+[Introduction to Linux and UPPMAX <br> _Jan 19-21 2026_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
 ### February 2026
 
-[Connect and File Transfer <br> _Feb 2_](naiss_transfer.md){ .md-button .md-button--primary }
+[Connect and File Transfer <br> _Feb 2 2026_](naiss_transfer.md){ .md-button .md-button--primary }
 
-[Introduction to Bianca <br> _Feb 6_](bianca_intro.md){ .md-button .md-button--primary }
+[Introduction to Bianca <br> _Feb 6 2026_](bianca_intro.md){ .md-button .md-button--primary }
 
 ### May 2026
 
-[Programming Formalisms <br> _May 4-8_](programming_formalisms.md){ .md-button .md-button--primary }
+[Programming Formalisms <br> _May 4-8 2026_](programming_formalisms.md){ .md-button .md-button--primary }
 
 ## About the courses
 
