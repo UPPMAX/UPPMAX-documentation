@@ -52,7 +52,19 @@ In VSCode, install the VSCode 'Remote-SSH' plugin.
 
     ![Install the VSCode 'Remote-SSH' plugin](./img/vscode_on_rackham_install_remote_ssh.png)
 
-### 4. In the 'Remote Explorer' tab, at SSH, click the plus
+### 4. Enable TOTP interactivity    
+   
+Since most clusters now has added the TOTP feature you have to make another setting as well.  
+
+- Go to settings (the lower-left corner wheel):
+
+![VSCode_settings](./img/VSCode_settings.png)
+
+![VSCode_settings](./img/VSCode_ssh_login.png)
+
+Search for the right setting and enable it.
+
+### 5. In the 'Remote Explorer' tab, at SSH, click the plus
 
 In VSCode, go to the 'Remote Explorer' tab.
 At the SSH section, click on the '+' (with tooltip 'New remote').
@@ -61,7 +73,7 @@ At the SSH section, click on the '+' (with tooltip 'New remote').
 
     ![Click on the plus](./img/vscode_on_rackham_add_new_remote.png)
 
-### 5. Give the SSH command to connect to Rackham
+### 6. Give the SSH command to connect to Rackham
 
 In the main edit bar, give the SSH command to connect to Rackham,
 e.g. `ssh sven@rackham.uppmax.uu.se`
