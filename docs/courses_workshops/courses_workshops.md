@@ -18,8 +18,8 @@ Course dates are (or should be) provided also at each course's website.
 
 ### January 2026
 
-<!-- Richel: Using full date allows scraping by -->
-<!-- https://docs.score.nbis.se/courses/ -->
+<!-- Richel: Using full date (i.e. including the year) allows -->
+<!-- scraping by  https://docs.score.nbis.se/courses/ -->
 <!-- It makes the courses more machine-readable -->
 
 [Introduction to Linux and UPPMAX <br> _Jan 19-21 2026_](uppmax_intro_course.md){ .md-button .md-button--primary }
