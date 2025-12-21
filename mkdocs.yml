@@ -492,6 +492,14 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
 
+  # Keyboard shortcuts for navigation, from https://www.mkdocs.org/user-guide/choosing-your-theme/
+  # For the explorers among us :-)
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+
   features:
     # - toc.integrate
     - toc.follow
