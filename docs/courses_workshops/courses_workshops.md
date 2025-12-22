@@ -34,6 +34,9 @@ Course dates are (or should be) provided also at each course's website.
 
 [Programming Formalisms <br> _May 4-8 2026_](programming_formalisms.md){ .md-button .md-button--primary }
 
+[?Friday 2026-05-22: Bianca Intermediate?](https://github.com/UPPMAX/bianca_workshops/issues/89)
+
+
 ## About the courses
 
 ### Learn UPPMAX systems
