@@ -82,6 +82,7 @@ Day|Course materials                                                |More inform
 2-4|[Course materials](https://uppmax.github.io/HPC-python/)        |[More information](https://www.hpc2n.umu.se/events/courses/2024/fall/hpc-python)
 
 **Time and date:** 09:00-16:00 each day:
+
 - 1 day course: Tuesday 2026-03-03
 - 4 day course: Monday 2026-04-20, Wednesday 2026-04-22, Thursday 2026-04-23, Friday 2026-04-20
 
