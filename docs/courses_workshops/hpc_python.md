@@ -81,7 +81,9 @@ Day|Course materials                                                |More inform
 1  |[Course materials](https://uppmax.github.io/naiss_intro_python) |[More information](https://uppmax.github.io/naiss_intro_python/faq/)
 2-4|[Course materials](https://uppmax.github.io/HPC-python/)        |[More information](https://www.hpc2n.umu.se/events/courses/2024/fall/hpc-python)
 
-**Time and date:** Thursday 27-Friday 28 November, Monday 1-Tuesday 2 December 2025, 09:00-16:00 each day
+**Time and date:** 09:00-16:00 each day:
+- 1 day course: Tuesday 2026-03-03
+- 4 day course: Monday 2026-04-20, Wednesday 2026-04-22, Thursday 2026-04-23, Friday 2026-04-20
 
 **Location:** ONLINE. Zoom link will be sent to participants a few days before the course.
 
