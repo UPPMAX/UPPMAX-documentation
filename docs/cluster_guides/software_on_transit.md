@@ -14,6 +14,7 @@ The purpose of the transit server is to give users access to their wharf folders
     ```
 
 - **X11 and any port forwarding is disabled** i.e. graphical tools do not work.
+- User's **password cannot be changed** on transit.
 - Currently, **the software module system is not available** on transit.
 - **Apptainer is available** but users needs to redirect TMP and CACHE to their wharf folders. This solution leads to EXTREMELY slow builds. Pulling containers is not affected - it is as fast as saving to wharf.
 
