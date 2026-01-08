@@ -7,6 +7,30 @@ tags:
 
 This page describes how to get started with UPPMAX.
 
+???- question "Prefer a graphical overview?"
+
+    The processes to get started:
+
+    ```mermaid
+    flowchart TB
+        subgraph get_uppmax_account[Get an UPPMAX account]
+          get_supr_account[Get a SUPR account]
+          accept_supr_user_agreement[Accept the SUPR user agreement]
+        end
+        get_2fa[Get your UPPMAX 2FA]
+        get_project[Apply for an UPPMAX project]
+        
+        get_uppmax_account -.-> get_2fa
+
+        get_2fa -.-> get_project
+        get_uppmax_account --> get_project
+    ```
+
+    - The solid lines denote a dependency, e.g. you need an UPPMAX account
+      to get an UPPMAX project.
+    - The dashed lines denote a 'maybe' or 'optional', e.g. some UPPMAX
+      projects require two factor authorization.
+
 ## Step 1: get an UPPMAX user account
 
 First, one needs an an UPPMAX user account.
