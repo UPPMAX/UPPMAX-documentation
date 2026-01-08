@@ -1,3 +1,13 @@
+---
+tags:
+  - UPPMAX
+  - cloud
+  - Swedish Science Cloud
+  - ssc
+  - EAST-1
+  - Dis
+---
+
 # UPPMAX cloud
 
 Cloud services allow a user to have something active (typically a website)

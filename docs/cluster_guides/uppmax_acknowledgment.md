@@ -1,4 +1,12 @@
-# UPPMAX aknowledgment
+---
+tags:
+  - UPPMAX
+  - acknowledgment
+  - cite
+  - mention
+---
+
+# UPPMAX acknowledgment
 
 <!-- markdownlint-disable MD013 --><!-- Headers cannot be split up over lines, hence will break 80 characters per line -->
 

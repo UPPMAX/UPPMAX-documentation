@@ -1,3 +1,11 @@
+---
+tags:
+  - UPPMAX
+  - rules
+  - laws
+  - terms of use
+---
+
 # UPPMAX Rules
 
 ## User accounts

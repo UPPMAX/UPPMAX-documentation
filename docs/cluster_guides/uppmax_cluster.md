@@ -1,3 +1,10 @@
+---
+tags:
+  - UPPMAX
+  - clusters
+  - overview
+---
+
 # The UPPMAX clusters
 
 UPPMAX is an organization that provides HPC clusters.
@@ -31,7 +38,6 @@ Name                 |Purpose                      |Description
 [Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
 [Rackham](rackham.md)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
 [Snowy](snowy.md)    |Regular data, long runs, GPUs|.
-
 
 Another cluster UPPMAX is involved in:
 
