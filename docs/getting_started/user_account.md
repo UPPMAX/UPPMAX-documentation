@@ -19,5 +19,5 @@ To apply for an UPPMAX user account, complete the following steps:
 - [Accept the user agreement in SUPR](supr_register.md#accept-the-user-agreement).
 
 With your UPPMAX user account, you can now
-[apply to an UPPMAX project](get_started/#step-3-get-an-uppmax-project)
+[apply to an UPPMAX project](get_started/README.md#step-3-get-an-uppmax-project)
 to use the UPPMAX resources.
