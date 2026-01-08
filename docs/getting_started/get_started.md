@@ -12,12 +12,18 @@ This page describes how to get started with UPPMAX.
 First, one needs an an UPPMAX user account.
 See how to get one at [the UPPMAX guide 'Apply to a user account'](user_account.md#apply-to-an-uppmax-user-account).
 
-## Step 2: get an UPPMAX project
+## (optional) Step 2: get a 2FA for your UPPMAX user account
+
+Some parts of UPPMAX require two factor authentication.
+See how to set this up at
+[the guide 'Setting up two factor authentication for UPPMAX'](get_uppmax_2fa.md).
+
+## Step 3: get an UPPMAX project
 
 Second, one needs to have an active research project.
 See how to get one at [the UPPMAX guide 'Apply for a project'](project_apply.md).
 
-## Step 3: use UPPMAX
+## Step 4: use UPPMAX
 
 Now you can use the UPPMAX resources!
 
