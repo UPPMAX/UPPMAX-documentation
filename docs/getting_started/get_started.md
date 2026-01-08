@@ -20,8 +20,8 @@ This page describes how to get started with UPPMAX.
         get_2fa[Get your UPPMAX 2FA]
         get_project[Apply for an UPPMAX project]
         
+        get_supr_account --> accept_supr_user_agreement
         get_uppmax_account -.-> get_2fa
-
         get_2fa -.-> get_project
         get_uppmax_account --> get_project
     ```
