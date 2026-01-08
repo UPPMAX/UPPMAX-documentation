@@ -18,6 +18,8 @@ yet are part of UPPMAX's history.
 | Tintin      |2012-2017  | 160   | 2,560       | 64 GiB; 16× 128 GiB               | Primarily non-NGS projects                | `[Dahlö et al., 2018]`
 | Milou       |2013-2017  | 208   | 3,328       | 128 GiB; 17× 256 GiB; 17× 512 GiB | NGS projects                              | `[Dahlö et al., 2018]`
 | Fysast1     |2013-2017  | 40    | 640         | 128 GiB                           | Non-NGS projects in physics and astronomy | `[Dahlö et al., 2018]`
+| Snowy       |?-2025     | .     | .           | .                                 | .                                         | .
+| Rackham     |?-2025     | .     | .           | .                                 | .                                         | .
 
 ## References
 
