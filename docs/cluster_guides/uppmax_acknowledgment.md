@@ -36,7 +36,7 @@ For publications coming out of UU-funded UPPMAX projects
 (e.g. using [Pelle](pelle.md)),
 here is our recommended formulation:
 
-> "The computations/data handling/[SIMILAR] were/was enabled by resources in 
+> "The computations/data handling/[SIMILAR] were/was enabled by resources in
 > project [UPPMAX YYYY/A-BBB] provided by Uppsala University at UPPMAX."
 
 If applicable, also add acknowledgement for application support:
