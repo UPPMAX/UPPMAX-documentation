@@ -8,7 +8,7 @@ tags:
   - introduction
 ---
 
-# Introduction to Python
+# Intro to Python for HPC
 
 !!! tip
 
@@ -16,33 +16,13 @@ tags:
 
     A learner from this course ([source](https://uppmax.github.io/naiss_intro_python/evaluations/20240830/))
 
-This 1-day course helps you get started with Python,
-by working ourselves through an online and free book.
-Although the focus is on learning Python,
-we do work in an HPC environment
-and you will be taught the bare minimum
-to run Python on an UPPMAX HPC cluster.
-The pace of this highly interactive course
-is set by the majority of learners,
-ensuring that any complete beginner
-has enough time for exercises.
-At the end of the day, you should feel comfortable with the basics
-of Python and feel familiar to a book on Python to help you on your next steps.
-
-You will:
-
-- Feel comfortable with learning Python
-- Feel comfortable using an online and free book on Python
-- Write Python code on an HPC cluster
-- Run Python scripts on an HPC cluster
+This 1-day course lets you write and run Python code on an HPC cluster. The goal of the first half of the course, is to run Python on an HPC cluster, with little focus on the Python language itself. The goal of the second half of the course, is to learn the basics of Python and can be done from your local computer as well. The pace of this highly interactive course is set by the majority of learners, ensuring that any complete beginner has enough time for exercises. At the end of the day, you should feel comfortable with writing and running Python code on either HPC or your local computer.
 
 ## Practical matters
 
-- **Registration form**:
-    - Registration form: coming
-    - Registration closes at XX
+- **[Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfc7ahPj3FGTlaVEQ6p8s1XmByV9kvq--iYEdi4KF_gp-1grQ/viewform?usp=publish-editor)** (closes at around 2026-02-24 23:59)
 - **[Course prerequisites](https://uppmax.github.io/naiss_intro_python/prereqs/)**
-- **Date**: Tuesday October 14th 2025 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
+- **Date**: Tuesday March 3 2026 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
 - When: 9:00-16:00 ([course schedule](https://uppmax.github.io/naiss_intro_python/schedule/))
 - Where: Online via Zoom. Zoom room and password will be mailed :+1:
 - [Course material](https://uppmax.github.io/naiss_intro_python/)
