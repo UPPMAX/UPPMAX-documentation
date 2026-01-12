@@ -35,4 +35,4 @@ Please, use the full path to run the tools.
 - `ena-webin-cli` - `/sw/generic/pixi-tools/bin/ena-webin-cli`
 - `aspera-cli` - `/sw/generic/pixi-tools/bin/ascli`
 - `awscli` - `/sw/generic/pixi-tools/bin/aws`
-
+- `lftp` - `/sw/generic/pixi-tools/bin/lftp`
