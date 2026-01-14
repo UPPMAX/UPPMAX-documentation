@@ -35,8 +35,8 @@ Use [uquota](../software/uquota.md)to check current disk usage and limits.
     [sven@rackham3 ~]$ uquota
     Your project       Your File Area           Unit        Usage  Quota Limit  Over Quota
     -----------------  -----------------------  -------  --------  -----------  ----------
-    home               /home/sven             GiB          16.6           32
-    home               /home/sven             files      104165       300000
+    home               /home/sven               GiB          16.6           64
+    home               /home/sven               files      104165       300000
     naiss2024-22-1202  /proj/r-py-jl-m-rackham  GiB           0.0          128
     naiss2024-22-1202  /proj/r-py-jl-m-rackham  files           4       100000
     naiss2024-22-49    /proj/introtouppmax      GiB           5.1          128
@@ -169,7 +169,7 @@ We have defines several environment variables to help our users. They are:
 
 Paths: $HOME or $SNIC_BACKUP
 
-Permanent storage of users files during the lifetime of the accounts. Shared access on all cluster nodes. Snapshots are normally enabled on this file system, and you can access the snapshots in every directory by 'ls .snapshot' or 'cd .snapshot'. The quota is 32GB per user. We provide backup of this volume, and we keep the files on tape up to 90 days after they are deleted from disk. If you have files you do not want to back up place them in a folder called 'nobackup'.
+Permanent storage of users files during the lifetime of the accounts. Shared access on all cluster nodes. Snapshots are normally enabled on this file system, and you can access the snapshots in every directory by 'ls .snapshot' or 'cd .snapshot'. The quota is 64 GB per user on Pelle but 32 GB ob Bianca. We provide backup of this volume, and we keep the files on tape up to 90 days after they are deleted from disk. If you have files you do not want to back up place them in a folder called 'nobackup'.
 
 We recommend you do not use your home directory for running jobs. Our general recommendation is to keep everything related to a specific research project in its project directory.
 
