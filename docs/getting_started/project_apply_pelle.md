@@ -31,7 +31,7 @@ On the main page, click on 'Rounds'
 
 ???- question "How does that look like?"
 
-    ![On the main page, click on 'Rounds'](./img/supr_naiss_start_click_rounds.png)
+    ![On the main page, click on 'Rounds'](./img/rounds_jan2026.png)
 
     > On the main page, click on 'Rounds'
 
@@ -41,7 +41,7 @@ In the 'Rounds' menu, click on 'Local and Special Rounds'
 
 ???- question "How does that look like?"
 
-    ![In the 'Rounds' menu, click on 'Local and Special Rounds'](./img/supr_naiss_rounds_click_go_to_compute_rounds.png)
+    ![In the 'Rounds' menu, click on 'Local and Special Rounds'](./img/local_special_rounds_jan2026.png)
 
     > In the 'Rounds' menu, click on 'Local and Special Rounds'
 
@@ -52,7 +52,7 @@ In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'
 
 ???- question "How does that look like?"
 
-    ![In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'](./img/supr_centre_local_compute_rounds_click_go_to_uppmax_local.png)
+    ![In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'](./img/rounds_uppmax_jan2026.png)
 
     > In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'
 
@@ -62,7 +62,7 @@ In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'
 
 ???- question "How does that look like?"
 
-    ![In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'](./img/supr_centre_local_compute_rounds_click_go_to_uppmax_local.png)
+    ![In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'](./img/uppmax_local_2026.png)
 
     > In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'
 
