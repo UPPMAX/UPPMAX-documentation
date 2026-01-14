@@ -276,6 +276,11 @@ MPI for Python (mpi4py) provides bindings of the Message Passing Interface (MPI)
         - Python/3.12.3-GCCcore-13.3.0
         - OpenMPI/5.0.3-GCC-13.3.0
 
+    ??? note "4.1.0-gompi-2025b"
+    
+        - Python/3.13.5-GCCcore-14.3.0
+        - OpenMPI/5.0.8-GCC-14.3.0
+
 ## numba
 
 Numba is an Open Source NumPy-aware optimizing compiler for
@@ -308,6 +313,18 @@ compiler infrastructure to compile Python syntax to machine code.
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - SciPy-bundle/2024.05-gfbf-2024a
+        
+    ??? note "numba/0.62.0-foss-2025b"
+
+         Packages
+        
+        - llvmlite-0.45.0
+
+        Dependencies
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+        - SciPy-bundle/2025.07-gfbf-2025b
         
 ## Python-bundle-PyPI
 
@@ -364,6 +381,9 @@ Bundle of Python packages from PyPI
 
         - Python/3.13.1-GCCcore-14.2.0
 
+    ??? note "2025.07-GCCcore-14.3.0"
+
+        - Python/3.13.5-GCCcore-14.3.0
 
 ## PyTorch
 
@@ -413,6 +433,18 @@ It strives to be simple and efficient, accessible to everybody, and reusable in 
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - SciPy-bundle/2024.05-gfbf-2024a
+        
+    ??? note "1.7.1-gfbf-2025b"
+
+        Packages
+        
+        - scikit-learn-1.7.1
+
+        Dependencies
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+        - SciPy-bundle/2025.07-gfbf-2025b
         
 ## SciPy-bundle
 
@@ -469,6 +501,19 @@ Bundle of Python packages for scientific software
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
+    ??? note "2025.07-gfbf-2025b"
+
+        Packages
+        
+        - numpy-2.3.2
+        - pandas-2.3.1
+        - scipy-1.16.1
+
+        Dependencies
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+
 ## Seaborn
 
 Seaborn is a Python visualization library based on matplotlib.
@@ -497,6 +542,19 @@ Seaborn is a Python visualization library based on matplotlib.
         - SciPy-bundle/2024.05-gfbf-2024a
         - matplotlib/3.9.2-gfbf-2024a
         
+    ??? note "0.13.2-gfbf-2025b"
+
+        Packages
+        
+        - seaborn-0.13.2
+
+        Dependencies
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-13.3.0
+        - SciPy-bundle/2025.07-gfbf-2025b
+        - matplotlib/3.10.5-gfbf-2025b
+        
 ## sympy
 
 SymPy is a Python library for symbolic mathematics. It aims to
@@ -519,6 +577,12 @@ SymPy is a Python library for symbolic mathematics. It aims to
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - SciPy-bundle/2024.05-gfbf-2024a
 
+    ??? note "1.14.0-gfbf-2025b"
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+        - SciPy-bundle/2025.07-gfbf-2025b
+
 ## xarray
 
 xarray (formerly xray) is an open source project and Python package that aims to bring
@@ -540,4 +604,10 @@ xarray (formerly xray) is an open source project and Python package that aims to
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - SciPy-bundle/2024.05-gfbf-2024a
+
+    ??? note "2025.10.0-gfbf-2025b"
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+        - SciPy-bundle/2025.07-gfbf-2025b
 
