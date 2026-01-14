@@ -154,7 +154,7 @@ You can go back and change your choices. In your UPPMAX local compute project, s
 
 ### 12. Submit your proposal
 
-Press the Submitt button on the bottom of the page.
+Press the "Submit the Proposal" button on the bottom of the page.
 
 ???- question "How does that look like?"
 
