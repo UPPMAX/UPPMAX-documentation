@@ -1,6 +1,6 @@
 # How can I display my disk quota?
 
-To limit the amount of disk space each user can allocate we use a disk quota system at UPPMAX. The default disk quota is 32 GByte in your home directory. Every NAISS-project also comes with a default 128 GByte backed-up project storage. If more data is needed you may apply for an UPPMAX Storage Project and get more quota. UPPMAX project have a default 512 GByte backed-up project storage and a and 512 GB nobackup space.
+To limit the amount of disk space each user can allocate we use a disk quota system at UPPMAX. The default disk quota is 32 GByte for Bianca and 64 GB for Pelle in your home directory. Every project also comes with a default backed-up project storage. If more data is needed you may apply for an UPPMAX Storage Project and get more quota. UPPMAX project have a default 512 GByte backed-up project storage and a and 512 GB nobackup space. SENS projects come with 512 GB.
 
 You can display your current usage with the command [uquota](../software/uquota.md).
 
