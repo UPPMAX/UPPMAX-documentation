@@ -22,11 +22,12 @@ tags:
 
 !!! info "FOSS tool chains and Python version using them"
 
-    FOSS | Python version| GCC verion
-    -----| --------------|----
-    2023b| 3.11.5        | 13.2.0
-    2024a| 3.12.3        | 13.3.0
-    2025b| 3.13.5        | 14.3.0
+    FOSS | Python version| GCC version | Bundle version
+    -----| --------------|-------------|---------------
+    2023b| 3.11.5        | 13.2.0      | not installed on Pelle
+    2024a| 3.12.3        | 13.3.0      | 2024.06/06
+    2025a| 3.13.1        | 14.2.0      | not installed on Pelle
+    2025b| 3.13.5        | 14.3.0      | 2025.07
 
     - ``foss`` is the full level toolchain.
     - ``gfbf`` means that the libraries FlexiBLAS (incl. LAPACK) + FFTW are included.
