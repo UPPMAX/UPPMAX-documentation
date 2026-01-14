@@ -35,35 +35,36 @@ On the main page, click on 'Rounds'
 
     > On the main page, click on 'Rounds'
 
-### 3. Click on 'Go to Compute Rounds'
+### 3. Click on 'Local and Special Rounds'
 
-In the 'Rounds' menu, click on 'Go to Compute Rounds'
-
-???- question "How does that look like?"
-
-    ![In the 'Rounds' menu, click on 'Go to Compute Rounds'](./img/supr_naiss_rounds_click_go_to_compute_rounds.png)
-
-    > In the 'Rounds' menu, click on 'Go to Compute Rounds'
-
-### 4. Click on 'Go to Centre Local Compute'
-
-In the 'Compute Rounds' menu, click on 'Go to Centre Local Compute'
+In the 'Rounds' menu, click on 'Local and Special Rounds'
 
 ???- question "How does that look like?"
 
-    ![In the 'Compute Rounds' menu, click on 'Go to Centre Local Compute'](./img/supr_compute_rounds_click_go_to_centre_local_compute.png)
+    ![In the 'Rounds' menu, click on 'Local and Special Rounds'](./img/supr_naiss_rounds_click_go_to_compute_rounds.png)
 
-    > In the 'Compute Rounds' menu, click on 'Go to Centre Local Compute'
+    > In the 'Rounds' menu, click on 'Local and Special Rounds'
 
-### 5. Click on 'Go to UPPMAX Local'
 
-In the 'Centre Local Compute Rounds' menu, click on 'Go to UPPMAX Local'
+### 4. Click on 'Rounds at UPPMAX'
+
+In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'
 
 ???- question "How does that look like?"
 
-    ![In the 'Centre Local Compute Rounds' menu, click on 'Go to UPPMAX Local'](./img/supr_centre_local_compute_rounds_click_go_to_uppmax_local.png)
+    ![In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'](./img/supr_centre_local_compute_rounds_click_go_to_uppmax_local.png)
 
-    > In the 'Centre Local Compute Rounds' menu, click on 'Go to UPPMAX Local'
+    > In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'
+
+### 5. Click on 'Go to UPPMAX Local 2026'
+
+In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'
+
+???- question "How does that look like?"
+
+    ![In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'](./img/supr_centre_local_compute_rounds_click_go_to_uppmax_local.png)
+
+    > In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'
 
 ### 6. Click on 'Create new proposal'
 
