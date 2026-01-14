@@ -22,11 +22,11 @@ tags:
 
 !!! info "FOSS tool chains and Python version using them"
 
-    FOSS | Python version
-    -----| --------------
-    2023b| 3.11.5
-    2024a| 3.12.3
-    2025a| 3.13.1
+    FOSS | Python version| GCC verion
+    -----| --------------|----
+    2023b| 3.11.5        | 13.2.0
+    2024a| 3.12.3        | 13.3.0
+    2025b| 3.13.5        | 14.3.0
 
     - ``foss`` is the full level toolchain.
     - ``gfbf`` means that the libraries FlexiBLAS (incl. LAPACK) + FFTW are included.
@@ -65,6 +65,14 @@ Biopython is a set of freely available tools for biological
         - SciPy-bundle/2024.05-gfbf-2024a
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
+    ??? note "1.86-gfbf-2025b"
+
+        Some dependencies
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - SciPy-bundle/2025.07-gfbf-2025b
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+
 ## dask
 
 Dask natively scales Python. Dask provides advanced parallelism for analytics,
@@ -90,6 +98,15 @@ enabling performance at scale for the tools you love.
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - SciPy-bundle/2024.05-gfbf-2024a
         - matplotlib/3.9.2-gfbf-2024a
+
+    ??? note "2025.9.1-gfbf-2025b"
+
+        Dependencies
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+        - SciPy-bundle/2025.07-gfbf-2025b
+        - matplotlib/3.10.5-gfbf-2025b
 
 ## IPython
 
@@ -117,6 +134,13 @@ IPython provides a rich architecture for interactive computing with:
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
 
+    ??? note "9.4.0-GCCcore-14.3.0"
+
+        Dependencies
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+
 ## JupyterLab
 
 JupyterLab is the next-generation user interface for Project Jupyter offering all the familiar
@@ -139,6 +163,12 @@ JupyterLab is the next-generation user interface for Project Jupyter offering al
         - Python/3.12.3-GCCcore-13.3.0
         - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
         - IPython/8.28.0-GCCcore-13.3.0
+
+    ??? note "4.4.9-GCCcore-14.3.0"
+
+        - Python/3.13.5-GCCcore-14.3.0
+        - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
+        - IPython/9.4.0-GCCcore-14.3.0
 
 ## Matplotlib
 
@@ -182,8 +212,8 @@ plt.savefig('my_plot.png')
 
     Included are
 
-    - Python-bundle-PyPI/2024.06-GCCcore-13.3.0
-    - SciPy-bundle/2024.05-gfbf-2024a
+    - Python-bundle-PyPI
+    - SciPy-bundle
 
 ### Matplotlib installed versions
 
@@ -204,6 +234,22 @@ Dependencies:
 - `Python/3.12.3-GCCcore-13.3.0`
 - `Python-bundle-PyPI/2024.06-GCCcore-13.3.0`
 - `SciPy-bundle/2024.05-gfbf-2024a`
+
+#### Matplotlib 3.10.5-gfbf-2025b
+
+Packages:
+
+- `contourpy-1.3.3`
+- `cycler-0.12.1`
+- `fonttools-4.58.5`
+- `kiwisolver-1.4.8`
+- `matplotlib-3.10.5`
+
+Dependencies:
+
+- `Python/3.13.5-GCCcore-14.3.0`
+- `Python-bundle-PyPI/2025.07-GCCcore-14.3.0`
+- `SciPy-bundle/2025.07-gfbf-2025b`
 
 ## mpi4py
 
