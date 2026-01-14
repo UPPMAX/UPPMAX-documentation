@@ -72,7 +72,7 @@ In the 'UPPMAX Local' menu, click on 'Create new proposal'
 
 ???- question "How does that look like?"
 
-    ![In the 'UPPMAX Local' menu, click on 'Create new proposal'](./img/supr_uppmax_local_click_create_new_proposal.png)
+    ![In the 'UPPMAX Local' menu, click on 'Create new proposal'](./img/proposal_uppmax_2026.png)
 
     > In the 'UPPMAX Local' menu, click on 'Create new proposal'
 
@@ -82,7 +82,7 @@ In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on
 
 ???- question "How does that look like?"
 
-    ![In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'](./img/supr_create_new_proposal_for_uppmax_local_click_create_new.png)
+    ![In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'](./img/uppmax_local_2026.png)
 
     > In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
 
@@ -90,7 +90,7 @@ You have just created an UPPMAX local compute project!
 
 ???- question "How does that look like?"
 
-    ![An UPPMAX local compute project](./img/supr_uppmax_local_project_start.png)
+    ![An UPPMAX local compute project](./img/proposal_details_uppmax_jan2026.png)
 
     > An UPPMAX local compute project
 
@@ -100,34 +100,58 @@ In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle.
 
 ???- question "How does that look like?"
 
-    ![In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle](./img/supr_uppmax_local_project_add_pelle.png)
+    ![In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle](./img/proposal_details_uppmax_resources_jan2026.png)
 
     > In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle
 
 Click on 'Add resource to proposal' to add Pelle as a resource.
 
-???- question "How does that look like?"
 
-    ![In your UPPMAX local compute project, click 'Add resource to proposal'](./img/supr_uppmax_local_project_add_pelle_add.png)
-
-    > In your UPPMAX local compute project, click 'Add resource to proposal'
-
-### 9. Click on 'Create new proposal'
+### 9. Click on 'Add resources compute hours'
 
 In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
 
 ???- question "How does that look like?"
 
-    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/supr_add_resource_pelle_add.png)
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_capacity_pelle_2026.png)
 
     > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
 
-### 10. Done
-
-Now, Pelle is added to your proposal. Well done!
+Edit!
 
 ???- question "How does that look like?"
 
-    ![In your UPPMAX local compute project, Pelle is added](./img/supr_uppmax_local_project_add_pelle.png)
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/edit_resource_uppmax_2026.png)
+
+    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+
+### 10. Click on 'Add resources for storage'
+
+In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
+
+???- question "How does that look like?"
+
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/storage_choice_uppmax_2026.png)
+
+    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+
+Request
+
+???- question "How does that look like?"
+
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_storage_uppmax_2026.png)
+
+    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+
+### 11. Submit your proposal
+
+???- question "How does that look like?"
+
+    ![In your UPPMAX local compute project, Pelle is added](./img/submit_proposal_uppmax_2026.png)
 
     > In your UPPMAX local compute project, Pelle is added
+
+### 12. Done
+
+Now, Pelle is added to your proposal. Well done!
+
