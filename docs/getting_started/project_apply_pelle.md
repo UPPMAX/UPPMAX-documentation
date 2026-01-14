@@ -86,8 +86,6 @@ In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on
 
     > In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
 
-You have just created an UPPMAX local compute project!
-
 ???- question "How does that look like?"
 
     ![An UPPMAX local compute project](./img/proposal_details_uppmax_jan2026.png)
@@ -107,7 +105,7 @@ In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle.
 Click on 'Add resource to proposal' to add Pelle as a resource.
 
 
-### 9. Click on 'Add resources compute hours'
+### 9. Click on 'Add resources to proposal'
 
 In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
 
@@ -125,9 +123,9 @@ Edit!
 
     > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
 
-### 10. Click on 'Add resources for storage'
+### 10. Click on 'Storage Choice'
 
-In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
+In the 'Add resource Pelle' menu, click 'Storage choice'.
 
 ???- question "How does that look like?"
 
@@ -135,7 +133,7 @@ In the 'Add resource Pelle' menu, set the number of core hours and click 'Add re
 
     > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
 
-Request
+Request needed storage in terms of GiB and number of files.
 
 ???- question "How does that look like?"
 
@@ -143,7 +141,20 @@ Request
 
     > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
 
-### 11. Submit your proposal
+### 11. Want to change your numbers?
+
+You can go back and change your choices. In your UPPMAX local compute project, scroll down to 'Resources' section to revisit the resources.
+
+???- question "How does that look like?"
+
+    ![In your UPPMAX local compute project, revisit resources](./img/resources_revisit_uppmax_2026.png)
+
+    > In your UPPMAX local compute project, revisit resources
+
+
+### 12. Submit your proposal
+
+Press the Submitt button on the bottom of the page.
 
 ???- question "How does that look like?"
 
@@ -151,7 +162,7 @@ Request
 
     > In your UPPMAX local compute project, Pelle is added
 
-### 12. Done
+### 13. Done
 
 Now, Pelle is added to your proposal. Well done!
 
