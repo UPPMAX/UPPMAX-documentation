@@ -59,7 +59,7 @@ a NAISS HPC cluster for sensitive data.
 - [Whisper for transcriptions](https://docs.uppmax.uu.se/software/whisper)
 - [NAISS Introduction to LINUX](https://www.hpc2n.umu.se/events/courses/2025/spring/2/linux-intro)
 - [NAISS Intermediate Bash and Linux](https://www.hpc2n.umu.se/events/courses/2025/spring/intermediate-linux)
-- [NAISS File transfer](naiss_transfer.md)
+- [NAISS File transfer](https://naiss-training.github.io/NAISS-intro-week/connecting/)
 - [Awk workshop](https://docs.uppmax.uu.se/courses_workshops/awk/)
 - [Basic Singularity](https://docs.uppmax.uu.se/courses_workshops/singularity/)
 
