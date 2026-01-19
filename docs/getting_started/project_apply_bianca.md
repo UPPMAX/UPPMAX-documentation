@@ -45,28 +45,47 @@ In the 'Rounds' menu, click on 'Go to NAISS SENS'
 In the 'NAISS SENS Rounds' menu, click on 'Go to NAISS SENS Small' for the
 current year:
 
-![In the 'NAISS SENS Rounds' menu, click on 'Go to NAISS SENS Small' for the current year](./img/supr_naiss_naiss_sens_rounds_click_go_to_small.png)
+![In the 'NAISS SENS Rounds' menu, click on 'Go to NAISS SENS Small' for the current year](./img/rounds_2026.png)
 
 > In the 'NAISS SENS Rounds' menu, click on 'Go to NAISS SENS Small' for the current year
 
-### 5. Click 'Create New Proposal for NAISS SENS Small' for the current year
+### 5. Click 'Go to NAISS Small/Medium' for the current year
 
-In the 'Open for Proposals' screen, click 'Create New Proposal for NAISS SENS Small' for the current year
+In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" for the current year, depending on the Size of the project.
 
-![In the 'Open for Proposals' screen, click 'Create New Proposal for NAISS SENS Small' for the current year](./img/supr_naiss_open_for_proposals_click_create_new_sens.png)
+- Small: Up to 5,000 core-h/month, and 10 TiB (backup) and 14 TiB (non-backup)
+    - Check details and who is eligible to apply at the [NAISS allocation page for small projects](https://www.naiss.se/allocations/small/)
+- Medium: Up to 100,000 core-h/month, and 100 TiB (backup) and 50 TiB (non-backup)
+    - Check details and who is eligible to apply at the [NAISS allocation page for medium projects](https://www.naiss.se/allocations/mediuml/)
 
-> In the 'Open for Proposals' screen, click 'Create New Proposal for NAISS SENS Small' for the current year
+![In the 'Open for Proposals' screen, click 'Create New Proposal for NAISS Small' for the current year](./img/rounds_2026.png)
+
+> In the 'Open for Proposals' screen, scroll down and click 'Create New Proposal for NAISS Small/Medium Small' for the current year.
+>
+NAISS_small_example2026
 
 ### 6. Add a project title and click 'Create new proposal'
 
 In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and click 'Create new proposal'
 
-![In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and click 'Create new proposal'](./img/supr_naiss_create_new_proposal_for_naiss_sens_small.png)
+![In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and click 'Create new proposal'](./img/Create_new_proposal_2026.png)
 
 > In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and click 'Create new proposal'
 
 After this, the procedure is straightforward.
 
 ![Resource available for a NAISS SENS Small project](./img/supr_naiss_create_new_proposal_for_naiss_sens_small_resources.png)
+> Resource available for a NAISS SENS Small project.md)
+> 
+## images
 
-> Resource available for a NAISS SENS Small project
+![project_details_p1_2026](./img/project_details_p1_2026.md)
+![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.md)
+![add_resource_bianca_2026](./img/add_resource_bianca_2026.md)
+![storage_choice_bianca_2026](./img/storage_choice_bianca_2026.md)
+![add_storage_cygnus_2026](./img/add_storage_cygnus_2026.md)
+![add_storage_cygnus_nobackup_2026](./img/add_storage_cygnus_nobackup_2026.md)
+![revisit_resources_bianca_2026](./img/revisit_resources_bianca_2026.md)
+![edit_resource_bianca_2026](./img/edit_resource_bianca_2026.md)
+![submission_bianca_2026](./img/submission_bianca_2026.md)
+
