@@ -26,9 +26,9 @@ Course dates are (or should be) provided also at each course's website.
 
 ### February 2026
 
-[NAISS 'Connect and File Transfer' course <br> _Feb 2 2026_](naiss_transfer.md){ .md-button .md-button--primary }
+[NAISS 'Connect and File Transfer' course <br> _Feb 2 2026_](https://naiss-training.github.io/NAISS-intro-week/connecting/){ .md-button .md-button--primary }
 
-[Introduction to Bianca <br> _Feb 6 2026_](bianca_intro.md){ .md-button .md-button--primary }
+[Introduction to Bianca <br> _Feb 6 2026_](https://uppmax.github.io/bianca_workshops/beginner/intro/){ .md-button .md-button--primary }
 
 ### May 2026
 
@@ -51,7 +51,7 @@ such as Rackham and Snowy.
 The courses on how to use Bianca,
 a NAISS HPC cluster for sensitive data.
 
-- [Introduction to Bianca: Handling Sensitive Research Data](bianca_intro.md)
+- [Introduction to Bianca: Handling Sensitive Research Data](https://uppmax.github.io/bianca_workshops/beginner/intro/)
 - [Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data](bianca_intermediate.md)
 
 ### Learn Linux and tools
