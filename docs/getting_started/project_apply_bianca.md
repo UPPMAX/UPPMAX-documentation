@@ -76,7 +76,7 @@ After this, the procedure is straightforward.
 
 ![Resource available for a NAISS SENS Small project](./img/supr_naiss_create_new_proposal_for_naiss_sens_small_resources.png)
 > Resource available for a NAISS SENS Small project.md)
-> 
+
 ## images
 
 ![project_details_p1_2026](./img/project_details_p1_2026.md)
