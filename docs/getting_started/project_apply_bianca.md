@@ -79,13 +79,13 @@ After this, the procedure is straightforward.
 
 ## images
 
-![project_details_p1_2026](./img/project_details_p1_2026.md)
-![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.md)
-![add_resource_bianca_2026](./img/add_resource_bianca_2026.md)
-![storage_choice_bianca_2026](./img/storage_choice_bianca_2026.md)
-![add_storage_cygnus_2026](./img/add_storage_cygnus_2026.md)
-![add_storage_cygnus_nobackup_2026](./img/add_storage_cygnus_nobackup_2026.md)
-![revisit_resources_bianca_2026](./img/revisit_resources_bianca_2026.md)
-![edit_resource_bianca_2026](./img/edit_resource_bianca_2026.md)
-![submission_bianca_2026](./img/submission_bianca_2026.md)
+![project_details_p1_2026](./img/project_details_p1_2026.png)
+![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.png)
+![add_resource_bianca_2026](./img/add_resource_bianca_2026.png)
+![storage_choice_bianca_2026](./img/storage_choice_bianca_2026.png)
+![add_storage_cygnus_2026](./img/add_storage_cygnus_2026.png)
+![add_storage_cygnus_nobackup_2026](./img/add_storage_cygnus_nobackup_2026.png)
+![revisit_resources_bianca_2026](./img/revisit_resources_bianca_2026.png)
+![edit_resource_bianca_2026](./img/edit_resource_bianca_2026.png)
+![submission_bianca_2026](./img/submission_bianca_2026.png)
 
