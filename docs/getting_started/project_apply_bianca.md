@@ -77,15 +77,105 @@ After this, the procedure is straightforward.
 ![Resource available for a NAISS SENS Small project](./img/supr_naiss_create_new_proposal_for_naiss_sens_small_resources.png)
 > Resource available for a NAISS SENS Small project.md)
 
-## images
+### 7. Fill in a title and click on 'Create new proposal'
+
+In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
+
+???- question "How does that look like?"
+
+    ![In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'](./img/uppmax_local_2026.png)
+
+    > In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
+
+???- question "How does that look like?"
+
+    ![An UPPMAX local compute project](./img/proposal_details_uppmax_jan2026.png)
+
+    > An UPPMAX local compute project
 
 ![project_details_p1_2026](./img/project_details_p1_2026.png)
+
+### 8. Scroll down and add Pelle
+
+In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle.
+
+???- question "How does that look like?"
+
+    ![In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle](./img/proposal_details_uppmax_resources_jan2026.png)
+
+    > In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle
+
+Click on 'Add resource to proposal' to add Pelle as a resource.
+
 ![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.png)
+
+### 9. Click on 'Add resources to proposal'
+
+In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
+
+???- question "How does that look like?"
+
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_capacity_pelle_2026.png)
+
+    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+
 ![add_resource_bianca_2026](./img/add_resource_bianca_2026.png)
+
+Edit!
+
+???- question "How does that look like?"
+
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/edit_resource_uppmax_2026.png)
+
+    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+
+### 10. Click on 'Storage Choice'
+
+In the 'Add resource Pelle' menu, click 'Storage choice'.
+
+???- question "How does that look like?"
+
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/storage_choice_uppmax_2026.png)
+
+    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+
+Request needed storage in terms of GiB and number of files.
+
+???- question "How does that look like?"
+
+    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_storage_uppmax_2026.png)
+
+    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+
 ![storage_choice_bianca_2026](./img/storage_choice_bianca_2026.png)
 ![add_storage_cygnus_2026](./img/add_storage_cygnus_2026.png)
 ![add_storage_cygnus_nobackup_2026](./img/add_storage_cygnus_nobackup_2026.png)
-![revisit_resources_bianca_2026](./img/revisit_resources_bianca_2026.png)
-![edit_resource_bianca_2026](./img/edit_resource_bianca_2026.png)
-![submission_bianca_2026](./img/submission_bianca_2026.png)
 
+### 11. Want to change your numbers?
+
+You can go back and change your choices. In your UPPMAX local compute project, scroll down to 'Resources' section to revisit the resources.
+
+???- question "How does that look like?"
+
+    ![revisit_resources_bianca_2026](./img/revisit_resources_bianca_2026.png)
+
+    > In your UPPMAX local compute project, revisit resources
+
+    ![edit_resource_bianca_2026](./img/edit_resource_bianca_2026.png)
+
+    > Edit resource
+
+### 12. Submit your proposal
+
+Press the "Submit the Proposal" button on the bottom of the page.
+
+???- question "How does that look like?"
+
+    ![submission_bianca_2026](./img/submission_bianca_2026.png)
+
+    > In your UPPMAX local compute project, Pelle is added
+
+
+### 13. Done
+
+Now, Bianca is added to your proposal. Well done!
