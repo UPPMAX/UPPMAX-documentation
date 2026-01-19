@@ -93,7 +93,7 @@ In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on
 
     > An UPPMAX local compute project
 
-![project_details_p1_2026](./img/project_details_p1_2026.png)
+    ![project_details_p1_2026](./img/project_details_p1_2026.png)
 
 ### 8. Scroll down and add Pelle
 
@@ -119,7 +119,7 @@ In the 'Add resource Pelle' menu, set the number of core hours and click 'Add re
 
     > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
 
-![add_resource_bianca_2026](./img/add_resource_bianca_2026.png)
+    ![add_resource_bianca_2026](./img/add_resource_bianca_2026.png)
 
 Edit!
 
@@ -147,9 +147,9 @@ Request needed storage in terms of GiB and number of files.
 
     > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
 
-![storage_choice_bianca_2026](./img/storage_choice_bianca_2026.png)
-![add_storage_cygnus_2026](./img/add_storage_cygnus_2026.png)
-![add_storage_cygnus_nobackup_2026](./img/add_storage_cygnus_nobackup_2026.png)
+    ![storage_choice_bianca_2026](./img/storage_choice_bianca_2026.png)
+    ![add_storage_cygnus_2026](./img/add_storage_cygnus_2026.png)
+    ![add_storage_cygnus_nobackup_2026](./img/add_storage_cygnus_nobackup_2026.png)
 
 ### 11. Want to change your numbers?
 
