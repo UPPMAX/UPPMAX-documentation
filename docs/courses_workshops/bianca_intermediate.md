@@ -10,13 +10,13 @@ This is a Q&A-based hackathon for **intermediate** users of Bianca.
 
 You do not need to be a member of a NAISS-SENS project in order to join the workshop. A SUPR course project will be available to all participants. The workshop will consist of both lectures and exercise sessions.
 
-**When:** Tuesday, Nov 18, 2025.
+**When:** Tuesday, May 22, 2026.
 
 **Time:** 09:00 - 12:00, and 13:00 - 16:00.
 
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
-[**Registration form**](https://forms.gle/f1czQGLyEcGrAQWs9): Closing Fri Nov 14
+**Registration form**: Yet to come
 
 The workshop will consist of short lectures, exercises and Q&A sessions.
 
