@@ -56,7 +56,7 @@ In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" 
 - Small: Up to 5,000 core-h/month, and 10 TiB (backup) and 14 TiB (non-backup)
     - Check details and who is eligible to apply at the [NAISS allocation page for small projects](https://www.naiss.se/allocations/small/)
 - Medium: Up to 100,000 core-h/month, and 100 TiB (backup) and 50 TiB (non-backup)
-    - Check details and who is eligible to apply at the [NAISS allocation page for medium projects](https://www.naiss.se/allocations/mediuml/)
+    - Check details and who is eligible to apply at the [NAISS allocation page for medium projects](https://www.naiss.se/allocations/medium/)
 
 ![In the 'Open for Proposals' screen, click 'Create New Proposal for NAISS Small' for the current year](./img/rounds_2026.png)
 
