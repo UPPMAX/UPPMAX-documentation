@@ -100,9 +100,9 @@ In your NAISS project, scroll down to 'Resources' and add Bianca.
 
     ![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.png)
     
-    > In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle
+    > In your UPPMAX local compute project, scroll down to 'Resources' and add Bianca
 
-Click on 'Add resource to proposal' to add Pelle as a resource.
+Click on 'Add resource to proposal' to add Bianca as a resource.
 
 ### 8. Edit compute resources
 
@@ -114,42 +114,58 @@ In the 'Add resource Bianca' menu, set the number of core hours and click 'Add r
 
     > In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'
 
-### 10. Click on 'Storage Choice'
+### 9. Click on 'Storage Choice'
 
-In the 'Add resource Pelle' menu, click 'Storage choice'.
+In the 'Add resource Bianca' menu, click 'Storage choice'.
+
+You can see the default numbers for the backup and non-backup partitions of the storage.
+
+You can now choose between
+
+- request default storage
+- request more than default storage
+- done with storage stage
+
+???- question "How does that look like (Request more example)?"
+
+    ![In the 'Storage choice' page, click 'Request more...'](./img/storage_choice_bianca_2026.png)
+
+    > In the 'Storage choice' page, click 'Request more...'
+
+Request needed storage in terms of GiB and number of files for Backup
 
 ???- question "How does that look like?"
 
-    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/storage_choice_uppmax_2026.png)
+    ![In the 'Add resource Cygnus /proj' menu, set the number of  GiB and number of files and 'Add resource'](./img/add_storage_cygnus_2026.png)
 
-    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+    > In the 'Add resource Cygnus /proj' menu, set the number of  GiB and number of files and click 'Add resource'
 
-Request needed storage in terms of GiB and number of files.
+Request needed storage in terms of GiB and number of files for Non-backup
 
 ???- question "How does that look like?"
 
-    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_storage_uppmax_2026.png)
+    ![In the 'Add resource Cygnus /proj/nobackup' menu, set the number of  GiB and number of files and 'Add resource'](./img/add_storage_cygnus_nobackup_2026.png)
 
-    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
-
-    ![storage_choice_bianca_2026](./img/storage_choice_bianca_2026.png)
-    ![add_storage_cygnus_2026](./img/add_storage_cygnus_2026.png)
-    ![add_storage_cygnus_nobackup_2026](./img/add_storage_cygnus_nobackup_2026.png)
+    > In the 'Add resource Cygnus /proj/nobackup' menu, set the number of  GiB and number of files and click 'Add resource'
 
 ### 11. Want to change your numbers?
 
-You can go back and change your choices. In your UPPMAX local compute project, scroll down to 'Resources' section to revisit the resources.
+You can go back and change your choices. In your NAISS project, scroll down to 'Resources' section to revisit the resources.
 
 ???- question "How does that look like?"
 
-    ![revisit_resources_bianca_2026](./img/revisit_resources_bianca_2026.png)
+    ![revisit_resources_bianca_2026](./img/revisit2_resources_bianca_2026.png)
 
     > In your UPPMAX local compute project, revisit resources
 
+Click Bianca or the Storage choice
+
+???- question "How does that look like?"
+
     ![edit_resource_bianca_2026](./img/edit_resource_bianca_2026.png)
 
-    > Edit resource
-
+    > Edit
+    
 ### 12. Submit your proposal
 
 Press the "Submit the Proposal" button on the bottom of the page.
@@ -158,7 +174,7 @@ Press the "Submit the Proposal" button on the bottom of the page.
 
     ![submission_bianca_2026](./img/submission_bianca_2026.png)
 
-    > In your UPPMAX local compute project, Pelle is added
+    > Submit
 
 
 ### 13. Done
