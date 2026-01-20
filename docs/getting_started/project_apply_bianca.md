@@ -32,24 +32,17 @@ On the main page, click on 'Rounds'
 
 > On the main page, click on 'Rounds'
 
-### 3. Click on 'Go to NAISS SENS'
+### 3. Click on 'NAISS rounds' 
 
-In the 'Rounds' menu, click on 'Go to NAISS SENS'
+In the 'Rounds' menu, click on 'NAISS rounds' 
 
-![In the 'Rounds' menu, click on 'Go to NAISS SENS'](./img/supr_naiss_rounds_click_go_to_naiss_sens.png)
+???- question "How does that look like?"
 
-> In the 'Rounds' menu, click on 'Go to NAISS SENS'
+    ![In the 'Rounds' menu, click on 'NAISS rounds'](./img/rounds_2026.png)
 
-### 4. Click on 'Go to NAISS SENS Small' for the current year
+    > In the 'Rounds' menu, click on 'NAISS rounds'
 
-In the 'NAISS SENS Rounds' menu, click on 'Go to NAISS SENS Small' for the
-current year:
-
-![In the 'NAISS SENS Rounds' menu, click on 'Go to NAISS SENS Small' for the current year](./img/rounds_2026.png)
-
-> In the 'NAISS SENS Rounds' menu, click on 'Go to NAISS SENS Small' for the current year
-
-### 5. Click 'Go to NAISS Small/Medium' for the current year
+### 4. Click 'Go to NAISS Small/Medium' for the current year
 
 In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" for the current year, depending on the Size of the project.
 
@@ -58,44 +51,44 @@ In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" 
 - Medium: Up to 100,000 core-h/month, and 100 TiB (backup) and 50 TiB (non-backup)
     - Check details and who is eligible to apply at the [NAISS allocation page for medium projects](https://www.naiss.se/allocations/medium/)
 
-![In the 'Open for Proposals' screen, click 'Create New Proposal for NAISS Small' for the current year](./img/rounds_2026.png)
+???- question "How does that look like?"
 
-> In the 'Open for Proposals' screen, scroll down and click 'Create New Proposal for NAISS Small/Medium Small' for the current year.
->
-NAISS_small_example2026
+    ![In the 'NAISS Rounds' screen, click 'Create New Proposal for NAISS Small/Medium' for the current year](./img/NAISS_rounds_2026.png)
+
+    > In the 'NAISS Rounds' screen, scroll down and click 'Create New Proposal for NAISS Small/Medium Small' for the current year.
+
+### 5. Click 'Create New Proposal for NAISS Small/Medium 2026'"
+
+In the 'Open for Proposals' screen you can view which resources are available (and also clock for details) but to create a new proposal click 'Create New Proposal for NAISS Small/Medium 2026'.
+
+???- question "Example for small project"
+
+    ![Create New Proposal for NAISS Small/Medium 2026](./img/NAISS_small_example2026.png)
+
+    > Create New Proposal for NAISS Small/Medium 2026
+
 
 ### 6. Add a project title and click 'Create new proposal'
 
-In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and click 'Create new proposal'
-
-![In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and click 'Create new proposal'](./img/Create_new_proposal_2026.png)
-
-> In the 'Create New Proposal for NAISS SENS Small 2024', add a project title and click 'Create new proposal'
-
-After this, the procedure is straightforward.
-
-![Resource available for a NAISS SENS Small project](./img/supr_naiss_create_new_proposal_for_naiss_sens_small_resources.png)
-> Resource available for a NAISS SENS Small project.md)
-
-### 7. Fill in a title and click on 'Create new proposal'
-
-In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
+In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and click 'Create new proposal'
 
 ???- question "How does that look like?"
 
-    ![In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'](./img/uppmax_local_2026.png)
+    ![In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and click 'Create new proposal'](./img/Create_new_proposal_2026.png)
 
-    > In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
+    > In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and click 'Create new proposal'
+
+THis leads you to the next page, the proposal details.
 
 ???- question "How does that look like?"
-
-    ![An UPPMAX local compute project](./img/proposal_details_uppmax_jan2026.png)
-
-    > An UPPMAX local compute project
 
     ![project_details_p1_2026](./img/project_details_p1_2026.png)
 
-### 8. Scroll down and add Pelle
+    > An NAISS compute project
+
+So far it is an ordinary NAISS project, no resource coupled to sensitive projects is yet chosen.
+
+### 8. Scroll down and add the resource Bianca
 
 In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle.
 
