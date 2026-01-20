@@ -63,7 +63,7 @@ In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" 
 
 ### 5. Click 'Create New Proposal for NAISS Small/Medium 2026'
 
-In the 'Open for Proposals' screen you can view which resources are available (and also clock for details) but to create a new proposal click 'Create New Proposal for NAISS Small/Medium 2026'.
+In the 'Open for Proposals' screen you can view which resources are available (and also click for details) but to create a new proposal click 'Create New Proposal for NAISS Small/Medium 2026'.
 
 ???- question "Example for small project"
 
@@ -74,13 +74,13 @@ In the 'Open for Proposals' screen you can view which resources are available (a
 
 ### 6. Add a project title and click 'Create new proposal'
 
-In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and click 'Create new proposal'
+In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'
 
 ???- question "How does that look like?"
 
-    ![In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and click 'Create new proposal'](./img/Create_new_proposal_2026.png)
+    ![In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'](./img/Create_new_proposal_2026.png)
 
-    > In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and click 'Create new proposal'
+    > In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'
 
 This leads you to the next page, the proposal details.
 
@@ -88,43 +88,31 @@ This leads you to the next page, the proposal details.
 
     ![project_details_p1_2026](./img/project_details_p1_2026.png)
 
-    > An NAISS compute project
+    > A NAISS project
 
 So far it is an ordinary NAISS project, no resource coupled to sensitive projects is yet chosen.
 
-### 8. Scroll down and add the resource Bianca
+### 7. Scroll down and add the resource 'Bianca'
 
-In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle.
+In your NAISS project, scroll down to 'Resources' and add Bianca.
 
 ???- question "How does that look like?"
 
-    ![In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle](./img/proposal_details_uppmax_resources_jan2026.png)
-
+    ![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.png)
+    
     > In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle
 
 Click on 'Add resource to proposal' to add Pelle as a resource.
 
-![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.png)
+### 8. Edit compute resources
 
-### 9. Click on 'Add resources to proposal'
-
-In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
+In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'.
 
 ???- question "How does that look like?"
 
-    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_capacity_pelle_2026.png)
+    ![In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'](./img/add_resource_bianca_2026.png)
 
-    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
-
-    ![add_resource_bianca_2026](./img/add_resource_bianca_2026.png)
-
-Edit!
-
-???- question "How does that look like?"
-
-    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/edit_resource_uppmax_2026.png)
-
-    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+    > In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'
 
 ### 10. Click on 'Storage Choice'
 
