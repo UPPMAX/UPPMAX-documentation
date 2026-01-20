@@ -40,18 +40,45 @@ See how to get one at [the UPPMAX guide 'Apply to a SUPR account'](supr_account.
 
 This is needed to administer your projects and accounts on one or several academic clusters over Sweden.
 
-## (optional) Step 2: get a 2FA for your UPPMAX user account
+## Step 2: Get a 2FA for your UPPMAX user account
 
-Some parts of UPPMAX require two factor authentication.
+All parts of UPPMAX require two factor authentication.
 See how to set this up at
 [the guide 'Setting up two factor authentication for UPPMAX'](get_uppmax_2fa.md).
+
+!!! warning
+
+    - Please be aware of that this is different from the SUPR 2FA that you may have set up earlier.
+    - Also, each centre has their own 2FA, so one from NSC/Tetralith won't work for UPPMAX.
 
 ## Step 3: get an UPPMAX project
 
 Second, one needs to have an active research project.
 See how to get one at [the UPPMAX guide 'Apply for a project'](project_apply.md).
 
-## Step 4: use UPPMAX
+## Step 4: Get a user account for Pelle or Bianca, depending on type of project
+
+After having been granted membershipin the project [on SUPR, activate your user accounts](https://supr.naiss.se/account/)
+
+## Step 5: Wait for an email with further instructions
+
+- The email may land in you trash bin so do look there as well.
+- Follow the instructions! You'll need the UPPMAX 2FA set up, see Step 2 to be able to log in.
+- The password you got will only work once nad for a limited time period.
+
+## Step 6: First time log in
+
+- [Login to our clusters](login.md)
+
+## Step 7: Change your password to something you'll remember
+
+When logged in on a UPPMAX system via a terminal, type ``passwd`` and follow the instructions on the screen.
+
+!!! info
+
+    The password is not seen in the terminal, neither as characters nor ``*`` or similar.
+
+## Step 8: use UPPMAX
 
 Now you can use the UPPMAX resources!
 
