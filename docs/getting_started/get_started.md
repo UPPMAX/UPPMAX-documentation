@@ -13,17 +13,18 @@ This page describes how to get started with UPPMAX.
 
     ```mermaid
     flowchart TB
-        subgraph get_uppmax_account[Get an UPPMAX account]
-          get_supr_account[Get a SUPR account]
+        subgraph get_SUPR_account[Get a SUPR account]
+          get_supr_account[Apply for SUPR account]
           accept_supr_user_agreement[Accept the SUPR user agreement]
         end
         get_2fa[Get your UPPMAX 2FA]
         get_project[Apply for an UPPMAX project]
+        get_uppmax_account[Apply for a user name for UPPMAX facilities]
         
         get_supr_account --> accept_supr_user_agreement
         get_uppmax_account -.-> get_2fa
         get_2fa -.-> get_project
-        get_uppmax_account --> get_project
+        get_SUPR_account --> get_project
     ```
 
     - The solid lines denote a dependency, e.g. you need an UPPMAX account
@@ -31,10 +32,12 @@ This page describes how to get started with UPPMAX.
     - The dashed lines denote a 'maybe' or 'optional', e.g. some UPPMAX
       projects require two factor authorization.
 
-## Step 1: get an UPPMAX user account
+## Step 1: Get a SUPR account
 
-First, one needs an an UPPMAX user account.
-See how to get one at [the UPPMAX guide 'Apply to a user account'](user_account.md#apply-to-an-uppmax-user-account).
+First, one needs an an SUPR account.
+See how to get one at [the UPPMAX guide 'Apply to a SUPR account'](supr_account.md).
+
+This is needed to administer your projects and accounts on one or several academic clusters over Sweden.
 
 ## (optional) Step 2: get a 2FA for your UPPMAX user account
 
