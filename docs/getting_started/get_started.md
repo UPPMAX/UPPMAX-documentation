@@ -58,13 +58,13 @@ See how to get one at [the UPPMAX guide 'Apply for a project'](project_apply.md)
 
 ## Step 4: Get a user account for Pelle or Bianca, depending on type of project
 
-After having been granted membershipin the project [on SUPR, activate your user accounts](https://supr.naiss.se/account/)
+After having been granted membership in the project [on SUPR, activate your user accounts](https://supr.naiss.se/account/)
 
 ## Step 5: Wait for an email with further instructions
 
 - The email may land in you trash bin so do look there as well.
 - Follow the instructions! You'll need the UPPMAX 2FA set up, see Step 2 to be able to log in.
-- The password you got will only work once nad for a limited time period.
+- The password you got will only work once and for a limited time period.
 
 ## Step 6: First time log in
 
