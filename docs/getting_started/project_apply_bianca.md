@@ -20,21 +20,25 @@ This page describes how to apply to a Bianca/Sens project.
 
 ### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
 
-![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
+???- question "How does that look like?"
 
-> Example SUPR NAISS main page
+    ![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
+
+    > Example SUPR NAISS main page
 
 ### 2. Click on 'Rounds'
 
 On the main page, click on 'Rounds'
 
-![On the main page, click on 'Rounds'](./img/supr_naiss_start_click_rounds.png)
+???- question "How does that look like?"
 
-> On the main page, click on 'Rounds'
+    ![On the main page, click on 'Rounds'](./img/supr_naiss_start_click_rounds.png)
 
-### 3. Click on 'NAISS rounds' 
+    > On the main page, click on 'Rounds'
 
-In the 'Rounds' menu, click on 'NAISS rounds' 
+### 3. Click on 'NAISS rounds'
+
+In the 'Rounds' menu, click on 'NAISS rounds'
 
 ???- question "How does that look like?"
 
@@ -57,7 +61,7 @@ In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" 
 
     > In the 'NAISS Rounds' screen, scroll down and click 'Create New Proposal for NAISS Small/Medium Small' for the current year.
 
-### 5. Click 'Create New Proposal for NAISS Small/Medium 2026'"
+### 5. Click 'Create New Proposal for NAISS Small/Medium 2026'
 
 In the 'Open for Proposals' screen you can view which resources are available (and also clock for details) but to create a new proposal click 'Create New Proposal for NAISS Small/Medium 2026'.
 
@@ -78,7 +82,7 @@ In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and 
 
     > In the 'Create New Proposal for NAISS SENS Small 2026', add a project title and click 'Create new proposal'
 
-THis leads you to the next page, the proposal details.
+This leads you to the next page, the proposal details.
 
 ???- question "How does that look like?"
 
