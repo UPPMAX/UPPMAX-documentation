@@ -13,7 +13,7 @@ This page describes how to use Slurm on Pelle.
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
 
-???- question "What about oher clusters?"
+???- question "What about other clusters?"
 
     See [the general page about Slurm at UPPMAX](slurm.md)
 
@@ -66,9 +66,10 @@ how to fix Slurm errors.
     - Core jobs (Default): ``-c <number of cores>``
         - [read more](slurm_on_pelle.md#examples-with-core-jobs)
     - Node jobs: ``-N <number of nodes>``
-        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
-    - Large memory jobs: ``-p fat`` 
-        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+        - [read more](slurm_on_pelle.md#examples-with-node-jobs)
+    - Jobs using MPI: ``-n <number of tasks>``
+    - Large memory jobs: ``-p fat``
+        - [read more](slurm_on_pelle.md#the-fat-partition)
     - GPU jobs
         - Old T4 (~2018, we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
         - Faster L40s (4 nodes á 10 GPUs): ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
