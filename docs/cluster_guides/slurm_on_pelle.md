@@ -17,9 +17,6 @@ how to fix Slurm errors.
 
     See [the general page about Slurm at UPPMAX](slurm.md)
 
-See [Slurm troubleshooting](slurm_troubleshooting.md)
-how to fix Slurm errors.
-
 ???- note "Newer Slurm"
 
     - Slurm on Pelle have been upgraded to version 25.05.
@@ -46,6 +43,7 @@ how to fix Slurm errors.
         - work interactively, starting programs and view data etcetera on a compute node
         - ``interactive -A uppmax202X-Y-ZZZ -c 2 -t 3:0:0``
         - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
+        
     - Batch system
         - Allocate much resources or long wall times and let job run by its own without interaction with you
         - ``batch <submit script>``
@@ -60,15 +58,27 @@ how to fix Slurm errors.
             #SBATCH -t 0:1:0 # 1 minute
             echo "Hello"
             ```
-  
+
+    Wall times
+    
+    - Specify the maximum time needed before slurm breaks the job.
+    - ``-t 10:0`` 10 minutes
+    - ``-t 10:0:0`` 10 hours
+    - ``-t 5-10:0:0`` 5 days and 10 hours
+    
     Resources
 
-    - Core jobs (Default): ``-c <number of cores>``
+    - What kind of computations do you need?
+    - Core jobs (Default):
+        - ``-c <number of cores>``
         - [read more](slurm_on_pelle.md#examples-with-core-jobs)
-    - Node jobs: ``-N <number of nodes>``
+    - Node jobs:
+        - ``-N <number of nodes>``
         - [read more](slurm_on_pelle.md#examples-with-node-jobs)
-    - Jobs using MPI: ``-n <number of tasks>``
-    - Large memory jobs: ``-p fat``
+    - Jobs using MPI:
+        - ``-n <number of tasks>``
+    - Large memory jobs:
+        - ``-p fat``
         - [read more](slurm_on_pelle.md#the-fat-partition)
     - GPU jobs
         - Old T4 (~2018, we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
