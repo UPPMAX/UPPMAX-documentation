@@ -84,8 +84,8 @@ how to fix Slurm errors.
         - [read more](slurm_on_pelle.md#the-fat-partition)
     - GPU (NVIDIA) jobs
         - T4 (we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
-        - Faster L40s (4 nodes á 10 GPUs): ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
-        - Superfast H100 (2 nodes à 2 GPUs): ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
+        - Faster L40s (4 nodes with 10 GPUs each): ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
+        - Superfast H100 (2 nodes with 2 GPUs each): ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
         - [read more](slurm_on_pelle.md#examples-with-core-jobs)
     - Intel Haswell nodes (with 16 cores per node)
         - ``-p haswell ...``
