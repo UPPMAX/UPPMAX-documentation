@@ -28,7 +28,15 @@ Once you click "Continue", you'll be sent to SUPR where you should log in.
 Once you've done so SUPR will let you know that you will be sent back
 and the identity you are logged in with.
 
+!!! info "Keep your 2FA recovery token"
+
+    When you store your SUPR 2FA recovery somewhere,
+    it will take around 10 minutes to get a new 2FA token.
+
 ???- info "For staff only"
 
     [SUPR API documentation](https://sonc.swegrid.se/wiki/SUPR/API),
     requires the same certificate as RT
+
+!!!
+
