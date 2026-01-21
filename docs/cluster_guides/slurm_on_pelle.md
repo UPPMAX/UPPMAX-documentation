@@ -100,8 +100,8 @@ the only difference is that some flags/options may be different, like partition 
 
 Here it is shown how to submit a job with:
 
-- Command-line Slurm parameters
-- Slurm parameters in the script
+- [Command-line Slurm parameters](#sbatch-a-script-with-command-line-slurm-parameters)
+- [Slurm parameters in the script](#sbatch-a-script-with-slurm-parameters-in-script)
 
 ## Partitions on Pelle
 
@@ -112,6 +112,7 @@ Partition name|Description
 `pelle`       | (Default) Use one or more CPU cores
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
 `gpu`         | GPU node, 2 types see below
+`haswell`     | Old Snowy nodes, half with GPUs 
 
 ### The `pelle` partition
 
@@ -251,14 +252,21 @@ Therefore, at first hand, allocate the default ``L40s`` and one of them
 
 - To allocate H100: ``-p gpu --gpus=h100:<number of GPUs>``
 
-    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1`
-    - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3` will fail because there are just 2 GPUs on one node!
+    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
+    - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3`` will fail because there are just 2 GPUs on one node!
 
 - Currently you do not have to request additional CPUs to get additional memory.
 - You can use all Slurm options
     - ``--mem``
     - ``--mem-per-cpu``
     - ``--mem-per-gpu`` to specify memory requirements.
+
+### The `haswell` partition
+
+No of nodes    | CPUs                              | Cores<br/>Threads |  Memory     | Scratch | GPUs           | Name
+---------------| --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
+34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16<br/>16         | **256 GiB** | 1.7 TB  | N/A           | p[1001-1036]
+34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16<br/>16         | **256 GiB** | 1.7 TB  | NVIDIA T4     | p[2001-2036]
 
 ## `sbatch` a script with command-line Slurm parameters
 
