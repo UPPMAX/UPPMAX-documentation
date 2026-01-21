@@ -82,12 +82,12 @@ how to fix Slurm errors.
     - Large memory jobs:
         - ``-p fat``
         - [read more](slurm_on_pelle.md#the-fat-partition)
-    - GPU jobs
-        - Old T4 (~2018, we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
+    - GPU (NVIDIA) jobs
+        - T4 (we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
         - Faster L40s (4 nodes á 10 GPUs): ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
         - Superfast H100 (2 nodes à 2 GPUs): ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
         - [read more](slurm_on_pelle.md#examples-with-core-jobs)
-    - Old hardware from Snowy (Haswell (~2013) with 16 cores per node)
+    - Intel Haswell nodes (with 16 cores per node)
         - ``-p haswell ...``
 
     
@@ -114,7 +114,7 @@ Partition name|Description
 `pelle`       | (Default) Use one or more CPU cores
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
 `gpu`         | GPU node, 2 types see below
-`haswell`     | Old Snowy nodes, half with GPUs
+`haswell`     | Old Snowy/Irma nodes, half with GPUs (T4)
 
 ### The `pelle` partition
 
