@@ -35,6 +35,8 @@ how to fix Slurm errors.
     - If you, however, are using  MPI, you should define the number of *tasks* with ``-n`` (number of tasks (in total)).
     - The reason why ``-c`` often can/could be used interchangeably with ``-n`` is the default value of one core per task.
 
+## Quick start
+
 !!! info "Quick start for starting jobs on Pelle"
 
     Ways to start jobs
@@ -263,10 +265,10 @@ Therefore, at first hand, allocate the default ``L40s`` and one of them
 
 ### The `haswell` partition
 
-No of nodes    | CPUs                              | Cores<br/>Threads |  Memory     | Scratch | GPUs           | Name
+No of nodes    | CPUs                              | Cores = Threads |  Memory     | Scratch | GPUs           | Name
 ---------------| --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
-34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16<br/>16         | **256 GiB** | 1.7 TB  | N/A           | p[1001-1036]
-34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16<br/>16         | **256 GiB** | 1.7 TB  | NVIDIA T4     | p[2001-2036]
+34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
+34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
 
 ## `sbatch` a script with command-line Slurm parameters
 
