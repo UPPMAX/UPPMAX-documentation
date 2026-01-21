@@ -13,6 +13,13 @@ This page describes how to use Slurm on Pelle.
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
 
+???- question "What about oher clusters?"
+
+    See [the general page about Slurm at UPPMAX](slurm.md)
+
+See [Slurm troubleshooting](slurm_troubleshooting.md)
+how to fix Slurm errors.
+
 ???- note "Newer Slurm"
 
     - Slurm on Pelle have been upgraded to version 25.05.
@@ -30,6 +37,46 @@ how to fix Slurm errors.
     - This prevents the allocation to be spread among multiple nodes.
     - If you, however, are using  MPI, you should define the number of *tasks* with ``-n`` (number of tasks (in total)).
     - The reason why ``-c`` often can/could be used interchangeably with ``-n`` is the default value of one core per task.
+
+!!! info "Quick start for starting jobs on Pelle"
+
+    Ways to start jobs
+
+    - Interactive
+        - work interactively, starting programs and view data etcetera on a compute node
+        - ``interactive -A uppmax202X-Y-ZZZ -c 2 -t 3:0:0``
+        - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
+    - Batch system
+        - Allocate much resources or long wall times and let job run by its own without interaction with you
+        - ``batch <submit script>``
+        - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
+
+        ???- question "Simple batch script"
+
+            ```bash
+            #!/bin/bash
+            #SBATCH -A uppmax2023-2-25
+            #SBATCH -c 1   # number of threads
+            #SBATCH -t 0:1:0 # 1 minute
+            echo "Hello"
+            ```
+  
+    Resources
+
+    - Core jobs (Default): ``-c <number of cores>``
+        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+    - Node jobs: ``-N <number of nodes>``
+        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+    - Large memory jobs: ``-p fat`` 
+        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+    - GPU jobs
+        - Old T4 (~2018, we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
+        - Faster L40s (4 nodes á 10 GPUs): ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
+        - Superfast H100 (2 nodes à 2 GPUs): ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
+        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+    - Old hardware from Snowy (Haswell (~2013) with 16 cores per node)
+        - ``-p haswell ...``
+
     
 ## `sbatch` (and `interactive`) on Pelle
 
@@ -270,7 +317,7 @@ where `[project_code]` is the project code, for example:
 #SBATCH -A uppmax2023-2-25
 ```
 
-???- question "Forgot your Rackham project?"
+???- question "Forgot your Pelle project?"
 
     One can go to the SUPR NAISS pages to see one's projects,
 
