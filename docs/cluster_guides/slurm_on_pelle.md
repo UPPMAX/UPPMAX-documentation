@@ -114,7 +114,7 @@ Partition name|Description
 `pelle`       | (Default) Use one or more CPU cores
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
 `gpu`         | GPU node, 2 types see below
-`haswell`     | Old Snowy nodes, half with GPUs 
+`haswell`     | Old Snowy nodes, half with GPUs
 
 ### The `pelle` partition
 
@@ -267,8 +267,8 @@ Therefore, at first hand, allocate the default ``L40s`` and one of them
 
 No of nodes    | CPUs                              | Cores = Threads |  Memory     | Scratch | GPUs           | Name
 ---------------| --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
-34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
-34             |  2x Xeon E5-2660 2.2 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
+34             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
+34             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
 
 ## `sbatch` a script with command-line Slurm parameters
 
