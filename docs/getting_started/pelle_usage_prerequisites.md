@@ -88,7 +88,6 @@ to do so.
 
 ## An UPPMAX 2FA
 
-Another [prerequisite for using Pelle](#prerequisites-for-using-pelle),
-but only for the [Pelle remote desktop website](login_pelle_remote_desktop_website.md))
+Another [prerequisite for using Pelle](#prerequisites-for-using-pelle)
 is to have an UPPMAX 2FA.
 See [how to get an UPPMAX 2FA](get_uppmax_2fa.md)
