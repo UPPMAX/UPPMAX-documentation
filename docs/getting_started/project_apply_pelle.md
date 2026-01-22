@@ -129,9 +129,9 @@ In the 'Add resource Pelle' menu, click 'Storage choice'.
 
 ???- question "How does that look like?"
 
-    ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/storage_choice_uppmax_2026.png)
+    ![In the 'Add resource Pelle' menu, set the number of GiB and number of files and click 'Add resource'](./img/storage_choice_uppmax_2026.png)
 
-    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+    > In the 'Add resource Pelle' menu, set the number of GiB and number of files click 'Add resource'
 
 Request needed storage in terms of GiB and number of files.
 
@@ -139,7 +139,7 @@ Request needed storage in terms of GiB and number of files.
 
     ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_storage_uppmax_2026.png)
 
-    > In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'
+    > Edit
 
 ### 11. Want to change your numbers?
 

@@ -6,7 +6,7 @@ one needs all of these:
 - [An active research project](#an-active-research-project)
 - [An UPPMAX account](#an-uppmax-user-account)
 - [An UPPMAX password](#an-uppmax-password)
-- (for the [Pelle remote desktop website](login_pelle_remote_desktop_website.md)) [An UPPMAX 2FA](#an-uppmax-2fa)
+- [An UPPMAX 2FA](#an-uppmax-2fa)
 
 These prerequisites are discussed in detail below.
 
@@ -88,7 +88,6 @@ to do so.
 
 ## An UPPMAX 2FA
 
-Another [prerequisite for using Pelle](#prerequisites-for-using-pelle),
-but only for the [Pelle remote desktop website](login_pelle_remote_desktop_website.md))
+Another [prerequisite for using Pelle](#prerequisites-for-using-pelle)
 is to have an UPPMAX 2FA.
 See [how to get an UPPMAX 2FA](get_uppmax_2fa.md)

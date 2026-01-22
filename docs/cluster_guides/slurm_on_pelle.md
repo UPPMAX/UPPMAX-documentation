@@ -13,6 +13,10 @@ This page describes how to use Slurm on Pelle.
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
 
+???- question "What about other clusters?"
+
+    See [the general page about Slurm at UPPMAX](slurm.md)
+
 ???- note "Newer Slurm"
 
     - Slurm on Pelle have been upgraded to version 25.05.
@@ -30,6 +34,62 @@ how to fix Slurm errors.
     - This prevents the allocation to be spread among multiple nodes.
     - If you, however, are using  MPI, you should define the number of *tasks* with ``-n`` (number of tasks (in total)).
     - The reason why ``-c`` often can/could be used interchangeably with ``-n`` is the default value of one core per task.
+
+## Quick start
+
+!!! info "Quick start for starting jobs on Pelle"
+
+    Ways to start jobs
+
+    - Interactive
+        - work interactively, starting programs and view data etcetera on a compute node
+        - ``interactive -A uppmax202X-Y-ZZZ -c 2 -t 3:0:0``
+        - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
+        
+    - Batch system
+        - Allocate much resources or long wall times and let job run by its own without interaction with you
+        - ``batch <submit script>``
+        - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
+
+        ???- question "Simple batch script"
+
+            ```bash
+            #!/bin/bash
+            #SBATCH -A uppmax2023-2-25
+            #SBATCH -c 1   # number of threads
+            #SBATCH -t 0:1:0 # 1 minute
+            echo "Hello"
+            ```
+
+    Wall times
+    
+    - Specify the maximum time needed before slurm breaks the job.
+    - ``-t 10:0`` 10 minutes
+    - ``-t 10:0:0`` 10 hours
+    - ``-t 5-10:0:0`` 5 days and 10 hours
+    
+    Resources
+
+    - What kind of computations do you need?
+    - Core jobs (Default):
+        - ``-c <number of cores>``
+        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+    - Node jobs:
+        - ``-N <number of nodes>``
+        - [read more](slurm_on_pelle.md#examples-with-node-jobs)
+    - Jobs using MPI:
+        - ``-n <number of tasks>``
+    - Large memory jobs:
+        - ``-p fat``
+        - [read more](slurm_on_pelle.md#the-fat-partition)
+    - GPU (NVIDIA) jobs
+        - T4 (we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
+        - Faster L40s (4 nodes with 10 GPUs each): ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
+        - Superfast H100 (2 nodes with 2 GPUs each): ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
+        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+    - Intel Haswell nodes (with 16 cores per node)
+        - ``-p haswell ...``
+
     
 ## `sbatch` (and `interactive`) on Pelle
 
@@ -42,8 +102,8 @@ the only difference is that some flags/options may be different, like partition 
 
 Here it is shown how to submit a job with:
 
-- Command-line Slurm parameters
-- Slurm parameters in the script
+- [Command-line Slurm parameters](#sbatch-a-script-with-command-line-slurm-parameters)
+- [Slurm parameters in the script](#sbatch-a-script-with-slurm-parameters-in-script)
 
 ## Partitions on Pelle
 
@@ -54,6 +114,7 @@ Partition name|Description
 `pelle`       | (Default) Use one or more CPU cores
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
 `gpu`         | GPU node, 2 types see below
+`haswell`     | Old Snowy/Irma nodes, half with GPUs (T4)
 
 ### The `pelle` partition
 
@@ -193,14 +254,21 @@ Therefore, at first hand, allocate the default ``L40s`` and one of them
 
 - To allocate H100: ``-p gpu --gpus=h100:<number of GPUs>``
 
-    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1`
-    - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3` will fail because there are just 2 GPUs on one node!
+    - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
+    - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3`` will fail because there are just 2 GPUs on one node!
 
 - Currently you do not have to request additional CPUs to get additional memory.
 - You can use all Slurm options
     - ``--mem``
     - ``--mem-per-cpu``
     - ``--mem-per-gpu`` to specify memory requirements.
+
+### The `haswell` partition
+
+No of nodes    | CPUs                              | Cores = Threads |  Memory     | Scratch | GPUs           | Name
+---------------| --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
+34             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
+34             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
 
 ## `sbatch` a script with command-line Slurm parameters
 
@@ -270,7 +338,7 @@ where `[project_code]` is the project code, for example:
 #SBATCH -A uppmax2023-2-25
 ```
 
-???- question "Forgot your Rackham project?"
+???- question "Forgot your Pelle project?"
 
     One can go to the SUPR NAISS pages to see one's projects,
 
