@@ -37,3 +37,4 @@ Please, use the full path to run the tools.
 - `awscli` - `/sw/generic/pixi-tools/bin/aws`
 - `lftp` - `/sw/generic/pixi-tools/bin/lftp`
 - `filesender` - `/sw/generic/uv-tools/tool_bin/filesender`
+- `filesender.py` - `/sw/generic/uv-envs/EOSC-filesender/.venv/bin/filesender.py`
