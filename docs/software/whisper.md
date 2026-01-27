@@ -4,7 +4,7 @@ tags:
   - transcriptions
   - AI
 date:
-    updated: 2025-08-25
+    updated: 2026-01-27
 ---
 
 # Whisper
@@ -88,7 +88,7 @@ Following steps are derived from [Project application for Bianca](../getting_sta
 
 1. Register an [account on SUPR](https://supr.naiss.se/person/register/).
 
-2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/senssmall2025/create_proposal). Give adequate information while creating your proposal by following [this template](#proposal-template).
+2. Apply for a project for [sensitive data at Bianca](https://supr.naiss.se/round/2026small/create_proposal/). Give adequate information while creating your proposal by following [this template](#proposal-template).
 
 3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
 
@@ -301,7 +301,7 @@ On Mac, `.txt`, `.srt` and `.vtt` can be opened in Word by:
 
 ## Proposal template
 
-Under the Basic Information section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:
+Under the **Basic Information** section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:
 
 - **Project Title** : Whisper service for [Name of the project]
 
@@ -314,6 +314,12 @@ Under the Basic Information section on NAISS SUPR, provide the following compuls
 - **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]
 
 - **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
+
+In the rest of the sections, provide the following information:
+
+- **Cassification Scientific**: Follow the link in the *Standard för svensk indelning av forskningsämnen* to give a classification to the project according your domain.
+
+- **Resources**: Bianca @ UPPMAX
 
 ??? note "Module Loading"
 
