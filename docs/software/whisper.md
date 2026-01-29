@@ -317,7 +317,7 @@ Under the **Basic Information** section on NAISS SUPR, provide the following com
 
 In the rest of the sections, provide the following information:
 
-- **Cassification Scientific**: Follow the link in the *Standard för svensk indelning av forskningsämnen* to give a classification to the project according your domain.
+- **Classification Scientific**: Follow the link in the *Standard för svensk indelning av forskningsämnen* to give a classification to the project according your domain.
 
 - **Resources**: Bianca @ UPPMAX
 
