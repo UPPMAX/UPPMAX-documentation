@@ -21,11 +21,11 @@ Here we describe how to log in to [Pelle](../cluster_guides/pelle.md).
 
 There are multiple ways to log in to [Pelle](../cluster_guides/pelle.md):
 
-Login                                                                         |Description                                   |Screenshot
-------------------------------------------------------------------------------|----------------------------------------------|---------------------------------
-[Website](login_pelle_remote_desktop_website.md)                              |Does not work yet. Remote desktop, no installation needed, slow  |Under construction
-[Terminal](login_pelle_console_password.md)                                   |Console environment, recommended              |![The Pelle console environment](./img/login_pelle_via_terminal_terminal_414_x_247.png)
-[Local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)  |Remote desktop, recommended, need installation|![The Pelle remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_pelle.png)
+Login                                                                         |Description                                                     |Screenshot
+------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------------
+[Website](login_pelle_remote_desktop_website.md)                              |Remote desktop, beginner-friendly, no installation needed, slow |![The Pelle remote desktop via webbrowser](img/login_pelle_remote_desktop_website_7.png)
+[Terminal](login_pelle_console_password.md)                                   |Console environment, powerful                                   |![The Pelle console environment](./img/login_pelle_via_terminal_terminal_414_x_247.png)
+[Local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)  |Remote desktop, need installation, faster than via webbrowser   |![The Pelle remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_pelle.png)
 
 Here is a decision tree, to determine which way to log in:
 
