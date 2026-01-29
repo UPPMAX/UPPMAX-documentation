@@ -9,6 +9,8 @@ tags:
   - ThinLinc client
   - program
   - tool
+search:
+  boost: 1
 ---
 
 # Log in to Pelle's remote desktop environment using a local ThinLinc client

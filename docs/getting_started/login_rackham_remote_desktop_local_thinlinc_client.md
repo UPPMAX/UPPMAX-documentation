@@ -9,6 +9,8 @@ tags:
   - ThinLinc client
   - program
   - tool
+search:
+  boost: 0
 ---
 
 # Log in to Rackham's remote desktop environment using a local ThinLinc client

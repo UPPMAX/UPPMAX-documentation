@@ -3,6 +3,8 @@ tags:
   - login
   - log in
   - Pelle
+search:
+  boost: 2
 ---
 
 # Log in to Pelle

@@ -6,6 +6,8 @@ tags:
   - remote desktop
   - website
   - URL
+search:
+  boost: 1
 ---
 
 # Log in to Pelle's remote desktop via a webbrowser

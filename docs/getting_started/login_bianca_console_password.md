@@ -6,6 +6,8 @@ tags:
   - console
   - terminal
   - password
+search:
+  boost: 1
 ---
 
 # Login to the Bianca console environment with a password

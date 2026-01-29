@@ -3,6 +3,8 @@ tags:
   - login
   - log in
   - general
+search:
+  boost: 3
 ---
 
 # Log in

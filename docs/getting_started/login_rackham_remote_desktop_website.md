@@ -6,6 +6,8 @@ tags:
   - remote desktop
   - website
   - URL
+search:
+  boost: 0
 ---
 
 # Log in to Rackham's remote desktop via a webbrowser

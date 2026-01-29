@@ -6,6 +6,8 @@ tags:
   - console
   - terminal
   - SSH
+search:
+  boost: 1
 ---
 
 # Login to the Pelle console environment using SSH keys

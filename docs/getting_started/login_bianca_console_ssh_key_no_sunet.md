@@ -10,6 +10,8 @@ tags:
   - outside
   - SUNET
   - university networks
+search:
+  boost: 1
 ---
 
 # Login to the Bianca console environment using SSH keys from outside of the Swedish university networks

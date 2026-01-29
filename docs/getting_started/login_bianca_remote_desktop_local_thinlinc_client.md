@@ -1,3 +1,8 @@
+---
+search:
+  boost: 1
+---
+
 # Login to the Bianca remote desktop environment via a ThinLinc client
 
 There are multiple ways to [log in to Bianca](login_bianca.md).

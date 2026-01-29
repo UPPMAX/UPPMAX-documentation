@@ -6,6 +6,8 @@ tags:
   - console
   - terminal
   - SSH
+search:
+  boost: 1
 ---
 
 # Login to the Bianca console environment using SSH keys

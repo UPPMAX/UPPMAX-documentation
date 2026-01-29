@@ -3,6 +3,8 @@ tags:
   - login
   - log in
   - Rackham
+search:
+  boost: 0
 ---
 
 # Log in to Rackham

@@ -3,6 +3,8 @@ tags:
   - login
   - log in
   - Dardel
+search:
+  boost: 0
 ---
 
 # Log in to Dardel

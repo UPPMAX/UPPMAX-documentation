@@ -3,6 +3,8 @@ tags:
   - login
   - log in
   - Bianca
+search:
+  boost: 2
 ---
 
 # Log in to Bianca

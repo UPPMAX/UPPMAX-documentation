@@ -6,6 +6,8 @@ tags:
   - console
   - terminal
   - SSH
+search:
+  boost: 0
 ---
 
 # Login to the Rackham console environment using SSH keys

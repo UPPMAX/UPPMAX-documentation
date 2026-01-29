@@ -8,6 +8,8 @@ tags:
   - password
   - ssh
   - SSH
+search:
+  boost: 0
 ---
 
 # Login to the Rackham console environment with a password

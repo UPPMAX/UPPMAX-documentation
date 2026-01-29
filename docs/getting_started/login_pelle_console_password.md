@@ -8,6 +8,8 @@ tags:
   - password
   - ssh
   - SSH
+search:
+  boost: 1
 ---
 
 # Login to the Pelle console environment with a password

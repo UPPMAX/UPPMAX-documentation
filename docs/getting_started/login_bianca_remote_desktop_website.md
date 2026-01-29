@@ -11,6 +11,8 @@ tags:
   - within
   - SUNET
   - university networks
+search:
+  boost: 1
 ---
 
 # Log in to the Bianca remote desktop environment website

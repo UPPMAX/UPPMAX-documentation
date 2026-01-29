@@ -10,6 +10,8 @@ tags:
   - outside
   - SUNET
   - university networks
+search:
+  boost: 1
 ---
 
 # Log in to the Bianca remote desktop environment website from outside of the Swedish university networks

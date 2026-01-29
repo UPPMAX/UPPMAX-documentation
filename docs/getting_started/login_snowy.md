@@ -3,6 +3,8 @@ tags:
   - login
   - log in
   - Snowy
+search:
+  boost: 0
 ---
 
 # Log in to Snowy
