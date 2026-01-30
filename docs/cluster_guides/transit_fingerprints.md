@@ -7,7 +7,7 @@ tags:
 
 # Transit fingerprints
 
-Below are the valid fingerprints on Transit. If you see these, you
+Below are the valid fingerprints on Transit. If you see one of these, you
 can assume you are actually connecting to Transit.
 
 ```text
