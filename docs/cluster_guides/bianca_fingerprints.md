@@ -7,7 +7,7 @@ tags:
 
 # Bianca fingerprints
 
-Below are the valid fingerprints on Bianca. If you see these, you
+Below are the valid fingerprints on Bianca. If you see one of these, you
 can assume you are actually connecting to Bianca.
 
 ```text
