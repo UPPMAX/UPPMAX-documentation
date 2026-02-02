@@ -153,8 +153,10 @@ sbatch -p devcore -t 00:15:00 jobscript.sh
 
 !!! tip "Get a view of the whole queue, including all projects"
 
-    - Use the command `bianca_combined_jobinfo` (queued jobs of all projects)
-    - That makes it easier to see how the resources are used and what the odds are that you can start your job soon!
+    - Use the command [`bianca_combined_jobinfo`](../software/bianca_combined_jobinfo)
+      (queued jobs of all projects)
+    - That makes it easier to see how the resources are used and what the
+      odds are that you can start your job soon!
 
 ### Monitoring and modifying jobs
 

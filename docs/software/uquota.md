@@ -54,6 +54,13 @@ uquota
     naiss2024-22-49  /proj/worldpeace     files       20276       100000
     ```
 
+???- question "`uquote` does not show my projects ..?"
+
+    If `uquote` does not show your project, try [`projinfo`](projinfo.md)
+    or [`bianca_combined_jobinfo`](bianca_combined_jobinfo.md).
+
+    Else, [contact support](../support.md).
+
 If you find out that your home folder is full,
 but do not know which folder takes up most space,
 use the command below to find it:
