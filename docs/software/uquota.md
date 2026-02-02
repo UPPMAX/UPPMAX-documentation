@@ -56,6 +56,8 @@ uquota
 
 ???- question "`uquote` does not show my projects ..?"
 
+    ![`uquote` does not show projects](img/uquota_shows_no_projects.png)
+
     If `uquote` does not show your project, try [`projinfo`](projinfo.md)
     or [`bianca_combined_jobinfo`](bianca_combined_jobinfo.md).
 
