@@ -24,19 +24,34 @@ The project folders are organized in a special way.
 
 
 ```console
-$ tree /proj -L 2
-.
+[bjornc@sens2025560-bianca ~]$ tree /proj/ -L 3
+/proj/
 ├── nobackup
 │   └── sens2025560
+│       ├── Should_this_Be_possible
+│       └── wharf
 └── sens2025560
     ├── bjornc
+    │   └── gatk_4.6.2.0.sif
     ├── nobackup
+    │   ├── Should_this_Be_possible
+    │   └── wharf
     ├── pmitev-test-work
+    │   ├── AOC-A25G-m2SM\ Updating\ FW\ to\ version\ FW\ 26.41.1000.zip
+    │   ├── CellChat
+    │   └── UPPMAX-Slurm-2024-08.pdf
     ├── richel
+    ├── selecting_modules
+    │   ├── bjornc
+    │   └── exercises.tar.gz.1
     ├── sven
+    │   ├── Exercises
+    │   └── exercises.tar.gz
     └── workshop
-```
+        ├── cgall
+        ├── completed
+        ├── data
+        ├── slurm
+        └── soumic
 
-/castor/project/proj_nobackup/_nobackup/private/
-/castor/project/proj/<proj>/nobackup/private/
-/castor/project/proj/<proj>/private/nobackup/
+```
