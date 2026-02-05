@@ -56,10 +56,6 @@ suitable for working with sensitive data.
 
     We have discovered after running Gorilla for a while that they preferred a bit more memory than we initially expected to get Ceph happy. So some of the excess memory from Rackham has now been repurposed to upgrade storage nodes in Gorilla from 256 to 384 GB RAM. This upgrade was welcome.
 
-
-    
-In the near future, Bianca will be replaced by [Maja](maja.md).
-
 - [Bianca's name](biancas_name.md)
 - [Bianca's design](biancas_design.md)
 - [Bianca's hardware](../hardware/clusters/bianca.md)
