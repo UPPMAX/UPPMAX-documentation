@@ -3,7 +3,7 @@
 The project folders are organized in a special way.
 
 - The project folders for your project is the only project that can be seen when logged in to Bianca.
-- It can be found in ``proj/``
+- It can be found in ``/proj/``
 - There are 2 areas of project storage
     - **nobackup** shown by the folder name ``nobackup`` which is, wait for it...            **NOT BACKED UP!!!**
     - A backed up area that is found in the other parts
