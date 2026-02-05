@@ -10,11 +10,12 @@ tags:
 
 ## Technical Summary
 
-- 204 compute nodes with single or dual CPUs and one 4TB mechanical drive or 1TB SSD
+- 204 compute nodes with single or dual CPUs with 128 GB RAM and one 4TB mechanical drive or 1TB SSD
 - Each CPU has 16 cores
 - 75 compute nodes, 256 GB memory each.
 - 15 compute nodes, 512 GB memory each
 - 10 compute nodes each equipped with 2xNVIDIA A100 (40GB) GPUs
+- 105 Zen4 type compute nodes, 256 GB each
 - Total number of CPU cores is 4800
 - Login nodes have 2vCPU each and 16GB memory
 - Dual 10 Gigabit Ethernet for all nodes
@@ -32,7 +33,7 @@ Parameter               |Bianca
 **Local disk (scratch)**|4TB
 **Network**             |Dual 10Gbit/s
 **Operating System**    |CentOS 7
-**Login nodes**         |Yes (2 cores and 15 GB)
+**Login nodes**         |Yes (2 cores and 30 GB)
 **"Home" storage**      |Castor/Cygnus
 **"Project" Storage**   |Castor/Cygnus
 
@@ -43,6 +44,8 @@ Parameter               |Bianca
 ## Network
 
 ## Storage
+
+Cygnus
 
 ## Security
 
