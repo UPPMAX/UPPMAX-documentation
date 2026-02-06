@@ -1136,3 +1136,9 @@ ssc
 cygnus
 Haswell
 df
+XH
+Endian
+NUMA
+IBRS
+TSX
+lscpu
