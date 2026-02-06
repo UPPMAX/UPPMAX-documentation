@@ -14,13 +14,22 @@ The project folders are organized in a special way.
     - ``/proj/nobackup/sens202YXXX/``
     - ``/proj/sens202YXXX/nobackup/``
     - ``/cygnus/proj/nobackup/``
+    - ``/castor/project/proj/nobackup/``
+    - ``/castor/project/proj_nobackup/``
 - This is not seen as symbolic links but is instead so-called bind mounts.
-- So you cannot tell from what you see that you are looking at the same files if not learning this structure or keep notice of dates when files and fiolders were changed.
+- So you cannot tell from what you see that you are looking at the same files if not learning this structure or keep notice of dates when files and folders were changed.
 
 !!! warning "What does this mean?"
 
     - Files here are the same, so removing files at one place (because you want to save some storage space) will delete them in both places.
     - Deleting files will not be recovered, since you are in the nobackup area.
+
+!!! tip
+
+    Use one folder always to work with, for instance:
+
+    - ``/proj/sens202YXXX/``
+    - Here you can reach both non backed up files and backed up files.
 
 ## Example of file tree
 
