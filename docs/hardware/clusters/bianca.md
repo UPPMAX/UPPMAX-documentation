@@ -14,7 +14,7 @@ tags:
 - Each CPU has 16 cores
 - 75 compute nodes, 256 GB memory each.
 - 15 compute nodes, 512 GB memory each
-- 10 compute nodes each equipped with 2xNVIDIA A100 (40GB) GPUs
+- 10 compute nodes each equipped with 2xNVIDIA A100 (40GB) **GPUs**
 - 105 Zen4 type compute nodes, 256 GB each
 - Total number of CPU cores is 4800
 - Login nodes have 2vCPU each and 16GB memory
@@ -39,13 +39,36 @@ Parameter               |Bianca
 
 ## CPU
 
+### Intel nodes (4th generation)
+- Architecture: x86_64
+- Intel Xeon E5-2630 v3 Huawei XH620 V3 nodes
+- Advanced Vector Extensions 2 (AVX2)
+- CPU op-mode(s): 32-bit, 64-bit
+- Byte Order: Little Endian
+- CPU(s): 16
+- Thread(s) per core: 1
+- Core(s) per socket: 8
+- Socket(s): 2
+- NUMA node(s): 2
+- Model name: Intel Core Processor (**Haswell**, no TSX, IBRS)
+- CPU MHz: 2394.446
+- For more info, type: lscpu in the terminal
+
+### AMD nodes
+
+105 **Zen4** type compute nodes, 256 GB RAM each and 16 cores
+
 ## GPU
+
+10 compute nodes each equipped with 2xNVIDIA **[A100](https://www.nvidia.com/en-us/data-center/a100/)** (40GB) **GPUs**
 
 ## Network
 
+Dual 10 Gigabit Ethernet for all nodes
+
 ## Storage
 
-Cygnus
+[Cygnus]( ../storage/cygnus.md)
 
 ## Security
 
