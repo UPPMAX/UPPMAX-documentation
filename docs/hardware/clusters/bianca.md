@@ -40,6 +40,7 @@ Parameter               |Bianca
 ## CPU
 
 ### Intel nodes (4th generation)
+
 - Architecture: x86_64
 - Intel Xeon E5-2630 v3 Huawei XH620 V3 nodes
 - Advanced Vector Extensions 2 (AVX2)
