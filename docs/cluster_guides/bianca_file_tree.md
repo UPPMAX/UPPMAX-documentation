@@ -13,7 +13,9 @@ The project folders are organized in a special way.
 - **Nobackup** can be reached in several folders, namely:
     - ``/proj/nobackup/sens202YXXX/``
     - ``/proj/sens202YXXX/nobackup/``
-- This is not seen as symbolic links but is instead so-called bind mounts. So you cannot tell from what you see.
+    - ``/cygnus/proj/nobackup/``
+- This is not seen as symbolic links but is instead so-called bind mounts.
+- So you cannot tell from what you see that you are looking at the same files if not learning this structure or keep notice of dates when files and fiolders were changed.
 
 !!! warning "What does this mean?"
 
