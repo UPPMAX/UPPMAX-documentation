@@ -54,12 +54,11 @@ uquota
     naiss2024-22-49  /proj/worldpeace     files       20276       100000
     ```
 
-???- question "`uquote` does not show my projects ..?"
+???- question "`uquota` does not show my projects ..?"
 
-    ![`uquote` does not show projects](img/uquota_shows_no_projects.png)
+    ![`uquota` does not show projects](img/uquota_shows_no_projects.png)
 
-    If `uquote` does not show your project, try [`projinfo`](projinfo.md)
-    or [`bianca_combined_jobinfo`](bianca_combined_jobinfo.md).
+    If `uquota` does not show your project, try [`projinfo`](projinfo.md).
 
     Else, [contact support](../support.md).
 
