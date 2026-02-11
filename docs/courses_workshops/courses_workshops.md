@@ -24,6 +24,10 @@ Course dates are (or should be) provided also at each course's website.
 
 [Basic Singularity/Apptainer workshop <br> _Feb 19 2026_](singularity.md){ .md-button .md-button--primary }
 
+### March 2026
+
+[Intro to Python for HPC <br> _Mar 3 2026_](intro_python.md){ .md-button .md-button--primary }
+
 ### May 2026
 
 [Programming Formalisms <br> _May 4-8 2026_](programming_formalisms.md){ .md-button .md-button--primary }
