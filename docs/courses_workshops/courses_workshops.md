@@ -16,19 +16,13 @@ Course dates are (or should be) provided also at each course's website.
 
 ## Upcoming courses administered by UPPMAX
 
-### January 2026
+### February 2026
 
 <!-- Richel: Using full date (i.e. including the year) allows -->
 <!-- scraping by  https://docs.score.nbis.se/courses/ -->
 <!-- It makes the courses more machine-readable -->
 
-[Introduction to Linux and UPPMAX <br> _Jan 19-21 2026_](uppmax_intro_course.md){ .md-button .md-button--primary }
-
-### February 2026
-
-[NAISS 'Connect and File Transfer' course <br> _Feb 2 2026_](https://naiss-training.github.io/NAISS-intro-week/connecting/){ .md-button .md-button--primary }
-
-[Introduction to Bianca <br> _Feb 6 2026_](https://uppmax.github.io/bianca_workshops/beginner/intro/){ .md-button .md-button--primary }
+[Basic Singularity/Apptainer workshop <br> _Feb 19 2026_](singularity.md){ .md-button .md-button--primary }
 
 ### May 2026
 
