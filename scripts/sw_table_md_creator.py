@@ -46,12 +46,12 @@ version_counter  = 0
 with open(output_file, 'w', encoding='utf-8') as output_file_md:
 
     # write page header
-    output_file_md.write("""# Software
+    output_file_md.write("""# Bianca software
  
 <div class="sortable_searchable_table" markdown="block">
 
-| Category | Name | Module |
-| -------- | ---- | ------ |""")
+| Category | Name | Module | Versions |
+| -------- | ---- | ------ | -------- |""")
 
     for category,softwares in sorted(categories.items()):
 
@@ -86,7 +86,7 @@ with open(output_file, 'w', encoding='utf-8') as output_file_md:
 
             # write link to software page
             output_file_md.write(f"""
-| {category} | {software_str} | {data['MODULE']} |""")
+| {category} | {software_str} | {data['MODULE']} | {", ".join(versions_list)} |""")
 
             software_counter += 1
             version_counter  += len(versions_list)
