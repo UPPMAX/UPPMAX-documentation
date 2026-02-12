@@ -15,7 +15,7 @@ This page is about software at UPPMAX.
 
 ## Software table
 
-- [Latest list of softwares](software-table.md)
+- [List of softwares on Bianca](software-table.md)
 
 ## Conflicting modules
 

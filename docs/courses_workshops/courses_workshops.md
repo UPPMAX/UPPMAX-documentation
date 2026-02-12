@@ -26,7 +26,7 @@ Course dates are (or should be) provided also at each course's website.
 
 ### March 2026
 
-[Intro to Python for HPC <br> _Mar 3 2026_](intro_python.md){ .md-button .md-button--primary }
+[Intro to Python for HPC <br> _Mar 3 2026_](intro_to_python.md){ .md-button .md-button--primary }
 
 ### May 2026
 
