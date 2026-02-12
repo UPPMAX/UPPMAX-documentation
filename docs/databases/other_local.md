@@ -47,7 +47,7 @@ The makeprofiledb application is described at [http://www.ncbi.nlm.nih.gov/books
 More information is available in the CDD README either via FTP or its local copy /sw/data/cdd/README.
 iGenomes - Collection of reference sequences and annotation files
 
-A local copy of illumina's iGenomes collection of commonly analyzed organisms is available at /sw/data/igenomes. In addition to the annotations provided by the collection, Bismark and STAR indexes have been added.
+A local copy of illumina's iGenomes collection of commonly analysed organisms is available at /sw/data/igenomes. In addition to the annotations provided by the collection, Bismark and STAR indexes have been added.
 UK Biobank institutional data set (GENETICS)
 
 The UKBB data set is available for eligible projects in the system for sensitive research SNIC-SENS Bianca. If you believe you are eligible, contact Professor Tove Fall to gain access.
