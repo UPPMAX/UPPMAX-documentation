@@ -18,7 +18,7 @@ Editor type                                                 |Features
 [Simple graphical editors](#simple-graphical-editors)       |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), easy to learn, limited features
 [Advanced graphical editors](#advanced-graphical-editors)   |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), harder to learn, powerful features
 
-Try them out and pick one favorite editor!
+Try them out and pick one favourite editor!
 
 !!! tip
 
