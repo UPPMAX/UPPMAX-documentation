@@ -525,9 +525,14 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/jquery.dataTables.min.css
+  - stylesheets/jquery.dataTables.overrides.css
 
 extra_javascript:
   - js/kapa-widget.js
+  - js/jquery-3.7.0.min.js
+  - js/jquery.dataTables.min.js
+  - js/sortable_searchable_tables.js
 
 markdown_extensions:
   - toc:
