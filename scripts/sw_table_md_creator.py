@@ -48,8 +48,8 @@ with open(output_file, 'w', encoding='utf-8') as output_file_md:
     # write page header
     output_file_md.write("""# Software
  
-| Category | Name | Module | Cluster | Versions | Licence |
-| -------- | ---- | ------ | ------- | -------- | ------- |""")
+| Category | Name | Module |
+| -------- | ---- | ------ |""")
 
     for category,softwares in sorted(categories.items()):
 
@@ -63,8 +63,8 @@ with open(output_file, 'w', encoding='utf-8') as output_file_md:
             if not versions_list:
                 versions_list = ['-']
 
-            if software == 'BLAST':
-                pdb.set_trace()
+#            if software == 'BLAST':
+#                pdb.set_trace()
 
             # search through all versions for metadata and keep the most current non-missing one
             keywords    = None
@@ -84,7 +84,7 @@ with open(output_file, 'w', encoding='utf-8') as output_file_md:
 
             # write link to software page
             output_file_md.write(f"""
-| {category} | {software_str} | {data['MODULE']} | {data['CLUSTER']} | {", ".join(versions_list)} | {license_str} |""")
+| {category} | {software_str} | {data['MODULE']} |""")
 
             software_counter += 1
             version_counter  += len(versions_list)
