@@ -226,7 +226,7 @@ This means booking 5 cores is recommended.
 
 ![jobstats showing a single-node job](./img/jobstats_c_555912-l_1-k_bad_job_05_with_border.png)
 
-This is one of the grayer areas:
+This is one of the greyer areas:
 booking 2-9 cores is all considered reasonable.
 
 > Pick the number of cores to have enough memory
