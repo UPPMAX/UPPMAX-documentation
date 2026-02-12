@@ -10,7 +10,7 @@ module load bioinfo-tools
 ```
 
 After this, search for the [module](../cluster_guides/modules.md)
-of your favorite Vartrix version, using:
+of your favourite Vartrix version, using:
 
 ```bash
 module spider vartrix
@@ -53,7 +53,7 @@ module spider vartrix
                       --vcf $VARTRIX_TEST/test_dna.vcf
     ```
 
-Then load your favorite version, for example:
+Then load your favourite version, for example:
 
 ```bash
 module load vartrix/1.1.22
