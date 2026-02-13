@@ -40,7 +40,7 @@ tags:
 - The user agrees to acknowledge the use of UPPMAX resources
   in any article or scientific publication resulting from, or utilising,
   the project calculations.
-  Please see [Acknowledgment suggestion](uppmax_acknowledgment.md) for examples.
+  Please see [Acknowledgement suggestion](uppmax_acknowledgement.md) for examples.
 - The users agrees to receive email from UPPMAX from time to time.
   This includes security notices, information of general updates of our systems,
   news from SNIC and other issues that our users should know about.

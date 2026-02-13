@@ -20,7 +20,7 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 ## Which way to log in to Bianca
 
-After you've fulfilled all [prerequisites for using Bianca](bianca_usage_prerequisites.md),
+After you've fulfiled all [prerequisites for using Bianca](bianca_usage_prerequisites.md),
 there are many ways to log in to Bianca.
 
 Here is the decision tree, with more detailed explanation below it:

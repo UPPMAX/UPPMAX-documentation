@@ -65,10 +65,10 @@ you will see the point where the core hour limit is reached
 (the bar of `>`s).
 This point is calculated by summing up all core hour usage
 to the right of the bar.
-What this means in reality is that if this project was to stop analyzing right now,
+What this means in reality is that if this project was to stop analysing right now,
 they would have to wait until the bar of `>`s has exited the graph to the left
 (i.e. ~20 days) before they are below their core hour limit again.
-Most of the time, projects do not completely stop analyzing,
+Most of the time, projects do not completely stop analysing,
 so for each core hour they use the more to the right the `>` bar will move.
 
 ## Other options
