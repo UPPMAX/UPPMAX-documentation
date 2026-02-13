@@ -587,7 +587,7 @@ SymPy is a Python library for symbolic mathematics. It aims to
 ## xarray
 
 xarray (formerly xray) is an open source project and Python package that aims to bring
- the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the
+ the labelled data power of pandas to the physical sciences, by providing N-dimensional variants of the
  core pandas data structures.
 
 - Homepage: <https://github.com/pydata/xarray>

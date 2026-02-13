@@ -294,7 +294,7 @@ cellranger
     Commands:
       count           Count gene expression and/or feature barcode reads from a
                           single sample and GEM well
-      multi           Analyze multiplexed data or combined gene
+      multi           Analyse multiplexed data or combined gene
                           expression/immune profiling/feature barcode data
       multi-template  Output a multi config CSV template
       vdj             Assembles single-cell VDJ receptor sequences from 10x

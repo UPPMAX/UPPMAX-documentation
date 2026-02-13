@@ -72,7 +72,7 @@ Using MATLAB on the cluster enables you to utilise high performance facilities l
     - Parallel for-loops
     - Evaluate functions in the background
 - [Big data processing](https://se.mathworks.com/help/parallel-computing/big-data-processing.html?s_tid=CRUX_lftnav)
-    - Analyze big data sets in parallel
+    - Analyse big data sets in parallel
 - [Batch Processing](https://se.mathworks.com/help/parallel-computing/batch-processing.html?s_tid=CRUX_lftnav)
     - Offload execution of functions to run in the background
 - [GPU computing](https://se.mathworks.com/help/parallel-computing/gpu-computing.html?s_tid=CRUX_lftnav) (Available on Bianca and Snowy)
