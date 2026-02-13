@@ -151,7 +151,7 @@ which are described at [the UPPMAX 'Text editors' page](../software/text_editors
 
 !!! Warning
 
-    - Capitalization matters in file names and program names
+    - Capitalisation matters in file names and program names
     - Spaces matter.
         - Always have a space after the program name.
         - Don’t add spaces within file names.
@@ -196,7 +196,7 @@ which are described at [the UPPMAX 'Text editors' page](../software/text_editors
     - Use [text editors](../software/text_editors.md) to edit files
     - Tips
         - use Tab completion
-        - capitalization and spaces matters
+        - capitalisation and spaces matters
         - no undo:s for copying, moving and removing
             - Solution: `alias rm='rm -i'`
 

@@ -57,7 +57,7 @@ How do I specify that I do not need my large datasets to be backed up?
 ???- question "What is this 'glob' folder in my home folder?"
 
     - The glob directory found in your home has been deprecated since early 2017.
-    - It is now a normal directory and shared your default 32GByte sized home.
+    - It is now a normal directory and shared your default 32GByte sised home.
     - The glob directory remains to not interfere with scripts who might reference ~/glob in the source code.
 
     - Historically, the glob directory was the main storage area for storage of user data.

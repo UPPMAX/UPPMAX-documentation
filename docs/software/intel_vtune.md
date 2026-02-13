@@ -12,7 +12,7 @@ Intel's performance analysis suite can probably answer
 any question you have about the performance of your code,
 including MPI and OpenMP code.
 
-VTune is focused choosing optimizing techniques that will yield good results,
+VTune is focused choosing optimising techniques that will yield good results,
 whereas Amplifier is more broadly aimed at performance analysis.
 
 In order to use VTune do the following:

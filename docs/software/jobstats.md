@@ -518,7 +518,7 @@ jobstats --help
       project  : Project account under which the job was run
       endtime  : End time of the job (with -n/--node, this is '.')
       runtime  : Runtime of the job (with -n/--node, this is '.')
-      flags    : Flags indicating various types of resource underutilizations
+      flags    : Flags indicating various types of resource underutilisations
       booked   : Number of booked cores (with -n/--node, this is '.')
       maxmem   : Maximum memory used as reported by Slurm (if unavailable, this is '.')
       cores    : Number of cores represented in the discovered jobstats files.
@@ -586,7 +586,7 @@ jobstats --help
 
     By default no flags are indicated for jobs with memory-only cautions except for
     swap usage, because it is common for jobs to heavily use processor cores
-    without using a sizable fraction of memory.  Use the -m/--memory option to
+    without using a sisable fraction of memory.  Use the -m/--memory option to
     include flags for memory underutilisation when those would be the only flags
     produced.
 

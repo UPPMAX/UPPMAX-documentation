@@ -441,7 +441,7 @@ cat a
 
 - What's this????
 
-- **Concatenate** files with this wizardry:
+- **Concatenate** files with this wisardry:
 
 ```console
 cat a the_best > combinedfiles.txt

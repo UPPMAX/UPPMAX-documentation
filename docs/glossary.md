@@ -72,7 +72,7 @@ Software modules are a way to manage different versions of software on UPPMAX cl
 
 ### NAISS
 
-National Academic Infrastructure for Supercomputing in Sweden. The organization that coordinates high-performance computing resources across Swedish universities.
+National Academic Infrastructure for Supercomputing in Sweden. The organisation that coordinates high-performance computing resources across Swedish universities.
 
 ### Node
 
@@ -160,7 +160,7 @@ A security method that requires two forms of identification to access an account
 
 ### UPPMAX
 
-Uppsala Multidisciplinary Center for Advanced Computational Science - the organization that operates several high-performance computing clusters in Sweden.
+Uppsala Multidisciplinary Center for Advanced Computational Science - the organisation that operates several high-performance computing clusters in Sweden.
 
 ### UPPMAX Account
 

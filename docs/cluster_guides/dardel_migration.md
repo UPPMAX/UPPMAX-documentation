@@ -60,7 +60,7 @@ First, we are here to help.
 Please [contact support](../support.md) if you run into problems
 when trying the guide below.
 
-This migration consists of a couple of steps summarized below.
+This migration consists of a couple of steps summarised below.
 Press the links to get more detailed explanation of each step.
 Note that step 1 requires some hours of waiting
 and step 2 requires an overnight wait.
@@ -186,7 +186,7 @@ darsync sshkey
 
     The sshkey module of this script will generate a SSH key pair that you can use to login to Dardel.
     It will create two files, one with the private key and one with the public key.
-    The private key should be kept secret and the public key should be added to your authorized_keys file on Dardel.
+    The private key should be kept secret and the public key should be added to your authorised_keys file on Dardel.
 
 
 
@@ -338,7 +338,7 @@ or try to fix them yourself.
 ???- question "How to fix `WARNING: files with uncompressed file extensions above the threshold detected`"
 
     It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`.
-    If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
+    If the combined file sise of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
     Examples of how to compress common formats:
 
@@ -376,7 +376,7 @@ or try to fix them yourself.
     # pack it
     tar -czvf folder.tar.gz /path/to/folder
 
-    # the the command above finished without error messages and you have a folder.tar.gz file that seems about right in size,
+    # the the command above finished without error messages and you have a folder.tar.gz file that seems about right in sise,
     rm -r /path/to/folder
 
 #### 5.3 Generate script
@@ -775,7 +775,7 @@ See the box below for details.
     this results in a different MD5 checksum. Hence, if the MD5 checksums
     match, you can reasonably assume the files are identical.
 
-One way to double-check, is to see if the total file sizes between
+One way to double-check, is to see if the total file sises between
 Rackham and Dardel match.
 
 In [https://supr.naiss.se](https://supr.naiss.se), you can
@@ -899,7 +899,7 @@ after which the script keeps running.
 
     An example can be found at [https://github.com/UPPMAX/ticket_296149](https://github.com/UPPMAX/ticket_296149).
 
-#### T2. Hypothesized cause
+#### T2. Hypothesised cause
 
 This darsync script is running for the second (or more) time,
 hence it has already created the target folders on Dardel.
@@ -939,18 +939,18 @@ sbatch /home/sven/darsync_my_script.slurm
 
 Another possible fix comes from [StackOverflow](https://stackoverflow.com/questions/36300446/ssh-permission-denied-publickey-gssapi-with-mic):
 
-> Setting 700 to .ssh and 600 to authorized_keys solved the issue.
+> Setting 700 to .ssh and 600 to authorised_keys solved the issue.
 >
 > ```bash
 > chmod 700 /root/.ssh
-> chmod 600 /root/.ssh/authorized_keys
+> chmod 600 /root/.ssh/authorised_keys
 > ```
 
 Hence, try:
 
 ```bash
 chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorised_keys
 ```
 
 Still does not work? Contact [support](../support.md)

@@ -25,8 +25,8 @@ The software used is called Slurm.
     Here we discuss the software called Slurm.
 
 This page describes how to use Slurm in general.
-See [optimizing jobs](optimizing_jobs.md)
-how to optimize Slurm jobs.
+See [optimising jobs](optimising_jobs.md)
+how to optimise Slurm jobs.
 See [Slurm troubleshooting](slurm_troubleshooting.md)
 how to fix Slurm errors.
 
@@ -237,7 +237,7 @@ sbatch job_script.sh
 
 ### More memory
 
-If you need extra memory (128 GB is available in common nodes) you can allocate larger nodes. The number and sizes differ among the clusters.
+If you need extra memory (128 GB is available in common nodes) you can allocate larger nodes. The number and sises differ among the clusters.
 
 Table below shows the configurations and flags to use.
 

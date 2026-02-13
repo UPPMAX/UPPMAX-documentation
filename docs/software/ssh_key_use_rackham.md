@@ -92,13 +92,13 @@ ssh [username]@rackham.uppmax.uu.se
 
 ### On Linux, it still asks for a password
 
-From [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorized-keys)
+From [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorised-keys)
 and [its answer](https://unix.stackexchange.com/a/664213):
 
 On Rackham, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys
+chmod 700 .ssh/authorised_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -106,7 +106,7 @@ chmod 700 ~
 On your local computer, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys
+chmod 700 .ssh/authorised_keys
 chmod 700 .ssh
 chmod 700 ~
 ```

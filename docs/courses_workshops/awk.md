@@ -93,10 +93,10 @@ Several distributions have other awk flavors installed by default. The easiest f
 
 ### Windows 10/11
 
-- [Ubuntu for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - it is better to read from the source, despite it might not be the easiest tutorial. To my experience, this is the best Linux environment without virtualization.
+- [Ubuntu for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - it is better to read from the source, despite it might not be the easiest tutorial. To my experience, this is the best Linux environment without virtualisation.
 - [MobaXterm](https://mobaxterm.mobatek.net/) use the internal package manager to install gawk. The default is provided by Busybox and is not enough for the purpose of the workshop.
 
-### Linux computer center
+### Linux computer centre
 
 - Just login to your account and use the provided awk - any version newer than 4 will work.
 

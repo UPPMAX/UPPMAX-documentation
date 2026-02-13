@@ -1,6 +1,6 @@
 # UPPMAX systems
 
-UPPMAX is an organization that provides
+UPPMAX is an organisation that provides
 HPC infrastructure that is physically located in Uppsala.
 
 ???- question "Where can I find an overview of UPPMAX?"
@@ -84,13 +84,13 @@ See the [UPPMAX cloud](../cluster_guides/uppmax_cloud.md).
 
 ![A supercomputer, from https://en.wikipedia.org/wiki/File:IBM_Blue_Gene_P_supercomputer.jpg](./img/IBM_Blue_Gene_P_supercomputer_422_x_280.jpg)
 
-A supercomputer is a machine that is optimized for doing calculations
+A supercomputer is a machine that is optimised for doing calculations
 quickly. For example, to predict the weather for tomorrow, the calculation
 may not take a week. The image above is a supercomputer.
 
 ![A computer cluster using some Raspberry Pi's](./img/small_cluster_307_x_230.jpg)
 
-A computer cluster is a machine that is optimized for doing a lot of calculations.
+A computer cluster is a machine that is optimised for doing a lot of calculations.
 The image above shows a home-made computer cluster.
 This home-made computer cluster may not be suitable for high-performance.
 

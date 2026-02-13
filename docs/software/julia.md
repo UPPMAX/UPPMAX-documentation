@@ -191,7 +191,7 @@ julia> Pkg.activate(DEPOT_PATH[1]*"/environments/v1.8");
 julia> Pkg.status()
 ```
 
-You can load (using/import) ANY package from both local and central installation irrespective to which environment you activate. However, the setup is that your package is prioritized if there are similar names.
+You can load (using/import) ANY package from both local and central installation irrespective to which environment you activate. However, the setup is that your package is prioritised if there are similar names.
 
 ### Start an installation locally
 
@@ -452,7 +452,7 @@ sr = MPI.Reduce(r, MPI.SUM, root, comm)
 if(MPI.Comm_rank(comm) == root)
 @printf("sum of ranks: %s\n", sr)
 end
-MPI.Finalize()
+MPI.Finalise()
 ```
 
 You can execute your code as in an interactive session with several cores (at least 3 in this case):

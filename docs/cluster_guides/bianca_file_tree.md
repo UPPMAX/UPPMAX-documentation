@@ -1,6 +1,6 @@
 # The project directory structure on Bianca
 
-The project folders are organized in a special way.
+The project folders are organised in a special way.
 
 - The project folders for your project is the only project that can be seen when logged in to Bianca.
 - It can be found in ``/proj/``

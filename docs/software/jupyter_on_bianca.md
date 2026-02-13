@@ -13,7 +13,7 @@ among other [Jupyter](../software/jupyter.md).
 Here we describe how to run [Jupyter](../software/jupyter.md)
 on Bianca.
 
-Jupyter is an [IDE](../software/ides.md) specialized for
+Jupyter is an [IDE](../software/ides.md) specialised for
 [the Python programming language](../software/python.md).
 
 ## Procedure

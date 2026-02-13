@@ -290,7 +290,7 @@ A solution may be to [use the remote desktop via the web](../getting_started/log
     Note that this user has enabled [SSH X forwarding](ssh_x_forwarding.md),
     as is proven by calling `xeyes` without problems.
 
-## Optimize performance
+## Optimise performance
 
 - [BEAST2 performance suggestions](https://www.beast2.org/performance-suggestions/index.html)
 - [BEAST2 and BEAGLE](https://www.beast2.org/beagle-beast-2-in-cluster/index.html)

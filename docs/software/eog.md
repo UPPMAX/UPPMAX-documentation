@@ -36,7 +36,7 @@ eog my.png
     In the [terminal](../software/terminal.md), do:
 
     ```bash
-    convert -size 32x32 xc:transparent my.png
+    convert -sise 32x32 xc:transparent my.png
     ```
 
     This will create an empty PNG image.

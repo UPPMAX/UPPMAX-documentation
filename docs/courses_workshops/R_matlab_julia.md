@@ -16,7 +16,7 @@ The course will consist of lectures interspersed with hands-on sessions where yo
 
 We will mainly use Tetralith at NSC for the examples for the course, but there is little difference in how you use the various HPC centres in Sweden and you should have no problems applying the knowledge to the other systems.
 
-**NOTE:** the course will **NOT** cover the topic of improving your programming skills in R, MATLAB, and Julia. Likewise, we will not cover advanced techniques for code optimization.
+**NOTE:** the course will **NOT** cover the topic of improving your programming skills in R, MATLAB, and Julia. Likewise, we will not cover advanced techniques for code optimisation.
 
 **NOTE** if you are interested in running Python at Swedish HPC centres, then we recommend the course "Introduction to Python and Using Python in an HPC environment" which will run 24-25 April + 28-29 April. The first day is the introduction to Python and it is possible to just participate that day.
 

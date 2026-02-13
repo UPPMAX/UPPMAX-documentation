@@ -7,7 +7,7 @@ tags:
 
 # The UPPMAX clusters
 
-UPPMAX is an organization that provides HPC clusters.
+UPPMAX is an organisation that provides HPC clusters.
 This page is about the HPC clusters as maintained by UPPMAX.
 
 ???- question "Where can I find an overview of UPPMAX?"
@@ -129,7 +129,7 @@ flowchart TD
 
 ![A supercomputer, from https://en.wikipedia.org/wiki/File:IBM_Blue_Gene_P_supercomputer.jpg](./img/IBM_Blue_Gene_P_supercomputer_422_x_280.jpg)
 
-A supercomputer is a machine that is optimized for doing calculations
+A supercomputer is a machine that is optimised for doing calculations
 quickly. For example, to predict the weather for tomorrow, the calculation
 may not take a week. The image above is a supercomputer.
 

@@ -10,7 +10,7 @@
 
 - WRF Preprocessing System (WPS). The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs.
 
-- WRF is installed as modules for version 4.1.3 and compiled with INTEL and parallelized for distributed memory (dmpar) or hybrid shared and distributed memory (sm+dm). These are available as:
+- WRF is installed as modules for version 4.1.3 and compiled with INTEL and parallelised for distributed memory (dmpar) or hybrid shared and distributed memory (sm+dm). These are available as:
 
     - WRF/4.1.3-dmpar     default as WRF/4.1.3
     - WRF/4.1.3-dm+sm
@@ -167,7 +167,7 @@ source SOURCEME
 ./configure
 ```
 
-- Choose intel and dmpar (15) or other, depending on WRF version and parallelization.
+- Choose intel and dmpar (15) or other, depending on WRF version and parallelisation.
 - When finished it may complain about not finding netcdf.inc file. This is solved below as you have to modify the configure.wrf file.
 
 - Intelmpi settings (for dmpar)

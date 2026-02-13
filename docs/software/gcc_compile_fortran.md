@@ -54,17 +54,17 @@ gfortran hello_world.f
 
 This compiles the file `hello_world.f` using all defaults:
 
-- default/no optimization
+- default/no optimisation
 - the executable created is called `a.out`
 
-To compiles the file `hello_world.f` with run-time speed optimization
+To compiles the file `hello_world.f` with run-time speed optimisation
 and creating an executable with a more sensible name, use:
 
 ```bash
 gfortran -Ofast -o hello_world hello_world.f
 ```
 
-- `-Ofast`: optimize for run-time speed, similar to `-O3`
+- `-Ofast`: optimise for run-time speed, similar to `-O3`
 - `-o hello_world`: the executable created is called `hello_world`
 
 ### 3. Run

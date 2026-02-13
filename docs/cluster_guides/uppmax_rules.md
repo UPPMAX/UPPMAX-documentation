@@ -22,7 +22,7 @@ tags:
 ## Usage rules
 
 - Sabotage or disruptive activities aimed at the computer system,
-  other systems, or other users, as well as gaining unauthorized access
+  other systems, or other users, as well as gaining unauthorised access
   to any local or remote computer systems,
   whether governed by this policy or not, is prohibited.
 - Any indications of security problems, signs of intrusion or suspect activity
@@ -38,7 +38,7 @@ tags:
 - The user shall inform UPPMAX of any changes in address,
   phone number, e-mail address, etc. Accounts with non-valid e-mail address will be closed.
 - The user agrees to acknowledge the use of UPPMAX resources
-  in any article or scientific publication resulting from, or utilizing,
+  in any article or scientific publication resulting from, or utilising,
   the project calculations.
   Please see [Acknowledgment suggestion](uppmax_acknowledgment.md) for examples.
 - The users agrees to receive email from UPPMAX from time to time.

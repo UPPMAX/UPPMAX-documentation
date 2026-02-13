@@ -13,7 +13,7 @@ NOTE: This guide assumes you know basic git commands and will not cover how to u
 
 Usually an external service like GitHub is used to host a remote repository (repo) that everyone pushes and pulls from. Since we don’t have an internet connection on Bianca we have to push and pull from a location within your Bianca project. Luckily that is simple to setup with git.
 
-To create your own remote repo that everyone will push and pull from, create an empty directory somewhere in your project folder, go into it and initialize the repo.
+To create your own remote repo that everyone will push and pull from, create an empty directory somewhere in your project folder, go into it and initialise the repo.
 
 ```console
 # go to project dir

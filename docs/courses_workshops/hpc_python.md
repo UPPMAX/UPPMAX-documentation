@@ -23,7 +23,7 @@ you could still benefit from attending the HPC parts of the first day.
 
 The goals of the different days are
 
-Day 1 (summarized from [all learning outcomes](https://uppmax.github.io/naiss_intro_python/learning_outcomes/)):
+Day 1 (summarised from [all learning outcomes](https://uppmax.github.io/naiss_intro_python/learning_outcomes/)):
 
 - Run Python on an HPC cluster
 - Use variables, expressions and statements in Python

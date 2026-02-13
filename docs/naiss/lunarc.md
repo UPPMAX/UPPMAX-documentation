@@ -3,7 +3,7 @@ tags:
   - LUNARC
   - Linköping
   - HPC
-  - center
+  - centre
   - centre
 ---
 
@@ -14,7 +14,7 @@ tags:
     This page is here temporarily, until its content is moved
     to a better place.
 
-NAISS has many HPC centers.
+NAISS has many HPC centres.
 LUNARC is one of those.
 
 - [LUNARC documentation main page](https://lunarc-documentation.readthedocs.io)

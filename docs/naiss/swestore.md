@@ -3,13 +3,13 @@ tags:
   - Swestore
   - dCache
   - HPC
-  - center
+  - centre
   - centre
 ---
 
 # Swestore
 
-Swestore is a NAISS HPC center hosting the storage system called 'dCache'.
+Swestore is a NAISS HPC centre hosting the storage system called 'dCache'.
 
 This is the information from SUPR:
 

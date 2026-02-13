@@ -104,7 +104,7 @@ for example `module spider cowsay`.
 
     `R` is the module for the R programming language.
     R is a free and open-source programming language,
-    commonly used in data analysis and visualization.
+    commonly used in data analysis and visualisation.
 
 ???- question "How does the output of `module spider R` look like?"
 

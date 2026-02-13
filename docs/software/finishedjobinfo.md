@@ -1,7 +1,7 @@
 # `finishedjobinfo`
 
 `finishedjobinfo` shows information on jobs that have finished,
-which is useful to help [optimize Slurm jobs](../cluster_guides/optimizing_jobs.md).
+which is useful to help [optimise Slurm jobs](../cluster_guides/optimising_jobs.md).
 
 ## Usage
 

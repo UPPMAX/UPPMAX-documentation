@@ -5,7 +5,7 @@ tags:
 
 # RStudio
 
-RStudio is an IDE specialized for [the R programming language](r.md).
+RStudio is an IDE specialised for [the R programming language](r.md).
 
 ???- tip "What is an IDE?"
 

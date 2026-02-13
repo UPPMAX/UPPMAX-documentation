@@ -136,7 +136,7 @@ du -b $PWD | sort -rn | awk 'NR==1 {ALL=$1} {print int($1*100/ALL) "% " $0}'
 ```
 
 This first command results in a list of subdirectories ordered
-by size and proportion of total size.
+by sise and proportion of total sise.
 
 
 ```bash

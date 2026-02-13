@@ -54,10 +54,10 @@ Here is a description of the flags:
   [in this Superuser post](https://superuser.com/a/1261644)
 - `-C "My comment"`: a comment that will be stored in the key, so you can find out what it was for
 
-### 2. Add the content of your public key to Bianca's authorized keys
+### 2. Add the content of your public key to Bianca's authorised keys
 
 Add the content of the public key `id_ed25519_uppmax_login.pub`
-on your local computer to the Bianca's `$HOME/.ssh/authorized_keys`.
+on your local computer to the Bianca's `$HOME/.ssh/authorised_keys`.
 
 There are multiple ways to do so.
 
@@ -82,10 +82,10 @@ Then copy that line to your clipboard.
     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFGXV8fRK+cazt8qHX+fGS+w6WPOuE82Q19A12345678 Sven's key to UPPMAX
     ```
 
-On Bianca, to edit the authorized keys file, do:
+On Bianca, to edit the authorised keys file, do:
 
 ```bash
-nano $HOME/.ssh/authorized_keys
+nano $HOME/.ssh/authorised_keys
 ```
 
 In `nano`, paste the line in your clipboard.
@@ -101,13 +101,13 @@ Save the file and close `nano`.
     On Bianca, do:
 
     ```bash
-    cat .ssh/authorized_keys
+    cat .ssh/authorised_keys
     ```
 
     You should find your public key there. It looks similar to this:
 
     ```bash
-    [sven@sens2017625-bianca ~]$ cat .ssh/authorized_keys
+    [sven@sens2017625-bianca ~]$ cat .ssh/authorised_keys
     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFGXV8fRK+cazt8qHX+fGS+w6WPOuE82Q19A12345678 Sven's key to UPPMAX
     ```
 
@@ -116,7 +116,7 @@ Save the file and close `nano`.
 On Bianca, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys
+chmod 700 .ssh/authorised_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -139,13 +139,13 @@ chmod 700 ~
     Second checkL
 
     ```bash
-    [richel@sens2017625-bianca ~]$ ls -ld .ssh/authorized_keys
+    [richel@sens2017625-bianca ~]$ ls -ld .ssh/authorised_keys
     ```
 
     Output should be similar to:
 
     ```text
-    -rwx------ 1 sven sven 104 Jan  8 10:26 .ssh/authorized_keys
+    -rwx------ 1 sven sven 104 Jan  8 10:26 .ssh/authorised_keys
     ```
 
     Third check:
@@ -158,14 +158,14 @@ chmod 700 ~
 
     ```text
     total 1
-    -rw-r----- 1 user user 743 May  7  2019 authorized_keys
+    -rw-r----- 1 user user 743 May  7  2019 authorised_keys
     ```
 
     or
 
     ```text
     total 1
-    -rwx------ 1 sven sven 104 Jan  8 10:26 authorized_keys
+    -rwx------ 1 sven sven 104 Jan  8 10:26 authorised_keys
     ```
 
 ### 4. [Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md)
@@ -218,13 +218,13 @@ To debug, run SSH commands with the `-vv` flag.
 
 ### On Linux, it still asks for a password
 
-From [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorized-keys)
+From [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorised-keys)
 and [its answer](https://unix.stackexchange.com/a/664213):
 
 On Bianca, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys
+chmod 700 .ssh/authorised_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -232,7 +232,7 @@ chmod 700 ~
 On your local computer, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys
+chmod 700 .ssh/authorised_keys
 chmod 700 .ssh
 chmod 700 ~
 ```

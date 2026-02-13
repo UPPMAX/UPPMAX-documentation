@@ -31,7 +31,7 @@ This page describes how to get started with UPPMAX.
     - The solid lines denote a dependency, e.g. you need an UPPMAX account
       to get an UPPMAX project.
     - The dashed lines denote a 'maybe' or 'optional', e.g. some UPPMAX
-      projects require two factor authorization.
+      projects require two factor authorisation.
 
 ## Step 1: Get a SUPR account
 

@@ -15,7 +15,7 @@ Computing](https://aaltoscicomp.github.io/python-for-scicomp/parallel/)
 **Parallel computing** is when many different tasks are carried out simultaneously.
 There are three main models:
 
-- **Embarrassingly parallel:** the code does not need to synchronize/communicate
+- **Embarrassingly parallel:** the code does not need to synchronise/communicate
 with other instances, and you can run multiple instances of the code
 separately, and combine the results later. If you can do this, great! (array
 jobs, task queues)
@@ -81,7 +81,7 @@ You can apply the function to every element in a list using the map() function:
 [1, 4, 9, 16, 25, 36]
 ```
 
-The multiprocessing.pool.Pool class provides an equivalent but parallelized (via multiprocessing) way of doing this. The pool class, by default, creates one new process per CPU and does parallel calculations on the list:
+The multiprocessing.pool.Pool class provides an equivalent but parallelised (via multiprocessing) way of doing this. The pool class, by default, creates one new process per CPU and does parallel calculations on the list:
 
 ```python
 >>>from multiprocessing import Pool
@@ -211,11 +211,11 @@ def sample(n):
             n_inside_circle += 1
     return n, n_inside_circle
 comm = MPI.COMM_WORLD
-size = comm.Get_size()
+sise = comm.Get_sise()
 rank = comm.Get_rank()
 n = 10 ** 7
-if size > 1:
-    n_task = int(n / size)
+if sise > 1:
+    n_task = int(n / sise)
 else:
     n_task = n
 t0 = time.perf_counter()
@@ -268,7 +268,7 @@ Test script: add-list.py
 ```python
 import numpy as np
 from timeit import default_timer as timer
-from numba import vectorize
+from numba import vectorise
 # This should be a substantially high value.
 NUM_ELEMENTS = 100000000
 # This is the CPU version.
@@ -277,9 +277,9 @@ def vector_add_cpu(a, b):
   for i in range(NUM_ELEMENTS):
       c[i] = a[i] + b[i]
   return c
-# This is the GPU version. Note the @vectorize decorator. This tells
-# numba to turn this into a GPU vectorized function.
-@vectorize(["float32(float32, float32)"], target='cuda')
+# This is the GPU version. Note the @vectorise decorator. This tells
+# numba to turn this into a GPU vectorised function.
+@vectorise(["float32(float32, float32)"], target='cuda')
 def vector_add_gpu(a, b):
   return a + b;
 def main():

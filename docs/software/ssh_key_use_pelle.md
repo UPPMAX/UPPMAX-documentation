@@ -104,12 +104,12 @@ For example:
 ssh -i ~/.ssh/id_ed25519_uppmax_login sven@pelle.uppmax.uu.se
 ```
 
-Possible reason 2 is that the folders used by SSH do not have proper rights (from [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorized-keys) and [its answer](https://unix.stackexchange.com/a/664213):
+Possible reason 2 is that the folders used by SSH do not have proper rights (from [this post](https://unix.stackexchange.com/questions/26371/ssh-prompts-for-password-despite-ssh-authorised-keys) and [its answer](https://unix.stackexchange.com/a/664213):
 
 To give the folders needed by SSH the proper rights, on Pelle, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys
+chmod 700 .ssh/authorised_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -117,7 +117,7 @@ chmod 700 ~
 On your local computer, do:
 
 ```bash
-chmod 700 .ssh/authorized_keys
+chmod 700 .ssh/authorised_keys
 chmod 700 .ssh
 chmod 700 ~
 ```

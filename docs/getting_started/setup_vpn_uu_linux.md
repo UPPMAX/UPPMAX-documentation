@@ -41,13 +41,13 @@ sudo apt-get install openconnect network-manager-openconnect network-manager-ope
  Use 'sudo apt autoremove' to remove them.
  The following additional packages will be installed:
   libopenconnect5 libpskc0t64 libstoken1t64 libtomcrypt1 libxmlsec1t64-openssl
-  python3-asn1crypto python3-mechanize vpnc-scripts
+  python3-asn1crypto python3-mechanise vpnc-scripts
  Suggested packages:
   dnsmasq
  The following NEW packages will be installed:
   libopenconnect5 libpskc0t64 libstoken1t64 libtomcrypt1 libxmlsec1t64-openssl
   network-manager-openconnect network-manager-openconnect-gnome openconnect
-  python3-asn1crypto python3-mechanize vpnc-scripts
+  python3-asn1crypto python3-mechanise vpnc-scripts
  0 upgraded, 11 newly installed, 0 to remove and 22 not upgraded.
  Need to get 2 187 kB of archives.
  After this operation, 10,1 MB of additional disk space will be used.
@@ -62,7 +62,7 @@ sudo apt-get install openconnect network-manager-openconnect network-manager-ope
  Get:8 http://archive.ubuntu.com/ubuntu noble/universe amd64 network-manager-openconnect amd64 1.2.10-3build2 [556 kB]
  Get:9 http://archive.ubuntu.com/ubuntu noble/universe amd64 network-manager-openconnect-gnome amd64 1.2.10-3build2 [33,6 kB]
  Get:10 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-asn1crypto all 1.5.1-3 [79,7 kB]
- Get:11 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-mechanize all 1:0.4.9+ds-2 [93,9 kB]
+ Get:11 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-mechanise all 1:0.4.9+ds-2 [93,9 kB]
  Fetched 2 187 kB in 1s (2 434 kB/s)
  Selecting previously unselected package libxmlsec1t64-openssl:amd64.
  (Reading database ... 481882 files and directories currently installed.)
@@ -95,11 +95,11 @@ sudo apt-get install openconnect network-manager-openconnect network-manager-ope
  Selecting previously unselected package python3-asn1crypto.
  Preparing to unpack .../09-python3-asn1crypto_1.5.1-3_all.deb ...
  Unpacking python3-asn1crypto (1.5.1-3) ...
- Selecting previously unselected package python3-mechanize.
- Preparing to unpack .../10-python3-mechanize_1%3a0.4.9+ds-2_all.deb ...
- Unpacking python3-mechanize (1:0.4.9+ds-2) ...
+ Selecting previously unselected package python3-mechanise.
+ Preparing to unpack .../10-python3-mechanise_1%3a0.4.9+ds-2_all.deb ...
+ Unpacking python3-mechanise (1:0.4.9+ds-2) ...
  Setting up libtomcrypt1:amd64 (1.18.2+dfsg-7build1) ...
- Setting up python3-mechanize (1:0.4.9+ds-2) ...
+ Setting up python3-mechanise (1:0.4.9+ds-2) ...
  Setting up libstoken1t64:amd64 (0.92-1.1build2) ...
  Setting up libxmlsec1t64-openssl:amd64 (1.2.39-5build2) ...
  Setting up vpnc-scripts (0.1~git20220510-1) ...

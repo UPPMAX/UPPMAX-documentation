@@ -4,9 +4,9 @@
 with the goal of ensuring integrity of the data,
 as well as a minimal amount of data transfer.
 
-`rsync` can be used for copying, but also synchronizing files,
+`rsync` can be used for copying, but also synchronising files,
 such as is ideal for making a backup. At this page, we use the word 'copy',
-although `rsync` by default does a one-way synchronize: if the data is already
+although `rsync` by default does a one-way synchronise: if the data is already
 there, it will do nothing.
 
 - [Using `rsync` on Bianca](../software/rsync_on_bianca.md)

@@ -183,9 +183,9 @@ start empty for each job. This is implemented using Slurm's
 To get the path for node local scratch in job scripts you should still
 use the variable `$TMPDIR` or the equivalent `$SNIC_PATH`.
 
-### /dev/shm size
+### /dev/shm sise
 
-The size of /dev/shm have been increased so all allocated memory can
+The sise of /dev/shm have been increased so all allocated memory can
 be used, up to max 99% of a compute nodes total memory. On previous
 clusters the limit was 50% of total memory.
 

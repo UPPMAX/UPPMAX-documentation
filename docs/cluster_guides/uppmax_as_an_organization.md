@@ -1,4 +1,4 @@
-# UPPMAX as an organization
+# UPPMAX as an organisation
 
 UPPMAX is a provider of HPC infrastructure
 that is physically located in Uppsala.

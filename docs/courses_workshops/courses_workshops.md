@@ -74,7 +74,7 @@ to all NAISS HPC clusters.
 - [HPC-Python](https://docs.uppmax.uu.se/courses_workshops/hpc_python/)
 - [Introduction to running R, MATLAB, and Julia in HPC](R_matlab_julia.md)
 
-### Other centers and organizations
+### Other centres and organisations
 
 - [The SCoRe user documentation's overview of courses](https://nbisweden.github.io/SCoRe_user_doc/courses/)
   shows all NAISS, SciLifeLab, ENCCS and more courses

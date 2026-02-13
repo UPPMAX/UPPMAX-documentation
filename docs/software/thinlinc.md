@@ -77,7 +77,7 @@ inside/outside the ThinLinc remote desktop environment.
 
 ### Settings
 
-Under the "Screen" tab, you can set the starting size of the session
+Under the "Screen" tab, you can set the starting sise of the session
 and choose to enable/disable Full screen mode.
 Typically, users prefer to turn off full screen mode.
 

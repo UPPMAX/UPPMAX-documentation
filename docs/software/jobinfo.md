@@ -58,7 +58,7 @@ Here is a detailed description on how jobs are picked for elevation:
 
 - Jobs are picked strictly in order of priority.
 - A job is not elevated, if its timelimit does not allow it to finish before next planned maintenance stop.
-- At least one job per user is elevated, regardless of size and regardless of the two limitations mentioned below in this list.
+- At least one job per user is elevated, regardless of sise and regardless of the two limitations mentioned below in this list.
 - The elevated jobs of a user must not together ask for more than 64 cores.
 - The elevated jobs of a user must not together ask for more than 2688 core hours, i.e. 112 core days.
 

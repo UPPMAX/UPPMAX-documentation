@@ -42,13 +42,13 @@ suitable for working with sensitive data.
 
     The memory of the decomissioned Rackham seems to fit in Bianca. It seems to be very possible to upgrade the 128 GB RAM nodes in Bianca to 256 GB RAM. No 128 GB RAM nodes would be left.
 
-    If we do this upgrade, we would have to think a bit on how to configure the meta scheduler and Slurm for Bianca for all nodes to be used efficiently. With so many 256 GB nodes we cannot use the size of the nodes to choose between type. We also do not want to change too much on how users are launching jobs on Bianca. We would like the upgrade to be mostly seamless.
+    If we do this upgrade, we would have to think a bit on how to configure the meta scheduler and Slurm for Bianca for all nodes to be used efficiently. With so many 256 GB nodes we cannot use the sise of the nodes to choose between type. We also do not want to change too much on how users are launching jobs on Bianca. We would like the upgrade to be mostly seamless.
 
     Maybe we can use the Maja hardware to run 512 + 256 GB or 768 GB RAM virtual nodes then instead. If such a node is requested then that would mean it would get the fastest CPUs too.
 
     The fattest Rackham nodes may also be able to donate memory to Bianca. From them we can build either four 1 TB RAM nodes in Bianca, which would be new for Bianca, or maybe eight more 512 GB RAM nodes. Some users have expressed a big interest in large memory nodes also on Bianca.
 
-    One tricky thing is that both Slurm and OpenStack has ideas on the size of the nodes being requested and started up. The nodes provided to the virtual cluster has to be in the right size or larger for the jobs to start running.
+    One tricky thing is that both Slurm and OpenStack has ideas on the sise of the nodes being requested and started up. The nodes provided to the virtual cluster has to be in the right sise or larger for the jobs to start running.
 
     Other nice side-effects by repurposing clusters
 

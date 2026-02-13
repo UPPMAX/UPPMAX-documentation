@@ -62,17 +62,17 @@ gcc hello_world.c
 
 This compiles the file `hello_world.c` using all defaults:
 
-- default/no optimization
+- default/no optimisation
 - the executable created is called `a.out`
 
-To compiles the file `hello_world.c` with run-time speed optimization
+To compiles the file `hello_world.c` with run-time speed optimisation
 and creating an executable with a more sensible name, use:
 
 ```bash
 gcc -O3 -o hello_world hello_world.c
 ```
 
-- `-O3`: optimize for run-time speed
+- `-O3`: optimise for run-time speed
 - `-o hello_world`: the executable created is called `hello_world`
 
 ### 3. Run

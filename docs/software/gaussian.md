@@ -71,7 +71,7 @@ sed -i '/^#/ s/ maxdisk=[[:digit:]]*KB//' inputfile
 sed -i '/^#/ s/$/ maxdisk='$MAXDISK'/'; inputfile
 ```
 
-in your scriptfile. This will set **maxdisk** to the currently available size of the /scratch disk on the node you will run on. Read more on maxdisk in the [online manual](https://gaussian.com/maxdisk/).
+in your scriptfile. This will set **maxdisk** to the currently available sise of the /scratch disk on the node you will run on. Read more on maxdisk in the [online manual](https://gaussian.com/maxdisk/).
 
 ## Running g09 in parallel
 
@@ -121,7 +121,7 @@ ulimit -s $STACKLIMIT
 g09 dimer4.inp dimer4.out
 ```
 
-Notice that 8 cores are requested from the queue-system using the line `#SLURM -p node -n 8` and that Gaussian is told to use 4 cores with the link 0 command `%NProcShared=4`. The example above runs about 1.7 times as fast on eight cores than on four, just change in the input file to `%NProcShared=8`. Please benchmark your own inputs as the speedup depends heavily on the method and size of system. In some cases Gaussian cannot use all the cpus you ask for. This is indicated in the output with lines looking like this:
+Notice that 8 cores are requested from the queue-system using the line `#SLURM -p node -n 8` and that Gaussian is told to use 4 cores with the link 0 command `%NProcShared=4`. The example above runs about 1.7 times as fast on eight cores than on four, just change in the input file to `%NProcShared=8`. Please benchmark your own inputs as the speedup depends heavily on the method and sise of system. In some cases Gaussian cannot use all the cpus you ask for. This is indicated in the output with lines looking like this:
 
 _PrsmSu: requested number of processors reduced to: 1 ShMem 1 Linda._
 
@@ -188,7 +188,7 @@ methanol dimer MP2
 
 Notice that 40 cores are requested from the queue-system using the line `#SLURM -p node -n 40` and that g09 is told to use 2 nodes via linda with the `%NProcLinda=2` link 0 command and 20 cores on each node with the link 0 command `%NProcShared=20`.
 
-Please benchmark your own inputs as the speedup depends heavily on the method and size of system.
+Please benchmark your own inputs as the speedup depends heavily on the method and sise of system.
 
 In some cases Gaussian cannot use all the cpus you ask for. This is indicated in the output with lines looking like this:
 

@@ -29,10 +29,10 @@ of Slurm jobs. On UPPMAX, use [jobstats](jobstats.md) instead.
     State: COMPLETED (exit code 0)
     Nodes: 1
     Cores per node: 256
-    CPU Utilized: 1-07:31:54
+    CPU Utilised: 1-07:31:54
     CPU Efficiency: 21.56% of 6-02:16:32 core-walltime
     Job Wall-clock time: 00:34:17
-    Memory Utilized: 7.26 GB
+    Memory Utilised: 7.26 GB
     Memory Efficiency: 3.27% of 222.00 GB
     ```
 

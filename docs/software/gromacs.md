@@ -105,7 +105,7 @@ According to this short test, this particular setup runs best on single Rackham 
 
 The gromacs tools have been compiled serially. The mdrun program has also been compiled in parallel using MPI. The name of the parallel binary is mdrun_mpi.
 
-Run the parallelized program using:
+Run the parallelised program using:
 
 ``` bash
 mpirun -np XXX mdrun_mpi

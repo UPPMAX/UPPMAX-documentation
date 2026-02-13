@@ -2,7 +2,7 @@
 tags:
   - Alvis
   - HPC
-  - center
+  - centre
   - centre
 ---
 

@@ -195,7 +195,7 @@ Full command            |Shorthand syntax
 
     `R` is the module for the R programming language.
     R is a free and open-source programming language,
-    commonly used in data analysis and visualization.
+    commonly used in data analysis and visualisation.
 
 
 ???- question "How does the output of `module spider samtools` look like?"
@@ -355,7 +355,7 @@ To see a module-specific help, use `module help [module]` (e.g. `module help cow
      to analyse next-generation resequencing data. The toolkit offers a wide variety of tools,
      with a primary focus on variant discovery and genotyping as well as strong emphasis on
      data quality assurance. Its robust architecture, powerful processing engine and
-     high-performance computing features make it capable of taking on projects of any size.
+     high-performance computing features make it capable of taking on projects of any sise.
     
     
     More information

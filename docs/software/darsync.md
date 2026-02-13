@@ -122,7 +122,7 @@ The warnings you can get are:
 
 ### Too many uncompressed files
 
-It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
+It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file sise of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
 Examples of how to compress common formats:
 
@@ -232,7 +232,7 @@ rsync error: unexplained error (code 255) at io.c(231) [sender=3.2.7]
 
 ## Troubleshooting
 
-Apart from getting the username or paths wrong, we foresee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorized for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://support.pdc.kth.se/doc/contact/contact_support/). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
+Apart from getting the username or paths wrong, we foresee that the most common problem will be to get the SSH keys generated, added to the [PDC login portal](https://loginportal.pdc.kth.se/), and adding the UPPMAX ip/hostname as authorised for that SSH key. Please see the [PDC user guide on how to set up SSH keys](https://support.pdc.kth.se/doc/contact/contact_support/). Once you have your key created and added to the login portal, go to the login portal again and add the address `*.uppmax.uu.se` to your key to make it work from Rackham.
 
 ## Links
 

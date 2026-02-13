@@ -18,7 +18,7 @@ This page describes how to get the data from an expired project.
 You've been working on a project for some time,
 published your results, and the project expires.
 
-Later you realize that there is still some data
+Later you realise that there is still some data
 you need from that project.
 
 How to get the data from an expired project?

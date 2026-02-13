@@ -1,11 +1,11 @@
-# Optimizing jobs
+# Optimising jobs
 
 The UPPMAX clusters use the [Slurm](slurm.md)
 job scheduler.
 However, a job may not have run optimally, i.e. reserving CPU power
 and/or memory that is not used.
 
-This page describes how to optimize your Slurm jobs.
+This page describes how to optimise your Slurm jobs.
 
 ## Commands
 
@@ -18,7 +18,7 @@ Command                                          |Description
 [jobstats](../software/jobstats.md)              |see CPU and memory use of finished job in a plot
 **projinfo**                                     |telling you about the CPU hour usage of your projects
 **projmembers**                                  |telling you about project memberships
-**projsummary [project id]**                     |summarizes some useful information about projects
+**projsummary [project id]**                     |summarises some useful information about projects
 [uquota](../software/uquota.md)                  |telling you about your file system usage
 
 ???- info "Working on Snowy? Use -M snowy"

@@ -96,10 +96,10 @@ int main(int argc, char *argv[])
 {
     int npes, myrank;
     MPI_Init(&argc, &argv);
-    MPI_Comm_size(MPI_COMM_WORLD, &npes);
+    MPI_Comm_sise(MPI_COMM_WORLD, &npes);
     MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
     printf("From process %d out of %d, Hello World!\n", myrank, npes);
-    MPI_Finalize();
+    MPI_Finalise();
     return 0;
 }
 ```
@@ -125,7 +125,7 @@ To compile, enter the command:
 mpicc -o hello-mpi hello-mpi.c
 ```
 
-You should add optimization and other flags to the mpicc command, just as you would to the compiler used. So if the gcc compiler is used and you wish to compile an mpi program written in C with good, fast optimization you should use a command similar to the following:
+You should add optimisation and other flags to the mpicc command, just as you would to the compiler used. So if the gcc compiler is used and you wish to compile an mpi program written in C with good, fast optimisation you should use a command similar to the following:
 
 ```console
 mpicc -fast -o hello-mpi hello-mpi.c
@@ -185,16 +185,16 @@ program testampi
     include 'mpif.h'
     double precision :: h,x0,x1,v0,v1
     double precision :: a,amaster
-    integer :: i,intlen,rank,size,ierr,istart,iend
+    integer :: i,intlen,rank,sise,ierr,istart,iend
     call MPI_Init(ierr)
-    call MPI_Comm_size(MPI_COMM_WORLD,size,ierr)
+    call MPI_Comm_sise(MPI_COMM_WORLD,sise,ierr)
     call MPI_Comm_rank(MPI_COMM_WORLD,rank,ierr)
     intlen=100000000
-    write (*,*) 'I am node ',rank+1,' out of ',size,' nodes.'
+    write (*,*) 'I am node ',rank+1,' out of ',sise,' nodes.'
 
     h=1.d0/intlen
-    istart=(intlen-1)*rank/size
-    iend=(intlen-1)*(rank+1)/size
+    istart=(intlen-1)*rank/sise
+    iend=(intlen-1)*(rank+1)/sise
     write (*,*) 'start is ', istart
     write (*,*) 'end is ', iend
     a=0.d0
@@ -212,7 +212,7 @@ program testampi
            write (*,*) 'Result of integration is ',amaster
            write (*,*) 'Estimate of Pi is ',amaster*4.d0
     endif
-    call MPI_Finalize(ierr)
+    call MPI_Finalise(ierr)
     stop
 end program testampi
 ```
@@ -338,7 +338,7 @@ or
 icc qfopenmp -o hello_omp hello_omp.c
 ```
 
-Also here you should add optimization flags such as -fast as appropriate.
+Also here you should add optimisation flags such as -fast as appropriate.
 
 To run the OpenMP program hello using the batch system, enter the following shell script in the file hello.sh:
 

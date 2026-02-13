@@ -11,7 +11,7 @@ tags:
 
 ![The R logo, from https://www.r-project.org/logo/](./img/r_logo_50.png)
 
-R is a programming language for statistical computing and data visualization
+R is a programming language for statistical computing and data visualisation
 (from [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))).
 
 Here we discuss:
@@ -61,9 +61,9 @@ flowchart TD
 
 ## the R programming language
 
-R is ['a programming language for statistical computing and data visualization'](https://en.wikipedia.org/wiki/R_(programming_language)))
+R is ['a programming language for statistical computing and data visualisation'](https://en.wikipedia.org/wiki/R_(programming_language)))
 and is of the most commonly used programming languages in data mining,
-analysis and visualization.
+analysis and visualisation.
 
 R is an interpreted language; users can access it through [the R interpreter](#the-r-interpreter).
 
@@ -318,7 +318,7 @@ Aalto Scientific Computing:
 
 - [Data analysis workflows with R and Python](https://aaltoscicomp.github.io/data-analysis-workflows-course)
 
-## Overview of NAISS centers and their documentation about R
+## Overview of NAISS centres and their documentation about R
 
 - [C3SE](https://www.c3se.chalmers.se/documentation/software/development/r/)
 - [HPC2N](https://www.hpc2n.umu.se/resources/software/r)

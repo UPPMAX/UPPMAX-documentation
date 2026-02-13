@@ -173,7 +173,7 @@ To install a specific version of a dependency with Spack, use the command "^":
 spack install <tool>%<compiler>@<compiler-version>^<dependency>@<version>
 ```
 
-Here is a summarizing table
+Here is a summarising table
 
 Command |Option
 -|-

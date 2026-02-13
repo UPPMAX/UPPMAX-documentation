@@ -66,7 +66,7 @@ MATLAB can be started only if you load the MATLAB module first. Most of availabl
 
 ## Introduction
 
-Using MATLAB on the cluster enables you to utilize high performance facilities like:
+Using MATLAB on the cluster enables you to utilise high performance facilities like:
 
 - [Parallel computing](https://se.mathworks.com/help/parallel-computing/getting-started-with-parallel-computing-toolbox.html?s_tid=CRUX_lftnav)
     - Parallel for-loops
@@ -356,7 +356,7 @@ c =
 >> c.saveProfile
 ```
 
-- Start the batch job with the size of a node
+- Start the batch job with the sise of a node
 
 ```matlab
     c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', number of  of **additional** workers to the master)

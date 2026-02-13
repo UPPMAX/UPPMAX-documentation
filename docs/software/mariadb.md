@@ -2,7 +2,7 @@
 
 > Note: default configuration allows only connections from localhost.
 
-## Initializing the MariaDB server-database
+## Initialising the MariaDB server-database
 
 ### Load MariaDB module
 
@@ -17,7 +17,7 @@ export MARIADB_DATA=/proj/uppmax-XXX-xx/mariadb_data
 mkdir -p $MARIADB_DATA
 ```
 
-### Initialize the database
+### Initialise the database
 
 ```bash
 mariadb-install-db --datadir=$MARIADB_DATA
@@ -55,7 +55,7 @@ mariadb-admin shutdown
 
 ## New user and changing passwords
 
-It is convenient to have separate user with password for the purpose of running a tool and still be able to administer (start and stop the server) with the default user created during the database initialization, which does not require password.
+It is convenient to have separate user with password for the purpose of running a tool and still be able to administer (start and stop the server) with the default user created during the database initialisation, which does not require password.
 
 ```bash
 mariadb

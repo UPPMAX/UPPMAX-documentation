@@ -115,7 +115,7 @@ IPython provides a rich architecture for interactive computing with:
 
 - Powerful interactive shells (terminal and Qt-based).
 - A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.
-- Support for interactive data visualization and use of GUI toolkits.
+- Support for interactive data visualisation and use of GUI toolkits.
 - Flexible, embeddable interpreters to load into your own projects.
 - Easy to use, high performance tools for parallel computing.
 
@@ -284,7 +284,7 @@ MPI for Python (mpi4py) provides bindings of the Message Passing Interface (MPI)
 
 ## numba
 
-Numba is an Open Source NumPy-aware optimizing compiler for
+Numba is an Open Source NumPy-aware optimising compiler for
 Python sponsored by Continuum Analytics, Inc. It uses the remarkable LLVM
 compiler infrastructure to compile Python syntax to machine code.
 
@@ -517,7 +517,7 @@ Bundle of Python packages for scientific software
 
 ## Seaborn
 
-Seaborn is a Python visualization library based on matplotlib.
+Seaborn is a Python visualisation library based on matplotlib.
  It provides a high-level interface for drawing attractive statistical graphics.
 
 - Homepage: <https://seaborn.pydata.org/>

@@ -12,7 +12,7 @@ tags:
 
 Here is an overview of how to transfer file to/home the multiple NAISS
 and local clusters. The videos contain a link to the documentation
-of that HPC center.
+of that HPC centre.
 
 HPC Cluster|YouTube video
 -----------|-------------------------------------------------

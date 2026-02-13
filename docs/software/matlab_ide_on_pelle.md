@@ -13,7 +13,7 @@ tags:
 ## Introduction
 
 [MATLAB](../software/matlab.md) is an [IDE](../software/ides.md)
-specialized for the [MATLAB](../software/matlab.md) programming language
+specialised for the [MATLAB](../software/matlab.md) programming language
 
 In this session, we show how to use MATLAB on Pelle,
 using Pelle's remote desktop environment.

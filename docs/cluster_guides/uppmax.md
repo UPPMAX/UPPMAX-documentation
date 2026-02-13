@@ -1,6 +1,6 @@
 # UPPMAX
 
-[UPPMAX in an organization](uppmax_as_an_organization.md)
+[UPPMAX in an organisation](uppmax_as_an_organisation.md)
 that provides HPC infrastructure that is physically located in Uppsala.
 To do so, it provides the [UPPMAX systems](uppmax_systems.md) below.
 

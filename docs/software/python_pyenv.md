@@ -70,7 +70,7 @@ Python 3.3 or any other version.
 Example:
 
 ```bash
-pip install mechanize
+pip install mechanise
 ```
 
 ## Links

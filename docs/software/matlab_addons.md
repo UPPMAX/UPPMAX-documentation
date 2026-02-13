@@ -66,7 +66,7 @@
 !!! admonition "Some toolboxes provides GUI for their tools Apps"
 
     - Matlab products
-        - Deep Network Designer - Design and visualize deep learning networks Deep Network Designer
+        - Deep Network Designer - Design and visualise deep learning networks Deep Network Designer
         - Curve Fitter - Fit curves and surfaces to data
         - Deep Learning Toolbox
         - Statistics and Machine Learning Toolbox
@@ -116,7 +116,7 @@
     ```matlab
 
       >> kalmanf
-      Unrecognized function or variable 'kalmanf'.
+      Unrecognised function or variable 'kalmanf'.
     ```
 
     - OK, it is not there
