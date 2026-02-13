@@ -14,7 +14,7 @@ This two-days workshop aims to promote and demonstrate the flexibility of the to
 ## Learn how to
 
 - use Awk as **an advanced** grep command, capable of arithmetic selection rules with control over the content of the matched lines
-- perform simple conversions, analysis or filter you data on the fly making it easy to plot or read in your favorite research tool
+- perform simple conversions, analysis or filter you data on the fly making it easy to plot or read in your favourite research tool
 - handle and take advantage on data split over multiple file data sets.
 - use Awk as simple function or data generator
 - perform simple sanity checks on your results

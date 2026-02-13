@@ -31,8 +31,8 @@ do their work independently and undisturbed.
 To ensure this, users cannot modify, upgrade or uninstall software themselves
 and instead an [environment module system](https://lmod.readthedocs.io/en/latest/)
 (from now on: 'module system') is used.
-This allow users to independently use their favorite versions of their
-favorite software.
+This allow users to independently use their favourite versions of their
+favourite software.
 
 Using a module system keeps installed software hidden by default,
 and users have to explicitly tell their [terminal](../software/terminal.md)

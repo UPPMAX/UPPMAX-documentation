@@ -899,7 +899,7 @@ after which the script keeps running.
 
     An example can be found at [https://github.com/UPPMAX/ticket_296149](https://github.com/UPPMAX/ticket_296149).
 
-#### T2. Hypothesized cause
+#### T2. Hypothesised cause
 
 This darsync script is running for the second (or more) time,
 hence it has already created the target folders on Dardel.

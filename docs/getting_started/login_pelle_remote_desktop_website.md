@@ -70,7 +70,7 @@ At the first dialog, click 'Forward'.
     ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_5.png)
 
 
-At the second dialog, pick your favorite desktop environment. Both are
+At the second dialog, pick your favourite desktop environment. Both are
 equally fine.
 
 ???- question "How does that look like?"

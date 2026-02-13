@@ -104,7 +104,7 @@ beast beast2_setup.xml
 ```
 
 - In line 2, replace `uppmax2023-2-25` with [your UPPMAX project](../getting_started/project.md).
-- In line 3, you may want to replace `beast2/2.7.4` with your favorite BEAST2 version
+- In line 3, you may want to replace `beast2/2.7.4` with your favourite BEAST2 version
 
 Then run this script using `sbatch run_beast2.sh`.
 

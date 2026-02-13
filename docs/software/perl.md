@@ -197,7 +197,7 @@ Cache::BaseCache | unknown
 Cache::BaseCacheTester | unknown
 Cache::Cache | 1.08
 Cache::CacheMetaData | unknown
-Cache::CacheSiser | unknown
+Cache::CacheSizer | unknown
 Cache::CacheTester | unknown
 Cache::CacheUtils | unknown
 Cache::FileBackend | unknown
@@ -209,11 +209,11 @@ Cache::NullCache | unknown
 Cache::Object | unknown
 Cache::SharedMemoryBackend | unknown
 Cache::SharedMemoryCache | unknown
-Cache::SiseAwareCache | unknown
-Cache::SiseAwareCacheTester | unknown
-Cache::SiseAwareFileCache | unknown
-Cache::SiseAwareMemoryCache | unknown
-Cache::SiseAwareSharedMemoryCache | unknown
+Cache::SizeAwareCache | unknown
+Cache::SizeAwareCacheTester | unknown
+Cache::SizeAwareFileCache | unknown
+Cache::SizeAwareMemoryCache | unknown
+Cache::SizeAwareSharedMemoryCache | unknown
 Capture::Tiny | 0.48
 Carp::Always | 0.13
 Carp::Assert | 0.21
@@ -476,7 +476,7 @@ CHI::Driver::Metacache | 0.60
 CHI::Driver::Null | 0.60
 CHI::Driver::RawMemory | 0.60
 CHI::Driver::Role::HasSubcaches | 0.60
-CHI::Driver::Role::IsSiseAware | 0.60
+CHI::Driver::Role::IsSizeAware | 0.60
 CHI::Driver::Role::IsSubcache | 0.60
 CHI::Driver::Role::Universal | 0.60
 CHI::Serialiser::JSON | 0.60
@@ -1720,7 +1720,7 @@ Devel::MAT::Tool::Outrefs | 0.36
 Devel::MAT::Tool::Reachability | 0.36
 Devel::MAT::Tool::Roots | 0.36
 Devel::MAT::Tool::Show | 0.36
-Devel::MAT::Tool::Sises | 0.36
+Devel::MAT::Tool::Sizes | 0.36
 Devel::MAT::Tool::Symbols | 0.36
 Devel::NYTProf | 6.06
 Devel::NYTProf::Apache | 4.00
@@ -2035,7 +2035,7 @@ Font::TTF::EBLC | unknown
 Font::TTF::Fdsc | unknown
 Font::TTF::Feat | unknown
 Font::TTF::Features::Cvar | unknown
-Font::TTF::Features::Sise | unknown
+Font::TTF::Features::Size | unknown
 Font::TTF::Features::Sset | unknown
 Font::TTF::Fmtx | unknown
 Font::TTF::Font | 0.39
@@ -4896,7 +4896,7 @@ Starman | 0.4014
 Starman::Server | unknown
 Statistics::ANOVA | 0.14
 Statistics::ANOVA::Compare | 0.01
-Statistics::ANOVA::EffectSise | 0.02
+Statistics::ANOVA::EffectSize | 0.02
 Statistics::ANOVA::Friedman | 0.02
 Statistics::ANOVA::JT | unknown
 Statistics::ANOVA::KW | 0.01
@@ -5178,7 +5178,7 @@ Term::ReadLine::Perl5::OO::State | unknown
 Term::ReadLine::Perl5::readline | 1.45
 Term::ReadLine::Perl5::TermCap | unknown
 Term::ReadLine::Perl5::Tie | 1.45
-Term::Sise | 0.207
+Term::Size | 0.207
 Term::Table | 0.012
 Term::Table::Cell | 0.012
 Term::Table::CellStack | 0.012

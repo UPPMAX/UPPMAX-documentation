@@ -11,7 +11,7 @@ The purpose of the transit server is to give users access to their wharf folders
     ```bash
     df -h | grep  "home/\|Filesystem"
     
-    Filesystem          Sise  Used Avail Use% Mounted on
+    Filesystem          Size  Used Avail Use% Mounted on
     overlay             2.9G  2.4G  580M  81% /gorilla/home/user_1
     overlay             2.9G  2.4G  580M  81% /gorilla/home/user_2
     overlay             2.9G  2.4G  580M  81% /gorilla/home/user_3

@@ -11,7 +11,7 @@ Load the `bioinfo-tools` [module](../cluster_guides/modules.md) first:
 module load bioinfo-tools
 ```
 
-Then search for you favorite Picard version:
+Then search for you favourite Picard version:
 
 ```bash
 module spider picard
@@ -50,7 +50,7 @@ module spider picard
     ----------------------------------------------------------------------------
     ```
 
-Then load your favorite version:
+Then load your favourite version:
 
 ```bash
 module load picard/3.1.1

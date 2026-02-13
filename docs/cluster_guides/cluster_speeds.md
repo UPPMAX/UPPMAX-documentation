@@ -15,7 +15,7 @@ Sometimes you feel a cluster is slow.
 Below are some benchmark results, so you can compare with what you are
 experiencing.
 
-Please [contact support](../support.md) when you find out that your favorite
+Please [contact support](../support.md) when you find out that your favourite
 cluster is slower than expected.
 
 ???- question "What could cause such a slowdown?"

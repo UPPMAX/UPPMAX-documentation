@@ -130,9 +130,9 @@ upload crash reports, click your preferred option.
 
 ???- question "How does that look like?"
 
-    ![Click your favorite option](rstudio_on_tetralith_7.png)
+    ![Click your favourite option](rstudio_on_tetralith_7.png)
 
-    > Click your favorite option
+    > Click your favourite option
 
 ## 7. Done
 

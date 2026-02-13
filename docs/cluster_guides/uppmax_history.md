@@ -1,6 +1,6 @@
 # UPPMAX history
 
-Resource                               |Out of commission|Sise                                                         |Price|Start     |End       |Features
+Resource                               |Out of commission|Size                                                         |Price|Start     |End       |Features
 ---------------------------------------|-----------------|-------------------------------------------------------------|-----|----------|----------|---------------------------------
 Grendel                                |2004-06-30       |?16 nodes                                                    |-    |?         |?         |Together with NSC
 Ngorongoro                             |2008-12-31       |48 CPUs                                                      |-    |?         |?         |SunFire 15k

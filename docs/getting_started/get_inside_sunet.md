@@ -79,7 +79,7 @@ To connect to all UPPMAX clusters, one must be inside SUNET.
 
 A virtual private network (VPN) allows one to access all UPPMAX clusters indirectly:
 your computer connects to the VPN within SUNET, where that VPN accesses
-your favorite UPPMAX cluster.
+your favourite UPPMAX cluster.
 
 To setup a VPN, see [the UPPMAX documentation on how to setup a VPN](setup_vpn.md).
 

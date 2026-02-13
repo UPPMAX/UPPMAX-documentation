@@ -14,6 +14,6 @@ It exists to allow our users to access our HPC clusters
 with tools that assume there is no 2FA needed,
 i.e. there is no dialog where you can fill in your TOTP.
 
-To start the grace period, log in on your favorite HPC cluster (again,
+To start the grace period, log in on your favourite HPC cluster (again,
 the log in will require a TOTP).
 Now, you have around 5 minutes to connect your tools to that cluster.

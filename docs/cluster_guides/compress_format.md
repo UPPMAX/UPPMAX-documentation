@@ -15,7 +15,7 @@ Bzip2 is inherently blocked. Bzip2 is a more efficient compression method than g
 
 Another disadvantage of compression formats that are not blocked is that an error in a file generally screws up the remainder of the file. Files with blocked compression can recover all non-error-containing blocks.
 
-Other compressed formats are available, including 7z, available by loading the **p7zip** module, and xz, available as the system tool xz and by loading the **liblzma** module. For compressing FastQ files in particular, which have a very strict format, our small-scale comparison of tools showed that xz was slightly inferior to bzip2 and much slower during compression, and specialty tools for FastQ compression were superior in compression ratios to general-purpose compressors. See [How Should I Compress FastQ-format Files?](compress_fastQ.md) for more on FastQ compression.
+Other compressed formats are available, including 7z, available by loading the **p7zip** module, and xz, available as the system tool xz and by loading the **liblzma** module. For compressing FastQ files in particular, which have a very strict format, our small-scale comparison of tools showed that xz was slightly inferior to bzip2 and much slower during compression, and speciality tools for FastQ compression were superior in compression ratios to general-purpose compressors. See [How Should I Compress FastQ-format Files?](compress_fastQ.md) for more on FastQ compression.
 
 Most compression tools have options that allow you to trade off between speed of compression and size reduction of compression. The defaults are almost always sufficient.
 

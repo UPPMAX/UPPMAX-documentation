@@ -33,7 +33,7 @@ Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_mig
 
     See [the Pelle status page](https://status.uppmax.uu.se)
 
-    Let us know if you are missing your favorite tools. We'll install those on demand.
+    Let us know if you are missing your favourite tools. We'll install those on demand.
 
 ???- question "What is different on Pelle in comparison to Rackham?"
 

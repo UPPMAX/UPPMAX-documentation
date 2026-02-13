@@ -66,7 +66,7 @@ should be empty and you can update it like this:
 
 ```
 
-If it is **not** empty, you can edit ``$HOME/.Renviron`` with your favorite
+If it is **not** empty, you can edit ``$HOME/.Renviron`` with your favourite
 editor so that ``R_LIBS_USER`` contain the path to your chosen directory for
 own-installed R packages. It should look something like this when you are done:
 

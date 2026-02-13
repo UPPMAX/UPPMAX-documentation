@@ -4,7 +4,7 @@
 
 ## Long answer
 
-We conducted an informal examination of two specialty FastQ compression tools
+We conducted an informal examination of two speciality FastQ compression tools
 by recompressing an existing fastq.gz file.
 The first tool fqzcomp (available in the module fqzcomp/4.6)
 uses a compiled executable (fqz_comp) that works similar to e.g., gzip,
@@ -59,7 +59,7 @@ We also compared against bzip2 and xz, which are general-use compressors. These 
 -rw-rw-r-- 1 36315260 Mar 10 13:10 UME_081102_P05_WF03.se.fastq.xz
 ```
 
-Neither of these improved general-use compressors did as well with FastQ as the specialty compressors. This makes sense given the specialty compressors can take advantages of the restrictions of the format.
+Neither of these improved general-use compressors did as well with FastQ as the speciality compressors. This makes sense given the speciality compressors can take advantages of the restrictions of the format.
 
 ### Which is the best method in this trial?
 
