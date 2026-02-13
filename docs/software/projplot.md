@@ -44,7 +44,7 @@ there will sometimes be rounding errors
 because of the low resolution of the [terminal](../software/terminal.md) window,
 which is usually around 80x30 characters.
 The plot will adapt to your terminal window,
-so increase the sise of your window to increase the resolution of the plot
+so increase the size of your window to increase the resolution of the plot
 (the data being plotted has a resolution down to single seconds).
 
 As time progresses the peaks in the graph will move to the left in the diagram.

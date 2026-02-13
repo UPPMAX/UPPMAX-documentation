@@ -211,11 +211,11 @@ def sample(n):
             n_inside_circle += 1
     return n, n_inside_circle
 comm = MPI.COMM_WORLD
-sise = comm.Get_sise()
+size = comm.Get_size()
 rank = comm.Get_rank()
 n = 10 ** 7
-if sise > 1:
-    n_task = int(n / sise)
+if size > 1:
+    n_task = int(n / size)
 else:
     n_task = n
 t0 = time.perf_counter()

@@ -122,7 +122,7 @@ The warnings you can get are:
 
 ### Too many uncompressed files
 
-It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file sise of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
+It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`. If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
 Examples of how to compress common formats:
 

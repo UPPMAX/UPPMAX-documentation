@@ -355,7 +355,7 @@ To see a module-specific help, use `module help [module]` (e.g. `module help cow
      to analyse next-generation resequencing data. The toolkit offers a wide variety of tools,
      with a primary focus on variant discovery and genotyping as well as strong emphasis on
      data quality assurance. Its robust architecture, powerful processing engine and
-     high-performance computing features make it capable of taking on projects of any sise.
+     high-performance computing features make it capable of taking on projects of any size.
     
     
     More information

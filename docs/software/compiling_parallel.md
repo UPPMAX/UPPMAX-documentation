@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
 {
     int npes, myrank;
     MPI_Init(&argc, &argv);
-    MPI_Comm_sise(MPI_COMM_WORLD, &npes);
+    MPI_Comm_size(MPI_COMM_WORLD, &npes);
     MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
     printf("From process %d out of %d, Hello World!\n", myrank, npes);
     MPI_Finalise();
@@ -185,16 +185,16 @@ program testampi
     include 'mpif.h'
     double precision :: h,x0,x1,v0,v1
     double precision :: a,amaster
-    integer :: i,intlen,rank,sise,ierr,istart,iend
+    integer :: i,intlen,rank,size,ierr,istart,iend
     call MPI_Init(ierr)
-    call MPI_Comm_sise(MPI_COMM_WORLD,sise,ierr)
+    call MPI_Comm_size(MPI_COMM_WORLD,size,ierr)
     call MPI_Comm_rank(MPI_COMM_WORLD,rank,ierr)
     intlen=100000000
-    write (*,*) 'I am node ',rank+1,' out of ',sise,' nodes.'
+    write (*,*) 'I am node ',rank+1,' out of ',size,' nodes.'
 
     h=1.d0/intlen
-    istart=(intlen-1)*rank/sise
-    iend=(intlen-1)*(rank+1)/sise
+    istart=(intlen-1)*rank/size
+    iend=(intlen-1)*(rank+1)/size
     write (*,*) 'start is ', istart
     write (*,*) 'end is ', iend
     a=0.d0

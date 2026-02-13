@@ -338,7 +338,7 @@ or try to fix them yourself.
 ???- question "How to fix `WARNING: files with uncompressed file extensions above the threshold detected`"
 
     It looks for files with file endings matching common uncompressed file formats, like `.fq`, `.sam`, `.vcf`, `.txt`.
-    If the combined file sise of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
+    If the combined file size of these files are above a threshold it will trigger the warning. Most programs that uses these formats can also read the compressed version of them.
 
     Examples of how to compress common formats:
 
@@ -376,7 +376,7 @@ or try to fix them yourself.
     # pack it
     tar -czvf folder.tar.gz /path/to/folder
 
-    # the the command above finished without error messages and you have a folder.tar.gz file that seems about right in sise,
+    # the the command above finished without error messages and you have a folder.tar.gz file that seems about right in size,
     rm -r /path/to/folder
 
 #### 5.3 Generate script
@@ -775,7 +775,7 @@ See the box below for details.
     this results in a different MD5 checksum. Hence, if the MD5 checksums
     match, you can reasonably assume the files are identical.
 
-One way to double-check, is to see if the total file sises between
+One way to double-check, is to see if the total file sizes between
 Rackham and Dardel match.
 
 In [https://supr.naiss.se](https://supr.naiss.se), you can
@@ -899,7 +899,7 @@ after which the script keeps running.
 
     An example can be found at [https://github.com/UPPMAX/ticket_296149](https://github.com/UPPMAX/ticket_296149).
 
-#### T2. Hypothesised cause
+#### T2. Hypothesized cause
 
 This darsync script is running for the second (or more) time,
 hence it has already created the target folders on Dardel.

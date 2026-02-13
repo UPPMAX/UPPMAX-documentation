@@ -103,7 +103,7 @@
     : No such file or directory
     ```
 
-    The "file" command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable". Opening the script using "vi" shows at the bottom of the screen "myscript.sh" [dos] 2L, 22C. The "[dos]" is a sure marker of the same problem. Opening the same file in emacs reveals the same thing (-uu-(DOS)---F1 myscript.sh). Convert the script to unix-format using the "dos2unix" command as described above. An alternative is to copy the file and use the "dos2unix" command on the copy and compare the file sises using "ls -l":
+    The "file" command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable". Opening the script using "vi" shows at the bottom of the screen "myscript.sh" [dos] 2L, 22C. The "[dos]" is a sure marker of the same problem. Opening the same file in emacs reveals the same thing (-uu-(DOS)---F1 myscript.sh). Convert the script to unix-format using the "dos2unix" command as described above. An alternative is to copy the file and use the "dos2unix" command on the copy and compare the file sizes using "ls -l":
 
     ```bash
     $ ls -l testme.sh
@@ -114,7 +114,7 @@
     -rwxr-xr-x  1 daniels uppmax_staff 20 Dec 15 10:54 testme.sh
     ```
 
-    Note that the file sise went from 22 bytes to 20, reflecting that the two CR bytes at the (almost) end of the line were removed.
+    Note that the file size went from 22 bytes to 20, reflecting that the two CR bytes at the (almost) end of the line were removed.
 
 ???- question "How to run interactively on a compute node?"
 
@@ -263,7 +263,7 @@
 
         - A high number (100000 or 130000) if your project is within its allocation and a lower number otherwise. There are different grades of lower numbers, depending on how many times your project is overdrafted. As an example, a 2000 core hour project gets priority 70000 when it has used more than 2000 core hours, gets priority 60000 when it has used more than 4000 core hours, gets priority 50000 when it has used more than 6000 core hours, and so on. The lowest grade gives priority 10000 and does not go down from there.
         - The number of minutes the job has been waiting in queue (for a maximum of 20160 after fourteen days).
-        - A job sise number, higher for more nodes allocated to your job, for a maximum of 104.
+        - A job size number, higher for more nodes allocated to your job, for a maximum of 104.
         - A very, very high number for "short" jobs, i.e. very short jobs that is not wider than four nodes.
         - If your job priority is zero or one, there are more serious problems, for example that you asked for more resources than the batch system finds on the system.
 

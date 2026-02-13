@@ -29,7 +29,7 @@ and these more advanced topics:
 ## What is Python?
 
 Python is a high-level, general-purpose programming language.
-Its design philosophy emphasises code readability
+Its design philosophy emphasizes code readability
 with the use of significant indentation [Kuhlman, 2009].
 
 ## Python versions

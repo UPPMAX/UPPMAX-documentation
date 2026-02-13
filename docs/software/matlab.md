@@ -356,7 +356,7 @@ c =
 >> c.saveProfile
 ```
 
-- Start the batch job with the sise of a node
+- Start the batch job with the size of a node
 
 ```matlab
     c.batch(function name, number of output arguments, {the inputs to the function}, 'pool', number of  of **additional** workers to the master)

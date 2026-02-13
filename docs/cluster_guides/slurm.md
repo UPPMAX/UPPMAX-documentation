@@ -237,7 +237,7 @@ sbatch job_script.sh
 
 ### More memory
 
-If you need extra memory (128 GB is available in common nodes) you can allocate larger nodes. The number and sises differ among the clusters.
+If you need extra memory (128 GB is available in common nodes) you can allocate larger nodes. The number and sizes differ among the clusters.
 
 Table below shows the configurations and flags to use.
 

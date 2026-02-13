@@ -4,7 +4,7 @@
 
 Biological data is being produced at a higher rate each day, and it is a challenge to store it all somewhere
 
-The bioinformatics community is trying to keep up with the growing data amounts, and new file formats is part of this evolution. The BAM format was a huge success due to its ability to compress aligned reads by ~50-80% of their original sise, but even that is not sustainable in the long run.
+The bioinformatics community is trying to keep up with the growing data amounts, and new file formats is part of this evolution. The BAM format was a huge success due to its ability to compress aligned reads by ~50-80% of their original size, but even that is not sustainable in the long run.
 
 CRAM is a new program that can compress SAM/BAM files even more, which makes it suitable for long-term storage. We think this format will become more common, and that it will be supported by most tools, like the BAM format is today.
 
@@ -56,7 +56,7 @@ So, how much compression are we talking about here? Here are the results of a te
 
 CRAM COMPRESSION RATE
 
-File format           |File sise (GB)
+File format           |File size (GB)
 ----------------------|--------------
 SAM                   |7.4
 BAM                   |1.9
