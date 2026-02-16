@@ -16,13 +16,13 @@ Nodes  | CPUs                              | Cores<br/>Threads | Memory    | Scr
 
 - [L40s](https://www.nvidia.com/en-us/data-center/l40s/)
 
-    - Unprecedented visual computing performance for the data center.
+    - Unprecedented visual computing performance for the data centre.
     - GPU memory 48 GB
     - GPU Memory Bandwidth 864GB/s
 
 - [H100](https://www.nvidia.com/en-us/data-center/h100/) tensor core
 
-    - Extraordinary performance, scalability, and security for every data center.
+    - Extraordinary performance, scalability, and security for every data centre.
     - GPU memory 94 GB
     - GPU Memory Bandwidth 3.9 TB/s
 
