@@ -11,6 +11,7 @@ nav:
     - Applying for a Project: getting_started/project_apply.md
     - Accessing UPPMAX:
       - Get inside the university networks: getting_started/get_inside_sunet.md
+      - Change or reset password: getting_started/change_reset_uppmax_password.md
       - Log in to Pelle: getting_started/login_pelle.md
       - Log in to Bianca: getting_started/login_bianca.md
       - Log in to Rackham: getting_started/login_rackham.md
@@ -214,7 +215,6 @@ not_in_nav: |
   cluster_guides/to_add_to_doc/README.md
   databases/swegen.md
   getting_started/bianca_usage_prerequisites.md
-  getting_started/change_uppmax_password.md
   getting_started/first_job.md
   getting_started/get_uppmax_2fa.md
   getting_started/get_uppmax_2fa_qr.md
@@ -243,7 +243,6 @@ not_in_nav: |
   getting_started/project_apply_scc.md
   getting_started/project_apply_simpler.md
   getting_started/rackham_usage_prerequisites.md
-  getting_started/reset_uppmax_password.md
   getting_started/setup_vpn.md
   getting_started/setup_vpn_uu_linux.md
   getting_started/snowy_usage_prerequisites.md

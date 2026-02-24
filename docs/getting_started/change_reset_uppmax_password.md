@@ -2,18 +2,51 @@
 tags:
   - UPPMAX
   - password
+  - change
   - reset
   - set
-  - passwd
+  - edit
+  - modify
 ---
 
-# Reset your UPPMAX password
+# Change or reset your UPPMAX password
 
 ???- question "Prefer a video?"
 
     See [the YouTube video 'How to reset your UPPMAX password'](https://youtu.be/3PaKjuWKQZw)
 
-## Procedure
+
+## Changing a known password
+
+### 1. Log in
+
+If you have an account on Pelle,
+[log in to Pelle].
+
+If you have a SENS project only, using only Bianca,
+[log in to Transit instead](../cluster_guides/login_transit.md).
+
+### 2. Open a terminal
+
+When logged in to an UPPMAX cluster, open a terminal.
+If you've logged in via SSH, you are already in a terminal :-)
+
+### 3. Set your own password
+
+In that terminal, enter:
+
+```bash
+passwd
+```
+
+Now you will be asked to repeat the old password and set a new one!
+
+- On Pelle your new password will work immediately!
+- For Bianca the new password needs some time to sync (on Transit it will work
+  immediately).
+
+
+## Resetting a forgotten password
 
 ### 1. Go to <https://suprintegration.uppmax.uu.se/getpasswd>
 
@@ -26,7 +59,7 @@ You will be sent an email in around 5 minutes.
 
 Open the email and click on the link that it suggests you to click.
 
-???- question "How does that email look like?"
+???- question "What does that email look like?"
 
     Your email will look similar to this:
 
@@ -77,4 +110,5 @@ At the page with your new password, you use that password to log in.
 ### 4. (optional) Change your password
 
 If you want to change your password, see
-[How to change your UPPMAX password](change_uppmax_password.md).
+[Changing a known password](#changing-a-known-password)
+above.
