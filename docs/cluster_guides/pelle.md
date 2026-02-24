@@ -11,14 +11,13 @@ tags:
 
 - [Pelle's name](pelles_name.md)
 
-Pelle is an upcoming general-purpose UPPMAX cluster,
-paid by Uppsala University.
+- [Pelle's hardware](../hardware/clusters/pelle.md)
 
-Uppsala users of [Rackham](rackham.md) will be moved to Pelle
-by UPPMAX after [applying to a Pelle project](../getting_started/project_apply_pelle.md).
+- Pelle is an upcoming general-purpose UPPMAX cluster, paid by Uppsala University.
 
-Non-Uppsala users of [Rackham](rackham.md) can move their data to
-Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_migration.md).
+- Uppsala users of [Rackham](rackham.md) will be moved to Pelle by UPPMAX after [applying to a Pelle project](../getting_started/project_apply_pelle.md).
+
+- Non-Uppsala users of [Rackham](rackham.md) can move their data to Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_migration.md).
 
 ???- question "Why use Pelle over another NAISS system?"
 
