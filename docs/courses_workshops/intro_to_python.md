@@ -20,7 +20,7 @@ This 1-day course lets you write and run Python code on an HPC cluster. The goal
 
 ## Practical matters
 
-- **[Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfc7ahPj3FGTlaVEQ6p8s1XmByV9kvq--iYEdi4KF_gp-1grQ/viewform?usp=publish-editor)** (closes at around 2026-02-24 23:59)
+- **Registration form: closed**
 - **[Course prerequisites](https://uppmax.github.io/naiss_intro_python/prereqs/)**
 - **Date**: Tuesday March 3 2026 ([course dates](https://uppmax.github.io/naiss_intro_python/course_dates/))
 - When: 9:00-16:00 ([course schedule](https://uppmax.github.io/naiss_intro_python/schedule/))
