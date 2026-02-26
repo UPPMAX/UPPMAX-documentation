@@ -11,7 +11,7 @@ tags:
 
 # Change or reset your UPPMAX password
 
-???- question "Prefer a video?"
+!!! question "Prefer a video?"
 
     See [the YouTube video 'How to reset your UPPMAX password'](https://youtu.be/3PaKjuWKQZw)
 
@@ -21,7 +21,7 @@ tags:
 ### 1. Log in
 
 If you have an account on Pelle,
-[log in to Pelle].
+[log in to Pelle](login_pelle.md).
 
 If you have a SENS project only, using only Bianca,
 [log in to Transit instead](../cluster_guides/login_transit.md).
@@ -48,9 +48,9 @@ Now you will be asked to repeat the old password and set a new one!
 
 ## Resetting a forgotten password
 
-### 1. Go to <https://suprintegration.uppmax.uu.se/getpasswd>
+### 1. Request the reset
 
-Go to <https://suprintegration.uppmax.uu.se/getpasswd>.
+Go to [Request Uppmax Password Reset](https://suprintegration.uppmax.uu.se/getpasswd).
 After authenticating yourself, you're password is reset immediately.
 
 You will be sent an email in around 5 minutes.

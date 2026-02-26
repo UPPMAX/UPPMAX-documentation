@@ -14,7 +14,7 @@ tags:
 
 Question for help                             |Solution
 ----------------------------------------------|------------------------------------------------------------
-I've lost my UPPMAX password                  |[Change or reset your UPPMAX password](change_reset_uppmax_password.md#resetting-a-forgotten-password)
+I've lost my UPPMAX password                  |[Change or reset your UPPMAX password](getting_started/change_reset_uppmax_password.md#resetting-a-forgotten-password)
 I need UPPMAX help and I have a NAISS account |[Request for help at NAISS Support](https://supr.naiss.se/support/)
 I need UPPMAX help and I have no NAISS account|Email us at `support@uppmax.uu.se`
 I need UPPMAX help from a human               |[Visit the UPPMAX dropin](dropin.md)
