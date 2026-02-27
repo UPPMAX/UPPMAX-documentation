@@ -13,8 +13,6 @@ nav:
       - Get inside the university networks: getting_started/get_inside_sunet.md
       - Log in to Pelle: getting_started/login_pelle.md
       - Log in to Bianca: getting_started/login_bianca.md
-      - Log in to Rackham: getting_started/login_rackham.md
-      - Log in to Snowy: getting_started/login_snowy.md
       - Log in to Dardel (at PDC): getting_started/login_dardel.md
     - Linux tutorials:
       - Working in Linux: getting_started/linux.md
@@ -26,9 +24,7 @@ nav:
     - System usage: cluster_guides/system_usage/system_usage.html
     - Clusters:
       - Pelle: cluster_guides/pelle.md
-      - Rackham: cluster_guides/rackham.md
       - Bianca: cluster_guides/bianca.md
-      - Snowy: cluster_guides/snowy.md
       - Dardel (at PDC): cluster_guides/dardel.md
     - Storage systems:
       - UPPMAX storage systems: cluster_guides/uppmax_storage_system.md
@@ -45,7 +41,6 @@ nav:
       - Screen: software/screen.md
     - Data transfer: 
       - Transfer to/from Pelle: cluster_guides/transfer_pelle.md
-      - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
       - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
       - Webexport: cluster_guides/webexport.md
 
