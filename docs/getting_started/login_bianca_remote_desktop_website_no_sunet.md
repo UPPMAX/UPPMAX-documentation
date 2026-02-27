@@ -26,10 +26,18 @@ If you cannot use VPN this may be the solution for you.
 
 ## Procedure
 
-From the terminal, connect to Pelle with ``ssh`` and forward local connection from you computer to Bianca web interface.
+From the terminal, connect to Pelle or other SUNET server with ``ssh`` and forward local connection from your computer to Bianca web interface.
+
+Example Pelle:
 
 ```bash
 ssh -L 8443:bianca:443 sven@pelle.uppmax.uu.se
+```
+
+Example Tetralith:
+
+```bash
+ssh -L 8443:bianca:443 sven@tetralith.liu.uu.se
 ```
 
 - In your browser, enter the following web address [https://bianca-localhost.uppmax.uu.se](https://bianca-localhost.uppmax.uu.se)
