@@ -2,17 +2,13 @@
 
 Below is a step-by-step procedure to login to [Transit](../cluster_guides/transit.md).
 
-???- question "Enjoy a video?"
+!!!- question "Enjoy a video?"
 
-  [See how to log in to Transit as a video](https://youtu.be/uXMOP-WVGIY).
+    [See how to log in to Transit as a video](https://youtu.be/uXMOP-WVGIY).
 
 ## 1. Get within SUNET
 
 [Get inside the university networks](../getting_started/get_inside_sunet.md).
-
-???- question "Forgot how to get within SUNET?"
-
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
 ## 2. Use SSH to login
 
@@ -34,7 +30,7 @@ If you haven't setup using SSH keys, you will be asked for your UPPMAX password.
 If this is your first time on Transit, you will be asked for adding
 it to your list of known hosts. Type `yes`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     This is how it looks like when you are asked
     for adding Transit to your list of known hosts.
@@ -43,7 +39,7 @@ it to your list of known hosts. Type `yes`.
 
 You are now logged in to Transit!
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```console
     sven@sven-N141CU:~/GitHubs/UPPMAX-documentation/docs/cluster_guides$ ssh sven@transit.uppmax.uu.se
