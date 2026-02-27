@@ -24,9 +24,9 @@ from outside of the Swedish university networks.
 
 !!! danger
 
-    - Do not log in to Rackham/Pelle and from there log in to Bianca.
-    - This will let all sensitive data land on Rackham/Pelle uncrypted as a an intermediate step.
-    - Rackham/Pelle is not a secure system and could be spied on.
+    - Do not log in to a SUNET server like Pelle and from there log in to Bianca.
+    - This will let all sensitive data land on that server uncrypted as a an intermediate step.
+    - Other clusters in SUNET is not secure systems and could be spied on.
 
 ## Procedure with using Pelle as a "jump host"
 
