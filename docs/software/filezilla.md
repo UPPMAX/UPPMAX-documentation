@@ -25,7 +25,7 @@ Operating system     |Location(s)
 Linux                |[FileZilla website](https://filezilla-project.org/download.php), Ubuntu App Center
 MacOS (intel)        |[FileZilla website](https://filezilla-project.org/download.php?platform=osx)
 MacOS (Apple Silicon)|[FileZilla website](https://filezilla-project.org/download.php?platform=macos-arm64)
-Windows              |[UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows) (Suggested!), [FileZilla website](https://filezilla-project.org/download.php?platform=win64)
+Windows              |[UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows) (Suggested!), [FileZilla website (not sponsored version)]([https://filezilla-project.org/download.php?platform=win64](https://filezilla-project.org/download.php?show_all=1 ))
 
 <!-- markdownlint-enable MD013 -->
 !!! warning "AI tool caution"
@@ -35,5 +35,5 @@ Windows              |[UU Software Center](https://www.uu.se/en/staff/service-an
 ## Transfer files
 
 - [Transfer file to/from Bianca using FileZilla](bianca_file_transfer_using_filezilla.md)
-- [Transfer file to/from Rackham using FileZilla](rackham_file_transfer_using_filezilla.md)
+- [Transfer file to/from Pelle using FileZilla](pelle_file_transfer_using_filezilla.md)
 - [Transfer file to/from Transit using FileZilla](transit_file_transfer_using_filezilla.md)
