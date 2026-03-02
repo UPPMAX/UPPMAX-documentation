@@ -74,8 +74,8 @@ which will build the container from `testdefinition.def` remotely and transfer i
     #SBATCH -p core
     cd /proj/something/containers
 
-    singularity exec ./ubuntu.img echo "Hey, I'm running ubuntu"
-    singularity exec ./ubuntu.img lsb_release -a
-    singularity run ./anotherimage some parameters here
+    apptainer exec ./ubuntu.img echo "Hey, I'm running ubuntu"
+    apptainer exec ./ubuntu.img lsb_release -a
+    apptainer run ./anotherimage some parameters here
     ./yetanotherimage parameters
     ```
