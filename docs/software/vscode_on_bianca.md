@@ -9,7 +9,7 @@ tags:
 !!! warning "VSCode fails, use VSCodium instead"
 
     The approach below will fail
-    (note that [using VSCode on Rackham](vscode_on_rackham.md) does work).
+    (note that [using VSCode on Pelle](vscode_on_pelle.md) does work).
 
     Instead, go to the page [Using VSCodium on Bianca](vscodium_on_bianca.md)
 
