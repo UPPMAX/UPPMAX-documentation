@@ -15,7 +15,6 @@ Using RStudio differs per UPPMAX cluster:
 
 - [RStudio on Pelle](../software/rstudio_on_pelle.md)
 - [RStudio on Bianca](../software/rstudio_on_bianca.md)
-- [RStudio on Rackham](../software/rstudio_on_rackham.md)
 
 ## RStudio versions
 
