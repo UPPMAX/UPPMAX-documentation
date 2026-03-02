@@ -34,4 +34,4 @@ How and where                                                                   
 --------------------------------------------------------------------------------------------------------------------------|----------------------------------------------
 [Local Linux](create_singularity_container_from_a_singularity_script_on_linux.md)                                         |Easiest for Linux users, can do longer builds
 [Remote builder from website](create_singularity_container_from_a_singularity_script_using_remote_builder.md)             |Easiest for non-Linux users, short builds only
-[Remote builder from Rackham](create_singularity_container_from_a_singularity_script_using_remote_builder_from_rackham.md)|Can do longer builds
+// [Remote builder from Rackham](create_singularity_container_from_a_singularity_script_using_remote_builder_from_rackham.md)|Can do longer builds
