@@ -1,51 +1,13 @@
 ---
-tags:
-  - UPPMAX
-  - password
-  - change
-  - edit
-  - modify
+title: Page has moved
+status: deprecated
+refresh: 8;https://docs.uppmax.uu.se/getting_started/change_reset_uppmax_password
 ---
 
-# Change your UPPMAX password
+## Update your links and bookmarks!
 
-???- question "Prefer a video?"
+This page has been deprecated in favor of
+[Change or reset your UPPMAX password](change_reset_uppmax_password.md).
 
-    See [the YouTube video 'How to reset your UPPMAX password'](https://youtu.be/3PaKjuWKQZw?si=nLw-slHqNegm47ww&t=113)
-    at 1:53
-
-If you know your UPPMAX password,
-here is how to change it.
-
-???- question "Forgot your UPPMAX password?"
-
-    Go to [How to reset your UPPMAX password](reset_uppmax_password.md).
-
-
-## Procedure
-
-### 1. Log in to Rackham
-
-See [How to login to Rackham](login_rackham_console_password.md).
-
-??? question "I have have a SENS project only and just have Bianca"
-
-    - [Log in to Transit instead](../cluster_guides/login_transit.md)
-
-### 2. Open a terminal
-
-When logged in to an UPPMAX cluster, open a terminal.
-If you've logged in via SSH, you are already in a terminal :-)
-
-### 3. Set your own password
-
-In that terminal, type:
-
-```bash
-passwd
-```
-
-Now you will be asked to repeat the old password and set a new one!
-
-- On Rackham your new password will work immediately!
-- On Bianca the new password needs some time to sync.
+You should automatically be taken there about 8 seconds after this page was
+loaded.

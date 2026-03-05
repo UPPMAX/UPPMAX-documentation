@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% if page and page.meta and page.meta.refresh %}
+    <meta http-equiv="refresh" content="{{ page.meta.refresh }}" />
+  {% else %}
+  {% endif %}
+{% endblock %}

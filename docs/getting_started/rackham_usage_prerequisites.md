@@ -83,7 +83,7 @@ is that you must have a personal [UPPMAX user account](../getting_started/user_a
 
 Another [prerequisite for using Rackham](#prerequisites-for-using-rackham)
 is that you need to know your UPPMAX password.
-See [how to reset and set your UPPMAX password](reset_uppmax_password.md)
+See [Change or reset your UPPMAX password](change_reset_uppmax_password.md)
 to do so.
 
 ## An UPPMAX 2FA
