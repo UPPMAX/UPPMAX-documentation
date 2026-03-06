@@ -504,6 +504,7 @@ theme:
     - navigation.footer
 #    - navigation.expand
     - search.suggest
+    - search.share
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
