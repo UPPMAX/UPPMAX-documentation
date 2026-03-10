@@ -41,6 +41,10 @@ passwd
 
 Now you will be asked to repeat the old password and set a new one!
 
+!!! info
+
+    The password is not seen in the terminal, neither as characters nor ``*`` or similar.
+
 - On Pelle your new password will work immediately!
 - For Bianca the new password needs some time to sync (on Transit it will work
   immediately).

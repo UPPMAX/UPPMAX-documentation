@@ -64,21 +64,14 @@ After having been granted membership in the project [on SUPR, activate your user
 
 - The email may land in you trash bin so do look there as well.
 - Follow the instructions! You'll need the UPPMAX 2FA set up, see Step 2 to be able to log in.
-- The password you got will only work once and for a limited time period.
+- The link you got will only work once and for a limited time period.
 
-## Step 6: First time log in
+## Step 6: Log in and change your password
 
-- [Login to our clusters](login.md)
+Follow the
+[instructions to change your Uppmax password](change_reset_uppmax_password.md).
 
-## Step 7: Change your password to something you'll remember
-
-When logged in on a UPPMAX system via a terminal, type ``passwd`` and follow the instructions on the screen.
-
-!!! info
-
-    The password is not seen in the terminal, neither as characters nor ``*`` or similar.
-
-## Step 8: use UPPMAX
+## Step 7: use UPPMAX
 
 Now you can use the UPPMAX resources!
 
