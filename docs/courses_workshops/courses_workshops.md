@@ -14,7 +14,7 @@ This page gives an overview of these. Course dates are (or should be) provided a
 
 UPPMAX is part of NAISS that give general courses for the Swedish academic HPC clusters. Go to the link below to get information of what is given.
 
-[NAISS training page](https://naiss-training.github.io/naiss-training/) { .md-button .md-button--primary }
+[NAISS training page](https://naiss-training.github.io/naiss-training/){ .md-button .md-button--primary }
 
 ## Upcoming courses administered by UPPMAX
 
