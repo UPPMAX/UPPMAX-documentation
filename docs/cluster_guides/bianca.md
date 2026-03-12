@@ -56,12 +56,22 @@ suitable for working with sensitive data.
 
     We have discovered after running Gorilla for a while that they preferred a bit more memory than we initially expected to get Ceph happy. So some of the excess memory from Rackham has now been repurposed to upgrade storage nodes in Gorilla from 256 to 384 GB RAM. This upgrade was welcome.
 
+## About Bianca    
+
 - [Bianca's name](biancas_name.md)
 - [Bianca's design](biancas_design.md)
 - [Bianca's hardware](../hardware/clusters/bianca.md)
-- NAISS-sens
-    - [Project application(../getting_started/project_apply_bianca.md]
-- [Log in](../getting_started/login_bianca.md)
+
+## Project allocation
+
+[Project application](../getting_started/project_apply_bianca.md] { .md-button .md-button--primary }
+
+## Get started
+
+[Log in](../getting_started/login_bianca.md) { .md-button .md-button--primary }
+
+[Bianca workshops](https://uppmax.github.io/bianca_workshops/) { .md-button .md-button--primary }
+
 - [Directory structure for projects](bianca_file_tree.md)
 - [File transfer](transfer_bianca.md)
     - [File transfer using rsync](../software/bianca_file_transfer_using_rsync.md) (recommended)
@@ -71,13 +81,17 @@ suitable for working with sensitive data.
     - [Python](../software/python.md)
 - [Submitting jobs, using Slurm](slurm.md)
 - [Starting an interactive session](start_interactive_session_on_bianca.md)
+
+## Software
+
 - [IDEs](../software/ides_on_bianca.md)
     - [Jupyter](../software/jupyter_on_bianca.md)
     - [RStudio](../software/rstudio_on_bianca.md)
     - [VSCodium](../software/vscodium_on_bianca.md)
     - :no_entry: [VSCode](../software/vscode_on_bianca.md)
-- [Bianca workshops](https://uppmax.github.io/bianca_workshops/)
-- Best practices
-    - [Git on Bianca](../software/git_on_bianca.md)
+
+## Installations and development
+
 - Bianca installation guides
     - [link to course material](https://uppmax.github.io/bianca_workshops/intermediate/install/)
+- [Git on Bianca](../software/git_on_bianca.md)
