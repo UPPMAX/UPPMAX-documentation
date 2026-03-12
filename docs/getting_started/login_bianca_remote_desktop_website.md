@@ -125,6 +125,12 @@ Simply do that :-)
 
     This is the webpage that is shown when a login node needs to be created.
 
+???- failure "What if it fails after a while?"
+
+    - Try again!
+    - You may have to do this 2-4 times before it works.
+    - This depends on the present pressure on the system.
+
 ### 4. Fill in the second dialog, using your regular password
 
 Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication).
