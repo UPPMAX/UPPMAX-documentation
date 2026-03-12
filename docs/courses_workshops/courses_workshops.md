@@ -18,17 +18,9 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 
 ## Upcoming courses administered by UPPMAX
 
-### February 2026
-
 <!-- Richel: Using full date (i.e. including the year) allows -->
 <!-- scraping by  https://docs.score.nbis.se/courses/ -->
 <!-- It makes the courses more machine-readable -->
-
-[Basic Singularity/Apptainer workshop <br> _Feb 19 2026_](singularity.md){ .md-button .md-button--primary }
-
-### March 2026
-
-[Intro to Python for HPC <br> _Mar 3 2026_](intro_to_python.md){ .md-button .md-button--primary }
 
 ### May 2026
 
