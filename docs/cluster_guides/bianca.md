@@ -64,13 +64,13 @@ suitable for working with sensitive data.
 
 ## Project allocation
 
-[Project application](../getting_started/project_apply_bianca.md] { .md-button .md-button--primary }
+[Project application](../getting_started/project_apply_bianca.md]{ .md-button .md-button--primary }
 
 ## Get started
 
-[Log in](../getting_started/login_bianca.md) { .md-button .md-button--primary }
+[Log in](../getting_started/login_bianca.md){ .md-button .md-button--primary }
 
-[Bianca workshops](https://uppmax.github.io/bianca_workshops/) { .md-button .md-button--primary }
+[Bianca workshops](https://uppmax.github.io/bianca_workshops/){ .md-button .md-button--primary }
 
 - [Directory structure for projects](bianca_file_tree.md)
 - [File transfer](transfer_bianca.md)
