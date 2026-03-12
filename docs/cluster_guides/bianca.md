@@ -64,7 +64,7 @@ suitable for working with sensitive data.
 
 ## Project allocation
 
-[Project application](../getting_started/project_apply_bianca.md]{ .md-button .md-button--primary }
+[Project application](../getting_started/project_apply_bianca.md){ .md-button .md-button--primary }
 
 ## Get started
 
