@@ -49,8 +49,8 @@ jobs:
         run: ./scripts/unindent_text.sh
 
       - name: The checker
-        #uses: gaurav-nelson/github-action-markdown-link-check@v1
-        uses: tcort/github-action-markdown-link-check@v1
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        #uses: tcort/github-action-markdown-link-check@v1
         with:
           config-file: 'mlc_config.json'
           #folder-path: 'docs'
