@@ -11,5 +11,4 @@ tags:
 - [File transfer to/from Pelle](transfer_pelle.md)
 - [File transfer to/from Bianca](transfer_bianca.md)
 - [File transfer to/from Dardel](transfer_dardel.md)
-- [File transfer to/from Rackham](transfer_rackham.md)
 - [File transfer to/from Transit](transfer_transit.md)
