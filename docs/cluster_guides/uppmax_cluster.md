@@ -32,17 +32,28 @@ and a detailed [overview](#detailed-overview-of-the-uppmax-systems) of the clust
 UPPMAX clusters are computing systems,
 i.e. they allow a user to do heavy computational calculations.
 
+### Active
+
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
 [Pelle](pelle.md)    |Regular data, general purpose|Is replacing [Rackham](rackham.md)
 [Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
-[Rackham](rackham.md)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
-[Snowy](snowy.md)    |Regular data, long runs, GPUs|.
 
 Another cluster UPPMAX is involved in:
 
 - [Dardel](dardel.md): a general purpose HPC cluster in Stockholm. Earlier Rackham users with no affiliation to UPPMAX moved here in late 2024.
 
+### Closed
+
+Name                 |Purpose                      |Description
+---------------------|-----------------------------|-------------------------------------
+[Rackham](rackham.md)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
+[Snowy](snowy.md)    |Regular data, long runs, GPUs|.
+
+??? warning "Forgot to empty your project on Rackham?"
+
+    Go to the [Rackham page](rackham.md) to find the transfer guides for Rackham.
+    
 ```mermaid
 flowchart TD
     UPPMAX(Which UPPMAX cluster?)
@@ -53,17 +64,14 @@ flowchart TD
     Rackham
     Snowy
     is_sensitive[Do you use sensitive data?]
-    is_long[Do you use long runs and/or GPUs?]
+    is_local[Is the PI UU affiliated?]
 
     UPPMAX --> is_sensitive
     is_sensitive --> |yes|Bianca
     is_sensitive --> |no|is_long
-    is_long --> |no|Rackham
-    is_long --> |yes|Snowy
+    is_local --> |no|Dardel
+    is_local --> |yes|Pelle
     Bianca --> |near future| Maja
-
-    Rackham --> |not UU, before 2025-01-01| Dardel
-    Rackham --> |UU, near future| Pelle
 ```
 
 All UPPMAX clusters follow the same [file system](uppmax_filesystem.md),
@@ -85,8 +93,7 @@ There are three types of nodes:
     Logging in is described separately per cluster:
 
     - [Bianca](../getting_started/login_bianca.md).
-    - [Rackham](../getting_started/login_rackham.md).
-    - [Snowy](../getting_started/login_snowy.md).
+    - [Pelle](../getting_started/login_pelle.md).
 
 - **calculation nodes**: nodes that do the calculations
 
@@ -102,7 +109,7 @@ There are three types of nodes:
     Requesting an interactive session is described per cluster:
 
     - [Bianca](start_interactive_session_on_bianca.md)
-    - [Rackham](start_interactive_session_on_rackham.md)
+    - [Pelle](start_interactive_session_on_pelle.md)
 
     This is done by requesting an interactive session
     from the Slurm scheduler.
@@ -133,7 +140,7 @@ A supercomputer is a machine that is optimised for doing calculations
 quickly. For example, to predict the weather for tomorrow, the calculation
 may not take a week. The image above is a supercomputer.
 
-![A computer cluster using some Raspberry Pi's](./img/small_cluster_307_x_230.jpg)
+![A private shelf computer cluster using some Raspberry Pi's](./img/shelf_cluster_annotated_bclaremar.png)
 
 A computer cluster is a set of computers that work together so that they can be viewed as a single system.
 The image above shows a home-made computer cluster.
@@ -178,7 +185,7 @@ are restricted in some ways:
     Requesting an interactive session is described per cluster:
 
     - [Bianca](start_interactive_session_on_bianca.md)
-    - [Rackham](start_interactive_session_on_rackham.md)
+    - [Pelle](start_interactive_session_on_pelle.md)
 
     This is done by requesting an interactive session
     from the Slurm scheduler.
@@ -210,8 +217,7 @@ Here is an overview which clusters are designed for sensitive data:
 Cluster name|Sensitive data yes/no?
 ------------|----------------------
 Bianca      |Yes
-Rackham     |No
-Snowy       |No
+Pelle       |No
 
 On a sensitive data cluster,
 (sensitive) data must be protected to remain there,
