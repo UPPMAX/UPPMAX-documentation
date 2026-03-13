@@ -274,6 +274,17 @@ No of nodes    | CPUs                              | Cores = Threads |  Memory  
 36             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
 36             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
 
+<!-- Two of these, p2021 and p2022, have dual 10-core CPUs instead.
+But footnotes are broken. -->
+
+- Example with 8 cores (1 socket): `interactive -A staff -t 1:0:0 -p haswell -c 8`
+- Example with a T4 GPU: `interactive -A staff -t 1:0:0 -p haswell --gpus=t4`
+    - If you ask for several T4 GPUs, you do get them, but they are spread
+      across different nodes with just one GPU per node.
+      ```
+      sbatch -A staff -t 1:0:0 -p haswell --gpus=t4:16
+      ```
+
 ## `sbatch` a script with command-line Slurm parameters
 
 The minimal command to use `sbatch` with command-line Slurm parameters is:
