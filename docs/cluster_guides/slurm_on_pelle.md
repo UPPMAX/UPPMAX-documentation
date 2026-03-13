@@ -119,9 +119,9 @@ Partition name|Description
 
 ### The `pelle` partition
 
-The `pelle` partition is default so you can omit specifying ``-p`` or ``--partition``
+The `pelle` partition is default so you can omit specifying `-p` or `--partition`.
 
-Its allocates an ordinary CPU node (allows one to use one or more cores, up to 96 cores).
+This is the ordinary CPU nodes of Pelle.
 
 !!! warning
 
@@ -133,11 +133,9 @@ Its allocates an ordinary CPU node (allows one to use one or more cores, up to 9
     The compute node CPUs have Simultaneous multithreading (SMT) enabled. Each CPU core runs two Threads. In Slurm the Threads are
     referred to as CPUs. [Learn more here about SMT](slurm_on_pelle.md#smt)
 
-#### Architecture
-
-No of nodes     | CPUs                              | Cores<br/>Threads |  Memory     | Scratch | GPUs           | Name
---------------- | --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
-115             |  AMD EPYC 9454P (Zen4)  2.75 GHz  | 48<br/>96         | **768 GiB** | 1.7 TB  | N/A            | p[1-115]
+No of nodes | CPUs                            | Cores<br/>Threads | Memory  | Scratch | GPUs
+----------- | ------------------------------- | ----------------- | ------- | ------- | ----
+80          | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 768 GiB | 1.7 TB  | N/A 
 
 !!! note "Much more cores per node compared to Rackham"
 
@@ -213,8 +211,10 @@ With the ``fat`` partition you reach compute nodes with more memory.
     - Time limit is 10 days on the fat nodes.
     - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
 
-
-Pelle has two fat nodes. One with 2 TiB of memory and one with 3 TiB.
+No of nodes | CPUs                            | Cores<br/>Threads | Memory | Scratch | GPUs
+----------- | ------------------------------- | ----------------- | ------ | ------- | ----
+1           | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 2 TiB  | 6.9 TB  | N/A 
+1           | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 3 TiB  | 6.9 TB  | N/A 
 
 !!! note
 
@@ -236,11 +236,12 @@ With the ``gpu`` partition you reach the nodes with GPUs.
 
     - Time limit is 2 days.
     - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
+    - The T4 GPUs in the Haswell partition can be booked for 10 days.
 
-There are two kinds of GPU nodes in this partition at the moment.
-
-- 4 of the lighter type ``L40s``, enough for most problems. Each node has 10 (!) GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
-- 2 of the large type ``H100``, which can be suitable for large training runs. Each node has 2 GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
+No of nodes | CPUs                           | Cores<br/>Threads | Memory  | Scratch | GPUs
+----------- | ------------------------------ | ----------------- | ------- | ------- | ---------------
+4           | 2x AMD EPYC 9124 (Zen4)  3 GHz | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TB  | 10x NVIDIA L40s
+2           | 2x AMD EPYC 9124 (Zen4)  3 GHz | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TB  | 2x NVIDIA H100
 
 To avoid long waiting times we primarily recommend to allocate the default ``L40s`` and just one of them.
 Or, if you can use one of the older T4 GPUs, those are in greater supply.
@@ -269,13 +270,15 @@ Or, if you can use one of the older T4 GPUs, those are in greater supply.
 
 ### The `haswell` partition
 
-No of nodes    | CPUs                              | Cores = Threads |  Memory     | Scratch | GPUs           | Name
----------------| --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
-36             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
-36             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
+This partition holds older hardware that may be in less demand.
 
-<!-- Two of these, p2021 and p2022, have dual 10-core CPUs instead.
-But footnotes are broken. -->
+No of nodes | CPUs                                 | Cores = Threads | Memory  | Scratch | GPUs
+----------- | ------------------------------------ | --------------- | ------- | ------- | ---------
+36          | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 16          | 256 GiB | 1.8 TB  | N/A
+34          | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 16          | 256 GiB | 1.8 TB  | NVIDIA T4
+
+<!-- Two of the GPU nodes in this partition, p2021 and p2022, have dual 10-core CPUs instead.
+But these are reserved for staff so we don't include them here. -->
 
 - Example with 8 cores (1 socket): `interactive -A staff -t 1:0:0 -p haswell -c 8`
 - Example with a T4 GPU: `interactive -A staff -t 1:0:0 -p haswell --gpus=t4`
