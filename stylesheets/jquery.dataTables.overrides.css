@@ -1,0 +1,23 @@
+/* Reset DataTables font styles to inherit from your site */
+table.dataTable {
+    font-family: inherit !important;
+    font-size: inherit !important;
+}
+
+table.dataTable thead th,
+table.dataTable tbody td {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    padding: 8px !important;  /* Adjust as needed */
+}
+
+/* Keep only the sorting arrows styled */
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc:after {
+    /* Keep arrow indicators */
+}
+
