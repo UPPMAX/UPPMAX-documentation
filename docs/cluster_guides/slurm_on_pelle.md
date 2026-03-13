@@ -83,12 +83,13 @@ how to fix Slurm errors.
         - ``-p fat``
         - [read more](slurm_on_pelle.md#the-fat-partition)
     - GPU (NVIDIA) jobs
-        - T4 (we have many!): ``interactive -A staff -p haswell -c 1 -t 1:0:0 --gpus=t4``
+        - T4 (36 nodes with 1 GPU each): ``interactive -A staff -t 1:0:0 -p haswell --gpus=t4``
         - Faster L40s (4 nodes with 10 GPUs each): ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
         - Superfast H100 (2 nodes with 2 GPUs each): ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
-        - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+        - [read more](slurm_on_pelle.md#the-gpu-partition)
     - Intel Haswell nodes (with 16 cores per node)
         - ``-p haswell ...``
+        - [read more](slurm_on_pelle.md#the-haswell-partition)
 
     
 ## `sbatch` (and `interactive`) on Pelle
@@ -113,7 +114,7 @@ Partition name|Description
 --------------|----------------------------------
 `pelle`       | (Default) Use one or more CPU cores
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
-`gpu`         | GPU node, 2 types see below
+`gpu`         | GPU nodes, 2 types see below
 `haswell`     | Old Snowy/Irma nodes, half with GPUs (T4)
 
 ### The `pelle` partition
@@ -236,12 +237,13 @@ With the ``gpu`` partition you reach the nodes with GPUs.
     - Time limit is 2 days.
     - You may, if really needed, ask for more through the support ``support@uppmax.uu.se``.
 
-There are two kinds of GPUs at the moment.
+There are two kinds of GPU nodes in this partition at the moment.
 
 - 4 of the lighter type ``L40s``, enough for most problems. Each node has 10 (!) GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
 - 2 of the large type ``H100``, which can be suitable for large training runs. Each node has 2 GPUs. Most often just one GPU is needed, so remember to state that you need just 1, see below.
 
-Therefore, at first hand, allocate the default ``L40s`` and one of them
+To avoid long waiting times we primarily recommend to allocate the default ``L40s`` and just one of them.
+Or, if you can use one of the older T4 GPUs, those are in greater supply.
 
 <!--
 - To allocate GPUs without specifying which type (will default to L40s in the future): ``-p gpu --gres=gpu:<number of GPUs>``
@@ -250,12 +252,14 @@ Therefore, at first hand, allocate the default ``L40s`` and one of them
 - To allocate L40s: ``-p gpu --gpus=l40s:<number of GPUs>``
 
     - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:1``
-    - Example with 11 GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:11`` will fail because there are just 10 GPUs on one node!
+    - Example with the maximum 10 GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gpus=l40s:10``
 
 - To allocate H100: ``-p gpu --gpus=h100:<number of GPUs>``
 
     - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
-    - Example with 3 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:3`` will fail because there are just 2 GPUs on one node!
+    - Example with both GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:2``
+    - There are just 2 nodes with 2 each of these, so queues may become long if
+      demand is high. 
 
 - Currently you do not have to request additional CPUs to get additional memory.
 - You can use all Slurm options
@@ -267,8 +271,8 @@ Therefore, at first hand, allocate the default ``L40s`` and one of them
 
 No of nodes    | CPUs                              | Cores = Threads |  Memory     | Scratch | GPUs           | Name
 ---------------| --------------------------------- | ----------------- | ---------   |-------- |--------------- |------------
-34             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
-34             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
+36             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | N/A           | p[1001-1036]
+36             |  2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 16               | **256 GiB** | 1.8 TB  | NVIDIA T4     | p[2001-2036]
 
 ## `sbatch` a script with command-line Slurm parameters
 
