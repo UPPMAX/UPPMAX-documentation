@@ -284,6 +284,7 @@ But these are reserved for staff so we don't include them here. -->
 - Example with a T4 GPU: `interactive -A staff -t 1:0:0 -p haswell --gpus=t4`
     - If you ask for several T4 GPUs, you do get them, but they are spread
       across different nodes with just one GPU per node.
+      
       ``` bash
       sbatch -A staff -t 1:0:0 -p haswell --gpus=t4:16
       ```
