@@ -135,7 +135,7 @@ This is the ordinary CPU nodes of Pelle.
 
 No of nodes | CPUs                            | Cores<br/>Threads | Memory  | Scratch | GPUs
 ----------- | ------------------------------- | ----------------- | ------- | ------- | ----
-80          | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 768 GiB | 1.7 TB  | N/A 
+80          | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 768 GiB | 1.7 TB  | N/A
 
 !!! note "Much more cores per node compared to Rackham"
 
@@ -213,8 +213,8 @@ With the ``fat`` partition you reach compute nodes with more memory.
 
 No of nodes | CPUs                            | Cores<br/>Threads | Memory | Scratch | GPUs
 ----------- | ------------------------------- | ----------------- | ------ | ------- | ----
-1           | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 2 TiB  | 6.9 TB  | N/A 
-1           | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 3 TiB  | 6.9 TB  | N/A 
+1           | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 2 TiB  | 6.9 TB  | N/A
+1           | AMD EPYC 9454P (Zen4)  2.75 GHz | 48<br/>96         | 3 TiB  | 6.9 TB  | N/A
 
 !!! note
 
@@ -260,7 +260,7 @@ Or, if you can use one of the older T4 GPUs, those are in greater supply.
     - Example with 1 GPU: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:1``
     - Example with both GPUs: ``interactive -A staff -t 1:0:0 -p gpu --gpus=h100:2``
     - There are just 2 nodes with 2 each of these, so queues may become long if
-      demand is high. 
+      demand is high.
 
 - Currently you do not have to request additional CPUs to get additional memory.
 - You can use all Slurm options
@@ -284,7 +284,7 @@ But these are reserved for staff so we don't include them here. -->
 - Example with a T4 GPU: `interactive -A staff -t 1:0:0 -p haswell --gpus=t4`
     - If you ask for several T4 GPUs, you do get them, but they are spread
       across different nodes with just one GPU per node.
-      ```
+      ``` bash
       sbatch -A staff -t 1:0:0 -p haswell --gpus=t4:16
       ```
 
