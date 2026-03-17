@@ -17,8 +17,7 @@ Below we describe the general ideas of using an interactive session:
 To start an interactive session on specific cluster:
 
 - [Start an interactive session on Bianca](start_interactive_session_on_bianca.md)
-- [Start an interactive session on Rackham](start_interactive_session_on_rackham.md)
-- [Start an interactive session on Snowy](start_interactive_session_on_snowy.md)
+- [Start an interactive session on Pelle](start_interactive_session_on_pelle.md)
 
 ## Types of nodes
 
@@ -39,12 +38,22 @@ The UPPMAX HPC clusters have three types of nodes:
 
 ???- tip "How can I find out on which node I am?"
 
-    In a [terminal](../software/terminal.md), type `hostname`:
+    In a [terminal](../software/terminal.md), type `hostname`.
+
+    For Pelle:
 
     - the [login node](../cluster_guides/login_node.md)
-      has name `rackham[number]`,
+      has name `pelle[number]`,
       where `[number]` is the number of the login node
-    - an interactive session has name `r[number]`,
+    - an interactive session has name `p[number]`,
+      where `[number]` is the compute node number
+
+    For Bianca:
+
+    - the [login node](../cluster_guides/login_node.md)
+      has name `bianca-<project number>[number]`,
+      where `[number]` is the number of the login node
+    - an interactive session has name `b[number]`,
       where `[number]` is the compute node number
 
 As a login is shared with all users,
