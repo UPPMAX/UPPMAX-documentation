@@ -12,11 +12,8 @@ search:
 There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
 Here we describe how to log in to [Rackham](../cluster_guides/rackham.md).
 
-- [Prerequisites](rackham_usage_prerequisites.md) describes what is needed before one can access Rackham
 - [Which way to login?](#which-way-to-login)
-    - [Website](login_rackham_remote_desktop_website.md)
     - [Terminal](login_rackham_console_password.md)
-    - [Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
 ## Which way to login?
 
@@ -24,9 +21,7 @@ There are multiple ways to log in to [Rackham](../cluster_guides/rackham.md):
 
 Login                                                                         |Description                                   |Screenshot
 ------------------------------------------------------------------------------|----------------------------------------------|---------------------------------
-[Website](login_rackham_remote_desktop_website.md)                            |Remote desktop, no installation needed, slow  |![The Rackham remote desktop via the website](./img/rackham_remote_desktop_via_website_480_x_270.png)
 [Terminal](login_rackham_console_password.md)                                 |Console environment, recommended              |![The Rackham console environment](./img/login_rackham_via_terminal_terminal_409_x_290.png)
-[Local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)|Remote desktop, recommended, need installation|![The Rackham remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_rackham_zoom.png)
 
 Here is a decision tree, to determine which way to log in:
 
@@ -55,10 +50,8 @@ flowchart TD
 
 The procedures can be found at:
 
-- [Login to the Rackham remote desktop environment using the website](login_rackham_remote_desktop_website.md)
 - [Login to the Rackham console environment with a password](login_rackham_console_password.md).
   If you want to get rid of using a password every time, see [login to the Rackham console environment with an SSH key](login_rackham_console_ssh_key.md)
-- [Login to the Rackham remote desktop environment using a local ThinLinc client](login_rackham_remote_desktop_local_thinlinc_client.md)
 
 After login, you will be on a [login node](../cluster_guides/login_node.md).
 
