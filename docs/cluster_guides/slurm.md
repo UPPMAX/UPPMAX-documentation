@@ -32,8 +32,9 @@ how to fix Slurm errors.
 
 For information specific to clusters, see:
 
-- [Slurm on Bianca](slurm_on_bianca.md)
-- [Slurm on Pelle](slurm_on_pelle.md)
+[Slurm on Bianca](slurm_on_bianca.md){ .md-button .md-button--primary }
+
+[Slurm on Pelle](slurm_on_pelle.md){ .md-button .md-button--primary }
 
 ## Slurm Commands
 
@@ -242,8 +243,8 @@ RAM|Pelle|Bianca
 -|-|-
 256 GB| `-C mem256GB`| `-C mem256GB`
 512 GB| `-C mem512GB`| `-C mem512GB`
-2 TB| N/A| `-p fat -C 2TB`| N/A
-3 TB| N/A| `-p fat -C 3TB`| N/A
+2 TB| `-p fat -C 2TB`| N/A
+3 TB| `-p fat -C 3TB`| N/A
 
 ### GPUs
 
