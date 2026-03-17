@@ -67,12 +67,6 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
     On a login node, one can and should do simple things only:
     it is a resource shared with all other users on that node.
 
-    If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
-
-    If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
-
 !!! note "About Rackham hostname"
 
     The hostname used to login via SSH is:
