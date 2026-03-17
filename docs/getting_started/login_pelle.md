@@ -73,3 +73,11 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
 
     If you need to do more intense calculations interactively,
     [use an interactive session](../cluster_guides/start_interactive_session_on_pelle.md).
+
+!!! note "About Pelle hostname"
+
+    The hostname used to login via SSH is:
+
+    pelle.uppmax.uu.se
+
+    Note: This is a "round robin" address which will direct you to one of the physical login nodes, pelle1.uppmax.uu.se or pelle2.uppmax.uu.se. (If needed, you can also login directly to one of these, by using their respective hostnames.)
