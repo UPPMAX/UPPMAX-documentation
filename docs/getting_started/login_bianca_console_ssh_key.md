@@ -65,10 +65,10 @@ ssh -A sven@bianca.uppmax.uu.se
 
 ???- question "Why no `-X`?"
 
-    On Rackham, one can use `-X`:
+    On Pelle, one can use `-X`:
 
     ```bash
-    ssh -X username@rackham.uppmax.uu.se
+    ssh -X <username>@pelle.uppmax.uu.se
     ```
 
     However, on Bianca, this so-called
@@ -121,10 +121,10 @@ you are on a Bianca [login node](../cluster_guides/login_node.md).
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
+    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
+    [use an interactive session](../cluster_guides/start_interactive_session_on_bianca.md).
 
 In a Bianca console environment:
 
