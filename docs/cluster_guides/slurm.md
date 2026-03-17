@@ -34,8 +34,6 @@ For information specific to clusters, see:
 
 - [Slurm on Bianca](slurm_on_bianca.md)
 - [Slurm on Pelle](slurm_on_pelle.md)
-- [Slurm on Rackham](slurm_on_rackham.md)
-- [Slurm on Snowy](slurm_on_snowy.md)
 
 ## Slurm Commands
 
@@ -43,7 +41,7 @@ The Slurm system is accessed using the following commands:
 
 - `interactive` - Start an interactive session. This is described
   in-depth for [Bianca](start_interactive_session_on_bianca.md)
-  and [Rackham](start_interactive_session_on_rackham.md)
+  and [Pelle](start_interactive_session_on_pelle.md)
 - [`sbatch`](../software/sbatch.md) - Submit and run a batch job script
 - `srun` - Typically used inside batch job scripts for running parallel jobs
   (See examples further down)
@@ -90,8 +88,7 @@ sbatch -A sens2017625 my_script.sh
 Minimal and complete examples of using `sbatch` is described at the respective cluster guides:
 
 - [Bianca](../cluster_guides/slurm_on_bianca.md#sbatch-and-interactive-on-bianca)
-- [Rackham](../cluster_guides/slurm_on_rackham.md#sbatch-and-interactive-on-rackham)
-- [Snowy](../cluster_guides/slurm_on_snowy.md#sbatch-and-interactive-on-snowy)
+- [Pelle](../cluster_guides/slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
 
 ### Specify duration of the run
 
@@ -241,25 +238,20 @@ If you need extra memory (128 GB is available in common nodes) you can allocate 
 
 Table below shows the configurations and flags to use.
 
-RAM|Rackham|Snowy|Bianca
--|-|-|-
-256 GB| `-C mem256GB`| `-C mem256GB`| `-C mem256GB`
-512 GB| N/A| `-C mem512GB`| `-C mem512GB`
-1 TB| `-C mem1TB`| N/A| N/A
-2 TB| N/A| `-p veryfat -C mem2TB`| N/A
-4 TB| N/A | `-p veryfat -C mem4TB`| N/A
+RAM|Pelle|Bianca
+-|-|-
+256 GB| `-C mem256GB`| `-C mem256GB`
+512 GB| `-C mem512GB`| `-C mem512GB`
+2 TB| N/A| `-p fat -C 2TB`| N/A
+3 TB| N/A| `-p fat -C 3TB`| N/A
 
 ### GPUs
 
 - Bianca: Nodes with Nvidia A100 40 GB
     - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
-- Snowy: Nodes with Tesla T4 16 GB
-    - The GPU nodes have either 128 or 256 GB memory and one GPU per node
 
 **Slurm options**:
 
-- Snowy 128 GB: ``-M snowy -p node --gres=gpu:1 -t 1:0:1``   (Please note that -t has to be _more than_ 1 hr)
-- Snowy 256 GB: ``-M snowy -p node -C mem256GB --gres=gpu:1  -t 1:0:1``
 - Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00``
 
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
