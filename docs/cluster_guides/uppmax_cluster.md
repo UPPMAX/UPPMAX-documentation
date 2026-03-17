@@ -140,7 +140,7 @@ A supercomputer is a machine that is optimised for doing calculations
 quickly. For example, to predict the weather for tomorrow, the calculation
 may not take a week. The image above is a supercomputer.
 
-![A private shelf computer cluster using some Raspberry Pi's](./img/shelf_cluster_BC_annotated.png){ width="300" }
+![A private shelf computer cluster using some Raspberry Pi's](./img/shelf_cluster_BC_annotated.png){ width="200" }
 
 A computer cluster is a set of computers that work together so that they can be viewed as a single system.
 The image above shows a home-made computer cluster.
