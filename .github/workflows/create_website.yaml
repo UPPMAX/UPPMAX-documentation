@@ -23,5 +23,10 @@ jobs:
       - name: Create software table
         run: python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
 
+      - name: Remove folders that need not to be checked
+        run: |
+          rm -rf docs/*/rackham/
+          rm -rf docs/*/snowy/
+
       - name: Render HTML
         run: mkdocs gh-deploy --force
