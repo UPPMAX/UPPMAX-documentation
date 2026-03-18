@@ -1,15 +1,16 @@
 # Snowy hardware
 
+Decommissioned Fri 30 January 2026
+
 ## Snowy's system configuration
 
-Snowy consists of 228 compute servers (nodes) where each compute server
+- Snowy consists of 228 compute servers (nodes) where each compute server
 consists of two 8-core Xeon E5-2660 processors running at 2.2 GHz.
-We provide 198 nodes with 128 GB memory (`s1-s120`, `s151-s228`),
+- We provide 198 nodes with 128 GB memory (`s1-s120`, `s151-s228`),
 13 nodes with 256 GB (`s138-s150`) and 17 nodes with 512 GB (`s121-s137`).
-All nodes are interconnected with a 2:1
+- All nodes are interconnected with a 2:1
 oversubscribed FDR (40 GB/s) InfiniBand fabric.
-In total Snowy provides 3548 CPU cores in compute nodes.
-
+- In total Snowy provides 3548 CPU cores in compute nodes.
 
 
 Nodes    | CPUs    |  Cores |  Memory     | Scratch    | GPUs | Name | Comment
