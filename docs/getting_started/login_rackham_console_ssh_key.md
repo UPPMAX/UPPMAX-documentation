@@ -58,12 +58,6 @@ Enjoy! You are in! To be precise, you are on a Rackham [login node](../cluster_g
     On a login node, one can and should do simple things only:
     it is a resource shared with all other users on that node.
 
-    If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_rackham.md).
-
-    If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
-
 In a Rackham console environment:
 
 - Text display is limited to 50kBit/s.
