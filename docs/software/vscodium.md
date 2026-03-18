@@ -17,6 +17,6 @@ If you can use VSCodium, depends on the HPC cluster:
 Cluster                                 | Works/fails |Documentation page
 ----------------------------------------|-------------|---------------------------------------------------------------
 [Bianca](../cluster_guides/bianca.md)   | Works       |[VSCodium on Bianca](../software/vscodium_on_bianca.md)
-[Pelle](../cluster_guides/pelle.md) | Fails [1]   |[VSCodium on Rackham](../software/vscodium_on_pelle.md)
+[Pelle](../cluster_guides/pelle.md) | Fails [1]   |None
 
 - [1] Use [VSCode on Pelle](../software/vscode_on_pelle.md) instead
