@@ -13,11 +13,10 @@ During the workshop you will have the opportunity to follow the interactive guid
 
 To fully benefit from the workshop, basic Linux system administration experience is highly desirable i.e. knowledge of package management and common tools for building and managing of software: git, pip, conda, wget, curl …
 
-📚 [Workshop tutorial material](https://uppmax.github.io/Basic_Singularity_Apptainer/)
+📚 [Workshop tutorial material](https://hpc.pages.naiss.se/training/basic_singularity_apptainer/)
 
-Please follow the [instructions](https://uppmax.github.io/Basic_Singularity_Apptainer/quick_start/)
+Please follow the [instructions](https://hpc.pages.naiss.se/training/basic_singularity_apptainer/quick_start/)
 to install Singularity on your computer or, alternatively, use apptainer provided by your computer centre.
-Please, follow the centre provided [instructions](https://uppmax.github.io/Basic_Singularity_Apptainer/fakeroot/).
 
 ## WORKSHOP INFORMATION
 
