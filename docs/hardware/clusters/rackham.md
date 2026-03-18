@@ -1,5 +1,7 @@
 # Rackham hardware
 
+Decommissioned Fri 30 January 2026
+
 Nodes    | CPUs    |  Cores |  Memory     | Scratch    | GPUs | Name | Comment
 --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |---------------
 272 |  2x Xeon E5-2630 V4 2.2 GHz (turbo 3.1 GHz)   | 20 (2 x 10)    | 128GB | 3/4TB | N/A | r33-r304 |.
