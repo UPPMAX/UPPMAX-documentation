@@ -24,8 +24,8 @@ Here are the differences:
 Parameter                                   |Local ThinLinc client|Web browser login
 --------------------------------------------|---------------------|-----------------
 [Bianca](../cluster_guides/bianca.md) use   |Impossible           |Possible
-[Rackham](../cluster_guides/rackham.md) use |Recommended          |Possible
-[Pelle](../cluster_guides/pelle.md) use     |Recommended          |:construction: Not yet possible
+Rackham  use                                |Not possible anymore |Not possible
+[Pelle](../cluster_guides/pelle.md) use     |Recommended          |Possible
 Install                                     |ThinLinc client      |Nothing [1]
 Simplicity                                  |Easy                 |Trivial
 Performance                                 |Higher               |Lower
@@ -43,8 +43,7 @@ which offers higher performance and is recommended for most users.
 The client can be downloaded from the [official download page](https://www.cendio.com/thinlinc/download/).
 
 - [ThinLinc on Bianca](../software/thinlinc_on_bianca.md)
-- [ThinLinc on Rackham](../software/thinlinc_on_rackham.md)
-- ThinLinc on Snowy: same as [ThinLinc on Rackham](../software/thinlinc_on_rackham.md)
+- [ThinLinc on Pelle](../software/thinlinc_on_pelle.md)
 
 ## Installing ThinLinc
 
