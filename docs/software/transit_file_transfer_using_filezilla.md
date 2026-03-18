@@ -113,8 +113,7 @@ You do need to transfer these files to other HPC clusters
 before closing FileZilla.
 For detailed instructions, see the guides at the respective cluster, among others:
 
-- Bianca file transfer using Transit
-- [Rackham file transfer using Transit](../cluster_guides/rackham_file_transfer_using_transit.md)
+- Bianca file transfer using Transit](../cluster_guides/bianca_file_transfer_using_transit.md)
 
 ## Extra material
 
