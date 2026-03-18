@@ -36,7 +36,7 @@ nav:
       - Slurm: cluster_guides/slurm.md
       - Managing your project: cluster_guides/project_management.md
     - Running jobs:
-      - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
+      - Checking and optimising jobs: cluster_guides/optimising_jobs.md
       - Runtime tips: cluster_guides/runtime_tips.md
       - Storage and compression: cluster_guides/storage_compression.md
       - Screen: software/screen.md
@@ -201,7 +201,7 @@ not_in_nav: |
   cluster_guides/transit.md
   cluster_guides/transit_file_transfer_using_gui.md
   cluster_guides/uppmax.md
-  cluster_guides/uppmax_as_an_organization.md
+  cluster_guides/uppmax_as_an_organisation.md
   cluster_guides/uppmax_cloud.md
   cluster_guides/uppmax_filesystem.md
   cluster_guides/uppmax_history.md
