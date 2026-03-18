@@ -10,7 +10,7 @@ although `rsync` by default does a one-way synchronise: if the data is already
 there, it will do nothing.
 
 - [Using `rsync` on Bianca](../software/rsync_on_bianca.md)
-- [Using `rsync` on Rackham](../software/rsync_on_rackham.md)
+- [Using `rsync` on Pelle](../software/rsync_on_pelle.md)
 
 ## Installing `rsync`
 
