@@ -80,11 +80,19 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 
     It looks quite dull, as nothing happens until these is a timeout.
 
-### 3. Fill in the first dialog
+### 3. Fill in the first dialog page 
 
-Fill in the first dialog.
+- Fill in the first dialog page with your information and credentials
+- Start typing the project name and it will auto-fill from what you have available.
+- Note that old projects start with ``sens``, whereas from 2026 starts with ``naiss``.
 
 Do use the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!)
+
+???- question "How does that web page look like?"
+
+    ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
+
+    > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
 ???- question "How do I setup 2-factor authentication?"
 
@@ -99,12 +107,6 @@ Do use the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!
     > Screenshot of a two-factor authentication app.
     > Use the 2-factor authentication called 'UPPMAX'
     > to access Bianca
-
-???- question "How does that web page look like?"
-
-    ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
-
-    > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
 Sometimes a webpage will be shown that asks you to wait.
 Simply do that :-)
@@ -131,7 +133,7 @@ Simply do that :-)
     - You may have to do this 2-4 times before it works.
     - This depends on the present pressure on the system.
 
-### 4. Fill in the second dialog, using your regular password
+### 4. Fill in the second dialog page, using your regular password
 
 Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication).
 
