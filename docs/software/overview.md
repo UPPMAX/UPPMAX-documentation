@@ -23,7 +23,7 @@ This page is about software at UPPMAX.
 
 ## Reach the Bioinformatics tools on Bianca
 
-- Before you can list available bioinformatics tools on Biancayou need to issue the command:
+- Before you can list available bioinformatics tools on Bianca you need to issue the command:
 
 ```bash
 module load bioinfo-tools
@@ -33,7 +33,7 @@ module load bioinfo-tools
 
 - Note that the ``module spider`` command will show bioinformatics modules regardless of whether you have loaded the bioinfo-tools module.
 - This command can also tell you whether a particular module requires the bioinfo-tools module, e.g. "module spider GEMINI/0.18.3".
-- NOTE that Pelle has ALL softwae modules  visible!
+- NOTE that Pelle has ALL software modules visible!
 
 ## How can I request new software to be installed?
 
