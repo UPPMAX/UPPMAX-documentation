@@ -80,7 +80,7 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 
     It looks quite dull, as nothing happens until these is a timeout.
 
-### 3. Fill in the first dialog page 
+### 3. Fill in the first dialog page
 
 - Fill in the first dialog page with your information and credentials
 - Start typing the project name and it will auto-fill from what you have available.
