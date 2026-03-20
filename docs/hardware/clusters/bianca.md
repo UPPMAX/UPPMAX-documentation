@@ -25,7 +25,7 @@ Parameter               |Bianca
 ------------------------|-----------------------------------
 **Purpose**             |Sensitive data
 **Reserved for**        |NAISS-SENS projects
-**Nodes (Intel)**       |272 + 4 nodes of 2 NVIDIA A100 GPUs
+**Nodes (Intel)**       |272 + 10 nodes of 2 NVIDIA A100 GPUs
 **Cores per node**      |16/64
 **Memory per node**     |128GB
 **Fat nodes**           |256 & 512GB
