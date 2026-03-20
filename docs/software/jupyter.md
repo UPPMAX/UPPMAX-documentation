@@ -7,7 +7,7 @@ tags:
 
 # Jupyter
 
-![Jupyter on Rackham](./img/jupyter_rackham.png)
+![Jupyter on old cluster Rackham](./img/jupyter_rackham.png)
 
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
 among other [Jupyter](../software/jupyter.md).
@@ -38,7 +38,7 @@ Jupyter is:
 - displayed in a **web browser**, such as ``firefox``.
 
 Jupyter can be slow when using remote desktop webpage
-(e.g. ``https://rackham-gui.uppmax.uu.se``).
+(e.g. ``https://pelle-gui.uppmax.uu.se``).
 
 - For UPPMAX, one can use a locally installed ThinLinc client to speed up Jupyter. See `the UPPMAX documentation on ThinLinc <https://www.uppmax.uu.se/support/user-guides/thinlinc-graphical-connection-guide>`_ on how to install the ThinLinc client locally.
 
@@ -48,7 +48,7 @@ Jupyter can be slow when using remote desktop webpage
 ## How to start Jupyter
 
 - [Run Jupyter on Bianca](jupyter_on_bianca.md)
-- [Run Jupyter on Rackham](jupyter_on_rackham.md)
+- [Run Jupyter on Pelle](jupyter_on_pelle.md)
 - [Run Jupyter in the UPPMAX lab](https://lab.uppmax.uu.se)
 - [Run Jupyter in your local browser](jupyter_local.md)
 - Run Jupyter in a virtual environment (see below)
