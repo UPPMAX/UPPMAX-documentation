@@ -31,7 +31,7 @@ This can be either:
 
 ### 2. Start an interactive session
 
-Within the Rackham remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Pelle remote desktop environment, start a [terminal](../software/terminal.md).
 Within that terminal,
 [start an interactive session](../cluster_guides/start_interactive_session_on_pelle.md):
 
@@ -50,46 +50,54 @@ interactive -A uppmax2025-2-393 -t 8:00:00
 
     See [the UPPMAX documentation on how to see your UPPMAX projects](../getting_started/project.md)
 
-### 3. Load a Python module
+### 3a. Use software modules to provide Python, Jupyter and python packages needed
 
-Within the terminal of the interactive session,
-load a Python module
+- Step 1. Decide whatis needed in terms of
+    - Python version
+    - Python packages (and versions)
+ 
+- Step 2: Check our [Python Bundles page](python_bundles.md) and choose compatible modules.
+    - Check if your needed python packages are compatibe with the JupyterLab module
+
+#### Example with latest available versions on Pelle 
+
+- Within the terminal of the interactive session, 
+load the Jupyter module compatible with the FOSS2025b toolchain (GCCcore-14.3.0).
+- You get Python/3.13.5 on the fly.
+- Also load SciPy-bundle to get numpy and pandas
+- and matplotlib.
 
 ```bash
-module load python/3.11.4
+ml JupyterLab/4.4.9-GCCcore-14.3.0
+SciPy-bundle/2025.07-gfbf-2025b
+matplotlib/3.10.5-gfbf-2025b
 ```
 
 ???- question "Forgot what the module system is?"
 
     See [the UPPMAX pages on the module system](../cluster_guides/modules.md).
 
-???- question "Can I use other Python modules?"
+### 3b Create a conda environment
 
-    Yes, you can use any module later than (and including) the `python/3.10.8`
-    module.
+Coming soon!
 
 ### 4. Start the Jupyter notebook
 
 Still within the terminal of the interactive session,
-start a notebook like this:
-
-```bash
-jupyter-notebook --ip 0.0.0.0 --no-browser
-```
-
-or jupyter lab:
+start a Jupyter Lab like this:
 
 ``` bash
 jupyter-lab --ip 0.0.0.0 --no-browser
 ```
 
-Jupyter will show some IP address in the terminal,
-which you will need in the next step.
+This will start a jupyter server session so leave this terminal open. The terminal will also display multiple URLs.
+
+Copy the URL containing ``pXXX``.
 
 ### 5. Browser to the Jupyter notebook
 
-In the remote desktop environment on Rackham, start Firefox.
-Set Firefox to the URL addresses from the Jupyter output.
+In the remote desktop environment on Pelle, start Firefox.
+Set Firefox to the URL addresses from the Jupyter output, which will be similar to http://p115.uppmax.uu.se:8888/lab?token=73178b5ec897ae9bed6ae4b1815137d83dff671562574989
 
 ???- question "Can I start Firefox from the terminal too?"
 
@@ -102,5 +110,5 @@ Set Firefox to the URL addresses from the Jupyter output.
     where `[URL]` is a URL produced by Jupyter, for example:
 
     ```bash
-    firefox http://127.0.0.1:8889/tree?token=7c305e62f7dacf65d74a4b966e2851987479ad0a258de34f
+    firefox http://p115.uppmax.uu.se:8888/lab?token=73178b5ec897ae9bed6ae4b1815137d83dff671562574989
     ```
