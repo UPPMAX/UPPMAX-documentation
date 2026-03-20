@@ -145,7 +145,8 @@ you are now asked to pick a Bianca project.
 ### 5. Type your Bianca project
 
 You will be asked for your UPPMAX project's name.
-Type it and press enter.
+This will be shown in the console and can also be  a list to pick from if you have several projects. 
+Note that old projects start with ``sens``, whereas from 2026 starts with ``naiss``
 
 ???- question "How does this look like?"
 
