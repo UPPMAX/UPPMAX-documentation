@@ -70,6 +70,7 @@ nav:
         - Tracer: software/tracer.md
       - Machine Learning and AI:
         - NVIDIA DLF: software/nvidia-deep-learning-frameworks.md
+        - Ollama: software/ollama.md  
         - TensorFlow: software/tensorflow.md
         - Whisper: software/whisper.md
       - Programming languages:
