@@ -25,7 +25,7 @@ Use what you learn and dive into the basic concepts of bioinformatics with simpl
 
 !!! note "Venue and registration:"
 
-    - **Date**: 26 and 27 August, 2026
+    - **Date**: 27 and 28 August, 2026
     - **Time**: 9:15 - 12:00 and 13:15 -16:00
     - **Location**: On-line via Zoom
 
