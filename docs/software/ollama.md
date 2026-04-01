@@ -60,7 +60,7 @@ mkdir -p $OLLAMA_MODELS
 unset CUDA_VISIBLE_DEVICES
 /proj/naiss-XXXXXX/userid/nobackup/ollama/bin/ollama serve
 ```
-3. Look at the end that ollama dicovered the GPU
+3. Look at the end that ollama discovered the GPU
 ```
 ...
 time=2026-03-20T07:58:02.030+01:00 level=INFO source=types.go:42 msg="inference compute" id=GPU-92ada8a8-9cda-effe-830e-0bdfcd3e0a96 filter_id="" library=CUDA compute=7.5 name=CUDA0 description="Tesla T4" libdirs=ollama,cuda_v13 driver=13.1 pci_id=0000:81:00.0 type=discrete total="15.0 GiB" available="14.6 GiB"
