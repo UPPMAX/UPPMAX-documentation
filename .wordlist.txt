@@ -1147,3 +1147,7 @@ Vapor
 parallelised
 parallelise
 parallelisation
+spyder
+Spyder
+ollama
+Ollama
