@@ -25,7 +25,7 @@ Operating system     |Location(s)
 Linux                |[FileZilla website](https://filezilla-project.org/download.php), Ubuntu App Center
 MacOS (intel)        |[FileZilla website](https://filezilla-project.org/download.php?platform=osx)
 MacOS (Apple Silicon)|[FileZilla website](https://filezilla-project.org/download.php?platform=macos-arm64)
-Windows              |[UU Software Center](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/manage-and-update-your-windows-computer/installing-or-ordering-software-windows) (Suggested!), [FileZilla website (not sponsored version)](https://filezilla-project.org/download.php?show_all=1 )
+Windows              |[UU Software Center](https://www.uu.se/en/staff/service-and-tools/it-and-telephony-services/it-services/computers-and-client-management/client-management/client-management-for-windows) (Suggested!), [FileZilla website (not sponsored version)](https://filezilla-project.org/download.php?show_all=1 )
 
 <!-- markdownlint-enable MD013 -->
 !!! warning "AI tool caution"
