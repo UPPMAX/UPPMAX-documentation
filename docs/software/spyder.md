@@ -16,11 +16,11 @@ To use Spyder on one of the HPC center resources, you must have a Thinlinc windo
 
 ## Principles
 
-- start an interactive session
-- load a Python or Spyder module
-- load your Spyder environment
+- start an interactive session where you can use graphics, like ThinLinc/Desktop
+- load spyder module or make a Conda or venv environment
+- load your needed python modules or populate the created environmentwith needed python packages
 - start Spyder
 
-## How to start Jupyter
+## How to start and run Spyder
 
 - [Run Spyder on Pelle](spyder_on_pelle.md)
