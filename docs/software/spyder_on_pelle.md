@@ -1,6 +1,9 @@
 ---
 tags:
-  - Jupyter
+  - Spyder
+  - bundle
+  - module
+  - conda
   - Pelle
 ---
 
@@ -8,12 +11,12 @@ tags:
 
 ![Jupyter on old cluster Rackham](./img/jupyter_rackham_thinlinc.png)
 
+**FIX**
+
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
 among other [Spyder](../software/jupyter.md).
-Here we describe how to run [Jupyter](../software/jupyter.md)
-on Pelle.
 
-Jupyter is an [IDE](../software/ides.md) specialised for
+Spyder is an [IDE](../software/ides.md) specialised for
 [the Python programming language](../software/python.md).
 
 ## Procedure
@@ -62,7 +65,7 @@ interactive -A uppmax2025-2-393 -t 8:00:00
 
 - Step 2: Check our [Python Bundles page](python_bundles.md) and choose compatible modules.
 
-    - Check if your needed python packages are compatible with a JupyterLab module.
+    - Check if your needed python packages are compatible with a Spyder module.
     - If not you may need to go to 3b instead to create a isolated environment in Conda.
 
 #### Example with compatible  versions on Pelle
@@ -76,15 +79,15 @@ load the ``Spyder`` module compatible with the ``foss2023b`` toolchain (``GCCcor
 
 ```bash
 ml Spyder/6.0.1-GCCcore-13.2.0
-SciPy-bundle/2023.11-gfbf-2023b
-matplotlib/3.8.2-gfbf-2023b
+ml SciPy-bundle/2023.11-gfbf-2023b
+ml matplotlib/3.8.2-gfbf-2023b
 ```
 
 ???- question "Forgot what the module system is?"
 
     See [the UPPMAX pages on the module system](../cluster_guides/modules.md).
 
-### 3b Create a conda environment and or 
+### 3b Create a conda environment and activate it
 
 First time: 
 
@@ -117,13 +120,11 @@ export CONDA_ENVS_PATH=/proj/<project>
 source activate spyder-env
 ```
 
-### 4. Start the Jupyter notebook
+### 4. Start the Spyder notebook
 
 Still within the terminal of the interactive session,
 start a Spyder session like this:
 
 ``` bash
-   spyder &
-   # or
-   spyder3 &
+spyder &
 ```
