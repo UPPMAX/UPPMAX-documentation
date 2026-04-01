@@ -1,4 +1,5 @@
 # Running ollama on Pelle
+<!-- markdownlint-disable MD029 --><!-- Let's break  Ordered list item prefix since we are sure about the numbering anyway -->
 
 ## Summary
 
@@ -6,9 +7,9 @@
 - The location of the ollama models needs to be redirected in to a folder within the project `export OLLAMA_MODELS=/proj/naiss-XXXXX/...`.
 - `ollama serve` must run on an allocated GPU or CPU node.
 - Interaction with your `ollama serve` could be done
-    -  on the allocated node itself
-    -  on the login node
-    -  on your own computer
+    - on the allocated node itself
+    - on the login node
+    - on your own computer
 - Running non-interactive tasks
 
 ## User installation of ollama
@@ -27,7 +28,7 @@ cd /proj/naiss-XXXXX/userid/nobackup
 wget https://ollama.com/download/ollama-linux-amd64.tar.zst
 ```
 
-3. Make folder where you will unpack 
+3. Make folder where you will unpack
 
 ```bash
 mkdir ollama && cd ollama
@@ -49,7 +50,7 @@ interactive -A nais-XXXXX -p gpu -t 1:00:00 --gpus=l40s:1
 interactive -A naiss-XXXXX -p haswell -c 16 -t 1:00:00 --gpus=t4:1
 ```
 
-```
+```bash
 # exampe output from running the last command
 salloc: Pending job allocation 4068884
 salloc: job 4068884 queued and waiting for resources
@@ -74,7 +75,7 @@ unset CUDA_VISIBLE_DEVICES
 
 3. Look at the end that ollama discovered the GPU
 
-```
+```bash
 ...
 time=2026-03-20T07:58:02.030+01:00 level=INFO source=types.go:42 msg="inference compute" id=GPU-92ada8a8-9cda-effe-830e-0bdfcd3e0a96 filter_id="" library=CUDA compute=7.5 name=CUDA0 description="Tesla T4" libdirs=ollama,cuda_v13 driver=13.1 pci_id=0000:81:00.0 type=discrete total="15.0 GiB" available="14.6 GiB"
 time=2026-03-20T07:58:02.030+01:00 level=INFO source=routes.go:1832 msg="vram-based default context" total_vram="15.0 GiB" default_num_ctx=4096
@@ -111,7 +112,7 @@ llama3.2:latest           a80c4f17acd5    2.0 GB    39 hours ago
 llama4:scout              bf31604e25c2    67 GB     40 hours ago
 ```
 
-## Expose `ollama serve` to Pelle login node or personal computer.
+## Expose `ollama serve` to Pelle login node or personal computer
 
 Warning: This approach exposes the ollama instance to everyone on Pelle - Use with caution.
 
@@ -172,7 +173,7 @@ export OLLAMA_HOST=localhost:21434
 ollama list
 ```
 
-```
+```bash
 NAME                      ID              SIZE      MODIFIED     
 qwen2.5-coder:14b         9ec8897f747e    9.0 GB    23 hours ago
 gemma3:latest             a2af6cc3eb7f    3.3 GB    36 hours ago
