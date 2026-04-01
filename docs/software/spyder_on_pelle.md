@@ -11,7 +11,7 @@ tags:
 
 ![Jupyter on old cluster Rackham](./img/jupyter_rackham_thinlinc.png)
 
-**FIX**
+**FIX** picture
 
 There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
 among other [Spyder](../software/jupyter.md).
@@ -89,7 +89,7 @@ ml matplotlib/3.8.2-gfbf-2023b
 
 ### 3b Create a conda environment and activate it
 
-First time: 
+First time:
 
 ``` bash
 ml Miniforge3/24.11.3-0
