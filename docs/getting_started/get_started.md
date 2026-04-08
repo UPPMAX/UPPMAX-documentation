@@ -25,7 +25,7 @@ This page describes how to get started with UPPMAX.
         get_SUPR_account --> get_project
         get_project --> get_uppmax_account
         get_uppmax_account --> get_2fa
-   ```
+    ```
 
     - The solid lines denote a dependency, e.g. you need an UPPMAX account
       to get an UPPMAX project.
