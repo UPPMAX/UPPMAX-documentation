@@ -20,11 +20,17 @@ This page describes how to get started with UPPMAX.
         get_2fa[Get your UPPMAX 2FA]
         get_project[Apply for an UPPMAX project]
         get_uppmax_account[Apply for a user name for UPPMAX facilities]
+        wait_for_email[Wait for an email with further instructions]
+        login[Log in and change your password]
+        use[use UPPMAX]
         
         get_supr_account --> accept_supr_user_agreement
         get_SUPR_account --> get_project
         get_project --> get_uppmax_account
         get_uppmax_account --> get_2fa
+        get_2fa --> wait_for_email
+        wait_for_email --> login
+        login --> use
     ```
 
     - The solid lines denote a dependency, e.g. you need an UPPMAX project
