@@ -18,7 +18,7 @@ R is a programming language for statistical computing and data visualisation
 [R on Pelle](r_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
 
 [RStudio on Pelle](rstudio_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
-     
+
 
 Here we discuss:
 
