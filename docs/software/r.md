@@ -7,7 +7,7 @@ tags:
   - programming language
 ---
 
-# R
+# R (on Bianca)
 
 ![The R logo, from https://www.r-project.org/logo/](./img/r_logo_50.png)
 
@@ -20,7 +20,7 @@ R is a programming language for statistical computing and data visualisation
 [RStudio on Pelle](rstudio_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
 
 
-Here we discuss Bianca even if there are some similarities:
+Here we discuss **Bianca** even if there are some similarities:
 
 - [the R programming language](#the-r-programming-language)
 - [the R interpreter](#the-r-interpreter)
