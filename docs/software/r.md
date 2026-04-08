@@ -61,7 +61,6 @@ flowchart TD
     r_packages --> r_packages_module
     rstudio --> rstudio_module
 
-    rstudio_module --> |automatically loads latest| r_packages_module
     r_packages_module --> |automatically loads corresponding version of| r_module
 ```
 
