@@ -15,6 +15,7 @@ benchmarking
 BenchmarkTools
 bianca
 BioConductor
+Bioconductor
 bioinfo
 Bourne
 Bzip
