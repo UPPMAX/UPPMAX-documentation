@@ -22,7 +22,7 @@ This page describes how to get started with UPPMAX.
         get_uppmax_account[Apply for a user name for UPPMAX facilities]
         wait_for_email[Wait for an email with further instructions]
         login[Log in and change your password]
-        use[use UPPMAX]
+        use[Use UPPMAX]
         
         get_supr_account --> accept_supr_user_agreement
         get_SUPR_account --> get_project
@@ -75,7 +75,7 @@ See how to set this up at
 Follow the
 [instructions to change your Uppmax password](change_reset_uppmax_password.md).
 
-## Step 7: use UPPMAX
+## Step 7: Use UPPMAX
 
 Now you can use the UPPMAX resources!
 
