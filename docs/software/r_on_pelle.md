@@ -26,6 +26,7 @@ Here we discuss:
 - [R software development](#r-software-development)
 - [How to install personal packages](#how-to-install-personal-packages)
 - [How to create a Singularity container for an R package](create_singularity_container_for_r_package.md)
+- [Common errors](#common-errors)
 
 ```mermaid
 flowchart TD
@@ -208,7 +209,30 @@ As of this writing, our most recent installations are
 - `R-bundles` compatible with R-4.4.2
 - `RStudio/2025.09.0-387`
 
-If you need an older version, do module avail R or R_packages or RStudio to see older versions as well.
+If you need an older version, do ``module avail R`` or ``R-bundle`` or ``RStudio`` to see older versions as well.
 
-Note that `R_packages/4.3.1` contains 23475 packages, nearly all packages available on CRAN and BioConductor, as well as several custom packages installed from Github and other repositories. See module help R_packages/4.3.1 and R_packages for more information.
+## Common errors
+
+Here we will gather common errors.
+
+### Graphical device not supporting transparency
+
+!!! bug "Error message"
+
+    ```bash
+    Warning message:
+    In plot.xy(xy, type, ...) :
+       semi-transparency is not supported on this device: reported only once per page
+    null device
+    ```
+    
+!!! success "Solution"
+
+    place the following in your ``~/.Rprofile``
+
+    ```bash
+    setHook(packageEvent("grDevices", "onLoad"),
+    function(...) grDevices::X11.options(type='cairo'))
+    options(device='x11')
+    ```
 
