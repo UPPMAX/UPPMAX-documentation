@@ -92,6 +92,8 @@ This leads you to the next page, the proposal details.
 
 So far it is an ordinary NAISS project, no resource coupled to sensitive projects is yet chosen.
 
+<!-- markdownlint-disable MD029 --> <!--ol-prefix Ordered list item prefix-->
+
 !!! tips
 
     1. Project Title should be the topic of your activity.
