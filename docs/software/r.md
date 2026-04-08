@@ -14,6 +14,12 @@ tags:
 R is a programming language for statistical computing and data visualisation
 (from [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))).
 
+
+[R on Pelle](r_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
+
+[RStudio on Pelle](rstudio_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
+     
+
 Here we discuss:
 
 - [the R programming language](#the-r-programming-language)
