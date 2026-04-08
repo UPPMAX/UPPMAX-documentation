@@ -22,16 +22,13 @@ This page describes how to get started with UPPMAX.
         get_uppmax_account[Apply for a user name for UPPMAX facilities]
         
         get_supr_account --> accept_supr_user_agreement
-        get_SUPR_account -.-> get_2fa
-        get_2fa -.-> get_project
         get_SUPR_account --> get_project
         get_project --> get_uppmax_account
-    ```
+        get_uppmax_account --> get_2fa
+   ```
 
     - The solid lines denote a dependency, e.g. you need an UPPMAX account
       to get an UPPMAX project.
-    - The dashed lines denote a 'maybe' or 'optional', e.g. some UPPMAX
-      projects require two factor authorisation.
 
 ## Step 1: Get a SUPR account
 
