@@ -89,57 +89,10 @@ In the terminal of the interactive session, do:
 module load R/4.5.1-gfbf-2024a RStudio/2025.09.0-387
 ```
 
-???- question "How does that look like?"
-
-    Your output will be similar to:
-
-    ```bash
-    [sven@r210 sven]$ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
-    R/4.3.1: Nearly all CRAN and BioConductor packages are installed and available by loading
-    the module R_packages/4.3.1
-    R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might
-    R_packages/4.3.1: require you to load additional modules prior to use. monocle3 is such a package. See
-    R_packages/4.3.1: 'module help R_packages/4.3.1'
-
-    R_packages/4.3.1: The RStudio packages pane is disabled when loading this module, due to RStudio slowdowns
-    R_packages/4.3.1: because there are >20000 available packages. *All packages are still available.*  For
-    R_packages/4.3.1: more information and instructions to re-enable the packages pane (not recommended) see
-    R_packages/4.3.1: 'module help R_packages/4.3.1'
-
-    RStudio/2023.12.1-402: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.12.1-402' for more information
-    ```
-
 ???- question "What happens if I do not load `R`?"
 
     Then you will have the sytem-wide R version
     without any packages installed.
-
-???- question "What does 'Sandboxing is not enabled for RStudio at UPPMAX' mean?"
-
-    Nothing.
-
-    Here is how it looks like:
-
-    ```bash
-    [sven@r482 sven]$ module load RStudio/2023.06.2-561
-    RStudio/2023.06.2-561: Sandboxing is not enabled for RStudio at UPPMAX. See 'module help RStudio/2023.06.2-561' for more information
-    [sven@r482 sven]$ module help RStudio/2023.06.2-561
-
-    --------------------------------------------------- Module Specific Help for "RStudio/2023.06.2-561" ----------------------------------------------------
-     RStudio - use RStudio 2023.06.2-561
-
-     Version 2023.06.2-561
-
-    With the Linux distribution used on most UPPMAX clusters (CentOS 7), RStudio/2023.06.2-561
-    prefers to use a 'suid sandbox'. We do not enable this at UPPMAX. Instead, we disable sandboxing
-    during startup of RStudio by defining a shell alias for the 'rstudio' command. You may notice
-    additional errors in the terminal window from which you ran the 'rstudio' command. This is
-    expected and does not affect RStudio operation.
-
-    For performance reasons, UPPMAX disables checks for updates.
-
-    UPPMAX also disables the 'Packages' pane of RStudio if an R_packages module is loaded.
-    ```
 
 
 ## 4. Start RStudio
@@ -148,14 +101,14 @@ With the modules loaded, start RStudio from the terminal (on the
 interactive session):
 
 ```bash
-rstudio
+rstudio &
 ```
 
-RStudio can be slow to startup, as R has thousands (!) of packages.
+RStudio can be slow to startup, if you also load the R-bundles, as thousands (!) of packages need to be registered by RStudio.
 Additionally, at startup and if enabled, your saved RStudio workspace
 (with potentially a lot of data!) is read.
 
-???- info "How does RStudio look on Pelle?"
+???- info "How does RStudio look? (Example from Bianca)"
 
     RStudio when starting up:
 
