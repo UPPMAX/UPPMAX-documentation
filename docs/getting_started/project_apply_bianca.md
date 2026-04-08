@@ -96,13 +96,14 @@ So far it is an ordinary NAISS project, no resource coupled to sensitive project
 
     1. Project Title should be the topic of your activity.
     2. Edit Basic Information.
+    
         - Abstract should summarise your research plan
         - Resource usage should summarise the compute and storage resources your project will need. Describe the software you will use and how you will use it.
         - Data management plan should contain an abbreviated data management plan. Answer the questions included in the instructions. If you have an online DMP, you may link to it.
         - Sensitive data handling When you add Bianca resources (in step 5), you have to complete this field.
+        
     3. Add co-investigators (if any).
     4. If someone other than the PI needs control over the project, assign a co-investigator the role of proxy.
-
 
 ### 7. Scroll down and add the resource 'Bianca'
 
@@ -199,5 +200,3 @@ Press the "Submit the Proposal" button on the bottom of the page.
 Now, Bianca is added to your proposal. Well done!
 
 ## [Proposal evaluation procedure](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/applying-for-naiss-sens-project/proposal-evaluation-bianca)
-
-See 
