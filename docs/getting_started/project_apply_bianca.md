@@ -92,6 +92,18 @@ This leads you to the next page, the proposal details.
 
 So far it is an ordinary NAISS project, no resource coupled to sensitive projects is yet chosen.
 
+!!! tips
+
+    1. Project Title should be the topic of your activity.
+    2. Edit Basic Information.
+        - Abstract should summarise your research plan
+        - Resource usage should summarise the compute and storage resources your project will need. Describe the software you will use and how you will use it.
+        - Data management plan should contain an abbreviated data management plan. Answer the questions included in the instructions. If you have an online DMP, you may link to it.
+        - Sensitive data handling When you add Bianca resources (in step 5), you have to complete this field.
+    3. Add co-investigators (if any).
+    4. If someone other than the PI needs control over the project, assign a co-investigator the role of proxy.
+
+
 ### 7. Scroll down and add the resource 'Bianca'
 
 In your NAISS project, scroll down to 'Resources' and add Bianca.
@@ -102,11 +114,12 @@ In your NAISS project, scroll down to 'Resources' and add Bianca.
     
     > In your UPPMAX local compute project, scroll down to 'Resources' and add Bianca
 
-Click on 'Add resource to proposal' to add Bianca as a resource.
+Click on 'Add resource to proposal' to add **Bianca** as a resource.
+
 
 ### 8. Edit compute resources
 
-In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'.
+In the 'Add resource Bianca' menu, set the number of thousands of core hours/month and click 'Add resource'.
 
 ???- question "How does that look like?"
 
@@ -125,6 +138,11 @@ You can now choose between
 - request default storage
 - request more than default storage
 - done with storage stage
+
+!!! tip
+
+    - Add the Cygnus /proj resource and set the Requested Capacity to your amount of raw data. You may ignore the other fields.
+    - Add the Cygnus /proj/nobackup resource and set the Requested Capacity to your estimated total minus your raw data. You may ignore the other fields.
 
 ???- question "How does that look like (Request more example)?"
 
@@ -148,7 +166,7 @@ Request needed storage in terms of GiB and number of files for Non-backup
 
     > In the 'Add resource Cygnus /proj/nobackup' menu, set the number of  GiB and number of files and click 'Add resource'
 
-### 11. Want to change your numbers?
+### 10. Want to change your numbers?
 
 You can go back and change your choices. In your NAISS project, scroll down to 'Resources' section to revisit the resources.
 
@@ -166,7 +184,7 @@ Click Bianca or the Storage choice
 
     > Edit
     
-### 12. Submit your proposal
+### 11. Submit your proposal
 
 Press the "Submit the Proposal" button on the bottom of the page.
 
@@ -176,7 +194,10 @@ Press the "Submit the Proposal" button on the bottom of the page.
 
     > Submit
 
-
 ### 13. Done
 
 Now, Bianca is added to your proposal. Well done!
+
+## [Proposal evaluation procedure](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/applying-for-naiss-sens-project/proposal-evaluation-bianca)
+
+See 
