@@ -33,7 +33,7 @@ nav:
     - General cluster tools: 
       - Start an interactive session: cluster_guides/start_interactive_session.md
       - Modules: cluster_guides/modules.md
-      - Slurm: cluster_guides/slurm.md
+      - Job scheduler: cluster_guides/slurm.md
       - Managing your project: cluster_guides/project_management.md
     - Running jobs:
       - Checking and optimising jobs: cluster_guides/optimising_jobs.md
