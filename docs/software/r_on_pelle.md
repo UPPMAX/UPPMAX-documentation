@@ -121,7 +121,7 @@ R
 
 R packages extend what R can do.
 The most common repository for R packages is [CRAN](https://cran.r-project.org).
-As these packages are so common, UPPMAX provides the CRAN packages 
+As these packages are so common, UPPMAX provides the CRAN packages
 in one module, called `R-bundle-CRAN`
 
 To load the latest version of the pre-installed R packages, do:
@@ -130,7 +130,7 @@ To load the latest version of the pre-installed R packages, do:
 module load R-bundle-CRAN
 ```
 
-This will automatically load the corresponding version of the R interpreter (for version``2024.11-foss-2024a`` it is ``R/4.4.2`` ).
+This will automatically load the corresponding version of the R interpreter (for version``2024.11-foss-2024a`` it is ``R/4.4.2``).
 
 ???- "Need a different version?"
 
