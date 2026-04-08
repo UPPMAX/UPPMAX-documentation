@@ -39,7 +39,7 @@ flowchart TD
 
     subgraph uppmax_modules[UPPMAX modules]
       r_module[R]
-      r_packages_module[R_packages]
+      r_packages_module[R-bundle]
       rstudio_module[RStudio]
     end
 
@@ -55,7 +55,6 @@ flowchart TD
     r_packages --> r_packages_module
     rstudio --> rstudio_module
 
-    rstudio_module --> |automatically loads latest| r_packages_module
     r_packages_module --> |automatically loads corresponding version of| r_module
 ```
 
