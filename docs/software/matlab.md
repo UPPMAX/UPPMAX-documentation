@@ -183,13 +183,13 @@ Two commands in MATLAB are important to make your code parallel:
 
 First, start an interactive session on a calculation node with, for instance 8 cores by:
 
-=== Bianca/Rackham
+=== "Bianca/Rackham"
 
     ```console
     interactive -A <project> -p core -n 8 -t 3:00:00
     ```
 
-=== Pelle
+=== "Pelle"
 
     ```console
     interactive -A <project> -n 8 -t 3:00:00
@@ -198,7 +198,7 @@ First, start an interactive session on a calculation node with, for instance 8 c
 In MATLAB open a parallel pool of 8 local workers:
 
 ```matlab
->> p = parpool("local")
+>> p = parpool('local')
 ```
 
 What happens if you try to run the above command twice?  You can't run multiple parallel pools at the same time. Query the number of workers in the parallel pool:
