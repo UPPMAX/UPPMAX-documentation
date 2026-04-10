@@ -1,7 +1,7 @@
 ---
 tags:
   - VSCode
-  - Rackham
+  - Pelle
   - connect
 ---
 
@@ -9,7 +9,7 @@ tags:
 
 ![VSCode from a local computer working on Rackham.](./img/vscode_connected_to_rackham.png)
 
-> VSCode from a local computer working on Rackham.
+> VSCode from a local computer working on the example Rackham.
 
 ## Introduction
 
@@ -21,13 +21,13 @@ that can be used for software development in many languages.
     See [the page on IDEs](../software/ides.md).
 
 In this session, we show how to connect VSCode on your local computer
-to work with your files on Rackham.
+to work with your files on Pelle.
 
 ## Procedure
 
 Below is a step-by-step procedure to start VSCode.
 
-???- question "Prefer a video?"
+???- question "Prefer a video? (example for Rackham)"
 
     See [this YouTube video](https://youtu.be/MkrKi5oU_po).
 
@@ -73,10 +73,10 @@ At the SSH section, click on the '+' (with tooltip 'New remote').
 
     ![Click on the plus](./img/vscode_on_rackham_add_new_remote.png)
 
-### 6. Give the SSH command to connect to Rackham
+### 6. Give the SSH command to connect to Pelle
 
-In the main edit bar, give the SSH command to connect to Rackham,
-e.g. `ssh sven@rackham.uppmax.uu.se`
+In the main edit bar, give the SSH command to connect to Pelle,
+e.g. `ssh sven@pelle.uppmax.uu.se`
 
 ???- question "How does that look like?"
 
@@ -101,7 +101,7 @@ In the bottom left of VSCode, click on the popup window 'Connect'.
 
 ### 9. Done
 
-You are now connected: there is a new window with VSCode connected to Rackham.
+You are now connected: there is a new window with VSCode connected to Pelle.
 
 ???- question "How does that look like?"
 
