@@ -81,13 +81,12 @@ Pelle is quite similar to [Rackham](rackham.md) but we have prepared Pelle speci
 - [Slurm on Pelle](slurm_on_pelle.md)
 - [Starting an interactive session](start_interactive_session_on_pelle.md)
 - [IDEs](../software/ides_on_pelle.md)
+    - [Jupyter](../software/jupyter_on_pelle.md)
+    - [RStudio](../software/rstudio_on_pelle.md)
+    - [VSCode](../software/vscode_on_pelle.md)
 
 ???- warning "We are still preparing documentation of these subjects"
 
-    - [IDEs](../software/ides_on_pelle.md)
-        - Jupyter
-        - RStudio
-        - VSCode
     - Isolated environments
         - venv
     - Run webexport
