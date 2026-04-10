@@ -54,6 +54,7 @@
 
          $ module spider Python/3.13.1-GCCcore-14.2.0
     -------------------------------------------------------------------------------
+    ```
 
 - load a python version like: ``module load Python/3.13.1-GCCcore-14.2.0``
 - from the Python shell with the ``import`` command
