@@ -1,26 +1,26 @@
 # Data transfer to/from Pelle using SFTP
 
-There are multiple ways to [transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
+The program `sftp` allows you to interactively transfer files to/from Pelle
+in a terminal, using SFTP. It cannot be used in scripts and it is not intended
+for sync or iterative backups.
 
-Data transfer to/from Pelle using SFTP
-is one of the ways ways to transfer files to/from Pelle
+!!!- info "Other options for file transfer"
 
-???- question "What are the other ways?"
+    There are multiple ways to
+    [transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
 
-    See [the other ways to transfer data to/from Pelle](../cluster_guides/transfer_pelle.md)
-
-One can transfer files to/from Pelle using SFTP.
 SFTP is an abbreviation of 'SSH File Transfer Protocol',
-where 'SSH' is an abbreviation of 'Secure Shell protocol'
-The program `sftp` allows you to transfer files to/from Pelle using SFTP.
+where 'SSH' is an abbreviation of 'Secure Shell protocol'.
+There are graphical file transfer tools and general file managers that can also
+use SFTP, but only the terminal program `sftp` is discussed on this page.
 
 The process is described here:
 
-## Step 1. Start a terminal on your local computer
+## 1. Start a terminal on your local computer
 
 Start a [terminal](../software/terminal.md) on your local computer.
 
-## Step 2. Run `sftp` to connect to Pelle
+## 2. Run `sftp` to connect to Pelle
 
 In the terminal, run `sftp` to connect to Pelle by doing:
 
@@ -34,12 +34,12 @@ where `[username]` is your UPPMAX username, for example:
 sftp sven@pelle.uppmax.uu.se
 ```
 
-### Step 3. If asked, give your UPPMAX password
+## 3. If asked, give your UPPMAX password and TOTP
 
-If asked, give your UPPMAX password.
+If asked, give your UPPMAX password and second factor TOTP.
 You can get rid of this prompt if you have setup SSH keys
 
-### Step 4. Upload/download files to/from Pelle
+## 4. Upload/download files to/from Pelle
 
 In [`sftp`](../software/sftp.md), upload/download files to/from Pelle.
 
