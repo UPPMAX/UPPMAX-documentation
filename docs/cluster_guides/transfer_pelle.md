@@ -16,6 +16,7 @@ Method                                                        |Features
 [Using rsync](#using-rsync)                                   |Terminal, easy to learn, can be used in scripts, efficient for backups
 [Using SCP](#using-scp)                                       |Terminal, easy to learn, can be used in scripts
 [Using SFTP](#using-sftp)                                     |Terminal, easy to learn, secure
+[Using git](#using-git)                                       |Terminal, easy to learn, good for (text) files to be worked on
 [Using transit](#using-transit)                               |Terminal, easy to learn, secure, can transfer between HPC clusters
 
 Each of these methods is discussed below.
@@ -67,6 +68,16 @@ SFTP is considered a secure file transfer protocol.
 See [Pelle file transfer using SFTP](../software/pelle_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
 
+## Using git
+
+You can transfer files to/from Pelle using git in a [terminal](../software/terminal.md).
+You set up a folder on Pelle as a git repo and a remote to the local repo,
+after which one can push and pull to Pelle.
+This is best suited for text format files that one wants to work on both locally and on Pelle.
+
+See [Using git on Pelle](../software/git_on_pelle.md)
+for caveats and a step-by-step guide on how to set this up.
+
 ## Using `transit`
 
 One can transfer files to/from Pelle using the UPPMAX `transit` server.
@@ -117,6 +128,7 @@ flowchart TD
     user_local_files <--> |graphical tool|files_in_pelle_home
     user_local_files <--> |SCP|files_in_pelle_home
     user_local_files <--> |SFTP|files_in_pelle_home
+    user_local_files <--> |git|files_in_pelle_home
     user_local_files <--> |graphical tool|files_on_transit
     user_local_files <--> |SFTP|files_on_transit
 
