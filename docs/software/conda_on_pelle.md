@@ -6,84 +6,13 @@
 
 ## Install packages or not? Check it
 
-### Python
-
-- Check python versions: `module spider python`
-
-???- question "How does that look like?"
-
-    It will look similar to this:
-
-    ```bash
-    [sven@pelle1 ~]$ module spider python
-
-    ---------------------------------------------------------------------------------------------------------------------------------------
-      Python:
-    ---------------------------------------------------------------------------------------------------------------------------------------
-    Description:
-      Python is a programming language that lets you work more quickly and integrate your systems more effectively.
-
-     Versions:
-        Python/2.7.15-fosscuda-2018b
-        Python/2.7.18-GCCcore-10.2.0
-        Python/2.7.18-GCCcore-13.3.0
-        Python/3.7.4-GCCcore-8.3.0
-        Python/3.8.6-GCCcore-10.2.0
-        Python/3.9.6-GCCcore-11.2.0-bare
-        Python/3.9.6-GCCcore-11.2.0
-        Python/3.10.4-GCCcore-11.3.0-bare
-        Python/3.10.4-GCCcore-11.3.0
-        Python/3.11.3-GCCcore-12.3.0
-        Python/3.11.3-GCCcore-13.3.0
-        Python/3.11.5-GCCcore-13.2.0
-        Python/3.11.5-GCCcore-13.3.0
-        Python/3.12.3-GCCcore-13.3.0
-        Python/3.13.1-GCCcore-14.2.0
-     Other possible modules matches:
-        Biopython  IPython  Python-bundle-PyPI 
-
-    ---------------------------------------------------------------------------------------
-      To find other possible module matches execute:
-
-          $ module -r spider '.*python.*'
-
-    -------------------------------------------------------------------------------------------------------------------------
-      For detailed information about a specific "Python" package (including how to load the modules) use the module's full name.
-      Note that names that have a trailing (E) are extensions provided by other modules.
-      For example:
-
-         $ module spider Python/3.13.1-GCCcore-14.2.0
-    -------------------------------------------------------------------------------
-    ```
-
-- load a python version like: ``module load Python/3.13.1-GCCcore-14.2.0``
-- from the Python shell with the ``import`` command
-- from BASH shell with the
-    - `pip list` command
-
-### Is it not there, or is it a stand-alone tool? Then proceed!
-
-!!! info "Tip Python packages"
-
-    - Try Conda first directly on Bianca.
-    - Otherwise, on **Rackham**, in first case use **Pip**.
-    - We have mirrored all _major_ Conda repositories directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
-    - If you want to keep number of files down, use PyPI (pip).
-
-## Python packages with pip
-
-???- question "Want to see the video 'Load and use Python packages on UPPMAX'?"
-
-    See the YouTube video
-    [how to load and use Python packages](https://youtu.be/novRJfAa2QA?si=IQM3g37TsimemDl6)
-
-See the [Python user guide](https://uppmax.github.io/UPPMAX-documentation/software/python/)
+Follow the procedure to look for packages [here](https://docs.uppmax.uu.se/software/python_pelle/#python-packages)
 
 ## Conda repositories
 
-We have mirrored all major non-proprietary Conda repositories (not ``main``, ``anaconda`` and ``r``) directly on UPPMAX, on both Rackham and Bianca. These are updated every third day.
+We do NOT have (as we do have on Banca) mirrored all major non-proprietary Conda repositories (not ``main``, ``anaconda`` and ``r``) directly on UPPMAX.
 
-!!! info "Available Conda channels"
+!!! info "We allow the following Conda channels"
 
     - bioconda
     - biocore
@@ -99,9 +28,19 @@ We have mirrored all major non-proprietary Conda repositories (not ``main``, ``a
     - nvidia
     - pytorch
 
-!!! info "More info"
+## Loading Conda
 
-    - [Installing Conda packages on Bianca](https://uppmax.github.io/bianca_workshops/extra/conda/)
+### Enough with ``conda-forge``
+
+```console
+ml Miniforge3
+```
+
+### Need other channels
+
+```console
+ml Miniconda3
+```
 
 ## Using Conda
 
@@ -143,7 +82,7 @@ We have mirrored all major non-proprietary Conda repositories (not ``main``, ``a
 
     - [Conda cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
-## Your conda settings on Rackham and Bianca
+## Your conda settings
 
 - ```export CONDA_ENVS_PATH=/a/path/to/a/place/in/your/project/```
 
