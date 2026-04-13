@@ -41,13 +41,13 @@ an easier setup is [log in to the Pelle console environment with a password](log
 From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
-ssh -A [user]@pelle.uppmax.uu.se
+ssh [user]@pelle.uppmax.uu.se
 ```
 
 For example:
 
 ```bash
-ssh -A sven@pelle.uppmax.uu.se
+ssh sven@pelle.uppmax.uu.se
 ```
 
 ## 3. Type your UPPMAX password
