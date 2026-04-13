@@ -28,7 +28,7 @@ $ squeue -j 46964140
 You can start `xterm` [terminal](../software/terminal.md) in this allocated session like this:
 
 ```bash
-xterm -e ssh -AX r174 &
+xterm -e ssh -X r174 &
 ```
 
 `salloc` command gives you a job allocation of one node for 15 minutes (the "--no-shell" option is important here). Instead you can log in to any node of any of your running jobs, started with e.g. the `sbatch` command.
