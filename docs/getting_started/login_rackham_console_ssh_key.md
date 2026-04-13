@@ -36,13 +36,13 @@ an easier setup is [log in to the Rackham console environment with a password](l
 From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
 
 ```bash
-ssh -A [user]@rackham.uppmax.uu.se
+ssh [user]@rackham.uppmax.uu.se
 ```
 
 For example:
 
 ```bash
-ssh -A sven@rackham.uppmax.uu.se
+ssh sven@rackham.uppmax.uu.se
 ```
 
 ## 3. Type your UPPMAX password
