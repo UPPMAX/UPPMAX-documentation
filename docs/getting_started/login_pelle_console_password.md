@@ -50,17 +50,14 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
     ```bash
     sven@svens_computer:~$ ssh -X sven@pelle.uppmax.uu.se
     The authenticity of host 'pelle.uppmax.uu.se (89.44.250.8<X>)' can't be established.
-    ECDSA key fingerprint is SHA256:W/MazH3WrH0wKrHBOJpPbDaU4qeYGqiv3FRPsdXIsb4.
+    ECDSA key fingerprint is SHA256:1ooqfYQ4sFTxFlk4WxYWb4pUb178JOTKsaX9dpWruHU.
     This key is not known by any other names.
     Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
 
+    [Valid finger prints for Pelle](login_pelle_console_password.md)
+    
     - Type `yes`!
-
-    - Other valid fingerprints are:
-        - ``SHA256:y241gg8SExSktACnpD+OvROrMPTJcXYYdT/zYReef+k``
-        - ``SHA256:hkhuV+0mUDL7N4Jpr8/OWInrORSAL5ZRpvAqfjyg7Jg``
-
 
 ???- question "How can I display graphics on Pelle?"
 
