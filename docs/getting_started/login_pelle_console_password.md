@@ -55,7 +55,7 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
     Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
 
-    [Valid finger prints for Pelle](pelle_fingerprints.md)
+    [Valid finger prints for Pelle](../cluster_guides/pelle_fingerprints.md)
     
     - Type `yes`!
 
