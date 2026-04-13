@@ -171,16 +171,16 @@ chmod 700 ~
 ### 4. [Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md)
 
 [Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md),
-using `ssh -A`:
+using `ssh`:
 
 ```bash
-ssh -A [username]@bianca.uppmax.uu.se
+ssh [username]@bianca.uppmax.uu.se
 ```
 
 For example:
 
 ```bash
-ssh -A sven@bianca.uppmax.uu.se
+ssh sven@bianca.uppmax.uu.se
 ```
 
 You will still get a login, asking for (1) your UPPMAX password,
