@@ -73,17 +73,7 @@ ssh sven@rackham.uppmax.uu.se
 
 ???- question "Why no `-A`?"
 
-    On Rackham, one can use `-A`:
-
-    ```bash
-    ssh -A username@rackham.uppmax.uu.se
-    ```
-
-    This option is only useful when you want to
-    [log in to Rackham via the console using an SSH key](login_rackham_console_ssh_key.md).
-    As we here use passwords (i.e. no SSH keys)
-    to access Rackham, `-A` is unused
-    and hence we simplify this documentation by omitting it.
+    This is not recommended because of security issues.
 
 ## 2. Type your UPPMAX password
 
