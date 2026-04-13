@@ -6,11 +6,11 @@
 
 ## Install packages or not? Check it
 
-Follow the procedure to look for packages [here](https://docs.uppmax.uu.se/software/python_pelle/#python-packages)
+Follow the procedure to look for [Python packages](https://docs.uppmax.uu.se/software/python_pelle/#python-packages)
 
 ## Conda repositories
 
-We do NOT have (as we do have on Banca) mirrored all major non-proprietary Conda repositories (not ``main``, ``anaconda`` and ``r``) directly on UPPMAX.
+We do NOT have (as we do have on Bianca) mirrored all major non-proprietary Conda repositories (not ``main``, ``anaconda`` and ``r``) directly on UPPMAX.
 
 !!! info "We allow the following Conda channels"
 
