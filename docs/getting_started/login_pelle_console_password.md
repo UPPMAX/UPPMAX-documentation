@@ -55,7 +55,7 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
     Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
 
-    [Valid finger prints for Pelle](login_pelle_console_password.md)
+    [Valid finger prints for Pelle](pelle_fingerprints.md)
     
     - Type `yes`!
 
@@ -74,17 +74,7 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
 
 ???- question "Why no `-A`?"
 
-    On Pelle, one can use `-A`:
-
-    ```bash
-    ssh -A username@pelle.uppmax.uu.se
-    ```
-
-    This option is only useful when you want to
-    [log in to Pelle via the console using an SSH key](login_pelle_console_ssh_key.md).
-    As we here use passwords (i.e. no SSH keys)
-    to access Pelle, `-A` is unused
-    and hence we simplify this documentation by omitting it.
+    This is not recommended because of security issues.
 
 ## 2. Type your UPPMAX password
 
