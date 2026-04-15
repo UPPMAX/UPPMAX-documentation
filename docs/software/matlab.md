@@ -113,7 +113,7 @@ Some online tutorials and courses:
 To start MATLAB with its usual graphical interface (GUI), start it with:
 
 ```console
-matlab %
+matlab &
 ```
 
 If you will use significant resources, like processor or RAM, you should start an interactive session on a calculation node. Use at least 2 cores (-n 2), when running interactive. Otherwise MATLAB may not start. You can use several cores if you will do some parallel calculations (see parallel section below). Example:
