@@ -4,7 +4,7 @@ tags:
   - transcriptions
   - AI
 date:
-    updated: 2026-01-27
+    updated: 2026-04-16
 ---
 
 # Whisper
@@ -188,7 +188,7 @@ On Mac, `.txt`, `.srt` and `.vtt` can be opened in Word by:
 
     1. When asked for Initial Prompt, provide a list of comma separated words or sentences (less than 80 words) that describe what the recording is about or the words used by the speaker in the recording. It should be in written in same language as the language in spoken in the recordings.
 
-    2. Try switching to Model: large-v3.
+    2. Try switching to Model: large-v3 or kb-whisper-large-v3 (for swedish transcriptions only).
 
     3. Use combination of both 1 and 2.
 
