@@ -17,7 +17,7 @@ interactive environments across platforms.
 Matplotlib can be used in Python scripts, the Python and IPython shell,
 web application servers, and six graphical user interface toolkits.
 
-### Loading the Matplotlib module
+## Loading the Matplotlib module
 
 Here is how to load the default Matplotlib module:
 
@@ -25,7 +25,7 @@ Here is how to load the default Matplotlib module:
 module load matplotlib
 ```
 
-### Example
+## Example
 
 Here is the minimal Python code to create a Matplotlib plot:
 
@@ -36,7 +36,7 @@ plt.plot([0, 1, 4, 9, 16])
 plt.savefig('my_plot.png')
 ```
 
-### Matplotlib main package(s)"
+## Matplotlib main package(s)
 
 - `contourpy`
 - `Cycler`
@@ -51,11 +51,11 @@ plt.savefig('my_plot.png')
     - Python-bundle-PyPI
     - SciPy-bundle
 
-### Matplotlib installed versions
+## Matplotlib installed versions
 
 These are the Matplotlib installed versions and their dependencies.
 
-#### Matplotlib 3.9.2-gfbf-2024a
+### Matplotlib 3.9.2-gfbf-2024a
 
 Packages:
 
@@ -71,7 +71,7 @@ Dependencies:
 - `Python-bundle-PyPI/2024.06-GCCcore-13.3.0`
 - `SciPy-bundle/2024.05-gfbf-2024a`
 
-#### Matplotlib 3.10.5-gfbf-2025b
+### Matplotlib 3.10.5-gfbf-2025b
 
 Packages:
 
