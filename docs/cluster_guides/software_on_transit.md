@@ -17,7 +17,7 @@ The purpose of the transit server is to give users access to their wharf folders
     overlay             2.9G  2.4G  580M  81% /gorilla/home/user_3
     ...
     ```
-    
+
 - Transit is **world-wide accessible**.
 - **X11 and any port forwarding is disabled** i.e. graphical tools do not work.
 - **The software module system of Pelle is available** on transit.
