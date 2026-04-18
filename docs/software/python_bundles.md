@@ -245,16 +245,16 @@ compiler infrastructure to compile Python syntax to machine code.
         - Python-bundle-PyPI/2025.07-GCCcore-14.3.0
         - SciPy-bundle/2025.07-gfbf-2025b
 
-## `pandas`
+## pandas
 
-`pandas` ([`pandas` homepage](https://pandas.pydata.org/))
+pandas ([pandas homepage](https:/pandas.pydata.org/))
 is an open source data analysis and manipulation tool,
 built on top of the Python programming language.
 
 ### Loading the pandas module
 
-There is no specific module for `pandas`: it is part of the `SciPy-bundle`
-module instead. Here is how to load the module for `pandas`:
+There is no specific module for pandas: it is part of the SciPy-bundle
+module instead. Here is how to load the module for pandas:
 
 ````bash
 module load SciPy-bundle/2024.05-gfbf-2024a
