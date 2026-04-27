@@ -387,3 +387,8 @@ In the rest of the sections, provide the following information:
     -rw-rw-r-- 1 sw   75572083 Nov 10 14:22 tiny.pt
     ```
 
+## FAQs
+
+Q. Is it possible to play audio/recording on Bianca?
+A. No. Audio, like text, is sensitive data. Any data leaving Bianca should go through a proper channel like sftp (FileZilla or WinSCP). For this reason, one cannot play a recording or audio on Bianca. You will have to transfer it outside Bianca to your computer and then listen to it.
+
