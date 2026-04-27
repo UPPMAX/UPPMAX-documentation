@@ -30,5 +30,5 @@ enhance the theoretical understanding of the principles.
 - **When:** Monday 4 May to (and including) Friday 8 May 2026, 9:00-16:00
 - **Where:** Online (Zoom).
   The link will be sent to registered participants prior to the course.
-- [**Registration form**](https://nextcloud.naiss.se/apps/forms/s/RgTawHYfja5sdsBEYsy8ZRHp)
+- [**Registration form**](https://nextcloud.naiss.se/apps/forms/s/RgTawHYfja5sdsBEYsy8ZRHp) to be filled in before 13.00 on Thursday 30 April.
 
