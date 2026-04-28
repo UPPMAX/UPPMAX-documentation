@@ -33,14 +33,14 @@ from outside of the Swedish university networks.
 - Log in to Bianca via Pelle in one line
 
 ```console
-ssh bjornc@bianca.uppmax.uu.se -J sven@pelle.uppmax.uu.se
+ssh sven@bianca.uppmax.uu.se -J sven@pelle.uppmax.uu.se
 sven@pelle.uppmax.uu.se's password:
 sven@pelle.uppmax.uu.se) Second factor (TOTP UPPMAX):
 
 Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
 
-(bjornc@bianca.uppmax.uu.se) Password:
-(bjornc@bianca.uppmax.uu.se) Second factor (TOTP UPPMAX):
+(sven@bianca.uppmax.uu.se) Password:
+(sven@bianca.uppmax.uu.se) Second factor (TOTP UPPMAX):
 ```
 
 - You are now inside the Bianca session and sensitive data is not seen by Pelle at all.
