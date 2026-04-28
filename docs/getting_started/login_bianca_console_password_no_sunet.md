@@ -47,19 +47,19 @@ Provide your normal UPPMAX password. You will supply the TOTP code separately, i
 
 ## Procedure with using any server within SUNET as a "jump host"
 
-We give here an example of using Tetralith cluster at NSC. Replace "Tetralith" with the cluster or server (in SUNET) you have account on.
+We give here an example of using Transit cluster. Replace "Transit" with the cluster or server (in SUNET) you have account on.
 
-- Log in to Bianca via Tetralith in one line:
+- Log in to Bianca via Transit in one line:
 
 ```console
-ssh bjornc@bianca.uppmax.uu.se -J sm_bcarl@tetralith.nsc.liu.se
-(sm_bcarl@tetralith.nsc.liu.se) Password:
-(sm_bcarl@tetralith.nsc.liu.se) Verification code:
+ssh sven@bianca.uppmax.uu.se -J sven@transit.uppmax.uu.se
+(sven@transit.uppmax.uu.se) Password:
+(sven@transit.uppmax.uu.se) Verification code:
 
 Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
 
-(bjornc@bianca.uppmax.uu.se) Password:
-(bjornc@bianca.uppmax.uu.se) Second factor (TOTP UPPMAX):
+(sven@bianca.uppmax.uu.se) Password:
+(sven@bianca.uppmax.uu.se) Second factor (TOTP UPPMAX):
 ```
 
-- You are now inside the Bianca session and sensitive data is not seen by Tetralith (or the server you use) at all.
+- You are now inside the Bianca session and sensitive data is not seen by Transit (or the server you use) at all.
