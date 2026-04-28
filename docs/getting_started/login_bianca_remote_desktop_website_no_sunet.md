@@ -34,10 +34,10 @@ Example Pelle:
 ssh -L 8443:bianca:443 sven@pelle.uppmax.uu.se
 ```
 
-Example Transit:
+Example Tetralith (NSC):
 
 ```bash
-ssh -L 8443:bianca:443 sven@transit.uppmax.uu.se
+ssh -L 8443:bianca:443 sven@tetralith.uppmax.uu.se
 ```
 
 - In your browser, enter the following web address [https://bianca-localhost.uppmax.uu.se](https://bianca-localhost.uppmax.uu.se)
