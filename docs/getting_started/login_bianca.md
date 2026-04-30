@@ -124,7 +124,7 @@ Here are the ways to log in to Bianca:
 - [2.Use a terminal and password to access Bianca directly](login_bianca_console_password.md)
 - [3.Use a terminal and SSH keys to access Bianca directly](login_bianca_console_ssh_key.md)
 - (Workaround if you are outside of SUNET) [4.Use a terminal and password via Pelle](login_bianca_console_password_no_sunet.md)
-  to log in to Bianca's console environment. 
+  to log in to Bianca's console environment.
 - Unfortunately you cannot reach the remote desktop for Pelle outside SUNET
 
 After login, you will be on a [login node](../cluster_guides/login_node.md).
