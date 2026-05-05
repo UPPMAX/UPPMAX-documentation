@@ -215,7 +215,7 @@ in an interactive session on compute nodes.
 Some UPPMAX specific tools are not yet working on Pelle.
 
 - `uquota` - works.
-- `projinfo` - not implemented yet.
+- `projinfo` - works.
 - `finishedjobinfo` - use `sacct` instead
 - `jobinfo` - use tools like `squeue` and `sprio` instead
 - `jobstats` - not working on Pelle. Might be replaced by an alternative solution.
