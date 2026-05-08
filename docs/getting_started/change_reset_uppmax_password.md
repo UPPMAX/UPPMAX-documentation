@@ -55,13 +55,13 @@ Now you will be asked to repeat the old password and set a new one!
 ### 1. Request the reset
 
 Go to [Request Uppmax Password Reset](https://suprintegration.uppmax.uu.se/getpasswd).
-After authenticating yourself, you're password is reset immediately.
+After authenticating yourself, your password is reset immediately.
 
-You will be sent an email in around 5 minutes.
+You will be sent an email in 5 to 10 minutes.
 
 ### 2. Open email
 
-Open the email and click on the link that it suggests you to click.
+Open the email and go to the page it asks you to.
 
 ???- question "What does that email look like?"
 
@@ -75,24 +75,19 @@ Open the email and click on the link that it suggests you to click.
     You can fetch it by visiting the link below.
     Note though that the link is only valid for 7 days and one (1) visit.
 
-    You can retrieve the password at the following link:
+    You can retrieve the password at the following link (copy it to a web browser and remove the spaces):
 
-    https://content.uppmax.uu.se/get-password2.php?sum=hvs.CAESIGOczS0[more_letters]
+    suprintegration.uppmax.uu.se   /fetchpwd?sum=hvs.CAESIHEbbZvU[many_more_characters]
 
-    If the password has expired, you can request a new password from our homepage
-    https://www.uppmax.uu.se and the link "Lost your password?".
+    If the password has expired, you can request a new password from our homepage https://docs.uppmax.uu.se and the link "Reset Password".
 
-    Note that if you requested a new password because your account was locked,
-    it may take some additional time (up to an hour) before that change is
-    reflected everywhere.
+    Note that if you requested a new password because your account was locked, it may take some additional time (up to an hour) before that change is reflected everywhere.
 
-    If you are unsure about what your user name is, this information is available
-    in SUPR (https://supr.snic.se/) under Accounts.
+    If you are unsure about what your user name is, this information is available in SUPR (https://supr.naiss.se/) under Accounts.
 
-    For general information about how to login, change your password and
-    so on, please see our getting started guide at
+    For general information about how to login, change your password and so on, please see our getting started guide at
 
-    http://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/
+    https://docs.uppmax.uu.se/getting_started/get_started/#getting-started-first-login-to-uppmax
 
     regards, UPPMAX Support
 
@@ -102,16 +97,17 @@ Open the email and click on the link that it suggests you to click.
     ```
 
     In this example,
-    `https://content.uppmax.uu.se/get-password2.php?sum=hvs.CAESIGOczS0[more_letters]`
-    is the link you should click
+    `suprintegration.uppmax.uu.se/fetchpwd?sum=hvs.CAESIHEbbZvU[many_more_characters]`
+    is the address you should visit.
 
-This will take you to a page with your new password.
+This will take you to a webpage (that can only be visited once) with your new password.
 
 ### 3. Log in with your new password
 
-At the page with your new password, you use that password to log in.
+You can now use the password given on that webpage to login.
+It can be used multiple times, but it is recommended to change it.
 
-### 4. (optional) Change your password
+### 4. Change your password
 
 If you want to change your password, see
 [Changing a known password](#changing-a-known-password)
