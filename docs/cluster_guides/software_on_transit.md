@@ -41,6 +41,7 @@ Please, use the full path to run the tools.
 - `ena-webin-cli` - `/sw/generic/pixi-tools/bin/ena-webin-cli`
 - `aspera-cli` - `/sw/generic/pixi-tools/bin/ascli`
 - `awscli` - `/sw/generic/pixi-tools/bin/aws`
+- `s3cmd` - `/sw/generic/pixi-tools/bin/s3cmd`
 - `lftp` - `/sw/generic/pixi-tools/bin/lftp`
 - `filesender` - `/sw/generic/uv-tools/tool_bin/filesender`
 - `filesender.py` - `/sw/generic/uv-envs/EOSC-filesender/.venv/bin/filesender.py`
