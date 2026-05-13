@@ -21,7 +21,7 @@ To start an interactive session on specific cluster:
 
 ## Types of nodes
 
-The UPPMAX HPC clusters have three types of nodes:
+The UPPMAX HPC clusters have two types of nodes:
 
 ???- tip "What are nodes?"
 
@@ -29,7 +29,7 @@ The UPPMAX HPC clusters have three types of nodes:
 
 - **[login nodes](../cluster_guides/login_node.md)**:
   nodes where a user enters and interacts with the system
-- **calculation nodes**: nodes that do the calculations
+- **compute nodes**: nodes that do the calculations
 
 ???- tip "Requesting a calculation to run"
 
@@ -90,7 +90,7 @@ can take minutes before the new code is run.
 Instead, there is a way to directly work
 with such code: use an interactive session.
 
-An interactive session is a type of calculation node,
+An interactive session actually logs you in to a compute node,
 where one can run heavy calculations directly.
 
 ```mermaid
@@ -100,11 +100,11 @@ flowchart TD
     interaction_type[What type of interaction?]
     login_node(Work on login node)
     interactive_session(Work on interactive session)
-    calculation_node(Schedule for calculation node)
+    compute_node(Schedule for compute node)
 
     UPPMAX-->operation_type
     operation_type-->|light,short|login_node
     operation_type-->|heavy,long|interaction_type
     interaction_type-->|Direct|interactive_session
-    interaction_type-->|Indirect|calculation_node
+    interaction_type-->|Indirect|compute_node
 ```
