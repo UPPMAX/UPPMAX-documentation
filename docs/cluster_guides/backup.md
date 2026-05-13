@@ -7,7 +7,7 @@ tags:
 
 # Backup
 
-!!! warning "Changed procedures for NEW Gorilla storage versus OLD Crex storage"
+!!! warning "For Pelle users: Changed procedures for NEW Gorilla storage versus OLD Crex storage"
 
     For projects on crex a project directory had the default content
     
