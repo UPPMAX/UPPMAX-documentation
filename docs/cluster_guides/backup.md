@@ -7,7 +7,7 @@ tags:
 
 # Backup
 
-!!! warning "Changed procedures for Gorilla storage versus OLD Crex storage"
+!!! warning "Changed procedures for NEW Gorilla storage versus OLD Crex storage"
 
     For projects on crex a project directory had the default content
     
@@ -23,7 +23,9 @@ tags:
 
     And **only** what is in the 'backup' directory is backed up according to the backup processes.
 
-    A backup allows one to restore his/her data
+    Bianca storage works as before.
+
+A backup allows one to restore his/her data
     after it has been (accidentally) lost.
 
 This page describes how UPPMAX does backups.
@@ -53,6 +55,29 @@ Provide as much information as possible, especially directory and file names.
 
 ## What is the UPPMAX backup procedure?
 
+At Pelle cluster just the `backup` folder has backup, such as
+
+Folder                 |Example                |Description           |Backed up     | Not backed up
+-----------------------|-----------------------|----------------------|--------------|----------
+`/home/[username]`     |`/home/sven`           |Your home folder      | Everything   | No exception!
+`/proj/UPPMAX2025-2-262`|`/proj/uppmax2025-2-262`  |UPPMAX projects   |`backup`      | All other folders
+
+
+All folders on Bianca and long-term storage have a backup, except those in a folder called `nobackup`,
+such as:
+
+Folder                 |Example                |Description           |Exceptions
+-----------------------|-----------------------|----------------------|------------------------
+`/home/[username]`     |`/home/sven`           |Your home folder      |No exception!
+`/proj/sensYYYYXXX`    |`/proj/sens2016001`    |Sensitive data project|Folders named `nobackup`
+`/proj/NAISSYYYY-X-ZZ`    |`/proj/naissYYYY-4-ZZ`|Sensitive data project|Folders named `nobackup`
+`/proj/sllstoreYYYYXXX`|`/proj/sllstore2017096`|SciLifeLab Storage    |Folders named `nobackup`
+`/proj/uppoff20YYXXX`  |`/proj/uppoff2021003`  |UPPMAX offload storage|Folders named `nobackup`
+
+Additionally, your home folder has snapshots taken,
+which take place more often and can be recovered yourself.
+See [the UPPMAX documentation on snapshots](snapshot.md).
+
 UPPMAX performs an incremental backup with **30** day retention.
 
 This means:
@@ -78,23 +103,8 @@ The backup service works best when it can keep up with the changes
 on files that have a backup.
 
 One important way to help work the backup service,
-is to put intermediate/temporary data in a directory with `nobackup`
-in its name.
+is to put intermediate/temporary data in a directory that is not backed up.
 
-All folders have a backup, except those in a folder called `nobackup`,
-such as:
-
-Folder                 |Example                |Description           |Exceptions
------------------------|-----------------------|----------------------|------------------------
-`/home/[username]`     |`/home/sven`           |Your home folder      |Folders named `nobackup`
-`/proj/sensYYYYXXX`    |`/proj/sens2016001`    |Sensitive data project|Folders named `nobackup`
-`/proj/sllstoreYYYYXXX`|`/proj/sllstore2017096`|SciLifeLab Storage    |Folders named `nobackup`
-`/proj/uppoff20YYXXX`  |`/proj/uppoff2021003`  |UPPMAX offload storage|Folders named `nobackup`
-`/proj/snicYYYY-X-ZZZZ`|`/proj/snic2022-6-85`  |SNIC projects         |Folders named `nobackup`
-
-Additionally, your home folder has snapshots taken,
-which take place more often and can be recovered yourself.
-See [the UPPMAX documentation on snapshots](snapshot.md).
 
 ## What should I put in directories with backup?
 
