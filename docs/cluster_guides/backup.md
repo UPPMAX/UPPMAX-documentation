@@ -7,8 +7,24 @@ tags:
 
 # Backup
 
-A backup allows one to restore his/her data
-after it has been (accidentally) lost.
+!!! warning "Changed procedures for Gorilla storage versus OLD Crex storage"
+
+    For projects on crex a project directory had the default content
+    
+    - nobackup
+    - private
+
+    and everything except what was in 'nobackup' was backed up according the the backup processes.
+
+    In gorilla the default content is instead:
+
+    - backup
+    - private
+
+    And **only** what is in the 'backup' directory is backed up according to the backup processes.
+
+    A backup allows one to restore his/her data
+    after it has been (accidentally) lost.
 
 This page describes how UPPMAX does backups.
 
