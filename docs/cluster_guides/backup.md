@@ -55,6 +55,8 @@ Provide as much information as possible, especially directory and file names.
 
 ## What is the UPPMAX backup procedure?
 
+### At Pelle
+
 At Pelle cluster just the `backup` folder has backup, such as
 
 Folder                 |Example                |Description           |Backed up     | Not backed up
@@ -62,6 +64,7 @@ Folder                 |Example                |Description           |Backed up
 `/home/[username]`     |`/home/sven`           |Your home folder      | Everything   | No exception!
 `/proj/UPPMAX2025-2-262`|`/proj/uppmax2025-2-262`  |UPPMAX projects   |`backup`      | All other folders
 
+### At Bianca  and long-term storage clusters
 
 All folders on Bianca and long-term storage have a backup, except those in a folder called `nobackup`,
 such as:
