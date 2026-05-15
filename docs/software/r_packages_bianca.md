@@ -32,16 +32,11 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 
 ## Principles
 
-Works for all 
---------------|-----------------------------------
-Find source files (``*.tar.gz``)
-Download to Transit/whar
-Install On Bianca
+- Find source files (``*.tar.gz``)
+- Download to Transit and wharf folder with ``wget``
+- Install On Bianca
 
-## Users without access to Rackham/Pelle
-
-- **NOTE** that if you install a package this way, you need to handle any dependencies yourself.
-    - For instance you might get use of our modules from R_packages
+### Detailed steps
 
 Use [transit](../cluster_guides/login_transit.md)!
 
@@ -51,6 +46,11 @@ Use [transit](../cluster_guides/login_transit.md)!
 4. Load R_packages of desired version (R is loaded on the fly)
 5. Start R session
 6. Install from source in R session
+
+??? question "Can I use ``sftp`` to ``bianca-sftp.uppmax.uu.se``?"
+
+    - No!
+    - ``wget`` cannot be used within an SFTP session. 
 
 ### Download part
 
