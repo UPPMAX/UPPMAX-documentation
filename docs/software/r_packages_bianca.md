@@ -32,11 +32,11 @@ drwxrwsr-x  7 douglas sw  4096 May 25 10:46 glmnetr
 
 ## Principles
 
-Works for all | Special solution for Rackham users
+Works for all 
 --------------|-----------------------------------
-Find source files | Install in side a R session on Rackham
-Download to Transit/wharf| Transfer to the wharf via any method
-Install On Bianca | Move package to right folder
+Find source files (``*.tar.gz``)
+Download to Transit/whar
+Install On Bianca
 
 ## Users without access to Rackham/Pelle
 
@@ -46,7 +46,7 @@ Install On Bianca | Move package to right folder
 Use [transit](../cluster_guides/login_transit.md)!
 
 1. [Log in to transit](https://docs.uppmax.uu.se/cluster_guides/login_transit/)
-2. [Go to the mounted project folder](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/#3-mount-a-bianca-project)r
+2. [Go to the mounted project folder](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_rsync/#3-mount-a-bianca-project)
 3. [Download](#download-part) source files with ``wget``
 4. Load R_packages of desired version (R is loaded on the fly)
 5. Start R session
@@ -54,7 +54,7 @@ Use [transit](../cluster_guides/login_transit.md)!
 
 ### Download part
 
-- Use your **webbrowser** to find the package in
+- Use your **web browser** to find the package in
     - [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html)
     - GitHub page
 - Find the version of the package
@@ -177,218 +177,94 @@ wget <package>_<version>.tar.gz
         
     ```  
 
-## UU affiliated projects can also install on Rackham
+    - Check the used version (look for the dowser ino)
 
-- **note** First decide on which R version it should be based on and load that R_packages module.
-- If not stated otherwise, your installation will end up in the ``~/R`` directory within your home directory
+    ```R
+    sessionInfo()
+    ```  
 
-### Download and install on Rackham
+    ??? question "How may that look like?"
 
-- automatic download and install from CRAN
-- automatic download and install from GitHub
+        ```R
+        sessionInfo()
+        R version 4.3.1 (2023-06-16)
+        Platform: x86_64-pc-linux-gnu (64-bit)
+        Running under: CentOS Linux 7 (Core)
 
+        Matrix products: default
+        BLAS:   /sw/apps/R/4.3.1/rackham/lib64/R/lib/libRblas.so
+        LAPACK: /sw/apps/R/4.3.1/rackham/lib64/R/lib/libRlapack.so;  LAPACK version 3.11.0
 
-- manual download and install
-    - <https://uppmax.github.io/bianca_workshops/extra/rpackages>
-    - **NOTE** that if you install a package this way, you need to handle any dependencies yourself.
-        - For instance you might get use of our modules
+        locale:
+         [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C
+         [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8
+         [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8
+         [7] LC_PAPER=en_US.UTF-8       LC_NAME=C
+         [9] LC_ADDRESS=C               LC_TELEPHONE=C
+        [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C
 
-### Transfer to wharf
+        time zone: Europe/Stockholm
+        tzcode source: system (glibc)
 
-- You may transfer the whole R library (in you home folder)
-    - this is usually the easiest way
-- or select the directory(-ies) related to you new installation
-    - **note** there may be more than one directory
+        attached base packages:
+        [1] stats     graphics  grDevices utils     datasets  methods   base
 
-### Move package to local Bianca R package path
+        other attached packages:
+        [1] dowser_2.0.0  ggplot2_3.4.3
 
-- Sync or move the R directory or the specific folders to your ``~/R`` directory on bianca
+        loaded via a namespace (and not attached):
+         [1] ade4_1.7-22                 tidyselect_1.2.0
+         [3] dplyr_1.1.3                 Biostrings_2.68.1
+         [5] bitops_1.0-7                fastmap_1.1.1
+         [7] lazyeval_0.2.2              RCurl_1.98-1.12
+         [9] GenomicAlignments_1.36.0    digest_0.6.33
+        [11] phylotate_1.3               lifecycle_1.0.3
+        [13] alakazam_1.3.0              tidytree_0.4.5
+        [15] magrittr_2.0.3              compiler_4.3.1
+        [17] rlang_1.1.1                 progress_1.2.2
+        [19] tools_4.3.1                 igraph_1.5.1
+        [21] utf8_1.2.3                  yaml_2.3.7
+        [23] phangorn_2.11.1             prettyunits_1.2.0
+        [25] S4Arrays_1.0.6              DelayedArray_0.26.7
+        [27] KernSmooth_2.23-21          aplot_0.2.1
+        [29] abind_1.4-5                 BiocParallel_1.34.2
+        [31] withr_2.5.1                 purrr_1.0.2
+        [33] BiocGenerics_0.46.0         grid_4.3.1
+        [35] stats4_4.3.1                shazam_1.2.0
+        [37] fansi_1.0.4                 colorspace_2.1-0
+        [39] iterators_1.0.14            scales_1.2.1
+        [41] MASS_7.3-60                 SummarizedExperiment_1.30.2
+        [43] cli_3.6.1                   crayon_1.5.2
+        [45] treeio_1.24.3               generics_0.1.3
+        [47] ggtree_3.8.2                tzdb_0.4.0
+        [49] ape_5.7-1                   cachem_1.0.8
+        [51] stringr_1.5.0               zlibbioc_1.46.0
+        [53] parallel_4.3.1              ggplotify_0.1.2
+        [55] XVector_0.40.0              matrixStats_1.0.0
+        [57] yulab.utils_0.1.0           vctrs_0.6.3
+        [59] Matrix_1.6-1.1              jsonlite_1.8.7
+        [61] gridGraphics_0.5-1          IRanges_2.34.1
+        [63] hms_1.1.3                   patchwork_1.1.3
+        [65] S4Vectors_0.38.2            seqinr_4.2-30
+        [67] foreach_1.5.2               diptest_0.76-0
+        [69] tidyr_1.3.0                 glue_1.6.2
+        [71] codetools_0.2-19            stringi_1.7.12
+        [73] gtable_0.3.4                GenomeInfoDb_1.36.3
+        [75] quadprog_1.5-8              GenomicRanges_1.52.0
+        [77] munsell_0.5.0               tibble_3.2.1
+        [79] pillar_1.9.0                GenomeInfoDbData_1.2.10
+        [81] R6_2.5.1                    airr_1.5.0
+        [83] doParallel_1.0.17           lattice_0.21-8
+        [85] Biobase_2.60.0              markdown_1.9
+        [87] readr_2.1.4                 Rsamtools_2.16.0
+        [89] memoise_2.0.1               ggfun_0.1.3
+        [91] Rcpp_1.0.11                 fastmatch_1.1-4
+        [93] gridExtra_2.3               nlme_3.1-162
+        [95] fs_1.6.3                    MatrixGenerics_1.12.3
+        [97] pkgconfig_2.0.3
+        >
+        ```
 
-### Test your installation
-
-- Start an R session on bianca and load the new package
-
-### Example: Update dowser
-
-[dowser on ReadTheDocs](https://dowser.readthedocs.io/en/latest/){:target="_blank"}
-
-!!! info
-
-    - Dowser is part of the Immcantation analysis framework for Adaptive Immune Receptor Repertoire sequencing (AIRR-seq).
-    - Dowser provides a set of tools for performing phylogenetic analysis on B cell receptor repertoires.
-    - It supports building and visualising trees using multiple methods, and implements statistical tests for discrete trait analysis of B cell migration, differentiation, and isotype switching.
-
-The version of dowser in ``R_packages/4.2.1`` is 1.1.0. It was updated to version 1.2.0 on [2023-05-30](https://cran.rstudio.com/web/packages/dowser/){:target="_blank"}.
-
-#### Install dowser Rackham
-
-You can update this for yourself by beginning on **rackham**. Do
-
-``` bash
-module load R_packages/4.2.1
-```
-
-and then, within R, do
-
-``` R
-install.packages('dowser')
-```
-
-The `install.packages()` command that you use to install new packages is also used to update already installed packages.
-
-As the update begins, you will see two questions, answer yes to both:
-
-``` R
-Warning in install.packages("dowser") :
-      'lib = "/sw/apps/R_packages/4.2.1/rackham"' is not writable
-    Would you like to use a personal library instead? (yes/No/cancel) yes
-```
-
-and
-
-``` R
-Would you like to create a personal library
-    '~/R/x86_64-pc-linux-gnu-library/4.2'
-    to install packages into? (yes/No/cancel) yes
-```
-
-If you have already installed or updated an R package with R_packages/4.2.1 loaded that resulted in creating a personal library, you may not see one or both of these questions.
-
-This will then lead to a brief installation process.  This creates the directory `~/R/x86_64-pc-linux-gnu-library/4.2` that it refers to in the question.  This directory contains your personal installations and updates of R packages.
-
-The complete installation output for this update on rackham was:
-
-``` R
-> packageVersion('dowser')
-[1] '1.1.0'
-> install.packages('dowser')
-Installing package into '/sw/apps/R_packages/4.2.1/rackham'
-(as 'lib' is unspecified)
-Warning in install.packages("dowser") :
-  'lib = "/sw/apps/R_packages/4.2.1/rackham"' is not writable
-Would you like to use a personal library instead? (yes/No/cancel) yes
-Would you like to create a personal library
-'/domus/h1/douglas/R/x86_64-pc-linux-gnu-library/4.2'
-to install packages into? (yes/No/cancel) yes
---- Please select a CRAN mirror for use in this session ---
-trying URL 'https://ftp.acc.umu.se/mirror/CRAN/src/contrib/dowser_1.2.0.tar.gz'
-Content type 'application/x-gzip' length 1722229 bytes (1.6 MB)
-==================================================
-downloaded 1.6 MB
-
-* installing *source* package 'dowser' ...
-** package 'dowser' successfully unpacked and MD5 sums checked
-** using staged installation
-** R
-** data
-*** moving datasets to lazyload DB
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* DONE (dowser)
-
-The downloaded source packages are in
-    '/scratch/RtmpRo0Gz5/downloaded_packages'
->
-> packageVersion('dowser')
-[1] '1.2.0'
-```
-
-#### Transfer to the Wharf
-
-After installation, the next step is to copy the contents of this directory over to bianca so that it is the same directory within your bianca home directory.
-
-Make sure you are in your **home directory**. Then connect to the bianca wharf.  Replace the name and project with your bianca user name and project.
-
-``` bash
-sftp douglas-sens2017625@bianca-sftp
-```
-
-You log in here like you log into bianca: the first password is your **password followed by the 6-digit authenticator code**, the second password (if required for you) is only your password.
-
-Once sftp has connected, the contents of the current directory can be listed with
-
-``` bash
-dir
-```
-
-It should look like this:
-
-    sftp> dir
-    douglas-sens2017625
-
-Now ``cd`` to this directory, which is your wharf directory within your project.
-
-``` bash
-sftp> cd douglas-sens2017625/
-sftp> dir
-sftp>
-```
-
-If you have not uploaded anything to your wharf, this will be empty. It might have a few things in it.
-
-Now, upload your entire personal ``R`` directory from rackham here.
-
-``` bash
-sftp> put -r R
-```
-
-This will take a while to upload all the files. When it has completed, quit.
-
-``` bash
-sftp> quit
-```
-
-- Now, **log into bianca** using the shell, or using the web interface and start a terminal.
-- Once you have a bianca shell, **change to your wharf directory** within your project.  Replace my user and project with yours.
-
-``` bash
-cd /proj/sens2017625/nobackup/wharf/douglas/douglas-sens2017625
-```
-
-Within this directory should be your R directory.
-
-``` bash
-[douglas@sens2017625-bianca douglas-sens2017625]$ ls -l
-total 1892
-drwxrwxr-x  3 douglas douglas    4096 Mar  2 14:27 R
-```
-
-#### Sync from Wharf to Home directory
-
-- Now sync this to your home directory:
-
-``` bash
-[douglas@sens2017625-bianca douglas-sens2017625]$ rsync -Pa R ~/
-```
-
-#### Start an R session and load the new package
-
-Because R_packages/4.2.1 was loaded when you installed/updated the packages in your personal R library, you need to have it loaded when you use these packages as well.
-
-Simply change to the directory you want to work in, load the R_packages/4.2.1 module, and get to work.
-
-``` bash
-[douglas@sens2017625-bianca douglas-sens2017625]$ cd /proj/sens2017625/nobackup/douglas/
-    [douglas@sens2017625-bianca douglas]$ module load R_packages/4.2.1
-```
-
-Then start R, and load the new package.
-
-``` bash
-[douglas@sens2017625-bianca douglas]$ R
-```
-
-``` R
-    > packageVersion('dowser')
-    [1] '1.2.0'
-    > library(dowser)
-    >
-```
-
+- You should see: ``dowser_2.0.0 ``
+- This confirms that you are using version ``2.0.0``!
+- You can now remove the source file from the wharf folder.
