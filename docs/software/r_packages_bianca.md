@@ -50,7 +50,7 @@ Use [transit](../cluster_guides/login_transit.md)!
 ??? question "Can I use ``sftp`` to ``bianca-sftp.uppmax.uu.se``?"
 
     - No!
-    - ``wget`` cannot be used within an SFTP session. 
+    - ``wget`` cannot be used within an SFTP session.
 
 ### Download part
 
@@ -265,6 +265,6 @@ wget <package>_<version>.tar.gz
         >
         ```
 
-- You should see: ``dowser_2.0.0 ``
+- You should see: ``dowser_2.0.0``
 - This confirms that you are using version ``2.0.0``!
 - You can now remove the source file from the wharf folder.
