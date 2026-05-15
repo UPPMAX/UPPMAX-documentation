@@ -27,7 +27,8 @@ as well as some troubleshooting.
 
 ```bash
 lftp sftp://[user_name]@bianca-sftp.uppmax.uu.se
-``
+```
+
 where `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
 
 For example:
