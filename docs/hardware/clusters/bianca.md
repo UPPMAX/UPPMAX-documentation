@@ -10,8 +10,10 @@ tags:
 
 ## Technical Summary
 
-- 258 compute nodes with single or dual CPUs with 256 GB RAM and one 4TB mechanical drive or 1TB SSD
-- Each CPU has 16 cores
+- 258 compute nodes with
+    - single or dual CPUs with 256 GB RAM and
+    - one 4TB mechanical drive or 1TB SSD
+    - Each CPU has 16 cores
 - 15 compute nodes, 512 GB memory each
 - 10 compute nodes each equipped with 2xNVIDIA A100 (40GB) **GPUs**
 - 105 Zen4 type compute nodes, 256 GB each
