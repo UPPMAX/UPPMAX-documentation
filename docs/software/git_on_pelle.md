@@ -61,13 +61,13 @@ Start a [terminal](../software/terminal.md) on your local computer.
 
 In the terminal, run `ssh` to connect to Pelle by doing:
 
-```bash
+``` sh
 ssh [username]@pelle.uppmax.uu.se
 ```
 
 where `[username]` is your UPPMAX username, for example:
 
-```bash
+``` sh
 ssh sven@pelle.uppmax.uu.se
 ```
 
@@ -75,7 +75,7 @@ If asked, give your UPPMAX password and your second factor TOTP.
 
 ### 3. Create the folder to hold your repo on Pelle
 
-```
+``` sh
 mkdir myRepo
 ```
 
@@ -83,9 +83,9 @@ This example uses `~/myRepo` to keep it short. You can use any path in your home
 folder or project storage. On project storage, you can use git for
 collaborating.
 
-### 4. Initialize and configure the git repo on Pelle
+### 4. Initialise and configure the git repo on Pelle
 
-```
+``` sh
 cd myRepo
 git init
 git config receive.denyCurrentBranch updateInstead
@@ -106,7 +106,7 @@ Ctrl+D or `exit` or `logout`.
 Navigate to the folder that holds the repository on your local computer. In that
 folder, run:
 
-```
+``` sh
 git remote add pelle [username]@pelle.uppmax.uu.se:~/myRepo
 ```
 
@@ -125,7 +125,7 @@ To check the URL:s of all remotes you have set up (in this repo) use
 
 ### 7. Push the current version of the repo to Pelle
 
-```
+``` sh
 git push
 ```
 
@@ -133,9 +133,9 @@ Done! Now you have this repo on Pelle as well.
 
 You cannot push to anywhere from Pelle, but you can push to Pelle and pull from
 Pelle with your local computer. And you can clone directly from Pelle if you
-need to work with this repo from more computers, just 
+need to work with this repo from more computers, just
 
-```
+``` sh
 git clone [username]@pelle.uppmax.uu.se:~/myRepo
 ```
 
