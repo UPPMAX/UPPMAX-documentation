@@ -126,7 +126,7 @@ To check the URL:s of all remotes you have set up (in this repo) use
 ### 7. Push the current version of the repo to Pelle
 
 ``` sh
-git push
+git push pelle
 ```
 
 Done! Now you have this repo on Pelle as well.
