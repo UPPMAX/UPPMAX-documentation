@@ -34,7 +34,7 @@ instead for keeping files on Pelle in sync with files elsewhere.
     workloads, wherefore we have a quota not only on storage space but also on
     number of files.
 
-    If git actions are slow it is an indicator that your repository is becoming
+    If git actions are slow it is an indicator that your repository has become
     too large for our storage system.
 
 ### No secrets on Pelle
@@ -133,4 +133,11 @@ Done! Now you have this repo on Pelle as well.
 
 You cannot push to anywhere from Pelle, but you can push to Pelle and pull from
 Pelle with your local computer. And you can clone directly from Pelle if you
-need to work with this repo from more computers.
+need to work with this repo from more computers, just 
+
+```
+git clone [username]@pelle.uppmax.uu.se:~/myRepo
+```
+
+and provide your ssh credentials as needed. That will setup Pelle as the
+`origin` remote, no further configuration needed to pull from and push to Pelle.
