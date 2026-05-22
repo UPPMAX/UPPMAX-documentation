@@ -25,9 +25,9 @@ and backup home directories and some project storage to tape.
 
 ## How much of my quota do I use?
 
-Use [uquota](../software/uquota.md)to check current disk usage and limits.
+Use [uquota](../software/uquota.md) to check current disk usage and limits.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 
@@ -56,7 +56,7 @@ space:
 du -b $PWD | sort -rn | awk 'NR==1 {ALL=$1} {print int($1*100/ALL) "% " $0}' | head -n 20
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output looks similar to this:
 
@@ -93,7 +93,7 @@ space:
 find $PWD -print0 -type f | xargs -0 stat -c "%s %n" | sort -rn
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output looks similar to this:
 
@@ -144,7 +144,7 @@ find $PWD -print0 -type f | xargs -0 stat -c "%s %n" | sort -rn
 ```
 
 This second command produces a list of the files in the current directory
-that take up most space. These may take a long time to complete, use `CTRL + C`
+that take up most space. These may take a long time to complete, use ++ctrl+c++
 to cancel execution if you change your mind.
 
 ### If you need even more quota for archiving
@@ -167,7 +167,7 @@ We have defines several environment variables to help our users. They are:
 
 ### User Home directories
 
-Paths: $HOME or $SNIC_BACKUP
+Paths: `$HOME` or `$SNIC_BACKUP`
 
 Permanent storage of users files during the lifetime of the accounts. Shared access on all cluster nodes. Snapshots are normally enabled on this file system, and you can access the snapshots in every directory by 'ls .snapshot' or 'cd .snapshot'. The quota is 64 GB per user on Pelle but 32 GB ob Bianca. We provide backup of this volume, and we keep the files on tape up to 90 days after they are deleted from disk. If you have files you do not want to back up place them in a folder called 'nobackup'.
 
@@ -181,13 +181,15 @@ Each node has a `/scratch` volume for local access providing the most efficient 
 
 ### Projects global (network) storage
 
-Paths: /proj/[proj-id]
+Paths: `/proj/[proj-id]`
 
 The project global storage is permanent storage of project's files during the lifetime of the project. Disk quota on this volume is shared by all project members. Default quota allocation is determined by your project type.
 
 Note that the quota system on crex is built on group ownership for files/directories. This means that moving files between project directories does not directly affect quota. We have scripts and other tricks that tries to ensure the correct group is always used, but  in general this may lag quite some time - it takes a while to go through everything, especially since we don't want to affect performance. To make sure quota information is correct, you can change the group to the correct one after moving directories:
 
+```
 chgrp -R PROJECT_YOU_MOVED_TO PATH_OF_THE_MOVED_DIRECTORY
+```
 
 if you don't do this, it will still be fixed, but it may take a while.
 

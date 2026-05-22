@@ -56,8 +56,8 @@ The ThinLinc client can be downloaded from the
 
 - Windows/Mac: Right-click and choose, or
 - Windows:
-    - paste: `shift+insert`
-    - copy: `ctrl+insert`
+    - paste: ++shift+insert++
+    - copy: ++ctrl+insert++
 
 ### How do I copy/paste between ThinLinc and locally?
 

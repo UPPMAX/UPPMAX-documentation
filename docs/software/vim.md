@@ -13,7 +13,7 @@ vi
 
 Then:
 
-- Insert mode: type like normal text editor. Press `i` to enter insert mode
+- Insert mode: type like normal text editor. Press ++i++ to enter insert mode
 - Command mode: give commands to the editor.
-  Press `Escape` to enter command mode)
+  Press ++esc++ to enter command mode)
 - Cheat sheet: [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)

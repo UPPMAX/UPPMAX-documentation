@@ -27,19 +27,13 @@ emacs –nw
 
 Do the editing you want, then save with:
 
-```text
-Control-x, Control-s
-```
+++ctrl+x++ &nbsp;, &nbsp; ++ctrl+s++
 
 Exit emacs with:
 
-```text
-Control-x, Control-c
-```
+++ctrl+x++ &nbsp;, &nbsp; ++ctrl+c++
 
 You can read a tutorial in emacs by doing:
 
-```text
-Control-h t
-```
+++ctrl+h++ &nbsp;, &nbsp; ++t++
 

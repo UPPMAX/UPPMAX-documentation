@@ -99,7 +99,7 @@ so-called bare repository, as is used on git servers).
 
 ### 5. Log out from Pelle (or open a second terminal)
 
-Ctrl+D or `exit` or `logout`.
+++ctrl+d++ or `exit` or `logout`.
 
 ### 6. Set up the path on Pelle as a remote in your local repo
 

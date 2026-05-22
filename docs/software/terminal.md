@@ -16,7 +16,7 @@ A terminal is a program that allows you to run commands.
     This depends on the terminal you use, however,
     this is the most common options:
 
-    Press `CTRL + SHIFT + C` for copt, `CTRL + SHIFT + V` for pasting.
+    Press ++ctrl+shift+c++ for copy, &nbsp;++ctrl+shift+v++ for paste.
 
 ???- question "What does all the stuff on the line I can type on mean?"
 
@@ -31,25 +31,29 @@ A terminal is a program that allows you to run commands.
     Here is an example prompt:
 
     ```bash
-    [sven@rackham2 my_folder]$
+    [sven@pelle2 my_folder]$
     ```
 
-    - `[` and `]`: indicates the beginning and end of information
-    - `sven`: the username
-    - `@`: at which cluster
-    - `rackham2`: the remote node's name,
-      in this case Rackham's second login node
-    - `my_folder`: (part of) the path of the user,
+    - `[` and `]` indicates the beginning and end of information
+    - `sven` the username
+    - `@` at ...
+    - `pelle2` the computers name (called hostname),
+      in this case Pelle's second login node
+    - `my_folder` (part of) the path of the current directory,
       in this case, a folder called `my_folder`.
-      The indication `~` means that the user in the home folder
-    - `$`: indicate to be ready for user input
+      The character `~` refers to the current users own home folder.
+    - `$` ending the prompt, indicating that the computer is ready for user
+      input (and which kind of prompt this is, if it is another character you
+      are in some other environment or program, e.g. `>>>` indicates you're in
+      Python)
 
-    The node's name is useful to find out where you are:
+    The hostname is useful to know where you are when working with multiple
+    computers, e.g.:
 
     Name                    |Location
     ------------------------|---------------------------
-    `rackham1` to `rackham4`|A Rackham login node
-    `r1` and higher         |A Rackham compute node node
+    `pelle1` and `pelle2`   |A Pelle login node
+    `p#`                    |A Pelle compute node
     `bianca`                |A Bianca login node
-    `b1` and higher         |A Bianca compute node
+    `b#`                    |A Bianca compute node
 

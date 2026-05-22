@@ -31,19 +31,19 @@ nano my_file.txt
 ## Using `nano`
 
 The keyboard shortcuts are shown on-screen,
-where `^` denotes `Ctrl` and `M` the meta key.
+where `^` denotes ++ctrl++ and `M` the *meta* key.
 
 OS specifics:
 
-- On Windows, `Alt` is the meta key
+- On Windows, ++alt++ is the meta key
 - On Mac: in the `Terminal.app`, go to 'Preferences -> Settings -> Keyboard'
-  and turn on "Use option as meta key", after which `Alt` is the meta key
+  and turn on "Use option as meta key", after which ++alt++ is the meta key
 
 Common tasks:
 
-- Save a file: `CTRL + O` , then edit the filename and press enter
-- Exit: `CTRL + X`, press "y" or "n" on some questions
+- Save a file: ++ctrl+o++ , then edit the filename and press enter
+- Exit: ++ctrl+x++ , press ++y++ or ++n++ on some questions
   and/or press Enter to confirm.
-- Help: `CTRL + G`
+- Help: ++ctrl+g++
 
 More tips can be found at [the `nano` cheat sheet](https://www.nano-editor.org/dist/latest/cheatsheet.html).

@@ -22,11 +22,11 @@ Try them out and pick one favourite editor!
 
 !!! tip
 
-    **These commands are useful in the command line when something is stuck or a program is limiting you to do further work.**
+    **These shortcuts and commands are useful in the command line when something is stuck or a program is limiting you to do further work.**
 
-    - ``ctrl-C`` interrupts a program or a command that is "stuck"
-    - ``ctrl-D`` quits some programs from the program environment in the terminal
-    - ``ctrl-Z`` pauses a program, can be continued in background (`bg`) or  foreground (`fg`)
+    - ++ctrl+c++ &nbsp;interrupts a program or a command that is "stuck"
+    - ++ctrl+d++ &nbsp;quits some programs from the program environment in the terminal
+    - ++ctrl+z++ &nbsp;pauses a program, can be continued in background (`bg`) or  foreground (`fg`)
 
 ## Simple terminal editors
 

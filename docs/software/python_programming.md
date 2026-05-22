@@ -27,22 +27,22 @@ nano example_script.py
 
 Within nano, write:
 
-```console
+``` text
 print('Hello, world!')
 ```
 
-- To save, press `CTRL + O` (i.e. the letter), then enter to keep the same filename
-- To quite, press `CTRL + Q`
+- To save, press ++ctrl+o++ (i.e. the letter), then ++enter++ to keep the same filename
+- To quit, press ++ctrl+q++
 
 You can run this Python script in the shell by:
 
-```console
+``` sh
 python example_script.py
 ```
 
-or, if you want to be explicitly use Python 3:
+or, if you want (or need) to explicitly use Python 3:
 
-```console
+``` sh
 python3 example_script.py
 ```
 
@@ -90,13 +90,13 @@ After loading a Python module, you have the Python interpreter available.
 
 Start the Python interpreter by typing:
 
-```console
+``` sh
 python
 ```
 
 or (for explicit Python 3):
 
-```console
+``` sh
 python3
 ```
 
@@ -114,7 +114,7 @@ print('Hello, world!')
 
 and the interpreter will run the statement.
 
-Exit the Python interpreter with `CTRL + D`, `quit()` or `exit()`.
+Exit the Python interpreter with ++ctrl+d++ , `quit()` or `exit()`.
 
 The Python interpreter gives limited auto-complete while writing code
 

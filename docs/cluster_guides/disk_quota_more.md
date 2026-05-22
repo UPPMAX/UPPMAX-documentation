@@ -23,7 +23,7 @@ find $PWD -print0 -type f | xargs -0 stat -c "%s %n" | sort -rn
 ```
 
 This second command produces a list of the files in the current directory
-that take up most space. These may take a long time to complete, use `CTRL + C`
+that take up most space. These may take a long time to complete, use ++ctrl+c++
 to cancel execution if you change your mind.
 
 After these two checks,

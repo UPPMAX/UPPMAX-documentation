@@ -197,7 +197,7 @@ Before you submit the generated transfer script you should make sure everything 
 bash ~/dardel_transfer_script.sh
 ```
 
-If you start see progress reports from `rsync` you know it works and you can press `ctrl+c` to stop.
+If you start see progress reports from `rsync` you know it works and you can press ++ctrl+c++ to stop.
 
 Example of how it can look when it works:
 
