@@ -41,17 +41,10 @@ These minimal examples use a run-time of a short, default time.
 
 To let Slurm schedule a job, one uses `sbatch`.
 
-For Bianca and Rackham, one uses `sbatch` like this:
+For Bianca and Pelle, one uses `sbatch` like this:
 
 ```bash
 sbatch -A [project_code] [script_filename]
-sbatch -M snowy -A [project_code] [script_filename]
-```
-
-For Snowy, one uses `sbatch` like this:
-
-```bash
-sbatch -M snowy -A [project_code] [script_filename]
 ```
 
 Where:
@@ -60,18 +53,11 @@ Where:
   for example `sens2017625`
 - `[script_filename]`: the name of a file that is a bash script,
   for example, `my_script.sh`
-- `-M snowy`: if you use the Snowy computational resources
 
 Filling this all in, for Bianca and Rackham:
 
 ``` bash
 sbatch -A sens2017625 my_script.sh
-```
-
-Filling this all in, for Snowy:
-
-``` bash
-sbatch -M snowy -A sens2017625 my_script.sh
 ```
 
 ???- question "What is my project?"
@@ -106,42 +92,23 @@ where `[script_filename]` the name of a bash script, for example:
 sbatch my_script.sh
 ```
 
-For Bianca and Rackham, the script must contain at least the following lines:
+For Bianca and Pelle, the script must contain at least the following lines:
 
 ```text
 #SBATCH -A [project_code]
-```
-
-For Snowy, the script must contain at least the following lines:
-
-```text
-#SBATCH -A [project_code]
-#SBATCH -M snowy
 ```
 
 With:
 
 - `[project_code]`: the project code, for example `uppmax2023-2-25`
 
-???- question "What is in the script file, for Bianca and Rackham?"
+???- question "What is in the script file, for Bianca and Pelle?"
 
     A full example script would be:
 
     ```bash
     #!/bin/bash
     #SBATCH -A uppmax2023-2-25
-    echo "Hello"
-    ```
-
-
-???- question "What is in the script file, for Snowy?"
-
-    A full example script would be:
-
-    ```bash
-    #!/bin/bash
-    #SBATCH -A uppmax2023-2-25
-    #SBATCH -M snowy
     echo "Hello"
     ```
 
