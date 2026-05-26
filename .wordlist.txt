@@ -1,5 +1,6 @@
 ar
 Ctrl
+ctrl
 pixi
 Linköping
 xclock
