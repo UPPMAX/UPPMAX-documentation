@@ -25,7 +25,7 @@ using a [terminal](../software/terminal.md) and an SSH key pair.
     ----------------|---------------------
     Linux, Ubuntu   |Confirmed not to work
     MacOS           |Rumored not to work
-    Windows         |Rumored to work
+    Windows         |Rumored to work <!-- Check Pavlins notes at https://hackmd.io/@pmitev/SSH_tips -->
 
 
 ## 1. Get inside SUNET
