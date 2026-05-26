@@ -82,7 +82,7 @@ Enter same passphrase again:
 
 The key will now be created and you can add it to the PDC Login Portal.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     This is output similar to what you will see:
 

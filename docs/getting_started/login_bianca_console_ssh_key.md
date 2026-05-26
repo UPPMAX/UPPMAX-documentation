@@ -79,7 +79,7 @@ ssh -A sven@bianca.uppmax.uu.se
 
 Type your UPPMAX password.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     $ ssh -A sven@bianca.uppmax.uu.se
@@ -94,7 +94,7 @@ Type your UPPMAX password.
 
 Type your UPPMAX TOTP.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Second factor (TOTP UPPMAX):
@@ -104,7 +104,7 @@ Type your UPPMAX TOTP.
 
 Type your Bianca project's name.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Project name (pick from sens2016001 sens2017625 sens2023598): sens2017625

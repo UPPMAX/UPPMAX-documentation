@@ -49,7 +49,7 @@ For example:
 ssh sven@bianca.uppmax.uu.se
 ```
 
-???- question "How does this look like (when inside of SUNET)?"
+???- question "What does this look like (when inside of SUNET)?"
 
     ```bash
     sven@svens_computer:~$ ssh sven@bianca.uppmax.uu.se
@@ -61,7 +61,7 @@ ssh sven@bianca.uppmax.uu.se
 
     After which a password will be asked. Go to the next step.
 
-???- question "How does this look like the first time?"
+???- question "What does this look like the first time?"
 
     ```bash
     sven@svens_computer:~$ ssh sven@bianca.uppmax.uu.se
@@ -105,7 +105,7 @@ ssh sven@bianca.uppmax.uu.se
 
 Type your UPPMAX password.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
@@ -121,7 +121,7 @@ Type your UPPMAX password.
 Type the TOTP from the UPPMAX 2-factor authentication service,
 for example `123456`, then press enter.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Second factor (TOTP UPPMAX):
@@ -138,7 +138,7 @@ You will be asked for your UPPMAX project's name.
 This will be shown in the console and can also be  a list to pick from if you have several projects.
 Note that old projects start with ``sens``, whereas from 2026 starts with ``naiss``.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Project name (pick from sens2016001 sens2017625 sens2023598): sens2017625
@@ -170,7 +170,7 @@ It can be `up and running` or `down`.
 If it is `down`, the virtual cluster is started,
 which may take some minutes.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     Here is how it looks like when the node is already running:
 
@@ -185,7 +185,7 @@ which may take some minutes.
 Type your UPPMAX password,
 for example `verysecret`
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     sven@sens2017625-bianca.uppmax.uu.se's password:
@@ -196,7 +196,7 @@ for example `verysecret`
 Enjoy! You are in! Or, to be precise,
 you are on the [login node](../cluster_guides/login_node.md) of your own virtual project cluster.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Last login: Fri Feb  7 12:09:32 2025 from 172.18.144.254
