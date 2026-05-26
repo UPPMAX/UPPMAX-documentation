@@ -187,7 +187,7 @@ The project global storage is permanent storage of project's files during the li
 
 Note that the quota system on crex is built on group ownership for files/directories. This means that moving files between project directories does not directly affect quota. We have scripts and other tricks that tries to ensure the correct group is always used, but  in general this may lag quite some time - it takes a while to go through everything, especially since we don't want to affect performance. To make sure quota information is correct, you can change the group to the correct one after moving directories:
 
-```
+```console
 chgrp -R PROJECT_YOU_MOVED_TO PATH_OF_THE_MOVED_DIRECTORY
 ```
 
