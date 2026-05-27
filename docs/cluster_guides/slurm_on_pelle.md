@@ -429,3 +429,9 @@ use the variable `$TMPDIR` or the equivalent `$SNIC_PATH`.
 The size of /dev/shm have been increased so all allocated memory can
 be used, up to max 99% of a compute nodes total memory. On previous
 clusters the limit was 50% of total memory.
+
+## Billing Weights
+
+Based on the type of resource (CPU, fat node, GPU), Slurm multiplies the requested allocation with its associated billing weight.
+These billing weights are based on the [price associated](https://www.uu.se/en/centre/uppmax/get-started/terms-and-fees#h-Pricelist) with these resources.
+For more detailed understanding of Slurm, one can read its config file at `/etc/slurm/slurm.conf`
