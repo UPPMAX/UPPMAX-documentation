@@ -18,6 +18,17 @@ search:
 There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
 Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
+## For returning users
+
+[Log in to desktop](https://bianca.uppmax.uu.se){ .md-button .md-button--primary }
+
+- SSH session: ``ssh <username>@bianca.uppmax.uu.se>``
+    - Give password and TOTP
+    - Choose  project
+    - Wait
+    - Give password again!
+
+
 ## Which way to log in to Bianca
 
 After you've fulfilled all [prerequisites for using Bianca](bianca_usage_prerequisites.md),
