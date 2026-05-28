@@ -8,7 +8,7 @@ MultiQC can be found among [the UPPMAX modules](../cluster_guides/modules.md).
 module spider MultiQC
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     You output will look similar to this:
 
@@ -52,7 +52,7 @@ To find out how to load a specific version:
 module spider MultiQC/1.22.2
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Output will look similar to:
 
@@ -83,7 +83,7 @@ module load bioinfo-tools
 module load MultiQC/1.22.2
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 

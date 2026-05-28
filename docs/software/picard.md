@@ -17,7 +17,7 @@ Then search for you favourite Picard version:
 module spider picard
 ```
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     Your output will be similar to this:
 
@@ -56,7 +56,7 @@ Then load your favourite version:
 module load picard/3.1.1
 ```
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     Your output will be similar to this:
 
@@ -71,7 +71,7 @@ Read up on how to use Picard:
 module help picard/3.1.1
 ```
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     Your output will be similar to this:
 
@@ -101,7 +101,7 @@ Here is an example of using Picard to test if a file is a valid BAM/CRAM/SAM fil
 java -jar $PICARD ValidateSamFile --INPUT my_file.bam
 ```
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     First, download an example BAM file from the Picard GitHub repository:
 

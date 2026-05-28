@@ -25,7 +25,7 @@ has `cowsay` installed:
 module spider cowsay
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     You output will look similar to this:
 

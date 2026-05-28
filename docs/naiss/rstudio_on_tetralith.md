@@ -58,7 +58,7 @@ Resulting in, for example:
 interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click on 'Terminal Emulator'](rstudio_on_tetralith_1.png)
 
@@ -77,7 +77,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 You will now be on a compute node,
 as indicated by the terminal prompt.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The prompt shows n132](rstudio_on_tetralith_3.png)
   
@@ -92,7 +92,7 @@ In the terminal of the interactive session, do:
 module load R/4.4.0-hpc1-gcc-11.3.0-bare RStudio/2023.09.1+494
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The terminal after loading the RStudio module](rstudio_on_tetralith_3.png)
 
@@ -107,7 +107,7 @@ interactive session):
 rstudio
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Type `rstudio` and press enter](rstudio_on_tetralith_5.png)
 
@@ -117,7 +117,7 @@ rstudio
 
 In RStudio, when asked, click 'Ignore Update'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click 'Ignore Update'](rstudio_on_tetralith_6.png)
 
@@ -128,7 +128,7 @@ In RStudio, when asked, click 'Ignore Update'.
 In RStudio, when asked whether to automatically
 upload crash reports, click your preferred option.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click your favourite option](rstudio_on_tetralith_7.png)
 

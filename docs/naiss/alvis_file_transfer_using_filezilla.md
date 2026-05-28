@@ -160,7 +160,7 @@ In FileZilla's site manager:
     - Upload the key file at `/.ssh/alvis_filezilla.ppk`
       from you local's computer
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks similar to this:
 
@@ -174,7 +174,7 @@ Click 'Connect'.
 
 Now you can transfer files between your local computer and Alvis.
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks like this:
 

@@ -41,7 +41,7 @@ click at 'Application' in the top-left corner,
 then click submenu 'PDC - Data Analysis', then the menu item 'RStudio-R4.4.0'
 to start the job launcher.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click 'Application | PDC - Data Analysis | RStudio-R4.4.0'](rstudio_on_dardel_1.png)
 
@@ -52,7 +52,7 @@ to start the job launcher.
 In the job launcher, select a project at the 'Project' combobox
 and click 'Start' to start RStudio.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click 'Start'](rstudio_on_dardel_2.png)
 
@@ -62,7 +62,7 @@ and click 'Start' to start RStudio.
 
 In RStudio, click 'Ignore update'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click 'Ignore update'](rstudio_on_dardel_3.png)
 

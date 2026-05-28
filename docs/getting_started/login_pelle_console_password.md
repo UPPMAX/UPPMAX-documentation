@@ -45,7 +45,7 @@ ssh sven@pelle.uppmax.uu.se
 
 Using this login, graphics (i.e. images) on Pelle cannot be displayed.
 
-???- question "How does this look like the first time?"
+???- question "What does this look like the first time?"
 
     ```bash
     sven@svens_computer:~$ ssh -X sven@pelle.uppmax.uu.se
@@ -80,7 +80,7 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
 
 Type your UPPMAX password.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
@@ -96,7 +96,7 @@ Type your UPPMAX password.
 Type the TOTP from the UPPMAX 2-factor authentication service,
 for example `123456`, then press enter.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ```bash
     Second factor (TOTP UPPMAX):

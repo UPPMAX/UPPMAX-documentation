@@ -106,7 +106,7 @@ for example `module spider cowsay`.
     R is a free and open-source programming language,
     commonly used in data analysis and visualisation.
 
-???- question "How does the output of `module spider R` look like?"
+???- question "What does the output of `module spider R` look like?"
 
     ```bash
     $ module spider R
@@ -154,7 +154,7 @@ for example `module spider cowsay`.
     > in the SAM (Sequence Alignment/Map), BAM (Binary Alignment/Map)
     > and CRAM formats
 
-???- question "How does the output of `module spider samtools` look like?"
+???- question "What does the output of `module spider samtools` look like?"
 
     ```bash
     $ module spider samtools
@@ -196,7 +196,7 @@ for example `module spider cowsay`.
     -------------------------------------------
     ```
 
-???- question "How does the output of `module spider samtools/1.17` look like?"
+???- question "What does the output of `module spider samtools/1.17` look like?"
 
     ```bash
     $ module spider samtools/1.17
@@ -248,7 +248,7 @@ it is *not* general help for using the tool itself.
 
     Use the command `module list`.
 
-???- question "How does the output of `module list` look like?"
+???- question "What does the output of `module list` look like?"
 
     ```bash
     $ module list
@@ -271,7 +271,7 @@ to load a specific version. The information given by
 For example, to load the `samtools/1.17` module,
 do `module load samtools/1.17`.
 
-???- question "How does the output of `module load GATK/4.3.0.0` look like?"
+???- question "What does the output of `module load GATK/4.3.0.0` look like?"
 
     ```bash
     $ module load GATK/4.3.0.0
@@ -303,7 +303,7 @@ do `module load samtools/1.17`.
 
 To see which modules are loaded, use `module list`.
 
-???- question "How does the output of `module list` look like?"
+???- question "What does the output of `module list` look like?"
 
     ```text
     $ module list
@@ -316,7 +316,7 @@ To see which modules are loaded, use `module list`.
 
 To see a module-specific help, use `module help [module]` (e.g. `module help cowsay`).
 
-???- question "How does the output of `module help GATK/4.3.0.0` look like?"
+???- question "What does the output of `module help GATK/4.3.0.0` look like?"
 
     ```bash
     $ module help GATK/4.3.0.0

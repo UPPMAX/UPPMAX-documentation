@@ -41,6 +41,6 @@ eog my.png
 
     This will create an empty PNG image.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ![Example use of eog](./img/eog.png)

@@ -37,7 +37,7 @@ Below is a step-by-step procedure to start RStudio on Kebnekaise.
 Go to [the HPC2N OpenOnDemand portal](https://portal.hpc2n.umu.se/)
 and click 'Login to HPC2N OnDemand'.
 
-???- hint "How does that look like?"
+???- hint "What does that look like?"
 
     ![Click 'Login to HPC2N OnDemand'](rstudio_on_kebnekaise_1.png)
 
@@ -47,11 +47,11 @@ and click 'Login to HPC2N OnDemand'.
 
 Click 'Sign in' to arrive at the portal.
 
-???- hint "How does that look like?"
+???- hint "What does that look like?"
 
     ![Click 'Sign in'](rstudio_on_kebnekaise_2.png)
 
-???- hint "How does the HPC2N OpenOnDemand portal look like?"
+???- hint "What does the HPC2N OpenOnDemand portal look like?"
 
     ![The HPC2N OpenOnDemand portal](rstudio_on_kebnekaise_3.png)
 
@@ -59,13 +59,13 @@ Click 'Sign in' to arrive at the portal.
 
 Click 'Interactive Apps | RStudio Server' to arrive at the launch settings.
 
-???- hint "How does that look like?"
+???- hint "What does that look like?"
 
     ![Click 'Interactive Apps | RStudio Server'](rstudio_on_kebnekaise_4.png)
 
     > Click 'Interactive Apps | RStudio Server'
 
-???- hint "How do the launch settings look like?"
+???- hint "What do the launch settings look like?"
 
     ![The launch settings](rstudio_on_kebnekaise_5.png)
 
@@ -74,7 +74,7 @@ Click 'Interactive Apps | RStudio Server' to arrive at the launch settings.
 In the launch settings, scroll down and click 'Launch'
 to start the launch.
 
-???- hint "How does that look like?"
+???- hint "What does that look like?"
 
     ![Click 'Launch'](rstudio_on_kebnekaise_6.png)
 
@@ -94,7 +94,7 @@ to start the launch.
 
 When the launching is done, click 'Connect to RStudio Server'.
 
-???- hint "How does that look like?"
+???- hint "What does that look like?"
 
     ![Click 'Connect to RStudio Server'](rstudio_on_kebnekaise_9.png)
 

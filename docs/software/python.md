@@ -206,7 +206,7 @@ one can start the Python interpreter:
 python
 ```
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     The Python interpreter looks like this:
 
@@ -283,7 +283,7 @@ pip list
 
 This shows a list of Python packages that are installed.
 
-???- question "How does the output of `pip list` look like?"
+???- question "What does the output of `pip list` look like?"
 
     Here is an example:
 

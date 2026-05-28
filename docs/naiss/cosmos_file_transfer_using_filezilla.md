@@ -70,7 +70,7 @@ In FileZilla's site manager:
     - Set user to `[username]`, e.g. `sven`
     - Set logon type to 'Interactive'
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks similar to this:
 
@@ -84,7 +84,7 @@ Click 'Connect'.
 
 Now you can transfer files between your local computer and COSMOS.
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks like this:
 

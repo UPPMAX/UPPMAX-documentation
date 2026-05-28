@@ -35,7 +35,7 @@ Install ThinLinc. For help, see [the UPPMAX page on ThinLinc](../software/thinli
 
 In the ThinLinc login dialog, set the server name to `rackham-gui.uppmax.uu.se`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![ThinLinc login](../software/img/thinlinc_local_login_rackham.png)
 
@@ -49,7 +49,7 @@ In the ThinLinc login dialog, set the server name to `rackham-gui.uppmax.uu.se`.
 
 On the ThinLinc 'Welcome' dialog, click 'Forward'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The ThinLinc 'Welcome' dialog](../software/img/thinlinc_local_welcome.png)
 
@@ -70,7 +70,7 @@ XFCE   |Recommended
 
     Instead, we recommend GNOME or XFCE.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The ThinLinc 'Select profile' dialog](../software/img/thinlinc_local_select_profile.png)
 
@@ -95,7 +95,7 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
     If you need to do more intense calculations interactively,
     [use an interactive session](../cluster_guides/start_interactive_session_on_rackham.md).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The Rackham remote desktop environment via a local ThinLinc client](../software/img/thinlinc_local_rackham.png)
 

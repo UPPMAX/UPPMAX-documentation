@@ -9,7 +9,7 @@ On an UPPMAX HPC cluster, on a terminal, run:
 projinfo
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 

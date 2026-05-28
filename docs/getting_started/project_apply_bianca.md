@@ -20,7 +20,7 @@ This page describes how to apply to a Bianca/Sens project.
 
 ### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
 
@@ -30,7 +30,7 @@ This page describes how to apply to a Bianca/Sens project.
 
 On the main page, click on 'Rounds'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![On the main page, click on 'Rounds'](./img/supr_naiss_start_click_rounds.png)
 
@@ -40,7 +40,7 @@ On the main page, click on 'Rounds'
 
 In the 'Rounds' menu, click on 'NAISS rounds'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Rounds' menu, click on 'NAISS rounds'](./img/rounds_2026.png)
 
@@ -55,7 +55,7 @@ In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" 
 - Medium: Up to 100,000 core-h/month, and 100 TiB (backup) and 50 TiB (non-backup)
     - Check details and who is eligible to apply at the [NAISS allocation page for medium projects](https://www.naiss.se/allocations/medium/)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'NAISS Rounds' screen, click 'Create New Proposal for NAISS Small/Medium' for the current year](./img/NAISS_rounds_2026.png)
 
@@ -76,7 +76,7 @@ In the 'Open for Proposals' screen you can view which resources are available (a
 
 In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'](./img/Create_new_proposal_2026.png)
 
@@ -84,7 +84,7 @@ In the 'Create New Proposal for NAISS Small 2026', add a project title and click
 
 This leads you to the next page, the proposal details.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![project_details_p1_2026](./img/project_details_p1_2026.png)
 
@@ -111,7 +111,7 @@ So far it is an ordinary NAISS project, no resource coupled to sensitive project
 
 In your NAISS project, scroll down to 'Resources' and add Bianca.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.png)
     
@@ -124,7 +124,7 @@ Click on 'Add resource to proposal' to add **Bianca** as a resource.
 
 In the 'Add resource Bianca' menu, set the number of thousands of core hours/month and click 'Add resource'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'](./img/add_resource_bianca_2026.png)
 
@@ -147,7 +147,7 @@ You can now choose between
     - Add the Cygnus /proj resource and set the Requested Capacity to your amount of raw data. You may ignore the other fields.
     - Add the Cygnus /proj/nobackup resource and set the Requested Capacity to your estimated total minus your raw data. You may ignore the other fields.
 
-???- question "How does that look like (Request more example)?"
+???- question "What does that look like (Request more example)?"
 
     ![In the 'Storage choice' page, click 'Request more...'](./img/storage_choice_bianca_2026.png)
 
@@ -155,7 +155,7 @@ You can now choose between
 
 Request needed storage in terms of GiB and number of files for Backup
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Add resource Cygnus /proj' menu, set the number of  GiB and number of files and 'Add resource'](./img/add_storage_cygnus_2026.png)
 
@@ -163,7 +163,7 @@ Request needed storage in terms of GiB and number of files for Backup
 
 Request needed storage in terms of GiB and number of files for Non-backup
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Add resource Cygnus /proj/nobackup' menu, set the number of  GiB and number of files and 'Add resource'](./img/add_storage_cygnus_nobackup_2026.png)
 
@@ -173,7 +173,7 @@ Request needed storage in terms of GiB and number of files for Non-backup
 
 You can go back and change your choices. In your NAISS project, scroll down to 'Resources' section to revisit the resources.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![revisit_resources_bianca_2026](./img/revisit2_resources_bianca_2026.png)
 
@@ -181,7 +181,7 @@ You can go back and change your choices. In your NAISS project, scroll down to '
 
 Click Bianca or the Storage choice
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![edit_resource_bianca_2026](./img/edit_resource_bianca_2026.png)
 
@@ -191,7 +191,7 @@ Click Bianca or the Storage choice
 
 Press the "Submit the Proposal" button on the bottom of the page.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![submission_bianca_2026](./img/submission_bianca_2026.png)
 

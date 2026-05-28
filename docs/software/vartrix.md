@@ -16,7 +16,7 @@ of your favourite Vartrix version, using:
 module spider vartrix
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The output will look similar to:
 

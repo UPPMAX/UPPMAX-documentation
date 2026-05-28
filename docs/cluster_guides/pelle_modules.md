@@ -143,7 +143,7 @@ Full command            |Shorthand syntax
 
 ## Examples
 
-???- question "How does the output of `module spider R` look like?"
+???- question "What does the output of `module spider R` look like?"
 
     ```bash
     ml spider R
@@ -198,7 +198,7 @@ Full command            |Shorthand syntax
     commonly used in data analysis and visualisation.
 
 
-???- question "How does the output of `module spider samtools` look like?"
+???- question "What does the output of `module spider samtools` look like?"
 
     ```bash
     $ module spider samtools
@@ -241,7 +241,7 @@ Full command            |Shorthand syntax
 
     ```
 
-???- question "How does the output of `module spider samtools/1.22` look like?"
+???- question "What does the output of `module spider samtools/1.22` look like?"
 
     ```bash
     $ module spider samtools/1.22
@@ -301,7 +301,7 @@ it is *not* general help for using the tool itself.
 
     Use the command `module list`.
 
-???- question "How does the output of `module list` look like?"
+???- question "What does the output of `module list` look like?"
 
     This is an example of how is looks lik when SAMtols is loaded
     
@@ -323,7 +323,7 @@ to load a specific version. The information given by
 For example, to load the `SAMtools/1.22` module,
 do `module load samtools/1.22<TAB>`.
 
-???- question "How does the output of `module load GATK/4.3.0.0` look like?"
+???- question "What does the output of `module load GATK/4.3.0.0` look like?"
 
     ```bash
     $ module load GATK/4.3.0.0
@@ -342,7 +342,7 @@ do `module load samtools/1.22<TAB>`.
 
 To see a module-specific help, use `module help [module]` (e.g. `module help cowsay`).
 
-???- question "How does the output of `module help GATK/4.3.0.0` look like?"
+???- question "What does the output of `module help GATK/4.3.0.0` look like?"
 
     ```bash
     $ module help GATK/4.6.1.0-GCCcore-13.3.0-Java-17

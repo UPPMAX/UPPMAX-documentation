@@ -40,7 +40,7 @@ sudo singularity build my_container.sif docker:lindenb/jvarkit
 
 In some case, the Singularity container is now created.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```bash
     $ sudo singularity build my_container.sif docker:lindenb/jvarkit
@@ -69,7 +69,7 @@ This means that Docker Hub cannot conclude with Docker script we want to use *ex
 To solve this, we need to find a tag that allows us to find an exact script.
 On Docker Hub, we can find the tags for our Docker script ar [https://hub.docker.com/r/lindenb/jvarkit/tags](https://hub.docker.com/r/lindenb/jvarkit/tags).
 
-???- question "How does that page look like?"
+???- question "What does that page look like?"
 
     Here is how [https://hub.docker.com/r/lindenb/jvarkit/tags](https://hub.docker.com/r/lindenb/jvarkit/tags) looks like:
 
@@ -81,7 +81,7 @@ We can see there that `1b2aedf24` is the tag for the latest version.
 sudo singularity build my_container.sif docker:lindenb/jvarkit:1b2aedf24
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```bash
     $ sudo singularity build my_container.sif docker:lindenb/jvarkit

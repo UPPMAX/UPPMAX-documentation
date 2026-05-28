@@ -89,7 +89,7 @@ In short,
 1. Make up a name for the key so you know which computer it resides on. E.g. `rackham-darsync`
 1. Press the `Save` button.
 
-???- question "How does the adding the key look like?"
+???- question "What does the adding the key look like?"
 
     ![Click on 'Prove Indentity'](./img/pdc_prove_identity.png)
 
@@ -105,7 +105,7 @@ In short,
 
 After having added your public SSH key, you will be able to see your registered keys.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Here we see that there is an SSH key added](./img/pdc_key_management_rackham_key.png)
 
@@ -113,7 +113,7 @@ After having added your public SSH key, you will be able to see your registered 
 
 The next thing you have to do is to add UPPMAX as a placer permitted to use your newly added key. Do that by pressing the `Add address` link for the key you just added. At the bottom of the form you have a section called `Custom domain`. Add `*.uppmax.uu.se` in that field and press `Save`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![This is where you enter that UPPMAX is allowed to use this key.](./img/pdc_add_new_key_uppmax.png)
 

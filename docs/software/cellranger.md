@@ -28,7 +28,7 @@ has `cowsay` installed:
 module spider cellranger
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 
@@ -263,7 +263,7 @@ Loading the latest version of the `cellranger` module:
 module load bioinfo-tools cellranger/8.0.1
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 
@@ -279,7 +279,7 @@ Now you can run Cell Ranger:
 cellranger
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 

@@ -43,7 +43,7 @@ one needs to be within SUNET to be able to access her.
 
     See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
 
-???- question "How does it look like to try to access a remote desktop from outside of SUNET?"
+???- question "What does it look like to try to access a remote desktop from outside of SUNET?"
 
     ![Nothing will appear in your browser](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
@@ -68,7 +68,7 @@ When inside SUNET, one can access a remote desktop environment using a website:
 [When inside SUNET](../getting_started/get_inside_sunet.md),
 in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
 
-???- question "How does it look like when outside of SUNET?"
+???- question "What does it look like when outside of SUNET?"
 
     ![Nothing will appear in your browser](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
@@ -88,7 +88,7 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 
 Do use the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!)
 
-???- question "How does that web page look like?"
+???- question "What does that web page look like?"
 
     ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
 
@@ -111,7 +111,7 @@ Do use the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!
 Sometimes a webpage will be shown that asks you to wait.
 Simply do that :-)
 
-???- question "How does that web page look like?"
+???- question "What does that web page look like?"
 
     ![No ThinLinc Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
 
@@ -137,7 +137,7 @@ Simply do that :-)
 
 Fill in the second dialog, using your regular password (i.e. no need for two-factor authentication).
 
-???- question "How does that web page look like?"
+???- question "What does that web page look like?"
 
     ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
 
@@ -148,7 +148,7 @@ Fill in the second dialog, using your regular password (i.e. no need for two-fac
 
 When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Here you are told you will need to pick a remote desktop flavor](./img/remote_desktop_thinlinc_profile_chooser.png)
 
@@ -232,7 +232,7 @@ flowchart TD
 
 ### Access denied
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Log in to Bianca's remote desktop environment and getting an 'Access denied' error](./img/login_bianca_remote_desktop_website_access_denied.png)
 
@@ -240,7 +240,7 @@ flowchart TD
 
 ### Authentication failed
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Log in to Bianca's remote desktop environment and getting an 'Authentication failed' error](./img/login_bianca_remote_desktop_website_authentication_failed.png)
 

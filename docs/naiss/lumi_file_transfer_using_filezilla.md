@@ -154,7 +154,7 @@ In FileZilla's site manager:
     - Upload the key file at `/.ssh/lumi_filezilla.ppk`
       from you local's computer
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks similar to this:
 

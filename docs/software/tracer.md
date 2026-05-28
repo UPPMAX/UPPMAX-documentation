@@ -13,7 +13,7 @@ Pick [a Tracer release](https://github.com/beast-dev/tracer/releases),
 such as [Tracer v1.7.2](https://github.com/beast-dev/tracer/releases/tag/v1.7.2)
 and download the Linux/UNIX version.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is how the release page of [Tracer v1.7.2](https://github.com/beast-dev/tracer/releases/tag/v1.7.2)
     looks like:
@@ -58,7 +58,7 @@ Use `java` to run the Tracer `jar` file:
 java -jar lib/tracer.jar
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is how Tracer looks like in a console environment:
 

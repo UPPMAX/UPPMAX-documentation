@@ -18,7 +18,7 @@ installed on the UPPMAX systems.
 To start `nedit` in a remote desktop environment,
 click 'Applications | Development | `nedit`'
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![Click 'Applications | Development | `nedit`'](img/bianca_applications_development_click_nedit.png)
 

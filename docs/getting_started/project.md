@@ -25,7 +25,7 @@ This page is about UPPMAX projects:
 is the website that allows one to request access to Swedish computational
 resources and to get an overview of the requested resources.
 
-???- question "How does the SUPR website look like?"
+???- question "What does the SUPR website look like?"
 
     ![First SUPR page](./img/supr_first_page.png)
 
@@ -39,7 +39,7 @@ After logging in, the [SUPR](https://supr.naiss.se/)
 website will show all projects you are a member of,
 under the 'Projects' tab.
 
-???- question "How does the 'Projects' tab of the SUPR website look like?"
+???- question "What does the 'Projects' tab of the SUPR website look like?"
 
     ![An example overview of SUPR projects](./img/supr_projects.png)
 
@@ -64,7 +64,7 @@ ls
 and look for a project folder that resembles the name of your project.
 The name of that folder is the name of your account.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is part of the output:
 

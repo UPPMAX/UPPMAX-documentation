@@ -10,7 +10,7 @@ tags:
 A login node is the computer where you arrive after logging in
 to an [UPPMAX HPC cluster](../cluster_guides/uppmax_cluster.md).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is how it looks like to be on a login node:
 

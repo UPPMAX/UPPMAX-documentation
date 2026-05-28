@@ -183,7 +183,7 @@ wget <package>_<version>.tar.gz
     sessionInfo()
     ```  
 
-    ??? question "How may that look like?"
+    ??? question "What may that look like?"
 
         ```R
         sessionInfo()

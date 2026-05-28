@@ -17,7 +17,7 @@ of Slurm jobs. On UPPMAX, use [jobstats](jobstats.md) instead.
     As there may be plans to have it on UPPMAX too.
 
 
-???- question "How does its output look like?"
+???- question "What does its output look like?"
 
     Output will be similar to this, as run on Dardel:
 

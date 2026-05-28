@@ -69,7 +69,7 @@ In the terminal of the interactive session, do:
 module load R/4.3.1 R_packages/4.3.1 RStudio/2023.12.1-402
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to:
 

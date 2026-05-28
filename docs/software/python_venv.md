@@ -131,7 +131,7 @@ For example `source ~/my_venvs/example_venv/bin/activate`.
 When a `venv` virtual environment is active,
 the prompt is changed to start with the name of your `venv`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     This is how your changed prompt looks like:
 
@@ -173,7 +173,7 @@ pip freeze > requirements.txt
 This will create a file with all the Python packages and their versions,
 using the conventional name for such a file.
 
-???- question "How does that file look like?"
+???- question "What does that file look like?"
 
     This is how a `requirements.txt` file may look like:
 

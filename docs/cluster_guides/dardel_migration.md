@@ -169,7 +169,7 @@ Then creating the key:
 darsync sshkey
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The screen output will look similar to this:
 
@@ -229,7 +229,7 @@ Running `darsync check` will make Darsync prompt for questions:
 darsync check
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is output similar to yours, for a user with username `sven`
     that wants to transfer his `Documents` folder:
@@ -394,7 +394,7 @@ Running `darsync gen` will make Darsync prompt for questions:
 darsync gen
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is output similar to yours, for a fictional user called Sven Svensson,
     with the UPPMAX username of `sven` and the PCD username
@@ -672,7 +672,7 @@ sbatch ~/dardel_naiss2024-23-9999.sh
 
 Replace `nais2024-23-9999` with the name of the folder you told Darsync to transfer.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Similar to this:
 
@@ -710,7 +710,7 @@ tail ~/dardel_naiss2024-23-9999.out
 tail ~/dardel_naiss2024-23-9999.err
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     If the job finished successfully, the output will look similar to this:
 
@@ -781,7 +781,7 @@ Rackham and Dardel match.
 In [https://supr.naiss.se](https://supr.naiss.se), you can
 see the disk usage of your projects
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     This looks like this, for an UPPMAX project:
 
@@ -792,7 +792,7 @@ see the disk usage of your projects
 You can also use a command line tool, [`uquota`](../software/uquota.md),
 to see your project's disk usage on Rackham.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     This looks like this, for an UPPMAX project:
 
@@ -821,7 +821,7 @@ After the migration, these temporary SSH keys can and should be deleted:
 rm ~/id_ed25519_pdc*
 ```
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     You screen will show something similar to this:
 
@@ -835,7 +835,7 @@ rm ~/id_ed25519_pdc*
 Now that the files are transferred to Dardel,
 you can delete the files on Rackham that you've just transferred to Dardel.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     If you transferred one folder, for example, `Documents`, here
     is how to delete it and how that looks like:

@@ -19,7 +19,7 @@ This page describes how to apply to a [Pelle](../cluster_guides/pelle.md) projec
 
 ### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
 
@@ -29,7 +29,7 @@ This page describes how to apply to a [Pelle](../cluster_guides/pelle.md) projec
 
 On the main page, click on 'Rounds'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![On the main page, click on 'Rounds'](./img/rounds_jan2026.png)
 
@@ -39,7 +39,7 @@ On the main page, click on 'Rounds'
 
 In the 'Rounds' menu, click on 'Local and Special Rounds'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Rounds' menu, click on 'Local and Special Rounds'](./img/local_special_rounds_jan2026.png)
 
@@ -50,7 +50,7 @@ In the 'Rounds' menu, click on 'Local and Special Rounds'
 
 In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'](./img/rounds_uppmax_jan2026.png)
 
@@ -60,7 +60,7 @@ In the 'Local and Special Rounds' menu, click on 'Rounds at UPPMAX'
 
 In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'](./img/uppmax_local_2026.png)
 
@@ -70,7 +70,7 @@ In the 'Rounds at UPPMAX' menu, click on 'Go to UPPMAX Local 2026'
 
 In the 'UPPMAX Local' menu, click on 'Create new proposal'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'UPPMAX Local' menu, click on 'Create new proposal'](./img/proposal_uppmax_2026.png)
 
@@ -80,13 +80,13 @@ In the 'UPPMAX Local' menu, click on 'Create new proposal'
 
 In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'](./img/uppmax_local_2026.png)
 
     > In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on 'Create new proposal'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![An UPPMAX local compute project](./img/proposal_details_uppmax_jan2026.png)
 
@@ -96,7 +96,7 @@ In the 'Create new proposal for UPPMAX local' menu, fill in a title and click on
 
 In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In your UPPMAX local compute project, scroll down to 'Resources' and add Pelle](./img/proposal_details_uppmax_resources_jan2026.png)
 
@@ -109,7 +109,7 @@ Click on 'Add resource to proposal' to add Pelle as a resource.
 
 In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_capacity_pelle_2026.png)
 
@@ -117,7 +117,7 @@ In the 'Add resource Pelle' menu, set the number of core hours and click 'Add re
 
 Edit!
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/edit_resource_uppmax_2026.png)
 
@@ -127,7 +127,7 @@ Edit!
 
 In the 'Add resource Pelle' menu, click 'Storage choice'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Add resource Pelle' menu, set the number of GiB and number of files and click 'Add resource'](./img/storage_choice_uppmax_2026.png)
 
@@ -135,7 +135,7 @@ In the 'Add resource Pelle' menu, click 'Storage choice'.
 
 Request needed storage in terms of GiB and number of files.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Add resource Pelle' menu, set the number of core hours and click 'Add resource'](./img/request_storage_uppmax_2026.png)
 
@@ -145,7 +145,7 @@ Request needed storage in terms of GiB and number of files.
 
 You can go back and change your choices. In your UPPMAX local compute project, scroll down to 'Resources' section to revisit the resources.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In your UPPMAX local compute project, revisit resources](./img/resources_revisit_uppmax_2026.png)
 
@@ -156,7 +156,7 @@ You can go back and change your choices. In your UPPMAX local compute project, s
 
 Press the "Submit the Proposal" button on the bottom of the page.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In your UPPMAX local compute project, Pelle is added](./img/submit_proposal_uppmax_2026.png)
 

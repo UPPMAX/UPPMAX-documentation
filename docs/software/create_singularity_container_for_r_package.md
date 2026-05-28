@@ -64,7 +64,7 @@ sudo singularity build my_container.sif Singularity
 
 Which will build a Singularity container called `my_container.sif`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     You output will be similar to this:
 
@@ -260,7 +260,7 @@ Run the container on the R script:
 ./my_container.sif my_r_script.R
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     You output will be similar to this:
 

@@ -116,7 +116,7 @@ Then you will be asked for your second factor. Enter your 6 digit UPPMAX TOTP 2F
 
 Now you can transfer files between your local computer and your [`wharf` folder](../cluster_guides/wharf.md).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     It looks like this:
 

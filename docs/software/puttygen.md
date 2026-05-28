@@ -44,7 +44,7 @@ Follow the following steps.
 
 In `puttygen`, click on 'Generate'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In `puttygen`, click on 'Generate'](./img/puttygen_click_generate.png)
 
@@ -53,7 +53,7 @@ In `puttygen`, click on 'Generate'
 Move the mouse cursor over the `puttygen` window
 until the progress bar is filled up.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Move the mouse cursor over the `puttygen` window](./img/puttygen_generate_randomness.png)
 
@@ -63,7 +63,7 @@ The keys have now been generated
 
 In `puttygen`, click on 'Save public key'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click on 'Save public key'](./img/puttygen_click_save_public_key.png)
 
@@ -72,7 +72,7 @@ In `puttygen`, click on 'Save public key'.
 In the 'Save public key as' dialog, save the public key
 as `[description].pub`, e.g. `demo.pub`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Save the public key](./img/puttygen_save_public_key.png)
 
@@ -82,7 +82,7 @@ Now you have your public key file!
 
 In `puttygen`, click on 'Save private key'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click on 'Save private key'](./img/puttygen_click_save_private_key.png)
 
@@ -95,7 +95,7 @@ You will get a warning, click on 'Ignore'.
     In this procedure, the private key does not get a password.
     Some settings, however, do require such a password.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click on 'Ignore'](./img/puttygen_warning_for_no_password.png)
 
@@ -105,7 +105,7 @@ In the 'Save private key as' dialog, save the private key
 as `[description]`, e.g. `demo`. It will be saved as
 `[description].ppk`, e.g. `demo.ppk`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Save the private key](./img/puttygen_save_private_key.png)
 
@@ -115,7 +115,7 @@ Now you have your private key file in `ppk` format!
 
 In `puttygen`, click on 'Conversions | Export OpenSSH key'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click on 'Conversions | Export OpenSSH key'](./img/puttygen_click_export_openssh_key.png)
 
@@ -128,7 +128,7 @@ You will get a warning, click on 'Ignore'.
     In this procedure, the private key does not get a password.
     Some settings, however, do require such a password.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click on 'Ignore'](./img/puttygen_warning_for_no_password.png)
 
@@ -139,7 +139,7 @@ as `[description]`, e.g. `demo`. It will be saved as
 `[description]` (i.e. without a file extension), e.g. `demo`
 (again: without a file extension).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Save the private key](./img/puttygen_click_save_private_key_openssh.png)
 

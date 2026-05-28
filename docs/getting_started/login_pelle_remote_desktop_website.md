@@ -30,7 +30,7 @@ Most work will be to fulfil all [Pelle usage prerequisites](pelle_usage_prerequi
 
 In a webbrowser, go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Pelle website login screen](img/login_pelle_remote_desktop_website_1.png)
 
@@ -43,7 +43,7 @@ fill in your details:
 - In the second field, fill in your UPPMAX password
 - Press "Log in" button
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_2.png)
 
@@ -55,7 +55,7 @@ asks for a time-based one-time password (TOTP)
 - Fill in the TOTP from your [UPPMAX 2FA](../getting_started/get_uppmax_2fa.md),
 e.g. `123456`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_4.png)
 
@@ -65,7 +65,7 @@ Sometimes the ThinLinc profile chooser pops up.
 
 At the first dialog, click 'Forward'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_5.png)
 
@@ -73,7 +73,7 @@ At the first dialog, click 'Forward'.
 At the second dialog, pick your favourite desktop environment. Both are
 equally fine.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_6.png)
 
@@ -81,7 +81,7 @@ equally fine.
 
 Welcome on a Pelle [login node](../cluster_guides/login_node.md)!
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_7.png)
 

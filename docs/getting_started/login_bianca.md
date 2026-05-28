@@ -92,7 +92,7 @@ and clumsy (copy-pasting to it needs multiple mouse clicks) way to work.
 A 'no' is more suitable for users comfortable with a terminal and works
 smoothly.
 
-???- question "How does the Bianca remote desktop look like?"
+???- question "What does the Bianca remote desktop look like?"
 
     One can pick multiple remote desktop environments,
     such as GNOME and XFCE (and KDE, don't pick KDE!).
@@ -108,7 +108,7 @@ smoothly.
 - A remote desktop environment, also called 'graphical environment',
   'GUI environment', '[ThinLinc](../software/thinlinc.md) environment'
 
-???- question "How does the Bianca console environment look like?"
+???- question "What does the Bianca console environment look like?"
 
     ![The Bianca console environment](./img/login_bianca_via_terminal_terminal.png)
 

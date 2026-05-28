@@ -9,7 +9,7 @@ See the help file:
 uquota --help
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this:
 
@@ -40,7 +40,7 @@ Usage:
 uquota
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this:
 
@@ -70,7 +70,7 @@ use the command below to find it:
 du --human --max-depth 1 .
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this:
 

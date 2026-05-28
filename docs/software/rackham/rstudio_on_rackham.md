@@ -103,7 +103,7 @@ module load R/4.3.1 R_packages/4.3.1 RStudio/2023.06.2-561
     RStudio/2023.12.1-402 may not always work
 
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to:
 

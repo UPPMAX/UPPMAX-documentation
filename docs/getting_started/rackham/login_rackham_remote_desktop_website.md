@@ -38,7 +38,7 @@ In a webbrowser, go to [https://rackham-gui.uppmax.uu.se](https://rackham-gui.up
   and your [UPPMAX 2FA](../getting_started/get_uppmax_2fa.md) (e.g. `123456`)
   together, without a space (e.g. `password123456)
 
-??? question "How does that page look like?"
+??? question "What does that page look like?"
 
     ![The page looks like this](./img/rackham_gui_uppmax_uu_se_empty.png)
 

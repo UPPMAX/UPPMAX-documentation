@@ -24,7 +24,7 @@ In a terminal, do:
 sudo apt-get install openconnect network-manager-openconnect network-manager-openconnect-gnome
 ```
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
  You output look similar to this:
 
@@ -133,25 +133,25 @@ Go to the 'Settings'
 
 Go to 'Network'.
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![In the Ubuntu settings, click Network](./img/ubuntu_settings_click_network.png)
 
 In the VPN section, click on the plus to add a VPN.
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![In the VPN section, click on the plus to add a VPN](./img/ubuntu_network_settings_click_add_vpn.png)
 
 In the 'Add VPN' dialog, click on 'Multi-protocol VPN client (openconnect)'.
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![In the 'Add VPN' dialog, click on 'Multi-protocol VPN client'](./img/ubuntu_network_settings_add_vpn_click_multi_protocol.png)
 
 In the 'Add VPN' dialog, click on the 'Identity' tab.
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![In the 'Add VPN' dialog, click on the 'Identity' tab](./img/ubuntu_network_settings_add_vpn_dialog_click_identity.png)
 
@@ -163,7 +163,7 @@ Name      |Any name, e.g. `My Uppasala University VPN`
 Gateway   |`vpn.uu.se`
 User Agent|`AnyConnect Linux_64 4.7.00136`
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![The 'Identity' tab, with the values filled in](./img/ubuntu_network_settings_add_vpn_identity_settings.png)
 
@@ -175,25 +175,25 @@ In the Ubuntu network settings, we can see our inactive VPN.
 
 Click on the slider right of our UU VPN.
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![Click on the slider right of our UU VPN](./img/ubuntu_network_settings_vpn_present_click_slider.png)
 
 In the popup, click login.
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![In the popup, click login](./img/ubuntu_connect_to_vpn_popup.png)
 
 You are now asked for you UU Login:
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![Fill in your UU login name and password](./img/ubuntu_connect_to_vpn_popup_click_login.png)
 
 Fill in your UU login name and password.
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![Filled in UU login name and password](./img/ubuntu_connect_to_vpn_popup_login_filled_in.png)
 
@@ -206,7 +206,7 @@ Fill in your 2FA. The 2FA should be called `[akka_id]`, e.g. `svesv314`
 
     Pick the options for 'user account' (i.e. not for SharePoint).
 
-??? question "How does that look like?"
+??? question "What does that look like?"
 
     ![2FA filled in](./img/ubuntu_connect_to_vpn_popup_login_2fa_filled_in.png)
 

@@ -40,7 +40,7 @@ Install VSCode on your local computer.
 
 ### 2. Start VSCode on your local computer
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Start VSCode on your local computer](./img/start_vscode_ubuntu.png)
 
@@ -48,7 +48,7 @@ Install VSCode on your local computer.
 
 In VSCode, install the VSCode 'Remote-SSH' plugin.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Install the VSCode 'Remote-SSH' plugin](./img/vscode_on_rackham_install_remote_ssh.png)
 
@@ -69,7 +69,7 @@ Search for the right setting and enable it.
 In VSCode, go to the 'Remote Explorer' tab.
 At the SSH section, click on the '+' (with tooltip 'New remote').
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Click on the plus](./img/vscode_on_rackham_add_new_remote.png)
 
@@ -78,7 +78,7 @@ At the SSH section, click on the '+' (with tooltip 'New remote').
 In the main edit bar, give the SSH command to connect to Pelle,
 e.g. `ssh sven@pelle.uppmax.uu.se`
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Type the SSH command](./img/vscode_on_rackham_new_remote_ssh_command.png)
 
@@ -87,7 +87,7 @@ e.g. `ssh sven@pelle.uppmax.uu.se`
 In the dropdown menu, pick the a location for the SSH config file,
 e.g. the first, which is similar to `/home/sven/.ssh/config`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Type a location for an SSH config file](./img/vscode_on_rackham_new_remote_ssh_config.png)
 
@@ -95,7 +95,7 @@ e.g. the first, which is similar to `/home/sven/.ssh/config`.
 
 In the bottom left of VSCode, click on the popup window 'Connect'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
 ![Click on 'Connect'](./img/vscode_on_rackham_new_remote_click_connect.png)
 
@@ -103,7 +103,7 @@ In the bottom left of VSCode, click on the popup window 'Connect'.
 
 You are now connected: there is a new window with VSCode connected to Pelle.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The window that is connected to a Rackham home folder:
 

@@ -56,7 +56,7 @@ For that site, use all standards, except:
 - Set user name to `[username]`, e.g. `sven`
 - **Do not set password here!**
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks like this:
 

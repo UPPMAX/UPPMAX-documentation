@@ -2,7 +2,7 @@
 
 `sinfo` is a tool to view information about [Slurm](../cluster_guides/slurm.md) nodes and partitions.
 
-???- question "How does that look like on Bianca?"
+???- question "What does that look like on Bianca?"
 
     ```bash
     [sven@sens2016001-bianca ~]$ sinfo
@@ -28,7 +28,7 @@
     this is the expected behaviour from a virtual cluster:
     most physical nodes are not allocated to this project and hence unavailable.
 
-???- question "How does that look like on Rackham?"
+???- question "What does that look like on Rackham?"
 
     ```bash
     [sven@rackham3 ~]$ sinfo

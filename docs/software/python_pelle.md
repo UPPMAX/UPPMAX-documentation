@@ -141,7 +141,7 @@ one can start the Python interpreter:
 python
 ```
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
      After loading ``Python/3.13.1-GCCcore-14.2.0`` and starting the Python interpreter with ``python`` it looks like this:
 
@@ -200,7 +200,7 @@ pip list
 
 This shows a list of Python packages that are installed.
 
-???- question "How does the output of `pip list` look like?"
+???- question "What does the output of `pip list` look like?"
 
     Here is an example:
 

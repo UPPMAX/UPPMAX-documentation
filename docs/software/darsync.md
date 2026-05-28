@@ -51,7 +51,7 @@ rsync -e "ssh -i ~/.ssh/id_rsa" -acPuv /local/path/to/files/ username@dardel.pdc
 
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Running the temporary export gives no output:
 

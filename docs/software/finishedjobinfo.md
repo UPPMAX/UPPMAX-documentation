@@ -9,7 +9,7 @@ which is useful to help [optimise Slurm jobs](../cluster_guides/optimising_jobs.
 finishedjobinfo
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 
@@ -36,7 +36,7 @@ To show the help of `finishedjobinfo`, in a [terminal](../software/terminal.md) 
 finishedjobinfo -h
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```bash
     [sven@rackham3 ~]$ finishedjobinfo -h
@@ -66,7 +66,7 @@ Use `finishedjobinfo -j [job_number]` to get information about a specific
 job, where `[job_number]` is the job number,
 for example `finishedjobinfo -j 44981366`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is an example output:
 
@@ -89,7 +89,7 @@ finishedjobinfo | grep "runtime.[0-9][1-9]"
 
 Press `CTRL-C` to stop the process: it will take very long to finish.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 
@@ -114,7 +114,7 @@ finishedjobinfo | grep -E "runtime.([0-9]-)?[0-9][1-9]"
 
 Press `CTRL-C` to stop the process: it will take very long to finish.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 
@@ -139,7 +139,7 @@ finishedjobinfo | grep "runtime.[0-9]-"
 
 Press `CTRL-C` to stop the process: it will take very long to finish.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to this:
 

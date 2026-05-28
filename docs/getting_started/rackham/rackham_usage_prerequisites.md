@@ -28,7 +28,7 @@ where `[number]` represent a number, for example `uppmax2021-2-1`, `snic2022-6-2
 is the website that allows one to request access to Rackham
 and to get an overview of the requested resources.
 
-???- question "How does the SUPR website look like?"
+???- question "What does the SUPR website look like?"
 
     ![First SUPR page](./img/supr_first_page.png)
 
@@ -42,7 +42,7 @@ After logging in, the [SUPR](https://supr.naiss.se/)
 website will show all projects you are a member of,
 under the 'Projects' tab.
 
-???- question "How does the 'Projects' tab of the SUPR website look like?"
+???- question "What does the 'Projects' tab of the SUPR website look like?"
 
     ![Example overview of SUPR projects](./img/supr_projects.png)
 
@@ -52,7 +52,7 @@ To see if a project has access to Rackham, click on the
 project and scroll to the 'Resources' section. In the 'Compute' subsection,
 there is a table. Under 'Resource' it should state 'Rackham @ UPPMAX'.
 
-???- question "How does the 'Resources' page of an example project look like?"
+???- question "What does the 'Resources' page of an example project look like?"
 
     ![The 'Resources' page of an example project](./img/supr_project_naiss2024-22-49_resources.png)
 

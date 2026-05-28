@@ -46,7 +46,7 @@ When loading a BEAST2 module, also load `bioinfo-tools`:
 module load bioinfo-tools beast2/2.7.4
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```bash
     $ module load bioinfo-tools beast2/2.7.4
@@ -67,7 +67,7 @@ beauti
 As `BEAUti` is a graphical program,
 it needs [SSH with X forwarding enabled](../software/ssh_x_forwarding.md) enabled.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Starting `BEAUti` results in the following pop-up window:
 
@@ -143,7 +143,7 @@ See [Tracer](tracer.md) how to use [Tracer](tracer.md).
 beast -beagle_info
 ```
 
-???- "How does that look like?"
+???- "What does that look like?"
 
     Here the command is run on a [Rackham](../cluster_guides/rackham.md)
     compute node, using an interactive session.
@@ -259,7 +259,7 @@ Also, [using the remote desktop via a ThinLinc client](../getting_started/login_
 
 A solution may be to [use the remote desktop via the web](../getting_started/login_pelle_remote_desktop_website.md)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Here is how it looks like:
 

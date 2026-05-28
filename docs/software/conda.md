@@ -11,7 +11,7 @@
 
 - Check python versions: `module spider python`
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     It will look similar to this:
 

@@ -52,7 +52,7 @@ sudo singularity build my_container.sif Singularity
 
 Which will build a Singularity container called `my_container.sif`.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     You output will be similar to this:
 

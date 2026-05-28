@@ -333,7 +333,7 @@ Use `jobstats --help` to see the help of `jobstats`:
 jobstats --help
 ```
 
-???- question "How does the output look like?"
+???- question "What does the output look like?"
 
     ```text
     USAGE

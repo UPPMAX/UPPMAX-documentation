@@ -62,7 +62,7 @@ In FileZilla's site manager:
     - Set host to `rackham.uppmax.uu.se`
     - Set user to `[username]`, e.g. `sven`
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks similar to this:
 
@@ -78,7 +78,7 @@ You will be asked for your password, hence
 type `[your password]`, e.g. `VerySecret`.
 You can save the password.
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks similar to this:
 
@@ -88,7 +88,7 @@ You can save the password.
 
 Now you can transfer files between your local computer and Rackham.
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks like this:
 

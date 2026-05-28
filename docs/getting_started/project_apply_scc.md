@@ -20,7 +20,7 @@ This page describes how to apply to a [SCC](../cluster_guides/pelle.md) project.
 
 ### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
 
@@ -30,7 +30,7 @@ This page describes how to apply to a [SCC](../cluster_guides/pelle.md) project.
 
 On the main page, click on 'Rounds'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![On the main page, click on 'Rounds'](./img/supr_naiss_start_click_rounds.png)
 
@@ -40,7 +40,7 @@ On the main page, click on 'Rounds'
 
 In the 'Rounds' menu, click on 'Go to Swedish Science Cloud'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Rounds' menu, click on 'Go to Swedish Science Cloud'](./img/supr_naiss_rounds_click_go_to_scc.png)
 
@@ -50,7 +50,7 @@ In the 'Rounds' menu, click on 'Go to Swedish Science Cloud'
 
 In the 'Cloud resource' menu, click on 'Go to NAISS Small Compute 2025'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Cloud resource' menu, click on 'Go to NAISS Small Compute 2025'](./img/supr_resources_scc_click_small.png)
 
@@ -60,7 +60,7 @@ In the 'Cloud resource' menu, click on 'Go to NAISS Small Compute 2025'.
 
 In the 'Small Compute Rounds' menu, click on 'Create new proposal for NAISS Small Compute'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Small Compute Rounds' menu, click on 'Create new proposal for NAISS Small Compute'](./img/supr_naiss_rounds_click_small_compute.png)
 
@@ -70,7 +70,7 @@ In the 'Small Compute Rounds' menu, click on 'Create new proposal for NAISS Smal
 
 In the 'Create new proposal' menu, add a project title and click on 'Create new proposal'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Create new proposal' menu, add a project title and click on 'Create new proposal'](./img/supr_naiss_create_new_proposal_click_create.png)
 
@@ -80,7 +80,7 @@ In the 'Create new proposal' menu, add a project title and click on 'Create new 
 
 In this NAISS project proposal page, scroll down to 'Resources'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In this NAISS project proposal page, scroll down to 'Resources'](./img/supr_naiss_no_resources.png)
 
@@ -90,7 +90,7 @@ In this NAISS project proposal page, scroll down to 'Resources'.
 
 In the 'Resources' dropbox, Select 'Cloud @ SCC'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In the 'Resources' dropbox, Select 'Cloud @ SCC'](./img/supr_naiss_add_resource_click_cloud.png)
 
@@ -101,7 +101,7 @@ In the 'Resources' dropbox, Select 'Cloud @ SCC'.
 
 At the 'Add resource Cloud' page, set the amount of coins and click 'Add Resource'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![At the 'Add resource Cloud' page, set the amount of coins and click 'Add Resource'.](./img/supr_naiss_add_resource_cloud.png)
 
@@ -109,7 +109,7 @@ At the 'Add resource Cloud' page, set the amount of coins and click 'Add Resourc
 
 The resource is now added to your project.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     !['Resource Cloud added to proposal'](./img/supr_naiss_added_resource_cloud.png)
 
@@ -121,7 +121,7 @@ In this NAISS project proposal page,
 after all other details are filled in,
 scroll down and click on 'Submit proposal'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![In this NAISS project proposal page, scroll down and click on 'Submit proposal'](./img/supr_naiss_click_submit.png)
 

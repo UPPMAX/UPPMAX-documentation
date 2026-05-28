@@ -20,7 +20,7 @@ to initiate the token
 creation. This should take you to a landing page with some initial
 information and let you know that you will be sent to SUPR to log in.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![SUPR request 2FA](./img/supr_request_2fa.png)
 

@@ -133,7 +133,7 @@ you can view the public SSH key again; in a terminal logged into Rackham:
 cat ~/id_ed25519_pdc.pub
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The text will look similar to this:
 

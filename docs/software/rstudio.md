@@ -87,7 +87,7 @@ This is because the home folder is full.
 
 Check this by using [uquota.md](uquota.md).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this:
 
@@ -113,7 +113,7 @@ One can use `ls -all` to see all files, including hidden files:
 ls --all
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this:
 

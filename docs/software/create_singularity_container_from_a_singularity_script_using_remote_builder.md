@@ -21,7 +21,7 @@ This page shows how to do so using a website
 
 Go to [the Sylabs website](https://www.sylabs.io/)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The Sylabs website looks similar to this:
 
@@ -40,7 +40,7 @@ click 'Products | Singularity Container Services'
 
 You will be takes to the 'Singularity Container Services'.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The Singularity Container Services website looks similar to this:
 
@@ -50,7 +50,7 @@ You will be takes to the 'Singularity Container Services'.
 
 At the 'Singularity Container Services' website, click 'Sign Up' or 'Sign In'
 
-???- question "How does signing in look like?"
+???- question "What does signing in look like?"
 
     Signing in looks similar to this:
 
@@ -58,7 +58,7 @@ At the 'Singularity Container Services' website, click 'Sign Up' or 'Sign In'
 
 You are now logged in at the 'Singularity Container Services':
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The Singularity Container Services looks similar to this after logging in:
 
@@ -78,7 +78,7 @@ Click on 'Remote builder'.
 
 The remote builder shows a Singularity script and some default settings.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The remote builder's default settings look similar to this:
 
@@ -89,7 +89,7 @@ Make the following changes:
 - paste your Singularity script in the text box
 - change `Repository` to a valid name (as indicated), for example, as `default/my_container`
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The remote builder with modified values looks similar to this:
 
@@ -107,7 +107,7 @@ Click 'Submit Build'.
 
 The building will start.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     A build that has just started looks similar to this:
 
@@ -115,7 +115,7 @@ The building will start.
 
 After a while the building will be done.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     A build that has finished looks similar to this:
 
@@ -128,7 +128,7 @@ There are multiple ways to download your Singularity container:
 - Download from the website: click on 'View image',
   then scroll down and click 'Download'
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Click on 'View image' here:
 
@@ -150,7 +150,7 @@ For example:
 singularity pull library://sven/default/my_container
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     For example:
 

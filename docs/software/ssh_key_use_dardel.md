@@ -118,7 +118,7 @@ To add an SSH key to the PDC login portal, one needs to:
 
 Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     That will look like this:
 
@@ -132,7 +132,7 @@ Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
 
 Click the `Add new key` link:
 
-???- question "How does adding an SSH key pair look like?"
+???- question "What does adding an SSH key pair look like?"
 
     That will look like this:
 
@@ -145,7 +145,7 @@ Click the `Add new key` link:
     > Note that this SSH key cannot be used yet for UPPMAX,
     > as it only allows one IP address.
 
-???- question "How does it look like when the key is added?"
+???- question "What does it look like when the key is added?"
 
     That will look like this:
 
@@ -172,7 +172,7 @@ or you can enter the information manually.
 
     Else, the SSH keys are where you created them in step 1.2 :-)
 
-???- question "How does the content of a public SSH key look like?"
+???- question "What does the content of a public SSH key look like?"
 
     When displaying the content of a public SSH key,
     it will show text like this:
@@ -196,7 +196,7 @@ Click on `Add address` for it and add `*.uppmax.uu.se`.
 are allowed to use this key
 and the field is prefilled with the IP of the computer you are on at the moment.
 
-???- question "How does it look like to edit an SSH key so that can be used for UPPMAX?"
+???- question "What does it look like to edit an SSH key so that can be used for UPPMAX?"
 
     That will look like this:
 
@@ -206,7 +206,7 @@ and the field is prefilled with the IP of the computer you are on at the moment.
     > Here the custom address `*.uppmax.uu.se` is added,
     > so that this SSH key can be used for UPPMAX.
 
-???- question "How does it look like to have a key that can be used for UPPMAX?"
+???- question "What does it look like to have a key that can be used for UPPMAX?"
 
     That will look like this:
 

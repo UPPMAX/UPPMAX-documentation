@@ -89,7 +89,7 @@ Use `--help` (or `-h`) to get a short description of the options and some exampl
 projplot --help
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```bash
     Usage: projplot -A <proj-id> [options]

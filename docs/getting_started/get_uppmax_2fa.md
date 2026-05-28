@@ -40,7 +40,7 @@ Install an app to use for 2FA.
 
 In your web browser, go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     Here is how <https://suprintegration.uppmax.uu.se/bootstrapotp/>
     looks like:
@@ -59,7 +59,7 @@ Click on 'Continue' to be sent to a 'Login to SUPR' page.
 
 At the 'Login to SUPR' page, log in, in any way that works for you.
 
-???- question "How does this look like?"
+???- question "What does this look like?"
 
     ![Login to SUPR page when requesting a 2FA](./img/supr_login_for_2fa.png)
 
@@ -74,7 +74,7 @@ by pressing the button "Prove My Identity to UPPMAX" on the page.
 
 [Scan the QR-code with your 2FA app](get_uppmax_2fa_qr.md).
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![Getting an UPPMAX 2FA QR code](./img/get_uppmax_2fa_qr.png)
 
@@ -87,7 +87,7 @@ Your application will show you a code, enter this code on the same webpage
 
 You should see an acknowledgement that the new two factor has been registered.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ![The final page](./img/get_uppmax_2fa_qr_code.png)
 

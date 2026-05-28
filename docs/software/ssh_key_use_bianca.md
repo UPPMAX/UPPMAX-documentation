@@ -75,7 +75,7 @@ cat $HOME/.ssh/id_ed25519_uppmax_login.pub
 
 Then copy that line to your clipboard.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```bash
     $ cat $HOME/.ssh/id_ed25519_uppmax_login.pub
@@ -193,7 +193,7 @@ password.
 
 To debug, run SSH commands with the `-vv` flag.
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     ```console
     ...

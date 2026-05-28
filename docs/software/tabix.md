@@ -10,7 +10,7 @@ To find the versions of tabix installed, use:
 module spider tabix
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     The output may look like this:
 

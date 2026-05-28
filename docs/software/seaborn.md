@@ -27,7 +27,7 @@ Here is how to find the Seaborn modules:
 module spider seaborn
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will look similar to:
 

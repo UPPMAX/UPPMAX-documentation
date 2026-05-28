@@ -56,7 +56,7 @@ For example:
 ssh -A sven@bianca.uppmax.uu.se
 ```
 
-???- question "How does it look like when outside of SUNET?"
+???- question "What does it look like when outside of SUNET?"
 
     See [this YouTube video](https://youtu.be/W-PMTyNcbYI?t=79)
     how this looks like when outside of SUNET.

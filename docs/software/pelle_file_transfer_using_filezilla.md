@@ -60,7 +60,7 @@ In FileZilla's site manager:
     - Set host to `pelle.uppmax.uu.se`
     - Login type: Interactive
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks similar to this:
 
@@ -74,7 +74,7 @@ Click 'Connect'.
 
 Now you can transfer files between your local computer and Pelle.
 
-???- tip "How does that look like?"
+???- tip "What does that look like?"
 
     It looks like this:
 

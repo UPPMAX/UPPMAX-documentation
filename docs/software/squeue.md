@@ -19,7 +19,7 @@ View all jobs in the [Bianca](../cluster_guides/bianca.md) or [Rackham](../clust
 squeue
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this:
 
@@ -46,7 +46,7 @@ View all jobs in the [Snowy](../cluster_guides/snowy.md) queue:
 squeue -M snowy
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this:
 
@@ -87,7 +87,7 @@ View your jobs in the in the [Bianca](../cluster_guides/bianca.md) or [Rackham](
 squeue --me
 ```
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this, when you have no jobs in the queue:
 
@@ -111,7 +111,7 @@ squeue -M snowy --me
 ```
 
 
-???- question "How does that look like?"
+???- question "What does that look like?"
 
     Your output will be similar to this, when you have no jobs in the queue:
 
