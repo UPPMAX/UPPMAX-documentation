@@ -1154,3 +1154,5 @@ spyder
 Spyder
 ollama
 Ollama
+BMC
+esc
