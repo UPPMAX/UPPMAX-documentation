@@ -98,7 +98,7 @@ the 2FA to log in.
 
 ## FAQ
 
-???- question "How does the use of a 2FA app looks like?"
+???- question "What does the use of a 2FA app look like?"
 
     ![UPPMAX 2FA set up for a fictional UPPMAX user called `sven`](./img/uppmax_2fa.png)
 

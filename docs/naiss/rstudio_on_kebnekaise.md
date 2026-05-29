@@ -80,7 +80,7 @@ to start the launch.
 
     > Click 'Launch'
 
-???- hint "How does launching looks like?"
+???- hint "What does launching look like while in progress?"
 
     At the top you will see this:
 
