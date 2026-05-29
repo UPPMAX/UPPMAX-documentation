@@ -37,9 +37,10 @@ pip install -r requirements.txt
 ```
 
 Then activate the environment and serve the website on localhost
+(the `--livereload` flag needs to be set explicitly due to unfixed bug)
 
 ``` bash
-mkdocs serve
+mkdocs serve --livereload
 ```
 
 ## Optional dependencies
