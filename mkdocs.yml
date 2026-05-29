@@ -33,7 +33,10 @@ nav:
     - General cluster tools: 
       - Start an interactive session: cluster_guides/start_interactive_session.md
       - Modules: cluster_guides/modules.md
-      - Job scheduler: cluster_guides/slurm.md
+      - Slurm, the job scheduler:
+        - Slurm: cluster_guides/slurm.md
+        - Slurm on Pelle: cluster_guides/slurm_on_pelle.md
+        - Slurm on Bianca: cluster_guides/slurm_on_bianca.md
       - Managing your project: cluster_guides/project_management.md
     - Running jobs:
       - Checking and optimising jobs: cluster_guides/optimising_jobs.md
