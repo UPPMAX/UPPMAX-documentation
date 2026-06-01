@@ -12,20 +12,20 @@ for details on a couple of common Slurm errors.
 !!! note "Newer Slurm"
 
     - Slurm on Pelle have been upgraded to version 25.05.
-
     - Several UPPMAX-specific Slurm changes from previous clusters have been removed, to make the config use more Slurm defaults. This makes the system easier to maintain and will behave more similar to clusters at other sites. Unfortunately this means that some extra changes to job scripts can be needed when moving from Rackham/Snowy.
+
+??? note "Replacing &nbsp;`-n`&nbsp; with &nbsp;`-c`&nbsp; when leaving Rackham"
+
+    - We recommend replacing the Slurm option `-n` (recommended in our documentation before), when allocating several cores, with `-c` (CPUs-per-task).
+    - This prevents the allocation from being spread over multiple nodes.
+    - However, if you are using MPI, you should define the number of *tasks* with `-n` (number of tasks (in total)).
+    - The reason why `-c` often could be used interchangeably with `-n` is the default value of one core per task, and that Rackham usage and number of nodes and cores meant that jobs almost always got scheduled on a single node anyways.
+    - This is not Pelle-specific, moreso a quirk of Rackham.
 
 !!! warning "Time limits"
 
     - The max time limit for jobs is 10 days.
         - GPU jobs (on the GPU partition, the H100's and the L40s's) have a time limit of 2 days.
-
-!!! note "Replacing &nbsp;`-n`&nbsp; with &nbsp;`-c`"
-
-    - We recommend to replace the Slurm option ``-n`` (recommended in our documentation before), when allocating several cores, with ``-c`` (CPUs-per-task)
-    - This prevents the allocation to be spread among multiple nodes.
-    - If you, however, are using  MPI, you should define the number of *tasks* with ``-n`` (number of tasks (in total)).
-    - The reason why ``-c`` often can/could be used interchangeably with ``-n`` is the default value of one core per task.
 
 ## Quick start
 
