@@ -31,42 +31,74 @@ for details on a couple of common Slurm errors.
 
 !!! info "Quick start for starting jobs on Pelle"
 
-    Ways to start jobs
+    ### Ways to start jobs
 
-    - Interactive
+    - Interactive:
         - work interactively, starting programs and view data etcetera on a compute node
-        - ``interactive -A uppmax202X-Y-ZZZ -c 2 -t 3:0:0``
+        - ``interactive -A uppmax202X-Y-ZZZ -t 3:0:0``
+        - in addition to specifying account (project) this asks for 3&nbsp;hours (the default of 1&nbsp;min is rarely what you need)
         - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
         
-    - Batch system
+    - Batch system:
         - Allocate much resources or long wall times and let job run by its own without interaction with you
         - ``batch <submit script>``
         - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
 
-        ???- question "Simple batch script"
+        ???- question "Demo/cheatsheet batch script"
 
-            ```bash
+            ``` sbatch
             #!/bin/bash
+            #
+            # A demo Slurm batch script showing the most important options and defaults on Pelle.
+            #
+            # Project id - change to your own! Mandatory, no default.
             #SBATCH -A uppmax2023-2-25
-            #SBATCH -c 1   # number of threads
-            #SBATCH -t 0:1:0 # 1 minute
-            echo "Hello"
+            #
+            # Wall time. Default is 1 minute.
+            # All of these are commented out, so this script gets the default.
+            ##SBATCH -t 60        # 60 minutes
+            ##SBATCH -t 1:5       # 1 minute and 5 seconds, will be rounded up to 2 minutes
+            ##SBATCH -t 1:0:0     # 1 hour
+            ##SBATCH -t 1-12      # 1 day and 12 hours
+            #
+            # Asking for 1 core on Pelle we'll get 2 (threads), ask for 3 and we'll get 4. Default is 2.
+            #SBATCH -c 1   # the long name and more precise description is cpus-per-task
+            #
+            # Memory can be requested in three mutually exclusive ways. Default is 6000 per cpu.
+            #SBATCH --mem=100           # 100 Mebibytes total, this script does not need much
+            ##SBATCH --mem-per-cpu=10G  # 10 Gibibytes per cpu
+            ##SBATCH --mem-per-gpu=20G  # 20 Gibibytes per cpu
+
+
+            # We do not need any modules for this example
+
+            echo "This job ran on: "
+            /usr/bin/hostname
+            uptime
+            nproc
+            free -h
+            ulimit -a
+            echo ""
             ```
 
-    Wall times
+    ### Wall times
     
-    - Specify the maximum time needed before slurm breaks the job.
+    Specify the maximum time reserved before slurm breaks the job:
+
     - ``-t 10:0`` 10 minutes
     - ``-t 10:0:0`` 10 hours
-    - ``-t 5-10:0:0`` 5 days and 10 hours
+    - ``-t 5-10`` 5 days and 10 hours
     
-    Resources
+    ### Resources
 
-    - What kind of computations do you need?
-    - Core jobs (Default):
+    What amount of what kind of computer resources do you need?
+
+    - Cores:
         - ``-c <number of cores>``
         - [read more](slurm_on_pelle.md#examples-with-core-jobs)
-    - Node jobs:
+    - Memory:
+        - `--mem=<number of mebibytes>` 
+    - Nodes:
         - ``-N <number of nodes>``
         - [read more](slurm_on_pelle.md#examples-with-node-jobs)
     - Jobs using MPI:
