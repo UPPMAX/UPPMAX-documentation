@@ -67,7 +67,7 @@ for details on a couple of common Slurm errors.
             # Memory can be requested in three mutually exclusive ways. Default is 6000 per cpu.
             #SBATCH --mem=100           # 100 Mebibytes total, this script does not need much
             ##SBATCH --mem-per-cpu=10G  # 10 Gibibytes per cpu
-            ##SBATCH --mem-per-gpu=20G  # 20 Gibibytes per cpu
+            ##SBATCH --mem-per-gpu=20G  # 20 Gibibytes per gpu
 
 
             # We do not need any modules for this example
