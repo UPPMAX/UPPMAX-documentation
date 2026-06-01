@@ -1,34 +1,26 @@
 # Using Slurm on Pelle
 
 This page describes how to use Slurm on Pelle.
-
-???+ question "What is Slurm?"
-
-    See [the general page about Slurm](slurm.md)
-
-???- question "What is Pelle?"
-
-    See [the general page about Pelle](pelle.md)
+For more general information on each, see pages
+[Slurm](slurm.md)
+and
+[Pelle](pelle.md).
 
 See [Slurm troubleshooting](slurm_troubleshooting.md)
-how to fix Slurm errors.
+for details on a couple of common Slurm errors.
 
-???- question "What about other clusters?"
-
-    See [the general page about Slurm at UPPMAX](slurm.md)
-
-???- note "Newer Slurm"
+!!! note "Newer Slurm"
 
     - Slurm on Pelle have been upgraded to version 25.05.
 
     - Several UPPMAX-specific Slurm changes from previous clusters have been removed, to make the config use more Slurm defaults. This makes the system easier to maintain and will behave more similar to clusters at other sites. Unfortunately this means that some extra changes to job scripts can be needed when moving from Rackham/Snowy.
 
-!!! warning
+!!! warning "Time limits"
 
     - The max time limit for jobs is 10 days.
-        - GPU jobs has a time limit of 2 days.
+        - GPU jobs (on the GPU partition, the H100's and the L40s's) have a time limit of 2 days.
 
-!!! info
+!!! note "Replacing &nbsp;`-n`&nbsp; with &nbsp;`-c`"
 
     - We recommend to replace the Slurm option ``-n`` (recommended in our documentation before), when allocating several cores, with ``-c`` (CPUs-per-task)
     - This prevents the allocation to be spread among multiple nodes.
