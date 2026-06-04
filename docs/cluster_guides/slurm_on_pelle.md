@@ -14,13 +14,12 @@ for details on a couple of common Slurm errors.
     - Slurm on Pelle have been upgraded to version 25.05.
     - Several UPPMAX-specific Slurm changes from previous clusters have been removed, to make the config use more Slurm defaults. This makes the system easier to maintain and will behave more similar to clusters at other sites. Unfortunately this means that some extra changes to job scripts can be needed when moving from Rackham/Snowy.
 
-??? note "Replacing &nbsp;`-n`&nbsp; with &nbsp;`-c`&nbsp; when leaving Rackham"
+??? note "Replacing &nbsp;`-n` , `--ntasks`&nbsp; with &nbsp;`-c` , `--cpus-per-task`&nbsp; when leaving Rackham"
 
-    - We recommend replacing the Slurm option `-n` (recommended in our documentation before), when allocating several cores, with `-c` (CPUs-per-task).
-    - This prevents the allocation from being spread over multiple nodes.
-    - However, if you are using MPI, you should define the number of *tasks* with `-n` (number of tasks (in total)).
-    - The reason why `-c` often could be used interchangeably with `-n` is the default value of one core per task, and that Rackham usage and number of nodes and cores meant that jobs almost always got scheduled on a single node anyways.
-    - This is not Pelle-specific, moreso a quirk of Rackham.
+    - We advise replacing the Slurm option `-n` (recommended in our documentation before) with `-c` for multi-threaded jobs. This is not Pelle-specific, it was circumstances on Rackham that made `-n` (almost) always work.
+    - This prevents the allocation from being spread over multiple nodes. 
+    - `-n` , `--ntasks`&nbsp; is meant for processes that do not need direct access to the same memory, while `-c` , `--cpus-per-task`&nbsp; is meant for multi-threaded processes where the threads do need that. Read [Slurm Tasks on KU:s LUMI wiki](https://ku-it-datalab.pages.ku.dk/ku-it-lumi-wiki/job_submission/slurm_tasks/) for a more thorough explanation.
+    - Thus, if you do have separate tasks, you should define the number of *tasks* with `-n` and the number of CPUs per task with `-c` (unless one). One case of this is when using MPI, where each rank is one task. 
 
 !!! warning "Time limits"
 
@@ -41,10 +40,10 @@ for details on a couple of common Slurm errors.
         
     - Batch system:
         - Allocate much resources or long wall times and let job run by its own without interaction with you
-        - ``batch <submit script>``
+        - ``sbatch <submit script>``
         - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
 
-        ???- question "Demo/cheatsheet batch script"
+        ???- question "Demo/cheatsheet/template batch script"
 
             ``` sbatch
             #!/bin/bash
@@ -52,7 +51,7 @@ for details on a couple of common Slurm errors.
             # A demo Slurm batch script showing the most important options and defaults on Pelle.
             #
             # Project id - change to your own! Mandatory, no default.
-            #SBATCH -A uppmax2023-2-25
+            #SBATCH -A uppmax2020-1-1
             #
             # Wall time. Default is 1 minute.
             # All of these are commented out, so this script gets the default.
@@ -72,6 +71,7 @@ for details on a couple of common Slurm errors.
 
             # We do not need any modules for this example
 
+            # Printing some info that confirms what resources we got, can be useful for debugging
             echo "This job ran on: "
             /usr/bin/hostname
             uptime
@@ -94,15 +94,16 @@ for details on a couple of common Slurm errors.
     What amount of what kind of computer resources do you need?
 
     - Cores:
-        - ``-c <number of cores>``
+        - `-c <num>` , `--cpus-per-task=<number of cores>`
         - [read more](slurm_on_pelle.md#examples-with-core-jobs)
+    - Tasks (MPI ranks or other parts that can run at separate nodes):
+        - ``-n <number of tasks>``
     - Memory:
         - `--mem=<number of mebibytes>` 
+        - or `--mem-per-cpu` 
     - Nodes:
         - ``-N <number of nodes>``
         - [read more](slurm_on_pelle.md#examples-with-node-jobs)
-    - Jobs using MPI:
-        - ``-n <number of tasks>``
     - Large memory jobs:
         - ``-p fat``
         - [read more](slurm_on_pelle.md#the-fat-partition)
@@ -140,6 +141,8 @@ Partition name|Description
 `fat`         | Use a fat node with 2 or 3 TB memory, see below
 `gpu`         | GPU nodes, 2 types see below
 `haswell`     | Old Snowy/Irma nodes, half with GPUs (T4)
+
+For the most detailed view of the Pelle Slurm config in this regard, the nerds among us can read the relevant part of the config file with `tail -n 20 /etc/slurm/slurm.conf`.
 
 ### The `pelle` partition
 
@@ -458,4 +461,4 @@ clusters the limit was 50% of total memory.
 
 Based on the type of resource (CPU, fat node, GPU), Slurm multiplies the requested allocation with its associated billing weight.
 These billing weights are based on the [price associated](https://www.uu.se/en/centre/uppmax/get-started/terms-and-fees#h-Pricelist) with these resources.
-For more detailed understanding of Slurm, one can read its config file at `/etc/slurm/slurm.conf`
+For the most detailed view of the Pelle Slurm config, one can read the relevant part of the config file with `tail -n 20 /etc/slurm/slurm.conf`
