@@ -1,80 +1,104 @@
 # Using Slurm on Pelle
 
 This page describes how to use Slurm on Pelle.
-
-???+ question "What is Slurm?"
-
-    See [the general page about Slurm](slurm.md)
-
-???- question "What is Pelle?"
-
-    See [the general page about Pelle](pelle.md)
+For more general information on each, see pages
+[Slurm](slurm.md)
+and
+[Pelle](pelle.md).
 
 See [Slurm troubleshooting](slurm_troubleshooting.md)
-how to fix Slurm errors.
+for details on a couple of common Slurm errors.
 
-???- question "What about other clusters?"
-
-    See [the general page about Slurm at UPPMAX](slurm.md)
-
-???- note "Newer Slurm"
+!!! note "Newer Slurm"
 
     - Slurm on Pelle have been upgraded to version 25.05.
-
     - Several UPPMAX-specific Slurm changes from previous clusters have been removed, to make the config use more Slurm defaults. This makes the system easier to maintain and will behave more similar to clusters at other sites. Unfortunately this means that some extra changes to job scripts can be needed when moving from Rackham/Snowy.
 
-!!! warning
+??? note "Replacing &nbsp;`-n`&nbsp; with &nbsp;`-c`&nbsp; when leaving Rackham"
+
+    - We recommend replacing the Slurm option `-n` (recommended in our documentation before), when allocating several cores, with `-c` (CPUs-per-task).
+    - This prevents the allocation from being spread over multiple nodes.
+    - However, if you are using MPI, you should define the number of *tasks* with `-n` (number of tasks (in total)).
+    - The reason why `-c` often could be used interchangeably with `-n` is the default value of one core per task, and that Rackham usage and number of nodes and cores meant that jobs almost always got scheduled on a single node anyways.
+    - This is not Pelle-specific, moreso a quirk of Rackham.
+
+!!! warning "Time limits"
 
     - The max time limit for jobs is 10 days.
-        - GPU jobs has a time limit of 2 days.
-
-!!! info
-
-    - We recommend to replace the Slurm option ``-n`` (recommended in our documentation before), when allocating several cores, with ``-c`` (CPUs-per-task)
-    - This prevents the allocation to be spread among multiple nodes.
-    - If you, however, are using  MPI, you should define the number of *tasks* with ``-n`` (number of tasks (in total)).
-    - The reason why ``-c`` often can/could be used interchangeably with ``-n`` is the default value of one core per task.
+        - GPU jobs (on the GPU partition, the H100's and the L40s's) have a time limit of 2 days.
 
 ## Quick start
 
 !!! info "Quick start for starting jobs on Pelle"
 
-    Ways to start jobs
+    ### Ways to start jobs
 
-    - Interactive
+    - Interactive:
         - work interactively, starting programs and view data etcetera on a compute node
-        - ``interactive -A uppmax202X-Y-ZZZ -c 2 -t 3:0:0``
+        - ``interactive -A uppmax202X-Y-ZZZ -t 3:0:0``
+        - in addition to specifying account (project) this asks for 3&nbsp;hours (the default of 1&nbsp;min is rarely what you need)
         - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
         
-    - Batch system
+    - Batch system:
         - Allocate much resources or long wall times and let job run by its own without interaction with you
         - ``batch <submit script>``
         - [read more](slurm_on_pelle.md#sbatch-and-interactive-on-pelle)
 
-        ???- question "Simple batch script"
+        ???- question "Demo/cheatsheet batch script"
 
-            ```bash
+            ``` sbatch
             #!/bin/bash
+            #
+            # A demo Slurm batch script showing the most important options and defaults on Pelle.
+            #
+            # Project id - change to your own! Mandatory, no default.
             #SBATCH -A uppmax2023-2-25
-            #SBATCH -c 1   # number of threads
-            #SBATCH -t 0:1:0 # 1 minute
-            echo "Hello"
+            #
+            # Wall time. Default is 1 minute.
+            # All of these are commented out, so this script gets the default.
+            ##SBATCH -t 60        # 60 minutes
+            ##SBATCH -t 1:5       # 1 minute and 5 seconds, will be rounded up to 2 minutes
+            ##SBATCH -t 1:0:0     # 1 hour
+            ##SBATCH -t 1-12      # 1 day and 12 hours
+            #
+            # Asking for 1 core on Pelle we'll get 2 (threads), ask for 3 and we'll get 4. Default is 2.
+            #SBATCH -c 1   # the long name and more precise description is cpus-per-task
+            #
+            # Memory can be requested in three mutually exclusive ways. Default is 6000 per cpu.
+            #SBATCH --mem=100           # 100 Mebibytes total, this script does not need much
+            ##SBATCH --mem-per-cpu=10G  # 10 Gibibytes per cpu
+            ##SBATCH --mem-per-gpu=20G  # 20 Gibibytes per gpu
+
+
+            # We do not need any modules for this example
+
+            echo "This job ran on: "
+            /usr/bin/hostname
+            uptime
+            nproc
+            free -h
+            ulimit -a
+            echo ""
             ```
 
-    Wall times
+    ### Wall times
     
-    - Specify the maximum time needed before slurm breaks the job.
+    Specify the maximum time reserved before slurm breaks the job:
+
     - ``-t 10:0`` 10 minutes
     - ``-t 10:0:0`` 10 hours
-    - ``-t 5-10:0:0`` 5 days and 10 hours
+    - ``-t 5-10`` 5 days and 10 hours
     
-    Resources
+    ### Resources
 
-    - What kind of computations do you need?
-    - Core jobs (Default):
+    What amount of what kind of computer resources do you need?
+
+    - Cores:
         - ``-c <number of cores>``
         - [read more](slurm_on_pelle.md#examples-with-core-jobs)
-    - Node jobs:
+    - Memory:
+        - `--mem=<number of mebibytes>` 
+    - Nodes:
         - ``-N <number of nodes>``
         - [read more](slurm_on_pelle.md#examples-with-node-jobs)
     - Jobs using MPI:
