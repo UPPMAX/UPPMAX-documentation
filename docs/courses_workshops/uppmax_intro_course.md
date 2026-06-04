@@ -21,10 +21,8 @@ The lectures covering Linux and Bash scripting are cluster-agnostic
 and may be attended by non-UPPMAX users as well.
 It is possible to sign up only for the lectures that are interesting to you.
 
-When: Monday-Wednesday 24-26 August 2026
-
-Where: BMC, Uppsala University
-
+- When: Monday-Wednesday 24-26 August 2026
+- Where: [room A1:112b, BMC, Uppsala University](https://uppmax.github.io/uppmax_intro_day_1/location/)
 - TODO: registration form
 
 ### Schedule
