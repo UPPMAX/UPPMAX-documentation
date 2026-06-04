@@ -15,7 +15,7 @@ This guide provides instructions for loading and using OpenAI's Whisper, an
 automatic speech recognition system. Whisper app is available on Bianca or can also be loaded as a module. The app allows you to bulk transcribe your recordings.
 
 ??? note "News!"
-    
+
     For a richer experience, use [Sunet Scribe service](https://scribe.sunet.se/home). Read more on [UU page](https://www.uu.se/medarbetare/stod-och-verktyg/it/it-tjanster/transkribering-)
 
 !!! warning "AI tool caution"

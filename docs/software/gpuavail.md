@@ -9,6 +9,7 @@ gpuavail
 ```
 
 It's output would look somewhat like this:
+
 ```bash
         GPU Availability
 ┏━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━┓
