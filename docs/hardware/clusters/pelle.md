@@ -7,27 +7,37 @@ Nodes | CPUs                                 | Cores<br/>Threads | Memory  | Scr
 1     | AMD EPYC 9454P (Zen4)  2.75 GHz      | 48<br/>96         | 3 TiB   | 6.9 TiB | N/A
 4     | 2x AMD EPYC 9124 (Zen4)  3 GHz       | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 10 x L40s
 2     | 2x AMD EPYC 9124 (Zen4)  3 GHz       | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 2 x H100
-36    | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 16<br/>2 x 16 | 256 GiB | 1.8 TB  | N/A
-34    | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 16<br/>2 x 16 | 256 GiB | 1.8 TB  | NVIDIA T4
+36    | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 8<br/>2 x 8 | 256 GiB | 1.8 TB  | N/A
+34    | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 8<br/>2 x 8 | 256 GiB | 1.8 TB  | NVIDIA T4
 
 ## CPUs
 
 - [AMD EPYC 9454P (Zen4) 48-Core Processor 2.75 GHz](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9454p.html)
 - [AMD EPYC 9124 (Zen4) 16-Core Processor 3 GHz](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9124.html)
+- [Intel Xeon E5-2630 v3 8-Core Processor 2.4 GHz](https://www.intel.com/content/www/us/en/products/sku/83356/intel-xeon-processor-e52630-v3-20m-cache-2-40-ghz/specifications.html)
 
 ## GPUs
 
-- [L40s](https://www.nvidia.com/en-us/data-center/l40s/)
+- [Nvidia H100](https://www.nvidia.com/en-us/data-center/h100/#specifications)
 
-    - Unprecedented visual computing performance for the data centre.
-    - GPU memory 48 GB
-    - GPU Memory Bandwidth 864GB/s
+    - Grace Hopper architecture
+    - Fourth generation Tensor cores
+    - 94 GB memory
+    - 3.9 TB/s memory bandwidth
 
-- [H100](https://www.nvidia.com/en-us/data-center/h100/) tensor core
+- [Nvidia L40s](https://www.nvidia.com/en-us/data-center/l40s/#specifications)
 
-    - Extraordinary performance, scalability, and security for every data centre.
-    - GPU memory 94 GB
-    - GPU Memory Bandwidth 3.9 TB/s
+    - 18 176 CUDA cores, Ada Lovelace architecture
+    - 568 Tensor cores, fourth generation
+    - 48 GB memory
+    - 864 GB/s memory bandwidth
+
+- [Nvidia T4](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-t4/t4-tensor-core-datasheet.pdf)
+
+    - 2 560 CUDA cores, Turing architecture
+    - 320 Tensor cores, Turing architecture
+    - 16 GB memory
+    - 300 GB/s memory bandwidth
 
 ## Network
 
