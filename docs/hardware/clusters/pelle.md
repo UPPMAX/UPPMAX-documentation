@@ -2,13 +2,13 @@
 
 Nodes | CPUs                                 | Cores<br/>Threads | Memory  | Scratch | GPUs
 ----- | ------------------------------------ | ----------------- | ------- |-------- |----------
-80    | AMD EPYC 9454P (Zen4)  2.75 GHz      | 48<br/>96         | 768 GiB | 1.7 TiB | N/A
-1     | AMD EPYC 9454P (Zen4)  2.75 GHz      | 48<br/>96         | 2 TiB   | 6.9 TiB | N/A
-1     | AMD EPYC 9454P (Zen4)  2.75 GHz      | 48<br/>96         | 3 TiB   | 6.9 TiB | N/A
-4     | 2x AMD EPYC 9124 (Zen4)  3 GHz       | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 10 x L40s
-2     | 2x AMD EPYC 9124 (Zen4)  3 GHz       | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 2 x H100
-36    | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 8<br/>2 x 8 | 256 GiB | 1.8 TB  | N/A
-34    | 2x Xeon E5-2630 v3 2.4 GHz (Haswell) | 2 x 8<br/>2 x 8 | 256 GiB | 1.8 TB  | NVIDIA T4
+80    | AMD EPYC 9454P (Zen4) 2.75&nbsp;GHz       | 48<br/>96         | 768 GiB | 1.7 TiB | N/A
+1     | AMD EPYC 9454P (Zen4) 2.75&nbsp;GHz       | 48<br/>96         | 2 TiB   | 6.9 TiB | N/A
+1     | AMD EPYC 9454P (Zen4) 2.75&nbsp;GHz       | 48<br/>96         | 3 TiB   | 6.9 TiB | N/A
+4     | 2x AMD EPYC 9124 (Zen4) 3&nbsp;GHz        | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 10 x L40s
+2     | 2x AMD EPYC 9124 (Zen4) 3&nbsp;GHz        | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 2 x H100
+36    | 2x Xeon E5-2630 v3 (Haswell) 2.4&nbsp;GHz | 2 x 8<br/>2 x 8   | 256 GiB | 1.8 TB  | N/A
+34    | 2x Xeon E5-2630 v3 (Haswell) 2.4&nbsp;GHz | 2 x 8<br/>2 x 8   | 256 GiB | 1.8 TB  | NVIDIA T4
 
 ## CPUs
 
