@@ -14,11 +14,11 @@ Nodes | CPUs                                 | Cores<br/>Threads | Memory  | Scr
 
 - [AMD EPYC 9454P (Zen4) 48-Core Processor 2.75 GHz](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9454p.html)
 - [AMD EPYC 9124 (Zen4) 16-Core Processor 3 GHz](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9124.html)
-- [Intel Xeon E5-2630 v3 8-Core Processor 2.4 GHz](https://www.intel.com/content/www/us/en/products/sku/83356/intel-xeon-processor-e52630-v3-20m-cache-2-40-ghz/specifications.html)
+- [Intel Xeon E5-2630 v3 (Haswell) 8-Core Processor 2.4 GHz](https://www.intel.com/content/www/us/en/products/sku/83356/intel-xeon-processor-e52630-v3-20m-cache-2-40-ghz/specifications.html)
 
 ## GPUs
 
-- [Nvidia H100](https://www.nvidia.com/en-us/data-center/h100/#specifications)
+- [Nvidia H100 NVL](https://www.nvidia.com/en-us/data-center/h100/#specifications)
 
     - Grace Hopper architecture
     - Fourth generation Tensor cores
