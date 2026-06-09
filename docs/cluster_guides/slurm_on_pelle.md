@@ -17,9 +17,9 @@ for details on a couple of common Slurm errors.
 ??? note "Replacing &nbsp;`-n` , `--ntasks`&nbsp; with &nbsp;`-c` , `--cpus-per-task`&nbsp; when leaving Rackham"
 
     - We advise replacing the Slurm option `-n` (recommended in our documentation before) with `-c` for multi-threaded jobs. This is not Pelle-specific, it was circumstances on Rackham that made `-n` (almost) always work.
-    - This prevents the allocation from being spread over multiple nodes. 
+    - This prevents the allocation from being spread over multiple nodes.
     - `-n` , `--ntasks`&nbsp; is meant for processes that do not need direct access to the same memory, while `-c` , `--cpus-per-task`&nbsp; is meant for multi-threaded processes where the threads do need that. Read [Slurm Tasks on KU:s LUMI wiki](https://ku-it-datalab.pages.ku.dk/ku-it-lumi-wiki/job_submission/slurm_tasks/) for a more thorough explanation.
-    - Thus, if you do have separate tasks, you should define the number of *tasks* with `-n` and the number of CPUs per task with `-c` (unless one). One case of this is when using MPI, where each rank is one task. 
+    - Thus, if you do have separate tasks, you should define the number of *tasks* with `-n` and the number of CPUs per task with `-c` (unless one). One case of this is when using MPI, where each rank is one task.
 
 !!! warning "Time limits"
 
@@ -99,8 +99,8 @@ for details on a couple of common Slurm errors.
     - Tasks (MPI ranks or other parts that can run at separate nodes):
         - ``-n <number of tasks>``
     - Memory:
-        - `--mem=<number of mebibytes>` 
-        - or `--mem-per-cpu` 
+        - `--mem=<number of mebibytes>`
+        - or `--mem-per-cpu`
     - Nodes:
         - ``-N <number of nodes>``
         - [read more](slurm_on_pelle.md#examples-with-node-jobs)
