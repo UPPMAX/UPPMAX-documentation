@@ -2,7 +2,7 @@
 
 You can enable webexport by creating a publicly readable folder called **webexport** in your project directory (``/proj/[project id]``). The contents of that folder will be accessible through `https://export.uppmax.uu.se/[project id]/`.
 
-If your project uses a custom directory name (e.g. `/proj/fish_genome`), the webexport url will be based on your project's SUPR id (e.g. `uppmax-1-999`).
+If your project uses a custom directory name (e.g. `/proj/fish_genome`), the webexport URL will be based on your project's SUPR id (e.g. `uppmax-1-999`).
 
 This will **not** work on **Bianca** for security reasons.
 
