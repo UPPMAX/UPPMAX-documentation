@@ -24,9 +24,10 @@ tags:
     Here is a table of why you want to use Pelle over another NAISS
     HPC cluster.
 
-    Parameter|Tetralith|Pelle
-    Max job time|10 days|Longer
-    Storage per compute|Decent|High
+    |Parameter|Tetralith|Pelle|
+    | ------- | ------- | --- |
+    |Max job time|10 days|Longer|
+    |Storage per compute|Decent|High|
 
 ???- question "What is the status of Pelle?"
 
