@@ -109,15 +109,15 @@ Possible reason 2 is that the folders used by SSH do not have proper rights (fro
 To give the folders needed by SSH the proper rights, on Pelle, do:
 
 ```bash
-chmod 700 .ssh/authorised_keys
-chmod 700 .ssh
+chmod 600 ~/.ssh/authorized_keys
+chmod 700 ~/.ssh
 chmod 700 ~
 ```
 
 On your local computer, do:
 
 ```bash
-chmod 700 .ssh/authorised_keys
-chmod 700 .ssh
-chmod 700 ~
+chmod 600 ~/.ssh/id_ed25519_uppmax_login
+chmod 644 ~/.ssh/id_ed25519_uppmax_login.pub
+chmod 700 ~/.ssh
 ```
