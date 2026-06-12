@@ -17,7 +17,7 @@ Swedish university networks to connect to the UPPMAX clusters.
 To be able to use a VPN to [get inside of SUNET](get_inside_sunet.md):
 
 - For Uppsala University:
-    - Mac and Windows users: [go to this page](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/connect-to-the-network-remotely/connect-using-the-universitys-vpn-service)
+    - Mac and Windows users: [go to this staff page](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/connect-to-the-network-remotely/connect-to-the-university-network-via-the-new-vpn-service)
     - Linux users: [go to this page](setup_vpn_uu_linux.md)
 - For Lund University: [go to this page](https://luservicedesk.service-now.com/support_en?id=kb_article_en&sys_id=a0d9ee21db74605020681ea605961927)
 - For other Swedish universities, search their websites to get the required VPN credentials.
