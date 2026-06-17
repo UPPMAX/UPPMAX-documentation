@@ -317,8 +317,8 @@ sd > out.log
 
 - slurm options:
 
-    - Snowy: ``-M snowy --gres=gpu:1``
-    - Bianca: ``-C gpu --gres=gpu:1 -t 01:10:00
+    - Snowy: ``-M snowy --gpus=1``
+    - Bianca: ``-C gpu --gpus=1 -t 01:10:00
 
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
 

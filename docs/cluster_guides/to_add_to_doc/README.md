@@ -18,7 +18,7 @@ Application expert:
 
 
 ```console
---gres=gpu:h100:1
+--gpus=h100:1
 ```
 
 > for the H100 nodes

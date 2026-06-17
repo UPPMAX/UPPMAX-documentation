@@ -65,13 +65,13 @@ If you want to work interactively and test things, first allocate resources as s
 ### On Snowy
 
 ```console
-interactive -A <proj> -n 2 -M snowy --gres=gpu:1  -t 1:00:01
+interactive -A <proj> -n 2 -M snowy --gpus=1  -t 1:00:01
 ```
 
 ### On Bianca
 
 ```console
-interactive -A <proj> -n 1 -C gpu --gres=gpu:1 -t 01:10:00
+interactive -A <proj> -n 1 -C gpu --gpus=1 -t 01:10:00
 ```
 
 ???- question "How to test TensorFlow as a Python package for GPU?"
