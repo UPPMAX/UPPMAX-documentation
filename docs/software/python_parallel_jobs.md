@@ -304,7 +304,7 @@ if __name__ == "__main__":
 Run in an interactive session with GPU:s on Snowy
 
 ```bash
-[bjornc@rackham3 ~]$ interactive -A staff -n 1 -M snowy --gres=gpu:1 -t 1:00:01 --mail-type=BEGIN
+[bjornc@rackham3 ~]$ interactive -A staff -n 1 -M snowy --gpus=1 -t 1:00:01 --mail-type=BEGIN
 You receive the high interactive priority.
 Please, use no more than 8 GB of RAM.
 Waiting for job 6907137 to start...

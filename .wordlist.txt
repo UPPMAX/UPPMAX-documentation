@@ -1157,3 +1157,4 @@ Ollama
 BMC
 esc
 NVL
+gpus

@@ -534,13 +534,13 @@ sbatch juliaGPU.slurm
 On Snowy, getting 1 cpu and 1 gpu:
 
 ``` console
-interactive -A <proj> -n 1 -M snowy --gres=gpu:1  -t 3:00:00
+interactive -A <proj> -n 1 -M snowy --gpus=1  -t 3:00:00
 ```
 
 On Bianca, getting 2 cpu:s and 1 gpu:
 
 ``` console
-interactive -A <proj> -n 2 -C gpu --gres=gpu:1 -t 01:10:00
+interactive -A <proj> -n 2 -C gpu --gpus=1 -t 01:10:00
 ```
 
 - wait until session is started

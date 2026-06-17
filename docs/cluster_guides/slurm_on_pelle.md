@@ -274,7 +274,7 @@ To avoid long waiting times we primarily recommend to allocate the default ``L40
 Or, if you can use one of the older T4 GPUs, those are in greater supply.
 
 <!--
-- To allocate GPUs without specifying which type (will default to L40s in the future): ``-p gpu --gres=gpu:<number of GPUs>``
+- To allocate GPUs without specifying which type (will default to L40s in the future): ``-p gpu --gpus=<number of GPUs>``
 -->
 
 - To allocate L40s: ``-p gpu --gpus=l40s:<number of GPUs>``
