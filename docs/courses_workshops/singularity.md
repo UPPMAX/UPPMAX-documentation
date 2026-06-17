@@ -30,5 +30,7 @@ to install Singularity on your computer or, alternatively, use apptainer provide
 
 Please direct any questions or comments to
 
+<!-- markdownlint-disable MD034 -->
 - [Pavlin Mitev](mailto:pavlin.mitev@uppmax.uu.se?subject=Singularity workshop) - UPPMAX
+<!-- markdownlint-enable MD034 -->
 - [Pedro Ojeda May](https://www.umu.se/en/staff/pedro-ojeda-may/) - HPC2N

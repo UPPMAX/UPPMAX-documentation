@@ -19,7 +19,7 @@ This page describes how to set up a VPN from Uppsala University for Linux.
 
 ## Procedure
 
-### 1. Download the 
+### 1. Download the
 
 Go to
 [this UU staff page](https://www.uu.se/en/staff/service-and-tools/it-and-telephony-services/it-services/network-and-vpn/vpn-for-unmanaged-devices)
