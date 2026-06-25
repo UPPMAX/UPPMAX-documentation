@@ -312,8 +312,8 @@ sd > out.log
 ### GPU nodes
 
 - Bianca:
-  - Nodes with NVIDIA A100 40 GB
-  - Nodes with NVIDIA T4 16 GB
+    - Nodes with NVIDIA A100 40 GB
+    - Nodes with NVIDIA T4 16 GB
 - Snowy: Nodes with Tesla T4 16 GB
 - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
 
