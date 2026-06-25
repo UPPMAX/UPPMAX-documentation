@@ -510,7 +510,6 @@ Batch script juliaGPU.slurm, note settings for Bianca vs. Snowy:
 #SBATCH -A <proj-id>
 #SBATCH -M <snowy OR bianca>
 #SBATCH -p node
-#SBATCH -C gpu   #NB: Only for Bianca
 #SBATCH -N 1
 #SBATCH --job-name=juliaGPU         # create a short name for your job
 #SBATCH --gpus-per-node=<1 OR 2>             # number of gpus per node (Bianca 2, Snowy 1)
@@ -540,7 +539,7 @@ interactive -A <proj> -n 1 -M snowy --gpus=1  -t 3:00:00
 On Bianca, getting 2 cpu:s and 1 gpu:
 
 ``` console
-interactive -A <proj> -n 2 -C gpu --gpus=1 -t 01:10:00
+interactive -A <proj> -n 2 --gpus=1 -t 01:10:00
 ```
 
 - wait until session is started

@@ -418,7 +418,7 @@ interactive -A <proj> -n 2 -M snowy --gpus=1  -t 3:00:00
 On Bianca, getting 3 cpu:s and 1 gpu:
 
 ```console
-interactive -A <proj> -n 3 -C gpu --gpus=1 -t 01:10:00
+interactive -A <proj> -n 3 --gpus=1 -t 01:10:00
 ```
 
 Note that wall time ``-t`` should be set to more than one hour to not automatically put job in ``devel`` or ``devcore`` queue, which is not allowed for gpu jobs. Also check the GPU quide for Snowy at Using the GPU nodes on Snowy.

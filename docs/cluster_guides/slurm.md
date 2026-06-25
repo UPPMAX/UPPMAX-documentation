@@ -248,14 +248,18 @@ RAM|Pelle|Bianca
 
 ### GPUs
 
-- Bianca: Nodes with Nvidia A100 40 GB
-    - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
+#### Bianca
+All Bianca's GPU nodes have at least 256 GB RAM with 16 CPU cores
+
+- 10 nodes with two NVIDIA A100 40 GiB GPUs (20 GPUs total)
+- 17 nodes with one NVIDIA T4 16 GiB GPUs
 
 **Slurm options**:
 
-- Bianca: ``-C gpu --gpus=1 -t 01:10:00``
+- A100 (default): ``--gpus=2 -t 01:10:00`` or ``--gpus=a100:2 -t 01:10:00``
+- T4: ``--gpus=t4:1 -t 01:10:00``
 
-- <https://slurm.schedmd.com/gres.html#Running_Jobs>
+<https://slurm.schedmd.com/gres.html#Running_Jobs>
 
 ## The queue
 

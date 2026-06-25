@@ -311,15 +311,17 @@ sd > out.log
 
 ### GPU nodes
 
-- Bianca: Nodes with Nvidia A100 40 GB
+- Bianca:
+  - Nodes with NVIDIA A100 40 GB
+  - Nodes with NVIDIA T4 16 GB
 - Snowy: Nodes with Tesla T4 16 GB
 - All GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores and 2 GPUs per node
 
 - slurm options:
 
     - Snowy: ``-M snowy --gpus=1``
-    - Bianca: ``-C gpu --gpus=1 -t 01:10:00
-
+    - Bianca: ``--gpus=1 -t 01:10:00``
+	- Bianca T4: ``--gpus=t4:1 -t 01:10:00``
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
 
 ### Running on several nodes: MPI jobs
