@@ -313,6 +313,7 @@ sd > out.log
 All Bianca GPU nodes have at least 256 GB RAM (fat nodes) with 16 CPU cores.
 
 #### NVIDIA A100 40 GB
+
 10 nodes with two NVIDIA A100 GPUs each. 20 GPUs in total.
 
 In order to avoid GPU misuse, a project cannot request more than 7 of
@@ -328,6 +329,7 @@ nvidia-smi
 ```
 
 #### NVIDIA T4 16 GB
+
 17 nodes with one NVIDIA T4 GPU each.
 
 Example job script:

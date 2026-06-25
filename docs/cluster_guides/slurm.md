@@ -249,6 +249,7 @@ RAM|Pelle|Bianca
 ### GPUs
 
 #### Bianca
+
 All Bianca's GPU nodes have at least 256 GB RAM with 16 CPU cores
 
 - 10 nodes with two NVIDIA A100 40 GiB GPUs (20 GPUs total)

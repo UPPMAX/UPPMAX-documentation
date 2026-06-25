@@ -321,7 +321,8 @@ sd > out.log
 
     - Snowy: ``-M snowy --gpus=1``
     - Bianca: ``--gpus=1 -t 01:10:00``
-	- Bianca T4: ``--gpus=t4:1 -t 01:10:00``
+    - Bianca T4: ``--gpus=t4:1 -t 01:10:00``
+
 - <https://slurm.schedmd.com/gres.html#Running_Jobs>
 
 ### Running on several nodes: MPI jobs
