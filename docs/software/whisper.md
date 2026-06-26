@@ -122,7 +122,9 @@ Following steps are derived from [Project application for Bianca](../getting_sta
 
     ??? tip "Video Demo"
 
-        ![type:video](./videos/whisper-module-load.webm)
+        <video controls>
+          <source src="./videos/whisper-module-load.webm" type="video/webm" />
+        </video>
 
 1. You shall now see `proj` and `wharf` folders on your Desktop along with a Whisper application icon. `wharf` contains the data that was transferred in [Step 1](#step-1-data-transfer-from-local-computer-to-bianca).
 (Next time you start transcribing/translating by logging in again to Bianca, you can start from this step and skip the previous one, since `wharf` and `proj` folder are already created.)
