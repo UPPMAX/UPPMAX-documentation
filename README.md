@@ -5,7 +5,7 @@
 [![Check links](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_links.yaml)
 [![Check Markdown](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_markdown.yaml)
 [![Check spelling](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/check_spelling.yaml)
-[![Create website](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/create_website.yaml)
+[![Create website](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/create_zensical_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/UPPMAX-documentation/actions/workflows/create_zensical_website.yaml)
 
 <!-- markdownlint-enable MD013 -->
 
@@ -37,10 +37,9 @@ pip install -r requirements.txt
 ```
 
 Then activate the environment and serve the website on localhost
-(the `--livereload` flag needs to be set explicitly due to unfixed bug)
 
 ``` bash
-mkdocs serve --livereload
+zensical serve
 ```
 
 ## Optional dependencies
