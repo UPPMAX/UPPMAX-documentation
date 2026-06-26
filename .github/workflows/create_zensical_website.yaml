@@ -28,6 +28,8 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
+      - run: pip install natsort
+      - run: python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
       - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4
         with:
