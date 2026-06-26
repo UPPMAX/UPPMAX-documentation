@@ -1,24 +1,52 @@
 /* Color Settings */
 /* https://github.com/squidfunk/mkdocs-material/blob/6b5035f5580f97532d664e3d1babf5f320e88ee9/src/assets/stylesheets/main/_colors.scss */
 /* https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
-:root > * {
-  --md-primary-fg-color: #E6E6E6;
-  --md-primary-bg-color: #1d1d20;
 
+/* Correct UU colors are:
+   #990000    red, translated from RGB 153/0/0
+   #CCCCCC    quite significant gray, mentioned in the guidelines for "Web"
+   #E6E6E6    lighter gray, mentioned in the guidelines for "RGB" ... but main website uses e5e5e5 ???
+   #000000    full black
+   #FFFFFF    full white
+   where needed, any gray that makes sense in practice... this part
+   is not explicitly mentioned but it is what the main website does
+   
+   The guideline is to keep it light. The red needs to be used as an accent, not too
+   much. The red is fixed, not to be used in any other tint/shade/opacity et.c.
+
+   https://www.uu.se/medarbetare/stod-och-verktyg/kommunikation-och-marknadsforing/visuella-riktlinjer/farger
+*/
+
+:root > * {
+  /* The following three migrated here from mkdocs_uppmax/
+   * to keep .css in one place
+   * anyways, these are not UU colors, so let's not use them
+   * They are customization example youtube colors
+  /*
+  --md-primary-fg-color:        #EE0F0F;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+  */
+  --md-primary-fg-color:   #e6e6e6;  /* Sets fill of buttons, hence needs to be a light gray */
+  --md-primary-bg-color:   #333;  /* Sets text of buttons, hence needs to be essentially black */
+  --md-primary-fg-color--dark:  #990000;  /* Sets ?, but from the example, a good place to use the strong red */
+  --md-primary-fg-color--light: #e6e6e6;  /* Sets ?, but from example, needs to be light */
+
+  --md-typeset-color: #333;   /* Sets body text, hence needs to be real dark. 4b4b4b used on UU home page. */
+  --md-typeset-a-color: #575757; /* Sets link text, nice if different, but needs to be readable also in code block. */
+
+  --md-code-fg-color: #2a2a2a; /* Sets main text in code, slightly darker than body text keeping equal contrast looks good */
+
+  --md-footer-bg-color: #e6e6e6;
+  --md-footer-fg-color: #000000;
+
+  /* The following were here before */
   /* --md-default-fg-color: #1d1d20; */
   /* --md-default-bg-color: #ffffff; */
 
-  /* --md-code-fg-color: #1d1d20; */
-
-  --md-accent-fg-color: #999;
+  /* --md-accent-fg-color: #999; */
 
   /* --md-admonition-fg-color: #1d1d20; */
-
-  /* --md-typeset-color: #1d1d20; */
-  --md-typeset-a-color: #0645AD;
-
-  --md-footer-bg-color: #E6E6E6;
-  --md-footer-fg-color: #000000;
 
 }
 
