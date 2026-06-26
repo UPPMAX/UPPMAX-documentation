@@ -1,0 +1,2 @@
+[project.validation]
+invalid_links = true
