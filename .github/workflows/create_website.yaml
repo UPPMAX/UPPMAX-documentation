@@ -5,16 +5,11 @@ on:
   push:
     branches:
       - main
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/configure-pages@v5
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -34,11 +29,4 @@ jobs:
           rm -rf docs/*/snowy/
 
       - name: Render HTML
-        run: zensical build --clean
-
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: site
-      - uses: actions/deploy-pages@v4
-        id: deployment
-
+        run: mkdocs gh-deploy --force
