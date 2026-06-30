@@ -573,6 +573,8 @@ markdown_extensions:
 plugins:
   - search
   - open-in-new-tab 
+  - tags:
+      export: true
   - mkdocs-video:
       video_muted: True
       video_autoplay: True
