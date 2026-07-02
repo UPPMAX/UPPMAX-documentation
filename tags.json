@@ -1,0 +1,2531 @@
+{
+    "mappings": [
+        {
+            "item": {
+                "url": "CONTRIBUTING/",
+                "title": "Contributing"
+            },
+            "tags": [
+                "contribute",
+                "contributing",
+                "help",
+                "helping",
+                "how to add content",
+                "how to contribute",
+                "how to help",
+                "how to modify content",
+                "how to suggest content"
+            ]
+        },
+        {
+            "item": {
+                "url": "contributors/",
+                "title": "Contributors"
+            },
+            "tags": [
+                "contributors",
+                "thank you",
+                "thanks"
+            ]
+        },
+        {
+            "item": {
+                "url": "dropin/",
+                "title": "UPPMAX drop-in"
+            },
+            "tags": [
+                "contact",
+                "drop in",
+                "drop-in",
+                "dropin",
+                "help",
+                "human",
+                "support",
+                "weekly"
+            ]
+        },
+        {
+            "item": {
+                "url": "support/",
+                "title": "Support"
+            },
+            "tags": [
+                "ask",
+                "contact",
+                "email",
+                "help",
+                "support",
+                "talk"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/backup/",
+                "title": "Backup"
+            },
+            "tags": [
+                "back up",
+                "back-up",
+                "backup"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/bianca/",
+                "title": "Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "cluster",
+                "sensitive data"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/bianca_fingerprints/",
+                "title": "Bianca fingerprints"
+            },
+            "tags": [
+                "Bianca",
+                "SHA256",
+                "fingerprint"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/bianca_login_node/",
+                "title": "Bianca login node"
+            },
+            "tags": [
+                "Bianca",
+                "login",
+                "login node",
+                "node"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/bianca_modules/",
+                "title": "Working with environment modules on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "modules"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/cluster_guide_faq/",
+                "title": "UPPMAX clusters FAQ"
+            },
+            "tags": [
+                "FAQ",
+                "UPPMAX",
+                "cluster",
+                "clusters"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/cluster_speeds/",
+                "title": "Cluster speeds"
+            },
+            "tags": [
+                "UPPMAX",
+                "cluster",
+                "clusters",
+                "fast",
+                "slow",
+                "speed"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/dardel_migration/",
+                "title": "Dardel migration and/or Rackham recovery"
+            },
+            "tags": [
+                "Dardel",
+                "Rackham",
+                "migration",
+                "recovery"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/disk_storage_guide/",
+                "title": "Disk storage guide"
+            },
+            "tags": [
+                "disk",
+                "guide",
+                "storage"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/extend_duration_of_running_job/",
+                "title": "How to extend the duration of a job that is running?"
+            },
+            "tags": [
+                "FAQ",
+                "duration",
+                "extend",
+                "job",
+                "longer",
+                "time"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/file_transfer/",
+                "title": "File transfer"
+            },
+            "tags": [
+                "file",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/get_data_from_an_expired_project/",
+                "title": "How to get data from an expired project?"
+            },
+            "tags": [
+                "FAQ",
+                "NAISS",
+                "UPPMAX",
+                "data",
+                "expired",
+                "project"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/grace_period/",
+                "title": "Grace period"
+            },
+            "tags": [
+                "grace",
+                "period"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/login_node/",
+                "title": "Login node"
+            },
+            "tags": [
+                "login",
+                "login node",
+                "node"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/maja/",
+                "title": "Maja"
+            },
+            "tags": [
+                "Maja",
+                "cluster",
+                "sensitive data"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/module_conflicts/",
+                "title": "How can I resolve problems with conflicting modules?"
+            },
+            "tags": [
+                "conflict",
+                "conflicts",
+                "fix",
+                "module",
+                "resolve",
+                "solve"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/modules/",
+                "title": "Modules"
+            },
+            "tags": [
+                "lmod",
+                "module",
+                "modules",
+                "software module",
+                "software modules"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/nodes_own_disk/",
+                "title": "How to use the nodes' own disk"
+            },
+            "tags": [
+                "SNIC_TMP",
+                "disc",
+                "disk",
+                "node",
+                "scratch"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/pelle/",
+                "title": "Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "cluster",
+                "general-purpose"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/pelle_file_transfer_using_gui/",
+                "title": "File transfer to/from Pelle using a graphical tool"
+            },
+            "tags": [
+                "File transfer",
+                "Graphical tool",
+                "Pelle",
+                "Visual tool"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/pelle_fingerprints/",
+                "title": "Pelle fingerprints"
+            },
+            "tags": [
+                "Pelle",
+                "SHA256",
+                "fingerprint"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/pelle_modules/",
+                "title": "Working with environment modules on Pelle"
+            },
+            "tags": [
+                "lmod",
+                "module",
+                "modules",
+                "software module",
+                "software modules"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/pelle_test/",
+                "title": "Pelle test pilot guide"
+            },
+            "tags": [
+                "Pelle"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/slurm/",
+                "title": "Slurm"
+            },
+            "tags": [
+                "Simple Linux Utility for Resource Management",
+                "slurm"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/slurm_on_bianca/",
+                "title": "Slurm on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "Slurm"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/snapshot/",
+                "title": "Snapshot"
+            },
+            "tags": [
+                "snapshot",
+                "snapshots"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/start_interactive_session/",
+                "title": "Start an interactive session"
+            },
+            "tags": [
+                "interactive",
+                "session",
+                "start"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/start_interactive_session_on_bianca/",
+                "title": "Starting an interactive session on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "interactive",
+                "session",
+                "start"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/start_interactive_session_on_pelle/",
+                "title": "Starting an interactive session on Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "interactive",
+                "session",
+                "start"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/storage_compression/",
+                "title": "Storage and compression"
+            },
+            "tags": [
+                "compression",
+                "storage"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/system_status/",
+                "title": "System status"
+            },
+            "tags": [
+                "down",
+                "status",
+                "system",
+                "up"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/transfer_pelle/",
+                "title": "Transfer to/from Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "data",
+                "file",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/transit_fingerprints/",
+                "title": "Transit fingerprints"
+            },
+            "tags": [
+                "SHA256",
+                "Transit",
+                "fingerprint"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/uppmax_acknowledgement/",
+                "title": "UPPMAX acknowledgement"
+            },
+            "tags": [
+                "UPPMAX",
+                "acknowledgement",
+                "cite",
+                "mention"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/uppmax_cloud/",
+                "title": "UPPMAX cloud"
+            },
+            "tags": [
+                "Dis",
+                "EAST-1",
+                "Swedish Science Cloud",
+                "UPPMAX",
+                "cloud",
+                "ssc"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/uppmax_cluster/",
+                "title": "The UPPMAX clusters"
+            },
+            "tags": [
+                "UPPMAX",
+                "clusters",
+                "overview"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/uppmax_filesystem/",
+                "title": "UPPMAX filesystem"
+            },
+            "tags": [
+                "UPPMAX",
+                "file system",
+                "filesystem"
+            ]
+        },
+        {
+            "item": {
+                "url": "cluster_guides/uppmax_rules/",
+                "title": "UPPMAX Rules"
+            },
+            "tags": [
+                "UPPMAX",
+                "laws",
+                "rules",
+                "terms of use"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/R_matlab_julia/",
+                "title": "R-MATLAB-Julia"
+            },
+            "tags": [
+                "Julia",
+                "MATLAB",
+                "R",
+                "course",
+                "intro",
+                "introduction",
+                "workshop"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/awk/",
+                "title": "AWK"
+            },
+            "tags": [
+                "AWK",
+                "course",
+                "workshop"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/courses_workshops/",
+                "title": "Overview"
+            },
+            "tags": [
+                "classes",
+                "courses",
+                "sessions",
+                "teaching",
+                "workshops"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/hpc_python/",
+                "title": "HPC Python"
+            },
+            "tags": [
+                "Python",
+                "course",
+                "workshop"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/intro_to_python/",
+                "title": "Intro to Python"
+            },
+            "tags": [
+                "HPC",
+                "Python",
+                "course",
+                "intro",
+                "introduction",
+                "workshop"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/uppmax_intro_course/",
+                "title": "UPPMAX intro"
+            },
+            "tags": [
+                "Linux",
+                "UPPMAX",
+                "course",
+                "intro",
+                "introduction",
+                "workshop"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/not_used/bianca_intro/",
+                "title": "Introduction to Bianca: Handling Sensitive Research Data"
+            },
+            "tags": [
+                "Bianca",
+                "course",
+                "intro",
+                "introduction",
+                "workshop"
+            ]
+        },
+        {
+            "item": {
+                "url": "courses_workshops/not_used/naiss_transfer/",
+                "title": "Transferring files to/from HPC Clusters"
+            },
+            "tags": [
+                "NAISS",
+                "course",
+                "data",
+                "file",
+                "transfer",
+                "workshop"
+            ]
+        },
+        {
+            "item": {
+                "url": "databases/overview/",
+                "title": "Overview"
+            },
+            "tags": [
+                "database",
+                "databases",
+                "list",
+                "overview"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/change_reset_uppmax_password/",
+                "title": "Change or reset password"
+            },
+            "tags": [
+                "UPPMAX",
+                "change",
+                "edit",
+                "modify",
+                "password",
+                "reset",
+                "set"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/get_inside_sunet/",
+                "title": "Get inside the university networks"
+            },
+            "tags": [
+                "Get inside",
+                "SUNET",
+                "University network",
+                "University networks",
+                "edoroam"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/get_started/",
+                "title": "Get started"
+            },
+            "tags": [
+                "get started"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/get_uppmax_2fa/",
+                "title": "Setting up two factor authentication for UPPMAX"
+            },
+            "tags": [
+                "2FA",
+                "MFA",
+                "TOTP",
+                "UPPMAX"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/get_uppmax_2fa_qr/",
+                "title": "Setting up the QR code for two factor authentication for UPPMAX"
+            },
+            "tags": [
+                "2FA",
+                "MFA",
+                "QR",
+                "TOTP",
+                "UPPMAX"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/get_uppmax_2fa_qr_code/",
+                "title": "Setting up the QR code for two factor authentication for UPPMAX"
+            },
+            "tags": [
+                "2FA",
+                "MFA",
+                "QR",
+                "UPPMAX",
+                "code"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login/",
+                "title": "Log in"
+            },
+            "tags": [
+                "general",
+                "log in",
+                "login"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_bianca/",
+                "title": "Log in to Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "log in",
+                "login"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_bianca_console_password/",
+                "title": "Login to the Bianca console environment with a password"
+            },
+            "tags": [
+                "Bianca",
+                "console",
+                "log in",
+                "login",
+                "password",
+                "terminal"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_bianca_console_password_no_sunet/",
+                "title": "Login to the Bianca console environment with a password from outside of the Swedish university networks"
+            },
+            "tags": [
+                "Bianca",
+                "SUNET",
+                "console",
+                "log in",
+                "login",
+                "out",
+                "outside",
+                "password",
+                "terminal",
+                "university networks"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_bianca_console_ssh_key/",
+                "title": "Login to the Bianca console environment using SSH keys"
+            },
+            "tags": [
+                "Bianca",
+                "SSH",
+                "console",
+                "log in",
+                "login",
+                "terminal"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_bianca_console_ssh_key_no_sunet/",
+                "title": "Login to the Bianca console environment using SSH keys from outside of the Swedish university networks"
+            },
+            "tags": [
+                "Bianca",
+                "SSH",
+                "SUNET",
+                "console",
+                "log in",
+                "login",
+                "out",
+                "outside",
+                "terminal",
+                "university networks"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_bianca_remote_desktop_website/",
+                "title": "Log in to the Bianca remote desktop environment website"
+            },
+            "tags": [
+                "Bianca",
+                "SUNET",
+                "URL",
+                "in",
+                "inside",
+                "log in",
+                "login",
+                "remote desktop",
+                "university networks",
+                "website",
+                "within"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_dardel/",
+                "title": "Log in to Dardel (at PDC)"
+            },
+            "tags": [
+                "Dardel",
+                "log in",
+                "login"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_pelle/",
+                "title": "Log in to Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "log in",
+                "login"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_pelle_console_password/",
+                "title": "Login to the Pelle console environment with a password"
+            },
+            "tags": [
+                "Pelle",
+                "SSH",
+                "console",
+                "log in",
+                "login",
+                "password",
+                "ssh",
+                "terminal"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_pelle_console_ssh_key/",
+                "title": "Login to the Pelle console environment using SSH keys"
+            },
+            "tags": [
+                "Pelle",
+                "SSH",
+                "console",
+                "log in",
+                "login",
+                "terminal"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_pelle_remote_desktop_local_thinlinc_client/",
+                "title": "Log in to Pelle's remote desktop environment using a local ThinLinc client"
+            },
+            "tags": [
+                "Pelle",
+                "ThinLinc",
+                "ThinLinc client",
+                "local",
+                "log in",
+                "login",
+                "program",
+                "remote desktop",
+                "tool"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/login_pelle_remote_desktop_website/",
+                "title": "Log in to Pelle's remote desktop via a webbrowser"
+            },
+            "tags": [
+                "Pelle",
+                "URL",
+                "log in",
+                "login",
+                "remote desktop",
+                "website"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/project/",
+                "title": "UPPMAX project"
+            },
+            "tags": [
+                "UPPMAX",
+                "project"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/project_apply/",
+                "title": "Applying for a Project"
+            },
+            "tags": [
+                "application",
+                "apply",
+                "project"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/project_apply_bianca/",
+                "title": "Project application for Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "application",
+                "apply",
+                "project"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/project_apply_pelle/",
+                "title": "Project application for Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "application",
+                "apply",
+                "project"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/project_apply_scc/",
+                "title": "Project application for SCC"
+            },
+            "tags": [
+                "SCC",
+                "Swedish Science Cloud",
+                "application",
+                "apply",
+                "project"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/project_apply_simpler/",
+                "title": "SIMPLER project application"
+            },
+            "tags": [
+                "SIMPLER",
+                "application",
+                "apply",
+                "project"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/setup_vpn/",
+                "title": "Setup a VPN"
+            },
+            "tags": [
+                "Mac",
+                "VPN",
+                "Windows",
+                "set up",
+                "setup"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/setup_vpn_uu_linux/",
+                "title": "Setup a VPN from Uppsala University for Linux"
+            },
+            "tags": [
+                "Linux",
+                "UU",
+                "Uppsala",
+                "VPN",
+                "set up",
+                "setup"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/supr/",
+                "title": "SUPR"
+            },
+            "tags": [
+                "SUPR"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/supr_account/",
+                "title": "SUPR Accounts"
+            },
+            "tags": [
+                "UPPMAX",
+                "login",
+                "user account",
+                "username"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/user_account/",
+                "title": "UPPMAX User Accounts"
+            },
+            "tags": [
+                "UPPMAX",
+                "login",
+                "user account",
+                "username"
+            ]
+        },
+        {
+            "item": {
+                "url": "getting_started/why_2fa/",
+                "title": "Why is 2FA important?"
+            },
+            "tags": [
+                "2FA",
+                "MFA",
+                "UPPMAX",
+                "Why"
+            ]
+        },
+        {
+            "item": {
+                "url": "hardware/overview/",
+                "title": "Hardware overview"
+            },
+            "tags": [
+                "hardware",
+                "overview",
+                "specifications",
+                "specs"
+            ]
+        },
+        {
+            "item": {
+                "url": "hardware/clusters/bianca/",
+                "title": "Bianca hardware"
+            },
+            "tags": [
+                "Bianca",
+                "hardware",
+                "specifications",
+                "specs"
+            ]
+        },
+        {
+            "item": {
+                "url": "hardware/clusters/decomissioned_clusters/",
+                "title": "Decomissioned clusters"
+            },
+            "tags": [
+                "cluster",
+                "decomissioned",
+                "history",
+                "old"
+            ]
+        },
+        {
+            "item": {
+                "url": "hardware/storage/decomissioned_storage_systems/",
+                "title": "Decomissioned storage systems"
+            },
+            "tags": [
+                "decomissioned",
+                "history",
+                "old",
+                "storage systems"
+            ]
+        },
+        {
+            "item": {
+                "url": "hardware/storage/gorilla/",
+                "title": "Gorilla"
+            },
+            "tags": [
+                "Gorilla",
+                "UPPMAX",
+                "storage system"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/alvis/",
+                "title": "Alvis"
+            },
+            "tags": [
+                "Alvis",
+                "HPC",
+                "centre"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/alvis_file_transfer_using_filezilla/",
+                "title": "File transfer to/from Alvis using FileZilla"
+            },
+            "tags": [
+                "Alvis",
+                "FileZilla"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/alvis_file_transfer_using_rsync/",
+                "title": "File transfer to/from Alvis using rsync"
+            },
+            "tags": [
+                "Alvis",
+                "rsync"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/arrhenius/",
+                "title": "Arrhenius"
+            },
+            "tags": [
+                "Dardel",
+                "HPC",
+                "NAISS",
+                "cluster"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/cosmos/",
+                "title": "COSMOS"
+            },
+            "tags": [
+                "COSMOS",
+                "LUNARC"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/cosmos_file_transfer_using_filezilla/",
+                "title": "File transfer to/from COSMOS using FileZilla"
+            },
+            "tags": [
+                "COSMOS",
+                "FileZilla"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/cosmos_file_transfer_using_rsync/",
+                "title": "Data transfer to/from COSMOS using rsync"
+            },
+            "tags": [
+                "COSMOS",
+                "data transfer",
+                "file transfer",
+                "rsync",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/cosmos_file_transfer_using_scp/",
+                "title": "Data transfer to/from COSMOS using scp"
+            },
+            "tags": [
+                "COSMOS",
+                "SCP",
+                "data transfer",
+                "file transfer",
+                "scp",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/dardel/",
+                "title": "Dardel"
+            },
+            "tags": [
+                "Dardel",
+                "HPC",
+                "PDC",
+                "cluster"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/dardel_file_transfer_using_filezilla/",
+                "title": "File transfer to/from Dardel using FileZilla"
+            },
+            "tags": [
+                "Dardel",
+                "FileZilla"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/dardel_file_transfer_using_rsync/",
+                "title": "File transfer to/from Dardel using rsync"
+            },
+            "tags": [
+                "Dardel",
+                "rsync"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/file_transfer_using_filezilla/",
+                "title": "File transfer using FileZilla"
+            },
+            "tags": [
+                "FileZilla"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/file_transfer_using_rsync/",
+                "title": "File transfer using rsync"
+            },
+            "tags": [
+                "rsync"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/hpc2n/",
+                "title": "HPC2N"
+            },
+            "tags": [
+                "HPC",
+                "HPC2n",
+                "Ume\u00e5",
+                "centre"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/kebnekaise/",
+                "title": "Kebnekaise"
+            },
+            "tags": [
+                "HPC2N",
+                "Kebnekaise"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/login/",
+                "title": "Login to NAISS or local HPC cluster"
+            },
+            "tags": [
+                "HPC",
+                "NAISS",
+                "cluster",
+                "local",
+                "log in",
+                "login"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/lumi_file_transfer_using_filezilla/",
+                "title": "File transfer to/from LUMI using FileZilla"
+            },
+            "tags": [
+                "FileZilla",
+                "LUMI",
+                "data transfer",
+                "download",
+                "file transfer",
+                "upload"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/lumi_file_transfer_using_rsync/",
+                "title": "Data transfer to/from LUMI using rsync"
+            },
+            "tags": [
+                "CSC",
+                "LUMI",
+                "data transfer",
+                "file transfer",
+                "rsync",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/lunarc/",
+                "title": "LUNARC"
+            },
+            "tags": [
+                "HPC",
+                "LUNARC",
+                "Link\u00f6ping",
+                "centre"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/request_tracker/",
+                "title": "Request Tracker"
+            },
+            "tags": [
+                "RT",
+                "Request Tracker"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_alvis/",
+                "title": "RStudio on Alvis"
+            },
+            "tags": [
+                "Alvis",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_berzelius/",
+                "title": "RStudio on Berzelius"
+            },
+            "tags": [
+                "Berzelius",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_cosmos/",
+                "title": "RStudio on COSMOS"
+            },
+            "tags": [
+                "COSMOS",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_dardel/",
+                "title": "RStudio on Dardel"
+            },
+            "tags": [
+                "Dardel",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_kebnekaise/",
+                "title": "RStudio on Kebnekaise"
+            },
+            "tags": [
+                "Kebnekaise",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_lumi/",
+                "title": "RStudio on LUMI"
+            },
+            "tags": [
+                "LUMI",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_tetralith/",
+                "title": "RStudio on Tetralith"
+            },
+            "tags": [
+                "RStudio",
+                "Tetralith"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/rstudio_on_vera/",
+                "title": "RStudio on Vera"
+            },
+            "tags": [
+                "RStudio",
+                "Vera"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/ssh_key_use_tetralith/",
+                "title": "Create an SSH key pair for Tetralith"
+            },
+            "tags": [
+                "SSH",
+                "SSH key",
+                "SSH key pair",
+                "Tetralith",
+                "create",
+                "key",
+                "ssh",
+                "ssh key",
+                "ssh key pair"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/swestore/",
+                "title": "Swestore"
+            },
+            "tags": [
+                "HPC",
+                "Swestore",
+                "centre",
+                "dCache"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/tetralith/",
+                "title": "Tetralith"
+            },
+            "tags": [
+                "NSC",
+                "Tetralith"
+            ]
+        },
+        {
+            "item": {
+                "url": "naiss/tetralith_file_transfer_using_rsync/",
+                "title": "File transfer to/from Tetralith using rsync"
+            },
+            "tags": [
+                "Tetralith",
+                "rsync"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/bash/",
+                "title": "Bash"
+            },
+            "tags": [
+                "Bourne again shell",
+                "bash"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/beast/",
+                "title": "BEAST"
+            },
+            "tags": [
+                "BEAST",
+                "Bayesian phylogenetic analysis",
+                "software"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/beast2/",
+                "title": "BEAST2"
+            },
+            "tags": [
+                "BEAST2",
+                "Bayesian phylogenetic analysis",
+                "software"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/bianca_file_transfer_using_filezilla/",
+                "title": "File transfer to/from Bianca using FileZilla"
+            },
+            "tags": [
+                "Bianca",
+                "FileZilla",
+                "GUI",
+                "data transfer",
+                "file transfer",
+                "graphical",
+                "transfer",
+                "visual"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/bianca_file_transfer_using_lftp/",
+                "title": "Using lftp with Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "command-line",
+                "data transfer",
+                "file transfer",
+                "lftp",
+                "terminal",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/bianca_file_transfer_using_rsync/",
+                "title": "File transfer to/from Bianca using rsync"
+            },
+            "tags": [
+                "Bianca",
+                "data transfer",
+                "file transfer",
+                "rsync",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/bianca_file_transfer_using_sftp/",
+                "title": "Using sftp with Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "SFTP",
+                "command-line",
+                "console",
+                "data transfer",
+                "file transfer",
+                "sftp",
+                "terminal",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/bianca_file_transfer_using_winscp/",
+                "title": "File transfer to/from Bianca using WinSCP"
+            },
+            "tags": [
+                "Bianca",
+                "WinSCP",
+                "data transfer",
+                "file transfer",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/cellranger/",
+                "title": "Cell Ranger"
+            },
+            "tags": [
+                "10XGenomics",
+                "10x Genomics",
+                "Cell Ranger",
+                "Cellranger",
+                "cell ranger",
+                "cellranger"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/chmod/",
+                "title": "chmod"
+            },
+            "tags": [
+                "Bash",
+                "Linux",
+                "change ownership",
+                "chmod",
+                "command"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/containers/",
+                "title": "Containers"
+            },
+            "tags": [
+                "containers"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/cowsay/",
+                "title": "cowsay"
+            },
+            "tags": [
+                "cow that talks",
+                "cowsay",
+                "terminal",
+                "tool",
+                "toy example"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container/",
+                "title": "Creating a Singularity container"
+            },
+            "tags": [
+                "Singularity",
+                "Singularity container",
+                "build",
+                "create"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container_for_r_package/",
+                "title": "Create a Singularity container for an R package"
+            },
+            "tags": [
+                "R",
+                "R package",
+                "Singularity",
+                "Singularity script",
+                "build",
+                "create"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container_from_a_singularity_script/",
+                "title": "Create a Singularity container from a Singularity script"
+            },
+            "tags": [
+                "Singularity",
+                "Singularity script",
+                "build",
+                "create"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container_from_a_singularity_script_on_linux/",
+                "title": "Create a Singularity container from a Singularity script on a computer with Linux where you have super-user rights"
+            },
+            "tags": [
+                "Linux",
+                "Singularity",
+                "Singularity script",
+                "build",
+                "create",
+                "local computer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container_from_a_singularity_script_using_remote_builder/",
+                "title": "Create a Singularity container from a Singularity script using a website"
+            },
+            "tags": [
+                "Singularity",
+                "Singularity script",
+                "Sylabs",
+                "build",
+                "create",
+                "remote builder",
+                "website"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container_from_conda/",
+                "title": "Create a Singularity container from conda"
+            },
+            "tags": [
+                "Singularity",
+                "Singularity script",
+                "build",
+                "conda",
+                "create"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container_from_docker_pull/",
+                "title": "Create a Singularity container from a Docker pull"
+            },
+            "tags": [
+                "Docker",
+                "Singularity",
+                "Singularity script",
+                "build",
+                "create",
+                "docker pull",
+                "pull"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/create_singularity_container_from_dockerhub/",
+                "title": "Create a Singularity container from Docker Hub"
+            },
+            "tags": [
+                "Docker Hub",
+                "Singularity",
+                "Singularity script",
+                "build",
+                "create"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/eog/",
+                "title": "eog"
+            },
+            "tags": [
+                "command line",
+                "display image",
+                "display plot",
+                "eog",
+                "show image",
+                "show plot",
+                "terminal"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/filezilla/",
+                "title": "FileZilla"
+            },
+            "tags": [
+                "FileZilla",
+                "software",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/gedit/",
+                "title": "gedit"
+            },
+            "tags": [
+                "editor",
+                "gedit",
+                "text"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/interactive/",
+                "title": "interactive"
+            },
+            "tags": [
+                "interactive",
+                "session"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/jobstats/",
+                "title": "jobstats"
+            },
+            "tags": [
+                "job statistics",
+                "jobstats",
+                "resource use",
+                "tool",
+                "view resource use"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/jupyter/",
+                "title": "Jupyter"
+            },
+            "tags": [
+                "IDE",
+                "Jupyter",
+                "Python"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/jupyter_local/",
+                "title": "Jupyter in local browser"
+            },
+            "tags": [
+                "Jupyter",
+                "Rackham",
+                "Snowy",
+                "local"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/jupyter_on_bianca/",
+                "title": "Jupyter on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "Jupyter"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/jupyter_on_pelle/",
+                "title": "Jupyter on Pelle"
+            },
+            "tags": [
+                "Jupyter",
+                "Rackham"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/matlab_ide_on_pelle/",
+                "title": "Using the MATLAB IDE on Pelle"
+            },
+            "tags": [
+                "GUI",
+                "IDE",
+                "MATLAB",
+                "Pelle"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/matplotlib/",
+                "title": "Matplotlib"
+            },
+            "tags": [
+                "Matplotlib",
+                "Python",
+                "plotting"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/nedit/",
+                "title": "nedit"
+            },
+            "tags": [
+                "editor",
+                "nedit",
+                "text"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pelle_file_transfer_using_filezilla/",
+                "title": "File transfer to/from Pelle using FileZilla"
+            },
+            "tags": [
+                "FileZilla",
+                "Pelle"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pelle_file_transfer_using_rsync/",
+                "title": "Data transfer to/from Pelle using rsync"
+            },
+            "tags": [
+                "Pelle",
+                "data transfer",
+                "file transfer",
+                "rsync",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pelle_file_transfer_using_scp/",
+                "title": "Data transfer to/from Pelle using SCP"
+            },
+            "tags": [
+                "Pelle",
+                "SCP",
+                "data transfer",
+                "file transfer",
+                "scp",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pelle_file_transfer_using_transit_scp/",
+                "title": "Data transfer to/from Pelle using Transit using SCP"
+            },
+            "tags": [
+                "Pelle",
+                "SCP",
+                "Transit",
+                "data transfer",
+                "file transfer",
+                "scp",
+                "transfer",
+                "transit"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pelle_file_transfer_using_transit_scp_from_pelle/",
+                "title": "Data transfer to/from Pelle using Transit using SCP from Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "SCP",
+                "Transit",
+                "data transfer",
+                "file transfer",
+                "scp",
+                "transfer",
+                "transit"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pelle_file_transfer_using_transit_scp_from_transit/",
+                "title": "Data transfer to/from Pelle using Transit using SCP from Transit"
+            },
+            "tags": [
+                "Pelle",
+                "SCP",
+                "Transit",
+                "data transfer",
+                "file transfer",
+                "scp",
+                "transfer",
+                "transit"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pelle_file_transfer_using_winscp/",
+                "title": "File transfer to/from Pelle using WinSCP"
+            },
+            "tags": [
+                "Rackham",
+                "WinSCP",
+                "data transfer",
+                "file transfer",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/pluma/",
+                "title": "Pluma"
+            },
+            "tags": [
+                "GUI",
+                "editor",
+                "graphical",
+                "pelle",
+                "pluma",
+                "text"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/puttygen/",
+                "title": "puttygen"
+            },
+            "tags": [
+                "PuTTY Key Generator",
+                "SSH",
+                "files",
+                "key",
+                "ppk",
+                "puttygen",
+                "software"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/python/",
+                "title": "Python"
+            },
+            "tags": [
+                "Python",
+                "main page",
+                "user guide"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/python_bundles/",
+                "title": "Python bundles"
+            },
+            "tags": [
+                "PyTorch",
+                "Python",
+                "bundles",
+                "module",
+                "software",
+                "torch"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/python_install_packages/",
+                "title": "Installing Python packages"
+            },
+            "tags": [
+                "Python",
+                "package",
+                "pip",
+                "pip install"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/python_parallel_jobs/",
+                "title": "How to run parallel jobs in Python"
+            },
+            "tags": [
+                "Python",
+                "parallel"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/python_pyenv/",
+                "title": "Python pyenv"
+            },
+            "tags": [
+                "Python",
+                "pyenv"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/r/",
+                "title": "R"
+            },
+            "tags": [
+                "R",
+                "interpreter",
+                "language",
+                "programming language",
+                "software"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/r_on_pelle/",
+                "title": "R on Pelle"
+            },
+            "tags": [
+                "R",
+                "interpreter",
+                "language",
+                "programming language",
+                "software"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/rstudio/",
+                "title": "RStudio"
+            },
+            "tags": [
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/rstudio_on_bianca/",
+                "title": "RStudio on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/rstudio_on_pelle/",
+                "title": "RStudio on Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "RStudio"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/sbatch/",
+                "title": "sbatch"
+            },
+            "tags": [
+                "Slurm",
+                "sbatch",
+                "scheduler",
+                "software",
+                "submit"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/scancel/",
+                "title": "scancel"
+            },
+            "tags": [
+                "scancel"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/scp/",
+                "title": "scp"
+            },
+            "tags": [
+                "copy",
+                "program",
+                "scp",
+                "secure copy protocol",
+                "software",
+                "tool"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/seaborn/",
+                "title": "Seaborn"
+            },
+            "tags": [
+                "Python",
+                "Seaborn",
+                "plotting"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/seff/",
+                "title": "seff"
+            },
+            "tags": [
+                "Slurm",
+                "efficiency",
+                "scheduler",
+                "software",
+                "tool"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/sftp/",
+                "title": "SFTP"
+            },
+            "tags": [
+                "SFTP",
+                "sftp"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/spyder/",
+                "title": "Spyder"
+            },
+            "tags": [
+                "IDE",
+                "Python",
+                "Spyder"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/spyder_on_pelle/",
+                "title": "Spyder on Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "Spyder",
+                "bundle",
+                "conda",
+                "module"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/squeue/",
+                "title": "squeue"
+            },
+            "tags": [
+                "squeue"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/ssh/",
+                "title": "SSH"
+            },
+            "tags": [
+                "SSH",
+                "ssh"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/ssh_client/",
+                "title": "SSH client"
+            },
+            "tags": [
+                "SSH",
+                "SSH client",
+                "SSH clients",
+                "client",
+                "clients",
+                "ssh",
+                "ssh client",
+                "ssh clients"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/ssh_key_use/",
+                "title": "Create and use an SSH key pair"
+            },
+            "tags": [
+                "SSH key",
+                "SSH key pair",
+                "SSH keys",
+                "ssh key",
+                "ssh key pair",
+                "ssh keys"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/ssh_key_use_bianca/",
+                "title": "Create an SSH key pair for use with Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "SSH",
+                "SSH key",
+                "SSH key pair",
+                "SSH keys",
+                "create",
+                "ssh",
+                "ssh key",
+                "ssh key pair",
+                "ssh keys"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/ssh_key_use_dardel/",
+                "title": "Create and use an SSH key pair for Dardel"
+            },
+            "tags": [
+                "Dardel",
+                "SSH",
+                "SSH key",
+                "key",
+                "ssh",
+                "ssh key"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/ssh_key_use_pelle/",
+                "title": "Create an SSH key pair for Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "SSH",
+                "SSH key",
+                "SSH key pair",
+                "create",
+                "key",
+                "ssh",
+                "ssh key",
+                "ssh key pair"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/ssh_x_forwarding/",
+                "title": "SSH X forwarding"
+            },
+            "tags": [
+                "SSH",
+                "console",
+                "ssh",
+                "terminal",
+                "x-forwarding"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/terminal/",
+                "title": "Terminal"
+            },
+            "tags": [
+                "terminal"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/text_editors/",
+                "title": "Text editors"
+            },
+            "tags": [
+                "editor",
+                "editors",
+                "text",
+                "text editor",
+                "text editors"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/thinlinc/",
+                "title": "ThinLinc"
+            },
+            "tags": [
+                "ThinLinc",
+                "copy-paste",
+                "install",
+                "local client",
+                "usage"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/thinlinc_error_no_server_agent_was_available/",
+                "title": "ThinLinc error: no agent server was available"
+            },
+            "tags": [
+                "ThinLinc",
+                "agent server",
+                "error",
+                "no agent server was available"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/thinlinc_on_bianca/",
+                "title": "ThinLinc on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "ThinLinc"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/thinlinc_on_pelle/",
+                "title": "ThinLinc on Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "ThinLinc"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/transit_file_transfer_using_filezilla/",
+                "title": "File transfer to/from Transit using FileZilla"
+            },
+            "tags": [
+                "FileZilla",
+                "Transit",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/transit_file_transfer_using_scp/",
+                "title": "Data transfer to/from Transit using SCP"
+            },
+            "tags": [
+                "SCP",
+                "Transit",
+                "data transfer",
+                "file transfer",
+                "scp",
+                "transfer",
+                "transit"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/transit_file_transfer_using_sftp/",
+                "title": "Data transfer to/from Transit using SFTP"
+            },
+            "tags": [
+                "SFTP",
+                "Transit",
+                "sftp",
+                "transfer"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/transit_file_transfer_using_winscp/",
+                "title": "File transfer to/from Transit using WinSCP"
+            },
+            "tags": [
+                "Transit",
+                "WinSCP",
+                "data transfer",
+                "file transfer",
+                "transfer",
+                "transit"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/vscode_on_bianca/",
+                "title": "Using Visual Studio Code on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "VSCode"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/vscode_on_pelle/",
+                "title": "Connecting Visual Studio Code to Pelle"
+            },
+            "tags": [
+                "Pelle",
+                "VSCode",
+                "connect"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/vscodium/",
+                "title": "VSCodium"
+            },
+            "tags": [
+                "VSCodium"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/vscodium_on_bianca/",
+                "title": "Using VSCodium on Bianca"
+            },
+            "tags": [
+                "Bianca",
+                "VSCodium"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/whisper/",
+                "title": "Whisper"
+            },
+            "tags": [
+                "AI",
+                "Whisper",
+                "transcriptions"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/winscp/",
+                "title": "WinSCP"
+            },
+            "tags": [
+                "WinSCP",
+                "Windows",
+                "windows",
+                "winscp"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/xclock/",
+                "title": "xclock"
+            },
+            "tags": [
+                "console",
+                "eyes",
+                "terminal",
+                "x-forwarding",
+                "xclock"
+            ]
+        },
+        {
+            "item": {
+                "url": "software/xeyes/",
+                "title": "xeyes"
+            },
+            "tags": [
+                "console",
+                "eyes",
+                "terminal",
+                "x-forwarding",
+                "xeyes"
+            ]
+        },
+        {
+            "item": {
+                "url": "staff/",
+                "title": "UPPMAX staff info"
+            },
+            "tags": [
+                "staff"
+            ]
+        },
+        {
+            "item": {
+                "url": "staff/sysadmin_responsibility/",
+                "title": "Sysadmin responsibility"
+            },
+            "tags": [
+                "Ansvarsforbindelse",
+                "Sysadmin",
+                "responsibility",
+                "staff"
+            ]
+        },
+        {
+            "item": {
+                "url": "staff/uppmax_matrix/",
+                "title": "UPPMAX Matrix"
+            },
+            "tags": [
+                "matrix",
+                "staff"
+            ]
+        },
+        {
+            "item": {
+                "url": "uppmax/gitlab/",
+                "title": "UPPMAX GitLab"
+            },
+            "tags": [
+                "GitLab",
+                "UPPMAX"
+            ]
+        }
+    ]
+}
