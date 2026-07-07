@@ -1,0 +1,24 @@
+A list with counts of filenames that exist in multiple folders within docs/
+
+Alas, I removed the paths in order to easily find and count these.
+
+      3 README.md
+      3 overview.md
+      2 uppmax_cloud.md
+      2 spirula.md
+      2 snowy.md
+      2 singularity.md
+      2 rackham.md
+      2 pelle.md
+      2 miarka.md
+      2 login.md
+      2 disk_storage_guide.md
+      2 dardel.md
+      2 cygnus.md
+      2 crex.md
+      2 compress_guide.md
+      2 compress_format.md
+      2 compress_fastQ.md
+      2 bianca.md
+      2 backup.md
+      2 arrhenius.md
