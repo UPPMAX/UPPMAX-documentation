@@ -69,3 +69,112 @@ I will make use of it, let's start there.
   rather than following a procedure)
 - Level of detail (not sure how to name or group the different levels here)
 - Level of expertise/experience
+
+## New list: groupings indicated by inventory of tags
+
+From the file tags-counted-as-of-dfa35a.txt we learn that our most-used tags can
+be summarized as:
+
+- Bianca
+- Pelle
+- File/data transfer
+- UPPMAX
+- login
+- terminal
+- SSH
+
+Then there's two that have numerous pages even though they probably shouldn't
+have numerous pages in this set of documentation:
+
+- RStudio
+- Python
+
+And two that are entirely unhelpful and should not be used as tags at all as
+they don't really specify a topic at all, at least in this context (create what?
+software in which role?):
+
+- create
+- software
+- tool
+- session  (found further down, same problem)
+
+After that there's both deeper subsections...:
+
+- FileZilla
+- Transit
+- rsync
+- scp
+- ThinLinc
+- WinSCP
+- password
+- MFA / 2FA
+
+...and new categories:
+
+- Singularity
+- build
+- Dardel
+- project
+- course
+- application
+- module
+- COSMOS
+- Tetralith
+- SUNET
+- R
+- NAISS
+- Linux
+- Jupyter
+
+## Third list: groupings indicated by the AI-wiki
+
+From the file grouped-top-topics-from-AI-wiki.txt, where I have manually
+grouped the topics that referred to three or more pages in the
+documentation---with reservation for cases of duplicate filenames, which have
+been counted as a single page by the AI wiki system (and documented in
+duplicate-filenames-in-docs.txt).
+
+This (probably) includes all large categories but ignores some important ones.
+It can be summarized as follows (partially structured):
+
+- Access
+  - Login
+  - File transfer
+- HPC in general
+- Terminal / CLI tools
+- Text editors
+- Programming and adjacent tools
+  - IDEs
+  - Notebooks
+  - Debugging
+  - Profiling and optimization
+  - Programming languages
+    - Python
+    - R
+  - Compilers
+- Containerization
+- Security
+- Isolation
+- Specific research softwares
+  - Bioinformatics
+  - Genomics
+- Data analysis
+- Machine learning
+- Resources and job management: Slurm
+- Module / software / package -management
+- Software installation
+- Project management
+- Account management
+- Cluster management?
+- Data / storage -management
+  - Version control
+  - File managers
+  - Compression
+- Permissions
+- Database management
+- Documentation
+- Environment management
+- Scripting
+- Networking
+- Naming conventions
+- Support

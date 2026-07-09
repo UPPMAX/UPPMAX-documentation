@@ -1,7 +1,10 @@
-The following is the topics from the AI-wiki with the largest number of sources,
-ordered by decreasing number of sources, manually grouped without any determined
-headings for the groups.
+The following is the topics from the AI-wiki with 3 or more sources (i.e.
+documentation pages), ordered by decreasing number of sources, manually grouped
+without any determined headings for the groups. 
 
+*Footnote:*
+The "sources" in the AI-wiki is one to one with documentation pages except
+where we have multiple pages in different directories with the same name.
 
 file-transfer
 authentication
@@ -99,3 +102,5 @@ machine-learning
 naming-conventions
 
 networking
+
+support

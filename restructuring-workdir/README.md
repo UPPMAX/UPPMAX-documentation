@@ -1,10 +1,6 @@
 In this folder I'm gathering the data and my thoughts in order to create, to the
 best of my ability, the most practically useful structure for navigation and
-overvies of this documentation.
-
-The basic list of topics that I pulled out from Marzieh's AI-wiki today isn't
-very helpful, since it gives no indication of the breadth or importance of the
-topics.
+overview of this documentation.
 
 The list of tags has a count, telling us how many pages have each tag. This is a
 very rough measure of breadth and importance, or perhaps a measure of how messy
