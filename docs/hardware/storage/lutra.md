@@ -15,4 +15,4 @@ moderate read/write performance. Lutra is connected to [Pelle](../../cluster_gui
 general availability.
 
 If you are interested in this type of storage please
-[contact support](../../support.md).
+[contact support](../../UPPMAX/support.md).

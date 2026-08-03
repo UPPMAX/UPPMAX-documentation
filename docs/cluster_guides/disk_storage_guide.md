@@ -123,7 +123,7 @@ find $PWD -print0 -type f | xargs -0 stat -c "%s %n" | sort -rn
 
 ### If you need more quota
 
-If more quota is needed, [contact support](../support.md) for advice.
+If more quota is needed, [contact support](../UPPMAX/support.md) for advice.
 We do not extend quotas for home directories or SNIC project directories,
 but it's possible to apply for storage projects.
 
@@ -149,7 +149,7 @@ to cancel execution if you change your mind.
 
 ### If you need even more quota for archiving
 
-Please [contact support](../support.md).
+Please [contact support](../UPPMAX/support.md).
 
 We have a previously been able to provide users with a low-cost
 moderate performant storage solution for a cost of 500SEK/TB/year,

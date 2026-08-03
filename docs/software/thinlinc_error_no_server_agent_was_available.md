@@ -26,5 +26,5 @@ This sometimes happens.
 
 All you can do, is try again.
 
-If this fails multiple times, [contact support](../support.md).
+If this fails multiple times, [contact support](../UPPMAX/support.md).
 

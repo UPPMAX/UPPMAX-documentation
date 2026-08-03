@@ -31,7 +31,7 @@ To be able to use a VPN to [get inside of SUNET](get_inside_sunet.md):
 
     In this case, one cannot use a VPN. Instead, log in to.
 
-    This is yet unknown. Please [contact support](../support.md).
+    This is yet unknown. Please [contact support](../UPPMAX/support.md).
 
 
 ???- tip "Want a video to see how the UU VPN is used?"

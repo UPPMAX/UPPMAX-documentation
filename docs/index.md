@@ -14,7 +14,7 @@ hide:
 
 <div style="text-align: center; margin-top: 45px;" markdown="1">
 ## Support and Feedback
-[📩 Get Support](support.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
+[📩 Get Support](UPPMAX/support.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
 [📝 Give Feedback](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform?usp=sf_link){.md-button .md-button--primary .button-frontpage}
 [📂 Apply for a Project](getting_started/project_apply.md){.md-button .md-button--primary .button-frontpage}
 

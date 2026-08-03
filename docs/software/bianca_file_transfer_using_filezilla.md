@@ -182,5 +182,5 @@ Hypotheses:
     See [the UPPMAX documentation on projects](../getting_started/project.md)
     how to see which projects you are a member of.
 
-See [the UPPMAX page on contacting support](../support.md)
+See [the UPPMAX page on contacting support](../UPPMAX/support.md)
 on how to contact us.

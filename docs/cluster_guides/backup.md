@@ -50,7 +50,7 @@ e.g. raw data or originals.
 
 ## How can I access my backups?
 
-[Contact UPPMAX support](../support.md) and ask for help.
+[Contact UPPMAX support](../UPPMAX/support.md) and ask for help.
 Provide as much information as possible, especially directory and file names.
 
 ## What is the UPPMAX backup procedure?

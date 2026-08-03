@@ -25,4 +25,4 @@ How to get the data from an expired project?
 
 ## Solution
 
-[Contact support](../support.md)
+[Contact support](../UPPMAX/support.md)

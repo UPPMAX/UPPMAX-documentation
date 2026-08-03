@@ -15,7 +15,7 @@ the Dardel cluster at PDC.
 ## How do I do this?
 
 First, we are here to help.
-Please [contact support](../support.md) if you run into problems
+Please [contact support](../UPPMAX/support.md) if you run into problems
 when trying the guide below.
 
 To transfer your files to Dardel, follow the steps below.

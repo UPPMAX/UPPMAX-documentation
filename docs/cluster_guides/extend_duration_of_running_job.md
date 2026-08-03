@@ -27,4 +27,4 @@ How to extend the duration of your job?
 
 ## Solution
 
-[Contact support](../support.md)
+[Contact support](../UPPMAX/support.md)

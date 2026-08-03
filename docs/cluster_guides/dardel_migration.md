@@ -57,7 +57,7 @@ See the rest of this guide for more information about these steps.
     This procedure is also shown in [this YouTube video](https://youtu.be/rivtgTnulNA).
 
 First, we are here to help.
-Please [contact support](../support.md) if you run into problems
+Please [contact support](../UPPMAX/support.md) if you run into problems
 when trying the guide below.
 
 This migration consists of a couple of steps summarised below.
@@ -311,7 +311,7 @@ darsync check
     darsync check --help
     ```
 
-If there are problems reported, [contact support](../support.md)
+If there are problems reported, [contact support](../UPPMAX/support.md)
 or try to fix them yourself.
 
 ???- question "What is the file `darsync_[dirname].ownership.gz`?"
@@ -953,4 +953,4 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorised_keys
 ```
 
-Still does not work? Contact [support](../support.md)
+Still does not work? Contact [support](../UPPMAX/support.md)

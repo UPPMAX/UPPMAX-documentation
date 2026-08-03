@@ -285,7 +285,7 @@ Of the module shown, also the different versions are reported.
 
     Ouch, now it is time to try out many things.
 
-    Do not hesitate to [contact support](../support.md)
+    Do not hesitate to [contact support](../UPPMAX/support.md)
     so that you can spend time on your research
     and we figure this out :-)
 

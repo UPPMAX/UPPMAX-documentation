@@ -27,7 +27,7 @@ that take up most space. These may take a long time to complete, use ++ctrl+c++
 to cancel execution if you change your mind.
 
 After these two checks,
-to get more disk space, [contact support](../support.md)
+to get more disk space, [contact support](../UPPMAX/support.md)
 and state how much, for how long time, and why you need it.
 See the storage project application page for more information
 on how we handle and prioritise storage requests.

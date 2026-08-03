@@ -394,4 +394,4 @@ env
 - NAISS training newsletter - software-specific training events included
 - <https://coderefinery.org/workshops/upcoming/>
 - <https://nbis.se/training/events.html> (bio)
-- [Contact support](../support.md)
+- [Contact support](../UPPMAX/support.md)

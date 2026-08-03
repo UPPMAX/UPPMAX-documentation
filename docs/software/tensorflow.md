@@ -5,7 +5,7 @@ TensorFlow is a library for machine learning and artificial intelligence.
 HPC Cluster|Available?
 -----------|--------------
 Bianca     |Yes, see below
-Pelle      |No. [Post a support ticket to request TensorFlow](../support.md)
+Pelle      |No. [Post a support ticket to request TensorFlow](../UPPMAX/support.md)
 Rackham    |Yes, see below
 
 For Bianca and Rackham, TensorFlow is available in multiple variants:

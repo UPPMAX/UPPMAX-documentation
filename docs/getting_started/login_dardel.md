@@ -20,7 +20,7 @@ Here it is described how to login to Dardel.
     to view what to do from step 3 and onwards.
 
 First, we are here to help.
-Please [contact support](../support.md) if you run into problems
+Please [contact support](../UPPMAX/support.md) if you run into problems
 when trying the guide below.
 
 Note that step 1 requires some hours of waiting

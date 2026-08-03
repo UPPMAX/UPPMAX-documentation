@@ -464,7 +464,7 @@ for example `python_ML_packages/3.11.8-cpu`.
     - xxhash
 
 It may not always be easy to find your Python package within the many modules.
-Do not hesitate to [contact support](../support.md)
+Do not hesitate to [contact support](../UPPMAX/support.md)
 so that you can spend time on your research
 and we figure this out :-)
 

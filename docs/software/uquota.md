@@ -60,7 +60,7 @@ uquota
 
     If `uquota` does not show your project, try [`projinfo`](projinfo.md).
 
-    Else, [contact support](../support.md).
+    Else, [contact support](../UPPMAX/support.md).
 
 If you find out that your home folder is full,
 but do not know which folder takes up most space,

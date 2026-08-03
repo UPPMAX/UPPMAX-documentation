@@ -73,4 +73,4 @@ To become a member of a project:
     before the changes propagate from SUPR to UPPMAX.
 
     If after one night you cannot login,
-    please [contact support](../support.md).
+    please [contact support](../UPPMAX/support.md).
