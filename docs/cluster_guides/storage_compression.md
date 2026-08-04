@@ -8,11 +8,11 @@ tags:
 
 ## Storage
 
-[Disk storage guide](../storage/disk_storage_guide.md)
+[Disk storage guide](../Cluster_User_Guide/storage/disk_storage_guide.md)
 
 ???- question "How does automatic backup of project areas work at UPPMAX?"
 
-    [Backup](backup.md)
+    [Backup](../blah.md)
 
 ???- question "What is this 'glob' folder in my home folder?"
 
@@ -25,7 +25,7 @@ tags:
         - The directory was used for files needed by all job instances and could house files exceeding the quota of the home directory.
         - Job input and output files was (and can still be) stored here.
 
-    - You might also be interested in our [disk storage guide](../storage/disk_storage_guide.md).
+    - You might also be interested in our [disk storage guide](../Cluster_User_Guide/storage/disk_storage_guide.md).
 
 ???- question "Disk quota exceeded when copying data"
 
@@ -52,7 +52,7 @@ tags:
 
 ???- question "File compression guide"
 
-    [Compression guide](../storage/compress_guide.md)
+    [Compression guide](../Cluster_User_Guide/storage/compress_guide.md)
 
 ???- question "How can I compress my files as quickly and efficiently as possible?"
 
@@ -64,8 +64,8 @@ tags:
 
 ???- question "How should I compress FastQ-format files?"
 
-     [Compress FastQ](../storage/compress_fastQ.md)
+     [Compress FastQ](../Cluster_User_Guide/storage/compress_fastQ.md)
 
 ???- question "Which compression format should I use for NGS-related files (FastQ, Fasta, VCF, GFF, etc.)?"
 
-     [Compression format](../storage/compress_format.md)
+     [Compression format](../Cluster_User_Guide/storage/compress_format.md)
