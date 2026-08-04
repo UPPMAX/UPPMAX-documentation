@@ -20,7 +20,7 @@ hide:
 
 ## Quick Links
 [✨ Getting Started](getting_started/get_started.md){.md-button .md-button--primary .button-frontpage}
-[📖 Glossary](glossary.md){.md-button .md-button--primary .button-frontpage}
+[📖 Glossary](Extras/glossary.md){.md-button .md-button--primary .button-frontpage}
 [💻 Software](software/overview.md){.md-button .md-button--primary .button-frontpage}
 [🔑 Reset Password](getting_started/change_reset_uppmax_password.md#resetting-a-forgotten-password){.md-button .md-button--primary .button-frontpage}
 

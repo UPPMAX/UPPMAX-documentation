@@ -10,7 +10,7 @@ A computational task that is submitted to the job scheduler (Slurm) to run non-i
 
 ### Bianca
 
-[Bianca](cluster_guides/bianca.md) is one of the [UPPMAX clusters](cluster_guides/uppmax_cluster.md), suitable for working with sensitive data. Bianca is internet-restricted for security reasons.
+[Bianca](../cluster_guides/bianca.md) is one of the [UPPMAX clusters](../cluster_guides/uppmax_cluster.md), suitable for working with sensitive data. Bianca is internet-restricted for security reasons.
 
 ## C
 
@@ -76,7 +76,7 @@ LUNARC is the [NAISS](#naiss)-connected HPC centre at Lund University.
 
 ### Modules
 
-Software modules are a way to manage different versions of software on UPPMAX clusters. The [module system](cluster_guides/modules.md) allows users to load specific versions of software tools and libraries.
+Software modules are a way to manage different versions of software on UPPMAX clusters. The [module system](../cluster_guides/modules.md) allows users to load specific versions of software tools and libraries.
 
 ## N
 
@@ -99,7 +99,8 @@ A division of cluster resources in Slurm that groups compute nodes by their char
 
 ### Pelle
 
-[Pelle](cluster_guides/pelle.md) is the current general-purpose UPPMAX cluster, paid by Uppsala University.
+[Pelle](../cluster_guides/pelle.md)
+is the current general-purpose UPPMAX cluster, paid by Uppsala University.
 
 ### Principal Investigator (PI)
 
