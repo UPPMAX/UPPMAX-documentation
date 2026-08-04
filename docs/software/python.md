@@ -540,7 +540,7 @@ which are discussed at
 
 ## UPPMAX Python-related courses
 
-See [the UPPMAX courses and workshops](../courses_workshops/courses_workshops.md)
+See [the UPPMAX courses and workshops](../UPPMAX/courses_workshops/courses_workshops.md)
 to find UPPMAX courses related to Python.
 
 ## Installing Python packages

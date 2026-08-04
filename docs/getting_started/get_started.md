@@ -94,6 +94,6 @@ Now you can use the UPPMAX resources!
 - [Schedule jobs](../cluster_guides/slurm.md).
 
 To make this step easier,
-UPPMAX provides for [courses and workshops](../courses_workshops/courses_workshops.md).
+UPPMAX provides some [courses and workshops](../UPPMAX/courses_workshops/courses_workshops.md).
 
 If you are stuck, never hesitate to [contact support](../UPPMAX/support.md).
