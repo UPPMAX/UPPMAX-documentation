@@ -26,10 +26,6 @@
 
     See [file transfer to/from Pelle using a graphical tool](../cluster_guides/pelle_file_transfer_using_gui.md)
 
-    One such graphical tool is FileZilla:
-
-    ![Filezilla](../software/img/filezilla_login_to_rackham_480_x_270.png)
-
 === "Mac"
 
     - For copying of files with sftp (secure file transfer protocol) between your client computer (where you are) and the cluster **Filezilla** can be the choice.
