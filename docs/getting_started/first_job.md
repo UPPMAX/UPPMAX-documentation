@@ -15,16 +15,16 @@
 
 ### Graphical file manager
 
-???- question "Want more detailed information of file transfer to/from Rackham using a graphical tool?"
+???- question "Want more detailed information of file transfer to/from Pelle using a graphical tool?"
 
     See
-    [file transfer to/from Rackham using a graphical tool](../cluster_guides/rackham_file_transfer_using_gui.md).
+    [file transfer to/from Pelle using a graphical tool](../cluster_guides/pelle_file_transfer_using_gui.md).
 
 - This is good if you want to move many files between host and local and cannot use wildcards.
 
 === "Linux"
 
-    See [file transfer to/from Rackham using a graphical tool](../cluster_guides/rackham_file_transfer_using_gui.md)
+    See [file transfer to/from Pelle using a graphical tool](../cluster_guides/pelle_file_transfer_using_gui.md)
 
     One such graphical tool is FileZilla:
 
