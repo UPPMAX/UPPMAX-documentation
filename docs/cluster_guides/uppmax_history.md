@@ -42,7 +42,7 @@ Grus                                   |.                |1.5 PB, 14 servers    
 Irham                                  |.                |.                                                            |.    |2016-07-01|2024-01-12|Decommissioned Irma nodes added to Rackham, became `r[1001-1072,1179-1250]`
 Miarka                                 |.                |.                                                            |.    |2021      |.         |.
 [Rackham](../glossary.md#rackham)      |-2025            |.                                                            |.    |.         |.         |.
-[Snowy](../cluster_guides/snowy.md)    |.                |.                                                            |.    |.         |.         |.
+[Snowy](../glossary.md#snowy)          |.                |.                                                            |.    |.         |.         |.
 [Pelle](../cluster_guides/pelle.md)    |2025-            |.                                                            |.    |.         |.         |.
 [Maja](../cluster_guides/maja.md)      |.                |.                                                            |.    |.         |.         |.
 [Gorilla](../hardware/storage/gorilla.md)|2025-            |.                                                            |.    |.         |.         |.

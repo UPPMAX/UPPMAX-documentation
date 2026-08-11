@@ -13,7 +13,7 @@ node, but using the graphics on your local computer.
 That will speed up the interaction with plotting figures and GUI management.
 
 This possible for the [Rackham[(../cluster_guides/rackham.md) and
-[Snowy](../cluster_guides/snowy.md) clusters.
+[Snowy](../glossary.md#snowy) clusters.
 
 !!! warning
 

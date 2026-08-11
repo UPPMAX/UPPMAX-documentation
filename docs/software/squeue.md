@@ -40,7 +40,7 @@ squeue
 
 ### View all jobs in Snowy queue
 
-View all jobs in the [Snowy](../cluster_guides/snowy.md) queue:
+View all jobs in the [Snowy](../glossary.md#snowy) queue:
 
 ```bash
 squeue -M snowy
@@ -104,7 +104,7 @@ squeue -u $USER
 
 ### View your jobs in the Snowy queue
 
-View your jobs in the in the [Snowy](../cluster_guides/snowy.md) queue:
+View your jobs in the in the [Snowy](../glossary.md#snowy) queue:
 
 ```bash
 squeue -M snowy --me

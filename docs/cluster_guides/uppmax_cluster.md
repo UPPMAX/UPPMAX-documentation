@@ -47,8 +47,8 @@ Another cluster UPPMAX is involved in:
 
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
-[Rackham](../glossary.md#rackham)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
-[Snowy](snowy.md)    |Regular data, long runs, GPUs|.
+[Rackham](../glossary.md#rackham)|Regular data, general purpose|Has been replaced by [Pelle](pelle.md)
+[Snowy](../glossary.md#snowy)    |Regular data, long runs, GPUs|.
 
 ??? warning "Forgot to empty your project on Rackham?"
 
