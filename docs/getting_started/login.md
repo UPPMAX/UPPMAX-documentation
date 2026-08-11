@@ -35,7 +35,6 @@ has its own login page:
 
 - [Login to Bianca](login_bianca.md)
 - [Login to Pelle](login_pelle.md)
-- [Login to Rackham (just to get old data)](login_rackham.md)
 
 Go to those pages for more details.
 
