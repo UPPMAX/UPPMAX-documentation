@@ -62,7 +62,7 @@ finishedjobinfo -h
     FAILED        Job crashed or at least ended with an exit code that was not 0
     NODE_FAIL    One of your job nodes experienced a major problem, perhaps your job used all available memory
     TIMEOUT        Job exceeded the specified timelimit and was therefore terminated
-    ````
+    ```
 
 ## Show the information about a specific job
 
