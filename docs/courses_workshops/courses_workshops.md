@@ -18,15 +18,13 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 
 ## Upcoming courses administered by UPPMAX
 
+### August 2026
+
 <!-- Richel: Using full date (i.e. including the year) allows -->
 <!-- scraping by  https://docs.score.nbis.se/courses/ -->
 <!-- It makes the courses more machine-readable -->
 
-### May 2026
-
-[Programming Formalisms <br> _May 4-8 2026_](programming_formalisms.md){ .md-button .md-button--primary }
-
-[Bianca Intermediate <br> _Friday 2026-05-22_](bianca_intermediate.md){ .md-button .md-button--primary }
+[Intro To Introduction to Linux and UPPMAX <br> _August 24-26 2026_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
 ## About the courses
 
