@@ -517,7 +517,7 @@ theme:
     - content.action.edit
     - content.action.view
     - content.code.copy
-
+    - content.footnote.tooltips
 
   custom_dir: mkdocs_uppmax/
 

@@ -200,7 +200,7 @@ Applying for an account               |Here
 Applying for NAISS projects           |Here
 Applying for a local project          |Here
 PUBA                                  |Here
-Services offered through UIT [1]      |Here
+Services offered through UIT [^1]     |Here
 Log in to each cluster                |Here
 General description of hardware       |SiteVision ([Under discussion](https://github.com/UPPMAX/UPPMAX-documentation/issues/213))
 Detailed Hardware (e.g. how to access)|Here
@@ -210,7 +210,7 @@ Course pages                          |Here
 Course registrations                  |Investigate first
 Support                               |Keep things as they are
 
-- [1] If such a page is needed
+[^1]: If such a page is needed
 
 ## Where to put files in this repository?
 
