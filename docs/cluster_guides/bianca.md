@@ -26,7 +26,6 @@ Because of this, I (Richel) put this info in comments.
 -->
 
 
-
 !!! info
 
     We are now officially running parts of Bianca on Maja nodes!
