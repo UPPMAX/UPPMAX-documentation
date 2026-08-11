@@ -86,7 +86,7 @@ A division of cluster resources in Slurm that groups compute nodes by their char
 
 ### Pelle
 
-[Pelle](cluster_guides/pelle.md) is an upcoming general-purpose UPPMAX cluster, paid by Uppsala University. Uppsala users of Rackham will be moved to Pelle.
+[Pelle](cluster_guides/pelle.md) is the current general-purpose UPPMAX cluster, paid by Uppsala University.
 
 ### Principal Investigator (PI)
 
@@ -110,7 +110,9 @@ A waiting line for jobs in the Slurm scheduler. Jobs are placed in queues and ex
 
 ### Rackham
 
-[Rackham](cluster_guides/rackham.md) is one of the UPPMAX clusters that serves as a general-purpose cluster. Rackham will be replaced by Pelle in the future.
+Rackham was a general-purpose UPPMAX cluster.
+It was completely replaced by [Pelle](#pelle) at 2026-01-30.
+It was named after the Tintin character Red Rackham.
 
 ## S
 
@@ -124,7 +126,9 @@ Simple Linux Utility for Resource Management - the job scheduler used on UPPMAX 
 
 ### Snowy
 
-[Snowy](cluster_guides/snowy.md) is one of the UPPMAX clusters. Snowy is different from other clusters as it has no dedicated login nodes - access is done via Rackham login nodes.
+Snowy was a special-purpose UPPMAX cluster for GPU jobs.
+It was completely replaced by [Pelle](#pelle) at 2026-01-30.
+It was named after the Tintin character Snowy, Tintin's dog.
 
 ### SSH
 

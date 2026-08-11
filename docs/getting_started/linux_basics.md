@@ -189,16 +189,16 @@ cp newfile copyfile
 
 ### scp — secure copy (remote file copy program)
 
-- Linux/MacOS: To copy data to/from Rackham, you can use [`scp`](../software/scp.md)
+- Linux/MacOS: To copy data to/from Pelle, you can use [`scp`](../software/scp.md)
 
-#### Download from Rackham
+#### Download from Pelle
 
 - Download
 
 ```console
-[bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
+[bob@macbook]$ scp bob@pelle.uppmax.uu.se:~/mydata copyofmydata
 
-[bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
+[bob@macbook]$ scp bob@pelle.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
 
 !!! example
@@ -208,18 +208,18 @@ cp newfile copyfile
     - In your local terminal:
 
     ```console
-    [bob@macbook]$ scp <username>@rackham.uppmax.uu.se:~/first.txt .                      # (keeping file name)
+    [bob@macbook]$ scp <username>@pelle.uppmax.uu.se:~/first.txt .                      # (keeping file name)
     ```
 
-#### Upload to Rackham
+#### Upload to Pelle
 
 - Upload from present directory on local machine to your home directory on cluster.
     - Example:
 
 ```console
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
+[bob@macbook]$ scp myinput bob@pelle.uppmax.uu.se:~/copyofmyinput
 
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
+[bob@macbook]$ scp myinput bob@pelle.uppmax.uu.se:~/                      # (keeping filename)
 ```
 
 !!! example
@@ -232,12 +232,12 @@ cp newfile copyfile
     4. Upload your file but save it as ``second.txt`` on Rackham. In your local terminal:
 
     ```console
-    [bob@macbook]$ scp first.txt <username>@rackham.uppmax.uu.se:~/second.txt                     # (new filename)
+    [bob@macbook]$ scp first.txt <username>@pelle.uppmax.uu.se:~/second.txt                     # (new filename)
     ```
 
 !!! see also
 
-    - [Rackham file transfer using scp](../software/rackham_file_transfer_using_scp.md)
+    - [Pelle file transfer using scp](../software/pelle_file_transfer_using_scp.md)
 
 ### mv — move/rename file
 
