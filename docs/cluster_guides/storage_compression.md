@@ -12,7 +12,7 @@ tags:
 
 ???- question "How does automatic backup of project areas work at UPPMAX?"
 
-    [Backup](../backup.md)
+    [Backup](backup.md)
 
 ???- question "What is this 'glob' folder in my home folder?"
 
