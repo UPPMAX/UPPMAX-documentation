@@ -93,7 +93,7 @@
 [info]$ word1 word2 word3 [...]
 ```
 
-- [info] is configurable, and usually tells you who you are, on what system, and where in the file system.
+- `[info]` is configurable, and usually tells you who you are, on what system, and where in the file system.
 
     - Example:
 
@@ -192,7 +192,9 @@ which are described at [the UPPMAX 'Text editors' page](../software/text_editors
 
     - Linux Operating system is a UNIX-like and UNIX compatible Operating system.
     - Typical command:
+        ```
         $ program word1 word2 word3 […]
+        ```
     - Use [text editors](../software/text_editors.md) to edit files
     - Tips
         - use Tab completion
