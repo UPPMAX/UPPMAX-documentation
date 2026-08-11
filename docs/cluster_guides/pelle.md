@@ -15,9 +15,9 @@ tags:
 
 - Pelle is an upcoming general-purpose UPPMAX cluster, paid by Uppsala University.
 
-- Uppsala users of [Rackham](rackham.md) will be moved to Pelle by UPPMAX after [applying to a Pelle project](../getting_started/project_apply_pelle.md).
+- Uppsala users of [Rackham](../glossary.md#rackham) will be moved to Pelle by UPPMAX after [applying to a Pelle project](../getting_started/project_apply_pelle.md).
 
-- Non-Uppsala users of [Rackham](rackham.md) can move their data to Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_migration.md).
+- Non-Uppsala users of [Rackham](../glossary.md#rackham) can move their data to Dardel, see [the Rackham to Dardel migration guide](../cluster_guides/dardel_migration.md).
 
 ???- question "Why use Pelle over another NAISS system?"
 
@@ -75,7 +75,7 @@ tags:
 
 ## Features of Pelle, compared to Rackham
 
-Pelle is quite similar to [Rackham](rackham.md) but we have prepared Pelle specific pages for some topics.
+Pelle is quite similar to [Rackham](../glossary.md#rackham) but we have prepared Pelle specific pages for some topics.
 
 - [File transfer](transfer_pelle.md)
 - [The module system](pelle_modules.md)
@@ -95,7 +95,7 @@ Pelle is quite similar to [Rackham](rackham.md) but we have prepared Pelle speci
 ## Migration from Rackham to Pelle
 
 As both clusters are UPPMAX clusters,
-we will transfer your data from [Rackham](rackham.md)
+we will transfer your data from [Rackham](../glossary.md#rackham)
 to Pelle. Users will have to [apply to a Pelle project](../getting_started/project_apply_pelle.md).
 
 ## Pelle hardware

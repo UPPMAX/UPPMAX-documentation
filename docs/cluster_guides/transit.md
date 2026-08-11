@@ -3,7 +3,7 @@
 [Transit](../cluster_guides/transit.md)
 is an UPPMAX service that can be used to securely transfer files
 between online locations, such as your local computer, [Bianca](bianca.md),
-[Rackham](rackham.md) and other sensitive data clusters.
+[Rackham](../glossary.md#rackham) and other sensitive data clusters.
 
 ???- question "Is Transit a file server?"
 
