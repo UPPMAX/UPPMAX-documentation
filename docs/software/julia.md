@@ -324,7 +324,7 @@ nprocs()
 workers()
 ```
 
-which should print 5 and [2,3,4,5]. Why 5, you ask? Because *"worker 1"* is the *"boss"*. And bosses don't work.
+which should print 5 and `[2,3,4,5]`. Why 5, you ask? Because *"worker 1"* is the *"boss"*. And bosses don't work.
 
 As you can see, you can run distributed computing directly from the julia shell.
 

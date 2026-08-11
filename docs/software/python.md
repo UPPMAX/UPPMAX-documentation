@@ -30,7 +30,7 @@ and these more advanced topics:
 
 Python is a high-level, general-purpose programming language.
 Its design philosophy emphasises code readability
-with the use of significant indentation [Kuhlman, 2009].
+with the use of significant indentation \[[Kuhlman, 2009](#references)\].
 
 ## Python versions
 
@@ -557,7 +557,7 @@ See [the UPPMAX page on how to run parallel jobs in Python](python_parallel_jobs
 
 ## References
 
-- [Kuhlman, 2009] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
+- \[Kuhlman, 2009\] Kuhlman, Dave. A python book: Beginning python, advanced python, and python exercises. Lutz: Dave Kuhlman, 2009.
 
 ## Links
 
