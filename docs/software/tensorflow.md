@@ -11,7 +11,7 @@ Rackham    |Yes, see below
 For Bianca and Rackham, TensorFlow is available in multiple variants:
 
 - [TensorFlow as a Python package for CPU](#tensorflow-as-a-python-package-for-cpu):
-  works on [Bianca](../cluster_guides/bianca.md) and [Rackham](../cluster_guides/rackham.md)
+  works on [Bianca](../cluster_guides/bianca.md) and [Rackham](../glossary.md#rackham)
 - [TensorFlow as a Python package for GPU](#tensorflow-as-a-python-package-for-gpu)
   works on [Bianca](../cluster_guides/bianca.md) and [Snowy](../glossary.md#snowy)
 

@@ -13,7 +13,7 @@ programs to manage jobs.
 
 ### View all jobs in the Bianca or Rackham queue
 
-View all jobs in the [Bianca](../cluster_guides/bianca.md) or [Rackham](../cluster_guides/rackham.md) queue:
+View all jobs in the [Bianca](../cluster_guides/bianca.md) or [Rackham](../glossary.md#rackham) queue:
 
 ```bash
 squeue
@@ -81,7 +81,7 @@ squeue -M snowy
 
 ### View your jobs in the Bianca or Rackham queue
 
-View your jobs in the in the [Bianca](../cluster_guides/bianca.md) or [Rackham](../cluster_guides/rackham.md) queue:
+View your jobs in the in the [Bianca](../cluster_guides/bianca.md) or [Rackham](../glossary.md#rackham) queue:
 
 ```bash
 squeue --me
