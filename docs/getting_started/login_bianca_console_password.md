@@ -215,7 +215,7 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
 
 
     [sven@sens2017625-bianca ~]$
-    ````
+    ```
 
 !!! note "How to behave on a login node"
 
