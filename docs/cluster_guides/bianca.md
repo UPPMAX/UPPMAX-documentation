@@ -12,6 +12,21 @@ tags:
 [Bianca](bianca.md) is one of the [UPPMAX clusters](uppmax_cluster.md),
 suitable for working with sensitive data.
 
+<!--
+
+Bianca is expected to be decomissioned on 2026-12-31 [1].
+UPPMAX users will move to Maja.
+Non-UPPMAX users will move to Arrhenius.
+We will have to see if this date is achieved.
+Because of this, I (Richel) put this info in comments.
+
+- [1] Email '[Naiss-announce] Arrhenius - soon ready to be used'
+  from NAISS-announce@lists.naiss.se on Fri 5/8, 4:00 PM, by Gert Svensson)
+
+-->
+
+
+
 !!! info
 
     We are now officially running parts of Bianca on Maja nodes!
