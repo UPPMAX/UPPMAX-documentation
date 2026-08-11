@@ -192,9 +192,11 @@ which are described at [the UPPMAX 'Text editors' page](../software/text_editors
 
     - Linux Operating system is a UNIX-like and UNIX compatible Operating system.
     - Typical command:
-        ```
+
+        ``` console
         $ program word1 word2 word3 […]
         ```
+
     - Use [text editors](../software/text_editors.md) to edit files
     - Tips
         - use Tab completion
