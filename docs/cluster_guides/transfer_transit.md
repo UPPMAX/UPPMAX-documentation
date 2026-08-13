@@ -43,7 +43,9 @@ One **can download** the files on Transit.
 However, Transit is not a file server.
 Instead, the files that appear to be on Transit
 are the files in your Rackham home folder.
+``` text
 Due to this, it makes more sense to [use SCP to transfer files to/from Rackham](../software/rackham_file_transfer_using_scp.md).
+```
 
 For completeness sake, see [Transit file transfer using SCP](../software/transit_file_transfer_using_scp.md)
 for a step-by-step guide how to transfer files using SCP.

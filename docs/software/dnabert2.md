@@ -17,11 +17,15 @@ DNABERT 2 is not part of
 
 ## Installing DNABERT 2
 
+``` text
 Run [dnabert2_install_on_rackham.sh](dnabert2_install_on_rackham.sh).
+```
 
 ## Running DNABERT 2
 
+``` text
 Run [dnabert2_run_on_rackham.sh](dnabert2_run_on_rackham.sh)
+```
 with the example Python script [dnabert2_example.py](dnabert2_example.py).
 
 ## Links
