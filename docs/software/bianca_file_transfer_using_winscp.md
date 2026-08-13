@@ -68,7 +68,7 @@ In WinSCP, click 'Connect'
 
 You will be asked for your password with two-factor identification in two steps.
 
-First enter [your password], and in next window [2FA code]
+First enter \[your password\], and in next window \[2FA code\]
 
 !!! note
 
