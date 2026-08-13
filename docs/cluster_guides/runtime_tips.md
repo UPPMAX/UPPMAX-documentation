@@ -103,7 +103,12 @@
     : No such file or directory
     ```
 
-    The "file" command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable". Opening the script using "vi" shows at the bottom of the screen "myscript.sh" [dos] 2L, 22C. The "[dos]" is a sure marker of the same problem. Opening the same file in emacs reveals the same thing (-uu-(DOS)---F1 myscript.sh). Convert the script to unix-format using the "dos2unix" command as described above. An alternative is to copy the file and use the "dos2unix" command on the copy and compare the file sizes using "ls -l":
+    The `file` command does not work in this case as it simply tells us that the script is a "Bourne shell script text executable".
+    Opening the script using `vi` shows at the bottom of the screen `"myscript.sh" [dos] 2L, 22C`.
+    The `[dos]` is a sure marker of the same problem.
+    Opening the same file in `emacs` reveals the same thing, `-uu-(DOS)---F1 myscript.sh`.
+    Convert the script to unix-format using the `dos2unix` command as described above.
+    An alternative is to copy the file and use the `dos2unix` command on the copy and compare the file sizes using `ls -l`:
 
     ```bash
     $ ls -l testme.sh
