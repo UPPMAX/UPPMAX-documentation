@@ -70,16 +70,16 @@ One can mount `wharf` on your local computer using `sshfs`
 when [inside the university networks](../getting_started/get_inside_sunet.md).
 `sshfs` is available on most Linux distributions:
 
-Distribution      |Package name
-------------------|-------------
-Ubuntu            | `sshfs`
-Fedora            | `fuse-sshfs`
-RHEL7/CentOS7 [1] | `fuse-sshfs`
-RHEL8 [2]         | `fuse-sshfs`
-CentOS8 [3]       | `fuse-sshfs`
+Distribution       |Package name
+-------------------|-------------
+Ubuntu             | `sshfs`
+Fedora             | `fuse-sshfs`
+RHEL7/CentOS7 [^1] | `fuse-sshfs`
+RHEL8 [^2]         | `fuse-sshfs`
+CentOS8 [^3]       | `fuse-sshfs`
 
-* [1] Enable EPEL repository
-* [2] Enable `codeready-builder` repository
-* [3] Enable `powertools` repository
+[^1]: Enable EPEL repository
+[^2]: Enable `codeready-builder` repository
+[^3]: Enable `powertools` repository
 
 UPPMAX does not have `sshfs` installed for security reasons.
