@@ -182,11 +182,11 @@ of the job to be something less than a full node.
 
 ### The `node` partition
 
-Whenever -p node is specified, an entire node is used,
-no matter how many cores are specifically requested with -n [no_of_cores].
+Whenever `-p node` is specified, an entire node is used,
+no matter how many cores are specifically requested with `-n [no_of_cores]`.
 
 For example, some bioinformatics tools show minimal increase in performance
-when more than 8-10 cores/job; in this case, specify "-p core -n 8"
+when more than 8-10 cores/job; in this case, specify `-p core -n 8`
 to ensure that only 8 cores (less than a single node) are allocated for such a job.
 
 ### The `devel` partition
