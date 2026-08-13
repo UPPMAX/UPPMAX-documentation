@@ -175,7 +175,7 @@ No of nodes | CPUs                            | Cores<br/>Threads | Memory  | Sc
 Here is the minimal use for one core:
 
 ```bash
-sbatch -A [project_code] [script_filename]
+sbatch -A [project_id] [script_filename]
 ```
 
 For example:
@@ -187,7 +187,7 @@ sbatch -A staff my_script.sh
 To specify multiple cores, use `--cpu-per-tasks` (or `-c`) like this:
 
 ```bash
-sbatch -A [project_code] -c [number_of_cores] [script_filename]
+sbatch -A [project_id] -c [number_of_cores] [script_filename]
 ```
 
 For example:
@@ -205,7 +205,7 @@ Here, two cores are used.
     One can make this link explicit by using:
 
     ```bash
-    sbatch -A [project_code] --partition --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
+    sbatch -A [project_id] --partition --ntasks [number_of_cores] --ntasks-per-core 1 [script_filename]
     ```
 
 This is especially important if you might adjust core usage
@@ -321,29 +321,29 @@ But these are reserved for staff so we don't include them here. -->
 The minimal command to use `sbatch` with command-line Slurm parameters is:
 
 ``` bash
-sbatch -A [project_code] [script_filename]
+sbatch -A [project_id] [script_filename]
 ```
 
-where `[project_code]` is the project code, and `[script_filename]`
+where `[project_id]` is the project ID, and `[script_filename]`
 the name of a bash script, for example:
 
 ``` bash
 sbatch -A uppmax2023-2-25 my_script.sh
 ```
 
-???- question "Forgot your Rackham project?"
+???- question "Forgot your project ID?"
 
     One can go to the SUPR NAISS pages to see one's projects,
 
-    ![Example of the Rackham project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
+    ![Example of the project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
 
-    > Example of the Rackham project called 'UPPMAX 2023/2-25'
+    > Example of the project called 'UPPMAX 2023/2-25'
 
-    On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
+    On the SUPR NAISS pages, projects are called 'UPPMAX \[year\]/\[code\]-\[index\]',
     for example, 'UPPMAX 2023/2-25'.
-    The UPPMAX project name, as to be used on Rackham,
+    The UPPMAX project name, as to be used on Pelle,
     has a slightly different name:
-    the account name to use on Rackham is `uppmax[year]-[month]-[day]`,
+    the account name to use on Pelle is `uppmax[year]-[code]-[index]`,
     for example, `uppmax2023-2-25`
 
 ???- question "What is in the script file?"
@@ -375,28 +375,28 @@ sbatch my_script.sh
 The script must contain at least the following lines:
 
 ```text
-#SBATCH -A [project_code]
+#SBATCH -A [project_id]
 ```
 
-where `[project_code]` is the project code, for example:
+where `[project_id]` is the project ID, for example:
 
 ```bash
 #SBATCH -A uppmax2023-2-25
 ```
 
-???- question "Forgot your Pelle project?"
+???- question "Forgot your project ID?"
 
     One can go to the SUPR NAISS pages to see one's projects,
 
-    ![Example of the Rackham project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
+    ![Example of the project called 'UPPMAX 2023/2-25'](./img/naiss_supr_project_2023_2_25.png)
 
-    > Example of the Rackham project called 'UPPMAX 2023/2-25'
+    > Example of the project called 'UPPMAX 2023/2-25'
 
-    On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
+    On the SUPR NAISS pages, projects are called 'UPPMAX \[year\]/\[code\]-\[index\]',
     for example, 'UPPMAX 2023/2-25'.
-    The UPPMAX project name, as to be used on Rackham,
+    The UPPMAX project name, as to be used on Pelle,
     has a slightly different name:
-    the account name to use on Rackham is `uppmax[year]-[month]-[day]`,
+    the account name to use on Pelle is `uppmax[year]-[code]-[index]`,
     for example, `uppmax2023-2-25`
 
 A full example script would be:
