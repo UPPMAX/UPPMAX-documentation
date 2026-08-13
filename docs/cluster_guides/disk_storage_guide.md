@@ -203,6 +203,8 @@ More information about backup at UPPMAX.
 
 Paths: `/dev/shm/[job-id]`
 
-On all our clusters we have a temporary virtual filesystem implemented as a shared memory area. I.e. it uses primarily the RAM for storage (until it eventually might have to swap out to physical disk), and can be accessed via the path /dev/shm/[job-id].
+On all our clusters we have a temporary virtual filesystem implemented as a shared memory area.
+I.e. it uses primarily the RAM for storage (until it eventually might have to swap out to physical disk),
+and can be accessed via the path `/dev/shm/[job-id]`.
 
 In some situations this "disk" area can be quicker to read/write to, but depending on the circumstances it can also be slower than local scratch disk. Also note that it is a shared resource among all running jobs on a specific node, so depending on the node and how much memory your job has been allocated, the amount of data you can write will vary.
