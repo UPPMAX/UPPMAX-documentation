@@ -34,11 +34,11 @@ that has a default duration of 1 hour.
 
     > An example of the Pelle project called 'UPPMAX 2023/2-25'
 
-    On the SUPR NAISS pages, projects are called 'UPPMAX [year]/[month]-[day]',
+    On the SUPR NAISS pages, projects are called 'UPPMAX \[year\]/\[code\]-\[index\]',
     for example, 'UPPMAX 2023/2-25'.
     The UPPMAX project name, as to be used on Pelle,
     has a slightly different name:
-    the account name to use on Pelle is `uppmax[year]-[month]-[day]`,
+    the account name to use on Pelle is `uppmax[year]-[code]-[index]`,
     for example, `uppmax2023-2-25`
 
 To increase the duration of the interactive session,
