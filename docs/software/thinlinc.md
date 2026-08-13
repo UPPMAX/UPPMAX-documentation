@@ -15,6 +15,9 @@ tags:
 
 ThinLinc provides for a remote desktop environment for the UPPMAX clusters.
 
+- [ThinLinc on Bianca](../software/thinlinc_on_bianca.md)
+- [ThinLinc on Pelle](../software/thinlinc_on_pelle.md)
+
 ## Local ThinLinc client versus web browser
 
 There are two ways of connecting to the clusters using ThinLinc,
@@ -24,26 +27,18 @@ Here are the differences:
 Parameter                                   |Local ThinLinc client|Web browser login
 --------------------------------------------|---------------------|-----------------
 [Bianca](../cluster_guides/bianca.md) use   |Impossible           |Possible
-Rackham  use                                |Not possible anymore |Not possible
 [Pelle](../cluster_guides/pelle.md) use     |Recommended          |Possible
-Install                                     |ThinLinc client      |Nothing [1]
+Installation required                       |ThinLinc client      |No (web browser assumed)
 Simplicity                                  |Easy                 |Trivial
 Performance                                 |Higher               |Lower
 Recommended for                             |Most use cases       |Small tasks, when other approach fails
 
-- [1] You already have a webbrowser installed :-)
+The first option is to install the ThinLinc client,
+which offers higher performance and is recommended for most users.
 
-The first is by using the web client and connect from the browser.
+The second option is to use the web client and connect from the browser.
 This can be useful for smaller tasks
 or if you are unable to install software on the computer you are currently using.
-Please see below for more information.
-
-The second option is to download the ThinLinc client,
-which offers higher performance and is recommended for most users.
-The client can be downloaded from the [official download page](https://www.cendio.com/thinlinc/download/).
-
-- [ThinLinc on Bianca](../software/thinlinc_on_bianca.md)
-- [ThinLinc on Pelle](../software/thinlinc_on_pelle.md)
 
 ## Installing ThinLinc
 
