@@ -11,9 +11,8 @@ If you can use VSCode, depends on the HPC cluster:
 
 Cluster                                 | Works/fails |Documentation page
 ----------------------------------------|-------------|---------------------------------------------------------------
-[Bianca](../cluster_guides/bianca.md)   | Fails [1]   |[VSCode on Bianca](../software/vscode_on_bianca.md)
+[Bianca](../cluster_guides/bianca.md)   | Fails [^1]   |[VSCode on Bianca](../software/vscode_on_bianca.md)
 [Pelle](../cluster_guides/pelle.md) | Works       |[VSCode on Pelle](../software/vscode_on_pelle.md)
 Miarka | Works       |[VSCode on Pelle (just replace with Miarka](../software/vscode_on_pelle.md)
 
-- [1] Use [VSCodium on Bianca](../software/vscodium_on_bianca.md) instead
-
+[^1]: Use [VSCodium on Bianca](../software/vscodium_on_bianca.md) instead
