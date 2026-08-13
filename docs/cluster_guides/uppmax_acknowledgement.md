@@ -26,8 +26,8 @@ We encourage you to visit that page and use those texts when they are relevant.
 
 For publications coming out of NAISS projects, please be sure to mention both NAISS and UPPMAX. Here is our recommended formulation:
 
-> "The computations/data handling/[SIMILAR] were/was enabled by resources
-> in project [NAISS YYYY/A-BBB] provided by the
+> "The computations/data handling/\[SIMILAR\] were/was enabled by resources
+> in project \[NAISS YYYY/A-BBB\] provided by the
 > National Academic Infrastructure for Supercomputing in Sweden (NAISS)
 > at UPPMAX, funded by the Swedish Research Council through grant agreement
 > no. 2022-06725."
@@ -36,8 +36,8 @@ For publications coming out of UU-funded UPPMAX projects
 (e.g. using [Pelle](pelle.md)),
 here is our recommended formulation:
 
-> "The computations/data handling/[SIMILAR] were/was enabled by resources in
-> project [UPPMAX YYYY/A-BBB] provided by Uppsala University at UPPMAX."
+> "The computations/data handling/\[SIMILAR\] were/was enabled by resources in
+> project \[UPPMAX YYYY/A-BBB\] provided by Uppsala University at UPPMAX."
 
 If applicable, also add acknowledgement for application support:
 
