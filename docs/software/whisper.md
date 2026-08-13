@@ -140,15 +140,15 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
 
     Select appropriate options, or use the following for the best results:
 
-    - **Total audio length in hours**: [give a rough average if transcribing files in bulk, rounding up to nearest hour]
+    - **Total audio length in hours**: \[give a rough average if transcribing files in bulk, rounding up to nearest hour\]
 
     - **Language used in recordings (leave blank for autodetection)**: If you have multiple languages in the selected recordings or you are unsure about the spoken language, leave it blank. If your language of choice is unavailable in the drop down, check the "Languages available" list for its availability and [contact support](https://supr.naiss.se/support/).
 
-    - **Select whether to transcribe or translate (english only)**: 'Transcribe' [for language X -> language X]. 'Translate' [for language X -> English].
+    - **Select whether to transcribe or translate (english only)**: 'Transcribe' \[for language X -> language X\]. 'Translate' \[for language X -> English\].
 
     - **Model**: large-v2
 
-    - **Initial Prompt**: [leave blank]
+    - **Initial Prompt**: \[leave blank\]
 
     Select your files that need to be transcribed/translated. Then, click 'Okay'. Select your folder where you would like to save your transcriptions/translations. Then, click 'Okay'. After this, your job will be submitted, and you will have to wait for the files to be processed.
 
@@ -309,17 +309,17 @@ On Mac, `.txt`, `.srt` and `.vtt` can be opened in Word by:
 
 Under the **Basic Information** section on NAISS SUPR, provide the following compulsory details pertaining to your project in the following fashion:
 
-- **Project Title** : Whisper service for [Name of the project]
+- **Project Title** : Whisper service for \[Name of the project\]
 
-- **Abstract**: [What is the project about, give links, funding info, duration etc.]
+- **Abstract**: \[What is the project about, give links, funding info, duration etc.\]
 
-- **Resource Usage**:  [Explain where the recordings are derived from, like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or translation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.]
+- **Resource Usage**:  \[Explain where the recordings are derived from, like interview recordings on device/ zoom or other forms of audio/video recordings from offline/online sources. Give the average and maximum number of recordings to be transcribed/translated. Give the average and maximum size of recordings in mins/hours. Mention if it is a transcribing or translation requirement. Mention the language spoken in the recordings, if known, and a rough estimate of number of recordings for each of these languages. Ignore the "core-hours" and "hours required to analyse one sample" requirement.\]
 
-- **Abridged Data Management Plan**:  [Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.]
+- **Abridged Data Management Plan**:  \[Address all points. Mention the recording file types example: .mp3, .mp4, .wav etc.\]
 
-- **Primary Classification**: [Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. ]
+- **Primary Classification**: \[Either follow the  Standard för svensk indelning av forskningsämnen link given or search by entering the field of research such as 'Social Work', 'Human Geography' etc. \]
 
-- **Requested Duration**: [Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.]
+- **Requested Duration**: \[Mention the duration for which Whisper service is strictly required. Mentioning more duration than actually required might reflect negatively when a new allocation is requested for the same or new project next time. It is possible to request for a shorter duration of 1 month at first and then ask for a new one once the need arises again in the future.\]
 
 In the rest of the sections, provide the following information:
 
