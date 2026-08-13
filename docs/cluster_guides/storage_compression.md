@@ -56,11 +56,11 @@ tags:
 
 ???- question "How can I compress my files as quickly and efficiently as possible?"
 
-    - You can use this [SBATCH script](https://github.com/brainstorm/scilifelab/blob/master/scripts/sbatch/compress_pbzip2.sh) [1] to run the compression in parallel as a node job, with a parallel version of the highly efficient bzip2 compression software.
+    - You can use this [SBATCH script](https://github.com/brainstorm/scilifelab/blob/master/scripts/sbatch/compress_pbzip2.sh) [^1] to run the compression in parallel as a node job, with a parallel version of the highly efficient bzip2 compression software.
 
     - Remember to modify the appropriate #SBATCH parameters at the top of the file, according to your project, and the estimated time to compress your files.
 
-    - [1] Thanks Roman Valls Guimera, for contributing this script.
+    [^1]: Thanks Roman Valls Guimera, for contributing this script.
 
 ???- question "How should I compress FastQ-format files?"
 
