@@ -20,9 +20,9 @@ Here is an incomplete overview of virtual environment managers that work with Py
 
 Virtual environment manager          |Description
 -------------------------------------|--------------------------------
-[`venv`](python_venv.md)             |Works on [Rackham](../glossary.md#rackham)
+[`venv`](python_venv.md)             |Works on [Rackham](../Extras/glossary.md#rackham)
 [`virtualenv`](python_virtualenv.md) |`venv` for older Python versions
-[`conda`](../software/conda.md)|Works on [Rackham](../glossary.md#rackham), recommended on [Bianca](../cluster_guides/bianca.md)
+[`conda`](../software/conda.md)|Works on [Rackham](../Extras/glossary.md#rackham), recommended on [Bianca](../cluster_guides/bianca.md)
 [`pyenv`](python_pyenv.md)           |More advanced than `venv`
 
 ## General virtual environment manager workflow

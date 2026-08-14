@@ -21,7 +21,7 @@ how to fix Slurm errors.
 
 ## `sbatch` (and `interactive`) on Bianca
 
-`sbatch` (and `interactive`) work the same as on [Rackham](../glossary.md#rackham).
+`sbatch` (and `interactive`) work the same as on [Rackham](../Extras/glossary.md#rackham).
 
 ???- question "Want to start an interactive session?"
 

@@ -16,7 +16,7 @@ to an [UPPMAX HPC cluster](../cluster_guides/uppmax_cluster.md).
 
     ![Being on a login node](../cluster_guides/img/login_rackham4_via_terminal_terminal.png)
 
-    > A user on a login node, in this case on a [Rackham](../glossary.md#rackham) login node called `rackham4`.
+    > A user on a login node, in this case on a [Rackham](../Extras/glossary.md#rackham) login node called `rackham4`.
     > The user used an [SSH client](../software/ssh_client.md) and is in
     > a console environment.
 

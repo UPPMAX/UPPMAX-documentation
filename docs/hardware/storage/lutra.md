@@ -10,8 +10,8 @@ archive storage and available for all users at a cost of (at this moment) 500
 SEK/TB/year, for a commitment of four years and a minimum 50TB. The design and
 filesystem choice makes Lutra very scalable, cost efficient while retaining
 moderate read/write performance. Lutra is connected to [Pelle](../../cluster_guides/pelle.md),
-[Rackham](../../glossary.md#rackham) and
-[Snowy](../../glossary.md#snowy) for
+[Rackham](../../Extras/glossary.md#rackham) and
+[Snowy](../../Extras/glossary.md#snowy) for
 general availability.
 
 If you are interested in this type of storage please

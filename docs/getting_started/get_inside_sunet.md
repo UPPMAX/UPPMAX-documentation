@@ -92,7 +92,7 @@ To setup a VPN, see [the UPPMAX documentation on how to setup a VPN](setup_vpn.m
 
 To connect to all UPPMAX clusters, one must be inside SUNET.
 
-An HPC cluster within SUNET (for example, [Rackham](../glossary.md#rackham))
+An HPC cluster within SUNET (for example, [Rackham](../Extras/glossary.md#rackham))
 allows one to access all other clusters:
 your computer connects to the HPC cluster within SUNET,
 after which one accesses all other clusters.

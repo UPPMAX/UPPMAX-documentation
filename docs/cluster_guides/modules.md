@@ -82,7 +82,7 @@ Working with the module system means:
 
 ## Examples
 
-This section describes these steps in more details for [Rackham](../glossary.md#rackham) and [Bianca](bianca.md).
+This section describes these steps in more details for [Rackham](../Extras/glossary.md#rackham) and [Bianca](bianca.md).
 
 [Pelle](pelle.md) module system is a bit different and is covered in [Working with environment modules on Pelle](pelle_modules.md)
 

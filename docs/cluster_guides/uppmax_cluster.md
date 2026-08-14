@@ -36,7 +36,7 @@ i.e. they allow a user to do heavy computational calculations.
 
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
-[Pelle](pelle.md)    |Regular data, general purpose|Is replacing [Rackham](../glossary.md#rackham)
+[Pelle](pelle.md)    |Regular data, general purpose|Is replacing [Rackham](../Extras/glossary.md#rackham)
 [Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
 
 Another cluster UPPMAX is involved in:
@@ -47,12 +47,12 @@ Another cluster UPPMAX is involved in:
 
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
-[Rackham](../glossary.md#rackham)|Regular data, general purpose|Has been replaced by [Pelle](pelle.md)
-[Snowy](../glossary.md#snowy)    |Regular data, long runs, GPUs|.
+[Rackham](../Extras/glossary.md#rackham)|Regular data, general purpose|Has been replaced by [Pelle](pelle.md)
+[Snowy](../Extras/glossary.md#snowy)    |Regular data, long runs, GPUs|.
 
 ??? warning "Forgot to empty your project on Rackham?"
 
-    Go to the [Rackham page](../glossary.md#rackham) to find the transfer guides for Rackham.
+    Go to the [Rackham page](../Extras/glossary.md#rackham) to find the transfer guides for Rackham.
     
 ```mermaid
 flowchart TD

@@ -145,7 +145,7 @@ beast -beagle_info
 
 ???- "What does that look like?"
 
-    Here the command is run on a [Rackham](../glossary.md#rackham)
+    Here the command is run on a [Rackham](../Extras/glossary.md#rackham)
     compute node, using an interactive session.
 
     Here an interactive session with 1 node:
