@@ -10,7 +10,7 @@ However, Uppsala University does not have a subscription.
 
 ???+ question "Does UU have a subscription now?"
 
-    Please [contribute by letting us know](../CONTRIBUTING.md).
+    Please [contribute by letting us know](../Extras/Contributing/index.md).
     Thanks!
 
 ## Links
