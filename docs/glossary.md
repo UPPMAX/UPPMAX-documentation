@@ -44,6 +44,11 @@ Graphical User Interface - a visual interface for taking user inputs, as opposed
 
 High-Performance Computing - a type of computing that uses powerful computers and parallel processing to solve complex computational problems quickly and efficiently.
 
+### HPC2N
+
+HPC2N is the [NAISS](#naiss)-connected HPC centre at Umeå University.
+[HPC2N documentation main page](https://docs.hpc2n.umu.se/)
+
 ## I
 
 ### Interactive Session
@@ -62,6 +67,11 @@ A computational task submitted to the cluster's job scheduler (Slurm). Jobs can 
 
 A computer where users first arrive after logging in to an UPPMAX HPC cluster. Login nodes are shared resources used for system access, file management, and job submission, but not for intensive computations.
 
+### LUNARC
+
+LUNARC is the [NAISS](#naiss)-connected HPC centre at Lund University.
+[LUNARC documentation main page](https://lunarc-documentation.readthedocs.io)
+
 ## M
 
 ### Modules
@@ -72,7 +82,10 @@ Software modules are a way to manage different versions of software on UPPMAX cl
 
 ### NAISS
 
-National Academic Infrastructure for Supercomputing in Sweden. The organisation that coordinates high-performance computing resources across Swedish universities.
+National Academic Infrastructure for Supercomputing in Sweden.
+The organisation that coordinates high-performance computing resources across Swedish universities.
+[Main site.](https://www.naiss.se)
+[Documentation site.](https://hpc.pages.naiss.se/user-documentation/support-docs/)
 
 ### Node
 
