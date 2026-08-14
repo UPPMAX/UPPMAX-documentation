@@ -7,7 +7,7 @@ tags:
 
 This page describes how to get started with UPPMAX.
 
-!!! info "TL;DR"
+!!! info "Summary of steps below"
 
     1. Get a SUPR account
     2. Get an UPPMAX project
