@@ -70,7 +70,7 @@ Dual 10 Gigabit Ethernet for all nodes
 
 ## Storage
 
-[Cygnus]( ../storage/cygnus.md)
+[Cygnus](../storage/cygnus.md)
 
 ## Security
 
