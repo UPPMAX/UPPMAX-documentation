@@ -13,7 +13,7 @@ tags:
     yet.
 
 HPC clusters have different ways to do
-[file transfer using `rsync`](file_transfer_using_rsync.md).
+[file transfer using `rsync`](../file_transfer_using_rsync.md).
 
 This page shows how to do so for Tetralith.
 
@@ -31,7 +31,7 @@ the following steps:
 
 ## 1. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer
+Start a [terminal](../../../software/terminal.md) on your local computer
 
 ## 2. Transfer files to Tetralith
 

@@ -19,7 +19,7 @@ tags:
     [CSC does not (yet) intend to document this](https://github.com/UPPMAX/naiss_file_transfer_course/issues/34#issuecomment-2889764104).
 
 HPC clusters have different ways to do
-[file transfer using FileZilla](file_transfer_using_filezilla.md).
+[file transfer using FileZilla](../file_transfer_using_filezilla.md).
 
 This page shows how to do so for LUMI.
 
@@ -42,7 +42,7 @@ the following steps:
 ???- question "What if I don't use Linux?"
 
     Instead of following steps 2 and 3, follow the procedure at
-    [the puttygen page, section 'Create SSH key files'](../software/puttygen.md#create-ssh-key-files).
+    [the puttygen page, section 'Create SSH key files'](../../../software/puttygen.md#create-ssh-key-files).
 
 
 ```bash

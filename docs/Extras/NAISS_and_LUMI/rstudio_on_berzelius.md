@@ -1,42 +1,42 @@
 ---
 tags:
   - RStudio
-  - LUMI
+  - Berzelius
 ---
 
-# RStudio on LUMI
+# RStudio on Berzelius
 
 ???- question "Why is this page at UPPMAX?"
 
-    It is the intention that this guide is moved to the CSC documentation.
+    It is the intention that this guide is moved to the NSC documentation.
     However, it has not been suggested to be added to their documentaton
     yet.
 
 ## Introduction
 
-[RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
-specialised for the [R](../software/r.md) programming language.
+[RStudio](../../software/rstudio.md) is an [IDE](../../software/ides.md)
+specialised for the [R](../../software/r.md) programming language.
 
-In this session, we show how to use RStudio on LUMI.
+In this session, we show how to use RStudio on Berzelius.
 
 As RStudio is a resource-heavy program,
 it must be run on an interactive session.
 
 ## Procedure to start RStudio
 
-Below is a step-by-step procedure to start RStudio on LUMI.
+Below is a step-by-step procedure to start RStudio on Berzelius.
 
 ??? question "Prefer a video?"
 
     This procedure is also demonstrated in `TODO`.
 
-## 1. Start a LUMI remote desktop environment
+## 1. Start a Berzelius remote desktop environment
 
 ...
 
 ## 2. Start an interactive session
 
-Within the LUMI remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Berzelius remote desktop environment, start a [terminal](../../software/terminal.md).
 Within that terminal, start an interactive session with 2 cores:
 
 ```bash
@@ -45,7 +45,7 @@ interactive -A [naiss_project_id] -n 2 -t [duration]
 
 Where:
 
-- `[naiss_project_id]` is your [UPPMAX project code](../getting_started/project.md)
+- `[naiss_project_id]` is your [UPPMAX project code](../../getting_started/project.md)
 - `[duration]` is the duration of the interactive session
 
 Resulting in, For example:

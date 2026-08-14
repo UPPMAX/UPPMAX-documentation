@@ -16,8 +16,8 @@ tags:
 
 ## Introduction
 
-[RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
-specialised for the [R](../software/r.md) programming language.
+[RStudio](../../../software/rstudio.md) is an [IDE](../../../software/ides.md)
+specialised for the [R](../../../software/r.md) programming language.
 
 In this session, we show how to use RStudio on Tetralith.
 
@@ -39,7 +39,7 @@ to login to the Tetralith remote desktop environment.
 
 ## 2. Start an interactive session
 
-Within the Tetralith remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Tetralith remote desktop environment, start a [terminal](../../../software/terminal.md).
 
 Within that terminal, start an interactive session with 2 cores:
 
@@ -49,7 +49,7 @@ interactive -A [naiss_project_id] -n 2 -t [duration]
 
 Where:
 
-- `[naiss_project_id]` is your [UPPMAX project code](../getting_started/project.md)
+- `[naiss_project_id]` is your [UPPMAX project code](../../../getting_started/project.md)
 - `[duration]` is the duration of the interactive session
 
 Resulting in, for example:

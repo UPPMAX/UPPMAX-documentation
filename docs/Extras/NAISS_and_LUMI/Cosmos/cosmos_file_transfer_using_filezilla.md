@@ -13,7 +13,7 @@ tags:
     yet.
 
 HPC clusters have different ways to do
-[file transfer using FileZilla](file_transfer_using_filezilla.md).
+[file transfer using FileZilla](../file_transfer_using_filezilla.md).
 
 This page shows how to do so for COSMOS.
 

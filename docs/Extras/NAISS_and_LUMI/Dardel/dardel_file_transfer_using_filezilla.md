@@ -13,7 +13,7 @@ tags:
     yet.
 
 HPC clusters have different ways to do
-[file transfer using FileZilla](file_transfer_using_filezilla.md).
+[file transfer using FileZilla](../file_transfer_using_filezilla.md).
 
 This page shows how to do so for Dardel.
 
@@ -39,7 +39,7 @@ the following steps:
 ???- question "What if I don't use Linux?"
 
     Instead of following steps 1 and 2, follow the procedure at
-    [the puttygen page, section 'Create SSH key files'](../software/puttygen.md#create-ssh-key-files).
+    [the puttygen page, section 'Create SSH key files'](../../../software/puttygen.md#create-ssh-key-files).
 
 On Linux, do:
 

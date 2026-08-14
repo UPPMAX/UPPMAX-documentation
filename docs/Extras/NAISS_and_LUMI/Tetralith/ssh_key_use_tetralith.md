@@ -19,7 +19,7 @@ tags:
     However, it has not been suggested to be added to their documentaton
     yet.
 
-This page describes [how to create and use an SSH key](../software/ssh_key_use.md)
+This page describes [how to create and use an SSH key](../../../software/ssh_key_use.md)
 so that you can
 login to the Tetralith console environment with an SSH key.
 

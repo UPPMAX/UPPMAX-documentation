@@ -5,7 +5,7 @@
     This page is here temporarily, until its content is moved
     to a better place.
 
-NAISS HPC cluster have different ways to [login](login.md).
+NAISS HPC cluster have different ways to [login](../../../Overview/login.md).
 
 This page is about how to log in to [Kebnekaise](kebnekaise.md).
 

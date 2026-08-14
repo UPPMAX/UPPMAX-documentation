@@ -77,4 +77,5 @@
 - Extras
   - Contributing
   - Documentation guidelines
+  - Pages for non-UPPMAX clusters
   - Unsorted pages

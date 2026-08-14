@@ -13,7 +13,7 @@ tags:
     yet.
 
 HPC clusters have different ways to do
-[file transfer using rsync](file_transfer_using_rsync.md).
+[file transfer using rsync](../file_transfer_using_rsync.md).
 
 This page shows how to do so for Alvis.
 
@@ -31,15 +31,15 @@ the following steps:
 
 ### 1. Get inside SUNET
 
-[Get inside of SUNET](../getting_started/get_inside_sunet.md).
+[Get inside of SUNET](../../../getting_started/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../../getting_started/get_inside_sunet.md)
 
 ### 2. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer
+Start a [terminal](../../../software/terminal.md) on your local computer
 
 ## 3. Transfer files to Alvis
 

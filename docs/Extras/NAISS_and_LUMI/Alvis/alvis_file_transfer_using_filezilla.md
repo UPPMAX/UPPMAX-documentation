@@ -13,7 +13,7 @@ tags:
     yet.
 
 HPC clusters have different ways to do
-[file transfer using FileZilla](file_transfer_using_filezilla.md).
+[file transfer using FileZilla](../file_transfer_using_filezilla.md).
 
 This page shows how to do so for Alvis.
 
@@ -35,18 +35,18 @@ the following steps:
 
 ### 1. Get inside SUNET
 
-[Get inside of SUNET](../getting_started/get_inside_sunet.md).
+[Get inside of SUNET](../../../getting_started/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../../getting_started/get_inside_sunet.md)
 
 ### 2. Install `putty-tools`
 
 ???- question "What if I don't use Linux?"
 
     Instead of following steps 2 and 3, follow the procedure at
-    [the puttygen page, section 'Create SSH key files'](../software/puttygen.md#create-ssh-key-files).
+    [the puttygen page, section 'Create SSH key files'](../../../software/puttygen.md#create-ssh-key-files).
 
 
 ```bash

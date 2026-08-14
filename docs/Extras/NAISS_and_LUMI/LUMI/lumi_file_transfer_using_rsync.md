@@ -21,7 +21,7 @@ tags:
 
 There are multiple ways to transfer files to or from LUMI.
 Here it is described how to do file transfer to/from LUMI
-using [rsync](../software/rsync.md).
+using [rsync](../../../software/rsync.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ using [rsync](../software/rsync.md).
 
 ## 1. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer
+Start a [terminal](../../../software/terminal.md) on your local computer
 
 ## 2. Transfer files to LUMI
 

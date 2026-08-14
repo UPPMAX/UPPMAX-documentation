@@ -16,8 +16,8 @@ tags:
 
 ## Introduction
 
-[RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
-specialised for the [R](../software/r.md) programming language.
+[RStudio](../../../software/rstudio.md) is an [IDE](../../../software/ides.md)
+specialised for the [R](../../../software/r.md) programming language.
 
 In this session, we show how to use RStudio on Dardel.
 
