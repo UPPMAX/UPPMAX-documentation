@@ -7,6 +7,16 @@ tags:
 
 This page describes how to get started with UPPMAX.
 
+!!! info "TL;DR"
+
+    1. Get a SUPR account
+    2. Get an UPPMAX project
+    3. Apply for a cluster user account for Pelle or Bianca
+    4. Wait for an email with further instructions
+    5. Get a 2FA for your UPPMAX user account
+    6. Log in and change your password
+    7. Use UPPMAX
+
 ???- question "Prefer a graphical overview?"
 
     The processes to get started:
@@ -17,10 +27,10 @@ This page describes how to get started with UPPMAX.
           get_supr_account[Apply for SUPR account]
           accept_supr_user_agreement[Accept the SUPR user agreement]
         end
-        get_2fa[Get your UPPMAX 2FA]
         get_project[Apply for an UPPMAX project]
         get_uppmax_account[Apply for a user name for UPPMAX facilities]
         wait_for_email[Wait for an email with further instructions]
+        get_2fa[Get your UPPMAX 2FA]
         login[Log in and change your password]
         use[Use UPPMAX]
         
@@ -49,11 +59,17 @@ This is needed to administer your projects and accounts on one or several academ
 Second, one needs to have an active research project.
 See how to get one at [the UPPMAX guide 'Apply for a project'](project_apply.md).
 
-## Step 3: Get a user account for Pelle or Bianca, depending on type of project
+## Step 3: Apply for a cluster user account for Pelle or Bianca, depending on type of project
 
 After having been granted membership in the project [on SUPR, activate your user accounts](https://supr.naiss.se/account/)
 
-## Step 4: Get a 2FA for your UPPMAX user account
+## Step 4: Wait for an email with further instructions
+
+- The email may land in you trash bin so do look there as well.
+- Follow the instructions! You'll need the UPPMAX 2FA set up, see Step 4 to be able to log in.
+- The link you got will only work once and for a limited time period.
+
+## Step 5: Get a 2FA for your UPPMAX user account
 
 All parts of UPPMAX require two factor authentication.
 See how to set this up at
@@ -63,12 +79,6 @@ See how to set this up at
 
     - Please be aware of that this is different from the SUPR 2FA that you may have set up earlier.
     - Also, each centre has their own 2FA, so one from NSC/Tetralith won't work for UPPMAX.
-
-## Step 5: Wait for an email with further instructions
-
-- The email may land in you trash bin so do look there as well.
-- Follow the instructions! You'll need the UPPMAX 2FA set up, see Step 4 to be able to log in.
-- The link you got will only work once and for a limited time period.
 
 ## Step 6: Log in and change your password
 
