@@ -37,9 +37,9 @@ This page describes how to get started with UPPMAX.
         get_supr_account --> accept_supr_user_agreement
         get_SUPR_account --> get_project
         get_project --> get_uppmax_account
-        get_uppmax_account --> get_2fa
-        get_2fa --> wait_for_email
-        wait_for_email --> login
+        get_uppmax_account --> wait_for_email
+        wait_for_email -->  get_2fa
+        get_2fa --> login
         login --> use
     ```
 
