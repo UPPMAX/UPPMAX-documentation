@@ -62,14 +62,14 @@ Anyone with a GitHub account can create an [issue](https://github.com/UPPMAX/UPP
     - Go to [the issues](https://github.com/UPPMAX/UPPMAX-documentation/issues)
     - Click on the green button 'Create issue'
     
-    ![Click on 'Create issue'](img/create_issue_with_border.png)
+    ![Click on 'Create issue'](../../img/create_issue_with_border.png)
 
     > Click on 'Create issue'
 
     - Write a title and description
     - At the bottom of the page, click the green button 'Create'
 
-    ![Click on 'Create'](img/create_issue_click_create_with_border.png)
+    ![Click on 'Create'](../../img/create_issue_click_create_with_border.png)
 
     > Click on 'Create'
 
@@ -97,14 +97,14 @@ button, which is present on each document page.
 
     - On any documentation page, click 'Edit'
 
-    ![Click 'Edit'](img/on_page_click_edit_with_border.png)
+    ![Click 'Edit'](../../img/on_page_click_edit_with_border.png)
 
     > Click 'Edit'
 
     - Log in to your GitHub account
     - In the next page, click 'Edit this file'
 
-    ![Click 'Edit this file'](img/edit_this_file_with_border.png)
+    ![Click 'Edit this file'](../../img/edit_this_file_with_border.png)
 
     > Click 'Edit this file'
 
@@ -112,7 +112,7 @@ button, which is present on each document page.
 
     - Click on the green 'Commit changes' button
 
-    ![Click on the green 'Commit changes' button](img/click_commit_changes_with_border.png)
+    ![Click on the green 'Commit changes' button](../../img/click_commit_changes_with_border.png)
 
     What follows depends on who you are:
 
@@ -141,7 +141,7 @@ If it does not, we'll fix it for you :+1:
     - Go to the GitHub repository behind the UPPMAX documentation webpage,
       by clicking on the word 'GitHub'
 
-    ![Click on the word 'GitHub'](img/click_on_github_with_border.png)
+    ![Click on the word 'GitHub'](../../img/click_on_github_with_border.png)
 
     > Click on the word 'GitHub'
 
@@ -150,12 +150,12 @@ If it does not, we'll fix it for you :+1:
 
     - On any documentation page, click 'Add new file'
 
-    ![Click 'Edit'](img/add_new_file_with_border.png)
+    ![Click 'Edit'](../../img/add_new_file_with_border.png)
 
     - Specify a name for the file and write is content in Markdown
     - Click on the green 'Commit changes' button
 
-    ![Click on the green 'Commit changes' button](img/click_commit_changes_with_border.png)
+    ![Click on the green 'Commit changes' button](../../img/click_commit_changes_with_border.png)
 
     What follows depends on who you are:
 
