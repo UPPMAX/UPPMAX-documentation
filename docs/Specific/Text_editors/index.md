@@ -13,10 +13,10 @@ There are many editors that can be used on the UPPMAX clusters:
 
 Editor type                                                 |Features
 ------------------------------------------------------------|-----------------------------------------------------
-[Simple terminal editors](#simple-terminal-editors)         |Used in [terminal](../software/terminal.md), easy to learn, limited features
-[Advanced terminal editors](#advanced-terminal-editors)     |Used in [terminal](../software/terminal.md), harder to learn, powerful features
-[Simple graphical editors](#simple-graphical-editors)       |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), easy to learn, limited features
-[Advanced graphical editors](#advanced-graphical-editors)   |Graphical, needs [X forwarding](../software/ssh_x_forwarding.md), harder to learn, powerful features
+[Simple terminal editors](#simple-terminal-editors)         |Used in [terminal](../../software/terminal.md), easy to learn, limited features
+[Advanced terminal editors](#advanced-terminal-editors)     |Used in [terminal](../../software/terminal.md), harder to learn, powerful features
+[Simple graphical editors](#simple-graphical-editors)       |Graphical, needs [X forwarding](../../software/ssh_x_forwarding.md), easy to learn, limited features
+[Advanced graphical editors](#advanced-graphical-editors)   |Graphical, needs [X forwarding](../../software/ssh_x_forwarding.md), harder to learn, powerful features
 
 Try them out and pick one favourite editor!
 
@@ -39,8 +39,8 @@ Try them out and pick one favourite editor!
     - we suggest that you learn this tools before trying to work with them on UPPMAX
     - If you start one of these editors you may have difficulties to exit!
 
-- [emacs](../software/emacs.md)
-- [vim](../software/vim.md)
+- [emacs](emacs.md)
+- [vim](vim.md)
 
 ## Simple graphical editors
 

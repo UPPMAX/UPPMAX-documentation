@@ -10,7 +10,7 @@ tags:
 
 # Pluma
 
-Pluma is a simple graphical [text editor](text_editors.md)
+Pluma is a simple graphical [text editor](index.md)
 and is the default on the Pelle HPC cluster.
 
 Here is what Pluma looks like:

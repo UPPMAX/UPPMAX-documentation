@@ -11,7 +11,7 @@ tags:
 
 > `nedit` on Bianca
 
-There are many [text editors](text_editors.md)
+There are many [text editors](index.md)
 installed on the UPPMAX systems.
 `nedit` is one of these.
 

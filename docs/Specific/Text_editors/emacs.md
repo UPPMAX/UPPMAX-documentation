@@ -1,6 +1,6 @@
 # Emacs
 
-UPPMAX has multiple [text editors](text_editors.md) available.
+UPPMAX has multiple [text editors](index.md) available.
 This page describes the Emacs text editor.
 
 Emacs is an advanced terminal editor that is fast fast and powerful, once you learn it.

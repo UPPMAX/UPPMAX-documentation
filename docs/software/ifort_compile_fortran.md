@@ -21,7 +21,7 @@ Create and write a Fortran source file called `hello_world.f`:
 nano hello_world.f
 ```
 
-In [nano](nano.md), write the Fortran program as such:
+In [nano](../Specific/Text_editors/nano.md), write the Fortran program as such:
 
 ```c++
 C     HELLO.F :  PRINT MESSAGE ON SCREEN

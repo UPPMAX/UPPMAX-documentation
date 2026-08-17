@@ -24,7 +24,7 @@ Create and write a Java source file called `hello_world.java`:
 nano hello_world.java
 ```
 
-In [nano](nano.md), write the Java program as such:
+In [nano](../Specific/Text_editors/nano.md), write the Java program as such:
 
 ```java
 class hello_world

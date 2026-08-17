@@ -7,7 +7,7 @@ There are multiple ways to program in Python:
 
 Description                           |Features                                                                                |Screenshot
 --------------------------------------|----------------------------------------------------------------------------------------|-----------
-Use a text editor (see below)         |Non-interactive, no help                                                                |![Using GNU nano for Python](./img/gnu_nano_python.png)
+Use a text editor (see below)         |Non-interactive, no help                                                                |![Using GNU nano for Python](../Specific/Text_editors/img/gnu_nano_python.png)
 Use the Python interpreter (see below)|Interactive, [terminal](../software/terminal.md)-based, some help                       |![Using the Python interpreter](./img/python_interpreter.png)
 Use [IPython](ipython.md)             |Interactive, [terminal](../software/terminal.md)-based, more help and features          |![Using IPython](./img/ipython.png)
 Use [Jupyter](jupyter.md)             |Interactive, web-based                                                                  |![Using Jupyter](./img/jupyter.png)
@@ -15,11 +15,11 @@ Use [Visual Studio Code](vscode.md)   |Interactive, install on local computer, u
 
 ## Use a text editor
 
-Using a [text editor](text_editors.md) to program in Python
+Using a [text editor](../Specific/Text_editors/index.md) to program in Python
 is a simple way to write code:
 it is the same as writing any text file.
 
-Here we use the text editor GNU [`nano`](nano.md) to write a Python script:
+Here we use the text editor GNU [`nano`](../Specific/Text_editors/nano.md) to write a Python script:
 
 ```bash
 nano example_script.py

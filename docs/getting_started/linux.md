@@ -132,7 +132,7 @@ ask Bash to complete what you’re writing.
 
 To edit files, you will use a text editor.
 The UPPMAX HPC clusters have multiple text editors installed,
-which are described at [the UPPMAX 'Text editors' page](../software/text_editors.md).
+which are described at [the UPPMAX 'Text editors' page](../Specific/Text_editors/index.md).
 
 !!! example
 
@@ -197,7 +197,7 @@ which are described at [the UPPMAX 'Text editors' page](../software/text_editors
         $ program word1 word2 word3 […]
         ```
 
-    - Use [text editors](../software/text_editors.md) to edit files
+    - Use [text editors](../Specific/Text_editors/index.md) to edit files
     - Tips
         - use Tab completion
         - capitalisation and spaces matters

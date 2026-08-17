@@ -1,17 +1,17 @@
 # `nano`
 
-![`nano` in action](./img/nano.png)
+![`nano` in action](img/nano.png)
 
 > Using `nano` to edit the file `my_file.txt`.
 
-UPPMAX has multiple [text editors](text_editors.md) available.
+UPPMAX has multiple [text editors](index.md) available.
 This page describes the GNU nano text editor.
 
 ???- question "Want to see a video?"
 
     See the YouTube video [using `nano` on Rackham](https://youtu.be/Ntg0sjBQA0E)
 
-GNU nano is a simple [terminal](../software/terminal.md) text editor
+GNU nano is a simple [terminal](../../software/terminal.md) text editor
 that is easy to learn.
 
 ## Starting `nano`

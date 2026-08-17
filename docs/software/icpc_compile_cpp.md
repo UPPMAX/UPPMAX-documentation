@@ -21,7 +21,7 @@ Create and write a C++ source file called `hello_world.cpp`:
 nano hello_world.cpp
 ```
 
-In [nano](nano.md), write the C++ program as such:
+In [nano](../Specific/Text_editors/nano.md), write the C++ program as such:
 
 ```c++
 #include <iostream>

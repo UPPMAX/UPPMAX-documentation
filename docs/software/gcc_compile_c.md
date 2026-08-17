@@ -20,7 +20,7 @@ Create and write a C source file called `hello_world.c`:
 nano hello_world.c
 ```
 
-In [nano](nano.md), write the C program as such:
+In [nano](../Specific/Text_editors/nano.md), write the C program as such:
 
 ```c
 #include <stdio.h>
