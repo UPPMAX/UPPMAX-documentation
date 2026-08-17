@@ -1,10 +1,10 @@
 - Overview
   - Cluster concepts
-  - Which services are available
+  - What we provide
     - UPPMAX
     - NAISS
     - EuroHPC
-    - What about needs we don't provide a service for
+    - What we don't provide
   - What to choose
   - Parallellization
   - Using GPUs
