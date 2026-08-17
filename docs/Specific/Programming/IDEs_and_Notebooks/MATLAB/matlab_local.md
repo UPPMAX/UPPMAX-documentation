@@ -160,9 +160,9 @@ Unset a value when no longer needed.
     - It will not ask again until you define a new cluster handle ``c`` or in next session.
 ```
 
-![matlab user credentials](./img/matlab_usercred.PNG)
+![matlab user credentials](../../../../software/img/matlab_usercred.PNG)
 
-![matlab enter password](./img/matlab_enterpasswd.PNG)
+![matlab enter password](../../../../software/img/matlab_enterpasswd.PNG)
 
 - Jobs will now default to the cluster rather than submit to the local machine.
 
@@ -186,7 +186,7 @@ ans =
 
 - You can also watch queue
 
-![matlab job monitor](./img/matlab_jobmonitor.PNG)
+![matlab job monitor](../../../../software/img/matlab_jobmonitor.PNG)
 
 - Or on Rackham (it really runs there!):
 

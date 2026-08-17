@@ -90,7 +90,7 @@ flowchart TD
     calculations.
 
     For example, when
-    [using RStudio on Bianca](../software/rstudio_on_bianca.md)
+    [using RStudio on Bianca](../Specific/Programming/IDEs_and_Notebooks/RStudio/rstudio_on_bianca.md)
     it is recommended to use at least two cores (and login node has 2 cores only).
 
     So, if you can, use the login node. If you need more resources,

@@ -9,15 +9,15 @@ tags:
 
 # Spyder on Pelle
 
-![Jupyter on old cluster Rackham](./img/jupyter_rackham_thinlinc.png)
+![Jupyter on old cluster Rackham](../../../../software/img/jupyter_rackham_thinlinc.png)
 
 **FIX** picture
 
-There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
-among other [Spyder](../software/jupyter.md).
+There are multiple [IDEs](../ides.md) on the UPPMAX clusters,
+among other [Spyder](../Jupyter/index.md).
 
-Spyder is an [IDE](../software/ides.md) specialised for
-[the Python programming language](../software/python.md).
+Spyder is an [IDE](../ides.md) specialised for
+[the Python programming language](../../../../software/python.md).
 
 ## Procedure
 
@@ -32,21 +32,21 @@ Spyder is an [IDE](../software/ides.md) specialised for
 
 This can be either:
 
-- [Login to the Pelle remote desktop environment using the website](../getting_started/login_pelle_remote_desktop_website.md)
-- [Login to the Pelle remote desktop environment using a local ThinLinc client](../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md)
+- [Login to the Pelle remote desktop environment using the website](../../../../getting_started/login_pelle_remote_desktop_website.md)
+- [Login to the Pelle remote desktop environment using a local ThinLinc client](../../../../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md)
 
 ### 2. Start an interactive session
 
-Within the Pelle remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Pelle remote desktop environment, start a [terminal](../../../../software/terminal.md).
 Within that terminal,
-[start an interactive session](../cluster_guides/start_interactive_session_on_pelle.md):
+[start an interactive session](../../../../cluster_guides/start_interactive_session_on_pelle.md):
 
 ```bash
 interactive -A [project_number] -t 8:00:00
 ```
 
 Where `[project_number]` is your
-[UPPMAX project](../getting_started/project.md), for example:
+[UPPMAX project](../../../../getting_started/project.md), for example:
 
 ```bash
 interactive -A uppmax2025-2-393 -t 8:00:00
@@ -54,7 +54,7 @@ interactive -A uppmax2025-2-393 -t 8:00:00
 
 ???- question "What is my UPPMAX project number?"
 
-    See [the UPPMAX documentation on how to see your UPPMAX projects](../getting_started/project.md)
+    See [the UPPMAX documentation on how to see your UPPMAX projects](../../../../getting_started/project.md)
 
 ### 3a. Use software modules to provide Python, Spyder and python packages needed
 
@@ -63,7 +63,7 @@ interactive -A uppmax2025-2-393 -t 8:00:00
     - Python version (so far we have Spyder installed for the foss2023b tool chain)
     - Python packages (and versions)
 
-- Step 2: Check our [Python Bundles page](python_bundles.md) and choose compatible modules.
+- Step 2: Check our [Python Bundles page](../../../../software/python_bundles.md) and choose compatible modules.
 
     - Check if your needed python packages are compatible with a Spyder module.
     - If not you may need to go to 3b instead to create a isolated environment in Conda.
@@ -85,7 +85,7 @@ ml matplotlib/3.8.2-gfbf-2023b
 
 ???- question "Forgot what the module system is?"
 
-    See [the UPPMAX pages on the module system](../cluster_guides/modules.md).
+    See [the UPPMAX pages on the module system](../../../../cluster_guides/modules.md).
 
 ### 3b Create a conda environment and activate it
 

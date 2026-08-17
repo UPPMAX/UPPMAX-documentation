@@ -17,7 +17,7 @@ configCluster.sh <project-ID>    # Note: no '-A'
 - Jobs will now default to the cluster rather than submit to the local machine.
 - It should look like this (example for Bianca)
 
-![matlab configCluster.sh](img/matlab_configCluster.PNG)
+![matlab configCluster.sh](../../../../software/img/matlab_configCluster.PNG)
 
 - The session should exit automatically but if not you can end the session by
     - ``exit``

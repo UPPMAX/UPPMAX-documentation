@@ -10,8 +10,8 @@ Description                           |Features                                 
 Use a text editor (see below)         |Non-interactive, no help                                                                |![Using GNU nano for Python](../Specific/Text_editors/img/gnu_nano_python.png)
 Use the Python interpreter (see below)|Interactive, [terminal](../software/terminal.md)-based, some help                       |![Using the Python interpreter](./img/python_interpreter.png)
 Use [IPython](ipython.md)             |Interactive, [terminal](../software/terminal.md)-based, more help and features          |![Using IPython](./img/ipython.png)
-Use [Jupyter](jupyter.md)             |Interactive, web-based                                                                  |![Using Jupyter](./img/jupyter.png)
-Use [Visual Studio Code](vscode.md)   |Interactive, install on local computer, use locally installed Python and Python packages|![Using VSCode](./img/vscode.png)
+Use [Jupyter](../Specific/Programming/IDEs_and_Notebooks/Jupyter/index.md)             |Interactive, web-based                                                                  |![Using Jupyter](./img/jupyter.png)
+Use [Visual Studio Code](../Specific/Programming/IDEs_and_Notebooks/VS_Code/index.md)   |Interactive, install on local computer, use locally installed Python and Python packages|![Using VSCode](./img/vscode.png)
 
 ## Use a text editor
 

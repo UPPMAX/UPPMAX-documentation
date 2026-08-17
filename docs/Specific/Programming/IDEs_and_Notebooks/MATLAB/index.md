@@ -1,6 +1,6 @@
 # MATLAB user guide
 
-## The MATLAB [module](../cluster_guides/modules.md)
+## The MATLAB [module](../../../../cluster_guides/modules.md)
 
 MATLAB can be started only if you load the MATLAB module first. Most of available official toolboxes are also available.
 
@@ -126,7 +126,7 @@ This example starts a session with 2 cores for a wall time of 1 hour.
 
 ### MATLAB in terminal
 
-For simple calculations it is possible to start just a command shell in your [terminal](../software/terminal.md):
+For simple calculations it is possible to start just a command shell in your [terminal](../../../../software/terminal.md):
 
 ```console
 matlab -nodisplay
@@ -162,7 +162,7 @@ You may get the best of the MATLAB graphics by running it the ThinLinc environme
 
 - For Rackham (from web-browser): <https://rackham-gui.uppmax.uu.se>
 
-You may want to confer our UPPMAX [ThinLinc user guide](../software/thinlinc.md).
+You may want to confer our UPPMAX [ThinLinc user guide](../../../../software/thinlinc.md).
 
 ## How to run parallel jobs
 

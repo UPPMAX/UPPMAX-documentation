@@ -17,7 +17,7 @@ R is a programming language for statistical computing and data visualisation
 
 [R on Pelle](r_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
 
-[RStudio on Pelle](rstudio_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
+[RStudio on Pelle](../Specific/Programming/IDEs_and_Notebooks/RStudio/rstudio_on_pelle.md){style="text-decoration:none;" .md-button .md-button--primary .button-frontpage}
 
 
 Here we discuss **Bianca** even if there are some similarities:
@@ -167,11 +167,11 @@ This will automatically load the corresponding version of the R interpreter.
 > RStudio in action on Bianca using the remote desktop environment
 
 Software development is commonly done in a so-called
-[Integrated Development Environment](../software/ides.md),
+[Integrated Development Environment](../Specific/Programming/IDEs_and_Notebooks/ides.md),
 abbreviated 'IDE.
 
-[RStudio](rstudio.md) is the most commonly used IDE for R software development.
-See [the UPPMAX page about RStudio](rstudio.md) on how to use.
+[RStudio](../Specific/Programming/IDEs_and_Notebooks/RStudio/index.md) is the most commonly used IDE for R software development.
+See [the UPPMAX page about RStudio](../Specific/Programming/IDEs_and_Notebooks/RStudio/index.md) on how to use.
 
 ## How to install personal packages
 

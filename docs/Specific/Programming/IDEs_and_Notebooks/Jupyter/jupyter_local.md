@@ -13,7 +13,7 @@ node, but using the graphics on your local computer.
 That will speed up the interaction with plotting figures and GUI management.
 
 This possible for the [Rackham[(../Extras/glossary.md#rackham) and
-[Snowy](../Extras/glossary.md#snowy) clusters.
+[Snowy](../../../../Extras/glossary.md#snowy) clusters.
 
 !!! warning
 
@@ -21,7 +21,7 @@ This possible for the [Rackham[(../Extras/glossary.md#rackham) and
 
 ## Step 1: Login to an UPPMAX cluster
 
-- Using ThinLinc or a [terminal](../software/terminal.md) does not matter.
+- Using ThinLinc or a [terminal](../../../../software/terminal.md) does not matter.
 
 ## Step 2: start an interactive session
 
@@ -76,7 +76,7 @@ ssh -L 8888:r486:8888 username@rackham.uppmax.uu.se
 - If you use Windows it may be better to do this in the PowerShell instead of a WSL2 terminal.
 - If you use PuTTY - you need to change the settings in "Tunnels" accordingly (could be done for the current connection as well).
 
-![putty](../software/img/putty.jpg)
+![putty](../../../../software/img/putty.jpg)
 
 [SSH port forwarding](https://uplogix.com/docs/local-manager-user-guide/advanced-features/ssh-port-forwarding)
 
@@ -94,4 +94,4 @@ http://127.0.0.1:8888/?token=5c3aeee9fbfc75f7a11c4a64b2b5b7ec49622231388241c2
 
 This should bring the jupyter interface on your computer and all calculations and files will be on Rackham compute node.
 
-[Back to jupyter page](jupyter.md)
+[Back to jupyter page](index.md)

@@ -6,30 +6,30 @@ tags:
 
 # Using VSCodium on Bianca
 
-![VSCodium running on Bianca](./img/vscodium_on_bianca_480_x_270.png)
+![VSCodium running on Bianca](../../../../software/img/vscodium_on_bianca_480_x_270.png)
 
 > VSCodium running on Bianca
 
 ## Introduction
 
-There are multiple [IDEs on Bianca](../software/ides_on_bianca.md),
-among other [VSCodium](../software/vscodium.md).
-Here we discuss how to run [VSCodium](../software/vscodium.md)
-on [Bianca](../cluster_guides/bianca.md).
+There are multiple [IDEs on Bianca](../ides_on_bianca.md),
+among other [VSCodium](index.md).
+Here we discuss how to run [VSCodium](index.md)
+on [Bianca](../../../../cluster_guides/bianca.md).
 
 VSCodium is the community edition of Visual Studio Code
 and can be used for software development in many languages.
 
 ???- tip "What is an IDE?"
 
-    See [the page on IDEs](../software/ides.md).
+    See [the page on IDEs](../ides.md).
 
 In this session, we show how to use VSCodium on Bianca,
 using Bianca's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Bianca' page](../../../../getting_started/login_bianca.md).
 
 As VSCodium is a resource-heavy program,
 it must be run on an interactive session.
@@ -43,22 +43,22 @@ This procedure is also demonstrated in [this YouTube video](https://youtu.be/i7s
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../../../getting_started/get_inside_sunet.md)
 
 ### 2. Start the Bianca remote desktop environment
 
 ???- tip "Forgot how to start Bianca's remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Bianca' page](../../../../getting_started/login_bianca.md).
 
 ### 3. Start an interactive session
 
-Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Bianca remote desktop environment, start a [terminal](../../../../software/terminal.md).
 Within that terminal, start an interactive session with 1 core.
 
 ???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_session_on_bianca.md).
+    See [the 'Starting an interactive session' page](../../../../cluster_guides/start_interactive_session_on_bianca.md).
 
     Spoiler: use:
 
@@ -90,4 +90,4 @@ VSCodium starts up quickly.
 
 ???- info "How does VSCodium look on Bianca?"
 
-    ![VSCodium running on Bianca](./img/vscodium_on_bianca.png)
+    ![VSCodium running on Bianca](../../../../software/img/vscodium_on_bianca.png)

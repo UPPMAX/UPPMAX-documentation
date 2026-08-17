@@ -8,15 +8,15 @@ tags:
 
 ## Introduction
 
-[RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
-specialised for the [R](../software/r.md) programming language
+[RStudio](index.md) is an [IDE](../ides.md)
+specialised for the [R](../../../../software/r.md) programming language
 
 In this session, we show how to use RStudio on Pelle,
 using Pelle's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the 'Logging in to Pelle' page](../getting_started/login_pelle.md).
+    See [the 'Logging in to Pelle' page](../../../../getting_started/login_pelle.md).
 
     Spoiler: go to [https://pelle.uppmax.uu.se/](https://pelle.uppmax.uu.se/)
 
@@ -25,7 +25,7 @@ it must be run on an interactive session.
 
 ???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_session_on_pelle.md).
+    See [the 'Starting an interactive session' page](../../../../cluster_guides/start_interactive_session_on_pelle.md).
 
 ## Procedure to start RStudio
 
@@ -40,13 +40,13 @@ Below is a step-by-step procedure to start RStudio on Pelle.
 
 This can be either:
 
-- [Login to the Pelle remote desktop environment using the website](../getting_started/login_pelle_remote_desktop_website.md)
-- [Login to the Pelle remote desktop environment using a local ThinLinc client](../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md)
+- [Login to the Pelle remote desktop environment using the website](../../../../getting_started/login_pelle_remote_desktop_website.md)
+- [Login to the Pelle remote desktop environment using a local ThinLinc client](../../../../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md)
 
 ## 2. Start an interactive session
 
-Within the Pelle remote desktop environment, start a [terminal](../software/terminal.md).
-Within that terminal, [start an interactive session](../cluster_guides/start_interactive_session_on_pelle.md)
+Within the Pelle remote desktop environment, start a [terminal](../../../../software/terminal.md).
+Within that terminal, [start an interactive session](../../../../cluster_guides/start_interactive_session_on_pelle.md)
 with 2 cores:
 
 ```bash
@@ -55,7 +55,7 @@ interactive -A [naiss_project_id] -n 2 -t [duration]
 
 Where:
 
-- `[naiss_project_id]` is an [UPPMAX project code](../getting_started/project.md)
+- `[naiss_project_id]` is an [UPPMAX project code](../../../../getting_started/project.md)
 - `[duration]` is the duration of the interactive session
 
 Resulting in, For example:
@@ -72,7 +72,7 @@ interactive -A naiss2024-22-310 -n 2 -t 8:00:00
 
 ???- tip "What is an interactive session?"
 
-    See [start an interactive session](../cluster_guides/start_interactive_session_on_pelle.md)
+    See [start an interactive session](../../../../cluster_guides/start_interactive_session_on_pelle.md)
 
 !!!- warning "Do not start RStudio from the menus"
 
@@ -112,28 +112,28 @@ Additionally, at startup and if enabled, your saved RStudio workspace
 
     RStudio when starting up:
 
-    ![RStudio when starting up](./img/rstudio_starting_up.png)
+    ![RStudio when starting up](../../../../software/img/rstudio_starting_up.png)
 
     RStudio when started up:
 
-    ![RStudio when started up](./img/rstudio_started.png)
+    ![RStudio when started up](../../../../software/img/rstudio_started.png)
 
     RStudio when ready:
 
-    ![RStudio when started up](./img/rstudio_with_r_v4_3_1.png)
+    ![RStudio when started up](../../../../software/img/rstudio_with_r_v4_3_1.png)
 
     RStudio in action:
 
-    ![RStudio in action](./img/rstudio_in_action.png)
+    ![RStudio in action](../../../../software/img/rstudio_in_action.png)
 
     The RStudio debugger, at the error message level:
 
-    ![The RStudio debugger, at the error message level](./img/rstudio_debugger_at_error_level.png)
+    ![The RStudio debugger, at the error message level](../../../../software/img/rstudio_debugger_at_error_level.png)
 
     The RStudio debugger, at the function-that-caused-the-error level:
 
-    ![The RStudio debugger, at the function-that-caused-the-error level](./img/rstudio_debugger_at_function_level.png)
+    ![The RStudio debugger, at the function-that-caused-the-error level](../../../../software/img/rstudio_debugger_at_function_level.png)
 
     The RStudio debugger, at the program level:
 
-    ![The RStudio debugger, at the program level](./img/rstudio_debugger_at_program_level.png)
+    ![The RStudio debugger, at the program level](../../../../software/img/rstudio_debugger_at_program_level.png)

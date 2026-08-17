@@ -14,7 +14,7 @@ tags:
 
 ## Introduction
 
-[RStudio](../../software/rstudio.md) is an [IDE](../../software/ides.md)
+[RStudio](../../Specific/Programming/IDEs_and_Notebooks/RStudio/index.md) is an [IDE](../../Specific/Programming/IDEs_and_Notebooks/ides.md)
 specialised for the [R](../../software/r.md) programming language.
 
 In this session, we show how to use RStudio on Vera.

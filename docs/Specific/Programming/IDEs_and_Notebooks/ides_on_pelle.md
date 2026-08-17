@@ -1,10 +1,10 @@
 # IDEs on Pelle
 
-Here we show how to use some [IDEs](../software/ides.md) on Pelle.
+Here we show how to use some [IDEs](ides.md) on Pelle.
 
 ???- question "Forgot what an IDE is?"
 
-    See [the general page about IDEs](../software/ides.md).
+    See [the general page about IDEs](ides.md).
 
 ???- question "Do you really want to use an IDE on Pelle?"
 
@@ -29,8 +29,8 @@ Here are step-by-step guides to start these IDEs on Pelle:
 
 IDE                                           |Languages
 ----------------------------------------------|----------------
-[Jupyter](../software/jupyter.md)             |Python
-[RStudio](../software/rstudio_on_pelle.md)    |R
+[Jupyter](Jupyter/index.md)             |Python
+[RStudio](RStudio/rstudio_on_pelle.md)    |R
 VSCode                                        |General-purpose
 :no_entry: VSCodium                           |General-purpose
 

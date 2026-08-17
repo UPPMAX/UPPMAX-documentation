@@ -98,11 +98,11 @@ Because of this, I (Richel) put this info in comments.
 
 ## Software
 
-- [IDEs](../software/ides_on_bianca.md)
-    - [Jupyter](../software/jupyter_on_bianca.md)
-    - [RStudio](../software/rstudio_on_bianca.md)
-    - [VSCodium](../software/vscodium_on_bianca.md)
-    - :no_entry: [VSCode](../software/vscode_on_bianca.md)
+- [IDEs](../Specific/Programming/IDEs_and_Notebooks/ides_on_bianca.md)
+    - [Jupyter](../Specific/Programming/IDEs_and_Notebooks/Jupyter/jupyter_on_bianca.md)
+    - [RStudio](../Specific/Programming/IDEs_and_Notebooks/RStudio/rstudio_on_bianca.md)
+    - [VSCodium](../Specific/Programming/IDEs_and_Notebooks/VS_Codium/vscodium_on_bianca.md)
+    - :no_entry: [VSCode](../Specific/Programming/IDEs_and_Notebooks/VS_Code/vscode_on_bianca.md)
 
 ## Installations and development
 

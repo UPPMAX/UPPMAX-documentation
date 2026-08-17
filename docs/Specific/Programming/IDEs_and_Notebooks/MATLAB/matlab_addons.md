@@ -27,17 +27,17 @@
 
 ## MATLAB Add-Ons manager
 
-![toolbar](./img/Toolbar_Add-Ons.PNG)
+![toolbar](../../../../software/img/Toolbar_Add-Ons.PNG)
 
 - In the GUI, the Add-Ons manager can be selected from the menu at the top. The drop-down menu options allow users to:
 
     - **Browse a library of Add-Ons to download.** Note that some Add-Ons require a separate license.
 
-    ![addon explorer](./img/Add-On_explorer.PNG)
+    ![addon explorer](../../../../software/img/Add-On_explorer.PNG)
 
     - **Manage Add-Ons already downloaded.**
 
-    ![addon manager](./img/Add-On_manager.PNG)
+    ![addon manager](../../../../software/img/Add-On_manager.PNG)
 
     - Package user-generated code as a Toolbox or App
 
@@ -49,7 +49,7 @@
 
     Note that very many packages are already included in the  Academic installation and license
 
-![my products](./img/my_products.PNG)
+![my products](../../../../software/img/my_products.PNG)
 
 !!! admonition "Some toolboxes"
 
@@ -75,7 +75,7 @@
         - SimEvents
         - Simscape
 
-    ![apps](./img/apps.PNG)
+    ![apps](../../../../software/img/apps.PNG)
 
     - We won't cover the usage of the toolboxes here!
 
@@ -83,7 +83,7 @@
 
 - Search in add-ons explorer and install.
 
-![search for addons](./img/searchforaddons.PNG)
+![search for addons](../../../../software/img/searchforaddons.PNG)
 
 - Ends up in local folder and is in the part so it should be reached wherever you are in the file tree.
 

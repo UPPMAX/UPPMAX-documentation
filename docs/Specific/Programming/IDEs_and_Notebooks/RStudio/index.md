@@ -5,16 +5,16 @@ tags:
 
 # RStudio
 
-RStudio is an IDE specialised for [the R programming language](r.md).
+RStudio is an IDE specialised for [the R programming language](../../../../software/r.md).
 
 ???- tip "What is an IDE?"
 
-    See [the page on IDEs](../software/ides.md).
+    See [the page on IDEs](../ides.md).
 
 Using RStudio differs per UPPMAX cluster:
 
-- [RStudio on Pelle](../software/rstudio_on_pelle.md)
-- [RStudio on Bianca](../software/rstudio_on_bianca.md)
+- [RStudio on Pelle](rstudio_on_pelle.md)
+- [RStudio on Bianca](rstudio_on_bianca.md)
 
 ## RStudio versions
 
@@ -65,7 +65,7 @@ RStudio runs partially:
 - The R interpreter does not respond
 - The files pane at the bottom-right is loading forever
 
-![RStudio runs partially](./img/rstudio_inresponsive_interpreter_and_no_files_pane.png)
+![RStudio runs partially](../../../../software/img/rstudio_inresponsive_interpreter_and_no_files_pane.png)
 
 In one case (see [ticket](https://github.com/UPPMAX/ticket_304069) for details),
 the problem was caused by a process called `-bash` (yes, the first character
@@ -81,11 +81,11 @@ Full error message:
 R encountered a fatal error. The session was terminated.
 ```
 
-![R encountered a fatal error. The session was terminated](./img/rstudio_error_r_encountered_a_fatal_error.png)
+![R encountered a fatal error. The session was terminated](../../../../software/img/rstudio_error_r_encountered_a_fatal_error.png)
 
 This is because the home folder is full.
 
-Check this by using [uquota.md](uquota.md).
+Check this by using [uquota.md](../../../../software/uquota.md).
 
 ???- question "What does that look like?"
 

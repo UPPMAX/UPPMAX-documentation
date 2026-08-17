@@ -81,10 +81,10 @@ Pelle is quite similar to [Rackham](../Extras/glossary.md#rackham) but we have p
 - [The module system](pelle_modules.md)
 - [Slurm on Pelle](slurm_on_pelle.md)
 - [Starting an interactive session](start_interactive_session_on_pelle.md)
-- [IDEs](../software/ides_on_pelle.md)
-    - [Jupyter](../software/jupyter_on_pelle.md)
-    - [RStudio](../software/rstudio_on_pelle.md)
-    - [VSCode](../software/vscode_on_pelle.md)
+- [IDEs](../Specific/Programming/IDEs_and_Notebooks/ides_on_pelle.md)
+    - [Jupyter](../Specific/Programming/IDEs_and_Notebooks/Jupyter/jupyter_on_pelle.md)
+    - [RStudio](../Specific/Programming/IDEs_and_Notebooks/RStudio/rstudio_on_pelle.md)
+    - [VSCode](../Specific/Programming/IDEs_and_Notebooks/VS_Code/vscode_on_pelle.md)
 
 ???- warning "We are still preparing documentation of these subjects"
 

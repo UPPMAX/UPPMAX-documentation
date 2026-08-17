@@ -6,19 +6,19 @@ tags:
 
 # RStudio on Bianca
 
-![RStudio on Bianca](./img/rstudio_in_action_480_x_270.png)
+![RStudio on Bianca](../../../../software/img/rstudio_in_action_480_x_270.png)
 
 ## Introduction
 
-[RStudio](../software/rstudio.md) is an [IDE](../software/ides.md)
-specialised for the [R](../software/r.md) programming language
+[RStudio](index.md) is an [IDE](../ides.md)
+specialised for the [R](../../../../software/r.md) programming language
 
 In this session, we show how to use RStudio on Bianca,
 using Bianca's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Bianca' page](../../../../getting_started/login_bianca.md).
 
     Spoiler: go to [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
 
@@ -27,7 +27,7 @@ it must be run on an interactive session.
 
 ???- tip "Forgot how to start an interactive session?"
 
-    See [the 'Starting an interactive session' page](../cluster_guides/start_interactive_session_on_bianca.md).
+    See [the 'Starting an interactive session' page](../../../../cluster_guides/start_interactive_session_on_bianca.md).
 
 ## Procedure to start RStudio
 
@@ -41,19 +41,19 @@ Below is a step-by-step procedure to start RStudio on Bianca.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../../../getting_started/get_inside_sunet.md)
 
 ### 2. Start the Bianca remote desktop environment
 
 ???- tip "Forgot how to start Bianca's remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Bianca' page](../../../../getting_started/login_bianca.md).
 
 ### 3. Start an interactive session
 
-Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Bianca remote desktop environment, start a [terminal](../../../../software/terminal.md).
 Within that terminal,
-[start an interactive session](../cluster_guides/start_interactive_session_on_bianca.md)
+[start an interactive session](../../../../cluster_guides/start_interactive_session_on_bianca.md)
 with 2 cores:
 
 !!!- info "Why two cores?"
@@ -68,7 +68,7 @@ interactive -A [project_number] -n 2 -t 8:00:00
 ```
 
 Where `[project_number]` is your
-[UPPMAX project](../getting_started/project.md), for example:
+[UPPMAX project](../../../../getting_started/project.md), for example:
 
 ```bash
 interactive -A sens2016001 -n 2 -t 8:00:00
@@ -89,7 +89,7 @@ interactive -A sens2016001 -n 2 -t 8:00:00
 
     You can start a version of RStudio from the menus.
     However, this will not have access to loaded
-    [modules](../cluster_guides/modules.md).
+    [modules](../../../../cluster_guides/modules.md).
 
     Instead, load RStudio from the module system instead.
 
@@ -143,27 +143,27 @@ Additionally, at startup and if enabled, your saved RStudio workspace
 
     RStudio when starting up:
 
-    ![RStudio when starting up](./img/rstudio_starting_up.png)
+    ![RStudio when starting up](../../../../software/img/rstudio_starting_up.png)
 
     RStudio when started up:
 
-    ![RStudio when started up](./img/rstudio_started.png)
+    ![RStudio when started up](../../../../software/img/rstudio_started.png)
 
     RStudio in action:
 
-    ![RStudio in action](./img/rstudio_in_action.png)
+    ![RStudio in action](../../../../software/img/rstudio_in_action.png)
 
     The RStudio debugger, at the error message level:
 
-    ![The RStudio debugger, at the error message level](./img/rstudio_debugger_at_error_level.png)
+    ![The RStudio debugger, at the error message level](../../../../software/img/rstudio_debugger_at_error_level.png)
 
     The RStudio debugger, at the function-that-caused-the-error level:
 
-    ![The RStudio debugger, at the function-that-caused-the-error level](./img/rstudio_debugger_at_function_level.png)
+    ![The RStudio debugger, at the function-that-caused-the-error level](../../../../software/img/rstudio_debugger_at_function_level.png)
 
     The RStudio debugger, at the program level:
 
-    ![The RStudio debugger, at the program level](./img/rstudio_debugger_at_program_level.png)
+    ![The RStudio debugger, at the program level](../../../../software/img/rstudio_debugger_at_program_level.png)
 
 ## Troubleshooting
 
@@ -186,7 +186,7 @@ du -h -d 1 .
 
 This will show how much space the folders in your home folder take:
 
-![Home folder of a user that had RStudio frozen](./img/rstudio_on_bianca_freeze_du.png)
+![Home folder of a user that had RStudio frozen](../../../../software/img/rstudio_on_bianca_freeze_du.png)
 
 In this example, there is a folder called `wharf_backup` that is
 4.5 gigabyte. Moving it to a project folder solved the problem:

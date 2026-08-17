@@ -1,6 +1,6 @@
 # IDE:s
 
-![RStudio on Bianca](../software/img/rstudio_in_action_480_x_270.png)
+![RStudio on Bianca](../../../software/img/rstudio_in_action_480_x_270.png)
 
 > RStudio is an IDEs. Here, it is run on Bianca.
 
@@ -17,8 +17,8 @@ language (e.g. RStudio) and some allow multiple programming languages.
 
 How to use an IDE depends on the UPPMAX cluster you want to use:
 
-- [IDEs on Bianca](../software/ides_on_bianca.md)
-- [IDEs on Pelle](../software/ides_on_pelle.md)
+- [IDEs on Bianca](ides_on_bianca.md)
+- [IDEs on Pelle](ides_on_pelle.md)
 
 In general, using an IDE is easiest on the general-purpose HPC clusters
 (i.e. Pelle) and hardest on the sensitive data HPC clusters

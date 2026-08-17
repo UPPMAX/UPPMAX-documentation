@@ -7,13 +7,13 @@ tags:
 
 # Jupyter
 
-![Jupyter on old cluster Rackham](./img/jupyter_rackham.png)
+![Jupyter on old cluster Rackham](../../../../software/img/jupyter_rackham.png)
 
-There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
-among other [Jupyter](../software/jupyter.md).
-Here we describe how to run [Jupyter](../software/jupyter.md).
+There are multiple [IDEs](../ides.md) on the UPPMAX clusters,
+among other [Jupyter](index.md).
+Here we describe how to run [Jupyter](index.md).
 
-Jupyter is an [IDE](../software/ides.md) specialised for [the Python programming language](../software/python.md).
+Jupyter is an [IDE](../ides.md) specialised for [the Python programming language](../../../../software/python.md).
 
 !!! info
 
@@ -55,7 +55,7 @@ Jupyter can be slow when using remote desktop webpage
 
 ## Run Jupyter in a virtual environment (venv)
 
-You could also use jupyter- (lab or notebook) in a [`venv` virtual environment](python_venv.md).
+You could also use jupyter- (lab or notebook) in a [`venv` virtual environment](../../../../software/python_venv.md).
 
 If you decide to use the ``--system-site-packages`` configuration you will get ``jupyter`` from the python modules you created you virtual environment with.
 However, you won't find your locally installed packages from that jupyter session. To solve this, reinstall jupyter within the virtual environment by force (option ``-I``):

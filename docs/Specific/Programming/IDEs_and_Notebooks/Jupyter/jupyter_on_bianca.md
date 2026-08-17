@@ -6,15 +6,15 @@ tags:
 
 # Jupyter on Bianca
 
-![Jupyter on Bianca](./img/jupyter_bianca.png)
+![Jupyter on Bianca](../../../../software/img/jupyter_bianca.png)
 
-There are multiple [IDEs](../software/ides.md) on the UPPMAX clusters,
-among other [Jupyter](../software/jupyter.md).
-Here we describe how to run [Jupyter](../software/jupyter.md)
+There are multiple [IDEs](../ides.md) on the UPPMAX clusters,
+among other [Jupyter](index.md).
+Here we describe how to run [Jupyter](index.md)
 on Bianca.
 
-Jupyter is an [IDE](../software/ides.md) specialised for
-[the Python programming language](../software/python.md).
+Jupyter is an [IDE](../ides.md) specialised for
+[the Python programming language](../../../../software/python.md).
 
 ## Procedure
 
@@ -26,19 +26,19 @@ Jupyter is an [IDE](../software/ides.md) specialised for
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../../../getting_started/get_inside_sunet.md)
 
 ### 2. Start the Bianca remote desktop environment
 
 ???- tip "Forgot how to start Bianca's remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../getting_started/login_bianca.md).
+    See [the 'Logging in to Bianca' page](../../../../getting_started/login_bianca.md).
 
 ### 3. Start an interactive session
 
-Within the Bianca remote desktop environment, start a [terminal](../software/terminal.md).
+Within the Bianca remote desktop environment, start a [terminal](../../../../software/terminal.md).
 Within that terminal,
-[start an interactive session](../cluster_guides/start_interactive_session_on_bianca.md):
+[start an interactive session](../../../../cluster_guides/start_interactive_session_on_bianca.md):
 
 
 ```bash
@@ -46,7 +46,7 @@ interactive -A [project_number] -t 8:00:00
 ```
 
 Where `[project_number]` is your
-[UPPMAX project](../getting_started/project.md), for example:
+[UPPMAX project](../../../../getting_started/project.md), for example:
 
 ```bash
 interactive -A sens2016001 -t 8:00:00
@@ -74,7 +74,7 @@ module load python/3.11.4
 
 ???- question "Forgot what the module system is?"
 
-    See [the UPPMAX pages on the module system](../cluster_guides/modules.md).
+    See [the UPPMAX pages on the module system](../../../../cluster_guides/modules.md).
 
 ???- question "Can I use other Python modules?"
 

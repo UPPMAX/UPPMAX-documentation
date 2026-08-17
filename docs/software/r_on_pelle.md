@@ -17,7 +17,7 @@ R is a programming language for statistical computing and data visualisation
 ??? question "I need the Bianca pages!"
 
     - [R on Bianca](r.md)
-    - [RStudio on Bianca](rstudio.md)
+    - [RStudio on Bianca](../Specific/Programming/IDEs_and_Notebooks/RStudio/index.md)
 
 Here we discuss:
 
@@ -161,11 +161,11 @@ For Bio users R-bundle-Bioconductor/3.20-foss-2024a-R-4.4.2 is useful!
 > RStudio in action on Bianca using the remote desktop environment
 
 Software development is commonly done in a so-called
-[Integrated Development Environment](../software/ides.md),
+[Integrated Development Environment](../Specific/Programming/IDEs_and_Notebooks/ides.md),
 abbreviated 'IDE.
 
-[RStudio](rstudio.md) is the most commonly used IDE for R software development.
-See [the UPPMAX page about RStudio on Pelle](rstudio_on_pelle.md) on how to use.
+[RStudio](../Specific/Programming/IDEs_and_Notebooks/RStudio/index.md) is the most commonly used IDE for R software development.
+See [the UPPMAX page about RStudio on Pelle](../Specific/Programming/IDEs_and_Notebooks/RStudio/rstudio_on_pelle.md) on how to use.
 
 ## How to install personal packages
 
