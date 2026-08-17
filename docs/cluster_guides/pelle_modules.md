@@ -367,6 +367,6 @@ To see a module-specific help, use `module help [module]` (e.g. `module help cow
 ## Links
 
 - [Almost all installed software on UPPMAX](../software/overview.md)
-- [Almost all installed databases on UPPMAX](../databases/overview.md)
+- [Almost all installed databases on UPPMAX](../Specific/Databases/index.md)
 - [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
 - [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
