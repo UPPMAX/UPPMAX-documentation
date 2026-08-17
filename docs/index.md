@@ -1,5 +1,6 @@
 ---
 template: home.html
+title: Homepage
 hide:
   - navigation
   - toc
