@@ -1,13 +1,18 @@
+Hyphens denote planned directories,
+stars denote planned pages.
+Not everything has been thought through in this regard.
+
 - Overview
   - Cluster concepts
+    * Parallellization
+    * Using GPUs
+    * Intro to Slurm
   - What we provide
     - UPPMAX
-    - NAISS
-    - EuroHPC
-    - What we don't provide
-  - What to choose
-  - Parallellization
-  - Using GPUs
+    * NAISS
+    * EuroHPC
+    * What we don't provide
+  * What to choose
 - UPPMAX
   - Support
   - Courses
