@@ -29,12 +29,12 @@ Not everything has been thought through in this regard.
       - SSH Bianca
       - ThinLinc Pelle
       - ThinLinc Bianca
-    - File transfer
-      - FileZilla
-      - Transit
-      - rsync
-      - scp
-      - WinSCP
+  - File transfer
+    - FileZilla
+    - Transit
+    - rsync
+    - scp
+    - WinSCP
   - Running non-interactive jobs
     - Distributed memory
       - MPI implementations
