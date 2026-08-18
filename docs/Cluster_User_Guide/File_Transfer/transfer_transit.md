@@ -1,6 +1,6 @@
 # File transfer to/from Transit
 
-There are multiple ways to transfer files to/from [Transit](../cluster_guides/transit.md):
+There are multiple ways to transfer files to/from [Transit](transit.md):
 
 ???- question "What is Transit?"
 
@@ -25,18 +25,18 @@ A graphical interface is intuitive to most users.
 However, it can be used for small amounts of data only
 and whatever you do cannot be automated.
 
-See [Transit file transfer using a graphical program](../cluster_guides/transit_file_transfer_using_gui.md)
+See [Transit file transfer using a graphical program](transit_file_transfer_using_gui.md)
 for a step-by-step guide how to transfer files using
 a graphical tool.
 
 ## Using `rsync`
 
 [Transit](transit.md) is used as a stepping-stone to
-[transfer files to Bianca using rsync](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_rsync.md).
+[transfer files to Bianca using rsync](bianca_file_transfer_using_rsync.md).
 
 ## Using SCP
 
-One **cannot upload** files to Transit using SCP in a [terminal](../software/terminal.md):
+One **cannot upload** files to Transit using SCP in a [terminal](../../software/terminal.md):
 Transit only allows for sending files from A to B, not for storing them.
 
 One **can download** the files on Transit.
@@ -47,18 +47,18 @@ are the files in your Rackham home folder.
 Due to this, it makes more sense to [use SCP to transfer files to/from Rackham](../software/rackham_file_transfer_using_scp.md).
 ```
 
-For completeness sake, see [Transit file transfer using SCP](../Cluster_User_Guide/File_Transfer/transit_file_transfer_using_scp.md)
+For completeness sake, see [Transit file transfer using SCP](transit_file_transfer_using_scp.md)
 for a step-by-step guide how to transfer files using SCP.
 It show one cannot upload files to Transit.
 
 ## Using SFTP
 
-One can transfer files to/from Transit using SFTP in a [terminal](../software/terminal.md).
+One can transfer files to/from Transit using SFTP in a [terminal](../../software/terminal.md).
 One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.
 
-See [Transit file transfer using SFTP](../Cluster_User_Guide/File_Transfer/transit_file_transfer_using_sftp.md)
+See [Transit file transfer using SFTP](transit_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
 
 ### Overview

@@ -9,9 +9,9 @@
 
     This page will be updated when this works.
 
-There are multiple ways to [transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer data to/from Pelle](transfer_pelle.md).
 
-Data transfer to/from Pelle using [Transit](../../cluster_guides/transit.md)
+Data transfer to/from Pelle using [Transit](transit.md)
 is one of the ways ways to transfer files to/from Pelle
 
 One can transfer files to/from Pelle using the UPPMAX Transit server.
@@ -57,7 +57,7 @@ You can get rid of this prompt if you have setup SSH keys
 
 ## 5. In `sftp`, upload/download files to/from Transit
 
-[Transit is a service, not a file server](../../cluster_guides/transit.md).
+[Transit is a service, not a file server](transit.md).
 This means that if you upload files to Transit
 using [SFTP](sftp.md),
 they will remain there as long a the connection is active.

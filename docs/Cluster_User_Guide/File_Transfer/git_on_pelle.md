@@ -24,7 +24,7 @@ instead for keeping files on Pelle in sync with files elsewhere.
 
 !!!- info "Other file transfer tools"
 
-    See [the other ways to transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md)
+    See [the other ways to transfer data to/from Pelle](transfer_pelle.md)
 
 !!!- warning "The risk of a large number of files"
 

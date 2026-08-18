@@ -1,6 +1,6 @@
-# `wharf`
+# `wharf` v 2.0
 
-`wharf` is a folder on [Bianca](bianca.md) used
+`wharf` is a folder on [Bianca](../../cluster_guides/bianca.md) used
 for [file transfer on Bianca](transfer_bianca.md).
 
 He it is described:
@@ -29,8 +29,8 @@ The path to this special folder is:
 
 where
 
-* `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
-* `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+* `[project_id]` is the ID of your [NAISS project](../../getting_started/project.md)
+* `[user_name]` is the name of your [UPPMAX user account](../../getting_started/user_account.md)
 
 For example:
 
@@ -49,7 +49,7 @@ world and hence is a security risk. Instead, move your data to your project fold
 You have full access to your `wharf` and read-only access
 to other users' `wharf` folders in that same project.
 
-`wharf` is only accessible when [inside the university networks](../getting_started/get_inside_sunet.md).
+`wharf` is only accessible when [inside the university networks](../../getting_started/get_inside_sunet.md).
 
 ## Mounting `wharf`
 
@@ -62,12 +62,12 @@ not on your local storage.
 
 One can mount `wharf` on on Transit using the command `mount_wharf [project_id]`
 
-More details at [Mount a Bianca project on Transit](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_rsync.md#3-mount-a-bianca-project)
+More details at [Mount a Bianca project on Transit](bianca_file_transfer_using_rsync.md#3-mount-a-bianca-project)
 
 ### Local computer
 
 One can mount `wharf` on your local computer using `sshfs`
-when [inside the university networks](../getting_started/get_inside_sunet.md).
+when [inside the university networks](../../getting_started/get_inside_sunet.md).
 `sshfs` is available on most Linux distributions:
 
 Distribution       |Package name

@@ -12,7 +12,7 @@ tags:
 # Using `lftp` with Bianca
 
 `lftp` is a command-line program
-to [transfer files to/from Bianca](../../cluster_guides/transfer_bianca.md).
+to [transfer files to/from Bianca](transfer_bianca.md).
 
 Here, the procedure for file transfer is shown,
 as well as some troubleshooting.

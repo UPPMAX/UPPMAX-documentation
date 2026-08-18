@@ -7,7 +7,7 @@ tags:
 # File transfer to/from Pelle using FileZilla
 
 There are multiple ways to
-[transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
+[transfer data to/from Pelle](transfer_pelle.md).
 
 Here, we show how to transfer files using a graphical tool
 called [FileZilla](filezilla.md),

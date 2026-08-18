@@ -77,6 +77,6 @@ First enter \[your password\], and in next window \[2FA code\]
 
 ![WinSCP](../../software/img/WinSCP_logged_in_proj_bianca.png)
 
-Now you can transfer files between your local computer and [your `wharf` folder](../../cluster_guides/wharf.md).
+Now you can transfer files between your local computer and [your `wharf` folder](wharf.md).
 
 ![WinSCP](../../software/img/WinSCP_logged_in_bianca.png)

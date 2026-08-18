@@ -9,9 +9,9 @@
 
     This page will be updated when this works.
 
-There are multiple ways to [transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer data to/from Pelle](transfer_pelle.md).
 
-Data transfer to/from Pelle using [Transit](../../cluster_guides/transit.md)
+Data transfer to/from Pelle using [Transit](transit.md)
 is one of the ways ways to transfer files to/from Pelle
 
 One can use [SFTP](sftp.md) to copy files between Pelle and Transit,

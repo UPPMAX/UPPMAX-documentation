@@ -9,7 +9,7 @@
 As a user, we need to transfer files
 between our local computer and Bianca.
 There are
-[many ways to transfer files to/from Bianca](../../cluster_guides/transfer_bianca.md).
+[many ways to transfer files to/from Bianca](transfer_bianca.md).
 On this page, we learn how to transfer files
 to Bianca using a graphical tool/program.
 
@@ -33,4 +33,4 @@ one needs [to be inside of SUNET](../../getting_started/get_inside_sunet.md).
     See [the 'get inside the university networks' page](../../getting_started/get_inside_sunet.md)
 
 When a tool is setup, one can only transfer files
-between you local computer and [your Bianca `wharf` folder](../../cluster_guides/wharf.md).
+between you local computer and [your Bianca `wharf` folder](wharf.md).

@@ -14,7 +14,7 @@ tags:
 # Using `sftp` with Bianca
 
 [`sftp`](sftp.md) is a command-line program
-to [transfer files to/from Bianca](../../cluster_guides/transfer_bianca.md).
+to [transfer files to/from Bianca](transfer_bianca.md).
 
 ## Procedure
 
@@ -83,4 +83,4 @@ See [the UPPMAX page on `sftp`](sftp.md) how to use `sftp` to download and uploa
 Once connected you will have to type the `sftp` commands to upload/download files.
 See [the UPPMAX page on `sftp`](sftp.md) how to do so.
 
-With `sftp` you only have access to [your wharf folder](../../cluster_guides/wharf.md).
+With `sftp` you only have access to [your wharf folder](wharf.md).

@@ -2,11 +2,11 @@
 
 [File transfer](file_transfer.md) is the process of getting files
 from one place to the other. This page shows how to do [file transfer](file_transfer.md) to/from
-the [Bianca](bianca.md) UPPMAX cluster.
+the [Bianca](../../cluster_guides/bianca.md) UPPMAX cluster.
 
 For all file transfer on Bianca:
 
-* [The user needs to be inside of SUNET](../getting_started/get_inside_sunet.md)
+* [The user needs to be inside of SUNET](../../getting_started/get_inside_sunet.md)
 * The files are moved from/to [the `wharf` folder](wharf.md)
 
 ## File transfer methods
@@ -17,14 +17,14 @@ There are multiple ways to transfer files to/from Bianca:
 
 UPPMAX guide                                                                                           |Features
 -------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------
-[File transfer to/from Bianca using a graphical program](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_gui.md)|A general page for tools with a graphical user interface
-[File transfer to/from Bianca using FileZilla](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_filezilla.md)    |Graphical interface, intuitive, for small amounts of data only, all operating systems
-[File transfer to/from Bianca using WinSCP](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_winscp.md)          |Graphical interface, intuitive, for small amounts of data only, Windows-only
-[File transfer to/from Bianca using `rsync`](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_rsync.md)          |[Terminal](../software/terminal.md), recommended
-[File transfer to/from Bianca using `sftp`](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_sftp.md)            |[Terminal](../software/terminal.md), easy to learn, can use terminal commands to select files
-[File transfer to/from Bianca using `lftp`](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_lftp.md)            |[Terminal](../software/terminal.md)
-Transit server from/to Rackham, see below                                                              |[Terminal](../software/terminal.md), can be used to transfer data between clusters in general
-[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer)                      |Both graphical and [terminal](../software/terminal.md), need a computer with `sshfs` installed
+[File transfer to/from Bianca using a graphical program](bianca_file_transfer_using_gui.md)|A general page for tools with a graphical user interface
+[File transfer to/from Bianca using FileZilla](bianca_file_transfer_using_filezilla.md)    |Graphical interface, intuitive, for small amounts of data only, all operating systems
+[File transfer to/from Bianca using WinSCP](bianca_file_transfer_using_winscp.md)          |Graphical interface, intuitive, for small amounts of data only, Windows-only
+[File transfer to/from Bianca using `rsync`](bianca_file_transfer_using_rsync.md)          |[Terminal](../../software/terminal.md), recommended
+[File transfer to/from Bianca using `sftp`](bianca_file_transfer_using_sftp.md)            |[Terminal](../../software/terminal.md), easy to learn, can use terminal commands to select files
+[File transfer to/from Bianca using `lftp`](bianca_file_transfer_using_lftp.md)            |[Terminal](../../software/terminal.md)
+Transit server from/to Rackham, see below                                                              |[Terminal](../../software/terminal.md), can be used to transfer data between clusters in general
+[Mounting `wharf` on your local computer](#mounting-wharf-on-your-local-computer)                      |Both graphical and [terminal](../../software/terminal.md), need a computer with `sshfs` installed
 
 <!-- markdownlint-enable MD013 -->
 
@@ -50,13 +50,13 @@ To facilitate secure data transfers to, from,
 and within the system for computing on sensitive data a special service is available
 via SSH at `transit.uppmax.uu.se`.
 
-![A user that is logged in to Transit](./img/logged_in_transit.png)
+![A user that is logged in to Transit](../../cluster_guides/img/logged_in_transit.png)
 
 See [the UPPMAX documentation on the Transit server](transit.md).
 
 * Note that your home directory is mounted _read-only_, any changes you do to your "local" home directory (on transit) will be lost upon logging out.
 
-* You can use commands like [`rsync`](../Cluster_User_Guide/File_Transfer/rsync.md), [`scp`](../Cluster_User_Guide/File_Transfer/scp.md) to fetch data and transfer it to your bianca wharf.
+* You can use commands like [`rsync`](rsync.md), [`scp`](scp.md) to fetch data and transfer it to your bianca wharf.
     * You can use cp to copy from Rackham to the wharf
 * Remember that you cannot make lasting changes to anything except for mounted wharf directories. Therefore you have to use rsync and scp to transfer from the ``wharf`` to Rackham.
 * The mounted directory will be kept for later sessions.
@@ -113,4 +113,4 @@ See [the UPPMAX documentation of `wharf`](wharf.md) on how to do so.
 
 ## Bianca file transfer as image
 
-![Bianca](../img/Bianca-transfer.png)
+![Bianca](../../img/Bianca-transfer.png)

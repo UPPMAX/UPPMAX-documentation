@@ -7,7 +7,7 @@ for sync or iterative backups.
 !!!- info "Other options for file transfer"
 
     There are multiple ways to
-    [transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
+    [transfer data to/from Pelle](transfer_pelle.md).
 
 SFTP is an abbreviation of 'SSH File Transfer Protocol',
 where 'SSH' is an abbreviation of 'Secure Shell protocol'.

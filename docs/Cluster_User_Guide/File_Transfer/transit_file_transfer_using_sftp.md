@@ -8,16 +8,16 @@ tags:
 
 # Data transfer to/from Transit using SFTP
 
-Data transfer to/from [Transit](../../cluster_guides/transit.md) using SFTP
-is one of the ways ways to [transfer files to/from Transit](../../cluster_guides/transfer_transit.md).
+Data transfer to/from [Transit](transit.md) using SFTP
+is one of the ways ways to [transfer files to/from Transit](transfer_transit.md).
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](../../cluster_guides/transit.md).
+    See [the page about the UPPMAX Transit server](transit.md).
 
 ???- question "What are the other ways?"
 
-    See [the other ways to transfer data to/from Transit](../../cluster_guides/transfer_transit.md)
+    See [the other ways to transfer data to/from Transit](transfer_transit.md)
 
 One can transfer files to/from Transit using SFTP.
 SFTP is an abbreviation of 'SSH File Transfer Protocol',

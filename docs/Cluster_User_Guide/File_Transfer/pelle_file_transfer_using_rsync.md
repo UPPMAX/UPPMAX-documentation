@@ -9,7 +9,7 @@ tags:
 
 # Data transfer to/from Pelle using rsync
 
-There are multiple ways to [transfer files to or from Pelle](../../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer files to or from Pelle](transfer_pelle.md).
 Here it is described how to do file transfer to/from Pelle
 using [rsync](rsync.md).
 

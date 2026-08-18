@@ -21,7 +21,7 @@ tags:
 
     This page will be updated when this works.
 
-There are multiple ways to [transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer data to/from Pelle](transfer_pelle.md).
 
 One can transfer files to/from Pelle using the UPPMAX Transit server, using SCP.
 The program [`scp`](scp.md) allows you to copy file between Pelle and Transit.
@@ -60,7 +60,7 @@ and `[username]` is your UPPMAX username, for example:
 scp my_pelle_file.txt [username]@transit.uppmax.uu.se
 ```
 
-However, [Transit is a service, not a file server](../../cluster_guides/transit.md).
+However, [Transit is a service, not a file server](transit.md).
 The `scp` command will complete successfully,
 yet the file will not be found on Transit.
 

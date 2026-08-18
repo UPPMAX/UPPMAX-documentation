@@ -16,7 +16,7 @@ tags:
 
 > FileZilla connected to Bianca
 
-There are multiple ways to [transfer data to/from Bianca](../../cluster_guides/transfer_bianca.md).
+There are multiple ways to [transfer data to/from Bianca](transfer_bianca.md).
 
 Here, we show how to transfer files using a graphical tool called "FileZilla".
 See [the UPPMAX page on 'FileZilla'](filezilla.md) on how to download and install it.
@@ -114,7 +114,7 @@ Then you will be asked for your second factor. Enter your 6 digit UPPMAX TOTP 2F
     code that changes every 30 seconds, every time you login.
     Due to this, storing a password is useless.
 
-Now you can transfer files between your local computer and your [`wharf` folder](../../cluster_guides/wharf.md).
+Now you can transfer files between your local computer and your [`wharf` folder](wharf.md).
 
 ???- question "What does that look like?"
 

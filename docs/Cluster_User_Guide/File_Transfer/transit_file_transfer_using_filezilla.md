@@ -7,13 +7,13 @@ tags:
 
 # File transfer to/from Transit using FileZilla
 
-There are multiple ways to [transfer files to/from Transit using a graphical tool](../../cluster_guides/transit_file_transfer_using_gui.md)
+There are multiple ways to [transfer files to/from Transit using a graphical tool](transit_file_transfer_using_gui.md)
 
 Here it is shown how to transfer files using a graphical tool called [FileZilla](filezilla.md).
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](../../cluster_guides/transit.md).
+    See [the page about the UPPMAX Transit server](transit.md).
 
 ## Procedure
 

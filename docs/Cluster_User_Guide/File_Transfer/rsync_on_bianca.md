@@ -1,20 +1,20 @@
 # `rsync` on Bianca
 
 [`rsync`](rsync.md) is a command-line tool
-for [file transfer](../../cluster_guides/file_transfer.md).
+for [file transfer](file_transfer.md).
 
 This page describes how to use [`rsync`](rsync.md) on [Bianca](../../cluster_guides/bianca.md).
 
 Using [`rsync`](rsync.md) for direct file transfer
-from a local computer to [wharf](../../cluster_guides/wharf.md) fails,
-as cannot `rsync` directly to [wharf](../../cluster_guides/wharf.md).
+from a local computer to [wharf](wharf.md) fails,
+as cannot `rsync` directly to [wharf](wharf.md).
 
-It can be made to work (by using [transit](../../cluster_guides/transit.md)), as described in
+It can be made to work (by using [transit](transit.md)), as described in
 [the UPPMAX Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md).
 
 ???- question "What does it look like if I try to `rsync` directly to `wharf` anyways?"
 
-    One cannot [`rsync`](rsync.md) directly to [wharf](../../cluster_guides/wharf.md).
+    One cannot [`rsync`](rsync.md) directly to [wharf](wharf.md).
 
     However, this is how it looks like:
 

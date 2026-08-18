@@ -2,14 +2,14 @@
 
 !!! warning "Does not work yet"
 
-    [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
+    [Pelle](../../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
     that is in the process of being deployed.
 
     The procedure as described on this page does not work yet or is untested.
 
     This page will be updated when this works.
 
-Data transfer to/from Pelle using [Transit](../cluster_guides/transit.md)
+Data transfer to/from Pelle using [Transit](transit.md)
 is one of the ways ways to transfer files to/from Pelle
 
 ???- question "What is Transit?"
@@ -29,8 +29,8 @@ This page assumes your files are 'posted' to Transit.
 
 To transfer files between Pelle and Transit can be done in multiple ways too:
 
-- [Using SCP](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_transit_scp.md)
-- [Using SFTP](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_transit_sftp.md)
+- [Using SCP](pelle_file_transfer_using_transit_scp.md)
+- [Using SFTP](pelle_file_transfer_using_transit_sftp.md)
 
 ## Overview
 

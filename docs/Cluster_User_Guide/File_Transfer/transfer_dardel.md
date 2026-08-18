@@ -1,6 +1,6 @@
 # File transfer to/from Dardel
 
-![Dardel server racks](./img/dardel_racks.png)
+![Dardel server racks](../../cluster_guides/img/dardel_racks.png)
 
 This page describes how to transfer files to Dardel,
 the HPC cluster at PDC in Stockholm.
@@ -15,7 +15,7 @@ the Dardel cluster at PDC.
 ## How do I do this?
 
 First, we are here to help.
-Please [contact support](../UPPMAX/support.md) if you run into problems
+Please [contact support](../../UPPMAX/support.md) if you run into problems
 when trying the guide below.
 
 To transfer your files to Dardel, follow the steps below.
@@ -49,7 +49,7 @@ and you have created a SSH key pair.
 
 ???- question "How do I know this worked?"
 
-    On Rackham, in a [terminal](../software/terminal.md), type:
+    On Rackham, in a [terminal](../../software/terminal.md), type:
 
     ```bash
     $ cat ~/.ssh/id_ed25519_pdc.pub
@@ -66,7 +66,7 @@ and you have created a SSH key pair.
 How to add the SSH public key is described
 in detail in [the PDC documentation on how to add SSH keys](https://support.pdc.kth.se/doc/contact/contact_support/).
 
-You will need to get the public part of the key in order to complete this step.i On Rackham, in a [terminal](../software/terminal.md), type:
+You will need to get the public part of the key in order to complete this step.i On Rackham, in a [terminal](../../software/terminal.md), type:
 
 ```bash
 cat ~/.ssh/id_ed25519_pdc.pub
@@ -91,15 +91,15 @@ In short,
 
 ???- question "What does the adding the key look like?"
 
-    ![Click on 'Prove Indentity'](./img/pdc_prove_identity.png)
+    ![Click on 'Prove Indentity'](../../cluster_guides/img/pdc_prove_identity.png)
 
     > Click on 'Prove Indentity'
 
-    ![PDC key managements before any keys are added](./img/pdc_key_management_no_keys.png)
+    ![PDC key managements before any keys are added](../../cluster_guides/img/pdc_key_management_no_keys.png)
 
     > PDC key managements before any keys are added.
 
-    ![How it looks when adding a new key](./img/pdc_portal_addkey1.png)
+    ![How it looks when adding a new key](../../cluster_guides/img/pdc_portal_addkey1.png)
 
     > How it looks when adding a new key.
 
@@ -107,7 +107,7 @@ After having added your public SSH key, you will be able to see your registered 
 
 ???- question "What does that look like?"
 
-    ![Here we see that there is an SSH key added](./img/pdc_key_management_rackham_key.png)
+    ![Here we see that there is an SSH key added](../../cluster_guides/img/pdc_key_management_rackham_key.png)
 
     > Here we see that there is an SSH key added.
 
@@ -115,7 +115,7 @@ The next thing you have to do is to add UPPMAX as a placer permitted to use your
 
 ???- question "What does that look like?"
 
-    ![This is where you enter that UPPMAX is allowed to use this key.](./img/pdc_add_new_key_uppmax.png)
+    ![This is where you enter that UPPMAX is allowed to use this key.](../../cluster_guides/img/pdc_add_new_key_uppmax.png)
 
     > This is where you enter that UPPMAX is allowed to use this key.
 
@@ -139,9 +139,9 @@ ssh -i ~/.ssh/id_ed25519_pdc your_dardel_username@dardel.pdc.kth.se
 To facilitate this move we have created Darsync,
 a tool that can inspect your files and make suggestions
 to make the transfer easier,
-as well as generating a script file you can submit to [Slurm](slurm.md)
+as well as generating a script file you can submit to [Slurm](../../cluster_guides/slurm.md)
 to perform the actual file transfer.
-[Read more about how to use Darsync here](../software/darsync.md).
+[Read more about how to use Darsync here](../../software/darsync.md).
 
 Here is a summary of how to run it, using `/path/to/dir` as a placeholder for the actual path to the directory you want to copy to Dardel:
 

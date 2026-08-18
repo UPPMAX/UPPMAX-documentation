@@ -1,9 +1,9 @@
 # Transit
 
-[Transit](../cluster_guides/transit.md)
+[Transit](transit.md)
 is an UPPMAX service that can be used to securely transfer files
-between online locations, such as your local computer, [Bianca](bianca.md),
-[Rackham](../Extras/glossary.md#rackham) and other sensitive data clusters.
+between online locations, such as your local computer, [Bianca](../../cluster_guides/bianca.md),
+[Rackham](../../Extras/glossary.md#rackham) and other sensitive data clusters.
 
 ???- question "Is Transit a file server?"
 
@@ -17,7 +17,7 @@ between online locations, such as your local computer, [Bianca](bianca.md),
 
 ???- question "What is Transit?"
 
-    ![From https://sv.wikipedia.org/wiki/Brevl%C3%A5da#/media/Fil:Brevl%C3%A5dor.jpg](./img/swedish_postbox_117_x_157.jpg)
+    ![From https://sv.wikipedia.org/wiki/Brevl%C3%A5da#/media/Fil:Brevl%C3%A5dor.jpg](../../cluster_guides/img/swedish_postbox_117_x_157.jpg)
 
     > A Swedish post box. The yellow post box is for non-regional mail,
     > the blue for regional mail.
@@ -33,7 +33,7 @@ between online locations, such as your local computer, [Bianca](bianca.md),
     Here, 'putting an address on the letter'
     is to copy the file to the desired location.
 
-- [how to log in to Transit](../cluster_guides/login_transit.md)
-- [file transfer using Transit](../cluster_guides/transfer_transit.md).
-    - [Bianca file transfer using rsync](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_rsync.md)
-- [software on Transit](../cluster_guides/software_on_transit.md)
+- [how to log in to Transit](../../cluster_guides/login_transit.md)
+- [file transfer using Transit](transfer_transit.md).
+    - [Bianca file transfer using rsync](bianca_file_transfer_using_rsync.md)
+- [software on Transit](../../cluster_guides/software_on_transit.md)

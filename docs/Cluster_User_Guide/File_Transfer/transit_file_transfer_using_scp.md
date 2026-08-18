@@ -11,19 +11,19 @@ tags:
 
 # Data transfer to/from Transit using SCP
 
-Data transfer to/from [Transit](../../cluster_guides/transit.md) using [`scp`](scp.md)
-is one of the ways ways to [transfer files to/from Transit](../../cluster_guides/transfer_transit.md).
+Data transfer to/from [Transit](transit.md) using [`scp`](scp.md)
+is one of the ways ways to [transfer files to/from Transit](transfer_transit.md).
 
 ???- question "What is Transit?"
 
     Transit is an UPPMAX service to send files around.
     It is not a file server.
 
-    See [the page about Transit](../../cluster_guides/transit.md) for more detailed information.
+    See [the page about Transit](transit.md) for more detailed information.
 
 ???- question "What are the other ways to transfer files from/to Transit?"
 
-    See [the other ways to transfer data to/from Transit](../../cluster_guides/transfer_transit.md)
+    See [the other ways to transfer data to/from Transit](transfer_transit.md)
 
 One **cannot** transfer files to/from Transit using [`scp`](scp.md):
 [`scp`](scp.md) is not considered 'secure' anymore:

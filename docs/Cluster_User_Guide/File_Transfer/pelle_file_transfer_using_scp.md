@@ -10,7 +10,7 @@ tags:
 
 # Data transfer to/from Pelle using SCP
 
-There are multiple ways to [transfer files to or from Pelle](../../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer files to or from Pelle](transfer_pelle.md).
 
 This page shows you how to do so using [`scp`](scp.md).
 
