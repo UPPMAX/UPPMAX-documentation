@@ -22,8 +22,8 @@ Not everything has been thought through in this regard.
   - Bianca
 - Cluster user guide
   - Access
-    - password
-    - MFA / 2FA
+    * password
+    * MFA / 2FA
     - Login (for interactive access to login nodes)
       - SSH Pelle
       - SSH Bianca
