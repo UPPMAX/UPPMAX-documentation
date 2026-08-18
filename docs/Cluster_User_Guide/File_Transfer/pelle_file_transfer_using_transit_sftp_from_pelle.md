@@ -2,16 +2,16 @@
 
 !!! warning "Does not work yet"
 
-    [Pelle](../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
+    [Pelle](../../cluster_guides/pelle.md) is a new UPPMAX HPC cluster
     that is in the process of being deployed.
 
     The procedure as described on this page does not work yet or is untested.
 
     This page will be updated when this works.
 
-There are multiple ways to [transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
 
-Data transfer to/from Pelle using [Transit](../cluster_guides/transit.md)
+Data transfer to/from Pelle using [Transit](../../cluster_guides/transit.md)
 is one of the ways ways to transfer files to/from Pelle
 
 One can transfer files to/from Pelle using the UPPMAX Transit server.
@@ -25,15 +25,15 @@ The process is:
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../getting_started/get_inside_sunet.md)
 
 ## 2. Use the terminal to login to Pelle
 
-Use a [terminal](../software/terminal.md) to login to Pelle.
+Use a [terminal](../../software/terminal.md) to login to Pelle.
 
 ???- question "Forgot how to login to Pelle?"
 
-    See [step-by-step guide how to login to Pelle](../getting_started/login_pelle.md).
+    See [step-by-step guide how to login to Pelle](../../getting_started/login_pelle.md).
 
     Spoiler: `ssh [username]@pelle.uppmax.uu.se`
 
@@ -57,8 +57,8 @@ You can get rid of this prompt if you have setup SSH keys
 
 ## 5. In `sftp`, upload/download files to/from Transit
 
-[Transit is a service, not a file server](../cluster_guides/transit.md).
+[Transit is a service, not a file server](../../cluster_guides/transit.md).
 This means that if you upload files to Transit
-using [SFTP](../software/sftp.md),
+using [SFTP](sftp.md),
 they will remain there as long a the connection is active.
 These files need to be forwarded to more permanent storage.

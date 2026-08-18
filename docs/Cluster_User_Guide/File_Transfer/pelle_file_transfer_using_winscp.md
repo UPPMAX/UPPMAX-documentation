@@ -9,15 +9,15 @@ tags:
 
 # File transfer to/from Pelle using WinSCP
 
-There are multiple ways to [transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
 
-Here, we show how to transfer files using a graphical tool called [WinSCP](../software/winscp.md).
+Here, we show how to transfer files using a graphical tool called [WinSCP](winscp.md).
 
 To transfer files to/from Rackham using WinSCP, do:
 
 - Start WinSCP
 
-![WinSCP Pelle](./img/winscp_pelle_login.png)
+![WinSCP Pelle](../../software/img/winscp_pelle_login.png)
 
 - Create a new site
 - For that site, use all standards, except:

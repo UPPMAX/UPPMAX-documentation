@@ -7,7 +7,7 @@ tags:
 
 # FileZilla
 
-![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
+![FileZilla connected to Bianca](../../software/img/filezilla_login_to_bianca_236_x_266.png)
 
 > FileZilla connected to Bianca
 

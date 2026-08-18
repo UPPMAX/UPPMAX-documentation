@@ -8,16 +8,16 @@ tags:
 
 # Data transfer to/from Transit using SFTP
 
-Data transfer to/from [Transit](../cluster_guides/transit.md) using SFTP
-is one of the ways ways to [transfer files to/from Transit](../cluster_guides/transfer_transit.md).
+Data transfer to/from [Transit](../../cluster_guides/transit.md) using SFTP
+is one of the ways ways to [transfer files to/from Transit](../../cluster_guides/transfer_transit.md).
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](../cluster_guides/transit.md).
+    See [the page about the UPPMAX Transit server](../../cluster_guides/transit.md).
 
 ???- question "What are the other ways?"
 
-    See [the other ways to transfer data to/from Transit](../cluster_guides/transfer_transit.md)
+    See [the other ways to transfer data to/from Transit](../../cluster_guides/transfer_transit.md)
 
 One can transfer files to/from Transit using SFTP.
 SFTP is an abbreviation of 'SSH File Transfer Protocol',
@@ -34,11 +34,11 @@ Get inside SUNET.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../getting_started/get_inside_sunet.md)
 
 ### 2. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer.
+Start a [terminal](../../software/terminal.md) on your local computer.
 
 ### 3. Connect `sftp` to Transit
 
@@ -59,7 +59,7 @@ You can get rid of this prompt if you have setup SSH keys.
 
 ### 5. In `sftp`, upload/download files to/from Transit
 
-In [`sftp`](../software/sftp.md),
+In [`sftp`](sftp.md),
 upload/download files to/from Transit.
 
 For example, to upload a file to Transit:

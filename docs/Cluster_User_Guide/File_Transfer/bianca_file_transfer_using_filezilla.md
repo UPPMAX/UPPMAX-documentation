@@ -12,11 +12,11 @@ tags:
 
 # File transfer to/from Bianca using FileZilla
 
-![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
+![FileZilla connected to Bianca](../../software/img/filezilla_login_to_bianca_236_x_266.png)
 
 > FileZilla connected to Bianca
 
-There are multiple ways to [transfer data to/from Bianca](../cluster_guides/transfer_bianca.md).
+There are multiple ways to [transfer data to/from Bianca](../../cluster_guides/transfer_bianca.md).
 
 Here, we show how to transfer files using a graphical tool called "FileZilla".
 See [the UPPMAX page on 'FileZilla'](filezilla.md) on how to download and install it.
@@ -33,7 +33,7 @@ To transfer files to/from Bianca using FileZilla, do the following steps:
 
 ## 1. Get inside SUNET
 
-Check how to get inside university networks : [Get inside of SUNET](../getting_started/get_inside_sunet.md).
+Check how to get inside university networks : [Get inside of SUNET](../../getting_started/get_inside_sunet.md).
 If you are part of a Swedish university, you can use the VPN provided by your university.
 
 ## 2. Start FileZilla
@@ -48,7 +48,7 @@ In FileZilla, from the menu, select 'File | Site manager'.
 
     It is here:
 
-    ![The FileZilla 'File' menu contains the item 'Site manager'](./img/filezilla_file_site_manager.png)
+    ![The FileZilla 'File' menu contains the item 'Site manager'](../../software/img/filezilla_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -60,7 +60,7 @@ In the 'Site Manager' dialog, click 'New site'
 
     It is here:
 
-    !['New site' can be found at the bottom-left](./img/filezilla_site_manager.png)
+    !['New site' can be found at the bottom-left](../../software/img/filezilla_site_manager.png)
 
     > 'New site' can be found at the bottom-left
 
@@ -87,7 +87,7 @@ and check 'Limit the number of simultaneous connections' to one.
 
     It is here:
 
-    ![Limit the number of simultaneous connections' to one](img/filezilla_transfer_settings.png)
+    ![Limit the number of simultaneous connections' to one](../../software/img/filezilla_transfer_settings.png)
 
     > click on 'Transfer Settings' and check 'Limit the number of simultaneous
     > connections' to one.
@@ -114,13 +114,13 @@ Then you will be asked for your second factor. Enter your 6 digit UPPMAX TOTP 2F
     code that changes every 30 seconds, every time you login.
     Due to this, storing a password is useless.
 
-Now you can transfer files between your local computer and your [`wharf` folder](../cluster_guides/wharf.md).
+Now you can transfer files between your local computer and your [`wharf` folder](../../cluster_guides/wharf.md).
 
 ???- question "What does that look like?"
 
     It looks like this:
 
-    ![FileZilla is ready to transfer files](./img/filezilla_login_to_bianca.png)
+    ![FileZilla is ready to transfer files](../../software/img/filezilla_login_to_bianca.png)
 
     > FileZilla is ready to transfer files
 
@@ -154,7 +154,7 @@ Hypotheses:
     [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se):
     if this page does not load, you are outside of the university networks.
 
-    See [How to get inside of the university networks](../getting_started/get_inside_sunet.md)
+    See [How to get inside of the university networks](../../getting_started/get_inside_sunet.md)
     if you outside of the university networks.
 
 - The account is not active
@@ -166,7 +166,7 @@ Hypotheses:
     and type your username. If the project is displayed, it is active.
 
     To confirm your project is active or inactive, use the SUPR NAISS website.
-    See [the UPPMAX documentation on projects](../getting_started/project.md)
+    See [the UPPMAX documentation on projects](../../getting_started/project.md)
     how to see if your project is active?
 
 - The user is not a member of the Bianca project
@@ -179,8 +179,8 @@ Hypotheses:
     you are a member of the Bianca project.
 
     To confirm your project is active or inactive, use the SUPR NAISS website.
-    See [the UPPMAX documentation on projects](../getting_started/project.md)
+    See [the UPPMAX documentation on projects](../../getting_started/project.md)
     how to see which projects you are a member of.
 
-See [the UPPMAX page on contacting support](../UPPMAX/support.md)
+See [the UPPMAX page on contacting support](../../UPPMAX/support.md)
 on how to contact us.

@@ -12,16 +12,16 @@ tags:
 # Using `lftp` with Bianca
 
 `lftp` is a command-line program
-to [transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
+to [transfer files to/from Bianca](../../cluster_guides/transfer_bianca.md).
 
 Here, the procedure for file transfer is shown,
 as well as some troubleshooting.
 
 ## Procedure
 
-### 1. [Get inside of SUNET](../getting_started/get_inside_sunet.md)
+### 1. [Get inside of SUNET](../../getting_started/get_inside_sunet.md)
 
-[Get inside of SUNET](../getting_started/get_inside_sunet.md).
+[Get inside of SUNET](../../getting_started/get_inside_sunet.md).
 
 ### 2. Start `lftp`
 
@@ -29,7 +29,7 @@ as well as some troubleshooting.
 lftp sftp://[user_name]@bianca-sftp.uppmax.uu.se
 ```
 
-where `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+where `[user_name]` is the name of your [UPPMAX user account](../../getting_started/user_account.md)
 
 For example:
 

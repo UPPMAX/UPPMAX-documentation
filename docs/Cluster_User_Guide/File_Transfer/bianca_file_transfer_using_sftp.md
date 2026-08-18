@@ -13,8 +13,8 @@ tags:
 
 # Using `sftp` with Bianca
 
-[`sftp`](../software/sftp.md) is a command-line program
-to [transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
+[`sftp`](sftp.md) is a command-line program
+to [transfer files to/from Bianca](../../cluster_guides/transfer_bianca.md).
 
 ## Procedure
 
@@ -22,11 +22,11 @@ to [transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
 
     See [a video showing how to `sftp` with Bianca](https://youtu.be/URWIubTVSZQ).
 
-### 1. [Get inside of SUNET](../getting_started/get_inside_sunet.md)
+### 1. [Get inside of SUNET](../../getting_started/get_inside_sunet.md)
 
-[Get inside of SUNET](../getting_started/get_inside_sunet.md).
+[Get inside of SUNET](../../getting_started/get_inside_sunet.md).
 
-If needed, [start the grace period](../cluster_guides/grace_period.md).
+If needed, [start the grace period](../../cluster_guides/grace_period.md).
 
 ### 2. Start `sftp`
 
@@ -34,7 +34,7 @@ If needed, [start the grace period](../cluster_guides/grace_period.md).
 sftp [user_name]@bianca-sftp.uppmax.uu.se
 ```
 
-where `[user_name]` is the name of your [UPPMAX user account](../getting_started/user_account.md)
+where `[user_name]` is the name of your [UPPMAX user account](../../getting_started/user_account.md)
 
 
 For example:
@@ -62,7 +62,7 @@ The password is your normal UPPMAX password. The typing will be invisible. Use t
 (sven@bianca-sftp.uppmax.uu.se) Second factor (TOTP):
 ```
 
-This is the six digit code from the [the `UPPMAX` 2-factor authentication](../getting_started/get_uppmax_2fa.md).
+This is the six digit code from the [the `UPPMAX` 2-factor authentication](../../getting_started/get_uppmax_2fa.md).
 
 After typing in the password and 2FA one sees the `sftp` prompt.
 
@@ -77,10 +77,10 @@ sens2016001 sens2017625 sens2025123
 
 Type `cd [project-id]/[user-name]` to enter the wharf of a given project.
 
-See [the UPPMAX page on `sftp`](../software/sftp.md) how to use `sftp` to download and upload files.
+See [the UPPMAX page on `sftp`](sftp.md) how to use `sftp` to download and upload files.
 
 
 Once connected you will have to type the `sftp` commands to upload/download files.
-See [the UPPMAX page on `sftp`](../software/sftp.md) how to do so.
+See [the UPPMAX page on `sftp`](sftp.md) how to do so.
 
-With `sftp` you only have access to [your wharf folder](../cluster_guides/wharf.md).
+With `sftp` you only have access to [your wharf folder](../../cluster_guides/wharf.md).

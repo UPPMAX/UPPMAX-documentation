@@ -72,7 +72,7 @@ rclone config file
 
 ## Using the Rclone web interface
 
-With [SSH X forwarding enabled](ssh_x_forwarding.md), one can
+With [SSH X forwarding enabled](../../software/ssh_x_forwarding.md), one can
 use `rclone` from a web interface:
 
 ```bash
@@ -106,14 +106,14 @@ Rclone is one of the recommended ways to connect to Swestore.
     When setting the URL to the correct `https://webdav.swestore.se`,
     Rclone will flag this as an error:
 
-    ![Rclone flags an error](./img/rclone_false_error.png)
+    ![Rclone flags an error](../../software/img/rclone_false_error.png)
 
     > Rclone flags an error, that may be a false error
 
     However, this may be a false error. To determine this:
     click on 'Explorer' and explore Swestore.
 
-    ![An example Swestore folder structure](./img/rclone_swestore_folder_structure.png)
+    ![An example Swestore folder structure](../../software/img/rclone_swestore_folder_structure.png)
 
     > An example Swestore folder structure
 

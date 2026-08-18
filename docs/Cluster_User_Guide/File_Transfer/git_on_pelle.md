@@ -24,7 +24,7 @@ instead for keeping files on Pelle in sync with files elsewhere.
 
 !!!- info "Other file transfer tools"
 
-    See [the other ways to transfer data to/from Pelle](../cluster_guides/transfer_pelle.md)
+    See [the other ways to transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md)
 
 !!!- warning "The risk of a large number of files"
 
@@ -55,7 +55,7 @@ computer as a remote on Pelle:
 
 ### 1. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer.
+Start a [terminal](../../software/terminal.md) on your local computer.
 
 ### 2. Connect to Pelle with `ssh`
 

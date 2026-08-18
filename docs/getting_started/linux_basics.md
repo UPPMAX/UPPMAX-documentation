@@ -189,7 +189,7 @@ cp newfile copyfile
 
 ### scp — secure copy (remote file copy program)
 
-- Linux/MacOS: To copy data to/from Pelle, you can use [`scp`](../software/scp.md)
+- Linux/MacOS: To copy data to/from Pelle, you can use [`scp`](../Cluster_User_Guide/File_Transfer/scp.md)
 
 #### Download from Pelle
 
@@ -237,7 +237,7 @@ cp newfile copyfile
 
 !!! see also
 
-    - [Pelle file transfer using scp](../software/pelle_file_transfer_using_scp.md)
+    - [Pelle file transfer using scp](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_scp.md)
 
 ### mv — move/rename file
 

@@ -7,7 +7,7 @@ for sync or iterative backups.
 !!!- info "Other options for file transfer"
 
     There are multiple ways to
-    [transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
+    [transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
 
 SFTP is an abbreviation of 'SSH File Transfer Protocol',
 where 'SSH' is an abbreviation of 'Secure Shell protocol'.
@@ -18,7 +18,7 @@ The process is described here:
 
 ## 1. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer.
+Start a [terminal](../../software/terminal.md) on your local computer.
 
 ## 2. Run `sftp` to connect to Pelle
 
@@ -41,7 +41,7 @@ You can get rid of this prompt if you have setup SSH keys
 
 ## 4. Upload/download files to/from Pelle
 
-In [`sftp`](../software/sftp.md), upload/download files to/from Pelle.
+In [`sftp`](sftp.md), upload/download files to/from Pelle.
 
 
 ```mermaid

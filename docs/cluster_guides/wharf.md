@@ -62,7 +62,7 @@ not on your local storage.
 
 One can mount `wharf` on on Transit using the command `mount_wharf [project_id]`
 
-More details at [Mount a Bianca project on Transit](../software/bianca_file_transfer_using_rsync.md#3-mount-a-bianca-project)
+More details at [Mount a Bianca project on Transit](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_rsync.md#3-mount-a-bianca-project)
 
 ### Local computer
 

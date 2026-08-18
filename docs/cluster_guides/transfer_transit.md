@@ -32,7 +32,7 @@ a graphical tool.
 ## Using `rsync`
 
 [Transit](transit.md) is used as a stepping-stone to
-[transfer files to Bianca using rsync](../software/bianca_file_transfer_using_rsync.md).
+[transfer files to Bianca using rsync](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_rsync.md).
 
 ## Using SCP
 
@@ -47,7 +47,7 @@ are the files in your Rackham home folder.
 Due to this, it makes more sense to [use SCP to transfer files to/from Rackham](../software/rackham_file_transfer_using_scp.md).
 ```
 
-For completeness sake, see [Transit file transfer using SCP](../software/transit_file_transfer_using_scp.md)
+For completeness sake, see [Transit file transfer using SCP](../Cluster_User_Guide/File_Transfer/transit_file_transfer_using_scp.md)
 for a step-by-step guide how to transfer files using SCP.
 It show one cannot upload files to Transit.
 
@@ -58,7 +58,7 @@ One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.
 
-See [Transit file transfer using SFTP](../software/transit_file_transfer_using_sftp.md)
+See [Transit file transfer using SFTP](../Cluster_User_Guide/File_Transfer/transit_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
 
 ### Overview

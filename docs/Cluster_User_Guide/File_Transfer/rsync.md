@@ -9,8 +9,8 @@ such as is ideal for making a backup. At this page, we use the word 'copy',
 although `rsync` by default does a one-way synchronise: if the data is already
 there, it will do nothing.
 
-- [Using `rsync` on Bianca](../software/rsync_on_bianca.md)
-- [Using `rsync` on Pelle](../software/rsync_on_pelle.md)
+- [Using `rsync` on Bianca](rsync_on_bianca.md)
+- [Using `rsync` on Pelle](rsync_on_pelle.md)
 
 ## Installing `rsync`
 

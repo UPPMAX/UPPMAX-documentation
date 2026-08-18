@@ -11,19 +11,19 @@ tags:
 
 # Data transfer to/from Transit using SCP
 
-Data transfer to/from [Transit](../cluster_guides/transit.md) using [`scp`](scp.md)
-is one of the ways ways to [transfer files to/from Transit](../cluster_guides/transfer_transit.md).
+Data transfer to/from [Transit](../../cluster_guides/transit.md) using [`scp`](scp.md)
+is one of the ways ways to [transfer files to/from Transit](../../cluster_guides/transfer_transit.md).
 
 ???- question "What is Transit?"
 
     Transit is an UPPMAX service to send files around.
     It is not a file server.
 
-    See [the page about Transit](../cluster_guides/transit.md) for more detailed information.
+    See [the page about Transit](../../cluster_guides/transit.md) for more detailed information.
 
 ???- question "What are the other ways to transfer files from/to Transit?"
 
-    See [the other ways to transfer data to/from Transit](../cluster_guides/transfer_transit.md)
+    See [the other ways to transfer data to/from Transit](../../cluster_guides/transfer_transit.md)
 
 One **cannot** transfer files to/from Transit using [`scp`](scp.md):
 [`scp`](scp.md) is not considered 'secure' anymore:
@@ -40,11 +40,11 @@ The process is:
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../getting_started/get_inside_sunet.md)
 
 ### 2. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer
+Start a [terminal](../../software/terminal.md) on your local computer
 
 
 ### 3a. Using `scp` to download from Transit

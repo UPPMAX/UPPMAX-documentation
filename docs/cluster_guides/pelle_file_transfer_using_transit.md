@@ -29,8 +29,8 @@ This page assumes your files are 'posted' to Transit.
 
 To transfer files between Pelle and Transit can be done in multiple ways too:
 
-- [Using SCP](../software/pelle_file_transfer_using_transit_scp.md)
-- [Using SFTP](../software/pelle_file_transfer_using_transit_sftp.md)
+- [Using SCP](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_transit_scp.md)
+- [Using SFTP](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_transit_sftp.md)
 
 ## Overview
 

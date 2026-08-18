@@ -35,7 +35,7 @@ a graphical tool.
 ## Using `rsync`
 
 One can transfer files to/from Pelle
-using [rsync](../software/rsync.md)
+using [rsync](../Cluster_User_Guide/File_Transfer/rsync.md)
 in a [terminal](../software/terminal.md).
 This works similar to a regular copy of files,
 except that a remote (instead of a local) address needs to be specified.
@@ -44,7 +44,7 @@ However, `rsync` shines by providing a so-called 'delta' file transfer:
 when you transfer files twice, `rsync` will only transfer the files that have
 changed. This is ideal for backups.
 
-See [Pelle file transfer using rsync](../software/pelle_file_transfer_using_rsync.md)
+See [Pelle file transfer using rsync](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_rsync.md)
 for a step-by-step guide how to transfer files using `rsync`.
 
 ## Using SCP
@@ -55,7 +55,7 @@ This works similar to a regular copy of files,
 except that a remote address needs to be specified.
 The advantage of SCP is that is can be used in scripts.
 
-See [Pelle file transfer using SCP](../software/pelle_file_transfer_using_scp.md)
+See [Pelle file transfer using SCP](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_scp.md)
 for a step-by-step guide how to transfer files using SCP.
 
 ## Using SFTP
@@ -65,7 +65,7 @@ One connects a local and a remote folder,
 after which one can upload and download files.
 SFTP is considered a secure file transfer protocol.
 
-See [Pelle file transfer using SFTP](../software/pelle_file_transfer_using_sftp.md)
+See [Pelle file transfer using SFTP](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_sftp.md)
 for a step-by-step guide how to transfer files using SFTP.
 
 ## Using git
@@ -75,7 +75,7 @@ You set up a folder on Pelle as a git repo and a remote to the local repo,
 after which one can push and pull to Pelle.
 This is best suited for text format files that one wants to work on both locally and on Pelle.
 
-See [Using git on Pelle](../software/git_on_pelle.md)
+See [Using git on Pelle](../Cluster_User_Guide/File_Transfer/git_on_pelle.md)
 for caveats and a step-by-step guide on how to set this up.
 
 ## Using `transit`

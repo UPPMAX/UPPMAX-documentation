@@ -1,6 +1,6 @@
 # File transfer to/from Bianca using a graphical tool
 
-![FileZilla connected to Bianca](./img/filezilla_login_to_bianca_236_x_266.png)
+![FileZilla connected to Bianca](../../software/img/filezilla_login_to_bianca_236_x_266.png)
 
 > FileZilla connected to Bianca
 
@@ -9,7 +9,7 @@
 As a user, we need to transfer files
 between our local computer and Bianca.
 There are
-[many ways to transfer files to/from Bianca](../cluster_guides/transfer_bianca.md).
+[many ways to transfer files to/from Bianca](../../cluster_guides/transfer_bianca.md).
 On this page, we learn how to transfer files
 to Bianca using a graphical tool/program.
 
@@ -26,11 +26,11 @@ UPPMAX guide                                                                    
 Cyberduck                                                                              |Mac and Windows only
 
 When using such a graphical tool,
-one needs [to be inside of SUNET](../getting_started/get_inside_sunet.md).
+one needs [to be inside of SUNET](../../getting_started/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../getting_started/get_inside_sunet.md)
 
 When a tool is setup, one can only transfer files
-between you local computer and [your Bianca `wharf` folder](../cluster_guides/wharf.md).
+between you local computer and [your Bianca `wharf` folder](../../cluster_guides/wharf.md).

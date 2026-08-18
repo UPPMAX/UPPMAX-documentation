@@ -13,5 +13,5 @@ is one of the ways to [transfer files to/from Pelle](transfer_pelle.md).
 
 There are multiple graphical tools that can do this:
 
-- [File transfer to/from Pelle using FileZilla](../software/pelle_file_transfer_using_filezilla.md)
-- [File transfer to/from Pelle using WinSCP](../software/pelle_file_transfer_using_winscp.md)
+- [File transfer to/from Pelle using FileZilla](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_filezilla.md)
+- [File transfer to/from Pelle using WinSCP](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_winscp.md)

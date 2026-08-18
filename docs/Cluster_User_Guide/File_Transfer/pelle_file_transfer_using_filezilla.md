@@ -7,7 +7,7 @@ tags:
 # File transfer to/from Pelle using FileZilla
 
 There are multiple ways to
-[transfer data to/from Pelle](../cluster_guides/transfer_pelle.md).
+[transfer data to/from Pelle](../../cluster_guides/transfer_pelle.md).
 
 Here, we show how to transfer files using a graphical tool
 called [FileZilla](filezilla.md),
@@ -36,7 +36,7 @@ From the menu, select 'File | Site manager'
 
     It is here:
 
-    ![The FileZilla 'File' menu contains the item 'Site manager'](./img/filezilla_file_site_manager.png)
+    ![The FileZilla 'File' menu contains the item 'Site manager'](../../software/img/filezilla_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -48,7 +48,7 @@ In FileZilla's site manager, click 'New site'
 
     It is here:
 
-    ![The FileZilla Site Manager](./img/filezilla_site_manager.png)
+    ![The FileZilla Site Manager](../../software/img/filezilla_site_manager.png)
 
 ## 4. Setup the site
 
@@ -64,7 +64,7 @@ In FileZilla's site manager:
 
     It looks similar to this:
 
-    ![FileZilla configured for Pelle](./img/filezilla_setup_pelle_sven_interactive.png)
+    ![FileZilla configured for Pelle](../../software/img/filezilla_setup_pelle_sven_interactive.png)
 
 ## 5. Connect to the site
 
@@ -78,4 +78,4 @@ Now you can transfer files between your local computer and Pelle.
 
     It looks like this:
 
-    ![FileZilla is connected to Pelle](./img/filezilla_login_to_pelle.png)
+    ![FileZilla is connected to Pelle](../../software/img/filezilla_login_to_pelle.png)

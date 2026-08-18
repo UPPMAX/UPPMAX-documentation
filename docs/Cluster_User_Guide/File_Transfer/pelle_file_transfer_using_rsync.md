@@ -9,9 +9,9 @@ tags:
 
 # Data transfer to/from Pelle using rsync
 
-There are multiple ways to [transfer files to or from Pelle](../cluster_guides/transfer_pelle.md).
+There are multiple ways to [transfer files to or from Pelle](../../cluster_guides/transfer_pelle.md).
 Here it is described how to do file transfer to/from Pelle
-using [rsync](../software/rsync.md).
+using [rsync](rsync.md).
 
 ## Procedure
 
@@ -22,7 +22,7 @@ using [rsync](../software/rsync.md).
 
 ## 1. Start a terminal on your local computer
 
-Start a [terminal](../software/terminal.md) on your local computer
+Start a [terminal](../../software/terminal.md) on your local computer
 
 ## 2. Transfer files to Pelle
 
@@ -53,7 +53,7 @@ rsync my_local_file.txt sven@pelle.uppmax.uu.se:/home/sven/
 
 If asked, give your UPPMAX password.
 You can get rid of this prompt if you are
-[using an SSH key pair](ssh_key_use_pelle.md).
+[using an SSH key pair](../../software/ssh_key_use_pelle.md).
 
 ## 2b. Transfer all files in a folder to Pelle
 
@@ -76,7 +76,7 @@ rsync --recursive my_folder sven@pelle.uppmax.uu.se:/home/sven/
 
 If asked, give your UPPMAX password.
 You can get rid of this prompt if you are
-[using an SSH key pair](ssh_key_use_pelle.md).
+[using an SSH key pair](../../software/ssh_key_use_pelle.md).
 
 Note that in `rsync`, a slash (`/`) matters:
 
@@ -114,7 +114,7 @@ rsync sven@pelle.uppmax.uu.se:/home/sven/my_file.txt .
 
 If asked, give your UPPMAX password.
 You can get rid of this prompt if you are
-[using an SSH key pair](ssh_key_use_pelle.md).
+[using an SSH key pair](../../software/ssh_key_use_pelle.md).
 
 ## 3b. Transfer all folders from Pelle to you local computer
 
@@ -138,4 +138,4 @@ rsync --recursive sven@pelle.uppmax.uu.se:/home/sven/my_folder .
 
 If asked, give your UPPMAX password.
 You can get rid of this prompt if you are
-[using an SSH key pair](ssh_key_use_pelle.md).
+[using an SSH key pair](../../software/ssh_key_use_pelle.md).

@@ -9,7 +9,7 @@ tags:
 
 # File transfer to/from Bianca using rsync
 
-[rsync](../software/rsync.md) is a tool [to do file transfer to/from Bianca](../cluster_guides/transfer_bianca.md),
+[rsync](rsync.md) is a tool [to do file transfer to/from Bianca](../../cluster_guides/transfer_bianca.md),
 that works under Linux, Mac and Windows.
 
 ???- question "Prefer a video?"
@@ -17,7 +17,7 @@ that works under Linux, Mac and Windows.
     Watch [this video](https://youtu.be/QlGhgPm_h7I)
     to see the procedure below as a video.
 
-To transfer files to/from Bianca using [rsync](../software/rsync.md), do the following steps:
+To transfer files to/from Bianca using [rsync](rsync.md), do the following steps:
 
 ```mermaid
 flowchart TD
@@ -38,11 +38,11 @@ Get inside SUNET.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../getting_started/get_inside_sunet.md)
 
 ## 2. Log in to Transit
 
-On your local computer, start a [terminal](../software/terminal.md) and use [`ssh`](../software/ssh.md) to login to Transit:
+On your local computer, start a [terminal](../../software/terminal.md) and use [`ssh`](../../software/ssh.md) to login to Transit:
 
 ```bash
 ssh [username]@transit.uppmax.uu.se
@@ -60,8 +60,8 @@ ssh sven@transit.uppmax.uu.se
 
 When asked for a password, use your UPPMAX password (without 2FA).
 
-See [Log in to transit](../cluster_guides/login_transit.md) for more details
-on how to log in to [Transit](../cluster_guides/transit.md).
+See [Log in to transit](../../cluster_guides/login_transit.md) for more details
+on how to log in to [Transit](../../cluster_guides/transit.md).
 
 ## 3. Mount a Bianca project
 
@@ -73,7 +73,7 @@ mount_wharf [project_id]
 
 where
 
-- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[project_id]` is the ID of your [NAISS project](../../getting_started/project.md)
 
 ???- question "What about the `[path]` argument?"
 
@@ -118,7 +118,7 @@ rsync [my_local_file] [username]@transit.uppmax.uu.se:[project_id]
 where
 
 - `[my_local_file]` is the path to your local file
-- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[project_id]` is the ID of your [NAISS project](../../getting_started/project.md)
 - `[username]` is your UPPMAX username
 
 for example:
@@ -129,7 +129,7 @@ rsync my_local_file.txt sven@transit.uppmax.uu.se:sens2016001
 
 No need to specify the path to the mounted folder, if defaults are used.
 
-The files can now be found in [your wharf folder](../cluster_guides/wharf.md).
+The files can now be found in [your wharf folder](../../cluster_guides/wharf.md).
 
 ### 4b. Transfer all files in a folder to Bianca
 
@@ -141,7 +141,7 @@ rsync --recursive my_folder [username]@transit.uppmax.uu.se:[project_id]
 
 where
 
-- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[project_id]` is the ID of your [NAISS project](../../getting_started/project.md)
 - `[username]` is your UPPMAX username
 
 for example:
@@ -152,7 +152,7 @@ rsync --recursive my_folder sven@transit.uppmax.uu.se:sens2016001
 
 No need to specify the path to the mounted folder, if defaults are used.
 
-The files can now be found in [your wharf folder](../cluster_guides/wharf.md).
+The files can now be found in [your wharf folder](../../cluster_guides/wharf.md).
 
 ## 5. Transfer files from Bianca to you local computer
 
@@ -175,7 +175,7 @@ rsync [username]@transit.uppmax.uu.se:[project_id]/[file_in_wharf] .
 
 where
 
-- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[project_id]` is the ID of your [NAISS project](../../getting_started/project.md)
 - `[username]` is your UPPMAX username
 - `[file_in_wharf]` is the name of the file in `wharf`
 - `.` means 'in the current folder of my local computer' or 'here'
@@ -192,13 +192,13 @@ To copy the individual files in your wharf to your local computer.
 
 !!! note "This will copy all folders in your wharf"
 
-    This command below will copy all folders in your [wharf](../cluster_guides/wharf.md) folder
+    This command below will copy all folders in your [wharf](../../cluster_guides/wharf.md) folder
     to your local computer.
 
-    This assumes that there is few data in your [wharf](../cluster_guides/wharf.md) folder.
+    This assumes that there is few data in your [wharf](../../cluster_guides/wharf.md) folder.
 
-    We assume your follow good [wharf](../cluster_guides/wharf.md) hygiene,
-    i.e. your [wharf](../cluster_guides/wharf.md) folder is mostly empty most of the time.
+    We assume your follow good [wharf](../../cluster_guides/wharf.md) hygiene,
+    i.e. your [wharf](../../cluster_guides/wharf.md) folder is mostly empty most of the time.
 
 On your local computer, do:
 
@@ -208,7 +208,7 @@ rsync --recursive [username]@transit.uppmax.uu.se:[project_id] .
 
 where
 
-- `[project_id]` is the ID of your [NAISS project](../getting_started/project.md)
+- `[project_id]` is the ID of your [NAISS project](../../getting_started/project.md)
 - `[username]` is your UPPMAX username
 - `.` means 'in the current folder of my local computer' or 'here'
 

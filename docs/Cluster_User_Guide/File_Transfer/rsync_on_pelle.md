@@ -1,8 +1,8 @@
 # `rsync` on Pelle
 
-[`rsync`](../software/rsync.md) is a command-line tool for [file transfer](../cluster_guides/file_transfer.md).
+[`rsync`](rsync.md) is a command-line tool for [file transfer](../../cluster_guides/file_transfer.md).
 
-This page describes how to use [`rsync`](../software/rsync.md) on [Pelle](../cluster_guides/pelle.md).
+This page describes how to use [`rsync`](rsync.md) on [Pelle](../../cluster_guides/pelle.md).
 
 ## Copy a folder from local to Pelle
 

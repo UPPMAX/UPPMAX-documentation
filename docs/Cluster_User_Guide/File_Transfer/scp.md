@@ -11,7 +11,7 @@ tags:
 # `scp`
 
 The program `scp` allows you to transfer files to/from the UPPMAX HPC clusters
-from a [md](terminal.md)
+from a [md](../../software/terminal.md)
 
 Although `scp` is an abbreviation of 'Secure copy protocol',
 it is not considered 'secure' anymore:
@@ -29,5 +29,5 @@ UPPMAX guides can be found here:
 
 Between          |UPPMAX guide
 -----------------|---------------------------------------------------------------------------
-Local and Bianca |Does not work, see [Bianca file transfer](../cluster_guides/transfer_bianca.md)
+Local and Bianca |Does not work, see [Bianca file transfer](../../cluster_guides/transfer_bianca.md)
 Local and Pelle  |[File transfer to/from Pelle using `scp`](pelle_file_transfer_using_scp.md)

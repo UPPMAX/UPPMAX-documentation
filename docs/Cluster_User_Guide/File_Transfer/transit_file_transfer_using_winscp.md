@@ -10,17 +10,17 @@ tags:
 
 # File transfer to/from Transit using WinSCP
 
-There are multiple ways to [transfer files to/from Transit using a graphical tool](../cluster_guides/transit_file_transfer_using_gui.md)
+There are multiple ways to [transfer files to/from Transit using a graphical tool](../../cluster_guides/transit_file_transfer_using_gui.md)
 
 Here it is shown how to transfer files using a graphical tool called WinSCP.
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](../cluster_guides/transit.md).
+    See [the page about the UPPMAX Transit server](../../cluster_guides/transit.md).
 
 ???- question "What are the other ways?"
 
-    See [the other ways to transfer data to/from Transit](../cluster_guides/transfer_transit.md)
+    See [the other ways to transfer data to/from Transit](../../cluster_guides/transfer_transit.md)
 
 ## Procedure
 

@@ -21,7 +21,7 @@ tags:
 
 There are multiple ways to transfer files to or from LUMI.
 Here it is described how to do file transfer to/from LUMI
-using [rsync](../../../software/rsync.md).
+using [rsync](../../../Cluster_User_Guide/File_Transfer/rsync.md).
 
 ## Procedure
 

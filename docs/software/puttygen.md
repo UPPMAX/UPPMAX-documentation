@@ -16,7 +16,7 @@ tags:
 `puttygen`, also called 'PuTTY Key Generator', is a free program
 for Linux, Mac and Windows to create SSH keys in multiple formats,
 among others the `.ppk` file format, which is needed for
-[FileZilla](filezilla.md).
+[FileZilla](../Cluster_User_Guide/File_Transfer/filezilla.md).
 
 ## Get `puttygen`
 

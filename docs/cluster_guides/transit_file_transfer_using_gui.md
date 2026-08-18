@@ -7,5 +7,5 @@ There are multiple graphical tools to do so:
 
 Documentation                                                        |Tool                                 |Description
 ---------------------------------------------------------------------|-------------------------------------|-------------------------------------------------------
-[Documentation](../software/transit_file_transfer_using_filezilla.md)|[FileZilla](../software/filezilla.md)|Free, open source, works on all platforms (recommended)
-[Documentation](../software/transit_file_transfer_using_winscp.md)   |[WinSCP](../software/winscp.md)      |Only works under Windows
+[Documentation](../Cluster_User_Guide/File_Transfer/transit_file_transfer_using_filezilla.md)|[FileZilla](../Cluster_User_Guide/File_Transfer/filezilla.md)|Free, open source, works on all platforms (recommended)
+[Documentation](../Cluster_User_Guide/File_Transfer/transit_file_transfer_using_winscp.md)   |[WinSCP](../Cluster_User_Guide/File_Transfer/winscp.md)      |Only works under Windows

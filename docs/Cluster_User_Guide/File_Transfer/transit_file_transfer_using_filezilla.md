@@ -7,17 +7,17 @@ tags:
 
 # File transfer to/from Transit using FileZilla
 
-There are multiple ways to [transfer files to/from Transit using a graphical tool](../cluster_guides/transit_file_transfer_using_gui.md)
+There are multiple ways to [transfer files to/from Transit using a graphical tool](../../cluster_guides/transit_file_transfer_using_gui.md)
 
 Here it is shown how to transfer files using a graphical tool called [FileZilla](filezilla.md).
 
 ???- question "What is Transit?"
 
-    See [the page about the UPPMAX Transit server](../cluster_guides/transit.md).
+    See [the page about the UPPMAX Transit server](../../cluster_guides/transit.md).
 
 ## Procedure
 
-![FileZilla connected to Transit](../software/img/filezilla_login_to_transit_480_x_270.png)
+![FileZilla connected to Transit](../../software/img/filezilla_login_to_transit_480_x_270.png)
 
 > FileZilla connected to Transit
 
@@ -34,7 +34,7 @@ To transfer files to/from Transit using FileZilla, do:
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../getting_started/get_inside_sunet.md)
 
 ### 2. Start FileZilla
 
@@ -44,7 +44,7 @@ To transfer files to/from Transit using FileZilla, do:
 
     It is here:
 
-    ![From the menu, select 'File | Site manager'](../software/img/filezilla_file_site_manager.png)
+    ![From the menu, select 'File | Site manager'](../../software/img/filezilla_file_site_manager.png)
 
     > The FileZilla 'File' menu contains the item 'Site manager'
 
@@ -54,7 +54,7 @@ To transfer files to/from Transit using FileZilla, do:
 
     It is here:
 
-    ![Click 'New site'](../software/img/filezilla_site_manager.png)
+    ![Click 'New site'](../../software/img/filezilla_site_manager.png)
 
 ### 5. Create a name for the site
 
@@ -72,7 +72,7 @@ For that site, use all standards, except:
 
     It looks similar to this:
 
-    ![Setup the site done](../software/img/filezilla_setup_transit_sven.png)
+    ![Setup the site done](../../software/img/filezilla_setup_transit_sven.png)
 
 ### 7. Click 'Connect'
 
@@ -86,7 +86,7 @@ You can save the password.
 
     It looks similar to this:
 
-    ![Asked for your password](../software/img/filezilla_enter_password_transit.png)
+    ![Asked for your password](../../software/img/filezilla_enter_password_transit.png)
 
 ### 9. Transfer files between local and Transit
 
@@ -96,7 +96,7 @@ Now you can transfer files between your local computer and Transit.
 
     It looks like this:
 
-    ![Transfer files between local and Transit](../software/img/filezilla_login_to_transit.png)
+    ![Transfer files between local and Transit](../../software/img/filezilla_login_to_transit.png)
 
 ## Where do my files end up?
 
