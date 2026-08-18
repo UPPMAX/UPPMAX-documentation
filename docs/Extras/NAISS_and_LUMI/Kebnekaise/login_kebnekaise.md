@@ -7,7 +7,7 @@
 
 NAISS HPC cluster have different ways to [login](../../../Overview/login.md).
 
-This page is about how to log in to [Kebnekaise](kebnekaise.md).
+This page is about how to log in to [Kebnekaise](index.md).
 
 ## Videos
 

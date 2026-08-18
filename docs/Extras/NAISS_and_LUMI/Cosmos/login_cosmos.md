@@ -7,7 +7,7 @@
 
 NAISS HPC cluster have different ways to [login](../../../Overview/login.md).
 
-This page is about how to log in to [COSMOS](cosmos.md).
+This page is about how to log in to [COSMOS](index.md).
 
 ## Videos
 

@@ -7,7 +7,7 @@
 
 NAISS HPC cluster have different ways to [login](../../../Overview/login.md).
 
-This page is about how to log in to [Alvis](alvis.md).
+This page is about how to log in to [Alvis](index.md).
 
 
 ```bash
