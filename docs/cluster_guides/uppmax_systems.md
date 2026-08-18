@@ -153,7 +153,7 @@ due to which there are these additional restrictions to users:
 
 ???- tip "File transfer"
 
-    See [the UPPMAX pages about file transfer](../Cluster_User_Guide/File_Transfer/file_transfer.md).
+    See [the UPPMAX pages about file transfer](../Cluster_User_Guide/File_Transfer/index.md).
 
 The goal is to prevent the *accidental* up/download of sensitive data.
 As these up/downloads are monitored, in case of an accident,

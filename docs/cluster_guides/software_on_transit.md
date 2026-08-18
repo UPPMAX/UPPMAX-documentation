@@ -2,7 +2,7 @@
 
 >Update: 02.02.2026
 
-[Transit](../Cluster_User_Guide/File_Transfer/transit.md) is an UPPMAX service that can be used to securely transfer files.
+[Transit](../Cluster_User_Guide/File_Transfer/Transit/index.md) is an UPPMAX service that can be used to securely transfer files.
 
 The purpose of the transit server is to give users access to their wharf folders on Bianca/Maya on Linux running machine with certain limitations.
 

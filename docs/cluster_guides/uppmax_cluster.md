@@ -230,7 +230,7 @@ due to which there are these additional restrictions to users:
 
     Transferring files is described per sensitive data cluster:
 
-    - [Bianca](../Cluster_User_Guide/File_Transfer/transfer_bianca.md).
+    - [Bianca](../Cluster_User_Guide/File_Transfer/Bianca/index.md).
 
 The goal is to prevent the *accidental* up/download of sensitive data.
 As these up/downloads are monitored, in case of an accident,

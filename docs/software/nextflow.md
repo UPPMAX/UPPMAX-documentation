@@ -89,7 +89,7 @@ module load nf-core   # this also load the nextflow and java as requirements
 <!-- is no way to satisfy markdownlint -->
 <!-- markdownlint-disable MD029 -->
 
-1. Login to `transit.uppmax.uu.se` - [documentation](../Cluster_User_Guide/File_Transfer/transfer_bianca.md#transit-server)
+1. Login to `transit.uppmax.uu.se` - [documentation](../Cluster_User_Guide/File_Transfer/Bianca/index.md#transit-server)
 2. Mount the `wharf` of your project.
 
     ```bash

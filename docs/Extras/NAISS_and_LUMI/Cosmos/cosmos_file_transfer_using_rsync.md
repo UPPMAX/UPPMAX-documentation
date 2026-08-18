@@ -17,7 +17,7 @@ tags:
 
 There are multiple ways to transfer files to or from COSMOS.
 Here it is described how to do file transfer to/from COSMOS
-using [rsync](../../../Cluster_User_Guide/File_Transfer/rsync.md).
+using [rsync](../../../Cluster_User_Guide/File_Transfer/Tools/rsync.md).
 
 ## Procedure
 

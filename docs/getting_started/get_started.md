@@ -90,7 +90,7 @@ Follow the
 Now you can use the UPPMAX resources!
 
 - [Login to our clusters](login.md)
-- [Transfer files from/to your UPPMAX account](../Cluster_User_Guide/File_Transfer/file_transfer.md)
+- [Transfer files from/to your UPPMAX account](../Cluster_User_Guide/File_Transfer/index.md)
 - [Schedule jobs](../cluster_guides/slurm.md).
 
 To make this step easier,

@@ -1,0 +1,70 @@
+---
+tags:
+  - transfer
+  - data transfer
+  - file transfer
+  - scp
+  - SCP
+  - Pelle
+---
+
+# Data transfer to/from Pelle using SCP
+
+There are multiple ways to [transfer files to or from Pelle](index.md).
+
+This page shows you how to do so using [`scp`](../Tools/scp.md).
+
+## Procedure
+
+???- question "Prefer a video?"
+
+    Watch the YouTube video
+    [Data transfer to/from Pelle using SCP](https://youtu.be/QKz7CTIJ2Ok)
+
+### 1. Start a terminal on your local computer
+
+Start a [terminal](../../../software/terminal.md) on your local computer
+
+### 2. Copy files using `scp`
+
+In the terminal, copy files using [`scp`](../Tools/scp.md) to connect to Pelle:
+
+```bash
+scp [from] [to]
+```
+
+Where `[from]` is the file(s) you want to copy, and `[to]` is the destination.
+This is quite a shorthand notation!
+
+This is how you copy a file from your local computer to Pelle:
+
+```bash
+scp [local_filename] [username]@pelle.uppmax.uu.se:/home/[username]
+```
+
+where `[local_filename]` is the path to a local filename,
+and `[username]` is your UPPMAX username, for example:
+
+```bash
+scp my_file.txt sven@pelle.uppmax.uu.se:/home/sven
+```
+
+To copy a file from Pelle to your local computer,
+do the command above in reverse order:
+
+```bash
+scp [username]@pelle.uppmax.uu.se:/home/[username]/[remote_filename] [local_folder]
+```
+
+where `[remote_filename]` is the path to a remote filename,
+`[username]` is your UPPMAX username,
+and `[local_folder]` is your local folder, for example:
+
+```bash
+scp sven@pelle.uppmax.uu.se:/home/sven/my_remote_file.txt /home/sven
+```
+
+### 3. If asked, give your UPPMAX password
+
+If asked, give your UPPMAX password.
+You can get rid of this prompt if you have setup SSH keys

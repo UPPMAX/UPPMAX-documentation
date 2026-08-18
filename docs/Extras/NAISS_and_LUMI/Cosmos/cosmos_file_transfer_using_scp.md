@@ -18,7 +18,7 @@ tags:
 
 There are multiple ways to transfer files to or from COSMOS.
 Here it is described how to do file transfer to/from COSMOS
-using [scp](../../../Cluster_User_Guide/File_Transfer/scp.md).
+using [scp](../../../Cluster_User_Guide/File_Transfer/Tools/scp.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Start a [terminal](../../../software/terminal.md) on your local computer
 
 ### 2. Copy files using `scp`
 
-In the terminal, copy files using [`scp`](../../../Cluster_User_Guide/File_Transfer/scp.md) to connect to Cosmos:
+In the terminal, copy files using [`scp`](../../../Cluster_User_Guide/File_Transfer/Tools/scp.md) to connect to Cosmos:
 
 ```bash
 scp [from] [to]

@@ -87,9 +87,9 @@ Because of this, I (Richel) put this info in comments.
 [Bianca workshops](https://uppmax.github.io/bianca_workshops/){ .md-button .md-button--primary }
 
 - [Directory structure for projects](bianca_file_tree.md)
-- [File transfer](../Cluster_User_Guide/File_Transfer/transfer_bianca.md)
-    - [File transfer using rsync](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_rsync.md) (recommended)
-    - [File transfer using FileZilla](../Cluster_User_Guide/File_Transfer/bianca_file_transfer_using_filezilla.md) (easiest)
+- [File transfer](../Cluster_User_Guide/File_Transfer/Bianca/index.md)
+    - [File transfer using rsync](../Cluster_User_Guide/File_Transfer/Bianca/bianca_file_transfer_using_rsync.md) (recommended)
+    - [File transfer using FileZilla](../Cluster_User_Guide/File_Transfer/Bianca/bianca_file_transfer_using_filezilla.md) (easiest)
 - [The module system](bianca_modules.md)
     - [R packages](../software/r.md#r-packages)
     - [Python](../software/python.md)
@@ -108,4 +108,4 @@ Because of this, I (Richel) put this info in comments.
 
 - Bianca installation guides
     - [link to course material](https://uppmax.github.io/bianca_workshops/intermediate/install/)
-- [Git on Bianca](../Cluster_User_Guide/File_Transfer/git_on_bianca.md)
+- [Git on Bianca](../Cluster_User_Guide/File_Transfer/Bianca/git_on_bianca.md)

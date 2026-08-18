@@ -1,6 +1,6 @@
 # Log in to Transit
 
-Below is a step-by-step procedure to login to [Transit](../Cluster_User_Guide/File_Transfer/transit.md).
+Below is a step-by-step procedure to login to [Transit](../Cluster_User_Guide/File_Transfer/Transit/index.md).
 
 !!!- question "Enjoy a video?"
 

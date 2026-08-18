@@ -18,13 +18,13 @@
 ???- question "Want more detailed information of file transfer to/from Pelle using a graphical tool?"
 
     See
-    [file transfer to/from Pelle using a graphical tool](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_gui.md).
+    [file transfer to/from Pelle using a graphical tool](../Cluster_User_Guide/File_Transfer/Pelle/pelle_file_transfer_using_gui.md).
 
 - This is good if you want to move many files between host and local and cannot use wildcards.
 
 === "Linux"
 
-    See [file transfer to/from Pelle using a graphical tool](../Cluster_User_Guide/File_Transfer/pelle_file_transfer_using_gui.md)
+    See [file transfer to/from Pelle using a graphical tool](../Cluster_User_Guide/File_Transfer/Pelle/pelle_file_transfer_using_gui.md)
 
 === "Mac"
 

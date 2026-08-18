@@ -77,7 +77,7 @@ tags:
 
 Pelle is quite similar to [Rackham](../Extras/glossary.md#rackham) but we have prepared Pelle specific pages for some topics.
 
-- [File transfer](../Cluster_User_Guide/File_Transfer/transfer_pelle.md)
+- [File transfer](../Cluster_User_Guide/File_Transfer/Pelle/index.md)
 - [The module system](pelle_modules.md)
 - [Slurm on Pelle](slurm_on_pelle.md)
 - [Starting an interactive session](start_interactive_session_on_pelle.md)
