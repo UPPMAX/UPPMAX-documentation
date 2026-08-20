@@ -9,7 +9,7 @@ tags:
 
 # Setup a VPN
 
-Some [UPPMAX clusters](../cluster_guides/uppmax_cluster.md) require you
+Some [UPPMAX clusters](../UPPMAX/uppmax_cluster.md) require you
 to [have an IP address inside of SUNET](get_inside_sunet.md).
 A virtual private network (VPN) allows one to do so: it will use the
 Swedish university networks to connect to the UPPMAX clusters.

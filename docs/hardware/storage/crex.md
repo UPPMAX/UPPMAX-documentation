@@ -1,6 +1,6 @@
 # Crex
 
-UPPMAX has many [storage systems](../../cluster_guides/uppmax_storage_system.md).
+UPPMAX has many [storage systems](../../UPPMAX/uppmax_storage_system.md).
 This page describes the Crex storage system.
 
 Rackham and Snowy's storage system is a DDN (DataDirect Networks) EXAScaler

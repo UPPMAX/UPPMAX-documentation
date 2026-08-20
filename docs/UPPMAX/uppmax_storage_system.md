@@ -9,5 +9,5 @@ A system to store data on.
 - [Gorilla](../hardware/storage/gorilla.md)
 - [Lutra](../hardware/storage/lutra.md)
 - [Spirula](../hardware/storage/spirula.md)
-    - [User guide](spirula.md)
+    - [User guide](../cluster_guides/spirula.md)
 - [Vulpes](../hardware/storage/vulpes.md)

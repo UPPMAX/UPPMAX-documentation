@@ -7,7 +7,7 @@ This page is about software at UPPMAX.
 
 ???- question "What are the UPPMAX clusters?"
 
-    See [the UPPMAX documentation on its clusters](../cluster_guides/uppmax_cluster.md)
+    See [the UPPMAX documentation on its clusters](../UPPMAX/uppmax_cluster.md)
 
 ???- question "What is the module system?"
 

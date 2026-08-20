@@ -6,7 +6,7 @@ tags:
 
 # UPPMAX project
 
-To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
+To use [UPPMAX](../UPPMAX/index.md) resources, one needs:
 
 - [an UPPMAX user account](user_account.md):
   you need one for an UPPMAX project

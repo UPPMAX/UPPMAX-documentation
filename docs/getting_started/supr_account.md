@@ -8,7 +8,7 @@ tags:
 
 # SUPR Accounts
 
-An UPPMAX user account is needed to use [UPPMAX](../cluster_guides/uppmax.md)
+An UPPMAX user account is needed to use [UPPMAX](../UPPMAX/index.md)
 resources.
 
 To apply for an UPPMAX user account, complete the following steps:

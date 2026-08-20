@@ -12,7 +12,7 @@ This page is about the HPC clusters as maintained by UPPMAX.
 
 ???- question "Where can I find an overview of UPPMAX?"
 
-    See [the UPPMAX page about itself](uppmax.md)
+    See [the UPPMAX page about itself](index.md)
 
 ???- question "Where can I find an overview of UPPMAX's systems?"
 
@@ -36,18 +36,18 @@ i.e. they allow a user to do heavy computational calculations.
 
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
-[Pelle](pelle.md)    |Regular data, general purpose|Is replacing [Rackham](../Extras/glossary.md#rackham)
-[Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
+[Pelle](../cluster_guides/pelle.md)    |Regular data, general purpose|Is replacing [Rackham](../Extras/glossary.md#rackham)
+[Bianca](../cluster_guides/bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](../cluster_guides/maja.md)
 
 Another cluster UPPMAX is involved in:
 
-- [Dardel](dardel.md): a general purpose HPC cluster in Stockholm. Earlier Rackham users with no affiliation to UPPMAX moved here in late 2024.
+- [Dardel](../cluster_guides/dardel.md): a general purpose HPC cluster in Stockholm. Earlier Rackham users with no affiliation to UPPMAX moved here in late 2024.
 
 ### Closed
 
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
-[Rackham](../Extras/glossary.md#rackham)|Regular data, general purpose|Has been replaced by [Pelle](pelle.md)
+[Rackham](../Extras/glossary.md#rackham)|Regular data, general purpose|Has been replaced by [Pelle](../cluster_guides/pelle.md)
 [Snowy](../Extras/glossary.md#snowy)    |Regular data, long runs, GPUs|.
 
 ??? warning "Forgot to empty your project on Rackham?"
@@ -100,7 +100,7 @@ There are three types of nodes:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is described
-    [on the UPPMAX page about the job scheduler](slurm.md).
+    [on the UPPMAX page about the job scheduler](../cluster_guides/slurm.md).
 
 - **interactive sessions**: a user on a calculation node
 
@@ -108,8 +108,8 @@ There are three types of nodes:
 
     Requesting an interactive session is described per cluster:
 
-    - [Bianca](start_interactive_session_on_bianca.md)
-    - [Pelle](start_interactive_session_on_pelle.md)
+    - [Bianca](../cluster_guides/start_interactive_session_on_bianca.md)
+    - [Pelle](../cluster_guides/start_interactive_session_on_pelle.md)
 
     This is done by requesting an interactive session
     from the Slurm scheduler.
@@ -134,19 +134,19 @@ flowchart TD
 
 ## Difference between a supercomputer and a (high-performing) computer cluster
 
-![A supercomputer, from https://en.wikipedia.org/wiki/File:IBM_Blue_Gene_P_supercomputer.jpg](./img/IBM_Blue_Gene_P_supercomputer_422_x_280.jpg)
+![A supercomputer, from https://en.wikipedia.org/wiki/File:IBM_Blue_Gene_P_supercomputer.jpg](../cluster_guides/img/IBM_Blue_Gene_P_supercomputer_422_x_280.jpg)
 
 A supercomputer is a machine that is optimised for doing calculations
 quickly. For example, to predict the weather for tomorrow, the calculation
 may not take a week. The image above is a supercomputer.
 
-![A private shelf computer cluster using some Raspberry Pi's](./img/shelf_cluster_BC_annotated.png){ width="450" }
+![A private shelf computer cluster using some Raspberry Pi's](../cluster_guides/img/shelf_cluster_BC_annotated.png){ width="450" }
 
 A computer cluster is a set of computers that work together so that they can be viewed as a single system.
 The image above shows a home-made computer cluster.
 This home-made computer cluster may not be suitable for high-performance computing.
 
-![The Rackham computer cluster](./img/uppmax-light2_412_x_285.jpg)
+![The Rackham computer cluster](../cluster_guides/img/uppmax-light2_412_x_285.jpg)
 
 The image above shows Rackham, another UPPMAX
 computer cluster, suitable for high-performance computing.
@@ -178,14 +178,14 @@ are restricted in some ways:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is described
-    [at the UPPMAX page about the job scheduler](slurm.md).
+    [at the UPPMAX page about the job scheduler](../cluster_guides/slurm.md).
 
 ???- tip "Requesting an interactive session"
 
     Requesting an interactive session is described per cluster:
 
-    - [Bianca](start_interactive_session_on_bianca.md)
-    - [Pelle](start_interactive_session_on_pelle.md)
+    - [Bianca](../cluster_guides/start_interactive_session_on_bianca.md)
+    - [Pelle](../cluster_guides/start_interactive_session_on_pelle.md)
 
     This is done by requesting an interactive session
     from the Slurm scheduler.
@@ -197,7 +197,7 @@ are restricted in some ways:
 ???- tip "Using pre-installed software"
 
     Using pre-installed software is described
-    [at the UPPMAX page about the software module system](modules.md).
+    [at the UPPMAX page about the software module system](../cluster_guides/modules.md).
 
 ???- tip "How to run custom software"
 

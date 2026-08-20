@@ -9,7 +9,7 @@ tags:
 
 ![Bianca Castafiore, from https://en.wikipedia.org/wiki/File:Bianca_Castafiore-Tintin_comics_series.png](./img/bianca_castafiore_192_x_226.png)
 
-[Bianca](bianca.md) is one of the [UPPMAX clusters](uppmax_cluster.md),
+[Bianca](bianca.md) is one of the [UPPMAX clusters](../UPPMAX/uppmax_cluster.md),
 suitable for working with sensitive data.
 
 <!--

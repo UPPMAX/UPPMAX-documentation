@@ -4,7 +4,7 @@
 
 ???- question "What is an HPC cluster for sensitive data?"
 
-    See [the UPPMAX page about HPC clusters](uppmax_cluster.md).
+    See [the UPPMAX page about HPC clusters](../UPPMAX/uppmax_cluster.md).
 
 Or: Bianca is a group of computers that can effectively run many calculations,
 as requested by multiple people, at the same time.

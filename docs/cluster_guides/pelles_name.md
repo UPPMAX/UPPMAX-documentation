@@ -15,4 +15,4 @@ The upcoming [Maja](maja.md) cluster for sensitive data is also named after a ch
 
 ???- question "What are the UPPMAX clusters?"
 
-    See [the UPPMAX page listing all its HPC clusters](uppmax_cluster.md).
+    See [the UPPMAX page listing all its HPC clusters](../UPPMAX/uppmax_cluster.md).

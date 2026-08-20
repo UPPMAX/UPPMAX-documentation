@@ -7,7 +7,7 @@ tags:
 
 # Project application
 
-To use [UPPMAX](../cluster_guides/uppmax.md) resources, one needs:
+To use [UPPMAX](../UPPMAX/index.md) resources, one needs:
 
 - [an active research project](project.md)
 - [an UPPMAX user account](user_account.md)
@@ -39,7 +39,7 @@ The workflow is like this:
 If you are a PI: apply for a project in SUPR.
 
 When applying for a project, you will need to specify
-[an UPPMAX HPC cluster](../cluster_guides/uppmax_cluster.md).
+[an UPPMAX HPC cluster](../UPPMAX/uppmax_cluster.md).
 The decision tree on which HPC cluster to pick is as follows:
 
 - Do you want to run calculations on data that needs privacy protection?

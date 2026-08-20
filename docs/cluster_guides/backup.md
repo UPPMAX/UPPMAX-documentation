@@ -46,7 +46,7 @@ e.g. raw data or originals.
 
     If not, ensure that
     collaborators can only use the data in a responsible way.
-    See [the best practices on an UPPMAX filesystem](uppmax_filesystem.md#best-practices)
+    See [the best practices on an UPPMAX filesystem](../UPPMAX/uppmax_filesystem.md#best-practices)
 
 ## How can I access my backups?
 

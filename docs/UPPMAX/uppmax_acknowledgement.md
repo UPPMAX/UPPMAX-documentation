@@ -33,7 +33,7 @@ For publications coming out of NAISS projects, please be sure to mention both NA
 > no. 2022-06725."
 
 For publications coming out of UU-funded UPPMAX projects
-(e.g. using [Pelle](pelle.md)),
+(e.g. using [Pelle](../cluster_guides/pelle.md)),
 here is our recommended formulation:
 
 > "The computations/data handling/\[SIMILAR\] were/was enabled by resources in

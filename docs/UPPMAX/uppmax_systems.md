@@ -5,7 +5,7 @@ HPC infrastructure that is physically located in Uppsala.
 
 ???- question "Where can I find an overview of UPPMAX?"
 
-    See [our overview of UPPMAX](uppmax.md)
+    See [our overview of UPPMAX](index.md)
 
 This HPC infrastructure consists out of:
 
@@ -78,23 +78,23 @@ for more information.
 
 ## UPPMAX cloud services
 
-See the [UPPMAX cloud](../cluster_guides/uppmax_cloud.md).
+See the [UPPMAX cloud](uppmax_cloud.md).
 
 ### Difference between supercomputer and (high-performing) computer cluster
 
-![A supercomputer, from https://en.wikipedia.org/wiki/File:IBM_Blue_Gene_P_supercomputer.jpg](./img/IBM_Blue_Gene_P_supercomputer_422_x_280.jpg)
+![A supercomputer, from https://en.wikipedia.org/wiki/File:IBM_Blue_Gene_P_supercomputer.jpg](../cluster_guides/img/IBM_Blue_Gene_P_supercomputer_422_x_280.jpg)
 
 A supercomputer is a machine that is optimised for doing calculations
 quickly. For example, to predict the weather for tomorrow, the calculation
 may not take a week. The image above is a supercomputer.
 
-![A computer cluster using some Raspberry Pi's](./img/small_cluster_307_x_230.jpg)
+![A computer cluster using some Raspberry Pi's](../cluster_guides/img/small_cluster_307_x_230.jpg)
 
 A computer cluster is a machine that is optimised for doing a lot of calculations.
 The image above shows a home-made computer cluster.
 This home-made computer cluster may not be suitable for high-performance.
 
-![The Rackham computer cluster](./img/uppmax-light2_412_x_285.jpg)
+![The Rackham computer cluster](../cluster_guides/img/uppmax-light2_412_x_285.jpg)
 
 The image above shows Rackham, another UPPMAX
 computer cluster, suitable for high-performance computing.
@@ -130,7 +130,7 @@ are restricted in some ways:
 ???- tip "Using pre-installed software"
 
     Using pre-installed software is described
-    [on the UPPMAX page about the software module system](modules.md).
+    [on the UPPMAX page about the software module system](../cluster_guides/modules.md).
 
 ???- tip "How to run custom software"
 
@@ -181,7 +181,7 @@ There are three types of nodes:
 ???- tip "Requesting a calculation to run"
 
     Requesting a calculation to run is part of this course
-    and is described [at the UPPMAX page about the job scheduler](slurm.md).
+    and is described [at the UPPMAX page about the job scheduler](../cluster_guides/slurm.md).
 
 - **interactive sessions**: a user on a calculation node,
   where he/she can do calculations directly

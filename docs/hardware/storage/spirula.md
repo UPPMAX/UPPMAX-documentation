@@ -11,5 +11,5 @@ Gateway, also known as RADOS Gateway (RGW).
 
 [User guide](../../cluster_guides/spirula.md)
 
-See [storage systems](../../cluster_guides/uppmax_storage_system.md) for other
+See [storage systems](../../UPPMAX/uppmax_storage_system.md) for other
 storage systems at UPPMAX.

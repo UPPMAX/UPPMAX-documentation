@@ -1,6 +1,6 @@
 # Lutra
 
-UPPMAX has many [storage systems](../../cluster_guides/uppmax_storage_system.md).
+UPPMAX has many [storage systems](../../UPPMAX/uppmax_storage_system.md).
 This page describes the Lutra storage system.
 
 Lutra is a custom built storage system running GlusterFS. The system consist of

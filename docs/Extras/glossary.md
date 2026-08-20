@@ -10,7 +10,7 @@ A computational task that is submitted to the job scheduler (Slurm) to run non-i
 
 ### Bianca
 
-[Bianca](../cluster_guides/bianca.md) is one of the [UPPMAX clusters](../cluster_guides/uppmax_cluster.md), suitable for working with sensitive data. Bianca is internet-restricted for security reasons.
+[Bianca](../cluster_guides/bianca.md) is one of the [UPPMAX clusters](../UPPMAX/uppmax_cluster.md), suitable for working with sensitive data. Bianca is internet-restricted for security reasons.
 
 ## C
 

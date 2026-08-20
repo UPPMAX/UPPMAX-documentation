@@ -1,6 +1,6 @@
 # Domus
 
-UPPMAX has many [storage systems](../../cluster_guides/uppmax_storage_system.md).
+UPPMAX has many [storage systems](../../UPPMAX/uppmax_storage_system.md).
 This page describes the Domus storage system.
 
 Domus is about to be decomissioned.

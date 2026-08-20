@@ -20,8 +20,8 @@ Home folder   |Your home folder, `/home/[username]`, e.g. `/home/sven`
 Project folder|Your project folder, `/proj/[project_name]`, e.g. `/proj/snic2021-22-780`
 Wharf         |A Bianca-only folder for file transfer
 
-Some folders do and some do not have a [backup](backup.md).
-See [the UPPMAX documentation on 'backup'](backup.md) for details.
+Some folders do and some do not have a [backup](../cluster_guides/backup.md).
+See [the UPPMAX documentation on 'backup'](../cluster_guides/backup.md) for details.
 
 ## Best practices
 

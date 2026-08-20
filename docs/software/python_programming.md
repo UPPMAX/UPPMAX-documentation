@@ -1,7 +1,7 @@
 # Python programming
 
 This page describes how to program in [Python](python.md)
-on the [UPPMAX clusters](../cluster_guides/uppmax_cluster.md).
+on the [UPPMAX clusters](../UPPMAX/uppmax_cluster.md).
 
 There are multiple ways to program in Python:
 
