@@ -7,16 +7,6 @@ tags:
 
 This page describes how to get started with UPPMAX.
 
-!!! info "Summary of steps below"
-
-    1. Get a SUPR account
-    2. Get an UPPMAX project
-    3. Apply for a cluster user account for Pelle or Bianca
-    4. Wait for an email with further instructions
-    5. Get a 2FA for your UPPMAX user account
-    6. Log in and change your password
-    7. Use UPPMAX
-
 ???- question "Prefer a graphical overview?"
 
     The processes to get started:
@@ -66,7 +56,7 @@ After having been granted membership in the project [on SUPR, activate your user
 ## Step 4: Wait for an email with further instructions
 
 - The email may land in you trash bin so do look there as well.
-- Follow the instructions! You'll need the UPPMAX 2FA set up, see Step 4 to be able to log in.
+- Follow the instructions! You'll need the UPPMAX 2FA set up, see Step 5 to be able to log in.
 - The link you got will only work once and for a limited time period.
 
 ## Step 5: Get a 2FA for your UPPMAX user account

@@ -30,6 +30,10 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 
 [Introduction to Bianca: Handling Sensitive Research Data <br> _September 18 2026_](https://uppmax.github.io/bianca_workshops/beginner/intro/){ .md-button .md-button--primary }
 
+### November 2026
+
+[Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data  <br> _November 20 2026_](bianca_intermediate.md){ .md-button .md-button--primary }
+
 ## About the courses
 
 ### Learn UPPMAX systems
