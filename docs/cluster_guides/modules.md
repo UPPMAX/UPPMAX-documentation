@@ -47,7 +47,7 @@ Using explicit versions of software is easy to do
 and improves the reproducibility of the scripts written.
 
 To preserve hard disk space, Bianca also
-has [multiple big databases installed](../Specific/Databases/index.md).
+has [multiple big databases installed](../Specific/databases/index.md).
 
 ## Working with the module system
 
@@ -383,7 +383,7 @@ Full command            |Shorthand syntax
 ## Links
 
 - [Almost all installed software on UPPMAX](../software/overview.md)
-- [Almost all installed databases on UPPMAX](../Specific/Databases/index.md)
+- [Almost all installed databases on UPPMAX](../Specific/databases/index.md)
 - [Wikipedia page on environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software))
 - [lmod homepage](https://www.tacc.utexas.edu/research/tacc-research/lmod/)
 
