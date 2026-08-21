@@ -86,7 +86,7 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 - Start typing the project name and it will auto-fill from what you have available.
 - Note that old projects start with ``sens``, whereas from 2026 starts with ``naiss``.
 
-Do use the `UPPMAX` [2-factor authentication](../../../../getting_started/get_uppmax_2fa.md) (i.e. not SUPR!)
+Do use the `UPPMAX` [2-factor authentication](../../Two-factor_authentication/index.md) (i.e. not SUPR!)
 
 ???- question "What does that web page look like?"
 
@@ -96,7 +96,7 @@ Do use the `UPPMAX` [2-factor authentication](../../../../getting_started/get_up
 
 ???- question "How do I setup 2-factor authentication?"
 
-    See the guide at [2-factor authentication](../../../../getting_started/get_uppmax_2fa.md)
+    See the guide at [2-factor authentication](../../Two-factor_authentication/index.md)
     to setup an UPPMAX 2-factor authentication method.
 
     You really need to use the UPPMAX 2-factor authentication,

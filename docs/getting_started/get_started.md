@@ -63,7 +63,7 @@ After having been granted membership in the project [on SUPR, activate your user
 
 All parts of UPPMAX require two factor authentication.
 See how to set this up at
-[the guide 'Setting up two factor authentication for UPPMAX'](get_uppmax_2fa.md).
+[the guide 'Setting up two factor authentication for UPPMAX'](../Cluster_User_Guide/Access/Two-factor_authentication/index.md).
 
 !!! warning
 

@@ -62,7 +62,7 @@ The password is your normal UPPMAX password. The typing will be invisible. Use t
 (sven@bianca-sftp.uppmax.uu.se) Second factor (TOTP):
 ```
 
-This is the six digit code from the [the `UPPMAX` 2-factor authentication](../../../getting_started/get_uppmax_2fa.md).
+This is the six digit code from the [the `UPPMAX` 2-factor authentication](../../Access/Two-factor_authentication/index.md).
 
 After typing in the password and 2FA one sees the `sftp` prompt.
 

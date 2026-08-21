@@ -96,7 +96,7 @@ Following steps are derived from [Project application for Bianca](../getting_sta
 
 3. Register an [account for UPPMAX](https://supr.naiss.se/account/) at SUPR by clicking "Request Account at UPPMAX" button. You will receive an UPPMAX username and password via email.
 
-4. [Setup two factor authentication](../getting_started/get_uppmax_2fa.md) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))
+4. [Setup two factor authentication](../Cluster_User_Guide/Access/Two-factor_authentication/index.md) for this newly created UPPMAX account. ([Video](https://www.youtube.com/watch?v=eSn0kLkU5Dc&ab_channel=Rich%C3%A8lJ.C.Bilderbeek))
 
 5. Check access to your project on [Bianca](https://bianca.uppmax.uu.se/). ([Video](https://youtube.com/clip/UgkxKxnaebkokAuFGEXqafoIQo-RjTPEZbeJ?si=VFFfDSY2DhAYMvDO))
 

@@ -48,7 +48,7 @@ Some ideas of things we would like to know about:
 To log in to Pelle two-factor authentication using TOTP is required.
 
 Follow our guide to [setup UPPMAX two factor
-authentication](../getting_started/get_uppmax_2fa.md) if you don't
+authentication](../Cluster_User_Guide/Access/Two-factor_authentication/index.md) if you don't
 already have this.
 
 ## New operating system

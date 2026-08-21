@@ -52,7 +52,7 @@ fill in your details:
 The next dialog of [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se)
 asks for a time-based one-time password (TOTP)
 
-- Fill in the TOTP from your [UPPMAX 2FA](../../../../getting_started/get_uppmax_2fa.md),
+- Fill in the TOTP from your [UPPMAX 2FA](../../Two-factor_authentication/index.md),
 e.g. `123456`.
 
 ???- question "What does that look like?"

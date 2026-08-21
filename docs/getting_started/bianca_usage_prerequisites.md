@@ -87,4 +87,4 @@ For advice on handling sensitive personal data correctly on Bianca, see our FAQ 
 
 ## Second-factor identification or TOTP
 
-[UPPMAX 2FA](get_uppmax_2fa.md)
+[UPPMAX 2FA](../Cluster_User_Guide/Access/Two-factor_authentication/index.md)

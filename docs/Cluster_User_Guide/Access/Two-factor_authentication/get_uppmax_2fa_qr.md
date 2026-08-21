@@ -9,10 +9,10 @@ tags:
 
 # Setting up the QR code for two factor authentication for UPPMAX
 
-Part of [setting up two factor authentication for UPPMAX](get_uppmax_2fa.md)
+Part of [setting up two factor authentication for UPPMAX](index.md)
 is to get a QR code.
 
-![Getting an UPPMAX 2FA QR code](./img/get_uppmax_2fa_qr.png)
+![Getting an UPPMAX 2FA QR code](../../../getting_started/img/get_uppmax_2fa_qr.png)
 
 You need to scan this QR code to add your account to your software.
 Most softwares call this "Add account" or similar

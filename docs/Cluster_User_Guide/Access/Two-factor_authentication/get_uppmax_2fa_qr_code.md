@@ -19,7 +19,7 @@ you just need to use whatever code is current.
 Once you have entered and submitted the current code,
 you should see a final page:
 
-![The final page](./img/get_uppmax_2fa_qr_code.png)
+![The final page](../../../getting_started/img/get_uppmax_2fa_qr_code.png)
 
 When you see that page, it will take a little while and the token will
 be activated (you should also receive an e-mail about the new token).

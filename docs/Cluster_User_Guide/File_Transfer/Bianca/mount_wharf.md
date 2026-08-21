@@ -33,7 +33,7 @@ mount_wharf sens2016001
 
 The password is your normal UPPMAX password directly followed by
 the six digits from the
-[the `UPPMAX` 2-factor authentication](../../../getting_started/get_uppmax_2fa.md).
+[the `UPPMAX` 2-factor authentication](../../Access/Two-factor_authentication/index.md).
 For example, if your password is `VerySecret` and the second factor code is `123456`
 you would type `VerySecret123456` as the password in this step.
 

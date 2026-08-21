@@ -4,6 +4,7 @@ tags:
   - MFA
   - UPPMAX
   - TOTP
+title: Two-factor authentication
 ---
 
 # Setting up two factor authentication for UPPMAX
@@ -45,7 +46,7 @@ In your web browser, go to <https://suprintegration.uppmax.uu.se/bootstrapotp/>.
     Here is how <https://suprintegration.uppmax.uu.se/bootstrapotp/>
     looks like:
 
-    ![https://suprintegration.uppmax.uu.se/bootstrapotp](./img/suprintegration_uppmax_uu_se_bootstrapotp.png)
+    ![https://suprintegration.uppmax.uu.se/bootstrapotp](../../../getting_started/img/suprintegration_uppmax_uu_se_bootstrapotp.png)
 
 This will take you to the UU page to request a second factor for your UPPMAX account.
 
@@ -61,7 +62,7 @@ At the 'Login to SUPR' page, log in, in any way that works for you.
 
 ???- question "What does this look like?"
 
-    ![Login to SUPR page when requesting a 2FA](./img/supr_login_for_2fa.png)
+    ![Login to SUPR page when requesting a 2FA](../../../getting_started/img/supr_login_for_2fa.png)
 
 In case you are not logged in already, log in to SUPR.
 
@@ -76,7 +77,7 @@ by pressing the button "Prove My Identity to UPPMAX" on the page.
 
 ???- question "What does that look like?"
 
-    ![Getting an UPPMAX 2FA QR code](./img/get_uppmax_2fa_qr.png)
+    ![Getting an UPPMAX 2FA QR code](../../../getting_started/img/get_uppmax_2fa_qr.png)
 
 ### 7. Enter the code on the webpage
 
@@ -89,7 +90,7 @@ You should see an acknowledgement that the new two factor has been registered.
 
 ???- question "What does that look like?"
 
-    ![The final page](./img/get_uppmax_2fa_qr_code.png)
+    ![The final page](../../../getting_started/img/get_uppmax_2fa_qr_code.png)
 
 ### 9. Wait for a confirmation email
 
@@ -100,7 +101,7 @@ the 2FA to log in.
 
 ???- question "What does the use of a 2FA app look like?"
 
-    ![UPPMAX 2FA set up for a fictional UPPMAX user called `sven`](./img/uppmax_2fa.png)
+    ![UPPMAX 2FA set up for a fictional UPPMAX user called `sven`](../../../getting_started/img/uppmax_2fa.png)
 
     > UPPMAX 2FA set up for a fictional UPPMAX user called `sven`
 
@@ -113,7 +114,7 @@ the 2FA to log in.
     and try to use your new 2FA. You will get a 'Authentication failed'
     error when your new 2FA is not active yet.
 
-    ![Authentication failed](./img/get_uppmax_2fa_authentication_failed_directly_after_new_2fa.png)
+    ![Authentication failed](../../../getting_started/img/get_uppmax_2fa_authentication_failed_directly_after_new_2fa.png)
 
 ???- question "How long does it take before my 2FA is active?"
 

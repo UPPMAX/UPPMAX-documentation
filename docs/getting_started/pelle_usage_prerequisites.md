@@ -90,4 +90,4 @@ to do so.
 
 Another [prerequisite for using Pelle](#prerequisites-for-using-pelle)
 is to have an UPPMAX 2FA.
-See [how to get an UPPMAX 2FA](get_uppmax_2fa.md)
+See [how to get an UPPMAX 2FA](../Cluster_User_Guide/Access/Two-factor_authentication/index.md)

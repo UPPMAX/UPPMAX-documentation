@@ -8,7 +8,7 @@ tags:
 
 The grace period is the period of time that one can access an
 HPC cluster without using a TOTP, for a cluster (e.g. a sensitive
-data cluster) that requires [2FA](../getting_started/get_uppmax_2fa.md).
+data cluster) that requires [2FA](../Cluster_User_Guide/Access/Two-factor_authentication/index.md).
 
 It exists to allow our users to access our HPC clusters
 with tools that assume there is no 2FA needed,

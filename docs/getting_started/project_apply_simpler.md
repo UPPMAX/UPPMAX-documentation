@@ -91,7 +91,7 @@ Once you have a SUPR-account and an approved project, then you can apply for an 
 
 ## 8. Use Bianca
 
-In order to log in to Bianca, you will need to activate two factor authentication according to the [instructions](./get_uppmax_2fa.md).
+In order to log in to Bianca, you will need to activate two factor authentication according to the [instructions](../Cluster_User_Guide/Access/Two-factor_authentication/index.md).
 
 Before you try logging in to Bianca, we recommend that you change temporary password you received by email. This is done on the server Rackham. You reach Rackham e.g. via the software Mobaxterm which you must download and install. Instructions are here.
 
