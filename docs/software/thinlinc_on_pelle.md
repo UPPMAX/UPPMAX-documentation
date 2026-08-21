@@ -24,7 +24,7 @@ See [ThinLinc](../software/thinlinc.md) for a comparison.
 
 > Rackham's remote desktop environment accessed via a local ThinLinc client
 
-See [the UPPMAX page 'Login to the Pelle remote desktop environment using a local ThinLinc client'](../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md).
+See [the UPPMAX page 'Login to the Pelle remote desktop environment using a local ThinLinc client'](../Cluster_User_Guide/Access/Login/Pelle/login_pelle_remote_desktop_local_thinlinc_client.md).
 
 ## Web browser login
 
@@ -32,4 +32,4 @@ See [the UPPMAX page 'Login to the Pelle remote desktop environment using a loca
 
 > Rackham's remote desktop environment accessed via a webbrowser
 
-See [the UPPMAX page 'Login to the Pelle remote desktop environment website'](../getting_started/login_pelle_remote_desktop_website.md).
+See [the UPPMAX page 'Login to the Pelle remote desktop environment website'](../Cluster_User_Guide/Access/Login/Pelle/login_pelle_remote_desktop_website.md).

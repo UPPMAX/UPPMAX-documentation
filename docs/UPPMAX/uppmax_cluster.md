@@ -93,7 +93,7 @@ There are three types of nodes:
     Logging in is described separately per cluster:
 
     - [Bianca](../Cluster_User_Guide/Access/Login/Bianca/index.md).
-    - [Pelle](../getting_started/login_pelle.md).
+    - [Pelle](../Cluster_User_Guide/Access/Login/Pelle/index.md).
 
 - **calculation nodes**: nodes that do the calculations
 

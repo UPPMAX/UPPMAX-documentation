@@ -26,8 +26,8 @@ Jupyter is an [IDE](../ides.md) specialised for
 
 This can be either:
 
-- [Login to the Pelle remote desktop environment using the website](../../../../getting_started/login_pelle_remote_desktop_website.md)
-- [Login to the Pelle remote desktop environment using a local ThinLinc client](../../../../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md)
+- [Login to the Pelle remote desktop environment using the website](../../../../Cluster_User_Guide/Access/Login/Pelle/login_pelle_remote_desktop_website.md)
+- [Login to the Pelle remote desktop environment using a local ThinLinc client](../../../../Cluster_User_Guide/Access/Login/Pelle/login_pelle_remote_desktop_local_thinlinc_client.md)
 
 ### 2. Start an interactive session
 

@@ -15,7 +15,7 @@ tags:
 
 This page describes [how to create and use an SSH key](ssh_key_use.md)
 so that you can
-[login to the Pelle console environment with an SSH key](../getting_started/login_pelle_console_ssh_key.md)
+[login to the Pelle console environment with an SSH key](../Cluster_User_Guide/Access/Login/Pelle/login_pelle_console_ssh_key.md)
 
 ## Procedure
 

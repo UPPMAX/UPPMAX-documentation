@@ -14,7 +14,7 @@ search:
 
 # Login to the Pelle console environment with a password
 
-There are multiple ways to [log in to Pelle](login_pelle.md).
+There are multiple ways to [log in to Pelle](index.md).
 This page describes how to do so using a terminal and a password.
 
 If you want to get rid of using a password every time,
@@ -30,7 +30,7 @@ see [login to the Pelle console environment with an SSH key](login_pelle_console
 
 ## 1. Use `ssh` to log in
 
-From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
+From a [terminal](../../../../software/terminal.md), use [`ssh`](../../../../software/ssh.md) to log in:
 
 ```bash
 ssh [username]@pelle.uppmax.uu.se
@@ -55,7 +55,7 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
     Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
 
-    [Valid finger prints for Pelle](../cluster_guides/pelle_fingerprints.md)
+    [Valid finger prints for Pelle](../../../../cluster_guides/pelle_fingerprints.md)
     
     - Type `yes`!
 
@@ -68,9 +68,9 @@ Using this login, graphics (i.e. images) on Pelle cannot be displayed.
     ```
 
     This option enable so-called
-    [X forwarding](../software/ssh_x_forwarding.md),
+    [X forwarding](../../../../software/ssh_x_forwarding.md),
     which allows you to run programs that require light graphics,
-    such as [eog](../software/eog.md) to display an image.
+    such as [eog](../../../../software/eog.md) to display an image.
 
 ???- question "Why no `-A`?"
 
@@ -105,7 +105,7 @@ for example `123456`, then press enter.
 ## 4. You are in
 
 Enjoy! You are in! Or, to be precise,
-you are in your home folder on a Pelle [login node](../cluster_guides/login_node.md).
+you are in your home folder on a Pelle [login node](../../../../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -113,7 +113,7 @@ you are in your home folder on a Pelle [login node](../cluster_guides/login_node
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_pelle.md).
+    [use the Slurm job scheduler](../../../../cluster_guides/slurm_on_pelle.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_pelle.md).
+    [use an interactive session](../../../../cluster_guides/start_interactive_session_on_pelle.md).

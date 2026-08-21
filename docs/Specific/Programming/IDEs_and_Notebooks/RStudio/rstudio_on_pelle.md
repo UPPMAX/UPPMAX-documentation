@@ -16,7 +16,7 @@ using Pelle's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the 'Logging in to Pelle' page](../../../../getting_started/login_pelle.md).
+    See [the 'Logging in to Pelle' page](../../../../Cluster_User_Guide/Access/Login/Pelle/index.md).
 
     Spoiler: go to [https://pelle.uppmax.uu.se/](https://pelle.uppmax.uu.se/)
 
@@ -40,8 +40,8 @@ Below is a step-by-step procedure to start RStudio on Pelle.
 
 This can be either:
 
-- [Login to the Pelle remote desktop environment using the website](../../../../getting_started/login_pelle_remote_desktop_website.md)
-- [Login to the Pelle remote desktop environment using a local ThinLinc client](../../../../getting_started/login_pelle_remote_desktop_local_thinlinc_client.md)
+- [Login to the Pelle remote desktop environment using the website](../../../../Cluster_User_Guide/Access/Login/Pelle/login_pelle_remote_desktop_website.md)
+- [Login to the Pelle remote desktop environment using a local ThinLinc client](../../../../Cluster_User_Guide/Access/Login/Pelle/login_pelle_remote_desktop_local_thinlinc_client.md)
 
 ## 2. Start an interactive session
 

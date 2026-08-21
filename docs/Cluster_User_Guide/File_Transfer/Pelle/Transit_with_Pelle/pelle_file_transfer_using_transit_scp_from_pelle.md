@@ -40,7 +40,7 @@ Use a [terminal](../../../../software/terminal.md) to login to Pelle.
 
 ???- question "Forgot how to login to Pelle?"
 
-    See [this step-by-step guide how to login to Pelle](../../../../getting_started/login_pelle.md).
+    See [this step-by-step guide how to login to Pelle](../../../Access/Login/Pelle/index.md).
 
     Spoiler: `ssh [username]@pelle.uppmax.uu.se`
 

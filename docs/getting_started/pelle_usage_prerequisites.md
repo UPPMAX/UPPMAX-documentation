@@ -1,6 +1,6 @@
 # Prerequisites for using Pelle
 
-To be allowed to [log in to Pelle](../getting_started/login_pelle.md),
+To be allowed to [log in to Pelle](../Cluster_User_Guide/Access/Login/Pelle/index.md),
 one needs all of these:
 
 - [An active research project](#an-active-research-project)

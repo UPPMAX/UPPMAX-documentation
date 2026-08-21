@@ -71,7 +71,7 @@ tags:
     
 ## [How to apply to a Pelle project](../getting_started/project_apply_pelle.md)
 
-## [How to log in to Pelle](../getting_started/login_pelle.md)
+## [How to log in to Pelle](../Cluster_User_Guide/Access/Login/Pelle/index.md)
 
 ## Features of Pelle, compared to Rackham
 

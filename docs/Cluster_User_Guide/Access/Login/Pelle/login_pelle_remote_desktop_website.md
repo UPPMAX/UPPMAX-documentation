@@ -12,7 +12,7 @@ search:
 
 # Log in to Pelle's remote desktop via a webbrowser
 
-There are multiple ways to [log in to Pelle](login_pelle.md).
+There are multiple ways to [log in to Pelle](index.md).
 This page describes how to log in to its remote desktop environment
 via a web browser.
 
@@ -24,7 +24,7 @@ via a web browser.
     [Log in to Pelle's remote desktop via a webbrowser](https://youtu.be/XjLMA0cAu1o)
 
 This is a procedure with one step.
-Most work will be to fulfil all [Pelle usage prerequisites](pelle_usage_prerequisites.md).
+Most work will be to fulfil all [Pelle usage prerequisites](../../../../getting_started/pelle_usage_prerequisites.md).
 
 ## 1. Go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se)
 
@@ -32,7 +32,7 @@ In a webbrowser, go to [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax
 
 ???- question "What does that look like?"
 
-    ![Pelle website login screen](img/login_pelle_remote_desktop_website_1.png)
+    ![Pelle website login screen](../../../../getting_started/img/login_pelle_remote_desktop_website_1.png)
 
 ## 2. Fill in your name and password
 
@@ -45,19 +45,19 @@ fill in your details:
 
 ???- question "What does that look like?"
 
-    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_2.png)
+    ![Pelle website login screen with details](../../../../getting_started/img/login_pelle_remote_desktop_website_2.png)
 
 ## 3. Fill in your time-based one-time password
 
 The next dialog of [https://pelle-gui.uppmax.uu.se](https://pelle-gui.uppmax.uu.se)
 asks for a time-based one-time password (TOTP)
 
-- Fill in the TOTP from your [UPPMAX 2FA](../getting_started/get_uppmax_2fa.md),
+- Fill in the TOTP from your [UPPMAX 2FA](../../../../getting_started/get_uppmax_2fa.md),
 e.g. `123456`.
 
 ???- question "What does that look like?"
 
-    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_4.png)
+    ![Pelle website login screen with details](../../../../getting_started/img/login_pelle_remote_desktop_website_4.png)
 
 ## 4. (sometimes) pick a profile
 
@@ -67,7 +67,7 @@ At the first dialog, click 'Forward'.
 
 ???- question "What does that look like?"
 
-    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_5.png)
+    ![Pelle website login screen with details](../../../../getting_started/img/login_pelle_remote_desktop_website_5.png)
 
 
 At the second dialog, pick your favourite desktop environment. Both are
@@ -75,15 +75,15 @@ equally fine.
 
 ???- question "What does that look like?"
 
-    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_6.png)
+    ![Pelle website login screen with details](../../../../getting_started/img/login_pelle_remote_desktop_website_6.png)
 
 ## 5. Welcome on Pelle's login node
 
-Welcome on a Pelle [login node](../cluster_guides/login_node.md)!
+Welcome on a Pelle [login node](../../../../cluster_guides/login_node.md)!
 
 ???- question "What does that look like?"
 
-    ![Pelle website login screen with details](img/login_pelle_remote_desktop_website_7.png)
+    ![Pelle website login screen with details](../../../../getting_started/img/login_pelle_remote_desktop_website_7.png)
 
 !!! note "How to behave on a login node"
 
@@ -91,11 +91,11 @@ Welcome on a Pelle [login node](../cluster_guides/login_node.md)!
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_pelle.md).
+    [use the Slurm job scheduler](../../../../cluster_guides/slurm_on_pelle.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_pelle.md).
+    [use an interactive session](../../../../cluster_guides/start_interactive_session_on_pelle.md).
 
 For tips on how to work with this environment,
-see [the UPPMAX ThinLinc page](../software/thinlinc.md)
+see [the UPPMAX ThinLinc page](../../../../software/thinlinc.md)
 (as that software is used to do the heavy lifting for that website).

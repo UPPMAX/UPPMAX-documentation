@@ -21,7 +21,7 @@ tags:
 ### 1. Log in
 
 If you have an account on Pelle,
-[log in to Pelle](../../getting_started/login_pelle.md).
+[log in to Pelle](Login/Pelle/index.md).
 
 If you have a SENS project only, using only Bianca,
 [log in to Transit instead](../../cluster_guides/login_transit.md).

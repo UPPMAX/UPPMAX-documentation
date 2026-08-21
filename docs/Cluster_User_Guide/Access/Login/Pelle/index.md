@@ -9,11 +9,11 @@ search:
 
 # Log in to Pelle
 
-There are multiple UPPMAX clusters one can [log in to](../Cluster_User_Guide/Access/Login/index.md).
-Here we describe how to log in to [Pelle](../cluster_guides/pelle.md).
+There are multiple UPPMAX clusters one can [log in to](../index.md).
+Here we describe how to log in to [Pelle](../../../../cluster_guides/pelle.md).
 
 
-- [Prerequisites](pelle_usage_prerequisites.md) describes what is needed before one can access Pelle
+- [Prerequisites](../../../../getting_started/pelle_usage_prerequisites.md) describes what is needed before one can access Pelle
 - [Which way to login?](#which-way-to-login)
     - [Website](login_pelle_remote_desktop_website.md)
     - [Terminal](login_pelle_console_password.md)
@@ -21,13 +21,13 @@ Here we describe how to log in to [Pelle](../cluster_guides/pelle.md).
 
 ## Which way to login?
 
-There are multiple ways to log in to [Pelle](../cluster_guides/pelle.md):
+There are multiple ways to log in to [Pelle](../../../../cluster_guides/pelle.md):
 
 Login                                                                         |Description                                                     |Screenshot
 ------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------------
-[Website](login_pelle_remote_desktop_website.md)                              |Remote desktop, beginner-friendly, no installation needed, slow |![The Pelle remote desktop via webbrowser](img/login_pelle_remote_desktop_website_7.png)
-[Terminal](login_pelle_console_password.md)                                   |Console environment, powerful                                   |![The Pelle console environment](./img/login_pelle_via_terminal_terminal_414_x_247.png)
-[Local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)  |Remote desktop, need installation, faster than via webbrowser   |![The Pelle remote desktop via the a local ThinLinc client](../software/img/thinlinc_local_pelle.png)
+[Website](login_pelle_remote_desktop_website.md)                              |Remote desktop, beginner-friendly, no installation needed, slow |![The Pelle remote desktop via webbrowser](../../../../getting_started/img/login_pelle_remote_desktop_website_7.png)
+[Terminal](login_pelle_console_password.md)                                   |Console environment, powerful                                   |![The Pelle console environment](../../../../getting_started/img/login_pelle_via_terminal_terminal_414_x_247.png)
+[Local ThinLinc client](login_pelle_remote_desktop_local_thinlinc_client.md)  |Remote desktop, need installation, faster than via webbrowser   |![The Pelle remote desktop via the a local ThinLinc client](../../../../software/img/thinlinc_local_pelle.png)
 
 Here is a decision tree, to determine which way to log in:
 
@@ -61,7 +61,7 @@ The procedures can be found at:
 - [3.Login to the Pelle console environment with a password](login_pelle_console_password.md).
 - [4.Login to the Pelle console environment with an SSH key](login_pelle_console_ssh_key.md)
 
-After login, you will be on a [login node](../cluster_guides/login_node.md).
+After login, you will be on a [login node](../../../../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -69,10 +69,10 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_pelle.md).
+    [use the Slurm job scheduler](../../../../cluster_guides/slurm_on_pelle.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_pelle.md).
+    [use an interactive session](../../../../cluster_guides/start_interactive_session_on_pelle.md).
 
 !!! note "About Pelle hostname"
 
