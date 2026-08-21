@@ -16,10 +16,10 @@ search:
 
 # Login to the Bianca console environment with a password from outside of the Swedish university networks
 
-There are multiple ways to [log in to Bianca](login_bianca.md).
+There are multiple ways to [log in to Bianca](index.md).
 
-This page describes how to [log in to Bianca](login_bianca.md)
-using a [terminal](../software/terminal.md) and a password
+This page describes how to [log in to Bianca](index.md)
+using a [terminal](../../../../software/terminal.md) and a password
 from outside of the Swedish university networks.
 
 !!! danger

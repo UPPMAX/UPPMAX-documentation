@@ -33,7 +33,7 @@ To transfer files to/from Bianca using FileZilla, do the following steps:
 
 ## 1. Get inside SUNET
 
-Check how to get inside university networks : [Get inside of SUNET](../../../getting_started/get_inside_sunet.md).
+Check how to get inside university networks : [Get inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md).
 If you are part of a Swedish university, you can use the VPN provided by your university.
 
 ## 2. Start FileZilla
@@ -154,7 +154,7 @@ Hypotheses:
     [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se):
     if this page does not load, you are outside of the university networks.
 
-    See [How to get inside of the university networks](../../../getting_started/get_inside_sunet.md)
+    See [How to get inside of the university networks](../../Access/Login/Bianca/get_inside_sunet.md)
     if you outside of the university networks.
 
 - The account is not active

@@ -12,10 +12,10 @@ search:
 
 # Login to the Bianca console environment using SSH keys
 
-There are multiple ways to [log in to Bianca](login_bianca.md).
+There are multiple ways to [log in to Bianca](index.md).
 
-This page describes how to [log in to Bianca](login_bianca.md)
-using a [terminal](../software/terminal.md) and an SSH key pair.
+This page describes how to [log in to Bianca](index.md)
+using a [terminal](../../../../software/terminal.md) and an SSH key pair.
 
 !!! warning "Unsure on which platforms this works"
 
@@ -35,7 +35,7 @@ using SSH and SSH keys.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](get_inside_sunet.md)
 
 This is considered a bit harder to setup,
 but one only needs to type one password to login to Bianca.
@@ -44,7 +44,7 @@ an easier setup is [log in to the Bianca console environment with a password](lo
 
 ## 2. Use `ssh` to log in
 
-From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
+From a [terminal](../../../../software/terminal.md), use [`ssh`](../../../../software/ssh.md) to log in:
 
 ```bash
 ssh -A [user]@bianca.uppmax.uu.se
@@ -72,7 +72,7 @@ ssh -A sven@bianca.uppmax.uu.se
     ```
 
     However, on Bianca, this so-called
-    [X forwarding](../software/ssh_x_forwarding.md) is disabled.
+    [X forwarding](../../../../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
 ## 3. Type your UPPMAX password
@@ -113,7 +113,7 @@ Type your Bianca project's name.
 ## 6. You are in
 
 Enjoy! You are in! To be precise,
-you are on a Bianca [login node](../cluster_guides/login_node.md).
+you are on a Bianca [login node](../../../../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -121,10 +121,10 @@ you are on a Bianca [login node](../cluster_guides/login_node.md).
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+    [use the Slurm job scheduler](../../../../cluster_guides/slurm_on_bianca.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_bianca.md).
+    [use an interactive session](../../../../cluster_guides/start_interactive_session_on_bianca.md).
 
 In a Bianca console environment:
 

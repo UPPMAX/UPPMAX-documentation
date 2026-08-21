@@ -49,7 +49,7 @@ sbatch -A sens2017625 my_script.sh
 
 ???- question "Forgot your Bianca project?"
 
-    When [login to Bianca's remote desktop environment](../getting_started/login_bianca.md)
+    When [login to Bianca's remote desktop environment](../Cluster_User_Guide/Access/Login/Bianca/index.md)
     webpage at [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se) is
     helpful in showing you your Bianca projects:
 
@@ -97,7 +97,7 @@ where `[project_code]` is the project code, for example:
 
 ???- question "Forgot your Bianca project?"
 
-    When [login to Bianca's remote desktop environment](../getting_started/login_bianca.md)
+    When [login to Bianca's remote desktop environment](../Cluster_User_Guide/Access/Login/Bianca/index.md)
     webpage at [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se) is
     helpful in showing you your Bianca projects:
 

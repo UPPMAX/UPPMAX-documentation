@@ -29,7 +29,7 @@ using SSH and SSH keys.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../Cluster_User_Guide/Access/Login/Bianca/get_inside_sunet.md)
 
 This is considered a bit harder to setup,
 but one only needs to type one password to login to Pelle.

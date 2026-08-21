@@ -35,11 +35,11 @@ To transfer files to/from Bianca using WinSCP, do the following steps:
 
 ### 1. Get inside SUNET
 
-[Get inside of SUNET](../../../getting_started/get_inside_sunet.md).
+[Get inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../../../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../Access/Login/Bianca/get_inside_sunet.md)
 
 ### 2. Start WinSCP
 

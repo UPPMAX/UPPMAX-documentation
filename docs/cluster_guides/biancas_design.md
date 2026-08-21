@@ -41,7 +41,7 @@ which is a special file area that is visible from the Internet.
     - You *can* log in, but with extra steps
     - You *can* transfer files, but with extra steps
     - We recommend using the remote desktop login, see
-      [the UPPMAX page on how to login to Bianca](../getting_started/login_bianca.md)
+      [the UPPMAX page on how to login to Bianca](../Cluster_User_Guide/Access/Login/Bianca/index.md)
 
 As Bianca is an HPC cluster that should be as easy to
 use as possible, there are two ways to interact with Bianca:
@@ -53,7 +53,7 @@ access Bianca.
 
 One such constraint in accessing Bianca,
 is that one has to be within the university
-networks, as described at [get within the university networks](../getting_started/get_inside_sunet.md).
+networks, as described at [get within the university networks](../Cluster_User_Guide/Access/Login/Bianca/get_inside_sunet.md).
 
 Another such constraint, is that data can be
 transferred to or from a virtual project cluster through the so-called 'wharf',

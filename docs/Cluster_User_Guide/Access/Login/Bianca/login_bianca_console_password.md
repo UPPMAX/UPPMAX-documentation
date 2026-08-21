@@ -12,10 +12,10 @@ search:
 
 # Login to the Bianca console environment with a password
 
-There are multiple ways to [log in to Bianca](login_bianca.md).
+There are multiple ways to [log in to Bianca](index.md).
 
-This page describes how to [log in to Bianca](login_bianca.md)
-using a [terminal](../software/terminal.md) and a password:
+This page describes how to [log in to Bianca](index.md)
+using a [terminal](../../../../software/terminal.md) and a password:
 
 - [Procedure](#procedure): describes the procedure
 - [Troubleshooting](#troubleshooting): describes how to fix errors
@@ -33,11 +33,11 @@ Get inside the university networks.
 
 ???- question "Forgot how to get within the university networks?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](get_inside_sunet.md)
 
 ### 2. Use `ssh` to log in
 
-From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to log in:
+From a [terminal](../../../../software/terminal.md), use [`ssh`](../../../../software/ssh.md) to log in:
 
 ```bash
 ssh [username]@bianca.uppmax.uu.se
@@ -98,7 +98,7 @@ ssh sven@bianca.uppmax.uu.se
     ```
 
     However, on Bianca, this so-called
-    [X forwarding](../software/ssh_x_forwarding.md) is disabled.
+    [X forwarding](../../../../software/ssh_x_forwarding.md) is disabled.
     Hence, we do not teach it :-)
 
 ### 3. Type your UPPMAX password
@@ -194,7 +194,7 @@ for example `verysecret`
 ### 7. You are in
 
 Enjoy! You are in! Or, to be precise,
-you are on the [login node](../cluster_guides/login_node.md) of your own virtual project cluster.
+you are on the [login node](../../../../cluster_guides/login_node.md) of your own virtual project cluster.
 
 ???- question "What does this look like?"
 
@@ -223,10 +223,10 @@ you are on the [login node](../cluster_guides/login_node.md) of your own virtual
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+    [use the Slurm job scheduler](../../../../cluster_guides/slurm_on_bianca.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_bianca.md).
+    [use an interactive session](../../../../cluster_guides/start_interactive_session_on_bianca.md).
 
 By default, this node has one core,
 hence if you need more memory or more CPU power,
@@ -298,7 +298,7 @@ flowchart TD
     [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se):
     if this page does not load, you are outside of the university networks.
 
-    See [How to get inside of the university networks](../getting_started/get_inside_sunet.md)
+    See [How to get inside of the university networks](get_inside_sunet.md)
     if you outside of the university networks.
 
 ???- question "How do I know if the Bianca project is active?"
@@ -308,8 +308,8 @@ flowchart TD
     and type your username. If the project is displayed, it is active.
 
     To confirm your project is active or inactive, use the SUPR NAISS website.
-    See [the UPPMAX documentation on projects](../getting_started/project.md)
+    See [the UPPMAX documentation on projects](../../../../getting_started/project.md)
     how to see if your project is active?
 
-See [the UPPMAX page on contacting support](../UPPMAX/support.md)
+See [the UPPMAX page on contacting support](../../../../UPPMAX/support.md)
 on how to contact us.

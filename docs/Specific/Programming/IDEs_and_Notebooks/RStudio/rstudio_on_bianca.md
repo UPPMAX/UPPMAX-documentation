@@ -18,7 +18,7 @@ using Bianca's remote desktop environment.
 
 ???- tip "Forgot how to login to a remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../../../../getting_started/login_bianca.md).
+    See [the 'Logging in to Bianca' page](../../../../Cluster_User_Guide/Access/Login/Bianca/index.md).
 
     Spoiler: go to [https://bianca.uppmax.uu.se/](https://bianca.uppmax.uu.se/)
 
@@ -41,13 +41,13 @@ Below is a step-by-step procedure to start RStudio on Bianca.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../../../../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../../../Cluster_User_Guide/Access/Login/Bianca/get_inside_sunet.md)
 
 ### 2. Start the Bianca remote desktop environment
 
 ???- tip "Forgot how to start Bianca's remote desktop environment?"
 
-    See [the 'Logging in to Bianca' page](../../../../getting_started/login_bianca.md).
+    See [the 'Logging in to Bianca' page](../../../../Cluster_User_Guide/Access/Login/Bianca/index.md).
 
 ### 3. Start an interactive session
 

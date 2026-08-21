@@ -6,7 +6,7 @@ the [Bianca](../../../cluster_guides/bianca.md) UPPMAX cluster.
 
 For all file transfer on Bianca:
 
-* [The user needs to be inside of SUNET](../../../getting_started/get_inside_sunet.md)
+* [The user needs to be inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md)
 * The files are moved from/to [the `wharf` folder](wharf.md)
 
 ## File transfer methods

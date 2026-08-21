@@ -8,7 +8,7 @@ Below is a step-by-step procedure to login to [Transit](../Cluster_User_Guide/Fi
 
 ## 1. Get within SUNET
 
-[Get inside the university networks](../getting_started/get_inside_sunet.md).
+[Get inside the university networks](../Cluster_User_Guide/Access/Login/Bianca/get_inside_sunet.md).
 
 ## 2. Use SSH to login
 

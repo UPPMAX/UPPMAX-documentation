@@ -17,13 +17,13 @@ search:
 
 # Log in to the Bianca remote desktop environment website
 
-![The Bianca remote desktop environment](./img/bianca_remote_desktop.png)
+![The Bianca remote desktop environment](../../../../getting_started/img/bianca_remote_desktop.png)
 
 > The Bianca remote desktop environment
 
-There are multiple ways to [log in to Bianca](login_bianca.md).
+There are multiple ways to [log in to Bianca](index.md).
 
-This page describes how to [log in to Bianca](login_bianca.md)
+This page describes how to [log in to Bianca](index.md)
 using a remote desktop that is accessible from a webbrowser.
 
 ## Procedure
@@ -34,18 +34,18 @@ using a remote desktop that is accessible from a webbrowser.
     [Log in to the Bianca remote desktop environment website](https://youtu.be/UpNI5OUlIo8)
 
 
-### 1. [Get inside SUNET](../getting_started/get_inside_sunet.md)
+### 1. [Get inside SUNET](get_inside_sunet.md)
 
 As Bianca is an HPC cluster for sensitive data,
 one needs to be within SUNET to be able to access her.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](get_inside_sunet.md)
 
 ???- question "What does it look like to try to access a remote desktop from outside of SUNET?"
 
-    ![Nothing will appear in your browser](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+    ![Nothing will appear in your browser](../../../../getting_started/img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
@@ -65,12 +65,12 @@ When inside SUNET, one can access a remote desktop environment using a website:
 
 ### 2. Go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
-[When inside SUNET](../getting_started/get_inside_sunet.md),
+[When inside SUNET](get_inside_sunet.md),
 in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se).
 
 ???- question "What does it look like when outside of SUNET?"
 
-    ![Nothing will appear in your browser](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+    ![Nothing will appear in your browser](../../../../getting_started/img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
     > When accessing the Bianca UPPMAX login website from outside of SUNET,
     > nothing will appear in your browser.
@@ -86,23 +86,23 @@ in your web browser, go to [https://bianca.uppmax.uu.se](https://bianca.uppmax.u
 - Start typing the project name and it will auto-fill from what you have available.
 - Note that old projects start with ``sens``, whereas from 2026 starts with ``naiss``.
 
-Do use the `UPPMAX` [2-factor authentication](get_uppmax_2fa.md) (i.e. not SUPR!)
+Do use the `UPPMAX` [2-factor authentication](../../../../getting_started/get_uppmax_2fa.md) (i.e. not SUPR!)
 
 ???- question "What does that web page look like?"
 
-    ![Bianca login, first dialog](./img/bianca_gui_login_1st.png)
+    ![Bianca login, first dialog](../../../../getting_started/img/bianca_gui_login_1st.png)
 
     > The first page of [https://bianca.uppmax.uu.se](https://bianca.uppmax.uu.se)
 
 ???- question "How do I setup 2-factor authentication?"
 
-    See the guide at [2-factor authentication](get_uppmax_2fa.md)
+    See the guide at [2-factor authentication](../../../../getting_started/get_uppmax_2fa.md)
     to setup an UPPMAX 2-factor authentication method.
 
     You really need to use the UPPMAX 2-factor authentication,
     i.e not the SUPR one, to login to Bianca.
 
-    ![Screenshot of a two-factor authentication app](./img/2fa_uppmax_and_supr.png)
+    ![Screenshot of a two-factor authentication app](../../../../getting_started/img/2fa_uppmax_and_supr.png)
 
     > Screenshot of a two-factor authentication app.
     > Use the 2-factor authentication called 'UPPMAX'
@@ -113,7 +113,7 @@ Simply do that :-)
 
 ???- question "What does that web page look like?"
 
-    ![No ThinLinc Web Access active](../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
+    ![No ThinLinc Web Access active](../../../../getting_started/img/login_uppmax_bianca_website_create_login_node.png)
 
     > No ThinLinc Web Access active
     > The login node for your project cluster is probably asleep.
@@ -139,10 +139,10 @@ Fill in the second dialog, using your regular password (i.e. no need for two-fac
 
 ???- question "What does that web page look like?"
 
-    ![Bianca login, second dialog](./img/bianca_gui_login_2nd.png)
+    ![Bianca login, second dialog](../../../../getting_started/img/bianca_gui_login_2nd.png)
 
     > The second Bianca remote desktop login dialog.
-    > Note that it uses [ThinLinc](../software/thinlinc.md) to establish this connection
+    > Note that it uses [ThinLinc](../../../../software/thinlinc.md) to establish this connection
 
 ### 5. Picking a remote desktop flavor, but not KDE
 
@@ -150,11 +150,11 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 ???- question "What does that look like?"
 
-    ![Here you are told you will need to pick a remote desktop flavor](./img/remote_desktop_thinlinc_profile_chooser.png)
+    ![Here you are told you will need to pick a remote desktop flavor](../../../../getting_started/img/remote_desktop_thinlinc_profile_chooser.png)
 
     > Here you are told you will need to pick a remote desktop flavor
 
-    ![Pick a remote desktop flavor](./img/remote_desktop_thinlinc_profile_chooser_xfce.png)
+    ![Pick a remote desktop flavor](../../../../getting_started/img/remote_desktop_thinlinc_profile_chooser_xfce.png)
 
     > Here you are asked to pick a remote desktop flavor,
     > with Xfce as the default.
@@ -169,14 +169,14 @@ When picking a remote desktop flavor, pick GNOME or XFCE, avoid picking KDE.
 
 ### 6. You are in
 
-Enjoy! You are in: you are now on a Bianca [login node](../cluster_guides/login_node.md).
+Enjoy! You are in: you are now on a Bianca [login node](../../../../cluster_guides/login_node.md).
 
 ???- question "How do I copy-paste text?"
 
     The Bianca remote desktop environment via a website
-    uses [ThinLinc](../software/thinlinc.md).
+    uses [ThinLinc](../../../../software/thinlinc.md).
 
-    At [the ThinLinc page](../software/thinlinc.md) you can find
+    At [the ThinLinc page](../../../../software/thinlinc.md) you can find
     how to work with its interface.
 
 !!! note "How to behave on a login node"
@@ -185,10 +185,10 @@ Enjoy! You are in: you are now on a Bianca [login node](../cluster_guides/login_
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+    [use the Slurm job scheduler](../../../../cluster_guides/slurm_on_bianca.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_bianca.md).
+    [use an interactive session](../../../../cluster_guides/start_interactive_session_on_bianca.md).
 
 
 ???- question "What is the difference between 'disconnect session' and 'end session'?"
@@ -234,14 +234,14 @@ flowchart TD
 
 ???- question "What does that look like?"
 
-    ![Log in to Bianca's remote desktop environment and getting an 'Access denied' error](./img/login_bianca_remote_desktop_website_access_denied.png)
+    ![Log in to Bianca's remote desktop environment and getting an 'Access denied' error](../../../../getting_started/img/login_bianca_remote_desktop_website_access_denied.png)
 
-[Contact support](../UPPMAX/support.md).
+[Contact support](../../../../UPPMAX/support.md).
 
 ### Authentication failed
 
 ???- question "What does that look like?"
 
-    ![Log in to Bianca's remote desktop environment and getting an 'Authentication failed' error](./img/login_bianca_remote_desktop_website_authentication_failed.png)
+    ![Log in to Bianca's remote desktop environment and getting an 'Authentication failed' error](../../../../getting_started/img/login_bianca_remote_desktop_website_authentication_failed.png)
 
-[Contact support](../UPPMAX/support.md).
+[Contact support](../../../../UPPMAX/support.md).

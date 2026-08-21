@@ -10,11 +10,11 @@ tags:
 # Setup a VPN
 
 Some [UPPMAX clusters](../UPPMAX/uppmax_cluster.md) require you
-to [have an IP address inside of SUNET](get_inside_sunet.md).
+to [have an IP address inside of SUNET](../Cluster_User_Guide/Access/Login/Bianca/get_inside_sunet.md).
 A virtual private network (VPN) allows one to do so: it will use the
 Swedish university networks to connect to the UPPMAX clusters.
 
-To be able to use a VPN to [get inside of SUNET](get_inside_sunet.md):
+To be able to use a VPN to [get inside of SUNET](../Cluster_User_Guide/Access/Login/Bianca/get_inside_sunet.md):
 
 - For Uppsala University:
     - Mac and Windows users: [go to this staff page](https://www.uu.se/en/staff/service-and-tools/tools-and-guides/connect-to-the-network-remotely/connect-to-the-university-network-via-vpn)

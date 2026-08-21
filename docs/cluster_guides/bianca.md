@@ -82,7 +82,7 @@ Because of this, I (Richel) put this info in comments.
 
 ## Get started
 
-[Log in](../getting_started/login_bianca.md){ .md-button .md-button--primary }
+[Log in](../Cluster_User_Guide/Access/Login/Bianca/index.md){ .md-button .md-button--primary }
 
 [Bianca workshops](https://uppmax.github.io/bianca_workshops/){ .md-button .md-button--primary }
 

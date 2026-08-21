@@ -26,11 +26,11 @@ UPPMAX guide                                                                    
 Cyberduck                                                                              |Mac and Windows only
 
 When using such a graphical tool,
-one needs [to be inside of SUNET](../../../getting_started/get_inside_sunet.md).
+one needs [to be inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md).
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../../../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../Access/Login/Bianca/get_inside_sunet.md)
 
 When a tool is setup, one can only transfer files
 between you local computer and [your Bianca `wharf` folder](wharf.md).

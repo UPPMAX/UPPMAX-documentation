@@ -22,9 +22,9 @@ to [transfer files to/from Bianca](index.md).
 
     See [a video showing how to `sftp` with Bianca](https://youtu.be/URWIubTVSZQ).
 
-### 1. [Get inside of SUNET](../../../getting_started/get_inside_sunet.md)
+### 1. [Get inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md)
 
-[Get inside of SUNET](../../../getting_started/get_inside_sunet.md).
+[Get inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md).
 
 If needed, [start the grace period](../../../cluster_guides/grace_period.md).
 

@@ -9,14 +9,14 @@ search:
 
 # Log in to Bianca
 
-![The Bianca environments](./img/bianca_environments_926_x_261.png)
+![The Bianca environments](../../../../getting_started/img/bianca_environments_926_x_261.png)
 
 > The two Bianca environments to work on Bianca.
 > At the left is a remote desktop environment.
 > At the the right is the console environment.
 
-There are multiple UPPMAX clusters one can [log in to](../Cluster_User_Guide/Access/Login/index.md).
-Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
+There are multiple UPPMAX clusters one can [log in to](../index.md).
+Here it is described how to log in to [Bianca](../../../../cluster_guides/bianca.md):
 
 ## For returning users
 
@@ -31,7 +31,7 @@ Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 ## Which way to log in to Bianca
 
-After you've fulfilled all [prerequisites for using Bianca](bianca_usage_prerequisites.md),
+After you've fulfilled all [prerequisites for using Bianca](../../../../getting_started/bianca_usage_prerequisites.md),
 there are many ways to log in to Bianca.
 
 Here is the decision tree, with more detailed explanation below it:
@@ -97,24 +97,24 @@ smoothly.
     One can pick multiple remote desktop environments,
     such as GNOME and XFCE (and KDE, don't pick KDE!).
 
-    ![The Bianca remote desktop](./img/bianca_remote_desktop.png)
+    ![The Bianca remote desktop](../../../../getting_started/img/bianca_remote_desktop.png)
 
     > The Bianca XFCE remote desktop environment
 
-    ![A more populated Bianca remote desktop](../software/img/thinlinc_local_bianca.jpg)
+    ![A more populated Bianca remote desktop](../../../../software/img/thinlinc_local_bianca.jpg)
 
     > A more populated Bianca XFCE remote desktop
 
 - A remote desktop environment, also called 'graphical environment',
-  'GUI environment', '[ThinLinc](../software/thinlinc.md) environment'
+  'GUI environment', '[ThinLinc](../../../../software/thinlinc.md) environment'
 
 ???- question "What does the Bianca console environment look like?"
 
-    ![The Bianca console environment](./img/login_bianca_via_terminal_terminal.png)
+    ![The Bianca console environment](../../../../getting_started/img/login_bianca_via_terminal_terminal.png)
 
     > The Bianca console environment
 
-- A console environment, also called 'terminal environment' or '[terminal](../software/terminal.md)'
+- A console environment, also called 'terminal environment' or '[terminal](../../../../software/terminal.md)'
 
 Question C, 'How to log in?' is about how you prefer to login.
 The option 'Using a password' is more suitable for new users,
@@ -138,7 +138,7 @@ Here are the ways to log in to Bianca:
   to log in to Bianca's console environment.
 - Unfortunately you cannot reach the remote desktop for Pelle outside SUNET
 
-After login, you will be on a [login node](../cluster_guides/login_node.md).
+After login, you will be on a [login node](../../../../cluster_guides/login_node.md).
 
 !!! note "How to behave on a login node"
 
@@ -146,7 +146,7 @@ After login, you will be on a [login node](../cluster_guides/login_node.md).
     it is a resource shared with all other users on that node.
 
     If you need to do more intense calculations,
-    [use the Slurm job scheduler](../cluster_guides/slurm_on_bianca.md).
+    [use the Slurm job scheduler](../../../../cluster_guides/slurm_on_bianca.md).
 
     If you need to do more intense calculations interactively,
-    [use an interactive session](../cluster_guides/start_interactive_session_on_bianca.md).
+    [use an interactive session](../../../../cluster_guides/start_interactive_session_on_bianca.md).

@@ -19,9 +19,9 @@ as well as some troubleshooting.
 
 ## Procedure
 
-### 1. [Get inside of SUNET](../../../getting_started/get_inside_sunet.md)
+### 1. [Get inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md)
 
-[Get inside of SUNET](../../../getting_started/get_inside_sunet.md).
+[Get inside of SUNET](../../Access/Login/Bianca/get_inside_sunet.md).
 
 ### 2. Start `lftp`
 

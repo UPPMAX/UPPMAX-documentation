@@ -1,6 +1,6 @@
 # Prerequisites for using Bianca
 
-To be allowed to [log in to Bianca](../getting_started/login_bianca.md),
+To be allowed to [log in to Bianca](../Cluster_User_Guide/Access/Login/Bianca/index.md),
 one needs all of these:
 
 - [An active research project](#an-active-research-project)

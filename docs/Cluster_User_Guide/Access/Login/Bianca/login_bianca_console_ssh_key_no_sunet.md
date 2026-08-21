@@ -16,10 +16,10 @@ search:
 
 # Login to the Bianca console environment using SSH keys from outside of the Swedish university networks
 
-There are multiple ways to [log in to Bianca](login_bianca.md).
+There are multiple ways to [log in to Bianca](index.md).
 
-This page describes how to [log in to Bianca](login_bianca.md)
-using a [terminal](../software/terminal.md) and an SSH key pair
+This page describes how to [log in to Bianca](index.md)
+using a [terminal](../../../../software/terminal.md) and an SSH key pair
 from outside of the Swedish university networks.
 
 ## Procedure

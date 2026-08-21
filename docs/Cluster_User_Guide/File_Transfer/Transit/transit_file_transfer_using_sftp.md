@@ -34,7 +34,7 @@ Get inside SUNET.
 
 ???- question "Forgot how to get within SUNET?"
 
-    See [the 'get inside the university networks' page](../../../getting_started/get_inside_sunet.md)
+    See [the 'get inside the university networks' page](../../Access/Login/Bianca/get_inside_sunet.md)
 
 ### 2. Start a terminal on your local computer
 

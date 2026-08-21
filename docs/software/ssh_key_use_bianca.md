@@ -22,7 +22,7 @@ for the [Bianca](../cluster_guides/bianca.md) cluster.
 This procedure will fail if:
 
 - You are outside of the university networks,
-  see [how to get inside the university networks](../getting_started/get_inside_sunet.md).
+  see [how to get inside the university networks](../Cluster_User_Guide/Access/Login/Bianca/get_inside_sunet.md).
   [This video](https://youtu.be/-f0C66zIrwI) shows it will fail when being
   outside of the university networks
 
@@ -168,9 +168,9 @@ chmod 700 ~
     -rwx------ 1 sven sven 104 Jan  8 10:26 authorised_keys
     ```
 
-### 4. [Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md)
+### 4. [Log in to Bianca via the console using an SSH key](../Cluster_User_Guide/Access/Login/Bianca/login_bianca_console_ssh_key.md)
 
-[Log in to Bianca via the console using an SSH key](../getting_started/login_bianca_console_ssh_key.md),
+[Log in to Bianca via the console using an SSH key](../Cluster_User_Guide/Access/Login/Bianca/login_bianca_console_ssh_key.md),
 using `ssh`:
 
 ```bash

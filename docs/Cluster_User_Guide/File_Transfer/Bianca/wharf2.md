@@ -49,7 +49,7 @@ world and hence is a security risk. Instead, move your data to your project fold
 You have full access to your `wharf` and read-only access
 to other users' `wharf` folders in that same project.
 
-`wharf` is only accessible when [inside the university networks](../../../getting_started/get_inside_sunet.md).
+`wharf` is only accessible when [inside the university networks](../../Access/Login/Bianca/get_inside_sunet.md).
 
 ## Mounting `wharf`
 
@@ -67,7 +67,7 @@ More details at [Mount a Bianca project on Transit](bianca_file_transfer_using_r
 ### Local computer
 
 One can mount `wharf` on your local computer using `sshfs`
-when [inside the university networks](../../../getting_started/get_inside_sunet.md).
+when [inside the university networks](../../Access/Login/Bianca/get_inside_sunet.md).
 `sshfs` is available on most Linux distributions:
 
 Distribution       |Package name

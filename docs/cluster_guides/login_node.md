@@ -24,7 +24,7 @@ to an [UPPMAX HPC cluster](../UPPMAX/uppmax_cluster.md).
 
     > A user on a login node, in this case on the [Bianca](../cluster_guides/bianca.md) login node
     > of his/her virtual cluster.
-    > This user [logged in to the Bianca remote desktop via the website](../getting_started/login_bianca_remote_desktop_website.md)
+    > This user [logged in to the Bianca remote desktop via the website](../Cluster_User_Guide/Access/Login/Bianca/login_bianca_remote_desktop_website.md)
 
 A login node is a shared resource.
 With this diagram you can determine if you are alone on a login node:

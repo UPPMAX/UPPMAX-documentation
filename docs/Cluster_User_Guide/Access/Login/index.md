@@ -33,7 +33,7 @@ There are two environments one can login to:
 Because logging in differs between clusters, each cluster
 has its own login page:
 
-- [Login to Bianca](../../../getting_started/login_bianca.md)
+- [Login to Bianca](Bianca/index.md)
 - [Login to Pelle](../../../getting_started/login_pelle.md)
 
 Go to those pages for more details.

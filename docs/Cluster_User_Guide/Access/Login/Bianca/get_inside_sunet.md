@@ -20,13 +20,13 @@ or, to use more precise language, to obtain a [SUNET](https://www.sunet.se/) Int
 
     - If nothing happens, you are outside of the university networks
 
-    ![A user that is outside of the university network sees nothing](./img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
+    ![A user that is outside of the university network sees nothing](../../../../getting_started/img/login_uppmax_bianca_website_outside_sunet_browser_short.png)
 
     > A user that is outside of the university network sees nothing.
 
     - If you so a login screen, you are inside of the university networks
 
-    ![A user that is outside of the university network sees a login screen](./img/bianca_gui_login_1st.png)
+    ![A user that is outside of the university network sees a login screen](../../../../getting_started/img/bianca_gui_login_1st.png)
 
     > A user that is outside of the university network sees a login screen.
 
@@ -81,7 +81,7 @@ A virtual private network (VPN) allows one to access all UPPMAX clusters indirec
 your computer connects to the VPN within SUNET, where that VPN accesses
 your favourite UPPMAX cluster.
 
-To setup a VPN, see [the UPPMAX documentation on how to setup a VPN](setup_vpn.md).
+To setup a VPN, see [the UPPMAX documentation on how to setup a VPN](../../../../getting_started/setup_vpn.md).
 
 ???- tip "Want a video to see how the UU VPN is used?"
 
@@ -92,7 +92,7 @@ To setup a VPN, see [the UPPMAX documentation on how to setup a VPN](setup_vpn.m
 
 To connect to all UPPMAX clusters, one must be inside SUNET.
 
-An HPC cluster within SUNET (for example, [Rackham](../Extras/glossary.md#rackham))
+An HPC cluster within SUNET (for example, [Rackham](../../../../Extras/glossary.md#rackham))
 allows one to access all other clusters:
 your computer connects to the HPC cluster within SUNET,
 after which one accesses all other clusters.

@@ -174,7 +174,7 @@ There are three types of nodes:
 
 ???- tip "Logging in"
 
-    See [the UPPMAX page about logging in to Bianca](../getting_started/login_bianca.md).
+    See [the UPPMAX page about logging in to Bianca](../Cluster_User_Guide/Access/Login/Bianca/index.md).
 
 - **calculation nodes**: nodes that do the calculations
 
