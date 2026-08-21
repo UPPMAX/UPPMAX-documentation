@@ -8,7 +8,7 @@ refresh: 8;https://docs.uppmax.uu.se/getting_started/change_reset_uppmax_passwor
 ## Update your links and bookmarks!
 
 This page has been deprecated in favour of
-[Change or reset your UPPMAX password](change_reset_uppmax_password.md#resetting-a-forgotten-password).
+[Change or reset your UPPMAX password](../Cluster_User_Guide/Access/change_reset_uppmax_password.md#resetting-a-forgotten-password).
 
 You should automatically be taken there about 8 seconds after this page was
 loaded.

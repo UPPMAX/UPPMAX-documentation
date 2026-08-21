@@ -9,7 +9,7 @@ search:
 
 # Log in to Dardel
 
-There are multiple clusters one can [log in to](../getting_started/login.md).
+There are multiple clusters one can [log in to](../Cluster_User_Guide/Access/Login/index.md).
 Here it is described how to login to Dardel.
 
 ## Procedure

@@ -17,7 +17,7 @@ tags:
 
 To be able to see the images,
 either use [SSH with X-forwarding](../software/ssh_x_forwarding.md)
-or [login to a remote desktop](../getting_started/login.md)
+or [login to a remote desktop](../Cluster_User_Guide/Access/Login/index.md)
 
 Usage:
 

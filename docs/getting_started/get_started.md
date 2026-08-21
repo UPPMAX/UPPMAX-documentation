@@ -73,13 +73,13 @@ See how to set this up at
 ## Step 6: Log in and change your password
 
 Follow the
-[instructions to change your Uppmax password](change_reset_uppmax_password.md).
+[instructions to change your Uppmax password](../Cluster_User_Guide/Access/change_reset_uppmax_password.md).
 
 ## Step 7: Use UPPMAX
 
 Now you can use the UPPMAX resources!
 
-- [Login to our clusters](login.md)
+- [Login to our clusters](../Cluster_User_Guide/Access/Login/index.md)
 - [Transfer files from/to your UPPMAX account](../Cluster_User_Guide/File_Transfer/index.md)
 - [Schedule jobs](../cluster_guides/slurm.md).
 

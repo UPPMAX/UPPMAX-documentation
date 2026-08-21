@@ -15,7 +15,7 @@ search:
 > At the left is a remote desktop environment.
 > At the the right is the console environment.
 
-There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
+There are multiple UPPMAX clusters one can [log in to](../Cluster_User_Guide/Access/Login/index.md).
 Here it is described how to log in to [Bianca](../cluster_guides/bianca.md):
 
 ## For returning users

@@ -9,7 +9,7 @@ search:
 
 # Log in to Pelle
 
-There are multiple UPPMAX clusters one can [log in to](../getting_started/login.md).
+There are multiple UPPMAX clusters one can [log in to](../Cluster_User_Guide/Access/Login/index.md).
 Here we describe how to log in to [Pelle](../cluster_guides/pelle.md).
 
 
