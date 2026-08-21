@@ -41,7 +41,7 @@ Name                 |Purpose                      |Description
 
 Another cluster UPPMAX is involved in:
 
-- [Dardel](../cluster_guides/dardel.md): a general purpose HPC cluster in Stockholm. Earlier Rackham users with no affiliation to UPPMAX moved here in late 2024.
+- [Dardel](../Extras/NAISS_and_LUMI/Dardel/dardel.md): a general purpose HPC cluster in Stockholm. Earlier Rackham users with no affiliation to UPPMAX moved here in late 2024.
 
 ### Closed
 

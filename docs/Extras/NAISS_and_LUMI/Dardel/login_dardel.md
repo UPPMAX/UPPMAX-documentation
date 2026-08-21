@@ -9,7 +9,7 @@ search:
 
 # Log in to Dardel
 
-There are multiple clusters one can [log in to](../Cluster_User_Guide/Access/Login/index.md).
+There are multiple clusters one can [log in to](../../../Cluster_User_Guide/Access/Login/index.md).
 Here it is described how to login to Dardel.
 
 ## Procedure
@@ -20,7 +20,7 @@ Here it is described how to login to Dardel.
     to view what to do from step 3 and onwards.
 
 First, we are here to help.
-Please [contact support](../UPPMAX/support.md) if you run into problems
+Please [contact support](../../../UPPMAX/support.md) if you run into problems
 when trying the guide below.
 
 Note that step 1 requires some hours of waiting
@@ -59,14 +59,14 @@ this can take some hours.
     If there is a PDC project,
     you may have access to a project with Dardel.
 
-    ![Example user that has access to a PDC project](../cluster_guides/img/supr_naiss_dardel_project.png)
+    ![Example user that has access to a PDC project](../../../cluster_guides/img/supr_naiss_dardel_project.png)
 
     > Example user that has access to a PDC project
 
     If you may a PDC project that does not use Dardel,
     click on the project to go the the project overview.
 
-    ![Example PDC project overview](../cluster_guides/img/supr_naiss_dardel_project_overview.png)
+    ![Example PDC project overview](../../../cluster_guides/img/supr_naiss_dardel_project_overview.png)
 
     > Example PDC project overview
 
@@ -74,7 +74,7 @@ this can take some hours.
     If you see 'Dardel' among the compute resources,
     you have confirmed you have access to a Dardel project.
 
-    ![Resources from an example PDC project](../cluster_guides/img/naiss_project_dardel_resources.png)
+    ![Resources from an example PDC project](../../../cluster_guides/img/naiss_project_dardel_resources.png)
 
     > Resources from an example PDC project
 
@@ -93,7 +93,7 @@ You will get a PDC account overnight.
     If you see 'Dardel' among the resources, and status 'Enabled'
     in the same row, you have a PDC account!
 
-    ![Example of a user having an account at PDC's Dardel HPC cluster](../cluster_guides/img/supr_naiss_dardel_account.png)
+    ![Example of a user having an account at PDC's Dardel HPC cluster](../../../cluster_guides/img/supr_naiss_dardel_account.png)
 
     > Example of a user having an account at PDC's Dardel HPC cluster
 
@@ -102,7 +102,7 @@ You will get a PDC account overnight.
     In [the PDC login portal](https://loginportal.pdc.kth.se), after logging
     in, you can see your Dardel username in the top-right corner:
 
-    ![PDC login portal with username and key](./img/pdc_login_portal_with_username_and_key.png)
+    ![PDC login portal with username and key](../../../getting_started/img/pdc_login_portal_with_username_and_key.png)
 
     > Example screenshot of the PDC login portal.
     > The Dardel username of this user is `svenbi`
@@ -111,7 +111,7 @@ You will get a PDC account overnight.
 
 Create SSH key and add it to the PDC Login Portal.
 
-- Create the password less SSH key in a Linux [terminal](../software/terminal.md) (e.g. from Rackham):
+- Create the password less SSH key in a Linux [terminal](../../../software/terminal.md) (e.g. from Rackham):
 
 ```bash
 module load darsync
@@ -143,7 +143,7 @@ cat ~/id_ed25519_pdc.pub
 
 Open the [PDC Login Portal](https://loginportal.pdc.kth.se/).
 
-Follow our [step-by-step instructions on how to add SSH keys](../software/ssh_key_use_dardel.md).
+Follow our [step-by-step instructions on how to add SSH keys](ssh_key_use_dardel.md).
 
 ### 5. Login
 

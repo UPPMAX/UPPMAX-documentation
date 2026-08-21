@@ -53,5 +53,5 @@ After login, you will be on a [login node](../../../cluster_guides/login_node.md
 
 Other things to log in to, shown for completeness:
 
-- [Login to Dardel](../../../getting_started/login_dardel.md) (this is not an UPPMAX cluster)
+- [Login to Dardel](../../../Extras/NAISS_and_LUMI/Dardel/login_dardel.md) (this is not an UPPMAX cluster)
 - [Login to Transit](../../../cluster_guides/login_transit.md) (this is an UPPMAX service, not a cluster)

@@ -10,15 +10,15 @@ tags:
 
 # Create and use an SSH key pair for Dardel
 
-This page describes [how to create and use an SSH key](ssh_key_use.md)
-for the [Dardel](../cluster_guides/dardel.md) cluster.
+This page describes [how to create and use an SSH key](../../../software/ssh_key_use.md)
+for the [Dardel](dardel.md) cluster.
 
 This guide will show you:
 
 - [1. How to create SSH keys](#1-how-to-create-ssh-keys)
 - [2. How to add an SSH key to the PDC Login Portal](#2-how-to-add-an-ssh-key-to-the-pdc-login-portal)
 
-This makes it possible for you to login to [Dardel](../cluster_guides/dardel.md).
+This makes it possible for you to login to [Dardel](dardel.md).
 
 PDC has [a more comprehensive guide on how to do this on various operating systems](https://support.pdc.kth.se/doc/contact/contact_support/)
 if you want a more in-depth guide.
@@ -27,7 +27,7 @@ if you want a more in-depth guide.
 
     - To be able to transfer from Rackham you have to do the following steps on **Rackham**.
     - You can _also_ do the steps for you local computer to be able to log in
-      directly from your [terminal](../software/terminal.md) and not via Rackham.
+      directly from your [terminal](../../../software/terminal.md) and not via Rackham.
 
 ## 1. How to create SSH keys
 
@@ -122,7 +122,7 @@ Go to the [PDC Login Portal](https://loginportal.pdc.kth.se/)
 
     That will look like this:
 
-    ![Example PDC login portal without any SSH keys yet](./img/pdc_key_management_no_keys.png)
+    ![Example PDC login portal without any SSH keys yet](../../../software/img/pdc_key_management_no_keys.png)
 
     > Example PDC login portal without any SSH keys yet.
     > We will need to add an SSH key that allows
@@ -136,7 +136,7 @@ Click the `Add new key` link:
 
     That will look like this:
 
-    ![Example of the first step of adding an SSH key pair to the PDC portal](./img/pdc_add_new_key_user_ip_only.png)
+    ![Example of the first step of adding an SSH key pair to the PDC portal](../../../software/img/pdc_add_new_key_user_ip_only.png)
 
     > Example of the first step of adding an SSH key pair to the PDC portal.
     > The 'SSH public key' is copy-pasted
@@ -149,7 +149,7 @@ Click the `Add new key` link:
 
     That will look like this:
 
-    ![Example PDC login portal with one key](./img/pdc_key_management_rackham_key.png)
+    ![Example PDC login portal with one key](../../../software/img/pdc_key_management_rackham_key.png)
 
     > Example PDC login portal with one key.
     > Note that the second column only has one IP address
@@ -200,7 +200,7 @@ and the field is prefilled with the IP of the computer you are on at the moment.
 
     That will look like this:
 
-    ![Example of the second step of adding an SSH key pair to the PDC portal](./img/pdc_add_new_key_uppmax.png)
+    ![Example of the second step of adding an SSH key pair to the PDC portal](../../../software/img/pdc_add_new_key_uppmax.png)
 
     > Example of the second step of adding an SSH key pair to the PDC portal.
     > Here the custom address `*.uppmax.uu.se` is added,
@@ -210,7 +210,7 @@ and the field is prefilled with the IP of the computer you are on at the moment.
 
     That will look like this:
 
-    ![Example PDC login portal with one key](./img/pdc_key_management_uppmax_key.png)
+    ![Example PDC login portal with one key](../../../software/img/pdc_key_management_uppmax_key.png)
 
     > Example PDC login portal with one key. Note the `*.uppmax.uu.se`
     > at the bottom of the second column.
