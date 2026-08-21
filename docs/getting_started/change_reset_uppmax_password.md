@@ -112,3 +112,5 @@ It can be used multiple times, but it is recommended to change it.
 If you want to change your password, see
 [Changing a known password](#changing-a-known-password)
 above.
+If you have a SENS project only, using only Bianca,
+this requires doing so on Transit: follow the guide.

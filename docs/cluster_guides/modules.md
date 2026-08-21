@@ -72,7 +72,7 @@ has [multiple big databases installed](../Specific/databases/index.md).
 
     As an example, use the `samtools` module, which will always
     be found by `module spider samtools`, but will only be found
-    by `module avail` after a `module load bioinfo-tools"
+    by `module avail` after a `module load bioinfo-tools`
 
 Working with the module system means:
 
