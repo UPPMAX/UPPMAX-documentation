@@ -113,4 +113,4 @@ If you want to change your password, see
 [Changing a known password](#changing-a-known-password)
 above.
 If you have a SENS project only, using only Bianca,
-[log in to Transit instead](../cluster_guides/login_transit.md).
+this requires doing so on Transit: follow the guide.
