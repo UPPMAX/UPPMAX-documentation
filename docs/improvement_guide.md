@@ -94,3 +94,9 @@ Some of the proposed structure may be wise, some of it may be foolish.
 ### Continuous reading
 
 ## Snippets
+
+This is an
+[existing feature](https://zensical.org/docs/setup/extensions/python-markdown-extensions/#snippets)
+within the Zensical / Python Markdown system.
+We have some usecases for this, such as video guides, "Forgot your project ID?"
+et.c.
