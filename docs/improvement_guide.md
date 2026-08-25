@@ -7,6 +7,11 @@ tags:
 
 # Guidelines for improving this documentation
 
+!!! Note
+    This page itself is written in a style not fully appropriate for any other
+    page of the documentation. It is not to be taken as an example, it is to be
+    read as guiding note or lecture showing a path forward.
+
 ## Documentation usecases
 
 Documentation is used in three distinct ways by readers:
@@ -25,6 +30,90 @@ This documentation is mostly written as for cases&nbsp;2 and&nbsp;3, with a
 widespread and occasionally severe lack of focus on usecase&nbsp;1.
 Writing with more focus on use as reference material is therefore one major
 avenue for improving this documentation.
+
+## Style: write for faster reading
+
+There are many style guides for writing, for different subject matter and for
+different intended audiences.
+
+In our case, we are writing *documentation for professional tooling*, and those
+professionals are *researchers*.
+This means that our audience is more likely than not to prefer a less
+conversational, more efficient style than that of e.g. Microsoft or Google
+documentation.
+They want to learn things or look things up as quickly as possible and they are
+some of the most proficient people on the planet at doing so.
+In some cases they are newcomers to all of HPC and Linux and terminals, in other
+cases they are veterans of all three looking for a new or forgotten detail or
+procedure.
+This is the audience to keep in mind.
+Do not waste their time.
+
+### Search reading
+
+### Continuous reading
+
+### Style guides
+
+AFAIK, no existing comprehensive style guide is directly applicable to our
+usecase.
+
+Many style guides are based on US English, while we have recently decided to go
+with UK spellings instead.
+Note that regional differences occur in all parts of language, not just
+spelling, so it is not wise to base our style on a US-based style guide
+(consistency is a fundamental good in these matters).
+
+A combination of parts of the following, with all previous information on this
+page as a guide for which parts to adopt and which parts to ignore, may be a
+good basis for a good writing style for HPC documentation:
+
+* Resources on good, relevant, style:
+    - [GOV.UK](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/)
+      has what appears to be the best starting points and reference guides for
+      our use, including their
+      [Technical A to Z style guide](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/technical-a-to-z/)
+      and some excellent writing guidelines such as
+      [Write content to meet user needs](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/meet-user-needs/)
+      and
+      [Create a clear structure for your content](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/).
+      Clearly we may need to deviate, e.g. with regards to footnotes.
+    - [Stylish Academic Writing, Helen Sword](https://www.hup.harvard.edu/books/9780674064485)
+      is a book I have not read or even acquired yet, but from the description
+      it seems to be a well-informed guide to a writing style that our audience
+      would highly appreciate.
+* Relevant terminology may be found in related projects:
+    - [Rocky Linux Documentation Style Guide](https://docs.rockylinux.org/10/guides/contribute/style_guide/#style-guidelines)
+      is relevant due to our underlying OS being Rocky Linux. Alas, their guide
+      does not (currently) seem very useful to us, but their documentation as a
+      whole can be used for finding canonical terminology.
+    - EuroHPC JU currently does not have so much as a glossary, even though they
+      probably should.
+      [Their publications](https://www.eurohpc-ju.europa.eu/media-events/publications_en)
+      may be assumed to be written with canonical terminology.
+    - University of Arizona has a long history of HPC know-how and their current
+      [UArizona HPC Documentation Site](https://hpcdocs.hpc.arizona.edu)
+      can serve as a good model, perhaps as a good external resource.
+* Less relevant but more comprehensive resources:
+    - [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
+      is a comprehensive resource and a standard/classic in software
+      documentation, but consistently too conversational, verbose and
+      inefficient for professional tooling and for academic readers. And
+      US-based.
+    - [Red Hat Technical Writing Style Guide](https://stylepedia.net/style/)
+      is another comprehensive one, also US-based.
+    - [Red Hat supplementary style guide for product documentation](https://redhat-documentation.github.io/supplementary-style-guide/)
+      is what is used for the documentation that may be relevant. It is based
+      not on the above Red Hat guide, but on the IBM guide, which is not
+      distributed. Nevertheless, this is the kind of supplement that placed on
+      top of the GOV.UK guides might make for a comprehensive style guide for
+      our usecase.
+    - [Simplified Technical English, ASD-STE100](https://www.asd-ste100.org/about_STE.html):
+      a European, originally aerospace, standard for the language of technical
+      documentation. Strictly adhering to this is probably too dry and
+      rudimentary, but learning it may be a great guide towards writing that is
+      quicker to understand. This is about grammar and wording and does not deal
+      with other aspects of style.
 
 ## Restructuring
 
@@ -86,12 +175,6 @@ Some of the existing pages do not fit neatly in the proposed structure.
 Some of the proposed structure will require the writing of new pages.
 
 Some of the proposed structure may be wise, some of it may be foolish.
-
-## Write for faster reading
-
-### Search reading
-
-### Continuous reading
 
 ## Snippets
 
