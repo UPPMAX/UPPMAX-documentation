@@ -34,18 +34,24 @@ avenue for improving this documentation.
 ## Style: write for faster reading
 
 There are many style guides for writing, for different subject matter and for
-different intended audiences.
+different intended audiences&mdash;the two origins for how to write.
 
-In our case, we are writing *documentation for professional tooling*, and those
-professionals are *researchers*.
+!!! note "What we're writing here:"
+    Documentation for professional tooling.
+
+!!! note "Who we're writing it for:"
+    These professionals are *researchers*.
+
 This means that our audience is more likely than not to prefer a less
 conversational, more efficient style than that of e.g. Microsoft or Google
 documentation.
 They want to learn things or look things up as quickly as possible and they are
 some of the most proficient people on the planet at doing so.
+
 In some cases they are newcomers to all of HPC and Linux and terminals, in other
 cases they are veterans of all three looking for a new or forgotten detail or
 procedure.
+
 This is the audience to keep in mind.
 Do not waste their time.
 
