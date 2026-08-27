@@ -55,9 +55,25 @@ procedure.
 This is the audience to keep in mind.
 Do not waste their time.
 
-### Search reading
+### Optimize for scanning
 
-### Continuous reading
+Most reading of documentation will be done in a scanning strategy, looking to
+identify the wanted bit of information as quickly as possible.
+Reference material is essentially only read this way.
+
+With step-by-step guides, beware!
+Authors can fall into the trap of assuming that readers will fully read and then
+fully execute every step in order.
+In practice, that is an extremely rare case.
+Most tasks will be self-explanatory or include their own instructions, causing
+even a hypothetical user without pre-existing knowledge or assumptions to
+occasionally skip ahead, which may in turn cause a need to skip back and
+reconcile the inevitable differencies between the instructions and the reality.
+
+Thus, in good documentation, even the step-by-step guides are highly optimized
+for the reader scanning for any specific bit of information in it.
+
+
 
 ### Style guides
 
