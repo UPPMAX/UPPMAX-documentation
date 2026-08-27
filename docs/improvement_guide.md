@@ -57,6 +57,8 @@ Do not waste their time.
 
 ### Optimize for scanning
 
+#### When: always, why: to help every reader every time
+
 Most reading of documentation will be done in a scanning strategy, looking to
 identify the wanted bit of information as quickly as possible.
 Reference material is essentially only read this way.
@@ -73,7 +75,44 @@ reconcile the inevitable differencies between the instructions and the reality.
 Thus, in good documentation, even the step-by-step guides are highly optimized
 for the reader scanning for any specific bit of information in it.
 
+Text written primarily to be read as a full document with a flow to it can also
+be optimized for fast scanning when the reader instead is looking for specific
+details.
+Professional technical and scientific reports are often good examples of this.
 
+#### How to: some techniques
+
+* Front-load good clues about the current topic of the text at every
+  opportunity.
+    - Descriptive headings and good structure.
+        * Good structure is comprehensive and enables each part of the text to
+          make use of the context given by the surrounding parts of the text.
+    - Focused paragraphs, with at least a key phrase or a couple of key words at
+      the beginning of each paragraph, so that it can be quickly and confidently
+      skipped when irrelevant.
+* Keep the text short. Less scrolling and reading for the same amount of
+  information gets the reader to where they want faster.
+   - Each paragraph, each section, each page, each directory of pages should be
+     kept short enough to be scanned somewhat instantly by our average reader.
+* Formatting should be consistent and purposeful.
+    - Focussing on the wanted information is easier when unwanted information
+      can be easily ignored.
+    - Finding related or specific information is greatly helped if it *always*
+      looks the same. If the reader cannot rely on visual consistency,
+      effortless scanning quickly turns into tedious careful reading.
+    - Attention-grabbing formatting (such as colourful admonitions) should only
+      be used to call out something that nobody reading the page should ignore.
+    - Especially optional information, e.g. videos or extra screenshots, should
+      be formatted in a consistent and easy-to-ignore way, perhaps a grey
+      admonition style? ABSOLUTELY NO IMPORTANT INFORMATION can ever be
+      formatted THE SAME WAY AS THE OPTIONAL STUFF.
+* Terminology and framing should be consistent. This makes it easier not only to
+  scan the text by eye, it also makes it easier to search the documentation with
+  tools or even to summarize it with an LLM.
+
+This can make for efficient reading in terms of time, focus and energy also for
+readers who are reading through the whole page without scanning for something
+specific.
 
 ### Style guides
 
@@ -156,6 +195,34 @@ any piece of information.
 This is sometimes hard to achieve, in which case it is generally worthwhile to
 work on.
 
+### The goals
+
+To always have an overview of what information is in here and what isn't.
+
+To make it easy to keep the documentation structured, focussed, complete and
+up-to-date.
+
+### How to achieve and maintain those goals
+
+This is MUCH easier to do when the structure is already good.
+
+The basic task is this: look at all related pages / sections / pieces of
+information and answer these questions:
+
+- Should it be kept and continually reworked and improved?
+- Should it instead be archived, but in an accessible manner?
+  (In this case it should be reworked as to be future-proof, with zero outgoing
+  links and zero information with unclear best-before-date.)
+- Should it be removed?
+
+After you've done so, look at all remaining related pieces and look at their
+relative organization.
+
+- Can something get a better heading? Good headings are both short and
+  descriptive.
+- Should something be moved? Sequentially or hierarchically?
+- Is this related to information
+
 ### The case for file structure as navigation structure
 
 Authors working on a webpage are not necessarily tied to working within the same
@@ -205,3 +272,22 @@ This is an
 within the Zensical / Python Markdown system.
 We have some usecases for this, such as video guides, "Forgot your project ID?"
 et.c.
+
+## Shortlist of weak points to improve upon
+
+- Structure, headings, comprehensive navigation
+- The green question admonitions are used too widely, I never know if I need to
+  read them or need to ignore them
+- Visual clutter other than that, on some pages (e.g. Slurm on Pelle)
+- Clutter in terms of unneeded pages and information
+- Repetition, saying the same things way too many times and on way too many
+  pages (repetition may be good for learning, but in documentation it mostly
+  takes up space and causes confusion)
+- Verbosity (yes this includes this page)
+
+Priority one is clearly structure and headings.
+Priority two should be consistency, and please include the usage of question
+admonitions in here.
+Third, but nonetheless as an explicit priority, I recommend to rework every
+single page (most important and most problematic pages first) with the goal of
+making it as friendly as possible to readers scanning for some specific detail.
