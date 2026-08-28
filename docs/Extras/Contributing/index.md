@@ -41,6 +41,7 @@ Share your knowledge by modifying content                 |[Modifying content](#
 Report mistakes                                           |[Create an issue](#create-an-issue)
 Suggest improvements in general terms                     |[Create an issue](#create-an-issue)
 Suggest improvements by modifying content                 |[Modifying content](#modify-content)
+Write better documentation                                |[Guide for improving documentation](improvement_guide.md)
 Give anonymous feedback                                   |[Go to this form](https://docs.google.com/forms/d/e/1FAIpQLScu1zrUnXw2qq2dA0oJB72-nILVq5mwScq75N_u_7KH2NJznw/viewform)
 
 See [the contribution questions](#contribution-questions) if you still have
