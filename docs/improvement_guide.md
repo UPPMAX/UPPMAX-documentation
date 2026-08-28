@@ -114,7 +114,7 @@ This can make for efficient reading in terms of time, focus and energy also for
 readers who are reading through the whole page without scanning for something
 specific.
 
-### Style guides
+### Style guides: extra resources when needed
 
 AFAIK, no existing comprehensive style guide is directly applicable to our
 usecase.
