@@ -114,7 +114,7 @@ This can make for efficient reading in terms of time, focus and energy also for
 readers who are reading through the whole page without scanning for something
 specific.
 
-### Style guides
+### Style guides: extra resources when needed
 
 AFAIK, no existing comprehensive style guide is directly applicable to our
 usecase.
@@ -215,13 +215,17 @@ information and answer these questions:
   links and zero information with unclear best-before-date.)
 - Should it be removed?
 
-After you've done so, look at all remaining related pieces and look at their
-relative organization.
+After you've done so, look at all remaining related pieces and think about
+their relative organization from the perspective of each page / section.
 
 - Can something get a better heading? Good headings are both short and
   descriptive.
 - Should something be moved? Sequentially or hierarchically?
-- Is this related to information
+- Is this related to information that is not easily findable from here?
+    - Is it a case of missing information, unclear headings, unclear structure
+      or a missing link?
+
+Next, repeat the process for another topic.
 
 ### The case for file structure as navigation structure
 
