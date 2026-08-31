@@ -12,7 +12,7 @@ tags:
     page of the documentation. It is not to be taken as an example, it is to be
     read as guiding note or lecture showing a path forward.
 
-## Documentation usecases
+## Documentation use-cases
 
 Documentation is used in three distinct ways by readers:
 
@@ -27,7 +27,7 @@ will prefer options&nbsp;1 and&nbsp;2.
 The entire field of HPC may be seen that way by many of our readers.
 
 This documentation is mostly written as for cases&nbsp;2 and&nbsp;3, with a
-widespread and occasionally severe lack of focus on usecase&nbsp;1.
+widespread and occasionally severe lack of focus on use-case&nbsp;1.
 Writing with more focus on use as reference material is therefore one major
 avenue for improving this documentation.
 
@@ -55,7 +55,7 @@ procedure.
 This is the audience to keep in mind.
 Do not waste their time.
 
-### Optimize for scanning
+### Optimise for scanning
 
 #### When: always, why: to help every reader every time
 
@@ -70,32 +70,33 @@ In practice, that is an extremely rare case.
 Most tasks will be self-explanatory or include their own instructions, causing
 even a hypothetical user without pre-existing knowledge or assumptions to
 occasionally skip ahead, which may in turn cause a need to skip back and
-reconcile the inevitable differencies between the instructions and the reality.
+reconcile the inevitable differences between the instructions and the reality.
 
-Thus, in good documentation, even the step-by-step guides are highly optimized
+Thus, in good documentation, even the step-by-step guides are highly optimised
 for the reader scanning for any specific bit of information in it.
 
 Text written primarily to be read as a full document with a flow to it can also
-be optimized for fast scanning when the reader instead is looking for specific
+be optimised for fast scanning when the reader instead is looking for specific
 details.
 Professional technical and scientific reports are often good examples of this.
 
 #### How to: some techniques
 
-* Front-load good clues about the current topic of the text at every
+- Front-load good clues about the current topic of the text at every
   opportunity.
     - Descriptive headings and good structure.
-        * Good structure is comprehensive and enables each part of the text to
+        - Good structure is comprehensive and enables each part of the text to
           make use of the context given by the surrounding parts of the text.
     - Focused paragraphs, with at least a key phrase or a couple of key words at
       the beginning of each paragraph, so that it can be quickly and confidently
       skipped when irrelevant.
-* Keep the text short. Less scrolling and reading for the same amount of
+- Keep the text short. Less scrolling and reading for the same amount of
   information gets the reader to where they want faster.
-   - Each paragraph, each section, each page, each directory of pages should be
-     kept short enough to be scanned somewhat instantly by our average reader.
-* Formatting should be consistent and purposeful.
-    - Focussing on the wanted information is easier when unwanted information
+    - Each paragraph, each section, each page, each directory of pages should
+      be kept short enough to be scanned somewhat instantly by our average
+      reader.
+- Formatting should be consistent and purposeful.
+    - Focusing on the wanted information is easier when unwanted information
       can be easily ignored.
     - Finding related or specific information is greatly helped if it *always*
       looks the same. If the reader cannot rely on visual consistency,
@@ -106,9 +107,9 @@ Professional technical and scientific reports are often good examples of this.
       be formatted in a consistent and easy-to-ignore way, perhaps a grey
       admonition style? ABSOLUTELY NO IMPORTANT INFORMATION can ever be
       formatted THE SAME WAY AS THE OPTIONAL STUFF.
-* Terminology and framing should be consistent. This makes it easier not only to
+- Terminology and framing should be consistent. This makes it easier not only to
   scan the text by eye, it also makes it easier to search the documentation with
-  tools or even to summarize it with an LLM.
+  tools or even to summarise it with an LLM.
 
 This can make for efficient reading in terms of time, focus and energy also for
 readers who are reading through the whole page without scanning for something
@@ -117,7 +118,7 @@ specific.
 ### Style guides: extra resources when needed
 
 AFAIK, no existing comprehensive style guide is directly applicable to our
-usecase.
+use-case.
 
 Many style guides are based on US English, while we have recently decided to go
 with UK spellings instead.
@@ -129,7 +130,7 @@ A combination of parts of the following, with all previous information on this
 page as a guide for which parts to adopt and which parts to ignore, may be a
 good basis for a good writing style for HPC documentation:
 
-* Resources on good, relevant, style:
+- Resources on good, relevant, style:
     - [GOV.UK](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/)
       has what appears to be the best starting points and reference guides for
       our use, including their
@@ -143,7 +144,7 @@ good basis for a good writing style for HPC documentation:
       is a book I have not read or even acquired yet, but from the description
       it seems to be a well-informed guide to a writing style that our audience
       would highly appreciate.
-* Relevant terminology may be found in related projects:
+- Relevant terminology may be found in related projects:
     - [Rocky Linux Documentation Style Guide](https://docs.rockylinux.org/10/guides/contribute/style_guide/#style-guidelines)
       is relevant due to our underlying OS being Rocky Linux. Alas, their guide
       does not (currently) seem very useful to us, but their documentation as a
@@ -155,7 +156,7 @@ good basis for a good writing style for HPC documentation:
     - University of Arizona has a long history of HPC know-how and their current
       [UArizona HPC Documentation Site](https://hpcdocs.hpc.arizona.edu)
       can serve as a good model, perhaps as a good external resource.
-* Less relevant but more comprehensive resources:
+- Less relevant but more comprehensive resources:
     - [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
       is a comprehensive resource and a standard/classic in software
       documentation, but consistently too conversational, verbose and
@@ -168,7 +169,7 @@ good basis for a good writing style for HPC documentation:
       not on the above Red Hat guide, but on the IBM guide, which is not
       distributed. Nevertheless, this is the kind of supplement that placed on
       top of the GOV.UK guides might make for a comprehensive style guide for
-      our usecase.
+      our use-case.
     - [Simplified Technical English, ASD-STE100](https://www.asd-ste100.org/about_STE.html):
       a European, originally aerospace, standard for the language of technical
       documentation. Strictly adhering to this is probably too dry and
@@ -199,7 +200,7 @@ work on.
 
 To always have an overview of what information is in here and what isn't.
 
-To make it easy to keep the documentation structured, focussed, complete and
+To make it easy to keep the documentation structured, focused, complete and
 up-to-date.
 
 ### How to achieve and maintain those goals
@@ -216,7 +217,7 @@ information and answer these questions:
 - Should it be removed?
 
 After you've done so, look at all remaining related pieces and think about
-their relative organization from the perspective of each page / section.
+their relative organisation from the perspective of each page / section.
 
 - Can something get a better heading? Good headings are both short and
   descriptive.
@@ -241,7 +242,7 @@ This creates far more problems than it solves:
 
 A good way to work would be to use the file structure as the navigation
 structure for the website, with some structured way of doing exceptions for
-extreme edgecases such as the website landing page and external links directly
+extreme edge cases such as the website landing page and external links directly
 in the navigation. One additional desirable feature would be to have the option
 to collapse/show by default at different depths of navigation, because some
 branches are naturally deeper or shallower before they get to specifics.
@@ -254,9 +255,9 @@ well-supported or not is an open question, but I'm hopeful it will.
 ### The attempt started by Linus
 
 An attempt to create a structure for this documentation is in the branch
-[restructuring](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring).
+[`restructuring`](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring).
 Background work and a work-in-progress proposed structure is in the folder
-[restructuring-workdir](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring/restructuring-workdir).
+[`restructuring-workdir`](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring/restructuring-workdir).
 
 The `mkdocs.yml` config file has been replaced by a very basic `zensical.toml`
 as a quick way to use the file structure as navigation structure.
@@ -274,8 +275,8 @@ Some of the proposed structure may be wise, some of it may be foolish.
 This is an
 [existing feature](https://zensical.org/docs/setup/extensions/python-markdown-extensions/#snippets)
 within the Zensical / Python Markdown system.
-We have some usecases for this, such as video guides, "Forgot your project ID?"
-et.c.
+We have some use-cases for this, such as video guides, "Forgot your project
+ID?" et.c.
 
 ## Shortlist of weak points to improve upon
 
