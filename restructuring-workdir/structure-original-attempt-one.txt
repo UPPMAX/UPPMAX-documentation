@@ -1,0 +1,80 @@
+- Overview
+  - Cluster concepts
+  - Which services are available
+    - UPPMAX
+    - NAISS
+    - EuroHPC
+    - What about needs we don't provide a service for
+  - What to choose
+  - Parallellization
+  - Using GPUs
+- UPPMAX
+  - Support
+  - Courses
+  - Projects
+  - Accounts
+  - Pelle
+  - Bianca
+- Cluster user guide
+  - Access
+    - password
+    - MFA / 2FA
+    - Login (for interactive access to login nodes)
+      - SSH Pelle
+      - SSH Bianca
+      - ThinLinc Pelle
+      - ThinLinc Bianca
+    - File transfer
+      - FileZilla
+      - Transit
+      - rsync
+      - scp
+      - WinSCP
+  - Running non-interactive jobs
+    - Distributed memory
+      - MPI implementations
+      - MPI jobs
+      - Any other way of doing distributed memory work
+    - Multithreaded with a single set of memory
+    - GPU usage
+  - Interactive jobs
+  - Module system, software & environment management
+    - LMOD
+    - Containerization
+      - Singularity
+    - Python distributions
+    - Software installation
+  - Data / storage -management
+    - Version control
+    - File managers
+    - Compression
+  - Permissions
+- Specific softwares, tools & databases
+  - List of all available software
+  - Databases
+    - List of all available databases
+    - (one page for each that needs a page)
+  - Text editors
+  - Terminal / CLI tools
+  - Programming and adjacent tools
+    - IDEs and Notebooks
+      - VS Code
+      - RStudio
+      - MATLAB
+      - Jupyter
+    - Debugging
+    - Profiling and optimization
+    - Programming languages
+      - Python
+      - R
+      - Julia
+    - Compilers
+  - Data analysis
+  - Machine learning
+  - Bioinformatics
+  - Genomics
+  - Other research-specific softwares
+- Extras
+  - Contributing
+  - Documentation guidelines
+  - Unsorted pages
