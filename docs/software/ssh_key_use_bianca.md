@@ -32,11 +32,11 @@ Here is the procedure.
 
 On your local computer, create an SSH key pair with the following command:
 
-???- question "Can I also do this from Rackham?"
+???- question "Can I also do this from Pelle?"
 
     Yes.
 
-    In that case, read 'Rackham' instead of 'local computer'
+    In that case, read 'pelle' instead of 'local computer'
 
 ```bash
 ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
