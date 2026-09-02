@@ -59,7 +59,7 @@ Here is a description of the flags:
 Add the content of the public key `id_ed25519_uppmax_login.pub`
 on your local computer to the Bianca's `$HOME/.ssh/authorized_keys`.
 
-:warning: Note the standard american spelling with ´´z´´ in the file name ``authorized_keys``
+:warning: Note the standard American spelling with ´´z´´ in the file name ``authorized_keys``
 
 There are multiple ways to do so.
 
