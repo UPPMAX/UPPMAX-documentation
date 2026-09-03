@@ -22,9 +22,9 @@ to install Singularity on your computer or, alternatively, use apptainer provide
 
 🌍 Place: Zoom: link will be sent to applicants
 
-📅 Date and time: 12 October, 2026: 9:00-12:00; 13:00-16:00
+📅 Date and time: 12 and/or 13 October, 2026: 9:00-12:00; 13:00-16:00
 
-📝 Registration form: TBA
+📝 Registration form: [NAISS course webpage](https://hpc.pages.naiss.se/training/naiss-training/course_adverts/2026/apptainer_October_2026/)
 
 ## Contacts for the workshop
 

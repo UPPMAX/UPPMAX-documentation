@@ -92,8 +92,9 @@ Professional technical and scientific reports are often good examples of this.
       skipped when irrelevant.
 - Keep the text short. Less scrolling and reading for the same amount of
   information gets the reader to where they want faster.
-   - Each paragraph, each section, each page, each directory of pages should be
-     kept short enough to be scanned somewhat instantly by our average reader.
+    - Each paragraph, each section, each page, each directory of pages should
+      be kept short enough to be scanned somewhat instantly by our average
+      reader.
 - Formatting should be consistent and purposeful.
     - Focusing on the wanted information is easier when unwanted information
       can be easily ignored.
@@ -199,7 +200,7 @@ work on.
 
 To always have an overview of what information is in here and what isn't.
 
-To make it easy to keep the documentation structured, focussed, complete and
+To make it easy to keep the documentation structured, focused, complete and
 up-to-date.
 
 ### How to achieve and maintain those goals
@@ -241,7 +242,7 @@ This creates far more problems than it solves:
 
 A good way to work would be to use the file structure as the navigation
 structure for the website, with some structured way of doing exceptions for
-extreme edgecases such as the website landing page and external links directly
+extreme edge cases such as the website landing page and external links directly
 in the navigation. One additional desirable feature would be to have the option
 to collapse/show by default at different depths of navigation, because some
 branches are naturally deeper or shallower before they get to specifics.
@@ -254,9 +255,9 @@ well-supported or not is an open question, but I'm hopeful it will.
 ### The attempt started by Linus
 
 An attempt to create a structure for this documentation is in the branch
-[restructuring](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring).
+[`restructuring`](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring).
 Background work and a work-in-progress proposed structure is in the folder
-[restructuring-workdir](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring/restructuring-workdir).
+[`restructuring-workdir`](https://github.com/UPPMAX/UPPMAX-documentation/tree/restructuring/restructuring-workdir).
 
 The `mkdocs.yml` config file has been replaced by a very basic `zensical.toml`
 as a quick way to use the file structure as navigation structure.
