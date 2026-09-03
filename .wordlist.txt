@@ -17,6 +17,8 @@ quickstart
 selectable
 storagereport
 tetralith
+Nordgren
+Rikard
 Ctrl
 ctrl
 pixi

@@ -125,7 +125,7 @@ Irreplaceable data that you are not actively working on.
     Because the backup mechanisms cannot keep up with large amounts
     of files changing on a rapid basis.
 
-???- question "How should I do work on irreplacable data?"
+???- question "How should I do work on irreplaceable data?"
 
     - You keep the irreplacable data in a backup folder
     - You keep your scripts and generated output files
