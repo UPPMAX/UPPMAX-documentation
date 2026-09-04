@@ -63,9 +63,12 @@ Parameter               |Bianca
 
 ### AMD nodes (Zen4)
 
-- **[Zen4](https://en.wikipedia.org/wiki/Zen_4)** type compute nodes, 256 GB RAM each and 16 cores
-- 
+**[Zen4](https://en.wikipedia.org/wiki/Zen_4)** type compute nodes
 
+Settings on Bianca (virtualisation)
+
+- Physical nodes divided into 3 sections, each with:
+    - 16 cores 256 GB RAM
 
 ## GPUs
 
