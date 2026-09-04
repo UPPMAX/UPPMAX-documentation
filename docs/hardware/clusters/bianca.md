@@ -10,15 +10,19 @@ tags:
 
 ## Technical Summary
 
-- 258 compute nodes with
+- 258 (ordinary/thin) compute nodes with
     - single or dual CPUs with 256 GB RAM and
-    - one 4TB mechanical drive or 1TB SSD
-    - Each CPU has 16 cores
-- 15 compute nodes, 512 GB memory each
-- 10 compute nodes each equipped with 2xNVIDIA A100 (40GB) **GPUs**
+    - one 4TB mechanical drive or 1 TB SSD
+    - each CPU has 16 cores
+- 20 fat compute nodes
+    - 15 512 GB memory each
+    - 5 1 1 TB memory each
+- 27 GPU nodes
+    - 10 GPU compute nodes each equipped with 2xNVIDIA A100 (40 GB) **GPUs**
+    - 17 GPU compute nodes each equipped with 1xNVIDIA T4 (16 GB) **GPUs**
 - 105 Zen4 type compute nodes, 256 GB each
 - Total number of CPU cores is 4800
-- Login nodes have 4vCPU each and 50GB memory
+- Login nodes have 4vCPU each and 50 GB memory
 - Dual 10 Gigabit Ethernet for all nodes
 
 ## Parameters
@@ -27,23 +31,24 @@ Parameter               |Bianca
 ------------------------|-----------------------------------
 **Purpose**             |Sensitive data
 **Reserved for**        |NAISS-SENS projects
-**Nodes (Intel)**       |272 + 10 nodes of 2 NVIDIA A100 GPUs
-**Cores per node**      |16/64
-**Memory per node**     |128GB
-**Fat nodes**           |256 & 512GB
+**Nodes (Intel)**       |272 + 10 nodes of 2 NVIDIA A100 GPUs + 17 nodes of NVIDIA T4 GPUs
+**Nodes (AMD)**         |105
+**Cores per node**      |16
+**Memory per node**     |256GB
+**Fat nodes**           |512 & 1 TB
 **Local disk (scratch)**|4TB
 **Network**             |Dual 10Gbit/s
 **Operating System**    |CentOS 7
 **Login nodes**         |Yes (4 cores and 50 GB)
-**"Home" storage**      |Castor/Cygnus
-**"Project" Storage**   |Castor/Cygnus
+**"Home" storage**      |Cygnus
+**"Project" Storage**   |Cygnus
 
 ## CPU
 
 ### Intel nodes (4th generation)
 
 - Architecture: x86_64
-- Intel Xeon E5-2630 v3 Huawei XH620 V3 nodes
+- [Intel Xeon E5-2630 v3 Huawei XH620 V3](https://www.intel.com/content/www/us/en/products/sku/83356/intel-xeon-processor-e52630-v3-20m-cache-2-40-ghz/specifications.html) nodes
 - Advanced Vector Extensions 2 (AVX2)
 - CPU op-mode(s): 32-bit, 64-bit
 - Byte Order: Little Endian
@@ -53,16 +58,19 @@ Parameter               |Bianca
 - Socket(s): 2
 - NUMA node(s): 2
 - Model name: Intel Core Processor (**Haswell**, no TSX, IBRS)
-- CPU MHz: 2394.446
+- CPU MHz: 2.4 GHz
 - For more info, type: lscpu in the terminal
 
-### AMD nodes
+### AMD nodes (Zen4)
 
-105 **Zen4** type compute nodes, 256 GB RAM each and 16 cores
+- **[Zen4](https://en.wikipedia.org/wiki/Zen_4)** type compute nodes, 256 GB RAM each and 16 cores
+- 
 
-## GPU
 
-10 compute nodes each equipped with 2xNVIDIA **[A100](https://www.nvidia.com/en-us/data-center/a100/)** (40GB) **GPUs**
+## GPUs
+
+- 10 compute nodes each equipped with 2xNVIDIA **[A100](https://www.nvidia.com/en-us/data-center/a100/)** (40 GB) **GPUs**
+- 17 compute nodes each equipped with 1xNVIDIA **[T4](https://en.wikipedia.org/wiki/Turing_(microarchitecture))** (16 GB) **GPU**
 
 ## Network
 
@@ -76,7 +84,7 @@ Dual 10 Gigabit Ethernet for all nodes
 
 Since Bianca is designed to handle sensitive personal data security is a key aspect of the configuration. In order to ensure that the data is safe we have implemented a series of security measures including, but not limited to:
 
-- One virtualized cluster per project, no resources are shared between projects.
+- One virtualised cluster per project, no resources are shared between projects.
 - Separate storage volumes per project.
 - Detailed logging of file transfers in and out of the cluster.
 - Two factor authentication
