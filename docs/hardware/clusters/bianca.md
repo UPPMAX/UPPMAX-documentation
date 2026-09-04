@@ -14,9 +14,9 @@ tags:
     - single or dual CPUs with 256 GB RAM and
     - one 4TB mechanical drive or 1 TB SSD
     - each CPU has 16 cores
-- 20 fat compute nodes
-    - 15 512 GB memory each
-    - 5 1 1 TB memory each
+- 8 fat compute nodes
+    - 3 nodes with 512 GB memory each
+    - 5 nodes with 1 TB memory each
 - 27 GPU nodes
     - 10 GPU compute nodes each equipped with 2xNVIDIA A100 (40 GB) **GPUs**
     - 17 GPU compute nodes each equipped with 1xNVIDIA T4 (16 GB) **GPUs**
