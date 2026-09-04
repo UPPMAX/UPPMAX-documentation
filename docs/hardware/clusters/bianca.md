@@ -10,7 +10,7 @@ tags:
 
 ## Technical Summary
 
-- 1 (ordinary/thin) compute nodes with
+- 148 (ordinary/thin) compute nodes with
     - single or dual CPUs with 256 GB RAM and
     - one 4TB mechanical drive or 1 TB SSD
     - each CPU has 16 cores
@@ -20,7 +20,8 @@ tags:
 - 27 GPU nodes
     - 9 GPU compute nodes each equipped with 2xNVIDIA A100 (40 GB) **GPUs**
     - 17 GPU compute nodes each equipped with 1xNVIDIA T4 (16 GB) **GPUs**
-- 105 Zen4 type compute nodes, 256 GB each
+- 35 Zen4 type compute nodes, 768 GB each
+    - 105 virtual nodes á 3 256 GB each
 - Total number of CPU cores is 4800
 - Login nodes have 4vCPU each and 50 GB memory
 - Dual 10 Gigabit Ethernet for all nodes
