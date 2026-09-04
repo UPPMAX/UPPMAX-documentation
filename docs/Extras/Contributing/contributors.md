@@ -12,3 +12,4 @@ with many being unmentioned:
 
 - [All direct contributors](https://github.com/UPPMAX/UPPMAX-documentation/graphs/contributors)
 - Fredrik Boulund
+- [Rikard Nordgren](https://github.com/rikardn)

@@ -32,11 +32,11 @@ Here is the procedure.
 
 On your local computer, create an SSH key pair with the following command:
 
-???- question "Can I also do this from Rackham?"
+???- question "Can I also do this from Pelle?"
 
     Yes.
 
-    In that case, read 'Rackham' instead of 'local computer'
+    In that case, read 'pelle' instead of 'local computer'
 
 ```bash
 ssh-keygen -a 100 -t ed25519 -f ~/.ssh/id_ed25519_uppmax_login -C "My comment"
@@ -57,7 +57,9 @@ Here is a description of the flags:
 ### 2. Add the content of your public key to Bianca's authorised keys
 
 Add the content of the public key `id_ed25519_uppmax_login.pub`
-on your local computer to the Bianca's `$HOME/.ssh/authorised_keys`.
+on your local computer to the Bianca's `$HOME/.ssh/authorized_keys`.
+
+:warning: Note the standard American spelling with ´´z´´ in the file name ``authorized_keys``
 
 There are multiple ways to do so.
 
@@ -85,7 +87,7 @@ Then copy that line to your clipboard.
 On Bianca, to edit the authorised keys file, do:
 
 ```bash
-nano $HOME/.ssh/authorised_keys
+nano $HOME/.ssh/authorized_keys
 ```
 
 In `nano`, paste the line in your clipboard.
@@ -101,13 +103,13 @@ Save the file and close `nano`.
     On Bianca, do:
 
     ```bash
-    cat .ssh/authorised_keys
+    cat .ssh/authorized_keys
     ```
 
     You should find your public key there. It looks similar to this:
 
     ```bash
-    [sven@sens2017625-bianca ~]$ cat .ssh/authorised_keys
+    [sven@sens2017625-bianca ~]$ cat .ssh/authorized_keys
     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFGXV8fRK+cazt8qHX+fGS+w6WPOuE82Q19A12345678 Sven's key to UPPMAX
     ```
 
@@ -116,7 +118,7 @@ Save the file and close `nano`.
 On Bianca, do:
 
 ```bash
-chmod 700 .ssh/authorised_keys
+chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -139,13 +141,13 @@ chmod 700 ~
     Second checkL
 
     ```bash
-    [richel@sens2017625-bianca ~]$ ls -ld .ssh/authorised_keys
+    [richel@sens2017625-bianca ~]$ ls -ld .ssh/authorized_keys
     ```
 
     Output should be similar to:
 
     ```text
-    -rwx------ 1 sven sven 104 Jan  8 10:26 .ssh/authorised_keys
+    -rwx------ 1 sven sven 104 Jan  8 10:26 .ssh/authorized_keys
     ```
 
     Third check:
@@ -158,14 +160,14 @@ chmod 700 ~
 
     ```text
     total 1
-    -rw-r----- 1 user user 743 May  7  2019 authorised_keys
+    -rw-r----- 1 user user 743 May  7  2019 authorized_keys
     ```
 
     or
 
     ```text
     total 1
-    -rwx------ 1 sven sven 104 Jan  8 10:26 authorised_keys
+    -rwx------ 1 sven sven 104 Jan  8 10:26 authorized_keys
     ```
 
 ### 4. [Log in to Bianca via the console using an SSH key](../Cluster_User_Guide/Access/Login/Bianca/login_bianca_console_ssh_key.md)
@@ -224,7 +226,7 @@ and [its answer](https://unix.stackexchange.com/a/664213):
 On Bianca, do:
 
 ```bash
-chmod 700 .ssh/authorised_keys
+chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```
@@ -232,7 +234,7 @@ chmod 700 ~
 On your local computer, do:
 
 ```bash
-chmod 700 .ssh/authorised_keys
+chmod 700 .ssh/authorized_keys
 chmod 700 .ssh
 chmod 700 ~
 ```

@@ -7,12 +7,12 @@ tags:
 # Snapshot
 
 Besides [the UPPMAX backup service](backup.md),
-UPPMAX provides snapshot on your home folder.
+UPPMAX provides snapshot on your home folder on [Pelle](../hardware/clusters/pelle.md).
 
 Snapshot makes a frozen "picture" of some file structure as it looks at the time the snapshot was taken.
 This allows you to restore a particular file as it was at some time point.
 
-Snapshots reside on the same storage system as the original data. This means
+Snapshots reside on the same storage system as the original data , i.e. [Gorilla](../hardware/storage/gorilla.md). This means
 that when the storage system fails catastrophically,
 then the snapshots are gone as well.
 

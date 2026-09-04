@@ -108,7 +108,6 @@ on files that have a backup.
 One important way to help work the backup service,
 is to put intermediate/temporary data in a directory that is not backed up.
 
-
 ## What should I put in directories with backup?
 
 Irreplaceable data that you are not actively working on.
@@ -121,10 +120,16 @@ Irreplaceable data that you are not actively working on.
       a script
     - Scripts for your analysis
 
-???- question "Why should I not work actively on my data in a regular folder?"
+???- question "Why should I **not** do work in backup folders?"
 
-    The backup mechanisms cannot keep up with large amounts
+    Because the backup mechanisms cannot keep up with large amounts
     of files changing on a rapid basis.
+
+???- question "How should I do work on irreplaceable data?"
+
+    - You keep the irreplacable data in a backup folder
+    - You keep your scripts and generated output files
+      in a regular/non-backup folder
 
 ## What should I put in directories without backup?
 
