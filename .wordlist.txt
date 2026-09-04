@@ -926,7 +926,7 @@ Söderberg
 Tilda
 vCPU
 VirtualBox
-virtualized
+virtualised
 xNVIDIA
 DNS
 lookups
