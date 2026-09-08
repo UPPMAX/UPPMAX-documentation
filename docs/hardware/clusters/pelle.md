@@ -8,7 +8,7 @@ Nodes | CPUs                                 | Cores<br/>Threads | Memory  | Scr
 4     | 2x AMD EPYC 9124 (Zen4) 3&nbsp;GHz        | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 10 x L40s
 2     | 2x AMD EPYC 9124 (Zen4) 3&nbsp;GHz        | 2 x 16<br/>2 x 32 | 384 GiB | 6.9 TiB | 2 x H100
 36    | 2x Xeon E5-2630 v3 (Haswell) 2.4&nbsp;GHz | 2 x 8<br/>2 x 8   | 256 GiB | 1.8 TB  | N/A
-34    | 2x Xeon E5-2630 v3 (Haswell) 2.4&nbsp;GHz | 2 x 8<br/>2 x 8   | 256 GiB | 1.8 TB  | NVIDIA T4
+36    | 2x Xeon E5-2630 v3 (Haswell) 2.4&nbsp;GHz | 2 x 8<br/>2 x 8   | 256 GiB | 1.8 TB  | NVIDIA T4
 
 ## CPUs
 
