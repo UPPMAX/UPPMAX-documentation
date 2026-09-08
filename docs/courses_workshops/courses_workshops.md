@@ -18,13 +18,9 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 
 ## Upcoming courses administered by UPPMAX
 
-### August 2026
-
 <!-- Richel: Using full date (i.e. including the year) allows -->
 <!-- scraping by  https://docs.score.nbis.se/courses/ -->
 <!-- It makes the courses more machine-readable -->
-
-[Introduction to Linux and UPPMAX <br> _August 24-26 2026_](uppmax_intro_course.md){ .md-button .md-button--primary }
 
 ### September 2026
 
@@ -42,7 +38,7 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 ### Learn UPPMAX systems
 
 The courses on how to use our local clusters,
-such as Rackham and Snowy.
+such as Pelle.
 
 - [Introduction to Linux and UPPMAX](uppmax_intro_course.md)
 
