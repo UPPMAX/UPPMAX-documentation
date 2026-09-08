@@ -49,6 +49,10 @@ Nodes | CPUs                                 | Cores<br/>Threads | Memory  | Scr
     - Home folder
     - Projects folders
     - Software installations (modules)
+ 
+- Compute node storage (scratch)
+    - SSD/NVMe type on the AMD nodes and HDD on the older Haswell nodes
+    - Path is in the environment variable ``$SNIC_TMP``
 
 ## OS
 
