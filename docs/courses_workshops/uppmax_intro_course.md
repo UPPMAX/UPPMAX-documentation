@@ -22,8 +22,8 @@ and may be attended by non-UPPMAX users as well.
 It is possible to sign up only for the lectures that are interesting to you.
 
 - When: Tuesday-Thursday 3-5 November 2026
-- Where: TBA
-- TODO: registration form
+- Where: online via Zoom (the link will be shared with registered participants before the course)
+- [Registration form](https://forms.gle/dHN1ojjLaeBFySau9)
 
 ### Schedule
 
