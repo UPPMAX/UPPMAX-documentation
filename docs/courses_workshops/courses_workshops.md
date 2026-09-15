@@ -22,15 +22,6 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 <!-- scraping by  https://docs.score.nbis.se/courses/ -->
 <!-- It makes the courses more machine-readable -->
 
-### November 2027
-
-[Programming Formalisms <br> November 8-12 ](programming_formalisms.md){ .md-button .md-button--primary }
-
-
-### May 2027
-
-[Programming Formalisms <br> May 10-14 ](programming_formalisms.md){ .md-button .md-button--primary }
-
 ### September 2026
 
 [Introduction to Bianca: Handling Sensitive Research Data <br> _September 18 2026_](https://uppmax.github.io/bianca_workshops/beginner/intro/){ .md-button .md-button--primary }
@@ -41,6 +32,13 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 
 [Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data  <br> _November 20 2026_](bianca_intermediate.md){ .md-button .md-button--primary }
 
+### May 2027
+
+[Programming Formalisms <br> May 10-14 2027](programming_formalisms.md){ .md-button .md-button--primary }
+
+### November 2027
+
+[Programming Formalisms <br> November 8-12 2027](programming_formalisms.md){ .md-button .md-button--primary }
 
 ## About the courses
 
