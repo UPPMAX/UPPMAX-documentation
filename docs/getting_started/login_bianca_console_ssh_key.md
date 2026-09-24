@@ -48,8 +48,10 @@ From a [terminal](../software/terminal.md), use [`ssh`](../software/ssh.md) to l
 
 - Make sure you have your ssh-key pair - public and private!!!
 - Add the content of your public ssh-key to `~/.ssh/authorized_keys`.  
-If you paste it, make sure it is in one line, not wrapped/split over multiple lines.  
+If you paste it, make sure it is in one line, not wrapped/split over multiple lines.
+
 **Make sure the permissions are correct**.
+
 ```bash
 ​​$ chmod 0700 ~/.ssh
 $ ls -ld ~/.ssh
@@ -60,12 +62,15 @@ $ ls -ld ~/.ssh
 ​total 1
 ​-rw------- 1 sven sven 743 May  7  2019 authorized_keys
 ```
+
 - **!!! It is critical to use ssh-agent for this to work on Bianca !!!**
+
 ```bash
 # Linux/MacOS - add your private key.
 ssh-add ~/.ssh/id_ed25519_key
 ```
-For more details (WSL under Windows, Putty, MobaXterm) look [here](https://hackmd.io/@pmitev/SSH_tips) .
+
+For more details (WSL under Windows, Putty, MobaXterm) look [some ssh tips](https://hackmd.io/@pmitev/SSH_tips) .
 
 ```bash
 ssh -A [user]@bianca.uppmax.uu.se
