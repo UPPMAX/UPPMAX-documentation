@@ -28,7 +28,7 @@ No feedback.
 
 Our first feedback:
 
-> Hi! I noticed that for the GPU partition, 
+> Hi! I noticed that for the GPU partition,
 > usually there would be one person occupying most of the nodes,
 > which makes other people have to wait for a long time even for a small job.
 > All my classmates said it a pain to use UPPMAX when it comes to the queue.
