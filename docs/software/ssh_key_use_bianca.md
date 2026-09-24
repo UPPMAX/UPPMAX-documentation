@@ -35,7 +35,7 @@ On your local computer, create an SSH key pair with the following command:
 ???- question "Can I also do this from Pelle?"
 
     - No. This is not safe.
-    - The reason is that, since Pelle is not a secure system, credentials may leak while using Pelle in the middle.
+    - The reason is that, since Pelle is not a secure system, credentials may leak.
     - Pelle should not be used for accessing sensitive data. Connect directly from your secure client computer.
 
 ```bash
