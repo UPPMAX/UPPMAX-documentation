@@ -78,11 +78,11 @@ If asked, give your UPPMAX password.
 You can get rid of this prompt if you are
 [using an SSH key pair](ssh_key_use_pelle.md).
 
-Note that in `rsync`, a slash (`/`) matters:
+Note that in `rsync`, a trailing slash (`/`) in the source path matters. A trailing slash in the destination path does not matter:
 
 Command                                                            |Effect
 -------------------------------------------------------------------|------------------------------------------------------------
-`rsync --recursive my_folder sven@pelle.uppmax.uu.se:/home/sven` |Will put the files in `my_folder` in the Pelle home folder
+`rsync --recursive my_folder/ sven@pelle.uppmax.uu.se:/home/sven` |Will put the files in `my_folder` in the Pelle home folder
 `rsync --recursive my_folder sven@pelle.uppmax.uu.se:/home/sven/`|Will put the folder `my_folder` in the Pelle home folder
 
 ## 3. Transfer files from Pelle to you local computer
