@@ -17,17 +17,16 @@ search:
 # Log in to the Bianca remote desktop environment website from outside of the Swedish university networks
 
 There are multiple ways to [log in to Bianca](login_bianca.md).
-If you need Graphics  and cannot use VPN follow this procedure.
-This page describes how to log in to Bianca Remote desktop using a Rackham4 to get into SUNET
-from outside of the Swedish university networks.
+This page describes how to log in to Bianca Remote desktop using a Rackham4 to get into SUNET from outside of the Swedish university networks.
+
+If you need **Graphics** and cannot use VPN  to connect to SUNET, follow the procedure on this page.
+This applies, for instance, to "Karolinska Institutet" users without VPN and working abroad.
 
 !!! danger
 
     - Do not log in to a SUNET server like Pelle and from there log in to Bianca.
     - This will let all sensitive data land on that server uncrypted as an intermediate step.
     - Other clusters in SUNET are not secure systems and could be spied on.
-
-Regarding Users outside SUNET, like "Karolinska Institutet" users without VPN and working abroad, for instance.
 
 ## Procedure with using rackham4 as a "SOCKS proxy"
 
@@ -50,23 +49,23 @@ In a terminal:
 ssh -D 10443 <username>@rackham4.uppmax.uu.se
 ```
 
-Give the credentials
-You are on the rackham4 cluster
-but leave it open and instead...
+- Give your credentials.
+- You should now be on the ``rackham4`` cluster.
+- Leave this terminal open and instead...
 
 ### Connect via web browser
 
 === "Windows"
 
-    Go to the Firefox browser (must be if you are using windows) and go for settings.
-    Search for "socks"
-    Then type ``https://content.uppmax.uu.se/bianca.pac`` and click check boxes according to the attached image.
+    1. Go to the Firefox browser (must be if you are using Windows)
+    2. Go for "Settings" in the menu.
+    3. Search for ``socks``.
+    4. Type ``https://content.uppmax.uu.se/bianca.pac`` and click check boxes according to the attached image.
 
-    start a new page and go to ``bianca.uppmax.uu.se``
+    5. Start a new page and go to ``bianca.uppmax.uu.se``
 
 === "Mac/Linux"
 
-    Go to a browser
-    start a new page and go to bianca.uppmax.uu.se
+    Go to a browser, start a new page and go to ``bianca.uppmax.uu.se``
 
-Things should look like it is [presented here](login_bianca_remote_desktop_website.md).
+Now, you can follow the steps given in this [instruction](login_bianca_remote_desktop_website.md#3-fill-in-the-first-dialog-page).
