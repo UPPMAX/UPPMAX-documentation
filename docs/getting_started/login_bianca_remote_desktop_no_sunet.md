@@ -60,7 +60,9 @@ ssh -D 10443 <username>@rackham4.uppmax.uu.se
     1. Go to the Firefox browser (must be if you are using Windows)
     2. Go for "Settings" in the menu.
     3. Search for ``socks``.
-    4. Type ``https://content.uppmax.uu.se/bianca.pac`` and click check boxes according to the attached image.
+    4. Type ``https://content.uppmax.uu.se/bianca.pac`` and click check boxes according to the image below.
+
+    ![socks settings](img/socks_settings.png)
 
     5. Start a new page and go to ``bianca.uppmax.uu.se``
 
