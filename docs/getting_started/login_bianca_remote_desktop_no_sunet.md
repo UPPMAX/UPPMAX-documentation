@@ -54,6 +54,7 @@ ssh -D 10443 <username>@rackham4.uppmax.uu.se
 - Leave this terminal open and instead...
 
 ### Connect via web browser
+<!-- markdownlint-disable MD029 --><!--Having images should not break the numbered list -->
 
 === "Windows"
 
@@ -64,7 +65,7 @@ ssh -D 10443 <username>@rackham4.uppmax.uu.se
 
         ![socks settings](img/socks_settings.png)
 
-    5. Start a new page and go to ``bianca.uppmax.uu.se``
+    5. Still in Firefox, start a new page and go to ``bianca.uppmax.uu.se``.
 
 === "Mac/Linux"
 
