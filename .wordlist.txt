@@ -1188,3 +1188,5 @@ UArizona
 ASD
 nav
 NVMe
+Karolinska
+Institutet
