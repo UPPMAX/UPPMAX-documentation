@@ -129,14 +129,24 @@ to setup, yet more convenient.
     One really can only access the Bianca remote desktop environment
     via the website.
 
-Here are the ways to log in to Bianca:
+## How to log in
 
-- [1.Use the Bianca remote desktop website](login_bianca_remote_desktop_website.md)
-- [2.Use a terminal and password to access Bianca directly](login_bianca_console_password.md)
-- [3.Use a terminal and SSH keys to access Bianca directly](login_bianca_console_ssh_key.md)
-- (Workaround if you are outside of SUNET) [4.Use a terminal and password via Pelle](login_bianca_console_password_no_sunet.md)
+### You are in or can use VPN to reach SUNET
+
+- [Use the Bianca **remote desktop** website](login_bianca_remote_desktop_website.md)
+- [Use a **terminal** and **password**](login_bianca_console_password.md)
   to log in to Bianca's console environment.
-- Unfortunately you cannot reach the remote desktop for Bianca outside SUNET
+- [Use a **terminal** and **SSH keys**](login_bianca_console_ssh_key.md)
+  to log in to Bianca's console environment.
+
+### Your academic institute does not provide VPN
+
+- [Use the Bianca **remote desktop** website using Rackham socks proxy](login_bianca_remote_desktop_no_sunet.md)
+- [Use a terminal and password using Rackham as jump host](login_bianca_console_password_no_sunet.md)
+  to log in to Bianca's console environment.
+
+
+## When logged in
 
 After login, you will be on a [login node](../cluster_guides/login_node.md).
 
