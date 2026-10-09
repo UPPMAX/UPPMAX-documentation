@@ -2,7 +2,7 @@
 
 ## Overview and schedule
 
-Are you already working with sensitive data in your research and feel that your workflows can be improved? If yes, welcome to 1-day workshop where you'll learn smarter ways of working on the Bianca cluster. We will tell you how to do file transfer from a terminal (by-passing ThinLinc), advanced Slurm, and installing custom software and packages. We will not cover an introduction to Arrhenius Sens (course given in December) but may answer questions about it.
+Are you already working with sensitive data in your research and feel that your workflows can be improved? If yes, welcome to 1-day workshop where you'll learn smarter ways of working on the Bianca cluster. We will tell you how to do file transfer from a terminal (by-passing ThinLinc), advanced Slurm, and installing custom software and packages. We will not cover an introduction to Arrhenius SENS (course to be given in December), but we can answer questions regarding the present status.
 
 This is partly a Q&A-based workshop for **intermediate** users of Bianca.
 
