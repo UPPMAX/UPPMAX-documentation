@@ -2,23 +2,25 @@
 
 ## Overview and schedule
 
-Are you already working with sensitive data in your research and feel that your workflows can be improved? If yes, welcome to 1-day workshop where you'll learn smarter ways of working on the Bianca cluster. We will tell you how to do file transfer from a terminal (by-passing ThinLinc), advanced Slurm, and installing custom software and packages. We will not cover an introduction to Arrhenius SENS (course to be given in December), but we can answer questions regarding the present status.
+Are you already working with sensitive research data on Bianca and looking for ways to improve your workflows?
 
-This is partly a Q&A-based workshop for **intermediate** users of Bianca.
+Join us for a **one-day, hands-on workshop** where you will learn more efficient ways of working on the Bianca cluster. Topics include transferring files directly from the command line (without using ThinLinc), advanced Slurm usage, and installing custom software and packages.
 
-**Prerequisites:** being able to login to Bianca, submit a Slurm bash script, and know how to transfer files.
+This workshop is aimed at **intermediate Bianca users** and combines short lectures, practical exercises, and Q&A sessions. There will also be opportunities to discuss your own workflows and challenges.
 
-You do not need to be a member of a NAISS-SENS project in order to join the workshop. A SUPR course project will be available to all participants. The workshop will consist of both lectures and exercise sessions.
+We will not cover an introduction to Arrhenius SENS, as a dedicated course is planned for December. However, we will be happy to answer questions about its current status.
+
+**Prerequisites:** Participants should already be familiar with logging in to Bianca, submitting Slurm batch jobs, and transferring files.
+
+You do not need to be a member of a NAISS-SENS project in order to join the workshop. A SUPR course project will be available to all participants.
 
 **When:** Monday, November 23, 2026.
 
-**Time:** 09:00 - 12:00, and 13:00 - 16:00.
+**Time:** 09:00 - 12:00 and 13:00 - 16:00.
 
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
 **[Registration form](https://nextcloud.naiss.se/apps/forms/s/fZkNnQ9E5nMYj566sbckLP3)**
-
-The workshop will consist of short lectures, exercises and Q&A sessions.
 
 ## Tentative schedule
 
