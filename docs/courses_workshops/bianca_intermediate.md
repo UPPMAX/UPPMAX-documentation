@@ -12,7 +12,7 @@ We will not cover an introduction to Arrhenius SENS, as a dedicated course is pl
 
 **Prerequisites:** Participants should already be familiar with logging in to Bianca, submitting Slurm batch jobs, and transferring files.
 
-You do not need to be a member of a NAISS-SENS project in order to join the workshop. A SUPR course project will be available to all participants.
+You do not need to be a member of a NAISS SENS project in order to join the workshop. A SUPR course project will be available to all participants.
 
 **When:** Monday, November 23, 2026.
 
