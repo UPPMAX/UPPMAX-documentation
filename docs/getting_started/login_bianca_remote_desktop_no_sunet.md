@@ -38,7 +38,7 @@ This applies, for instance, to "Karolinska Institutet" users without VPN and wor
 
     ``ssh -D`` opens a local port, but it doesn't have a specific endpoint like with -L. Instead, it pretends to be a SOCKS proxy.
     If you open, e.g., ``ssh -D 7777``, when you tell your browser to use ``localhost:7777`` as your SOCKS proxy,
-    everything your browser requests goes through the ssh tunnel. 
+    everything your browser requests goes through the ssh tunnel.
     To the public internet, it's as if you were browsing from your ssh server instead of from your computer.
 
 ### Get inside SUNET
@@ -50,7 +50,7 @@ ssh -D 10443 <username>@rackham4.uppmax.uu.se
 ```
 
 - Give your credentials.
-- You should now be on the ``rackham4`` cluster.
+- You should now be on the ``rackham4`` cluster, even though there is no confirmation that you are connected.
 - Leave this terminal open and instead...
 
 ### Connect via web browser
@@ -62,12 +62,16 @@ ssh -D 10443 <username>@rackham4.uppmax.uu.se
     3. Search for ``socks``.
     4. Type ``https://content.uppmax.uu.se/bianca.pac`` and click check boxes according to the image below.
 
-    ![socks settings](img/socks_settings.png)
+        ![socks settings](img/socks_settings.png)
 
     5. Start a new page and go to ``bianca.uppmax.uu.se``
 
 === "Mac/Linux"
 
-    Go to a browser, start a new page and go to ``bianca.uppmax.uu.se``
+    1. Go to the Firefox browser (recommended)
+    2. Go for "Settings" in the menu.
+    3. Search for ``socks``.
+    4. Type ``https://content.uppmax.uu.se/bianca.pac`` and click the radio button "URL for automatic proxy configuratio" or similar, and click "Update" button. 
+    5. Still in Firefox, start a new page and go to ``bianca.uppmax.uu.se``.
 
 Now, you can follow the steps given in this [instruction](login_bianca_remote_desktop_website.md#3-fill-in-the-first-dialog-page).
