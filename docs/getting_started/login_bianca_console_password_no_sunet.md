@@ -14,7 +14,7 @@ search:
   boost: 1
 ---
 
-# Login to the Bianca console environment with a password from outside of the Swedish university networks
+# Login to the Bianca console environment with a password from outside of SUNET
 
 There are multiple ways to [log in to Bianca](login_bianca.md).
 
