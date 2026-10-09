@@ -2,9 +2,9 @@
 
 ## Overview and schedule
 
-Are you already working with sensitive data in your research and feel your workflow can be improved? If yes, welcome to a full day of learning of smarter ways to work on the Bianca UPPMAX cluster. We will tell you how to login from a terminal (bypassing ThinLinc), do file transfer from a terminal (allowing scripts), advanced Slurm, and installing custom software and packages.
+Are you already working with sensitive data in your research and feel that your workflows can be improved? If yes, welcome to 1-day workshop where you'll learn smarter ways of working on the Bianca cluster. We will tell you how to do file transfer from a terminal (by-passing ThinLinc), advanced Slurm, and installing custom software and packages. We will not cover an introduction to Arrhenius Sens (course given in December) but may answer questions about it.
 
-This is a Q&A-based hackathon for **intermediate** users of Bianca.
+This is partly a Q&A-based workshop for **intermediate** users of Bianca.
 
 **Prerequisites:** being able to login to Bianca, submit a Slurm bash script, and know how to transfer files.
 
@@ -16,7 +16,7 @@ You do not need to be a member of a NAISS-SENS project in order to join the work
 
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
-**Registration form**: TBA
+**Registration form**: https://nextcloud.naiss.se/apps/forms/s/fZkNnQ9E5nMYj566sbckLP3
 
 The workshop will consist of short lectures, exercises and Q&A sessions.
 
