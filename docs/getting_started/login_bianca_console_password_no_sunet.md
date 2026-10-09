@@ -24,18 +24,18 @@ from outside of the Swedish university networks.
 
 !!! danger
 
-    - Do not log in to a SUNET server like Pelle and from there log in to Bianca.
+    - Do not log in to a SUNET server like Pelle or Rackham or Arrhenius and from there log in to Bianca.
     - This will let all sensitive data land on that server uncrypted as an intermediate step.
     - Other clusters in SUNET are not secure systems and could be spied on.
 
-## Procedure with using Pelle as a "jump host"
+## Procedure with using Rackham as a "jump host"
 
-- Log in to Bianca via Pelle in one line
+- Log in to Bianca via Rackham in one line
 
 ```console
-ssh sven@bianca.uppmax.uu.se -J sven@pelle.uppmax.uu.se
-sven@pelle.uppmax.uu.se's password:
-sven@pelle.uppmax.uu.se) Second factor (TOTP UPPMAX):
+ssh sven@bianca.uppmax.uu.se -J sven@rackham.uppmax.uu.se
+sven@rackham.uppmax.uu.se's password:
+sven@rackham.uppmax.uu.se) Second factor (TOTP UPPMAX):
 
 Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
 
@@ -43,23 +43,4 @@ Provide your normal UPPMAX password. You will supply the TOTP code separately, i
 (sven@bianca.uppmax.uu.se) Second factor (TOTP UPPMAX):
 ```
 
-- You are now inside the Bianca session and sensitive data is not seen by Pelle at all.
-
-## Procedure with using any server within SUNET as a "jump host"
-
-We give here an example of using Transit cluster. Replace "Transit" with the cluster or server (in SUNET) you have account on.
-
-- Log in to Bianca via Transit in one line:
-
-```console
-ssh sven@bianca.uppmax.uu.se -J sven@transit.uppmax.uu.se
-(sven@transit.uppmax.uu.se) Password:
-(sven@transit.uppmax.uu.se) Verification code:
-
-Provide your normal UPPMAX password. You will supply the TOTP code separately, in the next step.
-
-(sven@bianca.uppmax.uu.se) Password:
-(sven@bianca.uppmax.uu.se) Second factor (TOTP UPPMAX):
-```
-
-- You are now inside the Bianca session and sensitive data is not seen by Transit (or the server you use) at all.
+- You are now inside the Bianca session and sensitive data is not seen by Rackham at all.
