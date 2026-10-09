@@ -14,7 +14,7 @@ search:
   boost: 1
 ---
 
-# Log in to the Bianca remote desktop environment website from outside of the Swedish university networks
+# Log in to the Bianca remote desktop environment website from outside of the SUNET
 
 There are multiple ways to [log in to Bianca](login_bianca.md).
 This page describes how to log in to Bianca Remote desktop using a Rackham4 to get into SUNET from outside of the Swedish university networks.
