@@ -71,7 +71,7 @@ ssh -D 10443 <username>@rackham4.uppmax.uu.se
     1. Go to the Firefox browser (recommended)
     2. Go for "Settings" in the menu.
     3. Search for ``socks``.
-    4. Type ``https://content.uppmax.uu.se/bianca.pac`` and click the radio button "URL for automatic proxy configuratio" or similar, and click "Update" button. 
+    4. Type ``https://content.uppmax.uu.se/bianca.pac`` and click the radio button "URL for automatic proxy configuration" or similar, and click "Update" button.
     5. Still in Firefox, start a new page and go to ``bianca.uppmax.uu.se``.
 
 Now, you can follow the steps given in this [instruction](login_bianca_remote_desktop_website.md#3-fill-in-the-first-dialog-page).
