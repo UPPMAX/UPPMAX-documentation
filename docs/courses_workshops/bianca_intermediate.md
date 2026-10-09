@@ -20,7 +20,7 @@ You do not need to be a member of a NAISS SENS project in order to join the work
 
 **Where:** online via Zoom. Connection details will be sent to registered participants.
 
-**[Registration form](https://nextcloud.naiss.se/apps/forms/s/fZkNnQ9E5nMYj566sbckLP3)**
+**[Registration form](https://nextcloud.naiss.se/apps/forms/s/fZkNnQ9E5nMYj566sbckLP3j)**
 
 ## Tentative schedule
 
