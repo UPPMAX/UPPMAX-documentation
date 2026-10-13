@@ -9,6 +9,10 @@ This page describes how to optimise your Slurm jobs.
 
 ## Commands
 
+!!! warning
+
+    Many of these are only available on Bianca
+
 You will probably have good use of the following commands:
 
 Command                                          |Description
