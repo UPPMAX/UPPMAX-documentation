@@ -28,7 +28,7 @@ We will mainly use Tetralith at NSC for the examples for the course, but there i
 
 This course will consist of three days (**9:00-16:00**), one for each language. It is a cooperation between HPC2N, LUNARC, and UPPMAX.
 
-Full schedule can be found on the rendered presentations for each course day: <https://uppmax.github.io/R-matlab-julia-HPC/>
+Full schedule can be found on the rendered presentations for each course day: <https://hpc.pages.naiss.se/training/R-matlab-julia-HPC/>
 
 - **Day 1, Mon. 6 October**
     - 9:00 - 16:00 R
@@ -44,8 +44,8 @@ Full schedule can be found on the rendered presentations for each course day: <h
 
 ## Materials
 
-    Exercises and .rst files can be downloaded from the course's GitHub page: <https://github.com/UPPMAX/R-matlab-julia-HPC>
-    Rendered presentations can be found here: <https://uppmax.github.io/R-matlab-julia-HPC/>
+    Exercises and .rst files can be downloaded from the course's GitHub page: <https://gitlab.naiss.se/hpc/training/R-matlab-julia-HPC>
+    Rendered presentations can be found here: <https://hpc.pages.naiss.se/training/R-matlab-julia-HPC/>
     Recordings are here: TBA
     Q/A document for each day, as PDF: TBA
 
