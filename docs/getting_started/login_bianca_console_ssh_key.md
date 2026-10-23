@@ -154,9 +154,6 @@ you are on a Bianca [login node](../cluster_guides/login_node.md).
 
 In a Bianca console environment:
 
-- Text display is limited to 50kBit/s.
-  This means that if you create a lot of text output,
-  you will have to wait some time before you get your prompt back.
 - Cut, copy and paste work as usual.
   Be careful to not copy-paste sensitive data!
 
