@@ -13,11 +13,11 @@ tags:
 Cloud services allow a user to have something active (typically a website)
 that can be accessed by the internet.
 
-The [NAISS 'Swedish Science Cloud (SSC)'](https://www.naiss.se/resource/swedish-science-cloud-ssc/),
-consists out of multiple regions.
-The eastern region (called `EAST-1`) of SCC is named
+The -now retired- NAISS 'Swedish Science Cloud (SSC)'
+consisted out of multiple regions.
+The eastern region (called `EAST-1`) of SCC was named
 'Dis' (the Swedish word for 'haze')
-and is hosted by Uppsala
+and was hosted by Uppsala
 university (the service is called 'UPPMAX cloud')
 and Umeå University (north, HPC2N).
 
