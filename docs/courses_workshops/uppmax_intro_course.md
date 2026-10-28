@@ -21,13 +21,13 @@ The lectures covering Linux and Bash scripting are cluster-agnostic
 and may be attended by non-UPPMAX users as well.
 It is possible to sign up only for the lectures that are interesting to you.
 
-- When: Tuesday-Thursday 3-5 November 2026
+- When: TBA
 - Where: online via Zoom (the link will be shared with registered participants before the course)
 - [Registration form](https://forms.gle/dHN1ojjLaeBFySau9)
 
 ### Schedule
 
-|                | Tuesday, November 3          | Wednesday, November 4  | Thursday, November 5  |
+|                | ?                            | ?                      | ?                     |
 |:---------------|:-----------------------------|:-----------------------|:----------------------|
 | **Morning**    | [Intro to UPPMAX and Linux 1/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek | [Linux II](https://www.uu.se/download/18.57591c9d18f3ec99a0521715/1715115920644/c_560271-l_1-k_uppmax-linux-ii.pptx.pdf)<br />Douglas Scofield        | [Bash Scripting](https://www.uu.se/download/18.57591c9d18f3ec99a052171f/1715115979757/c_560271-l_1-k_uppmax-bash-scripts.pptx.pdf)<br />Douglas Scofield          |
 | **Afternoon**  | [Intro to UPPMAX and Linux 2/2](https://uppmax.github.io/uppmax_intro_day_1/)<br />Richèl Bilderbeek | [Linux III](https://www.uu.se/download/18.57591c9d18f3ec99a0521716/1715115950709/c_560271-l_1-k_uppmax-linux-iii.pptx.pdf)<br />Douglas Scofield      | [Slurm at UPPMAX](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/courses_workshops/UPPMAX-Slurm-2025-10.pdf)<br />Diana Iusan         |
