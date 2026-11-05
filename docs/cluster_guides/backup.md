@@ -30,8 +30,6 @@ A backup allows one to restore his/her data
 
 This page describes how UPPMAX does backups.
 
-All folders have a backup, except those in a folder called `nobackup`.
-
 While UPPMAX systems may have backup,
 these are not designed to act as the sole repository of primary data,
 e.g. raw data or originals.
@@ -145,8 +143,8 @@ and unlikely to be the cause of lost data.
 
 ???- question "How is the hardware set up?"
 
-    All UPPMAX storage systems use RAID technology
-    to make storage more robust through redundancy.
+    All UPPMAX storage systems use some kind to encoding for redundancy 
+    (RAID, Erasure coding, Replication,...) to make storage more robust.
 
     This means that two or more disks must fail in the same 'RAID volume'
     before there is a risk of data loss, which has a rather low chance.
