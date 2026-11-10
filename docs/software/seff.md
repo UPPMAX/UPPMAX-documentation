@@ -1,10 +1,12 @@
 ---
+
 tags:
   - Slurm
   - scheduler
   - efficiency
   - tool
   - software
+
 ---
 
 # `seff`
@@ -15,7 +17,6 @@ of Slurm jobs. On UPPMAX, use [jobstats](jobstats.md) instead.
 ???- question "Why is this on the UPPMAX pages?"
 
     As there may be plans to have it on UPPMAX too.
-
 
 ???- question "What does its output look like?"
 
@@ -36,8 +37,11 @@ of Slurm jobs. On UPPMAX, use [jobstats](jobstats.md) instead.
     Memory Efficiency: 3.27% of 222.00 GB
     ```
 
+
+
 HPC cluster|Has `seff` installed?
 -----------|---------------------------------------
 Dardel     |Yes
-Rackham    |No, use [jobstats](jobstats.md) instead
+
+
 
