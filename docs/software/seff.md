@@ -1,4 +1,4 @@
-----
+---
 
 tags:
   - Slurm
@@ -7,7 +7,7 @@ tags:
   - tool
   - software
 
-----
+---
 
 # `seff`
 
