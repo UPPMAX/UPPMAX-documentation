@@ -3,8 +3,11 @@ name: Create Zensical website
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - .github/workflows/create_zensical_website.yaml
+      - 'docs/**'
+      - zensical.toml
+  pull_request:
     paths:
       - .github/workflows/create_zensical_website.yaml
       - 'docs/**'
