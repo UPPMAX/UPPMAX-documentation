@@ -119,7 +119,11 @@ To find out which Python modules there are, use `module spider python`.
 To load a specific version of Python into your environment,
 type `module load python/[version]`,
 where `[version]` is a Python version,
-for example, `module load Python/3.11.5-GCCcore-13.2.0`
+for example:
+
+```bash
+module load Python/3.11.5-GCCcore-13.2.0
+```
 
 ???- question "Do I really need to load a Python module?"
 
