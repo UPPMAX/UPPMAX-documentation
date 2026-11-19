@@ -109,17 +109,17 @@
 
 ### Example bash command
 
-![mv inbox](./img/mv_inbox.png)
+![mv inbox](./img/mv_inbox.png){: style="width:300px"}
 
-![program flags](./img/program_flags.png)
+![program flags](./img/program_flags.png){ : style="width:200px" }
 
 - Terminal screen shows
 
-![Content](./img/screen.png)
+![Content](./img/screen.png){ : style="width:500px" }
 
 ### Tab Completion
 
-![Content](./img/tab.png)
+![Content](./img/tab.png){ : style="width:200px" }
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
