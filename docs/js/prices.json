@@ -1,0 +1,116 @@
+{
+	"pelle": {
+		"cpu": {
+			"price": 0.10,
+			"multiplier": 12000,
+			"input_unit": "x 1000 core-h/month",
+			"price_unit": "SEK/core-hour"
+		},
+		"cpu-highmem": {
+			"price": 0.40,
+			"multiplier": 12000,
+			"input_unit": "x 1000 core-h/month",
+			"price_unit": "SEK/core-hour"
+		},
+		"gpu-small": {
+			"price": 0.40,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"gpu-medium": {
+			"price": 2.75,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"gpu-large": {
+			"price": 11.50,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"proj-storage": {
+			"price": 0.10,
+			"multiplier": 8760,
+			"input_unit": "TB",
+			"price_unit": "SEK/TB-hour"
+		}
+	},
+	"pelle-cloud": {
+		"cpu": {
+			"price": 0.12,
+			"multiplier": 12000,
+			"input_unit": "x 1000 core-h/month",
+			"price_unit": "SEK/core-hour"
+		},
+		"cpu-highmem": {
+			"price": 0.50,
+			"multiplier": 12000,
+			"input_unit": "x 1000 core-h/month",
+			"price_unit": "SEK/core-hour"
+		},
+		"gpu-small": {
+			"price": 0.50,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"gpu-medium": {
+			"price": 3.20,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"gpu-large": {
+			"price": 14.00,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"proj-storage": {
+			"price": 0.12,
+			"multiplier": 8760,
+			"input_unit": "TB",
+			"price_unit": "SEK/TB-hour"
+		}
+	},
+	"maja": {
+		"cpu": {
+			"price": 0.14,
+			"multiplier": 12000,
+			"input_unit": "x 1000 core-h/month",
+			"price_unit": "SEK/core-hour"
+		},
+		"cpu-highmem": {
+			"price": 0.60,
+			"multiplier": 12000,
+			"input_unit": "x 1000 core-h/month",
+			"price_unit": "SEK/core-hour"
+		},
+		"gpu-small": {
+			"price": 0.60,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"gpu-medium": {
+			"price": 4.00,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"gpu-large": {
+			"price": 16.50,
+			"multiplier": 12000,
+			"input_unit": "x 1000 GPU-h/month",
+			"price_unit": "SEK/GPU-hour"
+		},
+		"proj-storage": {
+			"price": 0.15,
+			"multiplier": 8760,
+			"input_unit": "TB",
+			"price_unit": "SEK/TB-hour"
+		}
+	}
+}
