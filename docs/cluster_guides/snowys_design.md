@@ -1,6 +1,7 @@
 # Snowy's design
 
-[Snowy](snowy.md) is an (general-purpose) high-performance computing (HPC) cluster,
+[Snowy](snowy.md) was a general-purpose high-performance
+computing (HPC) cluster,
 with GPUs and suitable for longer jobs.
 
 ???- question "What is an HPC cluster?"
