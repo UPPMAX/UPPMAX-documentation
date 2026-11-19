@@ -109,7 +109,7 @@
 
 ### Example bash command
 
-![mv inbox](./img/mv_inbox.png){: style="width:300px"}
+![mv inbox](./img/mv_inbox.png){style="width:300px"}
 
 ![program flags](./img/program_flags.png){ : style="width:200px" }
 
