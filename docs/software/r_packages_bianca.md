@@ -136,7 +136,7 @@ wget <package>_<version>.tar.gz
 
         ```R
         Warning in install.packages("dowser_2.0.0.tar.gz", repos = NULL, type = "source") :
-          'lib = "/sw/apps/R/4.3.1/rackham/lib64/R/library"' is not writable
+          'lib = "/sw/apps/R/4.3.1/pelle/lib64/R/library"' is not writable
         Would you like to use a personal library instead? (yes/No/cancel) yes
         Would you like to create a personal library
         ‘/castor/project/home/bjornc/R/x86_64-pc-linux-gnu-library/4.3’
@@ -192,8 +192,8 @@ wget <package>_<version>.tar.gz
         Running under: CentOS Linux 7 (Core)
 
         Matrix products: default
-        BLAS:   /sw/apps/R/4.3.1/rackham/lib64/R/lib/libRblas.so
-        LAPACK: /sw/apps/R/4.3.1/rackham/lib64/R/lib/libRlapack.so;  LAPACK version 3.11.0
+        BLAS:   /sw/apps/R/4.3.1/pelle/lib64/R/lib/libRblas.so
+        LAPACK: /sw/apps/R/4.3.1/pelle/lib64/R/lib/libRlapack.so;  LAPACK version 3.11.0
 
         locale:
          [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C

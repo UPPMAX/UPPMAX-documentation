@@ -19,7 +19,7 @@ module avail nextflow
 # On Rackham/Bianca
 module load bioinfo-tools
 module avail nextflow
-------------------------------------------------- /sw/mf/rackham/bioinfo-tools/pipelines --------------------------------------------------
+------------------------------------------------- /sw/mf/pelle/bioinfo-tools/pipelines --------------------------------------------------
    Nextflow/latest (D)    Nextflow/0.26.0     Nextflow/19.01.0         Nextflow/20.10.0         Nextflow/21.04.1    Nextflow/22.10.1
    Nextflow/0.17.3        Nextflow/0.31.1     Nextflow/20.02.0-edge    Nextflow/21.01.0-edge    Nextflow/21.10.6
    Nextflow/0.22.2        Nextflow/18.10.1    Nextflow/20.04.0-edge    Nextflow/21.02.0-edge    Nextflow/22.10.0
@@ -51,7 +51,7 @@ nextflow version 23.10.1.5891
 
 ```bash
 # To check the available versions on Rackham/Bianca
-ls /sw/bioinfo/Nextflow/latest/rackham/nxf_home/framework/
+ls /sw/bioinfo/Nextflow/latest/pelle/nxf_home/framework/
 20.04.1  21.04.3  22.10.1  22.10.4  23.04.2  23.10.0  24.04.2  24.04.5  24.10.2  24.10.5  25.04.1  25.04.4  25.04.7
 20.07.1  21.10.6  22.10.2  22.10.8  23.04.3  23.10.1  24.04.3  24.10.0  24.10.3  24.10.6  25.04.2  25.04.5
 20.10.0  22.10.0  22.10.3  23.04.1  23.04.4  24.04.1  24.04.4  24.10.1  24.10.4  25.04.0  25.04.3  25.04.6

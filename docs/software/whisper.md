@@ -378,7 +378,7 @@ In the rest of the sections, provide the following information:
     all the available models by:
 
     ```console
-    [jayan@sens2024544-bianca jayan]$ ll /sw/apps/Whisper/0.5.1/rackham/models
+    [jayan@sens2024544-bianca jayan]$ ll /sw/apps/Whisper/0.5.1/pelle/models
     total 13457440
     -rw-rw-r-- 1 sw  145261783 Nov 10 14:22 base.en.pt
     -rw-rw-r-- 1 sw  145262807 Nov 10 14:23 base.pt

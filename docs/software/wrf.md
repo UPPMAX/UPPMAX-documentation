@@ -22,7 +22,7 @@
 - Set the path in `namelist.wps` to:
 
 ```bash
-geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG'
+geog_data_path = '/sw/data/WPS-geog/4/pelle/WPS_GEOG'
 ```
 
 - Corine and metria data are included in the WPS_GEOG directory.
@@ -45,17 +45,17 @@ geog_data_path = '/sw/data/WPS-geog/4/rackham/WPS_GEOG'
 1. Standing in this directory copy the all or some of the following directories from the central installation.
     1. Run directory                           for real runs
 
-        - ``cp -r /sw/EasyBuild/rackham/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/run .``
+        - ``cp -r /sw/EasyBuild/pelle/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/run .``
         - You can remove *.exe files in this run directory because the module files shall be used.
 
     1. WPS directory                          if input data has to be prepared
 
-        - ``cp -r /sw/EasyBuild/rackham/software/WPS/4.1-intel-2019b-dmpar/WPS-4.1 .``
+        - ``cp -r /sw/EasyBuild/pelle/software/WPS/4.1-intel-2019b-dmpar/WPS-4.1 .``
         - You can remove *.exe files in the new directory because the module files shall be used.
 
     1. Test directory                          for ideal runs
 
-        - ``cp -r /sw/EasyBuild/rackham/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/test .``
+        - ``cp -r /sw/EasyBuild/pelle/software/WRF/4.1.3-intel-2019b-dmpar/WRF-4.1.3/test .``
         - You can remove *.exe files because the module files shall be used.
 
 1. When WRF or WPS modules are loaded you can run with “ungrib.exe” or for instance “wrf.exe”, i.e. without the “./”.

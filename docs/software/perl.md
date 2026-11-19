@@ -6005,14 +6005,14 @@ YAML::XS::LibYAML | unknown
 
 Include path (INC) directories | Searched | Number of Modules
 -------------------------------|----------|--------------------
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/5.26.2/x86_64-linux-thread-multi | yes | 0
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/5.26.2 | yes | 0
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5/x86_64-linux-thread-multi | yes | 1055
-/sw/comp/perl_modules/5.26.2/rackham/lib/perl5 | yes | 5989
-/sw/comp/perl/5.26.2/rackham/lib/5.26.2/x86_64-linux-thread-multi | no | unknown
-/sw/comp/perl/5.26.2/rackham/lib/5.26.2 | no | unknown
-/sw/comp/perl/5.26.2/rackham/lib | no | unknown
-/sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2/x86_64-linux-thread-multi | no | unknown
-/sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2 | no | unknown
+/sw/comp/perl_modules/5.26.2/pelle/lib/perl5/5.26.2/x86_64-linux-thread-multi | yes | 0
+/sw/comp/perl_modules/5.26.2/pelle/lib/perl5/5.26.2 | yes | 0
+/sw/comp/perl_modules/5.26.2/pelle/lib/perl5/x86_64-linux-thread-multi | yes | 1055
+/sw/comp/perl_modules/5.26.2/pelle/lib/perl5 | yes | 5989
+/sw/comp/perl/5.26.2/pelle/lib/5.26.2/x86_64-linux-thread-multi | no | unknown
+/sw/comp/perl/5.26.2/pelle/lib/5.26.2 | no | unknown
+/sw/comp/perl/5.26.2/pelle/lib | no | unknown
+/sw/comp/perl/5.26.2/pelle/lib/site_perl/5.26.2/x86_64-linux-thread-multi | no | unknown
+/sw/comp/perl/5.26.2/pelle/lib/site_perl/5.26.2 | no | unknown
 
 - Total modules : 5989
