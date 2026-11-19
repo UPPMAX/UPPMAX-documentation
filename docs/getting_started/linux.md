@@ -109,13 +109,13 @@
 
 ### Example bash command
 
-![mv inbox](./img/mv_inbox.png){style="width:300px"}
+![mv inbox](./img/mv_inbox.png)
 
-![program flags](./img/program_flags.png){ : style="width:200px" }
+![program flags](./img/program_flags.png)
 
 - Terminal screen shows
 
-![Content](./img/screen.png){ : style="width:500px" }
+![Content](./img/screen.png)
 
 ### Tab Completion
 
