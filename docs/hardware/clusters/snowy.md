@@ -1,6 +1,9 @@
 # Snowy hardware
 
-Decommissioned Fri 30 January 2026
+Snowy was an UPPMAX HPC cluster
+that was decommissioned on Friday the 30th January 2026.
+
+This was its hardware.
 
 ## Snowy's system configuration
 
