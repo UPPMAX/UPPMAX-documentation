@@ -119,7 +119,7 @@
 
 ### Tab Completion
 
-![Content](./img/tab.png){ : style="width:200px" }
+![Content](./img/tab.png)
 
 - Whenever you’re writing a path or filename on the bash prompt, you can strike the ‘tab’ key to
 ask Bash to complete what you’re writing.
