@@ -106,7 +106,7 @@ Following steps are derived from [Project application for Bianca](../getting_sta
 
 1. Transfer your data from your local computer to Wharf using [WinSCP](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_winscp/) app (for Windows only) or [FileZilla](https://docs.uppmax.uu.se/software/bianca_file_transfer_using_filezilla/) app (Mac, Windows or Linux). Instruction on how to do it is in their respective links or watch FileZilla [Video](https://youtu.be/DYPWawyK5UE).
 
-    ![whisper gui](./img/whisper_data_transfer.png){style="height:90%;width:90%"}
+    ![whisper gui](./img/whisper_data_transfer.png)
 
 ### Step 2: Transcribing/Translating
 
@@ -136,7 +136,7 @@ NOTE: if you drag and drop, it will cut-paste your data instead of copy-paste. D
 
 1. Click on Whisper application on Desktop. It would look like this:
 
-    ![whisper gui](./img/whisper-gui.png){style="height:90%;width:90%"}
+    ![whisper gui](./img/whisper-gui.png)
 
     Select appropriate options, or use the following for the best results:
 
@@ -186,7 +186,7 @@ On Mac, `.txt`, `.srt` and `.vtt` can be opened in Word by:
 - Change the name of the file like `some_name.docx` and change type of file to `.docx`
 - Open the file and then Save As a new file.
 
-![Mac setting for UTF-8 export](../img/mac_utf8.png){style="height:90%;width:90%"}
+![Mac setting for UTF-8 export](../img/mac_utf8.png)
 
 ??? tip "Advance settings"
 
