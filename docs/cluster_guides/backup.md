@@ -7,7 +7,7 @@ tags:
 
 # Backup
 
-!!! warning "For Pelle users: Changed procedures for NEW Gorilla storage versus OLD Crex storage"
+!!! warning "For Pelle users: Changed procedures for NEW Gorilla storage versus OLD Crex storage" 
 
     For projects on crex a project directory had the default content
     
@@ -143,7 +143,7 @@ and unlikely to be the cause of lost data.
 
 ???- question "How is the hardware set up?"
 
-    All UPPMAX storage systems use some kind to encoding for redundancy 
+    All UPPMAX storage systems use some kind to encoding for redundancy
     (RAID, Erasure coding, Replication,...) to make storage more robust.
 
     This means that two or more disks must fail in the same 'RAID volume'
