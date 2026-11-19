@@ -22,7 +22,6 @@ of that HPC centre.
 
 HPC cluster | Login method           | Documentation                                                                                             | Video
 ------------|------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------
-Alvis       | SSH                    | [Documentation](https://www.c3se.chalmers.se/documentation/connecting/)                                            | [Documentation](https://youtu.be/PJZ3W907qCU)
 Bianca      | SSH                    | [Documentation](https://docs.uppmax.uu.se/getting_started/login_bianca_console_password/)                          | [Documentation](https://youtu.be/7mKDxnXqi_M)
 Bianca      | Website                | [Documentation](https://uppmax.github.io/UPPMAX-documentation/getting_started/login_bianca_remote_desktop_website/)| [Documentation](https://youtu.be/UpNI5OUlIo8)
 COSMOS      | SSH                    | [Documentation](https://lunarc-documentation.readthedocs.io/en/latest/getting_started/login_howto/)                | [Documentation](https://youtu.be/sMsenzWERTg)
@@ -36,5 +35,3 @@ LUMI        | SSH                    | [Documentation](https://docs.lumi-superco
 Pelle       | SSH                    | [Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client)        | [Documentation **check link**](https://youtu.be/TSVGSKyt2bQ)
 Pelle       | Local ThinLinc client  | [Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/)                           | [Documentation **check link**](https://youtu.be/PqEpsn74l0g)
 Pelle       | Remote desktop website | [Documentation](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/)                     | [Documentation **check link**](https://youtu.be/HQ2iuKRPabc)
-Tetralith   | SSH                    | [Documentation](https://www.nsc.liu.se/support/getting-started/)                                                   | [Documentation](https://youtu.be/wtGIzSBiulY)
-Tetralith   | Local ThinLinc client  | [Documentation](https://www.nsc.liu.se/support/graphics/), at 'Running graphical applications using ThinLinc'      | [Documentation](https://youtu.be/JsHzQSFNGxY)

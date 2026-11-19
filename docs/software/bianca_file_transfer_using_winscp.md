@@ -9,7 +9,8 @@ tags:
 
 # File transfer to/from Bianca using WinSCP
 
-Download and install from [UU Software Center](https://www.uu.se/en/staff/service-and-tools/it-and-telephony-services/it-services/computers-and-client-management/client-management/client-management-for-windows).
+Download and install from
+[UU Software Center](https://www.uu.se/en/staff/service-and-tools/it-and-telephony-services/it/computers-and-client-management/client-management/client-management-for-windows).
 
 You can also download the software from [WinSCP](https://winscp.net/eng/docs/guide_install) website.
 
