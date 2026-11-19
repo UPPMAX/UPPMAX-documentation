@@ -8,8 +8,8 @@ hide:
 <div align="center" style="margin-top: 20px;" markdown="1">
 # **Welcome to the UPPMAX Documentation**
 <!-- Logo -->
-![Uppsala University Logo](assets/UU_logo_color.svg)
-![Uppsala University Logo](assets/UU_logo_vit.svg)
+![Uppsala University Logo](assets/UU_logo_color.svg){width="200" id="logo_light_mode"}
+![Uppsala University Logo](assets/UU_logo_vit.svg){width="200" id="logo_dark_mode"}
 </div>
 
 <div style="text-align: center; margin-top: 45px;" markdown="1">
