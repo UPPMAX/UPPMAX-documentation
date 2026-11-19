@@ -32,47 +32,10 @@ and a detailed [overview](#detailed-overview-of-the-uppmax-systems) of the clust
 UPPMAX clusters are computing systems,
 i.e. they allow a user to do heavy computational calculations.
 
-### Active
-
 Name                 |Purpose                      |Description
 ---------------------|-----------------------------|-------------------------------------
 [Pelle](pelle.md)    |Regular data, general purpose|Is replacing [Rackham](rackham.md)
 [Bianca](bianca.md)  |Sensitive data, general use  |Will be replaced by [Maja](maja.md)
-
-Another cluster UPPMAX is involved in:
-
-- [Dardel](dardel.md): a general purpose HPC cluster in Stockholm. Earlier Rackham users with no affiliation to UPPMAX moved here in late 2024.
-
-### Closed
-
-Name                 |Purpose                      |Description
----------------------|-----------------------------|-------------------------------------
-[Rackham](rackham.md)|Regular data, general purpose|Is being replaced by [Pelle](pelle.md)
-[Snowy](snowy.md)    |Regular data, long runs, GPUs|.
-
-??? warning "Forgot to empty your project on Rackham?"
-
-    Go to the [Rackham page](rackham.md) to find the transfer guides for Rackham.
-    
-```mermaid
-flowchart TD
-    UPPMAX(Which UPPMAX cluster?)
-    Bianca
-    Dardel
-    Maja
-    Pelle
-    Rackham
-    Snowy
-    is_sensitive[Do you use sensitive data?]
-    is_local[Is the PI UU affiliated?]
-
-    UPPMAX --> is_sensitive
-    is_sensitive --> |yes|Bianca
-    is_sensitive --> |no|is_long
-    is_local --> |no|Dardel
-    is_local --> |yes|Pelle
-    Bianca --> |near future| Maja
-```
 
 All UPPMAX clusters follow the same [file system](uppmax_filesystem.md),
 with special folders.
@@ -240,20 +203,20 @@ accident is required by law.
 
 ## UPPMAX clusters technical summary
 
-This is a technical summary of the UPPMAX clusters:
+This is a technical summary of the current UPPMAX clusters:
 
-.                       |Rackham        |Snowy                     |Bianca
-------------------------|---------------|--------------------------|-------------------------
-**Purpose**             |General-purpose|General-purpose           |Sensitive
-**# Intel CPU Nodes**   |486+144        |228                       |288
-**# GPU Nodes**         |-              |50, Nvidia T4             |10, 2x Nvidia A100 each
-**Cores per node**      |20/16          |16                        |16/64
-**Memory per node**     |128 GB         |128 GB                    |128 GB
-**Fat nodes**           |256 GB & 1 TB  |256, 512 GB & 4 TB        |256 & 512 GB
-**Local disk (scratch)**|2/3 TB         |4 TB                      |4 TB
-**Login nodes**         |Yes            |No (reached from Rackham) |Yes (2 cores and 15 GB)
-**"Home" storage**      |Domus          |Domus                     |Castor/Cygnus
-**"Project" Storage**   |Crex, Lutra    |Crex, Lutra               |Castor/Cygnus
+.                       |Bianca
+------------------------|---------------
+**Purpose**             |Sensitive
+**# Intel CPU Nodes**   |288
+**# GPU Nodes**         |10, 2x Nvidia A100 each
+**Cores per node**      |16/64
+**Memory per node**     |128 GB
+**Fat nodes**           |256 & 512 GB
+**Local disk (scratch)**|4 TB
+**Login nodes**         |Yes (2 cores and 15 GB)
+**"Home" storage**      |Castor/Cygnus
+**"Project" Storage**   |Castor/Cygnus
 
 ## Detailed overview of the UPPMAX systems
 
@@ -278,7 +241,7 @@ This is a technical summary of the UPPMAX clusters:
         private -- sbatch --> calcB
         end
 
-        subgraph "Rackham"
+        subgraph "Pelle"
         Node1[Login] -- interactive --> Node2[calculation nodes]
         Node1 -- sbatch --> Node2
         end
