@@ -7,8 +7,8 @@ tags:
 
 # Rackham fingerprints
 
-Below are the valid fingerprints on Rackham. If you see these, you
-can assume you are actually connecting to Rackham.
+Below are the valid fingerprints on Rackham. If you saw these, you
+could assume you were actually connected to Rackham.
 
 ```text
 2048 SHA256:hkhuV+0mUDL7N4Jpr8/OWInrORSAL5ZRpvAqfjyg7Jg rackham (RSA)

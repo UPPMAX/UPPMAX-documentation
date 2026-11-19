@@ -1,6 +1,8 @@
 # Rackham hardware
 
-Decommissioned Fri 30 January 2026
+Rackham was decommissioned on Friday 30th January of 2026.
+
+This was its hardware:
 
 Nodes    | CPUs    |  Cores |  Memory     | Scratch    | GPUs | Name | Comment
 --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |---------------

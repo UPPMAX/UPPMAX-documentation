@@ -1,5 +1,7 @@
 # Rackham4 and Rocky9
 
+Rackham has been decomissioned.
+
 !!! info
 
     - UPPMAX are phasing out the old operating system **CentOS**, that has been installed on all UPPMAX clusters.

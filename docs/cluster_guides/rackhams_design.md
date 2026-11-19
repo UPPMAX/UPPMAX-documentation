@@ -1,6 +1,7 @@
 # Rackham's design
 
-[Rackham](rackham.md) is an (general-purpose) high-performance computing (HPC) cluster.
+[Rackham](rackham.md) was a general-purpose high-performance
+computing (HPC) cluster.
 
 ???- question "What is an HPC cluster?"
 
