@@ -89,4 +89,4 @@ VSCodium will give an error?
 
 ???- info "How does the VSCodium error look on Pelle?"
 
-    ![VSCodium on Pelle fails](./img/vscodium_on_pelle_error.png)
+    ![VSCodium on Pelle fails](./img/vscodium_on_rackham_error.png)
