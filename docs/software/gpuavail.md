@@ -1,14 +1,15 @@
 # `gpuavail`
 
-`gpuavail` is a tool to see GPU availability on the UPPMAX HPC cluster.
+`gpuavail` is a tool to see GPU availability on Pelle.
+It is not available on Bianca.
 
-On a UPPMAX HPC cluster, on a terminal, run:
+On Pelle, on a terminal, run:
 
 ```bash
 gpuavail
 ```
 
-It's output would look somewhat like this:
+Its output will look similar to this:
 
 ```bash
         GPU Availability
