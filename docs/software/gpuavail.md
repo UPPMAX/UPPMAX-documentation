@@ -1,3 +1,11 @@
+---
+tags:
+  - GPU
+  - status
+  - available
+  - gpuavail 
+---
+
 # `gpuavail`
 
 `gpuavail` is a tool to see GPU availability on Pelle.
