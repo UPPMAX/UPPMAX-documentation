@@ -4,6 +4,7 @@ tags:
   - status
   - available
   - gpuavail 
+  - Pelle
 ---
 
 # `gpuavail`
