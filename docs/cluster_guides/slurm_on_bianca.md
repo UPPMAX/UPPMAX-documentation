@@ -21,7 +21,7 @@ how to fix Slurm errors.
 
 ## `sbatch` (and `interactive`) on Bianca
 
-`sbatch` (and `interactive`) work the same as on [Rackham](rackham.md).
+`sbatch` (and `interactive`) work the same as on [Pelle](pelle.md).
 
 ???- question "Want to start an interactive session?"
 
@@ -115,5 +115,30 @@ echo "Hello"
 
 Again, what is shown here is a minimal use of `sbatch`.
 See the [general page on Slurm](slurm.md).
+
+## Bianca's Quality of Service flags
+
+Quality of Service flags helps to make HPC clusters be nicer to work with.
+For example, if you state your job is short, it may get higher priority.
+The most important example is when to start an interactive job:
+
+```bash
+interactive -A [your_bianca_project] --qos=interact
+```
+
+where `[your_bianca_project]` is your Bianca project, for example:
+
+```
+interactive -A sens123456 --qos=interact
+```
+
+With the `--qos=interact` you are allowed to book a 12 hour session
+and you will get it a higher priority.
+
+`qos` option |Scheduling policy
+-------------|------------------
+`short`      |Maximum 15 minutes
+`normal`     |Maximum 1 hour
+`interactive`|Maximum 12 hours
 
 ## [More about slurm on Bianca](slurm_on_bianca_details.md)
