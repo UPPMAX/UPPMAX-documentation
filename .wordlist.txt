@@ -1,3 +1,4 @@
+gpuavail
 calc
 subsidization
 ar
