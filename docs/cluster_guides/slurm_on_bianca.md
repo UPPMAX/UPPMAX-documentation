@@ -135,10 +135,10 @@ interactive -A sens123456 --qos=interact
 With the `--qos=interact` you are allowed to book a 12 hour session
 and you will get it a higher priority.
 
-`qos` option |Scheduling policy
--------------|------------------
-`short`      |Maximum 15 minutes
-`normal`     |Maximum 1 hour
-`interactive`|Maximum 12 hours
+`qos` option |Scheduling policy |CPU or GPU?
+-------------|------------------|----------
+`short`      |Maximum 15 minutes|Any
+`normal`     |Maximum 1 hour    |Any
+`interactive`|Maximum 12 hours  |CPU only (GPU will be ignored)
 
 ## [More about slurm on Bianca](slurm_on_bianca_details.md)
