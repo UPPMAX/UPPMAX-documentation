@@ -24,7 +24,7 @@ No feedback.
 
 No feedback.
 
-## 2026-09-16
+## 2026-06-28
 
 Our first feedback:
 
@@ -34,3 +34,10 @@ Our first feedback:
 > All my classmates said it a pain to use UPPMAX when it comes to the queue.
 > I would like to know if you have any plan on this problem?
 
+## 2026-10-13
+
+> Hej, I just signed up to the Bianca course, but got a confirmation by
+> email that I signed up to the Intro to R, Matlab etc course instead.
+> Was it my mistake or should I ignore the confirmation e-mail?
+
+We hope this person got helped later.
