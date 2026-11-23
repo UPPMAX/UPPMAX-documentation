@@ -1,6 +1,5 @@
 ---
 template: calc.html
-extensions: [md_in_html]
 ---
 
 # Price calculations
