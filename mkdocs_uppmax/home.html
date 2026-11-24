@@ -1,5 +1,29 @@
 {% extends "main.html" %}
 
+{% block styles %}
+	{{ super() }}
+<style>
+	h1 {
+		margin-top: 20px;
+	}
+
+	h2 {
+		margin-top: 45px;
+	}
+
+	.md-content {
+		text-align: center;
+	}
+
+	.uu-logo {
+		display: block; /* m-m-m-magic (-ly centered) */
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+	}
+</style>
+{% endblock %}
+
 {% block content %}
       {{ page.content }}
 {% endblock %}
