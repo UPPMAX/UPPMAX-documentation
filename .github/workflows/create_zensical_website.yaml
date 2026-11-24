@@ -1,4 +1,10 @@
-# Adapted from https://zensical.org/docs/publish-your-site/#with-github-actions
+# Builds and deploys the website
+#
+# This script will fail when triggered from a Pull Request
+# (else the website would be deployed from a PR).
+#
+# The script 'build_zensical_website.yaml', however,
+# only builds the website.
 name: Create Zensical website
 
 on:
@@ -7,11 +13,7 @@ on:
       - .github/workflows/create_zensical_website.yaml
       - 'docs/**'
       - zensical.toml
-  pull_request:
-    paths:
-      - .github/workflows/create_zensical_website.yaml
-      - 'docs/**'
-      - zensical.toml
+  # Does not trigger by a Pull Request: build_zensical_website.yaml does that
 
 permissions:
   contents: read
