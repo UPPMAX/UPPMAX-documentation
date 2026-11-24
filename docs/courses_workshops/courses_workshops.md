@@ -26,6 +26,10 @@ UPPMAX is part of NAISS that give general courses for the Swedish academic HPC c
 
 [Bianca In-Depth Workshop/Hackathon: Improve Your Handling of Sensitive Research Data  <br> _November 20 2026_](bianca_intermediate.md){ .md-button .md-button--primary }
 
+### January 2027
+
+[Introduction to Linux and UPPMAX <br> January 20-22 2027](uppmax_intro_course.md){ .md-button .md-button--primary }
+
 ### May 2027
 
 [Programming Formalisms <br> May 10-14 2027](programming_formalisms.md){ .md-button .md-button--primary }
