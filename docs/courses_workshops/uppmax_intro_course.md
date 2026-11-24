@@ -22,7 +22,7 @@ and may be attended by non-UPPMAX users as well.
 It is possible to sign up only for the lectures that are interesting to you.
 
 - When: January 20-22, 2027
-- Where: Ångström Laboratory (Polacksbacken) and online via Zoom (the link will be shared with registered participants before the course)
+- Where: Ångström Laboratory (Polacksbacken) and online via Zoom (further details will be shared with registered participants before the course)
 - [Registration form](https://forms.gle/S3E2DBgdp2AZDj1C8)
 
 ### Schedule
