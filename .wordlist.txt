@@ -2,6 +2,8 @@ gpuavail
 calc
 subsidization
 gpuavail
+Polacksbacken
+Ångström
 ar
 Gert
 Svensson
