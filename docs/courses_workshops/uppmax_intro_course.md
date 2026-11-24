@@ -23,7 +23,7 @@ It is possible to sign up only for the lectures that are interesting to you.
 
 - When: January 20-22, 2027
 - Where: Ångström lab (Polacksbacken) and online via Zoom (the link will be shared with registered participants before the course)
-- [Registration form]([https://forms.gle/dHN1ojjLaeBFySau9](https://forms.gle/bDk3RoDW8zi4whMz5))
+- [Registration form](https://forms.gle/S3E2DBgdp2AZDj1C8)
 
 ### Schedule
 
