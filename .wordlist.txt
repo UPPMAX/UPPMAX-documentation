@@ -1,6 +1,7 @@
 gpuavail
 calc
 subsidization
+gpuavail
 ar
 Gert
 Svensson
