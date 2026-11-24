@@ -128,7 +128,7 @@ interactive -A [your_bianca_project] --qos=interact
 
 where `[your_bianca_project]` is your Bianca project, for example:
 
-```
+```bash
 interactive -A sens123456 --qos=interact
 ```
 
