@@ -21,3 +21,7 @@ Available databases:
 
 In order for you to access **Swegen** or **1000-genomes** request membership
 in the "KGP" group (via `support@uppmax.uu.se`).
+
+## Transfers to NCBI or ENA
+
+Data uploaded to the Nucleotide Archive (ENA) is reflected to NCBI, vice versa. We recommend uploading data to ENA from UPPMAX. Please follow this [guide](https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html).
