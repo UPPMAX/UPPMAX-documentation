@@ -79,10 +79,8 @@ Follow the
 
     - Don't reuse your password anywhere else.
     - Check your password against published lists of known passwords (e.g. this one). If it's there, use a new password.
-    - Avoid logging in from untrusted networks. Example: Never log in to Bianca from a Pelle session. Instead use your own computer or the workflow given [here](https://docs.uppmax.uu.se/getting_started/login_bianca/#your-academic-institute-does-not-provide-vpn).
+    - Avoid logging in from untrusted networks. Example: Never log in to Bianca from a Pelle session. Instead use your own computer or the workflow given at [Your academic institute does not provide VPN](https://docs.uppmax.uu.se/getting_started/login_bianca/#your-academic-institute-does-not-provide-vpn).
     - More tips given by [NSC](https://www.nsc.liu.se/support/security/).
-
-    
 
 ## Step 7: Use UPPMAX
 
