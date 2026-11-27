@@ -10,77 +10,20 @@ tags:
 
 To use an UPPMAX cluster, one [needs to apply to a project](project_apply.md).
 
-This page describes how to apply to a Bianca/Sens project.
-
-## Pre-preparations, read this first
-
-- [Applying for NAISS SENS project](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/Applying-for-NAISS-SENS-project)
+This page describes how to apply to a Bianca project. Note that it is no longer possible to apply for Bianca through NAISS.
 
 ## Procedure for project application
 
-### 1. Go to [https://supr.naiss.se/](https://supr.naiss.se/)
+### 1. Go to [UPPMAX Local SENS](https://supr.naiss.se/round/uppmaxlocalsens) round in SUPR
 
-???- question "What does that look like?"
+### 2. Click 'Create New Proposal for UPPMAX Local SENS'
 
-    ![Example SUPR NAISS main page](./img/supr_naiss_start_click_rounds.png)
-
-    > Example SUPR NAISS main page
-
-### 2. Click on 'Rounds'
-
-On the main page, click on 'Rounds'
-
-???- question "What does that look like?"
-
-    ![On the main page, click on 'Rounds'](./img/supr_naiss_start_click_rounds.png)
-
-    > On the main page, click on 'Rounds'
-
-### 3. Click on 'NAISS rounds'
-
-In the 'Rounds' menu, click on 'NAISS rounds'
-
-???- question "What does that look like?"
-
-    ![In the 'Rounds' menu, click on 'NAISS rounds'](./img/rounds_2026.png)
-
-    > In the 'Rounds' menu, click on 'NAISS rounds'
-
-### 4. Click 'Go to NAISS Small/Medium' for the current year
-
-In the 'NAISS Rounds' screen, click 'Go to NAISS Small' or 'Go to NAISS Medium" for the current year, depending on the Size of the project.
-
-- Small: Up to 5,000 core-h/month, and 10 TiB (backup) and 14 TiB (non-backup)
-    - Check details and who is eligible to apply at the [NAISS allocation page for small projects](https://supr.naiss.se/round/2026small/)
-- Medium: Up to 100,000 core-h/month, and 100 TiB (backup) and 50 TiB (non-backup)
-    - Check details and who is eligible to apply at the [NAISS allocation page for medium projects](https://supr.naiss.se/round/2026medium/)
-
-???- question "What does that look like?"
-
-    ![In the 'NAISS Rounds' screen, click 'Create New Proposal for NAISS Small/Medium' for the current year](./img/NAISS_rounds_2026.png)
-
-    > In the 'NAISS Rounds' screen, scroll down and click 'Create New Proposal for NAISS Small/Medium Small' for the current year.
-
-### 5. Click 'Create New Proposal for NAISS Small/Medium 2026'
-
-In the 'Open for Proposals' screen you can view which resources are available (and also click for details) but to create a new proposal click 'Create New Proposal for NAISS Small/Medium 2026'.
-
-???- question "Example for small project"
-
-    ![Create New Proposal for NAISS Small/Medium 2026](./img/NAISS_small_example2026.png)
-
-    > Create New Proposal for NAISS Small/Medium 2026
+In the 'Open for Proposals' screen you can view which resources are available (and also click for details) but to create a new proposal click 'Create New Proposal for UPPMAX Local SENS'.
 
 
-### 6. Add a project title and click 'Create new proposal'
+### 3. Add a project title and click 'Create new proposal'
 
-In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'
-
-???- question "What does that look like?"
-
-    ![In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'](./img/Create_new_proposal_2026.png)
-
-    > In the 'Create New Proposal for NAISS Small 2026', add a project title and click 'Create new proposal'
+In the 'Create New Proposal for UPPMAX Local SENS', add a project title and click 'Create new proposal'
 
 This leads you to the next page, the proposal details.
 
@@ -88,9 +31,7 @@ This leads you to the next page, the proposal details.
 
     ![project_details_p1_2026](./img/project_details_p1_2026.png)
 
-    > A NAISS project
-
-So far it is an ordinary NAISS project, no resource coupled to sensitive projects is yet chosen.
+    > A  project
 
 <!-- markdownlint-disable MD029 --> <!--ordered-list-prefix Ordered list item prefix-->
 
@@ -107,45 +48,18 @@ So far it is an ordinary NAISS project, no resource coupled to sensitive project
     3. Add co-investigators (if any).
     4. If someone other than the PI needs control over the project, assign a co-investigator the role of proxy.
 
-### 7. Scroll down and add the resource 'Bianca'
+### 4. Edit resources
 
-In your NAISS project, scroll down to 'Resources' and add Bianca.
+Under the 'Resources' section, adjust the resources from the default.
 
-???- question "What does that look like?"
+Set the number of thousands of core hours/months for Bianca according to the maximum amount of core-hours you expect to use in a month.
 
-    ![choose_resources_bianca_2026](./img/choose_resources_bianca_2026.png)
-    
-    > In your UPPMAX local compute project, scroll down to 'Resources' and add Bianca
-
-Click on 'Add resource to proposal' to add **Bianca** as a resource.
-
-
-### 8. Edit compute resources
-
-In the 'Add resource Bianca' menu, set the number of thousands of core hours/month and click 'Add resource'.
-
-???- question "What does that look like?"
-
-    ![In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'](./img/add_resource_bianca_2026.png)
-
-    > In the 'Add resource Bianca' menu, set the number of core hours and click 'Add resource'
-
-### 9. Click on 'Storage Choice'
-
-In the 'Add resource Bianca' menu, click 'Storage choice'.
-
-You can see the default numbers for the backup and non-backup partitions of the storage.
-
-You can now choose between
-
-- request default storage
-- request more than default storage
-- done with storage stage
+Set the Requested Capacity backed up storage (Cygnus /proj) and no-backup storage (Cygnus /proj/nobackup). Note that the file transfer area (or Wharf) is located on no-backup storage.
 
 !!! tip
 
     - Add the Cygnus /proj resource and set the Requested Capacity to your amount of raw data. You may ignore the other fields.
-    - Add the Cygnus /proj/nobackup resource and set the Requested Capacity to your estimated total minus your raw data. You may ignore the other fields.
+    - Add the Cygnus /proj/nobackup resource and set the Requested Capacity to your estimated total minus your raw data. Include space for import and export of data through the Wharf. You may ignore the other fields.
 
 ???- question "What does that look like (Request more example)?"
 
@@ -169,7 +83,7 @@ Request needed storage in terms of GiB and number of files for Non-backup
 
     > In the 'Add resource Cygnus /proj/nobackup' menu, set the number of  GiB and number of files and click 'Add resource'
 
-### 10. Want to change your numbers?
+### 5. Want to change your numbers?
 
 You can go back and change your choices. In your NAISS project, scroll down to 'Resources' section to revisit the resources.
 
@@ -187,7 +101,7 @@ Click Bianca or the Storage choice
 
     > Edit
     
-### 11. Submit your proposal
+### 6. Submit your proposal
 
 Press the "Submit the Proposal" button on the bottom of the page.
 
@@ -197,8 +111,6 @@ Press the "Submit the Proposal" button on the bottom of the page.
 
     > Submit
 
-### 13. Done
+### 7. Done
 
-Now, Bianca is added to your proposal. Well done!
-
-## [Proposal evaluation procedure](https://www.uu.se/en/centre/uppmax/get-started/apply-for-project-and-create-user-account/applying-for-naiss-sens-project/proposal-evaluation-bianca)
+Now, you have submitted a proposal for Bianca. Well done!
